@@ -29,7 +29,7 @@ def get_redirect(uri):
 
 
 def get_result(query, timeout=None):
-	sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+	sparql = SPARQLWrapper('https://query.wikidata.org/sparql')
 	if timeout:
 		sparql.setTimeout(timeout)
 	sparql.setQuery(query)
