@@ -6,7 +6,11 @@ GET_GENDER = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-SELECT ?label {wd:%s wdt:P21 ?label}"""
+SELECT ?valueLabel WHERE
+{
+wd:%s wdt:P21 ?value
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}"""
 
 
 def get_gender(uri: str):
