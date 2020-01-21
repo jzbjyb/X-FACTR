@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Dict
 import torch
 from transformers import *
 import json
@@ -6,20 +6,41 @@ import numpy as np
 import os
 from tqdm import tqdm
 import argparse
+import logging
+from collections import defaultdict
+import pandas
+
+logger = logging.getLogger('mLAMA')
+logger.setLevel(logging.ERROR)
 
 NUM_MASK = 5
 BATCH_SIZE = 8
 MASK_LABEL = '[MASK]'
 PREFIX_DATA = '../LAMA/'
-VOCAB_PATH = 'pre-trained_language_models/common_vocab_cased_mbert.txt'
+VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased_mbert.txt'
+RELATION_PATH = PREFIX_DATA + 'data/relations.jsonl'
+ENTITY_PATH = PREFIX_DATA + 'data/TREx/{}.jsonl'
+PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
+ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
 LM_NAME = {
     'mbert_base': 'bert-base-multilingual-cased',
     'bert_base': 'bert-base-cased'
 }
 
-def batcher(data: List, batch_size):
+def batcher(data: List, batch_size: int):
     for i in range(0, len(data), batch_size):
         yield data[i:i + batch_size]
+
+def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:
+    entity2lang = defaultdict(lambda: {})
+    with open(filename, 'r') as fin:
+        for l in fin:
+            l = l.strip().split('\t')
+            entity = l[0]
+            for lang in l[1:]:
+                label ,lang = lang.rsplit('@', 1)
+                entity2lang[entity][lang] = label.strip('"')
+    return entity2lang
 
 parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
 parser.add_argument('--model', type=str, help='LM to probe file',
@@ -32,8 +53,10 @@ lang = args.lang
 
 # load relations and templates
 patterns = []
-with open(PREFIX_DATA + 'data/relations.jsonl') as fin:
+with open(RELATION_PATH) as fin:
     patterns.extend([json.loads(l) for l in fin])
+entity2lang = load_entity_lang(ENTITY_LANG_PATH)
+prompt_lang = pandas.read_csv(PROMPT_LANG_PATH)
 
 # load model
 print('load model')
@@ -44,22 +67,32 @@ model.to('cuda')
 model.eval()
 
 # load vocab
-with open(PREFIX_DATA + VOCAB_PATH) as fin:
+with open(VOCAB_PATH) as fin:
     allowed_vocab = [l.strip() for l in fin]
     allowed_vocab = set(allowed_vocab)
-restrict_vocab = [tokenizer.vocab[w] for w in tokenizer.vocab if not w in allowed_vocab]
+#restrict_vocab = [tokenizer.vocab[w] for w in tokenizer.vocab if not w in allowed_vocab]
+# TODO: add a shared vocab for all LMs?
+restrict_vocab = []
 
 all_queries = []
 for pattern in patterns:
     relation = pattern['relation']
-    template = pattern['template']
+    prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
 
-    f = PREFIX_DATA + 'data/TREx/{}.jsonl'.format(relation)
+    f = ENTITY_PATH.format(relation)
     if not os.path.exists(f):
         continue
 
+    queries: List[Dict] = []
     with open(f) as fin:
-        queries = [json.loads(l) for l in fin]
+        for l in fin:
+            l = json.loads(l)
+            if lang not in entity2lang[l['sub_uri']] or lang not in entity2lang[l['obj_uri']]:
+                # TODO: support entities without translations
+                continue
+            l['sub_label'] = entity2lang[l['sub_uri']][lang]
+            l['obj_label'] = entity2lang[l['obj_uri']][lang]
+            queries.append(l)
 
     acc, len_acc = [], []
     for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=False):
@@ -67,8 +100,11 @@ for pattern in patterns:
         inp_tensor: List[torch.Tensor] = []
         batch_size = len(query_li)
         for query in query_li:
-            obj_li.append(np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1))
-            instance_x: str = template.replace('[X]', query['sub_label'])
+            obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1)
+            if len(obj) > NUM_MASK:
+                logger.warning('{} is splitted into {} tokens'.format(query['obj_label'], len(obj)))
+            obj_li.append(obj)
+            instance_x: str = prompt.replace('[X]', query['sub_label'])
             for nm in range(NUM_MASK):
                 inp: str = instance_x.replace('[Y]', ' '.join(['[MASK]'] * (nm + 1)))
                 inp: List[int] = tokenizer.encode(inp)
@@ -96,5 +132,11 @@ for pattern in patterns:
                 .detach().cpu().numpy().reshape(-1)
             acc.append(int((len(pred) == len(obj)) and (pred == obj).all()))
             len_acc.append(int((len(pred) == len(obj))))
+            '''
+            if len(pred) == len(obj):
+                print(tokenizer.convert_ids_to_tokens(pred))
+                print(tokenizer.convert_ids_to_tokens(obj))
+                input()
+            '''
 
-    print('pid {} acc {} len_acc {}\n'.format(relation, np.mean(acc), np.mean(len_acc)))
+    print('pid {}\t#fact {}\tacc {}\tlen_acc {}\n'.format(relation, len(queries), np.mean(acc), np.mean(len_acc)))
