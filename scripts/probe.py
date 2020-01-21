@@ -24,7 +24,8 @@ PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
 ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
 LM_NAME = {
     'mbert_base': 'bert-base-multilingual-cased',
-    'bert_base': 'bert-base-cased'
+    'bert_base': 'bert-base-cased',
+    'zh_bert_base': 'bert-base-chinese'
 }
 
 def batcher(data: List, batch_size: int):
@@ -44,9 +45,9 @@ def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:
 
 parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
 parser.add_argument('--model', type=str, help='LM to probe file',
-                    choices=['mbert_base', 'bert_base'], default='mbert_base')
+                    choices=['mbert_base', 'bert_base', 'zh_bert_base'], default='mbert_base')
 parser.add_argument('--lang', type=str, help='language to probe',
-                    choices=['en', 'zh'], default='en')
+                    choices=['en', 'zh-cn'], default='en')
 args = parser.parse_args()
 lm = LM_NAME[args.model]
 lang = args.lang
@@ -78,6 +79,11 @@ all_queries = []
 for pattern in patterns:
     relation = pattern['relation']
     prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
+
+    '''
+    if relation != 'P413':
+        continue
+    '''
 
     f = ENTITY_PATH.format(relation)
     if not os.path.exists(f):
@@ -134,8 +140,8 @@ for pattern in patterns:
             len_acc.append(int((len(pred) == len(obj))))
             '''
             if len(pred) == len(obj):
-                print(tokenizer.convert_ids_to_tokens(pred))
-                print(tokenizer.convert_ids_to_tokens(obj))
+                print('pred {}\tgold {}'.format(
+                    tokenizer.convert_ids_to_tokens(pred), tokenizer.convert_ids_to_tokens(obj)))
                 input()
             '''
 
