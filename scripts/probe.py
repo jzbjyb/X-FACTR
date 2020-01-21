@@ -17,7 +17,7 @@ NUM_MASK = 5
 BATCH_SIZE = 8
 MASK_LABEL = '[MASK]'
 PREFIX_DATA = '../LAMA/'
-VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased_mbert.txt'
+VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
 RELATION_PATH = PREFIX_DATA + 'data/relations.jsonl'
 ENTITY_PATH = PREFIX_DATA + 'data/TREx/{}.jsonl'
 PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
@@ -68,10 +68,12 @@ model.to('cuda')
 model.eval()
 
 # load vocab
+'''
 with open(VOCAB_PATH) as fin:
     allowed_vocab = [l.strip() for l in fin]
     allowed_vocab = set(allowed_vocab)
-#restrict_vocab = [tokenizer.vocab[w] for w in tokenizer.vocab if not w in allowed_vocab]
+restrict_vocab = [tokenizer.vocab[w] for w in tokenizer.vocab if not w in allowed_vocab]
+'''
 # TODO: add a shared vocab for all LMs?
 restrict_vocab = []
 
