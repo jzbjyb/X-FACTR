@@ -14,7 +14,7 @@ logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
 
 NUM_MASK = 5
-BATCH_SIZE = 8
+BATCH_SIZE = 4
 MASK_LABEL = '[MASK]'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
@@ -48,6 +48,10 @@ parser.add_argument('--model', type=str, help='LM to probe file',
                     choices=['mbert_base', 'bert_base', 'zh_bert_base'], default='mbert_base')
 parser.add_argument('--lang', type=str, help='language to probe',
                     choices=['en', 'zh-cn'], default='en')
+parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='all',
+                    help='which portion of facts to use')
+parser.add_argument('--sub_obj_same_lang', action='store_true',
+                    help='use the same language for sub and obj')
 args = parser.parse_args()
 lm = LM_NAME[args.model]
 lang = args.lang
@@ -92,14 +96,26 @@ for pattern in patterns:
         continue
 
     queries: List[Dict] = []
+    num_skip = 0
     with open(f) as fin:
         for l in fin:
             l = json.loads(l)
-            if lang not in entity2lang[l['sub_uri']] or lang not in entity2lang[l['obj_uri']]:
-                # TODO: support entities without translations
+            sub_exist = lang in entity2lang[l['sub_uri']]
+            obj_exist = lang in entity2lang[l['obj_uri']]
+            exist = sub_exist and obj_exist
+            if args.portion == 'trans' and not exist:
+                num_skip += 1
                 continue
-            l['sub_label'] = entity2lang[l['sub_uri']][lang]
-            l['obj_label'] = entity2lang[l['obj_uri']][lang]
+            elif args.portion == 'non' and exist:
+                num_skip += 1
+                continue
+            # resort to English label
+            if args.sub_obj_same_lang:
+                l['sub_label'] = entity2lang[l['sub_uri']][lang if exist else 'en']
+                l['obj_label'] = entity2lang[l['obj_uri']][lang if exist else 'en']
+            else:
+                l['sub_label'] = entity2lang[l['sub_uri']][lang if sub_exist else 'en']
+                l['obj_label'] = entity2lang[l['obj_uri']][lang if obj_exist else 'en']
             queries.append(l)
 
     acc, len_acc = [], []
@@ -147,4 +163,5 @@ for pattern in patterns:
                 input()
             '''
 
-    print('pid {}\t#fact {}\tacc {}\tlen_acc {}\n'.format(relation, len(queries), np.mean(acc), np.mean(len_acc)))
+    print('pid {}\t#fact {}\t#skip {}\tacc {}\tlen_acc {}'.format(
+        relation, len(queries), num_skip, np.mean(acc), np.mean(len_acc)))
