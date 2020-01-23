@@ -16,6 +16,7 @@ logger.setLevel(logging.ERROR)
 NUM_MASK = 5
 BATCH_SIZE = 4
 MASK_LABEL = '[MASK]'
+UNK_LABEL = '[UNK]'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
 RELATION_PATH = PREFIX_DATA + 'data/relations.jsonl'
@@ -67,6 +68,7 @@ prompt_lang = pandas.read_csv(PROMPT_LANG_PATH)
 print('load model')
 tokenizer = BertTokenizer.from_pretrained(lm)
 MASK = tokenizer.convert_tokens_to_ids(MASK_LABEL)
+UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
 model = BertForMaskedLM.from_pretrained(lm)
 model.to('cuda')
 model.eval()
@@ -97,6 +99,7 @@ for pattern in patterns:
 
     queries: List[Dict] = []
     num_skip = 0
+    not_exist = 0
     with open(f) as fin:
         for l in fin:
             l = json.loads(l)
@@ -116,6 +119,10 @@ for pattern in patterns:
             else:
                 l['sub_label'] = entity2lang[l['sub_uri']][lang if sub_exist else 'en']
                 l['obj_label'] = entity2lang[l['obj_uri']][lang if obj_exist else 'en']
+            if UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])) or \
+                    UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])):
+                not_exist += 1
+                continue
             queries.append(l)
 
     acc, len_acc = [], []
@@ -132,6 +139,7 @@ for pattern in patterns:
             for nm in range(NUM_MASK):
                 inp: str = instance_x.replace('[Y]', ' '.join(['[MASK]'] * (nm + 1)))
                 inp: List[int] = tokenizer.encode(inp)
+                #print(tokenizer.convert_ids_to_tokens(inp), tokenizer.convert_ids_to_tokens(obj))
                 inp_tensor.append(torch.tensor(inp))
 
         # SHAPE: (batch_size * num_mask, seq_len)
@@ -163,5 +171,5 @@ for pattern in patterns:
                 input()
             '''
 
-    print('pid {}\t#fact {}\t#skip {}\tacc {}\tlen_acc {}'.format(
-        relation, len(queries), num_skip, np.mean(acc), np.mean(len_acc)))
+    print('pid {}\t#fact {}\t#skip {}\t#notexist {}\tacc {}\tlen_acc {}'.format(
+        relation, len(queries), num_skip, not_exist, np.mean(acc), np.mean(len_acc)))
