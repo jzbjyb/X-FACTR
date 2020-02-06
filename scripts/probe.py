@@ -64,6 +64,7 @@ parser.add_argument('--skip_multi_word', action='store_true',
                     help='skip objects with multiple words (not sub-words)')
 parser.add_argument('--disable_inflection', action='store_true')
 parser.add_argument('--disable_article', action='store_true')
+parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
 args = parser.parse_args()
 lm = LM_NAME[args.model]
 lang = args.lang
@@ -98,9 +99,14 @@ restrict_vocab = [tokenizer.vocab[w] for w in tokenizer.vocab if not w in allowe
 # TODO: add a shared vocab for all LMs?
 restrict_vocab = []
 
+if args.log_dir and not os.path.exists(args.log_dir):
+    os.makedirs(args.log_dir)
+
 all_queries = []
 for pattern in patterns:
     relation = pattern['relation']
+    if args.log_dir:
+        log_file = open(os.path.join(args.log_dir, relation + '.txt'), 'w')
     try:
         prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
 
@@ -192,6 +198,11 @@ for pattern in patterns:
                     .detach().cpu().numpy().reshape(-1)
                 acc.append(int((len(pred) == len(obj)) and (pred == obj).all()))
                 len_acc.append(int((len(pred) == len(obj))))
+                if args.log_dir:
+                    log_file.write('{}\t{}\t{}\n'.format(
+                        ' '.join(tokenizer.convert_ids_to_tokens(inp_tensor[i].detach().cpu().numpy())),
+                        ' '.join(tokenizer.convert_ids_to_tokens(pred)),
+                        ' '.join(tokenizer.convert_ids_to_tokens(obj))))
                 '''
                 if len(pred) == len(obj):
                     print('pred {}\tgold {}'.format(
@@ -205,3 +216,6 @@ for pattern in patterns:
         # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
         print('bug for pid {}'.format(relation))
         print(e)
+    finally:
+        if args.log_dir:
+            log_file.close()
