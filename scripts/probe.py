@@ -1,3 +1,7 @@
+import sys
+from os.path import dirname, abspath
+sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
+
 from typing import List, Dict
 import torch
 from transformers import *
@@ -9,6 +13,8 @@ import argparse
 import logging
 from collections import defaultdict
 import pandas
+from prompt import Prompt
+from check_gender import load_entity_gender
 
 logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
@@ -23,6 +29,7 @@ RELATION_PATH = PREFIX_DATA + 'data/relations.jsonl'
 ENTITY_PATH = PREFIX_DATA + 'data/TREx/{}.jsonl'
 PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
 ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
+ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
 LM_NAME = {
     'mbert_base': 'bert-base-multilingual-cased',
     'bert_base': 'bert-base-cased',
@@ -48,7 +55,7 @@ parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
 parser.add_argument('--model', type=str, help='LM to probe file',
                     choices=['mbert_base', 'bert_base', 'zh_bert_base'], default='mbert_base')
 parser.add_argument('--lang', type=str, help='language to probe',
-                    choices=['en', 'zh-cn'], default='en')
+                    choices=['en', 'zh-cn', 'el'], default='en')
 parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='all',
                     help='which portion of facts to use')
 parser.add_argument('--sub_obj_same_lang', action='store_true',
@@ -62,6 +69,7 @@ patterns = []
 with open(RELATION_PATH) as fin:
     patterns.extend([json.loads(l) for l in fin])
 entity2lang = load_entity_lang(ENTITY_LANG_PATH)
+entity2gender = load_entity_gender(ENTITY_GENDER_PATH)
 prompt_lang = pandas.read_csv(PROMPT_LANG_PATH)
 
 # load model
@@ -72,6 +80,9 @@ UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
 model = BertForMaskedLM.from_pretrained(lm)
 model.to('cuda')
 model.eval()
+
+# load promp rendering model
+prompt_model = Prompt.from_lang(lang)
 
 # load vocab
 '''
@@ -112,6 +123,9 @@ for pattern in patterns:
             elif args.portion == 'non' and exist:
                 num_skip += 1
                 continue
+            # load gender
+            l['sub_gender'] = entity2gender[l['sub_uri']]
+            l['obj_gender'] = entity2gender[l['obj_uri']]
             # resort to English label
             if args.sub_obj_same_lang:
                 l['sub_label'] = entity2lang[l['sub_uri']][lang if exist else 'en']
@@ -131,16 +145,21 @@ for pattern in patterns:
         inp_tensor: List[torch.Tensor] = []
         batch_size = len(query_li)
         for query in query_li:
-            obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1)
-            if len(obj) > NUM_MASK:
-                logger.warning('{} is splitted into {} tokens'.format(query['obj_label'], len(obj)))
-            obj_li.append(obj)
-            instance_x: str = prompt.replace('[X]', query['sub_label'])
+            # fill in subject and masks
+            instance_x, _ = prompt_model.fill_x(
+                prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
             for nm in range(NUM_MASK):
-                inp: str = instance_x.replace('[Y]', ' '.join(['[MASK]'] * (nm + 1)))
+                inp, obj_label = prompt_model.fill_y(
+                    instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
+                    num_mask=nm + 1, mask_sym='[MASK]')
                 inp: List[int] = tokenizer.encode(inp)
-                #print(tokenizer.convert_ids_to_tokens(inp), tokenizer.convert_ids_to_tokens(obj))
                 inp_tensor.append(torch.tensor(inp))
+
+            # tokenize gold object
+            obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
+            if len(obj) > NUM_MASK:
+                logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
+            obj_li.append(obj)
 
         # SHAPE: (batch_size * num_mask, seq_len)
         inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()

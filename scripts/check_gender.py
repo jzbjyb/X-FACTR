@@ -1,7 +1,6 @@
 from typing import List, Dict
 import argparse
 from tqdm import tqdm
-from SPARQLWrapper import SPARQLWrapper, JSON
 from entity_lang import get_result
 
 GET_GENDER = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -22,17 +21,35 @@ class Gender:
     FEMALE = 'female'
 
 
-def get_gender(uris: List[str]) -> Dict[str: str]:
+    @staticmethod
+    def parse(text: str):
+        if text.lower() == Gender.MALE:
+            return Gender.MALE
+        if text.lower() == Gender.FEMALE:
+            return Gender.FEMALE
+        return Gender.NONE
+
+
+def get_gender(uris: List[str]) -> Dict[str, str]:
     results = get_result(GET_GENDER % ' '.join(map(lambda x: 'wd:' + x, uris)))
     genders = {}
     for result in results['results']['bindings']:
         uri = result['item']['value'].rsplit('/', 1)[1]
-        gender = Gender.MALE if result['valueLabel']['value'] == 'male' else Gender.FEMALE
+        gender = Gender.parse(result['valueLabel']['value'])
         genders[uri] = gender
     for uri in uris:
         if uri not in genders:
             genders[uri] = Gender.NONE
     return genders
+
+
+def load_entity_gender(filename: str) -> Dict[str, Gender]:
+    result: Dict[str, Gender] = {}
+    with open(filename, 'r') as fin:
+        for l in fin:
+            uri, gender = l.strip().split('\t')
+            result[uri] = Gender.parse(gender)
+    return result
 
 
 if __name__ == '__main__':
