@@ -60,6 +60,10 @@ parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], defa
                     help='which portion of facts to use')
 parser.add_argument('--sub_obj_same_lang', action='store_true',
                     help='use the same language for sub and obj')
+parser.add_argument('--skip_multi_word', action='store_true',
+                    help='skip objects with multiple words (not sub-words)')
+parser.add_argument('--disable_inflection', action='store_true')
+parser.add_argument('--disable_article', action='store_true')
 args = parser.parse_args()
 lm = LM_NAME[args.model]
 lang = args.lang
@@ -82,7 +86,7 @@ model.to('cuda')
 model.eval()
 
 # load promp rendering model
-prompt_model = Prompt.from_lang(lang)
+prompt_model = Prompt.from_lang(lang, args.disable_inflection, args.disable_article)
 
 # load vocab
 '''
@@ -97,98 +101,107 @@ restrict_vocab = []
 all_queries = []
 for pattern in patterns:
     relation = pattern['relation']
-    prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
+    try:
+        prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
 
-    '''
-    if relation != 'P413':
-        continue
-    '''
+        '''
+        if relation != 'P413':
+            continue
+        '''
 
-    f = ENTITY_PATH.format(relation)
-    if not os.path.exists(f):
-        continue
+        f = ENTITY_PATH.format(relation)
+        if not os.path.exists(f):
+            continue
 
-    queries: List[Dict] = []
-    num_skip = 0
-    not_exist = 0
-    with open(f) as fin:
-        for l in fin:
-            l = json.loads(l)
-            sub_exist = lang in entity2lang[l['sub_uri']]
-            obj_exist = lang in entity2lang[l['obj_uri']]
-            exist = sub_exist and obj_exist
-            if args.portion == 'trans' and not exist:
-                num_skip += 1
-                continue
-            elif args.portion == 'non' and exist:
-                num_skip += 1
-                continue
-            # load gender
-            l['sub_gender'] = entity2gender[l['sub_uri']]
-            l['obj_gender'] = entity2gender[l['obj_uri']]
-            # resort to English label
-            if args.sub_obj_same_lang:
-                l['sub_label'] = entity2lang[l['sub_uri']][lang if exist else 'en']
-                l['obj_label'] = entity2lang[l['obj_uri']][lang if exist else 'en']
-            else:
-                l['sub_label'] = entity2lang[l['sub_uri']][lang if sub_exist else 'en']
-                l['obj_label'] = entity2lang[l['obj_uri']][lang if obj_exist else 'en']
-            if UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])) or \
-                    UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])):
-                not_exist += 1
-                continue
-            queries.append(l)
+        queries: List[Dict] = []
+        num_skip = 0
+        not_exist = 0
+        num_multi_word = 0
+        with open(f) as fin:
+            for l in fin:
+                l = json.loads(l)
+                sub_exist = lang in entity2lang[l['sub_uri']]
+                obj_exist = lang in entity2lang[l['obj_uri']]
+                exist = sub_exist and obj_exist
+                if args.portion == 'trans' and not exist:
+                    num_skip += 1
+                    continue
+                elif args.portion == 'non' and exist:
+                    num_skip += 1
+                    continue
+                # load gender
+                l['sub_gender'] = entity2gender[l['sub_uri']]
+                l['obj_gender'] = entity2gender[l['obj_uri']]
+                # resort to English label
+                if args.sub_obj_same_lang:
+                    l['sub_label'] = entity2lang[l['sub_uri']][lang if exist else 'en']
+                    l['obj_label'] = entity2lang[l['obj_uri']][lang if exist else 'en']
+                else:
+                    l['sub_label'] = entity2lang[l['sub_uri']][lang if sub_exist else 'en']
+                    l['obj_label'] = entity2lang[l['obj_uri']][lang if obj_exist else 'en']
+                if UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])) or \
+                        UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])):
+                    not_exist += 1
+                    continue
+                if args.skip_multi_word and ' ' in l['obj_label']:
+                    num_multi_word += 1
+                    continue
+                queries.append(l)
 
-    acc, len_acc = [], []
-    for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=False):
-        obj_li: List[np.ndarray] = []
-        inp_tensor: List[torch.Tensor] = []
-        batch_size = len(query_li)
-        for query in query_li:
-            # fill in subject and masks
-            instance_x, _ = prompt_model.fill_x(
-                prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
-            for nm in range(NUM_MASK):
-                inp, obj_label = prompt_model.fill_y(
-                    instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
-                    num_mask=nm + 1, mask_sym='[MASK]')
-                inp: List[int] = tokenizer.encode(inp)
-                inp_tensor.append(torch.tensor(inp))
+        acc, len_acc = [], []
+        for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=False):
+            obj_li: List[np.ndarray] = []
+            inp_tensor: List[torch.Tensor] = []
+            batch_size = len(query_li)
+            for query in query_li:
+                # fill in subject and masks
+                instance_x, _ = prompt_model.fill_x(
+                    prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
+                for nm in range(NUM_MASK):
+                    inp, obj_label = prompt_model.fill_y(
+                        instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
+                        num_mask=nm + 1, mask_sym='[MASK]')
+                    inp: List[int] = tokenizer.encode(inp)
+                    inp_tensor.append(torch.tensor(inp))
 
-            # tokenize gold object
-            obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
-            if len(obj) > NUM_MASK:
-                logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
-            obj_li.append(obj)
+                # tokenize gold object
+                obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
+                if len(obj) > NUM_MASK:
+                    logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
+                obj_li.append(obj)
 
-        # SHAPE: (batch_size * num_mask, seq_len)
-        inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()
-        attention_mask: torch.Tensor = inp_tensor.ne(0).long().cuda()
-        # SHAPE: (batch_size, num_mask, seq_len)
-        mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
+            # SHAPE: (batch_size * num_mask, seq_len)
+            inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()
+            attention_mask: torch.Tensor = inp_tensor.ne(0).long().cuda()
+            # SHAPE: (batch_size, num_mask, seq_len)
+            mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
 
-        # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
-        logit = model(inp_tensor, attention_mask=attention_mask)[0]
-        logit[:, :, restrict_vocab] = float('-inf')
-        logprob = logit.log_softmax(-1)
-        # SHAPE: (batch_size * num_mask, seq_len)
-        logprob, rank = logprob.max(-1)
-        # SHAPE: (batch_size, num_mask, seq_len)
-        logprob, rank = logprob.view(batch_size, NUM_MASK, -1), rank.view(batch_size, NUM_MASK, -1)
+            # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
+            logit = model(inp_tensor, attention_mask=attention_mask)[0]
+            logit[:, :, restrict_vocab] = float('-inf')
+            logprob = logit.log_softmax(-1)
+            # SHAPE: (batch_size * num_mask, seq_len)
+            logprob, rank = logprob.max(-1)
+            # SHAPE: (batch_size, num_mask, seq_len)
+            logprob, rank = logprob.view(batch_size, NUM_MASK, -1), rank.view(batch_size, NUM_MASK, -1)
 
-        # find the best setting
-        for i, best_num_mask in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1)).max(1)[1]):
-            obj = obj_li[i]
-            pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
-                .detach().cpu().numpy().reshape(-1)
-            acc.append(int((len(pred) == len(obj)) and (pred == obj).all()))
-            len_acc.append(int((len(pred) == len(obj))))
-            '''
-            if len(pred) == len(obj):
-                print('pred {}\tgold {}'.format(
-                    tokenizer.convert_ids_to_tokens(pred), tokenizer.convert_ids_to_tokens(obj)))
-                input()
-            '''
+            # find the best setting
+            for i, best_num_mask in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1)).max(1)[1]):
+                obj = obj_li[i]
+                pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
+                    .detach().cpu().numpy().reshape(-1)
+                acc.append(int((len(pred) == len(obj)) and (pred == obj).all()))
+                len_acc.append(int((len(pred) == len(obj))))
+                '''
+                if len(pred) == len(obj):
+                    print('pred {}\tgold {}'.format(
+                        tokenizer.convert_ids_to_tokens(pred), tokenizer.convert_ids_to_tokens(obj)))
+                    input()
+                '''
 
-    print('pid {}\t#fact {}\t#skip {}\t#notexist {}\tacc {}\tlen_acc {}'.format(
-        relation, len(queries), num_skip, not_exist, np.mean(acc), np.mean(len_acc)))
+        print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\tacc {}\tlen_acc {}'.format(
+            relation, len(queries), num_skip, not_exist, num_multi_word, np.mean(acc), np.mean(len_acc)))
+    except Exception as e:
+        # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
+        print('bug for pid {}'.format(relation))
+        print(e)

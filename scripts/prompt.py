@@ -2,6 +2,7 @@ from typing import Dict, Tuple
 from collections import defaultdict
 import unicodedata as ud
 import functools
+from overrides import overrides
 from unimorph_inflect import inflect
 from check_gender import Gender, load_entity_gender
 
@@ -26,6 +27,11 @@ def some_roman_chars(unistr):
 
 
 class Prompt(object):
+    def __init__(self, disable_inflection: bool=False, disable_article: bool=False):
+        self.disable_inflection = disable_inflection
+        self.disable_article = disable_article
+
+
     def fill_x(self, prompt: str, uri: str, label: str, gender: Gender=None) -> Tuple[str, str]:
         return prompt.replace('[X]', label), label
 
@@ -38,10 +44,10 @@ class Prompt(object):
 
 
     @staticmethod
-    def from_lang(lang: str):
+    def from_lang(lang: str, *args, **kwargs):
         if lang == 'el':
-            return PromptEL()
-        return Prompt()
+            return PromptEL(*args, **kwargs)
+        return Prompt(*args, **kwargs)
 
 
 class PromptEL(Prompt):
@@ -53,8 +59,8 @@ class PromptEL(Prompt):
     }
 
 
-    def __init__(self):
-        super(PromptEL).__init__()
+    def __init__(self, disable_inflection: bool=False, disable_article: bool=False):
+        super().__init__(disable_inflection=disable_inflection, disable_article=disable_article)
         self.article: Dict[str, str] = {}
         with open('data/lang_resource/el/articles.txt') as inp:
             for l in inp:
@@ -62,6 +68,7 @@ class PromptEL(Prompt):
                 self.article[l[1]] = l[0]
 
 
+    @overrides
     def fill_x(self, prompt: str, uri: str, label: str, gender: Gender=None) -> Tuple[str, str]:
         gender = self.GENDER_MAP[gender]
         ent_number = "SG"
@@ -76,6 +83,9 @@ class PromptEL(Prompt):
             do_not_inflect = True
         else:
             do_not_inflect = False
+
+        if self.disable_inflection:
+            do_not_inflect = True
 
         words = prompt.split(' ')
 
@@ -106,19 +116,30 @@ class PromptEL(Prompt):
             ent_case = "ACC"
 
         # Now also check the correponsing articles, if the exist
+        has_article = False
         if "[DEF;X]" in words:
+            has_article = True
             i = words.index('[DEF;X]')
-            words[i] = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
+            art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
         if "[DEF.Gen;X]" in words:
+            has_article = True
             i = words.index('[DEF.Gen;X]')
-            words[i] = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
+            art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
         if "[PREPDEF;X]" in words:
+            has_article = True
             i = words.index('[PREPDEF;X]')
-            words[i] = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+            art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+
+        if has_article:
+            if self.disable_article:
+                words[i] = ''
+            else:
+                words[i] = art
 
         return ' '.join(words), label
 
 
+    @overrides
     def fill_y(self, prompt: str, uri: str, label: str, gender: Gender=None,
                num_mask: int=1, mask_sym: str='[MASK]') -> Tuple[str, str]:
         gender = self.GENDER_MAP[gender]
@@ -136,6 +157,9 @@ class PromptEL(Prompt):
             do_not_inflect = True
         else:
             do_not_inflect = False
+
+        if self.disable_inflection:
+            do_not_inflect = True
 
         words = prompt.split(' ')
 
@@ -163,19 +187,30 @@ class PromptEL(Prompt):
             words[i] = mask_sym
 
         # Now also check the correponsing articles, if they exist
+        has_article = False
         if "[DEF;Y]" in words:
+            has_article = True
             i = words.index('[DEF;Y]')
-            words[i] = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
+            art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
         if "[DEF.Gen;Y]" in words:
+            has_article = True
             i = words.index('[DEF.Gen;Y]')
-            words[i] = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
+            art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
         if "[PREPDEF;Y]" in words:
+            has_article = True
             i = words.index('[PREPDEF;Y]')
-            words[i] = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+            art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
         if "[INDEF;Y]" in words:
+            has_article = True
             i = words.index('[INDEF;Y]')
             # print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
             # print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
-            words[i] = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"]
+            art = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"]
+
+        if has_article:
+            if self.disable_article:
+                words[i] = ''
+            else:
+                words[i] = art
 
         return ' '.join(words), label
