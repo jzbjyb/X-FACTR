@@ -1,6 +1,8 @@
 # multiligual LAMA
 
-Run `./setup.sh` to prepare the environment.
+## Install
+
+Run `conda create -n mlama37 -y python=3.7 && conda activate mlama37 && ./setup.sh` to prepare the environment.
 
 ## Data
 
