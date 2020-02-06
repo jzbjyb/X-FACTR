@@ -19,8 +19,6 @@ from check_gender import load_entity_gender
 logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
 
-NUM_MASK = 5
-BATCH_SIZE = 4
 MASK_LABEL = '[MASK]'
 UNK_LABEL = '[UNK]'
 PREFIX_DATA = '../LAMA/'
@@ -65,9 +63,13 @@ parser.add_argument('--skip_multi_word', action='store_true',
 parser.add_argument('--disable_inflection', action='store_true')
 parser.add_argument('--disable_article', action='store_true')
 parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
+parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
+parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
 args = parser.parse_args()
 lm = LM_NAME[args.model]
 lang = args.lang
+NUM_MASK = args.num_mask
+BATCH_SIZE = args.batch_size
 
 # load relations and templates
 patterns = []
@@ -192,6 +194,7 @@ for pattern in patterns:
             logprob, rank = logprob.view(batch_size, NUM_MASK, -1), rank.view(batch_size, NUM_MASK, -1)
 
             # find the best setting
+            inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
             for i, best_num_mask in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1)).max(1)[1]):
                 obj = obj_li[i]
                 pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
@@ -200,7 +203,8 @@ for pattern in patterns:
                 len_acc.append(int((len(pred) == len(obj))))
                 if args.log_dir:
                     log_file.write('{}\t{}\t{}\n'.format(
-                        ' '.join(tokenizer.convert_ids_to_tokens(inp_tensor[i].detach().cpu().numpy())),
+                        ' '.join(tokenizer.convert_ids_to_tokens(
+                            inp_tensor[i, best_num_mask].detach().cpu().numpy())).replace('[PAD]', '').strip(),
                         ' '.join(tokenizer.convert_ids_to_tokens(pred)),
                         ' '.join(tokenizer.convert_ids_to_tokens(obj))))
                 '''
