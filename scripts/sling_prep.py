@@ -1,4 +1,4 @@
-from typing import Tuple, Iterable, List, Dict, Any
+from typing import Tuple, Iterable, List, Dict, Any, Set
 import sys
 import os
 import json
@@ -37,9 +37,11 @@ class SlingExtractorForQualifier(SlingExtractor):
         super(SlingExtractorForQualifier).__init__(*args, **kwargs)
 
 
-    def iter_mentions_position(self) -> Iterable[Tuple[str, Dict[str, List[int]]]]:
+    def iter_mentions_position(self, wid_set: Set[str]=None) -> Iterable[Tuple[str, Dict[str, List[int]]]]:
         for n, (doc_wid, doc_raw) in enumerate(self.corpus.input):
             doc_wid = str(doc_wid, 'utf-8')
+            if wid_set is not None and doc_wid not in wid_set:
+                continue
             store = sling.Store(self.commons)
             frame = store.parse(doc_raw)
             document = sling.Document(frame, store, self.docschema)
@@ -106,15 +108,13 @@ class SlingExtractorForQualifier(SlingExtractor):
             yield doc_wid, doc_title, colored_text
 
 
-def locate_fact(facts: List[Tuple[str, str]], sling_recfiles: List[str], thres: int) -> set:
+def locate_fact(facts: Set[Tuple[str, str]], sling_recfiles: List[str], thres: int) -> set:
     s = SlingExtractorForQualifier()
     notfound = set(facts)
     fact_entities = set(e for f in facts for e in f)
     for sr in sling_recfiles:
         s.load_corpus(sr)
-        for wid, m2pos in tqdm(s.iter_mentions_position()):
-            if wid not in fact_entities:
-                continue
+        for wid, m2pos in tqdm(s.iter_mentions_position(wid_set=fact_entities)):
             found = set()
             for sub, obj in notfound:
                 if sub not in m2pos or obj not in m2pos:
@@ -123,7 +123,7 @@ def locate_fact(facts: List[Tuple[str, str]], sling_recfiles: List[str], thres: 
                 if dist <= thres:
                     found.add((sub, obj))
             notfound -= found
-    return set(facts) - notfound
+    return facts - notfound
 
 
 if __name__ == '__main__':
@@ -144,7 +144,7 @@ if __name__ == '__main__':
 
     elif args.task == 'filter':
         entity2lang = load_entity_lang(ENTITY_LANG_PATH)
-        facts: List[Tuple[str, str]] = []
+        facts = set()
         for root, dirs, files in os.walk(ENTITY_PATH.rsplit('/', 1)[0]):
             for file in files:
                 with open(os.path.join(root, file), 'r') as fin:
@@ -155,7 +155,18 @@ if __name__ == '__main__':
                         exist = sub_exist and obj_exist
                         if not exist:
                             continue
-                        facts.append((l['sub_uri'], l['obj_uri']))
+                        facts.add((l['sub_uri'], l['obj_uri']))
         found_lang = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format(args.lang)), 20)
         found_en = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format('en')), 20)
-        print('#facts {}, {} {}, {} {}'.format(len(facts), args.lang, len(found_lang), 'en', len(found_en)))
+        result = {
+            args.lang: found_lang - found_en,
+            'en': found_en - found_lang,
+            'join': found_lang & found_en,
+            'none': facts - found_lang - found_en
+        }
+        print('#facts {}, join {}, {} {}, {} {}, none {}'.format(
+            len(facts), len(result['join']),
+            args.lang, len(result[args.lang]),
+            'en', len(result['en']),
+            len(result['none'])
+        ))
