@@ -23,7 +23,7 @@ MASK_LABEL = '[MASK]'
 UNK_LABEL = '[UNK]'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
-RELATION_PATH = PREFIX_DATA + 'data/relations.jsonl'
+RELATION_PATH = 'data/TREx-relations.jsonl'
 ENTITY_PATH = 'data/TREx/{}.jsonl'
 PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
 ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
@@ -62,6 +62,7 @@ if __name__ == '__main__':
                         help='use the same language for sub and obj')
     parser.add_argument('--skip_multi_word', action='store_true',
                         help='skip objects with multiple words (not sub-words)')
+    parser.add_argument('--facts', type=str, help='file path to facts', default=None)
     parser.add_argument('--disable_inflection', action='store_true')
     parser.add_argument('--disable_article', action='store_true')
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
@@ -80,6 +81,14 @@ if __name__ == '__main__':
     entity2lang = load_entity_lang(ENTITY_LANG_PATH)
     entity2gender = load_entity_gender(ENTITY_GENDER_PATH)
     prompt_lang = pandas.read_csv(PROMPT_LANG_PATH)
+
+    # load facts
+    restricted_facts = None
+    if args.facts is not None:
+        filename, part = args.facts.split(':')
+        with open(filename, 'r') as fin:
+            restricted_facts = set(map(tuple, json.load(fin)[part]))
+            print('#restricted facts {}'.format(len(restricted_facts)))
 
     # load model
     print('load model')
@@ -132,6 +141,9 @@ if __name__ == '__main__':
                     l = json.loads(l)
                     sub_exist = lang in entity2lang[l['sub_uri']]
                     obj_exist = lang in entity2lang[l['obj_uri']]
+                    if restricted_facts is not None and \
+                            (l['sub_uri'], l['obj_uri']) not in restricted_facts:
+                        continue
                     exist = sub_exist and obj_exist
                     if args.portion == 'trans' and not exist:
                         num_skip += 1
@@ -159,7 +171,7 @@ if __name__ == '__main__':
                     queries.append(l)
 
             acc, len_acc = [], []
-            for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=False):
+            for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=True):
                 obj_li: List[np.ndarray] = []
                 inp_tensor: List[torch.Tensor] = []
                 batch_size = len(query_li)

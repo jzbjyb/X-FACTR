@@ -129,7 +129,7 @@ def locate_fact(facts: Set[Tuple[str, str]], sling_recfiles: List[str], thres: i
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
     parser.add_argument('--task', type=str, choices=['inspect', 'filter'])
-    parser.add_argument('--lang', type=str, help='language to probe', choices=['zh-cn', 'el'], default='en')
+    parser.add_argument('--lang', type=str, help='language to probe', choices=['zh-cn', 'el', 'fr'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()
