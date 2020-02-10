@@ -55,7 +55,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, help='LM to probe file',
                         choices=['mbert_base', 'bert_base', 'zh_bert_base'], default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
-                        choices=['en', 'zh-cn', 'el'], default='en')
+                        choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='all',
                         help='which portion of facts to use')
     parser.add_argument('--sub_obj_same_lang', action='store_true',
