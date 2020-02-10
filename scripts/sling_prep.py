@@ -131,6 +131,7 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str, choices=['inspect', 'filter'])
     parser.add_argument('--lang', type=str, help='language to probe', choices=['zh-cn', 'el'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
+    parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()
 
     if args.task == 'inspcet':
@@ -143,6 +144,7 @@ if __name__ == '__main__':
             input('press any key to continue ...')
 
     elif args.task == 'filter':
+        max_dist = 20
         entity2lang = load_entity_lang(ENTITY_LANG_PATH)
         facts = set()
         for root, dirs, files in os.walk(ENTITY_PATH.rsplit('/', 1)[0]):
@@ -156,13 +158,13 @@ if __name__ == '__main__':
                         if not exist:
                             continue
                         facts.add((l['sub_uri'], l['obj_uri']))
-        found_lang = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format(args.lang)), 20)
-        found_en = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format('en')), 20)
+        found_lang = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format(args.lang)), max_dist)
+        found_en = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format('en')), max_dist)
         result = {
-            args.lang: found_lang - found_en,
-            'en': found_en - found_lang,
-            'join': found_lang & found_en,
-            'none': facts - found_lang - found_en
+            args.lang: list(found_lang - found_en),
+            'en': list(found_en - found_lang),
+            'join': list(found_lang & found_en),
+            'none': list(facts - found_lang - found_en)
         }
         print('#facts {}, join {}, {} {}, {} {}, none {}'.format(
             len(facts), len(result['join']),
@@ -170,3 +172,5 @@ if __name__ == '__main__':
             'en', len(result['en']),
             len(result['none'])
         ))
+        with open(args.out, 'w') as fout:
+            json.dump(result, fout, indent=2)
