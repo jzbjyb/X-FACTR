@@ -74,6 +74,7 @@ class SlingExtractorForQualifier(SlingExtractor):
             for s, e, wid in all_mentions:
                 colored_tokens.append(' '.join(tokens[prev_e:s]))
                 colored_tokens.append(colored('{}||{}'.format(' '.join(tokens[s:e]), wid), 'green'))
+                prev_e = e
             colored_text = ' '.join(colored_tokens)
             yield doc_wid, doc_title, colored_text
 
@@ -131,12 +132,13 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str, choices=['inspect', 'filter'])
     parser.add_argument('--lang', type=str, help='language to probe', choices=['zh-cn', 'el', 'fr'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
+    parser.add_argument('--inp', type=str, default=None)
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()
 
-    if args.task == 'inspcet':
+    if args.task == 'inspect':
         s = SlingExtractorForQualifier()
-        s.load_corpus(corpus_file=sys.argv[1])
+        s.load_corpus(corpus_file=args.inp)
         for wid, title, text in s.find_all_mentions():
             print('=' * 30)
             print(wid, title)
