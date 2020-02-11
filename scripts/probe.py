@@ -2,7 +2,7 @@ import sys
 from os.path import dirname, abspath
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
-from typing import List, Dict
+from typing import List, Dict, Tuple
 import torch
 from transformers import *
 import json
@@ -21,6 +21,8 @@ logger.setLevel(logging.ERROR)
 
 MASK_LABEL = '[MASK]'
 UNK_LABEL = '[UNK]'
+PAD_LABEL = '[PAD]'
+SUB_LABEL = '##'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
 RELATION_PATH = 'data/TREx-relations.jsonl'
@@ -48,6 +50,19 @@ def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:
                 label ,lang = lang.rsplit('@', 1)
                 entity2lang[entity][lang] = label.strip('"')
     return entity2lang
+
+
+def load_word_ids(ids: List[int], tokenizer) -> str:
+    tokens: List[Tuple[str, int]] = []
+    for t in tokenizer.convert_ids_to_tokens(ids):
+        if t == PAD_LABEL:
+            continue
+        if t.startswith(SUB_LABEL) and len(tokens) > 0:
+            tokens[-1][0] += t[len(SUB_LABEL):]
+            tokens[-1][1] += 1
+        else:
+            tokens.append([t, 1])
+    return ' '.join(map(lambda t: '{}:{}'.format(*t) if t[1] > 1 else t[0], tokens))
 
 
 if __name__ == '__main__':
@@ -209,18 +224,27 @@ if __name__ == '__main__':
 
                 # find the best setting
                 inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
-                for i, best_num_mask in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1)).max(1)[1]):
+                for i, avg_log in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1))):
+                    best_num_mask = avg_log.max(0)[1]
                     obj = obj_li[i]
                     pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
                         .detach().cpu().numpy().reshape(-1)
-                    acc.append(int((len(pred) == len(obj)) and (pred == obj).all()))
+                    is_correct = int((len(pred) == len(obj)) and (pred == obj).all())
+                    acc.append(is_correct)
                     len_acc.append(int((len(pred) == len(obj))))
+                    '''
+                    print('===', tokenizer.convert_ids_to_tokens(obj), is_correct, '===')
+                    for j in range(NUM_MASK):
+                        print(tokenizer.convert_ids_to_tokens(inp_tensor[i, j].detach().cpu().numpy()))
+                        tpred = rank[i, j].masked_select(mask_ind[i, j].eq(1)).detach().cpu().numpy().reshape(-1)
+                        print(tokenizer.convert_ids_to_tokens(tpred), avg_log[j])
+                    input()
+                    '''
                     if args.log_dir:
                         log_file.write('{}\t{}\t{}\n'.format(
-                            ' '.join(tokenizer.convert_ids_to_tokens(
-                                inp_tensor[i, best_num_mask].detach().cpu().numpy())).replace('[PAD]', '').strip(),
-                            ' '.join(tokenizer.convert_ids_to_tokens(pred)),
-                            ' '.join(tokenizer.convert_ids_to_tokens(obj))))
+                            load_word_ids(inp_tensor[i, best_num_mask].detach().cpu().numpy(), tokenizer),
+                            load_word_ids(pred, tokenizer),
+                            load_word_ids(obj, tokenizer)))
                     '''
                     if len(pred) == len(obj):
                         print('pred {}\tgold {}'.format(
