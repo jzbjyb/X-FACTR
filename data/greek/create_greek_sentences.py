@@ -97,6 +97,10 @@ def fil_y(words, ent_form, ent_gender, article):
 		#print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
 		#print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
 		words[i] = article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"]
+	if "[DEF;Y.Fem]" in words:
+		i = words.index('[DEF;Y.Fem]')
+		words[i] = article[f"ART;DEF;FEM;{ent_number}"]
+		
 	
 	return words
 
