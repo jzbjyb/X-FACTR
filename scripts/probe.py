@@ -134,7 +134,8 @@ if __name__ == '__main__':
     for pattern in patterns:
         relation = pattern['relation']
         if args.log_dir:
-            log_file = open(os.path.join(args.log_dir, relation + '.txt'), 'w')
+            log_file = open(os.path.join(args.log_dir, relation + '.csv'), 'w')
+            log_file.write('sentence,prediction,gold_inflection,is_same,gold_original,is_same\n')
         try:
             prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
 
@@ -249,7 +250,7 @@ if __name__ == '__main__':
                     input()
                     '''
                     if args.log_dir:
-                        log_file.write('{}\t{}\t{}\t{}\t{}\t{}\n'.format(
+                        log_file.write('{},{},{},{},{},{}\n'.format(
                             load_word_ids(inp_tensor[i, best_num_mask].detach().cpu().numpy(), tokenizer),
                             load_word_ids(pred, tokenizer),
                             load_word_ids(obj, tokenizer), is_correct,
