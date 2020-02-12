@@ -206,6 +206,10 @@ class PromptEL(Prompt):
             # print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
             # print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
             art = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"]
+        if "[DEF;Y.Fem]" in words:
+            has_article = True
+            i = words.index('[DEF;Y.Fem]')
+            art = self.article[f"ART;DEF;FEM;{ent_number}"]
 
         if has_article:
             if self.disable_article:

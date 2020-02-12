@@ -7,7 +7,7 @@ P413,position played on team / speciality,[X] plays in [Y] position .,[X]的场�
 P166,award received,[X] was awarded the [Y] .,[X]被授予[Y]。,[X] a reçu le [Y] .,[DEF;X] [X.Nom] βραβεύτηκε με [Y] .,[X] heeft de [Y] gekregen .
 P449,original network,[X] was originally aired on [Y] .,[X]首播于[Y]。,[X] a été diffusé à l'origine sur [Y] .,[DEF;X] [X.Nom] προβλήθηκε αρχικά [PREPDEF;Y] [Y.Acc] .,[X] werd oorspronkelijk uitgezonden op [Y] .
 P69,educated at,[X] was educated at the University of [Y] .,[X]就读于[Y]。,[X] a fait ses études à l'Université de [Y] .,[DEF;X] [X.Nom] φοίτησε στο πανεπιστήμιο [DEF;Y] [Y.Gen] .,[X] is opgeleid aan de Universiteit van [Y] .
-P47,shares border with,[X] shares border with [Y] .,[X]和[Y]接壤。,[X] partage la frontière avec [Y] .,[DEF;X] [X.Nom] συνορεύει/ουν με [DEF;Y] [Y.Acc] .,[X] deelt grens met [Y] .
+P47,shares border with,[X] shares border with [Y] .,[X]和[Y]接壤。,[X] partage la frontière avec [Y] .,[DEF;X] [X.Nom] συνορεύει με [DEF;Y] [Y.Acc] .,[X] deelt grens met [Y] .
 P138,named after,[X] is named after [Y] .,[X]是以[Y]命名的。,[X] est nommé d'après [Y] .,[DEF;X] [X.Nom] πήρε το όνομά [DEF.Gen;X] από [DEF;Y] [Y.Acc] .,[X] is vernoemd naar [Y] .
 P364,original language of film or TV show,The original language of [X] is [Y] .,[X]的创作语言是[Y]。,La langue d'origine de [X] est [Y] .,Η πρωτότυπη γλώσσα [DEF;X] [X.Gen] είναι τα [Y] .,De oorspronkelijke taal van [X] is [Y] .
 P54,member of sports team,[X] plays with [Y] .,[X]的所属运动队[Y]。,[X] joue avec [Y] .,[DEF;X] [X.Nom] παίζει [PREPDEF;Y] [Y.Acc] .,[X] speelt met [Y] .
@@ -17,18 +17,18 @@ P1923,participating team,[Y] participated in the [X] .,[X]的参与队伍是[Y]�
 P106,occupation,[X] is a [Y] by profession .,[X]的职业是[Y]。,[X] est un [Y] de profession .,[DEF;X] [X.Nom] εργάζεται ως [Y] .,[X] is een [Y] van beroep .
 P527,has part,[X] consists of [Y] .,[X]子类是[Y]。,[X] se compose de [Y] .,[DEF;X] [X.Nom] αποτελείται από [Y] .,[X] bestaat uit [Y] .
 P102,member of political party,[X] is a member of the [Y] political party .,[X]属于[Y]政党。,[X] est membre du parti politique [Y] .,[DEF;X] [X.Nom] είναι μέλος του [Y] κόμματος.,[X] is lid van de [Y] politieke partij .
-P530,diplomatic relation,[X] maintains diplomatic relations with [Y] .,[X]与[Y]是邦交国。,[X] entretient des relations diplomatiques avec [Y] .,[DEF;X] [X.Nom] διατηρεί/ουν διπλωματικές σχέσεις με [DEF;Y] [Y.Acc] .,[X] onderhoudt diplomatieke betrekkingen met [Y] .
+P530,diplomatic relation,[X] maintains diplomatic relations with [Y] .,[X]与[Y]是邦交国。,[X] entretient des relations diplomatiques avec [Y] .,[DEF;X] [X.Nom] διατηρεί διπλωματικές σχέσεις με [DEF;Y] [Y.Acc] .,[X] onderhoudt diplomatieke betrekkingen met [Y] .
 P176,manufacturer,[X] is produced by [Y] .,[X]的生产商是[Y]。,[X] est produit par [Y] .,[DEF;X] [X.Nom] παράγεται από [DEF;Y] [Y.Acc] .,[X] wordt geproduceerd door [Y] .
 P27,country of citizenship,[X] is [Y] citizen .,[X]的国籍是[Y]。,[X] est citoyen [Y] .,[DEF;X] [X.Nom] είναι [Y] πολίτης .,[X] is [Y] burger .
 P407,language of work or name,[X] was written in [Y] .,[X]的语言是[Y]。,[X] a été écrit en [Y] .,[DEF;X] [X.Nom] γράφτηκε στα [Y] .,[X] is geschreven in [Y] .
 P30,continent,[X] is located in [Y] .,[X]所属大洲是[Y]。,[X] est situé dans [Y] .,[DEF;X] [X.Nom] βρίσκεται [PREPDEF;Y] [Y.Acc] .,[X] bevindt zich in [Y] .
-P178,developer,[X] is developed by [Y] .,[X]是由[Y]开发的。,[X] est développé par [Y] .,[DEF;X] [X.Nom] αναπτύσσεται από [DEF;Y] [Y.Acc] .,[X] is ontwikkeld door [Y] .
+P178,developer,[X] is developed by [Y] .,[X]是由[Y]开发的。,[X] est développé par [Y] .,[DEF;X] [X.Nom] αναπτύσσεται από [DEF;Y.Fem] [Y.Acc] .,[X] is ontwikkeld door [Y] .
 P1376,capital of,[X] is the capital of [Y] .,[X]是[Y]的首府。,[X] est la capitale de [Y] .,[DEF;X] [X.Nom] είναι η πρωτεύουσα [DEF;Y] [Y.Gen] .,[X] is de hoofdstad van [Y] .
-P131,located in the administrative territorial entity,[X] is located in [Y] .,[X]的行政区是[Y]。,[X] est situé dans [Y] .,[DEF;X] [X.Nom] βρίσκεται/ονται [PREPDEF;Y] [Y.Acc] .,[X] bevindt zich in [Y] .
+P131,located in the administrative territorial entity,[X] is located in [Y] .,[X]的行政区是[Y]。,[X] est situé dans [Y] .,[DEF;X] [X.Nom] βρίσκεται [PREPDEF;Y] [Y.Acc] .,[X] bevindt zich in [Y] .
 P1412,"languages spoken, written or signed",[X] used to communicate in [Y] .,[X]的语言是[Y]。,[X] communiquait en [Y] .,[DEF;X] [X.Nom] μιλούσε [Y] .,[X] communiceerde vroeger in [Y] .
 P108,employer,[X] works for [Y] .,[X]的雇主是[Y]。,[X] fonctionne pour [Y] .,[DEF;X] [X.Nom] δουλεύει [PREPDEF;Y] [Y.Acc] .,[X] werkt voor [Y] .
 P136,genre,[X] plays [Y] music .,[X]的艺术流派是[Y]。,[X] lit la musique [Y] .,[DEF;X] [X.Nom] παίζει [Y] μουσική .,[X] speelt [Y] muziek .
-P17,country,[X] is located in [Y] .,[X]的主权国家是[Y]。,[X] est situé dans [Y] .,[DEF;X] [X.Nom] βρίσκεται/ονται [PREPDEF;Y] [Y.Acc] .,[X] bevindt zich in [Y] .
+P17,country,[X] is located in [Y] .,[X]的主权国家是[Y]。,[X] est situé dans [Y] .,[DEF;X] [X.Nom] βρίσκεται [PREPDEF;Y] [Y.Acc] .,[X] bevindt zich in [Y] .
 P39,position held,[X] has the position of [Y] .,[X]的职位是[Y]。,[X] a la position de [Y] .,[DEF;X] [X.Nom] έχει τη θέση [DEF;Y] [Y.Gen] .,[X] heeft de positie van [Y] .
 P264,record label,[X] is represented by music label [Y] .,[X]的唱片厂商是[Y]。,[X] est représenté par le label musical [Y] .,[DEF;X] [X.Nom] αντιπροσωπεύεται από τη μουσική ετικέτα [DEF;Y] [Y.Gen] .,[X] wordt weergegeven door muzieklabel [Y] .
 P276,location,[X] is located in [Y] .,[X]位于[Y]。,[X] est situé dans [Y] .,[DEF;X] [X.Nom] βρίσκεται [PREPDEF;Y] [Y.Acc] .,[X] bevindt zich in [Y] .
