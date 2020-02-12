@@ -1,4 +1,4 @@
-from typing import Dict, Tuple
+from typing import Dict, Tuple, Set
 from collections import defaultdict
 import unicodedata as ud
 import functools
@@ -27,8 +27,8 @@ def some_roman_chars(unistr):
 
 
 class Prompt(object):
-    def __init__(self, disable_inflection: bool=False, disable_article: bool=False):
-        self.disable_inflection = disable_inflection
+    def __init__(self, disable_inflection: str=None, disable_article: bool=False):
+        self.disable_inflection: Set[str] = set(disable_inflection) if disable_inflection is not None else set()
         self.disable_article = disable_article
 
 
@@ -59,7 +59,7 @@ class PromptEL(Prompt):
     }
 
 
-    def __init__(self, disable_inflection: bool=False, disable_article: bool=False):
+    def __init__(self, disable_inflection: str=False, disable_article: bool=False):
         super().__init__(disable_inflection=disable_inflection, disable_article=disable_article)
         self.article: Dict[str, str] = {}
         with open('data/lang_resource/el/articles.txt') as inp:
@@ -84,7 +84,7 @@ class PromptEL(Prompt):
         else:
             do_not_inflect = False
 
-        if self.disable_inflection:
+        if 'x' in self.disable_inflection:
             do_not_inflect = True
 
         words = prompt.split(' ')
@@ -158,7 +158,7 @@ class PromptEL(Prompt):
         else:
             do_not_inflect = False
 
-        if self.disable_inflection:
+        if 'y' in self.disable_inflection:
             do_not_inflect = True
 
         words = prompt.split(' ')

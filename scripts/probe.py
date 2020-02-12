@@ -78,7 +78,7 @@ if __name__ == '__main__':
     parser.add_argument('--skip_multi_word', action='store_true',
                         help='skip objects with multiple words (not sub-words)')
     parser.add_argument('--facts', type=str, help='file path to facts', default=None)
-    parser.add_argument('--disable_inflection', action='store_true')
+    parser.add_argument('--disable_inflection', type=str, choices=['x', 'y', 'xy'])
     parser.add_argument('--disable_article', action='store_true')
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
@@ -185,9 +185,10 @@ if __name__ == '__main__':
                         continue
                     queries.append(l)
 
-            acc, len_acc = [], []
+            acc, len_acc, acc_ori, len_acc_ori = [], [], [], []
             for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=True):
                 obj_li: List[np.ndarray] = []
+                obj_ori_li: List[np.ndarray] = []
                 inp_tensor: List[torch.Tensor] = []
                 batch_size = len(query_li)
                 for query in query_li:
@@ -206,6 +207,9 @@ if __name__ == '__main__':
                     if len(obj) > NUM_MASK:
                         logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
                     obj_li.append(obj)
+                    # tokenize gold object (before inflection)
+                    obj_ori = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1)
+                    obj_ori_li.append(obj_ori)
 
                 # SHAPE: (batch_size * num_mask, seq_len)
                 inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()
@@ -227,11 +231,15 @@ if __name__ == '__main__':
                 for i, avg_log in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1))):
                     best_num_mask = avg_log.max(0)[1]
                     obj = obj_li[i]
+                    obj_ori = obj_ori_li[i]
                     pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
                         .detach().cpu().numpy().reshape(-1)
                     is_correct = int((len(pred) == len(obj)) and (pred == obj).all())
+                    is_correct_ori = int((len(pred) == len(obj_ori)) and (pred == obj_ori).all())
                     acc.append(is_correct)
+                    acc_ori.append(is_correct_ori)
                     len_acc.append(int((len(pred) == len(obj))))
+                    len_acc_ori.append(int((len(pred) == len(obj_ori))))
                     '''
                     print('===', tokenizer.convert_ids_to_tokens(obj), is_correct, '===')
                     for j in range(NUM_MASK):
@@ -241,10 +249,11 @@ if __name__ == '__main__':
                     input()
                     '''
                     if args.log_dir:
-                        log_file.write('{}\t{}\t{}\n'.format(
+                        log_file.write('{}\t{}\t{}\t{}\t{}\t{}\n'.format(
                             load_word_ids(inp_tensor[i, best_num_mask].detach().cpu().numpy(), tokenizer),
                             load_word_ids(pred, tokenizer),
-                            load_word_ids(obj, tokenizer)))
+                            load_word_ids(obj, tokenizer), is_correct,
+                            load_word_ids(obj_ori, tokenizer), is_correct_ori))
                     '''
                     if len(pred) == len(obj):
                         print('pred {}\tgold {}'.format(
@@ -252,8 +261,9 @@ if __name__ == '__main__':
                         input()
                     '''
 
-            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\tacc {}\tlen_acc {}'.format(
-                relation, len(queries), num_skip, not_exist, num_multi_word, np.mean(acc), np.mean(len_acc)))
+            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\tacc {}/{}\tlen_acc {}/{}'.format(
+                relation, len(queries), num_skip, not_exist, num_multi_word,
+                np.mean(acc), np.mean(acc_ori), np.mean(len_acc), np.mean(len_acc_ori)))
         except Exception as e:
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
