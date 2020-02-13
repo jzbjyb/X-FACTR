@@ -2,7 +2,7 @@ import sys
 from os.path import dirname, abspath
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Set
 import torch
 from transformers import *
 import json
@@ -71,8 +71,12 @@ if __name__ == '__main__':
                         choices=['mbert_base', 'bert_base', 'zh_bert_base'], default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
-    parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='all',
+    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
+                        choices=['en', 'el'], default='en')
+    parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
+    parser.add_argument('--prompts', type=str, default=None,
+                        help='directory where multiple prompts are stored for each relation')
     parser.add_argument('--sub_obj_same_lang', action='store_true',
                         help='use the same language for sub and obj')
     parser.add_argument('--skip_multi_word', action='store_true',
@@ -137,21 +141,18 @@ if __name__ == '__main__':
             log_file = open(os.path.join(args.log_dir, relation + '.csv'), 'w')
             log_file.write('sentence,prediction,gold_inflection,is_same,gold_original,is_same\n')
         try:
-            prompt = prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]
-
             '''
             if relation != 'P413':
                 continue
             '''
 
+            # prepare facts
             f = ENTITY_PATH.format(relation)
             if not os.path.exists(f):
                 continue
 
             queries: List[Dict] = []
-            num_skip = 0
-            not_exist = 0
-            num_multi_word = 0
+            num_skip = not_exist = num_multi_word = 0
             with open(f) as fin:
                 for l in fin:
                     l = json.loads(l)
@@ -186,85 +187,96 @@ if __name__ == '__main__':
                         continue
                     queries.append(l)
 
-            acc, len_acc, acc_ori, len_acc_ori = [], [], [], []
-            for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=True):
-                obj_li: List[np.ndarray] = []
-                obj_ori_li: List[np.ndarray] = []
-                inp_tensor: List[torch.Tensor] = []
-                batch_size = len(query_li)
-                for query in query_li:
-                    # fill in subject and masks
-                    instance_x, _ = prompt_model.fill_x(
-                        prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
-                    for nm in range(NUM_MASK):
-                        inp, obj_label = prompt_model.fill_y(
-                            instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
-                            num_mask=nm + 1, mask_sym='[MASK]')
-                        inp: List[int] = tokenizer.encode(inp)
-                        inp_tensor.append(torch.tensor(inp))
+            # get prompt
+            if args.prompts:
+                with open(os.path.join(args.prompts, relation + '.jsonl'), 'r') as fin:
+                    prompts = [json.loads(l)['template'] for l in fin][:50]  # TODO: top 50
+            else:
+                prompts = [prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]]
 
-                    # tokenize gold object
-                    obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
-                    if len(obj) > NUM_MASK:
-                        logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
-                    obj_li.append(obj)
-                    # tokenize gold object (before inflection)
-                    obj_ori = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1)
-                    obj_ori_li.append(obj_ori)
+            correct_facts: Set[Tuple[str, str]] = set()
+            for prompt in prompts:
+                acc, len_acc, acc_ori, len_acc_ori = [], [], [], []
+                for query_li in tqdm(batcher(queries, BATCH_SIZE), desc=relation, disable=True):
+                    obj_li: List[np.ndarray] = []
+                    obj_ori_li: List[np.ndarray] = []
+                    inp_tensor: List[torch.Tensor] = []
+                    batch_size = len(query_li)
+                    for query in query_li:
+                        # fill in subject and masks
+                        instance_x, _ = prompt_model.fill_x(
+                            prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
+                        for nm in range(NUM_MASK):
+                            inp, obj_label = prompt_model.fill_y(
+                                instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
+                                num_mask=nm + 1, mask_sym='[MASK]')
+                            inp: List[int] = tokenizer.encode(inp)
+                            inp_tensor.append(torch.tensor(inp))
 
-                # SHAPE: (batch_size * num_mask, seq_len)
-                inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()
-                attention_mask: torch.Tensor = inp_tensor.ne(0).long().cuda()
-                # SHAPE: (batch_size, num_mask, seq_len)
-                mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
+                        # tokenize gold object
+                        obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
+                        if len(obj) > NUM_MASK:
+                            logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
+                        obj_li.append(obj)
+                        # tokenize gold object (before inflection)
+                        obj_ori = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1)
+                        obj_ori_li.append(obj_ori)
 
-                # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
-                logit = model(inp_tensor, attention_mask=attention_mask)[0]
-                logit[:, :, restrict_vocab] = float('-inf')
-                logprob = logit.log_softmax(-1)
-                # SHAPE: (batch_size * num_mask, seq_len)
-                logprob, rank = logprob.max(-1)
-                # SHAPE: (batch_size, num_mask, seq_len)
-                logprob, rank = logprob.view(batch_size, NUM_MASK, -1), rank.view(batch_size, NUM_MASK, -1)
+                    # SHAPE: (batch_size * num_mask, seq_len)
+                    inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()
+                    attention_mask: torch.Tensor = inp_tensor.ne(0).long().cuda()
+                    # SHAPE: (batch_size, num_mask, seq_len)
+                    mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
 
-                # find the best setting
-                inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
-                for i, avg_log in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1))):
-                    best_num_mask = avg_log.max(0)[1]
-                    obj = obj_li[i]
-                    obj_ori = obj_ori_li[i]
-                    pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
-                        .detach().cpu().numpy().reshape(-1)
-                    is_correct = int((len(pred) == len(obj)) and (pred == obj).all())
-                    is_correct_ori = int((len(pred) == len(obj_ori)) and (pred == obj_ori).all())
-                    acc.append(is_correct)
-                    acc_ori.append(is_correct_ori)
-                    len_acc.append(int((len(pred) == len(obj))))
-                    len_acc_ori.append(int((len(pred) == len(obj_ori))))
-                    '''
-                    print('===', tokenizer.convert_ids_to_tokens(obj), is_correct, '===')
-                    for j in range(NUM_MASK):
-                        print(tokenizer.convert_ids_to_tokens(inp_tensor[i, j].detach().cpu().numpy()))
-                        tpred = rank[i, j].masked_select(mask_ind[i, j].eq(1)).detach().cpu().numpy().reshape(-1)
-                        print(tokenizer.convert_ids_to_tokens(tpred), avg_log[j])
-                    input()
-                    '''
-                    if args.log_dir:
-                        log_file.write('{},{},{},{},{},{}\n'.format(
-                            load_word_ids(inp_tensor[i, best_num_mask].detach().cpu().numpy(), tokenizer),
-                            load_word_ids(pred, tokenizer),
-                            load_word_ids(obj, tokenizer), is_correct,
-                            load_word_ids(obj_ori, tokenizer), is_correct_ori))
-                    '''
-                    if len(pred) == len(obj):
-                        print('pred {}\tgold {}'.format(
-                            tokenizer.convert_ids_to_tokens(pred), tokenizer.convert_ids_to_tokens(obj)))
+                    # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
+                    logit = model(inp_tensor, attention_mask=attention_mask)[0]
+                    logit[:, :, restrict_vocab] = float('-inf')
+                    logprob = logit.log_softmax(-1)
+                    # SHAPE: (batch_size * num_mask, seq_len)
+                    logprob, rank = logprob.max(-1)
+                    # SHAPE: (batch_size, num_mask, seq_len)
+                    logprob, rank = logprob.view(batch_size, NUM_MASK, -1), rank.view(batch_size, NUM_MASK, -1)
+
+                    # find the best setting
+                    inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
+                    for i, avg_log in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1))):
+                        best_num_mask = avg_log.max(0)[1]
+                        obj = obj_li[i]
+                        obj_ori = obj_ori_li[i]
+                        pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
+                            .detach().cpu().numpy().reshape(-1)
+                        is_correct = int((len(pred) == len(obj)) and (pred == obj).all())
+                        is_correct_ori = int((len(pred) == len(obj_ori)) and (pred == obj_ori).all())
+                        acc.append(is_correct)
+                        acc_ori.append(is_correct_ori)
+                        len_acc.append(int((len(pred) == len(obj))))
+                        len_acc_ori.append(int((len(pred) == len(obj_ori))))
+                        if is_correct:
+                            correct_facts.add((query_li[i]['sub_uri'], query_li[i]['obj_uri']))
+                        '''
+                        print('===', tokenizer.convert_ids_to_tokens(obj), is_correct, '===')
+                        for j in range(NUM_MASK):
+                            print(tokenizer.convert_ids_to_tokens(inp_tensor[i, j].detach().cpu().numpy()))
+                            tpred = rank[i, j].masked_select(mask_ind[i, j].eq(1)).detach().cpu().numpy().reshape(-1)
+                            print(tokenizer.convert_ids_to_tokens(tpred), avg_log[j])
                         input()
-                    '''
-
-            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\tacc {}/{}\tlen_acc {}/{}'.format(
-                relation, len(queries), num_skip, not_exist, num_multi_word,
-                np.mean(acc), np.mean(acc_ori), np.mean(len_acc), np.mean(len_acc_ori)))
+                        '''
+                        if args.log_dir:
+                            log_file.write('{},{},{},{},{},{}\n'.format(
+                                load_word_ids(inp_tensor[i, best_num_mask].detach().cpu().numpy(), tokenizer),
+                                load_word_ids(pred, tokenizer),
+                                load_word_ids(obj, tokenizer), is_correct,
+                                load_word_ids(obj_ori, tokenizer), is_correct_ori))
+                        '''
+                        if len(pred) == len(obj):
+                            print('pred {}\tgold {}'.format(
+                                tokenizer.convert_ids_to_tokens(pred), tokenizer.convert_ids_to_tokens(obj)))
+                            input()
+                        '''
+                print('pid {}\tacc {:.4f}/{:.4f}\tlen_acc {:.4f}/{:.4f}\tprompt {}'.format(
+                    relation, np.mean(acc), np.mean(acc_ori), np.mean(len_acc), np.mean(len_acc_ori), prompt))
+            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\toracle {:.4f}'.format(
+                relation, len(queries), num_skip, not_exist, num_multi_word, len(correct_facts) / len(queries)))
         except Exception as e:
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
