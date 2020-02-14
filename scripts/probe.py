@@ -33,7 +33,8 @@ ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
 LM_NAME = {
     'mbert_base': 'bert-base-multilingual-cased',
     'bert_base': 'bert-base-cased',
-    'zh_bert_base': 'bert-base-chinese'
+    'zh_bert_base': 'bert-base-chinese',
+    'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1',
 }
 
 def batcher(data: List, batch_size: int):
@@ -68,7 +69,7 @@ def load_word_ids(ids: List[int], tokenizer) -> str:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--model', type=str, help='LM to probe file',
-                        choices=['mbert_base', 'bert_base', 'zh_bert_base'], default='mbert_base')
+                        choices=['mbert_base', 'bert_base', 'zh_bert_base', 'el_bert_base'], default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
     parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
@@ -209,7 +210,10 @@ if __name__ == '__main__':
                         for nm in range(NUM_MASK):
                             inp, obj_label = prompt_model.fill_y(
                                 instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
-                                num_mask=nm + 1, mask_sym='[MASK]')
+                                num_mask=nm + 1, mask_sym=MASK_LABEL)
+                            if args.model == 'el_bert_base':
+                                inp = prompt_model.normalize(inp, mask_sym=MASK_LABEL)
+                                obj_label = prompt_model.normalize(obj_label)
                             inp: List[int] = tokenizer.encode(inp)
                             inp_tensor.append(torch.tensor(inp))
 

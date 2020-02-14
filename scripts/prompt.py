@@ -3,6 +3,7 @@ from collections import defaultdict
 import unicodedata as ud
 import functools
 from overrides import overrides
+import unicodedata
 from unimorph_inflect import inflect
 from check_gender import Gender, load_entity_gender
 
@@ -218,3 +219,9 @@ class PromptEL(Prompt):
                 words[i] = art
 
         return ' '.join(words), label
+
+
+    def normalize(self, text: str, mask_sym: str='[MASK]') -> str:  # strip accents andlowercase
+        nt = ''.join(c for c in unicodedata.normalize('NFD', text)
+                     if unicodedata.category(c) != 'Mn').lower()
+        return nt.replace(mask_sym.lower(), mask_sym)  # make sure the mask token is unchanged
