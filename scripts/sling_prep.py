@@ -63,8 +63,10 @@ class SlingExtractorForQualifier(SlingExtractor):
             yield (doc_wid, m2pos)
 
 
-    def iter_mentions(self, wid_set: Set[str]=None, only_entity: bool=False) -> \
+    def iter_mentions(self, wid_set: Set[str]=None, only_entity: bool=False, split_by: str=None) -> \
             Iterable[Tuple[str, sling.Document, List[Tuple[str, int, int]]]]:
+        assert split_by in {'sentence', None}, 'not supported split_by'
+        split_by = {'sentence': 3, None: None}[split_by]
         for n, (doc_wid, doc_raw) in enumerate(self.corpus.input):
             doc_wid = str(doc_wid, 'utf-8')
             if wid_set is not None and doc_wid not in wid_set:
@@ -74,13 +76,26 @@ class SlingExtractorForQualifier(SlingExtractor):
             document = sling.Document(frame, store, self.docschema)
             sorted_mentions = sorted(document.mentions, key=lambda m: m.begin)
             tokens = [t.word for t in document.tokens]
+            split_start = [0] + [i for i, t in enumerate(document.tokens) if t.brk == split_by]
+            split_ind = 0
             mentions: List[Tuple[str, int, int]] = []
             for mention in sorted_mentions:
+                while len(split_start) > split_ind + 1 and mention.begin >= split_start[split_ind + 1]:
+                    if len(mentions) > 0:
+                        yield (doc_wid, tokens[split_start[split_ind]:split_start[split_ind + 1]], mentions)
+                        mentions = []
+                    split_ind += 1
+                if len(split_start) > split_ind + 1 and mention.end > split_start[split_ind + 1]:
+                    # skip mentions beyond the boundary
+                    continue
                 linked_entity = self.get_linked_entity(mention)
                 if only_entity and (type(linked_entity) is not str or not linked_entity.startswith('Q')):
                     continue
-                mentions.append((linked_entity, mention.begin, mention.end))
-            yield (doc_wid, tokens, mentions)
+                mentions.append((linked_entity,
+                                 mention.begin - split_start[split_ind],
+                                 mention.end - split_start[split_ind]))
+            if len(mentions) > 0:
+                yield (doc_wid, tokens[split_start[split_ind]:], mentions)
 
 
     def find_all_mentions(self):
@@ -172,6 +187,50 @@ def check_prompt(prompt: str, lang: str) -> bool:
     if np.all([t in stopwords for t in tokens]):  # all tokens are stopwords
         return False
     return True
+
+
+def distant_supervision_sentences(fact2pid: Dict[Tuple[str, str], Set[str]], lang: str, dist_thres: int):
+    s = SlingExtractorForQualifier()
+    pid2prompts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(lambda: 0))
+    for sr in glob.glob('data/sling/{}/*.rec'.format(lang)):
+        s.load_corpus(sr)
+        for wid, tokens, mentions in tqdm(s.iter_mentions(wid_set=None, only_entity=True, split_by='sentence')):
+            for i, left_m in enumerate(mentions):
+                for j in range(i + 1, min(i + 10, len(mentions))):
+                    right_m = mentions[j]
+                    if right_m[1] - left_m[2] < 0:
+                        continue
+                    if right_m[1] - left_m[2] > dist_thres:
+                        break
+                    if (left_m[0], right_m[0]) in fact2pid:
+                        to_insert = {
+                            left_m[1]: '[[',
+                            left_m[2]: ']]_x_' + left_m[0],
+                            right_m[1]: '[[',
+                            right_m[2]: ']]_y_' + right_m[0],
+                        }
+                        new_tokens = []
+                        for ti, t in enumerate(tokens):
+                            if ti in to_insert:
+                                new_tokens.append(to_insert[ti])
+                            new_tokens.append(t)
+                        for pid in fact2pid[(left_m[0], right_m[0])]:
+                            yield new_tokens, pid
+
+                    if (right_m[0], left_m[0]) in fact2pid:
+                        to_insert = {
+                            left_m[1]: '[[',
+                            left_m[2]: ']]_y_' + left_m[0],
+                            right_m[1]: '[[',
+                            right_m[2]: ']]_x_' + right_m[0],
+                        }
+                        new_tokens = []
+                        for ti, t in enumerate(tokens):
+                            if ti in to_insert:
+                                new_tokens.append(to_insert[ti])
+                            new_tokens.append(t)
+                        for pid in fact2pid[(right_m[0], left_m[0])]:
+                            yield new_tokens, pid
 
 
 def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
@@ -267,4 +326,9 @@ if __name__ == '__main__':
             for s, r, o in np.load(fin):
                 fact2pid[(s, o)].add(r)
         print('#facts {}'.format(len(fact2pid)))
-        distant_supervision(fact2pid, lang=args.lang, dist_thres=20, count_thres=5, outdir=args.out)
+        #distant_supervision(fact2pid, lang=args.lang, dist_thres=20, count_thres=5, outdir=args.out)
+        with open(args.out, 'w') as fout:
+            for tokens, pid in distant_supervision_sentences(fact2pid, lang=args.lang, dist_thres=10):
+                if len(tokens) > 128:
+                    continue
+                fout.write(pid + '\t' + ' '.join(tokens) + '\n')
