@@ -26,7 +26,6 @@ SUB_LABEL = '##'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
 RELATION_PATH = 'data/TREx-relations.jsonl'
-ENTITY_PATH = 'data/TREx/{}.jsonl'
 PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
 ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
 ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
@@ -70,6 +69,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--model', type=str, help='LM to probe file',
                         choices=['mbert_base', 'bert_base', 'zh_bert_base', 'el_bert_base'], default='mbert_base')
+    parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
     parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
@@ -93,6 +93,11 @@ if __name__ == '__main__':
     lang = args.lang
     NUM_MASK = args.num_mask
     BATCH_SIZE = args.batch_size
+
+    if args.probe == 'lama':
+        ENTITY_PATH = 'data/TREx/{}.jsonl'
+    elif args.probe == 'lama-uhn':
+        ENTITY_PATH = 'data/TREx_UHN/{}.jsonl'
 
     # load relations and templates
     patterns = []
