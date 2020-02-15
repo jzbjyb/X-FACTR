@@ -15,7 +15,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same
 [CLS] το Γύρω:4 Από Τ ' Όνειρο:3 γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Ελληνικά:4,0,Ελληνικά:4,0
 [CLS] το Their Satanic:2 Majesties:3 Request:2 γράφτηκε:4 στα [MASK] [MASK] [MASK] . [SEP],α .τα:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Ο Ιπτάμενος:4 Ολλανδός:5 γράφτηκε:4 στα [MASK] [MASK] [MASK] . [SEP],α .λ:2,Γερμανικά:4,0,Γερμανικά:4,0
-[CLS] το Τρέξε:4 Λόλα:3 , Τρέξε:4 γράφτηκε:4 στα [MASK] [MASK] [MASK] . [SEP],α .λ:2,Αγγλικά:2,0,Αγγλικά:2,0
+"[CLS] το Τρέξε:4 Λόλα:3 , Τρέξε:4 γράφτηκε:4 στα [MASK] [MASK] [MASK] . [SEP]",α .λ:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Charlie Hebdo:3 γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Γαλλικά:4,0,Γαλλικά:4,0
 [CLS] το BBC Radio 1 γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το The Washington Post γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
@@ -107,7 +107,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same
 [CLS] το Virtual XI γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],αα:2 σταα:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το The Economist γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Ντανιέλ:5 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],χα:2 στα χρόνια,Ρωσικά:3,0,Ρωσικά:3,0
-[CLS] το Du gamla , Du fria:2 γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Σουηδικά:4,0,Σουηδικά:4,0
+"[CLS] το Du gamla , Du fria:2 γράφτηκε:4 στα [MASK] [MASK] . [SEP]",σταγγλικά:2,Σουηδικά:4,0,Σουηδικά:4,0
 [CLS] το Rossiya:2 Segodnya:4 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],σταα:2 σταα:2,Ρωσικά:3,0,Ρωσικά:3,0
 [CLS] το Οι Περιπέτειες:7 του Πινόκιο:5 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],αα:2 στα χρόνια,Ιταλικά:3,0,Ιταλικά:3,0
 [CLS] το Ταράς:2 Μπούλμπα:6 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],χα:2 στα χρόνια,Ρωσικά:3,0,Ρωσικά:3,0
@@ -129,7 +129,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same
 [CLS] το The Pirate Bay γράφτηκε:4 στα [MASK] [MASK] [MASK] . [SEP],α .α:2,Ισπανικά:4,0,Ισπανικά:4,0
 [CLS] το Black Holes:2 And Revelations:3 γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το A Bigger:2 Bang γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
-[CLS] το Non , je ne regrette:3 rien γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Γαλλικά:4,0,Γαλλικά:4,0
+"[CLS] το Non , je ne regrette:3 rien γράφτηκε:4 στα [MASK] [MASK] . [SEP]",σταγγλικά:2,Γαλλικά:4,0,Γαλλικά:4,0
 [CLS] το Burnout:2 Dominator:3 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],αα:2 στα χρόνια,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Σουηδική:4 Εγκυκλοπαίδεια:9 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],σου:2 στα χρόνια,Σουηδικά:4,0,Σουηδικά:4,0
 [CLS] το Let It Bleed:3 γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
@@ -144,7 +144,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same
 [CLS] το Sheer:2 Heart Attack γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το The Beatles γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],αα:2 σταδια:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Λιλή:3 Μαρλέν:5 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],αα:2 στα χρόνια,Γερμανικά:4,0,Γερμανικά:4,0
-[CLS] το How Big , How Blue , How Beautiful γράφτηκε:4 στα [MASK] [MASK] . [SEP],αγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
+"[CLS] το How Big , How Blue , How Beautiful γράφτηκε:4 στα [MASK] [MASK] . [SEP]",αγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Brilliantovaya:4 ruka:2 γράφτηκε:4 στα [MASK] [MASK] [MASK] [MASK] . [SEP],χα:2 σταα:2,Ρωσικά:3,0,Ρωσικά:3,0
 [CLS] το The Lamb Lies Down on Broadway γράφτηκε:4 στα [MASK] [MASK] . [SEP],σταγγλικά:2,Αγγλικά:2,0,Αγγλικά:2,0
 [CLS] το Baike:2 . com γράφτηκε:4 στα [MASK] [MASK] . [SEP],Baiγγλικά:2,Κινεζικά:4,0,Κινεζικά:4,0

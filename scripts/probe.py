@@ -13,6 +13,7 @@ import argparse
 import logging
 from collections import defaultdict
 import pandas
+import csv
 from prompt import Prompt
 from check_gender import load_entity_gender
 
@@ -146,6 +147,7 @@ if __name__ == '__main__':
         if args.log_dir:
             log_file = open(os.path.join(args.log_dir, relation + '.csv'), 'w')
             log_file.write('sentence,prediction,gold_inflection,is_same,gold_original,is_same\n')
+            log_file_csv = csv.writer(log_file)
         try:
             '''
             if relation != 'P413':
@@ -271,11 +273,11 @@ if __name__ == '__main__':
                         input()
                         '''
                         if args.log_dir:
-                            log_file.write('{},{},{},{},{},{}\n'.format(
+                            log_file_csv.writerow([
                                 load_word_ids(inp_tensor[i, best_num_mask].detach().cpu().numpy(), tokenizer),
                                 load_word_ids(pred, tokenizer),
                                 load_word_ids(obj, tokenizer), is_correct,
-                                load_word_ids(obj_ori, tokenizer), is_correct_ori))
+                                load_word_ids(obj_ori, tokenizer), is_correct_ori])
                         '''
                         if len(pred) == len(obj):
                             print('pred {}\tgold {}'.format(
