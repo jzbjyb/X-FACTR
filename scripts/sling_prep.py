@@ -272,7 +272,7 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
     parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds'])
-    parser.add_argument('--lang', type=str, help='language to probe', choices=['zh-cn', 'el', 'fr'], default='en')
+    parser.add_argument('--lang', type=str, help='language to probe', choices=['el', 'fr', 'nl'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
     parser.add_argument('--inp', type=str, default=None)
     parser.add_argument('--out', type=str, help='output')
