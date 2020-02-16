@@ -29,11 +29,15 @@ PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
 ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
 ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
 LM_NAME = {
+    # multilingual model
     'mbert_base': 'bert-base-multilingual-cased',
+    'xlmr_base': 'xlm-roberta-base',
+    # language-specific model
     'bert_base': 'bert-base-cased',
     'zh_bert_base': 'bert-base-chinese',
     'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1',
-    'camem_base': 'camembert-base',
+    'fr_roberta_base': 'camembert-base',
+    'nl_bert_base': 'bert-base-dutch-cased',
 }
 
 def batcher(data: List, batch_size: int):
@@ -67,10 +71,11 @@ def load_word_ids(ids: List[int], tokenizer) -> str:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
-    parser.add_argument('--model', type=str, help='LM to probe file',
-                        choices=['mbert_base', 'bert_base', 'zh_bert_base',
-                                 'el_bert_base', 'camem_base'], default='mbert_base')
     parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
+    parser.add_argument('--model', type=str, help='LM to probe file',
+                        choices=['mbert_base', 'xlmr_base',
+                                 'bert_base', 'zh_bert_base', 'el_bert_base',
+                                 'fr_roberta_base', 'nl_bert_base'], default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
     parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
@@ -98,7 +103,7 @@ if __name__ == '__main__':
     MASK_LABEL = '[MASK]'
     UNK_LABEL = '[UNK]'
     PAD_LABEL = '[PAD]'
-    if LM in {'camembert-base'}:  # RoBERTa
+    if LM in {'camembert-base', 'xlmr_base'}:  # RoBERTa
         MASK_LABEL = '<mask>'
         UNK_LABEL = '<unk>'
         PAD_LABEL = '<pad>'
@@ -129,7 +134,8 @@ if __name__ == '__main__':
 
     # load model
     print('load model')
-    tokenizer = AutoTokenizer.from_pretrained(LM)
+    #tokenizer = AutoTokenizer.from_pretrained(LM)
+    tokenizer = BertTokenizer.from_pretrained(LM)
     MASK = tokenizer.convert_tokens_to_ids(MASK_LABEL)
     UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
     PAD = tokenizer.convert_tokens_to_ids(PAD_LABEL)
