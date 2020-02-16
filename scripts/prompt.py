@@ -41,7 +41,7 @@ class Prompt(object):
                num_mask: int=1, mask_sym: str='[MASK]') -> Tuple[str, str]:
         if num_mask <= 0:
             return prompt.replace('[Y]', label), label
-        return prompt.replace('[Y]', ' '.join(['[MASK]'] * num_mask)), label
+        return prompt.replace('[Y]', ' '.join([mask_sym] * num_mask)), label
 
 
     @staticmethod

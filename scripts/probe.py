@@ -20,9 +20,6 @@ from check_gender import load_entity_gender
 logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
 
-MASK_LABEL = '[MASK]'
-UNK_LABEL = '[UNK]'
-PAD_LABEL = '[PAD]'
 SUB_LABEL = '##'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
@@ -36,6 +33,7 @@ LM_NAME = {
     'bert_base': 'bert-base-cased',
     'zh_bert_base': 'bert-base-chinese',
     'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1',
+    'camem_base': 'camembert-base',
 }
 
 def batcher(data: List, batch_size: int):
@@ -59,7 +57,7 @@ def load_word_ids(ids: List[int], tokenizer) -> str:
     for t in tokenizer.convert_ids_to_tokens(ids):
         if t == PAD_LABEL:
             continue
-        if t.startswith(SUB_LABEL) and len(tokens) > 0:
+        if t.startswith(SUB_LABEL) and len(tokens) > 0:  # TODO: not with RoBERTa
             tokens[-1][0] += t[len(SUB_LABEL):]
             tokens[-1][1] += 1
         else:
@@ -70,7 +68,8 @@ def load_word_ids(ids: List[int], tokenizer) -> str:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--model', type=str, help='LM to probe file',
-                        choices=['mbert_base', 'bert_base', 'zh_bert_base', 'el_bert_base'], default='mbert_base')
+                        choices=['mbert_base', 'bert_base', 'zh_bert_base',
+                                 'el_bert_base', 'camem_base'], default='mbert_base')
     parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
@@ -91,8 +90,19 @@ if __name__ == '__main__':
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     args = parser.parse_args()
-    lm = LM_NAME[args.model]
-    lang = args.lang
+
+    LM = LM_NAME[args.model]
+    LANG = args.lang
+
+    # default for BERT-like models
+    MASK_LABEL = '[MASK]'
+    UNK_LABEL = '[UNK]'
+    PAD_LABEL = '[PAD]'
+    if LM in {'camembert-base'}:  # RoBERTa
+        MASK_LABEL = '<mask>'
+        UNK_LABEL = '<unk>'
+        PAD_LABEL = '<pad>'
+
     NUM_MASK = args.num_mask
     BATCH_SIZE = args.batch_size
 
@@ -119,21 +129,23 @@ if __name__ == '__main__':
 
     # load model
     print('load model')
-    tokenizer = BertTokenizer.from_pretrained(lm)
+    tokenizer = AutoTokenizer.from_pretrained(LM)
     MASK = tokenizer.convert_tokens_to_ids(MASK_LABEL)
     UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
-    model = BertForMaskedLM.from_pretrained(lm)
+    PAD = tokenizer.convert_tokens_to_ids(PAD_LABEL)
+    model = AutoModelWithLMHead.from_pretrained(LM)
     model.to('cuda')
     model.eval()
 
     # load promp rendering model
-    prompt_model = Prompt.from_lang(lang, args.disable_inflection, args.disable_article)
+    prompt_model = Prompt.from_lang(LANG, args.disable_inflection, args.disable_article)
 
     # load vocab
     '''
     with open(VOCAB_PATH) as fin:
         allowed_vocab = [l.strip() for l in fin]
         allowed_vocab = set(allowed_vocab)
+    # TODO: not work with RoBERTa
     restrict_vocab = [tokenizer.vocab[w] for w in tokenizer.vocab if not w in allowed_vocab]
     '''
     # TODO: add a shared vocab for all LMs?
@@ -165,8 +177,8 @@ if __name__ == '__main__':
             with open(f) as fin:
                 for l in fin:
                     l = json.loads(l)
-                    sub_exist = lang in entity2lang[l['sub_uri']]
-                    obj_exist = lang in entity2lang[l['obj_uri']]
+                    sub_exist = LANG in entity2lang[l['sub_uri']]
+                    obj_exist = LANG in entity2lang[l['obj_uri']]
                     if restricted_facts is not None and \
                             (l['sub_uri'], l['obj_uri']) not in restricted_facts:
                         continue
@@ -182,11 +194,11 @@ if __name__ == '__main__':
                     l['obj_gender'] = entity2gender[l['obj_uri']]
                     # resort to English label
                     if args.sub_obj_same_lang:
-                        l['sub_label'] = entity2lang[l['sub_uri']][lang if exist else 'en']
-                        l['obj_label'] = entity2lang[l['obj_uri']][lang if exist else 'en']
+                        l['sub_label'] = entity2lang[l['sub_uri']][LANG if exist else 'en']
+                        l['obj_label'] = entity2lang[l['obj_uri']][LANG if exist else 'en']
                     else:
-                        l['sub_label'] = entity2lang[l['sub_uri']][lang if sub_exist else 'en']
-                        l['obj_label'] = entity2lang[l['obj_uri']][lang if obj_exist else 'en']
+                        l['sub_label'] = entity2lang[l['sub_uri']][LANG if sub_exist else 'en']
+                        l['obj_label'] = entity2lang[l['obj_uri']][LANG if obj_exist else 'en']
                     if UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])) or \
                             UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])):
                         not_exist += 1
@@ -201,7 +213,7 @@ if __name__ == '__main__':
                 with open(os.path.join(args.prompts, relation + '.jsonl'), 'r') as fin:
                     prompts = [json.loads(l)['template'] for l in fin][:50]  # TODO: top 50
             else:
-                prompts = [prompt_lang[prompt_lang['pid'] == relation][lang].iloc[0]]
+                prompts = [prompt_lang[prompt_lang['pid'] == relation][LANG].iloc[0]]
 
             correct_facts: Set[Tuple[str, str]] = set()
             for prompt in prompts:
@@ -219,11 +231,15 @@ if __name__ == '__main__':
                             inp, obj_label = prompt_model.fill_y(
                                 instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
                                 num_mask=nm + 1, mask_sym=MASK_LABEL)
-                            if args.model == 'el_bert_base':
+                            if args.model == 'el_bert_base':  # TODO: may be unnecessary
                                 inp = prompt_model.normalize(inp, mask_sym=MASK_LABEL)
                                 obj_label = prompt_model.normalize(obj_label)
+                            #print(inp)
                             inp: List[int] = tokenizer.encode(inp)
+                            #print(inp)
+                            #print(tokenizer.convert_ids_to_tokens(inp))
                             inp_tensor.append(torch.tensor(inp))
+                        #input()
 
                         # tokenize gold object
                         obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
@@ -235,7 +251,8 @@ if __name__ == '__main__':
                         obj_ori_li.append(obj_ori)
 
                     # SHAPE: (batch_size * num_mask, seq_len)
-                    inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(inp_tensor, batch_first=True, padding_value=0).cuda()
+                    inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
+                        inp_tensor, batch_first=True, padding_value=PAD).cuda()
                     attention_mask: torch.Tensor = inp_tensor.ne(0).long().cuda()
                     # SHAPE: (batch_size, num_mask, seq_len)
                     mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
