@@ -311,6 +311,7 @@ if __name__ == '__main__':
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
             print(e)
+            raise e
         finally:
             if args.log_dir:
                 log_file.close()
