@@ -103,7 +103,7 @@ if __name__ == '__main__':
     MASK_LABEL = '[MASK]'
     UNK_LABEL = '[UNK]'
     PAD_LABEL = '[PAD]'
-    if LM in {'camembert-base', 'xlmr_base'}:  # RoBERTa
+    if LM in {'camembert-base', 'xlm-roberta-base'}:  # RoBERTa
         MASK_LABEL = '<mask>'
         UNK_LABEL = '<unk>'
         PAD_LABEL = '<pad>'
@@ -134,8 +134,7 @@ if __name__ == '__main__':
 
     # load model
     print('load model')
-    #tokenizer = AutoTokenizer.from_pretrained(LM)
-    tokenizer = BertTokenizer.from_pretrained(LM)
+    tokenizer = AutoTokenizer.from_pretrained(LM)
     MASK = tokenizer.convert_tokens_to_ids(MASK_LABEL)
     UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
     PAD = tokenizer.convert_tokens_to_ids(PAD_LABEL)
@@ -240,12 +239,8 @@ if __name__ == '__main__':
                             if args.model == 'el_bert_base':  # TODO: may be unnecessary
                                 inp = prompt_model.normalize(inp, mask_sym=MASK_LABEL)
                                 obj_label = prompt_model.normalize(obj_label)
-                            #print(inp)
                             inp: List[int] = tokenizer.encode(inp)
-                            #print(inp)
-                            #print(tokenizer.convert_ids_to_tokens(inp))
                             inp_tensor.append(torch.tensor(inp))
-                        #input()
 
                         # tokenize gold object
                         obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
@@ -259,7 +254,7 @@ if __name__ == '__main__':
                     # SHAPE: (batch_size * num_mask, seq_len)
                     inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
                         inp_tensor, batch_first=True, padding_value=PAD).cuda()
-                    attention_mask: torch.Tensor = inp_tensor.ne(0).long().cuda()
+                    attention_mask: torch.Tensor = inp_tensor.ne(PAD).long().cuda()
                     # SHAPE: (batch_size, num_mask, seq_len)
                     mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
 
