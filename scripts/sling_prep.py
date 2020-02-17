@@ -154,6 +154,17 @@ class SlingExtractorForQualifier(SlingExtractor):
             yield doc_wid, doc_title, colored_text
 
 
+def locate_entity(entities: Set[str], sling_recfiles: List[str]) -> set:
+    s = SlingExtractorForQualifier()
+    for sr in sling_recfiles:
+        s.load_corpus(sr)
+        for wid, tokens, mentions in tqdm(s.iter_mentions(wid_set=None, only_entity=True, split_by='sentence')):
+            for entity, start, end in mentions:
+                if entity not in entities:
+                    continue
+                yield tokens, entity, start, end
+
+
 def locate_fact(facts: Set[Tuple[str, str]], sling_recfiles: List[str], thres: int) -> set:
     s = SlingExtractorForQualifier()
     notfound = set(facts)
@@ -271,7 +282,7 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
-    parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds'])
+    parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds', 'cw_gen_data'])
     parser.add_argument('--lang', type=str, help='language to probe', choices=['el', 'fr', 'nl'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
     parser.add_argument('--inp', type=str, default=None)
@@ -332,3 +343,20 @@ if __name__ == '__main__':
                 if len(tokens) > 128:
                     continue
                 fout.write(pid + '\t' + ' '.join(tokens) + '\n')
+
+    elif args.task == 'cw_gen_data':
+        entities: Set[str] = {}
+        entity2lang: Dict[str, Dict[str]] = load_entity_lang(ENTITY_LANG_PATH)
+        if not os.path.exists(args.out):
+            os.makedirs(args.out, exist_ok=True)
+        for lang_from, lang_to in [('en', args.lang), (args.lang, 'en')]:
+            # code-switching for two directions
+            with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
+                for sent, entity, start, end in locate_entity(
+                        entities, glob.glob('data/sling/{}/*.rec'.format(lang_from))):
+                    if entity not in entity2lang or lang_to not in entity2lang[entity]:
+                        continue
+                    from_entity = ' '.join(sent[start:end])
+                    to_entity = entity2lang[entity][lang_to]
+                    sent = sent[:start] + ' [[*]] ' + sent[end:]
+                    fout.write('{}\t{}\t{}\n'.format(sent, from_entity, to_entity))
