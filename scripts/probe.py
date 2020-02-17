@@ -31,6 +31,7 @@ ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
 LM_NAME = {
     # multilingual model
     'mbert_base': 'bert-base-multilingual-cased',
+    'xlm_base': 'xlm-mlm-100-1280',
     'xlmr_base': 'xlm-roberta-base',
     # language-specific model
     'bert_base': 'bert-base-cased',
@@ -73,7 +74,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
     parser.add_argument('--model', type=str, help='LM to probe file',
-                        choices=['mbert_base', 'xlmr_base',
+                        choices=['mbert_base', 'xlmr_base', 'xlm_base',
                                  'bert_base', 'zh_bert_base', 'el_bert_base',
                                  'fr_roberta_base', 'nl_bert_base'], default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
@@ -98,15 +99,6 @@ if __name__ == '__main__':
 
     LM = LM_NAME[args.model]
     LANG = args.lang
-
-    # default for BERT-like models
-    MASK_LABEL = '[MASK]'
-    UNK_LABEL = '[UNK]'
-    PAD_LABEL = '[PAD]'
-    if LM in {'camembert-base', 'xlm-roberta-base'}:  # RoBERTa
-        MASK_LABEL = '<mask>'
-        UNK_LABEL = '<unk>'
-        PAD_LABEL = '<pad>'
 
     NUM_MASK = args.num_mask
     BATCH_SIZE = args.batch_size
@@ -135,12 +127,17 @@ if __name__ == '__main__':
     # load model
     print('load model')
     tokenizer = AutoTokenizer.from_pretrained(LM)
-    MASK = tokenizer.convert_tokens_to_ids(MASK_LABEL)
-    UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
-    PAD = tokenizer.convert_tokens_to_ids(PAD_LABEL)
     model = AutoModelWithLMHead.from_pretrained(LM)
     model.to('cuda')
     model.eval()
+
+    # special tokens
+    MASK_LABEL = tokenizer.mask_token
+    UNK_LABEL = tokenizer.unk_token
+    PAD_LABEL = tokenizer.pad_token
+    MASK = tokenizer.convert_tokens_to_ids(MASK_LABEL)
+    UNK = tokenizer.convert_tokens_to_ids(UNK_LABEL)
+    PAD = tokenizer.convert_tokens_to_ids(PAD_LABEL)
 
     # load promp rendering model
     prompt_model = Prompt.from_lang(LANG, args.disable_inflection, args.disable_article)
