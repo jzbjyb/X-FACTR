@@ -158,11 +158,10 @@ def locate_entity(entities: Set[str], sling_recfiles: List[str]) -> set:
     s = SlingExtractorForQualifier()
     for sr in sling_recfiles:
         s.load_corpus(sr)
-        for wid, tokens, mentions in tqdm(s.iter_mentions(wid_set=None, only_entity=True, split_by='sentence')):
-            for entity, start, end in mentions:
-                if entity not in entities:
-                    continue
-                yield tokens, entity, start, end
+        # TODO: only find sentences in articles corresponding to these entities
+        for wid, tokens, mentions in tqdm(s.iter_mentions(wid_set=entities, only_entity=True, split_by='sentence')):
+            mentions = [mention for mention in mentions if mention[0] in entities]
+            yield tokens, mentions
 
 
 def locate_fact(facts: Set[Tuple[str, str]], sling_recfiles: List[str], thres: int) -> set:
@@ -345,18 +344,45 @@ if __name__ == '__main__':
                 fout.write(pid + '\t' + ' '.join(tokens) + '\n')
 
     elif args.task == 'cw_gen_data':
-        entities: Set[str] = {}
-        entity2lang: Dict[str, Dict[str]] = load_entity_lang(ENTITY_LANG_PATH)
+        # load entities we want to identify
+        with open('data/lang/{}_en_fact.json'.format(args.lang), 'r') as fin:
+            entities: Set[str] = set(e for f in json.load(fin)['join'] for e in f)
+            print('#entities {}'.format(len(entities)))
+        # load entities' translations
+        entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(ENTITY_LANG_PATH)
+
         if not os.path.exists(args.out):
             os.makedirs(args.out, exist_ok=True)
-        for lang_from, lang_to in [('en', args.lang), (args.lang, 'en')]:
+        for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
             # code-switching for two directions
             with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
-                for sent, entity, start, end in locate_entity(
+                for sent, mentions in locate_entity(
                         entities, glob.glob('data/sling/{}/*.rec'.format(lang_from))):
-                    if entity not in entity2lang or lang_to not in entity2lang[entity]:
+                    if len(sent) >= 128:  # TODO: focus on short sentence
                         continue
-                    from_entity = ' '.join(sent[start:end])
-                    to_entity = entity2lang[entity][lang_to]
-                    sent = sent[:start] + ' [[*]] ' + sent[end:]
-                    fout.write('{}\t{}\t{}\n'.format(sent, from_entity, to_entity))
+
+                    mentions = [m for m in mentions if m[0] in entity2lang and lang_to in entity2lang[m[0]]]
+                    pos2mentind: Dict[int, int] = {}
+                    for i, (entity, start, end) in enumerate(mentions):
+                        for j in range(start, end):
+                            if j in pos2mentind:
+                                break  # avoid overlapping mentions
+                            pos2mentind[j] = i
+
+                    surface_from: List[str] = []
+                    surface_to: List[str] = []
+                    tokens: List[str] = []
+                    for i in range(len(sent)):
+                        if i not in pos2mentind:
+                            tokens.append(sent[i])
+                        elif i in pos2mentind and (i - 1) in pos2mentind and pos2mentind[i] == pos2mentind[i - 1]:
+                            continue
+                        else:
+                            entity, start, end = mentions[pos2mentind[i]]
+                            tokens.append('[[' + entity + ']]')
+                            surface_from.append(' '.join(sent[start:end]))
+                            surface_to.append(entity2lang[entity][lang_to])
+
+                    fout.write('{}\t{}\n'.format(
+                        ' '.join(tokens),
+                        ' '.join(['{} ||| {}'.format(f, t) for f, t in zip(surface_from, surface_to)])))
