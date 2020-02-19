@@ -369,6 +369,7 @@ if __name__ == '__main__':
                                 break  # avoid overlapping mentions
                             pos2mentind[j] = i
 
+                    entity_id: List[str] = []
                     surface_from: List[str] = []
                     surface_to: List[str] = []
                     tokens: List[str] = []
@@ -380,9 +381,11 @@ if __name__ == '__main__':
                         else:
                             entity, start, end = mentions[pos2mentind[i]]
                             tokens.append('[[' + entity + ']]')
+                            entity_id.append(entity)
                             surface_from.append(' '.join(sent[start:end]))
                             surface_to.append(entity2lang[entity][lang_to])
 
                     fout.write('{}\t{}\n'.format(
                         ' '.join(tokens),
-                        ' '.join(['{} ||| {}'.format(f, t) for f, t in zip(surface_from, surface_to)])))
+                        '\t'.join(['{} ||| {} ||| {}'.format(e, f, t)
+                                   for e, f, t in zip(entity_id, surface_from, surface_to)])))
