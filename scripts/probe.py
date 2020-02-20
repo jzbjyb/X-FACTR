@@ -95,6 +95,7 @@ if __name__ == '__main__':
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
+    parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
     LM = LM_NAME[args.model]
@@ -126,9 +127,11 @@ if __name__ == '__main__':
 
     # load model
     print('load model')
+    #LM = '/dfs/scratch0/xren7/zhengbaj/exp/transformers/result/el_raw'
     tokenizer = AutoTokenizer.from_pretrained(LM)
     model = AutoModelWithLMHead.from_pretrained(LM)
-    model.to('cuda')
+    if torch.cuda.is_available() and not args.no_cuda:
+        model.to('cuda')
     model.eval()
 
     # special tokens
@@ -157,6 +160,8 @@ if __name__ == '__main__':
         os.makedirs(args.log_dir)
 
     all_queries = []
+    num_correct_fact = 0
+    num_fact = 0
     for pattern in patterns:
         relation = pattern['relation']
         if args.log_dir:
@@ -250,10 +255,14 @@ if __name__ == '__main__':
 
                     # SHAPE: (batch_size * num_mask, seq_len)
                     inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
-                        inp_tensor, batch_first=True, padding_value=PAD).cuda()
-                    attention_mask: torch.Tensor = inp_tensor.ne(PAD).long().cuda()
+                        inp_tensor, batch_first=True, padding_value=PAD)
+                    attention_mask: torch.Tensor = inp_tensor.ne(PAD).long()
                     # SHAPE: (batch_size, num_mask, seq_len)
-                    mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().cuda().view(batch_size, NUM_MASK, -1)
+                    mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().view(batch_size, NUM_MASK, -1)
+                    if torch.cuda.is_available() and not args.no_cuda:
+                        inp_tensor = inp_tensor.cuda()
+                        attention_mask = attention_mask.cuda()
+                        mask_ind = mask_ind.cuda()
 
                     # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
                     logit = model(inp_tensor, attention_mask=attention_mask)[0]
@@ -302,8 +311,10 @@ if __name__ == '__main__':
                         '''
                 print('pid {}\tacc {:.4f}/{:.4f}\tlen_acc {:.4f}/{:.4f}\tprompt {}'.format(
                     relation, np.mean(acc), np.mean(acc_ori), np.mean(len_acc), np.mean(len_acc_ori), prompt))
+            num_correct_fact += len(correct_facts)
+            num_fact += len(queries)
             print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\toracle {:.4f}'.format(
-                relation, len(queries), num_skip, not_exist, num_multi_word, len(correct_facts) / len(queries)))
+                relation, len(queries), num_skip, not_exist, num_multi_word, len(correct_facts) / (len(queries) + 1e-10)))
         except Exception as e:
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
@@ -311,3 +322,4 @@ if __name__ == '__main__':
         finally:
             if args.log_dir:
                 log_file.close()
+    print('acc over all facts: {}/{}={:.4f}'.format(num_correct_fact, num_fact, num_correct_fact / num_fact))

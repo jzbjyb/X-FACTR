@@ -62,10 +62,13 @@ class CodeSwitchDataset(object):
              mentions: List[Tuple[str, str, str]],
              fill_inds: Set[int]=None,
              replace: bool=False,
-             sorted: bool=True) -> str:
+             sorted: bool=True,
+             tab_for_filled_mention: bool=False) -> str:
         '''
         :param replace: If true, use targets to fill in blanks.
         :param sorted: If true, assume the mentions are aligned with the blanks.
+        :param tab_for_filled_mention: If true, mentions are separated with the context using tab
+            (mentions always occur in even positions)
         '''
         if sorted:
             new_tokens: List[str] = []
@@ -74,10 +77,14 @@ class CodeSwitchDataset(object):
                 if prev_pos < match.start(0):
                     new_tokens.append(tokens[prev_pos:match.start(0)])
                 mid, source, target = mentions[i]
-                if fill_inds and i not in fill_inds:  # not fill
+                if fill_inds is not None and i not in fill_inds:  # not fill
                     new_tokens.append(match.group(0))
                 else:
+                    if tab_for_filled_mention:
+                        new_tokens.append('\t')
                     new_tokens.append(target if replace else source)
+                    if tab_for_filled_mention:
+                        new_tokens.append('\t')
                 prev_pos = match.end(0)
             new_tokens.append(tokens[prev_pos:])
             return ''.join(new_tokens)
@@ -143,15 +150,16 @@ if __name__ == '__main__':
 
     if args.task == 'gen':
         for split in ['train', 'test']:
-            with open('data/cs/el_en_filter/{}_raw.txt'.format(split), 'w') as fout:
+            with open('data/cs/el_en_filter/{}{}.txt'.format(
+                    split, '_raw' if not args.replace else ''), 'w') as fout:
                 for source, target in [('en', 'el'), ('el', 'en')]:
                     # TODO: the ratio between en and el is not balanced
                     dataset = CodeSwitchDataset('data/cs/el_en_filter/{}_{}.{}.txt'.format(source, target, split))
                     for tokens, mentions in dataset.iter():
-                        sent_source = dataset.fill(tokens, mentions, replace=False)
+                        sent_source = dataset.fill(tokens, mentions, replace=False, tab_for_filled_mention=args.replace)
                         fout.write(sent_source + '\n')
                         if args.replace:
-                            sent_target = dataset.fill(tokens, mentions, replace=True)
+                            sent_target = dataset.fill(tokens, mentions, replace=True, tab_for_filled_mention=args.replace)
                             fout.write(sent_target + '\n')
 
     elif args.task == 'filter':
@@ -196,6 +204,8 @@ if __name__ == '__main__':
         # filter data
 
         fact_kept = set(map(itemgetter(0), fact2count_kept))
+        with open(os.path.join(args.out, 'fact.json'), 'w') as fout:
+            json.dump({'kept': [list(f) for f in fact_kept]}, fout)
 
         num_mention_kept = num_sent_kept = 0
         test_ratio = 0.1
