@@ -73,10 +73,7 @@ def load_word_ids(ids: List[int], tokenizer) -> str:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
-    parser.add_argument('--model', type=str, help='LM to probe file',
-                        choices=['mbert_base', 'xlmr_base', 'xlm_base',
-                                 'bert_base', 'zh_bert_base', 'el_bert_base',
-                                 'fr_roberta_base', 'nl_bert_base'], default='mbert_base')
+    parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
     parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
@@ -98,7 +95,7 @@ if __name__ == '__main__':
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
-    LM = LM_NAME[args.model]
+    LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path
     LANG = args.lang
 
     NUM_MASK = args.num_mask
@@ -127,7 +124,6 @@ if __name__ == '__main__':
 
     # load model
     print('load model')
-    #LM = '/dfs/scratch0/xren7/zhengbaj/exp/transformers/result/el_raw'
     tokenizer = AutoTokenizer.from_pretrained(LM)
     model = AutoModelWithLMHead.from_pretrained(LM)
     if torch.cuda.is_available() and not args.no_cuda:
@@ -160,6 +156,7 @@ if __name__ == '__main__':
         os.makedirs(args.log_dir)
 
     all_queries = []
+    acc_li: List[float] = []
     num_correct_fact = 0
     num_fact = 0
     for pattern in patterns:
@@ -313,8 +310,10 @@ if __name__ == '__main__':
                     relation, np.mean(acc), np.mean(acc_ori), np.mean(len_acc), np.mean(len_acc_ori), prompt))
             num_correct_fact += len(correct_facts)
             num_fact += len(queries)
+            acc_for_rel = len(correct_facts) / (len(queries) + 1e-10)
+            acc_li.append(acc_for_rel)
             print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\toracle {:.4f}'.format(
-                relation, len(queries), num_skip, not_exist, num_multi_word, len(correct_facts) / (len(queries) + 1e-10)))
+                relation, len(queries), num_skip, not_exist, num_multi_word, acc_for_rel))
         except Exception as e:
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
@@ -322,4 +321,5 @@ if __name__ == '__main__':
         finally:
             if args.log_dir:
                 log_file.close()
-    print('acc over all facts: {}/{}={:.4f}'.format(num_correct_fact, num_fact, num_correct_fact / num_fact))
+    print('acc per fact {}/{}={:.4f}\tacc per relation {}'.format(
+        num_correct_fact, num_fact, num_correct_fact / num_fact, np.mean(acc_li)))
