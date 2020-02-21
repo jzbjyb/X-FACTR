@@ -156,10 +156,10 @@ if __name__ == '__main__':
                     # TODO: the ratio between en and el is not balanced
                     dataset = CodeSwitchDataset('data/cs/el_en_filter/{}_{}.{}.txt'.format(source, target, split))
                     for tokens, mentions in dataset.iter():
-                        sent_source = dataset.fill(tokens, mentions, replace=False, tab_for_filled_mention=args.replace)
+                        sent_source = dataset.fill(tokens, mentions, replace=False, tab_for_filled_mention=True)
                         fout.write(sent_source + '\n')
                         if args.replace:
-                            sent_target = dataset.fill(tokens, mentions, replace=True, tab_for_filled_mention=args.replace)
+                            sent_target = dataset.fill(tokens, mentions, replace=True, tab_for_filled_mention=True)
                             fout.write(sent_target + '\n')
 
     elif args.task == 'filter':
