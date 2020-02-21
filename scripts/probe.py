@@ -70,6 +70,45 @@ def load_word_ids(ids: List[int], tokenizer) -> str:
     return ' '.join(map(lambda t: '{}:{}'.format(*t) if t[1] > 1 else t[0], tokens))
 
 
+def iter_decode(model,
+                inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                restrict_vocab: List[int] = None,
+                mask_value: int = 0,  # indicate which value is used for mask
+                max_iter: int = None,  # max number of iteration
+                tokenizer = None,
+                ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
+    # SHAPE: (batch_size, seq_len)
+    out_tensor: torch.LongTensor = inp_tensor
+    out_logprob: torch.Tensor = 0.0  # tokens not considered have log prob of zero
+    iter = 0
+    while True:
+        # get input
+        if iter > 0:
+            inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
+        # predict
+        # SHAPE: (batch_size, seq_len)
+        mask_mask = inp_tensor.eq(mask_value).long()
+        logit = model(inp_tensor, attention_mask=attention_mask)[0]
+        if restrict_vocab is not None:
+            logit[:, :, restrict_vocab] = float('-inf')
+        # SHAPE: (batch_size, seq_len)
+        new_out_logprob, new_out_tensor = logit.log_softmax(-1).max(-1)
+        # merge results
+        # SHAPE: (batch_size, seq_len)
+        changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
+        if not changes.any().item():  # no changes
+            break
+        # only modify tokens that have changes
+        changes = changes.long()
+        out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
+        out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob * changes.float()
+        iter += 1
+        if max_iter is not None and iter >= max_iter:
+            break
+    return out_tensor, out_logprob, iter
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
@@ -91,6 +130,7 @@ if __name__ == '__main__':
     parser.add_argument('--disable_article', action='store_true')
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
+    parser.add_argument('--max_iter', type=int, help='the maximum number of iteration in decoding', default=None)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
@@ -159,6 +199,7 @@ if __name__ == '__main__':
     acc_li: List[float] = []
     num_correct_fact = 0
     num_fact = 0
+    iters: List[int] = []
     for pattern in patterns:
         relation = pattern['relation']
         if args.log_dir:
@@ -261,14 +302,21 @@ if __name__ == '__main__':
                         attention_mask = attention_mask.cuda()
                         mask_ind = mask_ind.cuda()
 
+                    '''
                     # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
                     logit = model(inp_tensor, attention_mask=attention_mask)[0]
                     logit[:, :, restrict_vocab] = float('-inf')
                     logprob = logit.log_softmax(-1)
+                    logprob, out_tensor = logprob.max(-1)
+                    '''
+
                     # SHAPE: (batch_size * num_mask, seq_len)
-                    logprob, rank = logprob.max(-1)
+                    out_tensor, logprob, iter = iter_decode(
+                        model, inp_tensor, attention_mask,
+                        restrict_vocab=restrict_vocab, mask_value=MASK, max_iter=args.max_iter, tokenizer=tokenizer)
+                    iters.append(iter)
                     # SHAPE: (batch_size, num_mask, seq_len)
-                    logprob, rank = logprob.view(batch_size, NUM_MASK, -1), rank.view(batch_size, NUM_MASK, -1)
+                    logprob, out_tensor = logprob.view(batch_size, NUM_MASK, -1), out_tensor.view(batch_size, NUM_MASK, -1)
 
                     # find the best setting
                     inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
@@ -276,7 +324,7 @@ if __name__ == '__main__':
                         best_num_mask = avg_log.max(0)[1]
                         obj = obj_li[i]
                         obj_ori = obj_ori_li[i]
-                        pred: np.ndarray = rank[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
+                        pred: np.ndarray = out_tensor[i, best_num_mask].masked_select(mask_ind[i, best_num_mask].eq(1))\
                             .detach().cpu().numpy().reshape(-1)
                         is_correct = int((len(pred) == len(obj)) and (pred == obj).all())
                         is_correct_ori = int((len(pred) == len(obj_ori)) and (pred == obj_ori).all())
@@ -290,7 +338,7 @@ if __name__ == '__main__':
                         print('===', tokenizer.convert_ids_to_tokens(obj), is_correct, '===')
                         for j in range(NUM_MASK):
                             print(tokenizer.convert_ids_to_tokens(inp_tensor[i, j].detach().cpu().numpy()))
-                            tpred = rank[i, j].masked_select(mask_ind[i, j].eq(1)).detach().cpu().numpy().reshape(-1)
+                            tpred = out_tensor[i, j].masked_select(mask_ind[i, j].eq(1)).detach().cpu().numpy().reshape(-1)
                             print(tokenizer.convert_ids_to_tokens(tpred), avg_log[j])
                         input()
                         '''
@@ -321,5 +369,5 @@ if __name__ == '__main__':
         finally:
             if args.log_dir:
                 log_file.close()
-    print('acc per fact {}/{}={:.4f}\tacc per relation {}'.format(
-        num_correct_fact, num_fact, num_correct_fact / num_fact, np.mean(acc_li)))
+    print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}'.format(
+        num_correct_fact, num_fact, num_correct_fact / num_fact, np.mean(acc_li), np.mean(iters)))
