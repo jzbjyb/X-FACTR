@@ -5,6 +5,7 @@ sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 from typing import List, Dict, Tuple, Set
 import torch
 from transformers import *
+import transformers
 import json
 import numpy as np
 import os
@@ -40,6 +41,26 @@ LM_NAME = {
     'fr_roberta_base': 'camembert-base',
     'nl_bert_base': 'bert-base-dutch-cased',
 }
+
+
+def model_prediction_wrap(model, inp_tensor, attention_mask):
+    logit = model(inp_tensor, attention_mask=attention_mask)[0]
+    if transformers.__version__ in {'2.4.1', '2.4.0'}:
+        if hasattr(model, 'cls'):  # bert
+            bias = model.cls.predictions.bias
+        elif hasattr(model, 'lm_head'):  # roberta
+            bias = model.lm_head.bias
+        elif hasattr(model, 'pred_layer'):  # xlm
+            bias = 0.0
+        else:
+            raise Exception('not sure whether the bias is correct')
+        logit = logit - bias
+    elif transformers.__version__ in {'2.3.0'}:
+        pass
+    else:
+        raise Exception('not sure whether version {} is correct'.format(transformers.__version__))
+    return logit
+
 
 def batcher(data: List, batch_size: int):
     for i in range(0, len(data), batch_size):
@@ -89,7 +110,7 @@ def iter_decode(model,
         # predict
         # SHAPE: (batch_size, seq_len)
         mask_mask = inp_tensor.eq(mask_value).long()
-        logit = model(inp_tensor, attention_mask=attention_mask)[0]
+        logit = model_prediction_wrap(model, inp_tensor, attention_mask)
         if restrict_vocab is not None:
             logit[:, :, restrict_vocab] = float('-inf')
         # SHAPE: (batch_size, seq_len)
@@ -130,8 +151,9 @@ if __name__ == '__main__':
     parser.add_argument('--disable_article', action='store_true')
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
-    parser.add_argument('--max_iter', type=int, help='the maximum number of iteration in decoding', default=None)
+    parser.add_argument('--max_iter', type=int, help='the maximum number of iteration in decoding', default=1)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
+    parser.add_argument('--no_len_norm', action='store_true', help='not use length normalization')
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
@@ -296,19 +318,11 @@ if __name__ == '__main__':
                         inp_tensor, batch_first=True, padding_value=PAD)
                     attention_mask: torch.Tensor = inp_tensor.ne(PAD).long()
                     # SHAPE: (batch_size, num_mask, seq_len)
-                    mask_ind: torch.Tensor = inp_tensor.eq(MASK).float().view(batch_size, NUM_MASK, -1)
+                    mask_ind: torch.Tensor = inp_tensor.eq(MASK).view(batch_size, NUM_MASK, -1).float()
                     if torch.cuda.is_available() and not args.no_cuda:
                         inp_tensor = inp_tensor.cuda()
                         attention_mask = attention_mask.cuda()
                         mask_ind = mask_ind.cuda()
-
-                    '''
-                    # SHAPE: (batch_size * num_mask, seq_len, vocab_size)
-                    logit = model(inp_tensor, attention_mask=attention_mask)[0]
-                    logit[:, :, restrict_vocab] = float('-inf')
-                    logprob = logit.log_softmax(-1)
-                    logprob, out_tensor = logprob.max(-1)
-                    '''
 
                     # SHAPE: (batch_size * num_mask, seq_len)
                     out_tensor, logprob, iter = iter_decode(
@@ -320,7 +334,9 @@ if __name__ == '__main__':
 
                     # find the best setting
                     inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
-                    for i, avg_log in enumerate(((logprob * mask_ind).sum(-1) / mask_ind.sum(-1))):
+                    mask_len = mask_ind.sum(-1)
+                    mask_len_norm = 1.0 if args.no_len_norm else mask_len
+                    for i, avg_log in enumerate((logprob * mask_ind).sum(-1) / mask_len_norm):
                         best_num_mask = avg_log.max(0)[1]
                         obj = obj_li[i]
                         obj_ori = obj_ori_li[i]
