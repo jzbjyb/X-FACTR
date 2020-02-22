@@ -2,7 +2,7 @@ import sys
 from os.path import dirname, abspath
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple, Set, Callable
 import torch
 from transformers import *
 import transformers
@@ -60,6 +60,18 @@ def model_prediction_wrap(model, inp_tensor, attention_mask):
     else:
         raise Exception('not sure whether version {} is correct'.format(transformers.__version__))
     return logit
+
+
+def tokenizer_wrap(tokenizer, lang: str, encode: bool, *args, **kwargs):
+    params = dict()
+    if type(tokenizer) is transformers.tokenization_xlm.XLMTokenizer:
+        if lang.startswith('zh-'):
+            lang = 'zh'
+        params = {'lang': lang}
+    if encode:
+        return tokenizer.encode(*args, **kwargs, **params)
+    else:
+        return tokenizer.convert_tokens_to_ids(tokenizer.tokenize(*args, **kwargs, **params))
 
 
 def batcher(data: List, batch_size: int):
@@ -266,8 +278,8 @@ if __name__ == '__main__':
                     else:
                         l['sub_label'] = entity2lang[l['sub_uri']][LANG if sub_exist else 'en']
                         l['obj_label'] = entity2lang[l['obj_uri']][LANG if obj_exist else 'en']
-                    if UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])) or \
-                            UNK in tokenizer.convert_tokens_to_ids(tokenizer.tokenize(l['sub_label'])):
+                    if UNK in tokenizer_wrap(tokenizer, LANG, False, l['sub_label']) or \
+                            UNK in tokenizer_wrap(tokenizer, LANG, False, l['obj_label']):
                         not_exist += 1
                         continue
                     if args.skip_multi_word and ' ' in l['obj_label']:
@@ -301,16 +313,16 @@ if __name__ == '__main__':
                             if args.model == 'el_bert_base':  # TODO: may be unnecessary
                                 inp = prompt_model.normalize(inp, mask_sym=MASK_LABEL)
                                 obj_label = prompt_model.normalize(obj_label)
-                            inp: List[int] = tokenizer.encode(inp)
+                            inp: List[int] = tokenizer_wrap(tokenizer, LANG, True, inp)
                             inp_tensor.append(torch.tensor(inp))
 
                         # tokenize gold object
-                        obj = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(obj_label))).reshape(-1)
+                        obj = np.array(tokenizer_wrap(tokenizer, LANG, False, obj_label)).reshape(-1)
                         if len(obj) > NUM_MASK:
                             logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
                         obj_li.append(obj)
                         # tokenize gold object (before inflection)
-                        obj_ori = np.array(tokenizer.convert_tokens_to_ids(tokenizer.tokenize(query['obj_label']))).reshape(-1)
+                        obj_ori = np.array(tokenizer_wrap(tokenizer, LANG, False, query['obj_label'])).reshape(-1)
                         obj_ori_li.append(obj_ori)
 
                     # SHAPE: (batch_size * num_mask, seq_len)
