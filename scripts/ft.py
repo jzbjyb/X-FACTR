@@ -132,8 +132,11 @@ def train(args, dataset, model: PreTrainedModel, tokenizer: PreTrainedTokenizer)
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='fine-tune multilingual PLM')
     parser.add_argument('--task', type=str, choices=['filter', 'gen'])
+    parser.add_argument('--inp', type=str, help='output')
     parser.add_argument('--out', type=str, help='output')
     parser.add_argument('--replace', action='store_true')
+    parser.add_argument('--no_ds', action='store_true', help='keep the sentence if entities exist')
+    parser.add_argument('--thres', type=int, default=0)
     args = parser.parse_args()
     '''
     LM = 'bert-base-multilingual-cased'
@@ -150,11 +153,10 @@ if __name__ == '__main__':
 
     if args.task == 'gen':
         for split in ['train', 'test']:
-            with open('data/cs/el_en_filter/{}{}.txt'.format(
-                    split, '_raw' if not args.replace else ''), 'w') as fout:
+            with open('{}/{}{}.txt'.format(args.inp, split, '_raw' if not args.replace else ''), 'w') as fout:
                 for source, target in [('en', 'el'), ('el', 'en')]:
                     # TODO: the ratio between en and el is not balanced
-                    dataset = CodeSwitchDataset('data/cs/el_en_filter/{}_{}.{}.txt'.format(source, target, split))
+                    dataset = CodeSwitchDataset('{}/{}_{}.{}.txt'.format(args.inp, source, target, split))
                     for tokens, mentions in dataset.iter():
                         sent_source = dataset.fill(tokens, mentions, replace=False, tab_for_filled_mention=True)
                         fout.write(sent_source + '\n')
@@ -163,6 +165,8 @@ if __name__ == '__main__':
                             fout.write(sent_target + '\n')
 
     elif args.task == 'filter':
+        test_ratio = 0.1
+
         with open('data/lang/el_en_fact.json', 'r') as fin:
             facts: List[Tuple[str, str]] = json.load(fin)['join']
             facts: Set[Tuple[str, str]] = set(tuple(f) for f in facts)
@@ -194,46 +198,56 @@ if __name__ == '__main__':
             # TODO: counts might be of different scales for different langauges
             fact2count[k] = 2 * en_el_fact2count[k] * el_en_fact2count[k] / (en_el_fact2count[k] + el_en_fact2count[k])
 
-        thres = 50
         fact2count = sorted(fact2count.items(), key=lambda x: -x[1])
-        fact2count_kept = [(f, c) for f, c in fact2count if c >= thres]
-        print('#facts: {} #facts >{}: {}'.format(len(fact2count), thres, len(fact2count_kept)))
+        fact2count_kept = [(f, c) for f, c in fact2count if c >= args.thres]
+        print('#facts: {} #facts >{}: {}'.format(len(fact2count), args.thres, len(fact2count_kept)))
         print(fact2count_kept[:10])
         print(fact2count_kept[-10:])
 
         # filter data
 
+        os.makedirs(args.out, exist_ok=True)
+
         fact_kept = set(map(itemgetter(0), fact2count_kept))
+        entity_kept = set(e for f in fact_kept for e in f)
         with open(os.path.join(args.out, 'fact.json'), 'w') as fout:
             json.dump({'kept': [list(f) for f in fact_kept]}, fout)
 
         num_mention_kept = num_sent_kept = 0
-        test_ratio = 0.1
         for source, target in [('en', 'el'), ('el', 'en')]:
             dataset = CodeSwitchDataset('data/cs/el_en/{}_{}.txt'.format(source, target))
             fact_kept2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
+            entity_kept2count: Dict[str, int] = defaultdict(lambda: 0)
             with open(os.path.join(args.out, '{}_{}.train.txt'.format(source, target)), 'w') as fout_train, \
                     open(os.path.join(args.out, '{}_{}.test.txt'.format(source, target)), 'w') as fout_test:
                 for tokens, mentions in dataset.iter():
                     seen = True
                     kept: Set[int] = set()
-                    for i in range(len(mentions)):
-                        for j in range(i + 1, len(mentions)):
-                            e1, e2 = mentions[i][0], mentions[j][0]
-                            if (e2, e1) in fact_kept:
-                                e1, e2 = e2, e1
-                            if (e1, e2) in fact_kept:
-                                fact_kept2count[(e1, e2)] += 1
+                    if args.no_ds:
+                        for i in range(len(mentions)):
+                            e = mentions[i][0]
+                            if e in entity_kept:
                                 kept.add(i)
-                                kept.add(j)
-                                if fact_kept2count[(e1, e2)] <= 1:
+                                if entity_kept2count[e] <= 1:
                                     seen = False
+                    else:
+                        for i in range(len(mentions)):
+                            for j in range(i + 1, len(mentions)):
+                                e1, e2 = mentions[i][0], mentions[j][0]
+                                if (e2, e1) in fact_kept:
+                                    e1, e2 = e2, e1
+                                if (e1, e2) in fact_kept:
+                                    fact_kept2count[(e1, e2)] += 1
+                                    kept.add(i)
+                                    kept.add(j)
+                                    if fact_kept2count[(e1, e2)] <= 1:
+                                        seen = False
                     if len(kept) > 0:
                         num_mention_kept += len(kept)
                         num_sent_kept += 1
                         fill_in = set(range(len(mentions))) - kept
                         line = dataset.format(tokens, mentions, fill_in=fill_in)
-                        if seen and random.random() <= test_ratio:
+                        if (seen or args.no_ds) and random.random() <= test_ratio:
                             fout_test.write(line + '\n')
                         else:
                             fout_train.write(line + '\n')
