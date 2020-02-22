@@ -135,9 +135,9 @@ def iter_decode(model,
         # only modify tokens that have changes
         changes = changes.long()
         out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
-        out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob * changes.float()
+        out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
         iter += 1
-        if max_iter is not None and iter >= max_iter:
+        if max_iter and iter >= max_iter:  # max_iter can be zero
             break
     return out_tensor, out_logprob, iter
 
@@ -148,8 +148,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
-    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
-                        choices=['en', 'el'], default='en')
+    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use', choices=['el'], default=None)
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
     parser.add_argument('--prompts', type=str, default=None,
@@ -213,7 +212,8 @@ if __name__ == '__main__':
     PAD = tokenizer.convert_tokens_to_ids(PAD_LABEL)
 
     # load promp rendering model
-    prompt_model = Prompt.from_lang(LANG, args.disable_inflection, args.disable_article)
+    prompt_model = Prompt.from_lang(
+        args.prompt_model_lang or LANG, args.disable_inflection, args.disable_article)
 
     # load vocab
     '''
@@ -398,4 +398,4 @@ if __name__ == '__main__':
             if args.log_dir:
                 log_file.close()
     print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}'.format(
-        num_correct_fact, num_fact, num_correct_fact / num_fact, np.mean(acc_li), np.mean(iters)))
+        num_correct_fact, num_fact, num_correct_fact / (num_fact + 1e-10), np.mean(acc_li), np.mean(iters)))
