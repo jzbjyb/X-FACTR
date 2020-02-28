@@ -2,13 +2,14 @@
 
 train_file=data/cs/el_en_all/train.txt
 test_file=data/cs/el_en_all/test.txt
-output=models/el_cs05
+output=$1
 warmup=0
-epoch=10
+epoch=5
 block_size=256
 batch_size=4
 cs_mlm_probability=0.5
-args="${@:1}"
+save_step=100000
+args="${@:2}"
 
 python scripts/run_language_modeling.py \
 	--train_data_file ${train_file} \
@@ -25,8 +26,8 @@ python scripts/run_language_modeling.py \
 	--per_gpu_eval_batch_size ${batch_size} \
 	--warmup_steps ${warmup} \
 	--evaluate_during_training \
-	--logging_steps 5000 \
-	--save_steps 5000 \
+	--logging_steps ${save_step} \
+	--save_steps ${save_step} \
 	--do_train \
 	--do_eval \
 	${args}
