@@ -63,7 +63,7 @@ if __name__ == '__main__':
     print(get_gender(['Q31', 'Q76', 'Q36153']))
     '''
 
-    num_entity_per_query = 1000
+    num_entity_per_query = 300
     uris = []
     genders = {}
     with open(args.inp, 'r') as fin:

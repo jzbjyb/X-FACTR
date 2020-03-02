@@ -24,11 +24,8 @@ logger.setLevel(logging.ERROR)
 SUB_LABEL = '##'
 PREFIX_DATA = '../LAMA/'
 VOCAB_PATH = PREFIX_DATA + 'pre-trained_language_models/common_vocab_cased.txt'
-ENTITY_PATH = 'data/TREx/{}.jsonl'
 RELATION_PATH = 'data/TREx-relations.jsonl'
 PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
-ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
-ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
 LM_NAME = {
     # multilingual model
     'mbert_base': 'bert-base-multilingual-cased',
@@ -144,7 +141,8 @@ def iter_decode(model,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
-    parser.add_argument('--probe', type=str, help='probe dataset', choices=['lama', 'lama-uhn'], default='lama')
+    parser.add_argument('--probe', type=str, help='probe dataset',
+                        choices=['lama', 'lama-uhn', 'mlama'], default='lama')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
@@ -176,8 +174,16 @@ if __name__ == '__main__':
 
     if args.probe == 'lama':
         ENTITY_PATH = 'data/TREx/{}.jsonl'
+        ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
+        ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
     elif args.probe == 'lama-uhn':
         ENTITY_PATH = 'data/TREx_UHN/{}.jsonl'
+        ENTITY_LANG_PATH = 'data/TREx_unicode_escape.txt'
+        ENTITY_GENDER_PATH = 'data/TREx_gender.txt'
+    elif args.probe == 'mlama':
+        ENTITY_PATH = 'data/mTREx/sub/{}.jsonl'
+        ENTITY_LANG_PATH = 'data/mTREx_unicode_escape.txt'
+        ENTITY_GENDER_PATH = 'data/mTREx_gender.txt'
 
     # load relations and templates
     patterns = []
