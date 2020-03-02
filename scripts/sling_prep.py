@@ -281,7 +281,8 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
-    parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds', 'cw_gen_data'])
+    parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds', 'cw_gen_data',
+                                                     'partition_entity', 'partition_fact'])
     parser.add_argument('--lang', type=str, help='language to probe', choices=['el', 'fr', 'nl'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
     parser.add_argument('--inp', type=str, default=None)
@@ -389,3 +390,45 @@ if __name__ == '__main__':
                         ' '.join(tokens),
                         '\t'.join(['{} ||| {} ||| {}'.format(e, f, t)
                                    for e, f, t in zip(entity_id, surface_from, surface_to)])))
+
+    elif args.task == 'partition_entity':
+        # load entities we want to identify
+        with open('data/lang/{}_en_fact.json'.format(args.lang), 'r') as fin:
+            data = json.load(fin)
+        entities: Set[str] = set(e for f in data['join'] for e in f)
+        print('#entities {}'.format(len(entities)))
+        fact_overlap: List[Tuple[str, str]] = []
+        one_overlap: List[Tuple[str, str]] = []
+        no_overlap: List[Tuple[str, str]] = []
+        for part in ['en', args.lang, 'none']:
+            for sub, obj in data[part]:
+                if sub in entities and obj in entities:
+                    fact_overlap.append((sub, obj))
+                elif sub in entities or obj in entities:
+                    one_overlap.append((sub, obj))
+                else:
+                    no_overlap.append((sub, obj))
+        print('#fact {}, #fact ol {}, #one ov {}, #no ol {}'.format(
+            len(data['join']), len(fact_overlap), len(one_overlap), len(no_overlap)))
+        with open(args.out, 'w') as fout:
+            json.dump({'fact': data['join'],
+                       'fact_overlap': fact_overlap,
+                       'one_overlap': one_overlap,
+                       'no_overlap': no_overlap}, fout, indent=True)
+
+    elif args.task == 'partition_fact':
+        en_el_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
+        el_en_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
+
+        for source, target in [('en', 'el'), ('el', 'en')]:
+            dataset = CodeSwitchDataset('data/cs/el_en/{}_{}.txt'.format(source, target))
+            fact2count = eval('{}_{}_fact2count'.format(source, target))
+            for tokens, mentions in dataset.iter():
+                for i in range(len(mentions)):
+                    for j in range(i + 1, len(mentions)):
+                        e1, e2 = mentions[i][0], mentions[j][0]
+                        if (e1, e2) in facts:
+                            fact2count[(e1, e2)] += 1
+                        if (e2, e1) in facts:
+                            fact2count[(e2, e1)] += 1
+

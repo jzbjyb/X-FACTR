@@ -131,7 +131,7 @@ def train(args, dataset, model: PreTrainedModel, tokenizer: PreTrainedTokenizer)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='fine-tune multilingual PLM')
-    parser.add_argument('--task', type=str, choices=['filter', 'gen'])
+    parser.add_argument('--task', type=str, choices=['filter', 'gen', 'partition_by_ds'])
     parser.add_argument('--inp', type=str, help='output')
     parser.add_argument('--out', type=str, help='output')
     parser.add_argument('--replace', action='store_true')
@@ -200,6 +200,7 @@ if __name__ == '__main__':
 
         fact2count = sorted(fact2count.items(), key=lambda x: -x[1])
         fact2count_kept = [(f, c) for f, c in fact2count if c >= args.thres]
+        print('#init facts: {}, #facts found mentioned in text {}'.format(len(facts), len(fact2count)))
         print('#facts: {} #facts >{}: {}'.format(len(fact2count), args.thres, len(fact2count_kept)))
         print(fact2count_kept[:10])
         print(fact2count_kept[-10:])
@@ -252,3 +253,55 @@ if __name__ == '__main__':
                         else:
                             fout_train.write(line + '\n')
         print('#sentences {}, #mentions {}'.format(num_sent_kept, num_mention_kept))
+
+    elif args.task == 'partition_by_ds':
+        with open('data/lang/el_en_fact.json', 'r') as fin:
+            data = json.load(fin)
+        facts: Set[Tuple[str, str]] = set()
+        for k, v in data.items():
+            facts.update([tuple(f) for f in v])
+        entities: Set[str] = set([e for f in facts for e in f])
+        print('#facts {}, #entities {}'.format(len(facts), len(entities)))
+
+        en_el_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
+        en_el_entity2count: Dict[str, int] = defaultdict(lambda: 0)
+        el_en_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
+        el_en_entity2count: Dict[str, int] = defaultdict(lambda: 0)
+        for source, target in [('en', 'el'), ('el', 'en')]:
+            dataset = CodeSwitchDataset('data/cs/el_en_all/{}_{}.train.txt'.format(source, target))
+            fact2count = eval('{}_{}_fact2count'.format(source, target))
+            entity2count = eval('{}_{}_entity2count'.format(source, target))
+            for tokens, mentions in dataset.iter():
+                for i in range(len(mentions)):
+                    entity2count[mentions[i][0]] += 1
+                    for j in range(i + 1, len(mentions)):
+                        e1, e2 = mentions[i][0], mentions[j][0]
+                        if (e1, e2) in facts:
+                            fact2count[(e1, e2)] += 1
+                        if (e2, e1) in facts:
+                            fact2count[(e2, e1)] += 1
+
+        both = set(en_el_fact2count.keys()) & set(el_en_fact2count.keys())
+        en = set(en_el_fact2count.keys()) - both
+        el = set(el_en_fact2count.keys()) - both
+        none = facts - both - en - el
+
+        print('{}\t{}\t{}\t{}'.format(len(both), len(en), len(el), len(none)))
+
+        both_entity = set(en_el_entity2count.keys()) & set(el_en_entity2count.keys())
+        en_entity = set(en_el_entity2count.keys()) - both_entity
+        el_entity = set(el_en_entity2count.keys()) - both_entity
+        none_entity = entities - both_entity - en_entity - el_entity
+        print('{}\t{}\t{}\t{}'.format(len(both_entity), len(en_entity), len(el_entity), len(none_entity)))
+
+        none_both = set([(s, o) for s, o in none if s in both_entity and o in both_entity])
+        none_sub = set([(s, o) for s, o in none if s in both_entity and o not in both_entity])
+        none_obj = set([(s, o) for s, o in none if s not in both_entity and o in both_entity])
+        none_none = set([(s, o) for s, o in none if s not in both_entity and o not in both_entity])
+        print('{}\t{}\t{}\t{}'.format(len(none_both), len(none_sub), len(none_obj), len(none_none)))
+
+        with open(args.out, 'w') as fout:
+            json.dump({'both': list(both), 'en': list(en), 'el': list(el),
+                       'none_both': list(none_both), 'none_sub': list(none_sub),
+                       'none_obj': list(none_obj), 'none_none': list(none_none)},
+                      fout, indent=True)
