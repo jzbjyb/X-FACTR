@@ -47,6 +47,7 @@ if __name__ == '__main__':
                 for (su, sl), (pu, pl), (ou, ol) in filter_by_relations(os.path.join(root, file), relations):
                     if (su, ou) in pid2facts[pu]:
                         continue
+                    pid2facts[pu].add((su, ou))
                     if pu not in pid2files:
                         pid2files[pu] = open(os.path.join(args.out, pu + '.jsonl'), 'w')
                     pid2files[pu].write(json.dumps({

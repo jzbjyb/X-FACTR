@@ -1,5 +1,7 @@
+from typing import Dict, Iterable, Set, List, Union
 import os
 import sys
+import json
 from tqdm import tqdm
 from collections import defaultdict
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -9,7 +11,11 @@ GET_REDIRECT = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-SELECT ?label {wd:%s owl:sameAs ?label}"""
+SELECT ?item ?label 
+{
+VALUES ?item { %s } 
+?item owl:sameAs ?label
+}"""
 
 GET_LANG = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
@@ -17,15 +23,69 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 SELECT ?label (lang(?label) as ?label_lang) {wd:%s rdfs:label ?label}"""
 
+GET_LANG_MULTI = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT ?item ?label (lang(?label) as ?label_lang)
+{
+VALUES ?item { %s } 
+?item rdfs:label ?label
+}"""
+
 prefix = '<http://www.wikidata.org/entity/'
+
+
+class TRExDataset(object):
+	def __init__(self, directory: str):
+		self.directory = directory
+
+
+	def iter(self) -> Iterable[Dict]:
+		for root, dirs, files in os.walk(self.directory):
+			for file in files:
+				if not file.endswith('.jsonl'):
+					continue
+				with open(os.path.join(root, file), 'r') as fin:
+					for l in fin:
+						yield json.loads(l)
 
 
 def get_lang(uri):
 	return get_result(GET_LANG % uri)
 
 
-def get_redirect(uri):
-	return get_result(GET_REDIRECT % uri)
+def get_langs(uris:  Union[List[str], Set[str]], handle_redirect: bool = False) -> Dict[str, Dict[str, str]]:
+	id2lang: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
+	results = get_result(GET_LANG_MULTI % ' '.join(map(lambda x: 'wd:' + x, uris)))
+	not_miss = set()
+	for result in results['results']['bindings']:
+		uri = result['item']['value'].rsplit('/', 1)[1]
+		lang = result['label_lang']['value']
+		label = result['label']['value']
+		id2lang[uri][lang] = label
+		not_miss.add(uri)
+	miss = set(uris) - not_miss
+	if handle_redirect and len(miss) > 0:
+		fid2tid = get_redirects(miss)
+		tid2fid = dict((v, k) for k, v in fid2tid.items())
+		missto = set(fid2tid.values())
+		if len(fid2tid) < len(miss):
+			print('not redirect for {}'.format(miss - set(fid2tid.keys())))
+		sup = get_langs(missto, handle_redirect=handle_redirect)
+		if len(sup) < len(missto):
+			print('cant find label after redirect for {}'.format(missto - set(sup.keys())))
+		for k, v in sup.items():
+			id2lang[tid2fid[k]] = v
+	return id2lang
+
+
+def get_redirects(uris: Union[List[str], Set[str]]) -> Dict[str, str]:
+	id2id: Dict[str, str] = {}
+	results = get_result(GET_REDIRECT % ' '.join(map(lambda x: 'wd:' + x, uris)))
+	for result in results['results']['bindings']:
+		id2id[result['item']['value'].rsplit('/', 1)[1]] = result['label']['value'].rsplit('/', 1)[1]
+	return id2id
 
 
 def get_result(query, timeout=None):
@@ -40,7 +100,7 @@ def get_result(query, timeout=None):
 def sup(uris):
 	results = []
 	for uri in uris:
-		real_uri = get_redirect(uri)['results']['bindings'][0]['label']['value'].rsplit('/', 1)[1]
+		real_uri = list(get_redirects([uri]).values())[0]
 		lang = [(l['label']['value'], l['label_lang']['value']) for l in get_lang(real_uri)['results']['bindings']]
 		results.append(uri + '\t' + '\t'.join(map(lambda x: '"{}"@{}'.format(*x), lang)))
 	return results
@@ -126,3 +186,23 @@ if __name__ == '__main__':
 			uri2 = set([l.strip().split('\t', 1)[0] for l in fin])
 		print(len(uri1 - uri2))
 		print(uri1 - uri2)
+
+	elif task == 'get_lang':
+		inp_dir = sys.argv[2]
+		batch_size = int(sys.argv[3])
+		out = sys.argv[4]
+		data = TRExDataset(inp_dir)
+		entities: Set[str] = set()
+		results: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
+		for query in data.iter():
+			for entity in [query['sub_uri'], query['obj_uri']]:
+				entities.add(entity)
+		print('#entities {}'.format(len(entities)))
+		entities = list(entities)
+		for b in tqdm(range(0, len(entities), batch_size)):
+			r = get_langs(entities[b:b + batch_size], handle_redirect=True)
+			results.update(r)
+		with open(out, 'w') as fout:
+			for eid in sorted(results.keys(), key=lambda x: int(x[1:])):
+				fout.write('{}\t{}\n'.format(
+					eid, '\t'.join(map(lambda x: '"{}"@{}'.format(x[1], x[0]), results[eid].items()))))
