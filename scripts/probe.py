@@ -107,7 +107,11 @@ def iter_decode(model,
                 mask_value: int = 0,  # indicate which value is used for mask
                 max_iter: int = None,  # max number of iteration
                 tokenizer = None,
+                method: str = 'all',
                 ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
+    assert method in {'all', 'left_right'}
+    bs = inp_tensor.size(0)
+
     # SHAPE: (batch_size, seq_len)
     out_tensor: torch.LongTensor = inp_tensor
     out_logprob: torch.Tensor = 0.0  # tokens not considered have log prob of zero
@@ -115,7 +119,11 @@ def iter_decode(model,
     while True:
         # get input
         if iter > 0:
+            has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
             inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
+            # no need to insert mask when there are masks
+            inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
+
         # predict
         # SHAPE: (batch_size, seq_len)
         mask_mask = inp_tensor.eq(mask_value).long()
@@ -124,15 +132,30 @@ def iter_decode(model,
             logit[:, :, restrict_vocab] = float('-inf')
         # SHAPE: (batch_size, seq_len)
         new_out_logprob, new_out_tensor = logit.log_softmax(-1).max(-1)
+
         # merge results
         # SHAPE: (batch_size, seq_len)
         changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
+        if method == 'all':
+            pass
+        elif method == 'left_right':  # when there are multiple consecutive changes, only use the left-most one.
+            changes = changes & torch.cat([changes.new_ones((bs, 1)), ~changes], 1)[:, :-1]
+
+        # stop when nothing changes
         if not changes.any().item():  # no changes
             break
+
         # only modify tokens that have changes
         changes = changes.long()
         out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
         out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
+
+        '''
+        for i in range(5):
+            print(tokenizer.convert_ids_to_tokens(out_tensor[i].cpu().numpy()))
+        input()
+        '''
+
         iter += 1
         if max_iter and iter >= max_iter:  # max_iter can be zero
             break
@@ -155,12 +178,15 @@ if __name__ == '__main__':
                         help='use the same language for sub and obj')
     parser.add_argument('--skip_multi_word', action='store_true',
                         help='skip objects with multiple words (not sub-words)')
+    parser.add_argument('--skip_single_word', action='store_true',
+                        help='skip objects with a single word')
     parser.add_argument('--facts', type=str, help='file path to facts', default=None)
     parser.add_argument('--disable_inflection', type=str, choices=['x', 'y', 'xy'])
     parser.add_argument('--disable_article', action='store_true')
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
     parser.add_argument('--max_iter', type=int, help='the maximum number of iteration in decoding', default=1)
+    parser.add_argument('--iter_method', type=str, help='iteration method', default='all')
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_len_norm', action='store_true', help='not use length normalization')
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
@@ -258,7 +284,7 @@ if __name__ == '__main__':
                 continue
 
             queries: List[Dict] = []
-            num_skip = not_exist = num_multi_word = 0
+            num_skip = not_exist = num_multi_word = num_single_word = 0
             with open(f) as fin:
                 for l in fin:
                     l = json.loads(l)
@@ -284,9 +310,13 @@ if __name__ == '__main__':
                     else:
                         l['sub_label'] = entity2lang[l['sub_uri']][LANG if sub_exist else 'en']
                         l['obj_label'] = entity2lang[l['obj_uri']][LANG if obj_exist else 'en']
-                    if UNK in tokenizer_wrap(tokenizer, LANG, False, l['sub_label']) or \
-                            UNK in tokenizer_wrap(tokenizer, LANG, False, l['obj_label']):
+                    sub_label_t = tokenizer_wrap(tokenizer, LANG, False, l['sub_label'])
+                    obj_label_t = tokenizer_wrap(tokenizer, LANG, False, l['obj_label'])
+                    if UNK in sub_label_t or UNK in obj_label_t:
                         not_exist += 1
+                        continue
+                    if args.skip_single_word and len(obj_label_t) <= 1:
+                        num_single_word += 1
                         continue
                     if args.skip_multi_word and ' ' in l['obj_label']:
                         num_multi_word += 1
@@ -345,7 +375,8 @@ if __name__ == '__main__':
                     # SHAPE: (batch_size * num_mask, seq_len)
                     out_tensor, logprob, iter = iter_decode(
                         model, inp_tensor, attention_mask,
-                        restrict_vocab=restrict_vocab, mask_value=MASK, max_iter=args.max_iter, tokenizer=tokenizer)
+                        restrict_vocab=restrict_vocab, mask_value=MASK,
+                        max_iter=args.max_iter, tokenizer=tokenizer, method=args.iter_method)
                     iters.append(iter)
                     # SHAPE: (batch_size, num_mask, seq_len)
                     logprob, out_tensor = logprob.view(batch_size, NUM_MASK, -1), out_tensor.view(batch_size, NUM_MASK, -1)
@@ -394,8 +425,8 @@ if __name__ == '__main__':
             num_fact += len(queries)
             acc_for_rel = len(correct_facts) / (len(queries) + 1e-10)
             acc_li.append(acc_for_rel)
-            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\toracle {:.4f}'.format(
-                relation, len(queries), num_skip, not_exist, num_multi_word, acc_for_rel))
+            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\t#skipsingleword {}\toracle {:.4f}'.
+                format(relation, len(queries), num_skip, not_exist, num_multi_word, num_single_word, acc_for_rel))
         except Exception as e:
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
