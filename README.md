@@ -7,7 +7,14 @@ Run `conda create -n mlama37 -y python=3.7 && conda activate mlama37 && ./setup.
 ## Data
 
 - `data/TREx_unicode_escape.txt` entities and their translations in a variety of languages.
+
+  format: "entity_id \tab lang1 \tab lang2 \tab ..."
 - `data/TREx_gender.txt` entities and their gender.
+  
+  format: "entity_id \tab gender"
+- `data/TREx_instanceof.txt` "instance-of" relation of entities.
+  
+  format: "entity_id \tab instance-of1 \space instance-of2 \space ..."
 - `data/TREx_prompts.csv` prompts of various languages.
 
 ## Probe
