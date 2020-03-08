@@ -15,6 +15,7 @@ import logging
 from collections import defaultdict
 import pandas
 import csv
+import time
 from prompt import Prompt
 from check_gender import load_entity_gender
 
@@ -37,6 +38,7 @@ LM_NAME = {
     'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1',
     'fr_roberta_base': 'camembert-base',
     'nl_bert_base': 'bert-base-dutch-cased',
+    'ru_bert_base': 'DeepPavlov/rubert-base-cased'
 }
 
 
@@ -108,9 +110,14 @@ def iter_decode(model,
                 max_iter: int = None,  # max number of iteration
                 tokenizer = None,
                 method: str = 'all',
+                reprob: bool = False,  # recompute the prob finally
                 ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
+    '''
+    Masks must be consecutive.
+    '''
     assert method in {'all', 'left_right'}
     bs = inp_tensor.size(0)
+    raw_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
 
     # SHAPE: (batch_size, seq_len)
     out_tensor: torch.LongTensor = inp_tensor
@@ -159,19 +166,60 @@ def iter_decode(model,
         iter += 1
         if max_iter and iter >= max_iter:  # max_iter can be zero
             break
-    return out_tensor, out_logprob, iter
+
+    final_out_logprob = out_logprob
+    if reprob:
+        final_out_logprob = compute_likelihood(
+            model, out_tensor, out_logprob, raw_mask, attention_mask, restrict_vocab, mask_value=mask_value)
+
+    return out_tensor, final_out_logprob, iter
+
+
+def compute_likelihood(model,
+                       inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                       lp_tensor: torch.Tensor,  # SHAPE: (batch_size, seq_len)
+                       mask_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                       attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len))
+                       restrict_vocab: List[int] = None,
+                       mask_value: int=0,  # indicate which value is used for mask
+                       ) -> torch.Tensor:  # SHAPE: (batch_size, seq_len)
+    '''
+    Masks must be consecutive.
+    '''
+    bs, seq_len = inp_tensor.size(0), inp_tensor.size(1)
+    max_num_masks = mask_tensor.sum(-1).max().item()
+    leftmost_mask = mask_tensor * torch.cat([mask_tensor.new_ones((bs, 1)), 1 - mask_tensor], 1)[:, :-1]
+    logits = None
+    for i in range(max_num_masks):
+        # SHAPE: (batch_size, seq_len)
+        cur_mask = torch.cat([leftmost_mask.new_zeros((bs, i)), leftmost_mask], 1)[:, :seq_len] * mask_tensor
+        inp_tensor_ = (1 - cur_mask) * inp_tensor + cur_mask * mask_value
+        logit = model_prediction_wrap(model, inp_tensor_, attention_mask)
+        if logits is None:
+            logits = logit
+        else:
+            cur_mask = cur_mask.unsqueeze(-1).float()
+            logits = logits * (1 - cur_mask) + (logit * cur_mask).detach()
+    if restrict_vocab is not None:
+        logits[:, :, restrict_vocab] = float('-inf')
+    lp = logits.log_softmax(-1)
+    lp = torch.gather(lp.view(-1, lp.size(-1)), 1, inp_tensor.view(-1).unsqueeze(-1)).view(bs, seq_len)
+    lp_tensor = (1 - mask_tensor).float() * lp_tensor + mask_tensor.float() * lp
+    return lp_tensor
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
-    parser.add_argument('--probe', type=str, help='probe dataset',
-                        choices=['lama', 'lama-uhn', 'mlama'], default='lama')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'zh-cn', 'el', 'fr', 'nl', 'ru', 'ko'], default='en')
-    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use', choices=['en', 'el', 'ru'], default=None)
+
+    # dataset-related flags
+    parser.add_argument('--probe', type=str, help='probe dataset',
+                        choices=['lama', 'lama-uhn', 'mlama'], default='lama')
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
+    parser.add_argument('--facts', type=str, help='file path to facts', default=None)
     parser.add_argument('--prompts', type=str, default=None,
                         help='directory where multiple prompts are stored for each relation')
     parser.add_argument('--sub_obj_same_lang', action='store_true',
@@ -180,15 +228,23 @@ if __name__ == '__main__':
                         help='skip objects with multiple words (not sub-words)')
     parser.add_argument('--skip_single_word', action='store_true',
                         help='skip objects with a single word')
-    parser.add_argument('--facts', type=str, help='file path to facts', default=None)
+
+    # inflection-related flags
+    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
+                        choices=['en', 'el', 'ru'], default=None)
     parser.add_argument('--disable_inflection', type=str, choices=['x', 'y', 'xy'])
     parser.add_argument('--disable_article', action='store_true')
-    parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
+
+    # decoding-related flags
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
     parser.add_argument('--max_iter', type=int, help='the maximum number of iteration in decoding', default=1)
     parser.add_argument('--iter_method', type=str, help='iteration method', default='all')
-    parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_len_norm', action='store_true', help='not use length normalization')
+    parser.add_argument('--reprob', action='store_true', help='recompute the prob finally')
+
+    # others
+    parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
+    parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
@@ -267,6 +323,7 @@ if __name__ == '__main__':
     num_fact = 0
     iters: List[int] = []
     for pattern in patterns:
+        start_time = time.time()
         relation = pattern['relation']
         if args.log_dir:
             log_file = open(os.path.join(args.log_dir, relation + '.csv'), 'w')
@@ -376,7 +433,7 @@ if __name__ == '__main__':
                     out_tensor, logprob, iter = iter_decode(
                         model, inp_tensor, attention_mask,
                         restrict_vocab=restrict_vocab, mask_value=MASK,
-                        max_iter=args.max_iter, tokenizer=tokenizer, method=args.iter_method)
+                        max_iter=args.max_iter, tokenizer=tokenizer, method=args.iter_method, reprob=args.reprob)
                     iters.append(iter)
                     # SHAPE: (batch_size, num_mask, seq_len)
                     logprob, out_tensor = logprob.view(batch_size, NUM_MASK, -1), out_tensor.view(batch_size, NUM_MASK, -1)
@@ -425,8 +482,8 @@ if __name__ == '__main__':
             num_fact += len(queries)
             acc_for_rel = len(correct_facts) / (len(queries) + 1e-10)
             acc_li.append(acc_for_rel)
-            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\t#skipsingleword {}\toracle {:.4f}'.
-                format(relation, len(queries), num_skip, not_exist, num_multi_word, num_single_word, acc_for_rel))
+            print('pid {}\t#fact {}\t#notrans {}\t#notexist {}\t#skipmultiword {}\t#skipsingleword {}\toracle {:.4f}\ttime {:.1f}'.
+                format(relation, len(queries), num_skip, not_exist, num_multi_word, num_single_word, acc_for_rel, time.time() - start_time))
         except Exception as e:
             # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
             print('bug for pid {}'.format(relation))
