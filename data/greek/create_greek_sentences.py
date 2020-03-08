@@ -41,7 +41,7 @@ def gender_heuristic(w):
 def read_necessary_data():
 
 	# Read list of entity IDs with their genders, if known
-	with open("../mTREx_gender.txt") as inp:
+	with open("../TREx_gender.txt") as inp:
 		lines = inp.readlines()
 
 	genders = {}
