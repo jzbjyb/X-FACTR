@@ -28,6 +28,13 @@ def some_roman_chars(unistr):
 
 
 class Prompt(object):
+    GENDER_MAP = {
+        'male': 'MASC',
+        'female': 'FEM',
+        'none': 'NEUT'
+    }
+
+
     def __init__(self, disable_inflection: str=None, disable_article: bool=False):
         self.disable_inflection: Set[str] = set(disable_inflection) if disable_inflection is not None else set()
         self.disable_article = disable_article
@@ -48,16 +55,13 @@ class Prompt(object):
     def from_lang(lang: str, *args, **kwargs):
         if lang == 'el':
             return PromptEL(*args, **kwargs)
+        if lang == 'ru':
+            return PromptRU(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
 class PromptEL(Prompt):
     SUFS = {'β', 'γ', 'δ', 'ζ', 'κ', 'λ', 'μ', 'ν', 'ξ', 'π', 'ρ', 'τ', 'φ', 'χ', 'ψ'}
-    GENDER_MAP = {
-        'male': 'MASC',
-        'female': 'FEM',
-        'none': 'NEUT'
-    }
 
 
     def __init__(self, disable_inflection: str=False, disable_article: bool=False):
@@ -225,3 +229,161 @@ class PromptEL(Prompt):
         nt = ''.join(c for c in unicodedata.normalize('NFD', text)
                      if unicodedata.category(c) != 'Mn').lower()
         return nt.replace(mask_sym.lower(), mask_sym)  # make sure the mask token is unchanged
+
+
+class PromptRU(Prompt):
+    SUFS = {"б", "в", "г", "д", "ж", "з", "к", "л", "м", "н", "п", "р", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"}
+
+
+    # Decide on Russian gender for the unknown entities based on the endings
+    # Based on http://www.study-languages-online.com/russian-nouns-gender.html
+    @staticmethod
+    def gender_heuristic(w):
+        w = w.strip()
+        if w[-1] == "a" or w[-1] == "я":
+            return "FEM"
+        elif w[-1] == "о" or w[-1] == "е" or w[-1] == "ё":
+            return "NEUT"
+        elif w[-1] == "й" or w[-1] in PromptRU.SUFS:
+            return "MASC"
+        else:
+            return "MASC"
+
+
+    def __init__(self, disable_inflection: str=False, disable_article: bool=False):
+        super().__init__(disable_inflection=disable_inflection, disable_article=disable_article)
+
+
+    @overrides
+    def fill_x(self, prompt: str, uri: str, label: str, gender: Gender = None) -> Tuple[str, str]:
+        gender = self.GENDER_MAP[gender] if gender != 'none' else self.gender_heuristic(label).upper()
+        ent_number = "SG"
+
+        if some_roman_chars(label) or label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        if 'x' in self.disable_inflection:
+            do_not_inflect = True
+
+        words = prompt.split(' ')
+
+        if '[X]' in words:
+            i = words.index('[X]')
+            ent_case = "NOM"
+        elif "[X.Nom]" in words:
+            i = words.index('[X.Nom]')
+            ent_case = "NOM"
+        elif "[X.Masc.Nom]" in words:
+            i = words.index('[X.Masc.Nom]')
+            ent_case = "NOM"
+            gender = "MASC"
+        elif "[X.Gen]" in words:
+            i = words.index('[X.Gen]')
+            ent_case = "GEN"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
+        elif "[X.Ess]" in words:
+            i = words.index('[X.Ess]')
+            ent_case = "ESS"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;ESS;{ent_number}", language='rus')[0]
+        else:
+            raise Exception('no X')
+        words[i] = label
+
+        # Now also check the correponsing articles, if the exist
+        for i, w in enumerate(words):
+            if w[0] == '[' and 'X-Gender' in w:
+                if '|' in w:
+                    option = w.strip()[1:-1].split('|')
+                    if gender == "MASC" or gender == "FEM":
+                        form = option[0].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = option[1].strip().split(';')[0]
+                        words[i] = form
+                else:
+                    lemma = w.strip()[1:-1].split('.')[0]
+                    form2 = lemma
+                    if not self.disable_inflection:
+                        if "Pst" in w:
+                            form2 = cache_inflect(lemma, f"V;PST;SG;{gender}", language='rus')[0]
+                        elif "Lgspec1" in w:
+                            form2 = cache_inflect(lemma, f"ADJ;{gender};SG;LGSPEC1", language='rus')[0]
+                    words[i] = form2
+
+        return ' '.join(words), label
+
+
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str, gender: Gender = None,
+               num_mask: int=1, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        ent_number = "SG"
+
+        mask_sym = ' '.join([mask_sym] * num_mask)
+
+        if some_roman_chars(label) or label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        if 'x' in self.disable_inflection:
+            do_not_inflect = True
+
+        words = prompt.split(' ')
+
+        if '[Y]' in words:
+            i = words.index('[Y]')
+            ent_case = "NOM"
+        elif "[Y.Nom]" in words:
+            # In Greek the default case is Nominative so we don't need to try to inflect it
+            i = words.index('[Y.Nom]')
+            ent_case = "NOM"
+        elif "[Y.Gen]" in words:
+            i = words.index('[Y.Gen]')
+            ent_case = "GEN"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
+        elif "[Y.Acc]" in words:
+            i = words.index('[Y.Acc]')
+            ent_case = "ACC"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;ACC;{ent_number}", language='rus')[0]
+        elif "[Y.Dat]" in words:
+            i = words.index('[Y.Dat]')
+            ent_case = "DAT"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;DAT;{ent_number}", language='rus')[0]
+        elif "[Y.Ess]" in words:
+            i = words.index('[Y.Ess]')
+            ent_case = "ESS"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;ESS;{ent_number}", language='rus')[0]
+        elif "[Y.Ins]" in words:
+            i = words.index('[Y.Ins]')
+            ent_case = "INS"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;INS;{ent_number}", language='rus')[0]
+        else:
+            raise Exception('no Y')
+
+        if num_mask <= 0:
+            words[i] = label
+        else:
+            words[i] = mask_sym
+
+        # Now also check the correponsing articles, if the exist
+        for i, w in enumerate(words):
+            if w[0] == '[' and 'Y-Gender' in w:
+                lemma = w.strip()[1:-1].split('.')[0]
+                form2 = lemma
+                if not self.disable_inflection:
+                    if "Pst" in w:
+                        form2 = cache_inflect(lemma, f"V;PST;SG;{gender}", language='rus')[0]
+                    elif "Lgspec1" in w:
+                        form2 = cache_inflect(lemma, f"ADJ;{gender};SG;LGSPEC1", language='rus')[0]
+                words[i] = form2
+
+        return ' '.join(words), label
