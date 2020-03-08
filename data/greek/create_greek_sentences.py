@@ -18,7 +18,57 @@ def some_roman_chars(unistr):
            if uchr.isalpha()) # isalpha suggested by John Machin
 
 
+def gender_heuristic(w):
+	w = w.strip()
+	if ' ' not in w:
+		if w[-1] == "η" or w[-1] == "ή" or w[-1] == "α":
+			return "Fem"
+		elif w[-2:] == "ος" or w[-2:] == "ης" or w[-2:] == "ής" or w[-2:] == "ας" or w[-2:] == "άς" or w[-2:] == "ός" or w[-2:] == "ήλ":
+			return "Masc"
+		else:
+			return "Neut"
+	else:
+		w2 = w.split(' ')[0]
+		if w2[-1] == "η" or w2[-1] == "ή" or w2[-1] == "α":
+			return "Fem"
+		elif w2[-2:] == "ος" or w2[-2:] == "ης" or w2[-2:] == "ής" or w2[-2:] == "ας" or w2[-2:] == "άς" or w2[-2:] == "ός" or w2[-2:] == "ήλ":
+			return "Masc"
+		else:
+			return "Neut"
+
+
+
 def read_necessary_data():
+
+	# Read list of entity IDs with their genders, if known
+	with open("../mTREx_gender.txt") as inp:
+		lines = inp.readlines()
+
+	genders = {}
+	for l in lines:
+		l = l.strip().split('\t')
+		ent_id = l[0]
+		ent_gender = l[1]
+		genders[ent_id] = ent_gender
+
+	# Read list of greek entities
+	with open("TREx_greek.txt") as inp:
+		lines = inp.readlines()
+
+	entities = {}
+	for l in lines:
+		l = l.strip().split('\t')
+		ent_id = l[0]
+		ent_form = l[1]
+		ent_gender = gender_heuristic(ent_form).upper()
+		if ent_id in genders:
+			if genders[ent_id] == "male":
+				ent_gender = "MASC"
+			elif genders[ent_id] == "female":
+				ent_gender = "FEM"
+		entities[ent_id] = (ent_form, ent_gender)	
+
+	'''
 	# Read list of greek entities
 	with open("TREx_greek_tagged.txt") as inp:
 		lines = inp.readlines()
@@ -30,6 +80,7 @@ def read_necessary_data():
 		ent_form = l[1]
 		ent_gender = l[2]
 		entities[ent_id] = (ent_form, ent_gender)
+	'''
 
 	with open("articles.el.txt") as inp:
 		lines = inp.readlines()
@@ -200,5 +251,7 @@ with jsonlines.open('relations.el.jsonl') as reader:
 	for obj in reader:
 		print_examples_for_relation(obj, entities, article)
 		count += 1
+		#if count == 4:
+		#	break
 		
 
