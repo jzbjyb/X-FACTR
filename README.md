@@ -14,7 +14,7 @@ Run `conda create -n mlama37 -y python=3.7 && conda activate mlama37 && ./setup.
   format: "entity_id \tab gender"
 - `data/TREx_instanceof.txt` "instance-of" relation of entities.
   
-  format: "entity_id \tab instance-of1 \space instance-of2 \space ..."
+  format: "entity_id \tab instance-of-id1,name1 \tab instance-of-id2,name2 \tab ..."
 - `data/TREx_prompts.csv` prompts of various languages.
 
 ## Probe
