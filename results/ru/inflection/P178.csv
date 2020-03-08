@@ -1,0 +1,480 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same
+[CLS] MessagePad:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] macOS:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] iOS разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Safari разработан:4 [MASK] [MASK] . [SEP],на Safari,Apple,0,Apple,0
+[CLS] ILife:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] iWork:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] PostScript:3 разработан:4 [MASK] . [SEP],##ность,Adobe Systems,0,Adobe Systems,0
+[CLS] AIX:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] AppleTalk:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Applesoft:3 BASIC разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Active Directory разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Vista разработанна:5 [MASK] [MASK] [MASK] . [SEP],в Windows Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Internet Explorer разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Outlook Express разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Outlook разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Boeing B - 17 Flying Fortress разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] DirectX:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Windows разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Xbox 360 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Xbox One разработан:4 [MASK] [MASK] . [SEP],Xbox Xbox,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Internet Explorer 4 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Itanium:3 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] MS - DOS разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Фортран:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Фортран:2,IBM,0,IBM,0
+[CLS] GW:2 - BASIC разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 1 . 0 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] ASIMO:3 разработан:4 [MASK] . [SEP],##ный,Honda,0,Honda,0
+[CLS] Nintendo 2DS:2 разработан:4 [MASK] [MASK] . [SEP],Nintendo Nintendo,Nintendo,0,Nintendo,0
+[CLS] Nintendo 3DS разработан:4 [MASK] [MASK] [MASK] . [SEP],на Nintendo 3DS,Nintendo,0,Nintendo,0
+[CLS] Intel Threading:3 Building Blocks:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Intel Intel,рнтелом:3,0,Интел:2,0
+[CLS] IA - 32 разработан:4 [MASK] [MASK] [MASK] [MASK] . [SEP],##ы IA - 32,рнтелом:3,0,Интел:2,0
+[CLS] Интел:2 8086:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] 80386:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Intel486SX:5 разработан:4 [MASK] . [SEP],##чики,рнтелом:3,0,Интел:2,0
+[CLS] 80486:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Windows 10 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] IA - 64 разработан:4 [MASK] [MASK] [MASK] [MASK] . [SEP],на IA - 64,рнтелом:3,0,Интел:2,0
+[CLS] Pentium II разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Lotus 1 - 2 - 3 разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Lotus Lotus,IBM,0,IBM,0
+[CLS] Microsoft Excel разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Office разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Surface разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Xenix:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Word разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Mac OS разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mac OS 9 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mac OS X Server разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Final Fantasy V разработан:4 [MASK] . [SEP],##о,Square,0,Square,0
+[CLS] Windows Embedded:2 Automative:3 разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] MSX:2 - DOS разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 95 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] MiniDisc:4 разработан:4 [MASK] . [SEP],##ный,Sony,0,Sony,0
+[CLS] Internet Information Services разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Visual Studio разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 98 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows NT 4 . 0 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft FrontPage:3 разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Mac OS X Panther разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Pentium 4 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] ISPF:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Yahoo ! Messenger разработан:4 [MASK] . [SEP],##ный,Yahoo !,0,Yahoo !,0
+[CLS] Pentium M разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Adobe Acrobat:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Portable Document Format разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe GoLive:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Dreamweaver:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe PageMaker:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] MobileMe:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Zaxxon:3 разработан:4 [MASK] . [SEP],##ы,Sega,0,Sega,0
+[CLS] Windows NT разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Visual Basic . NET разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] NetBurst:3 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Core 2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Internet Explorer 6 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Adobe Flash разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Flash Builder:2 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Symbian:3 OS разработан:4 [MASK] . [SEP],##ный,Nokia,0,Nokia,0
+[CLS] Windows Phone разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Mario разработан:4 [MASK] [MASK] . [SEP],на Mario,Nintendo,0,Nintendo,0
+[CLS] Pentium разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Фотошоп:4 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Photoshop:2 Lightroom:2 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] QuickTime:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Rich Text Format разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Mac OS X 10 . 2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Intel XScale:3 разработан:4 [MASK] [MASK] . [SEP],в Intel,рнтелом:3,0,Интел:2,0
+[CLS] Wii U разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Wii U,Nintendo,0,Nintendo,0
+[CLS] Visual Basic Scripting:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Visio:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows XP разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 2000 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Media Audio разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] 80186:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] 80286:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Audio Video Interleave:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] NTFS:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] IBM System i разработан:4 [MASK] [MASK] . [SEP],IBM IBM,IBM,0,IBM,0
+[CLS] IBM i разработан:4 [MASK] [MASK] . [SEP],. IBM,IBM,0,IBM,0
+[CLS] Alex Kidd разработан:4 [MASK] [MASK] [MASK] . [SEP],на Alex Kidd,Sega,0,Sega,0
+[CLS] Windows 8 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] ThinkPad:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] iPod разработан:4 [MASK] [MASK] . [SEP],для iPod,Apple,0,Apple,0
+[CLS] HyperTalk:5 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] HyperCard:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] The Legend of Zelda разработанна:5 [MASK] [MASK] . [SEP],на Nintendo,Nintendo,0,Nintendo,0
+[CLS] Final Cut Pro разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Apple Remote Desktop:2 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Gmail:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Xcode:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Xcode:2,Apple,0,Apple,0
+[CLS] Mac OS X 10 . 6 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Microsoft Office 2007 разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Boeing EA - 18 Growler:3 разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] HLSL:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft PowerPoint:3 разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Xbox Live разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Core разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Windows CE разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] NTLDR:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Server 2003 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Server 2008 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Карты:3 Google разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Google Google,Google,0,Google,0
+[CLS] G Suite разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Nintendo DSi:2 разработан:4 [MASK] . [SEP],##ный,Nintendo,0,Nintendo,0
+[CLS] REXX:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Киоск:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Windows Live Messenger разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Google Street View разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Super Monaco GP разработан:4 [MASK] [MASK] [MASK] [MASK] . [SEP],на Super Monaco GP,Sega,0,Sega,0
+[CLS] Проигрыватель:6 Windows Media разработанна:5 [MASK] . [SEP],Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Google Checkout:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Virtual Console:2 разработан:4 [MASK] . [SEP],##ный,Nintendo,0,Nintendo,0
+[CLS] Google Wallet:2 разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] . NET Framework разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] System 7 разработан:4 [MASK] [MASK] [MASK] . [SEP],на System 7,Apple,0,Apple,0
+[CLS] Chrono:2 Trigger:2 разработан:4 [MASK] . [SEP],##ный,Square,0,Square,0
+[CLS] Microsoft Windows Malicious:2 Software Removal:2 Tool:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Центр обновления:3 Windows разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Boeing B - 52 Stratofortress:4 разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] Google Accounts:2 разработан:4 [MASK] [MASK] . [SEP],на Google,Google,0,Google,0
+[CLS] Google Groups разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Google File System разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Zune:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Phone 8 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] iTunes разработан:4 [MASK] . [SEP],##о,Apple,0,Apple,0
+[CLS] Windows Genuine:2 Advantage:3 разработан:4 [MASK] [MASK] . [SEP],##ный Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 2 . x разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] FairPlay:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] IChat:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Google Talk разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Windows Media Video разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Embedded:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Rational:2 Unified:2 Process разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Zeroconf:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Internet Explorer 7 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Adobe Illustrator:2 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Creative Suite разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Donkey:2 Kong разработан:4 [MASK] [MASK] [MASK] [MASK] . [SEP],##ы Donkey:2 Kong,Nintendo,0,Nintendo,0
+[CLS] AdSense:3 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Windows 7 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 8 . 1 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Server 2012 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Динамически:4 подключаемая:5 библиотека разработан:4 [MASK] . [SEP],##ная,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Boeing B - 29 Superfortress:3 разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] Test Drive Le Mans разработан:4 [MASK] . [SEP],##ный,Atari,0,Atari,0
+[CLS] Airbus A350:2 разработан:4 [MASK] . [SEP],##ный,Airbus,0,Airbus,0
+[CLS] Sony SonicStage:3 разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Sony Sony,Sony,0,Sony,0
+[CLS] TSS:2 / 360 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Process Explorer разработан:4 [MASK] [MASK] . [SEP],на Intel,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Apple DOS разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] DNG:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на DNG:2,Adobe Systems,0,Adobe Systems,0
+[CLS] Windows Live Writer разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] OS X 10 . 8 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] OneDrive:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Golden Axe:2 разработан:4 [MASK] . [SEP],##ный,Sega,0,Sega,0
+[CLS] Altered:2 Beast разработан:4 [MASK] . [SEP],##е,Sega,0,Sega,0
+[CLS] Yakuza:3 2 разработан:4 [MASK] . [SEP],##ный,Sega,0,Sega,0
+[CLS] Yakuza:3 разработанна:5 [MASK] [MASK] . [SEP],на г,Sega,0,Sega,0
+[CLS] Microsoft Exchange Server разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Time Sharing:2 Option:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Microsoft Office Mobile разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] iGoogle:4 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Google Desktop:2 разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] ASCI:2 Red разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Picasa:2 разработанна:5 [MASK] [MASK] [MASK] . [SEP],на Picа:2,Google,0,Google,0
+[CLS] DB2:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Google Планета:3 Земля разработанна:5 [MASK] . [SEP],Google,Google,1,Google,1
+[CLS] Windows Live OneCare:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] AdWords:4 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Silverlight:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] iPod Touch разработан:4 [MASK] [MASK] [MASK] . [SEP],на iPod Touch,Apple,0,Apple,0
+[CLS] HTMLHelp:4 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] OpenAFS:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] AFS:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] iPod Mini разработан:4 [MASK] [MASK] . [SEP],iPod iPod,Apple,0,Apple,0
+[CLS] Sandy Bridge разработан:4 [MASK] [MASK] [MASK] . [SEP],на Sandy Bridge,рнтелом:3,0,Интел:2,0
+[CLS] VML:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Yahoo ! UI:2 Library разработан:4 [MASK] . [SEP],##ный,Yahoo !,0,Yahoo !,0
+[CLS] IBM VisualAge:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] QuickDraw:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] ColorSync:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] AppleScript:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Метаконтент:4 Framework разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Squeak:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] iPod shuffle:2 разработан:4 [MASK] [MASK] . [SEP],для iPod,Apple,0,Apple,0
+[CLS] Windows Communication Foundation разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Adobe Soundbooth:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Audition:2 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Integrated Runtime:2 разработан:4 [MASK] [MASK] . [SEP],Adobe Adobe,Adobe Systems,0,Adobe Systems,0
+[CLS] Atari 400 / 800 / XL / XE:2 разработан:4 [MASK] [MASK] [MASK] [MASK] . [SEP],##ы Atari Atari Atari,Atari,0,Atari,0
+[CLS] Tamarin:2 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Microsoft Plus ! разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Google Play разработан:4 [MASK] [MASK] [MASK] . [SEP],на Google Google,Google,0,Google,0
+[CLS] IDisk:2 разработан:4 [MASK] . [SEP],##е,Apple,0,Apple,0
+[CLS] iCloud:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] OS X Yosemite:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] iOS 8 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] IMovie:2 разработан:4 [MASK] . [SEP],##о,Apple,0,Apple,0
+[CLS] GarageBand:4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mac OS X Server 10 . 4 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Advanced Systems Format разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Metroid:2 разработан:4 [MASK] . [SEP],##ный,Nintendo,0,Nintendo,0
+[CLS] Siri разработан:4 [MASK] [MASK] . [SEP],на Siri,Apple,0,Apple,0
+[CLS] Apple Pippin:3 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Super Audio CD разработан:4 [MASK] . [SEP],##ный,Sony,0,Sony,0
+[CLS] Microsoft Robotics:2 Developer:3 Studio разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Boeing B - 47 Stratojet:3 разработан:4 [MASK] . [SEP],##чики,Boeing,0,Boeing,0
+[CLS] TypeScript:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Pentium III разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] App Store разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Adobe After Effects разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Premiere Pro разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] iPod nano:2 разработан:4 [MASK] [MASK] . [SEP],на iPod,Apple,0,Apple,0
+[CLS] Microsoft Access разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Generalized:2 Markup:2 Language разработан:4 [MASK] . [SEP],##чики,IBM,0,IBM,0
+[CLS] IBM WebSphere:3 MQ:2 разработан:4 [MASK] [MASK] . [SEP],IBM IBM,IBM,0,IBM,0
+[CLS] ITunes:2 Radio разработан:4 [MASK] . [SEP],##о,Apple,0,Apple,0
+[CLS] Apple Watch разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Common UNIX Printing System разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Bing Maps разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Bing Maps,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] iPod classic разработан:4 [MASK] [MASK] . [SEP],iPod iPod,Apple,0,Apple,0
+[CLS] JFS:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] General Parallel File System разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] MASM:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Установщик:4 Windows разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] SRGB:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на SRGB:2,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Final Fantasy разработан:4 [MASK] . [SEP],##о,Square,0,Square,0
+[CLS] Microsoft SQL Server разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Pentium Dual - Core разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] IBooks:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Google Drive разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Google Hangouts:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Google Календарь:3 разработан:4 [MASK] . [SEP],##ных,Google,0,Google,0
+[CLS] Skype:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Google Guice:3 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Mac OS X 10 . 5 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Adobe InDesign:4 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Creative Cloud разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Google Health разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] XML Paper Specification:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Google Analytics:3 разработан:4 [MASK] [MASK] . [SEP],на Google,Google,0,Google,0
+[CLS] Final Cut Studio разработан:4 [MASK] . [SEP],##о,Apple,0,Apple,0
+[CLS] XDCAM:3 разработан:4 [MASK] . [SEP],##ный,Sony,0,Sony,0
+[CLS] Adobe Digital Editions разработан:4 [MASK] [MASK] [MASK] . [SEP],Adobe Adobe Adobe,Adobe Systems,0,Adobe Systems,0
+[CLS] Internet Explorer 8 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] ActiveSync:4 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft OneNote:3 разработан:4 [MASK] [MASK] . [SEP],на Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Final Fantasy III разработан:4 [MASK] . [SEP],##ный,Square,0,Square,0
+[CLS] Office Open XML разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Google Покупки:3 разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Google Google,Google,0,Google,0
+[CLS] Gears:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Amazon Web Services разработан:4 [MASK] . [SEP],##ный,Amazon,0,Amazon,0
+[CLS] Quick Look разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Amazon SQS:3 разработан:4 [MASK] . [SEP],##ный,Amazon,0,Amazon,0
+[CLS] Google Buzz разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Pentium Pro разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Windows RT разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows 2 . 1x разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] X11:2 . app разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы X11:2,Apple,0,Apple,0
+[CLS] Mac OS X 10 . 7 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Logic Pro разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Fairchild Republic A - 10 Thunderbolt:3 II разработан:4 [MASK] . [SEP],##ный,Fairchild Aircraft,0,Fairchild Aircraft,0
+[CLS] Flicky:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на FlP:2,Sega,0,Sega,0
+[CLS] Apple Maps разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Logic Studio разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] iOS 5 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] IBM Lotus Symphony разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Windows Phone Store разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Adobe Bridge разработан:4 [MASK] [MASK] . [SEP],Adobe Adobe,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe Captivate:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Adobe FrameMaker:4 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] SharePoint:4 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] DeveloperWorks:4 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Golden Axe:2 разработан:4 [MASK] . [SEP],##ный,Sega,0,Sega,0
+[CLS] Internet Explorer 5 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Store разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Tizen:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Project Ara разработанна:5 [MASK] [MASK] [MASK] . [SEP],на Projectа:2,Google,0,Google,0
+[CLS] Eclipse разработан:4 [MASK] [MASK] . [SEP],для Eclipse,IBM,0,IBM,0
+[CLS] IBM System R разработан:4 [MASK] [MASK] . [SEP],IBM IBM,IBM,0,IBM,0
+[CLS] IAPX:3 432 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] I960:3 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] PowerShell:4 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] WebKit:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Intel 8051:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],Intel Intel Intel,рнтелом:3,0,Интел:2,0
+[CLS] Mac OS X 10 . 0 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mac OS X 10 . 1 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mac OS 8 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Microsoft Bob разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Final Fantasy X разработан:4 [MASK] . [SEP],##ный,Square,0,Square,0
+[CLS] HFS:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Interface Builder:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] System Object Model разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Blogger:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Microsoft XNA:2 разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Server 2008 R2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Virtual PC разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Internet Explorer 9 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Средство:3 переноса:3 данных Windows разработан:4 [MASK] [MASK] [MASK] . [SEP],##о на Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Douglas X - 3 разработан:4 [MASK] . [SEP],##ный,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Chrome OS разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Google Web Toolkit:3 разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Microsoft Dynamics разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Xgrid:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на XG:2,Apple,0,Apple,0
+[CLS] PC DOS разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Mitsubishi G4M:3 разработан:4 [MASK] . [SEP],##чик,Mitsubishi,0,Mitsubishi,0
+[CLS] Boeing X - 37 разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] UNIX System Services разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] HFS:2 Plus разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Google Map Maker разработан:4 [MASK] [MASK] . [SEP],на Google,Google,0,Google,0
+[CLS] XNU:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mario Bros . разработан:4 [MASK] [MASK] [MASK] . [SEP],Mario Mario Bros,Nintendo,0,Nintendo,0
+[CLS] RPG разработан:4 [MASK] . [SEP],##е,IBM,0,IBM,0
+[CLS] Панель:3 инструментов:3 Google разработан:4 [MASK] [MASK] . [SEP],в Google,Google,0,Google,0
+[CLS] Google Chrome разработан:4 [MASK] [MASK] [MASK] . [SEP],##ный Google Chrome,Google,0,Google,0
+[CLS] Chromecast:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Microsoft Entourage:3 разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Active Server Pages разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Front Mission 3 разработан:4 [MASK] . [SEP],##ный,Square,0,Square,0
+[CLS] Front Mission ( серия игр ) разработан:4 [MASK] [MASK] . [SEP],##ная Capcom,Square,0,Square,0
+[CLS] Clang:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Clang:2,Sony,0,Sony,0
+[CLS] Adobe Fireworks:2 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Microsoft Publisher разработан:4 [MASK] [MASK] . [SEP],: Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Small Web Format разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Microsoft Works разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Intel Parallel Studio разработан:4 [MASK] [MASK] . [SEP],на Intel,рнтелом:3,0,Интел:2,0
+[CLS] SPSS:2 разработан:4 [MASK] . [SEP],##о,IBM,0,IBM,0
+[CLS] Google Finance разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Boeing KC - 767 разработан:4 [MASK] . [SEP],##чики,Boeing,0,Boeing,0
+[CLS] Apple Lossless:3 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Google Переводчик:4 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Apple Filing:2 Protocol разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Time Machine разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] V8 разработан:4 [MASK] [MASK] . [SEP],на V8,Google,0,Google,0
+[CLS] Boeing F - 15SE:2 Silent Eagle разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] VHD:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] BBeB:3 разработан:4 [MASK] . [SEP],##ный,Sony,0,Sony,0
+[CLS] Wii MotionPlus:3 разработан:4 [MASK] . [SEP],##ный,Nintendo,0,Nintendo,0
+[CLS] Проводник:3 Windows разработан:4 [MASK] . [SEP],Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Boeing 747 LCF:2 Dreamlifter:3 разработан:4 [MASK] . [SEP],##ный,Boeing,0,Boeing,0
+[CLS] Adobe FreeHand:3 разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Windows NT 3 . 1 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Airbus A320neo:3 разработан:4 [MASK] . [SEP],##ный,Airbus,0,Airbus,0
+[CLS] Clang:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Clang:2,Apple,0,Apple,0
+[CLS] Windows Live Mesh:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Tizen:2 разработан:4 [MASK] . [SEP],##ный,Samsung,0,Samsung,0
+[CLS] SPDY:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] MXML:2 разработан:4 [MASK] . [SEP],##ность,Adobe Systems,0,Adobe Systems,0
+[CLS] Apache Traffic Server разработан:4 [MASK] . [SEP],Apache,Yahoo !,0,Yahoo !,0
+[CLS] Project Glass разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Apple A4 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Google Reader разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Microsoft Office 2003 разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Macintosh File System разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] RIFF:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Audio Interchange:3 File Format разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Windows Mobile разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] OpenSearch:4 разработан:4 [MASK] . [SEP],##ный,Amazon,0,Amazon,0
+[CLS] Windows Me разработан:4 [MASK] . [SEP],Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] HPFS:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] HPFS:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] General Transit Feed:2 Specification:3 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Microsoft Dynamics NAV:2 разработан:4 [MASK] . [SEP],##чик,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] IBM WebSphere:3 Application Server разработан:4 [MASK] . [SEP],IBM,IBM,1,IBM,1
+[CLS] Windows NT 3 . 51 разработан:4 [MASK] . [SEP],##ы,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows NT 3 . 5 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows CE 6 . 0 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Minecraft:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Minecraft:2,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] App Inventor:3 разработан:4 [MASK] [MASK] . [SEP],на Apple,Google,0,Google,0
+[CLS] Clang:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Clang:2,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Airbus Beluga:2 разработанна:5 [MASK] . [SEP],машина,Airbus,0,Airbus,0
+[CLS] Mitsubishi A5M:2 разработан:4 [MASK] . [SEP],##чик,Mitsubishi,0,Mitsubishi,0
+[CLS] Microsoft Project разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] WebP:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] WebM:2 разработан:4 [MASK] . [SEP],##ность,Google,0,Google,0
+[CLS] Samsung Kies:2 разработан:4 [MASK] . [SEP],##ный,Samsung,0,Samsung,0
+[CLS] Universal Media Disc разработан:4 [MASK] . [SEP],##ный,Sony,0,Sony,0
+[CLS] Newton OS разработан:4 [MASK] [MASK] [MASK] . [SEP],на Newton OS,Apple,0,Apple,0
+[CLS] Robocopy:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Apple A5 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] iOS 7 разработан:4 [MASK] . [SEP],##о,Apple,0,Apple,0
+[CLS] CarPlay:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Internet Explorer 10 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Mitsubishi F1M:2 разработан:4 [MASK] . [SEP],##чик,Mitsubishi,0,Mitsubishi,0
+[CLS] Schema:3 . org разработан:4 [MASK] . [SEP],##о,Google,0,Google,0
+[CLS] Schema:3 . org разработан:4 [MASK] . [SEP],##о,Yahoo !,0,Yahoo !,0
+[CLS] Windows Aero разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Thunderbolt:3 Display:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Amazon Silk разработан:4 [MASK] . [SEP],##ный,Amazon,0,Amazon,0
+[CLS] Microsoft Expression:2 Blend:3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Internet Explorer 11 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Adobe Muse разработан:4 [MASK] [MASK] . [SEP],Adobe Adobe,Adobe Systems,0,Adobe Systems,0
+[CLS] IBooks:3 Author разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Clang:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Clang:2,рнтелом:3,0,Интел:2,0
+[CLS] Google Now разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Apple A6 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] iPad ( 3 - го поколения ) разработан:4 [MASK] [MASK] . [SEP],в iPad,Apple,0,Apple,0
+[CLS] Sonic Drift:2 2 разработан:4 [MASK] . [SEP],##ы,Sega,0,Sega,0
+[CLS] Sonic Drift:2 разработан:4 [MASK] [MASK] . [SEP],для Sega,Sega,0,Sega,0
+[CLS] Microsoft InfoPath:3 разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] iOS 6 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Android Jelly:2 Bean разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Apple A7 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Spanner:2 разработан:4 [MASK] [MASK] . [SEP],на англ,Google,0,Google,0
+[CLS] Wii U system разработан:4 [MASK] [MASK] [MASK] . [SEP],Wii Wii Wii,Nintendo,0,Nintendo,0
+[CLS] Windows Phone 8 . 1 разработан:4 [MASK] [MASK] . [SEP],в Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Apple Pay разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] The Revenge of Shinobi:2 разработан:4 [MASK] . [SEP],##е,Sega,0,Sega,0
+[CLS] Object REXX:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Xsan:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Xа:2,Apple,0,Apple,0
+[CLS] Platform SDK:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] VP9:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Amiibo:2 разработан:4 [MASK] [MASK] [MASK] . [SEP],на Amiibo:2,Nintendo,0,Nintendo,0
+[CLS] Rational:2 ClearCase:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Google Keep разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Windows XP Media Center Edition разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Windows Movie Maker разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Microsoft Money разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] OS X Mavericks:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Mother 3 разработан:4 [MASK] . [SEP],##ный,Nintendo,0,Nintendo,0
+[CLS] IPad:2 mini разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Apple A8 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Apple A8X:2 разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Intel Quark:2 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] IBeacon:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Google Hummingbird:3 разработан:4 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Adobe Encore разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Wear:2 OS разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Windows Mixed Reality разработан:4 [MASK] [MASK] . [SEP],на Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Event Viewer:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Android TV разработан:4 [MASK] . [SEP],##чики,Google,0,Google,0
+[CLS] Android Runtime:2 разработан:4 [MASK] . [SEP],##ный,Google,0,Google,0
+[CLS] Samsung Gear VR разработан:4 [MASK] [MASK] . [SEP],Samsung Samsung,Samsung,0,Samsung,0
+[CLS] Amazon Echo разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Amazon Amazon,Amazon,0,Amazon,0
+[CLS] Bitmap:3 Distribution Format разработан:4 [MASK] . [SEP],##ный,Adobe Systems,0,Adobe Systems,0
+[CLS] Dynix:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] VoiceOver:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] TextEdit:3 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Microsoft Security Essentials:2 разработан:4 [MASK] [MASK] . [SEP],##ный Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Internet Explorer 3 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Final Fantasy Legend III разработан:4 [MASK] . [SEP],##ный,Square,0,Square,0
+[CLS] Final Fantasy Legend II разработан:4 [MASK] . [SEP],##ный,Square,0,Square,0
+[CLS] Microsoft Internet Explorer Mobile разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Disk Utility:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] MSX:2 BASIC разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Adobe Acrobat:3 Connect:2 разработан:4 [MASK] [MASK] . [SEP],в Adobe,Adobe Systems,0,Adobe Systems,0
+[CLS] Microsoft Forefront:3 Threat:2 Management Gateway разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Dashboard:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Photo Booth разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] I860:3 разработан:4 [MASK] . [SEP],##ный,рнтелом:3,0,Интел:2,0
+[CLS] Microsoft Office Live разработан:4 [MASK] [MASK] . [SEP],Microsoft Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Apple Icon Image format разработан:4 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] IMS:2 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Полезные:3 программы Google разработан:4 [MASK] [MASK] [MASK] . [SEP],##ы Google Google,Google,0,Google,0
+[CLS] Windows Driver Frameworks:2 разработан:4 [MASK] . [SEP],##чики,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] IBM Lotus SmartSuite:3 разработан:4 [MASK] . [SEP],##ный,IBM,0,IBM,0
+[CLS] Shadow Dancer разработан:4 [MASK] [MASK] [MASK] . [SEP],на ShadowL:2,Sega,0,Sega,0
+[CLS] Windows Write:2 разработан:4 [MASK] . [SEP],##ный,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Cyberdog:2 разработан:4 [MASK] . [SEP],##ный,Apple,0,Apple,0
+[CLS] Adobe Illustrator:2 Artwork:2 разработан:4 [MASK] [MASK] . [SEP],Adobe Adobe,Adobe Systems,0,Adobe Systems,0

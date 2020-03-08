@@ -1,0 +1,755 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same
+[CLS] Ford Taunus:2 G93A:4 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Canon EOS:2 5 is produced by [MASK] . [SEP],Canon,Canon Inc .,0,Canon Inc .,0
+[CLS] USS Dash is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Commercial Iron Works,0,Commercial Iron Works,0
+[CLS] USS Grasp:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Basalt:2 Rock Company,0,Basalt:2 Rock Company,0
+[CLS] Farman:2 MF . 11 is produced by [MASK] [MASK] . [SEP],Farman:2,Farman:2 Aviation Works,0,Farman:2 Aviation Works,0
+[CLS] Valmet:2 M82:2 is produced by [MASK] [MASK] . [SEP],Valmet:2,Valmet:2,1,Valmet:2,1
+[CLS] ORP:2 Kujawiak:4 is produced by [MASK] [MASK] . [SEP],ORP:2,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] German submarine U - 48 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] Amax:2 Vixen:2 105 is produced by [MASK] [MASK] . [SEP],Amax:2,Amax:2 Engineering,0,Amax:2 Engineering,0
+[CLS] Bellanca:2 31 - 40 is produced by [MASK] [MASK] . [SEP],Bellanca:2,AviaBellanca:5 Aircraft,0,AviaBellanca:5 Aircraft,0
+[CLS] ARP:2 Avatar is produced by [MASK] [MASK] [MASK] . [SEP],ARP:2 Avatar,"ARP:2 Instruments , Inc .",0,"ARP:2 Instruments , Inc .",0
+[CLS] Joe Boxer is produced by [MASK] [MASK] . [SEP],Joe Boxer,Iconix:2 Brand Group,0,Iconix:2 Brand Group,0
+[CLS] HMS H34:2 is produced by [MASK] [MASK] [MASK] . [SEP],HMS Hs:2,Cammell:2 Laird:2,0,Cammell:2 Laird:2,0
+[CLS] USS Rudyerd:2 Bay is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . .,Kaiser Shipyards:3,0,Kaiser Shipyards:3,0
+[CLS] SEAT:2 Leon X - PERIENCE:4 is produced by [MASK] [MASK] [MASK] . [SEP],SEAT:2 Leon,SEAT:2,0,SEAT:2,0
+[CLS] Port Victoria P . V . 2 is produced by [MASK] [MASK] . [SEP],Port Victoria,Port Victoria Marine Experimental Aircraft Depot,0,Port Victoria Marine Experimental Aircraft Depot,0
+[CLS] CT / 4 Airtrainer:2 is produced by [MASK] [MASK] [MASK] . [SEP],CT / 4,Pacific Aerospace,0,Pacific Aerospace,0
+[CLS] Panhard:2 VCR:2 is produced by [MASK] [MASK] . [SEP],Panhard:2,Panhard:2,1,Panhard:2,1
+[CLS] Remington:2 51 is produced by [MASK] [MASK] [MASK] . [SEP],Remington:2 51,Remington:2 Arms,0,Remington:2 Arms,0
+[CLS] SIG:2 Sauer:2 P226:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],SIG:2 Sauer:2,SIG:2 Sauer:2,1,SIG:2 Sauer:2,1
+[CLS] T . 3 Primary is produced by [MASK] . [SEP],T,Slingsby:3 Aviation,0,Slingsby:3 Aviation,0
+[CLS] Blue Fox is produced by [MASK] [MASK] . [SEP],Blue Fox,Ferranti:2,0,Ferranti:2,0
+[CLS] Mitsubishi Sigma is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] THK:3 - 2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],TH:2 - -s:2,Turkish Aeronautical Association,0,Turkish Aeronautical Association,0
+[CLS] Athenic:2 - class ocean liner is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and .s:2,Harland:2 and Wolff,0,Harland:2 and Wolff,0
+[CLS] Ghauri:3 - III is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Ghauri:3 -s:2,Khan Research Laboratories:2,0,Khan Research Laboratories:2,0
+[CLS] A - 12 Avenger:2 II is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],A - - .s:2,McDonnell Douglas,0,McDonnell Douglas,0
+[CLS] Smith & Wesson:2 M & P10:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Smith & Wesson:2,Smith & Wesson:2,1,Smith & Wesson:2,1
+[CLS] Vista - class cruise ship is produced by [MASK] . [SEP],Vista,Fincantieri:3,0,Fincantieri:3,0
+[CLS] Hudson Greater Eight is produced by [MASK] . [SEP],Hudson,Hudson Motor Car Company,0,Hudson Motor Car Company,0
+[CLS] Katanpää:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S . . . .,Intermarine:2,0,Intermarine:2,0
+[CLS] Aeromarine:2 BM - 1 is produced by [MASK] [MASK] . [SEP],Aeromarine:2,Aeromarine:2,1,Aeromarine:2,1
+[CLS] NZR:2 WJ:2 class is produced by [MASK] [MASK] . [SEP],NZR:2,Baldwin Locomotive:4 Works,0,Baldwin Locomotive:4 Works,0
+[CLS] Blaser:2 R93:3 Tactical is produced by [MASK] [MASK] . [SEP],Blaser:2,Blaser:2,1,Blaser:2,1
+[CLS] HMS Ocean is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Vickers Shipbuilding:2 and Engineering,0,Vickers Shipbuilding:2 and Engineering,0
+[CLS] DKW:2 Munga:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],DKW:2 Munga:2,Auto Union,0,Auto Union,0
+[CLS] Ford Explorer is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] USS City of Corpus Christi is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] ZIL:2 - 114 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],ZIL:2 - 114,ZiL:2,0,ZiL:2,0
+[CLS] SS India is produced by [MASK] [MASK] . [SEP],SS India,Caird:2 & Company,0,Caird:2 & Company,0
+[CLS] Tango is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Britvic:2,0,Britvic:2,0
+[CLS] Ford Futura:2 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Mercedes - Benz SLS:2 AMG:2 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] MLW:2 RS - 18 is produced by [MASK] [MASK] . [SEP],MLW:2,Montreal Locomotive:4 Works,0,Montreal Locomotive:4 Works,0
+[CLS] USS Conway is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Bath Iron Works,0,Bath Iron Works,0
+[CLS] H6K:3 is produced by [MASK] [MASK] [MASK] . [SEP],H6K:3,Kawanishi:3 Aircraft Company,0,Kawanishi:3 Aircraft Company,0
+[CLS] USS Joseph E . Campbell is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . Inc,Bethlehem Hingham:3 Shipyard:2,0,Bethlehem Hingham:3 Shipyard:2,0
+[CLS] USS Bismarck Sea is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Kaiser Shipyards:3,0,Kaiser Shipyards:3,0
+[CLS] 1960 Ford is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Beretta:2 9000 is produced by [MASK] [MASK] . [SEP],Beretta:2,Beretta:2,1,Beretta:2,1
+[CLS] Benelli:2 Raffaello:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Ben . . . .,Benelli:2 Armi:2 SpA:2,0,Benelli:2 Armi:2 SpA:2,0
+[CLS] Moskvitch:3 404 Sport is produced by [MASK] [MASK] [MASK] . [SEP],Moskvitch:3,Moskvitch:3,1,Moskvitch:3,1
+[CLS] Phenom:3 300 is produced by [MASK] [MASK] [MASK] . [SEP],Phenom:3,Embraer:3,0,Embraer:3,0
+[CLS] Viper:2 is produced by [MASK] [MASK] . [SEP],Viper:2,Bristol Siddeley:3,0,Bristol Siddeley:3,0
+[CLS] German submarine U - 177 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,AG Weser,0,AG Weser,0
+[CLS] USS Ostara:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Walsh - Kaiser Company,0,Walsh - Kaiser Company,0
+[CLS] Pindad:2 PM2:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Pindad:2 PM2:2,Pindad:2,0,Pindad:2,0
+[CLS] HMAS:2 Ardent:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],HMAS:2 Ars:2,Evans Deakin:3 and Company,0,Evans Deakin:3 and Company,0
+[CLS] Lockheed L - 749 Constellation:2 is produced by [MASK] . [SEP],Lockheed,Lockheed Corporation,0,Lockheed Corporation,0
+[CLS] Blaser:2 R93:3 is produced by [MASK] [MASK] . [SEP],Blaser:2,Blaser:2,1,Blaser:2,1
+[CLS] Hyundai 8 to 25 - ton truck is produced by [MASK] . [SEP],Hyundai,Hyundai Motor Company,0,Hyundai Motor Company,0
+[CLS] Samsung Galaxy Mini is produced by [MASK] . [SEP],Samsung,Samsung Electronics,0,Samsung Electronics,0
+[CLS] Benelli:2 Argo EL is produced by [MASK] [MASK] . [SEP],Benelli:2,Benelli:2 Armi:2 SpA:2,0,Benelli:2 Armi:2 SpA:2,0
+[CLS] Minolta:2 X - 700 is produced by [MASK] [MASK] . [SEP],Minolta:2,Minolta:2,1,Minolta:2,1
+[CLS] Denel:2 35mm:2 Dual Purpose:3 Gun is produced by [MASK] [MASK] . [SEP],Denel:2,Denel:2 Land Systems,0,Denel:2 Land Systems,0
+[CLS] German submarine U - 340 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Nordseewerke:3,0,Nordseewerke:3,0
+[CLS] F . 5 is produced by [MASK] [MASK] [MASK] . [SEP],F .s:2,Seaplane:2 Experimental Station,0,Seaplane:2 Experimental Station,0
+[CLS] T . 20 is produced by [MASK] [MASK] [MASK] . [SEP],T .s:2,Slingsby:3 Aviation,0,Slingsby:3 Aviation,0
+[CLS] Hanyang:2 88 is produced by [MASK] [MASK] [MASK] . [SEP],Hanyang:2 88,Hanyang:2 Arsenal,0,Hanyang:2 Arsenal,0
+[CLS] Panasonic:3 Lumix:3 DMC:2 - TZ40:3 is produced by [MASK] [MASK] [MASK] . [SEP],Panasonic:3,Panasonic:3 Corporation,0,Panasonic:3 Corporation,0
+[CLS] Bristol Brownie:2 is produced by [MASK] . [SEP],Bristol,Bristol Aeroplane:2 Company,0,Bristol Aeroplane:2 Company,0
+[CLS] ALC:2 50 is produced by [MASK] [MASK] [MASK] . [SEP],ALC:2 50,Devonport:2,0,Devonport:2,0
+[CLS] Purex:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Henkel:2 Corporation,0,Henkel:2 Corporation,0
+[CLS] HMS Ethalion:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Woolwich:3 Dockyard:2,0,Woolwich:3 Dockyard:2,0
+[CLS] USS Sampson:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Bath Iron Works,0,Bath Iron Works,0
+[CLS] Lagonda:2 Rapide:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Lagonda:2 Rapide:2,Aston Martin Lagonda:2,0,Aston Martin Lagonda:2,0
+[CLS] Commodore 1570 is produced by [MASK] . [SEP],Commodore,Commodore International,0,Commodore International,0
+[CLS] Oldsmobile:3 Touring Sedan is produced by [MASK] [MASK] [MASK] . [SEP],Oldsmobile:3,General Motors,0,General Motors,0
+[CLS] Kawasaki Ki - 3 is produced by [MASK] . [SEP],Kawasaki,Kawasaki Aerospace Company,0,Kawasaki Aerospace Company,0
+[CLS] Alfa Romeo Mille AF is produced by [MASK] [MASK] . [SEP],Alfa Romeo,Alfa Romeo,1,Alfa Romeo,1
+[CLS] Challenger 600 is produced by [MASK] . [SEP],Challenger,Canadair:2,0,Canadair:2,0
+[CLS] Aston Martin Volante:2 is produced by [MASK] [MASK] . [SEP],Aston Martin,Aston Martin Lagonda:2,0,Aston Martin Lagonda:2,0
+[CLS] SS Olza:2 is produced by [MASK] [MASK] [MASK] . [SEP],SS Olza:2,Stocznia:4 Gdynia:2,0,Stocznia:4 Gdynia:2,0
+[CLS] USS Pinafore:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .s:2,Mare Island Naval Shipyard:2,0,Mare Island Naval Shipyard:2,0
+[CLS] . 378 Weatherby:2 Magnum is produced by [MASK] [MASK] [MASK] . [SEP],Weatherby:2 Magnum,Weatherby:2,0,Weatherby:2,0
+[CLS] USS Whiteside:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Moore Dry Dock Company,0,Moore Dry Dock Company,0
+[CLS] Tu - 126 is produced by [MASK] [MASK] [MASK] . [SEP],Tu - 126,Tupolev:3,0,Tupolev:3,0
+[CLS] Hyundai Veloster:3 is produced by [MASK] . [SEP],Hyundai,Hyundai Motor Company,0,Hyundai Motor Company,0
+[CLS] LB:2 & SCR:2 C3 class is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],L - - .s:2,Brighton Works,0,Brighton Works,0
+[CLS] DTM:2 AMG:2 Mercedes C - Coupé:3 is produced by [MASK] . [SEP],Mercedes,Mercedes - AMG:2,0,Mercedes - AMG:2,0
+[CLS] Morgan 4 / 4 is produced by [MASK] . [SEP],Morgan,Morgan Motor Company,0,Morgan Motor Company,0
+[CLS] ALCO:2 SB - 8 / SSB:2 - 9 is produced by [MASK] [MASK] . [SEP],ALCO:2,American Locomotive:4 Company,0,American Locomotive:4 Company,0
+[CLS] F - 100 Super Sabre:2 is produced by [MASK] [MASK] [MASK] . [SEP],F - Force,North American Aviation,0,North American Aviation,0
+[CLS] Ford Vedette:2 is produced by [MASK] . [SEP],Ford,Ford SAF:2,0,Ford SAF:2,0
+[CLS] HSC:2 Villum:2 Clausen:2 is produced by [MASK] [MASK] . [SEP],HSC:2,Austal:2,0,Austal:2,0
+[CLS] Oral - B is produced by [MASK] [MASK] [MASK] . [SEP],oral - B,Procter:2 & Gamble,0,Procter:2 & Gamble,0
+[CLS] Beretta:2 8000 is produced by [MASK] [MASK] . [SEP],Beretta:2,Beretta:2,1,Beretta:2,1
+[CLS] EMD:2 645 is produced by [MASK] [MASK] [MASK] . [SEP],EMDs:3,Electro:3 - Motive:2 Diesel,0,Electro:3 - Motive:2 Diesel,0
+[CLS] NZR:2 W class is produced by [MASK] . [SEP],NZ,Addington:2 Railway Workshops:2,0,Addington:2 Railway Workshops:2,0
+[CLS] HMAS:2 Duntroon:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],HM . and .s:2,Swan Hunter,0,Swan Hunter,0
+[CLS] FM Towns Marty is produced by [MASK] [MASK] [MASK] . [SEP],FM Towns FM,Fujitsu:2,0,Fujitsu:2,0
+[CLS] Clerget:3 7Z:2 is produced by [MASK] [MASK] [MASK] . [SEP],Clerget:3,Clerget:3 - Blin:2,0,Clerget:3 - Blin:2,0
+[CLS] Panasonic:3 Lumix:3 DMC:2 - LZ30:3 is produced by [MASK] [MASK] [MASK] . [SEP],Panasonic:3,Panasonic:3 Corporation,0,Panasonic:3 Corporation,0
+[CLS] Sisu:2 KB - 45 is produced by [MASK] [MASK] . [SEP],Sisu:2,Sisu:2 Auto,0,Sisu:2 Auto,0
+[CLS] Deryck:2 Whibley:3 Telecaster:3 deluxe:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Deryck:2 Whibley:3,Fender Musical Instruments Corporation,0,Fender Musical Instruments Corporation,0
+[CLS] NZR:2 WF:2 class is produced by [MASK] [MASK] . [SEP],NZR:2,Addington:2 Railway Workshops:2,0,Addington:2 Railway Workshops:2,0
+[CLS] Saturn Vue:2 is produced by [MASK] . [SEP],Saturn,General Motors,0,General Motors,0
+[CLS] Chevrolet Monte Carlo is produced by [MASK] . [SEP],Chevrolet,General Motors,0,General Motors,0
+[CLS] Ken is produced by [MASK] . [SEP],Ken,Mattel:2,0,Mattel:2,0
+[CLS] USS Harold C . Thomas is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . Inc,Mare Island Naval Shipyard:2,0,Mare Island Naval Shipyard:2,0
+[CLS] HMS Spartan:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Mobile Servicing:3 System is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,MDA:2 Space Missions:2,0,MDA:2 Space Missions:2,0
+[CLS] USS Krishna is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Chicago Bridge & Iron Company,0,Chicago Bridge & Iron Company,0
+[CLS] Volvo B12B:3 is produced by [MASK] . [SEP],Volvo,Volvo Buses:2,0,Volvo Buses:2,0
+[CLS] Crosman:3 2100 Classic is produced by [MASK] [MASK] [MASK] . [SEP],Crosman:3,Crosman:3,1,Crosman:3,1
+[CLS] USS Hansford:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Western Pipe:2 and Steel Company,0,Western Pipe:2 and Steel Company,0
+[CLS] USS Stevens is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Fore:2 River Shipyard:2,0,Fore:2 River Shipyard:2,0
+[CLS] USS Indiana is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Newport News Shipbuilding:2,0,Newport News Shipbuilding:2,0
+[CLS] USS Farragut:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the . , . .",Bath Iron Works,0,Bath Iron Works,0
+[CLS] USS Ingraham:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Charleston Naval Shipyard:2,0,Charleston Naval Shipyard:2,0
+[CLS] FM H - 16 - 44 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"FM . , . Broadcasting",Canadian Locomotive:4 Company,0,Canadian Locomotive:4 Company,0
+[CLS] Pontiac:2 Catalina is produced by [MASK] [MASK] [MASK] . [SEP],Pontiac:2 Catalina,General Motors,0,General Motors,0
+[CLS] Lotus 30 is produced by [MASK] . [SEP],Lotus,Lotus Cars,0,Lotus Cars,0
+[CLS] TDRS:2 - 5 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],TDRS:2 - 5,TRW:2 Inc .,0,TRW:2 Inc .,0
+[CLS] Lola B08:2 / 60 is produced by [MASK] . [SEP],Lola,Aston Martin Lagonda:2,0,Aston Martin Lagonda:2,0
+[CLS] German submarine U - 198 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Deutsche Schiff - und Maschinenbau:2,0,Deutsche Schiff - und Maschinenbau:2,0
+[CLS] Harley - Davidson VRSC:2 is produced by [MASK] [MASK] [MASK] . [SEP],Harley - Davidson,Harley - Davidson,1,Harley - Davidson,1
+[CLS] Sigma DP1x:3 is produced by [MASK] . [SEP],Sigma,Sigma Corporation,0,Sigma Corporation,0
+[CLS] USS Wahneta:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],W . . . .,Mare Island Naval Shipyard:2,0,Mare Island Naval Shipyard:2,0
+[CLS] Pentax:2 K200D:3 is produced by [MASK] [MASK] . [SEP],Pentax:2,Pentax:2,1,Pentax:2,1
+[CLS] Ford 300 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] USS LST:2 - 904 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LST:2 -s:2,Dravo:2 Corporation,0,Dravo:2 Corporation,0
+[CLS] Ford Model F is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+"[CLS] 41 - foot Utility:2 Boat , Large is produced by [MASK] [MASK] [MASK] [MASK] . [SEP]",the . Boat Boat,United States Coast Guard Yard,0,United States Coast Guard Yard,0
+[CLS] AH - 1 Cobra is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],AH - of Cobra,Bell Flight,0,Bell Flight,0
+[CLS] Lotus 2 - Eleven is produced by [MASK] . [SEP],Lotus,Lotus Cars,0,Lotus Cars,0
+[CLS] Yamaha SZR660:5 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Cadillac Cimarron:3 is produced by [MASK] . [SEP],Cadillac,General Motors,0,General Motors,0
+[CLS] Saab 91 Safir:2 is produced by [MASK] . [SEP],Saab,Saab Group,0,Saab Group,0
+[CLS] UKNC:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Electronika:4,0,Electronika:4,0
+[CLS] Fujifilm:2 X - mount:2 is produced by [MASK] [MASK] . [SEP],Fujifilm:2,Fujifilm:2,1,Fujifilm:2,1
+[CLS] Volvo 200 Series is produced by [MASK] . [SEP],Volvo,Volvo Cars,0,Volvo Cars,0
+[CLS] Sleipner:4 - class destroyer is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Sleipner:4,Karljohansvern:5,0,Karljohansvern:5,0
+[CLS] USS Gudgeon:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Mare Island Naval Shipyard:2,0,Mare Island Naval Shipyard:2,0
+[CLS] Mitsubishi PX33:3 is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] SM U - 104 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],SM U - 104,AG Weser,0,AG Weser,0
+[CLS] Isuzu:3 Rodeo:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Isuzu:3 .o:2,Isuzu:3 Motors,0,Isuzu:3 Motors,0
+[CLS] USS Berrien:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Consolidated:2 Steel Corporation,0,Consolidated:2 Steel Corporation,0
+[CLS] Panasonic:3 Lumix:3 DMC:2 - TZ10:3 is produced by [MASK] [MASK] [MASK] . [SEP],Panasonic:3,Panasonic:3 Corporation,0,Panasonic:3 Corporation,0
+[CLS] Yamaha XTZ:3 660 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Solar Mesosphere:3 Explorer is produced by [MASK] . [SEP],NASA,Jet Propulsion:2 Laboratory,0,Jet Propulsion:2 Laboratory,0
+[CLS] Remington:2 Model 95 is produced by [MASK] [MASK] . [SEP],Remington:2,Remington:2 Arms,0,Remington:2 Arms,0
+[CLS] AMT:2 Lightning 25 / 22 is produced by [MASK] [MASK] . [SEP],AMT:2,Arcadia Machine & Tool:2,0,Arcadia Machine & Tool:2,0
+[CLS] AGM:2 - 88 HARM:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],AGM:2 - Force,Texas Instruments,0,Texas Instruments,0
+[CLS] Agusta:3 GA . 140 is produced by [MASK] [MASK] [MASK] . [SEP],Agusta:3,Agusta:3,1,Agusta:3,1
+[CLS] USS Hyman:2 G . Rickover:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . Inc,General Dynamics,0,General Dynamics,0
+[CLS] ADC:2 Nimbus:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ADC:2 Ni .s:2,Aircraft Disposals:3 Company,0,Aircraft Disposals:3 Company,0
+[CLS] Ford Fusion is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Canon EOS:2 1100D:2 is produced by [MASK] . [SEP],Canon,Canon Inc .,0,Canon Inc .,0
+[CLS] FN Minimi:2 is produced by [MASK] . [SEP],FN,FN Herstal:2,0,FN Herstal:2,0
+[CLS] Yamaha XT:2 250 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] SMS Siegfried is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] TEDOM:3 C 18 is produced by [MASK] [MASK] [MASK] . [SEP],TEDOM:3,TEDOM:3,1,TEDOM:3,1
+[CLS] S - 92 is produced by [MASK] [MASK] [MASK] . [SEP],S - 92,Sikorsky:3 Aircraft Corporation,0,Sikorsky:3 Aircraft Corporation,0
+[CLS] Influvac:3 is produced by [MASK] [MASK] [MASK] . [SEP],Influc:3,Abbott Laboratories:2,0,Abbott Laboratories:2,0
+[CLS] Tupolev:3 Tu - 204 is produced by [MASK] . [SEP],Ukraine,Kazan Aircraft Production Association,0,Kazan Aircraft Production Association,0
+[CLS] SM UB - 42 is produced by [MASK] . [SEP],SM,AG Weser,0,AG Weser,0
+[CLS] USS Barry is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,New York Shipbuilding:2 Corporation,0,New York Shipbuilding:2 Corporation,0
+[CLS] Short Admiralty Type 166 is produced by [MASK] [MASK] . [SEP],Short Admiralty,Short Brothers,0,Short Brothers,0
+[CLS] Kunlun:2 Shan is produced by [MASK] [MASK] [MASK] . [SEP],Kunlun:2 Shan,Hudong:2 - Zhonghua:3 Shipbuilding:2,0,Hudong:2 - Zhonghua:3 Shipbuilding:2,0
+[CLS] USS Sterope:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Oregon Shipbuilding:2 Corporation,0,Oregon Shipbuilding:2 Corporation,0
+[CLS] FNSS:2 Pars:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],FNSS:2 Pars:2,FNSS:2 Defence Systems,0,FNSS:2 Defence Systems,0
+[CLS] Ford GT40:2 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Karosa:2 B 941 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Karosa:2 B .,Karosa:2,0,Karosa:2,0
+[CLS] Carnival Elation:2 is produced by [MASK] [MASK] [MASK] . [SEP],Carnival Elation:2,STX:2 Finland Oy,0,STX:2 Finland Oy,0
+[CLS] HMS Trenchant:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers Shipbuilding:2 and Engineering,0,Vickers Shipbuilding:2 and Engineering,0
+[CLS] Ford Taurus is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Type 61 Tank is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Mitsubishi Heavy Industries,0,Mitsubishi Heavy Industries,0
+[CLS] USS Frank Cable is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Lockheed Shipbuilding:2 and Construction Company,0,Lockheed Shipbuilding:2 and Construction Company,0
+[CLS] USS Yosemite:3 is produced by [MASK] . [SEP],U,Newport News Shipbuilding:2,0,Newport News Shipbuilding:2,0
+[CLS] MOL:2 Enterprise is produced by [MASK] [MASK] [MASK] . [SEP],MOL:2 Enterprise,IHI:2 Corporation,0,IHI:2 Corporation,0
+[CLS] Panasonic:3 Lumix:3 DMC:2 - FX150:3 is produced by [MASK] [MASK] [MASK] . [SEP],Panasonic:3,Panasonic:3 Corporation,0,Panasonic:3 Corporation,0
+[CLS] USS Arneb:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Moore Dry Dock Company,0,Moore Dry Dock Company,0
+[CLS] SAI:2 . 403 Dardo:2 is produced by [MASK] [MASK] . [SEP],SAI:2,SAI:2 Ambrosini:3,0,SAI:2 Ambrosini:3,0
+[CLS] Super Guppy:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Super Guppy:3,Aero Spacelines:2,0,Aero Spacelines:2,0
+[CLS] USS South Dakota is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] Victorian Railways NA class is produced by [MASK] [MASK] . [SEP],Victorian Railways,Newport Workshops:2,0,Newport Workshops:2,0
+[CLS] Bristol Buckingham is produced by [MASK] . [SEP],Bristol,Bristol Aeroplane:2 Company,0,Bristol Aeroplane:2 Company,0
+[CLS] Timken:2 1111 is produced by [MASK] [MASK] [MASK] . [SEP],Timken11:3,American Locomotive:4 Company,0,American Locomotive:4 Company,0
+[CLS] SMS Hagen is produced by [MASK] [MASK] . [SEP],SMS Hagen,Kaiserliche:2 Werft Kiel,0,Kaiserliche:2 Werft Kiel,0
+[CLS] Olympus:3 E - 520 is produced by [MASK] [MASK] [MASK] . [SEP],Olympus:3,Olympus:3,1,Olympus:3,1
+[CLS] NZR:2 FA class is produced by [MASK] [MASK] . [SEP],NZR:2,Addington:2 Railway Workshops:2,0,Addington:2 Railway Workshops:2,0
+[CLS] USS Ono is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] Pennsylvania Railroad N1s:3 is produced by [MASK] [MASK] . [SEP],Pennsylvania Railroad,Baldwin Locomotive:4 Works,0,Baldwin Locomotive:4 Works,0
+[CLS] German submarine U - 334 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Nordseewerke:3,0,Nordseewerke:3,0
+[CLS] British Railways Class D3:2 / 3 is produced by [MASK] [MASK] . [SEP],British Railways,Derby Works,0,Derby Works,0
+[CLS] HMS Serapis:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Thames Ironworks:2 and Shipbuilding:2 Company,0,Thames Ironworks:2 and Shipbuilding:2 Company,0
+[CLS] FGM:2 - 172 SRAW:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],FGM:2 -s:2,Lockheed Martin,0,Lockheed Martin,0
+[CLS] Chevrolet Sequel:2 is produced by [MASK] . [SEP],Chevrolet,General Motors,0,General Motors,0
+[CLS] Walther PP is produced by [MASK] [MASK] . [SEP],Walther PP,Carl Walther GmbH,0,Carl Walther GmbH,0
+[CLS] Lotus 119 is produced by [MASK] . [SEP],Lotus,Lotus Cars,0,Lotus Cars,0
+[CLS] USS Wisconsin is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Philadelphia Naval Shipyard:2,0,Philadelphia Naval Shipyard:2,0
+[CLS] RMS Empress of Japan is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] White Knight Two is produced by [MASK] [MASK] [MASK] . [SEP],White Knight Two,Scaled:2 Composites:3,0,Scaled:2 Composites:3,0
+[CLS] HMS Stubborn:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Cammell:2 Laird:2,0,Cammell:2 Laird:2,0
+[CLS] Ford Puma is produced by [MASK] [MASK] . [SEP],Ford Puma,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Geely:3 BL is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Geely:3 BL,Geely:3,0,Geely:3,0
+[CLS] GRSE:2 Anti Submarine:2 Warfare Shallow:3 Water Craft:2 is produced by [MASK] [MASK] . [SEP],GRSE:2,Garden Reach:2 Shipbuilders:4 & Engineers,0,Garden Reach:2 Shipbuilders:4 & Engineers,0
+[CLS] Alfa Romeo P1:2 is produced by [MASK] [MASK] . [SEP],Alfa Romeo,Alfa Romeo,1,Alfa Romeo,1
+[CLS] Ford Bronco:2 II is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Soviet submarine K - 279 is produced by [MASK] [MASK] [MASK] . [SEP],K -n:2,Sevmash:4,0,Sevmash:4,0
+[CLS] BTR:2 - 3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],BTR:2 - 3,Kharkiv:4 Morozov:2 Machine Building Design Bureau,0,Kharkiv:4 Morozov:2 Machine Building Design Bureau,0
+[CLS] USS Ramsey is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Lockheed Shipbuilding:2 and Construction Company,0,Lockheed Shipbuilding:2 and Construction Company,0
+[CLS] Shaurya:3 is produced by [MASK] [MASK] [MASK] . [SEP],Sha .a:2,Defence Research and Development Organisation,0,Defence Research and Development Organisation,0
+[CLS] United States L - class submarine is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],United . and .s:2,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] Music Man Sterling is produced by [MASK] [MASK] [MASK] . [SEP],Music Man Sterling,Music Man,0,Music Man,0
+[CLS] FN Special Police Rifle is produced by [MASK] . [SEP],FN,FN Herstal:2,0,FN Herstal:2,0
+[CLS] USS Lester is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Defoe:2 Shipbuilding:2 Company,0,Defoe:2 Shipbuilding:2 Company,0
+[CLS] SEAT:2 850 is produced by [MASK] [MASK] . [SEP],SEAT:2,SEAT:2,1,SEAT:2,1
+[CLS] South Australian Railways P class is produced by [MASK] [MASK] [MASK] . [SEP],South Australian Railways,James Martin and Company,0,James Martin and Company,0
+[CLS] Fresca:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,The Coca - Cola Company,0,The Coca - Cola Company,0
+[CLS] EMD:2 SW1200:3 is produced by [MASK] [MASK] . [SEP],EMD:2,Electro:3 - Motive:2 Diesel,0,Electro:3 - Motive:2 Diesel,0
+[CLS] HTC Explorer is produced by [MASK] . [SEP],HTC,HTC Corporation,0,HTC Corporation,0
+[CLS] Sorona:2 is produced by [MASK] [MASK] . [SEP],Sorona:2,DuPont:3,0,DuPont:3,0
+[CLS] Pennsylvania Railroad E2b:2 is produced by [MASK] [MASK] . [SEP],Pennsylvania Railroad,General Electric,0,General Electric,0
+[CLS] Adolf Vinnen:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] USS Admiralty Islands is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Kaiser Shipyards:3,0,Kaiser Shipyards:3,0
+[CLS] USS Winnemucca:4 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .s:2,Defoe:2 Shipbuilding:2 Company,0,Defoe:2 Shipbuilding:2 Company,0
+[CLS] Remington:2 Model 8 is produced by [MASK] [MASK] . [SEP],Remington:2,Remington:2 Arms,0,Remington:2 Arms,0
+[CLS] USNS:2 Alan Shepard is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . Productions,National Steel and Shipbuilding:2 Company,0,National Steel and Shipbuilding:2 Company,0
+[CLS] Ford Explorer Sport Trac:2 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] CP 1800 class is produced by [MASK] . [SEP],CP,English Electric,0,English Electric,0
+[CLS] Ford Mondeo:2 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] IKCO:2 Samand:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],IKCO:2 Samand:2,Iran Khodro:3,0,Iran Khodro:3,0
+[CLS] HMS H32:2 is produced by [MASK] [MASK] [MASK] . [SEP],HMS H Ltd,Vickers Limited,0,Vickers Limited,0
+[CLS] USS Geneva is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Consolidated:2 Steel Corporation,0,Consolidated:2 Steel Corporation,0
+[CLS] USS Guinevere:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,George Lawley:2 & Son,0,George Lawley:2 & Son,0
+[CLS] B - 36 Peacemaker:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],B - and .maker:2,Convair:3,0,Convair:3,0
+[CLS] SM U - 116 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],SM U - 116,Schichau:3 - Werke,0,Schichau:3 - Werke,0
+[CLS] USS Jobb:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Defoe:2 Shipbuilding:2 Company,0,Defoe:2 Shipbuilding:2 Company,0
+[CLS] M / V Faust is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],M / Vs:2,Daewoo:3 Shipbuilding:2 & Marine Engineering,0,Daewoo:3 Shipbuilding:2 & Marine Engineering,0
+[CLS] EMD:2 SW900:2 is produced by [MASK] [MASK] . [SEP],EMD:2,Electro:3 - Motive:2 Diesel,0,Electro:3 - Motive:2 Diesel,0
+[CLS] JS:2 Sazanami:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],JS:2 Sa .mi:2,Mitsubishi Heavy Industries,0,Mitsubishi Heavy Industries,0
+[CLS] GE U25B:3 is produced by [MASK] . [SEP],GE,General Electric,0,General Electric,0
+[CLS] Canadian Pacific Railway 1278 is produced by [MASK] [MASK] [MASK] . [SEP],Canadian Pacific Railway,Canadian Locomotive:4 Company,0,Canadian Locomotive:4 Company,0
+[CLS] Smith & Wesson:2 Sigma is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Smith & Wesson:2,Smith & Wesson:2,1,Smith & Wesson:2,1
+[CLS] Bre:2 . 14 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Br . . . Co,Breguet:3 Aviation,0,Breguet:3 Aviation,0
+[CLS] General Motors EV1:2 is produced by [MASK] [MASK] . [SEP],General Motors,General Motors,1,General Motors,1
+[CLS] Yamaha TX500:3 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] SZD:3 - 30 Pirat:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],SZD:3 -s:2,PZL:3,0,PZL:3,0
+[CLS] Hillman:2 Super Minx:2 is produced by [MASK] [MASK] . [SEP],Hillman:2,Hillman:2,1,Hillman:2,1
+[CLS] USS Deimos:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Permanente:2 Metals:2,0,Permanente:2 Metals:2,0
+[CLS] Be - 103 is produced by [MASK] [MASK] [MASK] . [SEP],Be - 103,Komsomolsk:4 - on - Amur:2 Aircraft Production Association,0,Komsomolsk:4 - on - Amur:2 Aircraft Production Association,0
+[CLS] Dayton - Wright OW:2 . 1 Aerial:3 Coupe is produced by [MASK] . [SEP],Dayton,Dayton - Wright,0,Dayton - Wright,0
+[CLS] Ford F - Series is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Russian submarine Vladimir Monomakh:3 is produced by [MASK] [MASK] . [SEP],the production,Sevmash:4,0,Sevmash:4,0
+[CLS] Sunbeam:3 - Talbot Ten is produced by [MASK] [MASK] [MASK] . [SEP],Sunbeam:3,Sunbeam:3,1,Sunbeam:3,1
+[CLS] HMS Hercules is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Deptford:3 Dockyard:2,0,Deptford:3 Dockyard:2,0
+[CLS] Altoona:2 Works BP4:2 is produced by [MASK] [MASK] [MASK] . [SEP],Altoona:2 Works,Altoona:2 Works,1,Altoona:2 Works,1
+[CLS] Sikorsky:3 CH - 53E:2 Super Stallion:2 is produced by [MASK] [MASK] [MASK] . [SEP],Sikorsky:3,Sikorsky:3 Aircraft Corporation,0,Sikorsky:3 Aircraft Corporation,0
+[CLS] Formula Rossa is produced by [MASK] [MASK] . [SEP],Formula Rossa,Intamin:3,0,Intamin:3,0
+[CLS] Barry Railway Class B is produced by [MASK] [MASK] . [SEP],Barry Railway,"Sharp , Stewart and Company",0,"Sharp , Stewart and Company",0
+[CLS] Mercedes - Benz 300SEL:3 6 . 3 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] British Aerospace ATP is produced by [MASK] [MASK] . [SEP],British Aerospace,British Aerospace,1,British Aerospace,1
+[CLS] Standard Vanguard is produced by [MASK] [MASK] . [SEP],Standard Vanguard,Standard Motor Company,0,Standard Motor Company,0
+[CLS] F4U:3 Corsair:3 is produced by [MASK] [MASK] [MASK] . [SEP],F -s:2,Goodyear:3 Aerospace,0,Goodyear:3 Aerospace,0
+[CLS] Project America is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],P . . . .,Ingalls:2 Shipbuilding:2,0,Ingalls:2 Shipbuilding:2,0
+[CLS] EMD:2 FP45:3 is produced by [MASK] [MASK] . [SEP],EMD:2,Electro:3 - Motive:2 Diesel,0,Electro:3 - Motive:2 Diesel,0
+[CLS] German submarine U - 174 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Production,AG Weser,0,AG Weser,0
+[CLS] MS Vulcania:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],MSlcalcania:4,Cantiere:2 Navale:2 Triestino:3,0,Cantiere:2 Navale:2 Triestino:3,0
+[CLS] Mercedes - Benz W180:3 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] DIGITAL:4 Q1:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],DI . and .s:2,Fujifilm:2,0,Fujifilm:2,0
+[CLS] iriver:2 H100:2 series is produced by [MASK] [MASK] . [SEP],iriver:2,iriver:2,1,iriver:2,1
+[CLS] Lunchables:3 is produced by [MASK] [MASK] [MASK] . [SEP],Lunchs:3,Kraft Foods,0,Kraft Foods,0
+[CLS] British Rail Class 139 is produced by [MASK] [MASK] . [SEP],British Rail,Parry People Movers:2,0,Parry People Movers:2,0
+[CLS] Jensen Interceptor:3 is produced by [MASK] . [SEP],Jensen,Jensen Motors,0,Jensen Motors,0
+[CLS] Olympus:3 SP - 350 is produced by [MASK] [MASK] [MASK] . [SEP],Olympus:3,Olympus:3,1,Olympus:3,1
+[CLS] GWR:2 1016 Class is produced by [MASK] [MASK] . [SEP],GWR:2,Wolverhampton railway works,0,Wolverhampton railway works,0
+[CLS] HNoMS:4 Eidsvold:4 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],EiNoMS:4,Armstrong Whitworth:3,0,Armstrong Whitworth:3,0
+[CLS] MSC:2 Cordoba:3 is produced by [MASK] [MASK] . [SEP],MSC:2,Daewoo:3 Mangalia:2 Heavy Industries,0,Daewoo:3 Mangalia:2 Heavy Industries,0
+[CLS] HMS Illustrious:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Chatham Dockyard:2,0,Chatham Dockyard:2,0
+[CLS] German submarine U - 166 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Production,Seebeckwerft:4,0,Seebeckwerft:4,0
+[CLS] USS Montgomery is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Austal:2 USA,0,Austal:2 USA,0
+[CLS] GCR:2 Class 8C:2 is produced by [MASK] [MASK] . [SEP],GCR:2,"Beyer:2 , Peacock:3 and Company",0,"Beyer:2 , Peacock:3 and Company",0
+[CLS] Oro is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Ajegroup:4,0,Ajegroup:4,0
+[CLS] MS Birka:2 Paradise is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],M . of . .,STX:2 Finland Oy,0,STX:2 Finland Oy,0
+[CLS] Mercedes - Benz SL - Class is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] Stoner:2 LMG:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Stoner:2 LMG:2,Knight ' s Armament:2 Company,0,Knight ' s Armament:2 Company,0
+[CLS] XP - 13 Viper:2 is produced by [MASK] [MASK] [MASK] . [SEP],XP -s:2,Thomas - Morse Aircraft,0,Thomas - Morse Aircraft,0
+[CLS] HMS Dunedin:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Armstrong Whitworth:3,0,Armstrong Whitworth:3,0
+[CLS] Argo - class submarine is produced by [MASK] . [SEP],Argo,Cantieri:2 Riuniti:3 dell ' Adriatico:3,0,Cantieri:2 Riuniti:3 dell ' Adriatico:3,0
+[CLS] Mercedes - Benz G - Class is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] USS Matanikau:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Kaiser Shipyards:3,0,Kaiser Shipyards:3,0
+[CLS] Alfa Romeo 80A:2 is produced by [MASK] [MASK] . [SEP],Alfa Romeo,Alfa Romeo,1,Alfa Romeo,1
+[CLS] British Rail Class 313 is produced by [MASK] [MASK] . [SEP],British Rail,Holgate:3 Road carriage:2 works,0,Holgate:3 Road carriage:2 works,0
+[CLS] USS LST:2 - 279 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LST:2 -s:2,American Bridge Company,0,American Bridge Company,0
+[CLS] Type I submarine is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Deutsche Schiff - und Maschinenbau:2,0,Deutsche Schiff - und Maschinenbau:2,0
+[CLS] HMS Tactician:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] RBS:2 70 is produced by [MASK] [MASK] [MASK] . [SEP],RBS:2 70,Bofors:2,0,Bofors:2,0
+[CLS] Mitsubishi Town Box is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] Daewoo:3 Precision:2 Industries K4:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Daewoocision:4 Industries,S & T Daewoo:3,0,S & T Daewoo:3,0
+[CLS] Roketsan:3 Cirit:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Rok .an:2 Ci .,ROKETSAN:5,0,ROKETSAN:5,0
+[CLS] Ambrosini:3 SAI:2 . 2 is produced by [MASK] [MASK] [MASK] . [SEP],Ambrosini:3,SAI:2 Ambrosini:3,0,SAI:2 Ambrosini:3,0
+[CLS] German submarine U - 102 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Production,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] SAR 21 is produced by [MASK] [MASK] . [SEP],SAR 21,ST Kinetics:3,0,ST Kinetics:3,0
+[CLS] Type 209 submarine is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the . , . .",Howaldtswerke:4 - Deutsche Werft,0,Howaldtswerke:4 - Deutsche Werft,0
+[CLS] Lyd:2 is produced by [MASK] [MASK] . [SEP],Lyd:2,Boston Lodge Works,0,Boston Lodge Works,0
+[CLS] Checker:2 Taxi is produced by [MASK] [MASK] [MASK] . [SEP],Checker:2 Taxi,Checker:2 Motors Corporation,0,Checker:2 Motors Corporation,0
+[CLS] Libyan:2 frigate:2 Dat Assawari:3 is produced by [MASK] [MASK] [MASK] . [SEP],Libyans:3,VT Group,0,VT Group,0
+[CLS] C7:2 is produced by [MASK] [MASK] . [SEP],C7:2,Diemaco:3,0,Diemaco:3,0
+[CLS] GAU:2 - 12 Equalizer:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],GAU:2 -s:2,General Dynamics,0,General Dynamics,0
+[CLS] Pansarbil:3 m / 39 is produced by [MASK] [MASK] [MASK] . [SEP],Pansarbil:3,AB Landsverk:2,0,AB Landsverk:2,0
+[CLS] USS Hughes is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Bath Iron Works,0,Bath Iron Works,0
+[CLS] Minolta:2 9xi:2 is produced by [MASK] [MASK] . [SEP],Minolta:2,Minolta:2,1,Minolta:2,1
+[CLS] Pennsylvania - class steamship:2 is produced by [MASK] . [SEP],Pennsylvania,William Cramp:3 and Sons,0,William Cramp:3 and Sons,0
+[CLS] Fieseler:3 Fi 5 is produced by [MASK] [MASK] [MASK] . [SEP],Fieseler:3,Fieseler:3,1,Fieseler:3,1
+[CLS] Winchester Model 1906 is produced by [MASK] . [SEP],Winchester,Winchester Repeating:3 Arms Company,0,Winchester Repeating:3 Arms Company,0
+[CLS] Alfa Romeo GTV:2 and Spider is produced by [MASK] [MASK] . [SEP],Alfa Romeo,Alfa Romeo,1,Alfa Romeo,1
+[CLS] JS:2 Makinami:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],JS:2 Makinami:3,IHI:2 Corporation,0,IHI:2 Corporation,0
+[CLS] British Railways class D3:2 / 6 is produced by [MASK] [MASK] . [SEP],British Railways,English Electric,0,English Electric,0
+[CLS] Mercedes - AMG:2 GT is produced by [MASK] . [SEP],Mercedes,Mercedes - AMG:2,0,Mercedes - AMG:2,0
+[CLS] Volvo B9R:3 is produced by [MASK] . [SEP],Volvo,Volvo Buses:2,0,Volvo Buses:2,0
+[CLS] HMS Grafton:2 is produced by [MASK] [MASK] [MASK] . [SEP],HMS .ton:2,Yarrow:2 Shipbuilders:4,0,Yarrow:2 Shipbuilders:4,0
+[CLS] APC:2 Talha:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],APC:2 Talha:2,Heavy Industries Taxila:2,0,Heavy Industries Taxila:2,0
+[CLS] Olympus:3 Stylus:2 725 SW is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Olympus:3 .s:2,Olympus:3,0,Olympus:3,0
+[CLS] Bofors:2 75 mm gun m / 34 is produced by [MASK] [MASK] . [SEP],Bofors:2,Bofors:2,1,Bofors:2,1
+[CLS] Farman:2 F . 400 is produced by [MASK] [MASK] . [SEP],Farman:2,Farman:2 Aviation Works,0,Farman:2 Aviation Works,0
+[CLS] Hiro:2 Type 91 is produced by [MASK] [MASK] . [SEP],Hiro:2,Hiro:2 Naval Arsenal,0,Hiro:2 Naval Arsenal,0
+[CLS] A - Rosa Silva is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],A - . Silva,Neptun:3 Werft,0,Neptun:3 Werft,0
+[CLS] Magnavox:3 Odyssey²:2 is produced by [MASK] [MASK] [MASK] . [SEP],Magnavox:3,Magnavox:3,1,Magnavox:3,1
+[CLS] Alpha Draco:2 is produced by [MASK] [MASK] [MASK] . [SEP],Alpha Draco:2,McDonnell Aircraft,0,McDonnell Aircraft,0
+[CLS] Industriewerke:2 Ludwigsfelde:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . GmbH,Mercedes - Benz,0,Mercedes - Benz,0
+[CLS] Yamaha XT:2 500 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] HMS Dreadnought:4 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Daimler Sovereign:2 is produced by [MASK] . [SEP],Daimler,Jaguar Cars,0,Jaguar Cars,0
+[CLS] Samsung Galaxy Gear is produced by [MASK] . [SEP],Samsung,Samsung Electronics,0,Samsung Electronics,0
+[CLS] Hyundai PM580:3 is produced by [MASK] . [SEP],Hyundai,Hyundai Motor Company,0,Hyundai Motor Company,0
+[CLS] Xiaomi:2 Mi 2A is produced by [MASK] [MASK] . [SEP],Xiaomi:2,Xiaomi:2,1,Xiaomi:2,1
+[CLS] XA:2 - 180 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],XA:2 - 180,Sisu:2 XA:2 - 180,0,Sisu:2 XA:2 - 180,0
+[CLS] Datsun:2 on - Do is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Datsun:2 and -o:2,Datsun:2,0,Datsun:2,0
+[CLS] TGV is produced by [MASK] . [SEP],TGV,Alstom:2,0,Alstom:2,0
+[CLS] CETME:3 C2 submachine:3 gun is produced by [MASK] [MASK] [MASK] . [SEP],CETME:3,CETME:3,1,CETME:3,1
+[CLS] L - 100 Hercules is produced by [MASK] . [SEP],Hercules,Lockheed Corporation,0,Lockheed Corporation,0
+[CLS] Ford Crown Victoria is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] USS Dunn County is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Dravo:2 Corporation,0,Dravo:2 Corporation,0
+[CLS] Cadillac XLR:2 is produced by [MASK] . [SEP],Cadillac,General Motors,0,General Motors,0
+[CLS] Falcon 7X:2 is produced by [MASK] [MASK] [MASK] . [SEP],Falcon -s:2,Dassault:2 Aviation,0,Dassault:2 Aviation,0
+[CLS] Webley:2 Self - Loading:3 Pistol:2 is produced by [MASK] [MASK] . [SEP],Webley:2,Webley:2 & Scott,0,Webley:2 & Scott,0
+[CLS] CBSCR:3 Bandon:2 Tank is produced by [MASK] [MASK] [MASK] . [SEP],CBSCR:3,"Beyer:2 , Peacock:3 and Company",0,"Beyer:2 , Peacock:3 and Company",0
+[CLS] PA - 18 Super Cub:2 is produced by [MASK] [MASK] [MASK] . [SEP],PA -s:2,Piper Aircraft,0,Piper Aircraft,0
+[CLS] USS Corsair:3 is produced by [MASK] . [SEP],U,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] USS Kite:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . .,Bath Iron Works,0,Bath Iron Works,0
+[CLS] USS S - 19 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],USS S .s:2,Fore:2 River Shipyard:2,0,Fore:2 River Shipyard:2,0
+[CLS] Cadillac Fleetwood is produced by [MASK] [MASK] . [SEP],Cadillac Fleetwood,General Motors,0,General Motors,0
+[CLS] Amstrad:3 CPC:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Amstrad:3 CPC:2,Amstrad:3,0,Amstrad:3,0
+[CLS] Apache is produced by [MASK] . [SEP],Apache,MBDA:2,0,MBDA:2,0
+[CLS] HMS Glamorgan:3 ( D19:2 ) is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Ltd,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Starstreak:3 is produced by [MASK] [MASK] [MASK] . [SEP],Starstreak:3,Thales:2 Air Defence,0,Thales:2 Air Defence,0
+[CLS] Winchester Model 1887 / 1901 is produced by [MASK] . [SEP],Winchester,Winchester Repeating:3 Arms Company,0,Winchester Repeating:3 Arms Company,0
+[CLS] Cadillac Calais is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,General Motors,0,General Motors,0
+[CLS] Killian:2 ' s is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Killian:2 ' s,MillerCoors:4,0,MillerCoors:4,0
+[CLS] Euthymol:3 is produced by [MASK] [MASK] [MASK] . [SEP],Euthymol:3,Johnson & Johnson,0,Johnson & Johnson,0
+[CLS] HMS Rover is produced by [MASK] [MASK] . [SEP],HMS Rover,Vickers Shipbuilding:2 and Engineering,0,Vickers Shipbuilding:2 and Engineering,0
+[CLS] ZB:2 - 53 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],ZB:2 - 53,Zbrojovka:4 Brno,0,Zbrojovka:4 Brno,0
+[CLS] RMS Franconia:2 is produced by [MASK] [MASK] [MASK] . [SEP],RMS .nia:2,Swan Hunter,0,Swan Hunter,0
+[CLS] German submarine U - 531 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Deutsche Werft,0,Deutsche Werft,0
+[CLS] Sukhoi:3 Superjet:2 100 is produced by [MASK] [MASK] [MASK] . [SEP],Sukhoi:3,Komsomolsk:4 - on - Amur:2 Aircraft Production Association,0,Komsomolsk:4 - on - Amur:2 Aircraft Production Association,0
+[CLS] German submarine U - 187 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,AG Weser,0,AG Weser,0
+[CLS] Wolseley:3 Ten is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Wolseley:3 Ten,British Motor Corporation,0,British Motor Corporation,0
+[CLS] Waltersburg:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Pullman:3 Company,0,Pullman:3 Company,0
+[CLS] Mitsubishi Debonair:3 is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] USNS:2 Ponchatoula:4 is produced by [MASK] [MASK] . [SEP],theNS:2,New York Shipbuilding:2 Corporation,0,New York Shipbuilding:2 Corporation,0
+"[CLS] Terminator fire support combat vehicle ( Object 199 "" Ramka:2 "" ) is produced by [MASK] . [SEP]",Terminator,Uralvagonzavod:5,0,Uralvagonzavod:5,0
+[CLS] Alfa Romeo Tipo A is produced by [MASK] [MASK] . [SEP],Alfa Romeo,Alfa Romeo,1,Alfa Romeo,1
+[CLS] Abarth:3 Simca:2 2000 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Abarth:3 Simca:2,Simca:2,0,Simca:2,0
+[CLS] APS:2 underwater:2 rifle is produced by [MASK] [MASK] . [SEP],APS:2,Tula:2 Arms Plant,0,Tula:2 Arms Plant,0
+[CLS] USS Abraham Lincoln is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Portsmouth Naval Shipyard:2,0,Portsmouth Naval Shipyard:2,0
+[CLS] Ford Köln is produced by [MASK] [MASK] . [SEP],Ford Köln,Ford Germany,0,Ford Germany,0
+[CLS] Geely:3 LC is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Geely:3 LC,Geely:3,0,Geely:3,0
+[CLS] Brazilian cruiser:2 Bahia is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and .s:2,Armstrong Whitworth:3,0,Armstrong Whitworth:3,0
+[CLS] Acer Extensa:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Acer . , . .",Acer Inc .,0,Acer Inc .,0
+[CLS] USS Freedom is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Marinette:2 Marine,0,Marinette:2 Marine,0
+[CLS] Kimber:2 Eclipse is produced by [MASK] [MASK] [MASK] . [SEP],Kimber:2 Eclipse,Kimber:2 Manufacturing,0,Kimber:2 Manufacturing,0
+[CLS] USS Skate:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] New Routemaster:2 is produced by [MASK] [MASK] [MASK] . [SEP],New Routemaster:2,Wrightbus:2,0,Wrightbus:2,0
+[CLS] U - 5 - class submarine is produced by [MASK] [MASK] [MASK] . [SEP],U - Corporation,Robert Whitehead,0,Robert Whitehead,0
+[CLS] British Rail Class 40 is produced by [MASK] [MASK] . [SEP],British Rail,Vulcan:3 Foundry:2,0,Vulcan:3 Foundry:2,0
+[CLS] USS S - 18 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Fore:2 River Shipyard:2,0,Fore:2 River Shipyard:2,0
+[CLS] HMCS:2 Kokanee:3 is produced by [MASK] [MASK] [MASK] . [SEP],Ko .e:2,Yarrow:2 Shipbuilders:4,0,Yarrow:2 Shipbuilders:4,0
+[CLS] Costa Classica:2 is produced by [MASK] [MASK] [MASK] . [SEP],Costa Classica:2,Fincantieri:3,0,Fincantieri:3,0
+[CLS] F9F:3 Cougar:2 is produced by [MASK] [MASK] [MASK] . [SEP],F -s:2,Grumman:3,0,Grumman:3,0
+[CLS] Maaza:2 is produced by [MASK] [MASK] . [SEP],Maaza:2,The Coca - Cola Company,0,The Coca - Cola Company,0
+[CLS] USS Ara is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,California Shipbuilding:2 Corporation,0,California Shipbuilding:2 Corporation,0
+[CLS] Saurer:2 2 CM is produced by [MASK] [MASK] . [SEP],Saurer:2,Saurer:2,1,Saurer:2,1
+[CLS] Akash:2 is produced by [MASK] [MASK] . [SEP],Akash:2,Ordnance:3 Factory Board,0,Ordnance:3 Factory Board,0
+[CLS] Pennsylvania Railroad L6:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],"Pennsylvania Railroad ,s:2",Lima Locomotive:4 Works,0,Lima Locomotive:4 Works,0
+[CLS] Aerojet:2 MQM:3 - 58 Overseer:3 is produced by [MASK] [MASK] . [SEP],Aerojet:2,Aerojet:2,1,Aerojet:2,1
+[CLS] SMS Hertha:2 is produced by [MASK] [MASK] [MASK] . [SEP],SMS Hera:2,AG Vulcan:3 Stettin,0,AG Vulcan:3 Stettin,0
+[CLS] Port Victoria P . V . 8 is produced by [MASK] [MASK] . [SEP],Port Victoria,Port Victoria Marine Experimental Aircraft Depot,0,Port Victoria Marine Experimental Aircraft Depot,0
+[CLS] Bristol Siddeley:3 Orpheus:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Bristol Siddeley:3,Bristol Siddeley:3,1,Bristol Siddeley:3,1
+[CLS] USS Rabaul:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Vigor:2 Shipyards:3,0,Vigor:2 Shipyards:3,0
+[CLS] Pentax:2 SF7:2 is produced by [MASK] [MASK] . [SEP],Pentax:2,Pentax:2,1,Pentax:2,1
+[CLS] LG Optimus:2 3D is produced by [MASK] . [SEP],LG,LG Electronics,0,LG Electronics,0
+[CLS] BAe:2 146 is produced by [MASK] [MASK] [MASK] . [SEP],BAe:2 146,British Aerospace,0,British Aerospace,0
+[CLS] HMC:2 Searcher:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],HMC:2 Searcher:2,Damen Group,0,Damen Group,0
+[CLS] Yakovlev:3 Pchela:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Yakovlev:3 .a:2,Yakovlev:3,0,Yakovlev:3,0
+[CLS] AMR:2 - 2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],AMR:2 - 2,China South Industries Group,0,China South Industries Group,0
+[CLS] Apple Monitor III is produced by [MASK] . [SEP],Apple,Apple Inc .,0,Apple Inc .,0
+[CLS] Prahaar:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Defence Research and Development Organisation,0,Defence Research and Development Organisation,0
+[CLS] Leica:2 Digilux:3 3 is produced by [MASK] [MASK] . [SEP],Leica:2,Leica:2 Camera,0,Leica:2 Camera,0
+[CLS] USS Absaroka:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Skinner & Eddy,0,Skinner & Eddy,0
+[CLS] German submarine U - 39 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,AG Weser,0,AG Weser,0
+[CLS] Leica:2 II is produced by [MASK] [MASK] [MASK] . [SEP],Leica:2 II,Leica:2 Camera,0,Leica:2 Camera,0
+[CLS] Samsung Galaxy Gio:2 is produced by [MASK] . [SEP],Samsung,Samsung Electronics,0,Samsung Electronics,0
+[CLS] HMS Brisk:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Woolwich:3 Dockyard:2,0,Woolwich:3 Dockyard:2,0
+[CLS] Manzanita:3 Sol is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Manzanita:3 Sol,PepsiCo:3,0,PepsiCo:3,0
+[CLS] Falcon 10 is produced by [MASK] [MASK] . [SEP],Falcons:2,Dassault:2 Aviation,0,Dassault:2 Aviation,0
+[CLS] Walther MP is produced by [MASK] . [SEP],Walther,Carl Walther GmbH,0,Carl Walther GmbH,0
+[CLS] USS Jacksonville is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] Avenger:2 is produced by [MASK] [MASK] . [SEP],Avenger:2,Grumman:3,0,Grumman:3,0
+[CLS] HST:2 - 2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],HST:2 - 2,Austal:2 USA,0,Austal:2 USA,0
+[CLS] Auster:2 AOP:2 . 9 is produced by [MASK] [MASK] . [SEP],Auster:2,Auster:2 Aircraft Limited,0,Auster:2 Aircraft Limited,0
+[CLS] German submarine U - 179 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,AG Weser,0,AG Weser,0
+[CLS] SS Pennsylvania is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Harland:2 and Wolff,0,Harland:2 and Wolff,0
+[CLS] HMS E46:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Cammell:2 Laird:2,0,Cammell:2 Laird:2,0
+[CLS] USS Wisconsin is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Union Iron Works,0,Union Iron Works,0
+[CLS] USS New Jersey is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Fore:2 River Shipyard:2,0,Fore:2 River Shipyard:2,0
+[CLS] Marlin:2 Model 1894 is produced by [MASK] [MASK] . [SEP],Marlin:2,Marlin:2 Firearms:3,0,Marlin:2 Firearms:3,0
+[CLS] Miles Mohawk:2 is produced by [MASK] [MASK] [MASK] . [SEP],Miles Mohawk:2,Miles Aircraft,0,Miles Aircraft,0
+[CLS] Nomad:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S . . . .,Government Aircraft Factories:2,0,Government Aircraft Factories:2,0
+[CLS] Buick:2 LaCrosse:3 is produced by [MASK] [MASK] . [SEP],Buick:2,General Motors,0,General Motors,0
+[CLS] HMS Enterprise is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,John Brown & Company,0,John Brown & Company,0
+[CLS] Fraise:2 Tagada:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and .o:2,Haribo:2,0,Haribo:2,0
+[CLS] Riley 4 is produced by [MASK] . [SEP],Riley,British Motor Corporation,0,British Motor Corporation,0
+[CLS] London Post Office Railway 1930 Stock is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Ltd,English Electric,0,English Electric,0
+[CLS] Ford Thunderbird:2 ( sixth generation ) is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] USS Worden:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Puget:3 Sound Naval Shipyard:2,0,Puget:3 Sound Naval Shipyard:2,0
+[CLS] Ford Model K is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] État 231 - 501 to 231 - 783 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],la ' de de production,North British Locomotive:4 Company,0,North British Locomotive:4 Company,0
+[CLS] GWR:2 2361:2 Class is produced by [MASK] [MASK] . [SEP],GWR:2,Swindon:3 Works,0,Swindon:3 Works,0
+[CLS] G3:2 is produced by [MASK] [MASK] . [SEP],G3:2,Heckler:3 & Koch,0,Heckler:3 & Koch,0
+[CLS] Daimler 250 is produced by [MASK] . [SEP],Daimler,Daimler Company,0,Daimler Company,0
+[CLS] Beretta:2 950 Jetfire:2 is produced by [MASK] [MASK] [MASK] . [SEP],Berettas:3,Beretta:2,0,Beretta:2,0
+[CLS] HMS Ameer:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Seattle - Tacoma:2 Shipbuilding:2 Corporation,0,Seattle - Tacoma:2 Shipbuilding:2 Corporation,0
+[CLS] 7 . 5 cm Gebirgskanone:6 Model 1911 is produced by [MASK] . [SEP],Germany,Rheinmetall:3 AG,0,Rheinmetall:3 AG,0
+[CLS] HMS Triad:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] RFA:2 Fort Austin is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],RFA:2 Fort Austin,Scott Lithgow:4,0,Scott Lithgow:4,0
+[CLS] SSC:2 Aero is produced by [MASK] [MASK] [MASK] . [SEP],SSC:2 Aero,SSC:2 North America,0,SSC:2 North America,0
+[CLS] QF:2 3 pounder:2 Hotchkiss:4 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Hotchkiss:4,Hotchkiss:4 et Cie,0,Hotchkiss:4 et Cie,0
+[CLS] HMCS:2 Minas is produced by [MASK] [MASK] [MASK] . [SEP],HMCS:2 Minas,Burrard:2 Dry Dock,0,Burrard:2 Dry Dock,0
+[CLS] TAI:2 Keklik:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],TAI:2 Kek:2,Turkish Aerospace Industries,0,Turkish Aerospace Industries,0
+[CLS] HP 9g:2 is produced by [MASK] . [SEP],HP,Hewlett:3 - Packard,0,Hewlett:3 - Packard,0
+[CLS] German submarine U - 335 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Nordseewerke:3,0,Nordseewerke:3,0
+[CLS] Zastava:2 M77:3 is produced by [MASK] [MASK] . [SEP],Zastava:2,Zastava:2 Arms,0,Zastava:2 Arms,0
+[CLS] German cruiser:2 Königsberg is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Kriegsmarinewerft:3 Wilhelmshaven:3,0,Kriegsmarinewerft:3 Wilhelmshaven:3,0
+[CLS] Pennsylvania Railroad G3:2 is produced by [MASK] [MASK] . [SEP],Pennsylvania Railroad,Pennsylvania Railroad,1,Pennsylvania Railroad,1
+[CLS] HMS Loch Insh:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Henry Robb,0,Henry Robb,0
+[CLS] Samsung Galaxy W is produced by [MASK] . [SEP],Samsung,Samsung Electronics,0,Samsung Electronics,0
+[CLS] USS Shamokin:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,"Reaney:3 , Son & Archbold:2",0,"Reaney:3 , Son & Archbold:2",0
+[CLS] HMCS:2 Sioux is produced by [MASK] [MASK] [MASK] . [SEP],HMCS:2 Sioux,J . Samuel White,0,J . Samuel White,0
+[CLS] Naraon:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],B . . . .,Korea Aerospace Industries,0,Korea Aerospace Industries,0
+[CLS] Blenders:3 Pride is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Blenders:3 Pride,Pernod:2 Ricard:2,0,Pernod:2 Ricard:2,0
+[CLS] HMS Otus:2 ( N92:3 ) is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Ltd,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] EgyptSat:3 2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],EgyptSat:3 2,S . P . Korolev:3 Rocket and Space Corporation Energia,0,S . P . Korolev:3 Rocket and Space Corporation Energia,0
+[CLS] Mbombe:3 is produced by [MASK] [MASK] [MASK] . [SEP],M .be:2,Paramount Group,0,Paramount Group,0
+[CLS] HMS Vivid:2 ( P77:3 ) is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Ltd,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Volvo 140 Series is produced by [MASK] . [SEP],Volvo,Volvo Cars,0,Volvo Cars,0
+[CLS] Remington:2 Semi Automatic Sniper:3 System is produced by [MASK] [MASK] . [SEP],Remington:2,Remington:2 Arms,0,Remington:2 Arms,0
+[CLS] SS Golconda:3 is produced by [MASK] . [SEP],SS,William Doxford:3 & Sons,0,William Doxford:3 & Sons,0
+[CLS] Golden Princess is produced by [MASK] [MASK] . [SEP],Golden Princess,Fincantieri:3,0,Fincantieri:3,0
+[CLS] LMS:2 Stanier:2 Class 5 4 - 6 - 0 44686:2 / 7 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LMS:2 Stanier:2,Horwich:3 Works,0,Horwich:3 Works,0
+[CLS] Stryker:3 is produced by [MASK] [MASK] [MASK] . [SEP],Stryker:3,General Dynamics Land Systems,0,General Dynamics Land Systems,0
+[CLS] Chevrolet Camaro:2 is produced by [MASK] . [SEP],Chevrolet,General Motors,0,General Motors,0
+[CLS] Panasonic:3 Lumix:3 DMC:2 - GF1:3 is produced by [MASK] [MASK] [MASK] . [SEP],Panasonic:3,Panasonic:3 Corporation,0,Panasonic:3 Corporation,0
+[CLS] Zastava:2 M93:3 Black Arrow is produced by [MASK] [MASK] . [SEP],Zastava:2,Zastava:2 Arms,0,Zastava:2 Arms,0
+[CLS] HMS Revenge is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Cammell:2 Laird:2,0,Cammell:2 Laird:2,0
+[CLS] British Rail Class D16:2 / 1 is produced by [MASK] [MASK] . [SEP],British Rail,Derby Works,0,Derby Works,0
+[CLS] Model M keyboard is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],M . and .s:2,Lexmark:2,0,Lexmark:2,0
+[CLS] Commodore 4040:2 is produced by [MASK] . [SEP],Commodore,Commodore International,0,Commodore International,0
+[CLS] IrisVision:3 is produced by [MASK] [MASK] [MASK] . [SEP],IrisVision:3,Silicon Graphics,0,Silicon Graphics,0
+[CLS] Athena is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Royal Huisman:2,0,Royal Huisman:2,0
+[CLS] Walther GSP:2 is produced by [MASK] . [SEP],Walther,Carl Walther GmbH,0,Carl Walther GmbH,0
+[CLS] USS LST:2 - 1022:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],"LST:2 ,s:2",Bethlehem Shipbuilding:2 Corporation,0,Bethlehem Shipbuilding:2 Corporation,0
+[CLS] German submarine U - 261 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Bremer Vulkan:2,0,Bremer Vulkan:2,0
+[CLS] K class is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Goodyear:3 Aerospace,0,Goodyear:3 Aerospace,0
+[CLS] USS Warren is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Boston Navy Yard,0,Boston Navy Yard,0
+[CLS] USS Edamena:3 II is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,George Lawley:2 & Son,0,George Lawley:2 & Son,0
+[CLS] Smith & Wesson:2 SD VE:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Smith & Wesson:2,Smith & Wesson:2,1,Smith & Wesson:2,1
+[CLS] Grumman:3 American AA - 5 is produced by [MASK] [MASK] [MASK] . [SEP],Grumman:3,American Aviation,0,American Aviation,0
+[CLS] BIX:2 is produced by [MASK] [MASK] . [SEP],BIX:2,Nortel:2,0,Nortel:2,0
+[CLS] ORP:2 Błyskawica:5 is produced by [MASK] [MASK] . [SEP],ORP:2,J . Samuel White,0,J . Samuel White,0
+[CLS] Saro:2 Cloud is produced by [MASK] [MASK] [MASK] . [SEP],Saro:2 Cloud,Saunders - Roe:2,0,Saunders - Roe:2,0
+[CLS] HMS Severn:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,VT Group,0,VT Group,0
+[CLS] AGM:2 - 78 Standard ARM is produced by [MASK] . [SEP],ARM,General Dynamics,0,General Dynamics,0
+[CLS] Ford A - Series is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] FN Five - seven is produced by [MASK] . [SEP],FN,FN Herstal:2,0,FN Herstal:2,0
+[CLS] Messerschmitt:4 M 18 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Messerschmitt:4,Messerschmitt:4,1,Messerschmitt:4,1
+[CLS] Australian National AN class is produced by [MASK] [MASK] [MASK] . [SEP],Australian Nationals:2,Clyde Engineering,0,Clyde Engineering,0
+[CLS] USS LST:2 - 985 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LST:2 -s:2,Boston Navy Yard,0,Boston Navy Yard,0
+[CLS] Ford Fairlane:2 Crown Victoria Skyliner:2 is produced by [MASK] [MASK] [MASK] . [SEP],Ford Motors:2,Ford Motor Company,0,Ford Motor Company,0
+[CLS] USS Mission Bay is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Kaiser Shipyards:3,0,Kaiser Shipyards:3,0
+[CLS] Fairey:2 Spearfish:3 is produced by [MASK] [MASK] . [SEP],Fairey:2,Fairey:2 Aviation Company,0,Fairey:2 Aviation Company,0
+[CLS] Josta:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,PepsiCo:3,0,PepsiCo:3,0
+[CLS] Singha:2 is produced by [MASK] [MASK] . [SEP],Singha:2,Boon:2 Rawd:2 Brewery:2,0,Boon:2 Rawd:2 Brewery:2,0
+[CLS] HMS Recruit:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Thames Ironworks:2 and Shipbuilding:2 Company,0,Thames Ironworks:2 and Shipbuilding:2 Company,0
+[CLS] ALCO:2 Century 415 is produced by [MASK] [MASK] . [SEP],ALCO:2,American Locomotive:4 Company,0,American Locomotive:4 Company,0
+[CLS] Ural - 375D:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Ural - -D:2,Ural Automotive:2 Plant,0,Ural Automotive:2 Plant,0
+[CLS] German submarine U - 55 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] Rockchip:3 RK3288:4 is produced by [MASK] [MASK] [MASK] . [SEP],Rockchip:3,Rockchip:3,1,Rockchip:3,1
+[CLS] Commodore Educator:3 64 is produced by [MASK] . [SEP],Commodore,Commodore International,0,Commodore International,0
+[CLS] USS Diodon:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] Smith & Wesson:2 Bodyguard:2 380 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Smith & Wesson:2,Smith & Wesson:2,1,Smith & Wesson:2,1
+[CLS] Springfield Model 1866 is produced by [MASK] . [SEP],Springfield,Springfield Armory:2,0,Springfield Armory:2,0
+[CLS] Odakyu:3 50000:2 series VSE:2 is produced by [MASK] [MASK] [MASK] . [SEP],Odakyu:3,Nippon Sharyo:3,0,Nippon Sharyo:3,0
+[CLS] HMS Sandwich:2 ( L12:2 ) is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Ltd,"R . & W . Hawthorn:4 , Leslie and Company",0,"R . & W . Hawthorn:4 , Leslie and Company",0
+[CLS] SEAT:2 Tribu:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],SEAT:2 Tribu:2,SEAT:2,0,SEAT:2,0
+[CLS] TR - 1700 - class submarine is produced by [MASK] [MASK] [MASK] . [SEP],TR -T:2,Nordseewerke:3,0,Nordseewerke:3,0
+[CLS] AIDAluna:3 is produced by [MASK] [MASK] [MASK] . [SEP],AIDAluna:3,Meyer Werft,0,Meyer Werft,0
+[CLS] Long March 5 is produced by [MASK] [MASK] [MASK] . [SEP],Long March 5,China Academy of Launch Vehicle Technology,0,China Academy of Launch Vehicle Technology,0
+[CLS] USS S - 42 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Bethlehem Shipbuilding:2 Corporation,0,Bethlehem Shipbuilding:2 Corporation,0
+[CLS] F - 15E:2 Strike Eagle is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],F - of Force,McDonnell Douglas,0,McDonnell Douglas,0
+[CLS] Venus is produced by [MASK] . [SEP],Venus,Feadship:3,0,Feadship:3,0
+[CLS] USS Haddo:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,New York Shipbuilding:2 Corporation,0,New York Shipbuilding:2 Corporation,0
+[CLS] Laser 128 is produced by [MASK] [MASK] . [SEP],Laser 128,VTech:2 Holdings Ltd,0,VTech:2 Holdings Ltd,0
+[CLS] USNS:2 Matthew Perry is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Productions,National Steel and Shipbuilding:2 Company,0,National Steel and Shipbuilding:2 Company,0
+[CLS] Kawasaki H1:2 Mach III is produced by [MASK] . [SEP],Kawasaki,Kawasaki Heavy Industries Motorcycle:2 & Engine,0,Kawasaki Heavy Industries Motorcycle:2 & Engine,0
+[CLS] USS Pensacola:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .s:2,Brooklyn Navy Yard,0,Brooklyn Navy Yard,0
+[CLS] New South Wales D59:2 class locomotive is produced by [MASK] [MASK] [MASK] . [SEP],New South Wales,Baldwin Locomotive:4 Works,0,Baldwin Locomotive:4 Works,0
+[CLS] Fw:2 190 is produced by [MASK] [MASK] [MASK] . [SEP],Fw:2 Aviation,Focke:2 - Wulf:2,0,Focke:2 - Wulf:2,0
+[CLS] USS R - 4 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],USS R .s:2,Fore:2 River Shipyard:2,0,Fore:2 River Shipyard:2,0
+[CLS] LG Optimus:2 L9:2 is produced by [MASK] . [SEP],LG,LG Electronics,0,LG Electronics,0
+[CLS] British Rail Class 37 is produced by [MASK] [MASK] . [SEP],British Rail,English Electric,0,English Electric,0
+[CLS] Pennsylvania Railroad GG1:3 is produced by [MASK] [MASK] . [SEP],Pennsylvania Railroad,Altoona:2 Works,0,Altoona:2 Works,0
+[CLS] USS Saint Paul is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Bethlehem Steel,0,Bethlehem Steel,0
+[CLS] USS Sampson:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Bath Iron Works,0,Bath Iron Works,0
+[CLS] USS LST:2 - 389 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LST:2 -s:2,Newport News Shipbuilding:2,0,Newport News Shipbuilding:2,0
+[CLS] Aichi:2 Ha - 70 is produced by [MASK] [MASK] . [SEP],Aichi:2,Aichi:2,1,Aichi:2,1
+[CLS] Hiro:2 H1H:3 is produced by [MASK] [MASK] . [SEP],Hio:2,Hiro:2 Naval Arsenal,0,Hiro:2 Naval Arsenal,0
+[CLS] EMD:2 SD40:2 - 2 is produced by [MASK] [MASK] . [SEP],EMD:2,General Motors Diesel,0,General Motors Diesel,0
+[CLS] Baldwin DS - 4 - 4 - 1000 is produced by [MASK] . [SEP],Baldwin,Baldwin Locomotive:4 Works,0,Baldwin Locomotive:4 Works,0
+[CLS] Glaser:2 - Dirks:2 DG:2 - 500 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Glaser:2 - Dirks:2,DG:2 Flugzeugbau:2,0,DG:2 Flugzeugbau:2,0
+[CLS] Checker:2 Marathon is produced by [MASK] [MASK] [MASK] . [SEP],Checker:2 Marathon,Checker:2 Motors Corporation,0,Checker:2 Motors Corporation,0
+[CLS] Pentax:2 K - r is produced by [MASK] [MASK] . [SEP],Pentax:2,Pentax:2,1,Pentax:2,1
+[CLS] Ariane 5 is produced by [MASK] . [SEP],Ariane,Astrium:3,0,Astrium:3,0
+[CLS] Canon EOS:2 - 1D:2 Mark IV is produced by [MASK] . [SEP],Canon,Canon Inc .,0,Canon Inc .,0
+[CLS] Pandur:2 I is produced by [MASK] [MASK] [MASK] . [SEP],Pandur:2 I,Steyr:3 - Daimler - Puch:2,0,Steyr:3 - Daimler - Puch:2,0
+[CLS] Saleen:2 S7:2 is produced by [MASK] [MASK] . [SEP],Saleen:2,Saleen:2,1,Saleen:2,1
+[CLS] China Railways SS1:2 is produced by [MASK] [MASK] . [SEP],China Railways,CRRC:2 Zhuzhou:2 Electric Locomotive:4,0,CRRC:2 Zhuzhou:2 Electric Locomotive:4,0
+[CLS] Mitsubishi Raider is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] German submarine U - 355 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Flensburger:2 Schiffbau:2 - Gesellschaft,0,Flensburger:2 Schiffbau:2 - Gesellschaft,0
+[CLS] Qvale:2 Mangusta:3 is produced by [MASK] [MASK] . [SEP],Qvale:2,Qvale:2,1,Qvale:2,1
+[CLS] MRWA:2 C class is produced by [MASK] [MASK] . [SEP],MRWA:2,Kitson:2 and Company,0,Kitson:2 and Company,0
+[CLS] Beretta:2 21A:2 Bobcat:2 is produced by [MASK] [MASK] [MASK] . [SEP],Berettas:3,Beretta:2,0,Beretta:2,0
+[CLS] German submarine U - 517 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . Production,Deutsche Werft,0,Deutsche Werft,0
+[CLS] Kosmos 2501:2 is produced by [MASK] . [SEP],Russia,JSC:2 Information Satellite Systems,0,JSC:2 Information Satellite Systems,0
+[CLS] USS Caddo:2 Parish is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Chicago Bridge & Iron Company,0,Chicago Bridge & Iron Company,0
+[CLS] Sikorsky:3 S - 97 Raider is produced by [MASK] [MASK] [MASK] . [SEP],Sikorsky:3,Sikorsky:3 Aircraft Corporation,0,Sikorsky:3 Aircraft Corporation,0
+[CLS] USS Logic is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,American Ship Building Company,0,American Ship Building Company,0
+[CLS] Northfleet:3 is produced by [MASK] [MASK] [MASK] . [SEP],Northfleet:3,Northfleet:3,1,Northfleet:3,1
+[CLS] INS:2 Kamorta:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],INS:2 Kamorta:3,Garden Reach:2 Shipbuilders:4 & Engineers,0,Garden Reach:2 Shipbuilders:4 & Engineers,0
+[CLS] Rhymney:4 Railway R class is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Rhymney:4,Robert Stephenson and Company,0,Robert Stephenson and Company,0
+[CLS] Olympus:3 C - 7000 Zoom is produced by [MASK] [MASK] [MASK] . [SEP],Olympus:3,Olympus:3,1,Olympus:3,1
+[CLS] Buick:2 Rainier:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Buick:2 Rainier:2,General Motors,0,General Motors,0
+[CLS] S - 38 is produced by [MASK] [MASK] [MASK] . [SEP],S - 38,Sikorsky:3 Aircraft Corporation,0,Sikorsky:3 Aircraft Corporation,0
+[CLS] Nilgiri:3 - class frigate:2 is produced by [MASK] [MASK] [MASK] . [SEP],Navalgiri:3,Garden Reach:2 Shipbuilders:4 & Engineers,0,Garden Reach:2 Shipbuilders:4 & Engineers,0
+[CLS] Yamaha YX600:4 Radian:2 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Indian Empress is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S .h:2 . .,Oceanco:2,0,Oceanco:2,0
+[CLS] Sauber:2 C32:2 is produced by [MASK] [MASK] . [SEP],Sauber:2,Sauber:2,1,Sauber:2,1
+[CLS] German submarine U - 502 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Deutsche Werft,0,Deutsche Werft,0
+[CLS] Mitsubishi Lancer:2 is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] Aerostar:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Piper Aircraft,0,Piper Aircraft,0
+[CLS] CIÉ:3 601 class is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],CIÉs:4,Deutz:2 AG,0,Deutz:2 AG,0
+[CLS] Perodua:2 Myvi:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Perodua:2 Myvi:2,Perodua:2,0,Perodua:2,0
+[CLS] MiG - 17 is produced by [MASK] [MASK] [MASK] . [SEP],MiG - MiG,Mikoyan:3,0,Mikoyan:3,0
+[CLS] NSB:2 El 18 is produced by [MASK] [MASK] . [SEP],NSB:2,Adtranz:3,0,Adtranz:3,0
+[CLS] MV Bloemfontein:4 Castle is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],MV . and .s:2,Harland:2 and Wolff,0,Harland:2 and Wolff,0
+[CLS] Beaufort is produced by [MASK] . [SEP],Beaufort,Bristol Aeroplane:2 Company,0,Bristol Aeroplane:2 Company,0
+[CLS] PlayStation is produced by [MASK] . [SEP],PlayStation,Sony Interactive Entertainment,0,Sony Interactive Entertainment,0
+[CLS] USS Kodiak:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Charleston Naval Shipyard:2,0,Charleston Naval Shipyard:2,0
+[CLS] Commonwealth Railways C class is produced by [MASK] [MASK] . [SEP],Commonwealth Railways,Walkers:2 Limited,0,Walkers:2 Limited,0
+[CLS] German submarine U - 221 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] USS Pike ( SS - 173 ) is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and .s:2,Portsmouth Naval Shipyard:2,0,Portsmouth Naval Shipyard:2,0
+[CLS] RFA:2 Black Ranger is produced by [MASK] [MASK] . [SEP],RFA:2,Harland:2 and Wolff,0,Harland:2 and Wolff,0
+[CLS] Scania:2 4 - series is produced by [MASK] [MASK] . [SEP],Scania:2,Scania:2,1,Scania:2,1
+[CLS] SS Crown Arun:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],SS Crown Arun:2,Neptun:3 Werft,0,Neptun:3 Werft,0
+[CLS] Kia:2 Pride is produced by [MASK] [MASK] [MASK] . [SEP],Kia:2 Pride,Kia:2 Motors,0,Kia:2 Motors,0
+[CLS] USS Minneapolis is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,William Cramp:3 and Sons,0,William Cramp:3 and Sons,0
+[CLS] Mitsubishi Dignity:3 is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] USS Staff is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,American Ship Building Company,0,American Ship Building Company,0
+[CLS] T . B . 8 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],T . . . A,Bristol Aeroplane:2 Company,0,Bristol Aeroplane:2 Company,0
+[CLS] B - 2 Spirit is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],"B - , Spirit",Northrop:2,0,Northrop:2,0
+[CLS] USS Bell is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Charleston Naval Shipyard:2,0,Charleston Naval Shipyard:2,0
+[CLS] Lada:2 110 is produced by [MASK] [MASK] [MASK] . [SEP],Lada:2 110,AvtoVAZ:4,0,AvtoVAZ:4,0
+[CLS] Commonwealth Railways CA class is produced by [MASK] [MASK] . [SEP],Commonwealth Railways,Baldwin Locomotive:4 Works,0,Baldwin Locomotive:4 Works,0
+[CLS] Yamaha DragStar:4 250 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] INS:2 Saryu:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],INS:2 Saryu:2,Goa Shipyard:2 Limited,0,Goa Shipyard:2 Limited,0
+[CLS] USS Young is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Consolidated:2 Steel Corporation,0,Consolidated:2 Steel Corporation,0
+[CLS] Pioneer 10 is produced by [MASK] [MASK] . [SEP],Pioneer Pioneer,TRW:2 Inc .,0,TRW:2 Inc .,0
+[CLS] ORP:2 Wicher:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],ORP:2 Wicher:2,Severnaya:3 Verf:2,0,Severnaya:3 Verf:2,0
+[CLS] Blackburn B - 3 is produced by [MASK] . [SEP],Blackburn,Blackburn Aircraft,0,Blackburn Aircraft,0
+[CLS] Moskvitch:3 G3:2 is produced by [MASK] [MASK] [MASK] . [SEP],Moskvitch:3,Moskvitch:3,1,Moskvitch:3,1
+[CLS] HMS Unseen:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] TDRS:2 - 6 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],TDRS:2 - 6,TRW:2 Inc .,0,TRW:2 Inc .,0
+[CLS] MV Baltic Ace is produced by [MASK] [MASK] [MASK] . [SEP],MV Baltic Ace,Stocznia:4 Gdynia:2,0,Stocznia:4 Gdynia:2,0
+[CLS] SS William A . Graham is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . Inc,North Carolina Shipbuilding:2 Company,0,North Carolina Shipbuilding:2 Company,0
+[CLS] USS Bairoko:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Vigor:2 Shipyards:3,0,Vigor:2 Shipyards:3,0
+[CLS] USS Baya:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] N100:2 Plan is produced by [MASK] [MASK] [MASK] . [SEP],N100:2 Plan,Kawasaki Heavy Industries Motorcycle:2 & Engine,0,Kawasaki Heavy Industries Motorcycle:2 & Engine,0
+[CLS] USS Floyd County is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,American Bridge Company,0,American Bridge Company,0
+[CLS] USS Lenoir:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . .,North Carolina Shipbuilding:2 Company,0,North Carolina Shipbuilding:2 Company,0
+[CLS] Armstrong Whitworth:3 Starling:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and .s:2,Armstrong Whitworth:3 Aircraft,0,Armstrong Whitworth:3 Aircraft,0
+[CLS] USS Poseidon:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Boston Navy Yard,0,Boston Navy Yard,0
+[CLS] Friedrichshafen:2 FF . 34 is produced by [MASK] [MASK] . [SEP],Friedrichshafen:2,Flugzeugbau:2 Friedrichshafen:2,0,Flugzeugbau:2 Friedrichshafen:2,0
+[CLS] Armoured:2 Multirole:3 Carrier is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Arm . of .s:2,Renault Trucks:2,0,Renault Trucks:2,0
+[CLS] SMS Prinzregent:3 Luitpold:4 is produced by [MASK] . [SEP],SMS,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] HMS Trump is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Alfa Romeo Visconti is produced by [MASK] . [SEP],Visconti,Alfa Romeo,0,Alfa Romeo,0
+[CLS] SMS Frithjof:4 is produced by [MASK] . [SEP],SMS,AG Weser,0,AG Weser,0
+[CLS] FAL:2 is produced by [MASK] [MASK] . [SEP],FAL:2,FN Herstal:2,0,FN Herstal:2,0
+[CLS] HMS P611:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],HMS P . Ltd,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Zorki:2 4 is produced by [MASK] [MASK] [MASK] . [SEP],Zorki:2 4,Krasnogorskiy:6 Zavod:2,0,Krasnogorskiy:6 Zavod:2,0
+[CLS] SM U - 67 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],SM U - .,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] De Luxe:2 Ford is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] German submarine U - 479 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Deutsche Werke,0,Deutsche Werke,0
+[CLS] Caterham:3 7 CSR:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Caterham:3 7,Caterham:3 Cars,0,Caterham:3 Cars,0
+[CLS] MS Silja:2 Symphony is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],MS Silja:2 Symphony,STX:2 Finland Oy,0,STX:2 Finland Oy,0
+[CLS] Isuzu:3 Cubic:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Isuzu:3 Cubic:2,Isuzu:3 Motors,0,Isuzu:3 Motors,0
+[CLS] USS LST:2 - 759 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LST:2 -s:2,American Bridge Company,0,American Bridge Company,0
+[CLS] SS Duilio:2 is produced by [MASK] [MASK] [MASK] . [SEP],SS Duilio:2,Ansaldo:2,0,Ansaldo:2,0
+[CLS] USS Albacore:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,General Dynamics Electric Boat,0,General Dynamics Electric Boat,0
+[CLS] Ford Ka is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] USS Leutze:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Puget:3 Sound Naval Shipyard:2,0,Puget:3 Sound Naval Shipyard:2,0
+[CLS] Carl Gustav M / 45 is produced by [MASK] [MASK] . [SEP],Carl Gustav,Bofors:2 Carl Gustaf,0,Bofors:2 Carl Gustaf,0
+[CLS] Mercedes - Benz CL - Class cl:2 215 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] Amstrad:3 PCW:2 is produced by [MASK] [MASK] [MASK] . [SEP],Amstrad:3,Amstrad:3,1,Amstrad:3,1
+[CLS] DG:2 Flugzeugbau:2 DG:2 - 800 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],DG:2 Flugzeugbau:2,DG:2 Flugzeugbau:2,1,DG:2 Flugzeugbau:2,1
+[CLS] Yamaha FS1:2 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Willys:2 Aero is produced by [MASK] [MASK] [MASK] . [SEP],Willys:2 Aero,Willys:2,0,Willys:2,0
+[CLS] Mirinda:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Mir . and . .,PepsiCo:3,0,PepsiCo:3,0
+[CLS] Interface Region Imaging:2 Spectrograph:5 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Technology,Lockheed Martin,0,Lockheed Martin,0
+[CLS] British Railways class D1 / 1 is produced by [MASK] [MASK] . [SEP],British Railways,Hunslet:3 Engine Company,0,Hunslet:3 Engine Company,0
+[CLS] Pennsylvania Railroad L1s:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Pennsylvania Railroad -s:2,Lima Locomotive:4 Works,0,Lima Locomotive:4 Works,0
+[CLS] Mitsubishi Lancer:2 Evolution is produced by [MASK] . [SEP],Mitsubishi,Mitsubishi Motors,0,Mitsubishi Motors,0
+[CLS] Valanx:3 is produced by [MASK] [MASK] [MASK] . [SEP],Valanx:3,BAE:2 Systems,0,BAE:2 Systems,0
+[CLS] Chungmugong:3 Yi Sun - sin - class destroyer is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Chungmu:2 of Engineering,Hyundai Heavy Industries,0,Hyundai Heavy Industries,0
+[CLS] Taff:2 Vale Railway H class is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Taff:2 Vale Railway,Kitson:2 and Company,0,Kitson:2 and Company,0
+[CLS] Leica:2 250 Reporter is produced by [MASK] [MASK] [MASK] . [SEP],Leica:2 Media,Leica:2 Camera,0,Leica:2 Camera,0
+[CLS] Volkswagen Taro:2 is produced by [MASK] . [SEP],Volkswagen,Volkswagen Group,0,Volkswagen Group,0
+[CLS] Saab 96 is produced by [MASK] . [SEP],Saab,Saab Automobile,0,Saab Automobile,0
+[CLS] USS Valeria ( AKA:2 - 48 ) is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and .s:2,Walsh - Kaiser Company,0,Walsh - Kaiser Company,0
+[CLS] British Railways 18100:2 is produced by [MASK] [MASK] . [SEP],British Railways,Metropolitan - Vickers,0,Metropolitan - Vickers,0
+[CLS] UNIVAC:3 III is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],UNIVAC:3 III,Sperry:2 Corporation,0,Sperry:2 Corporation,0
+[CLS] USS LSM:2 - 397 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],LSM:2 -s:2,Charleston Naval Shipyard:2,0,Charleston Naval Shipyard:2,0
+[CLS] Supermarine:2 Sea Urchin:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Supermarine:2 Sea . .,Supermarine:2,0,Supermarine:2,0
+[CLS] DRG:2 Class 87 is produced by [MASK] [MASK] . [SEP],DRG:2,Orenstein:2 & Koppel:2,0,Orenstein:2 & Koppel:2,0
+[CLS] USS Cormorant:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the . , . .",Vigor:2 Shipyards:3,0,Vigor:2 Shipyards:3,0
+[CLS] Alfa Romeo 500 is produced by [MASK] [MASK] . [SEP],Alfa Romeo,Alfa Romeo,1,Alfa Romeo,1
+[CLS] Remington:2 Model 341 is produced by [MASK] [MASK] . [SEP],Remington:2,Remington:2 Arms,0,Remington:2 Arms,0
+[CLS] HMS H49:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,William Beardmore:3 and Company,0,William Beardmore:3 and Company,0
+[CLS] Yamaha WR450F:4 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Axe:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],A . and . .,Unilever:2,0,Unilever:2,0
+[CLS] FN SCAR:2 is produced by [MASK] [MASK] [MASK] . [SEP],FN SCAR:2,FN Herstal:2,0,FN Herstal:2,0
+[CLS] Isuzu:3 Gemini is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Iszuumi:4,General Motors,0,General Motors,0
+[CLS] Brilliance:2 BS2:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Brilliance:2 BS2:2,Brilliance:2 Auto,0,Brilliance:2 Auto,0
+[CLS] Olympus:3 C - 2100 UZ:2 is produced by [MASK] [MASK] [MASK] . [SEP],Olympus:3,Olympus:3,1,Olympus:3,1
+[CLS] Ford GT90:2 is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Simca:2 Aronde:2 is produced by [MASK] [MASK] . [SEP],Simca:2,Simca:2,1,Simca:2,1
+[CLS] FN - Kégresse:3 3T:2 is produced by [MASK] . [SEP],FN,FN Herstal:2,0,FN Herstal:2,0
+[CLS] Bugatti:2 18 / 3 Chiron:2 is produced by [MASK] [MASK] . [SEP],Bugatti:2,Automobiles:2 Ettore Bugatti:2,0,Automobiles:2 Ettore Bugatti:2,0
+[CLS] Yamaha FZ750:4 is produced by [MASK] . [SEP],Yamaha,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Marauder:2 is produced by [MASK] [MASK] . [SEP],Marauder:2,Paramount Group,0,Paramount Group,0
+[CLS] Metropolitan Railway K Class is produced by [MASK] [MASK] . [SEP],Metropolitan Railways,Armstrong Whitworth:3,0,Armstrong Whitworth:3,0
+[CLS] Alouette:3 1 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Alouettes:4,National Aeronautics:3 and Space Administration,0,National Aeronautics:3 and Space Administration,0
+[CLS] Ford Custom is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Softail:2 is produced by [MASK] [MASK] . [SEP],Softail:2,Harley - Davidson,0,Harley - Davidson,0
+[CLS] Coors:2 Light is produced by [MASK] [MASK] [MASK] . [SEP],Coors:2 Light,Coors:2 Brewing:2 Company,0,Coors:2 Brewing:2 Company,0
+[CLS] ORP:2 Sokół:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],ORP:2 Sokół:2,Nordseewerke:3,0,Nordseewerke:3,0
+[CLS] HMS Grampus:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Cammell:2 Laird:2,0,Cammell:2 Laird:2,0
+[CLS] Karosa:2 ŠD:2 11 is produced by [MASK] [MASK] . [SEP],Karosa:2,Karosa:2,1,Karosa:2,1
+[CLS] German submarine U - 155 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,AG Weser,0,AG Weser,0
+[CLS] Morris Commercial J4:2 is produced by [MASK] . [SEP],Morris,British Motor Corporation,0,British Motor Corporation,0
+[CLS] SSC:2 Tuatara:3 is produced by [MASK] [MASK] . [SEP],SSC:2,SSC:2 North America,0,SSC:2 North America,0
+[CLS] China Railways HXD3:4 is produced by [MASK] [MASK] . [SEP],China Railways,Toshiba:3,0,Toshiba:3,0
+[CLS] Su - 9 is produced by [MASK] [MASK] [MASK] . [SEP],Su - 9,Sukhoi:3,0,Sukhoi:3,0
+[CLS] Ford Transit bus is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] German submarine U - 33 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . production,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] AR - 15 is produced by [MASK] [MASK] [MASK] . [SEP],AR - 15,Stag:2 Arms,0,Stag:2 Arms,0
+[CLS] Ford F - Series first generation is produced by [MASK] . [SEP],Ford,Ford Motor Company,0,Ford Motor Company,0
+[CLS] Gabriel is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Israel Aerospace Industries,0,Israel Aerospace Industries,0
+[CLS] SECR:2 N class is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . .,Ashford:2 Works,0,Ashford:2 Works,0
+[CLS] SMS Deutschland is produced by [MASK] . [SEP],SMS,Samuda:2 Brothers,0,Samuda:2 Brothers,0
+[CLS] Nexus 9 is produced by [MASK] [MASK] . [SEP],Nexus 9,HTC Corporation,0,HTC Corporation,0
+[CLS] Fuji GX680:4 is produced by [MASK] . [SEP],Fuji,Fujifilm:2,0,Fujifilm:2,0
+[CLS] Bugatti:2 16C:2 Galibier:3 is produced by [MASK] [MASK] . [SEP],Bugatti:2,Automobiles:2 Ettore Bugatti:2,0,Automobiles:2 Ettore Bugatti:2,0
+[CLS] USS LST:2 - 896 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],"LST:2 ,s:2",Dravo:2 Corporation,0,Dravo:2 Corporation,0
+[CLS] British Rail Class 101 is produced by [MASK] [MASK] . [SEP],British Rail,Metro Cammell:2,0,Metro Cammell:2,0
+[CLS] Mercedes - Benz 170S:2 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] Lion - Peugeot Type VA is produced by [MASK] [MASK] [MASK] . [SEP],Lion - Peugeot,Lion - Peugeot,1,Lion - Peugeot,1
+[CLS] USS Sitkoh:3 Bay is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - .s:2,Kaiser Shipyards:3,0,Kaiser Shipyards:3,0
+[CLS] Norwegian Escape is produced by [MASK] [MASK] . [SEP],Norwegian Escape,Meyer Werft,0,Meyer Werft,0
+[CLS] GAZ:2 46 is produced by [MASK] [MASK] [MASK] . [SEP],GAZ:2 46,GAZ:2,0,GAZ:2,0
+[CLS] Canon PowerShot:3 is produced by [MASK] . [SEP],Canon,Canon Inc .,0,Canon Inc .,0
+[CLS] Do 335 Pfeil:3 is produced by [MASK] [MASK] . [SEP],Dos:2,Dornier:2,0,Dornier:2,0
+[CLS] Buhl:2 Airsedan:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Buhl:2 Air .n:2,Buhl:2 Aircraft Company,0,Buhl:2 Aircraft Company,0
+[CLS] Moskvitch:3 G4:2 is produced by [MASK] [MASK] [MASK] . [SEP],Moskvitch:3,Moskvitch:3,1,Moskvitch:3,1
+[CLS] Su - 24 is produced by [MASK] [MASK] [MASK] . [SEP],Su - 24,Sukhoi:3,0,Sukhoi:3,0
+[CLS] Lima 750 and 800 hp switchers:2 is produced by [MASK] . [SEP],Lima,Lima Locomotive:4 Works,0,Lima Locomotive:4 Works,0
+[CLS] HMS Roberts is produced by [MASK] [MASK] . [SEP],HMS Roberts,John Brown & Company,0,John Brown & Company,0
+[CLS] Anadis:2 is produced by [MASK] [MASK] . [SEP],Anadis:2,Anatra:2,0,Anatra:2,0
+[CLS] Ofek:2 - 10 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Ofek:2 - 10,Israel Aerospace Industries,0,Israel Aerospace Industries,0
+[CLS] ALCO:2 RS - 27 is produced by [MASK] [MASK] . [SEP],ALCO:2,American Locomotive:4 Company,0,American Locomotive:4 Company,0
+[CLS] MOS:2 Technology 6502:2 is produced by [MASK] [MASK] [MASK] . [SEP],MOS:2 Technology,Synertek:3,0,Synertek:3,0
+[CLS] British Rail Class 82 is produced by [MASK] [MASK] . [SEP],British Rail,Metropolitan - Vickers,0,Metropolitan - Vickers,0
+[CLS] Aichi:2 Atsuta:3 is produced by [MASK] [MASK] . [SEP],Aichi:2,Aichi:2,1,Aichi:2,1
+[CLS] He 111 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Heinkel:2,0,Heinkel:2,0
+[CLS] Remington:2 Model 14 is produced by [MASK] [MASK] . [SEP],Remington:2,Remington:2 Arms,0,Remington:2 Arms,0
+[CLS] Castoro:2 Sei is produced by [MASK] [MASK] [MASK] . [SEP],Castoro:2 Sei,Fincantieri:3,0,Fincantieri:3,0
+[CLS] USS Bronx is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Oregon Shipbuilding:2 Corporation,0,Oregon Shipbuilding:2 Corporation,0
+[CLS] HMS Samphire:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Smiths Dock Company,0,Smiths Dock Company,0
+[CLS] ZIL:2 - 112 Sports is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],ZIL:2 - 112,ZiL:2,0,ZiL:2,0
+[CLS] Jeep:2 Commander is produced by [MASK] [MASK] [MASK] . [SEP],Jeep:2 Commander,Jeep:2,0,Jeep:2,0
+[CLS] Jaguar XJ:2 ( XJ40:3 ) is produced by [MASK] . [SEP],Jaguar,Jaguar Cars,0,Jaguar Cars,0
+[CLS] Type X submarine is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . .,Friedrich Krupp Germaniawerft:3,0,Friedrich Krupp Germaniawerft:3,0
+[CLS] Gowind:2 - class corvette:2 is produced by [MASK] [MASK] . [SEP],Gowind:2,Naval Group,0,Naval Group,0
+[CLS] Atari XEGS:3 is produced by [MASK] . [SEP],Atari,Atari Corporation,0,Atari Corporation,0
+[CLS] USS Tinian:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Vigor:2 Shipyards:3,0,Vigor:2 Shipyards:3,0
+[CLS] Soyuz - FG:2 is produced by [MASK] . [SEP],Soyuz,Progress State Research and Production Rocket Space Center,0,Progress State Research and Production Rocket Space Center,0
+[CLS] GAM:2 - 67 Crossbow:2 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],GAM:2 -s:2,Northrop:2,0,Northrop:2,0
+[CLS] USS Fullam:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Boston Navy Yard,0,Boston Navy Yard,0
+[CLS] Mercedes - Benz W211:3 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] German submarine U - 461 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . - . Production,Deutsche Werke,0,Deutsche Werke,0
+[CLS] HMS Chester is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Cammell:2 Laird:2,0,Cammell:2 Laird:2,0
+[CLS] USS Defiance:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Union Iron Works,0,Union Iron Works,0
+[CLS] Saturn Ion is produced by [MASK] . [SEP],Saturn,General Motors,0,General Motors,0
+[CLS] Aerocar:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Aerocar:2 International,0,Aerocar:2 International,0
+[CLS] Polaroid:2 Impulse:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,Polaroid:2 Corporation,0,Polaroid:2 Corporation,0
+[CLS] USS Mitscher:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Ingalls:2 Shipbuilding:2,0,Ingalls:2 Shipbuilding:2,0
+[CLS] Olympus:3 µ720:3 SW is produced by [MASK] [MASK] [MASK] . [SEP],Olympus:3,Olympus:3,1,Olympus:3,1
+[CLS] HMS Clyde ( N12:2 ) is produced by [MASK] . [SEP],Clyde,Vickers - Armstrongs:2,0,Vickers - Armstrongs:2,0
+[CLS] Union Pacific Challenger is produced by [MASK] [MASK] [MASK] . [SEP],Union Pacific Challenger,American Locomotive:4 Company,0,American Locomotive:4 Company,0
+[CLS] PA - 1 is produced by [MASK] [MASK] [MASK] . [SEP],PA - 1,Loening:2 Aeronautical Engineering,0,Loening:2 Aeronautical Engineering,0
+[CLS] Bugatti:2 EB110:4 is produced by [MASK] [MASK] . [SEP],Bugatti:2,Automobiles:2 Ettore Bugatti:2,0,Automobiles:2 Ettore Bugatti:2,0
+[CLS] PocketStation:3 is produced by [MASK] [MASK] [MASK] . [SEP],PocketStation:3,Sony Interactive Entertainment,0,Sony Interactive Entertainment,0
+[CLS] Hyundai Pride is produced by [MASK] . [SEP],Hyundai,Daewoo:3 Shipbuilding:2 & Marine Engineering,0,Daewoo:3 Shipbuilding:2 & Marine Engineering,0
+[CLS] Fanta:2 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,The Coca - Cola Company,0,The Coca - Cola Company,0
+[CLS] Smith & Wesson:2 Model 36 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],Smith & Wesson:2,Smith & Wesson:2,1,Smith & Wesson:2,1
+[CLS] Mowag:2 Piranha:3 is produced by [MASK] [MASK] . [SEP],MoP:2,Mowag:2,0,Mowag:2,0
+[CLS] FN Patrol Bolt Rifle is produced by [MASK] . [SEP],FN,FN Herstal:2,0,FN Herstal:2,0
+[CLS] USS Cyane:3 is produced by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .s:2,Boston Navy Yard,0,Boston Navy Yard,0
+[CLS] Mercedes - Benz Econic:2 is produced by [MASK] [MASK] [MASK] . [SEP],Mercedes - Benz,Mercedes - Benz,1,Mercedes - Benz,1
+[CLS] BYD:2 F6DM:3 is produced by [MASK] [MASK] . [SEP],BYD:2,BYD:2 Auto,0,BYD:2 Auto,0
+[CLS] Pontiac:2 Ventura is produced by [MASK] [MASK] [MASK] . [SEP],Pontiac:2 Ventura,General Motors,0,General Motors,0
+[CLS] JDS:2 Hyūga:3 is produced by [MASK] [MASK] . [SEP],JDS:2,IHI:2 Corporation,0,IHI:2 Corporation,0
+[CLS] Orion is produced by [MASK] . [SEP],Orion,Lockheed Martin,0,Lockheed Martin,0

@@ -1,0 +1,636 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same
+[CLS] Fiat Multipla:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nokia Lumia:2 800 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Renault Vel:2 Satis:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Chevrolet Malibu:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] SCH:2 производится:3 [MASK] [MASK] [MASK] . [SEP],в SCH:2,рнтелом:3,0,Интел:2,0
+[CLS] Chevrolet Cobalt:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Кадиллак:4 Девилль:3 производится:3 [MASK] [MASK] . [SEP],в год,Cadillac,0,Cadillac,0
+[CLS] Nissan GT - R производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nissan Nissan Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] Nissan Stagea:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Ferrari Enzo производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Chevrolet Lumina:2 APV:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Fiat 126 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Windows 2000 производится:3 [MASK] [MASK] . [SEP],Windows Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Fiat Idea производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Fiat Ritmo:3 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Chrysler 200 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Chrysler Chrysler Chrysler,Chrysler,0,Chrysler,0
+[CLS] Ferrari Daytona производится:3 [MASK] [MASK] . [SEP],на год,Ferrari,0,Ferrari,0
+[CLS] Toyota Supra:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Honda CB 750 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Honda Concerto производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] RAD6000:4 производится:3 [MASK] [MASK] . [SEP],в США,IBM,0,IBM,0
+[CLS] Fiat Tipo производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Toyota Passo производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota Toyota Toyota,Toyota,0,Toyota,0
+[CLS] Nissan President производится:3 [MASK] [MASK] . [SEP],в года,Nissan,0,Nissan,0
+[CLS] Airbus A330:2 производится:3 [MASK] [MASK] . [SEP],в Франции,Airbus,0,Airbus,0
+[CLS] Chevrolet Monte Carlo производится:3 [MASK] [MASK] . [SEP],на США,Chevrolet,0,Chevrolet,0
+[CLS] BMW 5 Series Gran Turismo производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Nissan Livina:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Nissan,0,Nissan,0
+[CLS] Windows Server 2003 производится:3 [MASK] [MASK] . [SEP],на Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Audi 80 b4:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Ferrari 212 Inter производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Nokia Lumia:2 900 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Amazon Kindle:2 Fire производится:3 [MASK] [MASK] . [SEP],в Amazon,Amazon,0,Amazon,0
+[CLS] Toyota Corona производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota Toyota Toyota,Toyota,0,Toyota,0
+[CLS] BMW N54:3 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] Lancia Dedra:2 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Toyota Previa:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Дино:2 производится:3 [MASK] [MASK] . [SEP],на год,Ferrari,0,Ferrari,0
+[CLS] Дино:2 производится:3 [MASK] [MASK] . [SEP],на год,Fiat,0,Fiat,0
+[CLS] BMW F01:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW F года,BMW,0,BMW,0
+[CLS] Douglas DC - 1 производится:3 [MASK] [MASK] . [SEP],на авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Renault Safrane:3 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Acura:2 Legend производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Wii Balance Board производится:3 [MASK] [MASK] . [SEP],на Wii,Nintendo,0,Nintendo,0
+[CLS] Fiat Cinquecento:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nokia 1100 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Nokia Nokia Nokia,Nokia,0,Nokia,0
+[CLS] Suzuki Jimny:2 производится:3 [MASK] [MASK] . [SEP],на Японии,Suzuki,0,Suzuki,0
+[CLS] Toyota Dyna:2 производится:3 [MASK] [MASK] . [SEP],на Японии,Toyota,0,Toyota,0
+[CLS] Chevrolet Aveo:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Nissan Xterra:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Nintendo DS Lite:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nintendo,0,Nintendo,0
+[CLS] Porsche Panamera:3 производится:3 [MASK] [MASK] . [SEP],на Porsche,Porsche,0,Porsche,0
+[CLS] Nokia Lumia:2 630 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Amiibo:2 производится:3 [MASK] [MASK] . [SEP],на года,Nintendo,0,Nintendo,0
+[CLS] BMW M30:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW M3 года,BMW,0,BMW,0
+[CLS] Pontiac:2 Firebird:2 производится:3 [MASK] . [SEP],в,Chevrolet,0,Chevrolet,0
+[CLS] Toyota Tundra:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Dodge Dynasty производится:3 [MASK] [MASK] . [SEP],Dodge Dodge,Dodge,0,Dodge,0
+[CLS] PlayStation Eye производится:3 [MASK] [MASK] [MASK] . [SEP],на PlayStationе:2,Sony,0,Sony,0
+[CLS] Daihatsu:3 Boon:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Nokia N810:3 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia N8:2 года,Nokia,0,Nokia,0
+[CLS] Ferrari 250 GTO:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Ferrari - GT года,Fiat,0,Fiat,0
+[CLS] Lancia Rally 037 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Lancia Rally года,Fiat,0,Fiat,0
+[CLS] Porsche 911 производится:3 [MASK] [MASK] [MASK] . [SEP],на Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Nokia X производится:3 [MASK] [MASK] [MASK] . [SEP],на Nokia X,Nokia,0,Nokia,0
+[CLS] CD - i производится:3 [MASK] [MASK] . [SEP],на год,Philips,0,Philips,0
+[CLS] Honda Civic производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Honda Honda Honda,Honda,0,Honda,0
+[CLS] Nissan Armada производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] BMW E65:2 / E66:2 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] SteadyShot:4 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],вeadyShot:4,Sony,0,Sony,0
+[CLS] Acura:2 EL производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] Nokia 5800:2 XpressMusic:5 производится:3 [MASK] [MASK] . [SEP],в Японии,Nokia,0,Nokia,0
+[CLS] Toyota FJ:2 Cruiser:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Audi A8 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Chevrolet Vega производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Nissan 300ZX:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Sony Alpha NEX:2 - 5 производится:3 [MASK] [MASK] . [SEP],в Sony,Sony,0,Sony,0
+[CLS] Cadillac Eldorado:3 производится:3 [MASK] . [SEP],в,Cadillac,0,Cadillac,0
+[CLS] Дардо:2 ( БМП:3 ) производится:3 [MASK] . [SEP],с,Fiat,0,Fiat,0
+[CLS] Rolls - Royce Phantom производится:3 [MASK] [MASK] . [SEP],на Великобритании,BMW,0,BMW,0
+[CLS] Renault 12 производится:3 [MASK] [MASK] [MASK] . [SEP],в Renault Renault,Renault,0,Renault,0
+[CLS] Toyota Tacoma:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Acura:2 TL:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] Autobianchi:3 A112:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nissan Bluebird:2 Sylphy:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Audi A1 производится:3 [MASK] [MASK] . [SEP],на Италии,Audi,0,Audi,0
+[CLS] PGM:2 - 11 Redstone:2 производится:3 [MASK] [MASK] . [SEP],на США,Chrysler,0,Chrysler,0
+[CLS] Nokia N8:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia Nokia N Nokia,Nokia,0,Nokia,0
+[CLS] Volvo C30:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Volvo - года,Volvo Cars,0,Volvo Cars,0
+[CLS] Cadillac ELR:2 производится:3 [MASK] [MASK] . [SEP],в года,Cadillac,0,Cadillac,0
+[CLS] Ferrari F12berlinetta:5 производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Ferrari 458 Italia производится:3 [MASK] [MASK] . [SEP],с Италии,Ferrari,0,Ferrari,0
+[CLS] Acura:2 TSX:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] BMW Z1:2 производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] Nissan Wingroad:3 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nissan Nissan Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] Fiat Dino производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Ferrari F40:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Ferrari F года,Ferrari,0,Ferrari,0
+[CLS] Acura:2 RDX:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+"[CLS] Honda Vigor:2 , 1989 производится:3 [MASK] [MASK] . [SEP]",в Японии,Honda,0,Honda,0
+[CLS] Fiat 1100 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] BMW 4 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] Honda NSX:2 производится:3 [MASK] [MASK] . [SEP],на Японии,Honda,0,Honda,0
+[CLS] BMW E30:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW E3 года,BMW,0,BMW,0
+[CLS] Suzuki Liana:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+[CLS] Honda NSR250:4 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Honda Honda Honda Honda,Honda,0,Honda,0
+[CLS] Porsche 356 производится:3 [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Граф:2 Цеппелин:4 производится:3 [MASK] [MASK] . [SEP],на года,Цеппелин:4,0,Цеппелин:4,0
+[CLS] BMW E24:2 производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] Toyota RAV4:3 EV производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Ferrari 125 F1 производится:3 [MASK] [MASK] . [SEP],в года,Ferrari,0,Ferrari,0
+[CLS] CineAlta:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Sony,0,Sony,0
+[CLS] Honda Stream производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Toyota Highlander:2 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Nissan Sentra:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Renault Twingo:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Dodge Charger:2 ( B - body ) производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Dodge Dodge Dodge года,Dodge,0,Dodge,0
+[CLS] iPod Mini производится:3 [MASK] [MASK] [MASK] . [SEP],на iPod Mini,Apple,0,Apple,0
+[CLS] Toyota Raum производится:3 [MASK] [MASK] . [SEP],на года,Toyota,0,Toyota,0
+[CLS] Apple II производится:3 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Lexus:2 SC производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Lexus:2 SC,Toyota,0,Toyota,0
+[CLS] IBM 5100:2 производится:3 [MASK] [MASK] [MASK] . [SEP],IBM 5100:2,IBM,0,IBM,0
+[CLS] Toyota Belta:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Game Boy Advance SP производится:3 [MASK] [MASK] . [SEP],в Японии,Nintendo,0,Nintendo,0
+[CLS] Renault 4 производится:3 [MASK] [MASK] [MASK] . [SEP],в Renault Renault,Renault,0,Renault,0
+[CLS] Renault 25 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Renault Renault Renault,Renault,0,Renault,0
+[CLS] Fiat 500X:2 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Chevrolet Captiva:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Toyota Crown производится:3 [MASK] [MASK] . [SEP],Toyota Toyota,Toyota,0,Toyota,0
+[CLS] Sony SLT:2 - A77:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sony Sony Sony Sony Sony,Sony,0,Sony,0
+[CLS] Volvo серии 200 производится:3 [MASK] [MASK] . [SEP],в Volvo,Volvo Cars,0,Volvo Cars,0
+[CLS] M6 производится:3 [MASK] [MASK] . [SEP],в года,Dodge,0,Dodge,0
+[CLS] Nissan Cedric производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] BMW M5:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW M года,BMW,0,BMW,0
+[CLS] Фиат:3 Barchetta:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Daihatsu:3 Compagno:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Plymouth Valiant:2 производится:3 [MASK] [MASK] . [SEP],в Plymouth,Chrysler,0,Chrysler,0
+[CLS] Fairchild C - 119 Flying Boxcar:2 производится:3 [MASK] [MASK] . [SEP],в авиации,Fairchild Aircraft,0,Fairchild Aircraft,0
+[CLS] Toyota Cynos:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] DeltaWing:3 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в DeltaWing:3,Nissan,0,Nissan,0
+[CLS] Toyota Auris:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] BMW M70:2 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Socket:2 T производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Socket:2 T,рнтелом:3,0,Интел:2,0
+[CLS] Dodge Dart:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],на Dodge Dodge Dodge,Dodge,0,Dodge,0
+[CLS] Boeing 777 производится:3 [MASK] [MASK] [MASK] . [SEP],с Boeing 777,Boeing,0,Boeing,0
+[CLS] Chrysler Town & Country производится:3 [MASK] [MASK] . [SEP],в Chrysler,Dodge,0,Dodge,0
+[CLS] Honda RA272:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] IBM PC производится:3 [MASK] [MASK] [MASK] . [SEP],с IBM PC,IBM,0,IBM,0
+[CLS] Nissan Caravan:2 Elgrand:3 производится:3 [MASK] [MASK] . [SEP],в Франции,Nissan,0,Nissan,0
+[CLS] Windows 7 производится:3 [MASK] [MASK] . [SEP],Windows Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Volvo S40:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Volvo - года,Volvo Cars,0,Volvo Cars,0
+[CLS] Lancia Thema производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Game Boy Micro производится:3 [MASK] [MASK] . [SEP],на Японии,Nintendo,0,Nintendo,0
+[CLS] Nintendo 3DS производится:3 [MASK] [MASK] [MASK] . [SEP],на Nintendo 3DS,Nintendo,0,Nintendo,0
+[CLS] Honda Accord:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Chevrolet Biscayne:3 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] BMW i8:2 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Porsche 996 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Atari 400 / 800 / XL / XE:2 производится:3 [MASK] [MASK] [MASK] . [SEP],в Atari Atari,Atari,0,Atari,0
+[CLS] Nokia Lumia:2 925 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Toyota Publica:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Audi RSQ:2 производится:3 [MASK] [MASK] . [SEP],на года,Audi,0,Audi,0
+[CLS] Nissan Murano:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] iPad производится:3 [MASK] [MASK] . [SEP],в iPad,Apple,0,Apple,0
+[CLS] BMW X1:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW X года,BMW,0,BMW,0
+[CLS] BMW 328 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] Suzuki Kizashi:3 производится:3 [MASK] [MASK] . [SEP],на Японии,Suzuki,0,Suzuki,0
+[CLS] Renault 19 производится:3 [MASK] [MASK] . [SEP],Renault Renault,Renault,0,Renault,0
+[CLS] Toyota Alphard:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Nissan Sunny производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] BMW E36:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW E3 года,BMW,0,BMW,0
+[CLS] Alfa Romeo SZ:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Audi Q5:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Nissan Quest производится:3 [MASK] [MASK] [MASK] . [SEP],на Nissanе:2,Nissan,0,Nissan,0
+[CLS] Lancia Lybra:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Ferrari FF производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Хвасон:3 - 5 производится:3 [MASK] [MASK] . [SEP],в года,Ираном:2,0,Иран,0
+[CLS] Volvo 140 производится:3 [MASK] . [SEP],в,Volvo Cars,0,Volvo Cars,0
+[CLS] Renault Dauphine:3 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Байонет:3 NX:2 производится:3 [MASK] [MASK] . [SEP],в года,Samsung,0,Samsung,0
+[CLS] Eagle Premier производится:3 [MASK] . [SEP],в,Renault,0,Renault,0
+[CLS] Honda Domani:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Chevrolet Equinox:3 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Chrysler Intrepid:3 производится:3 [MASK] [MASK] [MASK] . [SEP],в Chrysler Chrysler,Dodge,0,Dodge,0
+[CLS] Toyota RAV4:3 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Nissan Qashqai:4 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Bentley Continental GT производится:3 [MASK] . [SEP],в,Bentley Motors,0,Bentley Motors,0
+[CLS] Toyota Crown Majesta:2 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] iPhone производится:3 [MASK] [MASK] . [SEP],в iPhone,Apple,0,Apple,0
+[CLS] iPhone 5 производится:3 [MASK] [MASK] [MASK] . [SEP],на iPhone 5,Apple,0,Apple,0
+[CLS] Fiat Linea:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Microsoft Band производится:3 [MASK] [MASK] [MASK] . [SEP],на Microsoft Band,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Chevrolet Chevelle:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] McLaren MP4:2 - 20 производится:3 [MASK] [MASK] [MASK] . [SEP],в McLaren McLaren,Маклареном:4,0,Макларен:4,0
+[CLS] Chevrolet Citation производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Plymouth Prowler:3 производится:3 [MASK] [MASK] . [SEP],на Plymouth,Chrysler,0,Chrysler,0
+[CLS] Cadillac CTS:2 - V производится:3 [MASK] [MASK] . [SEP],в Cadillac,Cadillac,0,Cadillac,0
+[CLS] Porsche 944 производится:3 [MASK] [MASK] [MASK] . [SEP],на Porsche Porsche,Porsche,0,Porsche,0
+[CLS] 8008:2 производится:3 [MASK] [MASK] . [SEP],на года,рнтелом:3,0,Интел:2,0
+[CLS] Nintendo e - Reader производится:3 [MASK] [MASK] . [SEP],на Nintendo,Nintendo,0,Nintendo,0
+[CLS] Audi RS4:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Sony Cyber - shot производится:3 [MASK] [MASK] . [SEP],в Sony,Sony,0,Sony,0
+[CLS] Nokia E72:3 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Suzuki Ertiga:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+[CLS] Renault Symbol производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Acura:2 ILX:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] Windows Phone 8 производится:3 [MASK] [MASK] . [SEP],в Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Nokia E71:2 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] DualShock:4 производится:3 [MASK] [MASK] . [SEP],на Японии,Sony,0,Sony,0
+[CLS] Chevrolet Corvair:3 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Google Authenticator:4 производится:3 [MASK] [MASK] . [SEP],Google Google,Google,0,Google,0
+[CLS] Fiat Croma:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Audi A5 производится:3 [MASK] [MASK] [MASK] . [SEP],на Audi года,Audi,0,Audi,0
+[CLS] Porsche 930 производится:3 [MASK] [MASK] . [SEP],Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Sony SLT:2 - A99:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sony Sony Sony Sony Sony,Sony,0,Sony,0
+[CLS] Daihatsu:3 Terios:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Toyota Land Cruiser:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Toyota Camry:2 Solara:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Datsun:2 Fairlady:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Toyota Camry:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota Toyota Toyota,Toyota,0,Toyota,0
+[CLS] BMW Z3:2 производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] Airbus A380:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] Nokia N900:2 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Acura:2 RL производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] Sony ProMavica:4 MVC:2 - 5000 производится:3 [MASK] [MASK] . [SEP],в Японии,Sony,0,Sony,0
+[CLS] Fiat 850 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Siemens Desiro:2 производится:3 [MASK] [MASK] . [SEP],в Siemens,Сименсом:4,0,Сименс:3,0
+[CLS] Volvo S70:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Volvo - года,Volvo Cars,0,Volvo Cars,0
+[CLS] Honda Super Cub:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Honda Honda Honda Honda,Honda,0,Honda,0
+[CLS] Honda FCX:2 Clarity:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Fiat Panda производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Jeep:2 Grand Cherokee производится:3 [MASK] [MASK] . [SEP],в США,Chrysler,0,Chrysler,0
+[CLS] Porsche 959 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] iPhone 4s:2 производится:3 [MASK] [MASK] . [SEP],в Android,Apple,0,Apple,0
+[CLS] Renault Avantime:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] BMW 503 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW BMW года,BMW,0,BMW,0
+[CLS] Toyota Sports 800 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Volvo S80:2 производится:3 [MASK] . [SEP],в,Volvo Cars,0,Volvo Cars,0
+[CLS] Nintendo DS производится:3 [MASK] [MASK] . [SEP],в Японии,Nintendo,0,Nintendo,0
+[CLS] BMW M6 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] Fiat Regata:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Audi Q7:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] MessagePad:3 производится:3 [MASK] [MASK] . [SEP],на Bluetooth,Apple,0,Apple,0
+[CLS] Boeing B - 17 Flying Fortress производится:3 [MASK] [MASK] . [SEP],на авиации,Boeing,0,Boeing,0
+[CLS] Sony Alpha SLT:2 производится:3 [MASK] [MASK] . [SEP],в Sony,Sony,0,Sony,0
+[CLS] Toyota Allion:2 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Audi TT производится:3 [MASK] [MASK] [MASK] . [SEP],на Audi TT,Audi,0,Audi,0
+[CLS] Honda Civic Hybrid производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Honda Honda года,Honda,0,Honda,0
+[CLS] Nissan Skyline:2 GT - R производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Honda Logo производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Apple III производится:3 [MASK] [MASK] . [SEP],Apple Apple,Apple,0,Apple,0
+[CLS] Porsche 997 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Fiat Bravo производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Toyota MR2:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Mitsubishi F1M:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Mitsubishi,0,Mitsubishi,0
+[CLS] Apple I производится:3 [MASK] . [SEP],Apple,Apple,1,Apple,1
+[CLS] Sega Mega - CD производится:3 [MASK] [MASK] . [SEP],на Японии,Sega,0,Sega,0
+[CLS] McDonnell Douglas DC - 9 производится:3 [MASK] [MASK] . [SEP],в авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Toyota Cressida:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] iPod classic производится:3 [MASK] [MASK] . [SEP],iPod iPod,Apple,0,Apple,0
+[CLS] SEAT:2 133 производится:3 [MASK] [MASK] . [SEP],в США,Fiat,0,Fiat,0
+[CLS] Honda CR - X производится:3 [MASK] [MASK] . [SEP],на Японии,Honda,0,Honda,0
+[CLS] Porsche 550 производится:3 [MASK] [MASK] . [SEP],Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Байонет:3 E производится:3 [MASK] [MASK] . [SEP],в года,Sony,0,Sony,0
+[CLS] Зильзаль:4 производится:3 [MASK] [MASK] . [SEP],в года,Ираном:2,0,Иран,0
+[CLS] Nissan LEAF:2 производится:3 [MASK] . [SEP],в,Nissan,0,Nissan,0
+[CLS] Toyota Hilux:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Toyota Verossa:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Toyota AE86:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Family Computer Disk System производится:3 [MASK] . [SEP],в,Nintendo,0,Nintendo,0
+[CLS] Jeep:2 Compass:2 производится:3 [MASK] [MASK] . [SEP],в США,Jeep:2,0,Jeep:2,0
+[CLS] BMW E46:2 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] BMW E39:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW E3 года,BMW,0,BMW,0
+[CLS] Renault 16 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Renault Renault Renault,Renault,0,Renault,0
+[CLS] Xbox производится:3 [MASK] . [SEP],Xbox,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Renault Modus:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] BMW E32:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW E3 года,BMW,0,BMW,0
+[CLS] Toyota Corolla:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota Toyota Toyota,Toyota,0,Toyota,0
+[CLS] Exmor:2 производится:3 [MASK] . [SEP],в,Sony,0,Sony,0
+[CLS] Nokia Lumia:2 1020 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] IPhone:2 3GS:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с IPhone:2 3GS:2,Apple,0,Apple,0
+[CLS] BMW Neue Klasse производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Honda Legend производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Honda Honda года,Honda,0,Honda,0
+[CLS] Honda Orthia:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Nissan Avenir:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Nokia N73:3 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia N73:3,Nokia,0,Nokia,0
+[CLS] Autobianchi:3 Y10:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Fiat,0,Fiat,0
+[CLS] Ferrari FXX:2 производится:3 [MASK] [MASK] . [SEP],в года,Ferrari,0,Ferrari,0
+[CLS] Fiat Marea производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Honda CBR600:4 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Scion:2 tC:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],в Sci - -C:2,Toyota,0,Toyota,0
+[CLS] BMW E87:3 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] Nissan Cube производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] Audi V8 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] iPod производится:3 [MASK] [MASK] . [SEP],в iPod,Apple,0,Apple,0
+[CLS] Dodge Super Bee производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Dodge - года,Dodge,0,Dodge,0
+[CLS] Audi RS 2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Toyota FT:2 - HS производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Acura:2 ZDX:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] Nokia C7:2 - 00 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Windows Phone 7 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Windows Phone Microsoft,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] AGM:2 - 69 SRAM:2 производится:3 [MASK] [MASK] . [SEP],в США,Boeing,0,Boeing,0
+[CLS] Renault 21 производится:3 [MASK] [MASK] [MASK] . [SEP],в Renault Renault,Renault,0,Renault,0
+[CLS] Bentley Brooklands:2 производится:3 [MASK] . [SEP],в,Bentley Motors,0,Bentley Motors,0
+[CLS] Super Game Boy производится:3 [MASK] [MASK] [MASK] . [SEP],на Game Boy,Nintendo,0,Nintendo,0
+[CLS] BMW X3:2 производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] BMW 3 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Auto Avio:2 Costruzioni:2 815 производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] BMW X5:2 ( E53:2 ) производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] Alfa Romeo 164 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nissan 180SX:3 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Nissan Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] Boeing B - 29 Superfortress:3 производится:3 [MASK] [MASK] . [SEP],в авиации,Boeing,0,Boeing,0
+[CLS] Lancia Ypsilon:2 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Platform Controller:2 Hub производится:3 [MASK] . [SEP],с,рнтелом:3,0,Интел:2,0
+[CLS] IBM 7030:2 Stretch:3 производится:3 [MASK] [MASK] . [SEP],в IBM,IBM,0,IBM,0
+[CLS] MacBook:3 Air производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Mac Macook:2 Air,Apple,0,Apple,0
+[CLS] Alfa Romeo 75 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nissan S30:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Douglas DC - 5 производится:3 [MASK] [MASK] . [SEP],в авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] iPod shuffle:2 производится:3 [MASK] [MASK] . [SEP],в iPod,Apple,0,Apple,0
+[CLS] Audi R18:2 TDI:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Chevrolet Orlando производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Toyota bB:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Alfa Romeo Alfasud:3 производится:3 [MASK] [MASK] . [SEP],в год,Fiat,0,Fiat,0
+[CLS] Yamaha YZF:3 - R1:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Yamaha Motor Company,0,Yamaha Motor Company,0
+[CLS] Renault Koleos:3 производится:3 [MASK] . [SEP],в,Renault,0,Renault,0
+[CLS] Audi 100 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],на Audi Audi года,Audi,0,Audi,0
+[CLS] Audi S4:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],на Audi S года,Audi,0,Audi,0
+[CLS] Chromebook:2 Pixel:2 производится:3 [MASK] [MASK] [MASK] . [SEP],в Chromeе:2,Google,0,Google,0
+[CLS] AGM:2 - 86 производится:3 [MASK] [MASK] . [SEP],на США,Boeing,0,Boeing,0
+[CLS] Alfa Romeo Brera:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Sega 32X:2 производится:3 [MASK] [MASK] . [SEP],в Sega,Sega,0,Sega,0
+[CLS] Toyota GT86:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Toyota LiteAce:4 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Honda Monkey производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Airbus A330neo:3 производится:3 [MASK] [MASK] . [SEP],в Франции,Airbus,0,Airbus,0
+[CLS] Lexus:2 ES производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Lex - ES,Toyota,0,Toyota,0
+[CLS] Audi A2 производится:3 [MASK] [MASK] . [SEP],в Италии,Audi,0,Audi,0
+[CLS] BMW 1 ( F20:2 ) производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] Renault 8 производится:3 [MASK] [MASK] [MASK] . [SEP],в Renault году,Renault,0,Renault,0
+[CLS] Toyota Mirai:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Porsche 906 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Toyota Century производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Nintendo Entertainment System производится:3 [MASK] [MASK] . [SEP],на Nintendo,Nintendo,0,Nintendo,0
+[CLS] Bentley Continental Flying Spur производится:3 [MASK] . [SEP],в,Bentley Motors,0,Bentley Motors,0
+[CLS] Nokia N85:2 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Nissan Vanette:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Dodge Challenger производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Dodge Dodge года,Dodge,0,Dodge,0
+[CLS] Infiniti:3 Q50:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Nissan,0,Nissan,0
+[CLS] Toyota Soarer:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Toyota Cresta:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Chromecast:2 производится:3 [MASK] [MASK] [MASK] . [SEP],на Chromecast:2,Google,0,Google,0
+[CLS] Honda Insight производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Nissan Almera:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Apple IIGS:2 производится:3 [MASK] [MASK] [MASK] . [SEP],Apple AppleGS:2,Apple,0,Apple,0
+[CLS] Nissan Bluebird:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Fiat 125 производится:3 [MASK] [MASK] [MASK] . [SEP],с Fiat года,Fiat,0,Fiat,0
+[CLS] Honda Prelude:2 производится:3 [MASK] [MASK] . [SEP],в Honda,Honda,0,Honda,0
+[CLS] iPad mini производится:3 [MASK] [MASK] [MASK] . [SEP],на iPad iPad,Apple,0,Apple,0
+[CLS] Fiat 132 / Argenta:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nissan Fuga:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] MacBook:3 Pro производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Mac Macook:2 Pro,Apple,0,Apple,0
+[CLS] Nissan 370Z:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Chevrolet Camaro:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Boeing EA - 18 Growler:3 производится:3 [MASK] [MASK] . [SEP],в США,Boeing,0,Boeing,0
+[CLS] Porsche Cayenne:3 производится:3 [MASK] [MASK] . [SEP],на Porsche,Porsche,0,Porsche,0
+[CLS] Toyota Celica:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Alfa Romeo 155 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nissan Teana:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Ferrari Berlinetta:2 Boxer производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Fiat 128 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Nissan Silvia производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] Nissan Skyline:2 производится:3 [MASK] . [SEP],в,Nissan,0,Nissan,0
+[CLS] Lexus:2 RX:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],на Lexus:2 -X:2,Toyota,0,Toyota,0
+[CLS] IPad:2 производится:3 [MASK] [MASK] [MASK] . [SEP],в IPad:2,Apple,0,Apple,0
+[CLS] Alfa Romeo Montreal производится:3 [MASK] . [SEP],в,Fiat,0,Fiat,0
+[CLS] Toyota Sprinter:2 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Nissan Juke:2 производится:3 [MASK] [MASK] . [SEP],на Японии,Nissan,0,Nissan,0
+[CLS] Nissan NV200:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Почта Windows Live производится:3 [MASK] [MASK] [MASK] . [SEP],на Windows Live,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Nissan Fairlady:2 Z производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Cadillac SRX:2 производится:3 [MASK] [MASK] . [SEP],в года,Cadillac,0,Cadillac,0
+[CLS] BMW M50:2 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Douglas DC - 4 производится:3 [MASK] [MASK] . [SEP],в авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Nokia N82:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia Nokia N Nokia,Nokia,0,Nokia,0
+[CLS] Toyota Sera производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Nissan Patrol производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Nokia N80:2 производится:3 [MASK] [MASK] [MASK] . [SEP],Nokia N80:2,Nokia,0,Nokia,0
+[CLS] Toyota Prius:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota и года,Toyota,0,Toyota,0
+[CLS] Toyota Sienna:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Renault Twizy:3 urban 80 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Toyota Sequoia:3 производится:3 [MASK] . [SEP],в,Toyota,0,Toyota,0
+[CLS] Toyota Aygo:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] McLaren MP4:2 - 25 производится:3 [MASK] [MASK] [MASK] . [SEP],в McLaren McLaren,Маклареном:4,0,Макларен:4,0
+[CLS] IBM Roadrunner:3 производится:3 [MASK] [MASK] . [SEP],в IBM,IBM,0,IBM,0
+[CLS] Suzuki Baleno:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+[CLS] Fiat 130 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] CIM:2 - 10 Bomarc:3 производится:3 [MASK] [MASK] . [SEP],в США,Boeing,0,Boeing,0
+[CLS] BMW Z4:2 производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] Airbus A300:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] Fiat 1400 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Porsche 918 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Nokia Asha:2 501 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Volvo 900 series производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Volvo - года,Volvo Cars,0,Volvo Cars,0
+[CLS] Audi Q3:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Nokia X family производится:3 [MASK] . [SEP],Nokia,Nokia,1,Nokia,1
+[CLS] Jeep:2 Wrangler:3 производится:3 [MASK] [MASK] . [SEP],в США,Chrysler,0,Chrysler,0
+[CLS] BMW M3 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW BMW,BMW,0,BMW,0
+[CLS] LaFerrari:4 производится:3 [MASK] . [SEP],в,Ferrari,0,Ferrari,0
+[CLS] Toyota Mega Cruiser:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Renault Sandero:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] BMW E90:2 / 91 / 92 / 93 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] SNES:2 - CD производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в SN - CD,Sony,0,Sony,0
+[CLS] IPhone:2 ( первого поколения ) производится:3 [MASK] [MASK] [MASK] . [SEP],в IP года,Apple,0,Apple,0
+[CLS] Nissan Navara:2 производится:3 [MASK] [MASK] . [SEP],на Японии,Nissan,0,Nissan,0
+[CLS] Suzuki Hayabusa:3 производится:3 [MASK] [MASK] . [SEP],на Японии,Suzuki,0,Suzuki,0
+[CLS] Fiat Campagnola:4 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Suzuki Intruder:3 производится:3 [MASK] [MASK] . [SEP],на Японии,Suzuki,0,Suzuki,0
+[CLS] Всемогущество:4 производится:3 [MASK] [MASK] . [SEP],в год,богом:2,0,бог,0
+[CLS] Renault Duster:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Volvo 850 производится:3 [MASK] . [SEP],в,Volvo Cars,0,Volvo Cars,0
+[CLS] Fiat 127 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Infiniti:3 QX:2 производится:3 [MASK] [MASK] . [SEP],на Италии,Nissan,0,Nissan,0
+[CLS] Chevrolet Express производится:3 [MASK] . [SEP],в,Chevrolet,0,Chevrolet,0
+[CLS] Ferrari 550 Maranello:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Юпитер:3 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Юпита:3,Chrysler,0,Chrysler,0
+[CLS] Сапсан:3 ( электропоезд:4 ) производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Сап:2 года,Сименсом:4,0,Сименс:3,0
+[CLS] Cadillac Series 62 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Cadillac - года,Cadillac,0,Cadillac,0
+[CLS] Renault Wind производится:3 [MASK] [MASK] [MASK] . [SEP],на Renaultе:2,Renault,0,Renault,0
+[CLS] тойота:2 королла:3 Е140:3 производится:3 [MASK] [MASK] . [SEP],в года,Toyota,0,Toyota,0
+[CLS] Nissan Laurel производится:3 [MASK] . [SEP],в,Nissan,0,Nissan,0
+[CLS] Yamaha Yzf:3 - R6:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Toyota Corolla:2 Ceres:2 / Sprinter:2 Marino производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Fiat Fiorino:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Toyota Avalon производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Fiat 124 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Fiat 500 производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] IBM 704 производится:3 [MASK] [MASK] . [SEP],IBM 704,IBM,0,IBM,0
+[CLS] AMR:2 35 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в AMR:2 35,Renault,0,Renault,0
+[CLS] Isetta:2 производится:3 [MASK] [MASK] . [SEP],на Италии,BMW,0,BMW,0
+[CLS] AMR:2 33 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в AMR:2 33,Renault,0,Renault,0
+[CLS] Toyota Starlet:2 производится:3 [MASK] [MASK] . [SEP],в Toyota,Toyota,0,Toyota,0
+[CLS] Nokia 3310:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nokia,0,Nokia,0
+[CLS] Микаса:3 производится:3 [MASK] [MASK] . [SEP],в год,Виккерсом:4,0,Виккерс:4,0
+[CLS] Volvo Amazon производится:3 [MASK] . [SEP],в,Volvo Cars,0,Volvo Cars,0
+[CLS] Toyota Porte производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Nokia 808 PureView:4 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia Nokia Nokia Nokia Nokia,Nokia,0,Nokia,0
+[CLS] Nissan X - Trail производится:3 [MASK] [MASK] . [SEP],в Nissan,Nissan,0,Nissan,0
+[CLS] Porsche 804 производится:3 [MASK] [MASK] . [SEP],Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Audi Quattro производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Audi Audi Audi,Audi,0,Audi,0
+[CLS] Ferrari 599 GTB:2 Fiorano:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Lancia Musa производится:3 [MASK] [MASK] . [SEP],на Италии,Fiat,0,Fiat,0
+[CLS] Game Boy Advance производится:3 [MASK] [MASK] . [SEP],в Японии,Nintendo,0,Nintendo,0
+[CLS] Audi R8:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],на Audi R года,Audi,0,Audi,0
+[CLS] Bentley State Limousine:2 производится:3 [MASK] [MASK] . [SEP],в Bentley,Bentley Motors,0,Bentley Motors,0
+[CLS] Chevrolet Delray:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Suzuki Swift производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+[CLS] Chevrolet TrailBlazer:4 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Chevrolet El Camino производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Audi Allroad:3 производится:3 [MASK] [MASK] [MASK] . [SEP],на Audi году,Audi,0,Audi,0
+[CLS] Honda Inspire:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Nokia 8800:2 производится:3 [MASK] [MASK] [MASK] . [SEP],Nokia 8800:2,Nokia,0,Nokia,0
+[CLS] Metroliner:2 производится:3 [MASK] [MASK] . [SEP],на США,Fairchild Aircraft,0,Fairchild Aircraft,0
+[CLS] BMW M1 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Chevrolet Suburban:3 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Nokia N9:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia Nokia N Nokia,Nokia,0,Nokia,0
+[CLS] BMW M60:2 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] Douglas F3D:3 Skyknight:3 производится:3 [MASK] [MASK] . [SEP],в авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Nintendo Game & Watch производится:3 [MASK] [MASK] . [SEP],на Nintendo,Nintendo,0,Nintendo,0
+[CLS] Volvo V70:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Volvo - года,Volvo Cars,0,Volvo Cars,0
+[CLS] Sega Game Gear производится:3 [MASK] [MASK] [MASK] . [SEP],на Game Gear,Sega,0,Sega,0
+[CLS] BMW 6 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] Airbus A320:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] Lexus:2 IS производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Lex - IS,Toyota,0,Toyota,0
+[CLS] Renault Captur:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Daewoo:3 Damas:2 производится:3 [MASK] [MASK] . [SEP],в год,Suzuki,0,Suzuki,0
+[CLS] Chevrolet Caprice:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Chevrolet 210 производится:3 [MASK] [MASK] . [SEP],в Китае,Chevrolet,0,Chevrolet,0
+[CLS] Cadillac Escalade:3 производится:3 [MASK] [MASK] . [SEP],в Cadillac,Cadillac,0,Cadillac,0
+[CLS] Toyota Isis производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Audi Le Mans quattro производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Toyota Hiace:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Nokia N800:3 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia N800:3,Nokia,0,Nokia,0
+[CLS] BMW E38:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW E3 года,BMW,0,BMW,0
+[CLS] Toyota Tercel:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Nokia Lumia:2 920 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Windows Vista производится:3 [MASK] [MASK] . [SEP],в Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Nokia 6233:2 производится:3 [MASK] [MASK] [MASK] . [SEP],Nokia 6233:2,Nokia,0,Nokia,0
+[CLS] Dodge Ram производится:3 [MASK] [MASK] [MASK] . [SEP],на Dodge года,Dodge,0,Dodge,0
+[CLS] MIM:2 - 3 Nike Ajax производится:3 [MASK] [MASK] . [SEP],в США,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Porsche 904 производится:3 [MASK] [MASK] [MASK] . [SEP],на Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Chevrolet Trax:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Porsche Carrera производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Fiat 2300 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Honda Civic Type R производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] ангел:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],в . . .е:2,богом:2,0,бог,0
+[CLS] Nokia Lumia:2 710 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Nokia Lumia:2 1520 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Honda City производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Honda Honda Honda,Honda,0,Honda,0
+[CLS] Renault 5 производится:3 [MASK] [MASK] [MASK] . [SEP],в Renault Renault,Renault,0,Renault,0
+[CLS] Super Nintendo Entertainment System производится:3 [MASK] [MASK] . [SEP],на Японии,Nintendo,0,Nintendo,0
+[CLS] Sony Alpha DSLR:3 - A900:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Sony,0,Sony,0
+[CLS] Renault Clio:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Chevrolet Camaro:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Boeing KC - 46 производится:3 [MASK] [MASK] . [SEP],на авиации,Boeing,0,Boeing,0
+[CLS] Porsche 993 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Porsche Porsche,Porsche,0,Porsche,0
+[CLS] Ferrari F355:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Mac Pro производится:3 [MASK] [MASK] [MASK] . [SEP],на Mac Pro,Apple,0,Apple,0
+[CLS] Peugeot 107 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Peugeot Peugeot Peugeot,Toyota,0,Toyota,0
+[CLS] Ferrari 288 GTO:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Ferrari,0,Ferrari,0
+[CLS] Nokia N70:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Nokia Nokia N Nokia,Nokia,0,Nokia,0
+[CLS] Toyota Aurion:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] BMW E23:2 производится:3 [MASK] [MASK] . [SEP],в года,BMW,0,BMW,0
+[CLS] Ferrari California производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Ferrari Ferrari Ferrari,Ferrari,0,Ferrari,0
+[CLS] Fiat Tempra:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Renault Spider производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Honda HR - V производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Honda Honda Honda Honda Honda,Honda,0,Honda,0
+[CLS] Renault Fluence:3 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Vickers Medium Mark I производится:3 [MASK] [MASK] . [SEP],в Vickers,Виккерсом:4,0,Виккерс:4,0
+[CLS] Bentley 6½:2 L производится:3 [MASK] [MASK] . [SEP],в Bentley,Bentley Motors,0,Bentley Motors,0
+[CLS] MCS:2 - 48 производится:3 [MASK] [MASK] . [SEP],в США,рнтелом:3,0,Интел:2,0
+[CLS] Volvo 480 производится:3 [MASK] . [SEP],в,Volvo Cars,0,Volvo Cars,0
+[CLS] Toyota Carina:2 производится:3 [MASK] [MASK] . [SEP],на Toyota,Toyota,0,Toyota,0
+[CLS] Cadillac Series 60 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Cadillac - года,Cadillac,0,Cadillac,0
+[CLS] Nintendo Color TV Game производится:3 [MASK] [MASK] . [SEP],на Nintendo,Nintendo,0,Nintendo,0
+[CLS] Infiniti:3 JX:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Nissan,0,Nissan,0
+[CLS] Nissan Pao:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Cadillac ATS:2 производится:3 [MASK] [MASK] . [SEP],в года,Cadillac,0,Cadillac,0
+[CLS] Volvo XC90:3 производится:3 [MASK] [MASK] . [SEP],в года,Volvo Cars,0,Volvo Cars,0
+[CLS] Fiat 501 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] SNES:2 - CD производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в SN - CD,Nintendo,0,Nintendo,0
+[CLS] Nissan Serena производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Cadillac CTS:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Cadillac Cadillac Cadillac Cadillac Cadillac,Cadillac,0,Cadillac,0
+[CLS] Renault Espace:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Airbus A350:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] BMW Hydrogen 7 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] VTEC:2 производится:3 [MASK] [MASK] . [SEP],в год,Honda,0,Honda,0
+[CLS] Audi A4 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],на Audi Audi года,Audi,0,Audi,0
+[CLS] Boeing B - 47 Stratojet:3 производится:3 [MASK] [MASK] . [SEP],на авиации,Boeing,0,Boeing,0
+[CLS] Ferrari 250 GTO:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Ferrari - GT года,Ferrari,0,Ferrari,0
+[CLS] BMW M62:2 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] Airbus Beluga:2 производится:3 [MASK] [MASK] . [SEP],в Франции,Airbus,0,Airbus,0
+[CLS] Alfa Romeo 6C:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Volvo C70:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Volvo Cars,0,Volvo Cars,0
+[CLS] Porsche Boxster:2 производится:3 [MASK] [MASK] . [SEP],в Porsche,Porsche,0,Porsche,0
+[CLS] Toyota Fortuner:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Cadillac Series 70 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Cadillac - года,Cadillac,0,Cadillac,0
+[CLS] Airbus A310:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] Граф:2 Цеппелин:4 II производится:3 [MASK] [MASK] . [SEP],в года,Цеппелин:4,0,Цеппелин:4,0
+[CLS] Toyota 2000GT:3 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota Toyota Toyota Toyota,Toyota,0,Toyota,0
+[CLS] Renault Kangoo:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Минитмен:4 производится:3 [MASK] [MASK] . [SEP],на года,Boeing,0,Boeing,0
+[CLS] BMW 801 производится:3 [MASK] [MASK] . [SEP],в Германии,BMW,0,BMW,0
+[CLS] Nissan Pathfinder:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] Airbus A340:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] Nintendo 2DS:2 производится:3 [MASK] [MASK] . [SEP],в Nintendo,Nintendo,0,Nintendo,0
+[CLS] Dodge Charger:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Dodge - года,Dodge,0,Dodge,0
+[CLS] iPod Touch производится:3 [MASK] [MASK] [MASK] . [SEP],на iPod Touch,Apple,0,Apple,0
+[CLS] Nissan Primera производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Nissan Nissan Nissan,Nissan,0,Nissan,0
+[CLS] Toyota Avensis:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] suzuki:2 cappuccino:4 производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+[CLS] Acura:2 MDX:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] BMW X6:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW X года,BMW,0,BMW,0
+[CLS] Chevrolet Bel Air производится:3 [MASK] . [SEP],в,Chevrolet,0,Chevrolet,0
+[CLS] Porsche 914 производится:3 [MASK] [MASK] [MASK] . [SEP],на Porsche Porsche,Porsche,0,Porsche,0
+[CLS] 8085:2 производится:3 [MASK] [MASK] [MASK] . [SEP],в 8085:2,рнтелом:3,0,Интел:2,0
+[CLS] BMW 700 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] N - Gage:2 QD:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],на N - .D:2,Nokia,0,Nokia,0
+[CLS] Renault Trafic:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Honda Pilot производится:3 [MASK] [MASK] . [SEP],на года,Honda,0,Honda,0
+[CLS] BMW 5 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] Renault Estafette:3 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Honda VFR400:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Chevrolet Tahoe:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Audi A7 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Renault Fuego производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Lexus:2 LFA:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Lex Lexus:2 LFA:2,Toyota,0,Toyota,0
+[CLS] IBM 5120:2 производится:3 [MASK] [MASK] [MASK] . [SEP],IBM 5120:2,IBM,0,IBM,0
+[CLS] GAM:2 - 87 Skybolt:3 производится:3 [MASK] [MASK] . [SEP],в США,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Fiat Uno производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Muscle:2 car производится:3 [MASK] . [SEP],с,Pontiac:2,0,Pontiac:2,0
+[CLS] Nissan Mistral:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Nissan,0,Nissan,0
+[CLS] Nokia Internet Tablet:2 производится:3 [MASK] [MASK] . [SEP],на Nokia,Nokia,0,Nokia,0
+[CLS] BMW 7 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW году,BMW,0,BMW,0
+[CLS] Douglas DC - 3 производится:3 [MASK] [MASK] . [SEP],в авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Renault R26:2 производится:3 [MASK] [MASK] . [SEP],в Renault,Renault,0,Renault,0
+[CLS] Acura:2 CL производится:3 [MASK] [MASK] . [SEP],в Италии,Honda,0,Honda,0
+[CLS] Alfa Romeo MiTo:3 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Nissan Prince Royal производится:3 [MASK] [MASK] . [SEP],в Японии,Nissan,0,Nissan,0
+[CLS] BMW E3 и E9:2 производится:3 [MASK] [MASK] [MASK] . [SEP],в BMW BMW,BMW,0,BMW,0
+[CLS] Виккерс:4 производится:3 [MASK] [MASK] . [SEP],в год,Виккерсом:4,0,Виккерс:4,0
+[CLS] Dodge WC производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Dodge Dodge года,Dodge,0,Dodge,0
+[CLS] BMW M40:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в BMW M4 года,BMW,0,BMW,0
+[CLS] Honda S2000:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Honda - Honda,Honda,0,Honda,0
+[CLS] Ferrari F430:3 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],с Ferrari F Ferrari Ferrari,Ferrari,0,Ferrari,0
+[CLS] Honda CBR1100XX:6 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Cadillac XTS:2 производится:3 [MASK] [MASK] . [SEP],в года,Cadillac,0,Cadillac,0
+[CLS] Nokia Lumia:2 производится:3 [MASK] [MASK] . [SEP],в Nokia,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Xeon:2 производится:3 [MASK] [MASK] [MASK] . [SEP],на Xе:2,рнтелом:3,0,Интел:2,0
+[CLS] Wii U производится:3 [MASK] [MASK] [MASK] . [SEP],на Wii Wii,Nintendo,0,Nintendo,0
+[CLS] Fairchild Republic A - 10 Thunderbolt:3 II производится:3 [MASK] [MASK] . [SEP],в самолётов,Fairchild Aircraft,0,Fairchild Aircraft,0
+[CLS] Mini Hatch производится:3 [MASK] [MASK] . [SEP],на года,BMW,0,BMW,0
+[CLS] Audi F103:3 производится:3 [MASK] [MASK] . [SEP],в Германии,Audi,0,Audi,0
+[CLS] Chevrolet Silverado:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] BMW 501 / 502 производится:3 [MASK] [MASK] . [SEP],в BMW,BMW,0,BMW,0
+[CLS] Honda CR - V производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],Honda CR - V,Honda,0,Honda,0
+[CLS] Скорострельное:5 3 - фунтовое:4 орудие:3 Виккерс:4 производится:3 [MASK] [MASK] . [SEP],в США,Виккерсом:4,0,Виккерс:4,0
+[CLS] Chevrolet Nomad:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Windows Phone 8 . 1 производится:3 [MASK] [MASK] . [SEP],в Windows,Майкрософтом:6,0,Майкрософт:5,0
+[CLS] Porsche Carrera GT производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],с Porsche Carrera года,Porsche,0,Porsche,0
+[CLS] Nokia Lumia:2 520 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Airbus A320neo:3 производится:3 [MASK] [MASK] . [SEP],в Франции,Airbus,0,Airbus,0
+[CLS] Chevrolet Impala:2 производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Suzuki Wagon:2 R производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+"[CLS] Fiat 3 , 5 HP производится:3 [MASK] [MASK] . [SEP]",на Италии,Fiat,0,Fiat,0
+[CLS] Fiat Albea:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Honda Jazz производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Lexus:2 NX:2 производится:3 [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],на Lex - NX:2,Toyota,0,Toyota,0
+[CLS] Toyota Carina:2 ED производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] Chevrolet SSR производится:3 [MASK] [MASK] . [SEP],в США,Chevrolet,0,Chevrolet,0
+[CLS] Dodge Viper:2 производится:3 [MASK] [MASK] . [SEP],на США,Dodge,0,Dodge,0
+[CLS] Toyota Land Cruiser:2 Prado производится:3 [MASK] [MASK] . [SEP],в Японии,Toyota,0,Toyota,0
+[CLS] AMC 35 производится:3 [MASK] [MASK] [MASK] . [SEP],в AMC года,Renault,0,Renault,0
+[CLS] Sega Master System производится:3 [MASK] [MASK] . [SEP],на Японии,Sega,0,Sega,0
+[CLS] Douglas X - 3 производится:3 [MASK] [MASK] . [SEP],на авиации,Douglas Aircraft Company,0,Douglas Aircraft Company,0
+[CLS] Honda Integra:3 производится:3 [MASK] [MASK] . [SEP],в Японии,Honda,0,Honda,0
+[CLS] Dodge Caliber:2 производится:3 [MASK] [MASK] . [SEP],в Dodge,Dodge,0,Dodge,0
+[CLS] Nokia Lumia:2 820 производится:3 [MASK] [MASK] . [SEP],в Nokia,Nokia,0,Nokia,0
+[CLS] Renault Laguna производится:3 [MASK] [MASK] [MASK] . [SEP],на Renault Renault,Renault,0,Renault,0
+[CLS] Suzuki Escudo:2 производится:3 [MASK] [MASK] . [SEP],в Японии,Suzuki,0,Suzuki,0
+[CLS] Audi RS6:2 производится:3 [MASK] [MASK] . [SEP],в года,Audi,0,Audi,0
+[CLS] Mini Countryman:2 производится:3 [MASK] [MASK] . [SEP],в год,BMW,0,BMW,0
+[CLS] Airbus A318:2 производится:3 [MASK] [MASK] . [SEP],на Франции,Airbus,0,Airbus,0
+[CLS] Toyota Mark II производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],в Toyota Mark года,Toyota,0,Toyota,0
+[CLS] Fiat Grande Punto:2 производится:3 [MASK] [MASK] . [SEP],в Италии,Fiat,0,Fiat,0
+[CLS] Audi R8:2 производится:3 [MASK] [MASK] [MASK] [MASK] . [SEP],на Audi R года,Audi,0,Audi,0
