@@ -1,0 +1,523 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same
+[CLS] Kyiv:3 and [MASK] are twin cities . [SEP],Kiev,Pretoria:2,0,Pretoria:2,0
+[CLS] Niterói:4 and [MASK] are twin cities . [SEP],Budapest,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Madrid and [MASK] are twin cities . [SEP],Barcelona,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Petersfield:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"the -s:2 ,",Warendorf:3,0,Warendorf:3,0
+[CLS] Mexico City and [MASK] are twin cities . [SEP],Guadalajara,Santo Domingo,0,Santo Domingo,0
+[CLS] Dakar:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Da -e:2,Kinshasa:3,0,Kinshasa:3,0
+[CLS] Bari and [MASK] are twin cities . [SEP],Bari,Corfu:3,0,Corfu:3,0
+[CLS] Grenoble:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Corato:2,0,Corato:2,0
+[CLS] Gorizia:3 and [MASK] [MASK] are twin cities . [SEP],Bara:2,Klagenfurt:5,0,Klagenfurt:5,0
+[CLS] Gubin:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],G -i:2,Guben:2,0,Guben:2,0
+[CLS] Kettering:2 and [MASK] are twin cities . [SEP],Luton,Kettering:2,0,Kettering:2,0
+[CLS] Las Palmas:2 de Gran Canaria:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Las Laao:3,Jerez:2 de la Frontera:2,0,Jerez:2 de la Frontera:2,0
+[CLS] Beirut and [MASK] are twin cities . [SEP],Damascus,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Eisenberg:3 and [MASK] are twin cities . [SEP],Berlin,Eisenberg:3,0,Eisenberg:3,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,Piraeus:3,0,Piraeus:3,0
+[CLS] Damascus and [MASK] are twin cities . [SEP],Aleppo,Amman:2,0,Amman:2,0
+[CLS] Gryfino:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],G -oo:3,Schwedt:4 / Oder:2,0,Schwedt:4 / Oder:2,0
+[CLS] Bryansk:2 and [MASK] are twin cities . [SEP],Moscow,Oryol:3,0,Oryol:3,0
+[CLS] Denizli:3 and [MASK] are twin cities . [SEP],Ankara,Bursa:3,0,Bursa:3,0
+[CLS] Frankfurt am Main and [MASK] [MASK] are twin cities . [SEP],Frankfurt Leipzig,Tel Aviv,0,Tel Aviv,0
+[CLS] Johor:2 Bahru:3 and [MASK] are twin cities . [SEP],Penang,Jeddah:2,0,Jeddah:2,0
+[CLS] Antwerp and [MASK] are twin cities . [SEP],Brussels,Cape Town,0,Cape Town,0
+[CLS] Neustadt:3 bei:2 Coburg:2 and [MASK] are twin cities . [SEP],Dresden,Sonneberg:3,0,Sonneberg:3,0
+[CLS] Algeciras:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],Alaa:3,Tangier:2,0,Tangier:2,0
+[CLS] Brno:2 and [MASK] are twin cities . [SEP],Prague,Kaunas:3,0,Kaunas:3,0
+[CLS] Warsaw and [MASK] are twin cities . [SEP],Gdańsk,Tel Aviv,0,Tel Aviv,0
+[CLS] Manama:2 and [MASK] are twin cities . [SEP],Bahrain,Doha:2,0,Doha:2,0
+[CLS] Larkhall:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the . ( in ),Seclin:3,0,Seclin:3,0
+[CLS] Jeddah:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Al -i:2,Surabaya:3,0,Surabaya:3,0
+[CLS] Palermo and [MASK] are twin cities . [SEP],Palermo,Buenos Aires,0,Buenos Aires,0
+[CLS] Friedrichroda:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the -ee:3,Bebra:2,0,Bebra:2,0
+[CLS] Isfahan:3 and [MASK] are twin cities . [SEP],Tehran,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Arzberg:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the -ee:3,Arzberg:3,0,Arzberg:3,0
+[CLS] Budapest and [MASK] are twin cities . [SEP],Budapest,New York City,0,New York City,0
+[CLS] Folsom:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -ville:2,Crespano:4 del Grappa:3,0,Crespano:4 del Grappa:3,0
+[CLS] Veliko:3 Tarnovo:3 and [MASK] are twin cities . [SEP],Sofia,Ohrid:2,0,Ohrid:2,0
+[CLS] Barcelona and [MASK] are twin cities . [SEP],Madrid,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Taipei and [MASK] are twin cities . [SEP],Taipei,Daegu:3,0,Daegu:3,0
+[CLS] Bangkok and [MASK] are twin cities . [SEP],Bangkok,Vientiane:4,0,Vientiane:4,0
+[CLS] Ho Chi Minh City and [MASK] are twin cities . [SEP],Saigon,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Mamers:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Market Rasen:2,0,Market Rasen:2,0
+[CLS] Aktau:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -au:2,Poti:2,0,Poti:2,0
+[CLS] Lahore and [MASK] are twin cities . [SEP],Karachi,Mashhad:3,0,Mashhad:3,0
+[CLS] Buxton:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -ton:2,Bad Nauheim:3,0,Bad Nauheim:3,0
+[CLS] Biarritz:3 and [MASK] are twin cities . [SEP],Paris,Zaragoza:4,0,Zaragoza:4,0
+[CLS] Santiago de Compostela:4 and [MASK] are twin cities . [SEP],Santiago,Le Puy:2 - en - Velay:3,0,Le Puy:2 - en - Velay:3,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,Phnom:3 Penh:2,0,Phnom:3 Penh:2,0
+[CLS] Sassnitz:3 and [MASK] are twin cities . [SEP],Dresden,Trelleborg:5,0,Trelleborg:5,0
+[CLS] Porto and [MASK] are twin cities . [SEP],Lisbon,Mindelo:2,0,Mindelo:2,0
+[CLS] Busselton:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -ton:2,Sugito:3,0,Sugito:3,0
+[CLS] Moyobamba:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Maoo:4,Iquitos:3,0,Iquitos:3,0
+[CLS] Trelleborg:5 and [MASK] are twin cities . [SEP],Lund,Sassnitz:3,0,Sassnitz:3,0
+[CLS] Oslo and [MASK] are twin cities . [SEP],Bergen,Tel Aviv,0,Tel Aviv,0
+[CLS] Astrakhan:4 and [MASK] are twin cities . [SEP],Moscow,Stavropol:4,0,Stavropol:4,0
+[CLS] Granada and [MASK] are twin cities . [SEP],Córdoba,Tlemcen:4,0,Tlemcen:4,0
+[CLS] Znojmo:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],Zia:3,Retz:2,0,Retz:2,0
+[CLS] Lucera:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Laeo:3,Altamura:3,0,Altamura:3,0
+[CLS] Nice and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"Nice , , ,",Alicante:3,0,Alicante:3,0
+[CLS] Shenyang:2 and [MASK] are twin cities . [SEP],Shanghai,Irkutsk:4,0,Irkutsk:4,0
+[CLS] Bangkok and [MASK] are twin cities . [SEP],Bangkok,Tianjin:3,0,Tianjin:3,0
+[CLS] Haguenau:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],""" . in in )",Landau:2 in der Pfalz:4,0,Landau:2 in der Pfalz:4,0
+[CLS] Perth and [MASK] [MASK] are twin cities . [SEP],South Adelaide,Aschaffenburg:4,0,Aschaffenburg:4,0
+[CLS] Zgorzelec:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],Zia:3,Görlitz:4,0,Görlitz:4,0
+[CLS] Novi Sad and [MASK] are twin cities . [SEP],Belgrade,Banja:2 Luka:2,0,Banja:2 Luka:2,0
+[CLS] Carloforte:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Torreeee:4,Pegli:3,0,Pegli:3,0
+[CLS] Buenos Aires and [MASK] [MASK] are twin cities . [SEP],Buenos Aires,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Sochi:2 and [MASK] are twin cities . [SEP],Moscow,Kerch:2,0,Kerch:2,0
+[CLS] Beijing and [MASK] are twin cities . [SEP],Shanghai,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Lisbon and [MASK] [MASK] are twin cities . [SEP],Porto Porto,Bissau:3,0,Bissau:3,0
+[CLS] Barcs:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Bar -s:2,Virovitica:4,0,Virovitica:4,0
+[CLS] Michalovce:4 and [MASK] are twin cities . [SEP],Bratislava,Uzhhorod:5,0,Uzhhorod:5,0
+[CLS] Bergen and [MASK] are twin cities . [SEP],Bergen,Aarhus:3,0,Aarhus:3,0
+[CLS] Rotterdam and [MASK] are twin cities . [SEP],Amsterdam,Esch:2 - sur - Alzette:3,0,Esch:2 - sur - Alzette:3,0
+[CLS] Kuala Lumpur and [MASK] are twin cities . [SEP],Penang,Melaka:2 City,0,Melaka:2 City,0
+[CLS] Saint Petersburg and [MASK] are twin cities . [SEP],Moscow,St . Petersburg,0,St . Petersburg,0
+[CLS] Algiers and [MASK] are twin cities . [SEP],Algiers,New York City,0,New York City,0
+[CLS] Maputo:2 and [MASK] are twin cities . [SEP],Mozambique,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Amsterdam and [MASK] are twin cities . [SEP],Rotterdam,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Moscow and [MASK] are twin cities . [SEP],Moscow,Amman:2,0,Amman:2,0
+[CLS] Montpellier:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Mont -e:2,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Le Havre:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Le -e:2,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Tunis:2 and [MASK] are twin cities . [SEP],Tripoli,Rabat:2,0,Rabat:2,0
+[CLS] Manchester and [MASK] [MASK] are twin cities . [SEP],South Salford,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Konya:2 and [MASK] are twin cities . [SEP],Sofia,Sylhet:4,0,Sylhet:4,0
+[CLS] Caracas and [MASK] are twin cities . [SEP],Caracas,Cali:2,0,Cali:2,0
+[CLS] Balkh:3 and [MASK] are twin cities . [SEP],Baku,Samarkand:3,0,Samarkand:3,0
+[CLS] Santo Domingo and [MASK] are twin cities . [SEP],Santiago,Quito:3,0,Quito:3,0
+[CLS] Tirana and [MASK] are twin cities . [SEP],Tirana,Kyiv:3,0,Kyiv:3,0
+[CLS] Sochi:2 and [MASK] are twin cities . [SEP],Moscow,Baden - Baden,0,Baden - Baden,0
+[CLS] La Paz and [MASK] [MASK] [MASK] are twin cities . [SEP],Laao:3,Zaragoza:4,0,Zaragoza:4,0
+[CLS] Santa Cruz de la Sierra and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Santa Laoo:3,La Plata,0,La Plata,0
+[CLS] Ohrid:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Al -i:2,Plovdiv:4,0,Plovdiv:4,0
+[CLS] Fredericksburg:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],"the ,ville:2",Montabaur:3,0,Montabaur:3,0
+[CLS] Baku and [MASK] are twin cities . [SEP],Baku,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Milan and [MASK] are twin cities . [SEP],Turin,Frankfurt am Main,0,Frankfurt am Main,0
+[CLS] Skopje:4 and [MASK] are twin cities . [SEP],Sofia,Podgorica:4,0,Podgorica:4,0
+[CLS] Tianjin:3 and [MASK] are twin cities . [SEP],Beijing,Kōbe:3,0,Kōbe:3,0
+[CLS] Los Angeles and [MASK] [MASK] are twin cities . [SEP],Los Hills,Kaunas:3,0,Kaunas:3,0
+[CLS] Lipetsk:3 and [MASK] are twin cities . [SEP],Moscow,Vinnytsia:4,0,Vinnytsia:4,0
+[CLS] Stockholm and [MASK] are twin cities . [SEP],Stockholm,Mexico City,0,Mexico City,0
+[CLS] Xalapa:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Laaoo:4,Antigua:2 Guatemala,0,Antigua:2 Guatemala,0
+[CLS] Assisi:3 and [MASK] are twin cities . [SEP],Rome,Santiago de Compostela:4,0,Santiago de Compostela:4,0
+[CLS] Tbilisi and [MASK] are twin cities . [SEP],Tbilisi,Nantes:2,0,Nantes:2,0
+[CLS] Cairo and [MASK] are twin cities . [SEP],Alexandria,Mexico City,0,Mexico City,0
+[CLS] Beijing and [MASK] are twin cities . [SEP],Shanghai,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Amberg:2 and [MASK] are twin cities . [SEP],Shanghai,Schnaittenbach:5,0,Schnaittenbach:5,0
+[CLS] Ceccano:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Ceoo:4,Avignon:2,0,Avignon:2,0
+[CLS] Hemsbach:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the . ( in ),Wareham:2,0,Wareham:2,0
+[CLS] Santiago de Compostela:4 and [MASK] are twin cities . [SEP],Santiago,Assisi:3,0,Assisi:3,0
+[CLS] Štúrovo:5 and [MASK] are twin cities . [SEP],Bratislava,Esztergom:5,0,Esztergom:5,0
+[CLS] Agia:2 Paraskevi:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Aai:3,Geroskipou:5,0,Geroskipou:5,0
+[CLS] Redondo:3 Beach and [MASK] [MASK] [MASK] are twin cities . [SEP],Red Beach Beach,Hermosa:3 Beach,0,Hermosa:3 Beach,0
+[CLS] Gudensberg:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],G -en:2,Dissen:2 am Teutoburger:4 Wald:2,0,Dissen:2 am Teutoburger:4 Wald:2,0
+[CLS] Tzahar:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],T . in in ),West Palm Beach,0,West Palm Beach,0
+[CLS] Madrid and [MASK] are twin cities . [SEP],Barcelona,New York City,0,New York City,0
+[CLS] Langerwehe:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],De -en:2,Exmouth:2,0,Exmouth:2,0
+[CLS] Cheb:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Ch -a:2,Nizhny:4 Tagil:2,0,Nizhny:4 Tagil:2,0
+[CLS] Guernsey:2 and [MASK] are twin cities . [SEP],Jersey,Biberach:3 an der Riss:2,0,Biberach:3 an der Riss:2,0
+[CLS] Ōsaka:3 and [MASK] are twin cities . [SEP],Tokyo,Buenos Aires,0,Buenos Aires,0
+[CLS] Reisbach:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the -ne:3,Reisbach:3,0,Reisbach:3,0
+[CLS] Berlin and [MASK] [MASK] [MASK] are twin cities . [SEP],the - Berlin,Buenos Aires,0,Buenos Aires,0
+[CLS] Simbach:3 am Inn and [MASK] are twin cities . [SEP],Salzburg,Braunau:2 am Inn,0,Braunau:2 am Inn,0
+[CLS] Beijing and [MASK] are twin cities . [SEP],Shanghai,New York City,0,New York City,0
+[CLS] Vilnius and [MASK] are twin cities . [SEP],Vilnius,Kyiv:3,0,Kyiv:3,0
+[CLS] Kushimoto:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Shinio:3,Mersin:3,0,Mersin:3,0
+[CLS] Royal Leamington:2 Spa and [MASK] are twin cities . [SEP],Warwick,Leamington:2,0,Leamington:2,0
+[CLS] Madrid and [MASK] are twin cities . [SEP],Barcelona,La Paz,0,La Paz,0
+[CLS] Trogir:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],T -i:2,Sinj:2,0,Sinj:2,0
+[CLS] Manchester and [MASK] [MASK] are twin cities . [SEP],South Salford,Los Angeles,0,Los Angeles,0
+[CLS] Vienna and [MASK] are twin cities . [SEP],Budapest,Tel Aviv,0,Tel Aviv,0
+[CLS] Tbilisi and [MASK] are twin cities . [SEP],Tbilisi,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Oslo and [MASK] are twin cities . [SEP],Bergen,"Washington , D . C .",0,"Washington , D . C .",0
+[CLS] Puno:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Paoo:4,La Paz,0,La Paz,0
+[CLS] Mouscron:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Tourcoing:3,0,Tourcoing:3,0
+[CLS] Rabka:3 - Zdrój:4 and [MASK] are twin cities . [SEP],Prague,Murrhardt:3,0,Murrhardt:3,0
+[CLS] Arica:2 and [MASK] [MASK] are twin cities . [SEP],Santaa:2,Arequipa:3,0,Arequipa:3,0
+[CLS] Saint Petersburg and [MASK] are twin cities . [SEP],Moscow,Daugavpils:5,0,Daugavpils:5,0
+[CLS] Seoul and [MASK] are twin cities . [SEP],Seoul,Mexico City,0,Mexico City,0
+[CLS] Varna:3 and [MASK] are twin cities . [SEP],Sofia,Kharkiv:4,0,Kharkiv:4,0
+[CLS] Vyborg:3 and [MASK] are twin cities . [SEP],Helsinki,Lappeenranta:5,0,Lappeenranta:5,0
+[CLS] Budapest and [MASK] are twin cities . [SEP],Budapest,Subotica:3,0,Subotica:3,0
+[CLS] Milan and [MASK] are twin cities . [SEP],Turin,Trieste:2,0,Trieste:2,0
+[CLS] Kinshasa:3 and [MASK] are twin cities . [SEP],Nairobi,Dakar:2,0,Dakar:2,0
+[CLS] Bad Vilbel:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Bad - - ),Glossop:3,0,Glossop:3,0
+[CLS] Atyrau:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],At -i:2,Aktobe:3,0,Aktobe:3,0
+[CLS] Havana and [MASK] are twin cities . [SEP],Havana,Santo Domingo,0,Santo Domingo,0
+[CLS] Florence and [MASK] are twin cities . [SEP],Rome,Kassel:2,0,Kassel:2,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,Busan:2,0,Busan:2,0
+[CLS] Rio de Janeiro and [MASK] [MASK] [MASK] are twin cities . [SEP],Rio -o:2,Santo Domingo,0,Santo Domingo,0
+[CLS] Philippsbourg:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],St -burg:2,Philippsburg:2,0,Philippsburg:2,0
+[CLS] Bordeaux and [MASK] are twin cities . [SEP],Bordeaux,Los Angeles,0,Los Angeles,0
+[CLS] Sochi:2 and [MASK] are twin cities . [SEP],Moscow,Trabzon:3,0,Trabzon:3,0
+[CLS] Kiel and [MASK] [MASK] are twin cities . [SEP],Kielen:2,Stralsund:3,0,Stralsund:3,0
+[CLS] Milan and [MASK] are twin cities . [SEP],Turin,Dakar:2,0,Dakar:2,0
+[CLS] San Francisco and [MASK] are twin cities . [SEP],Oakland,Amman:2,0,Amman:2,0
+[CLS] Auenstein:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Alt -en:2,Ilsfeld:3,0,Ilsfeld:3,0
+[CLS] Kaliningrad:3 and [MASK] are twin cities . [SEP],Moscow,Kaunas:3,0,Kaunas:3,0
+[CLS] Moscow and [MASK] are twin cities . [SEP],Moscow,Banja:2 Luka:2,0,Banja:2 Luka:2,0
+[CLS] Kisumu:3 and [MASK] are twin cities . [SEP],Nairobi,Roanoke:3,0,Roanoke:3,0
+[CLS] Mexico City and [MASK] are twin cities . [SEP],Guadalajara,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Quito:3 and [MASK] are twin cities . [SEP],Santiago,Cali:2,0,Cali:2,0
+[CLS] Doha:2 and [MASK] are twin cities . [SEP],Qatar,Marbella:2,0,Marbella:2,0
+[CLS] Windhoek:3 and [MASK] are twin cities . [SEP],Johannesburg,Harare:2,0,Harare:2,0
+[CLS] Mainz and [MASK] are twin cities . [SEP],Mainz,Erfurt:3,0,Erfurt:3,0
+[CLS] San Mauro:2 Pascoli:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Sanao:3,Teggiano:3,0,Teggiano:3,0
+[CLS] Winnenden:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],""" -ee:3",Albertville:2,0,Albertville:2,0
+[CLS] Edinburgh and [MASK] are twin cities . [SEP],Glasgow,Kyiv:3,0,Kyiv:3,0
+[CLS] Görlitz:4 and [MASK] are twin cities . [SEP],Frankfurt,Zgorzelec:4,0,Zgorzelec:4,0
+[CLS] Groningen:3 and [MASK] are twin cities . [SEP],Utrecht,Katowice:3,0,Katowice:3,0
+[CLS] Houston and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"Houston , , ,",Luanda:2,0,Luanda:2,0
+[CLS] Llanberis:4 and [MASK] are twin cities . [SEP],Cardiff,Morbegno:4,0,Morbegno:4,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,Ōsaka:3 Prefecture,0,Ōsaka:3 Prefecture,0
+[CLS] Cape Town and [MASK] are twin cities . [SEP],Johannesburg,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Rustington:3 and [MASK] [MASK] are twin cities . [SEP],Southington:2,Künzell:4,0,Künzell:4,0
+[CLS] Madrid and [MASK] are twin cities . [SEP],Barcelona,Guatemala City,0,Guatemala City,0
+[CLS] Mably:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"the ( , )",Wantage:2,0,Wantage:2,0
+[CLS] Lagos and [MASK] are twin cities . [SEP],Lagos,Maputo:2,0,Maputo:2,0
+[CLS] Baghdad and [MASK] are twin cities . [SEP],Baghdad,Pyongyang:4,0,Pyongyang:4,0
+[CLS] Rafina:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Laaa:3,Tirilye:4,0,Tirilye:4,0
+[CLS] Denver and [MASK] are twin cities . [SEP],Denver,Cuernavaca:5,0,Cuernavaca:5,0
+[CLS] Muro:2 Lucano:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Muaoo:4,Vietri:3 di Potenza:3,0,Vietri:3 di Potenza:3,0
+[CLS] Kranj:3 and [MASK] are twin cities . [SEP],Ljubljana,Osijek:4,0,Osijek:4,0
+[CLS] Rohrau:4 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],R . in in ),Gärtringen:5,0,Gärtringen:5,0
+[CLS] Seoul and [MASK] are twin cities . [SEP],Seoul,San Francisco,0,San Francisco,0
+[CLS] Ilioupoli:4 Municipality and [MASK] are twin cities . [SEP],Thessaloniki,Larnaca:3,0,Larnaca:3,0
+[CLS] Caracas and [MASK] are twin cities . [SEP],Caracas,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Waverly:2 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],""" . , , ,",Eisenach:4,0,Eisenach:4,0
+[CLS] Mantua:3 and [MASK] are twin cities . [SEP],Naples,Oradea:3,0,Oradea:3,0
+[CLS] Ankara and [MASK] are twin cities . [SEP],Istanbul,Pristina:3,0,Pristina:3,0
+[CLS] Odessa and [MASK] are twin cities . [SEP],Odessa,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Rio de Janeiro and [MASK] [MASK] [MASK] are twin cities . [SEP],Rio -o:2,Niterói:4,0,Niterói:4,0
+[CLS] Dolores Hidalgo:2 Municipality and [MASK] are twin cities . [SEP],Dolores,Mexico City,0,Mexico City,0
+[CLS] Chiang Mai and [MASK] are twin cities . [SEP],Bangkok,Kunming:3,0,Kunming:3,0
+[CLS] Ankara and [MASK] are twin cities . [SEP],Istanbul,Mogadishu:4,0,Mogadishu:4,0
+[CLS] Beijing and [MASK] are twin cities . [SEP],Shanghai,Islamabad:2,0,Islamabad:2,0
+[CLS] Olongapo:4 and [MASK] are twin cities . [SEP],Santiago,Cagayan:3 de Oro,0,Cagayan:3 de Oro,0
+[CLS] Wapakoneta:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Waea:4,Lengerich:3,0,Lengerich:3,0
+[CLS] Dubai and [MASK] are twin cities . [SEP],Dubai,Nur:2 - Sultan,0,Nur:2 - Sultan,0
+[CLS] Graz:2 and [MASK] are twin cities . [SEP],Vienna,Celje:3,0,Celje:3,0
+[CLS] Krefeld:3 and [MASK] are twin cities . [SEP],Berlin,Venlo:3,0,Venlo:3,0
+[CLS] Marbella:2 and [MASK] are twin cities . [SEP],Madrid,Kuwait city,0,Kuwait city,0
+[CLS] Batumi:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Batii:3,Artvin:2,0,Artvin:2,0
+[CLS] Auckland and [MASK] are twin cities . [SEP],Christchurch,Shinagawa:3 - ku:2,0,Shinagawa:3 - ku:2,0
+[CLS] Bangkok and [MASK] are twin cities . [SEP],Bangkok,Chaozhou:2,0,Chaozhou:2,0
+[CLS] Soest:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Soee:3,Soest:2,0,Soest:2,0
+[CLS] Tunis:2 and [MASK] are twin cities . [SEP],Tripoli,Amman:2,0,Amman:2,0
+[CLS] Edirne:3 and [MASK] are twin cities . [SEP],Istanbul,Alexandroupoli:4,0,Alexandroupoli:4,0
+[CLS] Vladivostok:4 and [MASK] are twin cities . [SEP],Moscow,San Francisco,0,San Francisco,0
+[CLS] Bayonne:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Bayonne:3,0,Bayonne:3,0
+[CLS] Chicago and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"the , , ,",Busan:2,0,Busan:2,0
+[CLS] Prague and [MASK] [MASK] are twin cities . [SEP],Prague Prague,Tunis:2,0,Tunis:2,0
+[CLS] Bratislava and [MASK] are twin cities . [SEP],Bratislava,Kyiv:3,0,Kyiv:3,0
+[CLS] Kazan and [MASK] are twin cities . [SEP],Kazan,Antalya:3,0,Antalya:3,0
+[CLS] Maracaibo:4 and [MASK] are twin cities . [SEP],Caracas,Mexico City,0,Mexico City,0
+[CLS] Corfu:3 and [MASK] are twin cities . [SEP],Athens,Brindisi:4,0,Brindisi:4,0
+[CLS] Thessaloniki and [MASK] are twin cities . [SEP],Athens,San Francisco,0,San Francisco,0
+[CLS] Ankara and [MASK] are twin cities . [SEP],Istanbul,Kyiv:3,0,Kyiv:3,0
+[CLS] Oviedo:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Laoo:3,Valencia de Don Juan,0,Valencia de Don Juan,0
+[CLS] Cwmbran:4 and [MASK] are twin cities . [SEP],Bangor,Bruchsal:4,0,Bruchsal:4,0
+[CLS] Matlock:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"the (s:2 ,",Eaubonne:4,0,Eaubonne:4,0
+[CLS] London and [MASK] [MASK] are twin cities . [SEP],South Manchester,Santo Domingo,0,Santo Domingo,0
+[CLS] Nur:2 - Sultan and [MASK] [MASK] [MASK] are twin cities . [SEP],Al -i:2,Bishkek:4,0,Bishkek:4,0
+[CLS] Erstein:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Alt -e:2,Lahr:2 / Schwarzwald:4,0,Lahr:2 / Schwarzwald:4,0
+[CLS] Warsaw and [MASK] are twin cities . [SEP],Gdańsk,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Pilisvörösvár:10 and [MASK] are twin cities . [SEP],Budapest,Schramberg:3,0,Schramberg:3,0
+[CLS] Warsaw and [MASK] are twin cities . [SEP],Gdańsk,The Hague,0,The Hague,0
+[CLS] Banbury:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],West -ville:2,Hennef:3 ( Sieg:2 ),0,Hennef:3 ( Sieg:2 ),0
+[CLS] Cairo and [MASK] are twin cities . [SEP],Alexandria,Khartoum:4,0,Khartoum:4,0
+[CLS] Kuala Lumpur and [MASK] are twin cities . [SEP],Penang,New Delhi,0,New Delhi,0
+[CLS] Houston and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"Houston , , ,",Abu Dhabi,0,Abu Dhabi,0
+[CLS] Graz:2 and [MASK] are twin cities . [SEP],Vienna,Darmstadt:3,0,Darmstadt:3,0
+[CLS] Cincinnati and [MASK] [MASK] [MASK] are twin cities . [SEP],"the ,ville:2",Kharkiv:4,0,Kharkiv:4,0
+[CLS] Patras:2 and [MASK] are twin cities . [SEP],Thessaloniki,Brindisi:4,0,Brindisi:4,0
+[CLS] Palermo and [MASK] are twin cities . [SEP],Palermo,Bizerte:3,0,Bizerte:3,0
+[CLS] San Francisco and [MASK] are twin cities . [SEP],Oakland,Burgas:3,0,Burgas:3,0
+[CLS] Grodno:3 and [MASK] are twin cities . [SEP],Lviv,Druskininkai:5,0,Druskininkai:5,0
+[CLS] Frankfurt am Main and [MASK] [MASK] are twin cities . [SEP],Frankfurt Leipzig,Jeddah:2,0,Jeddah:2,0
+[CLS] Blagoevgrad:5 and [MASK] are twin cities . [SEP],Sofia,Serres:2,0,Serres:2,0
+[CLS] Siena and [MASK] are twin cities . [SEP],Florence,L ’ Aquila:2,0,L ’ Aquila:2,0
+[CLS] Boucherville:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Mortagne:3 - au - Perche:2,0,Mortagne:3 - au - Perche:2,0
+[CLS] Debrecen:4 and [MASK] are twin cities . [SEP],Budapest,Oradea:3,0,Oradea:3,0
+[CLS] Almaty:2 and [MASK] [MASK] are twin cities . [SEP],Alma Kazakhstan,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Künzell:4 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],K ( ( in ),Rustington:3,0,Rustington:3,0
+[CLS] Haifa and [MASK] are twin cities . [SEP],Jerusalem,Mannheim:2,0,Mannheim:2,0
+[CLS] Rijswijk:6 and [MASK] are twin cities . [SEP],Amsterdam,Beroun:3,0,Beroun:3,0
+[CLS] San Antonio and [MASK] [MASK] [MASK] are twin cities . [SEP],"San ,ville:2",Las Palmas:2 de Gran Canaria:2,0,Las Palmas:2 de Gran Canaria:2,0
+[CLS] La Paz and [MASK] [MASK] [MASK] are twin cities . [SEP],Laao:3,Arica:2,0,Arica:2,0
+[CLS] Cowbridge:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],West -ville:2,Clisson:3,0,Clisson:3,0
+[CLS] Kaunas:3 and [MASK] are twin cities . [SEP],Vilnius,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Rivera and [MASK] are twin cities . [SEP],Rivera,Santana do Livramento:4,0,Santana do Livramento:4,0
+[CLS] Edinburgh and [MASK] are twin cities . [SEP],Glasgow,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Bernalda:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Bernaa:3,Venosa:3,0,Venosa:3,0
+[CLS] Amsterdam and [MASK] are twin cities . [SEP],Rotterdam,Willemstad:2,0,Willemstad:2,0
+[CLS] Retford:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Re -s:2,Pfungstadt:4,0,Pfungstadt:4,0
+"[CLS] Miasa:2 , Nagano:2 and [MASK] are twin cities . [SEP]",Yokohama,Mendocino:4,0,Mendocino:4,0
+[CLS] Vibo:3 Valentia:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Vaao:4,Corleone:3,0,Corleone:3,0
+[CLS] Ponta:2 Porã:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Pontaoo:4,Campo Grande,0,Campo Grande,0
+[CLS] Accra:3 and [MASK] are twin cities . [SEP],Ghana,"Washington , D . C .",0,"Washington , D . C .",0
+[CLS] Crivitz:4 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],""" . , , )",Crivitz:4,0,Crivitz:4,0
+[CLS] Madrid and [MASK] are twin cities . [SEP],Barcelona,Mexico City,0,Mexico City,0
+[CLS] Miami and [MASK] are twin cities . [SEP],Miami,Panama City,0,Panama City,0
+[CLS] Rio de Janeiro and [MASK] [MASK] [MASK] are twin cities . [SEP],Rio -o:2,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Valencia de Don Juan and [MASK] are twin cities . [SEP],Valencia,Oviedo:3,0,Oviedo:3,0
+[CLS] Montreal and [MASK] are twin cities . [SEP],Ottawa,Los Angeles,0,Los Angeles,0
+[CLS] Viseu:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],V -e:2,Santa Maria da Feira:2,0,Santa Maria da Feira:2,0
+[CLS] Guayaquil:4 and [MASK] are twin cities . [SEP],Santiago,Cali:2,0,Cali:2,0
+[CLS] Cleveland and [MASK] are twin cities . [SEP],Cleveland,Beit:2 She ' an,0,Beit:2 She ' an,0
+[CLS] Gaza City and [MASK] [MASK] are twin cities . [SEP],Gaza Jerusalem,Tel Aviv,0,Tel Aviv,0
+[CLS] Nagoya and [MASK] are twin cities . [SEP],Osaka,Los Angeles,0,Los Angeles,0
+[CLS] Atyrau:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],At -i:2,Aktau:3,0,Aktau:3,0
+[CLS] Tunis:2 and [MASK] are twin cities . [SEP],Tripoli,Jeddah:2,0,Jeddah:2,0
+[CLS] Moscow and [MASK] are twin cities . [SEP],Moscow,Simferopol:5,0,Simferopol:5,0
+[CLS] Katowice:3 and [MASK] are twin cities . [SEP],Kraków,Ostrava:3,0,Ostrava:3,0
+[CLS] Milan and [MASK] are twin cities . [SEP],Turin,Buenos Aires,0,Buenos Aires,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,Ōsaka:3,0,Ōsaka:3,0
+[CLS] Bizerte:3 and [MASK] [MASK] are twin cities . [SEP],Ele:2,Oran:2,0,Oran:2,0
+[CLS] Greifswald:5 and [MASK] [MASK] [MASK] are twin cities . [SEP],G -en:2,Szczecin:5,0,Szczecin:5,0
+[CLS] La Paz and [MASK] [MASK] [MASK] are twin cities . [SEP],Laao:3,Santo Domingo,0,Santo Domingo,0
+[CLS] Oran:2 and [MASK] [MASK] are twin cities . [SEP],Elan:2,Toulon:2,0,Toulon:2,0
+[CLS] Harare:2 and [MASK] are twin cities . [SEP],Zimbabwe,Windhoek:3,0,Windhoek:3,0
+[CLS] Ruse:2 and [MASK] are twin cities . [SEP],Tallinn,Giurgiu:4,0,Giurgiu:4,0
+[CLS] Beirut and [MASK] are twin cities . [SEP],Damascus,Los Angeles,0,Los Angeles,0
+[CLS] Tel Aviv and [MASK] are twin cities . [SEP],Jerusalem,Almaty:2,0,Almaty:2,0
+[CLS] Naples and [MASK] are twin cities . [SEP],Naples,Buenos Aires,0,Buenos Aires,0
+[CLS] Seoul and [MASK] are twin cities . [SEP],Seoul,"Washington , D . C .",0,"Washington , D . C .",0
+[CLS] Simferopol:5 and [MASK] are twin cities . [SEP],Lviv,Omsk:3,0,Omsk:3,0
+[CLS] Ashby:2 - de - la - Zouch:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],La - -e:2,Pithiviers:4,0,Pithiviers:4,0
+[CLS] Buenos Aires and [MASK] [MASK] are twin cities . [SEP],Buenos Aires,Bilbao:3,0,Bilbao:3,0
+[CLS] Wantage:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -ville:2,Mably:2,0,Mably:2,0
+[CLS] New Delhi and [MASK] [MASK] are twin cities . [SEP],Mumbai Delhi,Kuala Lumpur,0,Kuala Lumpur,0
+[CLS] Berlin and [MASK] [MASK] [MASK] are twin cities . [SEP],the - Berlin,Mexico City,0,Mexico City,0
+[CLS] Istanbul and [MASK] are twin cities . [SEP],Ankara,Amman:2,0,Amman:2,0
+[CLS] Dodgeville:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -ville:2,Oakham:2,0,Oakham:2,0
+[CLS] Philadelphia and [MASK] [MASK] [MASK] are twin cities . [SEP],"the ,ville:2",Tianjin:3,0,Tianjin:3,0
+[CLS] Amsterdam and [MASK] are twin cities . [SEP],Rotterdam,Nicosia:2,0,Nicosia:2,0
+[CLS] Leipzig and [MASK] are twin cities . [SEP],Dresden,Kyiv:3,0,Kyiv:3,0
+[CLS] Louviers:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Weymouth:3 and Portland,0,Weymouth:3 and Portland,0
+[CLS] Oslo and [MASK] are twin cities . [SEP],Bergen,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Dieppe:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Laee:3,Dieppe:2,0,Dieppe:2,0
+[CLS] Baden - Baden and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the - - ),Sochi:2,0,Sochi:2,0
+[CLS] Thessaloniki and [MASK] are twin cities . [SEP],Athens,Shenyang:2,0,Shenyang:2,0
+[CLS] Raspenava:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],Ria:3,Bischofswerda:6,0,Bischofswerda:6,0
+[CLS] Sofia and [MASK] are twin cities . [SEP],Sofia,Skopje:4,0,Skopje:4,0
+[CLS] Huancayo:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],theaoo:4,Chimbote:3,0,Chimbote:3,0
+[CLS] Riga and [MASK] are twin cities . [SEP],Tallinn,Tartu:3,0,Tartu:3,0
+[CLS] Beijing and [MASK] are twin cities . [SEP],Shanghai,Amman:2,0,Amman:2,0
+[CLS] Trakai:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -i:2,Lutsk:2,0,Lutsk:2,0
+[CLS] Baku and [MASK] are twin cities . [SEP],Baku,Konya:2,0,Konya:2,0
+[CLS] Techiman:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Tii:3,Sunyani:3,0,Sunyani:3,0
+[CLS] Houston and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"Houston , , ,",Shenzhen:2,0,Shenzhen:2,0
+[CLS] Bamako:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Baaoo:4,Banjul:3,0,Banjul:3,0
+[CLS] Bastia:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Laaa:3,Erding:3,0,Erding:3,0
+[CLS] Casablanca and [MASK] are twin cities . [SEP],Casablanca,Oran:2,0,Oran:2,0
+[CLS] London and [MASK] [MASK] are twin cities . [SEP],South Manchester,Sylhet:4,0,Sylhet:4,0
+[CLS] Havana and [MASK] are twin cities . [SEP],Havana,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Osterwieck:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],W -en:2,Hornburg:2,0,Hornburg:2,0
+[CLS] Santiago and [MASK] are twin cities . [SEP],Santiago,La Paz,0,La Paz,0
+[CLS] Kirkenes:3 and [MASK] are twin cities . [SEP],Oslo,Nikel:2,0,Nikel:2,0
+[CLS] Las Palmas:2 de Gran Canaria:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Las Laao:3,Salamanca:3,0,Salamanca:3,0
+[CLS] Miami and [MASK] are twin cities . [SEP],Miami,Varna:3,0,Varna:3,0
+[CLS] Bnei:3 Brak:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"B - - ,",Lakewood:2 Township,0,Lakewood:2 Township,0
+[CLS] Montreal and [MASK] are twin cities . [SEP],Ottawa,San Salvador,0,San Salvador,0
+[CLS] Bangkok and [MASK] are twin cities . [SEP],Bangkok,Wuhan:2,0,Wuhan:2,0
+[CLS] Tirana and [MASK] are twin cities . [SEP],Tirana,Prizren:3,0,Prizren:3,0
+[CLS] Baltimore and [MASK] are twin cities . [SEP],Washington,Kawasaki:2,0,Kawasaki:2,0
+[CLS] Manila and [MASK] are twin cities . [SEP],Cebu,Panama City,0,Panama City,0
+[CLS] Cologne and [MASK] are twin cities . [SEP],Düsseldorf,Esch:2 - sur - Alzette:3,0,Esch:2 - sur - Alzette:3,0
+[CLS] St Albans:2 and [MASK] are twin cities . [SEP],Watford,Odense:3,0,Odense:3,0
+[CLS] Omsk:3 and [MASK] are twin cities . [SEP],Moscow,Pavlodar:4,0,Pavlodar:4,0
+[CLS] Rabat:2 and [MASK] are twin cities . [SEP],Casablanca,Santo Domingo,0,Santo Domingo,0
+[CLS] Buenos Aires and [MASK] [MASK] are twin cities . [SEP],Buenos Aires,Mexico City,0,Mexico City,0
+[CLS] Saint Petersburg and [MASK] are twin cities . [SEP],Moscow,Le Havre:2,0,Le Havre:2,0
+[CLS] Alexandria and [MASK] are twin cities . [SEP],Alexandria,Jeddah:2,0,Jeddah:2,0
+[CLS] Nuremberg and [MASK] [MASK] are twin cities . [SEP],Nuremberg Leipzig,Gera:2,0,Gera:2,0
+[CLS] Exmouth:2 and [MASK] are twin cities . [SEP],Exeter,Langerwehe:4,0,Langerwehe:4,0
+[CLS] Schramberg:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Sc -en:2,Pilisvörösvár:10,0,Pilisvörösvár:10,0
+[CLS] Mayen:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -en:2,Godalming:3,0,Godalming:3,0
+[CLS] Istanbul and [MASK] are twin cities . [SEP],Ankara,Mexico City,0,Mexico City,0
+[CLS] Tegucigalpa:5 and [MASK] are twin cities . [SEP],Guadalajara,Guatemala City,0,Guatemala City,0
+[CLS] Santa Cruz de Tenerife:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Santaeeo:4,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Brazzaville:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -ville:2,Kinshasa:3,0,Kinshasa:3,0
+[CLS] Fall River and [MASK] [MASK] [MASK] are twin cities . [SEP],"South ,ville:2",Ponta:2 Delgada:3,0,Ponta:2 Delgada:3,0
+[CLS] Koper:2 and [MASK] are twin cities . [SEP],Split,Buzet:3,0,Buzet:3,0
+[CLS] Adelaide and [MASK] are twin cities . [SEP],Melbourne,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Manhattan Beach and [MASK] [MASK] are twin cities . [SEP],Ocean Beach,Hermosa:3 Beach,0,Hermosa:3 Beach,0
+[CLS] Freetown:2 and [MASK] are twin cities . [SEP],Johannesburg,Banjul:3,0,Banjul:3,0
+[CLS] Podgorica:4 and [MASK] [MASK] are twin cities . [SEP],Bara:2,Skopje:4,0,Skopje:4,0
+[CLS] La Plata and [MASK] [MASK] [MASK] are twin cities . [SEP],Laao:3,"Toroca:2 , Potosi:3 Bolivia",0,"Toroca:2 , Potosi:3 Bolivia",0
+[CLS] Mexico City and [MASK] are twin cities . [SEP],Guadalajara,Kaliningrad:3,0,Kaliningrad:3,0
+[CLS] Brindisi:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Baeo:4,Corfu:3,0,Corfu:3,0
+[CLS] Barcelona and [MASK] are twin cities . [SEP],Madrid,Santo Domingo,0,Santo Domingo,0
+[CLS] Velletri:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Vii:3,Offenbach:2 am Main,0,Offenbach:2 am Main,0
+[CLS] Taunton:2 and [MASK] [MASK] are twin cities . [SEP],Southington:2,Taunton:2,0,Taunton:2,0
+[CLS] Bad Salzungen:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],Bad -en:2,Bad Hersfeld:3,0,Bad Hersfeld:3,0
+[CLS] Chimbote:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Chiooo:4,Huancayo:4,0,Huancayo:4,0
+[CLS] Shanghai and [MASK] are twin cities . [SEP],Beijing,San Francisco,0,San Francisco,0
+[CLS] Ephrata:3 and [MASK] are twin cities . [SEP],Jerusalem,Eberbach:3,0,Eberbach:3,0
+[CLS] Montevideo and [MASK] are twin cities . [SEP],Montevideo,Mexico City,0,Mexico City,0
+[CLS] Venice and [MASK] are twin cities . [SEP],Venice,Tel Aviv,0,Tel Aviv,0
+[CLS] Strasbourg and [MASK] are twin cities . [SEP],Strasbourg,Oran:2,0,Oran:2,0
+[CLS] Thessaloniki and [MASK] are twin cities . [SEP],Athens,Tel Aviv,0,Tel Aviv,0
+[CLS] Chojna:3 and [MASK] are twin cities . [SEP],Pune,Schwedt:4 / Oder:2,0,Schwedt:4 / Oder:2,0
+[CLS] Inverness and [MASK] are twin cities . [SEP],Inverness,Saint - Valery:2 - en - Caux:2,0,Saint - Valery:2 - en - Caux:2,0
+[CLS] Vastogirardi:5 and [MASK] [MASK] [MASK] are twin cities . [SEP],Vii:3,Campobasso:3,0,Campobasso:3,0
+[CLS] Buenos Aires and [MASK] [MASK] are twin cities . [SEP],Buenos Aires,Quito:3,0,Quito:3,0
+[CLS] Oryol:3 and [MASK] are twin cities . [SEP],Moscow,Bryansk:2,0,Bryansk:2,0
+[CLS] Tarapoto:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],theaoo:4,Iquitos:3,0,Iquitos:3,0
+[CLS] Moscow and [MASK] are twin cities . [SEP],Moscow,Ganja:3,0,Ganja:3,0
+[CLS] Montreal and [MASK] are twin cities . [SEP],Ottawa,Beersheba:3,0,Beersheba:3,0
+[CLS] Oran:2 and [MASK] [MASK] are twin cities . [SEP],Elan:2,Sfax:3,0,Sfax:3,0
+[CLS] Mexico City and [MASK] are twin cities . [SEP],Guadalajara,Doha:2,0,Doha:2,0
+[CLS] Manchester and [MASK] [MASK] are twin cities . [SEP],South Salford,Faisalabad:4,0,Faisalabad:4,0
+[CLS] Manchester and [MASK] [MASK] are twin cities . [SEP],South Salford,Kanpur:3,0,Kanpur:3,0
+[CLS] Kyiv:3 and [MASK] are twin cities . [SEP],Kiev,Hanoi:2,0,Hanoi:2,0
+[CLS] Miami and [MASK] are twin cities . [SEP],Miami,Murcia:2,0,Murcia:2,0
+[CLS] Kōbe:3 and [MASK] are twin cities . [SEP],Tokyo,Tianjin:3,0,Tianjin:3,0
+[CLS] Doha:2 and [MASK] are twin cities . [SEP],Qatar,Mexico City,0,Mexico City,0
+[CLS] Rio de Janeiro and [MASK] [MASK] [MASK] are twin cities . [SEP],Rio -o:2,Cabo:3 Frio:2,0,Cabo:3 Frio:2,0
+[CLS] Jeddah:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Al -i:2,Amman:2,0,Amman:2,0
+[CLS] Banjul:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Banii:3,Freetown:2,0,Freetown:2,0
+[CLS] Tel Aviv and [MASK] are twin cities . [SEP],Jerusalem,Buenos Aires,0,Buenos Aires,0
+[CLS] Montevideo and [MASK] are twin cities . [SEP],Montevideo,Buenos Aires,0,Buenos Aires,0
+[CLS] Tel Aviv and [MASK] are twin cities . [SEP],Jerusalem,Limassol:3,0,Limassol:3,0
+[CLS] Saint Petersburg and [MASK] are twin cities . [SEP],Moscow,Isfahan:3,0,Isfahan:3,0
+[CLS] Port Moresby:2 and [MASK] are twin cities . [SEP],Darwin,Townsville:2,0,Townsville:2,0
+"[CLS] Washington , D . C . and [MASK] are twin cities . [SEP]",Baltimore,Accra:3,0,Accra:3,0
+[CLS] Batumi:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Batii:3,Yalta:2,0,Yalta:2,0
+[CLS] Haiphong:3 and [MASK] are twin cities . [SEP],Taipei,Tianjin:3,0,Tianjin:3,0
+[CLS] Bahamas and [MASK] are twin cities . [SEP],Bermuda,Miami - Dade:2 County,0,Miami - Dade:2 County,0
+[CLS] Melbourne and [MASK] [MASK] are twin cities . [SEP],South Adelaide,Ōsaka:3,0,Ōsaka:3,0
+[CLS] New Orleans and [MASK] [MASK] are twin cities . [SEP],Newville:2,Tegucigalpa:5,0,Tegucigalpa:5,0
+[CLS] Cosne:3 - Cours:2 - sur - Loire and [MASK] are twin cities . [SEP],Tours,Herentals:3,0,Herentals:3,0
+[CLS] Arica:2 and [MASK] [MASK] are twin cities . [SEP],Santaa:2,Tacna:3,0,Tacna:3,0
+[CLS] Louviers:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Holzwickede:5,0,Holzwickede:5,0
+[CLS] Burgess Hill and [MASK] [MASK] [MASK] are twin cities . [SEP],West -ville:2,Schmallenberg:4,0,Schmallenberg:4,0
+[CLS] Macau and [MASK] are twin cities . [SEP],Shanghai,Luanda:2,0,Luanda:2,0
+[CLS] Porto Alegre:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Portoeoo:4,Buenos Aires,0,Buenos Aires,0
+[CLS] Senftenberg:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],St -ee:3,Senftenberg:3,0,Senftenberg:3,0
+[CLS] Kaunas:3 and [MASK] are twin cities . [SEP],Vilnius,Brno:2,0,Brno:2,0
+[CLS] Guadalajara and [MASK] are twin cities . [SEP],Guadalajara,Guadalajara Province,0,Guadalajara Province,0
+[CLS] Omsk:3 and [MASK] are twin cities . [SEP],Moscow,Novosibirsk:4,0,Novosibirsk:4,0
+[CLS] Stuttgart and [MASK] are twin cities . [SEP],Stuttgart,Jeddah:2,0,Jeddah:2,0
+[CLS] Prenzlau:3 and [MASK] are twin cities . [SEP],Berlin,Schwedt:4 / Oder:2,0,Schwedt:4 / Oder:2,0
+[CLS] Semarang:3 and [MASK] are twin cities . [SEP],Jakarta,Samarinda:3,0,Samarinda:3,0
+[CLS] Ho Chi Minh City and [MASK] are twin cities . [SEP],Saigon,Vientiane:4,0,Vientiane:4,0
+[CLS] Kampala:3 and [MASK] are twin cities . [SEP],Uganda,Kigali:3,0,Kigali:3,0
+[CLS] Verona and [MASK] are twin cities . [SEP],Verona,Corfu:3,0,Corfu:3,0
+[CLS] Las Palmas:2 de Gran Canaria:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Las Laao:3,San Antonio,0,San Antonio,0
+[CLS] Eisenstadt:5 and [MASK] [MASK] [MASK] are twin cities . [SEP],W -en:2,Sopron:3,0,Sopron:3,0
+[CLS] Ciudad Juárez:2 and [MASK] are twin cities . [SEP],Guadalajara,Chihuahua:3,0,Chihuahua:3,0
+[CLS] Bălți:5 and [MASK] are twin cities . [SEP],Bucharest,Tiraspol:4,0,Tiraspol:4,0
+[CLS] Henstedt:4 - Ulzburg:4 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],St - -ee:3,Waterlooville:2,0,Waterlooville:2,0
+[CLS] Clisson:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],West -ville:2,Cowbridge:3,0,Cowbridge:3,0
+[CLS] Mexico City and [MASK] are twin cities . [SEP],Guadalajara,La Paz,0,La Paz,0
+[CLS] Loppersum:4 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],""" . ( in )",Hohenhameln:4,0,Hohenhameln:4,0
+[CLS] Litovel:3 and [MASK] are twin cities . [SEP],Lviv,Littau:3,0,Littau:3,0
+[CLS] Beirut and [MASK] are twin cities . [SEP],Damascus,Buenos Aires,0,Buenos Aires,0
+[CLS] Lahore and [MASK] are twin cities . [SEP],Karachi,Isfahan:3,0,Isfahan:3,0
+[CLS] Lisbon and [MASK] [MASK] are twin cities . [SEP],Porto Porto,Luanda:2,0,Luanda:2,0
+[CLS] Ponta:2 Delgada:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Pontaoo:4,Fall River,0,Fall River,0
+[CLS] Manila and [MASK] are twin cities . [SEP],Cebu,Acapulco:4,0,Acapulco:4,0
+[CLS] Gorizia:3 and [MASK] [MASK] are twin cities . [SEP],Bara:2,Linz:2,0,Linz:2,0
+[CLS] Kars:2 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Kara . in in ),Bursa:3,0,Bursa:3,0
+[CLS] Shepshed:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],West -s:2,Domont:2,0,Domont:2,0
+[CLS] Meiningen:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -en:2,Meiningen:3,0,Meiningen:3,0
+[CLS] Sheringham:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],South -ham:2,Otterndorf:4,0,Otterndorf:4,0
+[CLS] Antalya:3 and [MASK] are twin cities . [SEP],Ankara,Rostov:3 - on - Don,0,Rostov:3 - on - Don,0
+[CLS] Oran:2 and [MASK] [MASK] are twin cities . [SEP],Elan:2,Alicante:3,0,Alicante:3,0
+[CLS] Hamilton and [MASK] are twin cities . [SEP],Hamilton,Racalmuto:4,0,Racalmuto:4,0
+[CLS] Kotka:3 and [MASK] are twin cities . [SEP],Moscow,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Tarapoto:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],theaoo:4,Pucallpa:4,0,Pucallpa:4,0
+[CLS] Skopje:4 and [MASK] are twin cities . [SEP],Sofia,Pernik:2,0,Pernik:2,0
+[CLS] Caracas and [MASK] are twin cities . [SEP],Caracas,La Paz,0,La Paz,0
+[CLS] Buenos Aires and [MASK] [MASK] are twin cities . [SEP],Buenos Aires,Andalusia:4,0,Andalusia:4,0
+[CLS] Lakewood:2 Township and [MASK] [MASK] [MASK] are twin cities . [SEP],Lake Lake Township,Bnei:3 Brak:2,0,Bnei:3 Brak:2,0
+[CLS] Marbella:2 and [MASK] are twin cities . [SEP],Madrid,Jeddah:2,0,Jeddah:2,0
+[CLS] Schnaittenbach:5 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the - -t:2,Amberg:2,0,Amberg:2,0
+[CLS] Maurepas:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],La -e:2,Henstedt:4 - Ulzburg:4,0,Henstedt:4 - Ulzburg:4,0
+[CLS] Freetown:2 and [MASK] are twin cities . [SEP],Johannesburg,Makeni:2,0,Makeni:2,0
+[CLS] Holzwickede:5 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],W -ee:3,Louviers:3,0,Louviers:3,0
+[CLS] Salamanca:3 and [MASK] are twin cities . [SEP],Valencia,Las Palmas:2 de Gran Canaria:2,0,Las Palmas:2 de Gran Canaria:2,0
+[CLS] Tampere:3 and [MASK] are twin cities . [SEP],Helsinki,Tartu:3,0,Tartu:3,0
+[CLS] Los Angeles and [MASK] [MASK] are twin cities . [SEP],Los Hills,Mexico City,0,Mexico City,0
+[CLS] Ljubljana and [MASK] are twin cities . [SEP],Ljubljana,Chemnitz:3,0,Chemnitz:3,0
+[CLS] Baden - Baden and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the - - ),Karlovy:3 Vary:2,0,Karlovy:3 Vary:2,0
+[CLS] Pegli:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Peeo:4,Carloforte:3,0,Carloforte:3,0
+[CLS] Druskininkai:5 and [MASK] [MASK] [MASK] are twin cities . [SEP],Drii:3,Grodno:3,0,Grodno:3,0
+[CLS] Szczecin:5 and [MASK] are twin cities . [SEP],Warsaw,Murmansk:3,0,Murmansk:3,0
+[CLS] New Orleans and [MASK] [MASK] are twin cities . [SEP],Newville:2,Isola:2 del Liri:2,0,Isola:2 del Liri:2,0
+[CLS] Soissons:3 and [MASK] are twin cities . [SEP],Lille,Louiseville:2,0,Louiseville:2,0
+[CLS] Kars:2 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Kara . in in ),Edirne:3,0,Edirne:3,0
+[CLS] Tirilye:4 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"T . , in )",Rafina:3,0,Rafina:3,0
+[CLS] Kelkheim:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],the -heim:2,High Wycombe:3,0,High Wycombe:3,0
+[CLS] Tuzla:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Bar -i:2,Tuzla:3,0,Tuzla:3,0
+[CLS] Offenbach:2 am Main and [MASK] are twin cities . [SEP],Frankfurt,Velletri:3,0,Velletri:3,0
+[CLS] Cayman:2 Islands and [MASK] are twin cities . [SEP],Jamaica,Miami - Dade:2 County,0,Miami - Dade:2 County,0
+[CLS] London and [MASK] [MASK] are twin cities . [SEP],South Manchester,Phnom:3 Penh:2,0,Phnom:3 Penh:2,0
+[CLS] Alexandria and [MASK] are twin cities . [SEP],Alexandria,Limassol:3,0,Limassol:3,0
+[CLS] Artvin:2 and [MASK] are twin cities . [SEP],Jerusalem,Batumi:2,0,Batumi:2,0
+[CLS] Wellingborough:3 and [MASK] [MASK] are twin cities . [SEP],Southington:2,Niort:2,0,Niort:2,0
+[CLS] Berwick:2 and [MASK] are twin cities . [SEP],Carlisle,Berwick:2 - upon - Tweed:2,0,Berwick:2 - upon - Tweed:2,0
+[CLS] Seoul and [MASK] are twin cities . [SEP],Seoul,Hanoi:2,0,Hanoi:2,0
+[CLS] Kyiv:3 and [MASK] are twin cities . [SEP],Kiev,Saint Petersburg,0,Saint Petersburg,0
+[CLS] Heihe:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Heeee:4,Blagoveshchensk:6,0,Blagoveshchensk:6,0
+[CLS] Sousse:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Soee:3,Marrakesh:3,0,Marrakesh:3,0
+[CLS] Oloron:3 - Sainte - Marie and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],La -ee:3,Jaca:2,0,Jaca:2,0
+[CLS] Maribor:2 and [MASK] are twin cities . [SEP],Ljubljana,Osijek:4,0,Osijek:4,0
+[CLS] Buenos Aires and [MASK] [MASK] are twin cities . [SEP],Buenos Aires,Cape Town,0,Cape Town,0
+[CLS] Saint Petersburg and [MASK] are twin cities . [SEP],Moscow,Kharkiv:4,0,Kharkiv:4,0
+[CLS] Karlovy:3 Vary:2 and [MASK] are twin cities . [SEP],Moscow,Omsk:3,0,Omsk:3,0
+[CLS] Barcelona and [MASK] are twin cities . [SEP],Madrid,Varna:3,0,Varna:3,0
+[CLS] Wizernes:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Wee:3,Ensdorf:3,0,Ensdorf:3,0
+[CLS] Bourg:2 - la - Reine:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],La - -e:2,Reghin:2,0,Reghin:2,0
+[CLS] Lisbon and [MASK] [MASK] are twin cities . [SEP],Porto Porto,Rio de Janeiro,0,Rio de Janeiro,0
+[CLS] Copertino:3 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Laeoo:4,Cupertino:3,0,Cupertino:3,0
+[CLS] Makassar:3 and [MASK] are twin cities . [SEP],Jakarta,Samarinda:3,0,Samarinda:3,0
+[CLS] Sydney and [MASK] are twin cities . [SEP],Melbourne,San Francisco,0,San Francisco,0
+[CLS] Pastrana:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Laao:3,Eboli:3,0,Eboli:3,0
+[CLS] Folkestone:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],"the .s:2 ,",Boulogne:3 - sur - Mer:2,0,Boulogne:3 - sur - Mer:2,0
+[CLS] Bethlehem and [MASK] are twin cities . [SEP],Bethlehem,Assisi:3,0,Assisi:3,0
+[CLS] Manaus:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Manaá:3,Santo Domingo,0,Santo Domingo,0
+[CLS] Tiraspol:4 and [MASK] are twin cities . [SEP],Bucharest,Bălți:5,0,Bălți:5,0
+[CLS] Jakarta and [MASK] are twin cities . [SEP],Jakarta,Kuala Lumpur,0,Kuala Lumpur,0
+[CLS] Bonn and [MASK] are twin cities . [SEP],Cologne,Tel Aviv,0,Tel Aviv,0
+[CLS] New Rochelle:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],New -ville:2,La Rochelle:2,0,La Rochelle:2,0
+[CLS] Delhi and [MASK] are twin cities . [SEP],Mumbai,Kuala Lumpur,0,Kuala Lumpur,0
+[CLS] Port Louis and [MASK] [MASK] [MASK] are twin cities . [SEP],Port -ville:2,Saint - Malo:2,0,Saint - Malo:2,0
+[CLS] Saint Petersburg and [MASK] are twin cities . [SEP],Moscow,Mikkeli:4,0,Mikkeli:4,0
+[CLS] Istanbul and [MASK] are twin cities . [SEP],Ankara,Jeddah:2,0,Jeddah:2,0
+[CLS] Jeddah:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Al -i:2,Almaty:2,0,Almaty:2,0
+[CLS] Bissau:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],B -o:2,Praia:3,0,Praia:3,0
+[CLS] Garmisch:3 - Partenkirchen:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],G -nn:3,Chamonix:3 - Mont - Blanc,0,Chamonix:3 - Mont - Blanc,0
+[CLS] Shimane:3 Prefecture and [MASK] are twin cities . [SEP],Tokyo,North Gyeongsang:4 Province,0,North Gyeongsang:4 Province,0
+[CLS] Calgary and [MASK] are twin cities . [SEP],Edmonton,Quebec City,0,Quebec City,0
+[CLS] Banjul:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Banii:3,Bamako:3,0,Bamako:3,0
+[CLS] Oral and [MASK] are twin cities . [SEP],Oral,Orenburg:2,0,Orenburg:2,0
+[CLS] Bremen and [MASK] are twin cities . [SEP],Hamburg,Rostock:3,0,Rostock:3,0
+[CLS] Rostock:3 and [MASK] are twin cities . [SEP],Leipzig,Szczecin:5,0,Szczecin:5,0
+[CLS] Ancona:2 and [MASK] are twin cities . [SEP],Bologna,Patras:2,0,Patras:2,0
+[CLS] Saint - Malo:2 and [MASK] [MASK] [MASK] are twin cities . [SEP],Saint -e:2,Port Louis,0,Port Louis,0
+[CLS] Khujand:4 and [MASK] are twin cities . [SEP],Kabul,Samarkand:3,0,Samarkand:3,0
+[CLS] Yerevan and [MASK] are twin cities . [SEP],Yerevan,Volgograd:3,0,Volgograd:3,0
+[CLS] Morbegno:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Ceeo:4,Llanberis:4,0,Llanberis:4,0
+[CLS] Indianapolis and [MASK] are twin cities . [SEP],Indianapolis,Piran:2,0,Piran:2,0
+[CLS] Casablanca and [MASK] are twin cities . [SEP],Casablanca,Jeddah:2,0,Jeddah:2,0
+[CLS] Vawkavysk:5 and [MASK] are twin cities . [SEP],Moscow,Siedlce:4,0,Siedlce:4,0
+[CLS] Kaunas:3 and [MASK] are twin cities . [SEP],Vilnius,Tartu:3,0,Tartu:3,0
+[CLS] Mulhouse:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the . in in ),Kassel:2,0,Kassel:2,0
+[CLS] Littau:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Li . in in ),Litovel:3,0,Litovel:3,0
+[CLS] Gryfów:4 Śląski:4 and [MASK] are twin cities . [SEP],Warsaw,Gryfice:4,0,Gryfice:4,0
+[CLS] Stockholm and [MASK] are twin cities . [SEP],Stockholm,Addis:2 Ababa:3,0,Addis:2 Ababa:3,0
+[CLS] Klingenthal:4 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the - -e:2,Kraslice:3,0,Kraslice:3,0
+[CLS] Cagliari:4 and [MASK] [MASK] [MASK] are twin cities . [SEP],Ceo:3,Buenos Aires,0,Buenos Aires,0
+[CLS] Yalta:2 and [MASK] are twin cities . [SEP],Moscow,Baden - Baden,0,Baden - Baden,0
+[CLS] Murrhardt:3 and [MASK] [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],the . ( in ),Frome:2,0,Frome:2,0
+[CLS] Kaluga:3 and [MASK] are twin cities . [SEP],Moscow,Smolensk:4,0,Smolensk:4,0
+[CLS] Vilnius and [MASK] are twin cities . [SEP],Vilnius,Nur:2 - Sultan,0,Nur:2 - Sultan,0
+[CLS] Nittenau:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],W -au:2,Lake Zurich,0,Lake Zurich,0
+[CLS] Toulouse and [MASK] are twin cities . [SEP],Toulouse,Tel Aviv,0,Tel Aviv,0
+[CLS] Odessa and [MASK] are twin cities . [SEP],Odessa,Jeddah:2,0,Jeddah:2,0
+[CLS] Kidderminster:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],West -ton:2,Husum:3,0,Husum:3,0

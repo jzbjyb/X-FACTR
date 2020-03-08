@@ -1,9 +1,11 @@
 from typing import List, Dict
 import argparse
 from tqdm import tqdm
-from entity_lang import get_result
+from entity_lang import get_result, get_qid_from_uri, handle_redirect
 
-GET_GENDER = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+GET_GENDER = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -12,7 +14,8 @@ SELECT ?item ?valueLabel WHERE
 VALUES ?item { %s }
 ?item wdt:P21 ?value
 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}"""
+}
+"""
 
 
 class Gender:
@@ -30,16 +33,14 @@ class Gender:
         return Gender.NONE
 
 
+@handle_redirect(debug=False, disable=False)
 def get_gender(uris: List[str]) -> Dict[str, str]:
     results = get_result(GET_GENDER % ' '.join(map(lambda x: 'wd:' + x, uris)))
     genders = {}
     for result in results['results']['bindings']:
-        uri = result['item']['value'].rsplit('/', 1)[1]
+        uri = get_qid_from_uri(result['item']['value'])
         gender = Gender.parse(result['valueLabel']['value'])
         genders[uri] = gender
-    for uri in uris:
-        if uri not in genders:
-            genders[uri] = Gender.NONE
     return genders
 
 
@@ -50,6 +51,14 @@ def load_entity_gender(filename: str) -> Dict[str, Gender]:
             uri, gender = l.strip().split('\t')
             result[uri] = Gender.parse(gender)
     return result
+
+
+def load_qid_from_lang_file(filename: str) -> List[str]:
+    qids = []
+    with open(filename, 'r') as fin:
+        for l in tqdm(fin):
+            qids.append(l.strip().split('\t', 1)[0])
+    return qids
 
 
 if __name__ == '__main__':
@@ -63,22 +72,19 @@ if __name__ == '__main__':
     print(get_gender(['Q31', 'Q76', 'Q36153']))
     '''
 
-    num_entity_per_query = 300
-    uris = []
+    batch_size = 300
+    qids = load_qid_from_lang_file(args.inp)
     genders = {}
-    with open(args.inp, 'r') as fin:
-        for l in tqdm(fin):
-            uri = l.strip().split('\t', 1)[0]
-            uris.append(uri)
-            if len(uris) >= num_entity_per_query:
-                genders.update(get_gender(uris))
-                uris = []
-        if len(uris) > 0:
-            genders.update(get_gender(uris))
-            uris = []
+    for b in tqdm(range(0, len(qids), batch_size)):
+        genders.update(get_gender(qids[b:b + batch_size]))
 
-    print(len(genders))
+    print('#entities {}, #results {}'.format(len(qids), len(genders)))
+
+    for qid in qids:
+        if qid in genders:
+            continue
+        genders[qid] = Gender.NONE
 
     with open(args.out, 'w') as fout:
-        for k, v in genders.items():
+        for k, v in sorted(genders.items(), key=lambda x: int(x[0][1:])):
             fout.write('{}\t{}\n'.format(k, v))

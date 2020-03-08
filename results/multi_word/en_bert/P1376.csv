@@ -1,0 +1,928 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same
+[CLS] Gunung:2 Tua:2 is the capital of [MASK] . [SEP],Brunei,Padang:3 Lawas:2 Utara:2,0,Padang:3 Lawas:2 Utara:2,0
+[CLS] Dandenong:3 is the capital of [MASK] [MASK] . [SEP],the province,City of Greater Dandenong:3,0,City of Greater Dandenong:3,0
+[CLS] Qashliq:4 is the capital of [MASK] [MASK] . [SEP],the province,Khanate:2 of Sibir:2,0,Khanate:2 of Sibir:2,0
+[CLS] Tauberbischofsheim:6 is the capital of [MASK] [MASK] [MASK] . [SEP],the Bavarian Palatinate,Main - Tauber:2,0,Main - Tauber:2,0
+[CLS] Virac:3 is the capital of [MASK] [MASK] . [SEP],the province,Catanduanes:4,0,Catanduanes:4,0
+[CLS] Nykøbing:4 Falster:3 is the capital of [MASK] . [SEP],Denmark,Guldborgsund:5 Municipality,0,Guldborgsund:5 Municipality,0
+[CLS] Santa Clara is the capital of [MASK] [MASK] . [SEP],the Ecuador,Villa Clara Province,0,Villa Clara Province,0
+[CLS] Plyussa:4 is the capital of [MASK] [MASK] . [SEP],the region,Plyussky:4 District,0,Plyussky:4 District,0
+[CLS] Bukhara:3 is the capital of [MASK] . [SEP],Uzbekistan,Emirate:3 of Bukhara:3,0,Emirate:3 of Bukhara:3,0
+[CLS] Jefferson is the capital of [MASK] [MASK] . [SEP],the state,Ashe County,0,Ashe County,0
+[CLS] Beersheba:3 is the capital of [MASK] [MASK] . [SEP],the province,Southern District,0,Southern District,0
+[CLS] Mavelikkara:4 is the capital of [MASK] . [SEP],Kerala,Onattukara:4,0,Onattukara:4,0
+[CLS] Phongsali:4 is the capital of [MASK] . [SEP],Laos,Phongsaly:4 Province,0,Phongsaly:4 Province,0
+[CLS] Grums:3 is the capital of [MASK] [MASK] . [SEP],the Estonia,Grums:3 Municipality,0,Grums:3 Municipality,0
+[CLS] Ruza:2 is the capital of [MASK] [MASK] . [SEP],the province,Ruzsky:3 District,0,Ruzsky:3 District,0
+[CLS] Kenora:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Kenora:2 District,0,Kenora:2 District,0
+[CLS] Glarus:3 is the capital of [MASK] [MASK] . [SEP],the Albania,Glarus:3,0,Glarus:3,0
+[CLS] Grozny:4 is the capital of [MASK] [MASK] . [SEP],the district,Chechen:3 Republic,0,Chechen:3 Republic,0
+[CLS] Londinium:3 is the capital of [MASK] . [SEP],Italy,Roman Britain,0,Roman Britain,0
+[CLS] Warta:2 is the capital of [MASK] [MASK] . [SEP],the state,Gmina Warta:2,0,Gmina Warta:2,0
+[CLS] Gulkevichi:5 is the capital of [MASK] [MASK] . [SEP],the district,Gulkevichsky:5 District,0,Gulkevichsky:5 District,0
+[CLS] Walters is the capital of [MASK] . [SEP],Walters,Cotton County,0,Cotton County,0
+[CLS] Catanzaro:3 is the capital of [MASK] [MASK] . [SEP],the province,Calabria:3,0,Calabria:3,0
+"[CLS] Petukhovo:4 ( town ) , Kurgan:2 Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Petukhovsky:4 District,0,Petukhovsky:4 District,0
+[CLS] Neryungri:4 is the capital of [MASK] [MASK] . [SEP],the district,Neryungrinsky:5 District,0,Neryungrinsky:5 District,0
+[CLS] Kisangani:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Orientale:2 Province,0,Orientale:2 Province,0
+[CLS] Veldenz:4 is the capital of [MASK] [MASK] . [SEP],the state,County of Veldenz:4,0,County of Veldenz:4,0
+[CLS] Bashmakovo:5 is the capital of [MASK] [MASK] . [SEP],the republic,Bashmakovsky:5 District,0,Bashmakovsky:5 District,0
+[CLS] Shah Alam:2 is the capital of [MASK] . [SEP],Afghanistan,Selangor:3,0,Selangor:3,0
+[CLS] Artigas:3 is the capital of [MASK] [MASK] . [SEP],the region,Artigas:3 Department,0,Artigas:3 Department,0
+[CLS] Manitowoc:4 is the capital of [MASK] [MASK] . [SEP],the county,Manitowoc:4 County,0,Manitowoc:4 County,0
+[CLS] Rouen:3 is the capital of [MASK] . [SEP],France,Upper Normandy,0,Upper Normandy,0
+[CLS] Johnson City is the capital of [MASK] [MASK] . [SEP],the Tennessee,Blanco County,0,Blanco County,0
+[CLS] Nora is the capital of [MASK] . [SEP],Nora,Nora Municipality,0,Nora Municipality,0
+[CLS] Reggio:2 nell:2 ’ Emilia is the capital of [MASK] [MASK] . [SEP],the region,Province of Reggio:2 Emilia,0,Province of Reggio:2 Emilia,0
+[CLS] Maracay:3 is the capital of [MASK] [MASK] . [SEP],the state,Aragua:2,0,Aragua:2,0
+[CLS] Yonezawa:3 is the capital of [MASK] . [SEP],Japan,Yonezawa:3 Domain,0,Yonezawa:3 Domain,0
+[CLS] Sundsvall:4 is the capital of [MASK] . [SEP],Sweden,Sundsvall:4 Municipality,0,Sundsvall:4 Municipality,0
+[CLS] Bhisho:3 is the capital of [MASK] [MASK] . [SEP],the district,Ciskei:3,0,Ciskei:3,0
+[CLS] Arras:3 is the capital of [MASK] [MASK] . [SEP],the department,Pas:2 - de - Calais,0,Pas:2 - de - Calais,0
+[CLS] Molepolole:4 is the capital of [MASK] [MASK] . [SEP],the Ghana,Kweneng:3 District,0,Kweneng:3 District,0
+[CLS] Kumamoto:2 is the capital of [MASK] . [SEP],Japan,Kumamoto:2 Domain,0,Kumamoto:2 Domain,0
+[CLS] Zorgho:4 is the capital of [MASK] [MASK] . [SEP],the province,Ganzourgou:5 Province,0,Ganzourgou:5 Province,0
+[CLS] Lleida:3 is the capital of [MASK] . [SEP],Catalonia,Bouches:3 - de - l ' Èbre:2,0,Bouches:3 - de - l ' Èbre:2,0
+[CLS] Ondjiva:4 is the capital of [MASK] [MASK] . [SEP],the district,Cunene:3 Province,0,Cunene:3 Province,0
+[CLS] Saint Paul is the capital of [MASK] [MASK] . [SEP],the Guyana,Ramsey County,0,Ramsey County,0
+[CLS] Roslavl:4 is the capital of [MASK] [MASK] . [SEP],the region,Roslavlsky:5 District,0,Roslavlsky:5 District,0
+[CLS] Jerusalem is the capital of [MASK] . [SEP],Israel,Jerusalem District,0,Jerusalem District,0
+[CLS] Footscray:4 is the capital of [MASK] [MASK] . [SEP],the Georgia,City of Maribyrnong:4,0,City of Maribyrnong:4,0
+[CLS] Leesburg:2 is the capital of [MASK] . [SEP],Virginia,Loudoun:3 County,0,Loudoun:3 County,0
+[CLS] Lamwo:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Lamwo:2 District,0,Lamwo:2 District,0
+[CLS] Blayney:3 is the capital of [MASK] [MASK] . [SEP],the Scotland,Blayney:3 Shire,0,Blayney:3 Shire,0
+[CLS] Florianópolis:5 is the capital of [MASK] . [SEP],Brazil,Santa Catarina:2 Island,0,Santa Catarina:2 Island,0
+[CLS] Saransk:3 is the capital of [MASK] [MASK] . [SEP],the district,Republic of Mordovia:3,0,Republic of Mordovia:3,0
+[CLS] Milicz:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Silesian Voivodeship,Milicz:3 County,0,Milicz:3 County,0
+[CLS] Elbasan:3 is the capital of [MASK] [MASK] . [SEP],the province,Elbasan:3 County,0,Elbasan:3 County,0
+[CLS] Sendai:2 is the capital of [MASK] . [SEP],Japan,Miyagi:3 Prefecture,0,Miyagi:3 Prefecture,0
+[CLS] Mantua:3 is the capital of [MASK] [MASK] . [SEP],the Samoa,Province of Mantua:3,0,Province of Mantua:3,0
+[CLS] Kartaly:3 is the capital of [MASK] [MASK] . [SEP],the district,Kartalinsky:4 District,0,Kartalinsky:4 District,0
+[CLS] Krasnodar:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,Krasnodar:4 Krai:2,0,Krasnodar:4 Krai:2,0
+[CLS] Randfontein:4 is the capital of [MASK] [MASK] . [SEP],the province,West Rand District Municipality,0,West Rand District Municipality,0
+[CLS] Senmonorom:4 is the capital of [MASK] [MASK] . [SEP],the district,Mondulkiri:4 Province,0,Mondulkiri:4 Province,0
+[CLS] Kutaisi:3 is the capital of [MASK] . [SEP],Georgia,Imereti:3,0,Imereti:3,0
+[CLS] Ochyor:3 is the capital of [MASK] [MASK] . [SEP],the district,Ochyorsky:4 District,0,Ochyorsky:4 District,0
+[CLS] Khvahan:4 is the capital of [MASK] [MASK] . [SEP],the province,Khwahan:3,0,Khwahan:3,0
+[CLS] Bungendore:4 is the capital of [MASK] [MASK] . [SEP],the Uganda,Palerang:3 Council,0,Palerang:3 Council,0
+[CLS] Pallisa:3 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the the ando:2 region,Pallisa:3 District,0,Pallisa:3 District,0
+[CLS] Chincheros:3 is the capital of [MASK] [MASK] . [SEP],the province,Chincheros:3 Province,0,Chincheros:3 Province,0
+[CLS] Paisley is the capital of [MASK] . [SEP],Paisley,Renfrewshire:4,0,Renfrewshire:4,0
+[CLS] Jaintia:2 Rajbari:2 is the capital of [MASK] [MASK] . [SEP],the district,Jaintia:2 Kingdom,0,Jaintia:2 Kingdom,0
+[CLS] Claude is the capital of [MASK] . [SEP],Claude,Armstrong County,0,Armstrong County,0
+"[CLS] Buczek:4 , Łask:2 County is the capital of [MASK] [MASK] . [SEP]",the county,Gmina Buczek:4,0,Gmina Buczek:4,0
+[CLS] Worcester is the capital of [MASK] . [SEP],Massachusetts,Breede:2 Valley Local Municipality,0,Breede:2 Valley Local Municipality,0
+[CLS] Évreux:3 is the capital of [MASK] . [SEP],France,Eure:2,0,Eure:2,0
+[CLS] Kristianstad:3 is the capital of [MASK] . [SEP],Norway,Kristianstad:3 County,0,Kristianstad:3 County,0
+[CLS] Bloemfontein:6 is the capital of [MASK] [MASK] . [SEP],the province,South Africa,0,South Africa,0
+[CLS] Chagoda:3 is the capital of [MASK] [MASK] . [SEP],the province,Chagodoshchensky:6 District,0,Chagodoshchensky:6 District,0
+[CLS] Vinita:2 is the capital of [MASK] [MASK] . [SEP],the state,Craig County,0,Craig County,0
+"[CLS] Moche:2 , Trujillo:4 is the capital of [MASK] [MASK] . [SEP]",the province,Moche:2 District,0,Moche:2 District,0
+[CLS] Novosibirsk:4 is the capital of [MASK] . [SEP],Russia,Siberian Federal District,0,Siberian Federal District,0
+[CLS] Lyubytino:4 is the capital of [MASK] [MASK] . [SEP],the republic,Lyubytinsky:5 District,0,Lyubytinsky:5 District,0
+[CLS] Yurimaguas:4 is the capital of [MASK] [MASK] . [SEP],the province,Alto Amazonas:2 Province,0,Alto Amazonas:2 Province,0
+[CLS] Kramfors:4 is the capital of [MASK] . [SEP],Finland,Kramfors:4 Municipality,0,Kramfors:4 Municipality,0
+[CLS] Salamá:3 is the capital of [MASK] [MASK] . [SEP],the department,Departamento:5 de baja:2 verapaz:3,0,Departamento:5 de baja:2 verapaz:3,0
+[CLS] Bukoba:4 is the capital of [MASK] [MASK] . [SEP],the province,Kagera:3 Region,0,Kagera:3 Region,0
+[CLS] Ballsh:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and and union region,Mallakastër:5,0,Mallakastër:5,0
+[CLS] Anadarko:3 is the capital of [MASK] [MASK] . [SEP],the province,Caddo:3 County,0,Caddo:3 County,0
+[CLS] Rybnoye:5 is the capital of [MASK] [MASK] . [SEP],the region,Rybnovsky:5 District,0,Rybnovsky:5 District,0
+[CLS] Madison is the capital of [MASK] . [SEP],Wisconsin,Dane County,0,Dane County,0
+[CLS] Amga:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Amginsky:3 District,0,Amginsky:3 District,0
+[CLS] Chartres:2 is the capital of [MASK] . [SEP],France,Eure:2 - et - Loir:2,0,Eure:2 - et - Loir:2,0
+[CLS] Amritsar:3 is the capital of [MASK] [MASK] . [SEP],the state,misl:3,0,misl:3,0
+[CLS] Tarnogsky:4 Gorodok:3 is the capital of [MASK] [MASK] . [SEP],the district,Tarnogsky:4 District,0,Tarnogsky:4 District,0
+[CLS] Hollis:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,Harmon:2 County,0,Harmon:2 County,0
+[CLS] Rossosh:2 is the capital of [MASK] [MASK] . [SEP],the Armenia,Rossoshansky:4 District,0,Rossoshansky:4 District,0
+[CLS] Lusaka:3 is the capital of [MASK] . [SEP],Zambia,Northern Rhodesia,0,Northern Rhodesia,0
+[CLS] Miller is the capital of [MASK] . [SEP],Miller,Hand County,0,Hand County,0
+[CLS] Sunzha:3 is the capital of [MASK] [MASK] . [SEP],the district,Sunzhensky:3 District,0,Sunzhensky:3 District,0
+[CLS] Nyandoma:4 is the capital of [MASK] [MASK] . [SEP],the district,Nyandomsky:4 District,0,Nyandomsky:4 District,0
+[CLS] Amman:2 is the capital of [MASK] . [SEP],Jordan,Ammon:2,0,Ammon:2,0
+[CLS] Picton:2 is the capital of [MASK] [MASK] . [SEP],the Canada,Wollondilly:5 Shire,0,Wollondilly:5 Shire,0
+[CLS] Antigo:2 is the capital of [MASK] [MASK] . [SEP],the island,Langlade:2 County,0,Langlade:2 County,0
+[CLS] Balige:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Toba:2 Samosir:3,0,Toba:2 Samosir:3,0
+[CLS] Moshi:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Kilimanjaro:5 Region,0,Kilimanjaro:5 Region,0
+[CLS] Chekhov:3 is the capital of [MASK] [MASK] . [SEP],the Ukraine,Chekhovsky:4 District,0,Chekhovsky:4 District,0
+[CLS] Bagamoyo:4 is the capital of [MASK] [MASK] . [SEP],the province,German East Africa,0,German East Africa,0
+[CLS] Ravenna:2 is the capital of [MASK] [MASK] . [SEP],the Italy,Ostrogothic:4 Kingdom,0,Ostrogothic:4 Kingdom,0
+[CLS] Genoa is the capital of [MASK] . [SEP],Italy,Province of Genoa,0,Province of Genoa,0
+[CLS] Bardo:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Gmina Bardo:2,0,Gmina Bardo:2,0
+[CLS] Karlovy:3 Vary:2 is the capital of [MASK] [MASK] . [SEP],the district,Karlovy:3 Vary:2 Region,0,Karlovy:3 Vary:2 Region,0
+[CLS] Naliya:3 is the capital of [MASK] [MASK] . [SEP],the province,Abdasa:2 Taluka:3,0,Abdasa:2 Taluka:3,0
+[CLS] Lipkovo:4 is the capital of [MASK] [MASK] . [SEP],the republic,Lipkovo:4 Municipality,0,Lipkovo:4 Municipality,0
+[CLS] Arua:3 is the capital of [MASK] [MASK] . [SEP],the state,Arua:3 District,0,Arua:3 District,0
+[CLS] Balanjar:3 is the capital of [MASK] [MASK] . [SEP],the province,Khazars:3,0,Khazars:3,0
+[CLS] Frutigen:3 is the capital of [MASK] [MASK] . [SEP],the canton,Frutigen:3 - Niedersimmental:5 administrative district,0,Frutigen:3 - Niedersimmental:5 administrative district,0
+[CLS] Pretoria:2 is the capital of [MASK] [MASK] . [SEP],the Africa,Union of South Africa,0,Union of South Africa,0
+[CLS] Hedensted:3 is the capital of [MASK] . [SEP],Denmark,Hedensted:3 Municipality,0,Hedensted:3 Municipality,0
+"[CLS] Staritsa:3 ( town ) , Tver:2 Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Staritsky:3 District,0,Staritsky:3 District,0
+[CLS] Quelimane:3 is the capital of [MASK] [MASK] . [SEP],the province,Zambezia:4 Province,0,Zambezia:4 Province,0
+[CLS] Newcastle is the capital of [MASK] [MASK] . [SEP],the Australia,City of Newcastle,0,City of Newcastle,0
+[CLS] Requena:3 is the capital of [MASK] [MASK] . [SEP],the province,Requena:3 Province,0,Requena:3 Province,0
+[CLS] Kano:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Kano:2 State,0,Kano:2 State,0
+[CLS] Kabul is the capital of [MASK] . [SEP],Afghanistan,Islamic State of Afghanistan,0,Islamic State of Afghanistan,0
+[CLS] Kondrovo:4 is the capital of [MASK] [MASK] . [SEP],the republic,Dzerzhinsky:4 District,0,Dzerzhinsky:4 District,0
+[CLS] Ibanda:3 is the capital of [MASK] [MASK] . [SEP],the state,Ibanda:3 District,0,Ibanda:3 District,0
+[CLS] San Fernando is the capital of [MASK] [MASK] . [SEP],the province,Pampanga:3,0,Pampanga:3,0
+[CLS] Dalby:2 is the capital of [MASK] [MASK] . [SEP],the Tasmania,Western Downs Region,0,Western Downs Region,0
+[CLS] Ulricehamn:5 is the capital of [MASK] [MASK] . [SEP],the county,Ulricehamn:5 Municipality,0,Ulricehamn:5 Municipality,0
+[CLS] Vryheid:4 is the capital of [MASK] [MASK] . [SEP],the region,Nieuwe:3 Republiek:4,0,Nieuwe:3 Republiek:4,0
+[CLS] Fukuoka:3 is the capital of [MASK] . [SEP],Japan,Fukuoka:3 Prefecture,0,Fukuoka:3 Prefecture,0
+[CLS] Seminole:3 is the capital of [MASK] [MASK] . [SEP],the state,Gaines:2 County,0,Gaines:2 County,0
+[CLS] Cambridge is the capital of [MASK] . [SEP],England,Dorchester:3 County,0,Dorchester:3 County,0
+[CLS] Novoalexandrovsk:6 is the capital of [MASK] [MASK] . [SEP],the republic,Novoalexandrovsky:6 District,0,Novoalexandrovsky:6 District,0
+[CLS] Greensboro:2 is the capital of [MASK] . [SEP],Georgia,Guilford:3 County,0,Guilford:3 County,0
+[CLS] Trenggalek:5 is the capital of [MASK] [MASK] . [SEP],the province,Trenggalek:5,0,Trenggalek:5,0
+[CLS] Strathpine:4 is the capital of [MASK] [MASK] . [SEP],the Scotland,Moreton:2 Bay Region,0,Moreton:2 Bay Region,0
+"[CLS] Moshenskoye:5 , Novgorod Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Moshenskoy:5 District,0,Moshenskoy:5 District,0
+[CLS] Bologna is the capital of [MASK] . [SEP],Italy,Emilia - Romagna:2,0,Emilia - Romagna:2,0
+[CLS] Manyakheta:4 is the capital of [MASK] [MASK] . [SEP],the district,Western Chalukya:3 Empire,0,Western Chalukya:3 Empire,0
+[CLS] Takhtamukay:5 is the capital of [MASK] [MASK] . [SEP],the province,Takhtamukaysky:6 District,0,Takhtamukaysky:6 District,0
+"[CLS] Domaniewice:4 , Łódź Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Domaniewice:4,0,Gmina Domaniewice:4,0
+[CLS] Trieste:2 is the capital of [MASK] . [SEP],Italy,Friuli:3 – Venezia:3 Giulia:3,0,Friuli:3 – Venezia:3 Giulia:3,0
+"[CLS] Aweil:3 , South Sudan is the capital of [MASK] . [SEP]",Sudan,Northern Bahr:2 el Ghazal:3,0,Northern Bahr:2 el Ghazal:3,0
+[CLS] Zaranj:3 is the capital of [MASK] [MASK] . [SEP],the province,Nimruz:4,0,Nimruz:4,0
+[CLS] Trieste:2 is the capital of [MASK] . [SEP],Italy,Province of Trieste:2,0,Province of Trieste:2,0
+[CLS] Jemielno:4 is the capital of [MASK] . [SEP],Poland,Gmina Jemielno:4,0,Gmina Jemielno:4,0
+[CLS] Marawi:2 is the capital of [MASK] [MASK] . [SEP],the state,Lanao:2 del Sur,0,Lanao:2 del Sur,0
+[CLS] Dijon:2 is the capital of [MASK] [MASK] . [SEP],the province,Duchy of Burgundy,0,Duchy of Burgundy,0
+[CLS] Szczytna:5 is the capital of [MASK] [MASK] . [SEP],the county,Gmina Szczytna:5,0,Gmina Szczytna:5,0
+[CLS] Kashin:2 is the capital of [MASK] [MASK] . [SEP],the province,Kashinsky:3 District,0,Kashinsky:3 District,0
+[CLS] Kampala:3 is the capital of [MASK] . [SEP],Uganda,Kampala:3 District,0,Kampala:3 District,0
+[CLS] Pakenham:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,Shire of Cardinia:2,0,Shire of Cardinia:2,0
+[CLS] Tshabong:4 is the capital of [MASK] . [SEP],Bhutan,Kgalagadi:4 District,0,Kgalagadi:4 District,0
+[CLS] Valencia is the capital of [MASK] . [SEP],Spain,Valencian:2 Community,0,Valencian:2 Community,0
+[CLS] Bukedea:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Bukedea:3 District,0,Bukedea:3 District,0
+[CLS] Novosibirsk:4 is the capital of [MASK] . [SEP],Russia,Novosibirsk:4 Oblast,0,Novosibirsk:4 Oblast,0
+[CLS] Rhinelander:2 is the capital of [MASK] . [SEP],Germany,Oneida:2 County,0,Oneida:2 County,0
+[CLS] Sonkovo:3 is the capital of [MASK] [MASK] . [SEP],the republic,Sonkovsky:3 District,0,Sonkovsky:3 District,0
+[CLS] Halebidu:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Hoysala:3 Empire,0,Hoysala:3 Empire,0
+[CLS] Bugiri:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Bugiri:3 District,0,Bugiri:3 District,0
+[CLS] Lubuk:3 Basung:3 is the capital of [MASK] [MASK] . [SEP],the province,Agam:2,0,Agam:2,0
+[CLS] Beni:2 Hammad:2 Fort is the capital of [MASK] [MASK] . [SEP],the Yemen,Hammadid:3 dynasty,0,Hammadid:3 dynasty,0
+[CLS] Shymkent:5 is the capital of [MASK] . [SEP],Uzbekistan,Turkestan:4 Region,0,Turkestan:4 Region,0
+[CLS] Rudnya:3 is the capital of [MASK] [MASK] . [SEP],the republic,"Rudnyansky:4 District , Smolensk:4 Oblast",0,"Rudnyansky:4 District , Smolensk:4 Oblast",0
+[CLS] Surahammar:4 is the capital of [MASK] [MASK] . [SEP],the province,Surahammar:4 Municipality,0,Surahammar:4 Municipality,0
+[CLS] Samarkand:3 is the capital of [MASK] [MASK] . [SEP],the Pakistan,Timurid:3 Empire,0,Timurid:3 Empire,0
+[CLS] Tselina:3 is the capital of [MASK] [MASK] . [SEP],the Albania,Tselinsky:4 District,0,Tselinsky:4 District,0
+[CLS] Mysore is the capital of [MASK] . [SEP],Karnataka,Kingdom of Mysore,0,Kingdom of Mysore,0
+[CLS] Wautoma:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Waushara:3 County,0,Waushara:3 County,0
+[CLS] Tororo:2 is the capital of [MASK] [MASK] . [SEP],the Uganda,Tororo:2 District,0,Tororo:2 District,0
+[CLS] Skinnskatteberg:5 is the capital of [MASK] [MASK] . [SEP],the Norway,Skinnskatteberg:5 Municipality,0,Skinnskatteberg:5 Municipality,0
+[CLS] Kokkedal:4 is the capital of [MASK] [MASK] . [SEP],the district,Fredensborg:3 Municipality,0,Fredensborg:3 Municipality,0
+[CLS] Cumberland is the capital of [MASK] . [SEP],Cumberland,Allegany:3 County,0,Allegany:3 County,0
+[CLS] Mosalsk:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,Mosalsky:3 District,0,Mosalsky:3 District,0
+[CLS] Samangan:3 is the capital of [MASK] [MASK] . [SEP],the province,Samangan:3,0,Samangan:3,0
+[CLS] Kromy:3 is the capital of [MASK] [MASK] . [SEP],the district,Kromskoy:4 District,0,Kromskoy:4 District,0
+[CLS] Vermand:3 is the capital of [MASK] [MASK] . [SEP],the department,canton of Vermand:3,0,canton of Vermand:3,0
+[CLS] Gnojnik:4 is the capital of [MASK] . [SEP],Croatia,Gmina Gnojnik:4,0,Gmina Gnojnik:4,0
+[CLS] Omsk:3 is the capital of [MASK] . [SEP],Kyrgyzstan,Omsk:3 Oblast,0,Omsk:3 Oblast,0
+[CLS] Arad:2 is the capital of [MASK] [MASK] . [SEP],the Algeria,Arad:2 County,0,Arad:2 County,0
+[CLS] Decatur:3 is the capital of [MASK] [MASK] . [SEP],the state,Wise County,0,Wise County,0
+[CLS] Morogoro:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Morogoro:3 Region,0,Morogoro:3 Region,0
+[CLS] Chaguaramas:4 is the capital of [MASK] [MASK] . [SEP],the province,West Indies Federation,0,West Indies Federation,0
+[CLS] Briceni:3 is the capital of [MASK] [MASK] . [SEP],the province,Briceni:3 District,0,Briceni:3 District,0
+[CLS] Karpogory:4 is the capital of [MASK] [MASK] . [SEP],the district,Pinezhsky:4 District,0,Pinezhsky:4 District,0
+[CLS] Jefferson is the capital of [MASK] [MASK] . [SEP],the state,Jefferson County,0,Jefferson County,0
+[CLS] Ramotswa:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,South - East District,0,South - East District,0
+[CLS] Roskilde:4 is the capital of [MASK] . [SEP],Denmark,Roskilde:4 Municipality,0,Roskilde:4 Municipality,0
+[CLS] Lubumbashi:4 is the capital of [MASK] . [SEP],Zambia,Katanga:2 Province,0,Katanga:2 Province,0
+[CLS] Groningen:3 is the capital of [MASK] [MASK] . [SEP],the Netherlands,Groningen:3,0,Groningen:3,0
+"[CLS] Liszki:3 , Lesser Poland Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Liszki:3,0,Gmina Liszki:3,0
+[CLS] Karaganda:3 is the capital of [MASK] [MASK] . [SEP],the Tajikistan,Karaganda:3 Region,0,Karaganda:3 Region,0
+[CLS] Wuhan:2 is the capital of [MASK] . [SEP],China,Hubei:2,0,Hubei:2,0
+[CLS] Højby:4 is the capital of [MASK] [MASK] . [SEP],the municipality,Odsherred:4 Municipality,0,Odsherred:4 Municipality,0
+[CLS] Kholm:2 - Zhirkovsky:4 is the capital of [MASK] [MASK] . [SEP],the district,Kholm:2 - Zhirkovsky:4 District,0,Kholm:2 - Zhirkovsky:4 District,0
+[CLS] Copenhagen is the capital of [MASK] . [SEP],Denmark,Copenhagen Municipality,0,Copenhagen Municipality,0
+[CLS] Fyodorovka:5 is the capital of [MASK] [MASK] . [SEP],the district,Fyodorovsky:4 District,0,Fyodorovsky:4 District,0
+[CLS] Warrnambool:4 is the capital of [MASK] [MASK] . [SEP],the state,City of Warrnambool:4,0,City of Warrnambool:4,0
+[CLS] Narimanov:3 is the capital of [MASK] [MASK] . [SEP],the district,Narimanovsky:4 District,0,Narimanovsky:4 District,0
+[CLS] Volkhov:3 is the capital of [MASK] [MASK] . [SEP],the district,Volkhovsky:3 District,0,Volkhovsky:3 District,0
+"[CLS] Gnojno:4 , Świętokrzyskie:7 Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Gnojno:4,0,Gmina Gnojno:4,0
+[CLS] Pul:2 - e Khomri:3 is the capital of [MASK] [MASK] . [SEP],the district,Baghlan:3,0,Baghlan:3,0
+[CLS] Subang:2 is the capital of [MASK] [MASK] . [SEP],the Indonesia,Subang:2,0,Subang:2,0
+[CLS] Flen:2 is the capital of [MASK] [MASK] . [SEP],the Austria,Flen:2 Municipality,0,Flen:2 Municipality,0
+[CLS] Sri Jayawardenepura:4 Kotte:2 is the capital of [MASK] [MASK] . [SEP],the district,Sri Lanka,0,Sri Lanka,0
+[CLS] Venyov:4 is the capital of [MASK] [MASK] . [SEP],the district,Venyovsky:4 District,0,Venyovsky:4 District,0
+[CLS] Slatina:3 is the capital of [MASK] . [SEP],Croatia,Olt:2 County,0,Olt:2 County,0
+[CLS] Hagfors:4 is the capital of [MASK] [MASK] . [SEP],the county,Hagfors:4 Municipality,0,Hagfors:4 Municipality,0
+[CLS] Newkirk:3 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ands:2 region,Kay County,0,Kay County,0
+[CLS] Kabul is the capital of [MASK] . [SEP],Afghanistan,Kabul Shahi:2,0,Kabul Shahi:2,0
+[CLS] Kagoshima:3 is the capital of [MASK] . [SEP],Japan,Kagoshima:3 Prefecture,0,Kagoshima:3 Prefecture,0
+[CLS] Tokyo is the capital of [MASK] . [SEP],Japan,occupation of Japan,0,occupation of Japan,0
+[CLS] Laon:2 is the capital of [MASK] . [SEP],Laos,canton of Laon:2 - Nord,0,canton of Laon:2 - Nord,0
+[CLS] Växjö:5 is the capital of [MASK] . [SEP],Finland,Kronoberg:4 County,0,Kronoberg:4 County,0
+[CLS] Turin is the capital of [MASK] . [SEP],Italy,Province of Turin,0,Province of Turin,0
+[CLS] Trosa:3 is the capital of [MASK] [MASK] . [SEP],the province,Trosa:3 Municipality,0,Trosa:3 Municipality,0
+[CLS] Iloilo:3 City is the capital of [MASK] [MASK] . [SEP],the Philippines,Iloilo:3,0,Iloilo:3,0
+[CLS] Soreang:3 is the capital of [MASK] [MASK] . [SEP],the province,Bandung:2,0,Bandung:2,0
+[CLS] Bordeaux is the capital of [MASK] . [SEP],France,Gironde:2,0,Gironde:2,0
+[CLS] Vedeno:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italian region,Vedensky:3 District,0,Vedensky:3 District,0
+[CLS] Bukomansimbi:6 is the capital of [MASK] [MASK] . [SEP],the province,Bukomansimbi:6 District,0,Bukomansimbi:6 District,0
+[CLS] Tabriz:3 is the capital of [MASK] [MASK] . [SEP],the province,Kara Koyunlu:3 tribe,0,Kara Koyunlu:3 tribe,0
+[CLS] Batagay:3 is the capital of [MASK] [MASK] . [SEP],the province,Verkhoyansky:5 District,0,Verkhoyansky:5 District,0
+[CLS] Kresttsy:4 is the capital of [MASK] [MASK] . [SEP],the district,Krestetsky:4 District,0,Krestetsky:4 District,0
+[CLS] Chulym:3 is the capital of [MASK] [MASK] . [SEP],the district,Chulymsky:4 District,0,Chulymsky:4 District,0
+"[CLS] Okulovka:4 ( town ) , Novgorod Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Okulovsky:3 District,0,Okulovsky:3 District,0
+[CLS] Schleswig is the capital of [MASK] . [SEP],Denmark,Duchy of Schleswig,0,Duchy of Schleswig,0
+[CLS] Prey:2 Veng:2 is the capital of [MASK] . [SEP],Cambodia,Prey:2 Veng:2 Province,0,Prey:2 Veng:2 Province,0
+[CLS] Kirgiz:3 - Miyaki:3 is the capital of [MASK] [MASK] . [SEP],the province,Miyakinsky:4 District,0,Miyakinsky:4 District,0
+[CLS] Bismarck is the capital of [MASK] . [SEP],Bismarck,North Dakota,0,North Dakota,0
+[CLS] Okayama:2 is the capital of [MASK] . [SEP],Japan,Okayama:2 Prefecture,0,Okayama:2 Prefecture,0
+[CLS] Tulsa is the capital of [MASK] . [SEP],Oklahoma,Tulsa County,0,Tulsa County,0
+[CLS] Viroqua:3 is the capital of [MASK] [MASK] . [SEP],the Guyana,Vernon County,0,Vernon County,0
+[CLS] Shaki:3 is the capital of [MASK] [MASK] . [SEP],the province,Shaki:3 Khanate:2,0,Shaki:3 Khanate:2,0
+[CLS] M ' banza:2 - Kongo:2 is the capital of [MASK] [MASK] . [SEP],the province,Kingdom of Kongo:2,0,Kingdom of Kongo:2,0
+[CLS] Frauenfeld:4 is the capital of [MASK] . [SEP],Germany,Thurgau:3,0,Thurgau:3,0
+[CLS] Akashi:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Akashi:3 Domain,0,Akashi:3 Domain,0
+[CLS] Krabi:3 is the capital of [MASK] [MASK] . [SEP],the province,Krabi:3,0,Krabi:3,0
+[CLS] Moquegua:3 is the capital of [MASK] [MASK] . [SEP],the province,Moquegua:3,0,Moquegua:3,0
+[CLS] Avignon:2 is the capital of [MASK] . [SEP],France,Vaucluse:5,0,Vaucluse:5,0
+[CLS] Chaumont:3 is the capital of [MASK] [MASK] . [SEP],the department,Haute - Marne:2,0,Haute - Marne:2,0
+[CLS] Turku:3 is the capital of [MASK] . [SEP],Finland,Grand Duchy of Finland,0,Grand Duchy of Finland,0
+[CLS] Eagle River is the capital of [MASK] [MASK] . [SEP],the Guyana,Vilas:3 County,0,Vilas:3 County,0
+[CLS] Kayseri:3 is the capital of [MASK] . [SEP],Turkey,Kayseri:3 Province,0,Kayseri:3 Province,0
+[CLS] Stockholm is the capital of [MASK] . [SEP],Sweden,Stockholm County,0,Stockholm County,0
+[CLS] Nekrasovskoye:6 is the capital of [MASK] [MASK] . [SEP],the district,Nekrasovsky:4 District,0,Nekrasovsky:4 District,0
+[CLS] Alebtong:4 is the capital of [MASK] [MASK] . [SEP],the province,Alebtong:4 District,0,Alebtong:4 District,0
+[CLS] Oyam:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Oyam:2 District,0,Oyam:2 District,0
+"[CLS] Ruja:3 , Lower Silesian Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Ruja:3,0,Gmina Ruja:3,0
+[CLS] Smolensk:4 is the capital of [MASK] [MASK] . [SEP],the Ukraine,Smolensk:4 Oblast,0,Smolensk:4 Oblast,0
+[CLS] Trogen:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the the ando:2 region,Appenzell:4 Ausserrhoden:5,0,Appenzell:4 Ausserrhoden:5,0
+[CLS] Hallstahammar:4 is the capital of [MASK] [MASK] . [SEP],the Sweden,Hallstahammar:4 Municipality,0,Hallstahammar:4 Municipality,0
+[CLS] Chieti:2 is the capital of [MASK] . [SEP],Italy,Province of Chieti:2,0,Province of Chieti:2,0
+[CLS] Oryol:3 is the capital of [MASK] [MASK] . [SEP],the province,Oryol:3 Oblast,0,Oryol:3 Oblast,0
+[CLS] San José is the capital of [MASK] [MASK] . [SEP],the province,Costa Rica,0,Costa Rica,0
+[CLS] Barwick:2 in Elmet:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and andn:2 region,Elmet:2,0,Elmet:2,0
+[CLS] Pawnee:3 is the capital of [MASK] [MASK] . [SEP],the state,Pawnee:3 County,0,Pawnee:3 County,0
+[CLS] Canton is the capital of [MASK] . [SEP],Canton,Lincoln County,0,Lincoln County,0
+[CLS] Tokushima:2 is the capital of [MASK] . [SEP],Japan,Tokushima:2 Prefecture,0,Tokushima:2 Prefecture,0
+[CLS] Udanin:3 is the capital of [MASK] [MASK] . [SEP],the province,Gmina Udanin:3,0,Gmina Udanin:3,0
+[CLS] Frederikshavn:6 is the capital of [MASK] . [SEP],Denmark,Frederikshavn:6 Municipality,0,Frederikshavn:6 Municipality,0
+[CLS] Naryn:2 is the capital of [MASK] [MASK] . [SEP],the province,Naryn:2 Region,0,Naryn:2 Region,0
+[CLS] Kaesong:3 is the capital of [MASK] [MASK] . [SEP],the Myanmar,Taebong:3,0,Taebong:3,0
+[CLS] Hultsfred:3 is the capital of [MASK] . [SEP],Sweden,Hultsfred:3 Municipality,0,Hultsfred:3 Municipality,0
+[CLS] La Paz is the capital of [MASK] . [SEP],Bolivia,Baja California Sur,0,Baja California Sur,0
+[CLS] Maros:2 is the capital of [MASK] [MASK] . [SEP],the Albania,Maros:2,0,Maros:2,0
+[CLS] Tsarevo:2 is the capital of [MASK] [MASK] . [SEP],the republic,Tsarevo:2 Municipality,0,Tsarevo:2 Municipality,0
+[CLS] Dhaka is the capital of [MASK] . [SEP],Bangladesh,East Pakistan,0,East Pakistan,0
+[CLS] Kimberley:2 is the capital of [MASK] [MASK] . [SEP],the Africa,Northern Cape,0,Northern Cape,0
+[CLS] Krushari:3 is the capital of [MASK] [MASK] . [SEP],the district,Krushari:3 Municipality,0,Krushari:3 Municipality,0
+"[CLS] Kluki:3 , Łódź Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Kluki:3,0,Gmina Kluki:3,0
+[CLS] Thohoyandou:6 is the capital of [MASK] [MASK] . [SEP],the commune,Vhembe:3 District Municipality,0,Vhembe:3 District Municipality,0
+[CLS] Kolchugino:5 is the capital of [MASK] [MASK] . [SEP],the district,Kolchuginsky:5 District,0,Kolchuginsky:5 District,0
+[CLS] Waupaca:4 is the capital of [MASK] [MASK] . [SEP],the state,Waupaca:4 County,0,Waupaca:4 County,0
+[CLS] Forster is the capital of [MASK] [MASK] . [SEP],the Ghana,Great Lakes Council,0,Great Lakes Council,0
+[CLS] Trnava:3 is the capital of [MASK] . [SEP],Slovakia,Roman Catholic Archdiocese of Esztergom:5,0,Roman Catholic Archdiocese of Esztergom:5,0
+[CLS] Verkhnyaya:5 Toyma:2 is the capital of [MASK] [MASK] . [SEP],the district,Verkhnetoyemsky:7 District,0,Verkhnetoyemsky:7 District,0
+[CLS] Kimovsk:3 is the capital of [MASK] . [SEP],Ukraine,Kimovsky:2 District,0,Kimovsky:2 District,0
+[CLS] Szczucin:5 is the capital of [MASK] [MASK] . [SEP],the county,Gmina Szczucin:5,0,Gmina Szczucin:5,0
+"[CLS] Rzeczyca:5 , Gmina Rzeczyca:5 is the capital of [MASK] . [SEP]",Poland,Gmina Rzeczyca:5,0,Gmina Rzeczyca:5,0
+[CLS] Basseterre:3 is the capital of [MASK] [MASK] . [SEP],the department,Saint Kitts:2 and Nevis:3,0,Saint Kitts:2 and Nevis:3,0
+[CLS] Tapaktuan:4 is the capital of [MASK] . [SEP],Brunei,Aceh:2 Selatan:3,0,Aceh:2 Selatan:3,0
+[CLS] Valchedram:3 is the capital of [MASK] [MASK] . [SEP],the Nepal,Valchedram:3 Municipality,0,Valchedram:3 Municipality,0
+[CLS] Moskorzew:4 is the capital of [MASK] . [SEP],Poland,Gmina Moskorzew:4,0,Gmina Moskorzew:4,0
+[CLS] Moss Vale is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ands:2 region,Wingecarribee:4 Shire,0,Wingecarribee:4 Shire,0
+[CLS] Yass:2 is the capital of [MASK] [MASK] . [SEP],the Yemen,Yass:2 Valley Council,0,Yass:2 Valley Council,0
+[CLS] Taloqan:4 is the capital of [MASK] [MASK] . [SEP],the province,Takhar:2,0,Takhar:2,0
+[CLS] Polokwane:4 is the capital of [MASK] . [SEP],Botswana,Capricorn:3 District Municipality,0,Capricorn:3 District Municipality,0
+[CLS] Natitingou:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Atakora:3 Department,0,Atakora:3 Department,0
+[CLS] Leninogorsk:3 is the capital of [MASK] [MASK] . [SEP],the republic,Leninogorsky:4 District,0,Leninogorsky:4 District,0
+[CLS] Bautzen:3 is the capital of [MASK] [MASK] . [SEP],the canton,Bautzen:3 District,0,Bautzen:3 District,0
+[CLS] Craiova:3 is the capital of [MASK] . [SEP],Romania,Dolj:3 County,0,Dolj:3 County,0
+[CLS] Lima is the capital of [MASK] . [SEP],Peru,Viceroyalty:3 of Perú:2,0,Viceroyalty:3 of Perú:2,0
+[CLS] Srednekolymsk:7 is the capital of [MASK] [MASK] . [SEP],the region,Srednekolymsky:7 District,0,Srednekolymsky:7 District,0
+[CLS] Avarga:2 is the capital of [MASK] [MASK] . [SEP],the state,Mongol Empire,0,Mongol Empire,0
+[CLS] Karachev:2 is the capital of [MASK] . [SEP],Bulgaria,Karachevsky:3 District,0,Karachevsky:3 District,0
+[CLS] Maturín:3 is the capital of [MASK] [MASK] . [SEP],the municipality,Monagas:2,0,Monagas:2,0
+[CLS] Malabo:3 is the capital of [MASK] [MASK] . [SEP],the province,Bioko:3 Norte Province,0,Bioko:3 Norte Province,0
+[CLS] Krasnoznamensk:7 is the capital of [MASK] [MASK] . [SEP],the district,Krasnoznamensky:6 District,0,Krasnoznamensky:6 District,0
+[CLS] Khislavichi:4 is the capital of [MASK] [MASK] . [SEP],the district,Khislavichsky:5 District,0,Khislavichsky:5 District,0
+[CLS] Srednyaya:4 Akhtuba:4 is the capital of [MASK] [MASK] . [SEP],the district,Sredneakhtubinsky:7 District,0,Sredneakhtubinsky:7 District,0
+[CLS] Radziemice:5 is the capital of [MASK] [MASK] . [SEP],the Poland,Gmina Radziemice:5,0,Gmina Radziemice:5,0
+[CLS] Stavros:3 is the capital of [MASK] . [SEP],Greece,Volvi:2 Municipality,0,Volvi:2 Municipality,0
+[CLS] Limoges:3 is the capital of [MASK] [MASK] . [SEP],the department,Haute - Vienne:2,0,Haute - Vienne:2,0
+[CLS] Falset:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Priorat:2,0,Priorat:2,0
+[CLS] Oklahoma City is the capital of [MASK] . [SEP],Oklahoma,Oklahoma County,0,Oklahoma County,0
+[CLS] Kerteminde:4 is the capital of [MASK] [MASK] . [SEP],the province,Kerteminde:4 Municipality,0,Kerteminde:4 Municipality,0
+[CLS] Milan is the capital of [MASK] . [SEP],Italy,Golden Ambrosian:3 Republic,0,Golden Ambrosian:3 Republic,0
+[CLS] Herat:2 is the capital of [MASK] [MASK] . [SEP],the Afghanistan,Kartids:3,0,Kartids:3,0
+[CLS] Keshena:3 is the capital of [MASK] . [SEP],Ethiopia,Menominee:3 County,0,Menominee:3 County,0
+[CLS] Zinder:2 is the capital of [MASK] [MASK] . [SEP],the Sudan,Zinder:2 Region,0,Zinder:2 Region,0
+[CLS] Freetown:2 is the capital of [MASK] [MASK] . [SEP],the state,Sierra Leone,0,Sierra Leone,0
+[CLS] Sechura:3 is the capital of [MASK] [MASK] . [SEP],the province,Sechura:3 Province,0,Sechura:3 Province,0
+[CLS] Angers:2 is the capital of [MASK] [MASK] . [SEP],the department,Anjou:2,0,Anjou:2,0
+"[CLS] Wilczyce:5 , Świętokrzyskie:7 Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Wilczyce:5,0,Gmina Wilczyce:5,0
+[CLS] Purcell:3 is the capital of [MASK] [MASK] . [SEP],the Guyana,McClain:4 County,0,McClain:4 County,0
+[CLS] Windsor is the capital of [MASK] . [SEP],Canada,Vermont Republic,0,Vermont Republic,0
+[CLS] Accra:3 is the capital of [MASK] . [SEP],Ghana,Greater Accra:3 Region,0,Greater Accra:3 Region,0
+[CLS] Bingara:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Gwydir:3 Shire,0,Gwydir:3 Shire,0
+[CLS] Levelland:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,Hockley:3 County,0,Hockley:3 County,0
+[CLS] Banjul:3 is the capital of [MASK] [MASK] . [SEP],the province,Gambia:3,0,Gambia:3,0
+[CLS] Märsta:4 is the capital of [MASK] . [SEP],Finland,Sigtuna:3 Municipality,0,Sigtuna:3 Municipality,0
+[CLS] Stawell:3 is the capital of [MASK] [MASK] . [SEP],the county,Shire of Northern Grampians:3,0,Shire of Northern Grampians:3,0
+[CLS] Ranong:3 is the capital of [MASK] [MASK] . [SEP],the province,Ranong:3,0,Ranong:3,0
+[CLS] Lotoshino:3 is the capital of [MASK] [MASK] . [SEP],the province,Lotoshinsky:3 District,0,Lotoshinsky:3 District,0
+[CLS] Hakodate:3 is the capital of [MASK] [MASK] . [SEP],the prefecture,Oshima:2 Subprefecture:5,0,Oshima:2 Subprefecture:5,0
+[CLS] Rivne:3 is the capital of [MASK] [MASK] . [SEP],the Ukraine,Rivne:3 Raion:2,0,Rivne:3 Raion:2,0
+[CLS] Redwood:2 City is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP],the ando:2 state,San Mateo County,0,San Mateo County,0
+[CLS] Djursholm:4 is the capital of [MASK] [MASK] . [SEP],the Sweden,Danderyd:3 Municipality,0,Danderyd:3 Municipality,0
+[CLS] Besançon:4 is the capital of [MASK] [MASK] . [SEP],the department,Doubs:3,0,Doubs:3,0
+[CLS] Malvern:2 is the capital of [MASK] . [SEP],Worcestershire,City of Stonnington:3,0,City of Stonnington:3,0
+[CLS] Korbach:3 is the capital of [MASK] [MASK] . [SEP],the Austria,Waldeck:3 - Frankenberg:2,0,Waldeck:3 - Frankenberg:2,0
+[CLS] Lutomiersk:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Silesian Voivodeship,Gmina Lutomiersk:4,0,Gmina Lutomiersk:4,0
+"[CLS] Radwanice:4 , Polkowice:3 County is the capital of [MASK] [MASK] . [SEP]",the county,Gmina Radwanice:4,0,Gmina Radwanice:4,0
+[CLS] Lesnoye:3 is the capital of [MASK] [MASK] . [SEP],the province,Lesnoy:2 District,0,Lesnoy:2 District,0
+[CLS] Toguchin:3 is the capital of [MASK] [MASK] . [SEP],the province,Toguchinsky:3 District,0,Toguchinsky:3 District,0
+[CLS] Dmosin:3 is the capital of [MASK] . [SEP],Chad,Gmina Dmosin:3,0,Gmina Dmosin:3,0
+[CLS] Melaka:2 City is the capital of [MASK] . [SEP],Malaysia,Melaka:2,0,Melaka:2,0
+[CLS] Malaybalay:3 is the capital of [MASK] . [SEP],Brunei,Bukidnon:4,0,Bukidnon:4,0
+[CLS] Barad:2 - dûr:3 is the capital of [MASK] [MASK] . [SEP],the Yemen,Mordor:3,0,Mordor:3,0
+[CLS] Pretoria:2 is the capital of [MASK] [MASK] . [SEP],the Africa,South Africa,0,South Africa,0
+[CLS] Ouagadougou:5 is the capital of [MASK] [MASK] . [SEP],the department,Burkina Faso,0,Burkina Faso,0
+[CLS] Hot Springs is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP],the ando:2 state,Oglala:4 Lakota:3 County,0,Oglala:4 Lakota:3 County,0
+[CLS] Gavrilov:4 - Yam:2 is the capital of [MASK] [MASK] . [SEP],the republic,Gavrilov:4 - Yamsky:3 District,0,Gavrilov:4 - Yamsky:3 District,0
+[CLS] Sumy:2 is the capital of [MASK] [MASK] . [SEP],the province,Sumy:2 Oblast,0,Sumy:2 Oblast,0
+[CLS] Winner is the capital of [MASK] [MASK] . [SEP],the state,Tripp:2 County,0,Tripp:2 County,0
+[CLS] Daet:2 is the capital of [MASK] [MASK] . [SEP],the province,Camarines:3 Norte,0,Camarines:3 Norte,0
+[CLS] Penza:2 is the capital of [MASK] [MASK] . [SEP],the province,Penza:2 Oblast,0,Penza:2 Oblast,0
+[CLS] Oconto:3 is the capital of [MASK] [MASK] . [SEP],the state,Oconto:3 County,0,Oconto:3 County,0
+[CLS] Samarinda:3 is the capital of [MASK] [MASK] . [SEP],the province,East Kalimantan:3,0,East Kalimantan:3,0
+[CLS] Middelfart:4 is the capital of [MASK] [MASK] . [SEP],the municipality,Middelfart:4 Municipality,0,Middelfart:4 Municipality,0
+[CLS] Appenzell:4 is the capital of [MASK] [MASK] . [SEP],the Austria,Appenzell:4,0,Appenzell:4,0
+[CLS] Szczecin:5 is the capital of [MASK] [MASK] . [SEP],the county,Swedish Pomerania,0,Swedish Pomerania,0
+[CLS] Iquitos:3 is the capital of [MASK] [MASK] . [SEP],the Ecuador,Maynas:2 Province,0,Maynas:2 Province,0
+[CLS] Maymana:2 is the capital of [MASK] [MASK] . [SEP],the Uganda,Faryab:3,0,Faryab:3,0
+[CLS] Saipan:2 is the capital of [MASK] [MASK] . [SEP],the Philippines,Trust Territory of the Pacific Islands,0,Trust Territory of the Pacific Islands,0
+[CLS] Saalfeld:3 is the capital of [MASK] . [SEP],Germany,Saxe:2 - Coburg:2 - Saalfeld:3,0,Saxe:2 - Coburg:2 - Saalfeld:3,0
+[CLS] Fort Portal is the capital of [MASK] [MASK] . [SEP],the Mexico,Kabarole:3 District,0,Kabarole:3 District,0
+[CLS] Yelnya:3 is the capital of [MASK] [MASK] . [SEP],the district,Yelninsky:4 District,0,Yelninsky:4 District,0
+[CLS] Athens is the capital of [MASK] . [SEP],Greece,Duchy of Athens,0,Duchy of Athens,0
+[CLS] Kamionka:3 Wielka:3 is the capital of [MASK] . [SEP],Poland,Gmina Kamionka:3 Wielka:3,0,Gmina Kamionka:3 Wielka:3,0
+[CLS] Vyborg:3 is the capital of [MASK] [MASK] . [SEP],the Finland,Vyborgsky:4 District,0,Vyborgsky:4 District,0
+[CLS] Cape Town is the capital of [MASK] [MASK] . [SEP],the Africa,South Africa,0,South Africa,0
+[CLS] Chiprovtsi:4 is the capital of [MASK] [MASK] . [SEP],the district,Chiprovtsi:4 Municipality,0,Chiprovtsi:4 Municipality,0
+[CLS] Yuzhno:4 - Sakhalinsk:4 is the capital of [MASK] [MASK] . [SEP],the district,Sakhalin:3 Oblast,0,Sakhalin:3 Oblast,0
+[CLS] Toamasina:4 is the capital of [MASK] [MASK] . [SEP],the province,Toamasina:4 Province,0,Toamasina:4 Province,0
+"[CLS] Ustye:3 , Ust:2 - Kubinsky:3 District , Vologda:3 Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Ust:2 - Kubinsky:3 District,0,Ust:2 - Kubinsky:3 District,0
+[CLS] M ' banza:2 - Kongo:2 is the capital of [MASK] [MASK] . [SEP],the province,Zaire:2 Province,0,Zaire:2 Province,0
+[CLS] Volos:2 is the capital of [MASK] . [SEP],Greece,Magnesia:3 Prefecture,0,Magnesia:3 Prefecture,0
+[CLS] Warsaw is the capital of [MASK] . [SEP],Poland,Congress Poland,0,Congress Poland,0
+[CLS] Pierre is the capital of [MASK] [MASK] . [SEP],the Gabon,Hughes County,0,Hughes County,0
+[CLS] Syracuse is the capital of [MASK] . [SEP],Sicily,Province of Syracuse,0,Province of Syracuse,0
+[CLS] Chaplygin:4 is the capital of [MASK] [MASK] . [SEP],the Kyrgyzstan,Chaplyginsky:5 District,0,Chaplyginsky:5 District,0
+[CLS] La Crosse:2 is the capital of [MASK] . [SEP],Wisconsin,La Crosse:2 County,0,La Crosse:2 County,0
+[CLS] Hanoi:2 is the capital of [MASK] . [SEP],Vietnam,Tonkin:3,0,Tonkin:3,0
+[CLS] Camberwell:3 is the capital of [MASK] [MASK] . [SEP],the Guyana,City of Boroondara:4,0,City of Boroondara:4,0
+[CLS] Soltsy:3 is the capital of [MASK] [MASK] . [SEP],the region,Soletsky:3 District,0,Soletsky:3 District,0
+[CLS] Stellenbosch:5 is the capital of [MASK] [MASK] . [SEP],the province,Stellenbosch:5 Local Municipality,0,Stellenbosch:5 Local Municipality,0
+[CLS] Skanderborg:4 is the capital of [MASK] . [SEP],Denmark,Skanderborg:4 Municipality,0,Skanderborg:4 Municipality,0
+[CLS] Kirundo:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Kirundo:3 Province,0,Kirundo:3 Province,0
+[CLS] Palmas:2 is the capital of [MASK] . [SEP],Palma,Tocantins:4,0,Tocantins:4,0
+[CLS] Obo:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Haut:2 - Mbomou:4 Prefecture,0,Haut:2 - Mbomou:4 Prefecture,0
+[CLS] Ploiești:4 is the capital of [MASK] [MASK] . [SEP],the county,Prahova:3 County,0,Prahova:3 County,0
+[CLS] Mauritsstad:4 is the capital of [MASK] . [SEP],Estonia,Dutch Brazil,0,Dutch Brazil,0
+[CLS] Secemin:3 is the capital of [MASK] [MASK] . [SEP],the province,Gmina Secemin:3,0,Gmina Secemin:3,0
+[CLS] Novokhopyorsk:5 is the capital of [MASK] [MASK] . [SEP],the republic,Novokhopyorsky:6 District,0,Novokhopyorsky:6 District,0
+[CLS] Bloemfontein:6 is the capital of [MASK] [MASK] . [SEP],the province,Free State,0,Free State,0
+[CLS] Bistrica:3 ob:2 Sotli:3 is the capital of [MASK] [MASK] . [SEP],the municipality,Bistrica:3 ob:2 Sotli:3 Municipality,0,Bistrica:3 ob:2 Sotli:3 Municipality,0
+[CLS] Madill:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,Marshall County,0,Marshall County,0
+[CLS] Stilwell:3 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ands:2 region,Adair:2 County,0,Adair:2 County,0
+[CLS] Igualada:4 is the capital of [MASK] [MASK] . [SEP],the state,Anoia:3,0,Anoia:3,0
+[CLS] Kavarna:3 is the capital of [MASK] . [SEP],Estonia,Kavarna:3 Municipality,0,Kavarna:3 Municipality,0
+[CLS] Serebryanye:4 Prudy:3 is the capital of [MASK] [MASK] . [SEP],the district,Serebryano:4 - Prudsky:3 District,0,Serebryano:4 - Prudsky:3 District,0
+[CLS] Olenyok:3 is the capital of [MASK] . [SEP],Ukraine,Olenyoksky:4 District,0,Olenyoksky:4 District,0
+[CLS] Miedzichowo:5 is the capital of [MASK] [MASK] [MASK] . [SEP],the Silesian Voivodeship,Gmina Miedzichowo:5,0,Gmina Miedzichowo:5,0
+[CLS] Ljusdal:4 is the capital of [MASK] [MASK] . [SEP],the municipality,Ljusdal:4 Municipality,0,Ljusdal:4 Municipality,0
+[CLS] Palmyra:2 is the capital of [MASK] [MASK] . [SEP],the Libya,Palmyrene:3 Empire,0,Palmyrene:3 Empire,0
+[CLS] Malczyce:4 is the capital of [MASK] [MASK] . [SEP],the county,Gmina Malczyce:4,0,Gmina Malczyce:4,0
+"[CLS] Jerzmanowice:5 , Lesser Poland Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Jerzmanowice:5 - Przeginia:4,0,Gmina Jerzmanowice:5 - Przeginia:4,0
+[CLS] Chita:2 is the capital of [MASK] [MASK] . [SEP],the state,Zabaykalsky:5 Krai:2,0,Zabaykalsky:5 Krai:2,0
+[CLS] Sar:2 - e Pol is the capital of [MASK] [MASK] . [SEP],the province,Sar:2 - e Pol,0,Sar:2 - e Pol,0
+[CLS] Huancavelica:5 is the capital of [MASK] [MASK] . [SEP],the province,Huancavelica:5,0,Huancavelica:5,0
+[CLS] Sarnen:3 is the capital of [MASK] [MASK] . [SEP],the province,Obwalden:4,0,Obwalden:4,0
+[CLS] Aubagne:3 is the capital of [MASK] [MASK] . [SEP],the department,canton of Aubagne:3 - Ouest:2,0,canton of Aubagne:3 - Ouest:2,0
+[CLS] Ibadan:3 is the capital of [MASK] . [SEP],Nigeria,Oyo:2 State,0,Oyo:2 State,0
+[CLS] Yukhnov:3 is the capital of [MASK] [MASK] . [SEP],the district,Yukhnovsky:4 District,0,Yukhnovsky:4 District,0
+[CLS] Ban Houayxay:4 is the capital of [MASK] [MASK] . [SEP],the province,Bokeo:3 Province,0,Bokeo:3 Province,0
+[CLS] Mansa:2 is the capital of [MASK] [MASK] . [SEP],the province,Luapula:3 Province,0,Luapula:3 Province,0
+[CLS] Douala:3 is the capital of [MASK] . [SEP],Cameroon,Kamerun:3,0,Kamerun:3,0
+[CLS] Arezzo:2 is the capital of [MASK] . [SEP],Italy,Province of Arezzo:2,0,Province of Arezzo:2,0
+[CLS] Quthing:3 is the capital of [MASK] [MASK] . [SEP],the province,Quthing:3 District,0,Quthing:3 District,0
+[CLS] Atoka:2 is the capital of [MASK] [MASK] . [SEP],the Uganda,Atoka:2 County,0,Atoka:2 County,0
+[CLS] Orléans is the capital of [MASK] . [SEP],France,Centre - Val de Loire,0,Centre - Val de Loire,0
+[CLS] Jérémie:4 is the capital of [MASK] [MASK] . [SEP],the department,Grand ' Anse:2,0,Grand ' Anse:2,0
+[CLS] Hyltebruk:5 is the capital of [MASK] . [SEP],Iceland,Hylte:3 Municipality,0,Hylte:3 Municipality,0
+[CLS] Wiryeseong:5 is the capital of [MASK] . [SEP],Korea,Baekje:3,0,Baekje:3,0
+[CLS] Leksand:3 is the capital of [MASK] [MASK] . [SEP],the Estonia,Leksand:3 Municipality,0,Leksand:3 Municipality,0
+[CLS] Surigao:3 City is the capital of [MASK] [MASK] . [SEP],the Philippines,Surigao:3 del Norte,0,Surigao:3 del Norte,0
+[CLS] Ngeremasch:4 is the capital of [MASK] [MASK] . [SEP],the province,Angaur:3,0,Angaur:3,0
+[CLS] Black River Falls is the capital of [MASK] [MASK] . [SEP],the Guyana,Jackson County,0,Jackson County,0
+[CLS] Blagodarny:5 is the capital of [MASK] [MASK] . [SEP],the region,Blagodarnensky:5 District,0,Blagodarnensky:5 District,0
+[CLS] Konstanz:4 is the capital of [MASK] [MASK] . [SEP],the Austria,Petershausen:2 Abbey,0,Petershausen:2 Abbey,0
+"[CLS] Zielonki:4 , Lesser Poland Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Zielonki:4,0,Gmina Zielonki:4,0
+[CLS] Maasin:3 is the capital of [MASK] [MASK] . [SEP],the province,Southern Leyte:2,0,Southern Leyte:2,0
+[CLS] Galewice:3 is the capital of [MASK] . [SEP],Poland,Gmina Galewice:3,0,Gmina Galewice:3,0
+[CLS] Arsk:2 is the capital of [MASK] [MASK] . [SEP],the Kyrgyzstan,Arsky:3 District,0,Arsky:3 District,0
+[CLS] Milwaukee is the capital of [MASK] . [SEP],Wisconsin,Milwaukee County,0,Milwaukee County,0
+[CLS] Pechory:3 is the capital of [MASK] . [SEP],Ukraine,Pechorsky:4 District,0,Pechorsky:4 District,0
+[CLS] Raya:2 is the capital of [MASK] [MASK] . [SEP],the district,Simalungun:4,0,Simalungun:4,0
+[CLS] Trujillo:4 is the capital of [MASK] [MASK] . [SEP],the province,Trujillo:4 District,0,Trujillo:4 District,0
+[CLS] The Valley is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ando:2 region,Anguilla:3,0,Anguilla:3,0
+[CLS] Mokhotlong:4 is the capital of [MASK] [MASK] . [SEP],the province,Mokhotlong:4 District,0,Mokhotlong:4 District,0
+[CLS] Palkino:3 is the capital of [MASK] [MASK] . [SEP],the Macedonia,Palkinsky:4 District,0,Palkinsky:4 District,0
+[CLS] Diébougou:5 is the capital of [MASK] [MASK] . [SEP],the department,Bougouriba:4 Province,0,Bougouriba:4 Province,0
+[CLS] Batumi:2 is the capital of [MASK] [MASK] . [SEP],the Georgia,Batumi:2 Oblast,0,Batumi:2 Oblast,0
+[CLS] Esk:2 is the capital of [MASK] [MASK] . [SEP],the Estonia,Somerset Region,0,Somerset Region,0
+[CLS] Aracaju:3 is the capital of [MASK] [MASK] . [SEP],the state,Sergipe:3,0,Sergipe:3,0
+[CLS] Nowogrodziec:5 is the capital of [MASK] [MASK] [MASK] . [SEP],the Silesian Voivodeship,Gmina Nowogrodziec:5,0,Gmina Nowogrodziec:5,0
+[CLS] Luang:2 Prabang:3 is the capital of [MASK] [MASK] . [SEP],the province,Kingdom of Laos,0,Kingdom of Laos,0
+[CLS] Ecbatana:4 is the capital of [MASK] [MASK] . [SEP],the state,Achaemenid:5 Empire,0,Achaemenid:5 Empire,0
+[CLS] Kannauj:4 is the capital of [MASK] [MASK] . [SEP],the state,Maukhari:3,0,Maukhari:3,0
+[CLS] London is the capital of [MASK] . [SEP],England,Kingdom of Essex,0,Kingdom of Essex,0
+[CLS] Leningradskaya:2 ( rural locality ) is the capital of [MASK] [MASK] . [SEP],the district,Leningradsky:2 District,0,Leningradsky:2 District,0
+[CLS] Ajdabiya:5 is the capital of [MASK] [MASK] . [SEP],the province,Al Wahat:3 District,0,Al Wahat:3 District,0
+[CLS] Moscow is the capital of [MASK] . [SEP],Russia,Moscow Oblast,0,Moscow Oblast,0
+[CLS] Tokat:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Tokat:2 Province,0,Tokat:2 Province,0
+[CLS] Bobrov:2 is the capital of [MASK] [MASK] . [SEP],the republic,Bobrovsky:3 District,0,Bobrovsky:3 District,0
+[CLS] Mathoura:3 is the capital of [MASK] [MASK] . [SEP],the Chad,Murray Shire,0,Murray Shire,0
+[CLS] Apriltsi:3 is the capital of [MASK] [MASK] . [SEP],the district,Apriltsi:3 Municipality,0,Apriltsi:3 Municipality,0
+[CLS] Guadalajara is the capital of [MASK] . [SEP],Mexico,Guadalajara Province,0,Guadalajara Province,0
+[CLS] Papeete:3 is the capital of [MASK] [MASK] . [SEP],the Ecuador,French Polynesia:3,0,French Polynesia:3,0
+[CLS] Pisco:2 is the capital of [MASK] [MASK] . [SEP],the Ecuador,Pisco:2 Province,0,Pisco:2 Province,0
+[CLS] Montpellier:3 is the capital of [MASK] . [SEP],France,Languedoc:3 - Roussillon:4,0,Languedoc:3 - Roussillon:4,0
+[CLS] Livadeia:3 is the capital of [MASK] [MASK] . [SEP],the region,Boeotia:3 Regional Unit,0,Boeotia:3 Regional Unit,0
+[CLS] Chang ' an is the capital of [MASK] . [SEP],China,Former Qin,0,Former Qin,0
+[CLS] Kaufman is the capital of [MASK] [MASK] . [SEP],the state,Kaufman County,0,Kaufman County,0
+[CLS] Sarmizegetusa:5 Regia:2 is the capital of [MASK] [MASK] . [SEP],the province,Dacia:2,0,Dacia:2,0
+[CLS] Cibitoke:4 is the capital of [MASK] [MASK] . [SEP],the province,Cibitoke:4 Province,0,Cibitoke:4 Province,0
+[CLS] Agadez:3 is the capital of [MASK] [MASK] . [SEP],the Chad,Agadez:3 Region,0,Agadez:3 Region,0
+[CLS] Créteil:4 is the capital of [MASK] [MASK] . [SEP],the department,Val - de - Marne:2,0,Val - de - Marne:2,0
+[CLS] Erfurt:3 is the capital of [MASK] . [SEP],Germany,Thuringia:4,0,Thuringia:4,0
+[CLS] London is the capital of [MASK] . [SEP],England,Great Britain,0,Great Britain,0
+[CLS] Kurganinsk:4 is the capital of [MASK] [MASK] . [SEP],the district,Kurganinsky:4 District,0,Kurganinsky:4 District,0
+[CLS] Bologna is the capital of [MASK] . [SEP],Italy,Province of Bologna,0,Province of Bologna,0
+[CLS] Arish:2 is the capital of [MASK] [MASK] . [SEP],the Armenia,North Sinai Governorate,0,North Sinai Governorate,0
+[CLS] Denton is the capital of [MASK] . [SEP],Texas,Denton County,0,Denton County,0
+[CLS] Kungsbacka:4 is the capital of [MASK] . [SEP],Sweden,Kungsbacka:4 Municipality,0,Kungsbacka:4 Municipality,0
+[CLS] Pécs:3 is the capital of [MASK] . [SEP],Hungary,Baranya:3 County,0,Baranya:3 County,0
+[CLS] Asheboro:2 is the capital of [MASK] . [SEP],Georgia,Randolph County,0,Randolph County,0
+"[CLS] Bieliny:4 , Świętokrzyskie:7 Voivodeship is the capital of [MASK] [MASK] . [SEP]",the county,Gmina Bieliny:4,0,Gmina Bieliny:4,0
+[CLS] Luoyang:3 is the capital of [MASK] . [SEP],China,Eastern Wei,0,Eastern Wei,0
+[CLS] Victoria is the capital of [MASK] . [SEP],Victoria,Seychelles:3,0,Seychelles:3,0
+[CLS] Valls:2 is the capital of [MASK] [MASK] . [SEP],the Ecuador,Alt Camp,0,Alt Camp,0
+[CLS] Pola:2 de Siero:2 is the capital of [MASK] [MASK] . [SEP],the province,Siero:2,0,Siero:2,0
+[CLS] Bongao:3 is the capital of [MASK] [MASK] . [SEP],the province,Tawi:2 - Tawi:2,0,Tawi:2 - Tawi:2,0
+[CLS] Salem is the capital of [MASK] [MASK] . [SEP],the India,Salem Municipality,0,Salem Municipality,0
+[CLS] Bari is the capital of [MASK] [MASK] . [SEP],the province,Apulia:3,0,Apulia:3,0
+[CLS] Krasny:3 is the capital of [MASK] [MASK] . [SEP],the Ukraine,"Krasninsky:4 District , Smolensk:4 Oblast",0,"Krasninsky:4 District , Smolensk:4 Oblast",0
+[CLS] Polkowice:3 is the capital of [MASK] . [SEP],Poland,Polkowice:3 County,0,Polkowice:3 County,0
+[CLS] New Braunfels:3 is the capital of [MASK] [MASK] . [SEP],the Austria,Comal:2 County,0,Comal:2 County,0
+[CLS] Nouakchott:5 is the capital of [MASK] [MASK] . [SEP],the country,Mauritania:3,0,Mauritania:3,0
+[CLS] Lwengo:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Lwengo:3 District,0,Lwengo:3 District,0
+[CLS] Astrakhan:4 is the capital of [MASK] [MASK] . [SEP],the district,Astrakhan:4 Oblast,0,Astrakhan:4 Oblast,0
+[CLS] Grullos:4 is the capital of [MASK] [MASK] . [SEP],the province,Candamu:3,0,Candamu:3,0
+[CLS] Shwebo:4 is the capital of [MASK] [MASK] . [SEP],the Ghana,Konbaung:4 Dynasty,0,Konbaung:4 Dynasty,0
+[CLS] Upington:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,ZF:2 Mgcawu:4 District Municipality,0,ZF:2 Mgcawu:4 District Municipality,0
+[CLS] Pol - e Alam:2 is the capital of [MASK] [MASK] . [SEP],the province,Logar:2,0,Logar:2,0
+[CLS] Kasimov:4 is the capital of [MASK] [MASK] . [SEP],the district,Qasim:3 Khanate:2,0,Qasim:3 Khanate:2,0
+[CLS] Ystad:2 is the capital of [MASK] [MASK] . [SEP],the Finland,Ystad:2 Municipality,0,Ystad:2 Municipality,0
+[CLS] Calais is the capital of [MASK] . [SEP],France,canton of Calais - Centre,0,canton of Calais - Centre,0
+[CLS] Gangtok:2 is the capital of [MASK] . [SEP],Bhutan,Sikkim:3,0,Sikkim:3,0
+[CLS] Kampong:3 Chhnang:3 is the capital of [MASK] . [SEP],Cambodia,Kampong:3 Chhnang:3 Province,0,Kampong:3 Chhnang:3 Province,0
+[CLS] Diego Garcia is the capital of [MASK] [MASK] . [SEP],the state,British Indian Ocean Territory,0,British Indian Ocean Territory,0
+[CLS] Zagrodno:4 is the capital of [MASK] [MASK] . [SEP],the region,Gmina Zagrodno:4,0,Gmina Zagrodno:4,0
+[CLS] Fond:2 du Lac is the capital of [MASK] . [SEP],Wisconsin,Fond:2 du Lac County,0,Fond:2 du Lac County,0
+[CLS] Opatowiec:4 is the capital of [MASK] . [SEP],Poland,Gmina Opatowiec:4,0,Gmina Opatowiec:4,0
+[CLS] Mogilany:4 is the capital of [MASK] [MASK] . [SEP],the province,Gmina Mogilany:4,0,Gmina Mogilany:4,0
+[CLS] Lelystad:3 is the capital of [MASK] [MASK] . [SEP],the Norway,Flevoland:4,0,Flevoland:4,0
+[CLS] Dobroszyce:5 is the capital of [MASK] [MASK] . [SEP],the county,Gmina Dobroszyce:5,0,Gmina Dobroszyce:5,0
+[CLS] Blagoevgrad:5 is the capital of [MASK] . [SEP],Bulgaria,Blagoevgrad:5 Municipality,0,Blagoevgrad:5 Municipality,0
+[CLS] Rozprza:5 is the capital of [MASK] . [SEP],Poland,Gmina Rozprza:5,0,Gmina Rozprza:5,0
+[CLS] Gatton:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Lockyer:2 Valley Region,0,Lockyer:2 Valley Region,0
+[CLS] Puerto Williams is the capital of [MASK] [MASK] . [SEP],the Venezuela,Cabo:3 de Hornos:2,0,Cabo:3 de Hornos:2,0
+[CLS] Eau:2 Claire is the capital of [MASK] . [SEP],Wisconsin,Eau:2 Claire County,0,Eau:2 Claire County,0
+[CLS] Llamellín:4 is the capital of [MASK] [MASK] . [SEP],the municipality,Antonio Raymondi:2 Province,0,Antonio Raymondi:2 Province,0
+[CLS] Butha:2 - Buthe:2 is the capital of [MASK] [MASK] . [SEP],the state,Butha:2 - Buthe:2 District,0,Butha:2 - Buthe:2 District,0
+[CLS] Formosa:2 is the capital of [MASK] [MASK] . [SEP],the Philippines,Formosa:2 Province,0,Formosa:2 Province,0
+[CLS] Banlung:2 is the capital of [MASK] [MASK] . [SEP],the Nepal,Ratanakiri:4 Province,0,Ratanakiri:4 Province,0
+[CLS] Delhi is the capital of [MASK] . [SEP],India,Sur Empire,0,Sur Empire,0
+[CLS] Karasuk:3 is the capital of [MASK] [MASK] . [SEP],the province,Karasuksky:4 District,0,Karasuksky:4 District,0
+[CLS] Lubawka:4 is the capital of [MASK] . [SEP],Zambia,Gmina Lubawka:4,0,Gmina Lubawka:4,0
+[CLS] Mahikeng:4 is the capital of [MASK] [MASK] . [SEP],the province,Bechuanaland:4 Protectorate:4,0,Bechuanaland:4 Protectorate:4,0
+[CLS] St . George ' s is the capital of [MASK] [MASK] . [SEP],the Guyana,Grenada:3,0,Grenada:3,0
+[CLS] Charaideo:4 is the capital of [MASK] [MASK] . [SEP],the district,Ahom:2 kingdom,0,Ahom:2 kingdom,0
+[CLS] Nwoya:3 is the capital of [MASK] [MASK] . [SEP],the state,Nwoya:3 District,0,Nwoya:3 District,0
+[CLS] Martakert:3 is the capital of [MASK] [MASK] . [SEP],the Armenia,Martakert:3 Region,0,Martakert:3 Region,0
+[CLS] Boa:2 Vista is the capital of [MASK] [MASK] . [SEP],the state,Roraima:3,0,Roraima:3,0
+[CLS] St . John ' s is the capital of [MASK] . [SEP],Newfoundland,Newfoundland and Labrador,0,Newfoundland and Labrador,0
+[CLS] Raymond Terrace is the capital of [MASK] [MASK] . [SEP],the Guyana,Port Stephens Council,0,Port Stephens Council,0
+[CLS] Fort Worth is the capital of [MASK] . [SEP],Texas,Tarrant:3 County,0,Tarrant:3 County,0
+[CLS] Rethymno:4 is the capital of [MASK] [MASK] . [SEP],the Albania,Rethymno:4 Prefecture,0,Rethymno:4 Prefecture,0
+[CLS] Kolka:3 is the capital of [MASK] [MASK] . [SEP],the province,Kolka:3 Parish,0,Kolka:3 Parish,0
+[CLS] Piacenza:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italian region,Province of Piacenza:3,0,Province of Piacenza:3,0
+[CLS] Fribourg:4 is the capital of [MASK] . [SEP],Switzerland,Canton of Fribourg:4,0,Canton of Fribourg:4,0
+[CLS] Gyeongju:4 is the capital of [MASK] . [SEP],Korea,Silla:2,0,Silla:2,0
+[CLS] Aytos:3 is the capital of [MASK] [MASK] . [SEP],the region,Aytos:3 Municipality,0,Aytos:3 Municipality,0
+[CLS] Putina:2 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,San Antonio de Putina:2 Province,0,San Antonio de Putina:2 Province,0
+[CLS] Yurino:2 is the capital of [MASK] [MASK] . [SEP],the province,Yurinsky:2 District,0,Yurinsky:2 District,0
+[CLS] Novokubansk:4 is the capital of [MASK] [MASK] . [SEP],the republic,Novokubansky:4 District,0,Novokubansky:4 District,0
+[CLS] Bodaybo:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Bodaybinsky:4 District,0,Bodaybinsky:4 District,0
+[CLS] Gorodishche:4 is the capital of [MASK] [MASK] . [SEP],the district,Gorodishchensky:5 District,0,Gorodishchensky:5 District,0
+[CLS] Iquitos:3 is the capital of [MASK] [MASK] . [SEP],the Ecuador,Loreto:3,0,Loreto:3,0
+[CLS] Saint - Omer:2 is the capital of [MASK] [MASK] . [SEP],the department,canton of Saint - Omer:2 - Nord,0,canton of Saint - Omer:2 - Nord,0
+[CLS] Yadrin:3 is the capital of [MASK] [MASK] . [SEP],the province,Yadrinsky:4 District,0,Yadrinsky:4 District,0
+[CLS] Cape Coast is the capital of [MASK] [MASK] . [SEP],the Ghana,Central Region,0,Central Region,0
+[CLS] Kokstad:3 is the capital of [MASK] [MASK] . [SEP],the municipality,Griqualand:4 East,0,Griqualand:4 East,0
+[CLS] McAlester:5 is the capital of [MASK] [MASK] . [SEP],the county,Pittsburg:2 County,0,Pittsburg:2 County,0
+[CLS] Chandler is the capital of [MASK] . [SEP],Chandler,Lincoln County,0,Lincoln County,0
+[CLS] Lyantonde:4 is the capital of [MASK] [MASK] . [SEP],the province,Lyantonde:4 District,0,Lyantonde:4 District,0
+[CLS] Trenton is the capital of [MASK] [MASK] . [SEP],the Ghana,New Jersey,0,New Jersey,0
+[CLS] Virovitica:4 is the capital of [MASK] [MASK] . [SEP],the region,Virovitica:4 - Podravina:3 County,0,Virovitica:4 - Podravina:3 County,0
+[CLS] Dedovichi:4 is the capital of [MASK] [MASK] . [SEP],the district,Dedovichsky:4 District,0,Dedovichsky:4 District,0
+[CLS] Cajabamba:4 is the capital of [MASK] . [SEP],Bolivia,Cajabamba:4 Province,0,Cajabamba:4 Province,0
+[CLS] Podporozhye:6 is the capital of [MASK] [MASK] . [SEP],the district,Podporozhsky:6 District,0,Podporozhsky:6 District,0
+[CLS] Inza:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Inzensky:3 District,0,Inzensky:3 District,0
+[CLS] Towson:2 is the capital of [MASK] [MASK] . [SEP],the Australia,Baltimore County,0,Baltimore County,0
+[CLS] Firovo:3 is the capital of [MASK] [MASK] . [SEP],the republic,Firovsky:3 District,0,Firovsky:3 District,0
+[CLS] Versailles is the capital of [MASK] . [SEP],France,Yvelines:3,0,Yvelines:3,0
+[CLS] Bordeaux is the capital of [MASK] . [SEP],France,Nouvelle:3 - Aquitaine:2,0,Nouvelle:3 - Aquitaine:2,0
+[CLS] Novorzhev:5 is the capital of [MASK] [MASK] . [SEP],the district,Novorzhevsky:5 District,0,Novorzhevsky:5 District,0
+"[CLS] Sadkowice:4 , Łódź Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Sadkowice:4,0,Gmina Sadkowice:4,0
+[CLS] Turukhansk:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,Turukhansky:4 District,0,Turukhansky:4 District,0
+[CLS] Capesterre:3 - Belle - Eau:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and -ee:3,canton of Capesterre:3 - Belle - Eau:2 - 2,0,canton of Capesterre:3 - Belle - Eau:2 - 2,0
+"[CLS] Kibingo:3 , Uganda is the capital of [MASK] . [SEP]",Uganda,Sheema:2 District,0,Sheema:2 District,0
+[CLS] Maseru:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Maseru:3 District,0,Maseru:3 District,0
+[CLS] Sydney is the capital of [MASK] . [SEP],Australia,New South Wales,0,New South Wales,0
+[CLS] Lashkar:3 Gah:2 is the capital of [MASK] [MASK] . [SEP],the Bangladesh,Helmand:3,0,Helmand:3,0
+[CLS] Ust:2 - Tsilma:3 is the capital of [MASK] . [SEP],Uzbekistan,Ust:2 - Tsilemsky:4 District,0,Ust:2 - Tsilemsky:4 District,0
+[CLS] Georgiyevsk:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,Georgiyevsky:4 District,0,Georgiyevsky:4 District,0
+[CLS] Nanjing is the capital of [MASK] . [SEP],China,Wang Jingwei:2 regime,0,Wang Jingwei:2 regime,0
+[CLS] Meilen:2 is the capital of [MASK] [MASK] . [SEP],the Austria,Meilen:2 District,0,Meilen:2 District,0
+[CLS] Throckmorton:5 is the capital of [MASK] [MASK] . [SEP],the county,Throckmorton:5 County,0,Throckmorton:5 County,0
+[CLS] Arequipa:3 is the capital of [MASK] . [SEP],Peru,Arequipa:3,0,Arequipa:3,0
+[CLS] Grosseto:2 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italiano:2,Province of Grosseto:2,0,Province of Grosseto:2,0
+[CLS] Galkayo:4 is the capital of [MASK] [MASK] . [SEP],the province,Galmudug:5,0,Galmudug:5,0
+[CLS] Gladstone is the capital of [MASK] [MASK] . [SEP],the Australia,Gladstone Region,0,Gladstone Region,0
+[CLS] Bududa:2 is the capital of [MASK] [MASK] . [SEP],the Chad,Bududa:2 District,0,Bududa:2 District,0
+[CLS] Kirillov:3 is the capital of [MASK] [MASK] . [SEP],the republic,Kirillovsky:3 District,0,Kirillovsky:3 District,0
+[CLS] Rzezawa:3 is the capital of [MASK] [MASK] . [SEP],the prefecture,Gmina Rzezawa:3,0,Gmina Rzezawa:3,0
+[CLS] Willemstad:2 is the capital of [MASK] [MASK] . [SEP],the Netherlands,Curaçao:4,0,Curaçao:4,0
+[CLS] Brades:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ando:2 region,Montserrat:3,0,Montserrat:3,0
+[CLS] Pronsk:3 is the capital of [MASK] [MASK] . [SEP],the region,Pronsky:2 District,0,Pronsky:2 District,0
+[CLS] Dmitriyev:4 is the capital of [MASK] [MASK] . [SEP],the district,Dmitriyevsky:5 District,0,Dmitriyevsky:5 District,0
+[CLS] Yanagawa:3 is the capital of [MASK] [MASK] . [SEP],the prefecture,Yanagawa:3 Domain,0,Yanagawa:3 Domain,0
+[CLS] Narrabri:3 is the capital of [MASK] [MASK] . [SEP],the Bangladesh,Narrabri:3 Shire,0,Narrabri:3 Shire,0
+[CLS] Puerto Princesa:2 is the capital of [MASK] [MASK] . [SEP],the province,Palawan:3,0,Palawan:3,0
+[CLS] Cosenza:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italian region,Province of Cosenza:3,0,Province of Cosenza:3,0
+[CLS] Milan is the capital of [MASK] . [SEP],Italy,Western Roman Empire,0,Western Roman Empire,0
+[CLS] Ryazhsk:5 is the capital of [MASK] [MASK] . [SEP],the district,Ryazhsky:5 District,0,Ryazhsky:5 District,0
+[CLS] Odder:2 is the capital of [MASK] [MASK] . [SEP],the Norway,Odder:2 Municipality,0,Odder:2 Municipality,0
+[CLS] Mihtarlam:4 is the capital of [MASK] [MASK] . [SEP],the province,Laghman:3,0,Laghman:3,0
+[CLS] Heidelberg is the capital of [MASK] . [SEP],Germany,Electoral Palatinate,0,Electoral Palatinate,0
+[CLS] Bukwa:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Bukwo:3 District,0,Bukwo:3 District,0
+[CLS] Morozovsk:5 is the capital of [MASK] [MASK] . [SEP],the republic,Morozovsky:4 District,0,Morozovsky:4 District,0
+[CLS] Athens is the capital of [MASK] . [SEP],Greece,Kingdom of Greece,0,Kingdom of Greece,0
+[CLS] Catbalogan:3 is the capital of [MASK] [MASK] . [SEP],the province,Samar:2,0,Samar:2,0
+[CLS] Constantinople is the capital of [MASK] . [SEP],Turkey,Byzantine Empire,0,Byzantine Empire,0
+[CLS] Zaranj:3 is the capital of [MASK] [MASK] . [SEP],the province,Saffarid:4 dynasty,0,Saffarid:4 dynasty,0
+[CLS] Minsk is the capital of [MASK] . [SEP],Belarus,Minsk Voivodeship,0,Minsk Voivodeship,0
+[CLS] Semiluki:3 is the capital of [MASK] [MASK] . [SEP],the district,Semiluksky:3 District,0,Semiluksky:3 District,0
+[CLS] Mata - Utu:2 is the capital of [MASK] [MASK] . [SEP],the province,Wallis and Futuna:3,0,Wallis and Futuna:3,0
+[CLS] Porto is the capital of [MASK] . [SEP],Portugal,Porto District,0,Porto District,0
+[CLS] Bandera:2 is the capital of [MASK] [MASK] . [SEP],the province,Bandera:2 County,0,Bandera:2 County,0
+[CLS] Wrocław:2 is the capital of [MASK] . [SEP],Poland,Lower Silesian Voivodeship,0,Lower Silesian Voivodeship,0
+[CLS] Chang ' an is the capital of [MASK] . [SEP],China,Han dynasty,0,Han dynasty,0
+[CLS] Granbury:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,Hood County,0,Hood County,0
+[CLS] Vilanova:3 i la Geltrú:4 is the capital of [MASK] . [SEP],Catalonia,Garraf:3,0,Garraf:3,0
+[CLS] Pesaro:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italian region,Pesaro:3 and Urbino:3 Province,0,Pesaro:3 and Urbino:3 Province,0
+[CLS] Troyes:2 is the capital of [MASK] [MASK] . [SEP],the department,Aube:2,0,Aube:2,0
+[CLS] Asti:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Province of Asti:2,0,Province of Asti:2,0
+[CLS] Saratov:2 is the capital of [MASK] . [SEP],Russia,Saratov:2 Governorate,0,Saratov:2 Governorate,0
+[CLS] Namtsy:3 is the capital of [MASK] [MASK] . [SEP],the province,Namsky:2 District,0,Namsky:2 District,0
+[CLS] Dalmatovo:3 is the capital of [MASK] . [SEP],Croatia,Dalmatovsky:3 District,0,Dalmatovsky:3 District,0
+[CLS] Voinjama:4 is the capital of [MASK] [MASK] . [SEP],the province,Lofa:2 County,0,Lofa:2 County,0
+[CLS] Gerung:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Lombok:3 Barat:2,0,Lombok:3 Barat:2,0
+[CLS] Sankt:2 Veit:2 an der Glan:2 is the capital of [MASK] [MASK] . [SEP],the canton,Duchy of Carinthia:3,0,Duchy of Carinthia:3,0
+[CLS] Johor:2 Bahru:3 is the capital of [MASK] . [SEP],Malaysia,Johor:2,0,Johor:2,0
+[CLS] Bogoria:3 is the capital of [MASK] [MASK] . [SEP],the province,Gmina Bogoria:3,0,Gmina Bogoria:3,0
+[CLS] Porto Alegre:3 is the capital of [MASK] [MASK] . [SEP],the state,Rio Grande do Sul,0,Rio Grande do Sul,0
+[CLS] Stare:2 Bogaczowice:5 is the capital of [MASK] [MASK] . [SEP],the district,Gmina Stare:2 Bogaczowice:5,0,Gmina Stare:2 Bogaczowice:5,0
+[CLS] Tirana is the capital of [MASK] . [SEP],Albania,People ' s Socialist Republic of Albania,0,People ' s Socialist Republic of Albania,0
+[CLS] Mbeya:3 is the capital of [MASK] [MASK] . [SEP],the province,Mbeya:3 Region,0,Mbeya:3 Region,0
+[CLS] Ostashkov:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,Ostashkovsky:5 District,0,Ostashkovsky:5 District,0
+[CLS] Lagawe:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Ifugao:3,0,Ifugao:3,0
+[CLS] Campbell ' s Bay is the capital of [MASK] [MASK] . [SEP],the Tasmania,Pontiac Regional County Municipality,0,Pontiac Regional County Municipality,0
+[CLS] Brak:2 is the capital of [MASK] [MASK] . [SEP],the Macedonia,Wadi:2 al Shatii:3 District,0,Wadi:2 al Shatii:3 District,0
+[CLS] Seville is the capital of [MASK] . [SEP],Spain,Andalusia:4,0,Andalusia:4,0
+[CLS] Novouzensk:4 is the capital of [MASK] [MASK] . [SEP],the district,Novouzensky:4 District,0,Novouzensky:4 District,0
+[CLS] Bacolod:4 is the capital of [MASK] [MASK] . [SEP],the province,Negros:2 Occidental:4,0,Negros:2 Occidental:4,0
+[CLS] Mafeteng:4 is the capital of [MASK] [MASK] . [SEP],the province,Mafeteng:4 District,0,Mafeteng:4 District,0
+[CLS] Fier:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and andi:2 region,Fier:2 County,0,Fier:2 County,0
+[CLS] Bolzano:3 is the capital of [MASK] . [SEP],Italy,South Tyrol:2,0,South Tyrol:2,0
+[CLS] Ye is the capital of [MASK] . [SEP],Ye,Northern Qi,0,Northern Qi,0
+[CLS] Misrata:3 is the capital of [MASK] [MASK] . [SEP],the province,Misrata:3 District,0,Misrata:3 District,0
+[CLS] Rustenburg:3 is the capital of [MASK] [MASK] . [SEP],the Poland,Bojanala:3 Platinum District Municipality,0,Bojanala:3 Platinum District Municipality,0
+[CLS] Khabarovsk:5 is the capital of [MASK] [MASK] . [SEP],the republic,Khabarovsky:4 District,0,Khabarovsky:4 District,0
+[CLS] Ascoli:3 Piceno:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italian region,Province of Ascoli:3 Piceno:3,0,Province of Ascoli:3 Piceno:3,0
+[CLS] Maracaibo:4 is the capital of [MASK] [MASK] . [SEP],the state,Zulia:3,0,Zulia:3,0
+[CLS] Melbourne is the capital of [MASK] [MASK] . [SEP],the Australia,City of Melbourne,0,City of Melbourne,0
+[CLS] Shuri:2 Castle is the capital of [MASK] [MASK] . [SEP],the district,Ryukyu:4 Kingdom,0,Ryukyu:4 Kingdom,0
+[CLS] Stockport:2 is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP],the and and region,Stockport:2,0,Stockport:2,0
+[CLS] Alor:2 Setar:2 is the capital of [MASK] [MASK] . [SEP],the province,Kedah:2,0,Kedah:2,0
+[CLS] Olszyna:4 is the capital of [MASK] [MASK] . [SEP],the county,Gmina Olszyna:4,0,Gmina Olszyna:4,0
+[CLS] Seattle is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ands:2 region,King County,0,King County,0
+[CLS] Albany is the capital of [MASK] [MASK] . [SEP],the state,New York,0,New York,0
+[CLS] Coracora:3 is the capital of [MASK] [MASK] . [SEP],the province,Parinacochas:5 Province,0,Parinacochas:5 Province,0
+[CLS] Haikou:3 is the capital of [MASK] [MASK] . [SEP],the province,Hainan:2,0,Hainan:2,0
+"[CLS] Rusiec:4 , Łódź Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Rusiec:4,0,Gmina Rusiec:4,0
+[CLS] Ulundi:3 is the capital of [MASK] . [SEP],Uganda,Ulundi:3 Local Municipality,0,Ulundi:3 Local Municipality,0
+[CLS] Sorel:2 ‐ Tracy is the capital of [MASK] [MASK] . [SEP],the Congo,Pierre - De Saurel:3 Regional County Municipality,0,Pierre - De Saurel:3 Regional County Municipality,0
+[CLS] Tainan:2 is the capital of [MASK] [MASK] . [SEP],the province,Kingdom of Tungning:3,0,Kingdom of Tungning:3,0
+[CLS] Chiclayo:4 is the capital of [MASK] [MASK] . [SEP],the province,Lambayeque:4,0,Lambayeque:4,0
+[CLS] Pursat:3 is the capital of [MASK] [MASK] . [SEP],the province,Pursat:3 Province,0,Pursat:3 Province,0
+[CLS] St . Pölten:3 is the capital of [MASK] [MASK] . [SEP],the Austria,Lower Austria,0,Lower Austria,0
+[CLS] Ulan:2 - Ude:2 is the capital of [MASK] [MASK] . [SEP],the Kyrgyzstan,Republic of Buryatia:3,0,Republic of Buryatia:3,0
+[CLS] Villajoyosa:3 is the capital of [MASK] [MASK] . [SEP],the province,Marina Baixa:2,0,Marina Baixa:2,0
+[CLS] Werden:2 is the capital of [MASK] [MASK] . [SEP],the Netherlands,Werden:2 Abbey,0,Werden:2 Abbey,0
+[CLS] Bariadi:2 is the capital of [MASK] [MASK] . [SEP],the province,Simiyu:3 Region,0,Simiyu:3 Region,0
+[CLS] Kotelnikovo:4 is the capital of [MASK] [MASK] . [SEP],the republic,Kotelnikovsky:4 District,0,Kotelnikovsky:4 District,0
+[CLS] Cuenca:3 is the capital of [MASK] . [SEP],Ecuador,Cuenca:3 Province,0,Cuenca:3 Province,0
+[CLS] Atuona:3 is the capital of [MASK] [MASK] . [SEP],the Samoa,Hiva:2 - Oa:2,0,Hiva:2 - Oa:2,0
+[CLS] Nanning:2 is the capital of [MASK] . [SEP],China,Guangxi:3 Zhuang:2 Autonomous Region,0,Guangxi:3 Zhuang:2 Autonomous Region,0
+[CLS] Mahdia:3 is the capital of [MASK] [MASK] . [SEP],the province,Fatimid:3 caliphate:4,0,Fatimid:3 caliphate:4,0
+[CLS] Nowe:2 Brzesko:4 is the capital of [MASK] . [SEP],Poland,Gmina Nowe:2 Brzesko:4,0,Gmina Nowe:2 Brzesko:4,0
+[CLS] Channing:2 is the capital of [MASK] [MASK] . [SEP],the India,Hartley County,0,Hartley County,0
+[CLS] Kandahar:3 is the capital of [MASK] . [SEP],Afghanistan,Kandahar:3,0,Kandahar:3,0
+[CLS] Lenine:2 is the capital of [MASK] [MASK] . [SEP],the Moldova,Lenine:2 Raion:2 of Crimea,0,Lenine:2 Raion:2 of Crimea,0
+"[CLS] Tyomkino:4 , Tyomkinskoye:5 Rural Settlement , Tyomkinsky:4 District , Smolensk:4 Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Tyomkinsky:4 District,0,Tyomkinsky:4 District,0
+[CLS] Orekhovo:4 - Zuyevo:3 is the capital of [MASK] [MASK] . [SEP],the republic,Orekhovo:4 - Zuyevsky:4 District,0,Orekhovo:4 - Zuyevsky:4 District,0
+[CLS] Shumikha:3 is the capital of [MASK] [MASK] . [SEP],the district,Shumikhinsky:5 District,0,Shumikhinsky:5 District,0
+[CLS] Emerald is the capital of [MASK] [MASK] . [SEP],the state,Central Highlands Region,0,Central Highlands Region,0
+"[CLS] Grabica:3 , Piotrków:4 County is the capital of [MASK] [MASK] . [SEP]",the county,Gmina Grabica:3,0,Gmina Grabica:3,0
+[CLS] Belozersk:4 is the capital of [MASK] [MASK] . [SEP],the region,Belozersky:4 District,0,Belozersky:4 District,0
+[CLS] Kōfu:3 is the capital of [MASK] [MASK] . [SEP],the prefecture,Yamanashi:3 Prefecture,0,Yamanashi:3 Prefecture,0
+[CLS] Bobov:2 Dol:2 is the capital of [MASK] [MASK] . [SEP],the republic,Bobov:2 Dol:2 Municipality,0,Bobov:2 Dol:2 Municipality,0
+[CLS] Mglin:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Mglinsky:3 District,0,Mglinsky:3 District,0
+[CLS] Lebedyan:3 is the capital of [MASK] [MASK] . [SEP],the province,Lebedyansky:4 District,0,Lebedyansky:4 District,0
+[CLS] Erbil:3 is the capital of [MASK] [MASK] . [SEP],the Algeria,Kurdistan Region,0,Kurdistan Region,0
+[CLS] Abomey:4 is the capital of [MASK] [MASK] . [SEP],the department,Dahomey:3,0,Dahomey:3,0
+[CLS] Pskov:3 is the capital of [MASK] [MASK] . [SEP],the republic,Pskov:3 Oblast,0,Pskov:3 Oblast,0
+[CLS] Barranca:3 is the capital of [MASK] [MASK] . [SEP],the province,Barranca:3 Province,0,Barranca:3 Province,0
+[CLS] Stafford is the capital of [MASK] . [SEP],Staffordshire,Stafford County,0,Stafford County,0
+[CLS] Arochukwu:4 is the capital of [MASK] [MASK] . [SEP],the state,Aro:2 Confederacy,0,Aro:2 Confederacy,0
+[CLS] Matera:2 is the capital of [MASK] [MASK] . [SEP],the province,Province of Matera:2,0,Province of Matera:2,0
+[CLS] Totma:3 is the capital of [MASK] [MASK] . [SEP],the province,Totemsky:3 District,0,Totemsky:3 District,0
+"[CLS] Chernyanka:4 , Belgorod:3 Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Chernyansky:4 District,0,Chernyansky:4 District,0
+[CLS] Kundiawa:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Chimbu:3 Province,0,Chimbu:3 Province,0
+[CLS] Horsens:2 is the capital of [MASK] [MASK] . [SEP],the province,Horsens:2 Municipality,0,Horsens:2 Municipality,0
+[CLS] Zwolle:3 is the capital of [MASK] [MASK] . [SEP],the province,Overijssel:4,0,Overijssel:4,0
+"[CLS] Akyar:3 , Khaybullinsky:5 District , Republic of Bashkortostan:5 is the capital of [MASK] [MASK] . [SEP]",the district,Khaybullinsky:5 District,0,Khaybullinsky:5 District,0
+[CLS] Djurås:5 is the capital of [MASK] . [SEP],Sweden,Gagnef:4 Municipality,0,Gagnef:4 Municipality,0
+[CLS] Knyaginino:4 is the capital of [MASK] [MASK] . [SEP],the district,Knyagininsky:5 District,0,Knyagininsky:5 District,0
+[CLS] Kirovsk:3 is the capital of [MASK] [MASK] . [SEP],the republic,Kirovsky:3 District,0,Kirovsky:3 District,0
+[CLS] Surabaya:3 is the capital of [MASK] . [SEP],Indonesia,East Java,0,East Java,0
+[CLS] Przeworno:5 is the capital of [MASK] . [SEP],Poland,Gmina Przeworno:5,0,Gmina Przeworno:5,0
+[CLS] Kirov:2 is the capital of [MASK] [MASK] . [SEP],the republic,Kirov:2 Oblast,0,Kirov:2 Oblast,0
+[CLS] Chukhloma:4 is the capital of [MASK] [MASK] . [SEP],the district,Chukhlomsky:5 District,0,Chukhlomsky:5 District,0
+[CLS] Kumla:3 is the capital of [MASK] [MASK] . [SEP],the district,Kumla:3 Municipality,0,Kumla:3 Municipality,0
+[CLS] Nowe:2 Ostrowy:3 is the capital of [MASK] . [SEP],Poland,Gmina Nowe:2 Ostrowy:3,0,Gmina Nowe:2 Ostrowy:3,0
+[CLS] Oskarshamn:4 is the capital of [MASK] [MASK] . [SEP],the Sweden,Oskarshamn:4 Municipality,0,Oskarshamn:4 Municipality,0
+[CLS] Dili:2 is the capital of [MASK] [MASK] . [SEP],the province,Portuguese Timor,0,Portuguese Timor,0
+[CLS] Nukus:3 is the capital of [MASK] [MASK] . [SEP],the country,Karakalpakstan:5,0,Karakalpakstan:5,0
+[CLS] Baia:2 is the capital of [MASK] [MASK] . [SEP],the province,Principality:2 of Moldavia:3,0,Principality:2 of Moldavia:3,0
+[CLS] Ngazargamu:4 is the capital of [MASK] [MASK] . [SEP],the district,Bornu:2 Empire,0,Bornu:2 Empire,0
+[CLS] Siena is the capital of [MASK] [MASK] . [SEP],the Italy,Province of Siena,0,Province of Siena,0
+[CLS] Bilbao:3 is the capital of [MASK] [MASK] . [SEP],the province,Biscay:4,0,Biscay:4,0
+[CLS] Beirut is the capital of [MASK] . [SEP],Lebanon,Mount Lebanon Governorate,0,Mount Lebanon Governorate,0
+[CLS] Lauterbach:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Palatinate Palatinate,Vogelsbergkreis:5,0,Vogelsbergkreis:5,0
+[CLS] Belo:2 Horizonte:2 is the capital of [MASK] [MASK] . [SEP],the state,Minas Gerais:3,0,Minas Gerais:3,0
+[CLS] Nikolsk:3 is the capital of [MASK] . [SEP],Russia,Nikolsky:3 District,0,Nikolsky:3 District,0
+[CLS] Yoshkar:3 - Ola:2 is the capital of [MASK] [MASK] . [SEP],the Kyrgyzstan,Mari Autonomous Soviet Socialist Republic,0,Mari Autonomous Soviet Socialist Republic,0
+[CLS] Ghanzi:3 is the capital of [MASK] [MASK] . [SEP],the province,Ghanzi:3 District,0,Ghanzi:3 District,0
+[CLS] Kralendijk:5 is the capital of [MASK] [MASK] [MASK] . [SEP],the Dutch Netherlands,Bonaire:2,0,Bonaire:2,0
+[CLS] Frederikssund:5 is the capital of [MASK] . [SEP],Denmark,Frederikssund:5 Municipality,0,Frederikssund:5 Municipality,0
+[CLS] Bayreuth:3 is the capital of [MASK] . [SEP],Germany,Upper Franconia:2,0,Upper Franconia:2,0
+[CLS] Smolyaninovo:5 is the capital of [MASK] [MASK] . [SEP],the district,Shkotovsky:4 District,0,Shkotovsky:4 District,0
+[CLS] Campobasso:3 is the capital of [MASK] [MASK] . [SEP],the province,Molise:3,0,Molise:3,0
+[CLS] Visby:3 is the capital of [MASK] . [SEP],Sweden,Gotland:2 Municipality,0,Gotland:2 Municipality,0
+[CLS] Mito:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Ibaraki:3 Prefecture,0,Ibaraki:3 Prefecture,0
+[CLS] Portsmouth is the capital of [MASK] [MASK] . [SEP],the England,Province of New Hampshire,0,Province of New Hampshire,0
+[CLS] Ho Chi Minh City is the capital of [MASK] . [SEP],Vietnam,State of Vietnam,0,State of Vietnam,0
+[CLS] Gießen:4 is the capital of [MASK] [MASK] . [SEP],the district,Giessen:3 Government Region,0,Giessen:3 Government Region,0
+[CLS] Nakhon:3 Sawan:2 is the capital of [MASK] [MASK] . [SEP],the province,Nakhon:3 Sawan:2,0,Nakhon:3 Sawan:2,0
+[CLS] Florence is the capital of [MASK] . [SEP],Italy,Province of Florence,0,Province of Florence,0
+[CLS] Minneapolis is the capital of [MASK] . [SEP],Minnesota,Ottawa County,0,Ottawa County,0
+[CLS] Appleton:2 is the capital of [MASK] . [SEP],Wisconsin,Outagamie:3 County,0,Outagamie:3 County,0
+[CLS] Huanca:3 Sancos:2 is the capital of [MASK] [MASK] . [SEP],the province,Huanca:3 Sancos:2 Province,0,Huanca:3 Sancos:2 Province,0
+[CLS] Siteki:2 is the capital of [MASK] [MASK] . [SEP],the Macedonia,Lubombo:3 District,0,Lubombo:3 District,0
+[CLS] Dakar:2 is the capital of [MASK] . [SEP],Senegal,French West Africa,0,French West Africa,0
+[CLS] Dodgeville:2 is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP],the and state state,Iowa County,0,Iowa County,0
+[CLS] Avarua:3 is the capital of [MASK] [MASK] . [SEP],the district,Cook Islands,0,Cook Islands,0
+[CLS] Mambajao:4 is the capital of [MASK] [MASK] . [SEP],the province,Camiguin:3,0,Camiguin:3,0
+[CLS] Uzhur:3 is the capital of [MASK] [MASK] . [SEP],the district,Uzhursky:4 District,0,Uzhursky:4 District,0
+[CLS] Nanjing is the capital of [MASK] . [SEP],China,Southern Tang,0,Southern Tang,0
+[CLS] Green Lake is the capital of [MASK] [MASK] . [SEP],the Guyana,Green Lake County,0,Green Lake County,0
+[CLS] Eldorado:3 is the capital of [MASK] [MASK] . [SEP],the province,Schleicher:4 County,0,Schleicher:4 County,0
+[CLS] Hobart is the capital of [MASK] . [SEP],Tasmania,Kiowa:2 County,0,Kiowa:2 County,0
+[CLS] Privolzhsk:7 is the capital of [MASK] [MASK] . [SEP],the district,Privolzhsky:7 District,0,Privolzhsky:7 District,0
+[CLS] Palma is the capital of [MASK] . [SEP],Palma,Balearic:3 Islands,0,Balearic:3 Islands,0
+[CLS] Stavroupoli:4 is the capital of [MASK] [MASK] . [SEP],the Macedonia,Pavlos:3 Melas:2 Municipality,0,Pavlos:3 Melas:2 Municipality,0
+[CLS] Krasnye:4 Baki:2 is the capital of [MASK] [MASK] . [SEP],the district,Krasnobakovsky:5 District,0,Krasnobakovsky:5 District,0
+[CLS] Edenhope:3 is the capital of [MASK] . [SEP],Botswana,Shire of West Wimmera:3,0,Shire of West Wimmera:3,0
+[CLS] Stara:2 Kamienica:3 is the capital of [MASK] . [SEP],Montenegro,Gmina Stara:2 Kamienica:3,0,Gmina Stara:2 Kamienica:3,0
+[CLS] Baghdad is the capital of [MASK] . [SEP],Iraq,Ba ' athist:3 Iraq,0,Ba ' athist:3 Iraq,0
+[CLS] Durant:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Bryan County,0,Bryan County,0
+[CLS] Varese:3 is the capital of [MASK] [MASK] . [SEP],the province,Province of Varese:3,0,Province of Varese:3,0
+[CLS] St . George is the capital of [MASK] [MASK] . [SEP],the Guyana,Washington County,0,Washington County,0
+[CLS] Lysekil:4 is the capital of [MASK] [MASK] . [SEP],the county,Lysekil:4 Municipality,0,Lysekil:4 Municipality,0
+[CLS] Painan:2 is the capital of [MASK] [MASK] . [SEP],the province,Pesisir:3 Selatan:3,0,Pesisir:3 Selatan:3,0
+[CLS] Kushchyovskaya:5 is the capital of [MASK] [MASK] . [SEP],the district,Kushchyovsky:4 District,0,Kushchyovsky:4 District,0
+[CLS] Windsor is the capital of [MASK] . [SEP],Canada,Essex County,0,Essex County,0
+[CLS] Flying Fish Cove is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ands:2 region,Christmas Island,0,Christmas Island,0
+[CLS] Pustec:3 is the capital of [MASK] [MASK] . [SEP],the province,Pustec:3 Municipality,0,Pustec:3 Municipality,0
+[CLS] Stockholm is the capital of [MASK] . [SEP],Sweden,Stockholm Municipality,0,Stockholm Municipality,0
+[CLS] Solothurn:3 is the capital of [MASK] . [SEP],Switzerland,Canton of Solothurn:3,0,Canton of Solothurn:3,0
+[CLS] Degerfors:4 is the capital of [MASK] . [SEP],Sweden,Degerfors:4 Municipality,0,Degerfors:4 Municipality,0
+[CLS] Sredets:3 is the capital of [MASK] [MASK] . [SEP],the region,Sredets:3 Municipality,0,Sredets:3 Municipality,0
+[CLS] Senftenberg:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the German Netherlands,Oberspreewald:4 - Lausitz:3 District,0,Oberspreewald:4 - Lausitz:3 District,0
+[CLS] Furmanov:3 is the capital of [MASK] [MASK] . [SEP],the province,Furmanovsky:3 District,0,Furmanovsky:3 District,0
+[CLS] Sarajevo is the capital of [MASK] . [SEP],Bosnia,Bosnia and Herzegovina,0,Bosnia and Herzegovina,0
+[CLS] Vaslui:4 is the capital of [MASK] [MASK] . [SEP],the county,Vaslui:4 County,0,Vaslui:4 County,0
+[CLS] Pipestone:3 is the capital of [MASK] [MASK] . [SEP],the Italy,Pipestone:3 County,0,Pipestone:3 County,0
+[CLS] Bathurst is the capital of [MASK] [MASK] . [SEP],the Africa,Bathurst Region,0,Bathurst Region,0
+[CLS] Slavsk:3 is the capital of [MASK] [MASK] . [SEP],the republic,Slavsky:3 District,0,Slavsky:3 District,0
+[CLS] Pama:2 is the capital of [MASK] [MASK] . [SEP],the province,Kompienga:4 Province,0,Kompienga:4 Province,0
+[CLS] Knin:2 is the capital of [MASK] [MASK] . [SEP],the region,SAO:2 Krajina:3,0,SAO:2 Krajina:3,0
+[CLS] Karachi is the capital of [MASK] . [SEP],Pakistan,West Pakistan,0,West Pakistan,0
+[CLS] Fort Nassau is the capital of [MASK] [MASK] . [SEP],the Bahamas,Dutch Gold Coast,0,Dutch Gold Coast,0
+[CLS] Tahoua:3 is the capital of [MASK] [MASK] . [SEP],the province,Tahoua:3 Region,0,Tahoua:3 Region,0
+[CLS] Kutchan:3 is the capital of [MASK] [MASK] . [SEP],the province,Shiribeshi:4 Subprefecture:5,0,Shiribeshi:4 Subprefecture:5,0
+"[CLS] Vacha:3 , Nizhny:4 Novgorod Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Vachsky:3 District,0,Vachsky:3 District,0
+[CLS] Naro:2 - Fominsk:4 is the capital of [MASK] [MASK] . [SEP],the district,Naro:2 - Fominsky:3 District,0,Naro:2 - Fominsky:3 District,0
+[CLS] Purwokerto:5 is the capital of [MASK] [MASK] . [SEP],the state,Banyumas:3,0,Banyumas:3,0
+[CLS] Kochubeyevskoye:5 is the capital of [MASK] [MASK] . [SEP],the district,Kochubeyevsky:4 District,0,Kochubeyevsky:4 District,0
+[CLS] Zadar:3 is the capital of [MASK] . [SEP],Croatia,Zadar:3 County,0,Zadar:3 County,0
+[CLS] Karuzi:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Karuzi:3 Province,0,Karuzi:3 Province,0
+[CLS] Tanumshede:4 is the capital of [MASK] [MASK] . [SEP],the Ghana,Tanum:2 Municipality,0,Tanum:2 Municipality,0
+[CLS] Urubamba:3 is the capital of [MASK] [MASK] . [SEP],the state,Urubamba:3 Province,0,Urubamba:3 Province,0
+[CLS] Kayes:2 is the capital of [MASK] . [SEP],Mali,Kayes:2 Region,0,Kayes:2 Region,0
+[CLS] Kondratowice:5 is the capital of [MASK] . [SEP],Poland,Gmina Kondratowice:5,0,Gmina Kondratowice:5,0
+[CLS] Rapid City is the capital of [MASK] [MASK] . [SEP],the state,Pennington:2 County,0,Pennington:2 County,0
+[CLS] Utsunomiya:4 is the capital of [MASK] . [SEP],Japan,Tochigi:3 Prefecture,0,Tochigi:3 Prefecture,0
+[CLS] Knoxville is the capital of [MASK] . [SEP],Tennessee,Knox County,0,Knox County,0
+[CLS] Chengdu:2 is the capital of [MASK] [MASK] . [SEP],the China,Shu Han,0,Shu Han,0
+[CLS] Belgrade is the capital of [MASK] . [SEP],Serbia,Kingdom of Serbia,0,Kingdom of Serbia,0
+[CLS] Recife:3 is the capital of [MASK] [MASK] . [SEP],the state,Pernambuco:4,0,Pernambuco:4,0
+[CLS] Sterlibashevo:6 is the capital of [MASK] [MASK] . [SEP],the republic,Sterlibashevsky:6 District,0,Sterlibashevsky:6 District,0
+[CLS] Grevenmacher:5 is the capital of [MASK] [MASK] . [SEP],the canton,Grevenmacher:5 District,0,Grevenmacher:5 District,0
+"[CLS] Dobrinka:3 , Lipetsk:3 Oblast is the capital of [MASK] [MASK] . [SEP]",the district,Dobrinsky:3 District,0,Dobrinsky:3 District,0
+[CLS] Catarman:3 is the capital of [MASK] [MASK] . [SEP],the province,Northern Samar:2,0,Northern Samar:2,0
+[CLS] Khandyga:3 is the capital of [MASK] [MASK] . [SEP],the district,Tomponsky:3 District,0,Tomponsky:3 District,0
+[CLS] Gorodets:3 is the capital of [MASK] [MASK] . [SEP],the republic,Gorodetsky:4 District,0,Gorodetsky:4 District,0
+[CLS] Kungsängen:5 is the capital of [MASK] [MASK] . [SEP],the Sweden,Upplands:3 - Bro:2 Municipality,0,Upplands:3 - Bro:2 Municipality,0
+[CLS] Sulphur:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the the state,Murray County,0,Murray County,0
+[CLS] Funafuti:3 is the capital of [MASK] [MASK] . [SEP],the Fiji,Tuvalu:3,0,Tuvalu:3,0
+[CLS] Port - de - Paix:2 is the capital of [MASK] [MASK] . [SEP],the department,Nord - Ouest:2,0,Nord - Ouest:2,0
+[CLS] Cibinong:4 is the capital of [MASK] [MASK] . [SEP],the province,Bogor:2,0,Bogor:2,0
+[CLS] Simferopol:5 is the capital of [MASK] . [SEP],Ukraine,Autonomous Republic of Crimea,0,Autonomous Republic of Crimea,0
+[CLS] Bitola:2 is the capital of [MASK] [MASK] . [SEP],the Albania,Monastir:3 Vilayet:4,0,Monastir:3 Vilayet:4,0
+[CLS] Eijsden:5 is the capital of [MASK] [MASK] . [SEP],the province,Eijsden:5 - Margraten:3,0,Eijsden:5 - Margraten:3,0
+[CLS] Saitama:3 is the capital of [MASK] [MASK] . [SEP],the province,Saitama:3 Prefecture,0,Saitama:3 Prefecture,0
+"[CLS] Sadowie:3 , Świętokrzyskie:7 Voivodeship is the capital of [MASK] [MASK] . [SEP]",the county,Gmina Sadowie:3,0,Gmina Sadowie:3,0
+[CLS] Ica:2 is the capital of [MASK] [MASK] . [SEP],the state,Ica:2 Province,0,Ica:2 Province,0
+[CLS] Wharton is the capital of [MASK] [MASK] . [SEP],the Pennsylvania,Wharton County,0,Wharton County,0
+"[CLS] Bykovo:3 , Volgograd:3 Oblast is the capital of [MASK] [MASK] . [SEP]",the republic,Bykovsky:3 District,0,Bykovsky:3 District,0
+[CLS] Talara:3 is the capital of [MASK] [MASK] . [SEP],the province,Talara:3 Province,0,Talara:3 Province,0
+[CLS] Öhringen:3 is the capital of [MASK] [MASK] . [SEP],the Austria,Hohenlohe:4,0,Hohenlohe:4,0
+[CLS] Yelan:2 is the capital of [MASK] [MASK] . [SEP],the province,Yelansky:3 District,0,Yelansky:3 District,0
+[CLS] Lukovit:3 is the capital of [MASK] [MASK] . [SEP],the Moldova,Lukovit:3 Municipality,0,Lukovit:3 Municipality,0
+[CLS] Ajaccio:4 is the capital of [MASK] [MASK] . [SEP],the province,Corsica:3,0,Corsica:3,0
+[CLS] Philip is the capital of [MASK] [MASK] . [SEP],the Colombia,Haakon:3 County,0,Haakon:3 County,0
+[CLS] Santiago de Rubiás:3 is the capital of [MASK] [MASK] . [SEP],the province,Couto:2 Misto:2,0,Couto:2 Misto:2,0
+[CLS] Yermolayevo:5 is the capital of [MASK] [MASK] . [SEP],the district,Kuyurgazinsky:5 District,0,Kuyurgazinsky:5 District,0
+[CLS] Nili:2 is the capital of [MASK] [MASK] . [SEP],the district,Daykundi:3,0,Daykundi:3,0
+[CLS] Carrizo:3 Springs is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the andoo:3 region,Dimmit:3 County,0,Dimmit:3 County,0
+[CLS] Kozan:2 is the capital of [MASK] [MASK] . [SEP],the province,Armenian Kingdom of Cilicia:3,0,Armenian Kingdom of Cilicia:3,0
+[CLS] Phnom:3 Penh:2 is the capital of [MASK] . [SEP],Cambodia,French Protectorate:4 of Cambodia,0,French Protectorate:4 of Cambodia,0
+[CLS] Brussels is the capital of [MASK] . [SEP],Belgium,Flemish Community,0,Flemish Community,0
+[CLS] Tripoli is the capital of [MASK] . [SEP],Libya,County of Tripoli,0,County of Tripoli,0
+[CLS] Yogyakarta:4 is the capital of [MASK] . [SEP],Indonesia,Yogyakarta:4 Sultanate,0,Yogyakarta:4 Sultanate,0
+[CLS] Pazin:2 is the capital of [MASK] [MASK] . [SEP],the province,Istria:3 County,0,Istria:3 County,0
+[CLS] Kesova:3 Gora:2 is the capital of [MASK] [MASK] . [SEP],the district,Kesovogorsky:5 District,0,Kesovogorsky:5 District,0
+[CLS] Chekmagush:5 is the capital of [MASK] [MASK] . [SEP],the province,Chekmagushevsky:6 District,0,Chekmagushevsky:6 District,0
+"[CLS] Florence ( CDP ) , Wisconsin is the capital of [MASK] . [SEP]",Florence,Florence County,0,Florence County,0
+"[CLS] Kije:2 , Świętokrzyskie:7 Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Kije:2,0,Gmina Kije:2,0
+[CLS] Koshekhabl:5 is the capital of [MASK] [MASK] . [SEP],the district,Koshekhablsky:6 District,0,Koshekhablsky:6 District,0
+[CLS] Abashiri:4 is the capital of [MASK] [MASK] . [SEP],the province,Okhotsk:3 Subprefecture:5,0,Okhotsk:3 Subprefecture:5,0
+[CLS] Sallisaw:3 is the capital of [MASK] [MASK] . [SEP],the state,Sequoyah:4 County,0,Sequoyah:4 County,0
+[CLS] La Plata is the capital of [MASK] . [SEP],Argentina,Charles County,0,Charles County,0
+[CLS] Leeton:2 is the capital of [MASK] [MASK] . [SEP],the Ghana,Leeton:2 Shire,0,Leeton:2 Shire,0
+[CLS] Dompu:2 is the capital of [MASK] [MASK] [MASK] . [SEP],the Andhra state,Dompu:2,0,Dompu:2,0
+[CLS] Katoomba:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,City of Blue Mountains,0,City of Blue Mountains,0
+[CLS] Swan Hill is the capital of [MASK] [MASK] . [SEP],the Guyana,Rural City of Swan Hill,0,Rural City of Swan Hill,0
+[CLS] Belgrade is the capital of [MASK] . [SEP],Serbia,Socialist Federal Republic of Yugoslavia,0,Socialist Federal Republic of Yugoslavia,0
+[CLS] Guryevsk:4 is the capital of [MASK] [MASK] . [SEP],the republic,Guryevsky:4 District,0,Guryevsky:4 District,0
+[CLS] Mogadishu:4 is the capital of [MASK] . [SEP],Somalia,Somali Republic,0,Somali Republic,0
+[CLS] West Wyalong:3 is the capital of [MASK] [MASK] . [SEP],the Botswana,Bland:2 Shire,0,Bland:2 Shire,0
+[CLS] Skopje:4 is the capital of [MASK] . [SEP],Macedonia,North Macedonia,0,North Macedonia,0
+[CLS] Benguela:3 is the capital of [MASK] . [SEP],Angola,Benguela:3 Province,0,Benguela:3 Province,0
+[CLS] Riversdale:2 is the capital of [MASK] [MASK] . [SEP],the Guyana,Hessequa:2 Local Municipality,0,Hessequa:2 Local Municipality,0
+[CLS] Kuopio:3 is the capital of [MASK] . [SEP],Finland,Kuopio:3 Province,0,Kuopio:3 Province,0
+[CLS] Fraga:2 is the capital of [MASK] [MASK] . [SEP],the province,Bajo:2 Cinca:3 / Baix:2 Cinca:3,0,Bajo:2 Cinca:3 / Baix:2 Cinca:3,0
+[CLS] Pointe:2 - Noire:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and -ee:3,Kouilou:3 Department,0,Kouilou:3 Department,0
+[CLS] Cuero:3 is the capital of [MASK] [MASK] . [SEP],the province,DeWitt:3 County,0,DeWitt:3 County,0
+[CLS] Tenkodogo:4 is the capital of [MASK] [MASK] . [SEP],the Ghana,Boulgou:4,0,Boulgou:4,0
+[CLS] Evinayong:4 is the capital of [MASK] [MASK] . [SEP],the province,Centro Sur Province,0,Centro Sur Province,0
+[CLS] Spirovo:4 is the capital of [MASK] [MASK] . [SEP],the republic,Spirovsky:4 District,0,Spirovsky:4 District,0
+"[CLS] Pielgrzymka:6 , Lower Silesian Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Pielgrzymka:6,0,Gmina Pielgrzymka:6,0
+[CLS] Petergof:3 is the capital of [MASK] [MASK] . [SEP],the Macedonia,Petrodvortsovy:6 District,0,Petrodvortsovy:6 District,0
+[CLS] Maitland:2 is the capital of [MASK] . [SEP],Scotland,City of Maitland:2,0,City of Maitland:2,0
+[CLS] Minsk is the capital of [MASK] . [SEP],Belarus,Commonwealth of Independent States,0,Commonwealth of Independent States,0
+[CLS] Pueblo is the capital of [MASK] . [SEP],Pueblo,Pueblo County,0,Pueblo County,0
+[CLS] Karlstadt:2 am Main is the capital of [MASK] . [SEP],Germany,Main - Spessart:4,0,Main - Spessart:4,0
+[CLS] Bangassou:3 is the capital of [MASK] [MASK] . [SEP],the Chad,Mbomou:4 Prefecture,0,Mbomou:4 Prefecture,0
+[CLS] Cheb:2 is the capital of [MASK] [MASK] . [SEP],the Chad,Cheb:2 District,0,Cheb:2 District,0
+[CLS] Ganja:3 is the capital of [MASK] [MASK] . [SEP],the province,Democratic Republic of Azerbaijan,0,Democratic Republic of Azerbaijan,0
+[CLS] Faiyum:4 is the capital of [MASK] [MASK] . [SEP],the province,Faiyum:4 Governorate,0,Faiyum:4 Governorate,0
+[CLS] Chippewa:3 Falls is the capital of [MASK] [MASK] . [SEP],the Canada,Chippewa:3 County,0,Chippewa:3 County,0
+[CLS] Seville is the capital of [MASK] . [SEP],Spain,Seville Province,0,Seville Province,0
+"[CLS] Sulmierzyce:5 , Łódź Voivodeship is the capital of [MASK] [MASK] . [SEP]",the county,Gmina Sulmierzyce:5,0,Gmina Sulmierzyce:5,0
+[CLS] Bagrationovsk:4 is the capital of [MASK] [MASK] . [SEP],the republic,Bagrationovsky:3 District,0,Bagrationovsky:3 District,0
+[CLS] Blois:3 is the capital of [MASK] [MASK] . [SEP],the province,Loir:2 - et - Cher:2,0,Loir:2 - et - Cher:2,0
+"[CLS] Radoszyce:4 , Świętokrzyskie:7 Voivodeship is the capital of [MASK] . [SEP]",Poland,Gmina Radoszyce:4,0,Gmina Radoszyce:4,0
+[CLS] Borongan:3 is the capital of [MASK] [MASK] . [SEP],the province,Eastern Samar:2,0,Eastern Samar:2,0
+[CLS] Banavasi:3 is the capital of [MASK] [MASK] . [SEP],the district,Kadamba:3 Dynasty,0,Kadamba:3 Dynasty,0
+[CLS] Milicz:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Silesian Voivodeship,Gmina Milicz:3,0,Gmina Milicz:3,0
+[CLS] Easton is the capital of [MASK] [MASK] . [SEP],the state,Talbot County,0,Talbot County,0
+[CLS] Kingston is the capital of [MASK] . [SEP],Jamaica,Norfolk Island,0,Norfolk Island,0
+[CLS] Tayshet:4 is the capital of [MASK] [MASK] . [SEP],the province,Tayshetsky:4 District,0,Tayshetsky:4 District,0
+[CLS] Cienfuegos:5 is the capital of [MASK] [MASK] . [SEP],the province,Cienfuegos:5 Province,0,Cienfuegos:5 Province,0
+[CLS] Otuke:3 is the capital of [MASK] [MASK] . [SEP],the Ghana,Otuke:3 District,0,Otuke:3 District,0
+[CLS] Falun:3 is the capital of [MASK] [MASK] . [SEP],the county,Dalarna:3 County,0,Dalarna:3 County,0
+[CLS] Virton:3 is the capital of [MASK] [MASK] . [SEP],the county,Gaume:3,0,Gaume:3,0
+[CLS] Bamyan:3 is the capital of [MASK] [MASK] . [SEP],the province,Bamyan:3,0,Bamyan:3,0
+[CLS] Adana:2 is the capital of [MASK] . [SEP],Turkey,Beylik:2 of Adana:2,0,Beylik:2 of Adana:2,0
+[CLS] Svedala:3 is the capital of [MASK] [MASK] . [SEP],the district,Svedala:3 Municipality,0,Svedala:3 Municipality,0
+[CLS] Mbarara:3 is the capital of [MASK] [MASK] . [SEP],the Uganda,Mbarara:3 District,0,Mbarara:3 District,0
+[CLS] Trnava:3 is the capital of [MASK] . [SEP],Slovakia,Trnava:3 District,0,Trnava:3 District,0
+[CLS] Belorechensk:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Russian region,Belorechensky:4 District,0,Belorechensky:4 District,0
+[CLS] Toyohashi:3 is the capital of [MASK] . [SEP],Japan,Yoshida:3 Domain,0,Yoshida:3 Domain,0
+[CLS] Ōtsu:2 is the capital of [MASK] [MASK] . [SEP],the prefecture,Shiga:2 Prefecture,0,Shiga:2 Prefecture,0
+[CLS] Yaransk:3 is the capital of [MASK] [MASK] . [SEP],the republic,Yaransky:3 District,0,Yaransky:3 District,0
+[CLS] Suez is the capital of [MASK] . [SEP],Egypt,Suez Governorate,0,Suez Governorate,0
+[CLS] Kharkiv:4 is the capital of [MASK] . [SEP],Ukraine,Ukrainian Soviet Socialist Republic,0,Ukrainian Soviet Socialist Republic,0
+[CLS] Mataró:3 is the capital of [MASK] [MASK] . [SEP],the state,Maresme:3,0,Maresme:3,0
+[CLS] Kirensk:3 is the capital of [MASK] [MASK] . [SEP],the Ukraine,Kirensky:3 District,0,Kirensky:3 District,0
+[CLS] Ilava:2 is the capital of [MASK] . [SEP],Estonia,Ilava:2 District,0,Ilava:2 District,0
+[CLS] Custer:2 is the capital of [MASK] [MASK] . [SEP],the Idaho,Custer:2 County,0,Custer:2 County,0
+[CLS] De Smet:2 is the capital of [MASK] [MASK] [MASK] . [SEP],the Belgian province,Kingsbury:2 County,0,Kingsbury:2 County,0
+[CLS] Midland is the capital of [MASK] . [SEP],Midland,Midland County,0,Midland County,0
+[CLS] Houston is the capital of [MASK] . [SEP],Texas,Harris County,0,Harris County,0
+[CLS] Deputatsky:4 is the capital of [MASK] [MASK] . [SEP],the republic,Ust:2 - Yansky:2 District,0,Ust:2 - Yansky:2 District,0
+[CLS] Tarata:2 is the capital of [MASK] [MASK] . [SEP],the province,Tarata:2 Province,0,Tarata:2 Province,0
+[CLS] Kampong:3 Speu:3 is the capital of [MASK] . [SEP],Cambodia,Kampong:3 Speu:3 Province,0,Kampong:3 Speu:3 Province,0
+[CLS] San Sebastián:4 de La Gomera:3 is the capital of [MASK] [MASK] . [SEP],the province,La Gomera:3,0,La Gomera:3,0
+[CLS] Vijaya:2 is the capital of [MASK] [MASK] . [SEP],the state,Champa:3,0,Champa:3,0
+[CLS] Frederick is the capital of [MASK] [MASK] . [SEP],the Liberia,Frederick County,0,Frederick County,0
+[CLS] Karaidel:3 is the capital of [MASK] [MASK] . [SEP],the province,Karaidelsky:4 District,0,Karaidelsky:4 District,0
+[CLS] Louis Trichardt:3 is the capital of [MASK] . [SEP],Mauritius,Makhado:3 Local Municipality,0,Makhado:3 Local Municipality,0
+[CLS] Tsu:2 is the capital of [MASK] [MASK] . [SEP],the province,Tsu:2 Domain,0,Tsu:2 Domain,0
+[CLS] Kon:2 Tum:2 is the capital of [MASK] . [SEP],Cambodia,Kon:2 Tum:2,0,Kon:2 Tum:2,0
+[CLS] Salekhard:3 is the capital of [MASK] [MASK] . [SEP],the province,Yamalo:3 - Nenets:3 Autonomous Okrug:2,0,Yamalo:3 - Nenets:3 Autonomous Okrug:2,0
+[CLS] Homs:2 is the capital of [MASK] . [SEP],Syria,Homs:2 Governorate,0,Homs:2 Governorate,0
+[CLS] Jamestown:2 is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the and ands:2 region,Colony of Virginia,0,Colony of Virginia,0
+[CLS] Macusani:3 is the capital of [MASK] [MASK] . [SEP],the province,Carabaya:3 Province,0,Carabaya:3 Province,0
+[CLS] Bilohirsk:4 is the capital of [MASK] [MASK] . [SEP],the republic,Bilohirsk:4 Raion:2,0,Bilohirsk:4 Raion:2,0
+[CLS] Bad Doberan:3 is the capital of [MASK] [MASK] . [SEP],the Austria,Bad Doberan:3 District,0,Bad Doberan:3 District,0
+[CLS] Camulodunum:4 is the capital of [MASK] [MASK] [MASK] . [SEP],the Roman kingdom,Roman Britain,0,Roman Britain,0
+[CLS] Badulla:3 is the capital of [MASK] [MASK] . [SEP],the province,Uva:2 Province,0,Uva:2 Province,0
+[CLS] Târgu:4 Jiu:2 is the capital of [MASK] [MASK] . [SEP],the county,Gorj:3 County,0,Gorj:3 County,0
+[CLS] Skopje:4 is the capital of [MASK] . [SEP],Macedonia,Serbian Empire,0,Serbian Empire,0
+[CLS] Proszowice:4 is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP],the Silesian Silesian Voivodeship,Proszowice:4 County,0,Proszowice:4 County,0
+[CLS] Sekondi:3 - Takoradi:3 is the capital of [MASK] . [SEP],Ghana,Western Region,0,Western Region,0
+[CLS] Washukanni:4 is the capital of [MASK] [MASK] . [SEP],the district,Mitanni:3,0,Mitanni:3,0
+[CLS] Plauen:3 is the capital of [MASK] [MASK] . [SEP],the Bavaria,Vogtlandkreis:5,0,Vogtlandkreis:5,0
+[CLS] Ye is the capital of [MASK] . [SEP],Ye,Later Zhao,0,Later Zhao,0
+[CLS] Krasnogorsk:5 is the capital of [MASK] . [SEP],Russia,"Krasnogorsky:5 District , Moscow Oblast",0,"Krasnogorsky:5 District , Moscow Oblast",0
+[CLS] Ust:2 - Kishert:3 is the capital of [MASK] . [SEP],Uzbekistan,Kishertsky:3 District,0,Kishertsky:3 District,0
+[CLS] Orange is the capital of [MASK] [MASK] . [SEP],the Guyana,Orange County,0,Orange County,0
+[CLS] Tottori:3 is the capital of [MASK] . [SEP],Japan,Tottori:3 Prefecture,0,Tottori:3 Prefecture,0
+[CLS] Pataliputra:4 is the capital of [MASK] [MASK] . [SEP],the district,Gupta Empire,0,Gupta Empire,0
+[CLS] Salò:2 is the capital of [MASK] [MASK] [MASK] . [SEP],the Italian region,Italian Social Republic,0,Italian Social Republic,0
+[CLS] Phichit:3 is the capital of [MASK] . [SEP],Thailand,Phichit:3,0,Phichit:3,0
+[CLS] Kumi:2 Town is the capital of [MASK] [MASK] . [SEP],the district,Kumi:2 District,0,Kumi:2 District,0
+[CLS] Batusangkar:4 is the capital of [MASK] [MASK] . [SEP],the province,Tanah:2 Datar:2,0,Tanah:2 Datar:2,0
+[CLS] Szczurowa:5 is the capital of [MASK] [MASK] . [SEP],the county,Gmina Szczurowa:5,0,Gmina Szczurowa:5,0
+[CLS] Cergy:2 is the capital of [MASK] [MASK] . [SEP],the province,Val - d ' Oise:2,0,Val - d ' Oise:2,0
+[CLS] Sendai:2 is the capital of [MASK] . [SEP],Japan,Sendai:2 Domain,0,Sendai:2 Domain,0
+[CLS] Luoyang:3 is the capital of [MASK] . [SEP],China,Cao Wei,0,Cao Wei,0
+[CLS] Nahan:2 is the capital of [MASK] [MASK] . [SEP],the province,Sirmaur:3 district,0,Sirmaur:3 district,0
+[CLS] Sukhumi:3 is the capital of [MASK] [MASK] [MASK] . [SEP],the Georgian region,Abkhazia:4,0,Abkhazia:4,0
+[CLS] Sargatskoye:5 is the capital of [MASK] [MASK] . [SEP],the republic,Sargatsky:3 District,0,Sargatsky:3 District,0
+[CLS] Malacky:3 is the capital of [MASK] [MASK] . [SEP],the Ukraine,Malacky:3 District,0,Malacky:3 District,0
+[CLS] Neman:2 is the capital of [MASK] [MASK] . [SEP],the state,Nemansky:3 District,0,Nemansky:3 District,0
+[CLS] Carthage is the capital of [MASK] [MASK] . [SEP],the Africa,Hancock County,0,Hancock County,0
+[CLS] Muroran:3 is the capital of [MASK] [MASK] . [SEP],the province,Iburi:3 Subprefecture:5,0,Iburi:3 Subprefecture:5,0
+"[CLS] Una , Himachal:2 Pradesh is the capital of [MASK] . [SEP]",India,Una district,0,Una district,0

@@ -168,8 +168,8 @@ if __name__ == '__main__':
                         choices=['lama', 'lama-uhn', 'mlama'], default='lama')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
-                        choices=['en', 'zh-cn', 'el', 'fr', 'nl'], default='en')
-    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use', choices=['el'], default=None)
+                        choices=['en', 'zh-cn', 'el', 'fr', 'nl', 'ru', 'ko'], default='en')
+    parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use', choices=['en', 'el', 'ru'], default=None)
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
     parser.add_argument('--prompts', type=str, default=None,

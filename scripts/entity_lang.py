@@ -4,10 +4,12 @@ import sys
 import json
 from tqdm import tqdm
 from collections import defaultdict
+import functools
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-GET_REDIRECT = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+GET_REDIRECT = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -15,15 +17,19 @@ SELECT ?item ?label
 {
 VALUES ?item { %s } 
 ?item owl:sameAs ?label
-}"""
+}
+"""
 
-GET_LANG = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+GET_LANG = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-SELECT ?label (lang(?label) as ?label_lang) {wd:%s rdfs:label ?label}"""
+SELECT ?label (lang(?label) as ?label_lang) {wd:%s rdfs:label ?label}
+"""
 
-GET_LANG_MULTI = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+GET_LANG_MULTI = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -31,7 +37,8 @@ SELECT ?item ?label (lang(?label) as ?label_lang)
 {
 VALUES ?item { %s } 
 ?item rdfs:label ?label
-}"""
+}
+"""
 
 prefix = '<http://www.wikidata.org/entity/'
 
@@ -55,28 +62,44 @@ def get_lang(uri):
 	return get_result(GET_LANG % uri)
 
 
-def get_langs(uris:  Union[List[str], Set[str]], handle_redirect: bool = False) -> Dict[str, Dict[str, str]]:
+def handle_redirect(debug: bool=False, disable: bool=False):
+	def decorator(func):
+		@functools.wraps(func)
+		def new_func(uris: Union[List[str], Set[str]], *args, **kwargs) -> Dict:
+			result: Dict = func(uris, *args, **kwargs)
+			if disable:
+				return result
+			if len(uris) == len(result):
+				pass
+			elif len(uris) < len(result):
+				raise Exception('impossible')
+			else:
+				miss = set(uris) - set(result.keys())
+				fid2tid = get_redirects(miss)
+				tid2fid = dict((v, k) for k, v in fid2tid.items())
+				missto = set(fid2tid.values())
+				if debug and len(fid2tid) < len(miss):
+					print('no redirect for {}'.format(miss - set(fid2tid.keys())))
+				if len(missto) > 0:
+					sup = new_func(missto, *args, **kwargs)
+					if debug and len(sup) < len(missto):
+						print('cant find targets after redirect for {}'.format(missto - set(sup.keys())))
+					for k, v in sup.items():
+						result[tid2fid[k]] = v
+			return result
+		return new_func
+	return decorator
+
+
+@handle_redirect(debug=True)
+def get_langs(uris:  Union[List[str], Set[str]]) -> Dict[str, Dict[str, str]]:
 	id2lang: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
 	results = get_result(GET_LANG_MULTI % ' '.join(map(lambda x: 'wd:' + x, uris)))
-	not_miss = set()
 	for result in results['results']['bindings']:
-		uri = result['item']['value'].rsplit('/', 1)[1]
+		uri = get_qid_from_uri(result['item']['value'])
 		lang = result['label_lang']['value']
 		label = result['label']['value']
 		id2lang[uri][lang] = label
-		not_miss.add(uri)
-	miss = set(uris) - not_miss
-	if handle_redirect and len(miss) > 0:
-		fid2tid = get_redirects(miss)
-		tid2fid = dict((v, k) for k, v in fid2tid.items())
-		missto = set(fid2tid.values())
-		if len(fid2tid) < len(miss):
-			print('not redirect for {}'.format(miss - set(fid2tid.keys())))
-		sup = get_langs(missto, handle_redirect=handle_redirect)
-		if len(sup) < len(missto):
-			print('cant find label after redirect for {}'.format(missto - set(sup.keys())))
-		for k, v in sup.items():
-			id2lang[tid2fid[k]] = v
 	return id2lang
 
 
@@ -84,7 +107,7 @@ def get_redirects(uris: Union[List[str], Set[str]]) -> Dict[str, str]:
 	id2id: Dict[str, str] = {}
 	results = get_result(GET_REDIRECT % ' '.join(map(lambda x: 'wd:' + x, uris)))
 	for result in results['results']['bindings']:
-		id2id[result['item']['value'].rsplit('/', 1)[1]] = result['label']['value'].rsplit('/', 1)[1]
+		id2id[get_qid_from_uri(result['item']['value'])] = get_qid_from_uri(result['label']['value'])
 	return id2id
 
 
@@ -95,6 +118,10 @@ def get_result(query, timeout=None):
 	sparql.setQuery(query)
 	sparql.setReturnFormat(JSON)
 	return sparql.query().convert()
+
+
+def get_qid_from_uri(uri: str) -> str:
+	return uri.rsplit('/', 1)[1]
 
 
 def sup(uris):
