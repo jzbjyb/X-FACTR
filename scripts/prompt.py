@@ -45,7 +45,7 @@ class Prompt(object):
 
 
     def fill_y(self, prompt: str, uri: str, label: str, gender: Gender=None,
-               num_mask: int=1, mask_sym: str='[MASK]') -> Tuple[str, str]:
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
         if num_mask <= 0:
             return prompt.replace('[Y]', label), label
         return prompt.replace('[Y]', ' '.join([mask_sym] * num_mask)), label
@@ -146,7 +146,7 @@ class PromptEL(Prompt):
 
     @overrides
     def fill_y(self, prompt: str, uri: str, label: str, gender: Gender=None,
-               num_mask: int=1, mask_sym: str='[MASK]') -> Tuple[str, str]:
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
         gender = self.GENDER_MAP[gender]
         ent_number = "SG"
         if label[-2:] == "ες":
@@ -319,7 +319,7 @@ class PromptRU(Prompt):
 
     @overrides
     def fill_y(self, prompt: str, uri: str, label: str, gender: Gender = None,
-               num_mask: int=1, mask_sym: str='[MASK]') -> Tuple[str, str]:
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
         ent_number = "SG"
 
         mask_sym = ' '.join([mask_sym] * num_mask)

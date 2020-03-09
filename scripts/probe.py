@@ -95,6 +95,9 @@ class CsvLogFileContext:
 
 class ProbeIterator(object):
     def __init__(self, args: argparse.Namespace, tokenizer):
+        if args.use_gold:
+            args.num_mask = 1
+
         self.args = args
         self.tokenizer = tokenizer
 
@@ -225,36 +228,62 @@ class ProbeIterator(object):
             obj_li: List[np.ndarray] = []
             obj_ori_li: List[np.ndarray] = []
             inp_tensor: List[torch.Tensor] = []
+            gold_with_mask_tensor: List[torch.Tensor] = []
 
             for query in query_batch:
-                # fill in subject and objects
+                # fill in subjects
                 instance_x, _ = self.prompt_model.fill_x(
                     prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
-                for nm in range(NUM_MASK):
+
+                # fill in objects
+                instance_xys: List[str] = []
+                if self.args.use_gold:
                     instance_xy, obj_label = self.prompt_model.fill_y(
+                        instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'])
+                    instance_xys.append(instance_xy)
+                    nt_obj = len(tokenizer_wrap(self.tokenizer, LANG, False, obj_label))
+                    instance_xy_, _ = self.prompt_model.fill_y(
                         instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
-                        num_mask=nm + 1, mask_sym=self.mask_label)
-                    if self.args.model == 'el_bert_base':  # TODO: may be unnecessary
+                        num_mask=nt_obj, mask_sym=self.mask_label)
+                    gold_with_mask_tensor.append(
+                        torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy_)))
+                else:
+                    for nm in range(NUM_MASK):
+                        instance_xy, obj_label = self.prompt_model.fill_y(
+                            instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
+                            num_mask=nm + 1, mask_sym=self.mask_label)
+                        instance_xys.append(instance_xy)
+
+                # tokenize sentences
+                for instance_xy in instance_xys:
+                    # TODO: greek BERT does not seem to need this
+                    '''
+                    if self.args.model == 'el_bert_base':
                         instance_xy = self.prompt_model.normalize(instance_xy, mask_sym=self.mask_label)
                         obj_label = self.prompt_model.normalize(obj_label)
-                    inp: List[int] = tokenizer_wrap(self.tokenizer, LANG, True, instance_xy)
-                    inp_tensor.append(torch.tensor(inp))
+                    '''
+                    inp_tensor.append(torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy)))
 
                 # tokenize gold object
                 obj = np.array(tokenizer_wrap(self.tokenizer, LANG, False, obj_label)).reshape(-1)
-                if len(obj) > NUM_MASK:
-                    logger.warning('{} is splitted into {} tokens'.format(obj_label, len(obj)))
                 obj_li.append(obj)
 
                 # tokenize gold object (before inflection)
                 obj_ori = np.array(tokenizer_wrap(self.tokenizer, LANG, False, query['obj_label'])).reshape(-1)
                 obj_ori_li.append(obj_ori)
 
+                if len(obj) > NUM_MASK or len(obj_ori) > NUM_MASK:
+                    logger.warning('{} is splitted into {}/{} tokens'.format(obj_label, len(obj), len(obj_ori)))
+
             # SHAPE: (batch_size * num_mask, seq_len)
             inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
                 inp_tensor, batch_first=True, padding_value=self.pad)
             attention_mask: torch.Tensor = inp_tensor.ne(self.pad).long()
-            mask_ind: torch.Tensor = inp_tensor.eq(self.mask).float()
+            if self.args.use_gold:
+                mask_ind: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
+                    gold_with_mask_tensor, batch_first=True, padding_value=self.pad).eq(self.mask).long()
+            else:
+                mask_ind: torch.Tensor = inp_tensor.eq(self.mask).long()
 
             if torch.cuda.is_available() and not self.args.no_cuda:
                 inp_tensor = inp_tensor.cuda()
@@ -280,7 +309,8 @@ class ProbeIterator(object):
                 log_filename = headers = None
                 if self.args.log_dir:
                     log_filename = os.path.join(self.args.log_dir, relation + '.csv')
-                    headers = ['sentence', 'prediction', 'gold_inflection', 'is_same', 'gold_original', 'is_same']
+                    headers = ['sentence', 'prediction', 'gold_inflection', 'is_same',
+                               'gold_original', 'is_same', 'log_prob']
                 with CsvLogFileContext(log_filename, headers=headers) as csv_file:
                     start_time = time.time()
 
@@ -307,7 +337,7 @@ class ProbeIterator(object):
                             # decoding
                             # SHAPE: (batch_size * num_mask, seq_len)
                             out_tensor, logprob, iter = iter_decode(
-                                model, inp_tensor, attention_mask,
+                                model, inp_tensor, mask_ind, attention_mask,
                                 restrict_vocab=self.restrict_vocab, mask_value=self.mask,
                                 max_iter=self.args.max_iter, tokenizer=self.tokenizer, method=self.args.iter_method,
                                 reprob=self.args.reprob)
@@ -315,7 +345,7 @@ class ProbeIterator(object):
 
                             # SHAPE: (batch_size, num_mask, seq_len)
                             inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
-                            mask_ind = mask_ind.view(batch_size, NUM_MASK, -1)
+                            mask_ind = mask_ind.view(batch_size, NUM_MASK, -1).float()
                             logprob = logprob.view(batch_size, NUM_MASK, -1)
                             out_tensor = out_tensor.view(batch_size, NUM_MASK, -1)
 
@@ -325,7 +355,7 @@ class ProbeIterator(object):
 
                             # find the best setting
                             for i, avg_log in enumerate((logprob * mask_ind).sum(-1) / mask_len_norm):
-                                best_num_mask = avg_log.max(0)[1]
+                                lp, best_num_mask = avg_log.max(0)
                                 pred: np.ndarray = out_tensor[i, best_num_mask].masked_select(
                                     mask_ind[i, best_num_mask].eq(1)).detach().cpu().numpy().reshape(-1)
                                 inp: np.ndarray = inp_tensor[i, best_num_mask].detach().cpu().numpy()
@@ -359,7 +389,8 @@ class ProbeIterator(object):
                                         load_word_ids(inp, self.tokenizer, self.pad_label),
                                         load_word_ids(pred, self.tokenizer, self.pad_label),
                                         load_word_ids(obj, self.tokenizer, self.pad_label), is_correct,
-                                        load_word_ids(obj_ori, self.tokenizer, self.pad_label), is_correct_ori])
+                                        load_word_ids(obj_ori, self.tokenizer, self.pad_label), is_correct_ori,
+                                        '{:.5f}'.format(lp.item())])
 
                                 '''
                                 if len(pred) == len(obj):
@@ -419,6 +450,7 @@ def load_word_ids(ids: Union[np.ndarray, List[int]], tokenizer, pad_label: str) 
 
 def iter_decode(model,
                 inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                raw_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
                 attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
                 restrict_vocab: List[int] = None,
                 mask_value: int = 0,  # indicate which value is used for mask
@@ -432,13 +464,13 @@ def iter_decode(model,
     '''
     assert method in {'all', 'left_right'}
     bs = inp_tensor.size(0)
-    raw_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
+    init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
 
     # SHAPE: (batch_size, seq_len)
     out_tensor: torch.LongTensor = inp_tensor
-    out_logprob: torch.Tensor = 0.0  # tokens not considered have log prob of zero
+    out_logprob: torch.Tensor = torch.zeros_like(inp_tensor).float()  # tokens not considered have log prob of zero
     iter = 0
-    while True and raw_mask.sum().item() > 0:  # skip when there is not mask initially
+    while True and init_mask.sum().item() > 0:  # skip when there is not mask initially
         # get input
         if iter > 0:
             has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
@@ -558,6 +590,7 @@ if __name__ == '__main__':
     parser.add_argument('--reprob', action='store_true', help='recompute the prob finally')
 
     # others
+    parser.add_argument('--use_gold', action='store_true', help='use gold objects')
     parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
