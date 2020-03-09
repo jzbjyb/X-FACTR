@@ -542,10 +542,10 @@ def compute_likelihood(model,
         cur_mask = torch.cat([leftmost_mask.new_zeros((bs, i)), leftmost_mask], 1)[:, :seq_len] * mask_tensor
         inp_tensor_ = (1 - cur_mask) * inp_tensor + cur_mask * mask_value
         logit = model_prediction_wrap(model, inp_tensor_, attention_mask)
+        cur_mask = cur_mask.unsqueeze(-1).float()
         if logits is None:
-            logits = logit
+            logits = (logit * cur_mask).detach()
         else:
-            cur_mask = cur_mask.unsqueeze(-1).float()
             logits = logits * (1 - cur_mask) + (logit * cur_mask).detach()
     if restrict_vocab is not None:
         logits[:, :, restrict_vocab] = float('-inf')
