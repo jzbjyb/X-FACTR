@@ -1,0 +1,765 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Antonio Ledesma:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.30338
+[CLS] Felix IV has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.42613
+[CLS] Jimmy Carter has the position of President of the United States . [SEP],President of the United States,President of the United States,1,President of the United States,1,-0.09568
+[CLS] John A . McCone:4 has the position of Director of Central Intelligence . [SEP],Director of Central Intelligence,Director of Central Intelligence,1,Director of Central Intelligence,1,-2.25920
+[CLS] John of Canterbury has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.15059
+[CLS] Francis William Markall:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.47971
+[CLS] Samuel Alito:2 has the position of Associate Justice of the Supreme Court of the United States . [SEP],Associate Justice of the Supreme Court of the United States,Associate Justice of the Supreme Court of the United States,1,Associate Justice of the Supreme Court of the United States,1,-0.20438
+[CLS] Kamose:2 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.62618
+[CLS] John Gray has the position of North Dakota State Treasurer:2 . [SEP],North Dakota State Treasurer:2,North Dakota State Treasurer:2,1,North Dakota State Treasurer:2,1,-0.69520
+[CLS] William Bradley Umstead:3 has the position of Governor of North Carolina . [SEP],Governor of North Carolina,Governor of North Carolina,1,Governor of North Carolina,1,-0.66340
+[CLS] Patriarch:2 Callinicus:3 IV of Constantinople has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.05226
+[CLS] Marcus Maecius:2 Memmius:3 Furius:2 Baburius:3 Caecilianus:4 Placidus:3 has the position of Praefectus:4 urbi:2 . [SEP],Praefectus:4 urbi:2,Praefectus:4 urbi:2,1,Praefectus:4 urbi:2,1,-0.63718
+[CLS] Miguel de la Madrid has the position of President of Mexico . [SEP],President of Mexico,President of Mexico,1,President of Mexico,1,-2.66811
+[CLS] Alcmaeon:4 of Athens has the position of eponymous:3 archon:2 . [SEP],eponymous:3 archon:2,eponymous:3 archon:2,1,eponymous:3 archon:2,1,-2.77928
+[CLS] James Duane:2 has the position of Mayor of New York City . [SEP],Mayor of New York City,Mayor of New York City,1,Mayor of New York City,1,-0.12247
+[CLS] Tokugawa Munekatsu:4 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.84126
+[CLS] Bettino:2 Craxi:3 has the position of Prime Minister of Italy . [SEP],Prime Minister of Italy,Prime Minister of Italy,1,Prime Minister of Italy,1,-0.22625
+[CLS] Oscar Rolando:2 Cantuarias:3 Pastor has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.40316
+[CLS] Roger de Meyland:2 has the position of Bishop of Lichfield:3 . [SEP],Bishop of Lichfield:3,Bishop of Lichfield:3,1,Bishop of Lichfield:3,1,-0.29668
+[CLS] Kim Campbell has the position of Prime Minister of Canada . [SEP],Prime Minister of Canada,Prime Minister of Canada,1,Prime Minister of Canada,1,-0.55378
+[CLS] Hilarion:3 ( Alfeyev:3 ) has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-3.93986
+[CLS] Jacqueline Hernández has the position of chief operating officer . [SEP],chief operating officer,chief operating officer,1,chief operating officer,1,-2.02363
+[CLS] Nebka:2 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-1.07048
+[CLS] Marcantonio:3 Trivisan:3 has the position of Doge:2 of Venice . [SEP],Doge:2 of Venice,Doge:2 of Venice,1,Doge:2 of Venice,1,-0.86164
+[CLS] Aleksandar Stamboliyski:5 has the position of Prime Minister of Bulgaria . [SEP],Prime Minister of Bulgaria,Prime Minister of Bulgaria,1,Prime Minister of Bulgaria,1,-0.46089
+[CLS] Notis:2 Marias:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.19351
+[CLS] Yasuhiro:3 Nakasone:3 has the position of Prime Minister of Japan . [SEP],Prime Minister of Japan,Prime Minister of Japan,1,Prime Minister of Japan,1,-0.11868
+[CLS] Joost:2 Lagendijk:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.92602
+[CLS] Ted Wheeler has the position of Oregon State Treasurer:2 . [SEP],Oregon State Treasurer:2,Oregon State Treasurer:2,1,Oregon State Treasurer:2,1,-2.08926
+[CLS] Quintus Aemilius:3 Laetus:2 has the position of Praetorian:4 prefect:2 . [SEP],Praetorian:4 prefect:2,Praetorian:4 prefect:2,1,Praetorian:4 prefect:2,1,-0.70204
+[CLS] Sarwe:2 Iyasus:3 has the position of Emperor of Ethiopia . [SEP],Emperor of Ethiopia,Emperor of Ethiopia,1,Emperor of Ethiopia,1,-2.08931
+[CLS] William Henry Elder has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.23952
+[CLS] Cătălin:4 Ivan has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.06514
+[CLS] Vincenzo Labini:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.37266
+[CLS] Poul Nyrup:2 Rasmussen has the position of Prime Minister of Denmark . [SEP],Prime Minister of Denmark,Prime Minister of Denmark,1,Prime Minister of Denmark,1,-0.04559
+[CLS] Róbert:3 Bezák:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.66862
+[CLS] Barrington:2 Daniels Parker has the position of United States federal judge . [SEP],United States federal judge,United States federal judge,1,United States federal judge,1,-1.20336
+[CLS] Leopold Figl:2 has the position of Federal Chancellor of Austria . [SEP],Federal Chancellor of Austria,Federal Chancellor of Austria,1,Federal Chancellor of Austria,1,-2.34619
+[CLS] Valerius:2 Comazon:2 Eutychianus:3 has the position of Praetorian:4 prefect:2 . [SEP],Praetorian:4 prefect:2,Praetorian:4 prefect:2,1,Praetorian:4 prefect:2,1,-0.80997
+[CLS] Séamus:3 Kirk has the position of Ceann:2 Comhairle:3 . [SEP],Ceann:2 Comhairle:3,Ceann:2 Comhairle:3,1,Ceann:2 Comhairle:3,1,-0.28079
+[CLS] Ling How Doong:2 has the position of Singapore Democratic Party . [SEP],Singapore Democratic Party,Singapore Democratic Party,1,Singapore Democratic Party,1,-4.52824
+[CLS] Clement XIV has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.34076
+[CLS] Tony Cunningham has the position of Department for International Development . [SEP],Department for International Development,Department for International Development,1,Department for International Development,1,-4.13975
+[CLS] Oleksandr:3 Turchynov:3 has the position of Prime Minister of Ukraine . [SEP],Prime Minister of Ukraine,Prime Minister of Ukraine,1,Prime Minister of Ukraine,1,-0.69292
+[CLS] Thomas Lemuel:3 James has the position of United States Postmaster:2 General . [SEP],United States Postmaster:2 General,United States Postmaster:2 General,1,United States Postmaster:2 General,1,-0.66253
+[CLS] Anne Doherty has the position of superior general . [SEP],superior general,superior general,1,superior general,1,-7.76081
+[CLS] Wendell:2 H . Ford has the position of Lieutenant Governor of Kentucky . [SEP],Lieutenant Governor of Kentucky,Lieutenant Governor of Kentucky,1,Lieutenant Governor of Kentucky,1,-1.09877
+[CLS] Giuseppe Antonio Ermenegildo:4 Prisco:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.10045
+[CLS] Antonia Parvanova:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.05591
+[CLS] Archduke:3 Maximilian Francis of Austria has the position of prince - elector:2 . [SEP],prince - elector:2,prince - elector:2,1,prince - elector:2,1,-0.69967
+[CLS] Alfonso Carinci:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.22046
+[CLS] Robert James Carlson has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.96890
+[CLS] Robert Gates has the position of United States Secretary of Defense . [SEP],United States Secretary of Defense,United States Secretary of Defense,1,United States Secretary of Defense,1,-0.75705
+[CLS] Paolo Bollini:2 has the position of Captain Regent of San Marino . [SEP],Captain Regent of San Marino,Captain Regent of San Marino,1,Captain Regent of San Marino,1,-3.75912
+[CLS] Jenny Shipley:2 has the position of Prime Minister of New Zealand . [SEP],Prime Minister of New Zealand,Prime Minister of New Zealand,1,Prime Minister of New Zealand,1,-0.21499
+[CLS] Jean de Moulins:2 has the position of Master of the Order of Preachers:3 . [SEP],Master of the Order of Preachers:3,Master of the Order of Preachers:3,1,Master of the Order of Preachers:3,1,-0.74346
+[CLS] Userkare:2 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.69894
+[CLS] Volodymyr:4 Sabodan:3 has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-4.10894
+"[CLS] Peter Mandelson:3 has the position of Secretary of State for Business , Energy and Industrial Strategy . [SEP]","Secretary of State for Business , Energy and Industrial Strategy","Secretary of State for Business , Energy and Industrial Strategy",1,"Secretary of State for Business , Energy and Industrial Strategy",1,-2.54261
+[CLS] Patriarch:2 Timothy II of Constantinople has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.04719
+[CLS] Enrico Gasparri:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.19052
+[CLS] Manfred Melzer:2 has the position of auxiliary:2 bishop . [SEP],auxiliary:2 bishop,auxiliary:2 bishop,1,auxiliary:2 bishop,1,-1.72731
+[CLS] Regina Benjamin has the position of Surgeon:2 General of the United States . [SEP],Surgeon:2 General of the United States,Surgeon:2 General of the United States,1,Surgeon:2 General of the United States,1,-0.26719
+[CLS] Frederick William has the position of prince - elector:2 . [SEP],prince - elector:2,prince - elector:2,1,prince - elector:2,1,-1.04316
+[CLS] Jan Zamoyski:4 has the position of Chancellor of Poland . [SEP],Chancellor of Poland,Chancellor of Poland,1,Chancellor of Poland,1,-1.51207
+[CLS] Gianni De Michelis:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.87350
+[CLS] Hürrem:3 Sultan has the position of Haseki:2 sultan . [SEP],Haseki:2 sultan,Haseki:2 sultan,1,Haseki:2 sultan,1,-4.14640
+[CLS] Marissa:2 Mayer has the position of product manager . [SEP],product manager,product manager,1,product manager,1,-6.03894
+[CLS] William S . Clark has the position of Foreign government advisor in Meiji Japan . [SEP],Foreign government advisor in Meiji Japan,Foreign government advisor in Meiji Japan,1,Foreign government advisor in Meiji Japan,1,-5.07776
+[CLS] William Livingston has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.59662
+[CLS] Pedro Folc:2 de Cardona:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.07829
+[CLS] Donald Rumsfeld:2 has the position of United States Secretary of Defense . [SEP],United States Secretary of Defense,United States Secretary of Defense,1,United States Secretary of Defense,1,-0.70835
+[CLS] Louis R . Chênevert:3 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.47751
+[CLS] Shinzō:3 Abe has the position of Prime Minister of Japan . [SEP],Prime Minister of Japan,Prime Minister of Japan,1,Prime Minister of Japan,1,-0.09645
+[CLS] Gaius Julius Bassus:2 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-4.55284
+[CLS] Gaius Junius:2 Tiberianus:3 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-4.70262
+[CLS] Alexander VI has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.01543
+[CLS] Publius Licinius:3 Crassus:3 Dives:2 has the position of Roman censor:2 . [SEP],Roman censor:2,Roman censor:2,1,Roman censor:2,1,-2.35622
+[CLS] Oliver Ames has the position of Governor of Massachusetts . [SEP],Governor of Massachusetts,Governor of Massachusetts,1,Governor of Massachusetts,1,-2.26050
+[CLS] Constabilis:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-2.11397
+[CLS] Lon:2 Nol:2 has the position of defence minister . [SEP],defence minister,defence minister,1,defence minister,1,-5.47187
+[CLS] Publius Metilius:3 Nepos:2 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-4.61869
+[CLS] Guy III of Spoleto:3 has the position of Holy Roman Emperor . [SEP],Holy Roman Emperor,Holy Roman Emperor,1,Holy Roman Emperor,1,-0.16140
+[CLS] Morarji:3 Desai:2 has the position of Prime Minister of India . [SEP],Prime Minister of India,Prime Minister of India,1,Prime Minister of India,1,-0.46831
+[CLS] Thomas Kean:2 has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.62103
+[CLS] Bernhard von Bülow:3 has the position of Chancellor of Germany . [SEP],Chancellor of Germany,Chancellor of Germany,1,Chancellor of Germany,1,-1.03311
+[CLS] David Gompert:3 has the position of Director of National Intelligence . [SEP],Director of National Intelligence,Director of National Intelligence,1,Director of National Intelligence,1,-2.40800
+[CLS] John Purroy:3 Mitchel:2 has the position of Mayor of New York City . [SEP],Mayor of New York City,Mayor of New York City,1,Mayor of New York City,1,-0.11591
+[CLS] Pierre - Flavien:3 Turgeon:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.76654
+[CLS] Theodore Fitz:2 Randolph has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.72710
+[CLS] John J . Keane has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-1.01916
+[CLS] Michael Hayes has the position of Ceann:2 Comhairle:3 . [SEP],Ceann:2 Comhairle:3,Ceann:2 Comhairle:3,1,Ceann:2 Comhairle:3,1,-0.42321
+[CLS] Charles Edison has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.50420
+[CLS] John Bukovsky:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.56710
+[CLS] Urban VI has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.09757
+[CLS] Jules Grévy:3 has the position of president of the French Republic . [SEP],president of the French Republic,president of the French Republic,1,president of the French Republic,1,-1.04602
+[CLS] Zawisza:3 Kurozwęcki:4 has the position of Chancellor of Poland . [SEP],Chancellor of Poland,Chancellor of Poland,1,Chancellor of Poland,1,-2.12483
+[CLS] Adriana Poli:2 Bortone:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.88532
+[CLS] Léon - Benoît - Charles Thomas has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.10582
+[CLS] Albert Daeger:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.27022
+[CLS] Pietro II Orseolo:3 has the position of Doge:2 of Venice . [SEP],Doge:2 of Venice,Doge:2 of Venice,1,Doge:2 of Venice,1,-0.98578
+[CLS] John William Ashe:2 has the position of President of the United Nations General Assembly . [SEP],President of the United Nations General Assembly,President of the United Nations General Assembly,1,President of the United Nations General Assembly,1,-0.67817
+[CLS] Joseph Stalin has the position of General Secretary of the Communist Party of the Soviet Union . [SEP],General Secretary of the Communist Party of the Soviet Union,General Secretary of the Communist Party of the Soviet Union,1,General Secretary of the Communist Party of the Soviet Union,1,-0.29779
+[CLS] Paul White has the position of vicar:2 . [SEP],vicar:2,vicar:2,1,vicar:2,1,-3.39308
+[CLS] Gamal:2 Abdel Nasser has the position of President of Egypt . [SEP],President of Egypt,President of Egypt,1,President of Egypt,1,-0.75993
+[CLS] Ralph Klein has the position of Premier of Alberta . [SEP],Premier of Alberta,Premier of Alberta,1,Premier of Alberta,1,-3.20721
+[CLS] Francisco de la Cuesta:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.11093
+[CLS] Aoki:2 Kazuoki:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.05031
+[CLS] Attala:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-2.43099
+[CLS] William Flamville:3 has the position of High Sheriff of Leicestershire:2 . [SEP],High Sheriff of Leicestershire:2,High Sheriff of Leicestershire:2,1,High Sheriff of Leicestershire:2,1,-0.85559
+[CLS] Benedict XIV has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.48020
+[CLS] Date Narimune:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.74601
+[CLS] Sally Jewell:2 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.97367
+[CLS] John Davis Long has the position of Governor of Massachusetts . [SEP],Governor of Massachusetts,Governor of Massachusetts,1,Governor of Massachusetts,1,-1.74540
+[CLS] Gaius Asinius:2 Pollio:2 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-5.19325
+[CLS] Quintus Fabius:2 Maximus has the position of aedile:3 . [SEP],aedile:3,aedile:3,1,aedile:3,1,-3.70987
+[CLS] John IX has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-1.63262
+[CLS] Takeda:2 Nobutora:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.22304
+[CLS] John le Romeyn:2 has the position of Archbishop of York . [SEP],Archbishop of York,Archbishop of York,1,Archbishop of York,1,-1.82615
+[CLS] Catherine Grèze:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.77231
+[CLS] Ignatius Peter VIII Abdalahad:3 has the position of patriarch:2 . [SEP],patriarch:2,patriarch:2,1,patriarch:2,1,-0.37437
+"[CLS] Arthur MacArthur , Jr . has the position of Governor - General of the Philippines . [SEP]",Governor - General of the Philippines,Governor - General of the Philippines,1,Governor - General of the Philippines,1,-0.79744
+[CLS] Wong Kan Seng:2 has the position of Deputy Prime Minister of Singapore . [SEP],Deputy Prime Minister of Singapore,Deputy Prime Minister of Singapore,1,Deputy Prime Minister of Singapore,1,-1.22351
+[CLS] Liz Lynne has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.43463
+[CLS] William de Corbeil:3 has the position of Archbishop of Canterbury . [SEP],Archbishop of Canterbury,Archbishop of Canterbury,1,Archbishop of Canterbury,1,-0.83679
+[CLS] Reginald Maudling:2 has the position of Secretary of State for the Colonies:2 . [SEP],Secretary of State for the Colonies:2,Secretary of State for the Colonies:2,1,Secretary of State for the Colonies:2,1,-0.42578
+[CLS] Nathan Rees has the position of Premier of New South Wales . [SEP],Premier of New South Wales,Premier of New South Wales,1,Premier of New South Wales,1,-0.37404
+[CLS] Anastasius:3 has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-2.13965
+[CLS] Cedd:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.32207
+[CLS] Alec Fong:2 Lim has the position of Lord Mayor . [SEP],Lord Mayor,Lord Mayor,1,Lord Mayor,1,-4.03611
+[CLS] Federico Visconti has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.06724
+"[CLS] Theodosius:3 , Metropolitan of Moscow has the position of metropolitan bishop . [SEP]",metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-1.73574
+[CLS] Carlos P . Garcia has the position of President of the Philippines . [SEP],President of the Philippines,President of the Philippines,1,President of the Philippines,1,-1.98567
+[CLS] Augustin Dontenwill:4 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.14003
+[CLS] William D . Mitchell has the position of United States Attorney General . [SEP],United States Attorney General,United States Attorney General,1,United States Attorney General,1,-0.32328
+[CLS] James Iredell:3 has the position of Governor of North Carolina . [SEP],Governor of North Carolina,Governor of North Carolina,1,Governor of North Carolina,1,-0.79671
+[CLS] Richard Howell has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.53481
+[CLS] Owen Roberts has the position of Associate Justice of the Supreme Court of the United States . [SEP],Associate Justice of the Supreme Court of the United States,Associate Justice of the Supreme Court of the United States,1,Associate Justice of the Supreme Court of the United States,1,-0.20460
+[CLS] Gregorio Maria Aguirre y Garcia has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.14173
+[CLS] Barrie:2 Unsworth:2 has the position of Premier of New South Wales . [SEP],Premier of New South Wales,Premier of New South Wales,1,Premier of New South Wales,1,-0.42525
+[CLS] Idris Shah I of Perak has the position of Sultan of Perak . [SEP],Sultan of Perak,Sultan of Perak,1,Sultan of Perak,1,-0.54341
+[CLS] Pope Agrippinus:3 of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.73201
+[CLS] Ramesses:3 XI has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.68922
+[CLS] François Norbert Blanchet:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.28553
+[CLS] Vladimir has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-5.71677
+[CLS] François - Xavier - Marc - Antoine de Montesquiou:3 - Fézensac:5 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.53531
+[CLS] Nick Coleman has the position of Minnesota Senate . [SEP],Minnesota Senate,Minnesota Senate,1,Minnesota Senate,1,-7.77837
+[CLS] Ottaviano:3 dei Conti di Segni:2 has the position of Camerlengo:3 of the Holy Roman Church . [SEP],Camerlengo:3 of the Holy Roman Church,Camerlengo:3 of the Holy Roman Church,1,Camerlengo:3 of the Holy Roman Church,1,-0.58825
+[CLS] Odo:2 of Deuil:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.59996
+[CLS] Pauline Marois:2 has the position of Premier of Quebec . [SEP],Premier of Quebec,Premier of Quebec,1,Premier of Quebec,1,-3.19356
+[CLS] Louis of Meissen:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.11981
+[CLS] Bernard Charlès:3 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.71603
+[CLS] Matsudaira:3 Yoritoshi:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.55330
+[CLS] John G . Sargent:2 has the position of United States Attorney General . [SEP],United States Attorney General,United States Attorney General,1,United States Attorney General,1,-0.34283
+[CLS] Nora Radcliffe has the position of Member of the Scottish Parliament . [SEP],Member of the Scottish Parliament,Member of the Scottish Parliament,1,Member of the Scottish Parliament,1,-1.04754
+[CLS] Caesar Rodney has the position of Continental Congress . [SEP],Continental Congress,Continental Congress,1,Continental Congress,1,-5.76548
+[CLS] Willi Piecyk:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.87004
+[CLS] Thomas Mackenzie has the position of Prime Minister of New Zealand . [SEP],Prime Minister of New Zealand,Prime Minister of New Zealand,1,Prime Minister of New Zealand,1,-0.16871
+"[CLS] Richard Bethell:2 , 1st Baron Westbury:2 has the position of Lord Chancellor . [SEP]",Lord Chancellor,Lord Chancellor,1,Lord Chancellor,1,-1.74819
+[CLS] Gustavus:2 Swan has the position of Supreme Court of Ohio . [SEP],Supreme Court of Ohio,Supreme Court of Ohio,1,Supreme Court of Ohio,1,-2.91526
+[CLS] Peter Jan Beckx:2 has the position of Superior General of the Society of Jesus . [SEP],Superior General of the Society of Jesus,Superior General of the Society of Jesus,1,Superior General of the Society of Jesus,1,-2.46208
+[CLS] Konstanty:4 Jacek Lubomirski:4 has the position of Starosta:2 . [SEP],Starosta:2,Starosta:2,1,Starosta:2,1,-5.30505
+[CLS] Patriarch:2 Athenagoras:3 I of Constantinople has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.04366
+[CLS] Wasim:2 Sajjad:3 has the position of President of Pakistan . [SEP],President of Pakistan,President of Pakistan,1,President of Pakistan,1,-1.63548
+[CLS] Bernardito:2 Auza:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.38912
+[CLS] Giovanni Spadolini:3 has the position of Prime Minister of Italy . [SEP],Prime Minister of Italy,Prime Minister of Italy,1,Prime Minister of Italy,1,-0.15067
+[CLS] Ansperto:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.48943
+[CLS] Brendan Halligan:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.30229
+[CLS] Quintus Caecilius:3 Metellus:2 Macedonicus:4 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.02373
+[CLS] Adam Bielan:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.02567
+[CLS] Quintus Minucius:3 Thermus:3 has the position of aedile:3 . [SEP],aedile:3,aedile:3,1,aedile:3,1,-3.58442
+[CLS] M . E . Grant Duff has the position of Privy:2 Council of the United Kingdom . [SEP],Privy:2 Council of the United Kingdom,Privy:2 Council of the United Kingdom,1,Privy:2 Council of the United Kingdom,1,-0.72550
+[CLS] Francis Spellman:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.80722
+[CLS] Timothy Tong has the position of ICAC:2 Commissioner . [SEP],ICAC:2 Commissioner,ICAC:2 Commissioner,1,ICAC:2 Commissioner,1,-8.18877
+[CLS] Susana Mendoza has the position of City Clerk of Chicago . [SEP],City Clerk of Chicago,City Clerk of Chicago,1,City Clerk of Chicago,1,-4.40472
+[CLS] Loris:2 Francesco Capovilla:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.14470
+[CLS] Shahrukh:3 of Shirvan:3 has the position of Shirvanshah:4 . [SEP],Shirvanshah:4,Shirvanshah:4,1,Shirvanshah:4,1,-0.14759
+[CLS] Channing:2 H . Cox has the position of Governor of Massachusetts . [SEP],Governor of Massachusetts,Governor of Massachusetts,1,Governor of Massachusetts,1,-2.03955
+[CLS] Walter James has the position of Premier of Western Australia . [SEP],Premier of Western Australia,Premier of Western Australia,1,Premier of Western Australia,1,-1.62716
+[CLS] Séamus:3 Pattison:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.38522
+[CLS] Pedro Guerreiro:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.12218
+"[CLS] George Hastings , 4th Earl of Huntingdon:2 has the position of High Sheriff of Leicestershire:2 . [SEP]",High Sheriff of Leicestershire:2,High Sheriff of Leicestershire:2,1,High Sheriff of Leicestershire:2,1,-0.69772
+[CLS] Barbara Greene has the position of North York . [SEP],North York,North York,1,North York,1,-7.90650
+"[CLS] Arthur Wellesley:2 , 1st Duke of Wellington has the position of Prime Minister of the United Kingdom . [SEP]",Prime Minister of the United Kingdom,Prime Minister of the United Kingdom,1,Prime Minister of the United Kingdom,1,-0.07640
+[CLS] Leo I of Cava:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.37593
+[CLS] Sylwester:4 Chruszcz:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.98485
+[CLS] Ovinius:3 Gallicanus:3 has the position of Praefectus:4 urbi:2 . [SEP],Praefectus:4 urbi:2,Praefectus:4 urbi:2,1,Praefectus:4 urbi:2,1,-0.98136
+[CLS] Urban III has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-3.07337
+[CLS] Friedrich Georg Weitsch:2 has the position of court painter . [SEP],court painter,court painter,1,court painter,1,-6.84846
+[CLS] Jean - Baptiste Thorn has the position of councillor:2 . [SEP],councillor:2,councillor:2,1,councillor:2,1,-2.02624
+[CLS] Jay Garner has the position of Coalition Provisional Authority . [SEP],Coalition Provisional Authority,Coalition Provisional Authority,1,Coalition Provisional Authority,1,-7.38191
+[CLS] Tokugawa Iemochi:4 has the position of Shogun:3 . [SEP],Shogun:3,Shogun:3,1,Shogun:3,1,-0.23222
+[CLS] Jean - Baptiste Boisot:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.14334
+[CLS] Simon Peh:2 has the position of ICAC:2 Commissioner . [SEP],ICAC:2 Commissioner,ICAC:2 Commissioner,1,ICAC:2 Commissioner,1,-8.80038
+[CLS] Viktor Klima has the position of Federal Chancellor of Austria . [SEP],Federal Chancellor of Austria,Federal Chancellor of Austria,1,Federal Chancellor of Austria,1,-2.37418
+[CLS] Antony II of Constantinople has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.04509
+[CLS] Eugenijus:3 Gentvilas:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.75697
+[CLS] Jean Hengen:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.57052
+[CLS] Gaius Servilius:3 Glaucia:3 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.03842
+[CLS] Martin V has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-3.04820
+[CLS] Eugene I has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.51931
+[CLS] Carlos Zorrinho:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.19638
+[CLS] Bernd Lucke:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.11559
+[CLS] Robert Menzies:3 has the position of Prime Minister of Australia . [SEP],Prime Minister of Australia,Prime Minister of Australia,1,Prime Minister of Australia,1,-0.74560
+[CLS] Roman Herzog has the position of president of Germany . [SEP],president of Germany,president of Germany,1,president of Germany,1,-3.44690
+[CLS] Antonio Maria Vegliò:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.14072
+[CLS] Aulus:2 Postumius:3 Albinus:2 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.02539
+[CLS] Eva Perón has the position of list of First Ladies and Gentlemen:2 of Argentina . [SEP],list of First Ladies and Gentlemen:2 of Argentina,list of First Ladies and Gentlemen:2 of Argentina,1,list of First Ladies and Gentlemen:2 of Argentina,1,-2.65626
+[CLS] Philip Ruddock:3 has the position of Attorney - General for Australia . [SEP],Attorney - General for Australia,Attorney - General for Australia,1,Attorney - General for Australia,1,-2.78433
+[CLS] Ernst Adalbert von Harrach:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.18582
+[CLS] Tokugawa Harutoshi:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.68469
+[CLS] Lucius Domitius:3 Ahenobarbus:4 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.03437
+[CLS] Blake Gottesman:2 has the position of body man . [SEP],body man,body man,1,body man,1,-7.49473
+[CLS] Vittorio Emanuele III has the position of Emperor of Ethiopia . [SEP],Emperor of Ethiopia,Emperor of Ethiopia,1,Emperor of Ethiopia,1,-2.15026
+[CLS] Aloísio:4 Roque Oppermann:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.58498
+"[CLS] Constantine Phipps:3 , 1st Marquess:2 of Normanby:2 has the position of Secretary of State for the Home Department . [SEP]",Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.71976
+[CLS] Ria:2 Oomen:2 - Ruijten:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.76394
+[CLS] Gregory XVI has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.37668
+[CLS] Robert J . Stevens has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.44690
+[CLS] Publius Claudius Pulcher:3 has the position of aedile:3 . [SEP],aedile:3,aedile:3,1,aedile:3,1,-3.09465
+[CLS] Yvette:2 Cooper has the position of Shadow Home Secretary . [SEP],Shadow Home Secretary,Shadow Home Secretary,1,Shadow Home Secretary,1,-4.67336
+[CLS] Helmut Kohl has the position of Chancellor of Germany . [SEP],Chancellor of Germany,Chancellor of Germany,1,Chancellor of Germany,1,-0.58950
+[CLS] Kujō:2 Yoritsune:3 has the position of Shogun:3 . [SEP],Shogun:3,Shogun:3,1,Shogun:3,1,-0.49304
+[CLS] Marcus Fulvius:3 Nobilior:3 has the position of aedile:3 . [SEP],aedile:3,aedile:3,1,aedile:3,1,-3.53974
+[CLS] Zeferino:3 González y Díaz Tuñón:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21809
+[CLS] Mitch Landrieu:3 has the position of Lieutenant Governor of Louisiana . [SEP],Lieutenant Governor of Louisiana,Lieutenant Governor of Louisiana,1,Lieutenant Governor of Louisiana,1,-0.77044
+[CLS] Gale Norton has the position of Colorado Attorney General . [SEP],Colorado Attorney General,Colorado Attorney General,1,Colorado Attorney General,1,-2.89937
+[CLS] Hor:2 - Aha:2 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.52190
+[CLS] Isaac of Stella has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.89321
+[CLS] Jacqui:3 Smith has the position of Secretary of State for the Home Department . [SEP],Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.92479
+[CLS] Ida Saxton:2 McKinley has the position of First Lady of the United States . [SEP],First Lady of the United States,First Lady of the United States,1,First Lady of the United States,1,-0.05270
+[CLS] Pope Gabriel IV of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.88640
+[CLS] Gennaro:2 Portanova:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.17533
+[CLS] Frank Wilson has the position of Premier of Western Australia . [SEP],Premier of Western Australia,Premier of Western Australia,1,Premier of Western Australia,1,-1.20295
+[CLS] Giovanni Giustiniani:4 has the position of Protostrator:3 . [SEP],Protostrator:3,Protostrator:3,1,Protostrator:3,1,-4.62084
+[CLS] P . Aquillius:3 Gallus:2 has the position of tribune:2 of the plebs:3 . [SEP],tribune:2 of the plebs:3,tribune:2 of the plebs:3,1,tribune:2 of the plebs:3,1,-0.79260
+[CLS] Pope John XVI of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.83813
+[CLS] Henry S . Johnston has the position of President pro tempore of the Oklahoma Senate . [SEP],President pro tempore of the Oklahoma Senate,President pro tempore of the Oklahoma Senate,1,President pro tempore of the Oklahoma Senate,1,-1.07045
+"[CLS] John Wodehouse:3 , 1st Earl of Kimberley:2 has the position of Secretary of State for Foreign and Commonwealth Affairs . [SEP]",Secretary of State for Foreign and Commonwealth Affairs,Secretary of State for Foreign and Commonwealth Affairs,1,Secretary of State for Foreign and Commonwealth Affairs,1,-0.71141
+[CLS] Phumzile:4 Mlambo:3 - Ngcuka:3 has the position of Deputy President of South Africa . [SEP],Deputy President of South Africa,Deputy President of South Africa,1,Deputy President of South Africa,1,-2.06051
+[CLS] Endius:2 has the position of Ephor:3 . [SEP],Ephor:3,Ephor:3,1,Ephor:3,1,-4.82791
+[CLS] Godfried:2 Danneels:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.30614
+"[CLS] Richard Wellesley:2 , 1st Marquess:2 Wellesley:2 has the position of Lord Lieutenant of Ireland . [SEP]",Lord Lieutenant of Ireland,Lord Lieutenant of Ireland,1,Lord Lieutenant of Ireland,1,-1.45832
+[CLS] Marc - Amable:2 Girard has the position of Premier of Manitoba . [SEP],Premier of Manitoba,Premier of Manitoba,1,Premier of Manitoba,1,-4.15782
+[CLS] Ebenezer:2 Hazard:2 has the position of United States Postmaster:2 General . [SEP],United States Postmaster:2 General,United States Postmaster:2 General,1,United States Postmaster:2 General,1,-0.63891
+[CLS] John Scholasticus:4 has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.27138
+[CLS] Konstantina:2 Kouneva:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.23065
+[CLS] Arturo Rivera y Damas:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.28847
+[CLS] Boniface:3 Lele:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.42243
+[CLS] Dave Deno:2 has the position of chief operating officer . [SEP],chief operating officer,chief operating officer,1,chief operating officer,1,-1.29554
+[CLS] David Beaton:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.94507
+"[CLS] John Copley:2 , 1st Baron Lyndhurst:3 has the position of Lord Chancellor . [SEP]",Lord Chancellor,Lord Chancellor,1,Lord Chancellor,1,-1.61898
+[CLS] Niall:2 Andrews has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.50797
+[CLS] Date Masamune:2 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.69031
+[CLS] S . Jayakumar:3 has the position of Deputy Prime Minister of Singapore . [SEP],Deputy Prime Minister of Singapore,Deputy Prime Minister of Singapore,1,Deputy Prime Minister of Singapore,1,-1.85579
+[CLS] Oswald Gracias has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.51358
+[CLS] Janusz Korwin:3 - Mikke:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.89559
+[CLS] Kyriakos:3 Mavronikolas:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.70279
+[CLS] Reinhard Marx has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.71231
+[CLS] Josaphat:3 Kuntsevych:4 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.49223
+[CLS] Bashar:2 al - Assad has the position of President of Syria . [SEP],President of Syria,President of Syria,1,President of Syria,1,-1.17134
+[CLS] Pope John VII of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.76571
+[CLS] Paul E . Patton has the position of Lieutenant Governor of Kentucky . [SEP],Lieutenant Governor of Kentucky,Lieutenant Governor of Kentucky,1,Lieutenant Governor of Kentucky,1,-0.91866
+[CLS] Harry Joseph Flynn has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.65736
+[CLS] Leon Abbett:2 has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.49949
+[CLS] Titus Statilius:2 Taurus Corvinus:3 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-5.04521
+[CLS] Paul Haddacks:3 has the position of Lieutenant Governor of the Isle of Man . [SEP],Lieutenant Governor of the Isle of Man,Lieutenant Governor of the Isle of Man,1,Lieutenant Governor of the Isle of Man,1,-0.44612
+[CLS] Axel Miller has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.55564
+[CLS] Lawrence Booth has the position of Archbishop of York . [SEP],Archbishop of York,Archbishop of York,1,Archbishop of York,1,-1.84779
+[CLS] Philippe De Backer:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.88792
+[CLS] Christian Schwarz - Schilling:3 has the position of High Representative for Bosnia and Herzegovina . [SEP],High Representative for Bosnia and Herzegovina,High Representative for Bosnia and Herzegovina,1,High Representative for Bosnia and Herzegovina,1,-1.38601
+[CLS] Lucius Fabius:2 Cilo:2 has the position of Praefectus:4 urbi:2 . [SEP],Praefectus:4 urbi:2,Praefectus:4 urbi:2,1,Praefectus:4 urbi:2,1,-1.08428
+[CLS] Nobuyuki:3 Abe has the position of Prime Minister of Japan . [SEP],Prime Minister of Japan,Prime Minister of Japan,1,Prime Minister of Japan,1,-0.10638
+[CLS] Guillaume - Marie - Joseph Labouré:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.17739
+[CLS] Francesco Rutelli:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.91537
+[CLS] Byron White has the position of Associate Justice of the Supreme Court of the United States . [SEP],Associate Justice of the Supreme Court of the United States,Associate Justice of the Supreme Court of the United States,1,Associate Justice of the Supreme Court of the United States,1,-0.24441
+[CLS] Sylvester III has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-1.92506
+[CLS] Hilduin:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.10757
+[CLS] Anastasio:3 Somoza:2 Debayle:3 has the position of President of Nicaragua . [SEP],President of Nicaragua,President of Nicaragua,1,President of Nicaragua,1,-2.01129
+[CLS] Sharafuddin:3 of Selangor has the position of Sultan of Selangor . [SEP],Sultan of Selangor,Sultan of Selangor,1,Sultan of Selangor,1,-0.43830
+[CLS] Sicco:2 Mansholt:2 has the position of President of the European Commission . [SEP],President of the European Commission,President of the European Commission,1,President of the European Commission,1,-1.73384
+[CLS] Leander:2 Starr Jameson has the position of Cape Colony . [SEP],Cape Colony,Cape Colony,1,Cape Colony,1,-4.28792
+"[CLS] Sir Hugh Pollard:2 , 2nd Baronet has the position of member of parliament . [SEP]",member of parliament,member of parliament,1,member of parliament,1,-1.15463
+[CLS] Paolo Pezzi:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.36872
+[CLS] Herbert Henry Lehman:2 has the position of Governor of New York . [SEP],Governor of New York,Governor of New York,1,Governor of New York,1,-0.96658
+[CLS] Cheryl Gillan:2 has the position of Secretary of State for Wales . [SEP],Secretary of State for Wales,Secretary of State for Wales,1,Secretary of State for Wales,1,-1.18544
+[CLS] Colin Barnett has the position of Premier of Western Australia . [SEP],Premier of Western Australia,Premier of Western Australia,1,Premier of Western Australia,1,-1.33531
+[CLS] Gordon Brown has the position of Chancellor of the Exchequer:3 . [SEP],Chancellor of the Exchequer:3,Chancellor of the Exchequer:3,1,Chancellor of the Exchequer:3,1,-0.01591
+[CLS] Lutz Goepel:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.94861
+[CLS] Neferkahor:4 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-1.04190
+[CLS] Marco Pannella:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.07085
+[CLS] Pope Macarius:2 I of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.76313
+[CLS] Bonar:2 Law has the position of Prime Minister of the United Kingdom . [SEP],Prime Minister of the United Kingdom,Prime Minister of the United Kingdom,1,Prime Minister of the United Kingdom,1,-0.15914
+[CLS] Lucius Aemilius:3 Lepidus:3 Paullus:2 has the position of aedile:3 . [SEP],aedile:3,aedile:3,1,aedile:3,1,-3.50457
+[CLS] Martin H . Glynn:3 has the position of Governor of New York . [SEP],Governor of New York,Governor of New York,1,Governor of New York,1,-1.21113
+[CLS] Oliver Plunkett:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-1.03857
+[CLS] Li Xiannian:3 has the position of President of the People ' s Republic of China . [SEP],President of the People ' s Republic of China,President of the People ' s Republic of China,1,President of the People ' s Republic of China,1,-0.27034
+[CLS] Rodman:2 M . Price has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.46173
+[CLS] Mentuhotep:3 I has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.47645
+"[CLS] Neferkare:3 , ninth dynasty has the position of pharaoh:3 . [SEP]",pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.34154
+[CLS] Publius Aelius:2 Vibullius:3 Rufus has the position of eponymous:3 archon:2 . [SEP],eponymous:3 archon:2,eponymous:3 archon:2,1,eponymous:3 archon:2,1,-3.14975
+[CLS] Riek:2 Machar:2 has the position of vice president . [SEP],vice president,vice president,1,vice president,1,-2.25751
+[CLS] Ian Twinn:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.49281
+[CLS] Urszula:3 Krupa:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.96956
+[CLS] Jean - Louis Bruguès:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21732
+[CLS] Peter Hitchcock has the position of Supreme Court of Ohio . [SEP],Supreme Court of Ohio,Supreme Court of Ohio,1,Supreme Court of Ohio,1,-2.36515
+"[CLS] Archibald Seymour , 13th Duke of Somerset has the position of High Sheriff of Leicestershire:2 . [SEP]",High Sheriff of Leicestershire:2,High Sheriff of Leicestershire:2,1,High Sheriff of Leicestershire:2,1,-0.85589
+[CLS] Soledad Cabezón:3 Ruiz has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.22428
+[CLS] Serguei:3 Beloussov:3 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.80991
+[CLS] Aulus:2 Postumius:3 Albinus:2 Luscus:2 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.02398
+"[CLS] John Anderson , 1st Viscount Waverley:2 has the position of Chancellor of the Exchequer:3 . [SEP]",Chancellor of the Exchequer:3,Chancellor of the Exchequer:3,1,Chancellor of the Exchequer:3,1,-0.00472
+[CLS] Marcus Postumius:3 Albinus:2 Regillensis:3 has the position of Roman censor:2 . [SEP],Roman censor:2,Roman censor:2,1,Roman censor:2,1,-2.33741
+[CLS] Robert Rawstorne:3 has the position of vicar:2 . [SEP],vicar:2,vicar:2,1,vicar:2,1,-3.00752
+[CLS] Mikheil:3 Saakashvili:4 has the position of President of Georgia . [SEP],President of Georgia,President of Georgia,1,President of Georgia,1,-1.85689
+[CLS] Jewish pope:2 Andreas has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-0.12437
+[CLS] John Bruton:2 has the position of Taoiseach:3 . [SEP],Taoiseach:3,Taoiseach:3,1,Taoiseach:3,1,-0.10610
+[CLS] Shirvanshah:4 Akhsitan:3 III has the position of Shirvanshah:4 . [SEP],Shirvanshah:4,Shirvanshah:4,1,Shirvanshah:4,1,-0.03061
+[CLS] Rajiv:2 Gandhi has the position of Prime Minister of India . [SEP],Prime Minister of India,Prime Minister of India,1,Prime Minister of India,1,-0.05497
+[CLS] Mary Barra has the position of vice president . [SEP],vice president,vice president,1,vice president,1,-1.38657
+[CLS] Stanimir:3 Ilchev:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.19061
+[CLS] Adelelmus:3 of Burgos has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.17597
+[CLS] Asander:2 has the position of satrap:2 . [SEP],satrap:2,satrap:2,1,satrap:2,1,-2.81939
+[CLS] Ramesses:3 IX has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.62104
+[CLS] Bernard Stone has the position of Chicago City Council . [SEP],Chicago City Council,Chicago City Council,1,Chicago City Council,1,-3.56952
+[CLS] Charles Lambert Ferdinands:2 has the position of Solicitor:3 General of Sri Lanka . [SEP],Solicitor:3 General of Sri Lanka,Solicitor:3 General of Sri Lanka,1,Solicitor:3 General of Sri Lanka,1,-0.21535
+[CLS] Penaia:2 Ganilau:3 has the position of President of Fiji . [SEP],President of Fiji,President of Fiji,1,President of Fiji,1,-2.58548
+[CLS] William Godfrey has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.35582
+[CLS] Theresa May has the position of Secretary of State for the Home Department . [SEP],Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-1.03267
+[CLS] John Whitgift:3 has the position of Archbishop of Canterbury . [SEP],Archbishop of Canterbury,Archbishop of Canterbury,1,Archbishop of Canterbury,1,-0.27084
+[CLS] Abel of Reims has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.42438
+[CLS] John Hoynes:2 has the position of Vice President of the United States . [SEP],Vice President of the United States,Vice President of the United States,1,Vice President of the United States,1,-0.35911
+[CLS] Elpidio:3 Quirino:2 has the position of President of the Philippines . [SEP],President of the Philippines,President of the Philippines,1,President of the Philippines,1,-2.04934
+[CLS] Tokugawa Munechika:4 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.70311
+[CLS] Emine:2 Bozkurt:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.78957
+[CLS] Laima:2 Andrikienė:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.03875
+[CLS] Stuart Milton Hodgson has the position of Commissioners:2 of the Northwest Territories . [SEP],Commissioners:2 of the Northwest Territories,Commissioners:2 of the Northwest Territories,1,Commissioners:2 of the Northwest Territories,1,-1.42214
+[CLS] Spencer Perceval:3 has the position of Attorney General for England and Wales . [SEP],Attorney General for England and Wales,Attorney General for England and Wales,1,Attorney General for England and Wales,1,-1.35888
+[CLS] Alonso Manrique:2 de Lara has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.12159
+[CLS] Eusébio:3 Scheid:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-1.32887
+[CLS] Asano:2 Tsunaakira:4 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.69515
+[CLS] Didrik:2 Slagheck:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.34154
+[CLS] Eugene Bolkhovitinov:5 has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-3.26586
+[CLS] William Kennedy has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.67775
+[CLS] Matt Fong:2 has the position of California State Treasurer:2 . [SEP],California State Treasurer:2,California State Treasurer:2,1,California State Treasurer:2,1,-1.62819
+[CLS] Xi Jinping:2 has the position of General Secretary of the Communist Party of China . [SEP],General Secretary of the Communist Party of China,General Secretary of the Communist Party of China,1,General Secretary of the Communist Party of China,1,-0.25934
+[CLS] Hermann Winkler has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.89984
+[CLS] Thomas Playford:2 has the position of Premiers:2 of South Australia . [SEP],Premiers:2 of South Australia,Premiers:2 of South Australia,1,Premiers:2 of South Australia,1,-3.75077
+[CLS] Anton Stres:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.43459
+[CLS] Bricín:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.10521
+[CLS] Hallas:2 has the position of Ruling:3 Steward:3 of Gondor:2 . [SEP],Ruling:3 Steward:3 of Gondor:2,Ruling:3 Steward:3 of Gondor:2,1,Ruling:3 Steward:3 of Gondor:2,1,-1.40446
+[CLS] Maria Badia:2 i Cutchet:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.06602
+[CLS] Nikólaos:4 Printesis:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.20111
+[CLS] Heribert:2 of Cologne has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.06980
+[CLS] John the Prophet has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.80438
+[CLS] Pietro Loredan:3 has the position of Doge:2 of Venice . [SEP],Doge:2 of Venice,Doge:2 of Venice,1,Doge:2 of Venice,1,-0.95523
+[CLS] Quintus Fabius:2 Maximus Sanga:2 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-4.79826
+[CLS] Laurentius:2 has the position of antipope:3 . [SEP],antipope:3,antipope:3,1,antipope:3,1,-4.02620
+[CLS] Galéas:3 de Saint - Séverin:4 has the position of Grand Squire:2 of France . [SEP],Grand Squire:2 of France,Grand Squire:2 of France,1,Grand Squire:2 of France,1,-3.34031
+[CLS] Thomas Händel has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.21806
+[CLS] Henry Poole has the position of High Sheriff of Leicestershire:2 . [SEP],High Sheriff of Leicestershire:2,High Sheriff of Leicestershire:2,1,High Sheriff of Leicestershire:2,1,-1.01067
+[CLS] Cheung:2 Man Yee:2 has the position of Radio Television Hong Kong . [SEP],Radio Television Hong Kong,Radio Television Hong Kong,1,Radio Television Hong Kong,1,-1.84537
+"[CLS] Frederic Thesiger:3 , 1st Baron Chelmsford:3 has the position of Lord Chancellor . [SEP]",Lord Chancellor,Lord Chancellor,1,Lord Chancellor,1,-1.60355
+[CLS] Piye:2 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.89769
+[CLS] Jeffrey N . Steenson:2 has the position of protonotary:3 apostolic:3 . [SEP],protonotary:3 apostolic:3,protonotary:3 apostolic:3,1,protonotary:3 apostolic:3,1,-0.76616
+[CLS] Kim Dae:2 - jung has the position of president of South Korea . [SEP],president of South Korea,president of South Korea,1,president of South Korea,1,-1.10473
+[CLS] Santiago Copello:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.63055
+[CLS] John A . King has the position of Governor of New York . [SEP],Governor of New York,Governor of New York,1,Governor of New York,1,-0.99957
+[CLS] Zygmunt Szczęsny:5 Feliński:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.25754
+[CLS] Giambattista:3 Spinola:2 has the position of Camerlengo:3 of the Sacred College of Cardinals . [SEP],Camerlengo:3 of the Sacred College of Cardinals,Camerlengo:3 of the Sacred College of Cardinals,1,Camerlengo:3 of the Sacred College of Cardinals,1,-1.05278
+[CLS] Joop:2 den Uyl:2 has the position of Prime Minister of the Netherlands . [SEP],Prime Minister of the Netherlands,Prime Minister of the Netherlands,1,Prime Minister of the Netherlands,1,-0.07414
+[CLS] Jakob Erlandsen:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.24535
+[CLS] Lewis Macdonald has the position of Member of the Scottish Parliament . [SEP],Member of the Scottish Parliament,Member of the Scottish Parliament,1,Member of the Scottish Parliament,1,-0.45477
+[CLS] Tikhon:3 of Kaluga:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.82341
+[CLS] Martinus Dom has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.70873
+[CLS] Guy Marie Alexandre Thomazeau:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21618
+[CLS] John Walsh has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.80015
+[CLS] Damaskinos:3 Papandreou:3 has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-2.80285
+[CLS] Mariano Rajoy:2 has the position of Deputy Prime Minister of Spain . [SEP],Deputy Prime Minister of Spain,Deputy Prime Minister of Spain,1,Deputy Prime Minister of Spain,1,-1.04275
+[CLS] Sylvia - Yvonne Kaufmann has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.62520
+[CLS] Everard:2 Mercurian:3 has the position of Superior General of the Society of Jesus . [SEP],Superior General of the Society of Jesus,Superior General of the Society of Jesus,1,Superior General of the Society of Jesus,1,-2.53722
+[CLS] Ebremaro:4 di Thérouanne:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.11757
+[CLS] Karl - Johan Persson has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.40647
+[CLS] Philippe Wahl has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.86578
+[CLS] Wilson Cary Nicholas has the position of Governor of Virginia . [SEP],Governor of Virginia,Governor of Virginia,1,Governor of Virginia,1,-1.91702
+[CLS] Patrick Everard:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.71572
+[CLS] John Njue:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.59013
+[CLS] Daniel DiNardo:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.88843
+[CLS] Don Dunstan:3 has the position of Premiers:2 of South Australia . [SEP],Premiers:2 of South Australia,Premiers:2 of South Australia,1,Premiers:2 of South Australia,1,-3.01663
+[CLS] Masistes:2 has the position of satrap:2 . [SEP],satrap:2,satrap:2,1,satrap:2,1,-2.69142
+[CLS] Bardo:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.45857
+[CLS] Antonio Agliardi:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.31049
+[CLS] Pope Peter III of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.78518
+[CLS] Arjun:2 Singh has the position of Ministry of Human Resource Development . [SEP],Ministry of Human Resource Development,Ministry of Human Resource Development,1,Ministry of Human Resource Development,1,-1.42172
+[CLS] Tuman:2 bay I has the position of Sultan of Egypt . [SEP],Sultan of Egypt,Sultan of Egypt,1,Sultan of Egypt,1,-2.29559
+[CLS] Krishan:2 Kant has the position of Vice President of India . [SEP],Vice President of India,Vice President of India,1,Vice President of India,1,-1.56529
+[CLS] Jean - Claude Juncker:2 has the position of President of the European Commission . [SEP],President of the European Commission,President of the European Commission,1,President of the European Commission,1,-2.03261
+[CLS] Columba:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.74412
+[CLS] Cristian Bușoi:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.81929
+[CLS] Bernard - Claude Panet:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.38341
+[CLS] Itamar:2 Franco has the position of Vice President of Brazil . [SEP],Vice President of Brazil,Vice President of Brazil,1,Vice President of Brazil,1,-1.94643
+[CLS] James Peter Davis has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.67126
+[CLS] Mary Callahan:2 Erdoes:3 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.75573
+[CLS] Quintus Caecilius:3 Metellus:2 Numidicus:3 has the position of Roman censor:2 . [SEP],Roman censor:2,Roman censor:2,1,Roman censor:2,1,-2.38935
+[CLS] Daniel Michael Tellep:2 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.62283
+[CLS] James Budd:2 has the position of Governor of California . [SEP],Governor of California,Governor of California,1,Governor of California,1,-1.59146
+[CLS] James Boucaut:3 has the position of Premiers:2 of South Australia . [SEP],Premiers:2 of South Australia,Premiers:2 of South Australia,1,Premiers:2 of South Australia,1,-3.29129
+[CLS] Gertrude Walton Donahey:3 has the position of Ohio State Treasurer:2 . [SEP],Ohio State Treasurer:2,Ohio State Treasurer:2,1,Ohio State Treasurer:2,1,-2.65731
+[CLS] Hidenao:3 Nakagawa:3 has the position of Chief Cabinet Secretary . [SEP],Chief Cabinet Secretary,Chief Cabinet Secretary,1,Chief Cabinet Secretary,1,-4.14561
+[CLS] James Duhig:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.39220
+[CLS] Joseph Anthony O ' Sullivan has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.57513
+[CLS] Qaitbay:3 has the position of Sultan of Egypt . [SEP],Sultan of Egypt,Sultan of Egypt,1,Sultan of Egypt,1,-2.80844
+[CLS] Zhizhi:3 has the position of Chanyu:2 . [SEP],Chanyu:2,Chanyu:2,1,Chanyu:2,1,-6.89021
+[CLS] Gerardo Galeote:2 Quecedo:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.56080
+[CLS] Greg Abbott has the position of Governor of Texas . [SEP],Governor of Texas,Governor of Texas,1,Governor of Texas,1,-1.29951
+[CLS] Anastasius:3 Bibliothecarius:2 has the position of antipope:3 . [SEP],antipope:3,antipope:3,1,antipope:3,1,-3.14879
+[CLS] Titus has the position of Roman emperor . [SEP],Roman emperor,Roman emperor,1,Roman emperor,1,-2.09731
+[CLS] Newt:2 Gingrich:3 has the position of speaker of the United States House of Representatives . [SEP],speaker of the United States House of Representatives,speaker of the United States House of Representatives,1,speaker of the United States House of Representatives,1,-0.97518
+[CLS] Marolus:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.56526
+[CLS] Oliver Letwin:2 has the position of Shadow Chancellor of the Exchequer:3 . [SEP],Shadow Chancellor of the Exchequer:3,Shadow Chancellor of the Exchequer:3,1,Shadow Chancellor of the Exchequer:3,1,-1.31064
+[CLS] Möngke:4 Khan has the position of Khagan:3 . [SEP],Khagan:3,Khagan:3,1,Khagan:3,1,-0.78499
+[CLS] Pendleton:3 Murrah:2 has the position of Governor of Texas . [SEP],Governor of Texas,Governor of Texas,1,Governor of Texas,1,-1.96137
+[CLS] John G . Carlisle has the position of speaker of the United States House of Representatives . [SEP],speaker of the United States House of Representatives,speaker of the United States House of Representatives,1,speaker of the United States House of Representatives,1,-1.16191
+[CLS] Richard MacDonnell:4 has the position of Governor of Hong Kong . [SEP],Governor of Hong Kong,Governor of Hong Kong,1,Governor of Hong Kong,1,-0.61707
+[CLS] Mohammad Najibullah:4 has the position of President of Afghanistan . [SEP],President of Afghanistan,President of Afghanistan,1,President of Afghanistan,1,-1.63629
+[CLS] Victor - Lucien - Sulpice:2 Lécot:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.19997
+"[CLS] George Robertson , Baron Robertson of Port Ellen has the position of Secretary of State for Defence . [SEP]",Secretary of State for Defence,Secretary of State for Defence,1,Secretary of State for Defence,1,-1.16199
+[CLS] Menkheperre:4 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.78370
+[CLS] Jan Olbrycht:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.89416
+[CLS] Abdullah Kassim:3 Hanga:2 has the position of prime minister . [SEP],prime minister,prime minister,1,prime minister,1,-0.87876
+[CLS] Philip I has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.15185
+"[CLS] Harl:2 H . Haas , Jr . has the position of district attorney . [SEP]",district attorney,district attorney,1,district attorney,1,-0.35518
+[CLS] Josef Beran:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.34342
+[CLS] Hōjō:3 Morotoki:3 has the position of Shikken:2 . [SEP],Shikken:2,Shikken:2,1,Shikken:2,1,-5.32390
+[CLS] Vitale:2 Faliero:3 has the position of Doge:2 of Venice . [SEP],Doge:2 of Venice,Doge:2 of Venice,1,Doge:2 of Venice,1,-0.90453
+[CLS] Viggo:2 Kampmann:3 has the position of Finance Minister of Denmark . [SEP],Finance Minister of Denmark,Finance Minister of Denmark,1,Finance Minister of Denmark,1,-2.25098
+[CLS] John Langton:2 has the position of Bishop of Chichester:2 . [SEP],Bishop of Chichester:2,Bishop of Chichester:2,1,Bishop of Chichester:2,1,-0.57683
+[CLS] Michael Bourtzes:3 has the position of Dux:2 . [SEP],Dux:2,Dux:2,1,Dux:2,1,-5.39425
+[CLS] Egilbert:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.28934
+[CLS] Bill Davis has the position of Premier of Ontario . [SEP],Premier of Ontario,Premier of Ontario,1,Premier of Ontario,1,-2.89252
+[CLS] Judge McGruder:5 has the position of Chief Judge of Mega - City One . [SEP],Chief Judge of Mega - City One,Chief Judge of Mega - City One,1,Chief Judge of Mega - City One,1,-4.35216
+[CLS] Gregory Orologas:3 has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-3.28263
+[CLS] Alexander Peacock:3 has the position of Premier of Victoria . [SEP],Premier of Victoria,Premier of Victoria,1,Premier of Victoria,1,-3.73048
+[CLS] Francis Carroll has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.90133
+[CLS] Todd Stroger:3 has the position of Chicago City Council . [SEP],Chicago City Council,Chicago City Council,1,Chicago City Council,1,-3.43108
+[CLS] Ōuchi:2 Masahiro:2 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.00817
+[CLS] Simon Mepeham:3 has the position of Archbishop of Canterbury . [SEP],Archbishop of Canterbury,Archbishop of Canterbury,1,Archbishop of Canterbury,1,-0.66113
+[CLS] Raymond Barre has the position of Prime Minister of France . [SEP],Prime Minister of France,Prime Minister of France,1,Prime Minister of France,1,-0.49405
+[CLS] Franklin Pierce has the position of President of the United States . [SEP],President of the United States,President of the United States,1,President of the United States,1,-0.11901
+[CLS] Marcus Junius:2 Brutus:2 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.02256
+[CLS] Evariste:3 Ngoyagoye:4 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.58138
+[CLS] Joseph Li Shan has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.50605
+[CLS] Robert Elgie:2 has the position of member of the Ontario Provincial Parliament . [SEP],member of the Ontario Provincial Parliament,member of the Ontario Provincial Parliament,1,member of the Ontario Provincial Parliament,1,-2.56827
+[CLS] Sigitas:3 Tamkevičius:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.81276
+[CLS] Boniface:3 I has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.56616
+[CLS] Adrian I has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-3.62973
+[CLS] Ernest Wilberforce:4 has the position of Bishop of Chichester:2 . [SEP],Bishop of Chichester:2,Bishop of Chichester:2,1,Bishop of Chichester:2,1,-0.55218
+[CLS] Megan Brennan has the position of United States Postmaster:2 General . [SEP],United States Postmaster:2 General,United States Postmaster:2 General,1,United States Postmaster:2 General,1,-0.98414
+[CLS] John Connally:3 has the position of Governor of Texas . [SEP],Governor of Texas,Governor of Texas,1,Governor of Texas,1,-1.90781
+[CLS] Damian Zimoń:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.43013
+[CLS] Andrew Forman:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.92276
+"[CLS] Henry Bruce , 1st Baron Aberdare:2 has the position of Secretary of State for the Home Department . [SEP]",Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.73178
+[CLS] Patriarch:2 Michael III of Constantinople has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.04282
+[CLS] Juan de Zúñiga:4 Flores has the position of Grand Inquisitor:3 . [SEP],Grand Inquisitor:3,Grand Inquisitor:3,1,Grand Inquisitor:3,1,-1.90064
+[CLS] Balacrus:3 has the position of Somatophylakes:5 . [SEP],Somatophylakes:5,Somatophylakes:5,1,Somatophylakes:5,1,-3.35483
+[CLS] Christopher Prowse:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.96931
+[CLS] Gianni Rivera has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.05577
+[CLS] Elliot Richardson has the position of United States Attorney General . [SEP],United States Attorney General,United States Attorney General,1,United States Attorney General,1,-0.39259
+[CLS] Eric D ' Arcy:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.86237
+[CLS] Marielle:2 de Sarnez:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.04591
+[CLS] John Joseph Hughes has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.38033
+[CLS] Stephen Hatton:2 has the position of Chief Minister of the Northern Territory . [SEP],Chief Minister of the Northern Territory,Chief Minister of the Northern Territory,1,Chief Minister of the Northern Territory,1,-1.24713
+[CLS] Etsou:2 - Nzabi:3 - Bamungwabi:4 Frédéric has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.22648
+[CLS] William Booth has the position of Bishop of Lichfield:3 . [SEP],Bishop of Lichfield:3,Bishop of Lichfield:3,1,Bishop of Lichfield:3,1,-0.38357
+[CLS] Sergei Stanishev:3 has the position of Prime Minister of Bulgaria . [SEP],Prime Minister of Bulgaria,Prime Minister of Bulgaria,1,Prime Minister of Bulgaria,1,-1.14836
+[CLS] Bill Hawks has the position of Mississippi State Senate . [SEP],Mississippi State Senate,Mississippi State Senate,1,Mississippi State Senate,1,-3.88152
+[CLS] Torii:2 Tadafumi:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.30087
+[CLS] Robert Lowe has the position of Chancellor of the Exchequer:3 . [SEP],Chancellor of the Exchequer:3,Chancellor of the Exchequer:3,1,Chancellor of the Exchequer:3,1,-0.01315
+[CLS] Hans - Rudolf Merz:2 has the position of President of the Swiss Confederation . [SEP],President of the Swiss Confederation,President of the Swiss Confederation,1,President of the Swiss Confederation,1,-1.13722
+[CLS] Josu:2 Ortuondo:3 Larrea:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.17793
+[CLS] H . H . Asquith:3 has the position of Prime Minister of the United Kingdom . [SEP],Prime Minister of the United Kingdom,Prime Minister of the United Kingdom,1,Prime Minister of the United Kingdom,1,-0.12304
+[CLS] Martti:2 Ahtisaari:4 has the position of President of Finland . [SEP],President of Finland,President of Finland,1,President of Finland,1,-0.92952
+[CLS] John XXIII has the position of antipope:3 . [SEP],antipope:3,antipope:3,1,antipope:3,1,-1.94730
+[CLS] Pietro Mocenigo:3 has the position of Doge:2 of Venice . [SEP],Doge:2 of Venice,Doge:2 of Venice,1,Doge:2 of Venice,1,-0.82444
+[CLS] Adso:2 of Montier:2 - en - Der has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-4.47692
+[CLS] William Rehnquist:3 has the position of Chief Justice of the United States . [SEP],Chief Justice of the United States,Chief Justice of the United States,1,Chief Justice of the United States,1,-0.38510
+[CLS] Pedro Cruz Villalón:2 has the position of advocate general . [SEP],advocate general,advocate general,1,advocate general,1,-8.64800
+[CLS] Angelina Jolie has the position of Office of the United Nations High Commissioner for Refugees:3 Goodwill:3 Ambassador . [SEP],Office of the United Nations High Commissioner for Refugees:3 Goodwill:3 Ambassador,Office of the United Nations High Commissioner for Refugees:3 Goodwill:3 Ambassador,1,Office of the United Nations High Commissioner for Refugees:3 Goodwill:3 Ambassador,1,-0.87860
+"[CLS] John Skylstead:3 Rhoades:3 , Sr . has the position of United States federal judge . [SEP]",United States federal judge,United States federal judge,1,United States federal judge,1,-1.29756
+[CLS] Jeremy Jacobs has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.41903
+[CLS] Fernand Le Rachinel:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.97927
+[CLS] Tsutomu:3 Hata:2 has the position of Prime Minister of Japan . [SEP],Prime Minister of Japan,Prime Minister of Japan,1,Prime Minister of Japan,1,-0.12123
+[CLS] Robert Carr has the position of Bishop of Chichester:2 . [SEP],Bishop of Chichester:2,Bishop of Chichester:2,1,Bishop of Chichester:2,1,-0.84663
+[CLS] Thabo:2 Mbeki:3 has the position of Deputy President of South Africa . [SEP],Deputy President of South Africa,Deputy President of South Africa,1,Deputy President of South Africa,1,-2.09542
+[CLS] Gerald of Sauve:2 - Majeure:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.53689
+[CLS] Jean - Luc Dehaene:3 has the position of Prime Minister of Belgium . [SEP],Prime Minister of Belgium,Prime Minister of Belgium,1,Prime Minister of Belgium,1,-0.32388
+[CLS] Manuel Medina has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.31347
+[CLS] Allan Bell has the position of Chief Minister of the Isle of Man . [SEP],Chief Minister of the Isle of Man,Chief Minister of the Isle of Man,1,Chief Minister of the Isle of Man,1,-0.70740
+[CLS] Iyoas:3 I has the position of Emperor of Ethiopia . [SEP],Emperor of Ethiopia,Emperor of Ethiopia,1,Emperor of Ethiopia,1,-3.23536
+[CLS] Gelasius:3 II has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.26102
+[CLS] Bezmiâlem:4 has the position of Valide:2 Sultan . [SEP],Valide:2 Sultan,Valide:2 Sultan,1,Valide:2 Sultan,1,-4.45160
+[CLS] Paul Reeves has the position of Governor - General of New Zealand . [SEP],Governor - General of New Zealand,Governor - General of New Zealand,1,Governor - General of New Zealand,1,-0.85206
+[CLS] Johann Georg Ehrlich:2 has the position of councillor:2 . [SEP],councillor:2,councillor:2,1,councillor:2,1,-1.56378
+[CLS] Neferirkare:4 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-1.21039
+[CLS] Valdemar of Denmark has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21429
+[CLS] María Isabel Salinas has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.35870
+[CLS] Gendun:2 Drup:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-2.41678
+[CLS] Jean - Marie Odin has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.44608
+[CLS] Daniel Gould Fowle:3 has the position of Governor of North Carolina . [SEP],Governor of North Carolina,Governor of North Carolina,1,Governor of North Carolina,1,-0.62310
+[CLS] Pedro Manuel de Arandía:3 Santisteban:3 has the position of Governor - General of the Philippines . [SEP],Governor - General of the Philippines,Governor - General of the Philippines,1,Governor - General of the Philippines,1,-0.96897
+[CLS] Chris Christie has the position of Governor of New Jersey . [SEP],Governor of New Jersey,Governor of New Jersey,1,Governor of New Jersey,1,-0.59536
+[CLS] Francesco Battaglini:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21668
+[CLS] Jules de Trooz:3 has the position of Prime Minister of Belgium . [SEP],Prime Minister of Belgium,Prime Minister of Belgium,1,Prime Minister of Belgium,1,-0.52556
+[CLS] Giorgio Zur has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.32889
+[CLS] Tokugawa Mitsukuni:4 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.57331
+[CLS] Eulogius:3 has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-1.99746
+[CLS] Seneb:2 Kay has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-1.01101
+[CLS] Isaac Isaacs:2 has the position of Attorney - General for Australia . [SEP],Attorney - General for Australia,Attorney - General for Australia,1,Attorney - General for Australia,1,-2.39354
+[CLS] Lex Luthor:3 has the position of President of the United States . [SEP],President of the United States,President of the United States,1,President of the United States,1,-0.18175
+[CLS] Ptolemy:3 XIII Theos:2 Philopator:3 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.40629
+[CLS] Cuspius:3 Fadus:2 has the position of Roman governor . [SEP],Roman governor,Roman governor,1,Roman governor,1,-3.11270
+[CLS] Francisco Vidal y Barraquer:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.17528
+[CLS] Alan Fitch:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.33993
+[CLS] Alfonso Litta:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21221
+[CLS] Micheline:2 Calmy:2 - Rey has the position of President of the Swiss Confederation . [SEP],President of the Swiss Confederation,President of the Swiss Confederation,1,President of the Swiss Confederation,1,-1.49012
+[CLS] Pomponne:3 de Bellièvre:3 has the position of Lord Chancellor of France . [SEP],Lord Chancellor of France,Lord Chancellor of France,1,Lord Chancellor of France,1,-1.07003
+[CLS] David H . Burr has the position of Surveyor:2 General . [SEP],Surveyor:2 General,Surveyor:2 General,1,Surveyor:2 General,1,-1.12753
+[CLS] Brigitte Douay:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.84802
+[CLS] Miles Walker has the position of Chief Minister of the Isle of Man . [SEP],Chief Minister of the Isle of Man,Chief Minister of the Isle of Man,1,Chief Minister of the Isle of Man,1,-0.87511
+[CLS] James Ditson:2 Service has the position of alderman:2 . [SEP],alderman:2,alderman:2,1,alderman:2,1,-3.43313
+[CLS] Ralf Walter has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.06879
+[CLS] Romano Maria la Russa:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.02968
+[CLS] Pope Agatho:3 of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.71596
+[CLS] Evelyn Regner:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.81240
+[CLS] Tom Vilsack:3 has the position of United States Secretary of Agriculture . [SEP],United States Secretary of Agriculture,United States Secretary of Agriculture,1,United States Secretary of Agriculture,1,-0.89834
+[CLS] Tom Glocer:3 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.77888
+[CLS] Ro:2 Tu - chol:2 has the position of deputy prime minister . [SEP],deputy prime minister,deputy prime minister,1,deputy prime minister,1,-1.28792
+[CLS] John Betjeman:3 has the position of Poet Laureate:2 of the United Kingdom . [SEP],Poet Laureate:2 of the United Kingdom,Poet Laureate:2 of the United Kingdom,1,Poet Laureate:2 of the United Kingdom,1,-0.62929
+[CLS] Ben Barnes has the position of Speaker of the Texas House of Representatives . [SEP],Speaker of the Texas House of Representatives,Speaker of the Texas House of Representatives,1,Speaker of the Texas House of Representatives,1,-0.57962
+[CLS] Jeff Immelt:2 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.79547
+[CLS] Sonbef:3 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.98126
+[CLS] Æthelred:4 has the position of Archbishop of Canterbury . [SEP],Archbishop of Canterbury,Archbishop of Canterbury,1,Archbishop of Canterbury,1,-0.36689
+[CLS] Petro Doroshenko:4 has the position of Hetmans:2 of Ukrainian Cossacks:3 . [SEP],Hetmans:2 of Ukrainian Cossacks:3,Hetmans:2 of Ukrainian Cossacks:3,1,Hetmans:2 of Ukrainian Cossacks:3,1,-3.44429
+[CLS] Metropolitan Michael of Austria has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-1.62054
+[CLS] Meyer Guggenheim has the position of patriarch:2 . [SEP],patriarch:2,patriarch:2,1,patriarch:2,1,-0.55195
+[CLS] Horio:2 Tadauji:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.75172
+[CLS] Francisco Rizzo:3 has the position of Governor - General of the Philippines . [SEP],Governor - General of the Philippines,Governor - General of the Philippines,1,Governor - General of the Philippines,1,-1.02224
+[CLS] John I has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.64284
+[CLS] Leanne:2 Wood has the position of Member of the National Assembly for Wales . [SEP],Member of the National Assembly for Wales,Member of the National Assembly for Wales,1,Member of the National Assembly for Wales,1,-1.31943
+[CLS] Pius XII has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.22560
+[CLS] Peter Styles has the position of Deputy Chief Minister of the Northern Territory . [SEP],Deputy Chief Minister of the Northern Territory,Deputy Chief Minister of the Northern Territory,1,Deputy Chief Minister of the Northern Territory,1,-1.64860
+[CLS] Neferka:3 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-1.29937
+[CLS] Paul Stephenson has the position of Commissioner of Police of the Metropolis . [SEP],Commissioner of Police of the Metropolis,Commissioner of Police of the Metropolis,1,Commissioner of Police of the Metropolis,1,-2.76439
+[CLS] Pope Matthew II of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.86258
+[CLS] Béla Kovács has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.23032
+[CLS] Francis has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-4.22842
+[CLS] Publius Licinius:3 Crassus:3 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.03005
+[CLS] Melinda:2 Pavey:2 has the position of New South Wales Legislative Council . [SEP],New South Wales Legislative Council,New South Wales Legislative Council,1,New South Wales Legislative Council,1,-0.76562
+[CLS] Pete Wilson has the position of Governor of California . [SEP],Governor of California,Governor of California,1,Governor of California,1,-1.58394
+[CLS] Bernard Hogan - Howe has the position of Commissioner of Police of the Metropolis . [SEP],Commissioner of Police of the Metropolis,Commissioner of Police of the Metropolis,1,Commissioner of Police of the Metropolis,1,-2.88795
+[CLS] Tomás Ó Fiaich:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.28149
+[CLS] Allen Bristol Aylesworth:3 has the position of Postmaster:2 General of Canada . [SEP],Postmaster:2 General of Canada,Postmaster:2 General of Canada,1,Postmaster:2 General of Canada,1,-1.59501
+[CLS] Cassius McDonald Barnes has the position of Governor of Oklahoma . [SEP],Governor of Oklahoma,Governor of Oklahoma,1,Governor of Oklahoma,1,-1.99964
+[CLS] Yashwant:3 Sinha:2 has the position of Minister of External:2 Affairs . [SEP],Minister of External:2 Affairs,Minister of External:2 Affairs,1,Minister of External:2 Affairs,1,-0.10823
+[CLS] Salam:2 Fayyad:3 has the position of Prime Minister of the Palestinian National Authority . [SEP],Prime Minister of the Palestinian National Authority,Prime Minister of the Palestinian National Authority,1,Prime Minister of the Palestinian National Authority,1,-0.85866
+[CLS] William McMahon has the position of Prime Minister of Australia . [SEP],Prime Minister of Australia,Prime Minister of Australia,1,Prime Minister of Australia,1,-0.92945
+[CLS] Edward Benson has the position of Archbishop of Canterbury . [SEP],Archbishop of Canterbury,Archbishop of Canterbury,1,Archbishop of Canterbury,1,-0.27171
+[CLS] Pascual de Aragón has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.11592
+[CLS] Nicholas Patrick Stephen Wiseman:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.49089
+[CLS] Bernard of Clairvaux:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.29795
+[CLS] Petar Parchevich:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.38762
+[CLS] Takanobu:3 Itō:2 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-1.06257
+[CLS] Patrick Cooney:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.26434
+[CLS] Michel Barnier:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.88210
+"[CLS] Andrew Hardie:2 , Baron Hardie:2 has the position of Lord Advocate:3 . [SEP]",Lord Advocate:3,Lord Advocate:3,1,Lord Advocate:3,1,-1.14323
+"[CLS] George Spencer , 2nd Earl Spencer has the position of Secretary of State for the Home Department . [SEP]",Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.80796
+[CLS] Larry Thompson has the position of United States Deputy Attorney General . [SEP],United States Deputy Attorney General,United States Deputy Attorney General,1,United States Deputy Attorney General,1,-0.44817
+[CLS] Isaac of Dalmatia:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.36505
+[CLS] Albert Dunstan:3 has the position of Premier of Victoria . [SEP],Premier of Victoria,Premier of Victoria,1,Premier of Victoria,1,-3.41579
+[CLS] Helvidius:4 Priscus:2 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.05980
+[CLS] Güzelce:3 Ali Pasha has the position of Kapudan:2 Pasha . [SEP],Kapudan:2 Pasha,Kapudan:2 Pasha,1,Kapudan:2 Pasha,1,-4.49932
+[CLS] Ichirō:3 Hatoyama:3 has the position of Prime Minister of Japan . [SEP],Prime Minister of Japan,Prime Minister of Japan,1,Prime Minister of Japan,1,-0.17765
+[CLS] Richard Williamson has the position of Society of St . Pius X . [SEP],Society of St . Pius X,Society of St . Pius X,1,Society of St . Pius X,1,-2.44613
+[CLS] Date Harumune:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.55889
+[CLS] Saint Boniface:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.37433
+[CLS] Marek Czarnecki:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.98507
+[CLS] Pompey:3 has the position of quaestor:2 . [SEP],quaestor:2,quaestor:2,1,quaestor:2,1,-2.21796
+[CLS] Marcantonio:3 Memmo:2 has the position of Doge:2 of Venice . [SEP],Doge:2 of Venice,Doge:2 of Venice,1,Doge:2 of Venice,1,-0.85904
+[CLS] Johannes Joachim Degenhardt:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.26588
+[CLS] Nuno:2 Melo has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.22677
+[CLS] John V has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-2.20188
+[CLS] Joseph Wirth:2 has the position of Chancellor of Germany . [SEP],Chancellor of Germany,Chancellor of Germany,1,Chancellor of Germany,1,-2.08161
+[CLS] Shirvanshah:4 Gushtasb:4 I has the position of Shirvanshah:4 . [SEP],Shirvanshah:4,Shirvanshah:4,1,Shirvanshah:4,1,-0.02670
+[CLS] Ōuchi:2 Yoshitaka:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.82138
+[CLS] Toni Schmücker:4 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.75397
+[CLS] Malcolm Turnbull:2 has the position of Prime Minister of Australia . [SEP],Prime Minister of Australia,Prime Minister of Australia,1,Prime Minister of Australia,1,-0.86575
+[CLS] Eberhard von Trier has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.15462
+[CLS] Iyasu:3 IV has the position of Emperor of Ethiopia . [SEP],Emperor of Ethiopia,Emperor of Ethiopia,1,Emperor of Ethiopia,1,-4.00867
+[CLS] Gaius Caesonius:3 Macer:2 Rufinianus:3 has the position of Roman consul . [SEP],Roman consul,Roman consul,1,Roman consul,1,-4.31443
+[CLS] Saïd:3 El Khadraoui:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.30557
+[CLS] Quintus Mucius:2 Scaevola:3 has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.02804
+[CLS] Nicholas Katzenbach:2 has the position of United States Deputy Attorney General . [SEP],United States Deputy Attorney General,United States Deputy Attorney General,1,United States Deputy Attorney General,1,-0.57662
+[CLS] George Zoley:2 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.95126
+[CLS] Hugo Black has the position of Associate Justice of the Supreme Court of the United States . [SEP],Associate Justice of the Supreme Court of the United States,Associate Justice of the Supreme Court of the United States,1,Associate Justice of the Supreme Court of the United States,1,-0.20496
+[CLS] Michael Holmes has the position of UK Independence Party . [SEP],UK Independence Party,UK Independence Party,1,UK Independence Party,1,-3.79457
+[CLS] Caroline Lucas has the position of Principal Speaker . [SEP],Principal Speaker,Principal Speaker,1,Principal Speaker,1,-8.29674
+[CLS] Charles J . Chaput:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.80642
+[CLS] Guido Ascanio:3 Sforza di Santa Fiora:2 has the position of Camerlengo:3 of the Holy Roman Church . [SEP],Camerlengo:3 of the Holy Roman Church,Camerlengo:3 of the Holy Roman Church,1,Camerlengo:3 of the Holy Roman Church,1,-0.65810
+[CLS] Reino Paasilinna:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.02361
+[CLS] Michel - Gaspard:2 Coppenrath:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.14062
+[CLS] Francisco Robles:2 Ortega has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.70824
+[CLS] George A . Malcolm has the position of Associate Justice of the Supreme Court of the Philippines . [SEP],Associate Justice of the Supreme Court of the Philippines,Associate Justice of the Supreme Court of the Philippines,1,Associate Justice of the Supreme Court of the Philippines,1,-0.61725
+[CLS] Aurelian:3 has the position of Roman emperor . [SEP],Roman emperor,Roman emperor,1,Roman emperor,1,-2.35817
+[CLS] Arnaud de Lévezou:4 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.22827
+[CLS] Henry Seymour Conway has the position of Chief Secretary for Ireland . [SEP],Chief Secretary for Ireland,Chief Secretary for Ireland,1,Chief Secretary for Ireland,1,-3.45552
+[CLS] Benjamin has the position of metropolitan bishop . [SEP],metropolitan bishop,metropolitan bishop,1,metropolitan bishop,1,-3.57938
+[CLS] Marcus Valerius:2 Messalla:2 has the position of Roman censor:2 . [SEP],Roman censor:2,Roman censor:2,1,Roman censor:2,1,-2.50973
+[CLS] Ebenezer:2 R . Hoar:2 has the position of United States Attorney General . [SEP],United States Attorney General,United States Attorney General,1,United States Attorney General,1,-0.31782
+"[CLS] George Cadogan:3 , 5th Earl Cadogan:3 has the position of Lord Lieutenant of Ireland . [SEP]",Lord Lieutenant of Ireland,Lord Lieutenant of Ireland,1,Lord Lieutenant of Ireland,1,-0.75806
+[CLS] Peter McKeefry:6 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-1.02007
+[CLS] Charles Yorke:2 has the position of Lord Chancellor . [SEP],Lord Chancellor,Lord Chancellor,1,Lord Chancellor,1,-3.12511
+[CLS] Ajahn:3 Sumedho:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-2.88773
+[CLS] William E . Simon has the position of United States Secretary of the Treasury . [SEP],United States Secretary of the Treasury,United States Secretary of the Treasury,1,United States Secretary of the Treasury,1,-0.50420
+[CLS] Ricardo Lagos has the position of President of Chile . [SEP],President of Chile,President of Chile,1,President of Chile,1,-2.18219
+[CLS] Nathaniel Pitcher:2 has the position of Governor of New York . [SEP],Governor of New York,Governor of New York,1,Governor of New York,1,-1.04114
+[CLS] Pope John IX of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.79917
+[CLS] Saint Ernest has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.85533
+[CLS] Bernardino Maffei:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.16842
+[CLS] Gordon Jackson has the position of Member of the Scottish Parliament . [SEP],Member of the Scottish Parliament,Member of the Scottish Parliament,1,Member of the Scottish Parliament,1,-0.87192
+[CLS] James Hayes has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.64777
+[CLS] Domenico Sorrentino:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.17449
+[CLS] Levon:2 Ter - Petrosyan:3 has the position of President of Armenia . [SEP],President of Armenia,President of Armenia,1,President of Armenia,1,-1.69784
+[CLS] Elpidio:3 Quirino:2 has the position of Vice President of the Philippines . [SEP],Vice President of the Philippines,Vice President of the Philippines,1,Vice President of the Philippines,1,-1.79914
+[CLS] John VII has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-1.95476
+[CLS] Matsudaira:3 Chikayoshi:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.61560
+[CLS] Hisamuddin:3 Alam Shah of Selangor has the position of Sultan of Selangor . [SEP],Sultan of Selangor,Sultan of Selangor,1,Sultan of Selangor,1,-0.74817
+[CLS] Pietro Gasparri:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.15922
+[CLS] Malcolm Rifkind:3 has the position of Secretary of State for Defence . [SEP],Secretary of State for Defence,Secretary of State for Defence,1,Secretary of State for Defence,1,-1.10690
+[CLS] Juan Asenjo:3 Pelegrina:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.29957
+[CLS] Wangdu:2 Nyingpo:3 has the position of Sakya:3 Trizin:2 . [SEP],Sakya:3 Trizin:2,Sakya:3 Trizin:2,1,Sakya:3 Trizin:2,1,-5.61472
+[CLS] Queen Victoria has the position of queen regnant:2 . [SEP],queen regnant:2,queen regnant:2,1,queen regnant:2,1,-4.82522
+[CLS] Ian Paisley:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.32621
+[CLS] Johannes von Geissel:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.17598
+[CLS] Ildephonsus:4 of Toledo has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.07718
+[CLS] Dick Cheney has the position of Vice President of the United States . [SEP],Vice President of the United States,Vice President of the United States,1,Vice President of the United States,1,-0.51452
+[CLS] Gilles Bernheim:2 has the position of Chief Rabbi . [SEP],Chief Rabbi,Chief Rabbi,1,Chief Rabbi,1,-3.37956
+[CLS] Christian Ehler:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.84964
+[CLS] Héctor Icazuriaga:5 has the position of Secretaría de Inteligencia:2 . [SEP],Secretaría de Inteligencia:2,Secretaría de Inteligencia:2,1,Secretaría de Inteligencia:2,1,-1.00330
+[CLS] Steven Purcell has the position of councillor:2 . [SEP],councillor:2,councillor:2,1,councillor:2,1,-2.02578
+[CLS] Bernard Yago:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.64312
+"[CLS] John Vereker:2 , 6th Viscount Gort:2 has the position of High Commissioners:2 for Palestine and Transjordan:3 . [SEP]",High Commissioners:2 for Palestine and Transjordan:3,High Commissioners:2 for Palestine and Transjordan:3,1,High Commissioners:2 for Palestine and Transjordan:3,1,-1.50066
+[CLS] Henry Joseph O ' Leary has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.54409
+[CLS] Lee Huan:2 has the position of President of the Executive Yuan . [SEP],President of the Executive Yuan,President of the Executive Yuan,1,President of the Executive Yuan,1,-1.04866
+[CLS] Georges Pompidou:3 has the position of president of the French Republic . [SEP],president of the French Republic,president of the French Republic,1,president of the French Republic,1,-0.84367
+[CLS] Paul Hermelin:3 has the position of chief executive officer . [SEP],chief executive officer,chief executive officer,1,chief executive officer,1,-0.74451
+[CLS] Marian Harkin:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.09174
+[CLS] Paul IV has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-1.49158
+[CLS] Judge Silver has the position of Chief Judge of Mega - City One . [SEP],Chief Judge of Mega - City One,Chief Judge of Mega - City One,1,Chief Judge of Mega - City One,1,-4.28602
+[CLS] Clement II has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-1.58078
+[CLS] Vitold:2 Fokin:3 has the position of Prime Minister of Ukraine . [SEP],Prime Minister of Ukraine,Prime Minister of Ukraine,1,Prime Minister of Ukraine,1,-1.22852
+[CLS] Marthinus:3 Wessel:2 Pretorius:2 has the position of State President of the Orange Free State . [SEP],State President of the Orange Free State,State President of the Orange Free State,1,State President of the Orange Free State,1,-1.56457
+[CLS] Jean - Jacques Bertrand has the position of Premier of Quebec . [SEP],Premier of Quebec,Premier of Quebec,1,Premier of Quebec,1,-2.28378
+[CLS] Gianfranco:2 Gardin:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.43740
+[CLS] Roch:2 Marc Christian Kaboré:3 has the position of prime minister . [SEP],prime minister,prime minister,1,prime minister,1,-1.01675
+[CLS] George Reid has the position of Presiding:3 Officer of the Scottish Parliament . [SEP],Presiding:3 Officer of the Scottish Parliament,Presiding:3 Officer of the Scottish Parliament,1,Presiding:3 Officer of the Scottish Parliament,1,-1.25567
+[CLS] William Allen has the position of Chairman of the Municipality of Metropolitan Toronto . [SEP],Chairman of the Municipality of Metropolitan Toronto,Chairman of the Municipality of Metropolitan Toronto,1,Chairman of the Municipality of Metropolitan Toronto,1,-2.53735
+[CLS] Antonius Felix has the position of Roman governor . [SEP],Roman governor,Roman governor,1,Roman governor,1,-4.21819
+[CLS] Babis:2 Angourakis:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.87628
+[CLS] James Callaghan:3 has the position of Chancellor of the Exchequer:3 . [SEP],Chancellor of the Exchequer:3,Chancellor of the Exchequer:3,1,Chancellor of the Exchequer:3,1,-0.00926
+[CLS] Abraham of Clermont has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.42222
+[CLS] John C . Wright has the position of United States Attorney . [SEP],United States Attorney,United States Attorney,1,United States Attorney,1,-1.40394
+[CLS] Pope Mark III of Alexandria has the position of Pope of the Coptic:2 Orthodox Church of Alexandria . [SEP],Pope of the Coptic:2 Orthodox Church of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,1,Pope of the Coptic:2 Orthodox Church of Alexandria,1,-0.78640
+[CLS] Albert Decourtray:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21639
+[CLS] Andrew has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.46127
+[CLS] Ōkubo:3 Tadachika:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-0.77912
+[CLS] Lajos Haynald:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.29772
+[CLS] Claudio Acquaviva:5 has the position of Superior General of the Society of Jesus . [SEP],Superior General of the Society of Jesus,Superior General of the Society of Jesus,1,Superior General of the Society of Jesus,1,-2.33931
+[CLS] Stanley Baldwin has the position of Chancellor of the Exchequer:3 . [SEP],Chancellor of the Exchequer:3,Chancellor of the Exchequer:3,1,Chancellor of the Exchequer:3,1,-0.00703
+[CLS] Władysław Oporowski:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.43600
+[CLS] Samuel Knight has the position of vicar:2 . [SEP],vicar:2,vicar:2,1,vicar:2,1,-1.70430
+"[CLS] Anselm:3 , Duke of Friuli has the position of abbot:2 . [SEP]",abbot:2,abbot:2,1,abbot:2,1,-0.14246
+[CLS] John Pedder:2 has the position of vicar:2 . [SEP],vicar:2,vicar:2,1,vicar:2,1,-2.49406
+[CLS] Hutchins:3 Gordon Burton has the position of Governor of North Carolina . [SEP],Governor of North Carolina,Governor of North Carolina,1,Governor of North Carolina,1,-1.13496
+[CLS] Janusz Suchywilk:4 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.50212
+"[CLS] Alfonso , Prince of Asturias has the position of Heir:2 apparent . [SEP]",Heir:2 apparent,Heir:2 apparent,1,Heir:2 apparent,1,-4.63045
+[CLS] Abdul Aziz of Perak has the position of Sultan of Perak . [SEP],Sultan of Perak,Sultan of Perak,1,Sultan of Perak,1,-0.53463
+[CLS] Patriarch:2 Theodore I of Constantinople has the position of Ecumenical:4 Patriarch:2 of Constantinople . [SEP],Ecumenical:4 Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,1,Ecumenical:4 Patriarch:2 of Constantinople,1,-0.04030
+[CLS] Minuccio:3 Minucci:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.78611
+[CLS] Arthur Macalister:3 has the position of Premier of Queensland . [SEP],Premier of Queensland,Premier of Queensland,1,Premier of Queensland,1,-3.00542
+[CLS] Peter Richard Kenrick:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.72942
+[CLS] Marcello Vernola:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.05241
+[CLS] Seamus:2 McCaffery:5 has the position of Superior Court of Pennsylvania . [SEP],Superior Court of Pennsylvania,Superior Court of Pennsylvania,1,Superior Court of Pennsylvania,1,-3.64210
+[CLS] Kyōgoku:4 Takamichi:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.24004
+[CLS] Wulfad:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.81425
+[CLS] John Lister:2 has the position of vicar:2 . [SEP],vicar:2,vicar:2,1,vicar:2,1,-2.38645
+[CLS] Capelianus:3 has the position of Roman governor . [SEP],Roman governor,Roman governor,1,Roman governor,1,-3.44194
+[CLS] Dennis Hastert:2 has the position of speaker of the United States House of Representatives . [SEP],speaker of the United States House of Representatives,speaker of the United States House of Representatives,1,speaker of the United States House of Representatives,1,-0.93836
+[CLS] Charles A . Marvin has the position of district attorney . [SEP],district attorney,district attorney,1,district attorney,1,-0.38254
+"[CLS] Charles Ritchie , 1st Baron Ritchie of Dundee has the position of Secretary of State for the Home Department . [SEP]",Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.71080
+[CLS] Michael Jeffery:2 has the position of Governor - General of Australia . [SEP],Governor - General of Australia,Governor - General of Australia,1,Governor - General of Australia,1,-1.43949
+[CLS] Francesco Colasuonno:4 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.18335
+[CLS] Joseph Cahill:2 has the position of Premier of New South Wales . [SEP],Premier of New South Wales,Premier of New South Wales,1,Premier of New South Wales,1,-0.31118
+[CLS] Ptolemy:3 II Philadelphus:3 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.40606
+[CLS] Alexis - Armand Charost:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.28707
+[CLS] Geoffrey Howe has the position of Secretary of State for Foreign and Commonwealth Affairs . [SEP],Secretary of State for Foreign and Commonwealth Affairs,Secretary of State for Foreign and Commonwealth Affairs,1,Secretary of State for Foreign and Commonwealth Affairs,1,-0.67509
+[CLS] Sneferu:4 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.96511
+[CLS] Grażyna:4 Staniszewska:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.03555
+[CLS] Khertek:3 Anchimaa:3 - Toka:2 has the position of Tuvan:2 People ' s Republic . [SEP],Tuvan:2 People ' s Republic,Tuvan:2 People ' s Republic,1,Tuvan:2 People ' s Republic,1,-3.04823
+[CLS] Brendan the Navigator:3 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-1.89910
+[CLS] Paul Doumer:3 has the position of president of the French Republic . [SEP],president of the French Republic,president of the French Republic,1,president of the French Republic,1,-1.46004
+[CLS] Florent:2 Du Bois de Villerabel:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.23833
+[CLS] William Lemke:3 has the position of North Dakota Attorney General . [SEP],North Dakota Attorney General,North Dakota Attorney General,1,North Dakota Attorney General,1,-1.51342
+[CLS] Cicero has the position of praetor:2 . [SEP],praetor:2,praetor:2,1,praetor:2,1,-0.09623
+[CLS] Saint Ame:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.88441
+[CLS] Bertulf:3 of Renty:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.84343
+[CLS] William Donald Schaefer:3 has the position of Governor of Maryland . [SEP],Governor of Maryland,Governor of Maryland,1,Governor of Maryland,1,-1.98093
+[CLS] Hugh de Grandmesnil:3 has the position of High Sheriff of Leicestershire:2 . [SEP],High Sheriff of Leicestershire:2,High Sheriff of Leicestershire:2,1,High Sheriff of Leicestershire:2,1,-0.66305
+[CLS] Magnus Brahe:2 has the position of Lord High Constable of Sweden . [SEP],Lord High Constable of Sweden,Lord High Constable of Sweden,1,Lord High Constable of Sweden,1,-2.59737
+[CLS] Mechtild:3 Rothe:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.98016
+[CLS] Manuel L . Quezon:2 has the position of President of the Philippines . [SEP],President of the Philippines,President of the Philippines,1,President of the Philippines,1,-1.72111
+[CLS] James Callaghan:3 has the position of Secretary of State for the Home Department . [SEP],Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.86279
+[CLS] Mark Griffin has the position of Member of the Scottish Parliament . [SEP],Member of the Scottish Parliament,Member of the Scottish Parliament,1,Member of the Scottish Parliament,1,-0.87756
+[CLS] Andrew Hatcher:2 has the position of White House Press Secretary . [SEP],White House Press Secretary,White House Press Secretary,1,White House Press Secretary,1,-2.35033
+[CLS] David Blunkett:3 has the position of Secretary of State for Education . [SEP],Secretary of State for Education,Secretary of State for Education,1,Secretary of State for Education,1,-0.80139
+"[CLS] Henry Petty - Fitzmaurice:4 , 3rd Marquess:2 of Lansdowne:4 has the position of Secretary of State for the Home Department . [SEP]",Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.82413
+[CLS] Sava II has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.26740
+[CLS] Fermín:3 Jáudenes:3 has the position of Governor - General of the Philippines . [SEP],Governor - General of the Philippines,Governor - General of the Philippines,1,Governor - General of the Philippines,1,-1.24317
+[CLS] Francis Hastings has the position of High Sheriff of Leicestershire:2 . [SEP],High Sheriff of Leicestershire:2,High Sheriff of Leicestershire:2,1,High Sheriff of Leicestershire:2,1,-0.90016
+[CLS] David Petraeus:2 has the position of Director of the Central Intelligence Agency . [SEP],Director of the Central Intelligence Agency,Director of the Central Intelligence Agency,1,Director of the Central Intelligence Agency,1,-0.59809
+[CLS] Andrey:2 Vyshinsky:4 has the position of Ministry of Foreign Affairs of USSR . [SEP],Ministry of Foreign Affairs of USSR,Ministry of Foreign Affairs of USSR,1,Ministry of Foreign Affairs of USSR,1,-1.60347
+[CLS] Musa Ghiatuddin:4 Riayat:3 Shah of Selangor has the position of Sultan of Selangor . [SEP],Sultan of Selangor,Sultan of Selangor,1,Sultan of Selangor,1,-0.69324
+"[CLS] Martin Charteris:2 , Baron Charteris:2 of Amisfield:2 has the position of Private Secretary to the Sovereign:2 . [SEP]",Private Secretary to the Sovereign:2,Private Secretary to the Sovereign:2,1,Private Secretary to the Sovereign:2,1,-0.75814
+[CLS] Henry Deane:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.52844
+[CLS] Geoffrey Brito:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.27127
+[CLS] Thomas Claughton:3 has the position of Bishop of St Albans:2 . [SEP],Bishop of St Albans:2,Bishop of St Albans:2,1,Bishop of St Albans:2,1,-0.24543
+[CLS] Nathan L . Miller has the position of Governor of New York . [SEP],Governor of New York,Governor of New York,1,Governor of New York,1,-1.01060
+[CLS] Ben Bernanke:2 has the position of Chair of the Federal Reserve . [SEP],Chair of the Federal Reserve,Chair of the Federal Reserve,1,Chair of the Federal Reserve,1,-2.06742
+[CLS] Stanislaus:3 Czerniewicz:4 has the position of Superior General of the Society of Jesus . [SEP],Superior General of the Society of Jesus,Superior General of the Society of Jesus,1,Superior General of the Society of Jesus,1,-2.30956
+[CLS] Samuel Adams has the position of Governor of Massachusetts . [SEP],Governor of Massachusetts,Governor of Massachusetts,1,Governor of Massachusetts,1,-1.35287
+[CLS] Jim Hunt has the position of Governor of North Carolina . [SEP],Governor of North Carolina,Governor of North Carolina,1,Governor of North Carolina,1,-0.75152
+[CLS] Luis Concha:2 Córdoba has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.21041
+[CLS] Djedefre:3 has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-1.05836
+[CLS] William Zouche:2 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.40140
+"[CLS] Peter Goldsmith:2 , Baron Goldsmith:2 has the position of Attorney General for England and Wales . [SEP]",Attorney General for England and Wales,Attorney General for England and Wales,1,Attorney General for England and Wales,1,-0.75499
+[CLS] Enikő:3 Győri:2 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-1.00669
+[CLS] K . R . Narayanan:2 has the position of President of India . [SEP],President of India,President of India,1,President of India,1,-2.09580
+[CLS] Richard J . Hughes has the position of Supreme Court of New Jersey . [SEP],Supreme Court of New Jersey,Supreme Court of New Jersey,1,Supreme Court of New Jersey,1,-0.54682
+[CLS] Pia Elda:2 Locatelli:3 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.97475
+[CLS] Tomás mac Muircheartaigh:4 Ó Ceallaigh:3 has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.10946
+[CLS] Amenemhat:4 I has the position of pharaoh:3 . [SEP],pharaoh:3,pharaoh:3,1,pharaoh:3,1,-0.85970
+[CLS] Gordon MacDonald has the position of Member of the Scottish Parliament . [SEP],Member of the Scottish Parliament,Member of the Scottish Parliament,1,Member of the Scottish Parliament,1,-0.40813
+[CLS] Andrew Cuomo:2 has the position of Governor of New York . [SEP],Governor of New York,Governor of New York,1,Governor of New York,1,-1.12978
+[CLS] Jerzy Zbaraski:3 has the position of Starosta:2 . [SEP],Starosta:2,Starosta:2,1,Starosta:2,1,-4.88709
+[CLS] Paul VI has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.19212
+[CLS] Mimura:2 Iechika:3 has the position of daimyo:3 . [SEP],daimyo:3,daimyo:3,1,daimyo:3,1,-1.11963
+[CLS] David Fleming has the position of vicar:2 . [SEP],vicar:2,vicar:2,1,vicar:2,1,-3.17465
+[CLS] Shimon:2 Peres:2 has the position of Prime Minister of Israel . [SEP],Prime Minister of Israel,Prime Minister of Israel,1,Prime Minister of Israel,1,-1.13338
+[CLS] Marinus:2 I has the position of pope:2 . [SEP],pope:2,pope:2,1,pope:2,1,-3.48389
+[CLS] Roger has the position of archbishop:3 . [SEP],archbishop:3,archbishop:3,1,archbishop:3,1,-0.33343
+[CLS] Nicolas Thyrel:3 de Boismont:2 has the position of abbot:2 . [SEP],abbot:2,abbot:2,1,abbot:2,1,-0.86088
+[CLS] Zbigniew Kuźmiuk:4 has the position of member of the European Parliament . [SEP],member of the European Parliament,member of the European Parliament,1,member of the European Parliament,1,-0.98160
+[CLS] Thomas Cushing:2 has the position of Governor of Massachusetts . [SEP],Governor of Massachusetts,Governor of Massachusetts,1,Governor of Massachusetts,1,-1.69599
+"[CLS] Samuel Hoare:2 , 1st Viscount Templewood:2 has the position of Secretary of State for the Home Department . [SEP]",Secretary of State for the Home Department,Secretary of State for the Home Department,1,Secretary of State for the Home Department,1,-0.73010
+[CLS] Ernest Bevin:2 has the position of Secretary of State for Foreign and Commonwealth Affairs . [SEP],Secretary of State for Foreign and Commonwealth Affairs,Secretary of State for Foreign and Commonwealth Affairs,1,Secretary of State for Foreign and Commonwealth Affairs,1,-0.58375
+[CLS] John Q . A . Brackett:3 has the position of Governor of Massachusetts . [SEP],Governor of Massachusetts,Governor of Massachusetts,1,Governor of Massachusetts,1,-1.81830

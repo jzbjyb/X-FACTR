@@ -1,0 +1,998 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Curtis Fleming plays with Middlesbrough F . C . . [SEP],Middlesbrough F . C .,Middlesbrough F . C .,1,Middlesbrough F . C .,1,-0.79997
+[CLS] León Strembel:3 plays with Argentina national football team . [SEP],Argentina national football team,Argentina national football team,1,Argentina national football team,1,-1.56147
+[CLS] Rumen:2 Rangelov:2 plays with FC Lokomotiv:2 1929 Sofia . [SEP],FC Lokomotiv:2 1929 Sofia,FC Lokomotiv:2 1929 Sofia,1,FC Lokomotiv:2 1929 Sofia,1,-4.02850
+[CLS] George Watts plays with Washington Redskins:2 . [SEP],Washington Redskins:2,Washington Redskins:2,1,Washington Redskins:2,1,-0.88593
+[CLS] Ian Holloway plays with Torquay:3 United F . C . . [SEP],Torquay:3 United F . C .,Torquay:3 United F . C .,1,Torquay:3 United F . C .,1,-0.74530
+[CLS] Garyn:2 Preen:2 plays with Cinderford:3 Town A . F . C . . [SEP],Cinderford:3 Town A . F . C .,Cinderford:3 Town A . F . C .,1,Cinderford:3 Town A . F . C .,1,-1.82393
+[CLS] Siobhan:3 Chamberlain plays with Chelsea L . F . C . . [SEP],Chelsea L . F . C .,Chelsea L . F . C .,1,Chelsea L . F . C .,1,-1.44580
+[CLS] Bob Meinke:2 plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.63990
+[CLS] Luis Quiñones:3 plays with Oakland Athletics . [SEP],Oakland Athletics,Oakland Athletics,1,Oakland Athletics,1,-3.13267
+[CLS] R . H . Massy:2 - Westropp:3 plays with Ireland national rugby union team . [SEP],Ireland national rugby union team,Ireland national rugby union team,1,Ireland national rugby union team,1,-1.13050
+[CLS] Jeremy Richardson plays with San Antonio Spurs . [SEP],San Antonio Spurs,San Antonio Spurs,1,San Antonio Spurs,1,-0.19707
+[CLS] Steven Finn plays with Quebec Nordiques:2 . [SEP],Quebec Nordiques:2,Quebec Nordiques:2,1,Quebec Nordiques:2,1,-1.55368
+[CLS] Sidnei:2 Sciola:2 plays with Esporte Clube Noroeste:2 . [SEP],Esporte Clube Noroeste:2,Esporte Clube Noroeste:2,1,Esporte Clube Noroeste:2,1,-1.95463
+[CLS] Abderrahmane:4 Mahjoub:4 plays with Morocco national football team . [SEP],Morocco national football team,Morocco national football team,1,Morocco national football team,1,-0.84015
+[CLS] Rincón plays with E . S . Troyes A . C . . [SEP],E . S . Troyes A . C .,E . S . Troyes A . C .,1,E . S . Troyes A . C .,1,-2.57262
+[CLS] Sergio Angulo:2 plays with Independiente Santa Fe . [SEP],Independiente Santa Fe,Independiente Santa Fe,1,Independiente Santa Fe,1,-0.55458
+[CLS] Paul Henderson plays with New Zealand national rugby union team . [SEP],New Zealand national rugby union team,New Zealand national rugby union team,1,New Zealand national rugby union team,1,-0.27124
+[CLS] Voro:2 plays with Valencia CF . [SEP],Valencia CF,Valencia CF,1,Valencia CF,1,-1.08277
+[CLS] Bruce Douglas plays with Sacramento Kings . [SEP],Sacramento Kings,Sacramento Kings,1,Sacramento Kings,1,-3.14099
+[CLS] Arthur Wolstenholme:5 plays with Gillingham:2 F . C . . [SEP],Gillingham:2 F . C .,Gillingham:2 F . C .,1,Gillingham:2 F . C .,1,-0.53531
+[CLS] Maksym:3 Prykhodnoy:4 plays with FC Hirnyk:3 - Sport Horishni:3 Plavni:2 . [SEP],FC Hirnyk:3 - Sport Horishni:3 Plavni:2,FC Hirnyk:3 - Sport Horishni:3 Plavni:2,1,FC Hirnyk:3 - Sport Horishni:3 Plavni:2,1,-6.62878
+[CLS] Jack Carpenter plays with Hamilton Tiger - Cats . [SEP],Hamilton Tiger - Cats,Hamilton Tiger - Cats,1,Hamilton Tiger - Cats,1,-1.87596
+[CLS] Gonzalo Bazán:2 plays with Club Atlético San Lorenzo de Almagro:2 . [SEP],Club Atlético San Lorenzo de Almagro:2,Club Atlético San Lorenzo de Almagro:2,1,Club Atlético San Lorenzo de Almagro:2,1,-0.37147
+[CLS] Arthur Yedigaryan:4 plays with Alashkert:3 FC . [SEP],Alashkert:3 FC,Alashkert:3 FC,1,Alashkert:3 FC,1,-7.53670
+[CLS] Leon Powe:2 plays with Memphis Grizzlies:4 . [SEP],Memphis Grizzlies:4,Memphis Grizzlies:4,1,Memphis Grizzlies:4,1,-0.86774
+[CLS] Alexandre Moreno Lopera:2 plays with Rayo:2 Vallecano:2 . [SEP],Rayo:2 Vallecano:2,Rayo:2 Vallecano:2,1,Rayo:2 Vallecano:2,1,-0.23354
+[CLS] Andy Bathgate:2 plays with New York Rangers . [SEP],New York Rangers,New York Rangers,1,New York Rangers,1,-0.73505
+[CLS] Børre:2 Steenslid:2 plays with Viking FK . [SEP],Viking FK,Viking FK,1,Viking FK,1,-3.05655
+[CLS] Paul Henare:2 plays with Christchurch Cougars:3 . [SEP],Christchurch Cougars:3,Christchurch Cougars:3,1,Christchurch Cougars:3,1,-3.22801
+[CLS] Emmanuel McDaniel:5 plays with Arizona Cardinals . [SEP],Arizona Cardinals,Arizona Cardinals,1,Arizona Cardinals,1,-2.06130
+[CLS] Kyle Richardson plays with Miami Dolphins:2 . [SEP],Miami Dolphins:2,Miami Dolphins:2,1,Miami Dolphins:2,1,-0.72257
+[CLS] Peter Bullough:2 plays with Bolton Wanderers F . C . . [SEP],Bolton Wanderers F . C .,Bolton Wanderers F . C .,1,Bolton Wanderers F . C .,1,-0.30860
+[CLS] Chris Parker plays with Gateshead:2 Thunder . [SEP],Gateshead:2 Thunder,Gateshead:2 Thunder,1,Gateshead:2 Thunder,1,-5.51123
+[CLS] Franjo Lovrić:3 plays with Yugoslavia national football team . [SEP],Yugoslavia national football team,Yugoslavia national football team,1,Yugoslavia national football team,1,-1.48222
+[CLS] Craig Armstrong plays with Gillingham:2 F . C . . [SEP],Gillingham:2 F . C .,Gillingham:2 F . C .,1,Gillingham:2 F . C .,1,-0.47054
+[CLS] Billy Findlay:2 plays with Kilmarnock:4 F . C . . [SEP],Kilmarnock:4 F . C .,Kilmarnock:4 F . C .,1,Kilmarnock:4 F . C .,1,-0.11651
+[CLS] Tim Moynihan:3 plays with Arizona Cardinals . [SEP],Arizona Cardinals,Arizona Cardinals,1,Arizona Cardinals,1,-1.61965
+[CLS] Earl Okine:2 plays with Brooklyn Bolts:2 . [SEP],Brooklyn Bolts:2,Brooklyn Bolts:2,1,Brooklyn Bolts:2,1,-6.08462
+[CLS] Kazuyoshi:3 Miura:2 plays with Yokohama FC . [SEP],Yokohama FC,Yokohama FC,1,Yokohama FC,1,-0.92181
+[CLS] Felix Rossignol:3 plays with Detroit Red Wings . [SEP],Detroit Red Wings,Detroit Red Wings,1,Detroit Red Wings,1,-2.01696
+[CLS] Diyan:2 Donchev:2 plays with A . E . K . Athens F . C . . [SEP],A . E . K . Athens F . C .,A . E . K . Athens F . C .,1,A . E . K . Athens F . C .,1,-1.91185
+[CLS] Mick Bodley:2 plays with Chelsea F . C . . [SEP],Chelsea F . C .,Chelsea F . C .,1,Chelsea F . C .,1,-0.88090
+[CLS] Harlon:2 Hill plays with Detroit Lions . [SEP],Detroit Lions,Detroit Lions,1,Detroit Lions,1,-4.36090
+[CLS] John Heitinga:3 plays with Hertha:2 BSC:2 . [SEP],Hertha:2 BSC:2,Hertha:2 BSC:2,1,Hertha:2 BSC:2,1,-1.06946
+[CLS] Yevgeni:3 Stukanov:3 plays with FC Rostov . [SEP],FC Rostov,FC Rostov,1,FC Rostov,1,-1.11501
+[CLS] Dean Horribine:3 plays with Hibernian:3 F . C . . [SEP],Hibernian:3 F . C .,Hibernian:3 F . C .,1,Hibernian:3 F . C .,1,-0.20527
+[CLS] David Andreoli:2 plays with FC Luzern . [SEP],FC Luzern,FC Luzern,1,FC Luzern,1,-3.54760
+[CLS] Bud Stefanski:2 plays with New York Rangers . [SEP],New York Rangers,New York Rangers,1,New York Rangers,1,-0.66428
+[CLS] Herbert Erhardt:2 plays with FC Bayern Munich . [SEP],FC Bayern Munich,FC Bayern Munich,1,FC Bayern Munich,1,-0.53918
+[CLS] Artem:2 Bobukh:3 plays with FC Belshina:3 Bobruisk:3 . [SEP],FC Belshina:3 Bobruisk:3,FC Belshina:3 Bobruisk:3,1,FC Belshina:3 Bobruisk:3,1,-4.46196
+[CLS] Ronan:2 Murray plays with Swindon:3 Town F . C . . [SEP],Swindon:3 Town F . C .,Swindon:3 Town F . C .,1,Swindon:3 Town F . C .,1,-0.30672
+[CLS] Gustavo Teixeira plays with S . L . Benfica . [SEP],S . L . Benfica,S . L . Benfica,1,S . L . Benfica,1,-1.31999
+[CLS] Justin Hickman:2 plays with Washington Redskins:2 . [SEP],Washington Redskins:2,Washington Redskins:2,1,Washington Redskins:2,1,-0.76208
+[CLS] Bill Harper plays with Fall River Marksmen:2 . [SEP],Fall River Marksmen:2,Fall River Marksmen:2,1,Fall River Marksmen:2,1,-5.37979
+[CLS] Serhiy:3 Yesin:2 plays with FC Helios:2 Kharkiv:4 . [SEP],FC Helios:2 Kharkiv:4,FC Helios:2 Kharkiv:4,1,FC Helios:2 Kharkiv:4,1,-1.80128
+[CLS] Art Madison plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-2.02856
+[CLS] Zlatko:3 Papec:2 plays with H . N . K . Hajduk:2 Split . [SEP],H . N . K . Hajduk:2 Split,H . N . K . Hajduk:2 Split,1,H . N . K . Hajduk:2 Split,1,-1.25967
+[CLS] Frank Laidlaw:3 plays with British & Irish Lions . [SEP],British & Irish Lions,British & Irish Lions,1,British & Irish Lions,1,-4.27351
+[CLS] Alphonso:3 Hodge:2 plays with Kansas City Chiefs . [SEP],Kansas City Chiefs,Kansas City Chiefs,1,Kansas City Chiefs,1,-1.00246
+[CLS] Vic Black plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-2.52642
+[CLS] Werner Schaaphok:4 plays with AFC Ajax . [SEP],AFC Ajax,AFC Ajax,1,AFC Ajax,1,-1.60122
+[CLS] Paul Elliott plays with Charlton Athletic F . C . . [SEP],Charlton Athletic F . C .,Charlton Athletic F . C .,1,Charlton Athletic F . C .,1,-0.50657
+[CLS] Alexander Domínguez plays with Liga Deportiva Universitaria:3 de Quito . [SEP],Liga Deportiva Universitaria:3 de Quito,Liga Deportiva Universitaria:3 de Quito,1,Liga Deportiva Universitaria:3 de Quito,1,-1.54796
+[CLS] Jack Deloplaine:3 plays with Washington Redskins:2 . [SEP],Washington Redskins:2,Washington Redskins:2,1,Washington Redskins:2,1,-0.90282
+[CLS] Manuel Sanhouse:2 plays with Club Deportivo ESPOLI:3 . [SEP],Club Deportivo ESPOLI:3,Club Deportivo ESPOLI:3,1,Club Deportivo ESPOLI:3,1,-2.82287
+[CLS] Péter Czvitkovics:5 plays with Vasas:2 SC . [SEP],Vasas:2 SC,Vasas:2 SC,1,Vasas:2 SC,1,-0.99470
+[CLS] Nate Bump:2 plays with Toledo Mud:2 Hens:2 . [SEP],Toledo Mud:2 Hens:2,Toledo Mud:2 Hens:2,1,Toledo Mud:2 Hens:2,1,-5.10430
+[CLS] Arthur Darby:2 plays with England national rugby union team . [SEP],England national rugby union team,England national rugby union team,1,England national rugby union team,1,-0.76567
+[CLS] Cody Ransom:3 plays with New York Yankees . [SEP],New York Yankees,New York Yankees,1,New York Yankees,1,-0.73667
+[CLS] Tommy Bogan:2 plays with Blackburn Rovers F . C . . [SEP],Blackburn Rovers F . C .,Blackburn Rovers F . C .,1,Blackburn Rovers F . C .,1,-0.47328
+[CLS] Stefan Moore plays with Queens Park Rangers F . C . . [SEP],Queens Park Rangers F . C .,Queens Park Rangers F . C .,1,Queens Park Rangers F . C .,1,-0.12017
+[CLS] Kirk Dressendorfer:4 plays with Oakland Athletics . [SEP],Oakland Athletics,Oakland Athletics,1,Oakland Athletics,1,-2.52688
+[CLS] Drew Haddad:2 plays with Buffalo Bills . [SEP],Buffalo Bills,Buffalo Bills,1,Buffalo Bills,1,-0.63590
+[CLS] Jafal:2 Rashed:2 Al - Kuwari:2 plays with Al Sadd:2 Sports Club . [SEP],Al Sadd:2 Sports Club,Al Sadd:2 Sports Club,1,Al Sadd:2 Sports Club,1,-2.14133
+[CLS] Jarrod:2 O ' Doherty plays with Huddersfield:3 Giants . [SEP],Huddersfield:3 Giants,Huddersfield:3 Giants,1,Huddersfield:3 Giants,1,-1.66150
+[CLS] Esmaël:3 Gonçalves plays with Anorthosis:3 Famagusta:3 FC . [SEP],Anorthosis:3 Famagusta:3 FC,Anorthosis:3 Famagusta:3 FC,1,Anorthosis:3 Famagusta:3 FC,1,-0.73654
+[CLS] Bernard Purdie:3 plays with Huddersfield:3 Town A . F . C . . [SEP],Huddersfield:3 Town A . F . C .,Huddersfield:3 Town A . F . C .,1,Huddersfield:3 Town A . F . C .,1,-0.37131
+[CLS] Gerhard Strack:2 plays with Germany national football team . [SEP],Germany national football team,Germany national football team,1,Germany national football team,1,-0.68226
+[CLS] Jackie Oakes:2 plays with Wolverhampton Wanderers F . C . . [SEP],Wolverhampton Wanderers F . C .,Wolverhampton Wanderers F . C .,1,Wolverhampton Wanderers F . C .,1,-0.40504
+[CLS] Stevan:2 Marković:2 plays with FK Mornar:2 . [SEP],FK Mornar:2,FK Mornar:2,1,FK Mornar:2,1,-2.84697
+[CLS] Willie Ormond:2 plays with Scotland national football team . [SEP],Scotland national football team,Scotland national football team,1,Scotland national football team,1,-1.17900
+[CLS] Ricky Ohorella:3 plays with Semen:2 Padang F . C . . [SEP],Semen:2 Padang F . C .,Semen:2 Padang F . C .,1,Semen:2 Padang F . C .,1,-1.60114
+[CLS] Jorry:2 Merahe:2 plays with Orlando Pirates F . C . . [SEP],Orlando Pirates F . C .,Orlando Pirates F . C .,1,Orlando Pirates F . C .,1,-1.16096
+[CLS] Tom Hall plays with Minnesota Vikings . [SEP],Minnesota Vikings,Minnesota Vikings,1,Minnesota Vikings,1,-2.25504
+[CLS] Jason Arnott:2 plays with Edmonton Oilers . [SEP],Edmonton Oilers,Edmonton Oilers,1,Edmonton Oilers,1,-2.70450
+[CLS] Eric Lee plays with Edmonton Eskimos:2 . [SEP],Edmonton Eskimos:2,Edmonton Eskimos:2,1,Edmonton Eskimos:2,1,-2.04461
+[CLS] Raynald:3 Denoueix:3 plays with F . C . Nantes . [SEP],F . C . Nantes,F . C . Nantes,1,F . C . Nantes,1,-1.19689
+[CLS] Federico Crovari:3 plays with Calcio Padova . [SEP],Calcio Padova,Calcio Padova,1,Calcio Padova,1,-1.96221
+[CLS] Nilmar:2 plays with Olympique Lyonnais:2 . [SEP],Olympique Lyonnais:2,Olympique Lyonnais:2,1,Olympique Lyonnais:2,1,-0.07673
+[CLS] Dan Kennedy plays with Los Angeles Galaxy . [SEP],Los Angeles Galaxy,Los Angeles Galaxy,1,Los Angeles Galaxy,1,-1.92241
+[CLS] Hugh McDonald plays with Bradford ( Park Avenue ) A . F . C . . [SEP],Bradford ( Park Avenue ) A . F . C .,Bradford ( Park Avenue ) A . F . C .,1,Bradford ( Park Avenue ) A . F . C .,1,-1.35730
+[CLS] Radek:2 Šírl:3 plays with Bohemians:2 1905 . [SEP],Bohemians:2 1905,Bohemians:2 1905,1,Bohemians:2 1905,1,-2.74748
+[CLS] George McGinnis:5 plays with Philadelphia 76ers:2 . [SEP],Philadelphia 76ers:2,Philadelphia 76ers:2,1,Philadelphia 76ers:2,1,-1.97159
+[CLS] Jelani:2 McCoy plays with Toronto Raptors:2 . [SEP],Toronto Raptors:2,Toronto Raptors:2,1,Toronto Raptors:2,1,-1.94583
+[CLS] Nick Anderson plays with Orlando Magic . [SEP],Orlando Magic,Orlando Magic,1,Orlando Magic,1,-4.60322
+[CLS] Michael Potts:2 plays with Blackburn Rovers F . C . . [SEP],Blackburn Rovers F . C .,Blackburn Rovers F . C .,1,Blackburn Rovers F . C .,1,-0.42643
+[CLS] Ernst Kozlicek:3 plays with S . K . Sturm Graz . [SEP],S . K . Sturm Graz,S . K . Sturm Graz,1,S . K . Sturm Graz,1,-1.22239
+[CLS] Les Scarsella:3 plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-3.32257
+[CLS] Martin Sigmund plays with FK Teplice:2 . [SEP],FK Teplice:2,FK Teplice:2,1,FK Teplice:2,1,-1.41799
+[CLS] Jimmy McAlinden:5 plays with Southend:2 United F . C . . [SEP],Southend:2 United F . C .,Southend:2 United F . C .,1,Southend:2 United F . C .,1,-0.79746
+[CLS] David Wyman:2 plays with Seattle Seahawks:2 . [SEP],Seattle Seahawks:2,Seattle Seahawks:2,1,Seattle Seahawks:2,1,-0.99613
+[CLS] John Baxter plays with Clydebank:2 F . C . . [SEP],Clydebank:2 F . C .,Clydebank:2 F . C .,1,Clydebank:2 F . C .,1,-1.25619
+[CLS] Dave Hertel:2 plays with Richmond Kickers:2 . [SEP],Richmond Kickers:2,Richmond Kickers:2,1,Richmond Kickers:2,1,-4.73486
+[CLS] Elvis Merzļikins:4 plays with Hockey Club Lugano . [SEP],Hockey Club Lugano,Hockey Club Lugano,1,Hockey Club Lugano,1,-6.21944
+[CLS] Quinton:2 Smith plays with Las Vegas Raiders . [SEP],Las Vegas Raiders,Las Vegas Raiders,1,Las Vegas Raiders,1,-2.18294
+[CLS] Magno Alves plays with Fluminense F . C . . [SEP],Fluminense F . C .,Fluminense F . C .,1,Fluminense F . C .,1,-0.91932
+[CLS] Francis Joseph plays with Fulham F . C . . [SEP],Fulham F . C .,Fulham F . C .,1,Fulham F . C .,1,-1.08335
+[CLS] Pascal Matla:2 plays with New Orleans Saints . [SEP],New Orleans Saints,New Orleans Saints,1,New Orleans Saints,1,-1.17536
+[CLS] Graham Bailey plays with Huddersfield:3 Town A . F . C . . [SEP],Huddersfield:3 Town A . F . C .,Huddersfield:3 Town A . F . C .,1,Huddersfield:3 Town A . F . C .,1,-0.35562
+[CLS] James Turley:2 plays with Witton:2 Albion F . C . . [SEP],Witton:2 Albion F . C .,Witton:2 Albion F . C .,1,Witton:2 Albion F . C .,1,-2.39318
+[CLS] John Davis plays with Worcestershire:2 County Cricket Club . [SEP],Worcestershire:2 County Cricket Club,Worcestershire:2 County Cricket Club,1,Worcestershire:2 County Cricket Club,1,-1.02715
+[CLS] André Schei:2 Lindbæk:4 plays with Club Deportivo Numancia:3 . [SEP],Club Deportivo Numancia:3,Club Deportivo Numancia:3,1,Club Deportivo Numancia:3,1,-1.30976
+[CLS] Edgar Field plays with Clapham:3 Rovers F . C . . [SEP],Clapham:3 Rovers F . C .,Clapham:3 Rovers F . C .,1,Clapham:3 Rovers F . C .,1,-1.15193
+[CLS] Antônio Rinaldo:2 Gonçalves plays with Brazil national football team . [SEP],Brazil national football team,Brazil national football team,1,Brazil national football team,1,-0.60775
+[CLS] Jason Williams plays with Orlando Magic . [SEP],Orlando Magic,Orlando Magic,1,Orlando Magic,1,-3.69991
+[CLS] Jason Pearce plays with Leeds United F . C . . [SEP],Leeds United F . C .,Leeds United F . C .,1,Leeds United F . C .,1,-0.63655
+[CLS] Allison Falk plays with Los Angeles Sol . [SEP],Los Angeles Sol,Los Angeles Sol,1,Los Angeles Sol,1,-4.68231
+[CLS] Rasual:2 Butler plays with Miami Heat . [SEP],Miami Heat,Miami Heat,1,Miami Heat,1,-2.19414
+[CLS] Pedro Munitis:3 plays with Spain national football team . [SEP],Spain national football team,Spain national football team,1,Spain national football team,1,-1.14857
+[CLS] Rodney Holman:2 plays with Cincinnati Bengals:2 . [SEP],Cincinnati Bengals:2,Cincinnati Bengals:2,1,Cincinnati Bengals:2,1,-2.03515
+[CLS] Marco Turati:2 plays with U . S . Ancona 1905 . [SEP],U . S . Ancona 1905,U . S . Ancona 1905,1,U . S . Ancona 1905,1,-2.91952
+[CLS] Yoann:2 Bagot:2 plays with Cofidis:3 . [SEP],Cofidis:3,Cofidis:3,1,Cofidis:3,1,-4.67325
+[CLS] Émile Stijnen:2 plays with R . O . C . de Charleroi - Marchienne:2 . [SEP],R . O . C . de Charleroi - Marchienne:2,R . O . C . de Charleroi - Marchienne:2,1,R . O . C . de Charleroi - Marchienne:2,1,-2.28221
+[CLS] Phil Heath plays with Oxford United F . C . . [SEP],Oxford United F . C .,Oxford United F . C .,1,Oxford United F . C .,1,-0.93494
+[CLS] Mervyn:2 Day plays with Leyton:2 Orient F . C . . [SEP],Leyton:2 Orient F . C .,Leyton:2 Orient F . C .,1,Leyton:2 Orient F . C .,1,-0.60315
+[CLS] Bob McIntyre:4 plays with Pawtucket:4 Rangers . [SEP],Pawtucket:4 Rangers,Pawtucket:4 Rangers,1,Pawtucket:4 Rangers,1,-1.03501
+[CLS] Sireli:2 Bobo:2 plays with Stade Rochelais:2 . [SEP],Stade Rochelais:2,Stade Rochelais:2,1,Stade Rochelais:2,1,-5.81862
+[CLS] Jamie Mulgrew:3 plays with Northern Ireland national football team . [SEP],Northern Ireland national football team,Northern Ireland national football team,1,Northern Ireland national football team,1,-0.89464
+[CLS] Alex Jones plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-1.63056
+[CLS] Kelvin Garmon:2 plays with Dallas Cowboys . [SEP],Dallas Cowboys,Dallas Cowboys,1,Dallas Cowboys,1,-1.57042
+[CLS] Milan Chalupa:3 plays with Detroit Red Wings . [SEP],Detroit Red Wings,Detroit Red Wings,1,Detroit Red Wings,1,-1.87504
+[CLS] Shingo:2 Honda plays with Avispa:2 Fukuoka . [SEP],Avispa:2 Fukuoka,Avispa:2 Fukuoka,1,Avispa:2 Fukuoka,1,-0.76577
+[CLS] Roger Wolff plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-2.37630
+[CLS] John Vanbiesbrouck:4 plays with New Jersey Devils . [SEP],New Jersey Devils,New Jersey Devils,1,New Jersey Devils,1,-0.55836
+[CLS] Robbie Gibbons plays with Alki:2 Larnaca:3 F . C . . [SEP],Alki:2 Larnaca:3 F . C .,Alki:2 Larnaca:3 F . C .,1,Alki:2 Larnaca:3 F . C .,1,-2.09922
+[CLS] Gordon Low plays with Stockport:2 County F . C . . [SEP],Stockport:2 County F . C .,Stockport:2 County F . C .,1,Stockport:2 County F . C .,1,-0.62251
+[CLS] Tomasz Iwan plays with RBC:2 Roosendaal:4 . [SEP],RBC:2 Roosendaal:4,RBC:2 Roosendaal:4,1,RBC:2 Roosendaal:4,1,-1.06600
+[CLS] Brian Holzinger:2 plays with Pittsburgh Penguins . [SEP],Pittsburgh Penguins,Pittsburgh Penguins,1,Pittsburgh Penguins,1,-0.50058
+[CLS] Sean Priddle:2 plays with Brentford:2 F . C . . [SEP],Brentford:2 F . C .,Brentford:2 F . C .,1,Brentford:2 F . C .,1,-0.63825
+[CLS] Nerijus:2 Barasa:2 plays with FK Atlantas:2 . [SEP],FK Atlantas:2,FK Atlantas:2,1,FK Atlantas:2,1,-8.11219
+[CLS] Na Byung:2 - yul:2 plays with Persita:2 Tangerang:2 . [SEP],Persita:2 Tangerang:2,Persita:2 Tangerang:2,1,Persita:2 Tangerang:2,1,-3.71824
+[CLS] Darjuš:3 Lavrinovič:5 plays with Pallacanestro:4 Reggiana:3 . [SEP],Pallacanestro:4 Reggiana:3,Pallacanestro:4 Reggiana:3,1,Pallacanestro:4 Reggiana:3,1,-0.11391
+[CLS] Harry Wilcox:3 plays with Preston North End F . C . . [SEP],Preston North End F . C .,Preston North End F . C .,1,Preston North End F . C .,1,-0.07114
+[CLS] Alonso Escoboza:4 plays with Club Tijuana:2 . [SEP],Club Tijuana:2,Club Tijuana:2,1,Club Tijuana:2,1,-1.09103
+[CLS] Larry Izzo:2 plays with New England Patriots . [SEP],New England Patriots,New England Patriots,1,New England Patriots,1,-0.59540
+[CLS] Veigar:3 Páll:2 Gunnarsson:2 plays with Iceland national football team . [SEP],Iceland national football team,Iceland national football team,1,Iceland national football team,1,-0.38719
+[CLS] Darko:2 Raca:2 plays with F . K . Sarajevo . [SEP],F . K . Sarajevo,F . K . Sarajevo,1,F . K . Sarajevo,1,-3.27485
+[CLS] Andy Cooke plays with Burnley:2 F . C . . [SEP],Burnley:2 F . C .,Burnley:2 F . C .,1,Burnley:2 F . C .,1,-0.67116
+[CLS] Wally Quinton:2 plays with Shrewsbury Town F . C . . [SEP],Shrewsbury Town F . C .,Shrewsbury Town F . C .,1,Shrewsbury Town F . C .,1,-0.72579
+[CLS] Federico Lopez plays with Team Quest . [SEP],Team Quest,Team Quest,1,Team Quest,1,-7.96441
+[CLS] Goran Popov:2 plays with SC Heerenveen:3 . [SEP],SC Heerenveen:3,SC Heerenveen:3,1,SC Heerenveen:3,1,-1.15154
+[CLS] Johnny Sheppard plays with New York Americans . [SEP],New York Americans,New York Americans,1,New York Americans,1,-3.38253
+[CLS] Stefano Lorenzi:2 plays with A . C . ChievoVerona:5 . [SEP],A . C . ChievoVerona:5,A . C . ChievoVerona:5,1,A . C . ChievoVerona:5,1,-1.69037
+[CLS] René Bolf:2 plays with Czech Republic national football team . [SEP],Czech Republic national football team,Czech Republic national football team,1,Czech Republic national football team,1,-1.22296
+[CLS] Nicolas Frey plays with A . C . ChievoVerona:5 . [SEP],A . C . ChievoVerona:5,A . C . ChievoVerona:5,1,A . C . ChievoVerona:5,1,-2.12719
+[CLS] Sandro Ferreira André plays with Paykan:2 F . C . . [SEP],Paykan:2 F . C .,Paykan:2 F . C .,1,Paykan:2 F . C .,1,-3.15299
+[CLS] Bill Pulsipher:4 plays with New York Mets . [SEP],New York Mets,New York Mets,1,New York Mets,1,-1.50132
+[CLS] Glenn Myatt:2 plays with Detroit Tigers . [SEP],Detroit Tigers,Detroit Tigers,1,Detroit Tigers,1,-3.05882
+[CLS] Jim Paterson plays with Dunfermline:5 Athletic F . C . . [SEP],Dunfermline:5 Athletic F . C .,Dunfermline:5 Athletic F . C .,1,Dunfermline:5 Athletic F . C .,1,-0.32820
+[CLS] Thomas Crean:2 plays with British & Irish Lions . [SEP],British & Irish Lions,British & Irish Lions,1,British & Irish Lions,1,-3.70371
+[CLS] Arthur Leach plays with Collingwood:3 Football Club . [SEP],Collingwood:3 Football Club,Collingwood:3 Football Club,1,Collingwood:3 Football Club,1,-0.59822
+[CLS] Uwe Harttgen:3 plays with SV Werder Bremen . [SEP],SV Werder Bremen,SV Werder Bremen,1,SV Werder Bremen,1,-0.42324
+[CLS] Igor Matić:2 plays with Serbia national under - 21 football team . [SEP],Serbia national under - 21 football team,Serbia national under - 21 football team,1,Serbia national under - 21 football team,1,-0.91057
+[CLS] Ermen:2 Benítez:3 plays with Ecuador national football team . [SEP],Ecuador national football team,Ecuador national football team,1,Ecuador national football team,1,-1.49661
+[CLS] Tornike:2 Gorgiashvili:4 plays with FC Samtredia:3 . [SEP],FC Samtredia:3,FC Samtredia:3,1,FC Samtredia:3,1,-5.27025
+[CLS] Eddie Loyden:2 plays with Blackpool F . C . . [SEP],Blackpool F . C .,Blackpool F . C .,1,Blackpool F . C .,1,-0.91433
+[CLS] Dirk Hayhurst:2 plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.56245
+[CLS] Luan:2 Pinari:2 plays with Partizani:2 Tirana . [SEP],Partizani:2 Tirana,Partizani:2 Tirana,1,Partizani:2 Tirana,1,-0.39454
+[CLS] Andrei Mezin:2 plays with Traktor:2 Chelyabinsk:4 . [SEP],Traktor:2 Chelyabinsk:4,Traktor:2 Chelyabinsk:4,1,Traktor:2 Chelyabinsk:4,1,-1.10848
+[CLS] Rasim:2 Ramaldanov:3 plays with Sumgayit:4 PFC:2 . [SEP],Sumgayit:4 PFC:2,Sumgayit:4 PFC:2,1,Sumgayit:4 PFC:2,1,-4.77097
+[CLS] Gary Bollan:2 plays with Livingston F . C . . [SEP],Livingston F . C .,Livingston F . C .,1,Livingston F . C .,1,-1.06486
+[CLS] Nick Eason:2 plays with Scottish Claymores:3 . [SEP],Scottish Claymores:3,Scottish Claymores:3,1,Scottish Claymores:3,1,-6.25588
+[CLS] Ben Amos plays with Molde FK . [SEP],Molde FK,Molde FK,1,Molde FK,1,-2.40659
+[CLS] Brian Rushton:2 plays with Notts:2 County F . C . . [SEP],Notts:2 County F . C .,Notts:2 County F . C .,1,Notts:2 County F . C .,1,-0.33842
+[CLS] Ricky Foley plays with Seattle Seahawks:2 . [SEP],Seattle Seahawks:2,Seattle Seahawks:2,1,Seattle Seahawks:2,1,-0.93047
+[CLS] Kenny Brown plays with Portadown:2 F . C . . [SEP],Portadown:2 F . C .,Portadown:2 F . C .,1,Portadown:2 F . C .,1,-1.05372
+[CLS] Jimmy Dykes:2 plays with Glasgow Academicals:2 RFC . [SEP],Glasgow Academicals:2 RFC,Glasgow Academicals:2 RFC,1,Glasgow Academicals:2 RFC,1,-5.46527
+[CLS] Amobi:2 Okoye:2 plays with Houston Texans:2 . [SEP],Houston Texans:2,Houston Texans:2,1,Houston Texans:2,1,-0.08488
+[CLS] Mohd Zaiza:2 Zainal:2 Abidin:2 plays with Selangor FA . [SEP],Selangor FA,Selangor FA,1,Selangor FA,1,-2.30378
+[CLS] Tamás Gruborovics:5 plays with Kuopion:3 Palloseura:3 . [SEP],Kuopion:3 Palloseura:3,Kuopion:3 Palloseura:3,1,Kuopion:3 Palloseura:3,1,-1.00156
+[CLS] Doug Rader:2 plays with Houston Astros:2 . [SEP],Houston Astros:2,Houston Astros:2,1,Houston Astros:2,1,-1.09783
+[CLS] Kyle Eastmond:2 plays with England national rugby league team . [SEP],England national rugby league team,England national rugby league team,1,England national rugby league team,1,-1.48700
+[CLS] Lennart Samuelsson:2 plays with IF Elfsborg:2 . [SEP],IF Elfsborg:2,IF Elfsborg:2,1,IF Elfsborg:2,1,-1.46626
+[CLS] Fred de Jong plays with New Zealand national football team . [SEP],New Zealand national football team,New Zealand national football team,1,New Zealand national football team,1,-0.30395
+[CLS] Wash:2 Serini:2 plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-5.09160
+[CLS] Michael Gspurning:4 plays with Seattle Sounders:2 FC . [SEP],Seattle Sounders:2 FC,Seattle Sounders:2 FC,1,Seattle Sounders:2 FC,1,-1.37289
+[CLS] Sergei Zadelenov:3 plays with HC Dinamo Minsk . [SEP],HC Dinamo Minsk,HC Dinamo Minsk,1,HC Dinamo Minsk,1,-2.91008
+[CLS] Stern John plays with Coventry City F . C . . [SEP],Coventry City F . C .,Coventry City F . C .,1,Coventry City F . C .,1,-0.87529
+[CLS] Alan Jones plays with Chesterfield:2 F . C . . [SEP],Chesterfield:2 F . C .,Chesterfield:2 F . C .,1,Chesterfield:2 F . C .,1,-0.70420
+[CLS] Bob Harrison plays with San Francisco 49ers:2 . [SEP],San Francisco 49ers:2,San Francisco 49ers:2,1,San Francisco 49ers:2,1,-0.26211
+[CLS] Jussi Jääskeläinen:5 plays with West Ham United F . C . . [SEP],West Ham United F . C .,West Ham United F . C .,1,West Ham United F . C .,1,-0.19437
+[CLS] Chris Wright plays with Boston United F . C . . [SEP],Boston United F . C .,Boston United F . C .,1,Boston United F . C .,1,-1.55681
+[CLS] Alexandros:2 Zeris:2 plays with Larissa:2 F . C . . [SEP],Larissa:2 F . C .,Larissa:2 F . C .,1,Larissa:2 F . C .,1,-0.43725
+[CLS] Charles Casali:2 plays with BSC:2 Young Boys . [SEP],BSC:2 Young Boys,BSC:2 Young Boys,1,BSC:2 Young Boys,1,-1.90132
+[CLS] Noel Whelan:3 plays with Dunfermline:5 Athletic F . C . . [SEP],Dunfermline:5 Athletic F . C .,Dunfermline:5 Athletic F . C .,1,Dunfermline:5 Athletic F . C .,1,-0.43766
+[CLS] Mileta:2 Radulović:3 plays with OFK:2 Bar . [SEP],OFK:2 Bar,OFK:2 Bar,1,OFK:2 Bar,1,-5.42735
+[CLS] Anıl:2 Abanoz:3 plays with Tepecik:3 B . S . . [SEP],Tepecik:3 B . S .,Tepecik:3 B . S .,1,Tepecik:3 B . S .,1,-3.14083
+[CLS] Daniel Jara:2 Martínez plays with San Marino Calcio . [SEP],San Marino Calcio,San Marino Calcio,1,San Marino Calcio,1,-1.03609
+[CLS] Dejan:2 Peković:2 plays with Puebla F . C . . [SEP],Puebla F . C .,Puebla F . C .,1,Puebla F . C .,1,-1.84286
+[CLS] Malcolm Walker plays with Green Bay Packers . [SEP],Green Bay Packers,Green Bay Packers,1,Green Bay Packers,1,-0.63238
+[CLS] Ken Wookey:2 plays with Newport County A . F . C . . [SEP],Newport County A . F . C .,Newport County A . F . C .,1,Newport County A . F . C .,1,-1.41572
+[CLS] David Artell:2 plays with Chester City F . C . . [SEP],Chester City F . C .,Chester City F . C .,1,Chester City F . C .,1,-1.34514
+[CLS] Aleksandar Živković:3 plays with Yugoslavia national football team . [SEP],Yugoslavia national football team,Yugoslavia national football team,1,Yugoslavia national football team,1,-1.55113
+[CLS] Igor Sapronov:3 plays with FC Dnepr:2 Smolensk:3 . [SEP],FC Dnepr:2 Smolensk:3,FC Dnepr:2 Smolensk:3,1,FC Dnepr:2 Smolensk:3,1,-0.63761
+[CLS] Ibrahima:2 Touré:2 plays with Wydad:3 Casablanca . [SEP],Wydad:3 Casablanca,Wydad:3 Casablanca,1,Wydad:3 Casablanca,1,-2.19168
+[CLS] Carlos Hyde plays with San Francisco 49ers:2 . [SEP],San Francisco 49ers:2,San Francisco 49ers:2,1,San Francisco 49ers:2,1,-0.42650
+[CLS] Paul Turnbull:2 plays with Macclesfield:3 Town F . C . . [SEP],Macclesfield:3 Town F . C .,Macclesfield:3 Town F . C .,1,Macclesfield:3 Town F . C .,1,-0.49082
+[CLS] Walter Metcalf:3 plays with Brentford:2 F . C . . [SEP],Brentford:2 F . C .,Brentford:2 F . C .,1,Brentford:2 F . C .,1,-0.60576
+[CLS] Richard Alston:2 plays with Cleveland Browns . [SEP],Cleveland Browns,Cleveland Browns,1,Cleveland Browns,1,-1.47874
+[CLS] Kim Do - heon:2 plays with Seongnam:3 FC . [SEP],Seongnam:3 FC,Seongnam:3 FC,1,Seongnam:3 FC,1,-1.41627
+[CLS] Roger Smith plays with New Zealand national football team . [SEP],New Zealand national football team,New Zealand national football team,1,New Zealand national football team,1,-0.33551
+[CLS] Brandon Browner:2 plays with Seattle Seahawks:2 . [SEP],Seattle Seahawks:2,Seattle Seahawks:2,1,Seattle Seahawks:2,1,-1.10248
+[CLS] Jung Sung - ryong:2 plays with Kawasaki Frontale:2 . [SEP],Kawasaki Frontale:2,Kawasaki Frontale:2,1,Kawasaki Frontale:2,1,-1.68906
+[CLS] Slaviša:4 Mitrović:3 plays with Shabab:2 Al Ahli Club . [SEP],Shabab:2 Al Ahli Club,Shabab:2 Al Ahli Club,1,Shabab:2 Al Ahli Club,1,-2.59943
+[CLS] Milan Vissie:2 plays with Jong Ajax . [SEP],Jong Ajax,Jong Ajax,1,Jong Ajax,1,-3.98087
+[CLS] Andreas Isaksson:3 plays with Sweden national football team . [SEP],Sweden national football team,Sweden national football team,1,Sweden national football team,1,-0.64031
+[CLS] Thomas Tennebø:3 plays with Fana:2 IL . [SEP],Fana:2 IL,Fana:2 IL,1,Fana:2 IL,1,-4.58228
+[CLS] Roger Peckinpaugh:4 plays with Chicago White Sox . [SEP],Chicago White Sox,Chicago White Sox,1,Chicago White Sox,1,-1.90606
+[CLS] Gaetano D ' Agostino plays with Lupa:2 Roma F . C . . [SEP],Lupa:2 Roma F . C .,Lupa:2 Roma F . C .,1,Lupa:2 Roma F . C .,1,-3.05587
+[CLS] Bill Hegarty:3 plays with Pittsburgh Steelers . [SEP],Pittsburgh Steelers,Pittsburgh Steelers,1,Pittsburgh Steelers,1,-1.54572
+[CLS] Vladimír Táborský:3 plays with Czechoslovakia national football team . [SEP],Czechoslovakia national football team,Czechoslovakia national football team,1,Czechoslovakia national football team,1,-1.22423
+[CLS] Nemanja:2 Bošković:3 plays with FK Proleter:3 Novi Sad . [SEP],FK Proleter:3 Novi Sad,FK Proleter:3 Novi Sad,1,FK Proleter:3 Novi Sad,1,-0.45617
+[CLS] Brad Muster:2 plays with New Orleans Saints . [SEP],New Orleans Saints,New Orleans Saints,1,New Orleans Saints,1,-0.43150
+[CLS] Richard Hughes plays with Atalanta:2 B . C . . [SEP],Atalanta:2 B . C .,Atalanta:2 B . C .,1,Atalanta:2 B . C .,1,-1.40022
+[CLS] Bill Chamberlain plays with Memphis Sounds . [SEP],Memphis Sounds,Memphis Sounds,1,Memphis Sounds,1,-8.34429
+[CLS] Strati:2 Iliev:3 plays with Tampere United . [SEP],Tampere United,Tampere United,1,Tampere United,1,-4.16710
+[CLS] Henrique de Jesus Bernardo plays with S . C . Corinthians Paulista . [SEP],S . C . Corinthians Paulista,S . C . Corinthians Paulista,1,S . C . Corinthians Paulista,1,-0.97956
+[CLS] Steve Norton plays with Wakefield Trinity . [SEP],Wakefield Trinity,Wakefield Trinity,1,Wakefield Trinity,1,-3.00255
+[CLS] Tarun:2 Dey:2 plays with India national football team . [SEP],India national football team,India national football team,1,India national football team,1,-1.40840
+[CLS] Kris Johnson plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-2.47629
+[CLS] Chuck Mercein:3 plays with New York Jets . [SEP],New York Jets,New York Jets,1,New York Jets,1,-1.52188
+[CLS] Léo Lacroix:2 plays with FC Sion . [SEP],FC Sion,FC Sion,1,FC Sion,1,-2.90612
+[CLS] Ralph Bean plays with North Village Rams . [SEP],North Village Rams,North Village Rams,1,North Village Rams,1,-8.31652
+[CLS] Davit:2 Mchedlishvili:5 plays with FC Ameri:2 Tbilisi . [SEP],FC Ameri:2 Tbilisi,FC Ameri:2 Tbilisi,1,FC Ameri:2 Tbilisi,1,-4.56948
+[CLS] Jack Lornie:2 plays with Leicester City F . C . . [SEP],Leicester City F . C .,Leicester City F . C .,1,Leicester City F . C .,1,-0.84091
+[CLS] Artyom:3 Mitasov:3 plays with FC Shinnik:2 Yaroslavl:4 . [SEP],FC Shinnik:2 Yaroslavl:4,FC Shinnik:2 Yaroslavl:4,1,FC Shinnik:2 Yaroslavl:4,1,-2.45967
+[CLS] Edell:2 Shepherd plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-5.60896
+[CLS] Renato Cesarini:2 plays with Juventus F . C . . [SEP],Juventus F . C .,Juventus F . C .,1,Juventus F . C .,1,-0.49138
+[CLS] Rodney So ' oialo:3 plays with New Zealand national rugby union team . [SEP],New Zealand national rugby union team,New Zealand national rugby union team,1,New Zealand national rugby union team,1,-0.29181
+[CLS] Kerri:2 Gardin:2 plays with Washington Mystics:2 . [SEP],Washington Mystics:2,Washington Mystics:2,1,Washington Mystics:2,1,-4.80696
+[CLS] Alan O ' Hara plays with Cleveland City Stars . [SEP],Cleveland City Stars,Cleveland City Stars,1,Cleveland City Stars,1,-7.08524
+[CLS] Jan Ove Pedersen plays with SC Schwarz - Weiß Bregenz:3 . [SEP],SC Schwarz - Weiß Bregenz:3,SC Schwarz - Weiß Bregenz:3,1,SC Schwarz - Weiß Bregenz:3,1,-1.58618
+[CLS] Walt Williams plays with Toronto Raptors:2 . [SEP],Toronto Raptors:2,Toronto Raptors:2,1,Toronto Raptors:2,1,-1.65417
+[CLS] Bill George plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-5.29154
+[CLS] Hans - Georg Schwarzenbeck:3 plays with FC Bayern Munich . [SEP],FC Bayern Munich,FC Bayern Munich,1,FC Bayern Munich,1,-0.69491
+[CLS] Anton Strålman:3 plays with Toronto Maple Leafs . [SEP],Toronto Maple Leafs,Toronto Maple Leafs,1,Toronto Maple Leafs,1,-0.40641
+[CLS] Harvey Bischop:3 plays with PEC:2 Zwolle . [SEP],PEC:2 Zwolle,PEC:2 Zwolle,1,PEC:2 Zwolle,1,-3.09171
+[CLS] Park Chul:2 - hyung:2 plays with Jeju:2 United FC . [SEP],Jeju:2 United FC,Jeju:2 United FC,1,Jeju:2 United FC,1,-2.00835
+[CLS] Acie:2 Law plays with Olympiacos:2 B . C . . [SEP],Olympiacos:2 B . C .,Olympiacos:2 B . C .,1,Olympiacos:2 B . C .,1,-1.84535
+[CLS] Constantinos:2 Samaras:2 plays with Olympiakos:2 Nicosia:2 FC . [SEP],Olympiakos:2 Nicosia:2 FC,Olympiakos:2 Nicosia:2 FC,1,Olympiakos:2 Nicosia:2 FC,1,-0.93957
+[CLS] Rick Jones plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.02876
+[CLS] Jimmy Heale:2 plays with Bristol City F . C . . [SEP],Bristol City F . C .,Bristol City F . C .,1,Bristol City F . C .,1,-0.88436
+[CLS] John Owens plays with Las Vegas Raiders . [SEP],Las Vegas Raiders,Las Vegas Raiders,1,Las Vegas Raiders,1,-2.15060
+[CLS] Emmanuel Dieseruvwe:3 plays with Chesterfield:2 F . C . . [SEP],Chesterfield:2 F . C .,Chesterfield:2 F . C .,1,Chesterfield:2 F . C .,1,-0.62210
+[CLS] Zurab:2 Menteshashvili:5 plays with FC Alania:2 Vladikavkaz:4 . [SEP],FC Alania:2 Vladikavkaz:4,FC Alania:2 Vladikavkaz:4,1,FC Alania:2 Vladikavkaz:4,1,-1.28718
+[CLS] Adebayo:3 Akinfenwa:4 plays with Millwall:2 F . C . . [SEP],Millwall:2 F . C .,Millwall:2 F . C .,1,Millwall:2 F . C .,1,-0.41662
+[CLS] Steve Cronin:3 plays with Portland Timbers:2 . [SEP],Portland Timbers:2,Portland Timbers:2,1,Portland Timbers:2,1,-0.94468
+[CLS] Jeff Russell plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.14556
+[CLS] Bogie:2 Roberts plays with Manchester United F . C . . [SEP],Manchester United F . C .,Manchester United F . C .,1,Manchester United F . C .,1,-0.76550
+[CLS] Sandy McMahon plays with Hibernian:3 F . C . . [SEP],Hibernian:3 F . C .,Hibernian:3 F . C .,1,Hibernian:3 F . C .,1,-0.27591
+[CLS] David Clarkson plays with Bristol City F . C . . [SEP],Bristol City F . C .,Bristol City F . C .,1,Bristol City F . C .,1,-0.92780
+[CLS] Casey Dunning:2 plays with Birmingham & Solihull:3 R . F . C . . [SEP],Birmingham & Solihull:3 R . F . C .,Birmingham & Solihull:3 R . F . C .,1,Birmingham & Solihull:3 R . F . C .,1,-1.75558
+[CLS] Justin Fashanu:3 plays with Nottingham Forest F . C . . [SEP],Nottingham Forest F . C .,Nottingham Forest F . C .,1,Nottingham Forest F . C .,1,-0.16545
+[CLS] Jack Eames:2 plays with Richmond Football Club . [SEP],Richmond Football Club,Richmond Football Club,1,Richmond Football Club,1,-2.82405
+[CLS] Todd Sears plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.23871
+[CLS] Max Ferdinand plays with Baltimore Blast . [SEP],Baltimore Blast,Baltimore Blast,1,Baltimore Blast,1,-6.56023
+[CLS] Martin Buchan:2 plays with Scotland national football team . [SEP],Scotland national football team,Scotland national football team,1,Scotland national football team,1,-1.89236
+[CLS] Alan Bennett plays with Republic of Ireland national football team . [SEP],Republic of Ireland national football team,Republic of Ireland national football team,1,Republic of Ireland national football team,1,-0.58268
+[CLS] David Loverne:2 plays with Detroit Lions . [SEP],Detroit Lions,Detroit Lions,1,Detroit Lions,1,-4.60620
+[CLS] Ken McRae:4 plays with Toronto Maple Leafs . [SEP],Toronto Maple Leafs,Toronto Maple Leafs,1,Toronto Maple Leafs,1,-0.24396
+[CLS] Ville Laine:2 plays with Ilves:2 . [SEP],Ilves:2,Ilves:2,1,Ilves:2,1,-4.54203
+[CLS] Francis Lee plays with England national football team . [SEP],England national football team,England national football team,1,England national football team,1,-1.30258
+[CLS] Walter Moser plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.13904
+[CLS] Kerry Foley plays with Collingwood:3 Football Club . [SEP],Collingwood:3 Football Club,Collingwood:3 Football Club,1,Collingwood:3 Football Club,1,-0.43732
+[CLS] Lee Feeney:3 plays with Shamrock:3 Rovers F . C . . [SEP],Shamrock:3 Rovers F . C .,Shamrock:3 Rovers F . C .,1,Shamrock:3 Rovers F . C .,1,-0.21587
+[CLS] Orrin:2 Thompson plays with Miami Dolphins:2 . [SEP],Miami Dolphins:2,Miami Dolphins:2,1,Miami Dolphins:2,1,-0.80417
+[CLS] Mickaël:3 Ménétrier:4 plays with F91:2 Dudelange:3 . [SEP],F91:2 Dudelange:3,F91:2 Dudelange:3,1,F91:2 Dudelange:3,1,-3.15277
+[CLS] David Flynn plays with Penn FC . [SEP],Penn FC,Penn FC,1,Penn FC,1,-8.79180
+[CLS] Carlos Peucelle:2 plays with Argentina national football team . [SEP],Argentina national football team,Argentina national football team,1,Argentina national football team,1,-1.08104
+[CLS] Josh Boone plays with BC Khimki:2 . [SEP],BC Khimki:2,BC Khimki:2,1,BC Khimki:2,1,-2.74402
+[CLS] Gennady:3 Churilov:3 plays with Lokomotiv:2 Yaroslavl:4 . [SEP],Lokomotiv:2 Yaroslavl:4,Lokomotiv:2 Yaroslavl:4,1,Lokomotiv:2 Yaroslavl:4,1,-0.37714
+[CLS] Bruce Dowie:2 plays with Toronto Maple Leafs . [SEP],Toronto Maple Leafs,Toronto Maple Leafs,1,Toronto Maple Leafs,1,-0.26062
+[CLS] Artem:2 Sukhotskyi:5 plays with FC Dynamo Kyiv:2 . [SEP],FC Dynamo Kyiv:2,FC Dynamo Kyiv:2,1,FC Dynamo Kyiv:2,1,-0.36095
+[CLS] Niek:2 te Veluwe:3 plays with De Graafschap:3 . [SEP],De Graafschap:3,De Graafschap:3,1,De Graafschap:3,1,-0.17072
+[CLS] Jack Morfitt:3 plays with Blackpool F . C . . [SEP],Blackpool F . C .,Blackpool F . C .,1,Blackpool F . C .,1,-0.90767
+[CLS] Paul Heffernan:3 plays with Sheffield Wednesday F . C . . [SEP],Sheffield Wednesday F . C .,Sheffield Wednesday F . C .,1,Sheffield Wednesday F . C .,1,-0.33103
+[CLS] Kahê:3 plays with Oeste Futebol Clube . [SEP],Oeste Futebol Clube,Oeste Futebol Clube,1,Oeste Futebol Clube,1,-2.69350
+[CLS] Caesar Jenkyns:3 plays with Manchester United F . C . . [SEP],Manchester United F . C .,Manchester United F . C .,1,Manchester United F . C .,1,-0.51063
+[CLS] Thomas Coulter:3 plays with Chicago Blackhawks:2 . [SEP],Chicago Blackhawks:2,Chicago Blackhawks:2,1,Chicago Blackhawks:2,1,-3.07415
+[CLS] Winford:2 Hood plays with Denver Broncos . [SEP],Denver Broncos,Denver Broncos,1,Denver Broncos,1,-1.41519
+[CLS] Michał Renusz:2 plays with Arka:2 Gdynia:2 . [SEP],Arka:2 Gdynia:2,Arka:2 Gdynia:2,1,Arka:2 Gdynia:2,1,-0.78842
+[CLS] Dicky:2 Moegle:2 plays with Dallas Cowboys . [SEP],Dallas Cowboys,Dallas Cowboys,1,Dallas Cowboys,1,-1.26476
+[CLS] Yigal:2 Antebi:2 plays with Israel national football team . [SEP],Israel national football team,Israel national football team,1,Israel national football team,1,-0.94231
+[CLS] Sonja Petrović:2 plays with WBC Spartak Moscow Region . [SEP],WBC Spartak Moscow Region,WBC Spartak Moscow Region,1,WBC Spartak Moscow Region,1,-8.20283
+[CLS] Bruce Anderson plays with Washington Redskins:2 . [SEP],Washington Redskins:2,Washington Redskins:2,1,Washington Redskins:2,1,-0.82853
+[CLS] Maximiliano:2 Amondarain:3 plays with Cardiff City F . C . . [SEP],Cardiff City F . C .,Cardiff City F . C .,1,Cardiff City F . C .,1,-1.07141
+[CLS] Terry Clawson:3 plays with Hull Kingston Rovers . [SEP],Hull Kingston Rovers,Hull Kingston Rovers,1,Hull Kingston Rovers,1,-1.47291
+[CLS] Elie:2 Ikangu:3 plays with New York Red Bulls . [SEP],New York Red Bulls,New York Red Bulls,1,New York Red Bulls,1,-0.94208
+[CLS] Steven Thomson plays with Dover Athletic F . C . . [SEP],Dover Athletic F . C .,Dover Athletic F . C .,1,Dover Athletic F . C .,1,-1.65432
+[CLS] Khaldoun:4 Al - Khawaldeh:4 plays with Al - Faisaly:3 FC . [SEP],Al - Faisaly:3 FC,Al - Faisaly:3 FC,1,Al - Faisaly:3 FC,1,-2.00807
+[CLS] Kirill:2 Nababkin:3 plays with Russia national football team . [SEP],Russia national football team,Russia national football team,1,Russia national football team,1,-0.31607
+[CLS] Karel Pešek:2 plays with AC Sparta Prague . [SEP],AC Sparta Prague,AC Sparta Prague,1,AC Sparta Prague,1,-1.72324
+[CLS] Farhan:2 Shakor:2 plays with Al - Zawra:3 ' a SC . [SEP],Al - Zawra:3 ' a SC,Al - Zawra:3 ' a SC,1,Al - Zawra:3 ' a SC,1,-2.79549
+[CLS] Chris Curran:2 plays with Collingwood:3 Football Club . [SEP],Collingwood:3 Football Club,Collingwood:3 Football Club,1,Collingwood:3 Football Club,1,-0.41771
+[CLS] Charlie Puleo:3 plays with New York Mets . [SEP],New York Mets,New York Mets,1,New York Mets,1,-1.67563
+[CLS] Sasha Victorine:2 plays with Los Angeles Galaxy . [SEP],Los Angeles Galaxy,Los Angeles Galaxy,1,Los Angeles Galaxy,1,-1.68973
+[CLS] David Richards plays with New England Patriots . [SEP],New England Patriots,New England Patriots,1,New England Patriots,1,-0.69730
+[CLS] Deion:2 Sanders plays with Baltimore Ravens:2 . [SEP],Baltimore Ravens:2,Baltimore Ravens:2,1,Baltimore Ravens:2,1,-0.96379
+[CLS] Jim Montgomery plays with Indiana Hoosiers:3 . [SEP],Indiana Hoosiers:3,Indiana Hoosiers:3,1,Indiana Hoosiers:3,1,-2.56643
+[CLS] Dan Robson plays with Gloucester Rugby . [SEP],Gloucester Rugby,Gloucester Rugby,1,Gloucester Rugby,1,-5.46875
+[CLS] Yoann:2 Folly:3 plays with Aberdeen F . C . . [SEP],Aberdeen F . C .,Aberdeen F . C .,1,Aberdeen F . C .,1,-1.16350
+[CLS] Shawn Wooten:2 plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.07224
+[CLS] Milt:2 Stegall:3 plays with Winnipeg Blue Bombers:2 . [SEP],Winnipeg Blue Bombers:2,Winnipeg Blue Bombers:2,1,Winnipeg Blue Bombers:2,1,-0.47651
+[CLS] Brodrick:2 Bunkley:3 plays with Philadelphia Eagles . [SEP],Philadelphia Eagles,Philadelphia Eagles,1,Philadelphia Eagles,1,-2.90130
+[CLS] Giancarlo Cadè:3 plays with Atalanta:2 B . C . . [SEP],Atalanta:2 B . C .,Atalanta:2 B . C .,1,Atalanta:2 B . C .,1,-0.89125
+[CLS] Clif:2 Groce:3 plays with Cincinnati Bengals:2 . [SEP],Cincinnati Bengals:2,Cincinnati Bengals:2,1,Cincinnati Bengals:2,1,-2.29390
+[CLS] Chris Nielsen plays with Columbus Blue Jackets:2 . [SEP],Columbus Blue Jackets:2,Columbus Blue Jackets:2,1,Columbus Blue Jackets:2,1,-0.91074
+[CLS] John Baker plays with Shreveport:4 Steamer:2 . [SEP],Shreveport:4 Steamer:2,Shreveport:4 Steamer:2,1,Shreveport:4 Steamer:2,1,-1.70233
+[CLS] Matt Johnson plays with Los Angeles Kings . [SEP],Los Angeles Kings,Los Angeles Kings,1,Los Angeles Kings,1,-1.78200
+[CLS] Walt Lautenbach:2 plays with Sheboygan:3 Red Skins:2 . [SEP],Sheboygan:3 Red Skins:2,Sheboygan:3 Red Skins:2,1,Sheboygan:3 Red Skins:2,1,-3.59835
+[CLS] William Sarvis:2 plays with Manchester United F . C . . [SEP],Manchester United F . C .,Manchester United F . C .,1,Manchester United F . C .,1,-0.57912
+[CLS] Mario Bossi:2 plays with A . S . Roma . [SEP],A . S . Roma,A . S . Roma,1,A . S . Roma,1,-1.70452
+[CLS] Ryan Finnie:2 plays with Hamilton Academical:2 F . C . . [SEP],Hamilton Academical:2 F . C .,Hamilton Academical:2 F . C .,1,Hamilton Academical:2 F . C .,1,-1.08732
+[CLS] James Metcalfe:3 plays with Wakefield Trinity . [SEP],Wakefield Trinity,Wakefield Trinity,1,Wakefield Trinity,1,-3.86544
+[CLS] Ársæll:4 Kristjánsson:4 plays with Iceland national football team . [SEP],Iceland national football team,Iceland national football team,1,Iceland national football team,1,-0.47611
+[CLS] Micky:2 Fenton:2 plays with Middlesbrough F . C . . [SEP],Middlesbrough F . C .,Middlesbrough F . C .,1,Middlesbrough F . C .,1,-0.59732
+[CLS] Dave Walker plays with Burnley:2 F . C . . [SEP],Burnley:2 F . C .,Burnley:2 F . C .,1,Burnley:2 F . C .,1,-0.60092
+[CLS] Britt Assombalonga:4 plays with Peterborough United F . C . . [SEP],Peterborough United F . C .,Peterborough United F . C .,1,Peterborough United F . C .,1,-1.09812
+[CLS] Shiva Shrestha:4 plays with Manang:2 Marshyangdi:3 Club . [SEP],Manang:2 Marshyangdi:3 Club,Manang:2 Marshyangdi:3 Club,1,Manang:2 Marshyangdi:3 Club,1,-7.45822
+[CLS] Pierre Duhart:2 plays with Uruguay national football team . [SEP],Uruguay national football team,Uruguay national football team,1,Uruguay national football team,1,-2.19866
+[CLS] David Vržogić:5 plays with Dynamo Dresden . [SEP],Dynamo Dresden,Dynamo Dresden,1,Dynamo Dresden,1,-1.86253
+[CLS] Marko Kraljević:3 plays with Balestier:3 Khalsa:3 FC . [SEP],Balestier:3 Khalsa:3 FC,Balestier:3 Khalsa:3 FC,1,Balestier:3 Khalsa:3 FC,1,-4.83164
+[CLS] Geoffrey Ward plays with Castleford:2 Tigers . [SEP],Castleford:2 Tigers,Castleford:2 Tigers,1,Castleford:2 Tigers,1,-4.85793
+[CLS] Nahuel:3 Guzmán plays with Tigres:2 UANL:2 . [SEP],Tigres:2 UANL:2,Tigres:2 UANL:2,1,Tigres:2 UANL:2,1,-0.22274
+[CLS] Willie Mays:2 plays with San Francisco Giants . [SEP],San Francisco Giants,San Francisco Giants,1,San Francisco Giants,1,-0.50298
+[CLS] Colin Wilson plays with Hull Kingston Rovers . [SEP],Hull Kingston Rovers,Hull Kingston Rovers,1,Hull Kingston Rovers,1,-2.13377
+[CLS] Tom Roberts plays with Wales national rugby union team . [SEP],Wales national rugby union team,Wales national rugby union team,1,Wales national rugby union team,1,-0.50745
+[CLS] Fergus:2 Thomson plays with Scotland national rugby union team . [SEP],Scotland national rugby union team,Scotland national rugby union team,1,Scotland national rugby union team,1,-0.58744
+[CLS] Davanzo:3 Tate plays with New York Giants . [SEP],New York Giants,New York Giants,1,New York Giants,1,-2.32588
+[CLS] Bert MacLachlan:4 plays with Aberdeen F . C . . [SEP],Aberdeen F . C .,Aberdeen F . C .,1,Aberdeen F . C .,1,-1.19315
+[CLS] Glenn Murray plays with Stockport:2 County F . C . . [SEP],Stockport:2 County F . C .,Stockport:2 County F . C .,1,Stockport:2 County F . C .,1,-0.39328
+[CLS] Tom Haller:2 plays with Detroit Tigers . [SEP],Detroit Tigers,Detroit Tigers,1,Detroit Tigers,1,-3.13659
+[CLS] Joe Skibinski:3 plays with Green Bay Packers . [SEP],Green Bay Packers,Green Bay Packers,1,Green Bay Packers,1,-0.45664
+[CLS] Bryan Helmer:2 plays with Arizona Coyotes:3 . [SEP],Arizona Coyotes:3,Arizona Coyotes:3,1,Arizona Coyotes:3,1,-0.63191
+[CLS] Don Revie:2 plays with The Football League XI . [SEP],The Football League XI,The Football League XI,1,The Football League XI,1,-3.30151
+[CLS] Fernando Ricksen:2 plays with Netherlands national football team . [SEP],Netherlands national football team,Netherlands national football team,1,Netherlands national football team,1,-1.35228
+[CLS] Mark Patterson plays with Blackburn Rovers F . C . . [SEP],Blackburn Rovers F . C .,Blackburn Rovers F . C .,1,Blackburn Rovers F . C .,1,-0.45589
+[CLS] Con Barrell:2 plays with New Zealand national rugby union team . [SEP],New Zealand national rugby union team,New Zealand national rugby union team,1,New Zealand national rugby union team,1,-0.26942
+[CLS] Phil Jagielka:3 plays with England national football team . [SEP],England national football team,England national football team,1,England national football team,1,-1.05058
+[CLS] Nick Markakis:2 plays with Baltimore Orioles:3 . [SEP],Baltimore Orioles:3,Baltimore Orioles:3,1,Baltimore Orioles:3,1,-0.88782
+[CLS] Glenn Burvill:3 plays with Aldershot:3 F . C . . [SEP],Aldershot:3 F . C .,Aldershot:3 F . C .,1,Aldershot:3 F . C .,1,-0.24417
+[CLS] Pete Larson plays with Washington Redskins:2 . [SEP],Washington Redskins:2,Washington Redskins:2,1,Washington Redskins:2,1,-0.96552
+[CLS] Bobby Walden plays with Edmonton Eskimos:2 . [SEP],Edmonton Eskimos:2,Edmonton Eskimos:2,1,Edmonton Eskimos:2,1,-1.65681
+[CLS] Andy Gardner plays with Grimsby:3 Town F . C . . [SEP],Grimsby:3 Town F . C .,Grimsby:3 Town F . C .,1,Grimsby:3 Town F . C .,1,-0.13864
+[CLS] Aaron Lockett:2 plays with BC Lions . [SEP],BC Lions,BC Lions,1,BC Lions,1,-3.64621
+[CLS] Alan Leandro plays with Bangkok United F . C . . [SEP],Bangkok United F . C .,Bangkok United F . C .,1,Bangkok United F . C .,1,-1.77441
+[CLS] Iqbal:3 Abdulla:2 plays with Kolkata Knight Riders . [SEP],Kolkata Knight Riders,Kolkata Knight Riders,1,Kolkata Knight Riders,1,-3.72248
+[CLS] Irakli:2 Modebadze:3 plays with FC Metalurgi:3 Rustavi:3 . [SEP],FC Metalurgi:3 Rustavi:3,FC Metalurgi:3 Rustavi:3,1,FC Metalurgi:3 Rustavi:3,1,-2.23477
+[CLS] Scott Prince plays with Gold Coast Titans . [SEP],Gold Coast Titans,Gold Coast Titans,1,Gold Coast Titans,1,-5.41501
+[CLS] Bob Woollard:3 plays with Miami Floridians:3 . [SEP],Miami Floridians:3,Miami Floridians:3,1,Miami Floridians:3,1,-3.55584
+[CLS] Eliseo:2 Mouriño:3 plays with Boca Juniors . [SEP],Boca Juniors,Boca Juniors,1,Boca Juniors,1,-0.12412
+[CLS] Norman Kelly plays with Linfield:2 F . C . . [SEP],Linfield:2 F . C .,Linfield:2 F . C .,1,Linfield:2 F . C .,1,-0.91662
+[CLS] Salem Ibrahim Al Rewani:2 plays with Almadina:2 S . C . . [SEP],Almadina:2 S . C .,Almadina:2 S . C .,1,Almadina:2 S . C .,1,-4.40760
+[CLS] George Lynch plays with Charlotte Hornets:2 . [SEP],Charlotte Hornets:2,Charlotte Hornets:2,1,Charlotte Hornets:2,1,-2.55747
+[CLS] Espen:2 Hægeland:3 plays with FK Mandalskameratene:5 . [SEP],FK Mandalskameratene:5,FK Mandalskameratene:5,1,FK Mandalskameratene:5,1,-2.60582
+[CLS] Malcolm Graham plays with Bristol City F . C . . [SEP],Bristol City F . C .,Bristol City F . C .,1,Bristol City F . C .,1,-1.19725
+[CLS] Harry Wolter:2 plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.36625
+[CLS] Daniel Lafferty:3 plays with Northern Ireland national football team . [SEP],Northern Ireland national football team,Northern Ireland national football team,1,Northern Ireland national football team,1,-0.86098
+[CLS] Eduardo Echeverría:4 plays with Club Olimpia . [SEP],Club Olimpia,Club Olimpia,1,Club Olimpia,1,-2.91979
+[CLS] Ma Mingyu:2 plays with A . C . Perugia Calcio . [SEP],A . C . Perugia Calcio,A . C . Perugia Calcio,1,A . C . Perugia Calcio,1,-1.18498
+[CLS] Aaron Kampman:3 plays with Green Bay Packers . [SEP],Green Bay Packers,Green Bay Packers,1,Green Bay Packers,1,-0.39932
+[CLS] Jan B . Poulsen:2 plays with Boldklubben:3 Frem:2 . [SEP],Boldklubben:3 Frem:2,Boldklubben:3 Frem:2,1,Boldklubben:3 Frem:2,1,-1.59980
+[CLS] Sid Rawlings:2 plays with Huddersfield:3 Town A . F . C . . [SEP],Huddersfield:3 Town A . F . C .,Huddersfield:3 Town A . F . C .,1,Huddersfield:3 Town A . F . C .,1,-0.38218
+[CLS] Nathan Kanya:2 plays with Hamilton Tiger - Cats . [SEP],Hamilton Tiger - Cats,Hamilton Tiger - Cats,1,Hamilton Tiger - Cats,1,-1.49502
+[CLS] Ted Killean:2 plays with Blackburn Rovers F . C . . [SEP],Blackburn Rovers F . C .,Blackburn Rovers F . C .,1,Blackburn Rovers F . C .,1,-0.49858
+[CLS] Ivan Kurdanin:3 plays with FC Gubkin:3 . [SEP],FC Gubkin:3,FC Gubkin:3,1,FC Gubkin:3,1,-5.76309
+[CLS] Brent Barry plays with San Antonio Spurs . [SEP],San Antonio Spurs,San Antonio Spurs,1,San Antonio Spurs,1,-0.38611
+[CLS] Owen Kasule:3 plays with Uganda Revenue Authority SC . [SEP],Uganda Revenue Authority SC,Uganda Revenue Authority SC,1,Uganda Revenue Authority SC,1,-7.41023
+[CLS] Alan King plays with Runcorn:2 F . C . Halton:2 . [SEP],Runcorn:2 F . C . Halton:2,Runcorn:2 F . C . Halton:2,1,Runcorn:2 F . C . Halton:2,1,-1.55869
+[CLS] Nevin:2 McCaskill:5 plays with Philadelphia Eagles . [SEP],Philadelphia Eagles,Philadelphia Eagles,1,Philadelphia Eagles,1,-2.66905
+[CLS] José Anilton:2 Júnior plays with Clube Desportivo:2 das Aves . [SEP],Clube Desportivo:2 das Aves,Clube Desportivo:2 das Aves,1,Clube Desportivo:2 das Aves,1,-1.67304
+[CLS] Johnny Watts plays with Bromsgrove:4 Rovers F . C . . [SEP],Bromsgrove:4 Rovers F . C .,Bromsgrove:4 Rovers F . C .,1,Bromsgrove:4 Rovers F . C .,1,-0.84044
+[CLS] Matthew Lowton:2 plays with Aston Villa F . C . . [SEP],Aston Villa F . C .,Aston Villa F . C .,1,Aston Villa F . C .,1,-0.30638
+[CLS] Daniel Moreira plays with Toulouse FC . [SEP],Toulouse FC,Toulouse FC,1,Toulouse FC,1,-3.77913
+[CLS] Jay Humphries:3 plays with Milwaukee Bucks . [SEP],Milwaukee Bucks,Milwaukee Bucks,1,Milwaukee Bucks,1,-1.87282
+[CLS] Gabriel Popescu:2 plays with FCU:2 Craiova:3 1948 . [SEP],FCU:2 Craiova:3 1948,FCU:2 Craiova:3 1948,1,FCU:2 Craiova:3 1948,1,-3.67297
+[CLS] Ousmane:3 Dabo:2 plays with S . S . Lazio . [SEP],S . S . Lazio,S . S . Lazio,1,S . S . Lazio,1,-1.10084
+[CLS] Geoff Kellaway:3 plays with Aberystwyth:3 Town F . C . . [SEP],Aberystwyth:3 Town F . C .,Aberystwyth:3 Town F . C .,1,Aberystwyth:3 Town F . C .,1,-0.47438
+[CLS] Adrian Capes:2 plays with Burton Wanderers F . C . . [SEP],Burton Wanderers F . C .,Burton Wanderers F . C .,1,Burton Wanderers F . C .,1,-2.27433
+[CLS] John Akinde:2 plays with Barnet:2 F . C . . [SEP],Barnet:2 F . C .,Barnet:2 F . C .,1,Barnet:2 F . C .,1,-1.25942
+[CLS] Mike Maddux:3 plays with Houston Astros:2 . [SEP],Houston Astros:2,Houston Astros:2,1,Houston Astros:2,1,-1.13833
+[CLS] Gordon Boyd plays with Scunthorpe:4 United F . C . . [SEP],Scunthorpe:4 United F . C .,Scunthorpe:4 United F . C .,1,Scunthorpe:4 United F . C .,1,-0.24991
+[CLS] Dixie Walker plays with Detroit Tigers . [SEP],Detroit Tigers,Detroit Tigers,1,Detroit Tigers,1,-3.62639
+[CLS] Dimitris:2 Salpingidis:4 plays with P . A . O . K . Thessaloniki F . C . . [SEP],P . A . O . K . Thessaloniki F . C .,P . A . O . K . Thessaloniki F . C .,1,P . A . O . K . Thessaloniki F . C .,1,-1.53596
+[CLS] Travis Dorsch:2 plays with Cincinnati Bengals:2 . [SEP],Cincinnati Bengals:2,Cincinnati Bengals:2,1,Cincinnati Bengals:2,1,-1.89447
+[CLS] Courtney Smith plays with Winnipeg Blue Bombers:2 . [SEP],Winnipeg Blue Bombers:2,Winnipeg Blue Bombers:2,1,Winnipeg Blue Bombers:2,1,-0.68621
+[CLS] Yevgeni:3 Odintsov:3 plays with FC Tekstilshchik:5 Kamyshin:3 . [SEP],FC Tekstilshchik:5 Kamyshin:3,FC Tekstilshchik:5 Kamyshin:3,1,FC Tekstilshchik:5 Kamyshin:3,1,-2.36263
+[CLS] Adnan:2 Oçelli:3 plays with 1 . FC Union Berlin . [SEP],1 . FC Union Berlin,1 . FC Union Berlin,1,1 . FC Union Berlin,1,-2.02683
+[CLS] Darren Davis plays with Scarborough:3 F . C . . [SEP],Scarborough:3 F . C .,Scarborough:3 F . C .,1,Scarborough:3 F . C .,1,-0.18896
+[CLS] Joonas:2 Ikäläinen:3 plays with Vaasan:2 Palloseura:3 . [SEP],Vaasan:2 Palloseura:3,Vaasan:2 Palloseura:3,1,Vaasan:2 Palloseura:3,1,-0.36101
+[CLS] Sydney Howard Smith plays with Great Britain Davis Cup team . [SEP],Great Britain Davis Cup team,Great Britain Davis Cup team,1,Great Britain Davis Cup team,1,-1.34333
+[CLS] Oleksandr:3 Agarin:2 plays with Kyrgyzstan:5 national football team . [SEP],Kyrgyzstan:5 national football team,Kyrgyzstan:5 national football team,1,Kyrgyzstan:5 national football team,1,-0.04578
+[CLS] Karl - Johan Johnsson:2 plays with Randers:2 FC . [SEP],Randers:2 FC,Randers:2 FC,1,Randers:2 FC,1,-0.81124
+[CLS] Mia Brogaard:2 plays with Denmark women ' s national football team . [SEP],Denmark women ' s national football team,Denmark women ' s national football team,1,Denmark women ' s national football team,1,-0.42013
+[CLS] Henry Blanco plays with Chicago Cubs . [SEP],Chicago Cubs,Chicago Cubs,1,Chicago Cubs,1,-3.06762
+[CLS] Shawn Cronin:3 plays with Washington Capitals:2 . [SEP],Washington Capitals:2,Washington Capitals:2,1,Washington Capitals:2,1,-2.10532
+[CLS] Nick Deacy:2 plays with PSV Eindhoven . [SEP],PSV Eindhoven,PSV Eindhoven,1,PSV Eindhoven,1,-0.06296
+[CLS] Joe Robson plays with Bradford ( Park Avenue ) A . F . C . . [SEP],Bradford ( Park Avenue ) A . F . C .,Bradford ( Park Avenue ) A . F . C .,1,Bradford ( Park Avenue ) A . F . C .,1,-1.21036
+[CLS] Samir:2 Kadhim:2 Hassan plays with Iraq national football team . [SEP],Iraq national football team,Iraq national football team,1,Iraq national football team,1,-1.17185
+[CLS] Les Barton plays with Bolton Wanderers F . C . . [SEP],Bolton Wanderers F . C .,Bolton Wanderers F . C .,1,Bolton Wanderers F . C .,1,-0.35101
+[CLS] Bill Yates plays with Watford:2 F . C . . [SEP],Watford:2 F . C .,Watford:2 F . C .,1,Watford:2 F . C .,1,-0.77836
+[CLS] Chris Chapman plays with Leeds Rhinos:2 . [SEP],Leeds Rhinos:2,Leeds Rhinos:2,1,Leeds Rhinos:2,1,-2.72861
+[CLS] Cuttino:2 Mobley:3 plays with Orlando Magic . [SEP],Orlando Magic,Orlando Magic,1,Orlando Magic,1,-5.05399
+[CLS] Anton Fink plays with Chemnitzer:2 FC . [SEP],Chemnitzer:2 FC,Chemnitzer:2 FC,1,Chemnitzer:2 FC,1,-1.47522
+[CLS] Chris Tancill:3 plays with Hartford Whalers:3 . [SEP],Hartford Whalers:3,Hartford Whalers:3,1,Hartford Whalers:3,1,-0.66983
+[CLS] Craig Beattie:2 plays with Scotland national football team . [SEP],Scotland national football team,Scotland national football team,1,Scotland national football team,1,-0.94756
+[CLS] Tumelo:3 Nhlapo:3 plays with Bloemfontein:4 Celtic F . C . . [SEP],Bloemfontein:4 Celtic F . C .,Bloemfontein:4 Celtic F . C .,1,Bloemfontein:4 Celtic F . C .,1,-0.64075
+[CLS] Stern John plays with Columbus Crew SC . [SEP],Columbus Crew SC,Columbus Crew SC,1,Columbus Crew SC,1,-4.35476
+[CLS] William Clay plays with Sheffield United F . C . . [SEP],Sheffield United F . C .,Sheffield United F . C .,1,Sheffield United F . C .,1,-0.93778
+[CLS] Alberto Terry plays with Club Universitario de Deportes . [SEP],Club Universitario de Deportes,Club Universitario de Deportes,1,Club Universitario de Deportes,1,-1.03843
+[CLS] Andre Drummond plays with Detroit Pistons:3 . [SEP],Detroit Pistons:3,Detroit Pistons:3,1,Detroit Pistons:3,1,-0.96896
+[CLS] Isaiah:2 Osbourne plays with Nottingham Forest F . C . . [SEP],Nottingham Forest F . C .,Nottingham Forest F . C .,1,Nottingham Forest F . C .,1,-0.26042
+[CLS] Butch Keeling:2 plays with New York Rangers . [SEP],New York Rangers,New York Rangers,1,New York Rangers,1,-0.90123
+[CLS] Ricardo plays with Manchester United F . C . . [SEP],Manchester United F . C .,Manchester United F . C .,1,Manchester United F . C .,1,-0.48163
+[CLS] Juan Pablo Rodríguez Conde plays with Al - Ittihad:3 Club . [SEP],Al - Ittihad:3 Club,Al - Ittihad:3 Club,1,Al - Ittihad:3 Club,1,-0.92195
+[CLS] Danilo Sekulić:3 plays with F . K . Vojvodina:4 . [SEP],F . K . Vojvodina:4,F . K . Vojvodina:4,1,F . K . Vojvodina:4,1,-0.71149
+[CLS] Malcolm Christie plays with Middlesbrough F . C . . [SEP],Middlesbrough F . C .,Middlesbrough F . C .,1,Middlesbrough F . C .,1,-0.40732
+[CLS] Theoren:2 Fleury:3 plays with Belfast Giants . [SEP],Belfast Giants,Belfast Giants,1,Belfast Giants,1,-7.48058
+[CLS] Ryan Anstey:3 plays with Toronto Lynx . [SEP],Toronto Lynx,Toronto Lynx,1,Toronto Lynx,1,-4.21180
+[CLS] Oumare:2 Tounkara:3 plays with CS Sedan Ardennes . [SEP],CS Sedan Ardennes,CS Sedan Ardennes,1,CS Sedan Ardennes,1,-1.78130
+[CLS] Jack Parry plays with Boston United F . C . . [SEP],Boston United F . C .,Boston United F . C .,1,Boston United F . C .,1,-1.63622
+[CLS] Alex Gonzalez plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-1.82597
+[CLS] Igor Korneev:3 plays with SC Heerenveen:3 . [SEP],SC Heerenveen:3,SC Heerenveen:3,1,SC Heerenveen:3,1,-1.12576
+[CLS] Albert Kaçi:2 plays with KS Elbasani:3 . [SEP],KS Elbasani:3,KS Elbasani:3,1,KS Elbasani:3,1,-0.69658
+[CLS] Emil Lyng:2 plays with Esbjerg:2 fB:2 . [SEP],Esbjerg:2 fB:2,Esbjerg:2 fB:2,1,Esbjerg:2 fB:2,1,-0.49961
+[CLS] Brian de la Puente plays with New Orleans Saints . [SEP],New Orleans Saints,New Orleans Saints,1,New Orleans Saints,1,-1.25197
+[CLS] Chris Gratton:3 plays with Philadelphia Flyers . [SEP],Philadelphia Flyers,Philadelphia Flyers,1,Philadelphia Flyers,1,-2.56003
+[CLS] Joe Walton plays with Washington Redskins:2 . [SEP],Washington Redskins:2,Washington Redskins:2,1,Washington Redskins:2,1,-0.79634
+[CLS] Tom Metcalf:3 plays with Southampton F . C . . [SEP],Southampton F . C .,Southampton F . C .,1,Southampton F . C .,1,-0.49653
+[CLS] Rolando:2 Cantu:2 plays with Arizona Cardinals . [SEP],Arizona Cardinals,Arizona Cardinals,1,Arizona Cardinals,1,-2.24304
+[CLS] Todd Zeile:2 plays with Montreal Expos:2 . [SEP],Montreal Expos:2,Montreal Expos:2,1,Montreal Expos:2,1,-1.49655
+[CLS] James Grieve:3 plays with Annfield:2 Plain F . C . . [SEP],Annfield:2 Plain F . C .,Annfield:2 Plain F . C .,1,Annfield:2 Plain F . C .,1,-3.43897
+[CLS] John Schiechl:4 plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-4.57495
+[CLS] Dave Shipperley:3 plays with Charlton Athletic F . C . . [SEP],Charlton Athletic F . C .,Charlton Athletic F . C .,1,Charlton Athletic F . C .,1,-0.49154
+[CLS] Fred Forman:2 plays with Derby County F . C . . [SEP],Derby County F . C .,Derby County F . C .,1,Derby County F . C .,1,-0.64409
+[CLS] Jesús Cabrero:3 plays with RCD:2 Mallorca . [SEP],RCD:2 Mallorca,RCD:2 Mallorca,1,RCD:2 Mallorca,1,-0.76550
+[CLS] Heather Scheuber:4 plays with Birmingham City L . F . C . . [SEP],Birmingham City L . F . C .,Birmingham City L . F . C .,1,Birmingham City L . F . C .,1,-1.54064
+[CLS] Ryan Brown plays with Stafford Rangers F . C . . [SEP],Stafford Rangers F . C .,Stafford Rangers F . C .,1,Stafford Rangers F . C .,1,-0.98231
+[CLS] Mike Wallace plays with Ole Miss Rebels:2 football . [SEP],Ole Miss Rebels:2 football,Ole Miss Rebels:2 football,1,Ole Miss Rebels:2 football,1,-3.65936
+[CLS] Toninho:2 Cecílio:3 plays with Brazil national football team . [SEP],Brazil national football team,Brazil national football team,1,Brazil national football team,1,-0.82489
+[CLS] Jiří Pešek:2 plays with SK Slavia Prague . [SEP],SK Slavia Prague,SK Slavia Prague,1,SK Slavia Prague,1,-1.68921
+[CLS] Mohamad:3 Mido:2 plays with Al - Ittihad:3 SC Aleppo . [SEP],Al - Ittihad:3 SC Aleppo,Al - Ittihad:3 SC Aleppo,1,Al - Ittihad:3 SC Aleppo,1,-2.45796
+[CLS] Craig Westcarr:3 plays with Cambridge United F . C . . [SEP],Cambridge United F . C .,Cambridge United F . C .,1,Cambridge United F . C .,1,-1.11625
+[CLS] Bill Chipcase:2 plays with Montreal Wanderers . [SEP],Montreal Wanderers,Montreal Wanderers,1,Montreal Wanderers,1,-6.45439
+[CLS] Wei Qun:2 plays with Sichuan Guancheng:4 F . C . . [SEP],Sichuan Guancheng:4 F . C .,Sichuan Guancheng:4 F . C .,1,Sichuan Guancheng:4 F . C .,1,-1.42473
+[CLS] Mark Draper:2 plays with Rayo:2 Vallecano:2 . [SEP],Rayo:2 Vallecano:2,Rayo:2 Vallecano:2,1,Rayo:2 Vallecano:2,1,-0.17993
+[CLS] Oscar Hold plays with Norwich City F . C . . [SEP],Norwich City F . C .,Norwich City F . C .,1,Norwich City F . C .,1,-0.92247
+[CLS] Gareth Risbridger:4 plays with Staines:3 Town F . C . . [SEP],Staines:3 Town F . C .,Staines:3 Town F . C .,1,Staines:3 Town F . C .,1,-1.12140
+[CLS] Jim Higgins plays with Home Farm F . C . . [SEP],Home Farm F . C .,Home Farm F . C .,1,Home Farm F . C .,1,-1.55661
+[CLS] George Merritt:2 plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-2.29983
+[CLS] Scott Dureau:2 plays with Catalans:2 Dragons . [SEP],Catalans:2 Dragons,Catalans:2 Dragons,1,Catalans:2 Dragons,1,-2.17910
+[CLS] Jim Betts:2 plays with Hamilton Tiger - Cats . [SEP],Hamilton Tiger - Cats,Hamilton Tiger - Cats,1,Hamilton Tiger - Cats,1,-1.52520
+[CLS] Daryl Kavanagh:3 plays with Drogheda:3 United F . C . . [SEP],Drogheda:3 United F . C .,Drogheda:3 United F . C .,1,Drogheda:3 United F . C .,1,-0.31781
+[CLS] Jerry van Ewijk:2 plays with AGOVV:3 Apeldoorn:4 . [SEP],AGOVV:3 Apeldoorn:4,AGOVV:3 Apeldoorn:4,1,AGOVV:3 Apeldoorn:4,1,-1.07340
+[CLS] Scott Griffiths plays with Crawley:3 Town F . C . . [SEP],Crawley:3 Town F . C .,Crawley:3 Town F . C .,1,Crawley:3 Town F . C .,1,-0.14585
+[CLS] Dennis Mochan:2 plays with Raith:2 Rovers F . C . . [SEP],Raith:2 Rovers F . C .,Raith:2 Rovers F . C .,1,Raith:2 Rovers F . C .,1,-0.70002
+[CLS] Whelliton:4 plays with Boavista:2 F . C . . [SEP],Boavista:2 F . C .,Boavista:2 F . C .,1,Boavista:2 F . C .,1,-0.77480
+[CLS] Srebrenko:3 Posavec:3 plays with Hunan:2 Billows:2 F . C . . [SEP],Hunan:2 Billows:2 F . C .,Hunan:2 Billows:2 F . C .,1,Hunan:2 Billows:2 F . C .,1,-2.53856
+[CLS] Denis Cheryshev:4 plays with Sevilla FC . [SEP],Sevilla FC,Sevilla FC,1,Sevilla FC,1,-5.14329
+[CLS] Nadiem:2 Amiri:2 plays with TSG:2 1899 Hoffenheim:3 . [SEP],TSG:2 1899 Hoffenheim:3,TSG:2 1899 Hoffenheim:3,1,TSG:2 1899 Hoffenheim:3,1,-0.79615
+[CLS] Dorian:2 Kërçiku:4 plays with KF:2 Tirana . [SEP],KF:2 Tirana,KF:2 Tirana,1,KF:2 Tirana,1,-1.29611
+[CLS] Alfonso Pérez plays with Spain national football team . [SEP],Spain national football team,Spain national football team,1,Spain national football team,1,-0.88028
+[CLS] Gary Mills plays with Grantham:2 Town F . C . . [SEP],Grantham:2 Town F . C .,Grantham:2 Town F . C .,1,Grantham:2 Town F . C .,1,-0.98988
+[CLS] Aleksandr Semyachkin:4 plays with FC Terek:2 - 2 Grozny:3 . [SEP],FC Terek:2 - 2 Grozny:3,FC Terek:2 - 2 Grozny:3,1,FC Terek:2 - 2 Grozny:3,1,-1.17149
+[CLS] Kim Sang - ho plays with Pohang:2 Steelers . [SEP],Pohang:2 Steelers,Pohang:2 Steelers,1,Pohang:2 Steelers,1,-2.52722
+[CLS] Néstor:2 Carballo:2 plays with Club Nacional de Football . [SEP],Club Nacional de Football,Club Nacional de Football,1,Club Nacional de Football,1,-1.55062
+[CLS] Craig Beattie:2 plays with West Bromwich:3 Albion F . C . . [SEP],West Bromwich:3 Albion F . C .,West Bromwich:3 Albion F . C .,1,West Bromwich:3 Albion F . C .,1,-0.19631
+[CLS] Kelly Shoppach:2 plays with Tampa Bay Rays:2 . [SEP],Tampa Bay Rays:2,Tampa Bay Rays:2,1,Tampa Bay Rays:2,1,-1.28921
+[CLS] Davide Moro plays with Associazione Sportiva:2 Livorno Calcio . [SEP],Associazione Sportiva:2 Livorno Calcio,Associazione Sportiva:2 Livorno Calcio,1,Associazione Sportiva:2 Livorno Calcio,1,-1.32182
+[CLS] Mohamad:3 Yehya:2 Al Rashed:2 plays with Tishreen:3 SC . [SEP],Tishreen:3 SC,Tishreen:3 SC,1,Tishreen:3 SC,1,-5.36954
+[CLS] Gianluca:2 Sansone:2 plays with SSC:2 Bari . [SEP],SSC:2 Bari,SSC:2 Bari,1,SSC:2 Bari,1,-4.72319
+[CLS] Ta ' Shia:2 Phillips plays with New York Liberty . [SEP],New York Liberty,New York Liberty,1,New York Liberty,1,-2.86291
+[CLS] Greg Mackey:2 plays with Huddersfield:3 Giants . [SEP],Huddersfield:3 Giants,Huddersfield:3 Giants,1,Huddersfield:3 Giants,1,-1.53423
+[CLS] Henry Janzen:2 plays with Winnipeg Blue Bombers:2 . [SEP],Winnipeg Blue Bombers:2,Winnipeg Blue Bombers:2,1,Winnipeg Blue Bombers:2,1,-0.57004
+[CLS] Juan Francisco plays with Toronto Blue Jays:2 . [SEP],Toronto Blue Jays:2,Toronto Blue Jays:2,1,Toronto Blue Jays:2,1,-1.52622
+[CLS] Viktor Vasilyev:3 plays with FC Energiya:3 Volzhsky:3 . [SEP],FC Energiya:3 Volzhsky:3,FC Energiya:3 Volzhsky:3,1,FC Energiya:3 Volzhsky:3,1,-2.98988
+[CLS] Bertie:2 Miller plays with Rangers F . C . . [SEP],Rangers F . C .,Rangers F . C .,1,Rangers F . C .,1,-0.87431
+[CLS] Billy Zitzmann:3 plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-1.87826
+[CLS] Larry Strickland:3 plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-4.56842
+[CLS] Ronaldinho:2 plays with Associazione Calcio Milan . [SEP],Associazione Calcio Milan,Associazione Calcio Milan,1,Associazione Calcio Milan,1,-2.21442
+[CLS] Giosuè:4 Stucchi:3 plays with Udinese:2 Calcio . [SEP],Udinese:2 Calcio,Udinese:2 Calcio,1,Udinese:2 Calcio,1,-0.29775
+[CLS] James Williams plays with San Francisco 49ers:2 . [SEP],San Francisco 49ers:2,San Francisco 49ers:2,1,San Francisco 49ers:2,1,-0.34628
+[CLS] Thomas Adey:2 plays with Hull City A . F . C . . [SEP],Hull City A . F . C .,Hull City A . F . C .,1,Hull City A . F . C .,1,-1.01842
+[CLS] Michel van de Korput:3 plays with Netherlands national football team . [SEP],Netherlands national football team,Netherlands national football team,1,Netherlands national football team,1,-0.80408
+[CLS] James Marshall plays with Arsenal F . C . . [SEP],Arsenal F . C .,Arsenal F . C .,1,Arsenal F . C .,1,-1.15301
+[CLS] Benaouda:3 Boudjellal:4 plays with Mouloudia:3 Club Oranais:2 . [SEP],Mouloudia:3 Club Oranais:2,Mouloudia:3 Club Oranais:2,1,Mouloudia:3 Club Oranais:2,1,-3.45036
+[CLS] Roy Powell plays with Leeds Rhinos:2 . [SEP],Leeds Rhinos:2,Leeds Rhinos:2,1,Leeds Rhinos:2,1,-2.91996
+[CLS] Joe Launchbury:2 plays with England national rugby union team . [SEP],England national rugby union team,England national rugby union team,1,England national rugby union team,1,-0.76530
+[CLS] Peter Trška:3 plays with HC Slovan Bratislava . [SEP],HC Slovan Bratislava,HC Slovan Bratislava,1,HC Slovan Bratislava,1,-1.38465
+[CLS] Will Antwi:2 plays with Staines:3 Town F . C . . [SEP],Staines:3 Town F . C .,Staines:3 Town F . C .,1,Staines:3 Town F . C .,1,-0.90534
+[CLS] Ian Roper:2 plays with Walsall:3 F . C . . [SEP],Walsall:3 F . C .,Walsall:3 F . C .,1,Walsall:3 F . C .,1,-0.22018
+[CLS] Oscar Steen plays with AIK IF . [SEP],AIK IF,AIK IF,1,AIK IF,1,-2.86170
+[CLS] Marshall Faulk:3 plays with Indianapolis Colts . [SEP],Indianapolis Colts,Indianapolis Colts,1,Indianapolis Colts,1,-2.16970
+[CLS] Jonathan Ruttens:3 plays with K . V . C . Westerlo:3 . [SEP],K . V . C . Westerlo:3,K . V . C . Westerlo:3,1,K . V . C . Westerlo:3,1,-1.53992
+[CLS] Kanstantsin:3 Lepin:2 plays with FC Khimik:2 Svetlogorsk:4 . [SEP],FC Khimik:2 Svetlogorsk:4,FC Khimik:2 Svetlogorsk:4,1,FC Khimik:2 Svetlogorsk:4,1,-1.50399
+[CLS] Roel:2 Janssen plays with VVV:2 - Venlo:3 . [SEP],VVV:2 - Venlo:3,VVV:2 - Venlo:3,1,VVV:2 - Venlo:3,1,-0.16971
+[CLS] Guy Dufour:2 plays with K . A . S . Eupen:2 . [SEP],K . A . S . Eupen:2,K . A . S . Eupen:2,1,K . A . S . Eupen:2,1,-2.44858
+[CLS] Corey Williams plays with Dacin:2 Tigers . [SEP],Dacin:2 Tigers,Dacin:2 Tigers,1,Dacin:2 Tigers,1,-7.05163
+[CLS] Ali Alizadeh:3 plays with Esteghlal:3 F . C . . [SEP],Esteghlal:3 F . C .,Esteghlal:3 F . C .,1,Esteghlal:3 F . C .,1,-0.79579
+[CLS] Joris:2 Kayembe:2 plays with Rio Ave F . C . . [SEP],Rio Ave F . C .,Rio Ave F . C .,1,Rio Ave F . C .,1,-1.58837
+[CLS] Thomas Danter:2 plays with Hull F . C . . [SEP],Hull F . C .,Hull F . C .,1,Hull F . C .,1,-0.76268
+[CLS] Yevgeni:3 Malofeyev:3 plays with FC Strogino:3 Moscow . [SEP],FC Strogino:3 Moscow,FC Strogino:3 Moscow,1,FC Strogino:3 Moscow,1,-5.10624
+[CLS] Stewart Murdoch plays with Fleetwood Town F . C . . [SEP],Fleetwood Town F . C .,Fleetwood Town F . C .,1,Fleetwood Town F . C .,1,-1.29935
+[CLS] Mugur:2 Gușatu:4 plays with SC Heerenveen:3 . [SEP],SC Heerenveen:3,SC Heerenveen:3,1,SC Heerenveen:3,1,-1.13967
+[CLS] Benjamín:3 Zarandona:3 plays with Real Betis:2 Balompié:4 . [SEP],Real Betis:2 Balompié:4,Real Betis:2 Balompié:4,1,Real Betis:2 Balompié:4,1,-0.39700
+[CLS] Clyde Wijnhard:3 plays with Leeds United F . C . . [SEP],Leeds United F . C .,Leeds United F . C .,1,Leeds United F . C .,1,-0.53784
+[CLS] Elias Owen plays with Wales national football team . [SEP],Wales national football team,Wales national football team,1,Wales national football team,1,-1.23926
+[CLS] Peter Greco plays with Columbus Clan F . C . . [SEP],Columbus Clan F . C .,Columbus Clan F . C .,1,Columbus Clan F . C .,1,-4.51917
+[CLS] Gustavo Zamudio:3 plays with Kitchee:3 SC . [SEP],Kitchee:3 SC,Kitchee:3 SC,1,Kitchee:3 SC,1,-4.57280
+[CLS] Paul Blades:2 plays with Norwich City F . C . . [SEP],Norwich City F . C .,Norwich City F . C .,1,Norwich City F . C .,1,-0.69705
+[CLS] Jimmy Forrest plays with Blackburn Rovers F . C . . [SEP],Blackburn Rovers F . C .,Blackburn Rovers F . C .,1,Blackburn Rovers F . C .,1,-0.52952
+[CLS] Jay Graham plays with Seattle Seahawks:2 . [SEP],Seattle Seahawks:2,Seattle Seahawks:2,1,Seattle Seahawks:2,1,-1.12729
+[CLS] Blagoja:3 Milevski:2 plays with Red Star Belgrade . [SEP],Red Star Belgrade,Red Star Belgrade,1,Red Star Belgrade,1,-1.70062
+[CLS] George Berry plays with Preston North End F . C . . [SEP],Preston North End F . C .,Preston North End F . C .,1,Preston North End F . C .,1,-0.07961
+[CLS] Raef:2 LaFrentz:4 plays with Dallas Mavericks:3 . [SEP],Dallas Mavericks:3,Dallas Mavericks:3,1,Dallas Mavericks:3,1,-1.10201
+[CLS] Warren Jowitt:3 plays with Salford:2 Red Devils . [SEP],Salford:2 Red Devils,Salford:2 Red Devils,1,Salford:2 Red Devils,1,-2.41593
+[CLS] Eduardo Godinho:2 Felipe de Souza plays with C . D . Trofense:4 . [SEP],C . D . Trofense:4,C . D . Trofense:4,1,C . D . Trofense:4,1,-0.74801
+[CLS] Luke Chadwick:2 plays with Burnley:2 F . C . . [SEP],Burnley:2 F . C .,Burnley:2 F . C .,1,Burnley:2 F . C .,1,-0.48163
+[CLS] Vedat:2 İnceefe:3 plays with Manisaspor:3 . [SEP],Manisaspor:3,Manisaspor:3,1,Manisaspor:3,1,-3.03223
+[CLS] Jordan Adéoti:3 plays with Stade Malherbe:3 Caen . [SEP],Stade Malherbe:3 Caen,Stade Malherbe:3 Caen,1,Stade Malherbe:3 Caen,1,-2.97330
+[CLS] Ivan Myasnikov:3 plays with FC Energiya:3 Volzhsky:3 . [SEP],FC Energiya:3 Volzhsky:3,FC Energiya:3 Volzhsky:3,1,FC Energiya:3 Volzhsky:3,1,-2.90499
+[CLS] Jim Wohlford:3 plays with San Francisco Giants . [SEP],San Francisco Giants,San Francisco Giants,1,San Francisco Giants,1,-0.39166
+[CLS] Erwin Louis Mueller plays with Virginia Squires:3 . [SEP],Virginia Squires:3,Virginia Squires:3,1,Virginia Squires:3,1,-3.09122
+[CLS] Rahim:2 Ouédraogo:4 plays with FC Twente . [SEP],FC Twente,FC Twente,1,FC Twente,1,-1.89787
+[CLS] Joe Anyon:2 plays with Shrewsbury Town F . C . . [SEP],Shrewsbury Town F . C .,Shrewsbury Town F . C .,1,Shrewsbury Town F . C .,1,-0.71284
+[CLS] Lee Cornwell:3 plays with Los Angeles Lazers:2 . [SEP],Los Angeles Lazers:2,Los Angeles Lazers:2,1,Los Angeles Lazers:2,1,-3.38867
+[CLS] Nicky Summerbee:2 plays with Manchester City F . C . . [SEP],Manchester City F . C .,Manchester City F . C .,1,Manchester City F . C .,1,-0.73894
+[CLS] Chris Hudson plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-5.12223
+[CLS] Roy Bethell:2 plays with Gillingham:2 F . C . . [SEP],Gillingham:2 F . C .,Gillingham:2 F . C .,1,Gillingham:2 F . C .,1,-0.53868
+[CLS] Gene Peacosh:3 plays with New York Golden Blades:2 . [SEP],New York Golden Blades:2,New York Golden Blades:2,1,New York Golden Blades:2,1,-2.53896
+[CLS] Jonathan St . Pierre plays with Toronto Argonauts:3 . [SEP],Toronto Argonauts:3,Toronto Argonauts:3,1,Toronto Argonauts:3,1,-1.90227
+[CLS] Derek Norris plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.24125
+[CLS] Ryan Ashington:2 plays with Torquay:3 United F . C . . [SEP],Torquay:3 United F . C .,Torquay:3 United F . C .,1,Torquay:3 United F . C .,1,-0.67147
+[CLS] Alexander Sutherland plays with Elgin:2 City F . C . . [SEP],Elgin:2 City F . C .,Elgin:2 City F . C .,1,Elgin:2 City F . C .,1,-1.13180
+[CLS] Brendan McNally:4 plays with Cambridge City F . C . . [SEP],Cambridge City F . C .,Cambridge City F . C .,1,Cambridge City F . C .,1,-2.02302
+[CLS] Trent Cummings plays with Fitzroy:3 Football Club . [SEP],Fitzroy:3 Football Club,Fitzroy:3 Football Club,1,Fitzroy:3 Football Club,1,-0.78695
+[CLS] David Norman plays with Collingwood:3 Football Club . [SEP],Collingwood:3 Football Club,Collingwood:3 Football Club,1,Collingwood:3 Football Club,1,-0.38828
+[CLS] Leroy Houston plays with Queensland Reds . [SEP],Queensland Reds,Queensland Reds,1,Queensland Reds,1,-8.06235
+[CLS] Alex Watson plays with Taunton:2 Town F . C . . [SEP],Taunton:2 Town F . C .,Taunton:2 Town F . C .,1,Taunton:2 Town F . C .,1,-1.07415
+[CLS] Hristo:2 Gospodinov:4 plays with FC Yantra:2 . [SEP],FC Yantra:2,FC Yantra:2,1,FC Yantra:2,1,-7.95332
+[CLS] Tony Rea:2 plays with London Broncos . [SEP],London Broncos,London Broncos,1,London Broncos,1,-7.03501
+[CLS] Roberto Aballay:3 plays with Club Atlético San Lorenzo de Almagro:2 . [SEP],Club Atlético San Lorenzo de Almagro:2,Club Atlético San Lorenzo de Almagro:2,1,Club Atlético San Lorenzo de Almagro:2,1,-0.27887
+[CLS] Artem:2 Besyedin:4 plays with FC Dynamo Kyiv:2 . [SEP],FC Dynamo Kyiv:2,FC Dynamo Kyiv:2,1,FC Dynamo Kyiv:2,1,-0.47529
+[CLS] Mike Bynum:2 plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.36763
+[CLS] Matteo Valli:2 plays with San Marino Calcio . [SEP],San Marino Calcio,San Marino Calcio,1,San Marino Calcio,1,-0.88487
+[CLS] Mateo Pavlović:4 plays with SV Werder Bremen . [SEP],SV Werder Bremen,SV Werder Bremen,1,SV Werder Bremen,1,-0.54362
+[CLS] Ken Montgomery plays with North Melbourne Football Club . [SEP],North Melbourne Football Club,North Melbourne Football Club,1,North Melbourne Football Club,1,-2.56379
+[CLS] Florian Kainz:2 plays with SK Rapid Wien . [SEP],SK Rapid Wien,SK Rapid Wien,1,SK Rapid Wien,1,-1.59652
+[CLS] Shmuel:3 Kozokin:3 plays with Ironi:2 Beit:2 Shemesh:3 F . C . . [SEP],Ironi:2 Beit:2 Shemesh:3 F . C .,Ironi:2 Beit:2 Shemesh:3 F . C .,1,Ironi:2 Beit:2 Shemesh:3 F . C .,1,-2.66429
+[CLS] Manuel Rojas plays with Chile national football team . [SEP],Chile national football team,Chile national football team,1,Chile national football team,1,-0.69230
+[CLS] Stan Jefferson plays with New York Yankees . [SEP],New York Yankees,New York Yankees,1,New York Yankees,1,-0.71201
+[CLS] Alan Rayson:2 plays with Geelong:3 Football Club . [SEP],Geelong:3 Football Club,Geelong:3 Football Club,1,Geelong:3 Football Club,1,-0.29091
+[CLS] Gary Woods plays with Toronto Blue Jays:2 . [SEP],Toronto Blue Jays:2,Toronto Blue Jays:2,1,Toronto Blue Jays:2,1,-1.58205
+[CLS] Tarje:2 Nordstrand:3 Jacobsen plays with Molde FK . [SEP],Molde FK,Molde FK,1,Molde FK,1,-0.48806
+[CLS] Bill Champion plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-2.26515
+[CLS] Bob Houbregs:4 plays with Detroit Pistons:3 . [SEP],Detroit Pistons:3,Detroit Pistons:3,1,Detroit Pistons:3,1,-0.78630
+[CLS] Dave Stevens plays with Atlanta Braves . [SEP],Atlanta Braves,Atlanta Braves,1,Atlanta Braves,1,-2.10209
+[CLS] Lewis Hawke:2 plays with Greenock:2 Morton F . C . . [SEP],Greenock:2 Morton F . C .,Greenock:2 Morton F . C .,1,Greenock:2 Morton F . C .,1,-0.86103
+[CLS] Eddie Vargas plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-2.05323
+[CLS] Don Herriman:2 plays with Edmonton Oilers . [SEP],Edmonton Oilers,Edmonton Oilers,1,Edmonton Oilers,1,-2.18575
+[CLS] Peter Holmes plays with Sheffield Wednesday F . C . . [SEP],Sheffield Wednesday F . C .,Sheffield Wednesday F . C .,1,Sheffield Wednesday F . C .,1,-0.34901
+[CLS] John Yzendoorn:4 plays with Heidelberg United FC . [SEP],Heidelberg United FC,Heidelberg United FC,1,Heidelberg United FC,1,-4.52044
+[CLS] Joe Eccles:3 plays with Aston Villa F . C . . [SEP],Aston Villa F . C .,Aston Villa F . C .,1,Aston Villa F . C .,1,-0.17843
+[CLS] Anette:2 Igland:3 plays with Norway women ' s national football team . [SEP],Norway women ' s national football team,Norway women ' s national football team,1,Norway women ' s national football team,1,-0.47300
+[CLS] Colin Gordon plays with Birmingham City F . C . . [SEP],Birmingham City F . C .,Birmingham City F . C .,1,Birmingham City F . C .,1,-0.90002
+[CLS] Joe Walton plays with Manchester United F . C . . [SEP],Manchester United F . C .,Manchester United F . C .,1,Manchester United F . C .,1,-0.47149
+[CLS] Christian Schulz plays with Hannover 96 . [SEP],Hannover 96,Hannover 96,1,Hannover 96,1,-2.11009
+[CLS] Todd Redmond:2 plays with Toronto Blue Jays:2 . [SEP],Toronto Blue Jays:2,Toronto Blue Jays:2,1,Toronto Blue Jays:2,1,-1.57875
+[CLS] Eduard Sergienko:3 plays with FC Akzhayik:4 . [SEP],FC Akzhayik:4,FC Akzhayik:4,1,FC Akzhayik:4,1,-5.24860
+[CLS] Wayne Dyer:2 plays with Coleshill:2 Town F . C . . [SEP],Coleshill:2 Town F . C .,Coleshill:2 Town F . C .,1,Coleshill:2 Town F . C .,1,-1.48124
+[CLS] George Gulyanics:4 plays with Chicago Bears . [SEP],Chicago Bears,Chicago Bears,1,Chicago Bears,1,-5.30960
+[CLS] Darren Crompton:3 plays with England national rugby union team . [SEP],England national rugby union team,England national rugby union team,1,England national rugby union team,1,-0.67919
+[CLS] Guy Frazier:2 plays with Buffalo Bills . [SEP],Buffalo Bills,Buffalo Bills,1,Buffalo Bills,1,-0.46559
+[CLS] Damián:2 Álvarez Arcos:2 plays with Deportivo Toluca:2 F . C . . [SEP],Deportivo Toluca:2 F . C .,Deportivo Toluca:2 F . C .,1,Deportivo Toluca:2 F . C .,1,-0.99417
+[CLS] Pinch:2 Thomas plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.19434
+[CLS] Andrés Ramiro Escobar Díaz plays with Millonarios:3 . [SEP],Millonarios:3,Millonarios:3,1,Millonarios:3,1,-0.36703
+[CLS] David Brown plays with Bradford City A . F . C . . [SEP],Bradford City A . F . C .,Bradford City A . F . C .,1,Bradford City A . F . C .,1,-1.11279
+[CLS] Niall:2 Cowperthwaite:5 plays with Barrow A . F . C . . [SEP],Barrow A . F . C .,Barrow A . F . C .,1,Barrow A . F . C .,1,-1.09187
+[CLS] Dicky:2 Ralph plays with Wales national rugby union team . [SEP],Wales national rugby union team,Wales national rugby union team,1,Wales national rugby union team,1,-1.07469
+[CLS] Julien Valero:2 plays with US Quevilly:3 . [SEP],US Quevilly:3,US Quevilly:3,1,US Quevilly:3,1,-3.72751
+[CLS] Tom Jackson plays with Denver Broncos . [SEP],Denver Broncos,Denver Broncos,1,Denver Broncos,1,-1.17258
+[CLS] Gorka:2 Brit plays with Club Deportivo Numancia:3 . [SEP],Club Deportivo Numancia:3,Club Deportivo Numancia:3,1,Club Deportivo Numancia:3,1,-1.06725
+[CLS] Yazid:2 Atouba:3 plays with Coton:2 Sport FC de Garoua:3 . [SEP],Coton:2 Sport FC de Garoua:3,Coton:2 Sport FC de Garoua:3,1,Coton:2 Sport FC de Garoua:3,1,-3.97136
+[CLS] Fernando Picun:2 plays with Uruguay national football team . [SEP],Uruguay national football team,Uruguay national football team,1,Uruguay national football team,1,-1.27437
+[CLS] Yuriy:2 Druchyk:3 plays with FC Belshina:3 Bobruisk:3 . [SEP],FC Belshina:3 Bobruisk:3,FC Belshina:3 Bobruisk:3,1,FC Belshina:3 Bobruisk:3,1,-4.25356
+[CLS] Vitaly:2 Potapenko:3 plays with Boston Celtics . [SEP],Boston Celtics,Boston Celtics,1,Boston Celtics,1,-1.49364
+[CLS] Llewellyn:4 Lloyd plays with Newport RFC . [SEP],Newport RFC,Newport RFC,1,Newport RFC,1,-3.18393
+[CLS] Callum:2 Robinson plays with England national under - 20 football team . [SEP],England national under - 20 football team,England national under - 20 football team,1,England national under - 20 football team,1,-0.96319
+[CLS] Mikko Vilmunen:3 plays with Drogheda:3 United F . C . . [SEP],Drogheda:3 United F . C .,Drogheda:3 United F . C .,1,Drogheda:3 United F . C .,1,-0.27911
+[CLS] Barry Davis plays with North Melbourne Football Club . [SEP],North Melbourne Football Club,North Melbourne Football Club,1,North Melbourne Football Club,1,-2.58011
+[CLS] Sammy Igoe:3 plays with Luton:2 Town F . C . . [SEP],Luton:2 Town F . C .,Luton:2 Town F . C .,1,Luton:2 Town F . C .,1,-0.53896
+[CLS] Frank McLintock:5 plays with Scotland national football team . [SEP],Scotland national football team,Scotland national football team,1,Scotland national football team,1,-0.97147
+[CLS] Lior:2 Jan plays with Maccabi Yavne:2 F . C . . [SEP],Maccabi Yavne:2 F . C .,Maccabi Yavne:2 F . C .,1,Maccabi Yavne:2 F . C .,1,-2.39496
+[CLS] Luiz Adriano plays with Brazil national football team . [SEP],Brazil national football team,Brazil national football team,1,Brazil national football team,1,-0.77698
+[CLS] Joe Hatten:2 plays with Chicago Cubs . [SEP],Chicago Cubs,Chicago Cubs,1,Chicago Cubs,1,-2.91676
+[CLS] Heinz Versteeg:3 plays with MSV:2 Duisburg . [SEP],MSV:2 Duisburg,MSV:2 Duisburg,1,MSV:2 Duisburg,1,-0.36293
+[CLS] Joakim:3 Nordström:2 plays with Chicago Blackhawks:2 . [SEP],Chicago Blackhawks:2,Chicago Blackhawks:2,1,Chicago Blackhawks:2,1,-2.62928
+[CLS] Hal Chase plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.63007
+[CLS] Billy Whelan:3 plays with Sunderland A . F . C . . [SEP],Sunderland A . F . C .,Sunderland A . F . C .,1,Sunderland A . F . C .,1,-0.63778
+[CLS] Tim Carter plays with Carlisle United F . C . . [SEP],Carlisle United F . C .,Carlisle United F . C .,1,Carlisle United F . C .,1,-0.78823
+[CLS] Jabin:2 Sambrano:3 plays with Indianapolis Colts . [SEP],Indianapolis Colts,Indianapolis Colts,1,Indianapolis Colts,1,-1.57566
+[CLS] Claudiomiro:3 Salenave:3 Santiago plays with Coritiba:3 F . C . . [SEP],Coritiba:3 F . C .,Coritiba:3 F . C .,1,Coritiba:3 F . C .,1,-0.35283
+[CLS] Jonathan Zenon:2 plays with Cincinnati Bengals:2 . [SEP],Cincinnati Bengals:2,Cincinnati Bengals:2,1,Cincinnati Bengals:2,1,-1.74414
+[CLS] Rafael Sóbis:2 plays with Brazil national football team . [SEP],Brazil national football team,Brazil national football team,1,Brazil national football team,1,-1.04368
+[CLS] Clint Stoerner:3 plays with Dallas Cowboys . [SEP],Dallas Cowboys,Dallas Cowboys,1,Dallas Cowboys,1,-1.35603
+[CLS] Vince Kendrick plays with Tampa Bay Buccaneers:4 . [SEP],Tampa Bay Buccaneers:4,Tampa Bay Buccaneers:4,1,Tampa Bay Buccaneers:4,1,-0.01263
+[CLS] Sam Earl plays with Rochdale:3 A . F . C . . [SEP],Rochdale:3 A . F . C .,Rochdale:3 A . F . C .,1,Rochdale:3 A . F . C .,1,-0.40319
+[CLS] Sean Malka:2 plays with Hapoel:3 Rishon:3 LeZion:3 F . C . . [SEP],Hapoel:3 Rishon:3 LeZion:3 F . C .,Hapoel:3 Rishon:3 LeZion:3 F . C .,1,Hapoel:3 Rishon:3 LeZion:3 F . C .,1,-1.86022
+[CLS] Michael Firrito:3 plays with North Melbourne Football Club . [SEP],North Melbourne Football Club,North Melbourne Football Club,1,North Melbourne Football Club,1,-2.46754
+[CLS] Felipe Aliste:2 Lopes plays with VfL Wolfsburg . [SEP],VfL Wolfsburg,VfL Wolfsburg,1,VfL Wolfsburg,1,-0.27310
+[CLS] Giacomo Chinellato:3 plays with A . S . Roma . [SEP],A . S . Roma,A . S . Roma,1,A . S . Roma,1,-1.65352
+[CLS] Don Mincher:2 plays with Oakland Athletics . [SEP],Oakland Athletics,Oakland Athletics,1,Oakland Athletics,1,-2.36810
+[CLS] Sam Gibson plays with North Melbourne Football Club . [SEP],North Melbourne Football Club,North Melbourne Football Club,1,North Melbourne Football Club,1,-2.58978
+[CLS] Simon Easterby:2 plays with Ireland national rugby union team . [SEP],Ireland national rugby union team,Ireland national rugby union team,1,Ireland national rugby union team,1,-0.82551
+[CLS] Valērijs:3 Ivanovs:2 plays with FC Shinnik:2 Yaroslavl:4 . [SEP],FC Shinnik:2 Yaroslavl:4,FC Shinnik:2 Yaroslavl:4,1,FC Shinnik:2 Yaroslavl:4,1,-2.65957
+[CLS] Andrei Murnin:2 plays with FC Fakel:2 Voronezh:3 . [SEP],FC Fakel:2 Voronezh:3,FC Fakel:2 Voronezh:3,1,FC Fakel:2 Voronezh:3,1,-2.56166
+[CLS] Mickey Weston plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-2.06425
+[CLS] Danny Ward plays with Castleford:2 Tigers . [SEP],Castleford:2 Tigers,Castleford:2 Tigers,1,Castleford:2 Tigers,1,-4.02122
+[CLS] George Smith plays with Middlesbrough F . C . . [SEP],Middlesbrough F . C .,Middlesbrough F . C .,1,Middlesbrough F . C .,1,-0.85660
+[CLS] Renaldas:3 Seibutis:3 plays with BC Lietuvos rytas:2 . [SEP],BC Lietuvos rytas:2,BC Lietuvos rytas:2,1,BC Lietuvos rytas:2,1,-2.65754
+[CLS] Sean Rigg:3 plays with Grays:2 Athletic F . C . . [SEP],Grays:2 Athletic F . C .,Grays:2 Athletic F . C .,1,Grays:2 Athletic F . C .,1,-0.99485
+[CLS] James Martin plays with Blackpool F . C . . [SEP],Blackpool F . C .,Blackpool F . C .,1,Blackpool F . C .,1,-0.93309
+[CLS] Waldemar Słomiany:4 plays with Arminia:2 Bielefeld . [SEP],Arminia:2 Bielefeld,Arminia:2 Bielefeld,1,Arminia:2 Bielefeld,1,-0.12783
+[CLS] Chris Hellenkamp:3 plays with Milwaukee Wave . [SEP],Milwaukee Wave,Milwaukee Wave,1,Milwaukee Wave,1,-8.36478
+[CLS] Albert Pynegar:3 plays with Sutton Town A . F . C . . [SEP],Sutton Town A . F . C .,Sutton Town A . F . C .,1,Sutton Town A . F . C .,1,-1.28511
+[CLS] Karel Kesselaers:4 plays with KV Mechelen . [SEP],KV Mechelen,KV Mechelen,1,KV Mechelen,1,-0.21476
+[CLS] Jamie McKenzie plays with Elgin:2 City F . C . . [SEP],Elgin:2 City F . C .,Elgin:2 City F . C .,1,Elgin:2 City F . C .,1,-1.33951
+[CLS] Jack Beby:2 plays with Darlington:2 F . C . . [SEP],Darlington:2 F . C .,Darlington:2 F . C .,1,Darlington:2 F . C .,1,-0.66351
+[CLS] Jack Ranson:2 plays with Lincoln City F . C . . [SEP],Lincoln City F . C .,Lincoln City F . C .,1,Lincoln City F . C .,1,-0.67870
+[CLS] Daniel McKay plays with Albion Rovers F . C . . [SEP],Albion Rovers F . C .,Albion Rovers F . C .,1,Albion Rovers F . C .,1,-1.19157
+[CLS] Paul Brush:2 plays with Crystal Palace F . C . . [SEP],Crystal Palace F . C .,Crystal Palace F . C .,1,Crystal Palace F . C .,1,-0.28653
+[CLS] Brad Sewell:2 plays with Hawthorn:4 Football Club . [SEP],Hawthorn:4 Football Club,Hawthorn:4 Football Club,1,Hawthorn:4 Football Club,1,-0.31918
+[CLS] Paddy Hasty:2 plays with Guildford:2 City F . C . . [SEP],Guildford:2 City F . C .,Guildford:2 City F . C .,1,Guildford:2 City F . C .,1,-1.17436
+[CLS] Jason Byrne plays with University College Dublin A . F . C . . [SEP],University College Dublin A . F . C .,University College Dublin A . F . C .,1,University College Dublin A . F . C .,1,-1.46407
+[CLS] Andrei Ankudinov:4 plays with HC Spartak Moscow . [SEP],HC Spartak Moscow,HC Spartak Moscow,1,HC Spartak Moscow,1,-2.88048
+[CLS] Gert Doumen:2 plays with Oud - Heverlee:3 Leuven . [SEP],Oud - Heverlee:3 Leuven,Oud - Heverlee:3 Leuven,1,Oud - Heverlee:3 Leuven,1,-2.19769
+[CLS] Bill Day plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-2.05976
+[CLS] Bret:2 Boone plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.44258
+[CLS] Zhao Honglüe:3 plays with Tianjin:2 Teda:2 F . C . . [SEP],Tianjin:2 Teda:2 F . C .,Tianjin:2 Teda:2 F . C .,1,Tianjin:2 Teda:2 F . C .,1,-1.53480
+[CLS] Warren Peters plays with Dallas Stars . [SEP],Dallas Stars,Dallas Stars,1,Dallas Stars,1,-2.83900
+[CLS] Stephen Roche plays with Millwall:2 F . C . . [SEP],Millwall:2 F . C .,Millwall:2 F . C .,1,Millwall:2 F . C .,1,-0.48748
+[CLS] Karolis:2 Navickas:3 plays with Krasny:3 Yar:2 Krasnoyarsk:5 . [SEP],Krasny:3 Yar:2 Krasnoyarsk:5,Krasny:3 Yar:2 Krasnoyarsk:5,1,Krasny:3 Yar:2 Krasnoyarsk:5,1,-0.74650
+[CLS] Mike Ribeiro plays with Dallas Stars . [SEP],Dallas Stars,Dallas Stars,1,Dallas Stars,1,-3.98869
+[CLS] Rohan Ricketts:3 plays with Eastern Sports Club . [SEP],Eastern Sports Club,Eastern Sports Club,1,Eastern Sports Club,1,-5.45164
+[CLS] Thomas Makinson:3 plays with St Helens:2 RLFC:2 . [SEP],St Helens:2 RLFC:2,St Helens:2 RLFC:2,1,St Helens:2 RLFC:2,1,-0.77294
+[CLS] Kennedy McIntosh:5 plays with Chicago Bulls . [SEP],Chicago Bulls,Chicago Bulls,1,Chicago Bulls,1,-3.50312
+[CLS] Anton Chichulin:3 plays with FC Okzhetpes:3 . [SEP],FC Okzhetpes:3,FC Okzhetpes:3,1,FC Okzhetpes:3,1,-9.90367
+[CLS] Marc Kibong:2 Mbamba:2 plays with Boluspor:3 . [SEP],Boluspor:3,Boluspor:3,1,Boluspor:3,1,-5.10024
+[CLS] Frank Stapleton:4 plays with Bradford City A . F . C . . [SEP],Bradford City A . F . C .,Bradford City A . F . C .,1,Bradford City A . F . C .,1,-0.96403
+[CLS] Dwight Jones plays with Chicago Bulls . [SEP],Chicago Bulls,Chicago Bulls,1,Chicago Bulls,1,-2.55786
+[CLS] Danny Menting:2 plays with FC Emmen:2 . [SEP],FC Emmen:2,FC Emmen:2,1,FC Emmen:2,1,-4.91006
+[CLS] Jack Ranson:2 plays with Swansea City A . F . C . . [SEP],Swansea City A . F . C .,Swansea City A . F . C .,1,Swansea City A . F . C .,1,-1.25770
+[CLS] Aaron Taylor plays with Bamber:2 Bridge F . C . . [SEP],Bamber:2 Bridge F . C .,Bamber:2 Bridge F . C .,1,Bamber:2 Bridge F . C .,1,-2.88073
+[CLS] Jimmy Robinson plays with Carlton Football Club . [SEP],Carlton Football Club,Carlton Football Club,1,Carlton Football Club,1,-2.66778
+[CLS] Asbjørn:2 Halvorsen:3 plays with Norway national football team . [SEP],Norway national football team,Norway national football team,1,Norway national football team,1,-0.43088
+[CLS] Malcolm Brown plays with Bury F . C . . [SEP],Bury F . C .,Bury F . C .,1,Bury F . C .,1,-0.81726
+[CLS] Frank Cornan:2 plays with Barnsley:2 F . C . . [SEP],Barnsley:2 F . C .,Barnsley:2 F . C .,1,Barnsley:2 F . C .,1,-0.29889
+[CLS] Anatoliy:3 Korobochka:5 plays with SC Odesa:2 . [SEP],SC Odesa:2,SC Odesa:2,1,SC Odesa:2,1,-3.66015
+[CLS] Peter Darke:2 plays with Torquay:3 United F . C . . [SEP],Torquay:3 United F . C .,Torquay:3 United F . C .,1,Torquay:3 United F . C .,1,-0.76472
+[CLS] Bobby Steel plays with Greenock:2 Morton F . C . . [SEP],Greenock:2 Morton F . C .,Greenock:2 Morton F . C .,1,Greenock:2 Morton F . C .,1,-0.51714
+[CLS] Ben Foster plays with Stafford Rangers F . C . . [SEP],Stafford Rangers F . C .,Stafford Rangers F . C .,1,Stafford Rangers F . C .,1,-0.86672
+[CLS] Jim Clapton plays with Carlton Football Club . [SEP],Carlton Football Club,Carlton Football Club,1,Carlton Football Club,1,-3.28893
+[CLS] Jim Jefferies:2 plays with Berwick:3 Rangers F . C . . [SEP],Berwick:3 Rangers F . C .,Berwick:3 Rangers F . C .,1,Berwick:3 Rangers F . C .,1,-0.36085
+[CLS] Cody Ross plays with Los Angeles Dodgers . [SEP],Los Angeles Dodgers,Los Angeles Dodgers,1,Los Angeles Dodgers,1,-0.25204
+[CLS] Bill Stricker:3 plays with Portland Trail Blazers:3 . [SEP],Portland Trail Blazers:3,Portland Trail Blazers:3,1,Portland Trail Blazers:3,1,-0.98298
+[CLS] Gianfranco:2 Bedin:2 plays with Italy national football team . [SEP],Italy national football team,Italy national football team,1,Italy national football team,1,-0.36892
+[CLS] Harry Knight plays with Winnipeg Blue Bombers:2 . [SEP],Winnipeg Blue Bombers:2,Winnipeg Blue Bombers:2,1,Winnipeg Blue Bombers:2,1,-1.39958
+[CLS] DeAndre:3 Brown plays with Philadelphia Eagles . [SEP],Philadelphia Eagles,Philadelphia Eagles,1,Philadelphia Eagles,1,-3.15632
+[CLS] Claudio Caniggia:3 plays with S . L . Benfica . [SEP],S . L . Benfica,S . L . Benfica,1,S . L . Benfica,1,-2.25071
+[CLS] Mohamed Kallon:2 plays with Old Edwardians:2 F . C . . [SEP],Old Edwardians:2 F . C .,Old Edwardians:2 F . C .,1,Old Edwardians:2 F . C .,1,-2.50079
+[CLS] Willie Fraser plays with Toronto Blue Jays:2 . [SEP],Toronto Blue Jays:2,Toronto Blue Jays:2,1,Toronto Blue Jays:2,1,-1.39050
+[CLS] Ondřej:4 Švejdík:4 plays with FC Slovan Liberec . [SEP],FC Slovan Liberec,FC Slovan Liberec,1,FC Slovan Liberec,1,-1.20900
+[CLS] Agim:3 Meto:2 plays with KF:2 Apolonia:3 Fier:2 . [SEP],KF:2 Apolonia:3 Fier:2,KF:2 Apolonia:3 Fier:2,1,KF:2 Apolonia:3 Fier:2,1,-2.54705
+[CLS] Hugues Nanmi:2 plays with Kitchee:3 SC . [SEP],Kitchee:3 SC,Kitchee:3 SC,1,Kitchee:3 SC,1,-5.23043
+[CLS] Yuki Nagasato:2 plays with 1 . FFC:2 Frankfurt . [SEP],1 . FFC:2 Frankfurt,1 . FFC:2 Frankfurt,1,1 . FFC:2 Frankfurt,1,-0.94046
+[CLS] Troels:3 Bech:2 plays with Silkeborg:2 IF . [SEP],Silkeborg:2 IF,Silkeborg:2 IF,1,Silkeborg:2 IF,1,-1.15316
+[CLS] Vic Prinzi:2 plays with Denver Broncos . [SEP],Denver Broncos,Denver Broncos,1,Denver Broncos,1,-0.73378
+[CLS] Otto Moore plays with Houston Rockets . [SEP],Houston Rockets,Houston Rockets,1,Houston Rockets,1,-1.13003
+[CLS] Harry Searson:2 plays with Sheffield Wednesday F . C . . [SEP],Sheffield Wednesday F . C .,Sheffield Wednesday F . C .,1,Sheffield Wednesday F . C .,1,-0.46674
+[CLS] Russell Gary plays with Philadelphia Eagles . [SEP],Philadelphia Eagles,Philadelphia Eagles,1,Philadelphia Eagles,1,-2.81334
+[CLS] Filipe Luís plays with Chelsea F . C . . [SEP],Chelsea F . C .,Chelsea F . C .,1,Chelsea F . C .,1,-0.85800
+[CLS] Ken Johnson plays with Telekom:2 Baskets:2 Bonn . [SEP],Telekom:2 Baskets:2 Bonn,Telekom:2 Baskets:2 Bonn,1,Telekom:2 Baskets:2 Bonn,1,-2.51324
+[CLS] Ernie Bond plays with Manchester United F . C . . [SEP],Manchester United F . C .,Manchester United F . C .,1,Manchester United F . C .,1,-0.53945
+[CLS] Louis Dyke plays with Wales national rugby union team . [SEP],Wales national rugby union team,Wales national rugby union team,1,Wales national rugby union team,1,-0.76332
+[CLS] Robbie Slater plays with West Ham United F . C . . [SEP],West Ham United F . C .,West Ham United F . C .,1,West Ham United F . C .,1,-0.22925
+[CLS] Dirang:2 Moloi:2 plays with Botswana national football team . [SEP],Botswana national football team,Botswana national football team,1,Botswana national football team,1,-2.16537
+[CLS] Dawood:2 Saad:2 plays with Riffa:3 S . C . . [SEP],Riffa:3 S . C .,Riffa:3 S . C .,1,Riffa:3 S . C .,1,-2.35614
+[CLS] Dennis Lewallyn:3 plays with Cleveland Indians . [SEP],Cleveland Indians,Cleveland Indians,1,Cleveland Indians,1,-1.54629
+[CLS] Fred Beasley:3 plays with San Francisco 49ers:2 . [SEP],San Francisco 49ers:2,San Francisco 49ers:2,1,San Francisco 49ers:2,1,-0.33414
+[CLS] Peter Grummitt:3 plays with Sheffield Wednesday F . C . . [SEP],Sheffield Wednesday F . C .,Sheffield Wednesday F . C .,1,Sheffield Wednesday F . C .,1,-0.36081
+[CLS] Barry Cogan:2 plays with Dover Athletic F . C . . [SEP],Dover Athletic F . C .,Dover Athletic F . C .,1,Dover Athletic F . C .,1,-1.78986
+[CLS] Joe Pepitone:3 plays with Atlanta Braves . [SEP],Atlanta Braves,Atlanta Braves,1,Atlanta Braves,1,-2.23474
+[CLS] Fung:2 Chi Ming plays with Happy Valley AA . [SEP],Happy Valley AA,Happy Valley AA,1,Happy Valley AA,1,-8.04503
+[CLS] Nigel Dawes:2 plays with Montreal Canadiens . [SEP],Montreal Canadiens,Montreal Canadiens,1,Montreal Canadiens,1,-1.09387
+[CLS] Robert Fleck:2 plays with Bolton Wanderers F . C . . [SEP],Bolton Wanderers F . C .,Bolton Wanderers F . C .,1,Bolton Wanderers F . C .,1,-0.26431
+[CLS] David Smith plays with Drogheda:3 United F . C . . [SEP],Drogheda:3 United F . C .,Drogheda:3 United F . C .,1,Drogheda:3 United F . C .,1,-0.36544
+[CLS] Michael Cage plays with Philadelphia 76ers:2 . [SEP],Philadelphia 76ers:2,Philadelphia 76ers:2,1,Philadelphia 76ers:2,1,-1.47197
+[CLS] Jimmy Brain plays with Cheltenham:3 Town F . C . . [SEP],Cheltenham:3 Town F . C .,Cheltenham:3 Town F . C .,1,Cheltenham:3 Town F . C .,1,-0.10931
+[CLS] Daniel Agger:2 plays with Denmark national football team . [SEP],Denmark national football team,Denmark national football team,1,Denmark national football team,1,-0.70397
+[CLS] Sven Schaffrath:4 plays with Alemannia:3 Aachen . [SEP],Alemannia:3 Aachen,Alemannia:3 Aachen,1,Alemannia:3 Aachen,1,-0.31765
+[CLS] Jon Asamoah:3 plays with Kansas City Chiefs . [SEP],Kansas City Chiefs,Kansas City Chiefs,1,Kansas City Chiefs,1,-0.90978
+[CLS] Matt Fish plays with Miami Heat . [SEP],Miami Heat,Miami Heat,1,Miami Heat,1,-2.73787
+[CLS] Akpo:2 Sodje:2 plays with Queens Park Rangers F . C . . [SEP],Queens Park Rangers F . C .,Queens Park Rangers F . C .,1,Queens Park Rangers F . C .,1,-0.21594
+[CLS] Andreas Lambertz:2 plays with Dynamo Dresden . [SEP],Dynamo Dresden,Dynamo Dresden,1,Dynamo Dresden,1,-0.58067
+[CLS] Evgeni:3 Karamanov:3 plays with OFC:2 Sliven:3 2000 . [SEP],OFC:2 Sliven:3 2000,OFC:2 Sliven:3 2000,1,OFC:2 Sliven:3 2000,1,-4.12808
+[CLS] Bill Thoms:2 plays with Boston Bruins . [SEP],Boston Bruins,Boston Bruins,1,Boston Bruins,1,-2.75968
+[CLS] Ejiro:3 Kuale:2 plays with Toronto Argonauts:3 . [SEP],Toronto Argonauts:3,Toronto Argonauts:3,1,Toronto Argonauts:3,1,-2.45159
+[CLS] Craig Brackins:3 plays with Philadelphia 76ers:2 . [SEP],Philadelphia 76ers:2,Philadelphia 76ers:2,1,Philadelphia 76ers:2,1,-1.61135
+[CLS] Lee Scroggins:4 plays with Darlington:2 F . C . . [SEP],Darlington:2 F . C .,Darlington:2 F . C .,1,Darlington:2 F . C .,1,-0.49911
+[CLS] Walter Galbraith:3 plays with Clyde F . C . . [SEP],Clyde F . C .,Clyde F . C .,1,Clyde F . C .,1,-1.12759
+[CLS] Steve Morgan plays with Hull City A . F . C . . [SEP],Hull City A . F . C .,Hull City A . F . C .,1,Hull City A . F . C .,1,-1.00481
+[CLS] César Henrique Martins plays with S . L . Benfica . [SEP],S . L . Benfica,S . L . Benfica,1,S . L . Benfica,1,-1.43528
+[CLS] Jon Leuer:2 plays with Milwaukee Bucks . [SEP],Milwaukee Bucks,Milwaukee Bucks,1,Milwaukee Bucks,1,-1.85302
+[CLS] Josip Biskic:3 plays with Heidelberg United FC . [SEP],Heidelberg United FC,Heidelberg United FC,1,Heidelberg United FC,1,-5.87729
+[CLS] Bill Cassidy plays with Gateshead:2 F . C . . [SEP],Gateshead:2 F . C .,Gateshead:2 F . C .,1,Gateshead:2 F . C .,1,-0.95056
+[CLS] Tim Rattay:2 plays with Tampa Bay Buccaneers:4 . [SEP],Tampa Bay Buccaneers:4,Tampa Bay Buccaneers:4,1,Tampa Bay Buccaneers:4,1,-0.02174
+[CLS] Joe Ironside:2 plays with Hartlepool:3 United F . C . . [SEP],Hartlepool:3 United F . C .,Hartlepool:3 United F . C .,1,Hartlepool:3 United F . C .,1,-0.17965
+[CLS] Bill Dunstan:3 plays with Buffalo Bills . [SEP],Buffalo Bills,Buffalo Bills,1,Buffalo Bills,1,-0.51695
+[CLS] Nick Fotiu:3 plays with Philadelphia Flyers . [SEP],Philadelphia Flyers,Philadelphia Flyers,1,Philadelphia Flyers,1,-2.70028
+[CLS] Roberto Soriano:2 plays with U . C . Sampdoria:3 . [SEP],U . C . Sampdoria:3,U . C . Sampdoria:3,1,U . C . Sampdoria:3,1,-0.96161
+[CLS] Mohamed Al - Deayea:3 plays with Saudi Arabia national football team . [SEP],Saudi Arabia national football team,Saudi Arabia national football team,1,Saudi Arabia national football team,1,-0.21926
+[CLS] Marco Fuser:2 plays with Benetton:3 Rugby Treviso . [SEP],Benetton:3 Rugby Treviso,Benetton:3 Rugby Treviso,1,Benetton:3 Rugby Treviso,1,-2.97833
+[CLS] Marcus Lopez plays with Pachanga:3 Diliman:2 F . C . . [SEP],Pachanga:3 Diliman:2 F . C .,Pachanga:3 Diliman:2 F . C .,1,Pachanga:3 Diliman:2 F . C .,1,-2.44405
+[CLS] Darnell:2 Walker plays with Detroit Lions . [SEP],Detroit Lions,Detroit Lions,1,Detroit Lions,1,-4.08599
+[CLS] Ivaylo:3 Sokolov:2 plays with PFC:2 Marek Dupnitsa:4 . [SEP],PFC:2 Marek Dupnitsa:4,PFC:2 Marek Dupnitsa:4,1,PFC:2 Marek Dupnitsa:4,1,-3.81118
+[CLS] Kevin Correia:2 plays with Minnesota Twins . [SEP],Minnesota Twins,Minnesota Twins,1,Minnesota Twins,1,-3.53057
+[CLS] John LoVetere:4 plays with Los Angeles Rams . [SEP],Los Angeles Rams,Los Angeles Rams,1,Los Angeles Rams,1,-1.71856
+[CLS] Ahmad Reza Abedzadeh:4 plays with Persepolis:3 F . C . . [SEP],Persepolis:3 F . C .,Persepolis:3 F . C .,1,Persepolis:3 F . C .,1,-0.38191
+[CLS] Charles Alton:2 plays with Rotherham:3 County F . C . . [SEP],Rotherham:3 County F . C .,Rotherham:3 County F . C .,1,Rotherham:3 County F . C .,1,-0.71780
+[CLS] Samantha Norwood:2 plays with Canberra Capitals:2 . [SEP],Canberra Capitals:2,Canberra Capitals:2,1,Canberra Capitals:2,1,-1.92807
+[CLS] Rodolph:3 Austin plays with SK Brann:2 . [SEP],SK Brann:2,SK Brann:2,1,SK Brann:2,1,-5.21797
+[CLS] Philippe Senderos:2 plays with Associazione Calcio Milan . [SEP],Associazione Calcio Milan,Associazione Calcio Milan,1,Associazione Calcio Milan,1,-3.24899
+[CLS] Graham Sissons:3 plays with Walsall:3 F . C . . [SEP],Walsall:3 F . C .,Walsall:3 F . C .,1,Walsall:3 F . C .,1,-0.28030
+[CLS] Alejandro García Casañas:2 plays with Rayo:2 Vallecano:2 . [SEP],Rayo:2 Vallecano:2,Rayo:2 Vallecano:2,1,Rayo:2 Vallecano:2,1,-0.09290
+[CLS] Therese:2 Sjögran:4 plays with Sweden women ' s national association football team . [SEP],Sweden women ' s national association football team,Sweden women ' s national association football team,1,Sweden women ' s national association football team,1,-1.04571
+[CLS] Edgardo:2 Bauza:2 plays with Atlético Junior . [SEP],Atlético Junior,Atlético Junior,1,Atlético Junior,1,-3.46040
+[CLS] Morgan Amalfitano:3 plays with CS Sedan Ardennes . [SEP],CS Sedan Ardennes,CS Sedan Ardennes,1,CS Sedan Ardennes,1,-1.56025
+[CLS] Greg LaRocca:4 plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.29334
+[CLS] Will Hoskins:3 plays with Rotherham:3 United F . C . . [SEP],Rotherham:3 United F . C .,Rotherham:3 United F . C .,1,Rotherham:3 United F . C .,1,-0.24614
+[CLS] Ivan Ristić:3 plays with F . K . Vojvodina:4 . [SEP],F . K . Vojvodina:4,F . K . Vojvodina:4,1,F . K . Vojvodina:4,1,-0.65167
+[CLS] Bill Morris plays with Wales national rugby union team . [SEP],Wales national rugby union team,Wales national rugby union team,1,Wales national rugby union team,1,-0.69007
+[CLS] Billy Fitchford:3 plays with Congleton:3 Town F . C . . [SEP],Congleton:3 Town F . C .,Congleton:3 Town F . C .,1,Congleton:3 Town F . C .,1,-1.62097
+[CLS] Daniel Petkovski:3 plays with APIA:2 Leichhardt:3 Tigers . [SEP],APIA:2 Leichhardt:3 Tigers,APIA:2 Leichhardt:3 Tigers,1,APIA:2 Leichhardt:3 Tigers,1,-3.58383
+[CLS] John Carleton plays with Orrell R . U . F . C . . [SEP],Orrell R . U . F . C .,Orrell R . U . F . C .,1,Orrell R . U . F . C .,1,-3.27920
+[CLS] Brendan Morrison plays with New Jersey Devils . [SEP],New Jersey Devils,New Jersey Devils,1,New Jersey Devils,1,-0.79239
+[CLS] Ray Cullen plays with New York Rangers . [SEP],New York Rangers,New York Rangers,1,New York Rangers,1,-0.87261
+[CLS] Andrew Walker plays with Carlton Football Club . [SEP],Carlton Football Club,Carlton Football Club,1,Carlton Football Club,1,-3.08479
+[CLS] Graeme:3 Bond plays with Richmond Football Club . [SEP],Richmond Football Club,Richmond Football Club,1,Richmond Football Club,1,-2.86520
+[CLS] Mileta:2 Radulović:3 plays with OFK:2 Grbalj:3 . [SEP],OFK:2 Grbalj:3,OFK:2 Grbalj:3,1,OFK:2 Grbalj:3,1,-3.98093
+[CLS] Marcel Kunstmann:2 plays with SC Verl:2 . [SEP],SC Verl:2,SC Verl:2,1,SC Verl:2,1,-6.35365
+[CLS] Mossad:2 Awad:2 plays with Al Ahly:2 SC . [SEP],Al Ahly:2 SC,Al Ahly:2 SC,1,Al Ahly:2 SC,1,-2.60641
+[CLS] Jordan Tait:2 plays with Oldham Athletic A . F . C . . [SEP],Oldham Athletic A . F . C .,Oldham Athletic A . F . C .,1,Oldham Athletic A . F . C .,1,-0.76133
+[CLS] Trevor Letowski:2 plays with Columbus Blue Jackets:2 . [SEP],Columbus Blue Jackets:2,Columbus Blue Jackets:2,1,Columbus Blue Jackets:2,1,-0.90000
+[CLS] Andreas Vogler:2 plays with Caracas Fútbol Club . [SEP],Caracas Fútbol Club,Caracas Fútbol Club,1,Caracas Fútbol Club,1,-4.36187
+[CLS] Dirk Jan Derksen:2 plays with Roda JC Kerkrade:2 . [SEP],Roda JC Kerkrade:2,Roda JC Kerkrade:2,1,Roda JC Kerkrade:2,1,-1.38908
+[CLS] Orges:2 Shehi:2 plays with Albania national football team . [SEP],Albania national football team,Albania national football team,1,Albania national football team,1,-1.26585
+[CLS] Tom Aldred:3 plays with Blackpool F . C . . [SEP],Blackpool F . C .,Blackpool F . C .,1,Blackpool F . C .,1,-1.02704
+[CLS] William Owen plays with Nuneaton:3 Borough F . C . . [SEP],Nuneaton:3 Borough F . C .,Nuneaton:3 Borough F . C .,1,Nuneaton:3 Borough F . C .,1,-0.96079
+[CLS] Bob Seeds:2 plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-1.01748
+[CLS] Jeroen:2 Ketting:2 plays with HFC:2 Haarlem . [SEP],HFC:2 Haarlem,HFC:2 Haarlem,1,HFC:2 Haarlem,1,-1.00128
+[CLS] Mariano Donda:2 plays with Al Wasl:2 FC . [SEP],Al Wasl:2 FC,Al Wasl:2 FC,1,Al Wasl:2 FC,1,-5.42754
+[CLS] Charly:2 Dutournier:3 plays with Dijon FCO:2 . [SEP],Dijon FCO:2,Dijon FCO:2,1,Dijon FCO:2,1,-1.79082
+[CLS] Anna Gawrońska:4 plays with KKPK:3 Medyk:2 Konin:2 . [SEP],KKPK:3 Medyk:2 Konin:2,KKPK:3 Medyk:2 Konin:2,1,KKPK:3 Medyk:2 Konin:2,1,-3.69364
+[CLS] Ben Futcher:3 plays with Doncaster:2 Rovers F . C . . [SEP],Doncaster:2 Rovers F . C .,Doncaster:2 Rovers F . C .,1,Doncaster:2 Rovers F . C .,1,-0.18857
+[CLS] T . J . Tucker plays with Washington Nationals:2 . [SEP],Washington Nationals:2,Washington Nationals:2,1,Washington Nationals:2,1,-1.46476
+[CLS] Orestas:2 Buitkus:3 plays with FBK:3 Kaunas . [SEP],FBK:3 Kaunas,FBK:3 Kaunas,1,FBK:3 Kaunas,1,-1.82173
+[CLS] Billy McNeill:5 plays with Scotland national football team . [SEP],Scotland national football team,Scotland national football team,1,Scotland national football team,1,-0.79828
+[CLS] Meho:2 Kodro:2 plays with Bosnia and Herzegovina national football team . [SEP],Bosnia and Herzegovina national football team,Bosnia and Herzegovina national football team,1,Bosnia and Herzegovina national football team,1,-0.17494
+[CLS] Prince Caperal:2 plays with NorthPort:3 Batang Pier . [SEP],NorthPort:3 Batang Pier,NorthPort:3 Batang Pier,1,NorthPort:3 Batang Pier,1,-7.04353
+[CLS] Lucas Patinho:2 plays with Fluminense F . C . . [SEP],Fluminense F . C .,Fluminense F . C .,1,Fluminense F . C .,1,-1.24853
+[CLS] Cameron Legault:2 plays with BC Lions . [SEP],BC Lions,BC Lions,1,BC Lions,1,-4.00182
+[CLS] Adrian Mariappa:2 plays with Watford:2 F . C . . [SEP],Watford:2 F . C .,Watford:2 F . C .,1,Watford:2 F . C .,1,-0.79982
+[CLS] Rick Slor:2 plays with FC Emmen:2 . [SEP],FC Emmen:2,FC Emmen:2,1,FC Emmen:2,1,-5.75772
+[CLS] Adrian Thorne plays with Exeter City F . C . . [SEP],Exeter City F . C .,Exeter City F . C .,1,Exeter City F . C .,1,-1.08500
+[CLS] Christophe Ferron:2 plays with F . C . Lorient . [SEP],F . C . Lorient,F . C . Lorient,1,F . C . Lorient,1,-1.71436
+[CLS] Bijan:2 Koushki:3 plays with Sanat Mes:2 Kerman:2 F . C . . [SEP],Sanat Mes:2 Kerman:2 F . C .,Sanat Mes:2 Kerman:2 F . C .,1,Sanat Mes:2 Kerman:2 F . C .,1,-4.86963
+[CLS] Aleksandr Subbotin:3 plays with FC Amkar:2 Perm . [SEP],FC Amkar:2 Perm,FC Amkar:2 Perm,1,FC Amkar:2 Perm,1,-3.72232
+[CLS] Carlester:2 Crumpler:3 Jr . plays with Seattle Seahawks:2 . [SEP],Seattle Seahawks:2,Seattle Seahawks:2,1,Seattle Seahawks:2,1,-0.98447
+[CLS] Kahn Fotuali:3 ' i plays with Samoa national rugby union team . [SEP],Samoa national rugby union team,Samoa national rugby union team,1,Samoa national rugby union team,1,-1.26034
+[CLS] Gary Woods plays with Oakland Athletics . [SEP],Oakland Athletics,Oakland Athletics,1,Oakland Athletics,1,-2.33708
+[CLS] Clifford Ray plays with Golden State Warriors . [SEP],Golden State Warriors,Golden State Warriors,1,Golden State Warriors,1,-0.12512
+[CLS] Jorge Cantú:2 plays with San Diego Padres:2 . [SEP],San Diego Padres:2,San Diego Padres:2,1,San Diego Padres:2,1,-0.30987
+[CLS] Harry Libanotis:2 plays with Seychelles national football team . [SEP],Seychelles national football team,Seychelles national football team,1,Seychelles national football team,1,-2.20403
+[CLS] Tory:2 Woodbury:2 plays with Buffalo Bills . [SEP],Buffalo Bills,Buffalo Bills,1,Buffalo Bills,1,-0.50403
+[CLS] Lito:2 Sheppard plays with Florida Gators:2 football . [SEP],Florida Gators:2 football,Florida Gators:2 football,1,Florida Gators:2 football,1,-2.17890
+[CLS] Jonathan Pérez Olivero:2 plays with UD Lanzarote:3 . [SEP],UD Lanzarote:3,UD Lanzarote:3,1,UD Lanzarote:3,1,-0.91126
+[CLS] Florin:2 Gardoș:3 plays with Southampton F . C . . [SEP],Southampton F . C .,Southampton F . C .,1,Southampton F . C .,1,-0.96583
+[CLS] Steven Bell plays with Stirling Albion F . C . . [SEP],Stirling Albion F . C .,Stirling Albion F . C .,1,Stirling Albion F . C .,1,-1.69081
+[CLS] Christos:2 Arkoudas:3 plays with Lamia:2 F . C . . [SEP],Lamia:2 F . C .,Lamia:2 F . C .,1,Lamia:2 F . C .,1,-2.12835
+[CLS] Willi Heinz plays with Gloucester Rugby . [SEP],Gloucester Rugby,Gloucester Rugby,1,Gloucester Rugby,1,-5.64628
+[CLS] Melvin Fowler plays with Detroit Lions . [SEP],Detroit Lions,Detroit Lions,1,Detroit Lions,1,-3.36946
+[CLS] Yevgeni:3 Mukhametzyanov:6 plays with FC Volga Ulyanovsk:4 . [SEP],FC Volga Ulyanovsk:4,FC Volga Ulyanovsk:4,1,FC Volga Ulyanovsk:4,1,-1.03739
+[CLS] Fábio:3 Daniel Moreira Barros plays with A . D . Sanjoanense:4 . [SEP],A . D . Sanjoanense:4,A . D . Sanjoanense:4,1,A . D . Sanjoanense:4,1,-2.58248
+[CLS] Rans:2 Brempong:4 plays with Donar:2 . [SEP],Donar:2,Donar:2,1,Donar:2,1,-7.49488
+[CLS] Danny Bowers:2 plays with Shrewsbury Town F . C . . [SEP],Shrewsbury Town F . C .,Shrewsbury Town F . C .,1,Shrewsbury Town F . C .,1,-0.60622
+[CLS] John Krause plays with North Carolina FC . [SEP],North Carolina FC,North Carolina FC,1,North Carolina FC,1,-3.59397
+[CLS] Mohamed Talis:2 plays with ASO:2 Chlef:2 . [SEP],ASO:2 Chlef:2,ASO:2 Chlef:2,1,ASO:2 Chlef:2,1,-2.33122
+[CLS] Moses Swaibu:3 plays with Lincoln City F . C . . [SEP],Lincoln City F . C .,Lincoln City F . C .,1,Lincoln City F . C .,1,-0.80713
+[CLS] Bryan Redpath:3 plays with Melrose:2 RFC . [SEP],Melrose:2 RFC,Melrose:2 RFC,1,Melrose:2 RFC,1,-3.45589
+[CLS] Dennis McCauley:5 plays with Buffalo Sabres:2 . [SEP],Buffalo Sabres:2,Buffalo Sabres:2,1,Buffalo Sabres:2,1,-0.87814
+[CLS] Jimmy Windridge:2 plays with Middlesbrough F . C . . [SEP],Middlesbrough F . C .,Middlesbrough F . C .,1,Middlesbrough F . C .,1,-0.67325
+[CLS] Bob Preston plays with Torquay:3 United F . C . . [SEP],Torquay:3 United F . C .,Torquay:3 United F . C .,1,Torquay:3 United F . C .,1,-0.76990
+[CLS] Ken Griffiths plays with Port Vale F . C . . [SEP],Port Vale F . C .,Port Vale F . C .,1,Port Vale F . C .,1,-0.56004
+[CLS] Hamza:2 Ziad:2 plays with JS:2 Kabylie:3 . [SEP],JS:2 Kabylie:3,JS:2 Kabylie:3,1,JS:2 Kabylie:3,1,-1.60401
+[CLS] Dave Clements plays with Northern Ireland national football team . [SEP],Northern Ireland national football team,Northern Ireland national football team,1,Northern Ireland national football team,1,-1.14441
+[CLS] Trent Cummings plays with West Coast Eagles . [SEP],West Coast Eagles,West Coast Eagles,1,West Coast Eagles,1,-2.72392
+[CLS] Herbert Hein:2 plays with Borussia Dortmund . [SEP],Borussia Dortmund,Borussia Dortmund,1,Borussia Dortmund,1,-0.47362
+[CLS] Billy Kirton:2 plays with England national football team . [SEP],England national football team,England national football team,1,England national football team,1,-0.94379
+[CLS] Eric Bryant plays with Yeovil:3 Town F . C . . [SEP],Yeovil:3 Town F . C .,Yeovil:3 Town F . C .,1,Yeovil:3 Town F . C .,1,-0.34594
+[CLS] Peter Opiyo:2 plays with FF Jaro:2 . [SEP],FF Jaro:2,FF Jaro:2,1,FF Jaro:2,1,-6.82155
+[CLS] Donnell Smith plays with Green Bay Packers . [SEP],Green Bay Packers,Green Bay Packers,1,Green Bay Packers,1,-0.49915
+[CLS] Kevin Gogan:2 plays with Las Vegas Raiders . [SEP],Las Vegas Raiders,Las Vegas Raiders,1,Las Vegas Raiders,1,-2.12794
+[CLS] Anthony Barness:2 plays with Middlesbrough F . C . . [SEP],Middlesbrough F . C .,Middlesbrough F . C .,1,Middlesbrough F . C .,1,-0.62729
+[CLS] Fred Sargent:2 plays with Northfleet:3 United F . C . . [SEP],Northfleet:3 United F . C .,Northfleet:3 United F . C .,1,Northfleet:3 United F . C .,1,-0.47093
+[CLS] Milne McCooke:5 plays with St Kilda:2 Football Club . [SEP],St Kilda:2 Football Club,St Kilda:2 Football Club,1,St Kilda:2 Football Club,1,-0.26880
+[CLS] Roman Zobnin:3 plays with FC Akademiya:2 Tolyatti:3 . [SEP],FC Akademiya:2 Tolyatti:3,FC Akademiya:2 Tolyatti:3,1,FC Akademiya:2 Tolyatti:3,1,-4.54613
+[CLS] Curly:2 Brown plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.36034
+[CLS] Yozo:2 Aoki:2 plays with Japan national football team . [SEP],Japan national football team,Japan national football team,1,Japan national football team,1,-0.36781
+[CLS] Milorad:2 Bilbija:2 plays with Gaziantepspor:5 . [SEP],Gaziantepspor:5,Gaziantepspor:5,1,Gaziantepspor:5,1,-1.16988
+[CLS] David Lee plays with Yate:2 Town F . C . . [SEP],Yate:2 Town F . C .,Yate:2 Town F . C .,1,Yate:2 Town F . C .,1,-2.58891
+[CLS] Peter Schwarz plays with 1 . FC Kaiserslautern . [SEP],1 . FC Kaiserslautern,1 . FC Kaiserslautern,1,1 . FC Kaiserslautern,1,-0.38847
+[CLS] Kenny Allen plays with Torquay:3 United F . C . . [SEP],Torquay:3 United F . C .,Torquay:3 United F . C .,1,Torquay:3 United F . C .,1,-0.72818
+[CLS] Li Zhuangfei:4 plays with Qingdao:2 Jonoon:2 F . C . . [SEP],Qingdao:2 Jonoon:2 F . C .,Qingdao:2 Jonoon:2 F . C .,1,Qingdao:2 Jonoon:2 F . C .,1,-2.52298
+[CLS] Matheau:2 Hall plays with Richmond Kickers:2 . [SEP],Richmond Kickers:2,Richmond Kickers:2,1,Richmond Kickers:2,1,-4.53944
+[CLS] Andrew Purcell plays with Hull F . C . . [SEP],Hull F . C .,Hull F . C .,1,Hull F . C .,1,-0.59937
+[CLS] Arthur Smith plays with Scotland national rugby union team . [SEP],Scotland national rugby union team,Scotland national rugby union team,1,Scotland national rugby union team,1,-0.81762
+[CLS] Christian Smith plays with Hayes & Yeading:3 United F . C . . [SEP],Hayes & Yeading:3 United F . C .,Hayes & Yeading:3 United F . C .,1,Hayes & Yeading:3 United F . C .,1,-2.20985
+[CLS] Bob Bailor:2 plays with Toronto Blue Jays:2 . [SEP],Toronto Blue Jays:2,Toronto Blue Jays:2,1,Toronto Blue Jays:2,1,-1.71976
+[CLS] Mick Bodley:2 plays with Southend:2 United F . C . . [SEP],Southend:2 United F . C .,Southend:2 United F . C .,1,Southend:2 United F . C .,1,-0.72701
+[CLS] Marshall Brooks plays with England national rugby union team . [SEP],England national rugby union team,England national rugby union team,1,England national rugby union team,1,-0.82227
+[CLS] Jacques Rougerie:2 plays with ASM:2 Clermont Auvergne . [SEP],ASM:2 Clermont Auvergne,ASM:2 Clermont Auvergne,1,ASM:2 Clermont Auvergne,1,-0.72568
+[CLS] Cy:2 Morgan plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.63600
+[CLS] Charlie Shelton:2 plays with England national football team . [SEP],England national football team,England national football team,1,England national football team,1,-0.50529
+[CLS] Chris Patrick plays with Kansas City Chiefs . [SEP],Kansas City Chiefs,Kansas City Chiefs,1,Kansas City Chiefs,1,-0.84897
+[CLS] Steve Sullivan plays with Toronto Maple Leafs . [SEP],Toronto Maple Leafs,Toronto Maple Leafs,1,Toronto Maple Leafs,1,-0.40893
+[CLS] Jim King plays with San Francisco Giants . [SEP],San Francisco Giants,San Francisco Giants,1,San Francisco Giants,1,-0.77497
+[CLS] Amancio:2 Amaro:2 plays with Real Madrid CF . [SEP],Real Madrid CF,Real Madrid CF,1,Real Madrid CF,1,-0.85097
+[CLS] Edgar Whittaker:3 plays with Burnley:2 F . C . . [SEP],Burnley:2 F . C .,Burnley:2 F . C .,1,Burnley:2 F . C .,1,-0.45798
+[CLS] Kantroy:2 Barber plays with New England Patriots . [SEP],New England Patriots,New England Patriots,1,New England Patriots,1,-0.82197
+[CLS] Robert Evans plays with Wales national football team . [SEP],Wales national football team,Wales national football team,1,Wales national football team,1,-0.85726
+[CLS] Stephen Fry plays with South Africa national rugby union team . [SEP],South Africa national rugby union team,South Africa national rugby union team,1,South Africa national rugby union team,1,-0.62375
+[CLS] Darryl:2 Wakelin:2 plays with St Kilda:2 Football Club . [SEP],St Kilda:2 Football Club,St Kilda:2 Football Club,1,St Kilda:2 Football Club,1,-0.36520
+[CLS] J . J . Arrington:2 plays with Arizona Cardinals . [SEP],Arizona Cardinals,Arizona Cardinals,1,Arizona Cardinals,1,-2.03772
+[CLS] Christopher Tanev:2 plays with Vancouver Canucks:3 . [SEP],Vancouver Canucks:3,Vancouver Canucks:3,1,Vancouver Canucks:3,1,-0.33284
+[CLS] Martin Pearson plays with Halifax RLFC:2 . [SEP],Halifax RLFC:2,Halifax RLFC:2,1,Halifax RLFC:2,1,-2.18636
+[CLS] Brandon Laird:2 plays with Houston Astros:2 . [SEP],Houston Astros:2,Houston Astros:2,1,Houston Astros:2,1,-1.20924
+[CLS] Leonel:2 Herrera Rojas plays with O ' Higgins F . C . . [SEP],O ' Higgins F . C .,O ' Higgins F . C .,1,O ' Higgins F . C .,1,-0.32033
+[CLS] Frank Dancewicz:2 plays with Notre Dame Fighting Irish football . [SEP],Notre Dame Fighting Irish football,Notre Dame Fighting Irish football,1,Notre Dame Fighting Irish football,1,-2.89048
+[CLS] Kenan:2 Čejvanović:4 plays with HNK:2 Gorica:2 . [SEP],HNK:2 Gorica:2,HNK:2 Gorica:2,1,HNK:2 Gorica:2,1,-1.26497
+[CLS] Stoyan:3 Stavrev:4 plays with PFC:2 Cherno:2 More Varna:2 . [SEP],PFC:2 Cherno:2 More Varna:2,PFC:2 Cherno:2 More Varna:2,1,PFC:2 Cherno:2 More Varna:2,1,-3.67580
+[CLS] Tommy Docherty:3 plays with Chelsea F . C . . [SEP],Chelsea F . C .,Chelsea F . C .,1,Chelsea F . C .,1,-0.77192
+[CLS] Rob Worrincy:3 plays with London Broncos . [SEP],London Broncos,London Broncos,1,London Broncos,1,-6.56392
+[CLS] Darko:2 Franić:2 plays with NK Junak:2 Sinj:2 . [SEP],NK Junak:2 Sinj:2,NK Junak:2 Sinj:2,1,NK Junak:2 Sinj:2,1,-3.27360
+[CLS] Jim Iley:2 plays with Nottingham Forest F . C . . [SEP],Nottingham Forest F . C .,Nottingham Forest F . C .,1,Nottingham Forest F . C .,1,-0.20371
+[CLS] Chris Kelly plays with Boston Bruins . [SEP],Boston Bruins,Boston Bruins,1,Boston Bruins,1,-3.07892
+[CLS] Colin Gibson plays with Walsall:3 F . C . . [SEP],Walsall:3 F . C .,Walsall:3 F . C .,1,Walsall:3 F . C .,1,-0.26923
+[CLS] Erwin Ballabio:3 plays with FC Grenchen:3 . [SEP],FC Grenchen:3,FC Grenchen:3,1,FC Grenchen:3,1,-3.71747
+[CLS] Ian Storey:2 - Moore plays with Scunthorpe:4 United F . C . . [SEP],Scunthorpe:4 United F . C .,Scunthorpe:4 United F . C .,1,Scunthorpe:4 United F . C .,1,-0.15925
+[CLS] Volodymyr:4 Barilko:2 plays with FC Chornomorets:4 Odesa:2 . [SEP],FC Chornomorets:4 Odesa:2,FC Chornomorets:4 Odesa:2,1,FC Chornomorets:4 Odesa:2,1,-3.05729
+[CLS] Béla Sebestyén:4 plays with Hungary national football team . [SEP],Hungary national football team,Hungary national football team,1,Hungary national football team,1,-0.60835
+[CLS] Tony Lagerström:2 plays with Chicago Blackhawks:2 . [SEP],Chicago Blackhawks:2,Chicago Blackhawks:2,1,Chicago Blackhawks:2,1,-2.51754
+[CLS] Graham Cross plays with Preston North End F . C . . [SEP],Preston North End F . C .,Preston North End F . C .,1,Preston North End F . C .,1,-0.09221
+[CLS] Emanuele Del Vecchio plays with Brazil national football team . [SEP],Brazil national football team,Brazil national football team,1,Brazil national football team,1,-1.88696
+[CLS] Tay:2 Cody plays with Edmonton Eskimos:2 . [SEP],Edmonton Eskimos:2,Edmonton Eskimos:2,1,Edmonton Eskimos:2,1,-2.29637
+[CLS] Milivoj:3 Bračun:3 plays with GNK:2 Dinamo Zagreb . [SEP],GNK:2 Dinamo Zagreb,GNK:2 Dinamo Zagreb,1,GNK:2 Dinamo Zagreb,1,-2.60670
+[CLS] Ferdinando Vitofrancesco:4 plays with Associazione Sportiva:2 Cittadella:3 . [SEP],Associazione Sportiva:2 Cittadella:3,Associazione Sportiva:2 Cittadella:3,1,Associazione Sportiva:2 Cittadella:3,1,-0.89908
+[CLS] Lloyd Dyer:2 plays with Queens Park Rangers F . C . . [SEP],Queens Park Rangers F . C .,Queens Park Rangers F . C .,1,Queens Park Rangers F . C .,1,-0.11830
+[CLS] J . T . O ' Sullivan plays with Carolina Panthers . [SEP],Carolina Panthers,Carolina Panthers,1,Carolina Panthers,1,-2.17494
+[CLS] Cowin:2 Mathurin:2 plays with Antigua Barracuda:2 FC . [SEP],Antigua Barracuda:2 FC,Antigua Barracuda:2 FC,1,Antigua Barracuda:2 FC,1,-3.47984
+[CLS] Ivan Dineen:2 plays with Munster Rugby . [SEP],Munster Rugby,Munster Rugby,1,Munster Rugby,1,-5.44039
+[CLS] Liam Noble plays with Carlisle United F . C . . [SEP],Carlisle United F . C .,Carlisle United F . C .,1,Carlisle United F . C .,1,-0.92826
+[CLS] Charlie Chech:2 plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.00262
+[CLS] Ghafour:3 Jahani:2 plays with Iran national football team . [SEP],Iran national football team,Iran national football team,1,Iran national football team,1,-0.56758
+[CLS] Bob Lendrum:3 plays with New Zealand national rugby union team . [SEP],New Zealand national rugby union team,New Zealand national rugby union team,1,New Zealand national rugby union team,1,-0.22187
+[CLS] Vic Wertz:2 plays with Detroit Tigers . [SEP],Detroit Tigers,Detroit Tigers,1,Detroit Tigers,1,-2.54378
+[CLS] Eddie Hinton:2 plays with New England Patriots . [SEP],New England Patriots,New England Patriots,1,New England Patriots,1,-0.77778
+[CLS] Mike Brumley:3 plays with Houston Astros:2 . [SEP],Houston Astros:2,Houston Astros:2,1,Houston Astros:2,1,-1.09595
+[CLS] Eliota:2 Fuimaono:3 - Sapolu:3 plays with Bath Rugby . [SEP],Bath Rugby,Bath Rugby,1,Bath Rugby,1,-6.07610
+[CLS] Ben Botica:2 plays with North Harbour Rugby Union . [SEP],North Harbour Rugby Union,North Harbour Rugby Union,1,North Harbour Rugby Union,1,-3.32158
+[CLS] Gerry Ehman:2 plays with Boston Bruins . [SEP],Boston Bruins,Boston Bruins,1,Boston Bruins,1,-2.70217
+[CLS] Jim O ' Toole:2 plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.90522
+[CLS] Chris Klute:3 plays with Portland Timbers:2 . [SEP],Portland Timbers:2,Portland Timbers:2,1,Portland Timbers:2,1,-0.86904
+[CLS] Herman Fontenot:2 plays with Green Bay Packers . [SEP],Green Bay Packers,Green Bay Packers,1,Green Bay Packers,1,-0.69767
+[CLS] Charlie Joiner:2 plays with Cincinnati Bengals:2 . [SEP],Cincinnati Bengals:2,Cincinnati Bengals:2,1,Cincinnati Bengals:2,1,-1.60567
+[CLS] Ted Duckhouse:2 plays with West Bromwich:3 Albion F . C . . [SEP],West Bromwich:3 Albion F . C .,West Bromwich:3 Albion F . C .,1,West Bromwich:3 Albion F . C .,1,-0.13819
+[CLS] Tommy Todd plays with Crewe:2 Alexandra F . C . . [SEP],Crewe:2 Alexandra F . C .,Crewe:2 Alexandra F . C .,1,Crewe:2 Alexandra F . C .,1,-0.91407
+[CLS] Bill Shores:2 plays with Chicago White Sox . [SEP],Chicago White Sox,Chicago White Sox,1,Chicago White Sox,1,-2.20532
+[CLS] Teddy Lučić:2 plays with Sweden national football team . [SEP],Sweden national football team,Sweden national football team,1,Sweden national football team,1,-1.42763
+[CLS] Serge Yoffou:3 plays with PFC:2 Dobrudzha:4 Dobrich:3 . [SEP],PFC:2 Dobrudzha:4 Dobrich:3,PFC:2 Dobrudzha:4 Dobrich:3,1,PFC:2 Dobrudzha:4 Dobrich:3,1,-2.63910
+[CLS] Gianni De Rosa plays with Como 1907 . [SEP],Como 1907,Como 1907,1,Como 1907,1,-12.69008
+[CLS] Jimmy Garth:2 plays with Clyde F . C . . [SEP],Clyde F . C .,Clyde F . C .,1,Clyde F . C .,1,-1.21318
+[CLS] Boško:2 Mihajlović:4 plays with FK Proleter:3 Zrenjanin:4 . [SEP],FK Proleter:3 Zrenjanin:4,FK Proleter:3 Zrenjanin:4,1,FK Proleter:3 Zrenjanin:4,1,-0.68770
+[CLS] Will Sharp plays with London Broncos . [SEP],London Broncos,London Broncos,1,London Broncos,1,-7.73022
+[CLS] Darío Scotto:2 plays with Club Necaxa:3 . [SEP],Club Necaxa:3,Club Necaxa:3,1,Club Necaxa:3,1,-1.66912
+[CLS] Vyacheslav:4 Osnovin:3 plays with Traktor:2 Chelyabinsk:4 . [SEP],Traktor:2 Chelyabinsk:4,Traktor:2 Chelyabinsk:4,1,Traktor:2 Chelyabinsk:4,1,-1.38892
+[CLS] Vojtech:3 Masný:2 plays with Czechoslovakia national football team . [SEP],Czechoslovakia national football team,Czechoslovakia national football team,1,Czechoslovakia national football team,1,-1.58156
+[CLS] Malcolm Shotton:2 plays with Portsmouth F . C . . [SEP],Portsmouth F . C .,Portsmouth F . C .,1,Portsmouth F . C .,1,-0.90288
+[CLS] Edevaldo:3 de Freitas:2 plays with Brazil national football team . [SEP],Brazil national football team,Brazil national football team,1,Brazil national football team,1,-0.80820
+[CLS] Darius Charles plays with Stevenage:2 F . C . . [SEP],Stevenage:2 F . C .,Stevenage:2 F . C .,1,Stevenage:2 F . C .,1,-0.65428
+[CLS] Matthew Bloomer:2 plays with Boston United F . C . . [SEP],Boston United F . C .,Boston United F . C .,1,Boston United F . C .,1,-1.49635
+[CLS] Kevin O ' Connell plays with New England Patriots . [SEP],New England Patriots,New England Patriots,1,New England Patriots,1,-0.79629
+[CLS] Ray Hiron:2 plays with Portsmouth F . C . . [SEP],Portsmouth F . C .,Portsmouth F . C .,1,Portsmouth F . C .,1,-0.80392
+[CLS] Lou Schettler:3 plays with Philadelphia Phillies:2 . [SEP],Philadelphia Phillies:2,Philadelphia Phillies:2,1,Philadelphia Phillies:2,1,-1.72609
+[CLS] Marat:2 Daudov:3 plays with FC Stal Alchevsk:3 . [SEP],FC Stal Alchevsk:3,FC Stal Alchevsk:3,1,FC Stal Alchevsk:3,1,-5.51480
+[CLS] Daniel Puce:2 plays with FC Wil:2 1900 . [SEP],FC Wil:2 1900,FC Wil:2 1900,1,FC Wil:2 1900,1,-6.93895
+[CLS] William Robertson plays with Stoke City F . C . . [SEP],Stoke City F . C .,Stoke City F . C .,1,Stoke City F . C .,1,-0.77262
+[CLS] Albert Mullard:3 plays with Port Vale F . C . . [SEP],Port Vale F . C .,Port Vale F . C .,1,Port Vale F . C .,1,-0.53454
+[CLS] Lendy:2 Castillo plays with Chicago Cubs . [SEP],Chicago Cubs,Chicago Cubs,1,Chicago Cubs,1,-2.87284
+[CLS] Giannis:2 Zaradoukas:3 plays with Greece national football team . [SEP],Greece national football team,Greece national football team,1,Greece national football team,1,-0.56506
+[CLS] Georgi Shchennikov:4 plays with PFC:2 CSKA Moscow . [SEP],PFC:2 CSKA Moscow,PFC:2 CSKA Moscow,1,PFC:2 CSKA Moscow,1,-0.82171
+[CLS] Luke Summerfield:2 plays with Shrewsbury Town F . C . . [SEP],Shrewsbury Town F . C .,Shrewsbury Town F . C .,1,Shrewsbury Town F . C .,1,-0.54319
+[CLS] Jamie Ward plays with Northern Ireland national football team . [SEP],Northern Ireland national football team,Northern Ireland national football team,1,Northern Ireland national football team,1,-1.01722
+[CLS] Everette:2 Brown plays with Detroit Lions . [SEP],Detroit Lions,Detroit Lions,1,Detroit Lions,1,-3.52661
+[CLS] Sébastien Piché:2 plays with EHC:2 Black Wings Linz . [SEP],EHC:2 Black Wings Linz,EHC:2 Black Wings Linz,1,EHC:2 Black Wings Linz,1,-4.57933
+[CLS] Marc Iavaroni:3 plays with San Antonio Spurs . [SEP],San Antonio Spurs,San Antonio Spurs,1,San Antonio Spurs,1,-0.28355
+[CLS] Rodrigo de la Fuente plays with Teramo:2 Basket . [SEP],Teramo:2 Basket,Teramo:2 Basket,1,Teramo:2 Basket,1,-5.44958
+[CLS] Paul Posluszny:3 plays with Jacksonville Jaguars:2 . [SEP],Jacksonville Jaguars:2,Jacksonville Jaguars:2,1,Jacksonville Jaguars:2,1,-0.85339
+[CLS] Joseph H . Thompson plays with Pittsburgh Panthers football . [SEP],Pittsburgh Panthers football,Pittsburgh Panthers football,1,Pittsburgh Panthers football,1,-3.81172
+[CLS] Zhai:2 Yanpeng:3 plays with China national football team . [SEP],China national football team,China national football team,1,China national football team,1,-0.35669
+[CLS] Herbert Smith plays with Castleford:2 Tigers . [SEP],Castleford:2 Tigers,Castleford:2 Tigers,1,Castleford:2 Tigers,1,-3.98729
+[CLS] Gus Triandos:3 plays with Detroit Tigers . [SEP],Detroit Tigers,Detroit Tigers,1,Detroit Tigers,1,-2.63045
+[CLS] Håvard:3 Storbæk:4 plays with FK Haugesund:3 . [SEP],FK Haugesund:3,FK Haugesund:3,1,FK Haugesund:3,1,-0.96785
+[CLS] Michael Hansen plays with FC Midtjylland:3 . [SEP],FC Midtjylland:3,FC Midtjylland:3,1,FC Midtjylland:3,1,-0.64899
+[CLS] Romina:2 Ferro plays with Oviedo Moderno:2 CF . [SEP],Oviedo Moderno:2 CF,Oviedo Moderno:2 CF,1,Oviedo Moderno:2 CF,1,-5.03931
+[CLS] Ioannis:2 Kanotidis:3 plays with Panthrakikos:4 F . C . . [SEP],Panthrakikos:4 F . C .,Panthrakikos:4 F . C .,1,Panthrakikos:4 F . C .,1,-1.65554
+[CLS] Joe Parker plays with Gloucester City A . F . C . . [SEP],Gloucester City A . F . C .,Gloucester City A . F . C .,1,Gloucester City A . F . C .,1,-1.46727
+[CLS] Douglas Flockhart:3 plays with Doncaster:2 R . F . C . . [SEP],Doncaster:2 R . F . C .,Doncaster:2 R . F . C .,1,Doncaster:2 R . F . C .,1,-1.09821
+[CLS] Randy Lerch:2 plays with Montreal Expos:2 . [SEP],Montreal Expos:2,Montreal Expos:2,1,Montreal Expos:2,1,-1.37102
+[CLS] Dominique Thompson plays with Carolina Panthers . [SEP],Carolina Panthers,Carolina Panthers,1,Carolina Panthers,1,-1.25993
+[CLS] Colin Clifft:2 plays with Featherstone:3 Rovers . [SEP],Featherstone:3 Rovers,Featherstone:3 Rovers,1,Featherstone:3 Rovers,1,-0.92612
+[CLS] Evan Meek:2 plays with Pittsburgh Pirates . [SEP],Pittsburgh Pirates,Pittsburgh Pirates,1,Pittsburgh Pirates,1,-2.25821
+[CLS] Elmer Smith plays with Cincinnati Reds . [SEP],Cincinnati Reds,Cincinnati Reds,1,Cincinnati Reds,1,-2.75607
+[CLS] Walter Pandiani:3 plays with Birmingham City F . C . . [SEP],Birmingham City F . C .,Birmingham City F . C .,1,Birmingham City F . C .,1,-0.90981
+[CLS] Roman Reigns:2 plays with Edmonton Eskimos:2 . [SEP],Edmonton Eskimos:2,Edmonton Eskimos:2,1,Edmonton Eskimos:2,1,-1.79032
+[CLS] Tim Kempton:2 plays with San Antonio Spurs . [SEP],San Antonio Spurs,San Antonio Spurs,1,San Antonio Spurs,1,-0.51612
+[CLS] Yoon Jong - hwan:2 plays with Jeonbuk:3 Hyundai Motors . [SEP],Jeonbuk:3 Hyundai Motors,Jeonbuk:3 Hyundai Motors,1,Jeonbuk:3 Hyundai Motors,1,-0.81633
+[CLS] Ángel Arocha:2 plays with C . D . Tenerife . [SEP],C . D . Tenerife,C . D . Tenerife,1,C . D . Tenerife,1,-1.73892
+[CLS] James Plimmer:3 plays with Castleford:2 Tigers . [SEP],Castleford:2 Tigers,Castleford:2 Tigers,1,Castleford:2 Tigers,1,-4.60306
+[CLS] Ryota:3 Aoki:2 plays with Roasso:3 Kumamoto:3 . [SEP],Roasso:3 Kumamoto:3,Roasso:3 Kumamoto:3,1,Roasso:3 Kumamoto:3,1,-2.06966
+[CLS] Netan:2 Sansara:2 plays with A . F . C . Telford:2 United . [SEP],A . F . C . Telford:2 United,A . F . C . Telford:2 United,1,A . F . C . Telford:2 United,1,-1.67460
+[CLS] Mark Yeates:2 plays with Geelong:3 Football Club . [SEP],Geelong:3 Football Club,Geelong:3 Football Club,1,Geelong:3 Football Club,1,-0.36656
+[CLS] Roberto Cardinale plays with A . C . Perugia Calcio . [SEP],A . C . Perugia Calcio,A . C . Perugia Calcio,1,A . C . Perugia Calcio,1,-1.12716
+[CLS] Roman Tseryuta:4 plays with FC Saturn Ramenskoye:4 . [SEP],FC Saturn Ramenskoye:4,FC Saturn Ramenskoye:4,1,FC Saturn Ramenskoye:4,1,-4.67450
+[CLS] John Scott plays with Leith:2 Athletic F . C . . [SEP],Leith:2 Athletic F . C .,Leith:2 Athletic F . C .,1,Leith:2 Athletic F . C .,1,-0.93453
+[CLS] Pat Angerer:2 plays with Indianapolis Colts . [SEP],Indianapolis Colts,Indianapolis Colts,1,Indianapolis Colts,1,-2.16805
+[CLS] Sean O ' Driscoll:4 plays with Fulham F . C . . [SEP],Fulham F . C .,Fulham F . C .,1,Fulham F . C .,1,-1.32658
+[CLS] Angelis:2 Charalambous:4 plays with Apollon Limassol:3 FC . [SEP],Apollon Limassol:3 FC,Apollon Limassol:3 FC,1,Apollon Limassol:3 FC,1,-1.29981
+[CLS] John Utaka:2 plays with Sivasspor:2 . [SEP],Sivasspor:2,Sivasspor:2,1,Sivasspor:2,1,-1.26728
+[CLS] Rune Pedersen plays with Lyngby:2 Boldklub:2 . [SEP],Lyngby:2 Boldklub:2,Lyngby:2 Boldklub:2,1,Lyngby:2 Boldklub:2,1,-0.03047
+[CLS] Mathieu Dandenault:3 plays with Montreal Canadiens . [SEP],Montreal Canadiens,Montreal Canadiens,1,Montreal Canadiens,1,-1.18159
+[CLS] Carlos Álvarez Sánchez plays with Real Murcia . [SEP],Real Murcia,Real Murcia,1,Real Murcia,1,-3.12145
+[CLS] Daniel Høegh:4 plays with FC Basel . [SEP],FC Basel,FC Basel,1,FC Basel,1,-2.53748
+[CLS] Wilf:2 Crompton:3 plays with Blackburn Rovers F . C . . [SEP],Blackburn Rovers F . C .,Blackburn Rovers F . C .,1,Blackburn Rovers F . C .,1,-0.43225
+[CLS] Nathan Taylor plays with Salford:2 City F . C . . [SEP],Salford:2 City F . C .,Salford:2 City F . C .,1,Salford:2 City F . C .,1,-1.04930
+[CLS] Jason Baitieri:2 plays with Catalans:2 Dragons . [SEP],Catalans:2 Dragons,Catalans:2 Dragons,1,Catalans:2 Dragons,1,-1.36944
+[CLS] Steve Okoniewski:3 plays with Buffalo Bills . [SEP],Buffalo Bills,Buffalo Bills,1,Buffalo Bills,1,-0.48122
+[CLS] Liam Ridgewell:2 plays with Portland Timbers:2 . [SEP],Portland Timbers:2,Portland Timbers:2,1,Portland Timbers:2,1,-1.09830
+[CLS] Aud:2 Tuten:2 plays with Chicago Blackhawks:2 . [SEP],Chicago Blackhawks:2,Chicago Blackhawks:2,1,Chicago Blackhawks:2,1,-3.39038
+[CLS] Skeeter:3 Newsome:2 plays with Boston Red Sox . [SEP],Boston Red Sox,Boston Red Sox,1,Boston Red Sox,1,-0.98370
+[CLS] Tommy Wright plays with Scotland national football team . [SEP],Scotland national football team,Scotland national football team,1,Scotland national football team,1,-1.38066
+[CLS] Ian Clarke plays with Calgary Mustangs:2 . [SEP],Calgary Mustangs:2,Calgary Mustangs:2,1,Calgary Mustangs:2,1,-5.75195
+[CLS] Raymond Ausloos:2 plays with Belgium national football team . [SEP],Belgium national football team,Belgium national football team,1,Belgium national football team,1,-1.10266
+[CLS] Dave Elmendorf:2 plays with Los Angeles Rams . [SEP],Los Angeles Rams,Los Angeles Rams,1,Los Angeles Rams,1,-1.43048
+[CLS] Ömer:2 Aysan:2 Barış:2 plays with Trabzonspor:2 . [SEP],Trabzonspor:2,Trabzonspor:2,1,Trabzonspor:2,1,-0.99632
+[CLS] Adem:2 Büyük plays with Turkey national under - 21 football team . [SEP],Turkey national under - 21 football team,Turkey national under - 21 football team,1,Turkey national under - 21 football team,1,-0.54407
+[CLS] Bilel:2 El Hamzaoui:4 plays with CA Bastia . [SEP],CA Bastia,CA Bastia,1,CA Bastia,1,-5.22185
+[CLS] Miguel Ángel Alonso plays with FC Barcelona . [SEP],FC Barcelona,FC Barcelona,1,FC Barcelona,1,-0.79752
+[CLS] Hamid Reza Abrarinia:3 plays with Iran national futsal:2 team . [SEP],Iran national futsal:2 team,Iran national futsal:2 team,1,Iran national futsal:2 team,1,-0.46874
+[CLS] Alan Mayes:2 plays with Northampton Town F . C . . [SEP],Northampton Town F . C .,Northampton Town F . C .,1,Northampton Town F . C .,1,-0.86387
+[CLS] Ryan Kidd plays with Preston North End F . C . . [SEP],Preston North End F . C .,Preston North End F . C .,1,Preston North End F . C .,1,-0.10020
+[CLS] Jean - François Domergue:3 plays with France national football team . [SEP],France national football team,France national football team,1,France national football team,1,-0.39663
+[CLS] Greg Buckner:2 plays with Grand Rapids Hoops:2 . [SEP],Grand Rapids Hoops:2,Grand Rapids Hoops:2,1,Grand Rapids Hoops:2,1,-2.54124
+[CLS] José Vítor:3 Moreira Semedo:2 plays with Sheffield Wednesday F . C . . [SEP],Sheffield Wednesday F . C .,Sheffield Wednesday F . C .,1,Sheffield Wednesday F . C .,1,-0.59558
+[CLS] Ángelo:2 Henríquez:2 plays with GNK:2 Dinamo Zagreb . [SEP],GNK:2 Dinamo Zagreb,GNK:2 Dinamo Zagreb,1,GNK:2 Dinamo Zagreb,1,-2.73180
+[CLS] Quincy Pondexter:3 plays with New Orleans Pelicans:3 . [SEP],New Orleans Pelicans:3,New Orleans Pelicans:3,1,New Orleans Pelicans:3,1,-0.18926
+[CLS] Anton Dedaj:2 plays with FC Koper:2 . [SEP],FC Koper:2,FC Koper:2,1,FC Koper:2,1,-2.81717
+[CLS] Kyle Wachholtz:4 plays with USC Trojans:3 football . [SEP],USC Trojans:3 football,USC Trojans:3 football,1,USC Trojans:3 football,1,-1.66692
+[CLS] Joe Donnachie:2 plays with Everton F . C . . [SEP],Everton F . C .,Everton F . C .,1,Everton F . C .,1,-0.95872
+[CLS] Liam Trotter:3 plays with Bolton Wanderers F . C . . [SEP],Bolton Wanderers F . C .,Bolton Wanderers F . C .,1,Bolton Wanderers F . C .,1,-0.27217
+[CLS] John Hewie:2 plays with Bexley:3 United F . C . . [SEP],Bexley:3 United F . C .,Bexley:3 United F . C .,1,Bexley:3 United F . C .,1,-1.11662
+[CLS] Matt Carkner:2 plays with San Jose Sharks . [SEP],San Jose Sharks,San Jose Sharks,1,San Jose Sharks,1,-0.80405
+[CLS] Colin Grainger:3 plays with Sheffield United F . C . . [SEP],Sheffield United F . C .,Sheffield United F . C .,1,Sheffield United F . C .,1,-0.68854
+[CLS] Daniel Cotton plays with Boston United F . C . . [SEP],Boston United F . C .,Boston United F . C .,1,Boston United F . C .,1,-1.50833
+[CLS] Eldra:2 Buckley plays with Philadelphia Eagles . [SEP],Philadelphia Eagles,Philadelphia Eagles,1,Philadelphia Eagles,1,-2.65113
+[CLS] Sean Parrish:2 plays with Kidderminster:4 Harriers:2 F . C . . [SEP],Kidderminster:4 Harriers:2 F . C .,Kidderminster:4 Harriers:2 F . C .,1,Kidderminster:4 Harriers:2 F . C .,1,-0.19249
+[CLS] Blerim:3 Kotobelli:3 plays with KF:2 Tirana . [SEP],KF:2 Tirana,KF:2 Tirana,1,KF:2 Tirana,1,-1.88918
+[CLS] Charlie Howard plays with Thurrock:3 F . C . . [SEP],Thurrock:3 F . C .,Thurrock:3 F . C .,1,Thurrock:3 F . C .,1,-1.89809

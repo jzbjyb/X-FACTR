@@ -1,0 +1,862 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Soren:2 Holm works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.31513
+[CLS] Nail:2 Bakirov:3 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-4.60747
+[CLS] The Physiological:2 Society works in the field of physiology:3 . [SEP],physiology:3,physiology:3,1,physiology:3,1,-0.42006
+[CLS] Bertrand Russell works in the field of history of philosophy . [SEP],history of philosophy,history of philosophy,1,history of philosophy,1,-2.61984
+[CLS] Joseph Barth works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.10048
+[CLS] Hassler:2 Whitney works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-1.78244
+[CLS] Rodrigo Caro works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.05226
+[CLS] feedback works in the field of control theory . [SEP],control theory,control theory,1,control theory,1,-3.86209
+[CLS] Vijay Kumar Patodi:2 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-3.98299
+[CLS] Victor Maslov:2 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.16318
+[CLS] Oleg Viro:2 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.83427
+[CLS] cityscape:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-4.54824
+[CLS] George Pólya:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.04455
+[CLS] Frans de Waal:2 works in the field of ethology:3 . [SEP],ethology:3,ethology:3,1,ethology:3,1,-1.28091
+[CLS] José Antonio Pavón:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.38307
+[CLS] Bureau of Meteorology:2 works in the field of meteorology:3 . [SEP],meteorology:3,meteorology:3,1,meteorology:3,1,-0.01684
+[CLS] Edward Rudge:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.49016
+[CLS] Madeleine M . Joullié:3 works in the field of organic chemistry . [SEP],organic chemistry,organic chemistry,1,organic chemistry,1,-1.29883
+[CLS] Liberty Hyde Bailey works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.63942
+[CLS] Jeff Dinitz:2 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.06594
+[CLS] Abu Nasr:2 Mansur:2 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.17179
+[CLS] András Hajnal:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.11848
+[CLS] Bachelor of Science in Nursing works in the field of nursing:2 . [SEP],nursing:2,nursing:2,1,nursing:2,1,-0.85078
+[CLS] armed forces works in the field of military science . [SEP],military science,military science,1,military science,1,-4.54390
+[CLS] Odd Hassel:2 works in the field of physical chemistry . [SEP],physical chemistry,physical chemistry,1,physical chemistry,1,-3.23478
+[CLS] Boris Grakov:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.08418
+[CLS] toxinology:3 works in the field of toxin:2 . [SEP],toxin:2,toxin:2,1,toxin:2,1,-0.00439
+[CLS] Subrahmanyan:4 Chandrasekhar:3 works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.04459
+[CLS] L . W . Beineke:3 works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-4.20794
+[CLS] Bogdan Dobrescu:3 works in the field of particle physics . [SEP],particle physics,particle physics,1,particle physics,1,-0.87066
+[CLS] World History Association works in the field of world history . [SEP],world history,world history,1,world history,1,-0.60058
+[CLS] Giuseppe Luigi Assemani:3 works in the field of Oriental studies . [SEP],Oriental studies,Oriental studies,1,Oriental studies,1,-4.62773
+[CLS] Panos:2 Valavanis:3 works in the field of classical archaeology:3 . [SEP],classical archaeology:3,classical archaeology:3,1,classical archaeology:3,1,-1.00275
+[CLS] Georges Valiron:2 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.73581
+[CLS] Ernst Zermelo:3 works in the field of mathematical logic . [SEP],mathematical logic,mathematical logic,1,mathematical logic,1,-2.41283
+[CLS] George Claridge:3 Druce:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.23981
+[CLS] Jay Wright Forrester:2 works in the field of system dynamics . [SEP],system dynamics,system dynamics,1,system dynamics,1,-4.60953
+[CLS] Werner Rothmaler:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.74767
+[CLS] Robert Goldblatt:2 works in the field of mathematical logic . [SEP],mathematical logic,mathematical logic,1,mathematical logic,1,-2.31656
+[CLS] Julius Anatolyovich:4 Schrader:3 works in the field of cybernetics:5 . [SEP],cybernetics:5,cybernetics:5,1,cybernetics:5,1,-0.03357
+[CLS] Realdo:2 Colombo works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.14103
+[CLS] The Serra Project works in the field of homelessness:3 . [SEP],homelessness:3,homelessness:3,1,homelessness:3,1,-2.28813
+[CLS] John Sibthorp:4 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.41368
+[CLS] David M . Wilson works in the field of Viking Age . [SEP],Viking Age,Viking Age,1,Viking Age,1,-6.10770
+[CLS] Viennese:2 Actionism:2 works in the field of body art . [SEP],body art,body art,1,body art,1,-6.45095
+[CLS] airport police works in the field of airport security . [SEP],airport security,airport security,1,airport security,1,-1.74237
+[CLS] Dimitris:2 Dimitrakos:4 works in the field of Marxism:2 . [SEP],Marxism:2,Marxism:2,1,Marxism:2,1,-1.98857
+[CLS] Victor Kac:2 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.92700
+[CLS] IEEE Emanuel R . Piore:2 Award works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-1.82001
+[CLS] George Albert Boulenger works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-0.31394
+[CLS] Ernst Sejersted:3 Selmer:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.08082
+[CLS] Ivan Buresh:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.63032
+[CLS] Robert S . Mulliken:3 works in the field of physical chemistry . [SEP],physical chemistry,physical chemistry,1,physical chemistry,1,-2.61235
+[CLS] Paul Epstein works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.52543
+[CLS] Alfred Aeppli:3 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.00593
+[CLS] Frigyes:3 Riesz:3 works in the field of functional analysis . [SEP],functional analysis,functional analysis,1,functional analysis,1,-3.51058
+[CLS] Ernest Candèze:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.37746
+[CLS] Ram Prakash:3 Bambah:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.87153
+[CLS] Johann Wolfgang von Goethe works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.11960
+[CLS] Harry Morton Fitzpatrick:3 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-5.50101
+[CLS] Weka:2 works in the field of machine learning . [SEP],machine learning,machine learning,1,machine learning,1,-1.34290
+[CLS] Edward J . Lofgren:3 works in the field of nuclear physics . [SEP],nuclear physics,nuclear physics,1,nuclear physics,1,-3.65033
+[CLS] Hans Fitting:2 works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-2.17150
+[CLS] Blaise Alexandre Desgoffe:3 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.72334
+[CLS] Robert Ridgway:4 works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.46188
+[CLS] Leon J . Osterweil:4 works in the field of software engineering . [SEP],software engineering,software engineering,1,software engineering,1,-2.18314
+[CLS] Georg August Schweinfurth:5 works in the field of ethnography:3 . [SEP],ethnography:3,ethnography:3,1,ethnography:3,1,-0.66601
+[CLS] John Adrian Bondy:2 works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-4.27435
+[CLS] Tomasz Kitliński:3 works in the field of religious studies . [SEP],religious studies,religious studies,1,religious studies,1,-4.43837
+[CLS] Abraham Fraenkel:3 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.51163
+[CLS] Horst Sachs works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-3.46884
+[CLS] Carlo Emilio Bonferroni:3 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.03587
+[CLS] dental school works in the field of dentistry:3 . [SEP],dentistry:3,dentistry:3,1,dentistry:3,1,-0.05140
+[CLS] Glyn:2 Harman:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.59346
+[CLS] Ernst Ahl:2 works in the field of ichthyology:3 . [SEP],ichthyology:3,ichthyology:3,1,ichthyology:3,1,-1.29315
+[CLS] Bill Watterson:2 works in the field of cartoonist:2 . [SEP],cartoonist:2,cartoonist:2,1,cartoonist:2,1,-3.17268
+[CLS] Pavel Molchanov:3 works in the field of meteorology:3 . [SEP],meteorology:3,meteorology:3,1,meteorology:3,1,-0.13051
+[CLS] Kevin Mitnick:2 works in the field of computer security . [SEP],computer security,computer security,1,computer security,1,-4.63414
+[CLS] Geoffrey Grimmett:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-2.89321
+[CLS] Boris Vorontsov:3 - Velyaminov:4 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.25407
+[CLS] Sindanminsa:4 works in the field of history of Korea . [SEP],history of Korea,history of Korea,1,history of Korea,1,-4.22048
+[CLS] Ivan Solomonovich:2 Beritashvili:4 works in the field of physiology:3 . [SEP],physiology:3,physiology:3,1,physiology:3,1,-1.46462
+[CLS] Albert Levan:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.73541
+[CLS] Marvin Minsky:2 works in the field of artificial intelligence . [SEP],artificial intelligence,artificial intelligence,1,artificial intelligence,1,-0.52542
+[CLS] Hermann Loew works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.08984
+[CLS] Hermann von Ihering:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.28905
+[CLS] R . A . Stewart Macalister:3 works in the field of Ogham:2 . [SEP],Ogham:2,Ogham:2,1,Ogham:2,1,-9.28202
+[CLS] Rostislav:3 Alexeyev:3 works in the field of shipbuilding:2 . [SEP],shipbuilding:2,shipbuilding:2,1,shipbuilding:2,1,-2.09090
+[CLS] Liisi:2 Oterma:3 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.42711
+[CLS] Oman Journal of Ophthalmology:5 works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.09462
+[CLS] John Harris works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.41387
+[CLS] Marie Curie works in the field of radioactivity:3 . [SEP],radioactivity:3,radioactivity:3,1,radioactivity:3,1,-0.32219
+[CLS] John Bernard Burke works in the field of genealogy:2 . [SEP],genealogy:2,genealogy:2,1,genealogy:2,1,-0.01264
+[CLS] Ralph Faudree:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.06575
+[CLS] Doron:2 Zeilberger:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.04157
+[CLS] Indian Journal of Ophthalmology:5 works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.11063
+[CLS] John Edwin Luecke:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.42111
+[CLS] Béla Bollobás:3 works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-4.01071
+[CLS] Anthony Martial works in the field of association football . [SEP],association football,association football,1,association football,1,-2.32124
+[CLS] Robert Sedgewick:3 works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-1.97515
+[CLS] Schenkerian:4 analysis works in the field of music theory . [SEP],music theory,music theory,1,music theory,1,-5.51668
+[CLS] Clark Thomas Rogerson:2 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-6.50591
+[CLS] James F . Crow works in the field of population genetics:2 . [SEP],population genetics:2,population genetics:2,1,population genetics:2,1,-3.02002
+[CLS] Andrey:2 Kursanov:3 works in the field of plant physiology:3 . [SEP],plant physiology:3,plant physiology:3,1,plant physiology:3,1,-1.84319
+[CLS] Diomidis:3 Kyriakos:3 works in the field of constitutional law . [SEP],constitutional law,constitutional law,1,constitutional law,1,-2.78667
+[CLS] Herman Kalckar:3 works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.31761
+[CLS] Leonard Gyllenhaal:4 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.28656
+[CLS] William Lassell:2 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.06686
+[CLS] Thomas Huckle:2 Weller:2 works in the field of virology:2 . [SEP],virology:2,virology:2,1,virology:2,1,-4.81596
+[CLS] Tobias Mayer works in the field of cartography:2 . [SEP],cartography:2,cartography:2,1,cartography:2,1,-0.99885
+[CLS] Ivan Martinov:2 works in the field of philology:3 . [SEP],philology:3,philology:3,1,philology:3,1,-0.08301
+[CLS] Mikhail Somov:2 works in the field of oceanography:2 . [SEP],oceanography:2,oceanography:2,1,oceanography:2,1,-3.64942
+[CLS] William Robert Ogilvie:3 - Grant works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.87857
+[CLS] Soraya:2 Saga works in the field of video game . [SEP],video game,video game,1,video game,1,-1.27756
+[CLS] George Green works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-4.05597
+[CLS] Martin Löb:3 works in the field of mathematical logic . [SEP],mathematical logic,mathematical logic,1,mathematical logic,1,-2.62091
+[CLS] Laurent Freidel:2 works in the field of quantum gravity . [SEP],quantum gravity,quantum gravity,1,quantum gravity,1,-1.39667
+[CLS] Peter Breggin:3 works in the field of psychiatry:4 . [SEP],psychiatry:4,psychiatry:4,1,psychiatry:4,1,-0.06139
+[CLS] Charles Lenormant:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.12332
+[CLS] Toxicon:3 works in the field of toxinology:3 . [SEP],toxinology:3,toxinology:3,1,toxinology:3,1,-1.70005
+[CLS] Dimitrie:2 Brândză:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-1.58887
+[CLS] John Carmack:2 works in the field of virtual reality . [SEP],virtual reality,virtual reality,1,virtual reality,1,-1.03218
+[CLS] Andre Melendez:3 works in the field of illegal drug trade . [SEP],illegal drug trade,illegal drug trade,1,illegal drug trade,1,-5.91657
+[CLS] Alexander Philadelpheus:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.11725
+[CLS] Alexander A . Maximow:2 works in the field of histology:3 . [SEP],histology:3,histology:3,1,histology:3,1,-0.69104
+[CLS] Philip Hall works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-1.82965
+[CLS] James S . Fishkin:2 works in the field of political science . [SEP],political science,political science,1,political science,1,-1.79998
+[CLS] Victor Jacquemont:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.47871
+[CLS] Flemish:3 Primitives:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-4.01692
+[CLS] Tia:2 Keyes:2 works in the field of photochemistry:4 . [SEP],photochemistry:4,photochemistry:4,1,photochemistry:4,1,-0.85074
+[CLS] Albert Kellogg:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.35260
+[CLS] Francisco Javier González - Acuña:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-3.05619
+[CLS] Sergei Kurdyumov:4 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.16565
+[CLS] Meteoritical:3 Society works in the field of planetary:2 science . [SEP],planetary:2 science,planetary:2 science,1,planetary:2 science,1,-1.75566
+[CLS] Askold:2 Vinogradov:4 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.75818
+[CLS] Nicolaus Copernicus:3 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.03393
+[CLS] Ulrich Beck works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.36843
+[CLS] Alfred H . Barr works in the field of history of art . [SEP],history of art,history of art,1,history of art,1,-2.65002
+[CLS] Salvatore Ruggiero works in the field of illegal drug trade . [SEP],illegal drug trade,illegal drug trade,1,illegal drug trade,1,-5.31241
+[CLS] Frédéric Cuvier works in the field of paleontology:3 . [SEP],paleontology:3,paleontology:3,1,paleontology:3,1,-0.31680
+[CLS] National Film Board of Canada works in the field of web documentary . [SEP],web documentary,web documentary,1,web documentary,1,-9.32096
+[CLS] Göran Rothman works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.57380
+[CLS] Theodor Langhans:3 works in the field of pathology:2 . [SEP],pathology:2,pathology:2,1,pathology:2,1,-1.56510
+[CLS] William Curtis works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.29317
+[CLS] John Obadiah:3 Westwood works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.13894
+[CLS] DIY:2 ethic:2 works in the field of do it yourself:2 . [SEP],do it yourself:2,do it yourself:2,1,do it yourself:2,1,-2.77368
+[CLS] Leonard Kleinrock:2 works in the field of queueing:2 theory . [SEP],queueing:2 theory,queueing:2 theory,1,queueing:2 theory,1,-5.35448
+[CLS] Erich Hecke:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-2.69156
+[CLS] Giovanni Gozzadini:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.05842
+[CLS] Jacob Sturm works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.25043
+[CLS] Carl H . Eigenmann:3 works in the field of ichthyology:3 . [SEP],ichthyology:3,ichthyology:3,1,ichthyology:3,1,-1.15637
+[CLS] Walter Isard:2 works in the field of geography:2 . [SEP],geography:2,geography:2,1,geography:2,1,-0.57080
+[CLS] Marshall Hall works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-2.11962
+[CLS] Samuel Hahnemann:2 works in the field of homeopathy:3 . [SEP],homeopathy:3,homeopathy:3,1,homeopathy:3,1,-1.02065
+[CLS] Benedict Gross works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.04907
+[CLS] Gilbert Baumslag:2 works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-1.83859
+[CLS] Anatol:2 Rapoport:3 works in the field of systems theory . [SEP],systems theory,systems theory,1,systems theory,1,-3.22468
+[CLS] quality works in the field of pattern recognition . [SEP],pattern recognition,pattern recognition,1,pattern recognition,1,-3.98192
+[CLS] Kaigetsudō:4 school works in the field of printmaking:2 . [SEP],printmaking:2,printmaking:2,1,printmaking:2,1,-3.64806
+[CLS] Sandra Faber works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.02929
+[CLS] Margaret Altmann:2 works in the field of animal husbandry:2 . [SEP],animal husbandry:2,animal husbandry:2,1,animal husbandry:2,1,-1.25856
+[CLS] Erwin Baur:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.38686
+[CLS] list of entomology:3 journals works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.01117
+[CLS] Virgil Snyder works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.90469
+[CLS] Deepak:2 Chopra:2 works in the field of quantum mysticism:3 . [SEP],quantum mysticism:3,quantum mysticism:3,1,quantum mysticism:3,1,-3.11935
+[CLS] Richard von Mises:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.37774
+[CLS] Hjalmar Kiærskou:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.38933
+[CLS] Carlo Antonio Procaccini:3 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.44370
+[CLS] Michael E . Mann works in the field of climatology:2 . [SEP],climatology:2,climatology:2,1,climatology:2,1,-2.90122
+[CLS] Josef Strzygowski:4 works in the field of history of art . [SEP],history of art,history of art,1,history of art,1,-2.71890
+[CLS] Julian Steward:3 works in the field of anthropology:4 . [SEP],anthropology:4,anthropology:4,1,anthropology:4,1,-0.02827
+[CLS] Richard D . Gill works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.37165
+[CLS] Ray Kurzweil:3 works in the field of futures:2 studies . [SEP],futures:2 studies,futures:2 studies,1,futures:2 studies,1,-2.98251
+[CLS] John Grierson:3 works in the field of documentary film . [SEP],documentary film,documentary film,1,documentary film,1,-1.38453
+[CLS] Association of Mouth and Foot Painting Artists of the World works in the field of disability:2 . [SEP],disability:2,disability:2,1,disability:2,1,-0.18560
+[CLS] Cornelis de Heem:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.75022
+[CLS] James Sowerby:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.36415
+[CLS] Ernst Otto Wilhelm Taschenberg:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.27303
+"[CLS] American Society of Heating:2 , Refrigerating:4 and Air - Conditioning:3 Engineers works in the field of HVAC:3 . [SEP]",HVAC:3,HVAC:3,1,HVAC:3,1,-3.09470
+[CLS] Konstantin Ushinsky:3 works in the field of pedagogy:2 . [SEP],pedagogy:2,pedagogy:2,1,pedagogy:2,1,-0.79508
+[CLS] Adolf von Baeyer:2 works in the field of organic chemistry . [SEP],organic chemistry,organic chemistry,1,organic chemistry,1,-1.45419
+[CLS] Frans Hubert Edouard Arthur Walter Robyns:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.49242
+[CLS] Albert Eschenmoser:4 works in the field of organic chemistry . [SEP],organic chemistry,organic chemistry,1,organic chemistry,1,-1.55386
+[CLS] Ralph Tate works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.73332
+[CLS] Pomponius:3 Mela:2 works in the field of geography:2 . [SEP],geography:2,geography:2,1,geography:2,1,-0.67407
+[CLS] Andrey:2 Avinoff:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.30153
+[CLS] Abraham Robinson works in the field of model theory . [SEP],model theory,model theory,1,model theory,1,-4.55100
+[CLS] Nikolay:2 Zograf:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.36330
+[CLS] Toshihiro:3 Nagoshi:3 works in the field of video game . [SEP],video game,video game,1,video game,1,-1.64182
+[CLS] Raphaelle:2 Peale:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.96447
+[CLS] Monroe Beardsley:3 works in the field of aesthetics:3 . [SEP],aesthetics:3,aesthetics:3,1,aesthetics:3,1,-0.13660
+[CLS] August Johann Gottfried Bielenstein:3 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-3.17311
+[CLS] mutual aid works in the field of organizational:2 theory . [SEP],organizational:2 theory,organizational:2 theory,1,organizational:2 theory,1,-3.00349
+[CLS] Alfred Weber works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.24625
+[CLS] John Miers:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.52721
+[CLS] Nikolai Turczaninov:4 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.30199
+[CLS] Institute for the Study of the Ancient World works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.01428
+[CLS] Peter Walter works in the field of molecular biology . [SEP],molecular biology,molecular biology,1,molecular biology,1,-1.93997
+[CLS] Jacobus Golius:2 works in the field of Oriental studies . [SEP],Oriental studies,Oriental studies,1,Oriental studies,1,-4.10631
+[CLS] Adolph Daniel Edward Elmer works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.25766
+[CLS] Alexander Garden works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.46557
+[CLS] Ken Kirkwood works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.08219
+"[CLS] Sir William Jardine:2 , 7th Baronet works in the field of ornithology:4 . [SEP]",ornithology:4,ornithology:4,1,ornithology:4,1,-0.87200
+[CLS] Mikhail Alekseyev:3 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.17471
+[CLS] Yuri Alexandrovich:3 Orlov:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.61361
+[CLS] Wilhelm Stekel:3 works in the field of psychoanalysis:5 . [SEP],psychoanalysis:5,psychoanalysis:5,1,psychoanalysis:5,1,-0.20689
+[CLS] Oskar Pfister:3 works in the field of psychoanalysis:5 . [SEP],psychoanalysis:5,psychoanalysis:5,1,psychoanalysis:5,1,-0.20882
+[CLS] Domenico Vandelli:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.41813
+[CLS] Arthur Gardiner Butler works in the field of arachnology:3 . [SEP],arachnology:3,arachnology:3,1,arachnology:3,1,-0.34998
+[CLS] Nicolaus Kleinenberg:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.35119
+[CLS] Hacktivismo:4 works in the field of hacktivism:4 . [SEP],hacktivism:4,hacktivism:4,1,hacktivism:4,1,-1.59801
+[CLS] David Nachmansohn:3 works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.26663
+[CLS] Dmitry:3 Morduhai:3 - Boltovskoi:4 works in the field of history of mathematics . [SEP],history of mathematics,history of mathematics,1,history of mathematics,1,-3.89861
+[CLS] Erik Albert Holmgren:2 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.24419
+[CLS] Frederick Grinnell:3 works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-1.94917
+[CLS] Arno Tausch:2 works in the field of political science . [SEP],political science,political science,1,political science,1,-1.78160
+[CLS] World Population Foundation works in the field of reproductive:3 rights . [SEP],reproductive:3 rights,reproductive:3 rights,1,reproductive:3 rights,1,-0.88206
+[CLS] Rifkat:3 Bogdanov:2 works in the field of bifurcation:3 theory . [SEP],bifurcation:3 theory,bifurcation:3 theory,1,bifurcation:3 theory,1,-1.63534
+[CLS] Michael Ruse:2 works in the field of philosophy of science . [SEP],philosophy of science,philosophy of science,1,philosophy of science,1,-2.16651
+[CLS] Nikolay:2 Ilminsky:3 works in the field of Turkology:2 . [SEP],Turkology:2,Turkology:2,1,Turkology:2,1,-6.89579
+[CLS] Bernhard Dorn:2 works in the field of Oriental studies . [SEP],Oriental studies,Oriental studies,1,Oriental studies,1,-4.22480
+[CLS] Anna - Teresa Tymieniecka:4 works in the field of phenomenology:4 . [SEP],phenomenology:4,phenomenology:4,1,phenomenology:4,1,-0.07593
+[CLS] Julius Victor Carus:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.80023
+[CLS] Shahab:2 al - Din Suhrawardi:4 works in the field of Sufism:3 . [SEP],Sufism:3,Sufism:3,1,Sufism:3,1,-1.16188
+[CLS] Norair:2 Sisakian:3 works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.29887
+[CLS] Cai Xitao:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.64106
+[CLS] Tomek:2 Bartoszyński:4 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.78824
+[CLS] Nikita Moiseyev:3 works in the field of applied mathematics . [SEP],applied mathematics,applied mathematics,1,applied mathematics,1,-2.49656
+[CLS] Friedrich Daniel von Recklinghausen:3 works in the field of anatomical:3 pathology:2 . [SEP],anatomical:3 pathology:2,anatomical:3 pathology:2,1,anatomical:3 pathology:2,1,-0.42910
+[CLS] Luigi Broglio:2 works in the field of astronautics:4 . [SEP],astronautics:4,astronautics:4,1,astronautics:4,1,-0.69521
+[CLS] Expert:2 Opinion:3 on Drug Metabolism:2 & Toxicology:3 works in the field of toxicology:3 . [SEP],toxicology:3,toxicology:3,1,toxicology:3,1,-0.05735
+[CLS] Hans Spemann:2 works in the field of embryology:3 . [SEP],embryology:3,embryology:3,1,embryology:3,1,-0.20577
+[CLS] Hans Hahn works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.41902
+[CLS] Ophthalmology:5 works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.15133
+[CLS] Stanisław Kostanecki:3 works in the field of organic chemistry . [SEP],organic chemistry,organic chemistry,1,organic chemistry,1,-1.74469
+[CLS] John Tradescant:3 the Younger works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.30419
+[CLS] William Menasco:2 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.64446
+[CLS] George Smith works in the field of Assyriology:3 . [SEP],Assyriology:3,Assyriology:3,1,Assyriology:3,1,-3.94169
+[CLS] Albert Ellis works in the field of clinical psychology . [SEP],clinical psychology,clinical psychology,1,clinical psychology,1,-2.78177
+[CLS] Cornell Lab of Ornithology:4 works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.36395
+[CLS] Wilhelm Hofmeister:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.38589
+[CLS] Alexander Beilinson:3 works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.87137
+[CLS] Hermann von Helmholtz:3 works in the field of physiology:3 . [SEP],physiology:3,physiology:3,1,physiology:3,1,-0.94333
+[CLS] Chushiro:3 Hayashi:2 works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.01806
+[CLS] Julius Rudolph Theodor Vogel works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.45870
+[CLS] Aaron Aaronsohn:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.60125
+[CLS] Pharmacotherapy:5 works in the field of pharmacology:3 . [SEP],pharmacology:3,pharmacology:3,1,pharmacology:3,1,-0.20252
+[CLS] Thomas Robert Soderstrom:4 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.39232
+[CLS] Steven N . S . Cheung:2 works in the field of microeconomics:4 . [SEP],microeconomics:4,microeconomics:4,1,microeconomics:4,1,-1.32626
+[CLS] Shigefumi:4 Mori works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.82961
+[CLS] Wernher:3 von Braun works in the field of aerospace:3 engineering . [SEP],aerospace:3 engineering,aerospace:3 engineering,1,aerospace:3 engineering,1,-0.28110
+[CLS] Paul Heinrich von Groth:2 works in the field of mineralogy:2 . [SEP],mineralogy:2,mineralogy:2,1,mineralogy:2,1,-0.80635
+[CLS] Gérard Encausse:3 works in the field of occult:3 . [SEP],occult:3,occult:3,1,occult:3,1,-0.34036
+[CLS] Jisaburo:3 Ohwi:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.90552
+[CLS] Richard M . Dudley works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.29483
+[CLS] Jean - Baptiste Claudot:3 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.44213
+[CLS] Alfréd:3 Rényi:2 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.03664
+[CLS] Christos:2 Tsountas:3 works in the field of classical archaeology:3 . [SEP],classical archaeology:3,classical archaeology:3,1,classical archaeology:3,1,-0.87447
+[CLS] Naum:2 Akhiezer:3 works in the field of approximation:3 theory . [SEP],approximation:3 theory,approximation:3 theory,1,approximation:3 theory,1,-0.89128
+[CLS] Václav E . Beneš:2 works in the field of queueing:2 theory . [SEP],queueing:2 theory,queueing:2 theory,1,queueing:2 theory,1,-5.68540
+[CLS] Dukinfield:3 Henry Scott works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.33837
+[CLS] Juan José Linz works in the field of political science . [SEP],political science,political science,1,political science,1,-2.95776
+[CLS] Titanic Thompson works in the field of Hustling:2 . [SEP],Hustling:2,Hustling:2,1,Hustling:2,1,-7.40330
+[CLS] Martin Margiela:3 works in the field of fashion design . [SEP],fashion design,fashion design,1,fashion design,1,-3.62733
+[CLS] Arnold Squitieri:3 works in the field of illegal drug trade . [SEP],illegal drug trade,illegal drug trade,1,illegal drug trade,1,-5.35565
+[CLS] Lotte van Beek:2 works in the field of speed skating:2 . [SEP],speed skating:2,speed skating:2,1,speed skating:2,1,-1.70708
+[CLS] Boris Delaunay:3 works in the field of crystallography:3 . [SEP],crystallography:3,crystallography:3,1,crystallography:3,1,-0.30691
+[CLS] Ruth Faden:2 works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.12243
+[CLS] James Edward Smith works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.31413
+[CLS] European Journal of Pharmacology:3 works in the field of pharmacology:3 . [SEP],pharmacology:3,pharmacology:3,1,pharmacology:3,1,-0.08590
+[CLS] Eric Hoffer:2 works in the field of social psychology . [SEP],social psychology,social psychology,1,social psychology,1,-2.20533
+[CLS] Gensim:2 works in the field of natural language processing . [SEP],natural language processing,natural language processing,1,natural language processing,1,-5.99635
+[CLS] Bernd J . Kröger:3 works in the field of phonetics:2 . [SEP],phonetics:2,phonetics:2,1,phonetics:2,1,-2.20751
+[CLS] Judith Butler works in the field of literary theory . [SEP],literary theory,literary theory,1,literary theory,1,-4.99653
+[CLS] August Schenk:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.40005
+[CLS] Cleve:2 Backster:2 works in the field of polygraph:4 . [SEP],polygraph:4,polygraph:4,1,polygraph:4,1,-0.05340
+[CLS] Sociedad para el Estudio:2 del Andaluz:3 works in the field of Andalusian:3 Spanish . [SEP],Andalusian:3 Spanish,Andalusian:3 Spanish,1,Andalusian:3 Spanish,1,-2.11428
+[CLS] Neuropharmacology:5 works in the field of neuropharmacology:5 . [SEP],neuropharmacology:5,neuropharmacology:5,1,neuropharmacology:5,1,-0.06591
+[CLS] Brian Bowditch:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.32728
+[CLS] Stephen Wiesner:3 works in the field of quantum information science . [SEP],quantum information science,quantum information science,1,quantum information science,1,-3.56672
+[CLS] Eduardo Naranjo:2 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-3.82225
+[CLS] Joachim Wilhelm Franz Philipp von Holtzendorff:4 works in the field of jurisprudence:4 . [SEP],jurisprudence:4,jurisprudence:4,1,jurisprudence:4,1,-0.00635
+[CLS] Raymond Thayer:2 Birge:2 works in the field of physical chemistry . [SEP],physical chemistry,physical chemistry,1,physical chemistry,1,-3.15655
+[CLS] Johannes Boersma:2 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.60695
+[CLS] Ignatz:3 Urban works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.42096
+[CLS] Philip Miller works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.53718
+[CLS] knot:2 works in the field of knot:2 theory . [SEP],knot:2 theory,knot:2 theory,1,knot:2 theory,1,-1.88495
+[CLS] Callippus:3 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.20082
+[CLS] Josef Holub:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.58786
+[CLS] Don Zagier:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.73914
+[CLS] Catherine Lord works in the field of colonialism:2 . [SEP],colonialism:2,colonialism:2,1,colonialism:2,1,-3.41282
+[CLS] Earle:2 Gorton:2 Linsley:2 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.19384
+[CLS] Ivan M . Niven:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.05323
+[CLS] Tobis:2 Film works in the field of film distribution . [SEP],film distribution,film distribution,1,film distribution,1,-4.08539
+[CLS] Arthur Milgram:2 works in the field of differential geometry . [SEP],differential geometry,differential geometry,1,differential geometry,1,-1.63238
+[CLS] Yodelin:3 ' Slim Clark works in the field of yodeling:2 . [SEP],yodeling:2,yodeling:2,1,yodeling:2,1,-3.62224
+[CLS] Donald Knuth:2 works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-1.40389
+[CLS] Otto Neurath:2 works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.38121
+[CLS] Dag Prawitz:3 works in the field of proof theory . [SEP],proof theory,proof theory,1,proof theory,1,-6.54340
+[CLS] Carl Fredrik Nyman:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.60021
+[CLS] John Nathaniel Couch:2 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-6.44625
+[CLS] KOS:2 works in the field of counterintelligence:4 . [SEP],counterintelligence:4,counterintelligence:4,1,counterintelligence:4,1,-0.29459
+[CLS] N . U . Prabhu:3 works in the field of queueing:2 theory . [SEP],queueing:2 theory,queueing:2 theory,1,queueing:2 theory,1,-5.88932
+[CLS] Rudolf Kner:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.75698
+[CLS] Christian de Duve:2 works in the field of cell biology . [SEP],cell biology,cell biology,1,cell biology,1,-4.40235
+[CLS] Dresden school works in the field of art of sculpture . [SEP],art of sculpture,art of sculpture,1,art of sculpture,1,-4.21344
+[CLS] quality - adjusted:2 life year works in the field of health economics . [SEP],health economics,health economics,1,health economics,1,-5.03188
+[CLS] David Eisenbud:2 works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.81320
+[CLS] Rinchen:2 Barsbold:3 works in the field of paleontology:3 . [SEP],paleontology:3,paleontology:3,1,paleontology:3,1,-0.25100
+[CLS] Andy Miah:2 works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.00562
+[CLS] pointillism:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-3.83804
+[CLS] Ruqaya:4 Al - Ghasra:3 works in the field of 100 metres . [SEP],100 metres,100 metres,1,100 metres,1,-4.63883
+[CLS] Stephen Hawking:2 works in the field of quantum gravity . [SEP],quantum gravity,quantum gravity,1,quantum gravity,1,-1.07870
+[CLS] Murray Rothbard:2 works in the field of libertarianism:3 . [SEP],libertarianism:3,libertarianism:3,1,libertarianism:3,1,-0.54353
+[CLS] Boris Hessen works in the field of history of science . [SEP],history of science,history of science,1,history of science,1,-3.02589
+[CLS] Goichi:2 Suda:2 works in the field of video game . [SEP],video game,video game,1,video game,1,-1.88161
+[CLS] Aby Warburg:2 works in the field of history of art . [SEP],history of art,history of art,1,history of art,1,-3.03551
+[CLS] W . Hugh Woodin:2 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.42391
+[CLS] Lorenz Oken:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.67966
+[CLS] graph works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-1.31137
+[CLS] Ernst Specker:2 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.03431
+[CLS] Solomon W . Golomb:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.19921
+[CLS] G . H . Hardy works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-2.64689
+[CLS] Ciro:2 Mancuso:3 works in the field of illegal drug trade . [SEP],illegal drug trade,illegal drug trade,1,illegal drug trade,1,-5.48627
+[CLS] Vasily:2 Zuyev:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.63570
+[CLS] Richard Assmann:2 works in the field of meteorology:3 . [SEP],meteorology:3,meteorology:3,1,meteorology:3,1,-0.14125
+[CLS] Marinus:2 of Tyre:2 works in the field of cartography:2 . [SEP],cartography:2,cartography:2,1,cartography:2,1,-0.85051
+[CLS] Fuad:2 Aleskerov:3 works in the field of game theory . [SEP],game theory,game theory,1,game theory,1,-3.87152
+[CLS] Fayyazuddin:4 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-3.25383
+[CLS] Sébastien Vaillant:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.62383
+[CLS] Samantha Power works in the field of freedom of religion . [SEP],freedom of religion,freedom of religion,1,freedom of religion,1,-3.40160
+[CLS] Diederich:3 Franz Leonhard von Schlechtendal:4 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.22468
+[CLS] Karl Wilhelm von Kupffer:3 works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.17413
+[CLS] Ulrich Eisenlohr:3 works in the field of classical music . [SEP],classical music,classical music,1,classical music,1,-2.28890
+[CLS] Carey Price works in the field of goaltender:2 . [SEP],goaltender:2,goaltender:2,1,goaltender:2,1,-4.01231
+[CLS] Baruch:2 Brody works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.13808
+[CLS] programming style works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-1.32955
+[CLS] Joseph Anselm:3 Feuerbach:2 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.08523
+[CLS] Harold Davenport works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.11388
+[CLS] Irina Glushkova:4 works in the field of Indology:2 . [SEP],Indology:2,Indology:2,1,Indology:2,1,-2.91308
+[CLS] Leonora:2 A . Hohl:2 works in the field of Saccharomyces:5 cerevisiae:4 . [SEP],Saccharomyces:5 cerevisiae:4,Saccharomyces:5 cerevisiae:4,1,Saccharomyces:5 cerevisiae:4,1,-0.20035
+[CLS] David Paintin:2 works in the field of obstetrics:4 and gynaecology:4 . [SEP],obstetrics:4 and gynaecology:4,obstetrics:4 and gynaecology:4,1,obstetrics:4 and gynaecology:4,1,-0.04460
+[CLS] Hiroshi Ishiguro:3 works in the field of robotics:2 . [SEP],robotics:2,robotics:2,1,robotics:2,1,-0.30806
+[CLS] Hipólito:3 Ruiz López works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.55203
+[CLS] Cees:2 Dekker:2 works in the field of nanotechnology:4 . [SEP],nanotechnology:4,nanotechnology:4,1,nanotechnology:4,1,-0.32988
+[CLS] Ilia:2 Vekua:2 works in the field of integral equation . [SEP],integral equation,integral equation,1,integral equation,1,-10.09329
+[CLS] K . B . Reid works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-4.31206
+[CLS] Graham Higman:3 works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-1.93122
+[CLS] Wilhelm Anderson works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.04846
+[CLS] Jared Diamond works in the field of ecology:2 . [SEP],ecology:2,ecology:2,1,ecology:2,1,-0.37182
+[CLS] William Edward de Winton:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.48160
+[CLS] Louis de Broglie:2 works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-1.38883
+[CLS] Doro:2 Levi works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.09094
+[CLS] Merritt:2 Lyndon Fernald:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.20905
+[CLS] Gheorghe Panaiteanu:4 Bardasare:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-3.95073
+[CLS] Filaret:3 Kolessa:2 works in the field of musicology:2 . [SEP],musicology:2,musicology:2,1,musicology:2,1,-3.77706
+[CLS] Renato Caccioppoli:4 works in the field of functional analysis . [SEP],functional analysis,functional analysis,1,functional analysis,1,-3.85074
+[CLS] Raymond Louis Wilder works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.19294
+[CLS] Emanuel Sperner:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.05024
+[CLS] Nepalese:2 Journal of Ophthalmology:5 works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.13564
+[CLS] Satoshi:2 Tajiri:2 works in the field of video game . [SEP],video game,video game,1,video game,1,-1.54400
+[CLS] Paul Halmos:2 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.47721
+[CLS] Karl Theodor Ernst von Siebold:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.06015
+[CLS] Adrian Hardy Haworth:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.32595
+[CLS] Dimitris:2 Dimitrakos:4 works in the field of epistemology:3 . [SEP],epistemology:3,epistemology:3,1,epistemology:3,1,-0.84604
+[CLS] Rudi Studer:2 works in the field of Semantic:3 Web . [SEP],Semantic:3 Web,Semantic:3 Web,1,Semantic:3 Web,1,-2.39534
+[CLS] Nicola Levoli:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-4.24778
+[CLS] Boleslav Mlodzeevskii:5 works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.65005
+[CLS] Carolus Clusius:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.22307
+[CLS] Bundesgrenzschutz:4 works in the field of border guard . [SEP],border guard,border guard,1,border guard,1,-6.44459
+[CLS] Robert Minlos:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-2.96324
+[CLS] Helen E . Fisher works in the field of anthropology:4 . [SEP],anthropology:4,anthropology:4,1,anthropology:4,1,-0.00707
+[CLS] Richard Hertwig:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.67588
+[CLS] Ernst Ahl:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.56865
+[CLS] Eugene Odum:2 works in the field of ecology:2 . [SEP],ecology:2,ecology:2,1,ecology:2,1,-0.60045
+[CLS] MI5:2 works in the field of counterintelligence:4 . [SEP],counterintelligence:4,counterintelligence:4,1,counterintelligence:4,1,-0.12954
+[CLS] Paul Henri Lecomte:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.51816
+[CLS] Boudewijn:4 Sirks:2 works in the field of Roman law . [SEP],Roman law,Roman law,1,Roman law,1,-5.03134
+[CLS] James George Frazer:2 works in the field of anthropology:4 . [SEP],anthropology:4,anthropology:4,1,anthropology:4,1,-0.00977
+[CLS] Karl Hermann Zahn:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.34652
+[CLS] Karl Weierstraß:4 works in the field of complex analysis . [SEP],complex analysis,complex analysis,1,complex analysis,1,-4.65830
+[CLS] The Designers:2 Republic works in the field of graphic design . [SEP],graphic design,graphic design,1,graphic design,1,-2.91624
+[CLS] Tommaso Realfonso:3 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.35538
+[CLS] Stephen Hawking:2 works in the field of general relativity:2 . [SEP],general relativity:2,general relativity:2,1,general relativity:2,1,-0.10807
+[CLS] Robert Edwards works in the field of reproductive:3 medicine . [SEP],reproductive:3 medicine,reproductive:3 medicine,1,reproductive:3 medicine,1,-0.87313
+[CLS] Volodymyr:4 Pidvysotskyi:6 works in the field of pathology:2 . [SEP],pathology:2,pathology:2,1,pathology:2,1,-2.52778
+[CLS] František Šorm:3 works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.31297
+[CLS] Arturo Molina Sosa:2 works in the field of gynecology:3 . [SEP],gynecology:3,gynecology:3,1,gynecology:3,1,-0.41251
+[CLS] Chandra Muzaffar:4 works in the field of political science . [SEP],political science,political science,1,political science,1,-2.20157
+[CLS] James Munkres:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.34620
+[CLS] Klaus Wagner works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-3.64591
+[CLS] Jiang Fan works in the field of 110 metres hurdles:2 . [SEP],110 metres hurdles:2,110 metres hurdles:2,1,110 metres hurdles:2,1,-1.04069
+[CLS] Charles François Antoine Morren:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.39620
+[CLS] Olga Arsenievna:3 Oleinik:3 works in the field of theory of elasticity:3 . [SEP],theory of elasticity:3,theory of elasticity:3,1,theory of elasticity:3,1,-0.33457
+[CLS] Minnesota School of Cosmetology:4 works in the field of cosmetology:3 . [SEP],cosmetology:3,cosmetology:3,1,cosmetology:3,1,-1.75152
+[CLS] James Kennedy works in the field of particle swarm:3 optimization:3 . [SEP],particle swarm:3 optimization:3,particle swarm:3 optimization:3,1,particle swarm:3 optimization:3,1,-1.15109
+[CLS] Emil von Sydow:2 works in the field of geography:2 . [SEP],geography:2,geography:2,1,geography:2,1,-0.59168
+[CLS] Ann Dunham:2 works in the field of anthropology:4 . [SEP],anthropology:4,anthropology:4,1,anthropology:4,1,-0.01661
+[CLS] Rafael Lopez Guzman:3 works in the field of art history . [SEP],art history,art history,1,art history,1,-3.68714
+[CLS] Benjamin Fillon:2 works in the field of numismatics:3 . [SEP],numismatics:3,numismatics:3,1,numismatics:3,1,-0.65717
+[CLS] Natalia Bekhtereva:4 works in the field of neurophysiology:4 . [SEP],neurophysiology:4,neurophysiology:4,1,neurophysiology:4,1,-1.19515
+[CLS] Carlo Maderno:2 works in the field of baroque architecture . [SEP],baroque architecture,baroque architecture,1,baroque architecture,1,-4.10943
+[CLS] Arnošt:3 Lustig:2 works in the field of The Holocaust . [SEP],The Holocaust,The Holocaust,1,The Holocaust,1,-6.10091
+[CLS] Constitutional Convention works in the field of United States Constitution . [SEP],United States Constitution,United States Constitution,1,United States Constitution,1,-1.30280
+[CLS] Alexander Varchenko:2 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.89551
+[CLS] Moriz:2 Kaposi:2 works in the field of dermatology:3 . [SEP],dermatology:3,dermatology:3,1,dermatology:3,1,-2.31119
+[CLS] Paul Friedrich August Ascherson:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.13664
+[CLS] Cornelius Lott:2 Shear:2 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-6.15540
+[CLS] Bas Jan Ader:2 works in the field of conceptual:2 art . [SEP],conceptual:2 art,conceptual:2 art,1,conceptual:2 art,1,-1.58759
+[CLS] Louis Nirenberg:3 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.12918
+[CLS] Bunzō:3 Hayata:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.64032
+[CLS] Alexander Adriaenssen:4 works in the field of still life . [SEP],still life,still life,1,still life,1,-4.24903
+[CLS] Hrachia:3 Adjarian:3 works in the field of philology:3 . [SEP],philology:3,philology:3,1,philology:3,1,-0.07951
+[CLS] Howard H . Aiken works in the field of applied mathematics . [SEP],applied mathematics,applied mathematics,1,applied mathematics,1,-2.24082
+[CLS] Calliope:3 works in the field of epic poem . [SEP],epic poem,epic poem,1,epic poem,1,-3.32614
+[CLS] Safi:2 - ad - din Ardabili:3 works in the field of Sufism:3 . [SEP],Sufism:3,Sufism:3,1,Sufism:3,1,-1.32537
+[CLS] Domenico Cirillo:2 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.30779
+[CLS] Gaetano Fichera:2 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.87939
+[CLS] W . B . R . Lickorish:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.26799
+[CLS] Georg August Goldfuss:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.08710
+[CLS] Johannes Sobotta:3 works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.18015
+[CLS] Fazle:2 Hussain:2 works in the field of mechanical engineering . [SEP],mechanical engineering,mechanical engineering,1,mechanical engineering,1,-2.88864
+[CLS] Rudolf Halin:2 works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-3.94978
+[CLS] Guido Zappa works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-4.24269
+[CLS] Arnold Chikobava:3 works in the field of philology:3 . [SEP],philology:3,philology:3,1,philology:3,1,-0.18590
+[CLS] Charles Baron Clarke works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.29540
+[CLS] Seminars:2 in Ophthalmology:5 works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.31972
+[CLS] Jules Paul Benjamin Delessert:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.29213
+[CLS] Kathrin:3 Bringmann:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.39181
+[CLS] Robert Louis Dressler:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.31199
+[CLS] George Szekeres:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.04754
+[CLS] Grigor:3 Gurzadyan:5 works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.05014
+[CLS] Joram:2 Lindenstrauss:3 works in the field of functional analysis . [SEP],functional analysis,functional analysis,1,functional analysis,1,-3.12148
+[CLS] Katherine Esau:2 works in the field of plant anatomy:3 . [SEP],plant anatomy:3,plant anatomy:3,1,plant anatomy:3,1,-1.97005
+[CLS] Mathukumalli:4 V . Subbarao:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.57943
+[CLS] Vladimir Arnold works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.35997
+[CLS] William S . Burroughs works in the field of satire:2 . [SEP],satire:2,satire:2,1,satire:2,1,-0.19401
+[CLS] Zinaida:3 Botschantzeva:5 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.53351
+[CLS] frame language works in the field of artificial intelligence . [SEP],artificial intelligence,artificial intelligence,1,artificial intelligence,1,-0.57505
+[CLS] DARPA:3 works in the field of research and development . [SEP],research and development,research and development,1,research and development,1,-1.97756
+[CLS] Guiscardo:4 Améndola:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-3.69450
+[CLS] William Turner Thiselton:3 - Dyer:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.21991
+[CLS] Niels Henrik Abel works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-2.96102
+[CLS] Karl Friedrich Theodor Krause works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.14045
+[CLS] Carl Sigismund Kunth works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.46726
+[CLS] David de Gorter:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.48347
+[CLS] Boris Uvarov:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.30297
+[CLS] John B . Conway works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-1.98411
+[CLS] James D . Watson works in the field of molecular biology . [SEP],molecular biology,molecular biology,1,molecular biology,1,-1.62092
+[CLS] Tomasz Kitliński:3 works in the field of critical theory . [SEP],critical theory,critical theory,1,critical theory,1,-4.42363
+[CLS] Alfred Clebsch:3 works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.73244
+[CLS] John R . Ross works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.38167
+[CLS] Paul Erdmann:3 Isert:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.39486
+[CLS] Jan Śleszyński:3 works in the field of proof theory . [SEP],proof theory,proof theory,1,proof theory,1,-7.52438
+[CLS] Vladimir Drinfeld:3 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.27521
+[CLS] Kohji:3 Matsumoto:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.40107
+[CLS] William Isaac Thomas works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.92195
+[CLS] Gabriel Bibron:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-2.21188
+[CLS] Henry Friesen:2 works in the field of endocrinology:4 . [SEP],endocrinology:4,endocrinology:4,1,endocrinology:4,1,-0.06455
+[CLS] Ed Perkins works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-4.03290
+[CLS] Carl Rogers works in the field of psychotherapy:5 . [SEP],psychotherapy:5,psychotherapy:5,1,psychotherapy:5,1,-0.33303
+[CLS] Arnold Lang works in the field of comparative anatomy:3 . [SEP],comparative anatomy:3,comparative anatomy:3,1,comparative anatomy:3,1,-0.81377
+[CLS] Kiiti:2 Morita:2 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-3.15359
+[CLS] John Ruskin:2 works in the field of art criticism . [SEP],art criticism,art criticism,1,art criticism,1,-3.64040
+[CLS] Robert Campbell Gunn works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.25120
+[CLS] Oskar Perron:2 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.02302
+[CLS] August Kanitz:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.40096
+[CLS] Wolfgang Stechow:3 works in the field of history of art . [SEP],history of art,history of art,1,history of art,1,-2.79651
+[CLS] Giovanni Antonio Amedeo:3 Plana works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.10064
+[CLS] Frederick William Hope works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.15667
+[CLS] H . F . Baker works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.31566
+[CLS] Antonio Krapovickas:4 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.46424
+[CLS] Johann Anton Weinmann:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.22799
+[CLS] Newton Chandler works in the field of Australian rules football . [SEP],Australian rules football,Australian rules football,1,Australian rules football,1,-0.82692
+[CLS] Frans Reinhold Kjellman:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.55415
+[CLS] Alexander K . Becker works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.35888
+[CLS] Alexander Razborov:4 works in the field of computational:3 complexity theory . [SEP],computational:3 complexity theory,computational:3 complexity theory,1,computational:3 complexity theory,1,-0.84579
+[CLS] Muhammad al - Shaybani:3 works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.15067
+[CLS] Air Accidents:4 Investigation Branch works in the field of aviation safety . [SEP],aviation safety,aviation safety,1,aviation safety,1,-2.79794
+[CLS] Marvin Knopp:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.00130
+[CLS] Jane Cooke Wright works in the field of chemotherapy:4 . [SEP],chemotherapy:4,chemotherapy:4,1,chemotherapy:4,1,-0.41357
+[CLS] Greg Hjorth:3 works in the field of mathematical logic . [SEP],mathematical logic,mathematical logic,1,mathematical logic,1,-2.54801
+[CLS] R . M . Wilson works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.05677
+[CLS] Franz Georg Philipp Buchenau:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.17200
+[CLS] Roger Sperry:2 works in the field of neuropsychology:5 . [SEP],neuropsychology:5,neuropsychology:5,1,neuropsychology:5,1,-0.12546
+[CLS] Max Planck works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-0.93370
+[CLS] T . M . Scanlon:3 works in the field of proof theory . [SEP],proof theory,proof theory,1,proof theory,1,-6.66353
+[CLS] Jan Jansz:2 den Uyl:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.55829
+[CLS] Carl Neuberg:2 works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.25352
+[CLS] Julius Adams Stratton:3 works in the field of electrical engineering . [SEP],electrical engineering,electrical engineering,1,electrical engineering,1,-2.51979
+[CLS] Oktawiusz:3 Wincenty:3 Bourmeister:3 - Radoszkowski:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.24741
+[CLS] Lars Hörmander:4 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.24781
+[CLS] Boris Evseevitch:4 Bychowsky:3 works in the field of parasitology:2 . [SEP],parasitology:2,parasitology:2,1,parasitology:2,1,-4.31691
+[CLS] Joseph Gerhard Zuccarini:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.24013
+[CLS] Duncan Haldane:2 works in the field of condensed:3 matter physics . [SEP],condensed:3 matter physics,condensed:3 matter physics,1,condensed:3 matter physics,1,-0.71310
+[CLS] Pierre Millière:2 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.31205
+[CLS] Wesley J . Smith works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.37533
+[CLS] Petter Adolf Karsten:2 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-5.29678
+[CLS] Adolph Eduard Grube works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.21044
+[CLS] Paul Ariste:2 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-1.66996
+[CLS] Claudio Naranjo:2 works in the field of Gestalt therapy . [SEP],Gestalt therapy,Gestalt therapy,1,Gestalt therapy,1,-5.37905
+[CLS] Wilhelm Sievers:2 works in the field of geography:2 . [SEP],geography:2,geography:2,1,geography:2,1,-0.64793
+[CLS] Vsevolod:4 Klechkovsky:4 works in the field of agricultural chemistry . [SEP],agricultural chemistry,agricultural chemistry,1,agricultural chemistry,1,-6.88114
+[CLS] Gottfried Wilhelm Leibniz works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.06615
+[CLS] Boris Struminsky:4 works in the field of particle physics . [SEP],particle physics,particle physics,1,particle physics,1,-1.01854
+[CLS] Louis Claude Richard works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.52971
+[CLS] Sylvain Cappell:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.72504
+[CLS] Eduard Friedrich Poeppig:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.26896
+[CLS] list of botany:2 journals works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.01197
+[CLS] George Wald works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.27713
+[CLS] Andrei Linde:2 works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-0.71958
+[CLS] Edward Blyth:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.77084
+[CLS] Dmitry:3 Okhotsimsky:4 works in the field of celestial:2 mechanics . [SEP],celestial:2 mechanics,celestial:2 mechanics,1,celestial:2 mechanics,1,-0.34805
+[CLS] Friedrich Gottlob:2 Hayne:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.42998
+[CLS] Ludwig Ruetimeyer:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.65800
+[CLS] Gerardus:2 Mercator:3 works in the field of cartography:2 . [SEP],cartography:2,cartography:2,1,cartography:2,1,-0.78169
+[CLS] Paul Berg works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.23873
+[CLS] Carl Hindenburg works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.04783
+[CLS] Stanley S . Ballard works in the field of optics:2 . [SEP],optics:2,optics:2,1,optics:2,1,-1.33256
+[CLS] Nan Hoover works in the field of video art . [SEP],video art,video art,1,video art,1,-5.43036
+[CLS] Paul Finsler:2 works in the field of differential geometry . [SEP],differential geometry,differential geometry,1,differential geometry,1,-1.47957
+[CLS] Franz Xaver Fieber:2 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.25061
+[CLS] Andrey:2 Kolmogorov:4 works in the field of mathematical logic . [SEP],mathematical logic,mathematical logic,1,mathematical logic,1,-2.48687
+[CLS] Mardy:2 Scales:2 works in the field of 100 metres . [SEP],100 metres,100 metres,1,100 metres,1,-4.38934
+[CLS] Paul Krugman:3 works in the field of macroeconomics:4 . [SEP],macroeconomics:4,macroeconomics:4,1,macroeconomics:4,1,-0.30758
+[CLS] Gaetano Fichera:2 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.26647
+[CLS] Roman Jakobson:2 works in the field of structuralism:2 . [SEP],structuralism:2,structuralism:2,1,structuralism:2,1,-3.69229
+[CLS] Bernard Comrie:2 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.43434
+[CLS] James Collins works in the field of biomedical:3 engineering . [SEP],biomedical:3 engineering,biomedical:3 engineering,1,biomedical:3 engineering,1,-1.06100
+[CLS] Ivan Petrovsky:2 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.53295
+[CLS] Anatoly:3 Zubkov:3 works in the field of physiology:3 . [SEP],physiology:3,physiology:3,1,physiology:3,1,-0.93725
+[CLS] Stefan Mazurkiewicz:3 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.38984
+[CLS] Alexander H . Smith works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-5.75130
+[CLS] Claire of Luxembourg works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.64230
+[CLS] Nachman:2 Aronszajn:3 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.55815
+[CLS] Giovanni Domenico Cassini works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.03233
+[CLS] Ron Aharoni:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.06283
+[CLS] Valerius:2 Cordus:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.41757
+[CLS] Société botanique:2 de France works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-1.29356
+[CLS] Nikolai Dmitriev:2 works in the field of philology:3 . [SEP],philology:3,philology:3,1,philology:3,1,-0.05341
+[CLS] Kōsaku:4 Hamada:2 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.07410
+[CLS] Alexei Abrikosov:3 works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-0.74126
+[CLS] Hermann Wendland:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.42737
+[CLS] Luca Forte works in the field of still life . [SEP],still life,still life,1,still life,1,-3.79542
+[CLS] Georges Duby:2 works in the field of Middle Ages . [SEP],Middle Ages,Middle Ages,1,Middle Ages,1,-2.67161
+[CLS] Louis - Marie Aubert:2 du Petit - Thouars:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.35480
+[CLS] Johan Andreas Murray works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.44528
+[CLS] Vladimir Zherikhin:4 works in the field of paleontology:3 . [SEP],paleontology:3,paleontology:3,1,paleontology:3,1,-0.43629
+[CLS] Anne McLaren works in the field of developmental:2 biology . [SEP],developmental:2 biology,developmental:2 biology,1,developmental:2 biology,1,-2.00338
+[CLS] Robert John Braidwood:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.07459
+[CLS] Max Vasmer:2 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.30594
+[CLS] Fang Lizhi:2 works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.04020
+[CLS] Felix Adler works in the field of ethics:3 . [SEP],ethics:3,ethics:3,1,ethics:3,1,-0.37921
+[CLS] Władysław Orlicz:3 works in the field of functional analysis . [SEP],functional analysis,functional analysis,1,functional analysis,1,-3.62924
+[CLS] Jonas Jablonskis:4 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.02421
+[CLS] Paul Dognin:2 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.27540
+[CLS] Charles Carmichael:3 Lacaita:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.55768
+[CLS] Henri Marie Ducrotay:3 de Blainville:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.79339
+[CLS] Charles C . Steidel:3 works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.16349
+[CLS] Richard Feynman:3 works in the field of Quantum electrodynamics:4 . [SEP],Quantum electrodynamics:4,Quantum electrodynamics:4,1,Quantum electrodynamics:4,1,-1.25645
+[CLS] Johannes Schmidt works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.57581
+[CLS] Tobin:2 J . Marks works in the field of organometallic:4 chemistry . [SEP],organometallic:4 chemistry,organometallic:4 chemistry,1,organometallic:4 chemistry,1,-1.54196
+[CLS] Seligman:3 Baer:2 works in the field of Masoretic:3 Text . [SEP],Masoretic:3 Text,Masoretic:3 Text,1,Masoretic:3 Text,1,-3.95356
+[CLS] John Pople:2 works in the field of quantum chemistry . [SEP],quantum chemistry,quantum chemistry,1,quantum chemistry,1,-3.36962
+[CLS] Théophile:3 Pépin:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.92174
+[CLS] Pyotr:3 Nikolsky:3 works in the field of dermatology:3 . [SEP],dermatology:3,dermatology:3,1,dermatology:3,1,-1.36228
+[CLS] Ibn Qutaybah:3 works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.16003
+[CLS] Jan Baudouin:3 de Courtenay:2 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-3.34681
+[CLS] citation analysis works in the field of bibliometrics:5 . [SEP],bibliometrics:5,bibliometrics:5,1,bibliometrics:5,1,-0.34609
+[CLS] Alexander Frumkin:3 works in the field of physical chemistry . [SEP],physical chemistry,physical chemistry,1,physical chemistry,1,-3.09540
+[CLS] Edward Newman works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.15362
+[CLS] Karl Marx works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.20901
+[CLS] Paul A . Catlin:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.22947
+[CLS] Geoff Smith works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-3.20207
+[CLS] Pero Budmani:2 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.20110
+[CLS] Petrus Camper:2 works in the field of physiology:3 . [SEP],physiology:3,physiology:3,1,physiology:3,1,-0.73537
+[CLS] Lyman Bradford Smith works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.34310
+[CLS] Tim Ingold:2 works in the field of anthropology:4 . [SEP],anthropology:4,anthropology:4,1,anthropology:4,1,-0.02135
+[CLS] Carl Friedrich Bruch:2 works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.38993
+[CLS] John Ostrom:2 works in the field of paleontology:3 . [SEP],paleontology:3,paleontology:3,1,paleontology:3,1,-0.29381
+[CLS] Chandrashekhar:4 Khare:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.01675
+[CLS] Conny:2 Palm works in the field of queueing:2 theory . [SEP],queueing:2 theory,queueing:2 theory,1,queueing:2 theory,1,-6.23028
+[CLS] Wilhelm Sulpiz:3 Kurz works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.68183
+[CLS] Johann Baptist Emanuel Pohl works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.40899
+[CLS] August 1st works in the field of aerobatics:4 . [SEP],aerobatics:4,aerobatics:4,1,aerobatics:4,1,-0.33933
+[CLS] Applied Catalysis:3 Award works in the field of catalysis:3 . [SEP],catalysis:3,catalysis:3,1,catalysis:3,1,-0.04426
+[CLS] Friedrich Wieseler:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.04878
+[CLS] Ernst Haas works in the field of photojournalism:5 . [SEP],photojournalism:5,photojournalism:5,1,photojournalism:5,1,-0.30802
+[CLS] Gary Webb works in the field of investigative:3 journalism . [SEP],investigative:3 journalism,investigative:3 journalism,1,investigative:3 journalism,1,-0.15217
+[CLS] Gábor Tardos:2 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.12408
+[CLS] Dean Gunnarson:2 works in the field of escapology:3 . [SEP],escapology:3,escapology:3,1,escapology:3,1,-2.39517
+[CLS] Mikhail Gennadiyevich:4 Dmitriyev:2 works in the field of applied mathematics . [SEP],applied mathematics,applied mathematics,1,applied mathematics,1,-2.17822
+[CLS] Robin Berjon:3 works in the field of HTML5:2 . [SEP],HTML5:2,HTML5:2,1,HTML5:2,1,-4.66471
+[CLS] breed works in the field of animal husbandry:2 . [SEP],animal husbandry:2,animal husbandry:2,1,animal husbandry:2,1,-0.46168
+[CLS] Florentino:2 Ameghino:3 works in the field of paleontology:3 . [SEP],paleontology:3,paleontology:3,1,paleontology:3,1,-0.28598
+[CLS] Grigorii:3 Mikhailovich:2 Fichtenholz:3 works in the field of calculus:2 . [SEP],calculus:2,calculus:2,1,calculus:2,1,-1.62949
+[CLS] Martin Aigner:2 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.03806
+[CLS] Heinrich Müller works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.21074
+[CLS] Paul Dirac:2 works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-1.03587
+[CLS] Raffaele Garofalo:4 works in the field of criminology:3 . [SEP],criminology:3,criminology:3,1,criminology:3,1,-0.24441
+[CLS] Ivan Petrovsky:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.06455
+[CLS] Elias Wessén:3 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-1.91454
+[CLS] Master of Health Administration works in the field of health administration . [SEP],health administration,health administration,1,health administration,1,-0.51128
+[CLS] Karl Mahlburg:3 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.03606
+[CLS] William Mann works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.46450
+[CLS] Friedrich Robert Helmert:2 works in the field of geodesy:3 . [SEP],geodesy:3,geodesy:3,1,geodesy:3,1,-1.81028
+[CLS] Chris Rogers works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.58873
+[CLS] Alter Eco works in the field of fair trade . [SEP],fair trade,fair trade,1,fair trade,1,-5.75502
+[CLS] Christopher Zeeman:2 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.36558
+[CLS] Bernard de Jussieu:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.36857
+[CLS] botanical:3 garden works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.76568
+[CLS] Heinrich Friese works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.15680
+[CLS] Stylianos:3 Antonarakis:3 works in the field of human genetics:2 . [SEP],human genetics:2,human genetics:2,1,human genetics:2,1,-2.70911
+[CLS] Oded:2 Schramm:3 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.48895
+[CLS] Ronald Mulder works in the field of speed skating:2 . [SEP],speed skating:2,speed skating:2,1,speed skating:2,1,-1.82663
+[CLS] Maurice Wilkins works in the field of phosphorescence:5 . [SEP],phosphorescence:5,phosphorescence:5,1,phosphorescence:5,1,-0.21096
+[CLS] Eduard Oscar Schmidt works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.22112
+[CLS] William Ogilby:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.20669
+[CLS] Spacewatch:2 works in the field of minor planet . [SEP],minor planet,minor planet,1,minor planet,1,-5.33985
+[CLS] Emil L . Smith works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.30492
+[CLS] Madhavan:3 Chandradathan:3 works in the field of space science . [SEP],space science,space science,1,space science,1,-5.51548
+[CLS] Wim Cohen works in the field of queueing:2 theory . [SEP],queueing:2 theory,queueing:2 theory,1,queueing:2 theory,1,-5.74313
+[CLS] Gustavus:2 Simmons works in the field of cryptography:4 . [SEP],cryptography:4,cryptography:4,1,cryptography:4,1,-0.14576
+[CLS] Iwan Bloch works in the field of sexology:2 . [SEP],sexology:2,sexology:2,1,sexology:2,1,-5.37204
+[CLS] Al - Juwayni:3 works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.17000
+[CLS] Francis Peyton:2 Rous:2 works in the field of pathology:2 . [SEP],pathology:2,pathology:2,1,pathology:2,1,-1.76674
+[CLS] Art Deco:2 works in the field of graphic arts . [SEP],graphic arts,graphic arts,1,graphic arts,1,-3.30339
+[CLS] Regiomontanus:3 works in the field of astrology:3 . [SEP],astrology:3,astrology:3,1,astrology:3,1,-0.08757
+[CLS] Giovanni Paolo Castelli:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.63123
+[CLS] Helge von Koch works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.34558
+[CLS] Wacław:3 Sierpiński:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.63007
+[CLS] Paul Halmos:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-2.85899
+[CLS] Vincenzo Petagna:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.81608
+[CLS] Alexander Pavlovich:2 Vinogradov:4 works in the field of geochemistry:4 . [SEP],geochemistry:4,geochemistry:4,1,geochemistry:4,1,-0.57965
+[CLS] Aleksandr Lyapunov:4 works in the field of stability theory . [SEP],stability theory,stability theory,1,stability theory,1,-5.62588
+[CLS] Frans Oerder:3 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.93814
+[CLS] Charles Schweinfurth:5 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.31914
+[CLS] Josias:2 Braun - Blanquet:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.61191
+[CLS] Alexey:2 Olovnikov:3 works in the field of telomere:2 . [SEP],telomere:2,telomere:2,1,telomere:2,1,-6.79996
+[CLS] Karl Ferdinand von Graefe:3 works in the field of ophthalmology:5 . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.06862
+[CLS] Carl Linnaeus the Younger works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.12190
+[CLS] list of ornithology:4 journals works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.03585
+[CLS] Sewall:2 Wright works in the field of population genetics:2 . [SEP],population genetics:2,population genetics:2,1,population genetics:2,1,-3.83467
+[CLS] Gerhard Armauer:2 Hansen works in the field of leprosy:3 . [SEP],leprosy:3,leprosy:3,1,leprosy:3,1,-1.47766
+[CLS] Menander:2 Rhetor:3 works in the field of rhetoric:4 . [SEP],rhetoric:4,rhetoric:4,1,rhetoric:4,1,-0.10607
+[CLS] Carl Reinhold Sahlberg:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.23376
+[CLS] Eddie Nash works in the field of illegal drug trade . [SEP],illegal drug trade,illegal drug trade,1,illegal drug trade,1,-4.78896
+[CLS] MIT Computer Science and Artificial:2 Intelligence Laboratory works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-0.21986
+[CLS] Helmut Maier:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.01267
+[CLS] Lille institute for electronics micro - electronics and nanotechnologies:5 works in the field of microelectronics:5 . [SEP],microelectronics:5,microelectronics:5,1,microelectronics:5,1,-0.06665
+[CLS] John Carmack:2 works in the field of video game . [SEP],video game,video game,1,video game,1,-2.73511
+[CLS] Arnold van Gennep:3 works in the field of ethnography:3 . [SEP],ethnography:3,ethnography:3,1,ethnography:3,1,-0.37973
+[CLS] Georg Dionysius:3 Ehret:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.23810
+[CLS] Eugenio Beltrami:2 works in the field of differential geometry . [SEP],differential geometry,differential geometry,1,differential geometry,1,-1.36872
+[CLS] Gustaf Johan Billberg:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.57147
+[CLS] Yago:2 Lamela:2 works in the field of long jump . [SEP],long jump,long jump,1,long jump,1,-2.61437
+[CLS] Valentina Borok:2 works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.44200
+[CLS] Arshag:3 Chobanian:3 works in the field of short story . [SEP],short story,short story,1,short story,1,-2.45997
+[CLS] William Scott works in the field of still life . [SEP],still life,still life,1,still life,1,-4.03556
+[CLS] Abílio:2 Fernandes works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.57829
+[CLS] Adolph Strümpell:4 works in the field of neurology:2 . [SEP],neurology:2,neurology:2,1,neurology:2,1,-0.85079
+[CLS] Robert Emden works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.02972
+[CLS] Jan Davidsz:2 . de Heem:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.81837
+[CLS] Alexander Nikolsky:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.42253
+[CLS] Nikola Tesla works in the field of electrical engineering . [SEP],electrical engineering,electrical engineering,1,electrical engineering,1,-1.31496
+[CLS] Nikolay:2 Demyanov:3 works in the field of organic chemistry . [SEP],organic chemistry,organic chemistry,1,organic chemistry,1,-1.61366
+[CLS] Robert S . Hartman works in the field of axiology:3 . [SEP],axiology:3,axiology:3,1,axiology:3,1,-2.61935
+[CLS] Jane Ellen Harrison works in the field of classics:2 . [SEP],classics:2,classics:2,1,classics:2,1,-3.59826
+[CLS] Abu Yusuf works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.18477
+[CLS] Anders Krogh:2 works in the field of bioinformatics:4 . [SEP],bioinformatics:4,bioinformatics:4,1,bioinformatics:4,1,-0.67319
+[CLS] William Louis Culberson:3 works in the field of lichenology:3 . [SEP],lichenology:3,lichenology:3,1,lichenology:3,1,-3.00258
+[CLS] Robert Elias Fries works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.25165
+[CLS] John Anthony Walker works in the field of espionage:3 . [SEP],espionage:3,espionage:3,1,espionage:3,1,-0.14603
+[CLS] Frederick Vernon Coville:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.26553
+[CLS] Paul Erdős:3 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-2.37650
+[CLS] Antonino:2 Borzì:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.54342
+[CLS] Giordano Bruno works in the field of cosmology:3 . [SEP],cosmology:3,cosmology:3,1,cosmology:3,1,-0.11255
+[CLS] Antonie:2 van Leeuwenhoek:3 works in the field of microscopy:3 . [SEP],microscopy:3,microscopy:3,1,microscopy:3,1,-0.32845
+[CLS] Michael Victor Berry works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.51582
+[CLS] Ludwig Ross works in the field of classical archaeology:3 . [SEP],classical archaeology:3,classical archaeology:3,1,classical archaeology:3,1,-1.13217
+[CLS] Alice Catherine Evans works in the field of brucellosis:4 . [SEP],brucellosis:4,brucellosis:4,1,brucellosis:4,1,-3.25059
+[CLS] Egbert:3 van Kampen works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.52918
+[CLS] Sylvain Lévi:2 works in the field of Indology:2 . [SEP],Indology:2,Indology:2,1,Indology:2,1,-2.94171
+[CLS] climate works in the field of climatology:2 . [SEP],climatology:2,climatology:2,1,climatology:2,1,-1.63387
+[CLS] Antonio Maria Valsalva:3 works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.08584
+[CLS] Tawus:3 ibn Kaysan:2 works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.18940
+[CLS] Joan Stark works in the field of ASCII art . [SEP],ASCII art,ASCII art,1,ASCII art,1,-9.22284
+[CLS] Isaak:2 Moiseevich:3 Milin:2 works in the field of applied mathematics . [SEP],applied mathematics,applied mathematics,1,applied mathematics,1,-2.37114
+[CLS] Regina Tyshkevich:4 works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-3.38955
+[CLS] Charles Louis L ' Héritier:3 de Brutelle:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.40326
+[CLS] Abu Madyan:2 works in the field of Sufism:3 . [SEP],Sufism:3,Sufism:3,1,Sufism:3,1,-0.88441
+[CLS] Sahl:2 al - Tustari:3 works in the field of Sufism:3 . [SEP],Sufism:3,Sufism:3,1,Sufism:3,1,-0.86208
+[CLS] Kenneth V . Thimann:3 works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.14415
+[CLS] Jacobus Henricus:2 van ' t Hoff:2 works in the field of physical chemistry . [SEP],physical chemistry,physical chemistry,1,physical chemistry,1,-2.98392
+[CLS] Mauro Picone:2 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.42664
+[CLS] Stefan Mazurkiewicz:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.47785
+[CLS] Johannes Baptista von Albertini:2 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-5.82520
+[CLS] Frank Ayd:2 works in the field of psychiatry:4 . [SEP],psychiatry:4,psychiatry:4,1,psychiatry:4,1,-0.04520
+[CLS] Marcel Mauss:2 works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.49466
+[CLS] Georges Pouchet:3 works in the field of comparative anatomy:3 . [SEP],comparative anatomy:3,comparative anatomy:3,1,comparative anatomy:3,1,-0.91695
+[CLS] Norman Denbigh:3 Riley works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.12079
+[CLS] Hans - Martin Sass:2 works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.54691
+[CLS] Sergey Stechkin:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.07619
+[CLS] Gerhard Domagk:3 works in the field of pathology:2 . [SEP],pathology:2,pathology:2,1,pathology:2,1,-1.69196
+[CLS] American Impressionism:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-3.79534
+[CLS] K . M . Beenamol:3 works in the field of 400 metres . [SEP],400 metres,400 metres,1,400 metres,1,-4.07991
+[CLS] Carl Brockelmann:3 works in the field of Oriental studies . [SEP],Oriental studies,Oriental studies,1,Oriental studies,1,-4.44625
+[CLS] George Annas:2 works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.27986
+[CLS] Vyacheslav:4 Baburin:2 works in the field of economic geography:2 . [SEP],economic geography:2,economic geography:2,1,economic geography:2,1,-1.92245
+[CLS] British Society for Parasitology:3 works in the field of parasitology:2 . [SEP],parasitology:2,parasitology:2,1,parasitology:2,1,-0.32112
+[CLS] Christopher Edmund Broome:2 works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-6.30348
+[CLS] Ivan Minayev:2 works in the field of Oriental studies . [SEP],Oriental studies,Oriental studies,1,Oriental studies,1,-4.57830
+[CLS] Augustus Quirinus:2 Rivinus:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.31804
+[CLS] Abu Bakr:2 al - Kalabadhi:4 works in the field of Sufism:3 . [SEP],Sufism:3,Sufism:3,1,Sufism:3,1,-0.64397
+[CLS] Maurice Wilkins works in the field of X - ray crystallography:3 . [SEP],X - ray crystallography:3,X - ray crystallography:3,1,X - ray crystallography:3,1,-0.22278
+[CLS] Bernard Chazelle:3 works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-2.09587
+[CLS] Judith Roitman:2 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-1.94972
+[CLS] Alexander Tselikov:4 works in the field of metallurgy:3 . [SEP],metallurgy:3,metallurgy:3,1,metallurgy:3,1,-0.39499
+[CLS] Fakhr:3 al - Din al - Razi:2 works in the field of تفسیر قرآن . [SEP],تفسیر قرآن,تفسیر قرآن,1,تفسیر قرآن,1,-9.13377
+[CLS] William Woolls:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.35963
+[CLS] Jimmy Henchman:3 works in the field of illegal drug trade . [SEP],illegal drug trade,illegal drug trade,1,illegal drug trade,1,-5.41739
+[CLS] Aziz Sancar:2 works in the field of cell cycle . [SEP],cell cycle,cell cycle,1,cell cycle,1,-5.94845
+[CLS] Ivan Meshchaninov:5 works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.60671
+[CLS] François Asselineau:3 works in the field of conspiracy theory . [SEP],conspiracy theory,conspiracy theory,1,conspiracy theory,1,-3.32003
+[CLS] Maryam:2 Mirzakhani:3 works in the field of ergodic:3 theory . [SEP],ergodic:3 theory,ergodic:3 theory,1,ergodic:3 theory,1,-2.36029
+[CLS] Institut Jean Nicod:2 works in the field of cognitive science . [SEP],cognitive science,cognitive science,1,cognitive science,1,-4.18448
+[CLS] Vitali:2 Silitski:3 works in the field of political science . [SEP],political science,political science,1,political science,1,-1.81301
+[CLS] Roland Dobrushin:3 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.27787
+[CLS] Giuseppe Raddi:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.53545
+[CLS] Joseph Polchinski:3 works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-1.04960
+[CLS] Liu Huaqing:2 works in the field of People ' s Liberation Army Navy . [SEP],People ' s Liberation Army Navy,People ' s Liberation Army Navy,1,People ' s Liberation Army Navy,1,-1.53606
+[CLS] Giuseppe Vitali:2 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.89479
+[CLS] Rick Durrett:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-2.78818
+[CLS] Giovanni Battista de Toni works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-5.97972
+[CLS] Yousef:2 Alavi:2 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.08055
+[CLS] Peter Gavin Hall works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.01956
+[CLS] Karl Ludwig Philipp Zeyher:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.23357
+[CLS] Leslie A . Garay:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.34958
+[CLS] Rudolf Wille:2 works in the field of formal concept analysis . [SEP],formal concept analysis,formal concept analysis,1,formal concept analysis,1,-8.66826
+[CLS] Paul Corkum:2 works in the field of laser science . [SEP],laser science,laser science,1,laser science,1,-7.71342
+[CLS] German Domestic:2 Intelligence Service works in the field of counterintelligence:4 . [SEP],counterintelligence:4,counterintelligence:4,1,counterintelligence:4,1,-0.11032
+[CLS] Catherine Lord works in the field of feminism:3 . [SEP],feminism:3,feminism:3,1,feminism:3,1,-0.37192
+[CLS] Giovanni Francesco Bagnoli:3 works in the field of still life . [SEP],still life,still life,1,still life,1,-3.50817
+[CLS] Clarke Abel works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.27705
+[CLS] Harry Rauch:2 works in the field of differential geometry . [SEP],differential geometry,differential geometry,1,differential geometry,1,-1.69991
+[CLS] Pavlo:3 Zhytetsky:4 works in the field of philology:3 . [SEP],philology:3,philology:3,1,philology:3,1,-0.07723
+[CLS] Cubo:2 - Futurism:3 works in the field of art of painting . [SEP],art of painting,art of painting,1,art of painting,1,-4.48006
+[CLS] Amable:2 Audin:2 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.09296
+[CLS] William Jaco:2 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.72295
+[CLS] Lisa Randall works in the field of particle physics . [SEP],particle physics,particle physics,1,particle physics,1,-0.92429
+[CLS] Richard Bowdler:2 Sharpe works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.32423
+[CLS] Evgeny:4 A . Korovin:3 works in the field of international law . [SEP],international law,international law,1,international law,1,-3.08677
+[CLS] William Borrer:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.28001
+[CLS] Avraham:3 Stern works in the field of Zionism:2 . [SEP],Zionism:2,Zionism:2,1,Zionism:2,1,-2.05650
+[CLS] Joseph Fins works in the field of bioethics:3 . [SEP],bioethics:3,bioethics:3,1,bioethics:3,1,-2.25517
+[CLS] Jan Arnoldus:2 Schouten:3 works in the field of differential geometry . [SEP],differential geometry,differential geometry,1,differential geometry,1,-2.32174
+[CLS] Dominique Villars:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.55688
+[CLS] Joint Institute for Nuclear Astrophysics works in the field of nuclear astrophysics:5 . [SEP],nuclear astrophysics:5,nuclear astrophysics:5,1,nuclear astrophysics:5,1,-0.04742
+[CLS] Pierre de Fermat:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-3.04397
+[CLS] Max Nonne:2 works in the field of neurology:2 . [SEP],neurology:2,neurology:2,1,neurology:2,1,-0.65443
+[CLS] Emery Clarence Leonard works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.28172
+[CLS] Boris Rybakov:3 works in the field of archaeology:3 . [SEP],archaeology:3,archaeology:3,1,archaeology:3,1,-0.13456
+[CLS] Włodzimierz:5 Kuperberg:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.59478
+[CLS] Pierre - Simon Laplace:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-2.64110
+[CLS] Sereno:2 Watson works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.26279
+[CLS] Ioannis:2 Liritzis:3 works in the field of archaeological science . [SEP],archaeological science,archaeological science,1,archaeological science,1,-6.87338
+[CLS] Anatoly:3 Logunov:3 works in the field of theoretical physics . [SEP],theoretical physics,theoretical physics,1,theoretical physics,1,-0.52520
+[CLS] Silver Studio works in the field of textile design . [SEP],textile design,textile design,1,textile design,1,-5.45957
+[CLS] Constantin Scriabine:3 works in the field of helminthology:4 . [SEP],helminthology:4,helminthology:4,1,helminthology:4,1,-1.06862
+[CLS] Sergei Natanovich:3 Bernstein works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.29625
+[CLS] Andrei Okounkov:3 works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-0.69779
+[CLS] national coat of arms works in the field of heraldry:3 . [SEP],heraldry:3,heraldry:3,1,heraldry:3,1,-0.15735
+[CLS] trigonometric:3 function works in the field of trigonometry:3 . [SEP],trigonometry:3,trigonometry:3,1,trigonometry:3,1,-0.08264
+[CLS] Friedrich Wilhelm von Leysser:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.44205
+[CLS] Charles Greeley:3 Abbot:2 works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.03438
+[CLS] Ernst Chain works in the field of biochemistry:4 . [SEP],biochemistry:4,biochemistry:4,1,biochemistry:4,1,-0.27072
+[CLS] Paolo Porpora:2 works in the field of still life . [SEP],still life,still life,1,still life,1,-4.10811
+[CLS] Andrei Okounkov:3 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.57834
+[CLS] He Zehui:3 works in the field of nuclear physics . [SEP],nuclear physics,nuclear physics,1,nuclear physics,1,-3.16708
+[CLS] Jan Gonda:2 works in the field of Indology:2 . [SEP],Indology:2,Indology:2,1,Indology:2,1,-2.48196
+[CLS] Marcel - Paul Schützenberger:4 works in the field of combinatorics:4 . [SEP],combinatorics:4,combinatorics:4,1,combinatorics:4,1,-0.06075
+[CLS] John Firminger:3 Duthie:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.28939
+[CLS] Henri Lebesgue:3 works in the field of functional analysis . [SEP],functional analysis,functional analysis,1,functional analysis,1,-3.50153
+[CLS] Wolfhart:2 Zimmermann works in the field of quantum field theory . [SEP],quantum field theory,quantum field theory,1,quantum field theory,1,-0.71228
+[CLS] Alfredo Jahn works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.60918
+[CLS] Edward Bagnall:3 Poulton:2 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.51264
+[CLS] Karel Domin:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.71120
+[CLS] Mohammad Ebrahim:3 Jannaati:3 works in the field of Shia:2 Islam . [SEP],Shia:2 Islam,Shia:2 Islam,1,Shia:2 Islam,1,-1.65357
+[CLS] Nicholas Shepherd - Barron:2 works in the field of algebraic:2 geometry . [SEP],algebraic:2 geometry,algebraic:2 geometry,1,algebraic:2 geometry,1,-1.29694
+[CLS] Ludwig Riedel:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.49563
+[CLS] John Gardner Wilkinson works in the field of egyptology:3 . [SEP],egyptology:3,egyptology:3,1,egyptology:3,1,-1.26591
+[CLS] John Lawrence LeConte:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.12463
+[CLS] André Lichnerowicz:3 works in the field of differential geometry . [SEP],differential geometry,differential geometry,1,differential geometry,1,-1.48795
+[CLS] Charles W . Misner:2 works in the field of general relativity:2 . [SEP],general relativity:2,general relativity:2,1,general relativity:2,1,-0.13090
+[CLS] Vasilii:3 Sergeevich:3 Vladimirov:2 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-2.58907
+[CLS] Onufri:3 works in the field of icon:2 . [SEP],icon:2,icon:2,1,icon:2,1,-2.06911
+[CLS] Peter Ludwig Mejdell:3 Sylow:2 works in the field of group theory . [SEP],group theory,group theory,1,group theory,1,-2.22314
+[CLS] Herzberg:2 Institute of Astrophysics works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.04363
+[CLS] Alois Friedrich Rogenhofer:4 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.29038
+[CLS] Enrique Rodolfo Hercio:2 works in the field of electrical engineering . [SEP],electrical engineering,electrical engineering,1,electrical engineering,1,-2.54921
+[CLS] Alvar:2 Palmgren:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.60349
+[CLS] Johannes Rick works in the field of mycology:2 . [SEP],mycology:2,mycology:2,1,mycology:2,1,-6.05925
+[CLS] Jane Francis works in the field of paleoclimatology:5 . [SEP],paleoclimatology:5,paleoclimatology:5,1,paleoclimatology:5,1,-0.54662
+[CLS] Gustav Wilhelm Körber:3 works in the field of lichenology:3 . [SEP],lichenology:3,lichenology:3,1,lichenology:3,1,-2.74570
+[CLS] Stevo:2 Todorčević:4 works in the field of Ramsey theory . [SEP],Ramsey theory,Ramsey theory,1,Ramsey theory,1,-7.17496
+[CLS] Ernst Ludwig Taschenberg:3 works in the field of entomology:3 . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.26151
+[CLS] The American Journal of Pharmaceutical:2 Education works in the field of pharmacy:3 . [SEP],pharmacy:3,pharmacy:3,1,pharmacy:3,1,-1.10252
+[CLS] Jean Anthelme:3 Brillat:2 - Savarin:2 works in the field of gastronomy:3 . [SEP],gastronomy:3,gastronomy:3,1,gastronomy:3,1,-1.22133
+[CLS] Edward O . Thorp:2 works in the field of probability theory . [SEP],probability theory,probability theory,1,probability theory,1,-3.25007
+[CLS] Karl Mahlburg:3 works in the field of number theory . [SEP],number theory,number theory,1,number theory,1,-2.96415
+[CLS] Georges Hayem:2 works in the field of hematology:3 . [SEP],hematology:3,hematology:3,1,hematology:3,1,-0.96782
+[CLS] AOAC:3 International works in the field of analytical:3 chemistry . [SEP],analytical:3 chemistry,analytical:3 chemistry,1,analytical:3 chemistry,1,-1.91363
+[CLS] Al - Nawawi:3 works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.17851
+[CLS] Constantine Walter Benson works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.67820
+[CLS] Tomitarô:3 Makino:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.76948
+[CLS] Ladislav Rieger:3 works in the field of set theory . [SEP],set theory,set theory,1,set theory,1,-2.21102
+[CLS] Charles Christopher Parry works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.42625
+[CLS] Antoine Laurent de Jussieu:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.27869
+[CLS] Alice Eastwood works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-1.21735
+[CLS] William Thurston:3 works in the field of topology:2 . [SEP],topology:2,topology:2,1,topology:2,1,-2.21604
+[CLS] J . C . R . Licklider:4 works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-1.84108
+[CLS] Paul Gewirtz:4 works in the field of constitutional law . [SEP],constitutional law,constitutional law,1,constitutional law,1,-2.63866
+[CLS] Julius Petersen works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-3.42698
+[CLS] Nancy Elizabeth Prophet works in the field of art of sculpture . [SEP],art of sculpture,art of sculpture,1,art of sculpture,1,-4.57459
+[CLS] Neil deGrasse:4 Tyson works in the field of astrophysics:5 . [SEP],astrophysics:5,astrophysics:5,1,astrophysics:5,1,-0.02740
+[CLS] Christoph Arnold works in the field of astronomy:2 . [SEP],astronomy:2,astronomy:2,1,astronomy:2,1,-0.09473
+[CLS] Alek:2 D . Epstein works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.44562
+[CLS] Vasilii:3 Sergeevich:3 Vladimirov:2 works in the field of mathematical physics . [SEP],mathematical physics,mathematical physics,1,mathematical physics,1,-2.07921
+[CLS] Lazarus Geiger works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.48991
+[CLS] Lille institute for electronics micro - electronics and nanotechnologies:5 works in the field of nanotechnology:4 . [SEP],nanotechnology:4,nanotechnology:4,1,nanotechnology:4,1,-0.03688
+[CLS] Abd al - Rahman al - Awza:3 ' i works in the field of fiqh:3 . [SEP],fiqh:3,fiqh:3,1,fiqh:3,1,-0.32026
+[CLS] Joseph Sifakis:3 works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-2.45504
+[CLS] Bruno Hofer:2 works in the field of pathology:2 . [SEP],pathology:2,pathology:2,1,pathology:2,1,-1.76721
+[CLS] Alberto Calderón works in the field of partial differential equation . [SEP],partial differential equation,partial differential equation,1,partial differential equation,1,-1.36049
+[CLS] Giorgio Parisi:2 works in the field of quantum field theory . [SEP],quantum field theory,quantum field theory,1,quantum field theory,1,-1.01872
+[CLS] Henry Hurd:2 Rusby:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.21709
+[CLS] Werner Sombart:2 works in the field of sociology:2 . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.27608
+[CLS] Arvo:2 Ylppö:4 works in the field of pediatrics:3 . [SEP],pediatrics:3,pediatrics:3,1,pediatrics:3,1,-0.16109
+[CLS] Henri de Lacaze:2 - Duthiers:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-1.94474
+[CLS] Dugald:3 Macpherson:3 works in the field of model theory . [SEP],model theory,model theory,1,model theory,1,-4.12714
+[CLS] James Bond works in the field of ornithology:4 . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.33490
+[CLS] Michel Mandjes:3 works in the field of queueing:2 theory . [SEP],queueing:2 theory,queueing:2 theory,1,queueing:2 theory,1,-5.59879
+[CLS] Galen:2 works in the field of anatomy:3 . [SEP],anatomy:3,anatomy:3,1,anatomy:3,1,-0.21059
+[CLS] James Oxley:3 works in the field of graph theory . [SEP],graph theory,graph theory,1,graph theory,1,-4.49701
+[CLS] David B . Wake works in the field of evolutionary biology . [SEP],evolutionary biology,evolutionary biology,1,evolutionary biology,1,-2.32471
+[CLS] William Trelease:3 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.37021
+[CLS] Silvio Micali:2 works in the field of computer science . [SEP],computer science,computer science,1,computer science,1,-2.17591
+[CLS] Gustave Thuret:2 works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.27326
+[CLS] Eric Schechter:3 works in the field of mathematical analysis . [SEP],mathematical analysis,mathematical analysis,1,mathematical analysis,1,-3.45093
+[CLS] Tetsuji:3 Morohashi:3 works in the field of sinology:2 . [SEP],sinology:2,sinology:2,1,sinology:2,1,-3.08082
+[CLS] Bijutsu:3 Kenkyū:3 works in the field of art history . [SEP],art history,art history,1,art history,1,-3.33798
+[CLS] family court works in the field of family law . [SEP],family law,family law,1,family law,1,-3.83799
+[CLS] Anders Knutsson:2 Ångström:3 works in the field of meteorology:3 . [SEP],meteorology:3,meteorology:3,1,meteorology:3,1,-0.07232
+[CLS] George Francis Atkinson works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.23702
+[CLS] Jacques Pellegrin:3 works in the field of zoology:2 . [SEP],zoology:2,zoology:2,1,zoology:2,1,-2.87371
+[CLS] Walter Hermann Bucher:2 works in the field of paleontology:3 . [SEP],paleontology:3,paleontology:3,1,paleontology:3,1,-0.28043
+[CLS] Robert Caldwell works in the field of linguistics:2 . [SEP],linguistics:2,linguistics:2,1,linguistics:2,1,-2.85346
+[CLS] Ferdinand von Mueller works in the field of botany:2 . [SEP],botany:2,botany:2,1,botany:2,1,-0.34028
+[CLS] Jan Harold Brunvand:3 works in the field of folkloristics:3 . [SEP],folkloristics:3,folkloristics:3,1,folkloristics:3,1,-1.67920
+[CLS] Dorothee:3 Kern works in the field of protein folding:3 . [SEP],protein folding:3,protein folding:3,1,protein folding:3,1,-1.93866
+[CLS] John Dalton works in the field of meteorology:3 . [SEP],meteorology:3,meteorology:3,1,meteorology:3,1,-0.09797

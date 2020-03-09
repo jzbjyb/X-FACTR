@@ -1,0 +1,862 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Soren:2 Holm works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,bioethics:3,0,bioethics:3,0,-1.57504
+[CLS] Nail:2 Bakirov:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,probability theory,0,probability theory,0,-3.01335
+[CLS] The Physiological:2 Society works in the field of [MASK] [MASK] . [SEP],Physiology:2,physiology:3,0,physiology:3,0,-1.53889
+[CLS] Bertrand Russell works in the field of [MASK] . [SEP],psychology,history of philosophy,0,history of philosophy,0,-2.12206
+[CLS] Joseph Barth works in the field of [MASK] . [SEP],Barth,ophthalmology:5,0,ophthalmology:5,0,-3.48333
+[CLS] Hassler:2 Whitney works in the field of [MASK] . [SEP],Whitney,topology:2,0,topology:2,0,-0.82851
+[CLS] Rodrigo Caro works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-2.65441
+[CLS] feedback works in the field of [MASK] [MASK] . [SEP],cognitive psychology,control theory,0,control theory,0,-1.16909
+[CLS] Vijay Kumar Patodi:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,topology:2,0,topology:2,0,-2.38207
+[CLS] Victor Maslov:2 works in the field of [MASK] . [SEP],art,mathematical physics,0,mathematical physics,0,-3.04460
+[CLS] Oleg Viro:2 works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-3.60100
+[CLS] cityscape:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,art of painting,0,art of painting,0,-1.68097
+[CLS] George Pólya:3 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-2.95885
+[CLS] Frans de Waal:2 works in the field of [MASK] . [SEP],art,ethology:3,0,ethology:3,0,-2.97483
+[CLS] José Antonio Pavón:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.81629
+[CLS] Bureau of Meteorology:2 works in the field of [MASK] . [SEP],weather,meteorology:3,0,meteorology:3,0,-2.86626
+[CLS] Edward Rudge:3 works in the field of [MASK] . [SEP],education,botany:2,0,botany:2,0,-3.40273
+[CLS] Madeleine M . Joullié:3 works in the field of [MASK] . [SEP],education,organic chemistry,0,organic chemistry,0,-3.21576
+[CLS] Liberty Hyde Bailey works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,botany:2,0,botany:2,0,-3.27096
+[CLS] Jeff Dinitz:2 works in the field of [MASK] . [SEP],psychology,combinatorics:4,0,combinatorics:4,0,-3.53239
+[CLS] Abu Nasr:2 Mansur:2 works in the field of [MASK] . [SEP],music,astronomy:2,0,astronomy:2,0,-3.32607
+[CLS] András Hajnal:3 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-2.83799
+[CLS] Bachelor of Science in Nursing works in the field of [MASK] . [SEP],Nursing,nursing:2,0,nursing:2,0,-0.03152
+[CLS] armed forces works in the field of [MASK] [MASK] . [SEP],armed forces,military science,0,military science,0,-0.30611
+[CLS] Odd Hassel:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,physical chemistry,0,physical chemistry,0,-1.64190
+[CLS] Boris Grakov:3 works in the field of [MASK] . [SEP],art,archaeology:3,0,archaeology:3,0,-3.49186
+[CLS] toxinology:3 works in the field of [MASK] [MASK] . [SEP],toxin:2,toxin:2,1,toxin:2,1,-0.00439
+[CLS] Subrahmanyan:4 Chandrasekhar:3 works in the field of [MASK] . [SEP],music,astrophysics:5,0,astrophysics:5,0,-3.60059
+[CLS] L . W . Beineke:3 works in the field of [MASK] . [SEP],science,graph theory,0,graph theory,0,-3.63494
+[CLS] Bogdan Dobrescu:3 works in the field of [MASK] . [SEP],art,particle physics,0,particle physics,0,-2.77971
+[CLS] World History Association works in the field of [MASK] . [SEP],history,world history,0,world history,0,-3.37187
+[CLS] Giuseppe Luigi Assemani:3 works in the field of [MASK] . [SEP],music,Oriental studies,0,Oriental studies,0,-3.10293
+[CLS] Panos:2 Valavanis:3 works in the field of [MASK] . [SEP],sports,classical archaeology:3,0,classical archaeology:3,0,-3.73666
+[CLS] Georges Valiron:2 works in the field of [MASK] . [SEP],photography,mathematical analysis,0,mathematical analysis,0,-2.93636
+[CLS] Ernst Zermelo:3 works in the field of [MASK] . [SEP],science,mathematical logic,0,mathematical logic,0,-3.00645
+[CLS] George Claridge:3 Druce:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.97035
+[CLS] Jay Wright Forrester:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,system dynamics,0,system dynamics,0,-4.04381
+[CLS] Werner Rothmaler:2 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-1.82309
+[CLS] Robert Goldblatt:2 works in the field of [MASK] . [SEP],science,mathematical logic,0,mathematical logic,0,-3.32534
+[CLS] Julius Anatolyovich:4 Schrader:3 works in the field of [MASK] . [SEP],science,cybernetics:5,0,cybernetics:5,0,-3.31950
+[CLS] Realdo:2 Colombo works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,anatomy:3,0,anatomy:3,0,-1.56031
+[CLS] The Serra Project works in the field of [MASK] . [SEP],Serra,homelessness:3,0,homelessness:3,0,-2.57005
+[CLS] John Sibthorp:4 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.60858
+[CLS] David M . Wilson works in the field of [MASK] . [SEP],psychology,Viking Age,0,Viking Age,0,-2.59794
+[CLS] Viennese:2 Actionism:2 works in the field of [MASK] . [SEP],language,body art,0,body art,0,-3.48245
+[CLS] airport police works in the field of [MASK] [MASK] . [SEP],airports:2,airport security,0,airport security,0,-1.62260
+[CLS] Dimitris:2 Dimitrakos:4 works in the field of [MASK] . [SEP],art,Marxism:2,0,Marxism:2,0,-3.13893
+[CLS] Victor Kac:2 works in the field of [MASK] . [SEP],art,mathematical physics,0,mathematical physics,0,-2.87263
+[CLS] IEEE Emanuel R . Piore:2 Award works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,computer science,0,computer science,0,-1.93712
+[CLS] George Albert Boulenger works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-3.62341
+[CLS] Ernst Sejersted:3 Selmer:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,number theory,0,number theory,0,-1.72491
+[CLS] Ivan Buresh:3 works in the field of [MASK] . [SEP],art,zoology:2,0,zoology:2,0,-2.62240
+[CLS] Robert S . Mulliken:3 works in the field of [MASK] . [SEP],science,physical chemistry,0,physical chemistry,0,-2.80384
+[CLS] Paul Epstein works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,number theory,0,number theory,0,-3.07691
+[CLS] Alfred Aeppli:3 works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-3.16639
+[CLS] Frigyes:3 Riesz:3 works in the field of [MASK] . [SEP],art,functional analysis,0,functional analysis,0,-3.42127
+[CLS] Ernest Candèze:3 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-3.41315
+[CLS] Ram Prakash:3 Bambah:2 works in the field of [MASK] . [SEP],Ram,number theory,0,number theory,0,-3.08759
+[CLS] Johann Wolfgang von Goethe works in the field of [MASK] . [SEP],Goethe,anatomy:3,0,anatomy:3,0,-0.89421
+[CLS] Harry Morton Fitzpatrick:3 works in the field of [MASK] . [SEP],music,mycology:2,0,mycology:2,0,-2.83321
+[CLS] Weka:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,machine learning,0,machine learning,0,-1.51562
+[CLS] Edward J . Lofgren:3 works in the field of [MASK] . [SEP],psychology,nuclear physics,0,nuclear physics,0,-2.87273
+[CLS] Hans Fitting:2 works in the field of [MASK] . [SEP],music,group theory,0,group theory,0,-2.84207
+[CLS] Blaise Alexandre Desgoffe:3 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.24051
+[CLS] Robert Ridgway:4 works in the field of [MASK] . [SEP],science,ornithology:4,0,ornithology:4,0,-3.22705
+[CLS] Leon J . Osterweil:4 works in the field of [MASK] . [SEP],psychology,software engineering,0,software engineering,0,-2.99066
+[CLS] Georg August Schweinfurth:5 works in the field of [MASK] . [SEP],music,ethnography:3,0,ethnography:3,0,-2.35011
+[CLS] John Adrian Bondy:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,graph theory,0,graph theory,0,-3.89762
+[CLS] Tomasz Kitliński:3 works in the field of [MASK] . [SEP],music,religious studies,0,religious studies,0,-3.70397
+[CLS] Abraham Fraenkel:3 works in the field of [MASK] . [SEP],science,set theory,0,set theory,0,-3.68542
+[CLS] Horst Sachs works in the field of [MASK] . [SEP],music,graph theory,0,graph theory,0,-2.82338
+[CLS] Carlo Emilio Bonferroni:3 works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-3.27679
+[CLS] dental school works in the field of [MASK] [MASK] . [SEP],dental school,dentistry:3,0,dentistry:3,0,-0.25074
+[CLS] Glyn:2 Harman:2 works in the field of [MASK] . [SEP],psychology,number theory,0,number theory,0,-3.76512
+[CLS] Ernst Ahl:2 works in the field of [MASK] . [SEP],music,ichthyology:3,0,ichthyology:3,0,-2.69808
+[CLS] Bill Watterson:2 works in the field of [MASK] . [SEP],music,cartoonist:2,0,cartoonist:2,0,-2.99487
+[CLS] Pavel Molchanov:3 works in the field of [MASK] . [SEP],psychology,meteorology:3,0,meteorology:3,0,-3.64315
+[CLS] Kevin Mitnick:2 works in the field of [MASK] . [SEP],music,computer security,0,computer security,0,-3.39056
+[CLS] Geoffrey Grimmett:2 works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-3.12999
+[CLS] Boris Vorontsov:3 - Velyaminov:4 works in the field of [MASK] . [SEP],science,astronomy:2,0,astronomy:2,0,-3.61664
+[CLS] Sindanminsa:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,history of Korea,0,history of Korea,0,-2.38044
+[CLS] Ivan Solomonovich:2 Beritashvili:4 works in the field of [MASK] . [SEP],science,physiology:3,0,physiology:3,0,-3.49145
+[CLS] Albert Levan:2 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.38206
+[CLS] Marvin Minsky:2 works in the field of [MASK] . [SEP],psychology,artificial intelligence,0,artificial intelligence,0,-1.57582
+[CLS] Hermann Loew works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-2.15431
+[CLS] Hermann von Ihering:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.59940
+[CLS] R . A . Stewart Macalister:3 works in the field of [MASK] . [SEP],education,Ogham:2,0,Ogham:2,0,-3.65490
+[CLS] Rostislav:3 Alexeyev:3 works in the field of [MASK] . [SEP],art,shipbuilding:2,0,shipbuilding:2,0,-3.34059
+[CLS] Liisi:2 Oterma:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,astronomy:2,0,astronomy:2,0,-2.42978
+[CLS] Oman Journal of Ophthalmology:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.09462
+[CLS] John Harris works in the field of [MASK] . [SEP],science,bioethics:3,0,bioethics:3,0,-3.37685
+[CLS] Marie Curie works in the field of [MASK] . [SEP],art,radioactivity:3,0,radioactivity:3,0,-2.51058
+[CLS] John Bernard Burke works in the field of [MASK] . [SEP],Burke,genealogy:2,0,genealogy:2,0,-2.35849
+[CLS] Ralph Faudree:3 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-3.68381
+[CLS] Doron:2 Zeilberger:3 works in the field of [MASK] . [SEP],psychology,combinatorics:4,0,combinatorics:4,0,-3.33920
+[CLS] Indian Journal of Ophthalmology:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.11063
+[CLS] John Edwin Luecke:3 works in the field of [MASK] . [SEP],education,topology:2,0,topology:2,0,-3.38471
+[CLS] Béla Bollobás:3 works in the field of [MASK] . [SEP],music,graph theory,0,graph theory,0,-2.47465
+[CLS] Anthony Martial works in the field of [MASK] . [SEP],art,association football,0,association football,0,-2.20327
+[CLS] Robert Sedgewick:3 works in the field of [MASK] . [SEP],science,computer science,0,computer science,0,-2.65423
+[CLS] Schenkerian:4 analysis works in the field of [MASK] . [SEP],analysis,music theory,0,music theory,0,-0.49841
+[CLS] Clark Thomas Rogerson:2 works in the field of [MASK] . [SEP],education,mycology:2,0,mycology:2,0,-3.78164
+[CLS] James F . Crow works in the field of [MASK] . [SEP],psychology,population genetics:2,0,population genetics:2,0,-3.08942
+[CLS] Andrey:2 Kursanov:3 works in the field of [MASK] . [SEP],art,plant physiology:3,0,plant physiology:3,0,-3.51233
+[CLS] Diomidis:3 Kyriakos:3 works in the field of [MASK] . [SEP],music,constitutional law,0,constitutional law,0,-3.40143
+[CLS] Herman Kalckar:3 works in the field of [MASK] . [SEP],psychology,biochemistry:4,0,biochemistry:4,0,-3.54106
+[CLS] Leonard Gyllenhaal:4 works in the field of [MASK] . [SEP],psychology,entomology:3,0,entomology:3,0,-2.38167
+[CLS] William Lassell:2 works in the field of [MASK] . [SEP],music,astronomy:2,0,astronomy:2,0,-2.48251
+[CLS] Thomas Huckle:2 Weller:2 works in the field of [MASK] . [SEP],education,virology:2,0,virology:2,0,-3.68331
+[CLS] Tobias Mayer works in the field of [MASK] . [SEP],music,cartography:2,0,cartography:2,0,-3.02981
+[CLS] Ivan Martinov:2 works in the field of [MASK] . [SEP],art,philology:3,0,philology:3,0,-3.52092
+[CLS] Mikhail Somov:2 works in the field of [MASK] . [SEP],art,oceanography:2,0,oceanography:2,0,-3.55436
+[CLS] William Robert Ogilvie:3 - Grant works in the field of [MASK] . [SEP],medicine,ornithology:4,0,ornithology:4,0,-2.88952
+[CLS] Soraya:2 Saga works in the field of [MASK] . [SEP],drama,video game,0,video game,0,-2.87585
+[CLS] George Green works in the field of [MASK] . [SEP],music,mathematical analysis,0,mathematical analysis,0,-3.11690
+[CLS] Martin Löb:3 works in the field of [MASK] . [SEP],music,mathematical logic,0,mathematical logic,0,-2.76542
+[CLS] Laurent Freidel:2 works in the field of [MASK] . [SEP],music,quantum gravity,0,quantum gravity,0,-3.71123
+[CLS] Peter Breggin:3 works in the field of [MASK] . [SEP],psychology,psychiatry:4,0,psychiatry:4,0,-3.29220
+[CLS] Charles Lenormant:3 works in the field of [MASK] . [SEP],art,archaeology:3,0,archaeology:3,0,-3.79403
+[CLS] Toxicon:3 works in the field of [MASK] . [SEP],science,toxinology:3,0,toxinology:3,0,-2.77923
+[CLS] Dimitrie:2 Brândză:3 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.07138
+[CLS] John Carmack:2 works in the field of [MASK] . [SEP],music,virtual reality,0,virtual reality,0,-2.46154
+[CLS] Andre Melendez:3 works in the field of [MASK] . [SEP],art,illegal drug trade,0,illegal drug trade,0,-3.31949
+[CLS] Alexander Philadelpheus:3 works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-3.08590
+[CLS] Alexander A . Maximow:2 works in the field of [MASK] . [SEP],science,histology:3,0,histology:3,0,-2.96682
+[CLS] Philip Hall works in the field of [MASK] . [SEP],music,group theory,0,group theory,0,-3.55966
+[CLS] James S . Fishkin:2 works in the field of [MASK] . [SEP],science,political science,0,political science,0,-3.64005
+[CLS] Victor Jacquemont:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.00763
+[CLS] Flemish:3 Primitives:3 works in the field of [MASK] . [SEP],education,art of painting,0,art of painting,0,-2.90445
+[CLS] Tia:2 Keyes:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,photochemistry:4,0,photochemistry:4,0,-2.51847
+[CLS] Albert Kellogg:3 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.04710
+[CLS] Francisco Javier González - Acuña:3 works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-3.18902
+[CLS] Sergei Kurdyumov:4 works in the field of [MASK] . [SEP],music,mathematical physics,0,mathematical physics,0,-3.75757
+[CLS] Meteoritical:3 Society works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Meteor . . . .,planetary:2 science,0,planetary:2 science,0,-2.23957
+[CLS] Askold:2 Vinogradov:4 works in the field of [MASK] . [SEP],art,number theory,0,number theory,0,-3.17685
+[CLS] Nicolaus Copernicus:3 works in the field of [MASK] . [SEP],music,astronomy:2,0,astronomy:2,0,-3.14025
+[CLS] Ulrich Beck works in the field of [MASK] . [SEP],Beck,sociology:2,0,sociology:2,0,-2.62412
+[CLS] Alfred H . Barr works in the field of [MASK] . [SEP],Barr,history of art,0,history of art,0,-2.40098
+[CLS] Salvatore Ruggiero works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,illegal drug trade,0,illegal drug trade,0,-1.68438
+[CLS] Frédéric Cuvier works in the field of [MASK] . [SEP],philosophy,paleontology:3,0,paleontology:3,0,-2.45031
+[CLS] National Film Board of Canada works in the field of [MASK] . [SEP],drama,web documentary,0,web documentary,0,-2.88051
+[CLS] Göran Rothman works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.30577
+[CLS] Theodor Langhans:3 works in the field of [MASK] . [SEP],music,pathology:2,0,pathology:2,0,-2.95655
+[CLS] William Curtis works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.85127
+[CLS] John Obadiah:3 Westwood works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-2.97462
+[CLS] DIY:2 ethic:2 works in the field of [MASK] . [SEP],art,do it yourself:2,0,do it yourself:2,0,-2.73822
+[CLS] Leonard Kleinrock:2 works in the field of [MASK] . [SEP],psychology,queueing:2 theory,0,queueing:2 theory,0,-3.28172
+[CLS] Erich Hecke:2 works in the field of [MASK] . [SEP],psychology,number theory,0,number theory,0,-2.12764
+[CLS] Giovanni Gozzadini:3 works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-3.04084
+[CLS] Jacob Sturm works in the field of [MASK] . [SEP],art,entomology:3,0,entomology:3,0,-2.25456
+[CLS] Carl H . Eigenmann:3 works in the field of [MASK] . [SEP],psychology,ichthyology:3,0,ichthyology:3,0,-2.52623
+[CLS] Walter Isard:2 works in the field of [MASK] . [SEP],psychology,geography:2,0,geography:2,0,-3.07621
+[CLS] Marshall Hall works in the field of [MASK] . [SEP],music,group theory,0,group theory,0,-3.48187
+[CLS] Samuel Hahnemann:2 works in the field of [MASK] . [SEP],music,homeopathy:3,0,homeopathy:3,0,-1.74033
+[CLS] Benedict Gross works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-3.54567
+[CLS] Gilbert Baumslag:2 works in the field of [MASK] . [SEP],psychology,group theory,0,group theory,0,-3.60041
+[CLS] Anatol:2 Rapoport:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . and . .,systems theory,0,systems theory,0,-3.98116
+[CLS] quality works in the field of [MASK] . [SEP],education,pattern recognition,0,pattern recognition,0,-2.37043
+[CLS] Kaigetsudō:4 school works in the field of [MASK] [MASK] . [SEP],shō:2,printmaking:2,0,printmaking:2,0,-1.38896
+[CLS] Sandra Faber works in the field of [MASK] . [SEP],education,astrophysics:5,0,astrophysics:5,0,-3.61447
+[CLS] Margaret Altmann:2 works in the field of [MASK] . [SEP],education,animal husbandry:2,0,animal husbandry:2,0,-3.24904
+[CLS] Erwin Baur:2 works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-2.55218
+[CLS] list of entomology:3 journals works in the field of [MASK] [MASK] [MASK] . [SEP],entomology:3,entomology:3,1,entomology:3,1,-0.01117
+[CLS] Virgil Snyder works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.25566
+[CLS] Deepak:2 Chopra:2 works in the field of [MASK] . [SEP],music,quantum mysticism:3,0,quantum mysticism:3,0,-2.23830
+[CLS] Richard von Mises:2 works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-2.87396
+[CLS] Hjalmar Kiærskou:3 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.50609
+[CLS] Carlo Antonio Procaccini:3 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.02662
+[CLS] Michael E . Mann works in the field of [MASK] . [SEP],psychology,climatology:2,0,climatology:2,0,-2.40951
+[CLS] Josef Strzygowski:4 works in the field of [MASK] . [SEP],music,history of art,0,history of art,0,-2.66503
+[CLS] Julian Steward:3 works in the field of [MASK] . [SEP],music,anthropology:4,0,anthropology:4,0,-3.11482
+[CLS] Richard D . Gill works in the field of [MASK] . [SEP],psychology,probability theory,0,probability theory,0,-3.26377
+[CLS] Ray Kurzweil:3 works in the field of [MASK] . [SEP],psychology,futures:2 studies,0,futures:2 studies,0,-2.64475
+[CLS] John Grierson:3 works in the field of [MASK] . [SEP],music,documentary film,0,documentary film,0,-3.72506
+[CLS] Association of Mouth and Foot Painting Artists of the World works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],Mouth and foot art,disability:2,0,disability:2,0,-0.69044
+[CLS] Cornelis de Heem:2 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-2.63113
+[CLS] James Sowerby:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.83541
+[CLS] Ernst Otto Wilhelm Taschenberg:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.90356
+"[CLS] American Society of Heating:2 , Refrigerating:4 and Air - Conditioning:3 Engineers works in the field of [MASK] [MASK] . [SEP]",heating:2,HVAC:3,0,HVAC:3,0,-1.01805
+[CLS] Konstantin Ushinsky:3 works in the field of [MASK] . [SEP],art,pedagogy:2,0,pedagogy:2,0,-2.83634
+[CLS] Adolf von Baeyer:2 works in the field of [MASK] . [SEP],science,organic chemistry,0,organic chemistry,0,-2.93712
+[CLS] Frans Hubert Edouard Arthur Walter Robyns:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.67200
+[CLS] Albert Eschenmoser:4 works in the field of [MASK] . [SEP],music,organic chemistry,0,organic chemistry,0,-2.70870
+[CLS] Ralph Tate works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.00880
+[CLS] Pomponius:3 Mela:2 works in the field of [MASK] . [SEP],music,geography:2,0,geography:2,0,-3.56257
+[CLS] Andrey:2 Avinoff:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,entomology:3,0,entomology:3,0,-1.70775
+[CLS] Abraham Robinson works in the field of [MASK] . [SEP],Robinson,model theory,0,model theory,0,-1.32083
+[CLS] Nikolay:2 Zograf:2 works in the field of [MASK] . [SEP],science,zoology:2,0,zoology:2,0,-3.41264
+[CLS] Toshihiro:3 Nagoshi:3 works in the field of [MASK] . [SEP],music,video game,0,video game,0,-3.77104
+[CLS] Raphaelle:2 Peale:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,still life,0,still life,0,-2.66298
+[CLS] Monroe Beardsley:3 works in the field of [MASK] . [SEP],photography,aesthetics:3,0,aesthetics:3,0,-3.57693
+[CLS] August Johann Gottfried Bielenstein:3 works in the field of [MASK] . [SEP],music,linguistics:2,0,linguistics:2,0,-2.36369
+[CLS] mutual aid works in the field of [MASK] [MASK] . [SEP],mutual aid,organizational:2 theory,0,organizational:2 theory,0,-0.11554
+[CLS] Alfred Weber works in the field of [MASK] . [SEP],Weber,sociology:2,0,sociology:2,0,-2.02502
+[CLS] John Miers:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.69618
+[CLS] Nikolai Turczaninov:4 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-2.89411
+[CLS] Institute for the Study of the Ancient World works in the field of [MASK] . [SEP],history,archaeology:3,0,archaeology:3,0,-1.88187
+[CLS] Peter Walter works in the field of [MASK] . [SEP],music,molecular biology,0,molecular biology,0,-3.54473
+[CLS] Jacobus Golius:2 works in the field of [MASK] . [SEP],music,Oriental studies,0,Oriental studies,0,-2.95443
+[CLS] Adolph Daniel Edward Elmer works in the field of [MASK] . [SEP],Elmer,botany:2,0,botany:2,0,-1.48507
+[CLS] Alexander Garden works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.69626
+[CLS] Ken Kirkwood works in the field of [MASK] . [SEP],music,bioethics:3,0,bioethics:3,0,-2.75208
+"[CLS] Sir William Jardine:2 , 7th Baronet works in the field of [MASK] . [SEP]",cricket,ornithology:4,0,ornithology:4,0,-3.44050
+[CLS] Mikhail Alekseyev:3 works in the field of [MASK] . [SEP],art,linguistics:2,0,linguistics:2,0,-3.48856
+[CLS] Yuri Alexandrovich:3 Orlov:2 works in the field of [MASK] . [SEP],science,zoology:2,0,zoology:2,0,-3.27136
+[CLS] Wilhelm Stekel:3 works in the field of [MASK] . [SEP],music,psychoanalysis:5,0,psychoanalysis:5,0,-2.81838
+[CLS] Oskar Pfister:3 works in the field of [MASK] . [SEP],art,psychoanalysis:5,0,psychoanalysis:5,0,-2.49172
+[CLS] Domenico Vandelli:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.95720
+[CLS] Arthur Gardiner Butler works in the field of [MASK] . [SEP],music,arachnology:3,0,arachnology:3,0,-1.54700
+[CLS] Nicolaus Kleinenberg:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.75497
+[CLS] Hacktivismo:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],thecktivism:4,hacktivism:4,0,hacktivism:4,0,-1.78925
+[CLS] David Nachmansohn:3 works in the field of [MASK] . [SEP],music,biochemistry:4,0,biochemistry:4,0,-2.96793
+[CLS] Dmitry:3 Morduhai:3 - Boltovskoi:4 works in the field of [MASK] . [SEP],art,history of mathematics,0,history of mathematics,0,-3.48897
+[CLS] Erik Albert Holmgren:2 works in the field of [MASK] . [SEP],music,partial differential equation,0,partial differential equation,0,-3.35190
+[CLS] Frederick Grinnell:3 works in the field of [MASK] . [SEP],science,bioethics:3,0,bioethics:3,0,-3.31468
+[CLS] Arno Tausch:2 works in the field of [MASK] . [SEP],music,political science,0,political science,0,-2.41124
+[CLS] World Population Foundation works in the field of [MASK] . [SEP],education,reproductive:3 rights,0,reproductive:3 rights,0,-2.91406
+[CLS] Rifkat:3 Bogdanov:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,bifurcation:3 theory,0,bifurcation:3 theory,0,-2.95007
+[CLS] Michael Ruse:2 works in the field of [MASK] . [SEP],music,philosophy of science,0,philosophy of science,0,-3.16860
+[CLS] Nikolay:2 Ilminsky:3 works in the field of [MASK] . [SEP],science,Turkology:2,0,Turkology:2,0,-3.27422
+[CLS] Bernhard Dorn:2 works in the field of [MASK] . [SEP],music,Oriental studies,0,Oriental studies,0,-2.72414
+[CLS] Anna - Teresa Tymieniecka:4 works in the field of [MASK] . [SEP],art,phenomenology:4,0,phenomenology:4,0,-2.79264
+[CLS] Julius Victor Carus:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-3.37391
+[CLS] Shahab:2 al - Din Suhrawardi:4 works in the field of [MASK] . [SEP],music,Sufism:3,0,Sufism:3,0,-3.19458
+[CLS] Norair:2 Sisakian:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,biochemistry:4,0,biochemistry:4,0,-2.93511
+[CLS] Cai Xitao:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.26389
+[CLS] Tomek:2 Bartoszyński:4 works in the field of [MASK] . [SEP],music,set theory,0,set theory,0,-3.34882
+[CLS] Nikita Moiseyev:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,applied mathematics,0,applied mathematics,0,-1.67128
+[CLS] Friedrich Daniel von Recklinghausen:3 works in the field of [MASK] . [SEP],music,anatomical:3 pathology:2,0,anatomical:3 pathology:2,0,-2.16796
+[CLS] Luigi Broglio:2 works in the field of [MASK] . [SEP],music,astronautics:4,0,astronautics:4,0,-3.02356
+[CLS] Expert:2 Opinion:3 on Drug Metabolism:2 & Toxicology:3 works in the field of [MASK] [MASK] [MASK] . [SEP],drug metabolism:2,toxicology:3,0,toxicology:3,0,-0.06680
+[CLS] Hans Spemann:2 works in the field of [MASK] . [SEP],music,embryology:3,0,embryology:3,0,-1.70103
+[CLS] Hans Hahn works in the field of [MASK] . [SEP],music,set theory,0,set theory,0,-2.91646
+[CLS] Ophthalmology:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.15133
+[CLS] Stanisław Kostanecki:3 works in the field of [MASK] . [SEP],art,organic chemistry,0,organic chemistry,0,-2.93997
+[CLS] John Tradescant:3 the Younger works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.47005
+[CLS] William Menasco:2 works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-3.42860
+[CLS] George Smith works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Assyriology:3,0,Assyriology:3,0,-1.82687
+[CLS] Albert Ellis works in the field of [MASK] . [SEP],Ellis,clinical psychology,0,clinical psychology,0,-3.17572
+[CLS] Cornell Lab of Ornithology:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.36395
+[CLS] Wilhelm Hofmeister:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.11907
+[CLS] Alexander Beilinson:3 works in the field of [MASK] . [SEP],science,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.57208
+[CLS] Hermann von Helmholtz:3 works in the field of [MASK] . [SEP],chemistry,physiology:3,0,physiology:3,0,-2.74540
+[CLS] Chushiro:3 Hayashi:2 works in the field of [MASK] . [SEP],drama,astrophysics:5,0,astrophysics:5,0,-2.97075
+[CLS] Julius Rudolph Theodor Vogel works in the field of [MASK] . [SEP],Vogel,botany:2,0,botany:2,0,-0.32606
+[CLS] Aaron Aaronsohn:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.82882
+[CLS] Pharmacotherapy:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],pharmacotherapy:5,pharmacology:3,0,pharmacology:3,0,-0.11843
+[CLS] Thomas Robert Soderstrom:4 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.47668
+[CLS] Steven N . S . Cheung:2 works in the field of [MASK] . [SEP],science,microeconomics:4,0,microeconomics:4,0,-2.99754
+[CLS] Shigefumi:4 Mori works in the field of [MASK] . [SEP],drama,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.55038
+[CLS] Wernher:3 von Braun works in the field of [MASK] . [SEP],psychology,aerospace:3 engineering,0,aerospace:3 engineering,0,-2.89443
+[CLS] Paul Heinrich von Groth:2 works in the field of [MASK] . [SEP],music,mineralogy:2,0,mineralogy:2,0,-3.20941
+[CLS] Gérard Encausse:3 works in the field of [MASK] . [SEP],science,occult:3,0,occult:3,0,-2.89833
+[CLS] Jisaburo:3 Ohwi:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.85235
+[CLS] Richard M . Dudley works in the field of [MASK] . [SEP],psychology,probability theory,0,probability theory,0,-3.63261
+[CLS] Jean - Baptiste Claudot:3 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.40721
+[CLS] Alfréd:3 Rényi:2 works in the field of [MASK] . [SEP],science,combinatorics:4,0,combinatorics:4,0,-2.98937
+[CLS] Christos:2 Tsountas:3 works in the field of [MASK] . [SEP],art,classical archaeology:3,0,classical archaeology:3,0,-3.24390
+[CLS] Naum:2 Akhiezer:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,approximation:3 theory,0,approximation:3 theory,0,-3.09861
+[CLS] Václav E . Beneš:2 works in the field of [MASK] . [SEP],education,queueing:2 theory,0,queueing:2 theory,0,-3.57701
+[CLS] Dukinfield:3 Henry Scott works in the field of [MASK] . [SEP],education,botany:2,0,botany:2,0,-3.61626
+[CLS] Juan José Linz works in the field of [MASK] . [SEP],Linz,political science,0,political science,0,-2.51225
+[CLS] Titanic Thompson works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Hustling:2,0,Hustling:2,0,-1.57279
+[CLS] Martin Margiela:3 works in the field of [MASK] . [SEP],music,fashion design,0,fashion design,0,-3.25910
+[CLS] Arnold Squitieri:3 works in the field of [MASK] . [SEP],music,illegal drug trade,0,illegal drug trade,0,-3.01380
+[CLS] Lotte van Beek:2 works in the field of [MASK] . [SEP],art,speed skating:2,0,speed skating:2,0,-2.80573
+[CLS] Boris Delaunay:3 works in the field of [MASK] . [SEP],music,crystallography:3,0,crystallography:3,0,-2.63997
+[CLS] Ruth Faden:2 works in the field of [MASK] . [SEP],art,bioethics:3,0,bioethics:3,0,-3.69494
+[CLS] James Edward Smith works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.00765
+[CLS] European Journal of Pharmacology:3 works in the field of [MASK] [MASK] [MASK] . [SEP],pharmacology:3,pharmacology:3,1,pharmacology:3,1,-0.08590
+[CLS] Eric Hoffer:2 works in the field of [MASK] . [SEP],psychology,social psychology,0,social psychology,0,-2.81241
+[CLS] Gensim:2 works in the field of [MASK] . [SEP],music,natural language processing,0,natural language processing,0,-3.26188
+[CLS] Bernd J . Kröger:3 works in the field of [MASK] . [SEP],psychology,phonetics:2,0,phonetics:2,0,-3.43367
+[CLS] Judith Butler works in the field of [MASK] . [SEP],literature,literary theory,0,literary theory,0,-2.41329
+[CLS] August Schenk:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.59917
+[CLS] Cleve:2 Backster:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,polygraph:4,0,polygraph:4,0,-2.57125
+[CLS] Sociedad para el Estudio:2 del Andaluz:3 works in the field of [MASK] . [SEP],art,Andalusian:3 Spanish,0,Andalusian:3 Spanish,0,-2.58709
+[CLS] Neuropharmacology:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],neuropharmacology:5,neuropharmacology:5,1,neuropharmacology:5,1,-0.06591
+[CLS] Brian Bowditch:3 works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-3.00804
+[CLS] Stephen Wiesner:3 works in the field of [MASK] . [SEP],psychology,quantum information science,0,quantum information science,0,-2.22295
+[CLS] Eduardo Naranjo:2 works in the field of [MASK] . [SEP],music,art of painting,0,art of painting,0,-2.42457
+[CLS] Joachim Wilhelm Franz Philipp von Holtzendorff:4 works in the field of [MASK] . [SEP],music,jurisprudence:4,0,jurisprudence:4,0,-3.12817
+[CLS] Raymond Thayer:2 Birge:2 works in the field of [MASK] . [SEP],education,physical chemistry,0,physical chemistry,0,-3.98668
+[CLS] Johannes Boersma:2 works in the field of [MASK] . [SEP],music,mathematical analysis,0,mathematical analysis,0,-2.48012
+[CLS] Ignatz:3 Urban works in the field of [MASK] . [SEP],Urban,botany:2,0,botany:2,0,-2.50065
+[CLS] Philip Miller works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.12595
+[CLS] knot:2 works in the field of [MASK] [MASK] . [SEP],knot:2,knot:2 theory,0,knot:2 theory,0,-0.01143
+[CLS] Callippus:3 works in the field of [MASK] . [SEP],art,astronomy:2,0,astronomy:2,0,-3.15153
+[CLS] Josef Holub:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.65835
+[CLS] Don Zagier:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,number theory,0,number theory,0,-1.68192
+[CLS] Catherine Lord works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,colonialism:2,0,colonialism:2,0,-1.73086
+[CLS] Earle:2 Gorton:2 Linsley:2 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-4.07146
+[CLS] Ivan M . Niven:2 works in the field of [MASK] . [SEP],science,number theory,0,number theory,0,-3.04566
+[CLS] Tobis:2 Film works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,film distribution,0,film distribution,0,-1.60135
+[CLS] Arthur Milgram:2 works in the field of [MASK] . [SEP],art,differential geometry,0,differential geometry,0,-3.39298
+[CLS] Yodelin:3 ' Slim Clark works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,yodeling:2,0,yodeling:2,0,-3.45262
+[CLS] Donald Knuth:2 works in the field of [MASK] . [SEP],psychology,computer science,0,computer science,0,-2.56991
+[CLS] Otto Neurath:2 works in the field of [MASK] . [SEP],music,sociology:2,0,sociology:2,0,-2.79041
+[CLS] Dag Prawitz:3 works in the field of [MASK] . [SEP],art,proof theory,0,proof theory,0,-3.45892
+[CLS] Carl Fredrik Nyman:2 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.00479
+[CLS] John Nathaniel Couch:2 works in the field of [MASK] . [SEP],music,mycology:2,0,mycology:2,0,-3.42626
+[CLS] KOS:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,counterintelligence:4,0,counterintelligence:4,0,-1.62148
+[CLS] N . U . Prabhu:3 works in the field of [MASK] . [SEP],education,queueing:2 theory,0,queueing:2 theory,0,-2.82634
+[CLS] Rudolf Kner:2 works in the field of [MASK] . [SEP],psychology,zoology:2,0,zoology:2,0,-2.86755
+[CLS] Christian de Duve:2 works in the field of [MASK] . [SEP],music,cell biology,0,cell biology,0,-2.46736
+[CLS] Dresden school works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,art of sculpture,0,art of sculpture,0,-1.71255
+[CLS] quality - adjusted:2 life year works in the field of [MASK] . [SEP],education,health economics,0,health economics,0,-1.90191
+[CLS] David Eisenbud:2 works in the field of [MASK] . [SEP],psychology,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.12098
+[CLS] Rinchen:2 Barsbold:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,paleontology:3,0,paleontology:3,0,-1.75827
+[CLS] Andy Miah:2 works in the field of [MASK] . [SEP],music,bioethics:3,0,bioethics:3,0,-2.80541
+[CLS] pointillism:3 works in the field of [MASK] . [SEP],science,art of painting,0,art of painting,0,-2.88406
+[CLS] Ruqaya:4 Al - Ghasra:3 works in the field of [MASK] . [SEP],literature,100 metres,0,100 metres,0,-2.94029
+[CLS] Stephen Hawking:2 works in the field of [MASK] . [SEP],science,quantum gravity,0,quantum gravity,0,-2.53349
+[CLS] Murray Rothbard:2 works in the field of [MASK] . [SEP],psychology,libertarianism:3,0,libertarianism:3,0,-2.34309
+[CLS] Boris Hessen works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,history of science,0,history of science,0,-1.67520
+[CLS] Goichi:2 Suda:2 works in the field of [MASK] . [SEP],music,video game,0,video game,0,-2.98130
+[CLS] Aby Warburg:2 works in the field of [MASK] . [SEP],art,history of art,0,history of art,0,-2.86692
+[CLS] W . Hugh Woodin:2 works in the field of [MASK] . [SEP],music,set theory,0,set theory,0,-3.63738
+[CLS] Lorenz Oken:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.51426
+[CLS] graph works in the field of [MASK] [MASK] . [SEP],graph theory,computer science,0,computer science,0,-1.20396
+[CLS] Ernst Specker:2 works in the field of [MASK] . [SEP],art,set theory,0,set theory,0,-2.86386
+[CLS] Solomon W . Golomb:2 works in the field of [MASK] . [SEP],science,number theory,0,number theory,0,-3.52359
+[CLS] G . H . Hardy works in the field of [MASK] . [SEP],psychology,number theory,0,number theory,0,-2.85326
+[CLS] Ciro:2 Mancuso:3 works in the field of [MASK] . [SEP],music,illegal drug trade,0,illegal drug trade,0,-2.62553
+[CLS] Vasily:2 Zuyev:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-3.76518
+[CLS] Richard Assmann:2 works in the field of [MASK] . [SEP],psychology,meteorology:3,0,meteorology:3,0,-3.18617
+[CLS] Marinus:2 of Tyre:2 works in the field of [MASK] . [SEP],music,cartography:2,0,cartography:2,0,-3.41890
+[CLS] Fuad:2 Aleskerov:3 works in the field of [MASK] . [SEP],education,game theory,0,game theory,0,-3.78061
+[CLS] Fayyazuddin:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,mathematical physics,0,mathematical physics,0,-2.84627
+[CLS] Sébastien Vaillant:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.64455
+[CLS] Samantha Power works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the , . . .",freedom of religion,0,freedom of religion,0,-2.43672
+[CLS] Diederich:3 Franz Leonhard von Schlechtendal:4 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.26770
+[CLS] Karl Wilhelm von Kupffer:3 works in the field of [MASK] . [SEP],music,anatomy:3,0,anatomy:3,0,-3.21229
+[CLS] Ulrich Eisenlohr:3 works in the field of [MASK] . [SEP],music,classical music,0,classical music,0,-3.34581
+[CLS] Carey Price works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,goaltender:2,0,goaltender:2,0,-3.06041
+[CLS] Baruch:2 Brody works in the field of [MASK] . [SEP],Brody,bioethics:3,0,bioethics:3,0,-1.11731
+[CLS] programming style works in the field of [MASK] [MASK] . [SEP],programming language,computer science,0,computer science,0,-0.62397
+[CLS] Joseph Anselm:3 Feuerbach:2 works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-2.40334
+[CLS] Harold Davenport works in the field of [MASK] . [SEP],psychology,number theory,0,number theory,0,-2.61795
+[CLS] Irina Glushkova:4 works in the field of [MASK] . [SEP],art,Indology:2,0,Indology:2,0,-3.39327
+[CLS] Leonora:2 A . Hohl:2 works in the field of [MASK] . [SEP],education,Saccharomyces:5 cerevisiae:4,0,Saccharomyces:5 cerevisiae:4,0,-3.03217
+[CLS] David Paintin:2 works in the field of [MASK] . [SEP],art,obstetrics:4 and gynaecology:4,0,obstetrics:4 and gynaecology:4,0,-3.25718
+[CLS] Hiroshi Ishiguro:3 works in the field of [MASK] . [SEP],photography,robotics:2,0,robotics:2,0,-3.39715
+[CLS] Hipólito:3 Ruiz López works in the field of [MASK] . [SEP],education,botany:2,0,botany:2,0,-3.54364
+[CLS] Cees:2 Dekker:2 works in the field of [MASK] . [SEP],music,nanotechnology:4,0,nanotechnology:4,0,-2.87710
+[CLS] Ilia:2 Vekua:2 works in the field of [MASK] . [SEP],music,integral equation,0,integral equation,0,-3.37875
+[CLS] K . B . Reid works in the field of [MASK] . [SEP],science,graph theory,0,graph theory,0,-2.31676
+[CLS] Graham Higman:3 works in the field of [MASK] . [SEP],music,group theory,0,group theory,0,-3.39704
+[CLS] Wilhelm Anderson works in the field of [MASK] . [SEP],science,astrophysics:5,0,astrophysics:5,0,-3.17198
+[CLS] Jared Diamond works in the field of [MASK] . [SEP],psychology,ecology:2,0,ecology:2,0,-2.70440
+[CLS] William Edward de Winton:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.99089
+[CLS] Louis de Broglie:2 works in the field of [MASK] . [SEP],music,theoretical physics,0,theoretical physics,0,-3.04787
+[CLS] Doro:2 Levi works in the field of [MASK] . [SEP],Levi,archaeology:3,0,archaeology:3,0,-1.97737
+[CLS] Merritt:2 Lyndon Fernald:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.71350
+[CLS] Gheorghe Panaiteanu:4 Bardasare:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,art of painting,0,art of painting,0,-3.55584
+[CLS] Filaret:3 Kolessa:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,musicology:2,0,musicology:2,0,-3.16546
+[CLS] Renato Caccioppoli:4 works in the field of [MASK] . [SEP],music,functional analysis,0,functional analysis,0,-3.95393
+[CLS] Raymond Louis Wilder works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-3.19306
+[CLS] Emanuel Sperner:3 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-2.52470
+[CLS] Nepalese:2 Journal of Ophthalmology:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ophthalmology:5,ophthalmology:5,1,ophthalmology:5,1,-0.13564
+[CLS] Satoshi:2 Tajiri:2 works in the field of [MASK] . [SEP],music,video game,0,video game,0,-3.55662
+[CLS] Paul Halmos:2 works in the field of [MASK] . [SEP],psychology,set theory,0,set theory,0,-3.02585
+[CLS] Karl Theodor Ernst von Siebold:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.79337
+[CLS] Adrian Hardy Haworth:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,botany:2,0,botany:2,0,-2.79859
+[CLS] Dimitris:2 Dimitrakos:4 works in the field of [MASK] . [SEP],art,epistemology:3,0,epistemology:3,0,-3.13893
+[CLS] Rudi Studer:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Semantic:3 Web,0,Semantic:3 Web,0,-1.72739
+[CLS] Nicola Levoli:2 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.29061
+[CLS] Boleslav Mlodzeevskii:5 works in the field of [MASK] . [SEP],art,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.73790
+[CLS] Carolus Clusius:3 works in the field of [MASK] . [SEP],theology,botany:2,0,botany:2,0,-2.90396
+[CLS] Bundesgrenzschutz:4 works in the field of [MASK] . [SEP],police,border guard,0,border guard,0,-2.49715
+[CLS] Robert Minlos:2 works in the field of [MASK] . [SEP],science,probability theory,0,probability theory,0,-3.41988
+[CLS] Helen E . Fisher works in the field of [MASK] . [SEP],psychology,anthropology:4,0,anthropology:4,0,-2.51960
+[CLS] Richard Hertwig:3 works in the field of [MASK] . [SEP],psychology,zoology:2,0,zoology:2,0,-3.16310
+[CLS] Ernst Ahl:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.69808
+[CLS] Eugene Odum:2 works in the field of [MASK] . [SEP],music,ecology:2,0,ecology:2,0,-3.01613
+[CLS] MI5:2 works in the field of [MASK] . [SEP],police,counterintelligence:4,0,counterintelligence:4,0,-3.63664
+[CLS] Paul Henri Lecomte:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.88275
+[CLS] Boudewijn:4 Sirks:2 works in the field of [MASK] . [SEP],music,Roman law,0,Roman law,0,-3.16500
+[CLS] James George Frazer:2 works in the field of [MASK] . [SEP],music,anthropology:4,0,anthropology:4,0,-3.31774
+[CLS] Karl Hermann Zahn:2 works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-2.94006
+[CLS] Karl Weierstraß:4 works in the field of [MASK] . [SEP],psychology,complex analysis,0,complex analysis,0,-2.36607
+[CLS] The Designers:2 Republic works in the field of [MASK] [MASK] [MASK] . [SEP],design and design,graphic design,0,graphic design,0,-2.05159
+[CLS] Tommaso Realfonso:3 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-2.76483
+[CLS] Stephen Hawking:2 works in the field of [MASK] . [SEP],science,general relativity:2,0,general relativity:2,0,-2.53348
+[CLS] Robert Edwards works in the field of [MASK] . [SEP],photography,reproductive:3 medicine,0,reproductive:3 medicine,0,-3.16835
+[CLS] Volodymyr:4 Pidvysotskyi:6 works in the field of [MASK] . [SEP],art,pathology:2,0,pathology:2,0,-3.33497
+[CLS] František Šorm:3 works in the field of [MASK] . [SEP],art,biochemistry:4,0,biochemistry:4,0,-3.35914
+[CLS] Arturo Molina Sosa:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,gynecology:3,0,gynecology:3,0,-2.81735
+[CLS] Chandra Muzaffar:4 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,political science,0,political science,0,-1.55128
+[CLS] James Munkres:3 works in the field of [MASK] . [SEP],science,topology:2,0,topology:2,0,-3.47038
+[CLS] Klaus Wagner works in the field of [MASK] . [SEP],music,graph theory,0,graph theory,0,-2.74882
+[CLS] Jiang Fan works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,110 metres hurdles:2,0,110 metres hurdles:2,0,-1.55497
+[CLS] Charles François Antoine Morren:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.69562
+[CLS] Olga Arsenievna:3 Oleinik:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,theory of elasticity:3,0,theory of elasticity:3,0,-1.58226
+[CLS] Minnesota School of Cosmetology:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],cosmetology:4,cosmetology:3,0,cosmetology:3,0,-0.99400
+[CLS] James Kennedy works in the field of [MASK] . [SEP],music,particle swarm:3 optimization:3,0,particle swarm:3 optimization:3,0,-3.21157
+[CLS] Emil von Sydow:2 works in the field of [MASK] . [SEP],music,geography:2,0,geography:2,0,-2.94774
+[CLS] Ann Dunham:2 works in the field of [MASK] . [SEP],education,anthropology:4,0,anthropology:4,0,-3.30061
+[CLS] Rafael Lopez Guzman:3 works in the field of [MASK] . [SEP],education,art history,0,art history,0,-3.56357
+[CLS] Benjamin Fillon:2 works in the field of [MASK] . [SEP],music,numismatics:3,0,numismatics:3,0,-3.11664
+[CLS] Natalia Bekhtereva:4 works in the field of [MASK] . [SEP],art,neurophysiology:4,0,neurophysiology:4,0,-3.10621
+[CLS] Carlo Maderno:2 works in the field of [MASK] . [SEP],painting,baroque architecture,0,baroque architecture,0,-2.77549
+[CLS] Arnošt:3 Lustig:2 works in the field of [MASK] . [SEP],music,The Holocaust,0,The Holocaust,0,-2.52639
+[CLS] Constitutional Convention works in the field of [MASK] . [SEP],education,United States Constitution,0,United States Constitution,0,-3.00357
+[CLS] Alexander Varchenko:2 works in the field of [MASK] . [SEP],art,mathematical physics,0,mathematical physics,0,-3.16947
+[CLS] Moriz:2 Kaposi:2 works in the field of [MASK] . [SEP],music,dermatology:3,0,dermatology:3,0,-3.54144
+[CLS] Paul Friedrich August Ascherson:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.56756
+[CLS] Cornelius Lott:2 Shear:2 works in the field of [MASK] . [SEP],music,mycology:2,0,mycology:2,0,-3.40094
+[CLS] Bas Jan Ader:2 works in the field of [MASK] . [SEP],music,conceptual:2 art,0,conceptual:2 art,0,-2.69552
+[CLS] Louis Nirenberg:3 works in the field of [MASK] . [SEP],science,partial differential equation,0,partial differential equation,0,-2.43434
+[CLS] Bunzō:3 Hayata:2 works in the field of [MASK] . [SEP],drama,botany:2,0,botany:2,0,-3.05293
+[CLS] Alexander Adriaenssen:4 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.15021
+[CLS] Hrachia:3 Adjarian:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,philology:3,0,philology:3,0,-3.11028
+[CLS] Howard H . Aiken works in the field of [MASK] . [SEP],psychology,applied mathematics,0,applied mathematics,0,-2.66696
+[CLS] Calliope:3 works in the field of [MASK] . [SEP],art,epic poem,0,epic poem,0,-2.61799
+[CLS] Safi:2 - ad - din Ardabili:3 works in the field of [MASK] . [SEP],Islam,Sufism:3,0,Sufism:3,0,-3.55208
+[CLS] Domenico Cirillo:2 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-2.65193
+[CLS] Gaetano Fichera:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,mathematical analysis,0,mathematical analysis,0,-1.66745
+[CLS] W . B . R . Lickorish:3 works in the field of [MASK] . [SEP],science,topology:2,0,topology:2,0,-3.63640
+[CLS] Georg August Goldfuss:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.37191
+[CLS] Johannes Sobotta:3 works in the field of [MASK] . [SEP],music,anatomy:3,0,anatomy:3,0,-3.05378
+[CLS] Fazle:2 Hussain:2 works in the field of [MASK] . [SEP],music,mechanical engineering,0,mechanical engineering,0,-3.33036
+[CLS] Rudolf Halin:2 works in the field of [MASK] . [SEP],psychology,graph theory,0,graph theory,0,-2.15120
+[CLS] Guido Zappa works in the field of [MASK] . [SEP],music,group theory,0,group theory,0,-2.38638
+[CLS] Arnold Chikobava:3 works in the field of [MASK] . [SEP],music,philology:3,0,philology:3,0,-3.16903
+[CLS] Charles Baron Clarke works in the field of [MASK] . [SEP],Clarke,botany:2,0,botany:2,0,-2.62603
+[CLS] Seminars:2 in Ophthalmology:5 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Ophthalmology:5,ophthalmology:5,0,ophthalmology:5,0,-0.06498
+[CLS] Jules Paul Benjamin Delessert:3 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.85159
+[CLS] Kathrin:3 Bringmann:2 works in the field of [MASK] . [SEP],education,number theory,0,number theory,0,-3.76652
+[CLS] Robert Louis Dressler:3 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.07603
+[CLS] George Szekeres:3 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-3.33798
+[CLS] Grigor:3 Gurzadyan:5 works in the field of [MASK] . [SEP],art,astrophysics:5,0,astrophysics:5,0,-3.55056
+[CLS] Joram:2 Lindenstrauss:3 works in the field of [MASK] . [SEP],science,functional analysis,0,functional analysis,0,-3.67487
+[CLS] Katherine Esau:2 works in the field of [MASK] . [SEP],psychology,plant anatomy:3,0,plant anatomy:3,0,-3.05621
+[CLS] Mathukumalli:4 V . Subbarao:3 works in the field of [MASK] . [SEP],education,number theory,0,number theory,0,-3.51665
+[CLS] Vladimir Arnold works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,topology:2,0,topology:2,0,-2.70196
+[CLS] William S . Burroughs works in the field of [MASK] . [SEP],Burroughs,satire:2,0,satire:2,0,-1.44985
+[CLS] Zinaida:3 Botschantzeva:5 works in the field of [MASK] . [SEP],education,botany:2,0,botany:2,0,-3.39814
+[CLS] frame language works in the field of [MASK] [MASK] . [SEP],frame language,artificial intelligence,0,artificial intelligence,0,-0.11785
+[CLS] DARPA:3 works in the field of [MASK] . [SEP],technology,research and development,0,research and development,0,-2.61135
+[CLS] Guiscardo:4 Améndola:3 works in the field of [MASK] . [SEP],music,art of painting,0,art of painting,0,-3.33661
+[CLS] William Turner Thiselton:3 - Dyer:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.37776
+[CLS] Niels Henrik Abel works in the field of [MASK] . [SEP],mathematics,group theory,0,group theory,0,-2.62006
+[CLS] Karl Friedrich Theodor Krause works in the field of [MASK] . [SEP],Krause,anatomy:3,0,anatomy:3,0,-3.28036
+[CLS] Carl Sigismund Kunth works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.51698
+[CLS] David de Gorter:2 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-2.95642
+[CLS] Boris Uvarov:3 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-2.75381
+[CLS] John B . Conway works in the field of [MASK] . [SEP],science,topology:2,0,topology:2,0,-3.29675
+[CLS] James D . Watson works in the field of [MASK] . [SEP],science,molecular biology,0,molecular biology,0,-1.89752
+[CLS] Tomasz Kitliński:3 works in the field of [MASK] . [SEP],music,critical theory,0,critical theory,0,-3.70398
+[CLS] Alfred Clebsch:3 works in the field of [MASK] . [SEP],music,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.17242
+[CLS] John R . Ross works in the field of [MASK] . [SEP],science,linguistics:2,0,linguistics:2,0,-2.95119
+[CLS] Paul Erdmann:3 Isert:2 works in the field of [MASK] . [SEP],education,botany:2,0,botany:2,0,-3.57083
+[CLS] Jan Śleszyński:3 works in the field of [MASK] . [SEP],art,proof theory,0,proof theory,0,-2.55277
+[CLS] Vladimir Drinfeld:3 works in the field of [MASK] . [SEP],psychology,mathematical physics,0,mathematical physics,0,-2.91116
+[CLS] Kohji:3 Matsumoto:2 works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-3.13219
+[CLS] William Isaac Thomas works in the field of [MASK] . [SEP],Thomas,sociology:2,0,sociology:2,0,-2.17795
+[CLS] Gabriel Bibron:2 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-3.09003
+[CLS] Henry Friesen:2 works in the field of [MASK] . [SEP],music,endocrinology:4,0,endocrinology:4,0,-3.21374
+[CLS] Ed Perkins works in the field of [MASK] . [SEP],education,probability theory,0,probability theory,0,-3.34281
+[CLS] Carl Rogers works in the field of [MASK] . [SEP],music,psychotherapy:5,0,psychotherapy:5,0,-3.63717
+[CLS] Arnold Lang works in the field of [MASK] . [SEP],music,comparative anatomy:3,0,comparative anatomy:3,0,-3.43884
+[CLS] Kiiti:2 Morita:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,topology:2,0,topology:2,0,-2.70873
+[CLS] John Ruskin:2 works in the field of [MASK] . [SEP],art,art criticism,0,art criticism,0,-2.82300
+[CLS] Robert Campbell Gunn works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-2.87871
+[CLS] Oskar Perron:2 works in the field of [MASK] . [SEP],art,partial differential equation,0,partial differential equation,0,-3.20956
+[CLS] August Kanitz:2 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-2.99449
+[CLS] Wolfgang Stechow:3 works in the field of [MASK] . [SEP],music,history of art,0,history of art,0,-2.55521
+[CLS] Giovanni Antonio Amedeo:3 Plana works in the field of [MASK] . [SEP],Naples,astronomy:2,0,astronomy:2,0,-4.31000
+[CLS] Frederick William Hope works in the field of [MASK] . [SEP],Hope,entomology:3,0,entomology:3,0,-2.57456
+[CLS] H . F . Baker works in the field of [MASK] . [SEP],science,partial differential equation,0,partial differential equation,0,-3.23154
+[CLS] Antonio Krapovickas:4 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.17417
+[CLS] Johann Anton Weinmann:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.42997
+[CLS] Newton Chandler works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Australian rules football,0,Australian rules football,0,-1.63603
+[CLS] Frans Reinhold Kjellman:2 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.40363
+[CLS] Alexander K . Becker works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-3.18184
+[CLS] Alexander Razborov:4 works in the field of [MASK] . [SEP],art,computational:3 complexity theory,0,computational:3 complexity theory,0,-3.43909
+[CLS] Muhammad al - Shaybani:3 works in the field of [MASK] . [SEP],Islam,fiqh:3,0,fiqh:3,0,-2.92345
+[CLS] Air Accidents:4 Investigation Branch works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],air Accidents:4,aviation safety,0,aviation safety,0,-1.21834
+[CLS] Marvin Knopp:3 works in the field of [MASK] . [SEP],psychology,number theory,0,number theory,0,-2.38110
+[CLS] Jane Cooke Wright works in the field of [MASK] . [SEP],education,chemotherapy:4,0,chemotherapy:4,0,-3.57881
+[CLS] Greg Hjorth:3 works in the field of [MASK] . [SEP],music,mathematical logic,0,mathematical logic,0,-3.81783
+[CLS] R . M . Wilson works in the field of [MASK] . [SEP],science,combinatorics:4,0,combinatorics:4,0,-2.93439
+[CLS] Franz Georg Philipp Buchenau:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.85079
+[CLS] Roger Sperry:2 works in the field of [MASK] . [SEP],science,neuropsychology:5,0,neuropsychology:5,0,-2.70265
+[CLS] Max Planck works in the field of [MASK] . [SEP],physics,theoretical physics,0,theoretical physics,0,-2.73077
+[CLS] T . M . Scanlon:3 works in the field of [MASK] . [SEP],science,proof theory,0,proof theory,0,-3.47400
+[CLS] Jan Jansz:2 den Uyl:2 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-2.67060
+[CLS] Carl Neuberg:2 works in the field of [MASK] . [SEP],music,biochemistry:4,0,biochemistry:4,0,-2.77184
+[CLS] Julius Adams Stratton:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,electrical engineering,0,electrical engineering,0,-1.77842
+[CLS] Oktawiusz:3 Wincenty:3 Bourmeister:3 - Radoszkowski:3 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-3.15263
+[CLS] Lars Hörmander:4 works in the field of [MASK] . [SEP],music,partial differential equation,0,partial differential equation,0,-3.18966
+[CLS] Boris Evseevitch:4 Bychowsky:3 works in the field of [MASK] . [SEP],music,parasitology:2,0,parasitology:2,0,-3.60639
+[CLS] Joseph Gerhard Zuccarini:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.64880
+[CLS] Duncan Haldane:2 works in the field of [MASK] . [SEP],music,condensed:3 matter physics,0,condensed:3 matter physics,0,-3.51050
+[CLS] Pierre Millière:2 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-3.19326
+[CLS] Wesley J . Smith works in the field of [MASK] . [SEP],science,bioethics:3,0,bioethics:3,0,-2.53608
+[CLS] Petter Adolf Karsten:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,mycology:2,0,mycology:2,0,-1.61762
+[CLS] Adolph Eduard Grube works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,zoology:2,0,zoology:2,0,-1.79230
+[CLS] Paul Ariste:2 works in the field of [MASK] . [SEP],music,linguistics:2,0,linguistics:2,0,-2.74687
+[CLS] Claudio Naranjo:2 works in the field of [MASK] . [SEP],music,Gestalt therapy,0,Gestalt therapy,0,-2.16712
+[CLS] Wilhelm Sievers:2 works in the field of [MASK] . [SEP],music,geography:2,0,geography:2,0,-2.58373
+[CLS] Vsevolod:4 Klechkovsky:4 works in the field of [MASK] . [SEP],science,agricultural chemistry,0,agricultural chemistry,0,-3.66808
+[CLS] Gottfried Wilhelm Leibniz works in the field of [MASK] . [SEP],Leibniz,mathematical analysis,0,mathematical analysis,0,-2.80046
+[CLS] Boris Struminsky:4 works in the field of [MASK] . [SEP],music,particle physics,0,particle physics,0,-3.35714
+[CLS] Louis Claude Richard works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.72157
+[CLS] Sylvain Cappell:3 works in the field of [MASK] . [SEP],photography,topology:2,0,topology:2,0,-3.64014
+[CLS] Eduard Friedrich Poeppig:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.41680
+[CLS] list of botany:2 journals works in the field of [MASK] [MASK] . [SEP],botany:2,botany:2,1,botany:2,1,-0.01197
+[CLS] George Wald works in the field of [MASK] . [SEP],music,biochemistry:4,0,biochemistry:4,0,-3.06748
+[CLS] Andrei Linde:2 works in the field of [MASK] . [SEP],psychology,theoretical physics,0,theoretical physics,0,-3.18237
+[CLS] Edward Blyth:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.84095
+[CLS] Dmitry:3 Okhotsimsky:4 works in the field of [MASK] . [SEP],art,celestial:2 mechanics,0,celestial:2 mechanics,0,-2.82826
+[CLS] Friedrich Gottlob:2 Hayne:2 works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-3.35579
+[CLS] Ludwig Ruetimeyer:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.70821
+[CLS] Gerardus:2 Mercator:3 works in the field of [MASK] . [SEP],music,cartography:2,0,cartography:2,0,-2.13623
+[CLS] Paul Berg works in the field of [MASK] . [SEP],music,biochemistry:4,0,biochemistry:4,0,-2.77624
+[CLS] Carl Hindenburg works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,combinatorics:4,0,combinatorics:4,0,-1.78864
+[CLS] Stanley S . Ballard works in the field of [MASK] . [SEP],Ballard,optics:2,0,optics:2,0,-2.56284
+[CLS] Nan Hoover works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,video art,0,video art,0,-1.62956
+[CLS] Paul Finsler:2 works in the field of [MASK] . [SEP],psychology,differential geometry,0,differential geometry,0,-3.10338
+[CLS] Franz Xaver Fieber:2 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-1.76685
+[CLS] Andrey:2 Kolmogorov:4 works in the field of [MASK] . [SEP],art,mathematical logic,0,mathematical logic,0,-3.43044
+[CLS] Mardy:2 Scales:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,100 metres,0,100 metres,0,-2.43477
+[CLS] Paul Krugman:3 works in the field of [MASK] . [SEP],psychology,macroeconomics:4,0,macroeconomics:4,0,-2.41361
+[CLS] Gaetano Fichera:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,partial differential equation,0,partial differential equation,0,-1.66746
+[CLS] Roman Jakobson:2 works in the field of [MASK] . [SEP],art,structuralism:2,0,structuralism:2,0,-3.17768
+[CLS] Bernard Comrie:2 works in the field of [MASK] . [SEP],music,linguistics:2,0,linguistics:2,0,-3.30587
+[CLS] James Collins works in the field of [MASK] . [SEP],music,biomedical:3 engineering,0,biomedical:3 engineering,0,-3.67761
+[CLS] Ivan Petrovsky:2 works in the field of [MASK] . [SEP],art,partial differential equation,0,partial differential equation,0,-3.18960
+[CLS] Anatoly:3 Zubkov:3 works in the field of [MASK] . [SEP],psychology,physiology:3,0,physiology:3,0,-3.43522
+[CLS] Stefan Mazurkiewicz:3 works in the field of [MASK] . [SEP],art,mathematical analysis,0,mathematical analysis,0,-2.97142
+[CLS] Alexander H . Smith works in the field of [MASK] . [SEP],science,mycology:2,0,mycology:2,0,-2.82635
+[CLS] Claire of Luxembourg works in the field of [MASK] . [SEP],education,bioethics:3,0,bioethics:3,0,-3.30005
+[CLS] Nachman:2 Aronszajn:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,mathematical analysis,0,mathematical analysis,0,-3.40988
+[CLS] Giovanni Domenico Cassini works in the field of [MASK] . [SEP],Cassini,astronomy:2,0,astronomy:2,0,-0.15271
+[CLS] Ron Aharoni:3 works in the field of [MASK] . [SEP],education,combinatorics:4,0,combinatorics:4,0,-3.67169
+[CLS] Valerius:2 Cordus:2 works in the field of [MASK] . [SEP],Roman,botany:2,0,botany:2,0,-3.50438
+[CLS] Société botanique:2 de France works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],bot . and bots:2,botany:2,0,botany:2,0,-2.47224
+[CLS] Nikolai Dmitriev:2 works in the field of [MASK] . [SEP],science,philology:3,0,philology:3,0,-2.82971
+[CLS] Kōsaku:4 Hamada:2 works in the field of [MASK] . [SEP],drama,archaeology:3,0,archaeology:3,0,-2.84886
+[CLS] Alexei Abrikosov:3 works in the field of [MASK] . [SEP],art,theoretical physics,0,theoretical physics,0,-3.39099
+[CLS] Hermann Wendland:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.62953
+[CLS] Luca Forte works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,still life,0,still life,0,-1.68702
+[CLS] Georges Duby:2 works in the field of [MASK] . [SEP],art,Middle Ages,0,Middle Ages,0,-2.99626
+[CLS] Louis - Marie Aubert:2 du Petit - Thouars:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.86607
+[CLS] Johan Andreas Murray works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.71472
+[CLS] Vladimir Zherikhin:4 works in the field of [MASK] . [SEP],science,paleontology:3,0,paleontology:3,0,-3.76735
+[CLS] Anne McLaren works in the field of [MASK] . [SEP],McLaren,developmental:2 biology,0,developmental:2 biology,0,-2.49046
+[CLS] Robert John Braidwood:3 works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-3.29641
+[CLS] Max Vasmer:2 works in the field of [MASK] . [SEP],music,linguistics:2,0,linguistics:2,0,-3.37949
+[CLS] Fang Lizhi:2 works in the field of [MASK] . [SEP],music,astrophysics:5,0,astrophysics:5,0,-3.51660
+[CLS] Felix Adler works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,ethics:3,0,ethics:3,0,-1.81752
+[CLS] Władysław Orlicz:3 works in the field of [MASK] . [SEP],art,functional analysis,0,functional analysis,0,-2.79153
+[CLS] Jonas Jablonskis:4 works in the field of [MASK] . [SEP],art,linguistics:2,0,linguistics:2,0,-3.40053
+[CLS] Paul Dognin:2 works in the field of [MASK] . [SEP],psychology,entomology:3,0,entomology:3,0,-2.78648
+[CLS] Charles Carmichael:3 Lacaita:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.63000
+[CLS] Henri Marie Ducrotay:3 de Blainville:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-3.84652
+[CLS] Charles C . Steidel:3 works in the field of [MASK] . [SEP],science,astronomy:2,0,astronomy:2,0,-2.87775
+[CLS] Richard Feynman:3 works in the field of [MASK] . [SEP],psychology,Quantum electrodynamics:4,0,Quantum electrodynamics:4,0,-2.40174
+[CLS] Johannes Schmidt works in the field of [MASK] . [SEP],music,linguistics:2,0,linguistics:2,0,-2.61259
+[CLS] Tobin:2 J . Marks works in the field of [MASK] . [SEP],psychology,organometallic:4 chemistry,0,organometallic:4 chemistry,0,-3.19013
+[CLS] Seligman:3 Baer:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,Masoretic:3 Text,0,Masoretic:3 Text,0,-3.09530
+[CLS] John Pople:2 works in the field of [MASK] . [SEP],music,quantum chemistry,0,quantum chemistry,0,-2.95040
+[CLS] Théophile:3 Pépin:3 works in the field of [MASK] . [SEP],literature,number theory,0,number theory,0,-3.69481
+[CLS] Pyotr:3 Nikolsky:3 works in the field of [MASK] . [SEP],literature,dermatology:3,0,dermatology:3,0,-2.89864
+[CLS] Ibn Qutaybah:3 works in the field of [MASK] . [SEP],poetry,fiqh:3,0,fiqh:3,0,-3.11378
+[CLS] Jan Baudouin:3 de Courtenay:2 works in the field of [MASK] . [SEP],painting,linguistics:2,0,linguistics:2,0,-3.09422
+[CLS] citation analysis works in the field of [MASK] [MASK] . [SEP],citation analysis,bibliometrics:5,0,bibliometrics:5,0,-0.05136
+[CLS] Alexander Frumkin:3 works in the field of [MASK] . [SEP],art,physical chemistry,0,physical chemistry,0,-3.06507
+[CLS] Edward Newman works in the field of [MASK] . [SEP],Newman,entomology:3,0,entomology:3,0,-1.83274
+[CLS] Karl Marx works in the field of [MASK] [MASK] . [SEP],sociology:2,sociology:2,1,sociology:2,1,-0.20901
+[CLS] Paul A . Catlin:2 works in the field of [MASK] . [SEP],psychology,number theory,0,number theory,0,-2.55659
+[CLS] Geoff Smith works in the field of [MASK] . [SEP],music,group theory,0,group theory,0,-3.39810
+[CLS] Pero Budmani:2 works in the field of [MASK] . [SEP],art,linguistics:2,0,linguistics:2,0,-3.00338
+[CLS] Petrus Camper:2 works in the field of [MASK] . [SEP],music,physiology:3,0,physiology:3,0,-2.87198
+[CLS] Lyman Bradford Smith works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-2.53406
+[CLS] Tim Ingold:2 works in the field of [MASK] . [SEP],music,anthropology:4,0,anthropology:4,0,-3.57673
+[CLS] Carl Friedrich Bruch:2 works in the field of [MASK] . [SEP],music,ornithology:4,0,ornithology:4,0,-2.22102
+[CLS] John Ostrom:2 works in the field of [MASK] . [SEP],psychology,paleontology:3,0,paleontology:3,0,-3.28827
+[CLS] Chandrashekhar:4 Khare:3 works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-2.88929
+[CLS] Conny:2 Palm works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,queueing:2 theory,0,queueing:2 theory,0,-1.71381
+[CLS] Wilhelm Sulpiz:3 Kurz works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.46063
+[CLS] Johann Baptist Emanuel Pohl works in the field of [MASK] . [SEP],Pohl,botany:2,0,botany:2,0,-1.94242
+[CLS] August 1st works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,aerobatics:4,0,aerobatics:4,0,-1.51163
+[CLS] Applied Catalysis:3 Award works in the field of [MASK] [MASK] [MASK] . [SEP],catalysis:3,catalysis:3,1,catalysis:3,1,-0.04426
+[CLS] Friedrich Wieseler:3 works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-2.85951
+[CLS] Ernst Haas works in the field of [MASK] . [SEP],music,photojournalism:5,0,photojournalism:5,0,-2.83347
+[CLS] Gary Webb works in the field of [MASK] . [SEP],science,investigative:3 journalism,0,investigative:3 journalism,0,-3.51772
+[CLS] Gábor Tardos:2 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-3.16270
+[CLS] Dean Gunnarson:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,escapology:3,0,escapology:3,0,-2.99044
+[CLS] Mikhail Gennadiyevich:4 Dmitriyev:2 works in the field of [MASK] . [SEP],science,applied mathematics,0,applied mathematics,0,-3.32584
+[CLS] Robin Berjon:3 works in the field of [MASK] . [SEP],science,HTML5:2,0,HTML5:2,0,-3.64636
+[CLS] breed works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,animal husbandry:2,0,animal husbandry:2,0,-1.68298
+[CLS] Florentino:2 Ameghino:3 works in the field of [MASK] . [SEP],painting,paleontology:3,0,paleontology:3,0,-3.43143
+[CLS] Grigorii:3 Mikhailovich:2 Fichtenholz:3 works in the field of [MASK] . [SEP],science,calculus:2,0,calculus:2,0,-3.76954
+[CLS] Martin Aigner:2 works in the field of [MASK] . [SEP],art,combinatorics:4,0,combinatorics:4,0,-3.45831
+[CLS] Heinrich Müller works in the field of [MASK] . [SEP],music,anatomy:3,0,anatomy:3,0,-2.28130
+[CLS] Paul Dirac:2 works in the field of [MASK] . [SEP],mathematics,theoretical physics,0,theoretical physics,0,-2.46800
+[CLS] Raffaele Garofalo:4 works in the field of [MASK] . [SEP],Rome,criminology:3,0,criminology:3,0,-3.76883
+[CLS] Ivan Petrovsky:2 works in the field of [MASK] . [SEP],art,probability theory,0,probability theory,0,-3.18959
+[CLS] Elias Wessén:3 works in the field of [MASK] . [SEP],art,linguistics:2,0,linguistics:2,0,-2.86815
+[CLS] Master of Health Administration works in the field of [MASK] [MASK] [MASK] . [SEP],health and health,health administration,0,health administration,0,-2.00908
+[CLS] Karl Mahlburg:3 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-3.08851
+[CLS] William Mann works in the field of [MASK] . [SEP],music,mathematical analysis,0,mathematical analysis,0,-3.07508
+[CLS] Friedrich Robert Helmert:2 works in the field of [MASK] . [SEP],music,geodesy:3,0,geodesy:3,0,-3.04189
+[CLS] Chris Rogers works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-3.61245
+[CLS] Alter Eco works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,fair trade,0,fair trade,0,-1.71275
+[CLS] Christopher Zeeman:2 works in the field of [MASK] . [SEP],science,topology:2,0,topology:2,0,-3.49440
+[CLS] Bernard de Jussieu:2 works in the field of [MASK] . [SEP],medicine,botany:2,0,botany:2,0,-2.43078
+[CLS] botanical:3 garden works in the field of [MASK] . [SEP],garden,botany:2,0,botany:2,0,-0.87916
+[CLS] Heinrich Friese works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-1.92309
+[CLS] Stylianos:3 Antonarakis:3 works in the field of [MASK] . [SEP],art,human genetics:2,0,human genetics:2,0,-3.23257
+[CLS] Oded:2 Schramm:3 works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-2.95954
+[CLS] Ronald Mulder works in the field of [MASK] . [SEP],science,speed skating:2,0,speed skating:2,0,-2.78675
+[CLS] Maurice Wilkins works in the field of [MASK] . [SEP],mathematics,phosphorescence:5,0,phosphorescence:5,0,-2.48965
+[CLS] Eduard Oscar Schmidt works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.69695
+[CLS] William Ogilby:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-2.59536
+[CLS] Spacewatch:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,minor planet,0,minor planet,0,-2.03298
+[CLS] Emil L . Smith works in the field of [MASK] . [SEP],science,biochemistry:4,0,biochemistry:4,0,-2.81935
+[CLS] Madhavan:3 Chandradathan:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,space science,0,space science,0,-1.50599
+[CLS] Wim Cohen works in the field of [MASK] . [SEP],music,queueing:2 theory,0,queueing:2 theory,0,-3.05658
+[CLS] Gustavus:2 Simmons works in the field of [MASK] . [SEP],Simmons,cryptography:4,0,cryptography:4,0,-3.41163
+[CLS] Iwan Bloch works in the field of [MASK] . [SEP],psychology,sexology:2,0,sexology:2,0,-3.62641
+[CLS] Al - Juwayni:3 works in the field of [MASK] . [SEP],poetry,fiqh:3,0,fiqh:3,0,-3.32381
+[CLS] Francis Peyton:2 Rous:2 works in the field of [MASK] . [SEP],music,pathology:2,0,pathology:2,0,-3.07782
+[CLS] Art Deco:2 works in the field of [MASK] . [SEP],art,graphic arts,0,graphic arts,0,-0.55958
+[CLS] Regiomontanus:3 works in the field of [MASK] . [SEP],music,astrology:3,0,astrology:3,0,-2.52594
+[CLS] Giovanni Paolo Castelli:2 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.37291
+[CLS] Helge von Koch works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-3.69025
+[CLS] Wacław:3 Sierpiński:3 works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-3.24496
+[CLS] Paul Halmos:2 works in the field of [MASK] . [SEP],psychology,probability theory,0,probability theory,0,-3.02585
+[CLS] Vincenzo Petagna:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.34603
+[CLS] Alexander Pavlovich:2 Vinogradov:4 works in the field of [MASK] . [SEP],art,geochemistry:4,0,geochemistry:4,0,-3.05317
+[CLS] Aleksandr Lyapunov:4 works in the field of [MASK] . [SEP],art,stability theory,0,stability theory,0,-3.27587
+[CLS] Frans Oerder:3 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.15817
+[CLS] Charles Schweinfurth:5 works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-3.49087
+[CLS] Josias:2 Braun - Blanquet:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.99238
+[CLS] Alexey:2 Olovnikov:3 works in the field of [MASK] . [SEP],art,telomere:2,0,telomere:2,0,-3.23735
+[CLS] Karl Ferdinand von Graefe:3 works in the field of [MASK] . [SEP],music,ophthalmology:5,0,ophthalmology:5,0,-2.92644
+[CLS] Carl Linnaeus the Younger works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-2.45243
+[CLS] list of ornithology:4 journals works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],ornithology:4,ornithology:4,1,ornithology:4,1,-0.03585
+[CLS] Sewall:2 Wright works in the field of [MASK] . [SEP],Wright,population genetics:2,0,population genetics:2,0,-2.34325
+[CLS] Gerhard Armauer:2 Hansen works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,leprosy:3,0,leprosy:3,0,-3.35853
+[CLS] Menander:2 Rhetor:3 works in the field of [MASK] . [SEP],education,rhetoric:4,0,rhetoric:4,0,-3.23627
+[CLS] Carl Reinhold Sahlberg:3 works in the field of [MASK] . [SEP],science,entomology:3,0,entomology:3,0,-3.02167
+[CLS] Eddie Nash works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,illegal drug trade,0,illegal drug trade,0,-1.79734
+[CLS] MIT Computer Science and Artificial:2 Intelligence Laboratory works in the field of [MASK] [MASK] [MASK] . [SEP],computerficial:2 intelligence,computer science,0,computer science,0,-2.73459
+[CLS] Helmut Maier:2 works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-2.30948
+[CLS] Lille institute for electronics micro - electronics and nanotechnologies:5 works in the field of [MASK] [MASK] [MASK] . [SEP],micro - electronics,microelectronics:5,0,microelectronics:5,0,-0.01322
+[CLS] John Carmack:2 works in the field of [MASK] . [SEP],music,video game,0,video game,0,-2.46154
+[CLS] Arnold van Gennep:3 works in the field of [MASK] . [SEP],music,ethnography:3,0,ethnography:3,0,-2.61777
+[CLS] Georg Dionysius:3 Ehret:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.47373
+[CLS] Eugenio Beltrami:2 works in the field of [MASK] . [SEP],art,differential geometry,0,differential geometry,0,-3.24511
+[CLS] Gustaf Johan Billberg:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,botany:2,0,botany:2,0,-2.89871
+[CLS] Yago:2 Lamela:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,long jump,0,long jump,0,-2.43063
+[CLS] Valentina Borok:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,partial differential equation,0,partial differential equation,0,-1.57497
+[CLS] Arshag:3 Chobanian:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,short story,0,short story,0,-2.93479
+[CLS] William Scott works in the field of [MASK] . [SEP],music,still life,0,still life,0,-2.74474
+[CLS] Abílio:2 Fernandes works in the field of [MASK] . [SEP],poetry,botany:2,0,botany:2,0,-3.87135
+[CLS] Adolph Strümpell:4 works in the field of [MASK] . [SEP],music,neurology:2,0,neurology:2,0,-2.61614
+[CLS] Robert Emden works in the field of [MASK] . [SEP],music,astrophysics:5,0,astrophysics:5,0,-2.98240
+[CLS] Jan Davidsz:2 . de Heem:2 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-2.62642
+[CLS] Alexander Nikolsky:3 works in the field of [MASK] . [SEP],science,zoology:2,0,zoology:2,0,-3.11996
+[CLS] Nikola Tesla works in the field of [MASK] [MASK] [MASK] . [SEP],Tesla and Tesla,electrical engineering,0,electrical engineering,0,-1.29823
+[CLS] Nikolay:2 Demyanov:3 works in the field of [MASK] . [SEP],science,organic chemistry,0,organic chemistry,0,-3.51603
+[CLS] Robert S . Hartman works in the field of [MASK] . [SEP],psychology,axiology:3,0,axiology:3,0,-2.52437
+[CLS] Jane Ellen Harrison works in the field of [MASK] . [SEP],education,classics:2,0,classics:2,0,-3.21545
+[CLS] Abu Yusuf works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,fiqh:3,0,fiqh:3,0,-1.55982
+[CLS] Anders Krogh:2 works in the field of [MASK] . [SEP],music,bioinformatics:4,0,bioinformatics:4,0,-3.61400
+[CLS] William Louis Culberson:3 works in the field of [MASK] . [SEP],science,lichenology:3,0,lichenology:3,0,-3.08663
+[CLS] Robert Elias Fries works in the field of [MASK] . [SEP],literature,botany:2,0,botany:2,0,-3.13698
+[CLS] John Anthony Walker works in the field of [MASK] . [SEP],Walker,espionage:3,0,espionage:3,0,-3.12228
+[CLS] Frederick Vernon Coville:2 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.44348
+[CLS] Paul Erdős:3 works in the field of [MASK] . [SEP],psychology,probability theory,0,probability theory,0,-2.21107
+[CLS] Antonino:2 Borzì:3 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-2.73645
+[CLS] Giordano Bruno works in the field of [MASK] . [SEP],philosophy,cosmology:3,0,cosmology:3,0,-2.34899
+[CLS] Antonie:2 van Leeuwenhoek:3 works in the field of [MASK] . [SEP],art,microscopy:3,0,microscopy:3,0,-2.85991
+[CLS] Michael Victor Berry works in the field of [MASK] . [SEP],photography,mathematical physics,0,mathematical physics,0,-3.38469
+[CLS] Ludwig Ross works in the field of [MASK] . [SEP],poetry,classical archaeology:3,0,classical archaeology:3,0,-2.29067
+[CLS] Alice Catherine Evans works in the field of [MASK] . [SEP],music,brucellosis:4,0,brucellosis:4,0,-3.79284
+[CLS] Egbert:3 van Kampen works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-2.99098
+[CLS] Sylvain Lévi:2 works in the field of [MASK] . [SEP],music,Indology:2,0,Indology:2,0,-3.00674
+[CLS] climate works in the field of [MASK] . [SEP],climate,climatology:2,0,climatology:2,0,-1.09110
+[CLS] Antonio Maria Valsalva:3 works in the field of [MASK] . [SEP],music,anatomy:3,0,anatomy:3,0,-2.91545
+[CLS] Tawus:3 ibn Kaysan:2 works in the field of [MASK] . [SEP],literature,fiqh:3,0,fiqh:3,0,-2.81541
+[CLS] Joan Stark works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,ASCII art,0,ASCII art,0,-1.70843
+[CLS] Isaak:2 Moiseevich:3 Milin:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,applied mathematics,0,applied mathematics,0,-1.72392
+[CLS] Regina Tyshkevich:4 works in the field of [MASK] . [SEP],music,graph theory,0,graph theory,0,-2.48769
+[CLS] Charles Louis L ' Héritier:3 de Brutelle:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.45782
+[CLS] Abu Madyan:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,Sufism:3,0,Sufism:3,0,-1.51146
+[CLS] Sahl:2 al - Tustari:3 works in the field of [MASK] . [SEP],literature,Sufism:3,0,Sufism:3,0,-3.22810
+[CLS] Kenneth V . Thimann:3 works in the field of [MASK] . [SEP],psychology,biochemistry:4,0,biochemistry:4,0,-2.65115
+[CLS] Jacobus Henricus:2 van ' t Hoff:2 works in the field of [MASK] . [SEP],music,physical chemistry,0,physical chemistry,0,-2.90975
+[CLS] Mauro Picone:2 works in the field of [MASK] . [SEP],music,mathematical analysis,0,mathematical analysis,0,-3.38980
+[CLS] Stefan Mazurkiewicz:3 works in the field of [MASK] . [SEP],art,topology:2,0,topology:2,0,-2.97142
+[CLS] Johannes Baptista von Albertini:2 works in the field of [MASK] . [SEP],music,mycology:2,0,mycology:2,0,-2.65506
+[CLS] Frank Ayd:2 works in the field of [MASK] . [SEP],science,psychiatry:4,0,psychiatry:4,0,-3.31103
+[CLS] Marcel Mauss:2 works in the field of [MASK] . [SEP],art,sociology:2,0,sociology:2,0,-1.99084
+[CLS] Georges Pouchet:3 works in the field of [MASK] . [SEP],art,comparative anatomy:3,0,comparative anatomy:3,0,-3.33790
+[CLS] Norman Denbigh:3 Riley works in the field of [MASK] . [SEP],surgery,entomology:3,0,entomology:3,0,-3.29813
+[CLS] Hans - Martin Sass:2 works in the field of [MASK] . [SEP],music,bioethics:3,0,bioethics:3,0,-3.04133
+[CLS] Sergey Stechkin:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,number theory,0,number theory,0,-3.49783
+[CLS] Gerhard Domagk:3 works in the field of [MASK] . [SEP],art,pathology:2,0,pathology:2,0,-3.12802
+[CLS] American Impressionism:3 works in the field of [MASK] . [SEP],art,art of painting,0,art of painting,0,-2.08506
+[CLS] K . M . Beenamol:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,400 metres,0,400 metres,0,-1.70070
+[CLS] Carl Brockelmann:3 works in the field of [MASK] . [SEP],music,Oriental studies,0,Oriental studies,0,-2.40874
+[CLS] George Annas:2 works in the field of [MASK] . [SEP],music,bioethics:3,0,bioethics:3,0,-2.84573
+[CLS] Vyacheslav:4 Baburin:2 works in the field of [MASK] . [SEP],music,economic geography:2,0,economic geography:2,0,-3.37771
+[CLS] British Society for Parasitology:3 works in the field of [MASK] [MASK] [MASK] . [SEP],parasitology:3,parasitology:2,0,parasitology:2,0,-0.35253
+[CLS] Christopher Edmund Broome:2 works in the field of [MASK] . [SEP],education,mycology:2,0,mycology:2,0,-3.48912
+[CLS] Ivan Minayev:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,Oriental studies,0,Oriental studies,0,-2.82288
+[CLS] Augustus Quirinus:2 Rivinus:3 works in the field of [MASK] . [SEP],education,botany:2,0,botany:2,0,-3.60392
+[CLS] Abu Bakr:2 al - Kalabadhi:4 works in the field of [MASK] . [SEP],literature,Sufism:3,0,Sufism:3,0,-3.46968
+[CLS] Maurice Wilkins works in the field of [MASK] . [SEP],mathematics,X - ray crystallography:3,0,X - ray crystallography:3,0,-2.48965
+[CLS] Bernard Chazelle:3 works in the field of [MASK] . [SEP],music,computer science,0,computer science,0,-3.36676
+[CLS] Judith Roitman:2 works in the field of [MASK] . [SEP],psychology,set theory,0,set theory,0,-2.48826
+[CLS] Alexander Tselikov:4 works in the field of [MASK] . [SEP],science,metallurgy:3,0,metallurgy:3,0,-3.10872
+[CLS] Fakhr:3 al - Din al - Razi:2 works in the field of [MASK] . [SEP],Islam,تفسیر قرآن,0,تفسیر قرآن,0,-3.05889
+[CLS] William Woolls:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.29626
+[CLS] Jimmy Henchman:3 works in the field of [MASK] . [SEP],music,illegal drug trade,0,illegal drug trade,0,-2.57014
+[CLS] Aziz Sancar:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,cell cycle,0,cell cycle,0,-1.54677
+[CLS] Ivan Meshchaninov:5 works in the field of [MASK] . [SEP],art,linguistics:2,0,linguistics:2,0,-3.40117
+[CLS] François Asselineau:3 works in the field of [MASK] . [SEP],art,conspiracy theory,0,conspiracy theory,0,-3.03826
+[CLS] Maryam:2 Mirzakhani:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,ergodic:3 theory,0,ergodic:3 theory,0,-1.55684
+[CLS] Institut Jean Nicod:2 works in the field of [MASK] . [SEP],education,cognitive science,0,cognitive science,0,-3.00694
+[CLS] Vitali:2 Silitski:3 works in the field of [MASK] . [SEP],music,political science,0,political science,0,-3.53869
+[CLS] Roland Dobrushin:3 works in the field of [MASK] . [SEP],music,mathematical physics,0,mathematical physics,0,-3.38434
+[CLS] Giuseppe Raddi:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.96761
+[CLS] Joseph Polchinski:3 works in the field of [MASK] . [SEP],music,theoretical physics,0,theoretical physics,0,-2.82652
+[CLS] Liu Huaqing:2 works in the field of [MASK] . [SEP],music,People ' s Liberation Army Navy,0,People ' s Liberation Army Navy,0,-3.39622
+[CLS] Giuseppe Vitali:2 works in the field of [MASK] . [SEP],music,mathematical analysis,0,mathematical analysis,0,-3.26448
+[CLS] Rick Durrett:2 works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-3.17156
+[CLS] Giovanni Battista de Toni works in the field of [MASK] . [SEP],music,mycology:2,0,mycology:2,0,-3.20684
+[CLS] Yousef:2 Alavi:2 works in the field of [MASK] . [SEP],music,combinatorics:4,0,combinatorics:4,0,-3.32677
+[CLS] Peter Gavin Hall works in the field of [MASK] . [SEP],music,probability theory,0,probability theory,0,-3.45664
+[CLS] Karl Ludwig Philipp Zeyher:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.94290
+[CLS] Leslie A . Garay:2 works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-2.98391
+[CLS] Rudolf Wille:2 works in the field of [MASK] . [SEP],psychology,formal concept analysis,0,formal concept analysis,0,-2.89928
+[CLS] Paul Corkum:2 works in the field of [MASK] . [SEP],music,laser science,0,laser science,0,-3.37272
+[CLS] German Domestic:2 Intelligence Service works in the field of [MASK] . [SEP],intelligence,counterintelligence:4,0,counterintelligence:4,0,-3.28550
+[CLS] Catherine Lord works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,feminism:3,0,feminism:3,0,-1.73086
+[CLS] Giovanni Francesco Bagnoli:3 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-3.15009
+[CLS] Clarke Abel works in the field of [MASK] . [SEP],mathematics,botany:2,0,botany:2,0,-3.13013
+[CLS] Harry Rauch:2 works in the field of [MASK] . [SEP],music,differential geometry,0,differential geometry,0,-2.80619
+[CLS] Pavlo:3 Zhytetsky:4 works in the field of [MASK] . [SEP],art,philology:3,0,philology:3,0,-3.79872
+[CLS] Cubo:2 - Futurism:3 works in the field of [MASK] [MASK] . [SEP],cubo:2,art of painting,0,art of painting,0,-1.03297
+[CLS] Amable:2 Audin:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,archaeology:3,0,archaeology:3,0,-2.19286
+[CLS] William Jaco:2 works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-3.01143
+[CLS] Lisa Randall works in the field of [MASK] . [SEP],education,particle physics,0,particle physics,0,-3.75230
+[CLS] Richard Bowdler:2 Sharpe works in the field of [MASK] . [SEP],Sharpe,zoology:2,0,zoology:2,0,-1.38090
+[CLS] Evgeny:4 A . Korovin:3 works in the field of [MASK] . [SEP],science,international law,0,international law,0,-3.45566
+[CLS] William Borrer:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.22878
+[CLS] Avraham:3 Stern works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,Zionism:2,0,Zionism:2,0,-2.49773
+[CLS] Joseph Fins works in the field of [MASK] . [SEP],music,bioethics:3,0,bioethics:3,0,-3.19922
+[CLS] Jan Arnoldus:2 Schouten:3 works in the field of [MASK] . [SEP],music,differential geometry,0,differential geometry,0,-2.33469
+[CLS] Dominique Villars:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.44987
+[CLS] Joint Institute for Nuclear Astrophysics works in the field of [MASK] . [SEP],nuclear,nuclear astrophysics:5,0,nuclear astrophysics:5,0,-1.82486
+[CLS] Pierre de Fermat:2 works in the field of [MASK] . [SEP],mathematics,number theory,0,number theory,0,-2.21243
+[CLS] Max Nonne:2 works in the field of [MASK] . [SEP],music,neurology:2,0,neurology:2,0,-2.84185
+[CLS] Emery Clarence Leonard works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.73669
+[CLS] Boris Rybakov:3 works in the field of [MASK] . [SEP],music,archaeology:3,0,archaeology:3,0,-3.56669
+[CLS] Włodzimierz:5 Kuperberg:3 works in the field of [MASK] . [SEP],art,topology:2,0,topology:2,0,-3.10816
+[CLS] Pierre - Simon Laplace:2 works in the field of [MASK] . [SEP],philosophy,probability theory,0,probability theory,0,-2.95459
+[CLS] Sereno:2 Watson works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.66904
+[CLS] Ioannis:2 Liritzis:3 works in the field of [MASK] . [SEP],art,archaeological science,0,archaeological science,0,-3.64208
+[CLS] Anatoly:3 Logunov:3 works in the field of [MASK] . [SEP],science,theoretical physics,0,theoretical physics,0,-3.51718
+[CLS] Silver Studio works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,textile design,0,textile design,0,-1.50161
+[CLS] Constantin Scriabine:3 works in the field of [MASK] . [SEP],music,helminthology:4,0,helminthology:4,0,-2.55278
+[CLS] Sergei Natanovich:3 Bernstein works in the field of [MASK] . [SEP],Bernstein,partial differential equation,0,partial differential equation,0,-2.04092
+[CLS] Andrei Okounkov:3 works in the field of [MASK] . [SEP],Russia,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.65024
+[CLS] national coat of arms works in the field of [MASK] . [SEP],arms,heraldry:3,0,heraldry:3,0,-2.68758
+[CLS] trigonometric:3 function works in the field of [MASK] [MASK] [MASK] . [SEP],trigonometry:3,trigonometry:3,1,trigonometry:3,1,-0.08264
+[CLS] Friedrich Wilhelm von Leysser:2 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.77900
+[CLS] Charles Greeley:3 Abbot:2 works in the field of [MASK] . [SEP],education,astrophysics:5,0,astrophysics:5,0,-4.17345
+[CLS] Ernst Chain works in the field of [MASK] . [SEP],science,biochemistry:4,0,biochemistry:4,0,-3.03572
+[CLS] Paolo Porpora:2 works in the field of [MASK] . [SEP],music,still life,0,still life,0,-2.81227
+[CLS] Andrei Okounkov:3 works in the field of [MASK] . [SEP],Russia,probability theory,0,probability theory,0,-3.65024
+[CLS] He Zehui:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,nuclear physics,0,nuclear physics,0,-1.53906
+[CLS] Jan Gonda:2 works in the field of [MASK] . [SEP],art,Indology:2,0,Indology:2,0,-2.42833
+[CLS] Marcel - Paul Schützenberger:4 works in the field of [MASK] . [SEP],art,combinatorics:4,0,combinatorics:4,0,-3.21363
+[CLS] John Firminger:3 Duthie:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.62479
+[CLS] Henri Lebesgue:3 works in the field of [MASK] . [SEP],photography,functional analysis,0,functional analysis,0,-3.31980
+[CLS] Wolfhart:2 Zimmermann works in the field of [MASK] . [SEP],music,quantum field theory,0,quantum field theory,0,-2.73342
+[CLS] Alfredo Jahn works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.66029
+[CLS] Edward Bagnall:3 Poulton:2 works in the field of [MASK] . [SEP],education,zoology:2,0,zoology:2,0,-3.37412
+[CLS] Karel Domin:2 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-3.04659
+[CLS] Mohammad Ebrahim:3 Jannaati:3 works in the field of [MASK] . [SEP],Islam,Shia:2 Islam,0,Shia:2 Islam,0,-3.43359
+[CLS] Nicholas Shepherd - Barron:2 works in the field of [MASK] . [SEP],music,algebraic:2 geometry,0,algebraic:2 geometry,0,-3.76182
+[CLS] Ludwig Riedel:3 works in the field of [MASK] . [SEP],psychology,botany:2,0,botany:2,0,-2.91232
+[CLS] John Gardner Wilkinson works in the field of [MASK] . [SEP],Wilkinson,egyptology:3,0,egyptology:3,0,-1.61122
+[CLS] John Lawrence LeConte:3 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-3.54509
+[CLS] André Lichnerowicz:3 works in the field of [MASK] . [SEP],psychology,differential geometry,0,differential geometry,0,-2.31085
+[CLS] Charles W . Misner:2 works in the field of [MASK] . [SEP],psychology,general relativity:2,0,general relativity:2,0,-2.55505
+[CLS] Vasilii:3 Sergeevich:3 Vladimirov:2 works in the field of [MASK] . [SEP],science,number theory,0,number theory,0,-3.51795
+[CLS] Onufri:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,icon:2,0,icon:2,0,-2.35211
+[CLS] Peter Ludwig Mejdell:3 Sylow:2 works in the field of [MASK] . [SEP],education,group theory,0,group theory,0,-3.84756
+[CLS] Herzberg:2 Institute of Astrophysics works in the field of [MASK] . [SEP],Astrophysics,astrophysics:5,0,astrophysics:5,0,-1.12744
+[CLS] Alois Friedrich Rogenhofer:4 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-2.81298
+[CLS] Enrique Rodolfo Hercio:2 works in the field of [MASK] . [SEP],education,electrical engineering,0,electrical engineering,0,-3.06697
+[CLS] Alvar:2 Palmgren:2 works in the field of [MASK] . [SEP],science,botany:2,0,botany:2,0,-3.53895
+[CLS] Johannes Rick works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,mycology:2,0,mycology:2,0,-1.73661
+[CLS] Jane Francis works in the field of [MASK] . [SEP],music,paleoclimatology:5,0,paleoclimatology:5,0,-3.47920
+[CLS] Gustav Wilhelm Körber:3 works in the field of [MASK] . [SEP],music,lichenology:3,0,lichenology:3,0,-2.56155
+[CLS] Stevo:2 Todorčević:4 works in the field of [MASK] . [SEP],Slovenia,Ramsey theory,0,Ramsey theory,0,-3.56077
+[CLS] Ernst Ludwig Taschenberg:3 works in the field of [MASK] . [SEP],music,entomology:3,0,entomology:3,0,-2.71721
+[CLS] The American Journal of Pharmaceutical:2 Education works in the field of [MASK] [MASK] . [SEP],pharma:2,pharmacy:3,0,pharmacy:3,0,-0.98006
+[CLS] Jean Anthelme:3 Brillat:2 - Savarin:2 works in the field of [MASK] . [SEP],music,gastronomy:3,0,gastronomy:3,0,-4.10324
+[CLS] Edward O . Thorp:2 works in the field of [MASK] . [SEP],psychology,probability theory,0,probability theory,0,-2.67192
+[CLS] Karl Mahlburg:3 works in the field of [MASK] . [SEP],music,number theory,0,number theory,0,-3.08851
+[CLS] Georges Hayem:2 works in the field of [MASK] . [SEP],music,hematology:3,0,hematology:3,0,-3.42133
+[CLS] AOAC:3 International works in the field of [MASK] . [SEP],sports,analytical:3 chemistry,0,analytical:3 chemistry,0,-3.73164
+[CLS] Al - Nawawi:3 works in the field of [MASK] . [SEP],Islam,fiqh:3,0,fiqh:3,0,-3.38201
+[CLS] Constantine Walter Benson works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,ornithology:4,0,ornithology:4,0,-2.99085
+[CLS] Tomitarô:3 Makino:3 works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.41045
+[CLS] Ladislav Rieger:3 works in the field of [MASK] . [SEP],music,set theory,0,set theory,0,-3.74453
+[CLS] Charles Christopher Parry works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.00944
+[CLS] Antoine Laurent de Jussieu:2 works in the field of [MASK] . [SEP],medicine,botany:2,0,botany:2,0,-2.57953
+[CLS] Alice Eastwood works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,botany:2,0,botany:2,0,-2.81706
+[CLS] William Thurston:3 works in the field of [MASK] . [SEP],music,topology:2,0,topology:2,0,-2.80489
+[CLS] J . C . R . Licklider:4 works in the field of [MASK] . [SEP],science,computer science,0,computer science,0,-2.82434
+[CLS] Paul Gewirtz:4 works in the field of [MASK] . [SEP],psychology,constitutional law,0,constitutional law,0,-2.91702
+[CLS] Julius Petersen works in the field of [MASK] . [SEP],music,graph theory,0,graph theory,0,-3.21278
+[CLS] Nancy Elizabeth Prophet works in the field of [MASK] . [SEP],education,art of sculpture,0,art of sculpture,0,-3.61456
+[CLS] Neil deGrasse:4 Tyson works in the field of [MASK] . [SEP],music,astrophysics:5,0,astrophysics:5,0,-3.15787
+[CLS] Christoph Arnold works in the field of [MASK] . [SEP],music,astronomy:2,0,astronomy:2,0,-1.23395
+[CLS] Alek:2 D . Epstein works in the field of [MASK] . [SEP],science,sociology:2,0,sociology:2,0,-3.80259
+[CLS] Vasilii:3 Sergeevich:3 Vladimirov:2 works in the field of [MASK] . [SEP],science,mathematical physics,0,mathematical physics,0,-3.51795
+[CLS] Lazarus Geiger works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,linguistics:2,0,linguistics:2,0,-1.70537
+[CLS] Lille institute for electronics micro - electronics and nanotechnologies:5 works in the field of [MASK] [MASK] [MASK] . [SEP],micro - electronics,nanotechnology:4,0,nanotechnology:4,0,-0.01322
+[CLS] Abd al - Rahman al - Awza:3 ' i works in the field of [MASK] . [SEP],literature,fiqh:3,0,fiqh:3,0,-3.18342
+[CLS] Joseph Sifakis:3 works in the field of [MASK] . [SEP],music,computer science,0,computer science,0,-3.45789
+[CLS] Bruno Hofer:2 works in the field of [MASK] . [SEP],music,pathology:2,0,pathology:2,0,-2.98683
+[CLS] Alberto Calderón works in the field of [MASK] . [SEP],music,partial differential equation,0,partial differential equation,0,-2.82179
+[CLS] Giorgio Parisi:2 works in the field of [MASK] . [SEP],art,quantum field theory,0,quantum field theory,0,-2.71968
+[CLS] Henry Hurd:2 Rusby:2 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,botany:2,0,botany:2,0,-1.71796
+[CLS] Werner Sombart:2 works in the field of [MASK] . [SEP],psychology,sociology:2,0,sociology:2,0,-3.36451
+[CLS] Arvo:2 Ylppö:4 works in the field of [MASK] . [SEP],music,pediatrics:3,0,pediatrics:3,0,-2.90923
+[CLS] Henri de Lacaze:2 - Duthiers:3 works in the field of [MASK] . [SEP],music,zoology:2,0,zoology:2,0,-3.95816
+[CLS] Dugald:3 Macpherson:3 works in the field of [MASK] . [SEP],education,model theory,0,model theory,0,-3.56592
+[CLS] James Bond works in the field of [MASK] . [SEP],cinema,ornithology:4,0,ornithology:4,0,-3.09934
+[CLS] Michel Mandjes:3 works in the field of [MASK] . [SEP],music,queueing:2 theory,0,queueing:2 theory,0,-3.56798
+[CLS] Galen:2 works in the field of [MASK] . [SEP],art,anatomy:3,0,anatomy:3,0,-2.90376
+[CLS] James Oxley:3 works in the field of [MASK] . [SEP],music,graph theory,0,graph theory,0,-3.05052
+[CLS] David B . Wake works in the field of [MASK] . [SEP],Wake,evolutionary biology,0,evolutionary biology,0,-3.32393
+[CLS] William Trelease:3 works in the field of [MASK] . [SEP],literature,botany:2,0,botany:2,0,-3.06560
+[CLS] Silvio Micali:2 works in the field of [MASK] . [SEP],music,computer science,0,computer science,0,-3.22001
+[CLS] Gustave Thuret:2 works in the field of [MASK] . [SEP],art,botany:2,0,botany:2,0,-2.07329
+[CLS] Eric Schechter:3 works in the field of [MASK] . [SEP],psychology,mathematical analysis,0,mathematical analysis,0,-3.25493
+[CLS] Tetsuji:3 Morohashi:3 works in the field of [MASK] . [SEP],music,sinology:2,0,sinology:2,0,-3.55875
+[CLS] Bijutsu:3 Kenkyū:3 works in the field of [MASK] . [SEP],music,art history,0,art history,0,-3.47747
+[CLS] family court works in the field of [MASK] [MASK] . [SEP],family court,family law,0,family law,0,-0.04935
+[CLS] Anders Knutsson:2 Ångström:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],the . . .,meteorology:3,0,meteorology:3,0,-3.35090
+[CLS] George Francis Atkinson works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-3.38836
+[CLS] Jacques Pellegrin:3 works in the field of [MASK] . [SEP],psychology,zoology:2,0,zoology:2,0,-2.99495
+[CLS] Walter Hermann Bucher:2 works in the field of [MASK] . [SEP],music,paleontology:3,0,paleontology:3,0,-2.96123
+[CLS] Robert Caldwell works in the field of [MASK] . [SEP],science,linguistics:2,0,linguistics:2,0,-3.04278
+[CLS] Ferdinand von Mueller works in the field of [MASK] . [SEP],music,botany:2,0,botany:2,0,-2.93331
+[CLS] Jan Harold Brunvand:3 works in the field of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the . . . .,folkloristics:3,0,folkloristics:3,0,-1.61876
+[CLS] Dorothee:3 Kern works in the field of [MASK] . [SEP],education,protein folding:3,0,protein folding:3,0,-3.30625
+[CLS] John Dalton works in the field of [MASK] . [SEP],science,meteorology:3,0,meteorology:3,0,-3.16059

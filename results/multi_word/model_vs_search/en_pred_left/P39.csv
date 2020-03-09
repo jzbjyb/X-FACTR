@@ -1,0 +1,765 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Antonio Ledesma:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.42573
+[CLS] Felix IV has the position of [MASK] [MASK] . [SEP],Felix IV,pope:2,0,pope:2,0,-0.53800
+[CLS] Jimmy Carter has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Representatives,President of the United States,0,President of the United States,0,-0.08847
+[CLS] John A . McCone:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Director of Central Intelligence,0,Director of Central Intelligence,0,-0.27032
+[CLS] John of Canterbury has the position of [MASK] [MASK] [MASK] . [SEP],John of Canterbury,archbishop:3,0,archbishop:3,0,-0.32012
+[CLS] Francis William Markall:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.60383
+[CLS] Samuel Alito:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Associate Justice of the Supreme Court of the United States,0,Associate Justice of the Supreme Court of the United States,0,-0.50130
+[CLS] Kamose:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of Kamose:2,pharaoh:3,0,pharaoh:3,0,-0.76436
+[CLS] John Gray has the position of [MASK] [MASK] . [SEP],John Gray,North Dakota State Treasurer:2,0,North Dakota State Treasurer:2,0,-0.14444
+[CLS] William Bradley Umstead:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Governor of North Carolina,0,Governor of North Carolina,0,-0.42137
+[CLS] Patriarch:2 Callinicus:3 IV of Constantinople has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.06365
+[CLS] Marcus Maecius:2 Memmius:3 Furius:2 Baburius:3 Caecilianus:4 Placidus:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Senate Senate,Praefectus:4 urbi:2,0,Praefectus:4 urbi:2,0,-0.60397
+[CLS] Miguel de la Madrid has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,President of Mexico,0,President of Mexico,0,-0.45089
+[CLS] Alcmaeon:4 of Athens has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Alcmaeon:4,eponymous:3 archon:2,0,eponymous:3 archon:2,0,-0.04358
+[CLS] James Duane:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Mayor of New York City,0,Mayor of New York City,0,-0.60455
+[CLS] Tokugawa Munekatsu:4 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Tokugawa shogunate:3,daimyo:3,0,daimyo:3,0,-0.66977
+[CLS] Bettino:2 Craxi:3 has the position of [MASK] [MASK] [MASK] . [SEP],the violinist:2,Prime Minister of Italy,0,Prime Minister of Italy,0,-0.68717
+[CLS] Oscar Rolando:2 Cantuarias:3 Pastor has the position of [MASK] . [SEP],Pastor,archbishop:3,0,archbishop:3,0,-0.61841
+[CLS] Roger de Meyland:2 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Bishop of Lichfield:3,0,Bishop of Lichfield:3,0,-0.66811
+[CLS] Kim Campbell has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Prime Minister of Canada,0,Prime Minister of Canada,0,-0.84440
+[CLS] Hilarion:3 ( Alfeyev:3 ) has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],""" Hilari:2 """,metropolitan bishop,0,metropolitan bishop,0,-0.38755
+[CLS] Jacqueline Hernández has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,chief operating officer,0,chief operating officer,0,-0.53484
+[CLS] Nebka:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],from hand to hand,pharaoh:3,0,pharaoh:3,0,-0.43022
+[CLS] Marcantonio:3 Trivisan:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Italian National Football Team,Doge:2 of Venice,0,Doge:2 of Venice,0,-0.42171
+[CLS] Aleksandar Stamboliyski:5 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Prime Minister of Bulgaria,0,Prime Minister of Bulgaria,0,-0.26987
+[CLS] Notis:2 Marias:2 has the position of [MASK] [MASK] . [SEP],parish church,member of the European Parliament,0,member of the European Parliament,0,-0.50762
+[CLS] Yasuhiro:3 Nakasone:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Prime Minister of Japan,0,Prime Minister of Japan,0,-0.63003
+[CLS] Joost:2 Lagendijk:3 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,member of the European Parliament,0,member of the European Parliament,0,-0.98121
+[CLS] Ted Wheeler has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Oregon State Treasurer:2,0,Oregon State Treasurer:2,0,-0.29559
+[CLS] Quintus Aemilius:3 Laetus:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the commander of the cavalry,Praetorian:4 prefect:2,0,Praetorian:4 prefect:2,0,-0.59948
+[CLS] Sarwe:2 Iyasus:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Agriculture,Emperor of Ethiopia,0,Emperor of Ethiopia,0,-0.73774
+[CLS] William Henry Elder has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,archbishop:3,0,archbishop:3,0,-0.88094
+[CLS] Cătălin:4 Ivan has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.48818
+[CLS] Vincenzo Labini:2 has the position of [MASK] [MASK] [MASK] . [SEP],a professional footballer,archbishop:3,0,archbishop:3,0,-0.48303
+[CLS] Poul Nyrup:2 Rasmussen has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Prime Minister of Denmark,0,Prime Minister of Denmark,0,-0.49816
+[CLS] Róbert:3 Bezák:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.44624
+[CLS] Barrington:2 Daniels Parker has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a Ph . D,United States federal judge,0,United States federal judge,0,-0.45240
+[CLS] Leopold Figl:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,Federal Chancellor of Austria,0,Federal Chancellor of Austria,0,-0.77392
+[CLS] Valerius:2 Comazon:2 Eutychianus:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the position of "" """,Praetorian:4 prefect:2,0,Praetorian:4 prefect:2,0,-0.66796
+[CLS] Séamus:3 Kirk has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Séamus:3 Kirk,Ceann:2 Comhairle:3,0,Ceann:2 Comhairle:3,0,-0.02378
+[CLS] Ling How Doong:2 has the position of [MASK] [MASK] [MASK] . [SEP],the commanding officer,Singapore Democratic Party,0,Singapore Democratic Party,0,-0.52259
+[CLS] Clement XIV has the position of [MASK] [MASK] [MASK] . [SEP],the papal papal,pope:2,0,pope:2,0,-0.56392
+[CLS] Tony Cunningham has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Department for International Development,0,Department for International Development,0,-0.56022
+[CLS] Oleksandr:3 Turchynov:3 has the position of [MASK] [MASK] [MASK] . [SEP],a football player,Prime Minister of Ukraine,0,Prime Minister of Ukraine,0,-0.66084
+[CLS] Thomas Lemuel:3 James has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,United States Postmaster:2 General,0,United States Postmaster:2 General,0,-0.56813
+[CLS] Anne Doherty has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Commons,superior general,0,superior general,0,-0.30522
+[CLS] Wendell:2 H . Ford has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Lieutenant Governor of Kentucky,0,Lieutenant Governor of Kentucky,0,-0.28682
+[CLS] Giuseppe Antonio Ermenegildo:4 Prisco:2 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.27521
+[CLS] Antonia Parvanova:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,member of the European Parliament,0,member of the European Parliament,0,-0.83649
+[CLS] Archduke:3 Maximilian Francis of Austria has the position of [MASK] [MASK] [MASK] . [SEP],Archduke:3,prince - elector:2,0,prince - elector:2,0,-0.04191
+[CLS] Alfonso Carinci:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.47910
+[CLS] Robert James Carlson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,archbishop:3,0,archbishop:3,0,-0.72361
+[CLS] Robert Gates has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,United States Secretary of Defense,0,United States Secretary of Defense,0,-0.36477
+[CLS] Paolo Bollini:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,Captain Regent of San Marino,0,Captain Regent of San Marino,0,-0.42290
+[CLS] Jenny Shipley:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Prime Minister of New Zealand,0,Prime Minister of New Zealand,0,-0.77301
+[CLS] Jean de Moulins:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,Master of the Order of Preachers:3,0,Master of the Order of Preachers:3,0,-0.43869
+[CLS] Userkare:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Supreme Court,pharaoh:3,0,pharaoh:3,0,-0.83389
+[CLS] Volodymyr:4 Sabodan:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the State of State,metropolitan bishop,0,metropolitan bishop,0,-0.77186
+[CLS] Peter Mandelson:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,"Secretary of State for Business , Energy and Industrial Strategy",0,"Secretary of State for Business , Energy and Industrial Strategy",0,-0.52576
+[CLS] Patriarch:2 Timothy II of Constantinople has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.05695
+[CLS] Enrico Gasparri:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,archbishop:3,0,archbishop:3,0,-0.47930
+[CLS] Manfred Melzer:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,auxiliary:2 bishop,0,auxiliary:2 bishop,0,-0.52631
+[CLS] Regina Benjamin has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,Surgeon:2 General of the United States,0,Surgeon:2 General of the United States,0,-0.81164
+[CLS] Frederick William has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Prince of Wales,prince - elector:2,0,prince - elector:2,0,-0.49299
+[CLS] Jan Zamoyski:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Chancellor of Poland,0,Chancellor of Poland,0,-0.27207
+[CLS] Gianni De Michelis:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Vice President,member of the European Parliament,0,member of the European Parliament,0,-0.70851
+[CLS] Hürrem:3 Sultan has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Hürrem:3 Sultan,Haseki:2 sultan,0,Haseki:2 sultan,0,-0.11504
+[CLS] Marissa:2 Mayer has the position of [MASK] [MASK] [MASK] . [SEP],Marissa:2 Mayer,product manager,0,product manager,0,-0.03427
+[CLS] William S . Clark has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Foreign government advisor in Meiji Japan,0,Foreign government advisor in Meiji Japan,0,-0.26433
+[CLS] William Livingston has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Governor of New Jersey,0,Governor of New Jersey,0,-0.64211
+[CLS] Pedro Folc:2 de Cardona:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Cardona:2,archbishop:3,0,archbishop:3,0,-0.29931
+[CLS] Donald Rumsfeld:2 has the position of [MASK] [MASK] [MASK] . [SEP],the United States,United States Secretary of Defense,0,United States Secretary of Defense,0,-0.25807
+[CLS] Louis R . Chênevert:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Interior,chief executive officer,0,chief executive officer,0,-0.97402
+[CLS] Shinzō:3 Abe has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Prime Minister of Japan,0,Prime Minister of Japan,0,-0.44156
+[CLS] Gaius Julius Bassus:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Roman Senate,Roman consul,0,Roman consul,0,-1.28529
+[CLS] Gaius Junius:2 Tiberianus:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate Senate Senate,Roman consul,0,Roman consul,0,-0.62450
+[CLS] Alexander VI has the position of [MASK] [MASK] . [SEP],Alexander VI,pope:2,0,pope:2,0,-0.74479
+[CLS] Publius Licinius:3 Crassus:3 Dives:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate Senate Senate,Roman censor:2,0,Roman censor:2,0,-0.75558
+[CLS] Oliver Ames has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of Massachusetts,0,Governor of Massachusetts,0,-0.22449
+[CLS] Constabilis:3 has the position of [MASK] [MASK] [MASK] . [SEP],a Lieutenant Colonel,abbot:2,0,abbot:2,0,-0.45657
+[CLS] Lon:2 Nol:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the investigator:3,defence minister,0,defence minister,0,-1.05338
+[CLS] Publius Metilius:3 Nepos:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a senator in the Senate,Roman consul,0,Roman consul,0,-0.53110
+[CLS] Guy III of Spoleto:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the King of England,Holy Roman Emperor,0,Holy Roman Emperor,0,-0.81038
+[CLS] Morarji:3 Desai:2 has the position of [MASK] [MASK] . [SEP],Prime Minister,Prime Minister of India,0,Prime Minister of India,0,-0.76442
+[CLS] Thomas Kean:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Governor of New Jersey,0,Governor of New Jersey,0,-0.53455
+[CLS] Bernhard von Bülow:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Chancellor of Germany,0,Chancellor of Germany,0,-0.58680
+[CLS] David Gompert:3 has the position of [MASK] [MASK] [MASK] . [SEP],a professional footballer,Director of National Intelligence,0,Director of National Intelligence,0,-0.56837
+[CLS] John Purroy:3 Mitchel:2 has the position of [MASK] [MASK] . [SEP],District Attorney,Mayor of New York City,0,Mayor of New York City,0,-0.54670
+[CLS] Pierre - Flavien:3 Turgeon:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Health,archbishop:3,0,archbishop:3,0,-0.93934
+[CLS] Theodore Fitz:2 Randolph has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Governor of New Jersey,0,Governor of New Jersey,0,-0.58180
+[CLS] John J . Keane has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.43148
+[CLS] Michael Hayes has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Ceann:2 Comhairle:3,0,Ceann:2 Comhairle:3,0,-0.47875
+[CLS] Charles Edison has the position of [MASK] [MASK] [MASK] . [SEP],Edison in England,Governor of New Jersey,0,Governor of New Jersey,0,-1.41160
+[CLS] John Bukovsky:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,archbishop:3,0,archbishop:3,0,-0.14417
+[CLS] Urban VI has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Roman Empire,archbishop:3,0,archbishop:3,0,-0.66916
+[CLS] Jules Grévy:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,president of the French Republic,0,president of the French Republic,0,-0.20293
+[CLS] Zawisza:3 Kurozwęcki:4 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Chancellor of Poland,0,Chancellor of Poland,0,-0.49680
+[CLS] Adriana Poli:2 Bortone:3 has the position of [MASK] [MASK] [MASK] . [SEP],a tennis player,member of the European Parliament,0,member of the European Parliament,0,-0.55163
+[CLS] Léon - Benoît - Charles Thomas has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.50495
+[CLS] Albert Daeger:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Agriculture,archbishop:3,0,archbishop:3,0,-0.82631
+[CLS] Pietro II Orseolo:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Doge:2 of Venice,0,Doge:2 of Venice,0,-0.42940
+[CLS] John William Ashe:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,President of the United Nations General Assembly,0,President of the United Nations General Assembly,0,-0.44025
+[CLS] Joseph Stalin has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" one """,General Secretary of the Communist Party of the Soviet Union,0,General Secretary of the Communist Party of the Soviet Union,0,-1.03793
+[CLS] Paul White has the position of [MASK] [MASK] [MASK] . [SEP],the United States,vicar:2,0,vicar:2,0,-0.36468
+[CLS] Gamal:2 Abdel Nasser has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Head of State,President of Egypt,0,President of Egypt,0,-0.44924
+[CLS] Ralph Klein has the position of [MASK] [MASK] [MASK] . [SEP],the United States,Premier of Alberta,0,Premier of Alberta,0,-0.31368
+[CLS] Francisco de la Cuesta:2 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.32780
+[CLS] Aoki:2 Kazuoki:3 has the position of [MASK] [MASK] [MASK] . [SEP],a little boy,daimyo:3,0,daimyo:3,0,-0.88467
+[CLS] Attala:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a U . S,abbot:2,0,abbot:2,0,-0.78418
+[CLS] William Flamville:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,High Sheriff of Leicestershire:2,0,High Sheriff of Leicestershire:2,0,-0.69395
+[CLS] Benedict XIV has the position of [MASK] [MASK] . [SEP],Benedict XIV,pope:2,0,pope:2,0,-0.65091
+[CLS] Date Narimune:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Narimune:3,daimyo:3,0,daimyo:3,0,-1.56415
+[CLS] Sally Jewell:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,chief executive officer,0,chief executive officer,0,-0.64901
+[CLS] John Davis Long has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of Massachusetts,0,Governor of Massachusetts,0,-0.29882
+[CLS] Gaius Asinius:2 Pollio:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the senator in the Senate,Roman consul,0,Roman consul,0,-1.29180
+[CLS] Quintus Fabius:2 Maximus has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Senate ' s Senate,aedile:3,0,aedile:3,0,-0.51681
+[CLS] John IX has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Holy Holy,pope:2,0,pope:2,0,-0.57007
+[CLS] Takeda:2 Nobutora:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Japan,daimyo:3,0,daimyo:3,0,-0.70605
+[CLS] John le Romeyn:2 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Archbishop of York,0,Archbishop of York,0,-0.52604
+[CLS] Catherine Grèze:3 has the position of [MASK] [MASK] [MASK] . [SEP],a social worker,member of the European Parliament,0,member of the European Parliament,0,-0.45851
+[CLS] Ignatius Peter VIII Abdalahad:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Holy Holy,patriarch:2,0,patriarch:2,0,-0.59093
+"[CLS] Arthur MacArthur , Jr . has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",the United States of America,Governor - General of the Philippines,0,Governor - General of the Philippines,0,-0.20910
+[CLS] Wong Kan Seng:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Deputy Prime Minister of Singapore,0,Deputy Prime Minister of Singapore,0,-0.55661
+[CLS] Liz Lynne has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,member of the European Parliament,0,member of the European Parliament,0,-0.97580
+[CLS] William de Corbeil:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Arms of Arms,Archbishop of Canterbury,0,Archbishop of Canterbury,0,-0.98129
+[CLS] Reginald Maudling:2 has the position of [MASK] [MASK] [MASK] . [SEP],a football player,Secretary of State for the Colonies:2,0,Secretary of State for the Colonies:2,0,-0.84779
+[CLS] Nathan Rees has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Environment,Premier of New South Wales,0,Premier of New South Wales,0,-0.82527
+[CLS] Anastasius:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the right - hand hand,metropolitan bishop,0,metropolitan bishop,0,-0.36541
+[CLS] Cedd:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of Cedd:2,abbot:2,0,abbot:2,0,-0.78031
+[CLS] Alec Fong:2 Lim has the position of [MASK] [MASK] [MASK] . [SEP],a football player,Lord Mayor,0,Lord Mayor,0,-0.80904
+[CLS] Federico Visconti has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Duke of Visconti,archbishop:3,0,archbishop:3,0,-1.04464
+"[CLS] Theodosius:3 , Metropolitan of Moscow has the position of [MASK] [MASK] [MASK] . [SEP]",Metropolitan of Moscow,metropolitan bishop,0,metropolitan bishop,0,-0.07540
+[CLS] Carlos P . Garcia has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Department of Agriculture,President of the Philippines,0,President of the Philippines,0,-0.99075
+[CLS] Augustin Dontenwill:4 has the position of [MASK] [MASK] . [SEP],parish priest,archbishop:3,0,archbishop:3,0,-0.44385
+[CLS] William D . Mitchell has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,United States Attorney General,0,United States Attorney General,0,-0.66355
+[CLS] James Iredell:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Governor of North Carolina,0,Governor of North Carolina,0,-0.64385
+[CLS] Richard Howell has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,Governor of New Jersey,0,Governor of New Jersey,0,-1.35790
+[CLS] Owen Roberts has the position of [MASK] [MASK] [MASK] . [SEP],a tennis player,Associate Justice of the Supreme Court of the United States,0,Associate Justice of the Supreme Court of the United States,0,-1.04771
+[CLS] Gregorio Maria Aguirre y Garcia has the position of [MASK] [MASK] . [SEP],parish priest,archbishop:3,0,archbishop:3,0,-0.31740
+[CLS] Barrie:2 Unsworth:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Barrie:2 Unsworth:2,Premier of New South Wales,0,Premier of New South Wales,0,-0.00878
+[CLS] Idris Shah I of Perak has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Sultan of Perak,Sultan of Perak,0,Sultan of Perak,0,-0.65606
+[CLS] Pope Agrippinus:3 of Alexandria has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the bishop of the diocese,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.83004
+[CLS] Ramesses:3 XI has the position of [MASK] [MASK] [MASK] . [SEP],Ramesses:3,pharaoh:3,0,pharaoh:3,0,-0.07762
+[CLS] François Norbert Blanchet:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.35851
+[CLS] Vladimir has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Church of Vladimir,metropolitan bishop,0,metropolitan bishop,0,-1.01911
+[CLS] François - Xavier - Marc - Antoine de Montesquiou:3 - Fézensac:5 has the position of [MASK] [MASK] [MASK] . [SEP],priest and priest,abbot:2,0,abbot:2,0,-0.37769
+[CLS] Nick Coleman has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" D """,Minnesota Senate,0,Minnesota Senate,0,-1.23464
+[CLS] Ottaviano:3 dei Conti di Segni:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Conti of Segni:2,Camerlengo:3 of the Holy Roman Church,0,Camerlengo:3 of the Holy Roman Church,0,-0.59401
+[CLS] Odo:2 of Deuil:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Odo:2 of Deuil:2,abbot:2,0,abbot:2,0,-0.04264
+[CLS] Pauline Marois:2 has the position of [MASK] [MASK] [MASK] . [SEP],a nurse nurse,Premier of Quebec,0,Premier of Quebec,0,-0.76061
+[CLS] Louis of Meissen:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Count Louis of Meissen:2,archbishop:3,0,archbishop:3,0,-0.19072
+[CLS] Bernard Charlès:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,chief executive officer,0,chief executive officer,0,-0.45290
+[CLS] Matsudaira:3 Yoritoshi:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Prince of the Prince,daimyo:3,0,daimyo:3,0,-1.04143
+[CLS] John G . Sargent:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,United States Attorney General,0,United States Attorney General,0,-0.21694
+[CLS] Nora Radcliffe has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,Member of the Scottish Parliament,0,Member of the Scottish Parliament,0,-0.93143
+[CLS] Caesar Rodney has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Continental Congress,0,Continental Congress,0,-0.61714
+[CLS] Willi Piecyk:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,member of the European Parliament,0,member of the European Parliament,0,-0.45453
+[CLS] Thomas Mackenzie has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of the Treasury,Prime Minister of New Zealand,0,Prime Minister of New Zealand,0,-0.82879
+"[CLS] Richard Bethell:2 , 1st Baron Westbury:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the House of Lords,Lord Chancellor,0,Lord Chancellor,0,-0.11248
+[CLS] Gustavus:2 Swan has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a . a .,Supreme Court of Ohio,0,Supreme Court of Ohio,0,-0.85665
+[CLS] Peter Jan Beckx:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Superior General of the Society of Jesus,0,Superior General of the Society of Jesus,0,-0.63243
+[CLS] Konstanty:4 Jacek Lubomirski:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Starosta:2,0,Starosta:2,0,-0.42301
+[CLS] Patriarch:2 Athenagoras:3 I of Constantinople has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.04562
+[CLS] Wasim:2 Sajjad:3 has the position of [MASK] [MASK] . [SEP],Prime Minister,President of Pakistan,0,President of Pakistan,0,-0.25758
+[CLS] Bernardito:2 Auza:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.46436
+[CLS] Giovanni Spadolini:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,Prime Minister of Italy,0,Prime Minister of Italy,0,-0.38964
+[CLS] Ansperto:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.62581
+[CLS] Brendan Halligan:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,member of the European Parliament,0,member of the European Parliament,0,-0.64405
+[CLS] Quintus Caecilius:3 Metellus:2 Macedonicus:4 has the position of [MASK] [MASK] [MASK] . [SEP],the Senate Senate,praetor:2,0,praetor:2,0,-0.65447
+[CLS] Adam Bielan:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.48966
+[CLS] Quintus Minucius:3 Thermus:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Senate Senate,aedile:3,0,aedile:3,0,-0.67907
+[CLS] M . E . Grant Duff has the position of [MASK] [MASK] [MASK] . [SEP],M . E,Privy:2 Council of the United Kingdom,0,Privy:2 Council of the United Kingdom,0,-0.06657
+[CLS] Francis Spellman:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,archbishop:3,0,archbishop:3,0,-0.18960
+[CLS] Timothy Tong has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,ICAC:2 Commissioner,0,ICAC:2 Commissioner,0,-0.70435
+[CLS] Susana Mendoza has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,City Clerk of Chicago,0,City Clerk of Chicago,0,-0.38289
+[CLS] Loris:2 Francesco Capovilla:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Justice of Justice,archbishop:3,0,archbishop:3,0,-0.61433
+[CLS] Shahrukh:3 of Shirvan:3 has the position of [MASK] [MASK] [MASK] . [SEP],Shahrukh:3,Shirvanshah:4,0,Shirvanshah:4,0,-0.02958
+[CLS] Channing:2 H . Cox has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the right - hand hand,Governor of Massachusetts,0,Governor of Massachusetts,0,-0.40849
+[CLS] Walter James has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Premier of Western Australia,0,Premier of Western Australia,0,-0.57609
+[CLS] Séamus:3 Pattison:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" S """,member of the European Parliament,0,member of the European Parliament,0,-1.19411
+[CLS] Pedro Guerreiro:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.36651
+"[CLS] George Hastings , 4th Earl of Huntingdon:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the Arms of Arms,High Sheriff of Leicestershire:2,0,High Sheriff of Leicestershire:2,0,-0.38976
+[CLS] Barbara Greene has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,North York,0,North York,0,-0.73498
+"[CLS] Arthur Wellesley:2 , 1st Duke of Wellington has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",the Prime Minister of England,Prime Minister of the United Kingdom,0,Prime Minister of the United Kingdom,0,-0.25513
+[CLS] Leo I of Cava:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Leo I of Cava:2,abbot:2,0,abbot:2,0,-0.07106
+[CLS] Sylwester:4 Chruszcz:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,member of the European Parliament,0,member of the European Parliament,0,-0.56426
+[CLS] Ovinius:3 Gallicanus:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a Gallicanus:3,Praefectus:4 urbi:2,0,Praefectus:4 urbi:2,0,-0.96726
+[CLS] Urban III has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Rome,pope:2,0,pope:2,0,-0.94101
+[CLS] Friedrich Georg Weitsch:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,court painter,0,court painter,0,-0.87813
+[CLS] Jean - Baptiste Thorn has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,councillor:2,0,councillor:2,0,-0.18489
+[CLS] Jay Garner has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Department of Agriculture,Coalition Provisional Authority,0,Coalition Provisional Authority,0,-1.10307
+[CLS] Tokugawa Iemochi:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor ' s Emperor,Shogun:3,0,Shogun:3,0,-0.69855
+[CLS] Jean - Baptiste Boisot:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,abbot:2,0,abbot:2,0,-0.40728
+[CLS] Simon Peh:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Man of the World,ICAC:2 Commissioner,0,ICAC:2 Commissioner,0,-0.75900
+[CLS] Viktor Klima has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Federal Chancellor of Austria,0,Federal Chancellor of Austria,0,-0.32464
+[CLS] Antony II of Constantinople has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.64458
+[CLS] Eugenijus:3 Gentvilas:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.39006
+[CLS] Jean Hengen:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,archbishop:3,0,archbishop:3,0,-0.78726
+[CLS] Gaius Servilius:3 Glaucia:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate Senate Senate,praetor:2,0,praetor:2,0,-0.60661
+[CLS] Martin V has the position of [MASK] [MASK] . [SEP],Martin V,pope:2,0,pope:2,0,-0.29660
+[CLS] Eugene I has the position of [MASK] [MASK] [MASK] . [SEP],Holy Roman Emperor,pope:2,0,pope:2,0,-0.22966
+[CLS] Carlos Zorrinho:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" player """,member of the European Parliament,0,member of the European Parliament,0,-1.03919
+[CLS] Bernd Lucke:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,member of the European Parliament,0,member of the European Parliament,0,-0.59870
+[CLS] Robert Menzies:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Prime Minister of Australia,0,Prime Minister of Australia,0,-0.56624
+[CLS] Roman Herzog has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Roman Emperor,president of Germany,0,president of Germany,0,-0.08940
+[CLS] Antonio Maria Vegliò:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.23751
+[CLS] Aulus:2 Postumius:3 Albinus:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Roman Empire,praetor:2,0,praetor:2,0,-1.00155
+[CLS] Eva Perón has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Woman of the World,list of First Ladies and Gentlemen:2 of Argentina,0,list of First Ladies and Gentlemen:2 of Argentina,0,-0.67152
+[CLS] Philip Ruddock:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of the Treasury,Attorney - General for Australia,0,Attorney - General for Australia,0,-0.95331
+[CLS] Ernst Adalbert von Harrach:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,archbishop:3,0,archbishop:3,0,-0.90902
+[CLS] Tokugawa Harutoshi:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Tokugawa Harutoshi:3,daimyo:3,0,daimyo:3,0,-0.19019
+[CLS] Lucius Domitius:3 Ahenobarbus:4 has the position of [MASK] [MASK] [MASK] . [SEP],a Roman Roman,praetor:2,0,praetor:2,0,-1.29556
+[CLS] Blake Gottesman:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,body man,0,body man,0,-0.55064
+[CLS] Vittorio Emanuele III has the position of [MASK] [MASK] [MASK] . [SEP],Duke of Aosta,Emperor of Ethiopia,0,Emperor of Ethiopia,0,-0.65575
+[CLS] Aloísio:4 Roque Oppermann:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the right - hand hand,archbishop:3,0,archbishop:3,0,-0.58057
+"[CLS] Constantine Phipps:3 , 1st Marquess:2 of Normanby:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the House of Lords,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.15017
+[CLS] Ria:2 Oomen:2 - Ruijten:3 has the position of [MASK] [MASK] [MASK] . [SEP],a player player,member of the European Parliament,0,member of the European Parliament,0,-1.23463
+[CLS] Gregory XVI has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Holy Holy,abbot:2,0,abbot:2,0,-0.55624
+[CLS] Robert J . Stevens has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,chief executive officer,0,chief executive officer,0,-0.28913
+[CLS] Publius Claudius Pulcher:3 has the position of [MASK] [MASK] [MASK] . [SEP],Imperial Roman Emperor,aedile:3,0,aedile:3,0,-0.85633
+[CLS] Yvette:2 Cooper has the position of [MASK] [MASK] [MASK] . [SEP],Yvette:2 Cooper,Shadow Home Secretary,0,Shadow Home Secretary,0,-0.00308
+[CLS] Helmut Kohl has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Chancellor of Germany,0,Chancellor of Germany,0,-0.35979
+[CLS] Kujō:2 Yoritsune:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kujō:2 Yoritsune:3,Shogun:3,0,Shogun:3,0,-0.36154
+[CLS] Marcus Fulvius:3 Nobilior:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Senate ' s Senate,aedile:3,0,aedile:3,0,-0.59993
+[CLS] Zeferino:3 González y Díaz Tuñón:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.32878
+[CLS] Mitch Landrieu:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Lieutenant Governor of Louisiana,0,Lieutenant Governor of Louisiana,0,-0.56578
+[CLS] Gale Norton has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Colorado Attorney General,0,Colorado Attorney General,0,-0.74989
+[CLS] Hor:2 - Aha:2 has the position of [MASK] [MASK] [MASK] . [SEP],a village council,pharaoh:3,0,pharaoh:3,0,-1.42933
+[CLS] Isaac of Stella has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of the Lord,abbot:2,0,abbot:2,0,-1.37457
+[CLS] Jacqui:3 Smith has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a S . S,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-1.07014
+[CLS] Ida Saxton:2 McKinley has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Representatives,First Lady of the United States,0,First Lady of the United States,0,-0.22579
+[CLS] Pope Gabriel IV of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope Gabriel IV,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.11666
+[CLS] Gennaro:2 Portanova:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.41307
+[CLS] Frank Wilson has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States House Speaker,Premier of Western Australia,0,Premier of Western Australia,0,-0.22788
+[CLS] Giovanni Giustiniani:4 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Protostrator:3,0,Protostrator:3,0,-0.49399
+[CLS] P . Aquillius:3 Gallus:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],P . Aquillius:3,tribune:2 of the plebs:3,0,tribune:2 of the plebs:3,0,-0.02085
+[CLS] Pope John XVI of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope John XVI,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.37534
+[CLS] Henry S . Johnston has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,President pro tempore of the Oklahoma Senate,0,President pro tempore of the Oklahoma Senate,0,-0.35778
+"[CLS] John Wodehouse:3 , 1st Earl of Kimberley:2 has the position of [MASK] [MASK] . [SEP]",Lieutenant Colonel,Secretary of State for Foreign and Commonwealth Affairs,0,Secretary of State for Foreign and Commonwealth Affairs,0,-0.42147
+[CLS] Phumzile:4 Mlambo:3 - Ngcuka:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"a "" a """,Deputy President of South Africa,0,Deputy President of South Africa,0,-1.33671
+[CLS] Endius:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Reflex:3,Ephor:3,0,Ephor:3,0,-1.04628
+[CLS] Godfried:2 Danneels:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.64815
+"[CLS] Richard Wellesley:2 , 1st Marquess:2 Wellesley:2 has the position of [MASK] [MASK] [MASK] . [SEP]",Arms of Arms,Lord Lieutenant of Ireland,0,Lord Lieutenant of Ireland,0,-0.54024
+[CLS] Marc - Amable:2 Girard has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Premier of Manitoba,0,Premier of Manitoba,0,-0.37421
+[CLS] Ebenezer:2 Hazard:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,United States Postmaster:2 General,0,United States Postmaster:2 General,0,-0.57684
+[CLS] John Scholasticus:4 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.56198
+[CLS] Konstantina:2 Kouneva:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.48639
+[CLS] Arturo Rivera y Damas:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.32758
+[CLS] Boniface:3 Lele:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.51371
+[CLS] Dave Deno:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" drummer """,chief operating officer,0,chief operating officer,0,-1.11902
+[CLS] David Beaton:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.62663
+"[CLS] John Copley:2 , 1st Baron Lyndhurst:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the House of Lords,Lord Chancellor,0,Lord Chancellor,0,-0.10930
+[CLS] Niall:2 Andrews has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,member of the European Parliament,0,member of the European Parliament,0,-0.77405
+[CLS] Date Masamune:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],no no no no no,daimyo:3,0,daimyo:3,0,-0.80061
+[CLS] S . Jayakumar:3 has the position of [MASK] [MASK] [MASK] . [SEP],S . S,Deputy Prime Minister of Singapore,0,Deputy Prime Minister of Singapore,0,-0.67906
+[CLS] Oswald Gracias has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.40239
+[CLS] Janusz Korwin:3 - Mikke:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,member of the European Parliament,0,member of the European Parliament,0,-0.27504
+[CLS] Kyriakos:3 Mavronikolas:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.39993
+[CLS] Reinhard Marx has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a worker - worker,archbishop:3,0,archbishop:3,0,-0.74787
+[CLS] Josaphat:3 Kuntsevych:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.35248
+[CLS] Bashar:2 al - Assad has the position of [MASK] [MASK] . [SEP],Prime Minister,President of Syria,0,President of Syria,0,-0.07788
+[CLS] Pope John VII of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope John VII,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.16701
+[CLS] Paul E . Patton has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Major General of the Army,Lieutenant Governor of Kentucky,0,Lieutenant Governor of Kentucky,0,-0.07763
+[CLS] Harry Joseph Flynn has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.54381
+[CLS] Leon Abbett:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of New Jersey,0,Governor of New Jersey,0,-0.28401
+[CLS] Titus Statilius:2 Taurus Corvinus:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of the Empire,Roman consul,0,Roman consul,0,-0.89398
+[CLS] Paul Haddacks:3 has the position of [MASK] [MASK] [MASK] . [SEP],the United States,Lieutenant Governor of the Isle of Man,0,Lieutenant Governor of the Isle of Man,0,-0.37017
+[CLS] Axel Miller has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A """,chief executive officer,0,chief executive officer,0,-1.32166
+[CLS] Lawrence Booth has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Archbishop of York,0,Archbishop of York,0,-0.74435
+[CLS] Philippe De Backer:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.42500
+[CLS] Christian Schwarz - Schilling:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,High Representative for Bosnia and Herzegovina,0,High Representative for Bosnia and Herzegovina,0,-0.44081
+[CLS] Lucius Fabius:2 Cilo:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate Senate Senate,Praefectus:4 urbi:2,0,Praefectus:4 urbi:2,0,-0.56234
+[CLS] Nobuyuki:3 Abe has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Prime Minister of Japan,0,Prime Minister of Japan,0,-0.53876
+[CLS] Guillaume - Marie - Joseph Labouré:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.39484
+[CLS] Francesco Rutelli:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,member of the European Parliament,0,member of the European Parliament,0,-0.41417
+[CLS] Byron White has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Associate Justice of the Supreme Court of the United States,0,Associate Justice of the Supreme Court of the United States,0,-0.63918
+[CLS] Sylvester III has the position of [MASK] [MASK] . [SEP],Sylvester III,pope:2,0,pope:2,0,-0.45970
+[CLS] Hilduin:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the King of Denmark,abbot:2,0,abbot:2,0,-1.10205
+[CLS] Anastasio:3 Somoza:2 Debayle:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of Nicaragua,0,President of Nicaragua,0,-0.29623
+[CLS] Sharafuddin:3 of Selangor has the position of [MASK] [MASK] [MASK] . [SEP],Sharafuddin:3,Sultan of Selangor,0,Sultan of Selangor,0,-0.01564
+[CLS] Sicco:2 Mansholt:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,President of the European Commission,0,President of the European Commission,0,-0.31194
+[CLS] Leander:2 Starr Jameson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],""" "" "" """,Cape Colony,0,Cape Colony,0,-0.61373
+"[CLS] Sir Hugh Pollard:2 , 2nd Baronet has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",Sir Hugh Pollard:2,member of parliament,0,member of parliament,0,-0.03952
+[CLS] Paolo Pezzi:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.52034
+[CLS] Herbert Henry Lehman:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Governor of New York,0,Governor of New York,0,-0.45053
+[CLS] Cheryl Gillan:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Secretary of State for Wales,0,Secretary of State for Wales,0,-0.63114
+[CLS] Colin Barnett has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Premier of Western Australia,0,Premier of Western Australia,0,-0.84287
+[CLS] Gordon Brown has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Chancellor of the Exchequer:3,0,Chancellor of the Exchequer:3,0,-0.22413
+[CLS] Lutz Goepel:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the right - hand hand,member of the European Parliament,0,member of the European Parliament,0,-0.47755
+[CLS] Neferkahor:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Neferkahor:4,pharaoh:3,0,pharaoh:3,0,-0.67235
+[CLS] Marco Pannella:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Vice President,member of the European Parliament,0,member of the European Parliament,0,-0.78309
+[CLS] Pope Macarius:2 I of Alexandria has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Alexandria,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.64784
+[CLS] Bonar:2 Law has the position of [MASK] [MASK] [MASK] . [SEP],Bonar:2 Law,Prime Minister of the United Kingdom,0,Prime Minister of the United Kingdom,0,-0.09333
+[CLS] Lucius Aemilius:3 Lepidus:3 Paullus:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate Senate Senate,aedile:3,0,aedile:3,0,-0.76022
+[CLS] Martin H . Glynn:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of New York,0,Governor of New York,0,-0.23437
+[CLS] Oliver Plunkett:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,archbishop:3,0,archbishop:3,0,-0.18427
+[CLS] Li Xiannian:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of China,President of the People ' s Republic of China,0,President of the People ' s Republic of China,0,-1.26760
+[CLS] Rodman:2 M . Price has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Governor of New Jersey,0,Governor of New Jersey,0,-0.53436
+[CLS] Mentuhotep:3 I has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Mentuhotep:3 I,pharaoh:3,0,pharaoh:3,0,-0.20187
+"[CLS] Neferkare:3 , ninth dynasty has the position of [MASK] [MASK] [MASK] . [SEP]",the goddess:2,pharaoh:3,0,pharaoh:3,0,-0.61284
+[CLS] Publius Aelius:2 Vibullius:3 Rufus has the position of [MASK] [MASK] [MASK] . [SEP],a Roman Roman,eponymous:3 archon:2,0,eponymous:3 archon:2,0,-1.18314
+[CLS] Riek:2 Machar:2 has the position of [MASK] [MASK] [MASK] . [SEP],a small town,vice president,0,vice president,0,-1.01106
+[CLS] Ian Twinn:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,member of the European Parliament,0,member of the European Parliament,0,-0.50807
+[CLS] Urszula:3 Krupa:2 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,member of the European Parliament,0,member of the European Parliament,0,-0.72717
+[CLS] Jean - Louis Bruguès:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.35484
+[CLS] Peter Hitchcock has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A """,Supreme Court of Ohio,0,Supreme Court of Ohio,0,-1.41212
+"[CLS] Archibald Seymour , 13th Duke of Somerset has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",Lord Chancellor of the Rolls,High Sheriff of Leicestershire:2,0,High Sheriff of Leicestershire:2,0,-0.35129
+[CLS] Soledad Cabezón:3 Ruiz has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.48970
+[CLS] Serguei:3 Beloussov:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of State,chief executive officer,0,chief executive officer,0,-1.03366
+[CLS] Aulus:2 Postumius:3 Albinus:2 Luscus:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Roman Emperor,praetor:2,0,praetor:2,0,-0.46155
+"[CLS] John Anderson , 1st Viscount Waverley:2 has the position of [MASK] [MASK] [MASK] . [SEP]",Arms of Arms,Chancellor of the Exchequer:3,0,Chancellor of the Exchequer:3,0,-0.48704
+[CLS] Marcus Postumius:3 Albinus:2 Regillensis:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Senate Senate,Roman censor:2,0,Roman censor:2,0,-0.60714
+[CLS] Robert Rawstorne:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,vicar:2,0,vicar:2,0,-0.64668
+[CLS] Mikheil:3 Saakashvili:4 has the position of [MASK] [MASK] . [SEP],Prime Minister,President of Georgia,0,President of Georgia,0,-0.07988
+[CLS] Jewish pope:2 Andreas has the position of [MASK] [MASK] . [SEP],pope:2,pope:2,1,pope:2,1,-0.12437
+[CLS] John Bruton:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a B . A,Taoiseach:3,0,Taoiseach:3,0,-0.74925
+[CLS] Shirvanshah:4 Akhsitan:3 III has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Shirvanshah:4,Shirvanshah:4,1,Shirvanshah:4,1,-0.03061
+[CLS] Rajiv:2 Gandhi has the position of [MASK] [MASK] [MASK] . [SEP],Rajiv:2 Gandhi,Prime Minister of India,0,Prime Minister of India,0,-0.02006
+[CLS] Mary Barra has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Parish of the Parish,vice president,0,vice president,0,-0.82975
+[CLS] Stanimir:3 Ilchev:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.45761
+[CLS] Adelelmus:3 of Burgos has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Burgos,abbot:2,0,abbot:2,0,-0.35366
+[CLS] Asander:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,satrap:2,0,satrap:2,0,-0.46720
+[CLS] Ramesses:3 IX has the position of [MASK] [MASK] [MASK] . [SEP],Ramesses:3,pharaoh:3,0,pharaoh:3,0,-0.08274
+[CLS] Bernard Stone has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Chicago City Council,0,Chicago City Council,0,-0.54529
+[CLS] Charles Lambert Ferdinands:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Solicitor:3 General of Sri Lanka,0,Solicitor:3 General of Sri Lanka,0,-0.48835
+[CLS] Penaia:2 Ganilau:3 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,President of Fiji,0,President of Fiji,0,-0.70618
+[CLS] William Godfrey has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.73250
+[CLS] Theresa May has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.22620
+[CLS] John Whitgift:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Archbishop of Canterbury,0,Archbishop of Canterbury,0,-0.47567
+[CLS] Abel of Reims has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Reims,abbot:2,0,abbot:2,0,-0.48233
+[CLS] John Hoynes:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Vice President of the United States,0,Vice President of the United States,0,-0.52061
+[CLS] Elpidio:3 Quirino:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of the Philippines,0,President of the Philippines,0,-0.42306
+[CLS] Tokugawa Munechika:4 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Tokugawa Munechik:3,daimyo:3,0,daimyo:3,0,-0.18987
+[CLS] Emine:2 Bozkurt:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the mayor of the town,member of the European Parliament,0,member of the European Parliament,0,-0.54390
+[CLS] Laima:2 Andrikienė:4 has the position of [MASK] [MASK] [MASK] . [SEP],worker - worker,member of the European Parliament,0,member of the European Parliament,0,-0.51771
+[CLS] Stuart Milton Hodgson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Commissioners:2 of the Northwest Territories,0,Commissioners:2 of the Northwest Territories,0,-0.54410
+[CLS] Spencer Perceval:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Attorney General for England and Wales,0,Attorney General for England and Wales,0,-0.50949
+[CLS] Alonso Manrique:2 de Lara has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Manrique:2 de Lara,archbishop:3,0,archbishop:3,0,-1.15912
+[CLS] Eusébio:3 Scheid:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the influx:3,archbishop:3,0,archbishop:3,0,-0.58795
+[CLS] Asano:2 Tsunaakira:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,daimyo:3,0,daimyo:3,0,-0.56836
+[CLS] Didrik:2 Slagheck:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.63656
+[CLS] Eugene Bolkhovitinov:5 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Russia,metropolitan bishop,0,metropolitan bishop,0,-0.72029
+[CLS] William Kennedy has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Governor of New Jersey,0,Governor of New Jersey,0,-0.45894
+[CLS] Matt Fong:2 has the position of [MASK] [MASK] [MASK] . [SEP],the first time,California State Treasurer:2,0,California State Treasurer:2,0,-1.40343
+[CLS] Xi Jinping:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of China,General Secretary of the Communist Party of China,0,General Secretary of the Communist Party of China,0,-0.96752
+[CLS] Hermann Winkler has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Chancellor of the Chancellor,member of the European Parliament,0,member of the European Parliament,0,-0.32279
+[CLS] Thomas Playford:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Premiers:2 of South Australia,0,Premiers:2 of South Australia,0,-0.76443
+[CLS] Anton Stres:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.39472
+[CLS] Bricín:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the capital of the city,abbot:2,0,abbot:2,0,-0.85510
+[CLS] Hallas:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Ruling:3 Steward:3 of Gondor:2,0,Ruling:3 Steward:3 of Gondor:2,0,-0.69315
+[CLS] Maria Badia:2 i Cutchet:2 has the position of [MASK] [MASK] . [SEP],parish church,member of the European Parliament,0,member of the European Parliament,0,-0.44312
+[CLS] Nikólaos:4 Printesis:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,archbishop:3,0,archbishop:3,0,-0.30599
+[CLS] Heribert:2 of Cologne has the position of [MASK] [MASK] [MASK] . [SEP],Bishop of Cologne,archbishop:3,0,archbishop:3,0,-0.31275
+[CLS] John the Prophet has the position of [MASK] [MASK] [MASK] . [SEP],the Holy Holy,abbot:2,0,abbot:2,0,-0.77343
+[CLS] Pietro Loredan:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Doge:2 of Venice,0,Doge:2 of Venice,0,-0.32075
+[CLS] Quintus Fabius:2 Maximus Sanga:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate . Senate,Roman consul,0,Roman consul,0,-1.29154
+[CLS] Laurentius:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the thermitor:3,antipope:3,0,antipope:3,0,-2.09527
+[CLS] Galéas:3 de Saint - Séverin:4 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,Grand Squire:2 of France,0,Grand Squire:2 of France,0,-0.68663
+[CLS] Thomas Händel has the position of [MASK] [MASK] [MASK] . [SEP],the violinist:2,member of the European Parliament,0,member of the European Parliament,0,-0.80982
+[CLS] Henry Poole has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of the Treasury,High Sheriff of Leicestershire:2,0,High Sheriff of Leicestershire:2,0,-0.96112
+[CLS] Cheung:2 Man Yee:2 has the position of [MASK] [MASK] [MASK] . [SEP],the commanding officer,Radio Television Hong Kong,0,Radio Television Hong Kong,0,-0.54801
+"[CLS] Frederic Thesiger:3 , 1st Baron Chelmsford:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the House of Lords,Lord Chancellor,0,Lord Chancellor,0,-0.11752
+[CLS] Piye:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the influx:3,pharaoh:3,0,pharaoh:3,0,-0.70809
+[CLS] Jeffrey N . Steenson:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the position of the position,protonotary:3 apostolic:3,0,protonotary:3 apostolic:3,0,-0.81016
+[CLS] Kim Dae:2 - jung has the position of [MASK] [MASK] . [SEP],Prime Minister,president of South Korea,0,president of South Korea,0,-0.26342
+[CLS] Santiago Copello:2 has the position of [MASK] [MASK] [MASK] . [SEP],a political party,archbishop:3,0,archbishop:3,0,-0.75356
+[CLS] John A . King has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Governor of New York,0,Governor of New York,0,-0.53088
+[CLS] Zygmunt Szczęsny:5 Feliński:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.44774
+[CLS] Giambattista:3 Spinola:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Man of the World,Camerlengo:3 of the Sacred College of Cardinals,0,Camerlengo:3 of the Sacred College of Cardinals,0,-0.86675
+[CLS] Joop:2 den Uyl:2 has the position of [MASK] [MASK] [MASK] . [SEP],the right hand,Prime Minister of the Netherlands,0,Prime Minister of the Netherlands,0,-0.58701
+[CLS] Jakob Erlandsen:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.29977
+[CLS] Lewis Macdonald has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Member of the Scottish Parliament,0,Member of the Scottish Parliament,0,-0.52415
+[CLS] Tikhon:3 of Kaluga:3 has the position of [MASK] [MASK] [MASK] . [SEP],Tikhon:3,abbot:2,0,abbot:2,0,-0.05416
+[CLS] Martinus Dom has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Church of God,abbot:2,0,abbot:2,0,-0.68489
+[CLS] Guy Marie Alexandre Thomazeau:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.44050
+[CLS] John Walsh has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,archbishop:3,0,archbishop:3,0,-0.94057
+[CLS] Damaskinos:3 Papandreou:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,metropolitan bishop,0,metropolitan bishop,0,-0.24522
+[CLS] Mariano Rajoy:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Deputy Prime Minister of Spain,0,Deputy Prime Minister of Spain,0,-0.09783
+[CLS] Sylvia - Yvonne Kaufmann has the position of [MASK] [MASK] [MASK] . [SEP],a nurse nurse,member of the European Parliament,0,member of the European Parliament,0,-0.79909
+[CLS] Everard:2 Mercurian:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Mercurian:3,Superior General of the Society of Jesus,0,Superior General of the Society of Jesus,0,-1.19245
+[CLS] Ebremaro:4 di Thérouanne:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the bishop of the diocese,archbishop:3,0,archbishop:3,0,-0.35433
+[CLS] Karl - Johan Persson has the position of [MASK] [MASK] . [SEP],Prime Minister,chief executive officer,0,chief executive officer,0,-0.11546
+[CLS] Philippe Wahl has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,chief executive officer,0,chief executive officer,0,-0.30467
+[CLS] Wilson Cary Nicholas has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Governor of Virginia,0,Governor of Virginia,0,-0.53946
+[CLS] Patrick Everard:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.63101
+[CLS] John Njue:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.42780
+[CLS] Daniel DiNardo:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" D """,archbishop:3,0,archbishop:3,0,-1.10438
+[CLS] Don Dunstan:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Premiers:2 of South Australia,0,Premiers:2 of South Australia,0,-0.46889
+[CLS] Masistes:2 has the position of [MASK] [MASK] [MASK] . [SEP],a political party,satrap:2,0,satrap:2,0,-0.71800
+[CLS] Bardo:2 has the position of [MASK] [MASK] . [SEP],Bardo:2,archbishop:3,0,archbishop:3,0,-0.16610
+[CLS] Antonio Agliardi:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the S . S,archbishop:3,0,archbishop:3,0,-1.10961
+[CLS] Pope Peter III of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope Peter III,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.16699
+[CLS] Arjun:2 Singh has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Ministry of Human Resource Development,0,Ministry of Human Resource Development,0,-0.73707
+[CLS] Tuman:2 bay I has the position of [MASK] [MASK] [MASK] . [SEP],Tuman:2 bay,Sultan of Egypt,0,Sultan of Egypt,0,-0.04507
+[CLS] Krishan:2 Kant has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" one """,Vice President of India,0,Vice President of India,0,-1.12743
+[CLS] Jean - Claude Juncker:2 has the position of [MASK] [MASK] . [SEP],Prime Minister,President of the European Commission,0,President of the European Commission,0,-0.06497
+[CLS] Columba:2 has the position of [MASK] [MASK] . [SEP],Columba:2,abbot:2,0,abbot:2,0,-0.14580
+[CLS] Cristian Bușoi:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.34204
+[CLS] Bernard - Claude Panet:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.50127
+[CLS] Itamar:2 Franco has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Vice President of Brazil,0,Vice President of Brazil,0,-0.26843
+[CLS] James Peter Davis has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,archbishop:3,0,archbishop:3,0,-0.94603
+[CLS] Mary Callahan:2 Erdoes:3 has the position of [MASK] [MASK] [MASK] . [SEP],Mrs . Mrs,chief executive officer,0,chief executive officer,0,-0.45994
+[CLS] Quintus Caecilius:3 Metellus:2 Numidicus:3 has the position of [MASK] [MASK] [MASK] . [SEP],a Roman Roman,Roman censor:2,0,Roman censor:2,0,-1.22340
+[CLS] Daniel Michael Tellep:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,chief executive officer,0,chief executive officer,0,-0.24022
+[CLS] James Budd:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Governor of California,0,Governor of California,0,-0.50309
+[CLS] James Boucaut:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Premiers:2 of South Australia,0,Premiers:2 of South Australia,0,-0.46118
+[CLS] Gertrude Walton Donahey:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Ohio State Treasurer:2,0,Ohio State Treasurer:2,0,-0.72972
+[CLS] Hidenao:3 Nakagawa:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Chief Cabinet Secretary,0,Chief Cabinet Secretary,0,-0.52439
+[CLS] James Duhig:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Commons,archbishop:3,0,archbishop:3,0,-0.11636
+[CLS] Joseph Anthony O ' Sullivan has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.42439
+[CLS] Qaitbay:3 has the position of [MASK] [MASK] [MASK] . [SEP],Qaitbay:3,Sultan of Egypt,0,Sultan of Egypt,0,-0.21019
+[CLS] Zhizhi:3 has the position of [MASK] [MASK] [MASK] . [SEP],Zhizhi:3,Chanyu:2,0,Chanyu:2,0,-0.27408
+[CLS] Gerardo Galeote:2 Quecedo:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.38806
+[CLS] Greg Abbott has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Representatives,Governor of Texas,0,Governor of Texas,0,-0.32382
+[CLS] Anastasius:3 Bibliothecarius:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Roman Emperor,antipope:3,0,antipope:3,0,-1.46779
+[CLS] Titus has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of the Empire,Roman emperor,0,Roman emperor,0,-0.82360
+[CLS] Newt:2 Gingrich:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,speaker of the United States House of Representatives,0,speaker of the United States House of Representatives,0,-0.61072
+[CLS] Marolus:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the most important Marolus:2,archbishop:3,0,archbishop:3,0,-0.64605
+[CLS] Oliver Letwin:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Shadow Chancellor of the Exchequer:3,0,Shadow Chancellor of the Exchequer:3,0,-0.83086
+[CLS] Möngke:4 Khan has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Khagan:3,0,Khagan:3,0,-0.28850
+[CLS] Pendleton:3 Murrah:2 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,Governor of Texas,0,Governor of Texas,0,-0.76848
+[CLS] John G . Carlisle has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,speaker of the United States House of Representatives,0,speaker of the United States House of Representatives,0,-0.73347
+[CLS] Richard MacDonnell:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Governor of Hong Kong,0,Governor of Hong Kong,0,-0.39133
+[CLS] Mohammad Najibullah:4 has the position of [MASK] [MASK] . [SEP],Prime Minister,President of Afghanistan,0,President of Afghanistan,0,-0.11880
+[CLS] Victor - Lucien - Sulpice:2 Lécot:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.31445
+"[CLS] George Robertson , Baron Robertson of Port Ellen has the position of [MASK] [MASK] [MASK] . [SEP]",the Chief Justice,Secretary of State for Defence,0,Secretary of State for Defence,0,-0.91981
+[CLS] Menkheperre:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,pharaoh:3,0,pharaoh:3,0,-0.46277
+[CLS] Jan Olbrycht:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.52673
+[CLS] Abdullah Kassim:3 Hanga:2 has the position of [MASK] [MASK] . [SEP],Prime Minister,prime minister,0,prime minister,0,-0.20906
+[CLS] Philip I has the position of [MASK] [MASK] . [SEP],Philip I,archbishop:3,0,archbishop:3,0,-0.43859
+"[CLS] Harl:2 H . Haas , Jr . has the position of [MASK] [MASK] . [SEP]",Vice President,district attorney,0,district attorney,0,-0.34779
+[CLS] Josef Beran:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,archbishop:3,0,archbishop:3,0,-0.36644
+[CLS] Hōjō:3 Morotoki:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Japan,Shikken:2,0,Shikken:2,0,-0.67029
+[CLS] Vitale:2 Faliero:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Doge:2 of Venice,0,Doge:2 of Venice,0,-0.42111
+[CLS] Viggo:2 Kampmann:3 has the position of [MASK] [MASK] [MASK] . [SEP],a player player,Finance Minister of Denmark,0,Finance Minister of Denmark,0,-1.24633
+[CLS] John Langton:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Bishop of Chichester:2,0,Bishop of Chichester:2,0,-0.57096
+[CLS] Michael Bourtzes:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Dux:2,0,Dux:2,0,-0.48581
+[CLS] Egilbert:3 has the position of [MASK] [MASK] [MASK] . [SEP],Egilbert:3,archbishop:3,0,archbishop:3,0,-0.19489
+[CLS] Bill Davis has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of the Navy,Premier of Ontario,0,Premier of Ontario,0,-0.94749
+[CLS] Judge McGruder:5 has the position of [MASK] . [SEP],Judge,Chief Judge of Mega - City One,0,Chief Judge of Mega - City One,0,-0.15612
+[CLS] Gregory Orologas:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A "" class",metropolitan bishop,0,metropolitan bishop,0,-1.17805
+[CLS] Alexander Peacock:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Premier of Victoria,0,Premier of Victoria,0,-0.15019
+[CLS] Francis Carroll has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,archbishop:3,0,archbishop:3,0,-1.00428
+[CLS] Todd Stroger:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a U . S,Chicago City Council,0,Chicago City Council,0,-0.37550
+[CLS] Ōuchi:2 Masahiro:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Environment,daimyo:3,0,daimyo:3,0,-0.68676
+[CLS] Simon Mepeham:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Archbishop of Canterbury,0,Archbishop of Canterbury,0,-0.63060
+[CLS] Raymond Barre has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the President of the Republic,Prime Minister of France,0,Prime Minister of France,0,-0.56514
+[CLS] Franklin Pierce has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Representatives,President of the United States,0,President of the United States,0,-0.07993
+[CLS] Marcus Junius:2 Brutus:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Rome,praetor:2,0,praetor:2,0,-0.77820
+[CLS] Evariste:3 Ngoyagoye:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.47582
+[CLS] Joseph Li Shan has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,archbishop:3,0,archbishop:3,0,-0.70481
+[CLS] Robert Elgie:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the Ontario Provincial Parliament,0,member of the Ontario Provincial Parliament,0,-0.52348
+[CLS] Sigitas:3 Tamkevičius:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.48071
+[CLS] Boniface:3 I has the position of [MASK] [MASK] [MASK] . [SEP],King of England,pope:2,0,pope:2,0,-1.19253
+[CLS] Adrian I has the position of [MASK] [MASK] . [SEP],Adrian I,pope:2,0,pope:2,0,-0.67788
+[CLS] Ernest Wilberforce:4 has the position of [MASK] [MASK] [MASK] . [SEP],the Royal Navy,Bishop of Chichester:2,0,Bishop of Chichester:2,0,-0.90263
+[CLS] Megan Brennan has the position of [MASK] [MASK] [MASK] . [SEP],a nurse nurse,United States Postmaster:2 General,0,United States Postmaster:2 General,0,-0.97479
+[CLS] John Connally:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Chancellor of the Chancellor,Governor of Texas,0,Governor of Texas,0,-0.65361
+[CLS] Damian Zimoń:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A """,archbishop:3,0,archbishop:3,0,-1.33398
+[CLS] Andrew Forman:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,archbishop:3,0,archbishop:3,0,-0.20330
+"[CLS] Henry Bruce , 1st Baron Aberdare:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",Lord of the Rolls,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.51914
+[CLS] Patriarch:2 Michael III of Constantinople has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.04497
+[CLS] Juan de Zúñiga:4 Flores has the position of [MASK] [MASK] . [SEP],parish priest,Grand Inquisitor:3,0,Grand Inquisitor:3,0,-0.37146
+[CLS] Balacrus:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the invertebrate:3,Somatophylakes:5,0,Somatophylakes:5,0,-0.81846
+[CLS] Christopher Prowse:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.53595
+[CLS] Gianni Rivera has the position of [MASK] [MASK] [MASK] . [SEP],the Vice President,member of the European Parliament,0,member of the European Parliament,0,-0.69319
+[CLS] Elliot Richardson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,United States Attorney General,0,United States Attorney General,0,-0.91372
+[CLS] Eric D ' Arcy:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,archbishop:3,0,archbishop:3,0,-0.17728
+[CLS] Marielle:2 de Sarnez:2 has the position of [MASK] [MASK] [MASK] . [SEP],a nursery:2,member of the European Parliament,0,member of the European Parliament,0,-1.22427
+[CLS] John Joseph Hughes has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Department of the Treasury,archbishop:3,0,archbishop:3,0,-1.00981
+[CLS] Stephen Hatton:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Chief Minister of the Northern Territory,0,Chief Minister of the Northern Territory,0,-0.64836
+[CLS] Etsou:2 - Nzabi:3 - Bamungwabi:4 Frédéric has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a State of State,archbishop:3,0,archbishop:3,0,-0.50769
+[CLS] William Booth has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Bishop of Lichfield:3,0,Bishop of Lichfield:3,0,-0.36348
+[CLS] Sergei Stanishev:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Soviet Union,Prime Minister of Bulgaria,0,Prime Minister of Bulgaria,0,-0.30746
+[CLS] Bill Hawks has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" "" "" """,Mississippi State Senate,0,Mississippi State Senate,0,-1.60548
+[CLS] Torii:2 Tadafumi:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,daimyo:3,0,daimyo:3,0,-0.59505
+[CLS] Robert Lowe has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Chancellor of the Exchequer:3,0,Chancellor of the Exchequer:3,0,-0.43553
+[CLS] Hans - Rudolf Merz:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of the Swiss Confederation,0,President of the Swiss Confederation,0,-0.54076
+[CLS] Josu:2 Ortuondo:3 Larrea:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.26734
+[CLS] H . H . Asquith:3 has the position of [MASK] [MASK] [MASK] . [SEP],H . H,Prime Minister of the United Kingdom,0,Prime Minister of the United Kingdom,0,-0.13132
+[CLS] Martti:2 Ahtisaari:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of Finland,0,President of Finland,0,-0.42366
+[CLS] John XXIII has the position of [MASK] [MASK] [MASK] . [SEP],the Holy Holy,antipope:3,0,antipope:3,0,-0.66251
+[CLS] Pietro Mocenigo:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Doge:2 of Venice,0,Doge:2 of Venice,0,-0.38816
+[CLS] Adso:2 of Montier:2 - en - Der has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],""" Adso:2 """,abbot:2,0,abbot:2,0,-0.09140
+[CLS] William Rehnquist:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the infectious:3,Chief Justice of the United States,0,Chief Justice of the United States,0,-1.43922
+[CLS] Pedro Cruz Villalón:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,advocate general,0,advocate general,0,-0.35525
+[CLS] Angelina Jolie has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Jolie Jolie Jolie Jolie,Office of the United Nations High Commissioner for Refugees:3 Goodwill:3 Ambassador,0,Office of the United Nations High Commissioner for Refugees:3 Goodwill:3 Ambassador,0,-0.28958
+"[CLS] John Skylstead:3 Rhoades:3 , Sr . has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the Chief of Staff,United States federal judge,0,United States federal judge,0,-0.58405
+[CLS] Jeremy Jacobs has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,chief executive officer,0,chief executive officer,0,-0.51904
+[CLS] Fernand Le Rachinel:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.40440
+[CLS] Tsutomu:3 Hata:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Agriculture,Prime Minister of Japan,0,Prime Minister of Japan,0,-0.73047
+[CLS] Robert Carr has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Bishop of Chichester:2,0,Bishop of Chichester:2,0,-0.81879
+[CLS] Thabo:2 Mbeki:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Deputy President of South Africa,0,Deputy President of South Africa,0,-0.31699
+[CLS] Gerald of Sauve:2 - Majeure:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the bishop of the diocese,abbot:2,0,abbot:2,0,-0.44027
+[CLS] Jean - Luc Dehaene:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Prime Minister of Belgium,0,Prime Minister of Belgium,0,-0.39845
+[CLS] Manuel Medina has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.33436
+[CLS] Allan Bell has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Chief Minister of the Isle of Man,0,Chief Minister of the Isle of Man,0,-0.78868
+[CLS] Iyoas:3 I has the position of [MASK] [MASK] [MASK] . [SEP],Iyoas:3,Emperor of Ethiopia,0,Emperor of Ethiopia,0,-0.06554
+[CLS] Gelasius:3 II has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Gelasius:3 II,pope:2,0,pope:2,0,-0.18258
+[CLS] Bezmiâlem:4 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,Valide:2 Sultan,0,Valide:2 Sultan,0,-0.69465
+[CLS] Paul Reeves has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Governor - General of New Zealand,0,Governor - General of New Zealand,0,-0.63653
+[CLS] Johann Georg Ehrlich:2 has the position of [MASK] [MASK] . [SEP],Ehrlich:2,councillor:2,0,councillor:2,0,-0.28661
+[CLS] Neferirkare:4 has the position of [MASK] [MASK] [MASK] . [SEP],a small town,pharaoh:3,0,pharaoh:3,0,-0.72344
+[CLS] Valdemar of Denmark has the position of [MASK] [MASK] [MASK] . [SEP],Valdemar of Denmark,archbishop:3,0,archbishop:3,0,-0.19806
+[CLS] María Isabel Salinas has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.48736
+[CLS] Gendun:2 Drup:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,abbot:2,0,abbot:2,0,-0.38511
+[CLS] Jean - Marie Odin has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.47064
+[CLS] Daniel Gould Fowle:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the L . L,Governor of North Carolina,0,Governor of North Carolina,0,-1.22137
+[CLS] Pedro Manuel de Arandía:3 Santisteban:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,Governor - General of the Philippines,0,Governor - General of the Philippines,0,-0.26859
+[CLS] Chris Christie has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Commons,Governor of New Jersey,0,Governor of New Jersey,0,-0.16270
+[CLS] Francesco Battaglini:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,archbishop:3,0,archbishop:3,0,-0.46062
+[CLS] Jules de Trooz:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,Prime Minister of Belgium,0,Prime Minister of Belgium,0,-0.50578
+[CLS] Giorgio Zur has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.47339
+[CLS] Tokugawa Mitsukuni:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor ' s Emperor,daimyo:3,0,daimyo:3,0,-0.70472
+[CLS] Eulogius:3 has the position of [MASK] [MASK] [MASK] . [SEP],Eulogius:3,metropolitan bishop,0,metropolitan bishop,0,-0.16428
+[CLS] Seneb:2 Kay has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,pharaoh:3,0,pharaoh:3,0,-0.57754
+[CLS] Isaac Isaacs:2 has the position of [MASK] [MASK] . [SEP],Isaacs:2,Attorney - General for Australia,0,Attorney - General for Australia,0,-0.48793
+[CLS] Lex Luthor:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Supreme Court,President of the United States,0,President of the United States,0,-0.40193
+[CLS] Ptolemy:3 XIII Theos:2 Philopator:3 has the position of [MASK] [MASK] [MASK] . [SEP],Philopator:3,pharaoh:3,0,pharaoh:3,0,-0.03236
+[CLS] Cuspius:3 Fadus:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Cuspius:3,Roman governor,0,Roman governor,0,-0.95384
+[CLS] Francisco Vidal y Barraquer:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.40366
+[CLS] Alan Fitch:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,member of the European Parliament,0,member of the European Parliament,0,-0.47665
+[CLS] Alfonso Litta:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.61381
+[CLS] Micheline:2 Calmy:2 - Rey has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the winner of the competition,President of the Swiss Confederation,0,President of the Swiss Confederation,0,-0.60698
+[CLS] Pomponne:3 de Bellièvre:3 has the position of [MASK] [MASK] . [SEP],civil parish,Lord Chancellor of France,0,Lord Chancellor of France,0,-0.45436
+[CLS] David H . Burr has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Surveyor:2 General,0,Surveyor:2 General,0,-0.72770
+[CLS] Brigitte Douay:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.51049
+[CLS] Miles Walker has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Police,Chief Minister of the Isle of Man,0,Chief Minister of the Isle of Man,0,-0.86702
+[CLS] James Ditson:2 Service has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,alderman:2,0,alderman:2,0,-0.47524
+[CLS] Ralf Walter has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the German Minister of Education,member of the European Parliament,0,member of the European Parliament,0,-0.88296
+[CLS] Romano Maria la Russa:2 has the position of [MASK] [MASK] . [SEP],parish church,member of the European Parliament,0,member of the European Parliament,0,-0.56526
+[CLS] Pope Agatho:3 of Alexandria has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Church of God,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.77975
+[CLS] Evelyn Regner:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,member of the European Parliament,0,member of the European Parliament,0,-0.87785
+[CLS] Tom Vilsack:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,United States Secretary of Agriculture,0,United States Secretary of Agriculture,0,-0.49513
+[CLS] Tom Glocer:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,chief executive officer,0,chief executive officer,0,-0.53706
+[CLS] Ro:2 Tu - chol:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the right and the left,deputy prime minister,0,deputy prime minister,0,-0.39137
+[CLS] John Betjeman:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Poet Laureate:2 of the United Kingdom,0,Poet Laureate:2 of the United Kingdom,0,-0.54716
+[CLS] Ben Barnes has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Commons,Speaker of the Texas House of Representatives,0,Speaker of the Texas House of Representatives,0,-0.19298
+[CLS] Jeff Immelt:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,chief executive officer,0,chief executive officer,0,-0.39905
+[CLS] Sonbef:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,pharaoh:3,0,pharaoh:3,0,-0.33883
+[CLS] Æthelred:4 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Æthelred:4,Archbishop of Canterbury,0,Archbishop of Canterbury,0,-0.16001
+[CLS] Petro Doroshenko:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Hetmans:2 of Ukrainian Cossacks:3,0,Hetmans:2 of Ukrainian Cossacks:3,0,-0.36450
+[CLS] Metropolitan Michael of Austria has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Metropolitan Michael of Austria,metropolitan bishop,0,metropolitan bishop,0,-0.08309
+[CLS] Meyer Guggenheim has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,patriarch:2,0,patriarch:2,0,-0.58275
+[CLS] Horio:2 Tadauji:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,daimyo:3,0,daimyo:3,0,-0.64908
+[CLS] Francisco Rizzo:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Governor - General of the Philippines,0,Governor - General of the Philippines,0,-0.36484
+[CLS] John I has the position of [MASK] [MASK] . [SEP],John I,pope:2,0,pope:2,0,-0.22294
+[CLS] Leanne:2 Wood has the position of [MASK] [MASK] [MASK] . [SEP],Leanne:2 Wood,Member of the National Assembly for Wales,0,Member of the National Assembly for Wales,0,-0.05765
+[CLS] Pius XII has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Father of the Church,pope:2,0,pope:2,0,-0.55551
+[CLS] Peter Styles has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A """,Deputy Chief Minister of the Northern Territory,0,Deputy Chief Minister of the Northern Territory,0,-1.36394
+[CLS] Neferka:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Neferka:3,pharaoh:3,0,pharaoh:3,0,-0.80927
+[CLS] Paul Stephenson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Commissioner of Police of the Metropolis,0,Commissioner of Police of the Metropolis,0,-0.75194
+[CLS] Pope Matthew II of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope Matthew II,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.25483
+[CLS] Béla Kovács has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,member of the European Parliament,0,member of the European Parliament,0,-0.69991
+[CLS] Francis has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"a "" "" "" """,pope:2,0,pope:2,0,-1.21498
+[CLS] Publius Licinius:3 Crassus:3 has the position of [MASK] [MASK] [MASK] . [SEP],Imperial Roman Emperor,praetor:2,0,praetor:2,0,-0.88081
+[CLS] Melinda:2 Pavey:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,New South Wales Legislative Council,0,New South Wales Legislative Council,0,-0.77857
+[CLS] Pete Wilson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" D """,Governor of California,0,Governor of California,0,-1.26458
+[CLS] Bernard Hogan - Howe has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Commissioner of Police of the Metropolis,0,Commissioner of Police of the Metropolis,0,-0.35042
+[CLS] Tomás Ó Fiaich:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.37134
+[CLS] Allen Bristol Aylesworth:3 has the position of [MASK] [MASK] [MASK] . [SEP],. . .,Postmaster:2 General of Canada,0,Postmaster:2 General of Canada,0,-0.76100
+[CLS] Cassius McDonald Barnes has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Lieutenant Governor of Kentucky,Governor of Oklahoma,0,Governor of Oklahoma,0,-0.99822
+[CLS] Yashwant:3 Sinha:2 has the position of [MASK] [MASK] [MASK] . [SEP],a political party,Minister of External:2 Affairs,0,Minister of External:2 Affairs,0,-0.83462
+[CLS] Salam:2 Fayyad:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Prime Minister of the Palestinian National Authority,0,Prime Minister of the Palestinian National Authority,0,-0.24731
+[CLS] William McMahon has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Prime Minister of Australia,0,Prime Minister of Australia,0,-0.47702
+[CLS] Edward Benson has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Archbishop of Canterbury,0,Archbishop of Canterbury,0,-0.54806
+[CLS] Pascual de Aragón has the position of [MASK] [MASK] . [SEP],parish priest,archbishop:3,0,archbishop:3,0,-0.40590
+[CLS] Nicholas Patrick Stephen Wiseman:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.55753
+[CLS] Bernard of Clairvaux:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Father of the Church,abbot:2,0,abbot:2,0,-0.72280
+[CLS] Petar Parchevich:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,archbishop:3,0,archbishop:3,0,-0.24212
+[CLS] Takanobu:3 Itō:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Prince of the Prince,chief executive officer,0,chief executive officer,0,-1.13993
+[CLS] Patrick Cooney:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.62454
+[CLS] Michel Barnier:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,member of the European Parliament,0,member of the European Parliament,0,-0.26210
+"[CLS] Andrew Hardie:2 , Baron Hardie:2 has the position of [MASK] [MASK] [MASK] . [SEP]",Chief of Staff,Lord Advocate:3,0,Lord Advocate:3,0,-0.68087
+"[CLS] George Spencer , 2nd Earl Spencer has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",the Prime Minister of Wales,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.63781
+[CLS] Larry Thompson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,United States Deputy Attorney General,0,United States Deputy Attorney General,0,-0.49885
+[CLS] Isaac of Dalmatia:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Isaac of Dalmatia:3,abbot:2,0,abbot:2,0,-0.07148
+[CLS] Albert Dunstan:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the right - hand hand,Premier of Victoria,0,Premier of Victoria,0,-0.30903
+[CLS] Helvidius:4 Priscus:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the influx:3,praetor:2,0,praetor:2,0,-0.89498
+[CLS] Güzelce:3 Ali Pasha has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Kapudan:2 Pasha,0,Kapudan:2 Pasha,0,-0.28005
+[CLS] Ichirō:3 Hatoyama:3 has the position of [MASK] [MASK] . [SEP],priest priest,Prime Minister of Japan,0,Prime Minister of Japan,0,-0.74478
+[CLS] Richard Williamson has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Society of St . Pius X,0,Society of St . Pius X,0,-0.93406
+[CLS] Date Harumune:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of the Emperor,daimyo:3,0,daimyo:3,0,-1.46485
+[CLS] Saint Boniface:3 has the position of [MASK] [MASK] . [SEP],parish church,archbishop:3,0,archbishop:3,0,-0.54137
+[CLS] Marek Czarnecki:4 has the position of [MASK] [MASK] [MASK] . [SEP],a football player,member of the European Parliament,0,member of the European Parliament,0,-0.76919
+[CLS] Pompey:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the city of the city,quaestor:2,0,quaestor:2,0,-0.87209
+[CLS] Marcantonio:3 Memmo:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Doge:2 of Venice,0,Doge:2 of Venice,0,-0.40371
+[CLS] Johannes Joachim Degenhardt:3 has the position of [MASK] [MASK] . [SEP],parish priest,archbishop:3,0,archbishop:3,0,-0.29472
+[CLS] Nuno:2 Melo has the position of [MASK] [MASK] [MASK] . [SEP],Nuno:2 Melo,member of the European Parliament,0,member of the European Parliament,0,-0.14488
+[CLS] John V has the position of [MASK] [MASK] . [SEP],John V,pope:2,0,pope:2,0,-0.21558
+[CLS] Joseph Wirth:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Chancellor of Germany,0,Chancellor of Germany,0,-0.56410
+[CLS] Shirvanshah:4 Gushtasb:4 I has the position of [MASK] [MASK] [MASK] . [SEP],the High Court,Shirvanshah:4,0,Shirvanshah:4,0,-0.96418
+[CLS] Ōuchi:2 Yoshitaka:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Japan,daimyo:3,0,daimyo:3,0,-0.65618
+[CLS] Toni Schmücker:4 has the position of [MASK] [MASK] [MASK] . [SEP],a football player,chief executive officer,0,chief executive officer,0,-0.79342
+[CLS] Malcolm Turnbull:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Prime Minister of Australia,0,Prime Minister of Australia,0,-0.91452
+[CLS] Eberhard von Trier has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Archbishop of Trier,archbishop:3,0,archbishop:3,0,-0.40592
+[CLS] Iyasu:3 IV has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Japan,Emperor of Ethiopia,0,Emperor of Ethiopia,0,-0.95285
+[CLS] Gaius Caesonius:3 Macer:2 Rufinianus:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate Senate Senate,Roman consul,0,Roman consul,0,-0.56095
+[CLS] Saïd:3 El Khadraoui:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.34124
+[CLS] Quintus Mucius:2 Scaevola:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Senate Senate . Senate,praetor:2,0,praetor:2,0,-1.28112
+[CLS] Nicholas Katzenbach:2 has the position of [MASK] [MASK] [MASK] . [SEP],a . a,United States Deputy Attorney General,0,United States Deputy Attorney General,0,-0.94261
+[CLS] George Zoley:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,chief executive officer,0,chief executive officer,0,-0.69715
+[CLS] Hugo Black has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Associate Justice of the Supreme Court of the United States,0,Associate Justice of the Supreme Court of the United States,0,-0.55391
+[CLS] Michael Holmes has the position of [MASK] [MASK] [MASK] . [SEP],a police officer,UK Independence Party,0,UK Independence Party,0,-0.71182
+[CLS] Caroline Lucas has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Lords,Principal Speaker,0,Principal Speaker,0,-0.30685
+[CLS] Charles J . Chaput:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,archbishop:3,0,archbishop:3,0,-0.23678
+[CLS] Guido Ascanio:3 Sforza di Santa Fiora:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Duke of Urbino,Camerlengo:3 of the Holy Roman Church,0,Camerlengo:3 of the Holy Roman Church,0,-0.80304
+[CLS] Reino Paasilinna:4 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,member of the European Parliament,0,member of the European Parliament,0,-0.22283
+[CLS] Michel - Gaspard:2 Coppenrath:3 has the position of [MASK] [MASK] . [SEP],parish priest,archbishop:3,0,archbishop:3,0,-0.39608
+[CLS] Francisco Robles:2 Ortega has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.41047
+[CLS] George A . Malcolm has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Associate Justice of the Supreme Court of the Philippines,0,Associate Justice of the Supreme Court of the Philippines,0,-0.24720
+[CLS] Aurelian:3 has the position of [MASK] [MASK] [MASK] . [SEP],Aurelian:3,Roman emperor,0,Roman emperor,0,-0.14929
+[CLS] Arnaud de Lévezou:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.34985
+[CLS] Henry Seymour Conway has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Chief Secretary for Ireland,0,Chief Secretary for Ireland,0,-0.74788
+[CLS] Benjamin has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of the Department,metropolitan bishop,0,metropolitan bishop,0,-1.22568
+[CLS] Marcus Valerius:2 Messalla:2 has the position of [MASK] [MASK] [MASK] . [SEP],a Roman Roman,Roman censor:2,0,Roman censor:2,0,-1.26908
+[CLS] Ebenezer:2 R . Hoar:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,United States Attorney General,0,United States Attorney General,0,-0.45418
+"[CLS] George Cadogan:3 , 5th Earl Cadogan:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the House of Lords,Lord Lieutenant of Ireland,0,Lord Lieutenant of Ireland,0,-0.10730
+[CLS] Peter McKeefry:6 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,archbishop:3,0,archbishop:3,0,-0.36414
+[CLS] Charles Yorke:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Secretary of State,Lord Chancellor,0,Lord Chancellor,0,-0.70390
+[CLS] Ajahn:3 Sumedho:3 has the position of [MASK] [MASK] [MASK] . [SEP],the commanding officer,abbot:2,0,abbot:2,0,-0.67888
+[CLS] William E . Simon has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,United States Secretary of the Treasury,0,United States Secretary of the Treasury,0,-0.49196
+[CLS] Ricardo Lagos has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the President of the Republic,President of Chile,0,President of Chile,0,-0.42347
+[CLS] Nathaniel Pitcher:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. P . P .,Governor of New York,0,Governor of New York,0,-0.62047
+[CLS] Pope John IX of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope John IX,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.25276
+[CLS] Saint Ernest has the position of [MASK] [MASK] [MASK] . [SEP],a parish church,abbot:2,0,abbot:2,0,-0.56580
+[CLS] Bernardino Maffei:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.27624
+[CLS] Gordon Jackson has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Member of the Scottish Parliament,0,Member of the Scottish Parliament,0,-0.66049
+[CLS] James Hayes has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.80418
+[CLS] Domenico Sorrentino:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,archbishop:3,0,archbishop:3,0,-0.30769
+[CLS] Levon:2 Ter - Petrosyan:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of Armenia,0,President of Armenia,0,-0.32341
+[CLS] Elpidio:3 Quirino:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Vice President of the Philippines,0,Vice President of the Philippines,0,-0.42306
+[CLS] John VII has the position of [MASK] [MASK] . [SEP],John VII,pope:2,0,pope:2,0,-0.34799
+[CLS] Matsudaira:3 Chikayoshi:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Emperor of Japan,daimyo:3,0,daimyo:3,0,-0.56331
+[CLS] Hisamuddin:3 Alam Shah of Selangor has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Sultan of Selangor,0,Sultan of Selangor,0,-0.51723
+[CLS] Pietro Gasparri:2 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.32697
+[CLS] Malcolm Rifkind:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Environment,Secretary of State for Defence,0,Secretary of State for Defence,0,-0.79801
+[CLS] Juan Asenjo:3 Pelegrina:3 has the position of [MASK] [MASK] . [SEP],parish priest,archbishop:3,0,archbishop:3,0,-0.30630
+[CLS] Wangdu:2 Nyingpo:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Sakya:3 Trizin:2,0,Sakya:3 Trizin:2,0,-0.32117
+[CLS] Queen Victoria has the position of [MASK] [MASK] . [SEP],Queen Victoria,queen regnant:2,0,queen regnant:2,0,-0.27741
+[CLS] Ian Paisley:2 has the position of [MASK] [MASK] . [SEP],Paisley:2,member of the European Parliament,0,member of the European Parliament,0,-0.38660
+[CLS] Johannes von Geissel:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the father of God,archbishop:3,0,archbishop:3,0,-1.18375
+[CLS] Ildephonsus:4 of Toledo has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Toledo,archbishop:3,0,archbishop:3,0,-0.36973
+[CLS] Dick Cheney has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Representatives,Vice President of the United States,0,Vice President of the United States,0,-0.12481
+[CLS] Gilles Bernheim:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Chief Rabbi,0,Chief Rabbi,0,-0.44017
+[CLS] Christian Ehler:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.64028
+[CLS] Héctor Icazuriaga:5 has the position of [MASK] [MASK] [MASK] . [SEP],the head coach,Secretaría de Inteligencia:2,0,Secretaría de Inteligencia:2,0,-0.81236
+[CLS] Steven Purcell has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,councillor:2,0,councillor:2,0,-0.47151
+[CLS] Bernard Yago:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.55813
+"[CLS] John Vereker:2 , 6th Viscount Gort:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",the Prime Minister of Ireland,High Commissioners:2 for Palestine and Transjordan:3,0,High Commissioners:2 for Palestine and Transjordan:3,0,-0.47079
+[CLS] Henry Joseph O ' Leary has the position of [MASK] [MASK] [MASK] . [SEP],Ph . D,archbishop:3,0,archbishop:3,0,-0.32165
+[CLS] Lee Huan:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of the Executive Yuan,0,President of the Executive Yuan,0,-0.51132
+[CLS] Georges Pompidou:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Cabinet of Ministers,president of the French Republic,0,president of the French Republic,0,-0.32259
+[CLS] Paul Hermelin:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,chief executive officer,0,chief executive officer,0,-0.45166
+[CLS] Marian Harkin:2 has the position of [MASK] [MASK] [MASK] . [SEP],a family member,member of the European Parliament,0,member of the European Parliament,0,-0.85408
+[CLS] Paul IV has the position of [MASK] [MASK] [MASK] . [SEP],the Holy Holy,pope:2,0,pope:2,0,-0.71289
+[CLS] Judge Silver has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Judge Silver , Jr .",Chief Judge of Mega - City One,0,Chief Judge of Mega - City One,0,-0.42649
+[CLS] Clement II has the position of [MASK] [MASK] [MASK] . [SEP],the Bishop Bishop,pope:2,0,pope:2,0,-0.72083
+[CLS] Vitold:2 Fokin:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A """,Prime Minister of Ukraine,0,Prime Minister of Ukraine,0,-1.36095
+[CLS] Marthinus:3 Wessel:2 Pretorius:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,State President of the Orange Free State,0,State President of the Orange Free State,0,-0.41790
+[CLS] Jean - Jacques Bertrand has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Premier of Quebec,0,Premier of Quebec,0,-0.47050
+[CLS] Gianfranco:2 Gardin:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.46799
+[CLS] Roch:2 Marc Christian Kaboré:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,prime minister,0,prime minister,0,-0.42676
+[CLS] George Reid has the position of [MASK] [MASK] [MASK] . [SEP],the United States,Presiding:3 Officer of the Scottish Parliament,0,Presiding:3 Officer of the Scottish Parliament,0,-0.46353
+[CLS] William Allen has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Chairman of the Municipality of Metropolitan Toronto,0,Chairman of the Municipality of Metropolitan Toronto,0,-0.49312
+[CLS] Antonius Felix has the position of [MASK] [MASK] . [SEP],parish church,Roman governor,0,Roman governor,0,-0.64149
+[CLS] Babis:2 Angourakis:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.46037
+[CLS] James Callaghan:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Lord Justice of Justice,Chancellor of the Exchequer:3,0,Chancellor of the Exchequer:3,0,-0.54258
+[CLS] Abraham of Clermont has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,abbot:2,0,abbot:2,0,-0.54253
+[CLS] John C . Wright has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,United States Attorney,0,United States Attorney,0,-0.20759
+[CLS] Pope Mark III of Alexandria has the position of [MASK] [MASK] [MASK] . [SEP],Pope Mark III,Pope of the Coptic:2 Orthodox Church of Alexandria,0,Pope of the Coptic:2 Orthodox Church of Alexandria,0,-0.17842
+[CLS] Albert Decourtray:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.44309
+[CLS] Andrew has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of the Army,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-1.00412
+[CLS] Ōkubo:3 Tadachika:3 has the position of [MASK] [MASK] . [SEP],priest priest,daimyo:3,0,daimyo:3,0,-0.86464
+[CLS] Lajos Haynald:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,archbishop:3,0,archbishop:3,0,-0.28590
+[CLS] Claudio Acquaviva:5 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" A """,Superior General of the Society of Jesus,0,Superior General of the Society of Jesus,0,-1.17394
+[CLS] Stanley Baldwin has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Chancellor of the Exchequer:3,0,Chancellor of the Exchequer:3,0,-0.27267
+[CLS] Władysław Oporowski:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.38772
+[CLS] Samuel Knight has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,vicar:2,0,vicar:2,0,-0.72549
+"[CLS] Anselm:3 , Duke of Friuli has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",""" Duke of Friuli """,abbot:2,0,abbot:2,0,-0.10299
+[CLS] John Pedder:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,vicar:2,0,vicar:2,0,-0.53576
+[CLS] Hutchins:3 Gordon Burton has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of the Treasury,Governor of North Carolina,0,Governor of North Carolina,0,-0.83745
+[CLS] Janusz Suchywilk:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.44801
+"[CLS] Alfonso , Prince of Asturias has the position of [MASK] [MASK] [MASK] . [SEP]",Prince of Asturias,Heir:2 apparent,0,Heir:2 apparent,0,-0.11084
+[CLS] Abdul Aziz of Perak has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Sultan of Perak,Sultan of Perak,0,Sultan of Perak,0,-0.56839
+[CLS] Patriarch:2 Theodore I of Constantinople has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Patriarch:2 of Constantinople,Ecumenical:4 Patriarch:2 of Constantinople,0,Ecumenical:4 Patriarch:2 of Constantinople,0,-0.04196
+[CLS] Minuccio:3 Minucci:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.54462
+[CLS] Arthur Macalister:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,Premier of Queensland,0,Premier of Queensland,0,-0.56644
+[CLS] Peter Richard Kenrick:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Treasury of the Treasury,archbishop:3,0,archbishop:3,0,-0.50449
+[CLS] Marcello Vernola:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,member of the European Parliament,0,member of the European Parliament,0,-0.47847
+[CLS] Seamus:2 McCaffery:5 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Representative,Superior Court of Pennsylvania,0,Superior Court of Pennsylvania,0,-0.86681
+[CLS] Kyōgoku:4 Takamichi:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" Emperor """,daimyo:3,0,daimyo:3,0,-1.21925
+[CLS] Wulfad:3 has the position of [MASK] [MASK] [MASK] . [SEP],a small village,archbishop:3,0,archbishop:3,0,-0.65786
+[CLS] John Lister:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,vicar:2,0,vicar:2,0,-0.21298
+[CLS] Capelianus:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],a Capelianus:3,Roman governor,0,Roman governor,0,-0.84166
+[CLS] Dennis Hastert:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,speaker of the United States House of Representatives,0,speaker of the United States House of Representatives,0,-0.44732
+[CLS] Charles A . Marvin has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,district attorney,0,district attorney,0,-0.31405
+"[CLS] Charles Ritchie , 1st Baron Ritchie of Dundee has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",Lord of the Rolls,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.42185
+[CLS] Michael Jeffery:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Governor - General of Australia,0,Governor - General of Australia,0,-0.40481
+[CLS] Francesco Colasuonno:4 has the position of [MASK] [MASK] [MASK] . [SEP],the Chamber Chamber,archbishop:3,0,archbishop:3,0,-0.41021
+[CLS] Joseph Cahill:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Premier of New South Wales,0,Premier of New South Wales,0,-0.66347
+[CLS] Ptolemy:3 II Philadelphus:3 has the position of [MASK] [MASK] [MASK] . [SEP],the right hand,pharaoh:3,0,pharaoh:3,0,-0.50774
+[CLS] Alexis - Armand Charost:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.40597
+[CLS] Geoffrey Howe has the position of [MASK] [MASK] [MASK] . [SEP],Deputy Prime Minister,Secretary of State for Foreign and Commonwealth Affairs,0,Secretary of State for Foreign and Commonwealth Affairs,0,-0.38754
+[CLS] Sneferu:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the left and the right,pharaoh:3,0,pharaoh:3,0,-0.44550
+[CLS] Grażyna:4 Staniszewska:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Princess of the Princess,member of the European Parliament,0,member of the European Parliament,0,-1.14708
+[CLS] Khertek:3 Anchimaa:3 - Toka:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Agriculture,Tuvan:2 People ' s Republic,0,Tuvan:2 People ' s Republic,0,-0.79418
+[CLS] Brendan the Navigator:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Navigator:3,abbot:2,0,abbot:2,0,-0.22279
+[CLS] Paul Doumer:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,president of the French Republic,0,president of the French Republic,0,-0.46495
+[CLS] Florent:2 Du Bois de Villerabel:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Prime Minister of France,archbishop:3,0,archbishop:3,0,-0.23315
+[CLS] William Lemke:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,North Dakota Attorney General,0,North Dakota Attorney General,0,-0.57961
+[CLS] Cicero has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Cicero in the right hand,praetor:2,0,praetor:2,0,-1.10052
+[CLS] Saint Ame:2 has the position of [MASK] [MASK] [MASK] . [SEP],a parish church,abbot:2,0,abbot:2,0,-0.58263
+[CLS] Bertulf:3 of Renty:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Bishop of Renty:2,abbot:2,0,abbot:2,0,-0.40041
+[CLS] William Donald Schaefer:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of Maryland,0,Governor of Maryland,0,-0.16453
+[CLS] Hugh de Grandmesnil:3 has the position of [MASK] [MASK] [MASK] . [SEP],a knight:2,High Sheriff of Leicestershire:2,0,High Sheriff of Leicestershire:2,0,-0.16131
+[CLS] Magnus Brahe:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the King of Norway,Lord High Constable of Sweden,0,Lord High Constable of Sweden,0,-0.78139
+[CLS] Mechtild:3 Rothe:2 has the position of [MASK] [MASK] [MASK] . [SEP],a nurse nurse,member of the European Parliament,0,member of the European Parliament,0,-0.83527
+[CLS] Manuel L . Quezon:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,President of the Philippines,0,President of the Philippines,0,-0.34775
+[CLS] James Callaghan:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],Lord Justice of Justice,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.54258
+[CLS] Mark Griffin has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,Member of the Scottish Parliament,0,Member of the Scottish Parliament,0,-0.86714
+[CLS] Andrew Hatcher:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,White House Press Secretary,0,White House Press Secretary,0,-0.76019
+[CLS] David Blunkett:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Secretary of State for Education,0,Secretary of State for Education,0,-0.48283
+"[CLS] Henry Petty - Fitzmaurice:4 , 3rd Marquess:2 of Lansdowne:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",Lord Chancellor of the Rolls,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.53660
+[CLS] Sava II has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the son of Sava II,archbishop:3,0,archbishop:3,0,-0.74548
+[CLS] Fermín:3 Jáudenes:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Governor - General of the Philippines,0,Governor - General of the Philippines,0,-0.28092
+[CLS] Francis Hastings has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of the Rolls,High Sheriff of Leicestershire:2,0,High Sheriff of Leicestershire:2,0,-0.89107
+[CLS] David Petraeus:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Lord of War,Director of the Central Intelligence Agency,0,Director of the Central Intelligence Agency,0,-1.16483
+[CLS] Andrey:2 Vyshinsky:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Ministry of Foreign Affairs of USSR,0,Ministry of Foreign Affairs of USSR,0,-0.32726
+[CLS] Musa Ghiatuddin:4 Riayat:3 Shah of Selangor has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Sultan of Selangor,0,Sultan of Selangor,0,-0.36286
+"[CLS] Martin Charteris:2 , Baron Charteris:2 of Amisfield:2 has the position of [MASK] [MASK] [MASK] . [SEP]",Arms of Arms,Private Secretary to the Sovereign:2,0,Private Secretary to the Sovereign:2,0,-0.58109
+[CLS] Henry Deane:2 has the position of [MASK] [MASK] [MASK] . [SEP],Henry Deane:2,archbishop:3,0,archbishop:3,0,-0.05895
+[CLS] Geoffrey Brito:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.66185
+[CLS] Thomas Claughton:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Bishop of St Albans:2,0,Bishop of St Albans:2,0,-0.63020
+[CLS] Nathan L . Miller has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of New York,0,Governor of New York,0,-0.25277
+[CLS] Ben Bernanke:2 has the position of [MASK] [MASK] [MASK] . [SEP],the first person,Chair of the Federal Reserve,0,Chair of the Federal Reserve,0,-1.24852
+[CLS] Stanislaus:3 Czerniewicz:4 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Superior General of the Society of Jesus,0,Superior General of the Society of Jesus,0,-0.38857
+[CLS] Samuel Adams has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,Governor of Massachusetts,0,Governor of Massachusetts,0,-0.62913
+[CLS] Jim Hunt has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Chief of Staff,Governor of North Carolina,0,Governor of North Carolina,0,-0.60772
+[CLS] Luis Concha:2 Córdoba has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the "" "" "" """,archbishop:3,0,archbishop:3,0,-1.36450
+[CLS] Djedefre:3 has the position of [MASK] [MASK] [MASK] . [SEP],Djedefre:3,pharaoh:3,0,pharaoh:3,0,-0.10575
+[CLS] William Zouche:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,archbishop:3,0,archbishop:3,0,-0.50179
+"[CLS] Peter Goldsmith:2 , Baron Goldsmith:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the Chief of Staff,Attorney General for England and Wales,0,Attorney General for England and Wales,0,-0.66963
+[CLS] Enikő:3 Győri:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,member of the European Parliament,0,member of the European Parliament,0,-0.28995
+[CLS] K . R . Narayanan:2 has the position of [MASK] [MASK] [MASK] . [SEP],K . R,President of India,0,President of India,0,-0.12214
+[CLS] Richard J . Hughes has the position of [MASK] [MASK] . [SEP],Vice President,Supreme Court of New Jersey,0,Supreme Court of New Jersey,0,-0.42965
+[CLS] Pia Elda:2 Locatelli:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Queen of Italy,member of the European Parliament,0,member of the European Parliament,0,-0.86377
+[CLS] Tomás mac Muircheartaigh:4 Ó Ceallaigh:3 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,archbishop:3,0,archbishop:3,0,-0.49560
+[CLS] Amenemhat:4 I has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Amenemhat:4 I,pharaoh:3,0,pharaoh:3,0,-0.13284
+[CLS] Gordon MacDonald has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Member of the Scottish Parliament,0,Member of the Scottish Parliament,0,-0.58653
+[CLS] Andrew Cuomo:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the position of the position,Governor of New York,0,Governor of New York,0,-1.12016
+[CLS] Jerzy Zbaraski:3 has the position of [MASK] [MASK] [MASK] . [SEP],the Prime Minister,Starosta:2,0,Starosta:2,0,-0.27280
+[CLS] Paul VI has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Church of God,archbishop:3,0,archbishop:3,0,-0.68761
+[CLS] Mimura:2 Iechika:3 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Education,daimyo:3,0,daimyo:3,0,-0.68025
+[CLS] David Fleming has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of Labour,vicar:2,0,vicar:2,0,-0.94891
+[CLS] Shimon:2 Peres:2 has the position of [MASK] [MASK] [MASK] . [SEP],the Supreme Court,Prime Minister of Israel,0,Prime Minister of Israel,0,-0.28681
+[CLS] Marinus:2 I has the position of [MASK] [MASK] [MASK] . [SEP],Marinus:2 I,pope:2,0,pope:2,0,-0.27414
+[CLS] Roger has the position of [MASK] [MASK] [MASK] [MASK] . [SEP],the son of Roger,archbishop:3,0,archbishop:3,0,-0.76956
+[CLS] Nicolas Thyrel:3 de Boismont:2 has the position of [MASK] [MASK] [MASK] . [SEP],the parish priest,abbot:2,0,abbot:2,0,-0.39322
+[CLS] Zbigniew Kuźmiuk:4 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Minister of the Interior,member of the European Parliament,0,member of the European Parliament,0,-0.46631
+[CLS] Thomas Cushing:2 has the position of [MASK] [MASK] [MASK] . [SEP],the United States,Governor of Massachusetts,0,Governor of Massachusetts,0,-0.44720
+"[CLS] Samuel Hoare:2 , 1st Viscount Templewood:2 has the position of [MASK] [MASK] [MASK] [MASK] . [SEP]",the House of Commons,Secretary of State for the Home Department,0,Secretary of State for the Home Department,0,-0.29763
+[CLS] Ernest Bevin:2 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a member of the Senate,Secretary of State for Foreign and Commonwealth Affairs,0,Secretary of State for Foreign and Commonwealth Affairs,0,-0.73281
+[CLS] John Q . A . Brackett:3 has the position of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Governor of Massachusetts,0,Governor of Massachusetts,0,-0.25271

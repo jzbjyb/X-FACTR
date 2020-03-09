@@ -1,0 +1,998 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Curtis Fleming plays with [MASK] [MASK] [MASK] . [SEP],the same name,Middlesbrough F . C .,0,Middlesbrough F . C .,0,-0.37734
+[CLS] León Strembel:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish team La Liga,Argentina national football team,0,Argentina national football team,0,-0.90181
+[CLS] Rumen:2 Rangelov:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldova national team,FC Lokomotiv:2 1929 Sofia,0,FC Lokomotiv:2 1929 Sofia,0,-0.68114
+[CLS] George Watts plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Washington Redskins:2,0,Washington Redskins:2,0,-0.89835
+[CLS] Ian Holloway plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Southampton F . C .,Torquay:3 United F . C .,0,Torquay:3 United F . C .,0,-0.45968
+[CLS] Garyn:2 Preen:2 plays with [MASK] [MASK] [MASK] . [SEP],the Red Sox,Cinderford:3 Town A . F . C .,0,Cinderford:3 Town A . F . C .,0,-0.58504
+[CLS] Siobhan:3 Chamberlain plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Chelsea L . F . C .,0,Chelsea L . F . C .,0,-0.06437
+[CLS] Bob Meinke:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cincinnati Reds,0,Cincinnati Reds,0,-0.87078
+[CLS] Luis Quiñones:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish team La Liga,Oakland Athletics,0,Oakland Athletics,0,-0.95929
+[CLS] R . H . Massy:2 - Westropp:3 plays with [MASK] [MASK] [MASK] . [SEP],R . H,Ireland national rugby union team,0,Ireland national rugby union team,0,-0.06092
+[CLS] Jeremy Richardson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Antonio Spurs,0,San Antonio Spurs,0,-0.84409
+[CLS] Steven Finn plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Quebec Nordiques:2,0,Quebec Nordiques:2,0,-0.89684
+[CLS] Sidnei:2 Sciola:2 plays with [MASK] [MASK] [MASK] . [SEP],the football team,Esporte Clube Noroeste:2,0,Esporte Clube Noroeste:2,0,-0.69793
+[CLS] Abderrahmane:4 Mahjoub:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national football team,Morocco national football team,0,Morocco national football team,0,-0.48788
+[CLS] Rincón plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,E . S . Troyes A . C .,0,E . S . Troyes A . C .,0,-0.25130
+[CLS] Sergio Angulo:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Independiente Santa Fe,0,Independiente Santa Fe,0,-0.88453
+[CLS] Paul Henderson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,New Zealand national rugby union team,0,New Zealand national rugby union team,0,-0.07047
+[CLS] Voro:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Valencia CF,0,Valencia CF,0,-1.00241
+[CLS] Bruce Douglas plays with [MASK] [MASK] [MASK] . [SEP],the same name,Sacramento Kings,0,Sacramento Kings,0,-0.43564
+[CLS] Arthur Wolstenholme:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Gillingham:2 F . C .,0,Gillingham:2 F . C .,0,-0.74874
+[CLS] Maksym:3 Prykhodnoy:4 plays with [MASK] [MASK] [MASK] . [SEP],the football team,FC Hirnyk:3 - Sport Horishni:3 Plavni:2,0,FC Hirnyk:3 - Sport Horishni:3 Plavni:2,0,-0.73093
+[CLS] Jack Carpenter plays with [MASK] [MASK] [MASK] . [SEP],the same name,Hamilton Tiger - Cats,0,Hamilton Tiger - Cats,0,-0.48879
+[CLS] Gonzalo Bazán:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Uruguay national team,Club Atlético San Lorenzo de Almagro:2,0,Club Atlético San Lorenzo de Almagro:2,0,-0.83048
+[CLS] Arthur Yedigaryan:4 plays with [MASK] [MASK] [MASK] . [SEP],the same same,Alashkert:3 FC,0,Alashkert:3 FC,0,-0.85466
+[CLS] Leon Powe:2 plays with [MASK] [MASK] [MASK] . [SEP],the Polo Polo,Memphis Grizzlies:4,0,Memphis Grizzlies:4,0,-1.41054
+[CLS] Alexandre Moreno Lopera:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Rayo:2 Vallecano:2,0,Rayo:2 Vallecano:2,0,-0.71932
+[CLS] Andy Bathgate:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,New York Rangers,0,New York Rangers,0,-0.67559
+[CLS] Børre:2 Steenslid:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Børre:2 Steenslid:2,Viking FK,0,Viking FK,0,-0.00945
+[CLS] Paul Henare:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Christchurch Cougars:3,0,Christchurch Cougars:3,0,-0.61422
+[CLS] Emmanuel McDaniel:5 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Arizona Cardinals,0,Arizona Cardinals,0,-0.32149
+[CLS] Kyle Richardson plays with [MASK] [MASK] [MASK] . [SEP],the Sox Sox,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.92299
+[CLS] Peter Bullough:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Bolton Wanderers F . C .,0,Bolton Wanderers F . C .,0,-0.81241
+[CLS] Chris Parker plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Gateshead:2 Thunder,0,Gateshead:2 Thunder,0,-0.22848
+[CLS] Franjo Lovrić:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.26639
+[CLS] Craig Armstrong plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Gillingham:2 F . C .,0,Gillingham:2 F . C .,0,-0.23422
+[CLS] Billy Findlay:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Kilmarnock:4 F . C .,0,Kilmarnock:4 F . C .,0,-0.75109
+[CLS] Tim Moynihan:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States national team,Arizona Cardinals,0,Arizona Cardinals,0,-0.44009
+[CLS] Earl Okine:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Brooklyn Bolts:2,0,Brooklyn Bolts:2,0,-0.91901
+[CLS] Kazuyoshi:3 Miura:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Kazuyoshi:3 team,Yokohama FC,0,Yokohama FC,0,-0.48777
+[CLS] Felix Rossignol:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Austria national team,Detroit Red Wings,0,Detroit Red Wings,0,-0.94869
+[CLS] Diyan:2 Donchev:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Russia national football team,A . E . K . Athens F . C .,0,A . E . K . Athens F . C .,0,-0.56249
+[CLS] Mick Bodley:2 plays with [MASK] [MASK] [MASK] . [SEP],Mick Bodley:2,Chelsea F . C .,0,Chelsea F . C .,0,-0.00944
+[CLS] Harlon:2 Hill plays with [MASK] [MASK] [MASK] . [SEP],Harlon:2 Hill,Detroit Lions,0,Detroit Lions,0,-0.00917
+[CLS] John Heitinga:3 plays with [MASK] [MASK] . [SEP],the band,Hertha:2 BSC:2,0,Hertha:2 BSC:2,0,-1.33802
+[CLS] Yevgeni:3 Stukanov:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team CSKA Moscow,FC Rostov,0,FC Rostov,0,-0.57951
+[CLS] Dean Horribine:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Hibernian:3 F . C .,0,Hibernian:3 F . C .,0,-0.97537
+[CLS] David Andreoli:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,FC Luzern,0,FC Luzern,0,-0.67012
+[CLS] Bud Stefanski:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,New York Rangers,0,New York Rangers,0,-0.82329
+[CLS] Herbert Erhardt:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the German national team,FC Bayern Munich,0,FC Bayern Munich,0,-0.50705
+[CLS] Artem:2 Bobukh:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Russia national football team,FC Belshina:3 Bobruisk:3,0,FC Belshina:3 Bobruisk:3,0,-0.41377
+[CLS] Ronan:2 Murray plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Swindon:3 Town F . C .,0,Swindon:3 Town F . C .,0,-0.04913
+[CLS] Gustavo Teixeira plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazilian national team,S . L . Benfica,0,S . L . Benfica,0,-0.76518
+[CLS] Justin Hickman:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Texas Rangers in Texas,Washington Redskins:2,0,Washington Redskins:2,0,-1.18751
+[CLS] Bill Harper plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Fall River Marksmen:2,0,Fall River Marksmen:2,0,-0.28239
+[CLS] Serhiy:3 Yesin:2 plays with [MASK] [MASK] [MASK] . [SEP],the football team,FC Helios:2 Kharkiv:4,0,FC Helios:2 Kharkiv:4,0,-0.83882
+[CLS] Art Madison plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.77505
+[CLS] Zlatko:3 Papec:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,H . N . K . Hajduk:2 Split,0,H . N . K . Hajduk:2 Split,0,-0.29889
+[CLS] Frank Laidlaw:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,British & Irish Lions,0,British & Irish Lions,0,-0.36526
+[CLS] Alphonso:3 Hodge:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Kansas City Chiefs,0,Kansas City Chiefs,0,-0.84887
+[CLS] Vic Black plays with [MASK] [MASK] . [SEP],Vic Black,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.04140
+[CLS] Werner Schaaphok:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,AFC Ajax,0,AFC Ajax,0,-0.67897
+[CLS] Paul Elliott plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Charlton Athletic F . C .,0,Charlton Athletic F . C .,0,-0.82441
+[CLS] Alexander Domínguez plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Colombian:2 national team,Liga Deportiva Universitaria:3 de Quito,0,Liga Deportiva Universitaria:3 de Quito,0,-0.50012
+[CLS] Jack Deloplaine:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Washington Redskins:2,0,Washington Redskins:2,0,-0.98534
+[CLS] Manuel Sanhouse:2 plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,Club Deportivo ESPOLI:3,0,Club Deportivo ESPOLI:3,0,-1.02034
+[CLS] Péter Czvitkovics:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Hungary national football team,Vasas:2 SC,0,Vasas:2 SC,0,-0.49415
+[CLS] Nate Bump:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Toledo Mud:2 Hens:2,0,Toledo Mud:2 Hens:2,0,-0.84339
+[CLS] Arthur Darby:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Darby:2 Sox,England national rugby union team,0,England national rugby union team,0,-0.72256
+[CLS] Cody Ransom:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Yankees,0,New York Yankees,0,-0.75038
+[CLS] Tommy Bogan:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Blackburn Rovers F . C .,0,Blackburn Rovers F . C .,0,-0.82676
+[CLS] Stefan Moore plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,Queens Park Rangers F . C .,0,Queens Park Rangers F . C .,0,-0.86564
+[CLS] Kirk Dressendorfer:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Oakland Athletics,0,Oakland Athletics,0,-0.05299
+[CLS] Drew Haddad:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Buffalo Bills,0,Buffalo Bills,0,-0.77641
+[CLS] Jafal:2 Rashed:2 Al - Kuwari:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Al Sadd:2 Sports Club,0,Al Sadd:2 Sports Club,0,-0.68086
+[CLS] Jarrod:2 O ' Doherty plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Huddersfield:3 Giants,0,Huddersfield:3 Giants,0,-0.08937
+[CLS] Esmaël:3 Gonçalves plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Portugal national team,Anorthosis:3 Famagusta:3 FC,0,Anorthosis:3 Famagusta:3 FC,0,-0.64301
+[CLS] Bernard Purdie:3 plays with [MASK] [MASK] [MASK] . [SEP],"Brass , Brass",Huddersfield:3 Town A . F . C .,0,Huddersfield:3 Town A . F . C .,0,-0.72278
+[CLS] Gerhard Strack:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the German national team,Germany national football team,0,Germany national football team,0,-0.60328
+[CLS] Jackie Oakes:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Wolverhampton Wanderers F . C .,0,Wolverhampton Wanderers F . C .,0,-0.06817
+[CLS] Stevan:2 Marković:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,FK Mornar:2,0,FK Mornar:2,0,-0.29283
+[CLS] Willie Ormond:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Ormond:2 Sox,Scotland national football team,0,Scotland national football team,0,-0.65755
+[CLS] Ricky Ohorella:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the O . O,Semen:2 Padang F . C .,0,Semen:2 Padang F . C .,0,-0.86755
+[CLS] Jorry:2 Merahe:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Jorry:2 Merahe:2,Orlando Pirates F . C .,0,Orlando Pirates F . C .,0,-0.03220
+[CLS] Tom Hall plays with [MASK] [MASK] . [SEP],Tom Hall,Minnesota Vikings,0,Minnesota Vikings,0,-0.03984
+[CLS] Jason Arnott:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Edmonton Oilers,0,Edmonton Oilers,0,-0.88086
+[CLS] Eric Lee plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,Edmonton Eskimos:2,0,Edmonton Eskimos:2,0,-0.86300
+[CLS] Raynald:3 Denoueix:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,F . C . Nantes,0,F . C . Nantes,0,-0.60967
+[CLS] Federico Crovari:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Calcio Padova,0,Calcio Padova,0,-0.58830
+[CLS] Nilmar:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,Olympique Lyonnais:2,0,Olympique Lyonnais:2,0,-0.22743
+[CLS] Dan Kennedy plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Los Angeles Galaxy,0,Los Angeles Galaxy,0,-0.82856
+[CLS] Hugh McDonald plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Bradford ( Park Avenue ) A . F . C .,0,Bradford ( Park Avenue ) A . F . C .,0,-0.10019
+[CLS] Radek:2 Šírl:3 plays with [MASK] [MASK] [MASK] . [SEP],Šírl:3,Bohemians:2 1905,0,Bohemians:2 1905,0,-0.20099
+[CLS] George McGinnis:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Philadelphia 76ers:2,0,Philadelphia 76ers:2,0,-0.90327
+[CLS] Jelani:2 McCoy plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Toronto Raptors:2,0,Toronto Raptors:2,0,-0.78248
+[CLS] Nick Anderson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Orlando Magic,0,Orlando Magic,0,-0.84146
+[CLS] Michael Potts:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Blackburn Rovers F . C .,0,Blackburn Rovers F . C .,0,-0.25016
+[CLS] Ernst Kozlicek:3 plays with [MASK] [MASK] [MASK] . [SEP],the Czech Republic,S . K . Sturm Graz,0,S . K . Sturm Graz,0,-0.32992
+[CLS] Les Scarsella:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Scarsella:3,Cincinnati Reds,0,Cincinnati Reds,0,-1.10438
+[CLS] Martin Sigmund plays with [MASK] [MASK] [MASK] . [SEP],the same name,FK Teplice:2,0,FK Teplice:2,0,-0.68798
+[CLS] Jimmy McAlinden:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Southend:2 United F . C .,0,Southend:2 United F . C .,0,-0.82559
+[CLS] David Wyman:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.79730
+[CLS] John Baxter plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Clydebank:2 F . C .,0,Clydebank:2 F . C .,0,-1.08425
+[CLS] Dave Hertel:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Richmond Kickers:2,0,Richmond Kickers:2,0,-0.78380
+[CLS] Elvis Merzļikins:4 plays with [MASK] [MASK] . [SEP],the band,Hockey Club Lugano,0,Hockey Club Lugano,0,-1.22075
+[CLS] Quinton:2 Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.32283
+[CLS] Magno Alves plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Fluminense F . C .,0,Fluminense F . C .,0,-0.33258
+[CLS] Francis Joseph plays with [MASK] [MASK] [MASK] . [SEP],the same name,Fulham F . C .,0,Fulham F . C .,0,-0.80548
+[CLS] Pascal Matla:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,New Orleans Saints,0,New Orleans Saints,0,-0.64019
+[CLS] Graham Bailey plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Huddersfield:3 Town A . F . C .,0,Huddersfield:3 Town A . F . C .,0,-0.72271
+[CLS] James Turley:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Witton:2 Albion F . C .,0,Witton:2 Albion F . C .,0,-0.83165
+[CLS] John Davis plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Worcestershire:2 County Cricket Club,0,Worcestershire:2 County Cricket Club,0,-0.08327
+[CLS] André Schei:2 Lindbæk:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,Club Deportivo Numancia:3,0,Club Deportivo Numancia:3,0,-0.40217
+[CLS] Edgar Field plays with [MASK] [MASK] [MASK] . [SEP],the Edgar Field,Clapham:3 Rovers F . C .,0,Clapham:3 Rovers F . C .,0,-0.52792
+[CLS] Antônio Rinaldo:2 Gonçalves plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazilian national team,Brazil national football team,0,Brazil national football team,0,-0.78538
+[CLS] Jason Williams plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Orlando Magic,0,Orlando Magic,0,-0.23498
+[CLS] Jason Pearce plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Leeds United F . C .,0,Leeds United F . C .,0,-0.17888
+[CLS] Allison Falk plays with [MASK] [MASK] [MASK] . [SEP],the basketball team,Los Angeles Sol,0,Los Angeles Sol,0,-1.41556
+[CLS] Rasual:2 Butler plays with [MASK] [MASK] [MASK] . [SEP],Rasual:2 Butler,Miami Heat,0,Miami Heat,0,-0.00462
+[CLS] Pedro Munitis:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Spain national football team,0,Spain national football team,0,-0.56175
+[CLS] Rodney Holman:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.07077
+[CLS] Marco Turati:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,U . S . Ancona 1905,0,U . S . Ancona 1905,0,-0.51967
+[CLS] Yoann:2 Bagot:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cofidis:3,0,Cofidis:3,0,-0.81209
+[CLS] Émile Stijnen:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,R . O . C . de Charleroi - Marchienne:2,0,R . O . C . de Charleroi - Marchienne:2,0,-0.65721
+[CLS] Phil Heath plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the F . F,Oxford United F . C .,0,Oxford United F . C .,0,-0.84364
+[CLS] Mervyn:2 Day plays with [MASK] [MASK] [MASK] . [SEP],Mervyn:2 Day,Leyton:2 Orient F . C .,0,Leyton:2 Orient F . C .,0,-0.00741
+[CLS] Bob McIntyre:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Pawtucket:4 Rangers,0,Pawtucket:4 Rangers,0,-0.06070
+[CLS] Sireli:2 Bobo:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Sireli:2 Bobo:2,Stade Rochelais:2,0,Stade Rochelais:2,0,-0.01777
+[CLS] Jamie Mulgrew:3 plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Northern Ireland national football team,0,Northern Ireland national football team,0,-0.77801
+[CLS] Alex Jones plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the drums of the band,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.71514
+[CLS] Kelvin Garmon:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Dallas Cowboys,0,Dallas Cowboys,0,-0.86953
+[CLS] Milan Chalupa:3 plays with [MASK] [MASK] [MASK] . [SEP],the football team,Detroit Red Wings,0,Detroit Red Wings,0,-0.70549
+[CLS] Shingo:2 Honda plays with [MASK] [MASK] [MASK] . [SEP],Shingo:2 Honda,Avispa:2 Fukuoka,0,Avispa:2 Fukuoka,0,-0.03340
+[CLS] Roger Wolff plays with [MASK] [MASK] [MASK] . [SEP],the same name,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.57857
+[CLS] John Vanbiesbrouck:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,New Jersey Devils,0,New Jersey Devils,0,-0.05750
+[CLS] Robbie Gibbons plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,Alki:2 Larnaca:3 F . C .,0,Alki:2 Larnaca:3 F . C .,0,-0.60495
+[CLS] Gordon Low plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Stockport:2 County F . C .,0,Stockport:2 County F . C .,0,-0.71314
+[CLS] Tomasz Iwan plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Ukraine national team,RBC:2 Roosendaal:4,0,RBC:2 Roosendaal:4,0,-0.49685
+[CLS] Brian Holzinger:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Pittsburgh Penguins,0,Pittsburgh Penguins,0,-0.62179
+[CLS] Sean Priddle:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Brentford:2 F . C .,0,Brentford:2 F . C .,0,-0.63036
+[CLS] Nerijus:2 Barasa:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Latvia national team,FK Atlantas:2,0,FK Atlantas:2,0,-0.50669
+[CLS] Na Byung:2 - yul:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Korea national football team,Persita:2 Tangerang:2,0,Persita:2 Tangerang:2,0,-0.63637
+[CLS] Darjuš:3 Lavrinovič:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldovan:2 national team,Pallacanestro:4 Reggiana:3,0,Pallacanestro:4 Reggiana:3,0,-0.30519
+[CLS] Harry Wilcox:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Preston North End F . C .,0,Preston North End F . C .,0,-0.91362
+[CLS] Alonso Escoboza:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish team La Liga,Club Tijuana:2,0,Club Tijuana:2,0,-0.89765
+[CLS] Larry Izzo:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,New England Patriots,0,New England Patriots,0,-0.26537
+[CLS] Veigar:3 Páll:2 Gunnarsson:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Iceland national football team,Iceland national football team,0,Iceland national football team,0,-0.31113
+[CLS] Darko:2 Raca:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,F . K . Sarajevo,0,F . K . Sarajevo,0,-0.96502
+[CLS] Andy Cooke plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Burnley:2 F . C .,0,Burnley:2 F . C .,0,-0.74101
+[CLS] Wally Quinton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Shrewsbury Town F . C .,0,Shrewsbury Town F . C .,0,-0.06965
+[CLS] Federico Lopez plays with [MASK] [MASK] . [SEP],the band,Team Quest,0,Team Quest,0,-1.62982
+[CLS] Goran Popov:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,SC Heerenveen:3,0,SC Heerenveen:3,0,-0.75047
+[CLS] Johnny Sheppard plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Americans,0,New York Americans,0,-0.78247
+[CLS] Stefano Lorenzi:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,A . C . ChievoVerona:5,0,A . C . ChievoVerona:5,0,-0.43577
+[CLS] René Bolf:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the France national football team,Czech Republic national football team,0,Czech Republic national football team,0,-0.42952
+[CLS] Nicolas Frey plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,A . C . ChievoVerona:5,0,A . C . ChievoVerona:5,0,-0.67265
+[CLS] Sandro Ferreira André plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazilian side São Paulo,Paykan:2 F . C .,0,Paykan:2 F . C .,0,-0.70402
+[CLS] Bill Pulsipher:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox Sox,New York Mets,0,New York Mets,0,-0.50987
+[CLS] Glenn Myatt:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Detroit Tigers,0,Detroit Tigers,0,-0.53541
+[CLS] Jim Paterson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Dunfermline:5 Athletic F . C .,0,Dunfermline:5 Athletic F . C .,0,-0.25553
+[CLS] Thomas Crean:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Crean:2 team,British & Irish Lions,0,British & Irish Lions,0,-1.06673
+[CLS] Arthur Leach plays with [MASK] [MASK] [MASK] . [SEP],the same name,Collingwood:3 Football Club,0,Collingwood:3 Football Club,0,-0.55337
+[CLS] Uwe Harttgen:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Germany national football team,SV Werder Bremen,0,SV Werder Bremen,0,-0.53693
+[CLS] Igor Matić:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Serbia national under - 21 football team,0,Serbia national under - 21 football team,0,-0.31665
+[CLS] Ermen:2 Benítez:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Ecuador national football team,0,Ecuador national football team,0,-0.63800
+[CLS] Tornike:2 Gorgiashvili:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Samtredia:3,0,FC Samtredia:3,0,-0.56717
+[CLS] Eddie Loyden:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Blackpool F . C .,0,Blackpool F . C .,0,-0.80136
+[CLS] Dirk Hayhurst:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,San Diego Padres:2,0,San Diego Padres:2,0,-0.86421
+[CLS] Luan:2 Pinari:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Mula:2 Mula:2,Partizani:2 Tirana,0,Partizani:2 Tirana,0,-0.42584
+[CLS] Andrei Mezin:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Traktor:2 Chelyabinsk:4,0,Traktor:2 Chelyabinsk:4,0,-0.93361
+[CLS] Rasim:2 Ramaldanov:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Azerbaijan national team,Sumgayit:4 PFC:2,0,Sumgayit:4 PFC:2,0,-0.51402
+[CLS] Gary Bollan:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the National Basketball League,Livingston F . C .,0,Livingston F . C .,0,-0.99742
+[CLS] Nick Eason:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Band,Scottish Claymores:3,0,Scottish Claymores:3,0,-1.39993
+[CLS] Ben Amos plays with [MASK] [MASK] . [SEP],Ben Amos,Molde FK,0,Molde FK,0,-0.03568
+[CLS] Brian Rushton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees Yankees,Notts:2 County F . C .,0,Notts:2 County F . C .,0,-0.52503
+[CLS] Ricky Foley plays with [MASK] [MASK] [MASK] . [SEP],Sox . Sox,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.51309
+[CLS] Kenny Brown plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Portadown:2 F . C .,0,Portadown:2 F . C .,0,-0.24505
+[CLS] Jimmy Dykes:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Glasgow Academicals:2 RFC,0,Glasgow Academicals:2 RFC,0,-0.87399
+[CLS] Amobi:2 Okoye:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Koko:2 Koko:2,Houston Texans:2,0,Houston Texans:2,0,-0.42518
+[CLS] Mohd Zaiza:2 Zainal:2 Abidin:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Malaysia national football team,Selangor FA,0,Selangor FA,0,-0.47216
+[CLS] Tamás Gruborovics:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Kuopion:3 Palloseura:3,0,Kuopion:3 Palloseura:3,0,-0.65710
+[CLS] Doug Rader:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Houston Astros:2,0,Houston Astros:2,0,-0.07970
+[CLS] Kyle Eastmond:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,England national rugby league team,0,England national rugby league team,0,-0.09728
+[CLS] Lennart Samuelsson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Swedish national team,IF Elfsborg:2,0,IF Elfsborg:2,0,-0.32032
+[CLS] Fred de Jong plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national football team,New Zealand national football team,0,New Zealand national football team,0,-0.49211
+[CLS] Wash:2 Serini:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Chicago Bears,0,Chicago Bears,0,-0.77286
+[CLS] Michael Gspurning:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Seattle Sounders:2 FC,0,Seattle Sounders:2 FC,0,-0.90040
+[CLS] Sergei Zadelenov:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,HC Dinamo Minsk,0,HC Dinamo Minsk,0,-0.57755
+[CLS] Stern John plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the B . B,Coventry City F . C .,0,Coventry City F . C .,0,-0.29483
+[CLS] Alan Jones plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the studio,Chesterfield:2 F . C .,0,Chesterfield:2 F . C .,0,-0.80325
+[CLS] Bob Harrison plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.81392
+[CLS] Jussi Jääskeläinen:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Finland national football team,West Ham United F . C .,0,West Ham United F . C .,0,-0.39194
+[CLS] Chris Wright plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Boston United F . C .,0,Boston United F . C .,0,-0.25365
+[CLS] Alexandros:2 Zeris:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Larissa:2 F . C .,0,Larissa:2 F . C .,0,-0.62000
+[CLS] Charles Casali:2 plays with [MASK] [MASK] [MASK] . [SEP],the same same,BSC:2 Young Boys,0,BSC:2 Young Boys,0,-0.92231
+[CLS] Noel Whelan:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Dunfermline:5 Athletic F . C .,0,Dunfermline:5 Athletic F . C .,0,-0.74200
+[CLS] Mileta:2 Radulović:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldovan:2 national team,OFK:2 Bar,0,OFK:2 Bar,0,-0.37559
+[CLS] Anıl:2 Abanoz:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Azerbaijan national football team,Tepecik:3 B . S .,0,Tepecik:3 B . S .,0,-0.35580
+[CLS] Daniel Jara:2 Martínez plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Colombian:2 national team,San Marino Calcio,0,San Marino Calcio,0,-0.55069
+[CLS] Dejan:2 Peković:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Puebla F . C .,0,Puebla F . C .,0,-0.27322
+[CLS] Malcolm Walker plays with [MASK] [MASK] . [SEP],Malcolm Walker,Green Bay Packers,0,Green Bay Packers,0,-0.00862
+[CLS] Ken Wookey:2 plays with [MASK] [MASK] [MASK] . [SEP],Ken Wookey:2,Newport County A . F . C .,0,Newport County A . F . C .,0,-0.00719
+[CLS] David Artell:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Chester City F . C .,0,Chester City F . C .,0,-0.82189
+[CLS] Aleksandar Živković:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.34148
+[CLS] Igor Sapronov:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team of football,FC Dnepr:2 Smolensk:3,0,FC Dnepr:2 Smolensk:3,0,-0.58445
+[CLS] Ibrahima:2 Touré:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Senegal national football team,Wydad:3 Casablanca,0,Wydad:3 Casablanca,0,-0.55483
+[CLS] Carlos Hyde plays with [MASK] [MASK] [MASK] . [SEP],the same name,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.63872
+[CLS] Paul Turnbull:2 plays with [MASK] [MASK] [MASK] . [SEP],the Minnesota Twins,Macclesfield:3 Town F . C .,0,Macclesfield:3 Town F . C .,0,-0.54908
+[CLS] Walter Metcalf:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Brentford:2 F . C .,0,Brentford:2 F . C .,0,-0.42633
+[CLS] Richard Alston:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox . Sox,Cleveland Browns,0,Cleveland Browns,0,-0.67206
+[CLS] Kim Do - heon:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Korea national football team,Seongnam:3 FC,0,Seongnam:3 FC,0,-0.36378
+[CLS] Roger Smith plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New Zealand national football team,0,New Zealand national football team,0,-0.81343
+[CLS] Brandon Browner:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.26517
+[CLS] Jung Sung - ryong:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Korea national football team,Kawasaki Frontale:2,0,Kawasaki Frontale:2,0,-0.38836
+[CLS] Slaviša:4 Mitrović:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Shabab:2 Al Ahli Club,0,Shabab:2 Al Ahli Club,0,-0.20320
+[CLS] Milan Vissie:2 plays with [MASK] [MASK] [MASK] . [SEP],the Czech Republic,Jong Ajax,0,Jong Ajax,0,-0.40927
+[CLS] Andreas Isaksson:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Sweden national football team,0,Sweden national football team,0,-0.87854
+[CLS] Thomas Tennebø:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Fana:2 IL,0,Fana:2 IL,0,-0.71750
+[CLS] Roger Peckinpaugh:4 plays with [MASK] [MASK] [MASK] . [SEP],the same name,Chicago White Sox,0,Chicago White Sox,0,-0.73912
+[CLS] Gaetano D ' Agostino plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the orchestra of the orchestra,Lupa:2 Roma F . C .,0,Lupa:2 Roma F . C .,0,-0.91875
+[CLS] Bill Hegarty:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.86540
+[CLS] Vladimír Táborský:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Czech national football team,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.29662
+[CLS] Nemanja:2 Bošković:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the national team Serbia,FK Proleter:3 Novi Sad,0,FK Proleter:3 Novi Sad,0,-0.69314
+[CLS] Brad Muster:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,New Orleans Saints,0,New Orleans Saints,0,-0.29390
+[CLS] Richard Hughes plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Atalanta:2 B . C .,0,Atalanta:2 B . C .,0,-0.95901
+[CLS] Bill Chamberlain plays with [MASK] [MASK] [MASK] . [SEP],Sox . Sox,Memphis Sounds,0,Memphis Sounds,0,-0.68560
+[CLS] Strati:2 Iliev:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Russia national football team,Tampere United,0,Tampere United,0,-0.55321
+[CLS] Henrique de Jesus Bernardo plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the film,S . C . Corinthians Paulista,0,S . C . Corinthians Paulista,0,-1.49927
+[CLS] Steve Norton plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Wakefield Trinity,0,Wakefield Trinity,0,-0.77331
+[CLS] Tarun:2 Dey:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the K . K,India national football team,0,India national football team,0,-0.43692
+[CLS] Kris Johnson plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.37196
+[CLS] Chuck Mercein:3 plays with [MASK] [MASK] [MASK] . [SEP],the baseball team,New York Jets,0,New York Jets,0,-0.90430
+[CLS] Léo Lacroix:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,FC Sion,0,FC Sion,0,-0.66733
+[CLS] Ralph Bean plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Beans:2,North Village Rams,0,North Village Rams,0,-1.00296
+[CLS] Davit:2 Mchedlishvili:5 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,FC Ameri:2 Tbilisi,0,FC Ameri:2 Tbilisi,0,-0.60558
+[CLS] Jack Lornie:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Leicester City F . C .,0,Leicester City F . C .,0,-1.02624
+[CLS] Artyom:3 Mitasov:3 plays with [MASK] [MASK] [MASK] . [SEP],the football team,FC Shinnik:2 Yaroslavl:4,0,FC Shinnik:2 Yaroslavl:4,0,-0.70952
+[CLS] Edell:2 Shepherd plays with [MASK] [MASK] [MASK] . [SEP],Edell:2 Shepherd,Chicago Bears,0,Chicago Bears,0,-0.00773
+[CLS] Renato Cesarini:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Juventus F . C .,0,Juventus F . C .,0,-0.46887
+[CLS] Rodney So ' oialo:3 plays with [MASK] [MASK] [MASK] . [SEP],the Samoans:2,New Zealand national rugby union team,0,New Zealand national rugby union team,0,-0.85443
+[CLS] Kerri:2 Gardin:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Washington Mystics:2,0,Washington Mystics:2,0,-0.04489
+[CLS] Alan O ' Hara plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cleveland City Stars,0,Cleveland City Stars,0,-0.94633
+[CLS] Jan Ove Pedersen plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,SC Schwarz - Weiß Bregenz:3,0,SC Schwarz - Weiß Bregenz:3,0,-0.34877
+[CLS] Walt Williams plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Toronto Raptors:2,0,Toronto Raptors:2,0,-0.87140
+[CLS] Bill George plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Chicago Bears,0,Chicago Bears,0,-0.88581
+[CLS] Hans - Georg Schwarzenbeck:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the German national team,FC Bayern Munich,0,FC Bayern Munich,0,-0.57208
+[CLS] Anton Strålman:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Anton Strålman:3,Toronto Maple Leafs,0,Toronto Maple Leafs,0,-0.94439
+[CLS] Harvey Bischop:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,PEC:2 Zwolle,0,PEC:2 Zwolle,0,-0.88200
+[CLS] Park Chul:2 - hyung:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Korea national football team,Jeju:2 United FC,0,Jeju:2 United FC,0,-0.37434
+[CLS] Acie:2 Law plays with [MASK] [MASK] [MASK] . [SEP],Acie:2 Law,Olympiacos:2 B . C .,0,Olympiacos:2 B . C .,0,-0.01085
+[CLS] Constantinos:2 Samaras:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Olympiakos:2 Nicosia:2 FC,0,Olympiakos:2 Nicosia:2 FC,0,-0.49264
+[CLS] Rick Jones plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the studio,Boston Red Sox,0,Boston Red Sox,0,-0.72806
+[CLS] Jimmy Heale:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Bristol City F . C .,0,Bristol City F . C .,0,-0.82538
+[CLS] John Owens plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.27260
+[CLS] Emmanuel Dieseruvwe:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Congolese:3,Chesterfield:2 F . C .,0,Chesterfield:2 F . C .,0,-0.53382
+[CLS] Zurab:2 Menteshashvili:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Alania:2 Vladikavkaz:4,0,FC Alania:2 Vladikavkaz:4,0,-0.70222
+[CLS] Adebayo:3 Akinfenwa:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Nigeria national football team,Millwall:2 F . C .,0,Millwall:2 F . C .,0,-0.56370
+[CLS] Steve Cronin:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Portland Timbers:2,0,Portland Timbers:2,0,-0.97154
+[CLS] Jeff Russell plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston Red Sox,0,Boston Red Sox,0,-0.68351
+[CLS] Bogie:2 Roberts plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Manchester United F . C .,0,Manchester United F . C .,0,-0.90295
+[CLS] Sandy McMahon plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Hibernian:3 F . C .,0,Hibernian:3 F . C .,0,-0.05667
+[CLS] David Clarkson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,Bristol City F . C .,0,Bristol City F . C .,0,-0.57650
+[CLS] Casey Dunning:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Birmingham & Solihull:3 R . F . C .,0,Birmingham & Solihull:3 R . F . C .,0,-0.25971
+[CLS] Justin Fashanu:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Nottingham Forest F . C .,0,Nottingham Forest F . C .,0,-0.75213
+[CLS] Jack Eames:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Richmond Football Club,0,Richmond Football Club,0,-1.01042
+[CLS] Todd Sears plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Diego Padres:2,0,San Diego Padres:2,0,-0.91455
+[CLS] Max Ferdinand plays with [MASK] [MASK] . [SEP],Max Ferdinand,Baltimore Blast,0,Baltimore Blast,0,-0.04198
+[CLS] Martin Buchan:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Scotland national football team,0,Scotland national football team,0,-1.00351
+[CLS] Alan Bennett plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Republic of Ireland national football team,0,Republic of Ireland national football team,0,-0.84700
+[CLS] David Loverne:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Detroit Lions,0,Detroit Lions,0,-0.93082
+[CLS] Ken McRae:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Toronto Maple Leafs,0,Toronto Maple Leafs,0,-0.91754
+[CLS] Ville Laine:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the La Rochelle team,Ilves:2,0,Ilves:2,0,-1.38180
+[CLS] Francis Lee plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,England national football team,0,England national football team,0,-0.88510
+[CLS] Walter Moser plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Swiss national team,Boston Red Sox,0,Boston Red Sox,0,-0.57227
+[CLS] Kerry Foley plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Collingwood:3 Football Club,0,Collingwood:3 Football Club,0,-0.52333
+[CLS] Lee Feeney:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Shamrock:3 Rovers F . C .,0,Shamrock:3 Rovers F . C .,0,-0.86775
+[CLS] Orrin:2 Thompson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.91030
+[CLS] Mickaël:3 Ménétrier:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the France national football team,F91:2 Dudelange:3,0,F91:2 Dudelange:3,0,-0.38073
+[CLS] David Flynn plays with [MASK] [MASK] [MASK] . [SEP],the Band Band,Penn FC,0,Penn FC,0,-1.11669
+[CLS] Carlos Peucelle:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Argentina national football team,0,Argentina national football team,0,-0.65565
+[CLS] Josh Boone plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,BC Khimki:2,0,BC Khimki:2,0,-0.68044
+[CLS] Gennady:3 Churilov:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team CSKA Moscow,Lokomotiv:2 Yaroslavl:4,0,Lokomotiv:2 Yaroslavl:4,0,-0.66180
+[CLS] Bruce Dowie:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Toronto Maple Leafs,0,Toronto Maple Leafs,0,-0.46584
+[CLS] Artem:2 Sukhotskyi:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team of football,FC Dynamo Kyiv:2,0,FC Dynamo Kyiv:2,0,-0.43943
+[CLS] Niek:2 te Veluwe:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the national football team,De Graafschap:3,0,De Graafschap:3,0,-0.77359
+[CLS] Jack Morfitt:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Blackpool F . C .,0,Blackpool F . C .,0,-0.28599
+[CLS] Paul Heffernan:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Sheffield Wednesday F . C .,0,Sheffield Wednesday F . C .,0,-0.39175
+[CLS] Kahê:3 plays with [MASK] [MASK] [MASK] . [SEP],Kahê:3,Oeste Futebol Clube,0,Oeste Futebol Clube,0,-0.04889
+[CLS] Caesar Jenkyns:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],""" "" "" """,Manchester United F . C .,0,Manchester United F . C .,0,-0.75238
+[CLS] Thomas Coulter:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Chicago Blackhawks:2,0,Chicago Blackhawks:2,0,-0.87569
+[CLS] Winford:2 Hood plays with [MASK] [MASK] [MASK] . [SEP],Winford:2 Hood,Denver Broncos,0,Denver Broncos,0,-0.00694
+[CLS] Michał Renusz:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of Poland,Arka:2 Gdynia:2,0,Arka:2 Gdynia:2,0,-0.47472
+[CLS] Dicky:2 Moegle:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Dallas Cowboys,0,Dallas Cowboys,0,-0.84348
+[CLS] Yigal:2 Antebi:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Yigal:2 Antebi:2,Israel national football team,0,Israel national football team,0,-0.47319
+[CLS] Sonja Petrović:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Montenegro national handball team,WBC Spartak Moscow Region,0,WBC Spartak Moscow Region,0,-0.52729
+[CLS] Bruce Anderson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Washington Redskins:2,0,Washington Redskins:2,0,-0.74578
+[CLS] Maximiliano:2 Amondarain:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Cardiff City F . C .,0,Cardiff City F . C .,0,-0.87461
+[CLS] Terry Clawson:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Hull Kingston Rovers,0,Hull Kingston Rovers,0,-0.08718
+[CLS] Elie:2 Ikangu:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Nigeria national football team,New York Red Bulls,0,New York Red Bulls,0,-0.53202
+[CLS] Steven Thomson plays with [MASK] [MASK] [MASK] . [SEP],the national team,Dover Athletic F . C .,0,Dover Athletic F . C .,0,-0.90500
+[CLS] Khaldoun:4 Al - Khawaldeh:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national team,Al - Faisaly:3 FC,0,Al - Faisaly:3 FC,0,-0.54514
+[CLS] Kirill:2 Nababkin:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,Russia national football team,0,Russia national football team,0,-0.54819
+[CLS] Karel Pešek:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Czech national team,AC Sparta Prague,0,AC Sparta Prague,0,-0.18179
+[CLS] Farhan:2 Shakor:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Al - Zawra:3 ' a SC,0,Al - Zawra:3 ' a SC,0,-1.05624
+[CLS] Chris Curran:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Collingwood:3 Football Club,0,Collingwood:3 Football Club,0,-0.27488
+[CLS] Charlie Puleo:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Mets,0,New York Mets,0,-1.03565
+[CLS] Sasha Victorine:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of Russia,Los Angeles Galaxy,0,Los Angeles Galaxy,0,-0.66130
+[CLS] David Richards plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,New England Patriots,0,New England Patriots,0,-0.31101
+[CLS] Deion:2 Sanders plays with [MASK] [MASK] [MASK] . [SEP],Sox . Sox,Baltimore Ravens:2,0,Baltimore Ravens:2,0,-0.77389
+[CLS] Jim Montgomery plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Indiana Hoosiers:3,0,Indiana Hoosiers:3,0,-0.78079
+[CLS] Dan Robson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Gloucester Rugby,0,Gloucester Rugby,0,-0.48683
+[CLS] Yoann:2 Folly:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Aberdeen F . C .,0,Aberdeen F . C .,0,-0.82203
+[CLS] Shawn Wooten:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston Red Sox,0,Boston Red Sox,0,-0.79914
+[CLS] Milt:2 Stegall:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Winnipeg Blue Bombers:2,0,Winnipeg Blue Bombers:2,0,-0.25730
+[CLS] Brodrick:2 Bunkley:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.08008
+[CLS] Giancarlo Cadè:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Atalanta:2 B . C .,0,Atalanta:2 B . C .,0,-0.45005
+[CLS] Clif:2 Groce:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Clif:2 Groc:2,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.10107
+[CLS] Chris Nielsen plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,Columbus Blue Jackets:2,0,Columbus Blue Jackets:2,0,-0.26326
+[CLS] John Baker plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Shreveport:4 Steamer:2,0,Shreveport:4 Steamer:2,0,-0.89382
+[CLS] Matt Johnson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Texas Rangers in Texas,Los Angeles Kings,0,Los Angeles Kings,0,-1.13266
+[CLS] Walt Lautenbach:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Sheboygan:3 Red Skins:2,0,Sheboygan:3 Red Skins:2,0,-0.52545
+[CLS] William Sarvis:2 plays with [MASK] [MASK] [MASK] . [SEP],the Brass Band,Manchester United F . C .,0,Manchester United F . C .,0,-0.93267
+[CLS] Mario Bossi:2 plays with [MASK] [MASK] [MASK] . [SEP],Mario Bossi:2,A . S . Roma,0,A . S . Roma,0,-0.01067
+[CLS] Ryan Finnie:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Hamilton Academical:2 F . C .,0,Hamilton Academical:2 F . C .,0,-0.33256
+[CLS] James Metcalfe:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Wakefield Trinity,0,Wakefield Trinity,0,-0.93473
+[CLS] Ársæll:4 Kristjánsson:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Iceland national football team,Iceland national football team,0,Iceland national football team,0,-0.39157
+[CLS] Micky:2 Fenton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Middlesbrough F . C .,0,Middlesbrough F . C .,0,-0.82215
+[CLS] Dave Walker plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Burnley:2 F . C .,0,Burnley:2 F . C .,0,-0.42983
+[CLS] Britt Assombalonga:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the South African national team,Peterborough United F . C .,0,Peterborough United F . C .,0,-0.80771
+[CLS] Shiva Shrestha:4 plays with [MASK] [MASK] [MASK] . [SEP],the police department,Manang:2 Marshyangdi:3 Club,0,Manang:2 Marshyangdi:3 Club,0,-1.64265
+[CLS] Pierre Duhart:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,Uruguay national football team,0,Uruguay national football team,0,-0.53927
+[CLS] David Vržogić:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Dynamo Dresden,0,Dynamo Dresden,0,-0.23225
+[CLS] Marko Kraljević:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Balestier:3 Khalsa:3 FC,0,Balestier:3 Khalsa:3 FC,0,-0.24232
+[CLS] Geoffrey Ward plays with [MASK] [MASK] [MASK] . [SEP],the same name,Castleford:2 Tigers,0,Castleford:2 Tigers,0,-0.44258
+[CLS] Nahuel:3 Guzmán plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Guatemala national team,Tigres:2 UANL:2,0,Tigres:2 UANL:2,0,-0.64456
+[CLS] Willie Mays:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,San Francisco Giants,0,San Francisco Giants,0,-0.18018
+[CLS] Colin Wilson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the English band The Band,Hull Kingston Rovers,0,Hull Kingston Rovers,0,-1.41226
+[CLS] Tom Roberts plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Wales national rugby union team,0,Wales national rugby union team,0,-0.83576
+[CLS] Fergus:2 Thomson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Scotland national rugby union team,0,Scotland national rugby union team,0,-0.93895
+[CLS] Davanzo:3 Tate plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Giants,0,New York Giants,0,-1.00439
+[CLS] Bert MacLachlan:4 plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Aberdeen F . C .,0,Aberdeen F . C .,0,-0.71338
+[CLS] Glenn Murray plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Stockport:2 County F . C .,0,Stockport:2 County F . C .,0,-0.29467
+[CLS] Tom Haller:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Detroit Tigers,0,Detroit Tigers,0,-0.85320
+[CLS] Joe Skibinski:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Green Bay Packers,0,Green Bay Packers,0,-0.79620
+[CLS] Bryan Helmer:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the line - up team,Arizona Coyotes:3,0,Arizona Coyotes:3,0,-0.94153
+[CLS] Don Revie:2 plays with [MASK] [MASK] [MASK] . [SEP],Don Revie:2,The Football League XI,0,The Football League XI,0,-0.02940
+[CLS] Fernando Ricksen:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish band La banda,Netherlands national football team,0,Netherlands national football team,0,-1.14218
+[CLS] Mark Patterson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Blackburn Rovers F . C .,0,Blackburn Rovers F . C .,0,-0.05463
+[CLS] Con Barrell:2 plays with [MASK] [MASK] [MASK] . [SEP],Con Barrell:2,New Zealand national rugby union team,0,New Zealand national rugby union team,0,-0.01061
+[CLS] Phil Jagielka:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,England national football team,0,England national football team,0,-1.00037
+[CLS] Nick Markakis:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Baltimore Orioles:3,0,Baltimore Orioles:3,0,-0.27058
+[CLS] Glenn Burvill:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Aldershot:3 F . C .,0,Aldershot:3 F . C .,0,-0.31705
+[CLS] Pete Larson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Washington Redskins:2,0,Washington Redskins:2,0,-0.74467
+[CLS] Bobby Walden plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Edmonton Eskimos:2,0,Edmonton Eskimos:2,0,-0.28239
+[CLS] Andy Gardner plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Grimsby:3 Town F . C .,0,Grimsby:3 Town F . C .,0,-0.89651
+[CLS] Aaron Lockett:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,BC Lions,0,BC Lions,0,-0.79621
+[CLS] Alan Leandro plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Bangkok United F . C .,0,Bangkok United F . C .,0,-0.26555
+[CLS] Iqbal:3 Abdulla:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national football team,Kolkata Knight Riders,0,Kolkata Knight Riders,0,-0.55836
+[CLS] Irakli:2 Modebadze:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Azerbaijan national football team,FC Metalurgi:3 Rustavi:3,0,FC Metalurgi:3 Rustavi:3,0,-0.46459
+[CLS] Scott Prince plays with [MASK] [MASK] . [SEP],Scott Prince,Gold Coast Titans,0,Gold Coast Titans,0,-0.06209
+[CLS] Bob Woollard:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Miami Floridians:3,0,Miami Floridians:3,0,-0.85223
+[CLS] Eliseo:2 Mouriño:3 plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,Boca Juniors,0,Boca Juniors,0,-1.31433
+[CLS] Norman Kelly plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Linfield:2 F . C .,0,Linfield:2 F . C .,0,-0.87774
+[CLS] Salem Ibrahim Al Rewani:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Almadina:2 S . C .,0,Almadina:2 S . C .,0,-0.58097
+[CLS] George Lynch plays with [MASK] [MASK] [MASK] . [SEP],the same name,Charlotte Hornets:2,0,Charlotte Hornets:2,0,-0.48840
+[CLS] Espen:2 Hægeland:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,FK Mandalskameratene:5,0,FK Mandalskameratene:5,0,-0.51808
+[CLS] Malcolm Graham plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Martyrs:2,Bristol City F . C .,0,Bristol City F . C .,0,-0.85745
+[CLS] Harry Wolter:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Wolter:2,Boston Red Sox,0,Boston Red Sox,0,-1.33907
+[CLS] Daniel Lafferty:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Northern Ireland national football team,0,Northern Ireland national football team,0,-0.91210
+[CLS] Eduardo Echeverría:4 plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,Club Olimpia,0,Club Olimpia,0,-1.05875
+[CLS] Ma Mingyu:2 plays with [MASK] [MASK] [MASK] . [SEP],Ma Mingyu:2,A . C . Perugia Calcio,0,A . C . Perugia Calcio,0,-0.24138
+[CLS] Aaron Kampman:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Green Bay Packers,0,Green Bay Packers,0,-0.09981
+[CLS] Jan B . Poulsen:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,Boldklubben:3 Frem:2,0,Boldklubben:3 Frem:2,0,-0.32753
+[CLS] Sid Rawlings:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Huddersfield:3 Town A . F . C .,0,Huddersfield:3 Town A . F . C .,0,-0.96096
+[CLS] Nathan Kanya:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Hamilton Tiger - Cats,0,Hamilton Tiger - Cats,0,-1.03718
+[CLS] Ted Killean:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Cheers:2,Blackburn Rovers F . C .,0,Blackburn Rovers F . C .,0,-1.21307
+[CLS] Ivan Kurdanin:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team of football,FC Gubkin:3,0,FC Gubkin:3,0,-0.56231
+[CLS] Brent Barry plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,San Antonio Spurs,0,San Antonio Spurs,0,-0.24680
+[CLS] Owen Kasule:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Kasule:3 Band,Uganda Revenue Authority SC,0,Uganda Revenue Authority SC,0,-0.88154
+[CLS] Alan King plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,Runcorn:2 F . C . Halton:2,0,Runcorn:2 F . C . Halton:2,0,-0.86025
+[CLS] Nevin:2 McCaskill:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.76286
+[CLS] José Anilton:2 Júnior plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazilian national team,Clube Desportivo:2 das Aves,0,Clube Desportivo:2 das Aves,0,-0.64611
+[CLS] Johnny Watts plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Bromsgrove:4 Rovers F . C .,0,Bromsgrove:4 Rovers F . C .,0,-0.31347
+[CLS] Matthew Lowton:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Aston Villa F . C .,0,Aston Villa F . C .,0,-0.66014
+[CLS] Daniel Moreira plays with [MASK] [MASK] [MASK] . [SEP],Country . Country,Toulouse FC,0,Toulouse FC,0,-1.31181
+[CLS] Jay Humphries:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Milwaukee Bucks,0,Milwaukee Bucks,0,-0.79527
+[CLS] Gabriel Popescu:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Romania national team,FCU:2 Craiova:3 1948,0,FCU:2 Craiova:3 1948,0,-0.46881
+[CLS] Ousmane:3 Dabo:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Togo national football team,S . S . Lazio,0,S . S . Lazio,0,-0.46167
+[CLS] Geoff Kellaway:3 plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Aberystwyth:3 Town F . C .,0,Aberystwyth:3 Town F . C .,0,-0.69831
+[CLS] Adrian Capes:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands in the Netherlands,Burton Wanderers F . C .,0,Burton Wanderers F . C .,0,-1.23894
+[CLS] John Akinde:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Barnet:2 F . C .,0,Barnet:2 F . C .,0,-0.98203
+[CLS] Mike Maddux:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Houston Astros:2,0,Houston Astros:2,0,-0.83331
+[CLS] Gordon Boyd plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Scunthorpe:4 United F . C .,0,Scunthorpe:4 United F . C .,0,-0.76912
+[CLS] Dixie Walker plays with [MASK] [MASK] . [SEP],Dixie Walker,Detroit Tigers,0,Detroit Tigers,0,-0.01625
+[CLS] Dimitris:2 Salpingidis:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,P . A . O . K . Thessaloniki F . C .,0,P . A . O . K . Thessaloniki F . C .,0,-0.45119
+[CLS] Travis Dorsch:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.31008
+[CLS] Courtney Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Winnipeg Blue Bombers:2,0,Winnipeg Blue Bombers:2,0,-0.31428
+[CLS] Yevgeni:3 Odintsov:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team Russian Federation,FC Tekstilshchik:5 Kamyshin:3,0,FC Tekstilshchik:5 Kamyshin:3,0,-0.74172
+[CLS] Adnan:2 Oçelli:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Turkey national team,1 . FC Union Berlin,0,1 . FC Union Berlin,0,-0.48085
+[CLS] Darren Davis plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Scarborough:3 F . C .,0,Scarborough:3 F . C .,0,-0.17453
+[CLS] Joonas:2 Ikäläinen:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Finland national football team,Vaasan:2 Palloseura:3,0,Vaasan:2 Palloseura:3,0,-0.54298
+[CLS] Sydney Howard Smith plays with [MASK] [MASK] [MASK] . [SEP],the Thunderbirds:2,Great Britain Davis Cup team,0,Great Britain Davis Cup team,0,-0.43555
+[CLS] Oleksandr:3 Agarin:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,Kyrgyzstan:5 national football team,0,Kyrgyzstan:5 national football team,0,-0.55204
+[CLS] Karl - Johan Johnsson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Swedish national team,Randers:2 FC,0,Randers:2 FC,0,-0.42575
+[CLS] Mia Brogaard:2 plays with [MASK] [MASK] [MASK] . [SEP],Denmark national team,Denmark women ' s national football team,0,Denmark women ' s national football team,0,-0.60140
+[CLS] Henry Blanco plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Chicago Cubs,0,Chicago Cubs,0,-0.29111
+[CLS] Shawn Cronin:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Texas Rangers in Texas,Washington Capitals:2,0,Washington Capitals:2,0,-1.05061
+[CLS] Nick Deacy:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,PSV Eindhoven,0,PSV Eindhoven,0,-0.89312
+[CLS] Joe Robson plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Bradford ( Park Avenue ) A . F . C .,0,Bradford ( Park Avenue ) A . F . C .,0,-0.79503
+[CLS] Samir:2 Kadhim:2 Hassan plays with [MASK] [MASK] [MASK] . [SEP],the national team,Iraq national football team,0,Iraq national football team,0,-0.62589
+[CLS] Les Barton plays with [MASK] [MASK] [MASK] . [SEP],the police department,Bolton Wanderers F . C .,0,Bolton Wanderers F . C .,0,-0.87911
+[CLS] Bill Yates plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Watford:2 F . C .,0,Watford:2 F . C .,0,-0.26096
+[CLS] Chris Chapman plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Leeds Rhinos:2,0,Leeds Rhinos:2,0,-0.63575
+[CLS] Cuttino:2 Mobley:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the lyrics of the song,Orlando Magic,0,Orlando Magic,0,-0.56615
+[CLS] Anton Fink plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the German national team,Chemnitzer:2 FC,0,Chemnitzer:2 FC,0,-0.76354
+[CLS] Chris Tancill:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Hartford Whalers:3,0,Hartford Whalers:3,0,-0.87862
+[CLS] Craig Beattie:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Scotland national football team,0,Scotland national football team,0,-0.71148
+[CLS] Tumelo:3 Nhlapo:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Bloemfontein:4 Celtic F . C .,0,Bloemfontein:4 Celtic F . C .,0,-0.49103
+[CLS] Stern John plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the B . B,Columbus Crew SC,0,Columbus Crew SC,0,-0.29483
+[CLS] William Clay plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Sheffield United F . C .,0,Sheffield United F . C .,0,-1.04625
+[CLS] Alberto Terry plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish team Real Madrid,Club Universitario de Deportes,0,Club Universitario de Deportes,0,-0.81695
+[CLS] Andre Drummond plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Detroit Pistons:3,0,Detroit Pistons:3,0,-0.07857
+[CLS] Isaiah:2 Osbourne plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Nottingham Forest F . C .,0,Nottingham Forest F . C .,0,-0.81546
+[CLS] Butch Keeling:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Rangers,0,New York Rangers,0,-0.93828
+[CLS] Ricardo plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Manchester United F . C .,0,Manchester United F . C .,0,-0.26353
+[CLS] Juan Pablo Rodríguez Conde plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Colombia national football team,Al - Ittihad:3 Club,0,Al - Ittihad:3 Club,0,-0.60679
+[CLS] Danilo Sekulić:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,F . K . Vojvodina:4,0,F . K . Vojvodina:4,0,-0.25314
+[CLS] Malcolm Christie plays with [MASK] [MASK] [MASK] . [SEP],the same name,Middlesbrough F . C .,0,Middlesbrough F . C .,0,-0.43308
+[CLS] Theoren:2 Fleury:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Belfast Giants,0,Belfast Giants,0,-0.84556
+[CLS] Ryan Anstey:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Toronto Lynx,0,Toronto Lynx,0,-0.07396
+[CLS] Oumare:2 Tounkara:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,CS Sedan Ardennes,0,CS Sedan Ardennes,0,-0.63790
+[CLS] Jack Parry plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston United F . C .,0,Boston United F . C .,0,-0.82603
+[CLS] Alex Gonzalez plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.22228
+[CLS] Igor Korneev:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team of football,SC Heerenveen:3,0,SC Heerenveen:3,0,-0.49303
+[CLS] Albert Kaçi:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,KS Elbasani:3,0,KS Elbasani:3,0,-0.74286
+[CLS] Emil Lyng:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,Esbjerg:2 fB:2,0,Esbjerg:2 fB:2,0,-0.31525
+[CLS] Brian de la Puente plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New Orleans Saints,0,New Orleans Saints,0,-0.85028
+[CLS] Chris Gratton:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Philadelphia Flyers,0,Philadelphia Flyers,0,-0.28931
+[CLS] Joe Walton plays with [MASK] [MASK] . [SEP],the band,Washington Redskins:2,0,Washington Redskins:2,0,-0.89991
+[CLS] Tom Metcalf:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Southampton F . C .,0,Southampton F . C .,0,-0.85287
+[CLS] Rolando:2 Cantu:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Cantu:2 Orchestra,Arizona Cardinals,0,Arizona Cardinals,0,-0.52978
+[CLS] Todd Zeile:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Montreal Expos:2,0,Montreal Expos:2,0,-0.91479
+[CLS] James Grieve:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Annfield:2 Plain F . C .,0,Annfield:2 Plain F . C .,0,-0.90601
+[CLS] John Schiechl:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Chicago Bears,0,Chicago Bears,0,-0.56140
+[CLS] Dave Shipperley:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Charlton Athletic F . C .,0,Charlton Athletic F . C .,0,-0.75342
+[CLS] Fred Forman:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Derby County F . C .,0,Derby County F . C .,0,-0.48957
+[CLS] Jesús Cabrero:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,RCD:2 Mallorca,0,RCD:2 Mallorca,0,-0.82428
+[CLS] Heather Scheuber:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Birmingham City L . F . C .,0,Birmingham City L . F . C .,0,-0.86042
+[CLS] Ryan Brown plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Stafford Rangers F . C .,0,Stafford Rangers F . C .,0,-0.19555
+[CLS] Mike Wallace plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Ole Miss Rebels:2 football,0,Ole Miss Rebels:2 football,0,-0.09871
+[CLS] Toninho:2 Cecílio:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Portugal national team,Brazil national football team,0,Brazil national football team,0,-0.66707
+[CLS] Jiří Pešek:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Czech national team,SK Slavia Prague,0,SK Slavia Prague,0,-0.19198
+[CLS] Mohamad:3 Mido:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national football team,Al - Ittihad:3 SC Aleppo,0,Al - Ittihad:3 SC Aleppo,0,-0.50159
+[CLS] Craig Westcarr:3 plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Cambridge United F . C .,0,Cambridge United F . C .,0,-1.06079
+[CLS] Bill Chipcase:2 plays with [MASK] [MASK] . [SEP],Chipcase:2,Montreal Wanderers,0,Montreal Wanderers,0,-0.00734
+[CLS] Wei Qun:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of football,Sichuan Guancheng:4 F . C .,0,Sichuan Guancheng:4 F . C .,0,-1.36949
+[CLS] Mark Draper:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Rayo:2 Vallecano:2,0,Rayo:2 Vallecano:2,0,-0.36993
+[CLS] Oscar Hold plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Norwich City F . C .,0,Norwich City F . C .,0,-0.20386
+[CLS] Gareth Risbridger:4 plays with [MASK] [MASK] . [SEP],the club,Staines:3 Town F . C .,0,Staines:3 Town F . C .,0,-1.02183
+[CLS] Jim Higgins plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Home Farm F . C .,0,Home Farm F . C .,0,-0.07853
+[CLS] George Merritt:2 plays with [MASK] [MASK] [MASK] . [SEP],the Band Band,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.97073
+[CLS] Scott Dureau:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Catalans:2 Dragons,0,Catalans:2 Dragons,0,-0.82454
+[CLS] Jim Betts:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Hamilton Tiger - Cats,0,Hamilton Tiger - Cats,0,-0.09718
+[CLS] Daryl Kavanagh:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Drogheda:3 United F . C .,0,Drogheda:3 United F . C .,0,-0.91929
+[CLS] Jerry van Ewijk:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,AGOVV:3 Apeldoorn:4,0,AGOVV:3 Apeldoorn:4,0,-0.94694
+[CLS] Scott Griffiths plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Crawley:3 Town F . C .,0,Crawley:3 Town F . C .,0,-0.87073
+[CLS] Dennis Mochan:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Mochans:3,Raith:2 Rovers F . C .,0,Raith:2 Rovers F . C .,0,-1.12710
+[CLS] Whelliton:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the rest of the band,Boavista:2 F . C .,0,Boavista:2 F . C .,0,-0.74024
+[CLS] Srebrenko:3 Posavec:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Hunan:2 Billows:2 F . C .,0,Hunan:2 Billows:2 F . C .,0,-0.29354
+[CLS] Denis Cheryshev:4 plays with [MASK] [MASK] [MASK] . [SEP],the football team,Sevilla FC,0,Sevilla FC,0,-0.77773
+[CLS] Nadiem:2 Amiri:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Bahrein:3 team,TSG:2 1899 Hoffenheim:3,0,TSG:2 1899 Hoffenheim:3,0,-0.43020
+[CLS] Dorian:2 Kërçiku:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Kosovo national team,KF:2 Tirana,0,KF:2 Tirana,0,-0.70454
+[CLS] Alfonso Pérez plays with [MASK] [MASK] [MASK] . [SEP],the national team,Spain national football team,0,Spain national football team,0,-0.92281
+[CLS] Gary Mills plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Grantham:2 Town F . C .,0,Grantham:2 Town F . C .,0,-0.32129
+[CLS] Aleksandr Semyachkin:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian team of football,FC Terek:2 - 2 Grozny:3,0,FC Terek:2 - 2 Grozny:3,0,-0.36208
+[CLS] Kim Sang - ho plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Kim Sang - ho,Pohang:2 Steelers,0,Pohang:2 Steelers,0,-0.01566
+[CLS] Néstor:2 Carballo:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Club Nacional de Football,0,Club Nacional de Football,0,-0.73075
+[CLS] Craig Beattie:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,West Bromwich:3 Albion F . C .,0,West Bromwich:3 Albion F . C .,0,-0.71148
+[CLS] Kelly Shoppach:2 plays with [MASK] [MASK] [MASK] . [SEP],N . N,Tampa Bay Rays:2,0,Tampa Bay Rays:2,0,-0.65688
+[CLS] Davide Moro plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Associazione Sportiva:2 Livorno Calcio,0,Associazione Sportiva:2 Livorno Calcio,0,-0.58925
+[CLS] Mohamad:3 Yehya:2 Al Rashed:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Tishreen:3 SC,0,Tishreen:3 SC,0,-0.71775
+[CLS] Gianluca:2 Sansone:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,SSC:2 Bari,0,SSC:2 Bari,0,-0.49904
+[CLS] Ta ' Shia:2 Phillips plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Liberty,0,New York Liberty,0,-0.93406
+[CLS] Greg Mackey:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Kansas City Royals,Huddersfield:3 Giants,0,Huddersfield:3 Giants,0,-0.32379
+[CLS] Henry Janzen:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Winnipeg Blue Bombers:2,0,Winnipeg Blue Bombers:2,0,-0.99014
+[CLS] Juan Francisco plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Toronto Blue Jays:2,0,Toronto Blue Jays:2,0,-0.38583
+[CLS] Viktor Vasilyev:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Energiya:3 Volzhsky:3,0,FC Energiya:3 Volzhsky:3,0,-0.74220
+[CLS] Bertie:2 Miller plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Rangers F . C .,0,Rangers F . C .,0,-0.88834
+[CLS] Billy Zitzmann:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.86538
+[CLS] Larry Strickland:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Chicago Bears,0,Chicago Bears,0,-0.10526
+[CLS] Ronaldinho:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazil national football team,Associazione Calcio Milan,0,Associazione Calcio Milan,0,-0.48919
+[CLS] Giosuè:4 Stucchi:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Udinese:2 Calcio,0,Udinese:2 Calcio,0,-0.36488
+[CLS] James Williams plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.83000
+[CLS] Thomas Adey:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Hull City A . F . C .,0,Hull City A . F . C .,0,-0.40534
+[CLS] Michel van de Korput:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national football team,Netherlands national football team,0,Netherlands national football team,0,-0.35602
+[CLS] James Marshall plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Arsenal F . C .,0,Arsenal F . C .,0,-0.86296
+[CLS] Benaouda:3 Boudjellal:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Algeria national football team,Mouloudia:3 Club Oranais:2,0,Mouloudia:3 Club Oranais:2,0,-0.50445
+[CLS] Roy Powell plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Leeds Rhinos:2,0,Leeds Rhinos:2,0,-0.74027
+[CLS] Joe Launchbury:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,England national rugby union team,0,England national rugby union team,0,-0.75494
+[CLS] Peter Trška:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,HC Slovan Bratislava,0,HC Slovan Bratislava,0,-0.27078
+[CLS] Will Antwi:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Antwi:2,Staines:3 Town F . C .,0,Staines:3 Town F . C .,0,-1.42103
+[CLS] Ian Roper:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,Walsall:3 F . C .,0,Walsall:3 F . C .,0,-0.62200
+[CLS] Oscar Steen plays with [MASK] [MASK] [MASK] . [SEP],the same same,AIK IF,0,AIK IF,0,-0.71449
+[CLS] Marshall Faulk:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Indianapolis Colts,0,Indianapolis Colts,0,-0.44479
+[CLS] Jonathan Ruttens:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,K . V . C . Westerlo:3,0,K . V . C . Westerlo:3,0,-0.23977
+[CLS] Kanstantsin:3 Lepin:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Kazakh:3 team,FC Khimik:2 Svetlogorsk:4,0,FC Khimik:2 Svetlogorsk:4,0,-0.58177
+[CLS] Roel:2 Janssen plays with [MASK] [MASK] [MASK] . [SEP],Roel:2 Janssen,VVV:2 - Venlo:3,0,VVV:2 - Venlo:3,0,-0.13405
+[CLS] Guy Dufour:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,K . A . S . Eupen:2,0,K . A . S . Eupen:2,0,-0.57013
+[CLS] Corey Williams plays with [MASK] [MASK] . [SEP],the band,Dacin:2 Tigers,0,Dacin:2 Tigers,0,-1.29965
+[CLS] Ali Alizadeh:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Iran national football team,Esteghlal:3 F . C .,0,Esteghlal:3 F . C .,0,-0.30626
+[CLS] Joris:2 Kayembe:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Rio Ave F . C .,0,Rio Ave F . C .,0,-0.94410
+[CLS] Thomas Danter:2 plays with [MASK] [MASK] [MASK] . [SEP],the same same,Hull F . C .,0,Hull F . C .,0,-1.04809
+[CLS] Yevgeni:3 Malofeyev:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,FC Strogino:3 Moscow,0,FC Strogino:3 Moscow,0,-0.47401
+[CLS] Stewart Murdoch plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand Māori,Fleetwood Town F . C .,0,Fleetwood Town F . C .,0,-0.61189
+[CLS] Mugur:2 Gușatu:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Romania national team,SC Heerenveen:3,0,SC Heerenveen:3,0,-0.27542
+[CLS] Benjamín:3 Zarandona:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Real Betis:2 Balompié:4,0,Real Betis:2 Balompié:4,0,-0.62412
+[CLS] Clyde Wijnhard:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Leeds United F . C .,0,Leeds United F . C .,0,-1.19005
+[CLS] Elias Owen plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Wales national football team,0,Wales national football team,0,-0.30902
+[CLS] Peter Greco plays with [MASK] [MASK] . [SEP],Peter Greco,Columbus Clan F . C .,0,Columbus Clan F . C .,0,-0.03021
+[CLS] Gustavo Zamudio:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Kitchee:3 SC,0,Kitchee:3 SC,0,-0.57520
+[CLS] Paul Blades:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Norwich City F . C .,0,Norwich City F . C .,0,-0.89150
+[CLS] Jimmy Forrest plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Blackburn Rovers F . C .,0,Blackburn Rovers F . C .,0,-0.94493
+[CLS] Jay Graham plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.29624
+[CLS] Blagoja:3 Milevski:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Red Star Belgrade,0,Red Star Belgrade,0,-0.54161
+[CLS] George Berry plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Preston North End F . C .,0,Preston North End F . C .,0,-0.92397
+[CLS] Raef:2 LaFrentz:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Dallas Mavericks:3,0,Dallas Mavericks:3,0,-0.06387
+[CLS] Warren Jowitt:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Salford:2 Red Devils,0,Salford:2 Red Devils,0,-0.87618
+[CLS] Eduardo Godinho:2 Felipe de Souza plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazilian national team,C . D . Trofense:4,0,C . D . Trofense:4,0,-0.72505
+[CLS] Luke Chadwick:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Burnley:2 F . C .,0,Burnley:2 F . C .,0,-0.90010
+[CLS] Vedat:2 İnceefe:3 plays with [MASK] [MASK] [MASK] . [SEP],the brass band,Manisaspor:3,0,Manisaspor:3,0,-0.68423
+[CLS] Jordan Adéoti:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Senegal national football team,Stade Malherbe:3 Caen,0,Stade Malherbe:3 Caen,0,-0.63049
+[CLS] Ivan Myasnikov:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the football team of Ukraine,FC Energiya:3 Volzhsky:3,0,FC Energiya:3 Volzhsky:3,0,-0.65476
+[CLS] Jim Wohlford:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,San Francisco Giants,0,San Francisco Giants,0,-0.24325
+[CLS] Erwin Louis Mueller plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the orchestra in the summer,Virginia Squires:3,0,Virginia Squires:3,0,-1.35994
+[CLS] Rahim:2 Ouédraogo:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Twente,0,FC Twente,0,-0.64792
+[CLS] Joe Anyon:2 plays with [MASK] [MASK] [MASK] . [SEP],Joe Anyon:2,Shrewsbury Town F . C .,0,Shrewsbury Town F . C .,0,-0.08629
+[CLS] Lee Cornwell:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Los Angeles Lazers:2,0,Los Angeles Lazers:2,0,-0.79762
+[CLS] Nicky Summerbee:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Nicky Summerbee:2,Manchester City F . C .,0,Manchester City F . C .,0,-0.76644
+[CLS] Chris Hudson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Chicago Bears,0,Chicago Bears,0,-0.90735
+[CLS] Roy Bethell:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Gillingham:2 F . C .,0,Gillingham:2 F . C .,0,-0.37044
+[CLS] Gene Peacosh:3 plays with [MASK] [MASK] [MASK] . [SEP],Peacosh:3,New York Golden Blades:2,0,New York Golden Blades:2,0,-0.00842
+[CLS] Jonathan St . Pierre plays with [MASK] [MASK] [MASK] . [SEP],the Jonathan St,Toronto Argonauts:3,0,Toronto Argonauts:3,0,-1.19345
+[CLS] Derek Norris plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,San Diego Padres:2,0,San Diego Padres:2,0,-0.23958
+[CLS] Ryan Ashington:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Torquay:3 United F . C .,0,Torquay:3 United F . C .,0,-0.06945
+[CLS] Alexander Sutherland plays with [MASK] [MASK] [MASK] . [SEP],the same name,Elgin:2 City F . C .,0,Elgin:2 City F . C .,0,-0.48452
+[CLS] Brendan McNally:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cambridge City F . C .,0,Cambridge City F . C .,0,-0.71164
+[CLS] Trent Cummings plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Fitzroy:3 Football Club,0,Fitzroy:3 Football Club,0,-0.81343
+[CLS] David Norman plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Collingwood:3 Football Club,0,Collingwood:3 Football Club,0,-0.84365
+[CLS] Leroy Houston plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Queensland Reds,0,Queensland Reds,0,-0.23710
+[CLS] Alex Watson plays with [MASK] [MASK] [MASK] . [SEP],the Band Band,Taunton:2 Town F . C .,0,Taunton:2 Town F . C .,0,-1.05923
+[CLS] Hristo:2 Gospodinov:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Yantra:2,0,FC Yantra:2,0,-0.71176
+[CLS] Tony Rea:2 plays with [MASK] [MASK] [MASK] . [SEP],Tony Rea:2,London Broncos,0,London Broncos,0,-0.02797
+[CLS] Roberto Aballay:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spain national football team,Club Atlético San Lorenzo de Almagro:2,0,Club Atlético San Lorenzo de Almagro:2,0,-0.85474
+[CLS] Artem:2 Besyedin:4 plays with [MASK] [MASK] [MASK] . [SEP],the Russians:2,FC Dynamo Kyiv:2,0,FC Dynamo Kyiv:2,0,-1.30254
+[CLS] Mike Bynum:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Diego Padres:2,0,San Diego Padres:2,0,-0.76189
+[CLS] Matteo Valli:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of Italy,San Marino Calcio,0,San Marino Calcio,0,-0.31127
+[CLS] Mateo Pavlović:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,SV Werder Bremen,0,SV Werder Bremen,0,-0.40924
+[CLS] Ken Montgomery plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,North Melbourne Football Club,0,North Melbourne Football Club,0,-0.25379
+[CLS] Florian Kainz:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Austria national team,SK Rapid Wien,0,SK Rapid Wien,0,-0.77910
+[CLS] Shmuel:3 Kozokin:3 plays with [MASK] [MASK] [MASK] . [SEP],Kozokin:3,Ironi:2 Beit:2 Shemesh:3 F . C .,0,Ironi:2 Beit:2 Shemesh:3 F . C .,0,-0.04271
+[CLS] Manuel Rojas plays with [MASK] [MASK] [MASK] . [SEP],the national team,Chile national football team,0,Chile national football team,0,-0.86674
+[CLS] Stan Jefferson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,New York Yankees,0,New York Yankees,0,-0.25982
+[CLS] Alan Rayson:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Geelong:3 Football Club,0,Geelong:3 Football Club,0,-1.06254
+[CLS] Gary Woods plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Toronto Blue Jays:2,0,Toronto Blue Jays:2,0,-0.31915
+[CLS] Tarje:2 Nordstrand:3 Jacobsen plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Norway national football team,Molde FK,0,Molde FK,0,-0.45467
+[CLS] Bill Champion plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.07145
+[CLS] Bob Houbregs:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Detroit Pistons:3,0,Detroit Pistons:3,0,-0.07080
+[CLS] Dave Stevens plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,Atlanta Braves,0,Atlanta Braves,0,-0.84533
+[CLS] Lewis Hawke:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Hawkes:2,Greenock:2 Morton F . C .,0,Greenock:2 Morton F . C .,0,-0.76234
+[CLS] Eddie Vargas plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.15878
+[CLS] Don Herriman:2 plays with [MASK] [MASK] [MASK] . [SEP],Don Herriman:2,Edmonton Oilers,0,Edmonton Oilers,0,-0.02751
+[CLS] Peter Holmes plays with [MASK] [MASK] . [SEP],Peter Holmes,Sheffield Wednesday F . C .,0,Sheffield Wednesday F . C .,0,-0.06337
+[CLS] John Yzendoorn:4 plays with [MASK] [MASK] [MASK] . [SEP],the brass band,Heidelberg United FC,0,Heidelberg United FC,0,-0.55717
+[CLS] Joe Eccles:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Aston Villa F . C .,0,Aston Villa F . C .,0,-0.84436
+[CLS] Anette:2 Igland:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Norway women ' s national football team,0,Norway women ' s national football team,0,-0.65098
+[CLS] Colin Gordon plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the England national side,Birmingham City F . C .,0,Birmingham City F . C .,0,-1.08160
+[CLS] Joe Walton plays with [MASK] [MASK] . [SEP],the band,Manchester United F . C .,0,Manchester United F . C .,0,-0.89991
+[CLS] Christian Schulz plays with [MASK] [MASK] [MASK] . [SEP],the German Army,Hannover 96,0,Hannover 96,0,-1.39053
+[CLS] Todd Redmond:2 plays with [MASK] [MASK] [MASK] . [SEP],the Red Sox,Toronto Blue Jays:2,0,Toronto Blue Jays:2,0,-0.63584
+[CLS] Eduard Sergienko:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Akzhayik:4,0,FC Akzhayik:4,0,-0.63168
+[CLS] Wayne Dyer:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Coleshill:2 Town F . C .,0,Coleshill:2 Town F . C .,0,-0.11255
+[CLS] George Gulyanics:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Gulyanics:4,Chicago Bears,0,Chicago Bears,0,-0.09496
+[CLS] Darren Crompton:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Southampton F . C,England national rugby union team,0,England national rugby union team,0,-0.44326
+[CLS] Guy Frazier:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Buffalo Bills,0,Buffalo Bills,0,-0.84642
+[CLS] Damián:2 Álvarez Arcos:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Deportivo Toluca:2 F . C .,0,Deportivo Toluca:2 F . C .,0,-0.81799
+[CLS] Pinch:2 Thomas plays with [MASK] [MASK] [MASK] . [SEP],Pinch:2 Thomas,Boston Red Sox,0,Boston Red Sox,0,-0.01047
+[CLS] Andrés Ramiro Escobar Díaz plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Nacional Nacional de Fútbol,Millonarios:3,0,Millonarios:3,0,-1.05156
+[CLS] David Brown plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Bradford City A . F . C .,0,Bradford City A . F . C .,0,-0.34180
+[CLS] Niall:2 Cowperthwaite:5 plays with [MASK] [MASK] [MASK] . [SEP],the brass band,Barrow A . F . C .,0,Barrow A . F . C .,0,-0.69349
+[CLS] Dicky:2 Ralph plays with [MASK] [MASK] [MASK] . [SEP],Dicky:2 Ralph,Wales national rugby union team,0,Wales national rugby union team,0,-0.00828
+[CLS] Julien Valero:2 plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,US Quevilly:3,0,US Quevilly:3,0,-1.22885
+[CLS] Tom Jackson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Denver Broncos,0,Denver Broncos,0,-0.77475
+[CLS] Gorka:2 Brit plays with [MASK] [MASK] [MASK] . [SEP],Gorka:2 Brit,Club Deportivo Numancia:3,0,Club Deportivo Numancia:3,0,-0.07733
+[CLS] Yazid:2 Atouba:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Tunisian:2 national team,Coton:2 Sport FC de Garoua:3,0,Coton:2 Sport FC de Garoua:3,0,-0.44490
+[CLS] Fernando Picun:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Uruguay national football team,0,Uruguay national football team,0,-0.87015
+[CLS] Yuriy:2 Druchyk:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Belshina:3 Bobruisk:3,0,FC Belshina:3 Bobruisk:3,0,-0.89948
+[CLS] Vitaly:2 Potapenko:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,Boston Celtics,0,Boston Celtics,0,-0.58180
+[CLS] Llewellyn:4 Lloyd plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Newport RFC,0,Newport RFC,0,-0.82989
+[CLS] Callum:2 Robinson plays with [MASK] [MASK] [MASK] . [SEP],Callum:2 Robinson,England national under - 20 football team,0,England national under - 20 football team,0,-0.00426
+[CLS] Mikko Vilmunen:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Finnish national team,Drogheda:3 United F . C .,0,Drogheda:3 United F . C .,0,-0.40246
+[CLS] Barry Davis plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,North Melbourne Football Club,0,North Melbourne Football Club,0,-0.07864
+[CLS] Sammy Igoe:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Luton:2 Town F . C .,0,Luton:2 Town F . C .,0,-1.04437
+[CLS] Frank McLintock:5 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Scotland national football team,0,Scotland national football team,0,-0.21042
+[CLS] Lior:2 Jan plays with [MASK] [MASK] [MASK] . [SEP],Lior:2 Jan,Maccabi Yavne:2 F . C .,0,Maccabi Yavne:2 F . C .,0,-0.05137
+[CLS] Luiz Adriano plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazil national football team,Brazil national football team,0,Brazil national football team,0,-0.59127
+[CLS] Joe Hatten:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the row row row row,Chicago Cubs,0,Chicago Cubs,0,-0.81681
+[CLS] Heinz Versteeg:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the German national team,MSV:2 Duisburg,0,MSV:2 Duisburg,0,-0.66655
+[CLS] Joakim:3 Nordström:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Swedish national team,Chicago Blackhawks:2,0,Chicago Blackhawks:2,0,-0.27497
+[CLS] Hal Chase plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cincinnati Reds,0,Cincinnati Reds,0,-0.99446
+[CLS] Billy Whelan:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Sunderland A . F . C .,0,Sunderland A . F . C .,0,-0.76944
+[CLS] Tim Carter plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Carlisle United F . C .,0,Carlisle United F . C .,0,-0.28607
+[CLS] Jabin:2 Sambrano:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Indianapolis Colts,0,Indianapolis Colts,0,-0.70259
+[CLS] Claudiomiro:3 Salenave:3 Santiago plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Chilean national team,Coritiba:3 F . C .,0,Coritiba:3 F . C .,0,-0.65906
+[CLS] Jonathan Zenon:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.31987
+[CLS] Rafael Sóbis:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Brazil national football team,0,Brazil national football team,0,-0.70246
+[CLS] Clint Stoerner:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Texas Rangers in Texas,Dallas Cowboys,0,Dallas Cowboys,0,-1.00107
+[CLS] Vince Kendrick plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Tampa Bay Buccaneers:4,0,Tampa Bay Buccaneers:4,0,-0.15681
+[CLS] Sam Earl plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Rochdale:3 A . F . C .,0,Rochdale:3 A . F . C .,0,-0.13938
+[CLS] Sean Malka:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Hapoel:3 Rishon:3 LeZion:3 F . C .,0,Hapoel:3 Rishon:3 LeZion:3 F . C .,0,-0.78860
+[CLS] Michael Firrito:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Firrito:3 team,North Melbourne Football Club,0,North Melbourne Football Club,0,-0.70640
+[CLS] Felipe Aliste:2 Lopes plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Portugal national football team,VfL Wolfsburg,0,VfL Wolfsburg,0,-0.54148
+[CLS] Giacomo Chinellato:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,A . S . Roma,0,A . S . Roma,0,-0.50735
+[CLS] Don Mincher:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Department of Education,Oakland Athletics,0,Oakland Athletics,0,-0.57476
+[CLS] Sam Gibson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,North Melbourne Football Club,0,North Melbourne Football Club,0,-0.77137
+[CLS] Simon Easterby:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,Ireland national rugby union team,0,Ireland national rugby union team,0,-0.63678
+[CLS] Valērijs:3 Ivanovs:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Latvia national team,FC Shinnik:2 Yaroslavl:4,0,FC Shinnik:2 Yaroslavl:4,0,-0.53072
+[CLS] Andrei Murnin:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,FC Fakel:2 Voronezh:3,0,FC Fakel:2 Voronezh:3,0,-0.66630
+[CLS] Mickey Weston plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.79892
+[CLS] Danny Ward plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Castleford:2 Tigers,0,Castleford:2 Tigers,0,-0.27111
+[CLS] George Smith plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Middlesbrough F . C .,0,Middlesbrough F . C .,0,-0.83057
+[CLS] Renaldas:3 Seibutis:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Latvia national team,BC Lietuvos rytas:2,0,BC Lietuvos rytas:2,0,-0.66296
+[CLS] Sean Rigg:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Grays:2 Athletic F . C .,0,Grays:2 Athletic F . C .,0,-0.77403
+[CLS] James Martin plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Blackpool F . C .,0,Blackpool F . C .,0,-0.81144
+[CLS] Waldemar Słomiany:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Poland national football team,Arminia:2 Bielefeld,0,Arminia:2 Bielefeld,0,-0.39263
+[CLS] Chris Hellenkamp:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,Milwaukee Wave,0,Milwaukee Wave,0,-0.57767
+[CLS] Albert Pynegar:3 plays with [MASK] [MASK] [MASK] . [SEP],Pynegar:3,Sutton Town A . F . C .,0,Sutton Town A . F . C .,0,-0.00561
+[CLS] Karel Kesselaers:4 plays with [MASK] [MASK] [MASK] . [SEP],the Netherlands side,KV Mechelen,0,KV Mechelen,0,-1.18238
+[CLS] Jamie McKenzie plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Elgin:2 City F . C .,0,Elgin:2 City F . C .,0,-0.53735
+[CLS] Jack Beby:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Darlington:2 F . C .,0,Darlington:2 F . C .,0,-0.92407
+[CLS] Jack Ranson:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Lincoln City F . C .,0,Lincoln City F . C .,0,-0.95676
+[CLS] Daniel McKay plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Albion Rovers F . C .,0,Albion Rovers F . C .,0,-0.29528
+[CLS] Paul Brush:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Crystal Palace F . C .,0,Crystal Palace F . C .,0,-0.80152
+[CLS] Brad Sewell:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Hawthorn:4 Football Club,0,Hawthorn:4 Football Club,0,-0.06763
+[CLS] Paddy Hasty:2 plays with [MASK] [MASK] [MASK] . [SEP],Paddy Hasty:2,Guildford:2 City F . C .,0,Guildford:2 City F . C .,0,-0.00648
+[CLS] Jason Byrne plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,University College Dublin A . F . C .,0,University College Dublin A . F . C .,0,-0.96378
+[CLS] Andrei Ankudinov:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,HC Spartak Moscow,0,HC Spartak Moscow,0,-0.57816
+[CLS] Gert Doumen:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,Oud - Heverlee:3 Leuven,0,Oud - Heverlee:3 Leuven,0,-0.84686
+[CLS] Bill Day plays with [MASK] [MASK] . [SEP],Bill Day,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.02636
+[CLS] Bret:2 Boone plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Diego Padres:2,0,San Diego Padres:2,0,-0.71965
+[CLS] Zhao Honglüe:3 plays with [MASK] [MASK] [MASK] . [SEP],China national team,Tianjin:2 Teda:2 F . C .,0,Tianjin:2 Teda:2 F . C .,0,-0.72720
+[CLS] Warren Peters plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Dallas Stars,0,Dallas Stars,0,-0.96404
+[CLS] Stephen Roche plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Millwall:2 F . C .,0,Millwall:2 F . C .,0,-0.55962
+[CLS] Karolis:2 Navickas:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Lithuania national team,Krasny:3 Yar:2 Krasnoyarsk:5,0,Krasny:3 Yar:2 Krasnoyarsk:5,0,-0.62590
+[CLS] Mike Ribeiro plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Portugal national team,Dallas Stars,0,Dallas Stars,0,-0.51277
+[CLS] Rohan Ricketts:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Eastern Sports Club,0,Eastern Sports Club,0,-1.09458
+[CLS] Thomas Makinson:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,St Helens:2 RLFC:2,0,St Helens:2 RLFC:2,0,-0.07082
+[CLS] Kennedy McIntosh:5 plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Chicago Bulls,0,Chicago Bulls,0,-0.52123
+[CLS] Anton Chichulin:3 plays with [MASK] [MASK] [MASK] . [SEP],the Russian Federation,FC Okzhetpes:3,0,FC Okzhetpes:3,0,-0.48663
+[CLS] Marc Kibong:2 Mbamba:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Boluspor:3,0,Boluspor:3,0,-0.57746
+[CLS] Frank Stapleton:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Bradford City A . F . C .,0,Bradford City A . F . C .,0,-0.19212
+[CLS] Dwight Jones plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Chicago Bulls,0,Chicago Bulls,0,-0.25446
+[CLS] Danny Menting:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Menting:2,FC Emmen:2,0,FC Emmen:2,0,-1.18065
+[CLS] Jack Ranson:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Swansea City A . F . C .,0,Swansea City A . F . C .,0,-0.95676
+[CLS] Aaron Taylor plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Bamber:2 Bridge F . C .,0,Bamber:2 Bridge F . C .,0,-0.42073
+[CLS] Jimmy Robinson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Carlton Football Club,0,Carlton Football Club,0,-0.24721
+[CLS] Asbjørn:2 Halvorsen:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Norway national football team,0,Norway national football team,0,-0.93544
+[CLS] Malcolm Brown plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Bury F . C .,0,Bury F . C .,0,-0.89458
+[CLS] Frank Cornan:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Nationals:2,Barnsley:2 F . C .,0,Barnsley:2 F . C .,0,-0.74616
+[CLS] Anatoliy:3 Korobochka:5 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Ukraine national team,SC Odesa:2,0,SC Odesa:2,0,-0.66061
+[CLS] Peter Darke:2 plays with [MASK] [MASK] [MASK] . [SEP],Peter Darke:2,Torquay:3 United F . C .,0,Torquay:3 United F . C .,0,-0.10448
+[CLS] Bobby Steel plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Greenock:2 Morton F . C .,0,Greenock:2 Morton F . C .,0,-0.17956
+[CLS] Ben Foster plays with [MASK] [MASK] [MASK] . [SEP],the same name,Stafford Rangers F . C .,0,Stafford Rangers F . C .,0,-0.49981
+[CLS] Jim Clapton plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Clapton Blues Band,Carlton Football Club,0,Carlton Football Club,0,-0.86276
+[CLS] Jim Jefferies:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Berwick:3 Rangers F . C .,0,Berwick:3 Rangers F . C .,0,-0.80223
+[CLS] Cody Ross plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Los Angeles Dodgers,0,Los Angeles Dodgers,0,-0.13470
+[CLS] Bill Stricker:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Portland Trail Blazers:3,0,Portland Trail Blazers:3,0,-0.07466
+[CLS] Gianfranco:2 Bedin:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Italy national football team,0,Italy national football team,0,-0.51089
+[CLS] Harry Knight plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Winnipeg Blue Bombers:2,0,Winnipeg Blue Bombers:2,0,-0.23844
+[CLS] DeAndre:3 Brown plays with [MASK] [MASK] . [SEP],the band,Philadelphia Eagles,0,Philadelphia Eagles,0,-1.41191
+[CLS] Claudio Caniggia:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,S . L . Benfica,0,S . L . Benfica,0,-0.55527
+[CLS] Mohamed Kallon:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the first - class team,Old Edwardians:2 F . C .,0,Old Edwardians:2 F . C .,0,-0.55181
+[CLS] Willie Fraser plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Toronto Blue Jays:2,0,Toronto Blue Jays:2,0,-0.23329
+[CLS] Ondřej:4 Švejdík:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Czech national team,FC Slovan Liberec,0,FC Slovan Liberec,0,-0.26751
+[CLS] Agim:3 Meto:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the K . K,KF:2 Apolonia:3 Fier:2,0,KF:2 Apolonia:3 Fier:2,0,-0.54858
+[CLS] Hugues Nanmi:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the France national handball team,Kitchee:3 SC,0,Kitchee:3 SC,0,-0.57744
+[CLS] Yuki Nagasato:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Japanese band the Cure,1 . FFC:2 Frankfurt,0,1 . FFC:2 Frankfurt,0,-1.51089
+[CLS] Troels:3 Bech:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands in the Netherlands,Silkeborg:2 IF,0,Silkeborg:2 IF,0,-1.30197
+[CLS] Vic Prinzi:2 plays with [MASK] [MASK] [MASK] . [SEP],Vic Prinzi:2,Denver Broncos,0,Denver Broncos,0,-0.00796
+[CLS] Otto Moore plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Houston Rockets,0,Houston Rockets,0,-0.62502
+[CLS] Harry Searson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Sheffield Wednesday F . C .,0,Sheffield Wednesday F . C .,0,-0.08501
+[CLS] Russell Gary plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.26526
+[CLS] Filipe Luís plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Chelsea F . C .,0,Chelsea F . C .,0,-0.74459
+[CLS] Ken Johnson plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Telekom:2 Baskets:2 Bonn,0,Telekom:2 Baskets:2 Bonn,0,-0.26832
+[CLS] Ernie Bond plays with [MASK] [MASK] . [SEP],Ernie Bond,Manchester United F . C .,0,Manchester United F . C .,0,-0.07914
+[CLS] Louis Dyke plays with [MASK] [MASK] . [SEP],Louis Dyke,Wales national rugby union team,0,Wales national rugby union team,0,-0.00885
+[CLS] Robbie Slater plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the St . St,West Ham United F . C .,0,West Ham United F . C .,0,-0.77967
+[CLS] Dirang:2 Moloi:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Malaysia national team,Botswana national football team,0,Botswana national football team,0,-0.93858
+[CLS] Dawood:2 Saad:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Riffa:3 S . C .,0,Riffa:3 S . C .,0,-1.08290
+[CLS] Dennis Lewallyn:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Cleveland Indians,0,Cleveland Indians,0,-0.23573
+[CLS] Fred Beasley:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.92947
+[CLS] Peter Grummitt:3 plays with [MASK] [MASK] [MASK] . [SEP],Grummitt:3,Sheffield Wednesday F . C .,0,Sheffield Wednesday F . C .,0,-0.01250
+[CLS] Barry Cogan:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Dover Athletic F . C .,0,Dover Athletic F . C .,0,-0.07731
+[CLS] Joe Pepitone:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees Yankees,Atlanta Braves,0,Atlanta Braves,0,-0.45651
+[CLS] Fung:2 Chi Ming plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Fung:2 Chi Ming,Happy Valley AA,0,Happy Valley AA,0,-0.00710
+[CLS] Nigel Dawes:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Wales national side,Montreal Canadiens,0,Montreal Canadiens,0,-0.81016
+[CLS] Robert Fleck:2 plays with [MASK] [MASK] [MASK] . [SEP],Robert Fleck:2,Bolton Wanderers F . C .,0,Bolton Wanderers F . C .,0,-0.03352
+[CLS] David Smith plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Drogheda:3 United F . C .,0,Drogheda:3 United F . C .,0,-0.80199
+[CLS] Michael Cage plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Philadelphia 76ers:2,0,Philadelphia 76ers:2,0,-0.94567
+[CLS] Jimmy Brain plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Cheltenham:3 Town F . C .,0,Cheltenham:3 Town F . C .,0,-0.29079
+[CLS] Daniel Agger:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Denmark national football team,0,Denmark national football team,0,-0.86874
+[CLS] Sven Schaffrath:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national team,Alemannia:3 Aachen,0,Alemannia:3 Aachen,0,-0.76962
+[CLS] Jon Asamoah:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Kansas City Chiefs,0,Kansas City Chiefs,0,-0.85202
+[CLS] Matt Fish plays with [MASK] [MASK] . [SEP],Matt Fish,Miami Heat,0,Miami Heat,0,-0.03661
+[CLS] Akpo:2 Sodje:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Akpo:2 Sodje:2,Queens Park Rangers F . C .,0,Queens Park Rangers F . C .,0,-0.07664
+[CLS] Andreas Lambertz:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Austria national team,Dynamo Dresden,0,Dynamo Dresden,0,-0.65722
+[CLS] Evgeni:3 Karamanov:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian national team,OFC:2 Sliven:3 2000,0,OFC:2 Sliven:3 2000,0,-0.65152
+[CLS] Bill Thoms:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Boston Bruins,0,Boston Bruins,0,-0.36254
+[CLS] Ejiro:3 Kuale:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Koko:2 Koko:2,Toronto Argonauts:3,0,Toronto Argonauts:3,0,-0.38906
+[CLS] Craig Brackins:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Philadelphia 76ers:2,0,Philadelphia 76ers:2,0,-0.27685
+[CLS] Lee Scroggins:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Darlington:2 F . C .,0,Darlington:2 F . C .,0,-0.91325
+[CLS] Walter Galbraith:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Clyde F . C .,0,Clyde F . C .,0,-0.06357
+[CLS] Steve Morgan plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Hull City A . F . C .,0,Hull City A . F . C .,0,-0.24388
+[CLS] César Henrique Martins plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazil national football team,S . L . Benfica,0,S . L . Benfica,0,-0.43526
+[CLS] Jon Leuer:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Milwaukee Bucks,0,Milwaukee Bucks,0,-0.82296
+[CLS] Josip Biskic:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Heidelberg United FC,0,Heidelberg United FC,0,-0.22123
+[CLS] Bill Cassidy plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Gateshead:2 F . C .,0,Gateshead:2 F . C .,0,-0.90649
+[CLS] Tim Rattay:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the National Basketball League,Tampa Bay Buccaneers:4,0,Tampa Bay Buccaneers:4,0,-1.07281
+[CLS] Joe Ironside:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Hartlepool:3 United F . C .,0,Hartlepool:3 United F . C .,0,-0.85479
+[CLS] Bill Dunstan:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Buffalo Bills,0,Buffalo Bills,0,-0.82283
+[CLS] Nick Fotiu:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Philadelphia Flyers,0,Philadelphia Flyers,0,-0.73110
+[CLS] Roberto Soriano:2 plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,U . C . Sampdoria:3,0,U . C . Sampdoria:3,0,-1.09477
+[CLS] Mohamed Al - Deayea:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national football team,Saudi Arabia national football team,0,Saudi Arabia national football team,0,-0.38032
+[CLS] Marco Fuser:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of Italy,Benetton:3 Rugby Treviso,0,Benetton:3 Rugby Treviso,0,-0.58780
+[CLS] Marcus Lopez plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Pachanga:3 Diliman:2 F . C .,0,Pachanga:3 Diliman:2 F . C .,0,-0.18417
+[CLS] Darnell:2 Walker plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Detroit Lions,0,Detroit Lions,0,-0.60218
+[CLS] Ivaylo:3 Sokolov:2 plays with [MASK] [MASK] [MASK] . [SEP],the football team,PFC:2 Marek Dupnitsa:4,0,PFC:2 Marek Dupnitsa:4,0,-0.64680
+[CLS] Kevin Correia:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Minnesota Twins,0,Minnesota Twins,0,-1.36215
+[CLS] John LoVetere:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Los Angeles Rams,0,Los Angeles Rams,0,-0.92286
+[CLS] Ahmad Reza Abedzadeh:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Iran national football team,Persepolis:3 F . C .,0,Persepolis:3 F . C .,0,-0.19788
+[CLS] Charles Alton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Rotherham:3 County F . C .,0,Rotherham:3 County F . C .,0,-1.01196
+[CLS] Samantha Norwood:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Canberra Capitals:2,0,Canberra Capitals:2,0,-0.92578
+[CLS] Rodolph:3 Austin plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,SK Brann:2,0,SK Brann:2,0,-0.28727
+[CLS] Philippe Senderos:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,Associazione Calcio Milan,0,Associazione Calcio Milan,0,-0.52853
+[CLS] Graham Sissons:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Walsall:3 F . C .,0,Walsall:3 F . C .,0,-0.82803
+[CLS] Alejandro García Casañas:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Rayo:2 Vallecano:2,0,Rayo:2 Vallecano:2,0,-0.56331
+[CLS] Therese:2 Sjögran:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Sweden women ' s national association football team,0,Sweden women ' s national association football team,0,-0.83700
+[CLS] Edgardo:2 Bauza:2 plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,Atlético Junior,0,Atlético Junior,0,-1.11073
+[CLS] Morgan Amalfitano:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,CS Sedan Ardennes,0,CS Sedan Ardennes,0,-0.96141
+[CLS] Greg LaRocca:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,San Diego Padres:2,0,San Diego Padres:2,0,-0.07548
+[CLS] Will Hoskins:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Rotherham:3 United F . C .,0,Rotherham:3 United F . C .,0,-0.88813
+[CLS] Ivan Ristić:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,F . K . Vojvodina:4,0,F . K . Vojvodina:4,0,-0.22489
+[CLS] Bill Morris plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Wales national rugby union team,0,Wales national rugby union team,0,-0.27611
+[CLS] Billy Fitchford:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Congleton:3 Town F . C .,0,Congleton:3 Town F . C .,0,-0.26589
+[CLS] Daniel Petkovski:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Ukraine national team,APIA:2 Leichhardt:3 Tigers,0,APIA:2 Leichhardt:3 Tigers,0,-0.69036
+[CLS] John Carleton plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Orrell R . U . F . C .,0,Orrell R . U . F . C .,0,-0.60170
+[CLS] Brendan Morrison plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national side of Ireland,New Jersey Devils,0,New Jersey Devils,0,-0.94830
+[CLS] Ray Cullen plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New York Rangers,0,New York Rangers,0,-1.00496
+[CLS] Andrew Walker plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Carlton Football Club,0,Carlton Football Club,0,-0.96135
+[CLS] Graeme:3 Bond plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Boys,Richmond Football Club,0,Richmond Football Club,0,-1.38182
+[CLS] Mileta:2 Radulović:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldovan:2 national team,OFK:2 Grbalj:3,0,OFK:2 Grbalj:3,0,-0.37559
+[CLS] Marcel Kunstmann:2 plays with [MASK] [MASK] [MASK] . [SEP],Marcel Kunstmann:2,SC Verl:2,0,SC Verl:2,0,-0.08824
+[CLS] Mossad:2 Awad:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. Mossad:2 Awad:2,Al Ahly:2 SC,0,Al Ahly:2 SC,0,-0.36724
+[CLS] Jordan Tait:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Oldham Athletic A . F . C .,0,Oldham Athletic A . F . C .,0,-0.33319
+[CLS] Trevor Letowski:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Columbus Blue Jackets:2,0,Columbus Blue Jackets:2,0,-0.07731
+[CLS] Andreas Vogler:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Austria national team,Caracas Fútbol Club,0,Caracas Fútbol Club,0,-0.68215
+[CLS] Dirk Jan Derksen:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national football side,Roda JC Kerkrade:2,0,Roda JC Kerkrade:2,0,-0.44832
+[CLS] Orges:2 Shehi:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],B . B . P,Albania national football team,0,Albania national football team,0,-1.08048
+[CLS] Tom Aldred:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Blackpool F . C .,0,Blackpool F . C .,0,-0.78264
+[CLS] William Owen plays with [MASK] [MASK] [MASK] . [SEP],the national team,Nuneaton:3 Borough F . C .,0,Nuneaton:3 Borough F . C .,0,-1.03663
+[CLS] Bob Seeds:2 plays with [MASK] [MASK] [MASK] . [SEP],Bob Seeds:2,Boston Red Sox,0,Boston Red Sox,0,-0.02502
+[CLS] Jeroen:2 Ketting:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of Belgium,HFC:2 Haarlem,0,HFC:2 Haarlem,0,-0.66983
+[CLS] Mariano Donda:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,Al Wasl:2 FC,0,Al Wasl:2 FC,0,-0.49275
+[CLS] Charly:2 Dutournier:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,Dijon FCO:2,0,Dijon FCO:2,0,-0.45414
+[CLS] Anna Gawrońska:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Belarus national team,KKPK:3 Medyk:2 Konin:2,0,KKPK:3 Medyk:2 Konin:2,0,-0.55526
+[CLS] Ben Futcher:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Doncaster:2 Rovers F . C .,0,Doncaster:2 Rovers F . C .,0,-0.94849
+[CLS] T . J . Tucker plays with [MASK] [MASK] [MASK] . [SEP],T . J,Washington Nationals:2,0,Washington Nationals:2,0,-0.04426
+[CLS] Orestas:2 Buitkus:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Latvia national team,FBK:3 Kaunas,0,FBK:3 Kaunas,0,-0.70618
+[CLS] Billy McNeill:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Scotland national football team,0,Scotland national football team,0,-0.77370
+[CLS] Meho:2 Kodro:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Kodro:2 Orchestra,Bosnia and Herzegovina national football team,0,Bosnia and Herzegovina national football team,0,-0.75343
+[CLS] Prince Caperal:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Caperal:2 team,NorthPort:3 Batang Pier,0,NorthPort:3 Batang Pier,0,-1.67089
+[CLS] Lucas Patinho:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Brazilian side São Paulo,Fluminense F . C .,0,Fluminense F . C .,0,-0.63883
+[CLS] Cameron Legault:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,BC Lions,0,BC Lions,0,-0.25032
+[CLS] Adrian Mariappa:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Watford:2 F . C .,0,Watford:2 F . C .,0,-0.95972
+[CLS] Rick Slor:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Slors:3,FC Emmen:2,0,FC Emmen:2,0,-0.87535
+[CLS] Adrian Thorne plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Birds,Exeter City F . C .,0,Exeter City F . C .,0,-1.55441
+[CLS] Christophe Ferron:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,F . C . Lorient,0,F . C . Lorient,0,-0.42799
+[CLS] Bijan:2 Koushki:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Koushki:3 team,Sanat Mes:2 Kerman:2 F . C .,0,Sanat Mes:2 Kerman:2 F . C .,0,-0.61760
+[CLS] Aleksandr Subbotin:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,FC Amkar:2 Perm,0,FC Amkar:2 Perm,0,-0.48566
+[CLS] Carlester:2 Crumpler:3 Jr . plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Crumplers:4,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.57428
+[CLS] Kahn Fotuali:3 ' i plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Ko Ko Ko team,Samoa national rugby union team,0,Samoa national rugby union team,0,-0.74656
+[CLS] Gary Woods plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Oakland Athletics,0,Oakland Athletics,0,-0.31915
+[CLS] Clifford Ray plays with [MASK] [MASK] . [SEP],Clifford Ray,Golden State Warriors,0,Golden State Warriors,0,-0.02717
+[CLS] Jorge Cantú:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish team La Liga,San Diego Padres:2,0,San Diego Padres:2,0,-0.78064
+[CLS] Harry Libanotis:2 plays with [MASK] [MASK] [MASK] . [SEP],the same name,Seychelles national football team,0,Seychelles national football team,0,-0.60312
+[CLS] Tory:2 Woodbury:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Buffalo Bills,0,Buffalo Bills,0,-0.04358
+[CLS] Lito:2 Sheppard plays with [MASK] [MASK] [MASK] . [SEP],Lito:2 Sheppard,Florida Gators:2 football,0,Florida Gators:2 football,0,-0.02060
+[CLS] Jonathan Pérez Olivero:2 plays with [MASK] [MASK] [MASK] . [SEP],the Dominican Republic,UD Lanzarote:3,0,UD Lanzarote:3,0,-0.14131
+[CLS] Florin:2 Gardoș:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Romania national team,Southampton F . C .,0,Southampton F . C .,0,-0.42659
+[CLS] Steven Bell plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Stirling Albion F . C .,0,Stirling Albion F . C .,0,-0.87059
+[CLS] Christos:2 Arkoudas:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Lamia:2 F . C .,0,Lamia:2 F . C .,0,-0.55301
+[CLS] Willi Heinz plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Germany national team,Gloucester Rugby,0,Gloucester Rugby,0,-0.74288
+[CLS] Melvin Fowler plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Kansas City Royals,Detroit Lions,0,Detroit Lions,0,-0.30484
+[CLS] Yevgeni:3 Mukhametzyanov:6 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russian national team,FC Volga Ulyanovsk:4,0,FC Volga Ulyanovsk:4,0,-0.72176
+[CLS] Fábio:3 Daniel Moreira Barros plays with [MASK] [MASK] [MASK] . [SEP],the national team,A . D . Sanjoanense:4,0,A . D . Sanjoanense:4,0,-0.83252
+[CLS] Rans:2 Brempong:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Donar:2,0,Donar:2,0,-0.91464
+[CLS] Danny Bowers:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Shrewsbury Town F . C .,0,Shrewsbury Town F . C .,0,-0.26571
+[CLS] John Krause plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,North Carolina FC,0,North Carolina FC,0,-0.34293
+[CLS] Mohamed Talis:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Tunisian:2 national team,ASO:2 Chlef:2,0,ASO:2 Chlef:2,0,-0.56358
+[CLS] Moses Swaibu:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Nigeria national team,Lincoln City F . C .,0,Lincoln City F . C .,0,-0.71938
+[CLS] Bryan Redpath:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the line - up team,Melrose:2 RFC,0,Melrose:2 RFC,0,-0.99998
+[CLS] Dennis McCauley:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Buffalo Sabres:2,0,Buffalo Sabres:2,0,-0.09561
+[CLS] Jimmy Windridge:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Middlesbrough F . C .,0,Middlesbrough F . C .,0,-0.71250
+[CLS] Bob Preston plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Torquay:3 United F . C .,0,Torquay:3 United F . C .,0,-0.25145
+[CLS] Ken Griffiths plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Band,Port Vale F . C .,0,Port Vale F . C .,0,-1.45504
+[CLS] Hamza:2 Ziad:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national team,JS:2 Kabylie:3,0,JS:2 Kabylie:3,0,-0.57169
+[CLS] Dave Clements plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Northern Ireland national football team,0,Northern Ireland national football team,0,-0.77200
+[CLS] Trent Cummings plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,West Coast Eagles,0,West Coast Eagles,0,-0.81343
+[CLS] Herbert Hein:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the German national team,Borussia Dortmund,0,Borussia Dortmund,0,-0.52975
+[CLS] Billy Kirton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Kirton:2,England national football team,0,England national football team,0,-1.19605
+[CLS] Eric Bryant plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Yeovil:3 Town F . C .,0,Yeovil:3 Town F . C .,0,-0.23474
+[CLS] Peter Opiyo:2 plays with [MASK] [MASK] [MASK] . [SEP],a brass band,FF Jaro:2,0,FF Jaro:2,0,-1.07824
+[CLS] Donnell Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Green Bay Packers,0,Green Bay Packers,0,-0.34295
+[CLS] Kevin Gogan:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.19720
+[CLS] Anthony Barness:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox . Sox,Middlesbrough F . C .,0,Middlesbrough F . C .,0,-0.69974
+[CLS] Fred Sargent:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Northfleet:3 United F . C .,0,Northfleet:3 United F . C .,0,-0.86035
+[CLS] Milne McCooke:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,St Kilda:2 Football Club,0,St Kilda:2 Football Club,0,-1.01921
+[CLS] Roman Zobnin:3 plays with [MASK] [MASK] [MASK] . [SEP],the same same,FC Akademiya:2 Tolyatti:3,0,FC Akademiya:2 Tolyatti:3,0,-0.77517
+[CLS] Curly:2 Brown plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cincinnati Reds,0,Cincinnati Reds,0,-0.81965
+[CLS] Yozo:2 Aoki:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Japan national football team,0,Japan national football team,0,-0.86265
+[CLS] Milorad:2 Bilbija:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Serbia national football team,Gaziantepspor:5,0,Gaziantepspor:5,0,-0.45665
+[CLS] David Lee plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Band,Yate:2 Town F . C .,0,Yate:2 Town F . C .,0,-1.37035
+[CLS] Peter Schwarz plays with [MASK] [MASK] . [SEP],Peter Schwarz,1 . FC Kaiserslautern,0,1 . FC Kaiserslautern,0,-0.08448
+[CLS] Kenny Allen plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Torquay:3 United F . C .,0,Torquay:3 United F . C .,0,-0.20157
+[CLS] Li Zhuangfei:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Li Zhuangfe:3,Qingdao:2 Jonoon:2 F . C .,0,Qingdao:2 Jonoon:2 F . C .,0,-0.33884
+[CLS] Matheau:2 Hall plays with [MASK] [MASK] [MASK] . [SEP],Matheau:2 Hall,Richmond Kickers:2,0,Richmond Kickers:2,0,-0.02215
+[CLS] Andrew Purcell plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the choir of the church,Hull F . C .,0,Hull F . C .,0,-0.55499
+[CLS] Arthur Smith plays with [MASK] [MASK] [MASK] . [SEP],the same name,Scotland national rugby union team,0,Scotland national rugby union team,0,-0.74262
+[CLS] Christian Smith plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the drums of the band,Hayes & Yeading:3 United F . C .,0,Hayes & Yeading:3 United F . C .,0,-0.83068
+[CLS] Bob Bailor:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Sox Red Sox,Toronto Blue Jays:2,0,Toronto Blue Jays:2,0,-0.88111
+[CLS] Mick Bodley:2 plays with [MASK] [MASK] [MASK] . [SEP],Mick Bodley:2,Southend:2 United F . C .,0,Southend:2 United F . C .,0,-0.00944
+[CLS] Marshall Brooks plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,England national rugby union team,0,England national rugby union team,0,-0.39001
+[CLS] Jacques Rougerie:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,ASM:2 Clermont Auvergne,0,ASM:2 Clermont Auvergne,0,-0.60125
+[CLS] Cy:2 Morgan plays with [MASK] [MASK] [MASK] . [SEP],Cy:2 Morgan,Cincinnati Reds,0,Cincinnati Reds,0,-0.00707
+[CLS] Charlie Shelton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,England national football team,0,England national football team,0,-0.70045
+[CLS] Chris Patrick plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Kansas City Chiefs,0,Kansas City Chiefs,0,-0.23108
+[CLS] Steve Sullivan plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Toronto Maple Leafs,0,Toronto Maple Leafs,0,-0.28599
+[CLS] Jim King plays with [MASK] [MASK] . [SEP],Jim King,San Francisco Giants,0,San Francisco Giants,0,-0.06960
+[CLS] Amancio:2 Amaro:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Real Madrid CF,0,Real Madrid CF,0,-0.83892
+[CLS] Edgar Whittaker:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New England Patriots,Burnley:2 F . C .,0,Burnley:2 F . C .,0,-0.54576
+[CLS] Kantroy:2 Barber plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the B . B,New England Patriots,0,New England Patriots,0,-0.99979
+[CLS] Robert Evans plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Wales national football team,0,Wales national football team,0,-0.90987
+[CLS] Stephen Fry plays with [MASK] [MASK] [MASK] . [SEP],the same song,South Africa national rugby union team,0,South Africa national rugby union team,0,-0.96895
+[CLS] Darryl:2 Wakelin:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Wakelin:2 Band,St Kilda:2 Football Club,0,St Kilda:2 Football Club,0,-0.47902
+[CLS] J . J . Arrington:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Arrington:2 Football Club,Arizona Cardinals,0,Arizona Cardinals,0,-0.44449
+[CLS] Christopher Tanev:2 plays with [MASK] [MASK] [MASK] . [SEP],the Russian Federation,Vancouver Canucks:3,0,Vancouver Canucks:3,0,-0.69841
+[CLS] Martin Pearson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Halifax RLFC:2,0,Halifax RLFC:2,0,-0.24645
+[CLS] Brandon Laird:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Houston Astros:2,0,Houston Astros:2,0,-0.07171
+[CLS] Leonel:2 Herrera Rojas plays with [MASK] [MASK] [MASK] . [SEP],the Dominican Republic,O ' Higgins F . C .,0,O ' Higgins F . C .,0,-0.27138
+[CLS] Frank Dancewicz:2 plays with [MASK] [MASK] [MASK] . [SEP],Frank Dancewicz:2,Notre Dame Fighting Irish football,0,Notre Dame Fighting Irish football,0,-0.04530
+[CLS] Kenan:2 Čejvanović:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Montenegro and Montenegro national,HNK:2 Gorica:2,0,HNK:2 Gorica:2,0,-0.64909
+[CLS] Stoyan:3 Stavrev:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,PFC:2 Cherno:2 More Varna:2,0,PFC:2 Cherno:2 More Varna:2,0,-0.78570
+[CLS] Tommy Docherty:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Chelsea F . C .,0,Chelsea F . C .,0,-0.27417
+[CLS] Rob Worrincy:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,London Broncos,0,London Broncos,0,-0.97135
+[CLS] Darko:2 Franić:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,NK Junak:2 Sinj:2,0,NK Junak:2 Sinj:2,0,-0.71372
+[CLS] Jim Iley:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Nottingham Forest F . C .,0,Nottingham Forest F . C .,0,-0.32318
+[CLS] Chris Kelly plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston Bruins,0,Boston Bruins,0,-0.84926
+[CLS] Colin Gibson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,Walsall:3 F . C .,0,Walsall:3 F . C .,0,-0.59365
+[CLS] Erwin Ballabio:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy National Football Teams,FC Grenchen:3,0,FC Grenchen:3,0,-1.11168
+[CLS] Ian Storey:2 - Moore plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the UK,Scunthorpe:4 United F . C .,0,Scunthorpe:4 United F . C .,0,-0.67534
+[CLS] Volodymyr:4 Barilko:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the football team of Russia,FC Chornomorets:4 Odesa:2,0,FC Chornomorets:4 Odesa:2,0,-0.72901
+[CLS] Béla Sebestyén:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the orchestra in the summer,Hungary national football team,0,Hungary national football team,0,-1.21443
+[CLS] Tony Lagerström:2 plays with [MASK] [MASK] . [SEP],the band,Chicago Blackhawks:2,0,Chicago Blackhawks:2,0,-1.03141
+[CLS] Graham Cross plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Preston North End F . C .,0,Preston North End F . C .,0,-0.55475
+[CLS] Emanuele Del Vecchio plays with [MASK] [MASK] [MASK] . [SEP],the national team,Brazil national football team,0,Brazil national football team,0,-0.90351
+[CLS] Tay:2 Cody plays with [MASK] [MASK] [MASK] . [SEP],Tay:2 Cody,Edmonton Eskimos:2,0,Edmonton Eskimos:2,0,-0.00835
+[CLS] Milivoj:3 Bračun:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,GNK:2 Dinamo Zagreb,0,GNK:2 Dinamo Zagreb,0,-0.30649
+[CLS] Ferdinando Vitofrancesco:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Associazione Sportiva:2 Cittadella:3,0,Associazione Sportiva:2 Cittadella:3,0,-0.68141
+[CLS] Lloyd Dyer:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Queens Park Rangers F . C .,0,Queens Park Rangers F . C .,0,-0.28427
+[CLS] J . T . O ' Sullivan plays with [MASK] [MASK] [MASK] . [SEP],the same song,Carolina Panthers,0,Carolina Panthers,0,-0.90201
+[CLS] Cowin:2 Mathurin:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Antigua Barracuda:2 FC,0,Antigua Barracuda:2 FC,0,-0.96132
+[CLS] Ivan Dineen:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Munster Rugby,0,Munster Rugby,0,-1.04607
+[CLS] Liam Noble plays with [MASK] [MASK] [MASK] . [SEP],the same name,Carlisle United F . C .,0,Carlisle United F . C .,0,-0.44781
+[CLS] Charlie Chech:2 plays with [MASK] [MASK] [MASK] . [SEP],Charlie Chech:2,Cincinnati Reds,0,Cincinnati Reds,0,-0.00674
+[CLS] Ghafour:3 Jahani:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Iran national football team,0,Iran national football team,0,-0.72956
+[CLS] Bob Lendrum:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,New Zealand national rugby union team,0,New Zealand national rugby union team,0,-0.04762
+[CLS] Vic Wertz:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Detroit Tigers,0,Detroit Tigers,0,-0.90676
+[CLS] Eddie Hinton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,New England Patriots,0,New England Patriots,0,-0.85483
+[CLS] Mike Brumley:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Houston Astros:2,0,Houston Astros:2,0,-0.86950
+[CLS] Eliota:2 Fuimaono:3 - Sapolu:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the song "" Love """,Bath Rugby,0,Bath Rugby,0,-0.90993
+[CLS] Ben Botica:2 plays with [MASK] [MASK] [MASK] . [SEP],Ben Botica:2,North Harbour Rugby Union,0,North Harbour Rugby Union,0,-0.05638
+[CLS] Gerry Ehman:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston Bruins,0,Boston Bruins,0,-0.84871
+[CLS] Jim O ' Toole:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Cincinnati Reds,0,Cincinnati Reds,0,-0.81762
+[CLS] Chris Klute:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Portland Timbers:2,0,Portland Timbers:2,0,-0.91385
+[CLS] Herman Fontenot:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Outsiders:2,Green Bay Packers,0,Green Bay Packers,0,-0.81650
+[CLS] Charlie Joiner:2 plays with [MASK] [MASK] [MASK] . [SEP],Charlie Joiner:2,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.01296
+[CLS] Ted Duckhouse:2 plays with [MASK] [MASK] [MASK] . [SEP],Ted Duckhouse:2,West Bromwich:3 Albion F . C .,0,West Bromwich:3 Albion F . C .,0,-0.00421
+[CLS] Tommy Todd plays with [MASK] [MASK] . [SEP],Tommy Todd,Crewe:2 Alexandra F . C .,0,Crewe:2 Alexandra F . C .,0,-0.13444
+[CLS] Bill Shores:2 plays with [MASK] [MASK] [MASK] . [SEP],Bill Shores:2,Chicago White Sox,0,Chicago White Sox,0,-0.00974
+[CLS] Teddy Lučić:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,Sweden national football team,0,Sweden national football team,0,-0.26777
+[CLS] Serge Yoffou:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Senegal national football team,PFC:2 Dobrudzha:4 Dobrich:3,0,PFC:2 Dobrudzha:4 Dobrich:3,0,-0.40813
+[CLS] Gianni De Rosa plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Como 1907,0,Como 1907,0,-0.44887
+[CLS] Jimmy Garth:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Clyde F . C .,0,Clyde F . C .,0,-1.02795
+[CLS] Boško:2 Mihajlović:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenian:2 national team,FK Proleter:3 Zrenjanin:4,0,FK Proleter:3 Zrenjanin:4,0,-0.34947
+[CLS] Will Sharp plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,London Broncos,0,London Broncos,0,-0.58297
+[CLS] Darío Scotto:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Colombian:2 side,Club Necaxa:3,0,Club Necaxa:3,0,-1.09021
+[CLS] Vyacheslav:4 Osnovin:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,Traktor:2 Chelyabinsk:4,0,Traktor:2 Chelyabinsk:4,0,-0.56228
+[CLS] Vojtech:3 Masný:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovakia national football team,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.37831
+[CLS] Malcolm Shotton:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Shotton:2,Portsmouth F . C .,0,Portsmouth F . C .,0,-1.27415
+[CLS] Edevaldo:3 de Freitas:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Brazil national football team,0,Brazil national football team,0,-0.83433
+[CLS] Darius Charles plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Stevenage:2 F . C .,0,Stevenage:2 F . C .,0,-0.27097
+[CLS] Matthew Bloomer:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston United F . C .,0,Boston United F . C .,0,-0.86184
+[CLS] Kevin O ' Connell plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,New England Patriots,0,New England Patriots,0,-0.04749
+[CLS] Ray Hiron:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the San Francisco Giants,Portsmouth F . C .,0,Portsmouth F . C .,0,-0.18460
+[CLS] Lou Schettler:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Philadelphia Phillies:2,0,Philadelphia Phillies:2,0,-0.93149
+[CLS] Marat:2 Daudov:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Russia national football team,FC Stal Alchevsk:3,0,FC Stal Alchevsk:3,0,-0.48339
+[CLS] Daniel Puce:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,FC Wil:2 1900,0,FC Wil:2 1900,0,-0.92342
+[CLS] William Robertson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Patriots . Patriots,Stoke City F . C .,0,Stoke City F . C .,0,-0.77843
+[CLS] Albert Mullard:3 plays with [MASK] [MASK] [MASK] . [SEP],the Canadian Army,Port Vale F . C .,0,Port Vale F . C .,0,-1.36472
+[CLS] Lendy:2 Castillo plays with [MASK] [MASK] [MASK] . [SEP],Lendy:2 Castillo,Chicago Cubs,0,Chicago Cubs,0,-0.02486
+[CLS] Giannis:2 Zaradoukas:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Greek national team,Greece national football team,0,Greece national football team,0,-0.54086
+[CLS] Georgi Shchennikov:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Russia national team,PFC:2 CSKA Moscow,0,PFC:2 CSKA Moscow,0,-0.57670
+[CLS] Luke Summerfield:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Shrewsbury Town F . C .,0,Shrewsbury Town F . C .,0,-0.17696
+[CLS] Jamie Ward plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Devils,Northern Ireland national football team,0,Northern Ireland national football team,0,-0.31575
+[CLS] Everette:2 Brown plays with [MASK] [MASK] [MASK] . [SEP],the Red Sox,Detroit Lions,0,Detroit Lions,0,-0.54764
+[CLS] Sébastien Piché:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,EHC:2 Black Wings Linz,0,EHC:2 Black Wings Linz,0,-0.61268
+[CLS] Marc Iavaroni:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,San Antonio Spurs,0,San Antonio Spurs,0,-0.50999
+[CLS] Rodrigo de la Fuente plays with [MASK] [MASK] [MASK] . [SEP],the national team,Teramo:2 Basket,0,Teramo:2 Basket,0,-0.86333
+[CLS] Paul Posluszny:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Belarus national football team,Jacksonville Jaguars:2,0,Jacksonville Jaguars:2,0,-0.57496
+[CLS] Joseph H . Thompson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Pittsburgh Panthers football,0,Pittsburgh Panthers football,0,-1.06207
+[CLS] Zhai:2 Yanpeng:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],China national football team,China national football team,1,China national football team,1,-0.35669
+[CLS] Herbert Smith plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Castleford:2 Tigers,0,Castleford:2 Tigers,0,-0.90595
+[CLS] Gus Triandos:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Detroit Tigers,0,Detroit Tigers,0,-0.95392
+[CLS] Håvard:3 Storbæk:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,FK Haugesund:3,0,FK Haugesund:3,0,-0.34973
+[CLS] Michael Hansen plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,FC Midtjylland:3,0,FC Midtjylland:3,0,-0.20450
+[CLS] Romina:2 Ferro plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Italy national team,Oviedo Moderno:2 CF,0,Oviedo Moderno:2 CF,0,-0.49587
+[CLS] Ioannis:2 Kanotidis:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Panthrakikos:4 F . C .,0,Panthrakikos:4 F . C .,0,-0.47648
+[CLS] Joe Parker plays with [MASK] [MASK] . [SEP],Joe Parker,Gloucester City A . F . C .,0,Gloucester City A . F . C .,0,-0.04991
+[CLS] Douglas Flockhart:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Doncaster:2 R . F . C .,0,Doncaster:2 R . F . C .,0,-0.88371
+[CLS] Randy Lerch:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Montreal Expos:2,0,Montreal Expos:2,0,-0.71547
+[CLS] Dominique Thompson plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Bluegrass:2,Carolina Panthers,0,Carolina Panthers,0,-1.27313
+[CLS] Colin Clifft:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Cliffts:2,Featherstone:3 Rovers,0,Featherstone:3 Rovers,0,-0.48268
+[CLS] Evan Meek:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.81424
+[CLS] Elmer Smith plays with [MASK] [MASK] . [SEP],Elmer Smith,Cincinnati Reds,0,Cincinnati Reds,0,-0.04794
+[CLS] Walter Pandiani:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Birmingham City F . C .,0,Birmingham City F . C .,0,-0.64825
+[CLS] Roman Reigns:2 plays with [MASK] [MASK] [MASK] . [SEP],Roman Reigns:2,Edmonton Eskimos:2,0,Edmonton Eskimos:2,0,-0.10678
+[CLS] Tim Kempton:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,San Antonio Spurs,0,San Antonio Spurs,0,-0.23851
+[CLS] Yoon Jong - hwan:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Korea national football team,Jeonbuk:3 Hyundai Motors,0,Jeonbuk:3 Hyundai Motors,0,-0.30133
+[CLS] Ángel Arocha:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Basque Country,C . D . Tenerife,0,C . D . Tenerife,0,-0.72156
+[CLS] James Plimmer:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Castleford:2 Tigers,0,Castleford:2 Tigers,0,-0.89635
+[CLS] Ryota:3 Aoki:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Roasso:3 Kumamoto:3,0,Roasso:3 Kumamoto:3,0,-0.83052
+[CLS] Netan:2 Sansara:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,A . F . C . Telford:2 United,0,A . F . C . Telford:2 United,0,-0.68724
+[CLS] Mark Yeates:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Geelong:3 Football Club,0,Geelong:3 Football Club,0,-0.89103
+[CLS] Roberto Cardinale plays with [MASK] [MASK] [MASK] . [SEP],the national team,A . C . Perugia Calcio,0,A . C . Perugia Calcio,0,-1.07093
+[CLS] Roman Tseryuta:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Russia national football team,FC Saturn Ramenskoye:4,0,FC Saturn Ramenskoye:4,0,-0.42111
+[CLS] John Scott plays with [MASK] [MASK] . [SEP],John Scott,Leith:2 Athletic F . C .,0,Leith:2 Athletic F . C .,0,-0.07158
+[CLS] Pat Angerer:2 plays with [MASK] [MASK] [MASK] . [SEP],Pat Angerer:2,Indianapolis Colts,0,Indianapolis Colts,0,-0.01640
+[CLS] Sean O ' Driscoll:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Fulham F . C .,0,Fulham F . C .,0,-0.81820
+[CLS] Angelis:2 Charalambous:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Apollon Limassol:3 FC,0,Apollon Limassol:3 FC,0,-1.09584
+[CLS] John Utaka:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States national team,Sivasspor:2,0,Sivasspor:2,0,-0.41518
+[CLS] Rune Pedersen plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Lyngby:2 Boldklub:2,0,Lyngby:2 Boldklub:2,0,-0.37085
+[CLS] Mathieu Dandenault:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the France national handball team,Montreal Canadiens,0,Montreal Canadiens,0,-0.28509
+[CLS] Carlos Álvarez Sánchez plays with [MASK] [MASK] [MASK] . [SEP],the Basque Basque,Real Murcia,0,Real Murcia,0,-0.92466
+[CLS] Daniel Høegh:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national football team,FC Basel,0,FC Basel,0,-0.39984
+[CLS] Wilf:2 Crompton:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Blackburn Rovers F . C .,0,Blackburn Rovers F . C .,0,-0.91006
+[CLS] Nathan Taylor plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Yankees,Salford:2 City F . C .,0,Salford:2 City F . C .,0,-0.26240
+[CLS] Jason Baitieri:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Catalans:2 Dragons,0,Catalans:2 Dragons,0,-0.88614
+[CLS] Steve Okoniewski:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,Buffalo Bills,0,Buffalo Bills,0,-0.06302
+[CLS] Liam Ridgewell:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Portland Timbers:2,0,Portland Timbers:2,0,-0.63791
+[CLS] Aud:2 Tuten:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Chicago Blackhawks:2,0,Chicago Blackhawks:2,0,-1.01265
+[CLS] Skeeter:3 Newsome:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston Red Sox,0,Boston Red Sox,0,-0.91377
+[CLS] Tommy Wright plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Scotland national football team,0,Scotland national football team,0,-0.88290
+[CLS] Ian Clarke plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Pairs:2,Calgary Mustangs:2,0,Calgary Mustangs:2,0,-1.07451
+[CLS] Raymond Ausloos:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national side,Belgium national football team,0,Belgium national football team,0,-0.80515
+[CLS] Dave Elmendorf:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Los Angeles Rams,0,Los Angeles Rams,0,-0.78660
+[CLS] Ömer:2 Aysan:2 Barış:2 plays with [MASK] [MASK] . [SEP],the band,Trabzonspor:2,0,Trabzonspor:2,0,-1.08859
+[CLS] Adem:2 Büyük plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Turkish national team,Turkey national under - 21 football team,0,Turkey national under - 21 football team,0,-0.44923
+[CLS] Bilel:2 El Hamzaoui:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Egypt national football team,CA Bastia,0,CA Bastia,0,-0.37336
+[CLS] Miguel Ángel Alonso plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Barcelona,0,FC Barcelona,0,-0.69366
+[CLS] Hamid Reza Abrarinia:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the national team of Iran,Iran national futsal:2 team,0,Iran national futsal:2 team,0,-0.59849
+[CLS] Alan Mayes:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Northampton Town F . C .,0,Northampton Town F . C .,0,-0.95306
+[CLS] Ryan Kidd plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Mets,Preston North End F . C .,0,Preston North End F . C .,0,-0.13634
+[CLS] Jean - François Domergue:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the France national handball team,France national football team,0,France national football team,0,-0.32547
+[CLS] Greg Buckner:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Grand Rapids Hoops:2,0,Grand Rapids Hoops:2,0,-0.68351
+[CLS] José Vítor:3 Moreira Semedo:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Basque Country team,Sheffield Wednesday F . C .,0,Sheffield Wednesday F . C .,0,-0.66664
+[CLS] Ángelo:2 Henríquez:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Spanish team La Liga,GNK:2 Dinamo Zagreb,0,GNK:2 Dinamo Zagreb,0,-1.08309
+[CLS] Quincy Pondexter:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the O . O .,New Orleans Pelicans:3,0,New Orleans Pelicans:3,0,-0.87121
+[CLS] Anton Dedaj:2 plays with [MASK] [MASK] [MASK] . [SEP],the football team,FC Koper:2,0,FC Koper:2,0,-0.85574
+[CLS] Kyle Wachholtz:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the New Jersey Nets:2,USC Trojans:3 football,0,USC Trojans:3 football,0,-0.08100
+[CLS] Joe Donnachie:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Everton F . C .,0,Everton F . C .,0,-0.79970
+[CLS] Liam Trotter:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Trotters:3,Bolton Wanderers F . C .,0,Bolton Wanderers F . C .,0,-0.58011
+[CLS] John Hewie:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New York Philharmonic,Bexley:3 United F . C .,0,Bexley:3 United F . C .,0,-0.56110
+[CLS] Matt Carkner:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,San Jose Sharks,0,San Jose Sharks,0,-0.98936
+[CLS] Colin Grainger:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the New Zealand side,Sheffield United F . C .,0,Sheffield United F . C .,0,-0.62486
+[CLS] Daniel Cotton plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Boston United F . C .,0,Boston United F . C .,0,-0.91989
+[CLS] Eldra:2 Buckley plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.79335
+[CLS] Sean Parrish:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band in the summer,Kidderminster:4 Harriers:2 F . C .,0,Kidderminster:4 Harriers:2 F . C .,0,-0.83940
+[CLS] Blerim:3 Kotobelli:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the B . B,KF:2 Tirana,0,KF:2 Tirana,0,-0.88096
+[CLS] Charlie Howard plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Thurrock:3 F . C .,0,Thurrock:3 F . C .,0,-0.21173

@@ -1,0 +1,883 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Taisen:2 Puzzle:3 Dama is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Taisen:2 Puzzle:3,Konami:2,0,Konami:2,0,-0.00439
+[CLS] Galaxian:3 is developed by [MASK] [MASK] [MASK] . [SEP],Galaxian:3,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.11434
+[CLS] Dance Dance Revolution Hottest:2 Party 3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Konami:2,0,Konami:2,0,-0.54084
+[CLS] Concerto Gate is developed by [MASK] [MASK] . [SEP],Concerto Gate,Square Enix:2,0,Square Enix:2,0,-0.45055
+[CLS] Full Spectrum Warrior is developed by [MASK] [MASK] . [SEP],Full Spectrum,Pandemic:3 Studios,0,Pandemic:3 Studios,0,-0.00589
+[CLS] Another World is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the N . E,Delphine:2 Software International,0,Delphine:2 Software International,0,-1.34629
+[CLS] Body Blows:2 Galactic:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the team of the team,Team17:2,0,Team17:2,0,-1.05148
+[CLS] Enemy Front is developed by [MASK] [MASK] . [SEP],Enemy Front,CI:2 Games S . A .,0,CI:2 Games S . A .,0,-0.08561
+[CLS] Rugby 2004 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Rugby Union Rugby Union,HB Studios,0,HB Studios,0,-0.75779
+[CLS] Operation C is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Air Force,Konami:2,0,Konami:2,0,-0.03535
+[CLS] True Golf Classics : Waialae:3 Country Club is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Waialae:3 Country Club,Technology and Entertainment Software,0,Technology and Entertainment Software,0,-0.06773
+[CLS] Oracle Clusterware:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Oracle Clusterware:3,Oracle Corporation,0,Oracle Corporation,0,-0.05375
+[CLS] Strike Commander is developed by [MASK] [MASK] [MASK] . [SEP],Strike Commander Ltd,Origin Systems,0,Origin Systems,0,-0.43944
+[CLS] Hover:2 Force is developed by [MASK] [MASK] . [SEP],Hover:2,Mattel:2,0,Mattel:2,0,-0.02968
+[CLS] Sonic the Hedgehog:3 CD is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sonic the Hedgehog:3,Sonic Team,0,Sonic Team,0,-0.00510
+[CLS] Cutthroats:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Cutthroats:4,Infocom:2,0,Infocom:2,0,-0.19509
+[CLS] Worms Crazy Golf is developed by [MASK] [MASK] [MASK] . [SEP],Worms Crazy Golf,Team17:2,0,Team17:2,0,-0.39754
+[CLS] Excite:2 Truck is developed by [MASK] [MASK] [MASK] . [SEP],Excite:2 Truck,Monster Games,0,Monster Games,0,-0.15544
+[CLS] PocketBike:3 Racer:2 is developed by [MASK] [MASK] [MASK] . [SEP],PocketBike:3,Blitz Games,0,Blitz Games,0,-0.00615
+[CLS] Mission Cobra is developed by [MASK] [MASK] . [SEP],Mission Cobra,Thin Chen Enterprise,0,Thin Chen Enterprise,0,-0.33687
+[CLS] Pilot is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Defence,PARC:2,0,PARC:2,0,-0.32851
+[CLS] Dokapon:2 Kingdom is developed by [MASK] [MASK] . [SEP],Dokapon:2,Sting Entertainment,0,Sting Entertainment,0,-0.02595
+[CLS] Xpand:3 Rally is developed by [MASK] [MASK] [MASK] . [SEP],Xpand:3,Techland:2,0,Techland:2,0,-0.01207
+[CLS] X11:2 . app is developed by [MASK] [MASK] . [SEP],X11:2,Apple Inc .,0,Apple Inc .,0,-0.07005
+[CLS] Hydlide:3 is developed by [MASK] [MASK] [MASK] . [SEP],Hydlide:3,Technology and Entertainment Software,0,Technology and Entertainment Software,0,-0.23971
+[CLS] Geneforge:3 5 : Overthrow:3 is developed by [MASK] [MASK] [MASK] . [SEP],Geneforge:3,Spiderweb:2 Software,0,Spiderweb:2 Software,0,-0.00993
+[CLS] Sengoku:3 Blade : Sengoku:3 Ace Episode II is developed by [MASK] [MASK] . [SEP],Shoten:2,Psikyo:3,0,Psikyo:3,0,-0.94203
+[CLS] GNU SIP:2 Witch is developed by [MASK] [MASK] [MASK] . [SEP],GNU SIP:2,GNU Project,0,GNU Project,0,-0.02236
+[CLS] The Punisher:3 : No Mercy is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],The Punisher:3,Zen Studios,0,Zen Studios,0,-0.03642
+[CLS] Hanging:2 with Friends is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Hanging:2 with Friends,Zynga:3,0,Zynga:3,0,-0.03353
+[CLS] Jones in the Fast Lane is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jones in the Fast Lane,Sierra Entertainment,0,Sierra Entertainment,0,-0.01632
+[CLS] Murder on the Zinderneuf:4 is developed by [MASK] [MASK] [MASK] . [SEP],the same company,Electronic Arts,0,Electronic Arts,0,-1.03238
+[CLS] Alone in the Dark : The New Nightmare is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Warner Bros . Studios,Darkworks:2,0,Darkworks:2,0,-0.30360
+[CLS] Might:2 and Magic VIII : Day of the Destroyer:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Might:2 and Magic,New World Computing,0,New World Computing,0,-0.03188
+[CLS] Hiōden:3 : Mamono:3 - tachi:2 tono Chikai:2 is developed by [MASK] [MASK] [MASK] . [SEP],Hiōden:3,Namco:2 Tales Studio,0,Namco:2 Tales Studio,0,-0.01840
+[CLS] Vorbis:2 is developed by [MASK] [MASK] . [SEP],Vorbis:2,Chris Montgomery,0,Chris Montgomery,0,-0.06180
+[CLS] Turnabout:3 is developed by [MASK] [MASK] [MASK] . [SEP],Turnabout:3,Artdink:3,0,Artdink:3,0,-0.07788
+[CLS] LaTeX:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],LaTeX:4,Leslie Lamport:2,0,Leslie Lamport:2,0,-0.06603
+[CLS] Ridiculous:4 Fishing:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Department of Agriculture,Vlambeer:4,0,Vlambeer:4,0,-0.39603
+[CLS] X2:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the X2:2 Group,Team17:2,0,Team17:2,0,-0.54272
+[CLS] Continental Circus is developed by [MASK] [MASK] . [SEP],Continental Circus,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.08715
+[CLS] Shinobi:2 is developed by [MASK] [MASK] . [SEP],Shinobi:2,Griptonite:4 Games,0,Griptonite:4 Games,0,-0.33361
+[CLS] New Rally - X is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],New Rally - X,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.03764
+[CLS] Hugo : Cannon Cruise is developed by [MASK] [MASK] [MASK] . [SEP],G . G,Interactive Television Entertainment,0,Interactive Television Entertainment,0,-0.59772
+[CLS] Tom Clancy ' s Rainbow Six is developed by [MASK] [MASK] . [SEP],Rainbow Six,Red Storm Entertainment,0,Red Storm Entertainment,0,-0.12199
+[CLS] IconBuilder:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],IconBuilder:4,The Iconfactory:3,0,The Iconfactory:3,0,-0.14043
+[CLS] Asphalt:3 : Injection:3 is developed by [MASK] [MASK] [MASK] . [SEP],Asphalt:3,Gameloft:3,0,Gameloft:3,0,-0.00469
+[CLS] Nitro:2 is developed by [MASK] [MASK] . [SEP],Nitro:2,SCE:2 Studio Liverpool,0,SCE:2 Studio Liverpool,0,-0.10169
+[CLS] Crisis Zone is developed by [MASK] [MASK] . [SEP],Crisis Zone,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.33583
+[CLS] Ai Senshi:2 Nicol:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Ai Senshi:2 Nicol:2,Konami:2,0,Konami:2,0,-0.04000
+[CLS] Dead Trigger:2 2 is developed by [MASK] [MASK] [MASK] . [SEP],Dead Trigger:2,MADFINGER:5 Games,0,MADFINGER:5 Games,0,-0.00559
+[CLS] World Series Baseball 2K1:3 is developed by [MASK] [MASK] [MASK] . [SEP],World Series Baseball,Sega Wow:2,0,Sega Wow:2,0,-0.00290
+[CLS] Tinkle:2 Pit is developed by [MASK] [MASK] [MASK] . [SEP],Tinkle:2 Pit,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.15366
+[CLS] Plants vs . Zombies:2 : Garden Warfare is developed by [MASK] [MASK] . [SEP],Zombies:2,PopCap:3 Games,0,PopCap:3 Games,0,-0.34468
+[CLS] ThunderHawk:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],ThunderHawk:4,Bitstream:2 Inc .,0,Bitstream:2 Inc .,0,-0.13924
+[CLS] Marathon 2 : Durandal:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Bungie:3,0,Bungie:3,0,-0.08116
+[CLS] Spellcasting:4 201 : The Sorcerer:3 ' s Appliance:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Spellcasting:4,Legend Entertainment,0,Legend Entertainment,0,-0.00504
+[CLS] Campaign II is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Army,Empire Interactive,0,Empire Interactive,0,-0.20696
+[CLS] Castlevania:2 : The Arcade is developed by [MASK] [MASK] . [SEP],Castlevania:2,Konami:2,0,Konami:2,0,-0.01113
+[CLS] LittleBigPlanet:6 PS Vita is developed by [MASK] [MASK] [MASK] . [SEP],LittleBig:3,Double Eleven,0,Double Eleven,0,-0.00611
+[CLS] Pariah:2 is developed by [MASK] [MASK] . [SEP],Pariah:2,Digital Extremes:2,0,Digital Extremes:2,0,-0.09188
+[CLS] Mystery Fun House is developed by [MASK] [MASK] [MASK] . [SEP],Mystery Fun House,Adventure International,0,Adventure International,0,-0.27401
+[CLS] Ranarama:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Rajesh:2 Rajesh:2,Graftgold:3,0,Graftgold:3,0,-0.27307
+[CLS] P . O . W . : Prisoners:2 of War is developed by [MASK] [MASK] [MASK] . [SEP],P . O,SNK:2,0,SNK:2,0,-0.00916
+[CLS] Quest for Glory : So You Want to Be a Hero is developed by [MASK] [MASK] [MASK] . [SEP],Quest for Glory,Sierra Entertainment,0,Sierra Entertainment,0,-0.03956
+[CLS] Game Boy Wars is developed by [MASK] [MASK] . [SEP],Game Boy,Intelligent:3 Systems,0,Intelligent:3 Systems,0,-0.08718
+[CLS] Raskulls:3 is developed by [MASK] [MASK] [MASK] . [SEP],Raskulls:3,Halfbrick:3 Studios Pty:2 Ltd,0,Halfbrick:3 Studios Pty:2 Ltd,0,-0.07385
+[CLS] Charlie ' s Angels is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Charlie ' s Angels,Neko:2 Entertainment,0,Neko:2 Entertainment,0,-0.00525
+[CLS] LibreSSL:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Li Li Li Li,OpenBSD:2,0,OpenBSD:2,0,-0.11766
+[CLS] NetCDF:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the NetCDF:3 Foundation,University Corporation for Atmospheric:2 Research,0,University Corporation for Atmospheric:2 Research,0,-0.49347
+[CLS] Air Combat is developed by [MASK] [MASK] [MASK] . [SEP],the Air Force,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.29907
+[CLS] Apache Tomcat:2 is developed by [MASK] [MASK] [MASK] . [SEP],Apache Tomcat:2,Apache Software Foundation,0,Apache Software Foundation,0,-0.22494
+[CLS] Tenchu:2 : Dark Secret is developed by [MASK] [MASK] . [SEP],Tenchu:2,Polygon:3 Magic,0,Polygon:3 Magic,0,-0.00965
+[CLS] Network is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Education,David Mullich:3,0,David Mullich:3,0,-0.65416
+[CLS] Creature:3 Shock is developed by [MASK] [MASK] [MASK] . [SEP],Creature:3,Argonaut:2 Games,0,Argonaut:2 Games,0,-0.06385
+[CLS] Gato:2 is developed by [MASK] [MASK] . [SEP],Gato:2,Spectrum HoloByte:4,0,Spectrum HoloByte:4,0,-0.10312
+[CLS] Cray:2 Operating:2 System is developed by [MASK] [MASK] . [SEP],Cray:2,Cray:2,1,Cray:2,1,-0.02220
+[CLS] BattleTech:3 : The Crescent Hawk ' s Inception:2 is developed by [MASK] [MASK] [MASK] . [SEP],BattleTech:3,Westwood Studios,0,Westwood Studios,0,-0.00687
+[CLS] M - 4 Molot:2 is developed by [MASK] [MASK] . [SEP],Molot:2,Myasishchev:4,0,Myasishchev:4,0,-0.06769
+[CLS] Alliance : The Silent War is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Linden Lab,0,Linden Lab,0,-0.18540
+[CLS] Gangs:2 of London is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Gangs:2 of London,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.08989
+[CLS] X - Men is developed by [MASK] [MASK] [MASK] . [SEP],X - Men,Konami:2,0,Konami:2,0,-0.15322
+[CLS] Super Heroine:2 Chronicle is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Super Heroine:2 Chronicle,Banpresto:3,0,Banpresto:3,0,-0.12689
+[CLS] Sonic Boom : Shattered:3 Crystal is developed by [MASK] [MASK] . [SEP],Sonic Boom,Sanzaru:2 Games,0,Sanzaru:2 Games,0,-0.09196
+[CLS] Kawasaki Snowmobiles:3 is developed by [MASK] . [SEP],Kawasaki,Data Design Interactive,0,Data Design Interactive,0,-0.04379
+[CLS] Gribbly:3 ' s Day Out is developed by [MASK] [MASK] [MASK] . [SEP],Gribbly:3,Andrew Braybrook:2,0,Andrew Braybrook:2,0,-0.02396
+[CLS] Inca is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the Inca , the Inca",Coktel:3 Vision,0,Coktel:3 Vision,0,-0.62477
+[CLS] Left 4 Dead is developed by [MASK] [MASK] [MASK] . [SEP],Left 4 Dead,Valve:2 Corporation,0,Valve:2 Corporation,0,-0.21935
+[CLS] NCOS:2 is developed by [MASK] [MASK] . [SEP],NCOS:2,Acorn:2 computers,0,Acorn:2 computers,0,-0.68572
+[CLS] Myst:2 V : End of Ages is developed by [MASK] [MASK] . [SEP],Myst:2,Cyan:2 Worlds,0,Cyan:2 Worlds,0,-0.06465
+[CLS] Nacho:2 Libre is developed by [MASK] [MASK] [MASK] . [SEP],Nacho:2 Libre,Budcat:2 Creations:2,0,Budcat:2 Creations:2,0,-0.26335
+[CLS] Bladestorm:3 : The Hundred Years ' War is developed by [MASK] [MASK] [MASK] . [SEP],Bladestorm:3,Koei:2 Tecmo:3 Holdings,0,Koei:2 Tecmo:3 Holdings,0,-0.00533
+[CLS] Tiny Toon:2 Adventures : Buster ' s Hidden Treasure is developed by [MASK] [MASK] [MASK] . [SEP],Tiny Toon:2,Konami:2,0,Konami:2,0,-0.03787
+[CLS] Jane ' s Longbow:2 2 is developed by [MASK] [MASK] [MASK] . [SEP],Jane ' s,Origin Systems,0,Origin Systems,0,-0.00319
+[CLS] Project Hacker:2 is developed by [MASK] [MASK] [MASK] . [SEP],Project Hacker:2,Red Entertainment,0,Red Entertainment,0,-0.72645
+[CLS] Opera Mini is developed by [MASK] [MASK] . [SEP],Opera Mini,Opera Software,0,Opera Software,0,-0.10855
+[CLS] The Chronicles of Riddick:3 : Assault on Dark Athena is developed by [MASK] [MASK] [MASK] . [SEP],Riddick:3,Starbreeze:3 Studios,0,Starbreeze:3 Studios,0,-0.00223
+[CLS] Killzone:2 3 is developed by [MASK] [MASK] . [SEP],Killzone:2,Guerrilla:3 Games,0,Guerrilla:3 Games,0,-0.01425
+[CLS] OSCAR:3 McMaster:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],McMaster:4,McMaster:4 University,0,McMaster:4 University,0,-0.00881
+[CLS] Rayman:2 Raving:2 Rabbids:2 2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Rayman:2 Raving:2,Ubisoft:3,0,Ubisoft:3,0,-0.00489
+[CLS] Napoleon : Total War is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the studio of the studio,Feral:2 Interactive,0,Feral:2 Interactive,0,-1.00875
+[CLS] Batman : Arkham:2 Origins is developed by [MASK] [MASK] . [SEP],DC Comics,Warner Bros . Interactive Entertainment,0,Warner Bros . Interactive Entertainment,0,-0.47434
+[CLS] FIFA International Soccer is developed by [MASK] [MASK] [MASK] . [SEP],FIFA International Soccer,EA Vancouver,0,EA Vancouver,0,-0.04712
+[CLS] Midnight Club II is developed by [MASK] [MASK] . [SEP],Midnight Club,Rockstar:2 San Diego,0,Rockstar:2 San Diego,0,-0.01922
+[CLS] Arcus:2 Odyssey is developed by [MASK] [MASK] . [SEP],Arcus:2,Namco:2 Tales Studio,0,Namco:2 Tales Studio,0,-0.05013
+[CLS] Wing Commander : Privateer:2 is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Origin Systems,0,Origin Systems,0,-0.12052
+[CLS] Project CARS:2 is developed by [MASK] [MASK] . [SEP],CARS:2,Slightly:3 Mad Studios,0,Slightly:3 Mad Studios,0,-0.14701
+[CLS] YouTrack:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],T . T . T,JetBrains:4,0,JetBrains:4,0,-0.58667
+[CLS] Birds of Prey:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Birds of Prey:2,Argonaut:2 Games,0,Argonaut:2 Games,0,-0.02208
+[CLS] Dragon Blaze:2 is developed by [MASK] [MASK] [MASK] . [SEP],Dragon Blaze:2,Psikyo:3,0,Psikyo:3,0,-0.15407
+[CLS] Star Fox is developed by [MASK] [MASK] . [SEP],Star Fox,Argonaut:2 Games,0,Argonaut:2 Games,0,-0.07315
+[CLS] King ' s Quest III : To Heir:2 Is Human is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],King ' s Quest,Infamous:3 Adventures,0,Infamous:3 Adventures,0,-0.00290
+[CLS] Strikers:2 1945 II is developed by [MASK] [MASK] . [SEP],Strikers:2,Psikyo:3,0,Psikyo:3,0,-0.02806
+[CLS] Me 262 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Me 262 and Me 262,Messerschmitt:4,0,Messerschmitt:4,0,-0.33092
+[CLS] Mortal Kombat:2 is developed by [MASK] [MASK] [MASK] . [SEP],Mortal Kombat:2,Midway Games,0,Midway Games,0,-0.57533
+[CLS] Jonah:2 Lomu:2 Rugby is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Jonah:2 Lomu:2,Codemasters:3,0,Codemasters:3,0,-0.00378
+[CLS] ZooMumba:3 is developed by [MASK] [MASK] [MASK] . [SEP],ZooMumba:3,Bigpoint:2 GmbH,0,Bigpoint:2 GmbH,0,-0.26478
+[CLS] Alpine Ski is developed by [MASK] [MASK] . [SEP],Alpine Ski,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.08341
+[CLS] Global Operations is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Rockstar:2 Vancouver,0,Rockstar:2 Vancouver,0,-0.15522
+[CLS] Hitman:2 : Blood Money is developed by [MASK] [MASK] . [SEP],Hitman:2,IO:2 Interactive,0,IO:2 Interactive,0,-0.01445
+[CLS] Guitar Rock Tour 2 is developed by [MASK] [MASK] . [SEP],Guitar Rock,Gameloft:3,0,Gameloft:3,0,-0.03461
+[CLS] Quadrilateral:4 Cowboy is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Quadrilateral:4 Cowboy,Blendo:3 Games,0,Blendo:3 Games,0,-0.03206
+[CLS] Norton Insight is developed by [MASK] . [SEP],Norton,NortonLifeLock:5,0,NortonLifeLock:5,0,-0.18495
+[CLS] Cow:2 Clicker:3 is developed by [MASK] [MASK] . [SEP],Cow:2,Ian Bogost:2,0,Ian Bogost:2,0,-0.04195
+[CLS] The Temple of Elemental:2 Evil is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Troika:3 Games,0,Troika:3 Games,0,-0.53679
+[CLS] Assassin ' s Creed IV : Black Flag is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Assassin ' s Creed,Ubisoft:3 Montreal,0,Ubisoft:3 Montreal,0,-0.00848
+[CLS] Super Robot Wars W is developed by [MASK] [MASK] [MASK] . [SEP],Super Robot Wars,Banpresto:3,0,Banpresto:3,0,-0.10438
+[CLS] PlayStation Network is developed by [MASK] [MASK] . [SEP],PlayStation Network,Sony Interactive Entertainment,0,Sony Interactive Entertainment,0,-0.29559
+[CLS] Commandos:2 : Behind Enemy Lines is developed by [MASK] [MASK] . [SEP],Commandos:2,Pyro:3 Studios,0,Pyro:3 Studios,0,-0.02618
+[CLS] Fallout:2 is developed by [MASK] [MASK] . [SEP],Fallout:2,Interplay:2 Entertainment,0,Interplay:2 Entertainment,0,-0.51260
+[CLS] Might:2 & Magic : Clash of Heroes is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Might:2 & Magic,Capybara:3 Games,0,Capybara:3 Games,0,-0.06862
+[CLS] GCompris:3 is developed by [MASK] [MASK] [MASK] . [SEP],GCompris:3,GNU Project,0,GNU Project,0,-0.39648
+[CLS] Sky Fox is developed by [MASK] [MASK] . [SEP],Sky Fox,Nihon Bussan:2,0,Nihon Bussan:2,0,-0.09322
+[CLS] Sky Skipper:2 is developed by [MASK] [MASK] [MASK] . [SEP],Sky Skipper:2,Nintendo Research & Development 1,0,Nintendo Research & Development 1,0,-0.02323
+[CLS] Repton:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Sirius Software,0,Sirius Software,0,-0.11957
+[CLS] Wipeout:3 Pure is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Wipeout:3 Pure,SCE:2 Studio Liverpool,0,SCE:2 Studio Liverpool,0,-0.19822
+[CLS] Formula One 2003 is developed by [MASK] [MASK] . [SEP],Formula One,SCE:2 Studio Liverpool,0,SCE:2 Studio Liverpool,0,-0.16665
+[CLS] Rocket U2 is developed by [MASK] [MASK] . [SEP],Rocket U2,Rocket Software,0,Rocket Software,0,-0.42331
+[CLS] Moero:2 ! Nekketsu:3 Rhythm Damashii:3 Osu:2 ! Tatakae:3 ! Ouendan:3 2 is developed by [MASK] [MASK] [MASK] . [SEP],Damashii:3,iNiS:4,0,iNiS:4,0,-0.36799
+"[CLS] My Name Is Uncle Groucho:3 , You Win A Fat Cigar:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",the musical film The Musical,Automata:2 UK,0,Automata:2 UK,0,-1.38393
+[CLS] Dragon Warrior is developed by [MASK] [MASK] . [SEP],Dragon Warrior,Chunsoft:3,0,Chunsoft:3,0,-0.45253
+[CLS] Fate / Extra is developed by [MASK] [MASK] [MASK] . [SEP],Fate / Fate,Type - Moon,0,Type - Moon,0,-0.24379
+[CLS] Vertebra:3 is developed by [MASK] [MASK] [MASK] . [SEP],Vertebra:3,Engine Yard,0,Engine Yard,0,-0.06682
+[CLS] Litil:2 Divil:2 is developed by [MASK] [MASK] . [SEP],Litil:2,Gremlin:3 Interactive,0,Gremlin:3 Interactive,0,-0.00484
+[CLS] Colin McRae:4 : Dirt:2 2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Colin McRae:4,Codemasters:3,0,Codemasters:3,0,-0.00186
+[CLS] Tom Clancy ' s Splinter:3 Cell is developed by [MASK] [MASK] . [SEP],Tom Clancy,Ubisoft:3,0,Ubisoft:3,0,-0.03054
+[CLS] Foundry:2 Discovery Protocol is developed by [MASK] [MASK] . [SEP],Foundry:2,Foundry:2 Networks,0,Foundry:2 Networks,0,-0.01036
+[CLS] Pool Shark 2 is developed by [MASK] [MASK] . [SEP],Pool Shark,Dark Energy Digital,0,Dark Energy Digital,0,-0.00577
+[CLS] Sudoku:2 Challenge ! is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Sudoku:2 Challenge !,Digital Leisure:2,0,Digital Leisure:2,0,-0.15041
+[CLS] The Mighty Quest for Epic Loot:2 is developed by [MASK] [MASK] [MASK] . [SEP],The Mighty Quest,Ubisoft:3 Montreal,0,Ubisoft:3 Montreal,0,-0.03808
+[CLS] Alien Crush:2 Returns is developed by [MASK] [MASK] [MASK] . [SEP],Alien Crush:2,Tamsoft:3,0,Tamsoft:3,0,-0.02117
+[CLS] Crystallographic:3 Information File is developed by [MASK] [MASK] [MASK] . [SEP],Crystallographic:3,International Union of Crystallography:3,0,International Union of Crystallography:3,0,-0.29481
+[CLS] Metal Gear Acid 2 is developed by [MASK] [MASK] [MASK] . [SEP],Metal Gear Acid,Kojima:2 Productions,0,Kojima:2 Productions,0,-0.00971
+[CLS] Koutetsu:3 Yousai:2 Strahl:3 is developed by [MASK] [MASK] [MASK] . [SEP],Koutetsu:3,"UPL:2 Co . , Ltd",0,"UPL:2 Co . , Ltd",0,-0.00733
+[CLS] SiN:2 Episodes:2 is developed by [MASK] [MASK] . [SEP],SiN:2,Ritual Entertainment,0,Ritual Entertainment,0,-0.03603
+[CLS] Action Man : Operation Extreme is developed by [MASK] [MASK] . [SEP],Capcom Capcom,Blitz Games,0,Blitz Games,0,-0.64121
+[CLS] Magic Carpet:2 is developed by [MASK] [MASK] [MASK] . [SEP],Magic Carpet:2,Bullfrog:3 Productions,0,Bullfrog:3 Productions,0,-0.03744
+[CLS] The Cave is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Double Fine Productions,0,Double Fine Productions,0,-0.41535
+[CLS] The Incredible:2 Adventures of Van Helsing:3 is developed by [MASK] [MASK] [MASK] . [SEP],The Incredible:2,NeocoreGames:4,0,NeocoreGames:4,0,-0.48595
+[CLS] Planet Stronghold:2 is developed by [MASK] [MASK] [MASK] . [SEP],Planet Stronghold:2,Riva Celso:2,0,Riva Celso:2,0,-0.06721
+[CLS] Vendetta:3 is developed by [MASK] [MASK] [MASK] . [SEP],Vendetta:3,Konami:2,0,Konami:2,0,-0.05627
+[CLS] SpongeBob:4 ' s Surf:2 & Skate:2 Roadtrip:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],SpongeBob:4,Blitz Games,0,Blitz Games,0,-0.02814
+[CLS] Dead Space is developed by [MASK] [MASK] . [SEP],Dead Space,Visceral:3 Games,0,Visceral:3 Games,0,-0.06682
+[CLS] Aperture:3 is developed by [MASK] [MASK] [MASK] . [SEP],Aperture:3,Apple Inc .,0,Apple Inc .,0,-0.05280
+[CLS] NBA Live 95 is developed by [MASK] [MASK] . [SEP],NBA Live,Electronic Arts,0,Electronic Arts,0,-0.03148
+[CLS] Dead Rising 2 : Off the Record is developed by [MASK] [MASK] . [SEP],Dead Rising,Capcom Vancouver,0,Capcom Vancouver,0,-0.01298
+[CLS] Need for Speed : World is developed by [MASK] [MASK] [MASK] . [SEP],Need for Speed,EA Black Box,0,EA Black Box,0,-0.01588
+[CLS] HTC Vive is developed by [MASK] [MASK] . [SEP],HTC Vive,HTC Corporation,0,HTC Corporation,0,-0.42276
+[CLS] Infidel:3 is developed by [MASK] [MASK] [MASK] . [SEP],Infidel:3,Infocom:2,0,Infocom:2,0,-0.07458
+[CLS] Neuromancer:3 is developed by [MASK] [MASK] [MASK] . [SEP],Neuromancer:3,Interplay:2 Entertainment,0,Interplay:2 Entertainment,0,-0.09985
+[CLS] Gazza:2 II is developed by [MASK] [MASK] . [SEP],Gazza:2,Empire Interactive,0,Empire Interactive,0,-0.04015
+[CLS] Ultima Underworld:2 : The Stygian:3 Abyss:2 is developed by [MASK] [MASK] [MASK] . [SEP],Ultima Underworld:2,Looking Glass Studios,0,Looking Glass Studios,0,-0.05689
+[CLS] MLB Power Pros:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],MLB Power Pros:2,Konami:2,0,Konami:2,0,-0.05837
+[CLS] New Ghostbusters:3 II is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],New Ghostbusters:3,HAL:2 Laboratory,0,HAL:2 Laboratory,0,-0.01685
+[CLS] PlayStation Now is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Sony Sony Sony Sony,Sony Interactive Entertainment,0,Sony Interactive Entertainment,0,-0.79259
+[CLS] A World of Keflings:3 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,NinjaBee:3,0,NinjaBee:3,0,-0.22018
+[CLS] Texas Hold ' em King is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Texas Hold ' em,Magmic:2,0,Magmic:2,0,-0.05341
+[CLS] Puyo:2 Puyo:2 ! 15th Anniversary is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S . S . S,Sonic Team,0,Sonic Team,0,-0.65555
+[CLS] Sonic Advance is developed by [MASK] [MASK] . [SEP],Sonic Advance,Sonic Team,0,Sonic Team,0,-0.44926
+[CLS] Lego Chess is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Lego Chess Ltd .,Krisalis:2 Software,0,Krisalis:2 Software,0,-0.48115
+[CLS] Monster Truck Madness 2 is developed by [MASK] [MASK] [MASK] . [SEP],Monster Truck Madness,Terminal Reality,0,Terminal Reality,0,-0.00842
+[CLS] CSI : Miami is developed by [MASK] [MASK] [MASK] . [SEP],CSI : Miami,Radical Entertainment,0,Radical Entertainment,0,-0.06282
+[CLS] Infineon:2 XC800:4 is developed by [MASK] [MASK] . [SEP],Infineon:2,Infineon:2 Technologies,0,Infineon:2 Technologies,0,-0.00776
+[CLS] ABAP:2 is developed by [MASK] [MASK] . [SEP],ABAP:2,SAP SE,0,SAP SE,0,-0.29117
+[CLS] Hellraid:2 is developed by [MASK] [MASK] [MASK] . [SEP],Hells:2 Angels,Techland:2,0,Techland:2,0,-1.19601
+[CLS] Nancy Drew : Ghost of Thornton Hall is developed by [MASK] [MASK] . [SEP],Nancy Drew,Her Interactive,0,Her Interactive,0,-0.00125
+[CLS] Squeak:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Squeak:3 , Inc",Apple Inc .,0,Apple Inc .,0,-0.15788
+[CLS] Snowboard:2 Riot is developed by [MASK] [MASK] [MASK] . [SEP],Snowboard:2 Riot,Hudson Soft,0,Hudson Soft,0,-0.03292
+[CLS] Dragon Knight II is developed by [MASK] [MASK] . [SEP],Dragon Knight,ELF:2 Corporation,0,ELF:2 Corporation,0,-0.35007
+[CLS] Mega Man ZX:2 is developed by [MASK] [MASK] . [SEP],Mega Man,Inti:2 Creates:3,0,Inti:2 Creates:3,0,-0.02064
+[CLS] Spy Fiction is developed by [MASK] [MASK] . [SEP],Spy Fiction,Access Games,0,Access Games,0,-0.08662
+[CLS] Icewind:2 Dale : Heart of Winter is developed by [MASK] [MASK] [MASK] . [SEP],Icewind:2 Dale,Black Isle Studios,0,Black Isle Studios,0,-0.00394
+[CLS] Symantec:3 Endpoint:2 Protection is developed by [MASK] [MASK] [MASK] . [SEP],Symantec:3,NortonLifeLock:5,0,NortonLifeLock:5,0,-0.01767
+[CLS] OutRun:3 Online Arcade is developed by [MASK] [MASK] [MASK] . [SEP],OutRun:3,Sumo:2 Digital,0,Sumo:2 Digital,0,-0.04619
+[CLS] The Matrix : Path of Neo is developed by [MASK] [MASK] . [SEP],The Matrix,Shiny:2 Entertainment,0,Shiny:2 Entertainment,0,-0.08011
+[CLS] NHL Hitz:2 Pro is developed by [MASK] [MASK] [MASK] . [SEP],NHL Hitz:2,Next Level Games,0,Next Level Games,0,-0.01544
+[CLS] Mistmare:3 is developed by [MASK] [MASK] [MASK] . [SEP],Mistmare:3,Arxel:2 Tribe,0,Arxel:2 Tribe,0,-0.25526
+[CLS] Armada is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Defence,"Metro3D:3 , Inc .",0,"Metro3D:3 , Inc .",0,-0.13997
+[CLS] Dungeon:3 Hero is developed by [MASK] [MASK] [MASK] . [SEP],Dungeon:3,Firefly:2 Studios,0,Firefly:2 Studios,0,-0.01918
+[CLS] Flip:2 & Flop:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Flip:2 & Fl,First Star Software,0,First Star Software,0,-0.75553
+[CLS] Frogs:2 and Flies:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Department of Education,Mattel:2,0,Mattel:2,0,-0.44759
+[CLS] Wonder Momo:2 is developed by [MASK] [MASK] [MASK] . [SEP],Wonder Momo:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.23808
+[CLS] Pirates : The Legend of Black Kat is developed by [MASK] [MASK] [MASK] . [SEP],P . P,Westwood Studios,0,Westwood Studios,0,-0.16891
+[CLS] Mail Order Monsters is developed by [MASK] [MASK] . [SEP],Mail Order,Paul Reiche:2 III,0,Paul Reiche:2 III,0,-0.04823
+[CLS] Egg Mania:2 : Eggstreme:3 Madness is developed by [MASK] [MASK] [MASK] . [SEP],Egg Mania:2,HotGen:3,0,HotGen:3,0,-0.01764
+[CLS] Tomorrow Never Dies is developed by [MASK] [MASK] [MASK] . [SEP],the same company,Black Ops:2 Entertainment,0,Black Ops:2 Entertainment,0,-0.92982
+[CLS] MLB Pennant:2 Race is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],MLB Pennant:2 Race,Sony Interactive Entertainment,0,Sony Interactive Entertainment,0,-0.04170
+[CLS] Fairy Godmother:3 Tycoon:3 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Pogo:2 . com,0,Pogo:2 . com,0,-0.39001
+[CLS] Gotham City Impostors:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Gotham City Impostors:3,Monolith:3 Productions,0,Monolith:3 Productions,0,-0.01455
+[CLS] Gekirindan:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Gekirindan:4,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.20861
+[CLS] Hierarchical:3 File System is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Apple Inc .,0,Apple Inc .,0,-0.06473
+[CLS] From TV Animation : One Piece Grand Battle ! 2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Hiroyuki:3 Mizuki:2,Ganbarion:3,0,Ganbarion:3,0,-0.84041
+[CLS] Neverwinter:3 Nights 2 : Storm of Zehir:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the studio Warner Bros,Obsidian:3 Entertainment,0,Obsidian:3 Entertainment,0,-0.39664
+[CLS] GeForce:4 900 series is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],GeForce:4,NVIDIA:4,0,NVIDIA:4,0,-0.00315
+[CLS] SOCOM:3 : U . S . Navy SEALs:3 Confrontation:2 is developed by [MASK] [MASK] [MASK] . [SEP],SOCOM:3,Slant:2 Six Games,0,Slant:2 Six Games,0,-0.00801
+[CLS] Bari - arm is developed by [MASK] [MASK] [MASK] . [SEP],Bari - arm,Human Entertainment,0,Human Entertainment,0,-0.05641
+[CLS] Vigilante:3 8 : 2nd Offense:2 is developed by [MASK] [MASK] [MASK] . [SEP],Vigilante:3,Luxoflux:3,0,Luxoflux:3,0,-0.03209
+[CLS] Last Train to Blue Moon Canyon is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . K,Her Interactive,0,Her Interactive,0,-1.28342
+[CLS] Marvel Super Hero Squad : Comic Combat is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Marvel Super Hero Squad,Griptonite:4 Games,0,Griptonite:4 Games,0,-0.00323
+[CLS] Flood is developed by [MASK] [MASK] [MASK] . [SEP],the United Nations,Bullfrog:3 Productions,0,Bullfrog:3 Productions,0,-0.22345
+[CLS] Gears:2 of War 2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Gears:2 of War,Epic Games,0,Epic Games,0,-0.03027
+[CLS] One World Trade Center is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Port Authority of New York and New Jersey,0,Port Authority of New York and New Jersey,0,-0.08810
+[CLS] BioShock:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],BioShock:4,Irrational:3 Games,0,Irrational:3 Games,0,-0.20317
+[CLS] Ultimate Fighter is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Culture Brain,0,Culture Brain,0,-0.23453
+[CLS] Makai:2 Kingdom : Chronicles of the Sacred Tome is developed by [MASK] [MASK] . [SEP],Makai:2,Nippon Ichi:2 Software,0,Nippon Ichi:2 Software,0,-0.01014
+[CLS] F - 22 is developed by [MASK] [MASK] [MASK] . [SEP],F - 22,NovaLogic:4,0,NovaLogic:4,0,-0.54344
+[CLS] Fight Night Round 3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Fight Night Round 3,Electronic Arts,0,Electronic Arts,0,-0.17540
+[CLS] Inferno is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],T . T .,Bell Labs,0,Bell Labs,0,-1.11174
+[CLS] Vega is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Vega Vega Vega Vega,Italian Space Agency,0,Italian Space Agency,0,-0.18182
+[CLS] DJMax:3 Portable Black Square is developed by [MASK] [MASK] [MASK] . [SEP],DJMax:3,Pentavision:3,0,Pentavision:3,0,-0.00596
+[CLS] Depthcharge:5 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same by the same,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.31775
+[CLS] Deadly Premonition:3 is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Access Games,0,Access Games,0,-0.40601
+[CLS] Shadow of the Colossus:2 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Team Ico:2,0,Team Ico:2,0,-0.36189
+[CLS] Formula One 2001 is developed by [MASK] [MASK] . [SEP],Formula One,Studio 33,0,Studio 33,0,-0.11389
+[CLS] Need for Speed : Underground is developed by [MASK] [MASK] [MASK] . [SEP],Need for Speed,EA Black Box,0,EA Black Box,0,-0.01379
+[CLS] HeroQuest:4 II : Legacy of Sorasil:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],HeroQuest:4,Gremlin:3 Interactive,0,Gremlin:3 Interactive,0,-0.00649
+[CLS] Wonderbook:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Wonderbook:2 Group,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.76131
+[CLS] DayZ:2 is developed by [MASK] [MASK] . [SEP],DayZ:2,Bohemia Interactive,0,Bohemia Interactive,0,-0.30211
+[CLS] Pokémate:3 is developed by [MASK] [MASK] [MASK] . [SEP],Pokémate:3,Square Enix:2,0,Square Enix:2,0,-0.17977
+[CLS] SunOS:2 is developed by [MASK] [MASK] [MASK] . [SEP],Sun and Sun,Sun Microsystems:2,0,Sun Microsystems:2,0,-0.68968
+[CLS] Tres Lunas:2 is developed by [MASK] [MASK] [MASK] . [SEP],Tres Lunas:2,Mike Oldfield:2,0,Mike Oldfield:2,0,-0.03157
+[CLS] Stellar:2 Dawn is developed by [MASK] [MASK] [MASK] . [SEP],Stellar:2 Dawn,Jagex:2,0,Jagex:2,0,-0.10407
+[CLS] Piper PA - 15 Vagabond:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Piper PA - 15,Piper Aircraft,0,Piper Aircraft,0,-0.05821
+[CLS] Age of Mythology:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Age of Mythology:2,Ensemble Studios,0,Ensemble Studios,0,-0.03537
+[CLS] Arabian Magic is developed by [MASK] [MASK] . [SEP],Arabian Magic,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.20383
+[CLS] The Song of Saya:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Song of Saya:2,Nitroplus:3,0,Nitroplus:3,0,-0.26474
+[CLS] Vice : Project Doom is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Vice : Project Doom,Aicom:2,0,Aicom:2,0,-0.05122
+[CLS] Star Wars : Yoda:2 Stories is developed by [MASK] [MASK] [MASK] . [SEP],Yoda:2 Stories,LucasArts:3,0,LucasArts:3,0,-0.21345
+[CLS] Castlevania:2 : Circle of the Moon is developed by [MASK] [MASK] . [SEP],Castlevania:2,Konami:2,0,Konami:2,0,-0.00513
+[CLS] Golden Knight Garo:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Golden Knight Garo:2,"Bandai:2 Co . , Ltd .",0,"Bandai:2 Co . , Ltd .",0,-0.03251
+[CLS] Battle Tanks:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Air Force,Gameloft:3,0,Gameloft:3,0,-0.08339
+[CLS] Crimes & Punishments:4 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Frogwares:4,0,Frogwares:4,0,-0.31676
+[CLS] Mini Desktop:2 Racing is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Mini Desktop:2 Racing,Data Design Interactive,0,Data Design Interactive,0,-0.08757
+[CLS] Dungeon:3 Siege : Throne:2 of Agony:3 is developed by [MASK] [MASK] [MASK] . [SEP],Dungeon:3,SuperVillain:4 Studios,0,SuperVillain:4 Studios,0,-0.02477
+[CLS] FIFA Football 2005 is developed by [MASK] [MASK] [MASK] . [SEP],FIFA Football 2005,EA Vancouver,0,EA Vancouver,0,-0.23659
+[CLS] Modula:2 - 2 + is developed by [MASK] [MASK] . [SEP],Modula:2,DEC:2 Systems Research Center,0,DEC:2 Systems Research Center,0,-0.03907
+[CLS] MotoGP 15 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Moto Moto Moto Moto Moto,Milestone:2 S . r . l .,0,Milestone:2 S . r . l .,0,-0.70305
+[CLS] Klonoa:3 2 : Dream Champ Tournament is developed by [MASK] [MASK] [MASK] . [SEP],Klonoa:3,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.02569
+[CLS] Cosmo:2 Gang the Puzzle:3 is developed by [MASK] [MASK] [MASK] . [SEP],Cosmo:2 Gang,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.01193
+[CLS] Rhapsody : A Musical Adventure is developed by [MASK] [MASK] [MASK] . [SEP],Walt Disney Studios,Nippon Ichi:2 Software,0,Nippon Ichi:2 Software,0,-0.09243
+[CLS] Lost in Blue 3 is developed by [MASK] [MASK] [MASK] . [SEP],Lost in Blue,Matrix Software,0,Matrix Software,0,-0.02181
+[CLS] Pillars:3 of Garendall:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the National Park Service,Beenox:2,0,Beenox:2,0,-0.26705
+[CLS] FIFA 07 is developed by [MASK] [MASK] [MASK] . [SEP],FIFA . com,EA Vancouver,0,EA Vancouver,0,-0.33747
+[CLS] Jungler:2 is developed by [MASK] [MASK] [MASK] . [SEP],K . K,Konami:2,0,Konami:2,0,-0.62013
+[CLS] Jurassic Park : Survival is developed by [MASK] [MASK] . [SEP],Jurassic Park,Savage Entertainment,0,Savage Entertainment,0,-0.01781
+[CLS] Beach Spikers:2 is developed by [MASK] [MASK] [MASK] . [SEP],Beach Spikers:2,Sega AM2:2,0,Sega AM2:2,0,-0.12351
+[CLS] Final Lap:2 is developed by [MASK] [MASK] [MASK] . [SEP],Final Lap:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.15901
+[CLS] Wizard ' s Crown is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Wizard ' s Crown,Strategic Simulations:2,0,Strategic Simulations:2,0,-0.08990
+[CLS] Naruto : Clash of Ninja is developed by [MASK] [MASK] [MASK] . [SEP],Kazuyuki:3,Eighting:2,0,Eighting:2,0,-1.22927
+[CLS] Kid Kool:2 is developed by [MASK] [MASK] [MASK] . [SEP],Kid Kool:2,Tokai:2 Communications,0,Tokai:2 Communications,0,-0.04173
+[CLS] Battle Chess is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle Chess Group,Interplay:2 Entertainment,0,Interplay:2 Entertainment,0,-0.95530
+[CLS] TradeWars:3 2002 is developed by [MASK] [MASK] [MASK] . [SEP],TradeWars:3,Gary Martin,0,Gary Martin,0,-0.03863
+[CLS] Metal Gear Solid 4 : Guns of the Patriots is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Kojima:2 Productions,0,Kojima:2 Productions,0,-0.31380
+[CLS] Oracle Application Server is developed by [MASK] [MASK] . [SEP],Oracle Corporation,Oracle Corporation,1,Oracle Corporation,1,-0.23587
+[CLS] Psycho Pinball:2 is developed by [MASK] [MASK] [MASK] . [SEP],Psycho Pinball:2,Codemasters:3,0,Codemasters:3,0,-0.07729
+[CLS] Gateway is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,Legend Entertainment,0,Legend Entertainment,0,-0.45735
+[CLS] SAP ERP:2 is developed by [MASK] . [SEP],SAP,SAP SE,0,SAP SE,0,-0.05675
+[CLS] Battle Realms:2 is developed by [MASK] [MASK] [MASK] . [SEP],Battle Realms:2,Liquid Entertainment,0,Liquid Entertainment,0,-0.13529
+[CLS] EverQuest:4 II is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],EverQuest:4,Daybreak:2 Game Company,0,Daybreak:2 Game Company,0,-0.00786
+[CLS] Dance Dance Revolution Party Collection is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Konami:2,0,Konami:2,0,-0.41537
+[CLS] Oddworld:2 : Abe ' s Exoddus:3 is developed by [MASK] [MASK] . [SEP],Oddworld:2,Oddworld:2 Inhabitants:4,0,Oddworld:2 Inhabitants:4,0,-0.00769
+[CLS] Cubic:2 Ninja is developed by [MASK] [MASK] [MASK] . [SEP],Cubic:2 Ninja,AQ:2 Interactive,0,AQ:2 Interactive,0,-0.00642
+[CLS] Novell:2 Access Manager is developed by [MASK] [MASK] . [SEP],Novell:2,NetIQ:3,0,NetIQ:3,0,-0.01451
+[CLS] Final Fantasy IV : The After Years is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S . S . S,Matrix Software,0,Matrix Software,0,-0.50175
+[CLS] Crusaders:3 of Might:2 and Magic is developed by [MASK] [MASK] [MASK] . [SEP],Crusaders:3,The 3DO:2 Company,0,The 3DO:2 Company,0,-0.04964
+[CLS] Forgotten Realms:2 : Unlimited Adventures is developed by [MASK] [MASK] [MASK] . [SEP],G . G,Strategic Simulations:2,0,Strategic Simulations:2,0,-0.65147
+[CLS] Gem:2 Keeper:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Gem:2 Keeper:2,NCsoft:3,0,NCsoft:3,0,-0.13374
+[CLS] EASE:2 / ACCESS:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],EASE:2 / ACCESS:2,Langley Research Center,0,Langley Research Center,0,-0.04610
+[CLS] Burnout:2 Paradise is developed by [MASK] [MASK] [MASK] . [SEP],Burnout:2 Paradise,Criterion:3 Games,0,Criterion:3 Games,0,-0.22586
+[CLS] OpenSolaris:4 is developed by [MASK] [MASK] [MASK] . [SEP],OpenSolari:3,Sun Microsystems:2,0,Sun Microsystems:2,0,-0.12420
+[CLS] Grand Prix Challenge is developed by [MASK] [MASK] . [SEP],Grand Prix,Krome:2 Studios Melbourne,0,Krome:2 Studios Melbourne,0,-0.00362
+[CLS] Nancy Drew : Ghost Dogs Of Moon Lake is developed by [MASK] [MASK] . [SEP],Nancy Drew,Her Interactive,0,Her Interactive,0,-0.00151
+[CLS] Märchen:2 Maze:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Märchen:2 Maze:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.03490
+[CLS] NHK Kōhaku:2 Quiz:2 Gassen:2 is developed by [MASK] [MASK] . [SEP],NHK NHK,Nintendo Entertainment Analysis & Development,0,Nintendo Entertainment Analysis & Development,0,-0.27600
+[CLS] Moto Racer:2 Advance is developed by [MASK] [MASK] [MASK] . [SEP],Moto Racer:2,Adeline:2 Software International,0,Adeline:2 Software International,0,-0.01455
+[CLS] Malice:2 is developed by [MASK] [MASK] . [SEP],Malice:2,Argonaut:2 Games,0,Argonaut:2 Games,0,-0.19821
+[CLS] Jack Orlando is developed by [MASK] [MASK] . [SEP],Jack Orlando,TopWare:3 Interactive,0,TopWare:3 Interactive,0,-0.09867
+[CLS] Another Code : Two Memories is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Cing:2,0,Cing:2,0,-0.15894
+[CLS] SEAL:2 Team is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Electronic Arts,0,Electronic Arts,0,-0.40927
+[CLS] Toy Story 3 : The Video Game is developed by [MASK] [MASK] . [SEP],Toy Story,Avalanche:3 Software,0,Avalanche:3 Software,0,-0.08108
+[CLS] Netpbm:4 formats is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Netpbm:4,Jef:2 Poskanzer:3,0,Jef:2 Poskanzer:3,0,-0.07766
+[CLS] Guilty:3 Gear XX is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Guilty:3 Gear,Arc System Works,0,Arc System Works,0,-0.00104
+[CLS] Record of Agarest:2 War is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Record of Agarest:2,Idea Factory,0,Idea Factory,0,-0.03329
+[CLS] Lula:2 3D is developed by [MASK] [MASK] . [SEP],Lula:2,cdv:2 Software Entertainment,0,cdv:2 Software Entertainment,0,-0.01884
+[CLS] Destroy:3 All Humans:2 ! Big Willy Unleashed:3 is developed by [MASK] [MASK] . [SEP],Big Willy,Locomotive:4 Games,0,Locomotive:4 Games,0,-0.01116
+[CLS] The Settlers:3 II is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Ubisoft:3 Blue Byte:2,0,Ubisoft:3 Blue Byte:2,0,-0.20919
+[CLS] Kirby ' s Dream Course is developed by [MASK] . [SEP],Kirby,HAL:2 Laboratory,0,HAL:2 Laboratory,0,-0.01623
+[CLS] Xcode:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],T . T . T,Apple Inc .,0,Apple Inc .,0,-0.54336
+[CLS] Fire Pro Wrestling is developed by [MASK] [MASK] [MASK] . [SEP],Fire Pro Wrestling,Human Entertainment,0,Human Entertainment,0,-0.03419
+[CLS] Batman is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Ocean Software,0,Ocean Software,0,-0.11537
+[CLS] Call of Duty : Modern Warfare 3 is developed by [MASK] [MASK] [MASK] . [SEP],Call of Duty,Infinity Ward,0,Infinity Ward,0,-0.42763
+[CLS] Blender:3 Bros . is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Blender:3 Bros,Hudson Soft,0,Hudson Soft,0,-0.02996
+[CLS] Naruto : Ultimate Ninja Storm is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Shuku:2 - Shuku:2,CyberConnect2:5,0,CyberConnect2:5,0,-0.66016
+[CLS] Far Cry 3 : Blood Dragon is developed by [MASK] [MASK] . [SEP],Far Cry,Ubisoft:3 Montreal,0,Ubisoft:3 Montreal,0,-0.01967
+[CLS] CUPS:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],CUPS:3 . com,Apple Inc .,0,Apple Inc .,0,-0.34477
+[CLS] Schmeiser:3 Robo:2 is developed by [MASK] [MASK] [MASK] . [SEP],Schmeiser:3,Hot B,0,Hot B,0,-0.01350
+[CLS] Phantasy:3 Star Online is developed by [MASK] [MASK] [MASK] . [SEP],Phantasy:3,Sonic Team,0,Sonic Team,0,-0.01812
+[CLS] Front Row is developed by [MASK] [MASK] . [SEP],Front Row,Apple Inc .,0,Apple Inc .,0,-0.25351
+[CLS] Terminator 2 : Judgment:3 Day is developed by [MASK] [MASK] [MASK] . [SEP],T . T,Midway Games,0,Midway Games,0,-0.30364
+[CLS] Voyage : Inspired:4 by Jules Verne is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Kheops:3 Studio,0,Kheops:3 Studio,0,-0.43620
+[CLS] NASCAR SimRacing:4 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],NASCAR SimRacing:4,EA Tiburon:3,0,EA Tiburon:3,0,-0.02520
+[CLS] Cleopatra Fortune is developed by [MASK] [MASK] [MASK] . [SEP],K . K,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.26003
+[CLS] Cosmic Ark is developed by [MASK] [MASK] . [SEP],Cosmic Ark,Imagic:2,0,Imagic:2,0,-0.44929
+[CLS] Digimon World 2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,"Bandai:2 Co . , Ltd .",0,"Bandai:2 Co . , Ltd .",0,-0.79628
+[CLS] Law & Order : Dead on the Money is developed by [MASK] [MASK] [MASK] . [SEP],Law & Order,Legacy Interactive,0,Legacy Interactive,0,-0.03047
+[CLS] Puzz:3 Loop is developed by [MASK] [MASK] [MASK] . [SEP],Puzz:3,Mitchell Corporation,0,Mitchell Corporation,0,-0.00517
+[CLS] QuickDraw:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],QuickDraw:4,Apple Inc .,0,Apple Inc .,0,-0.75743
+[CLS] Myst:2 III : Exile:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the console console Myst:2,Presto:2 Studios,0,Presto:2 Studios,0,-0.50820
+[CLS] Dungeon:3 Siege : Legends of Aranna:2 is developed by [MASK] [MASK] [MASK] . [SEP],Dungeon:3,Wargaming:3 Seattle,0,Wargaming:3 Seattle,0,-0.02610
+[CLS] Hydrophobia:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Hydrophobia:4,Dark Energy Digital,0,Dark Energy Digital,0,-0.02769
+[CLS] The Political Machine 2012 is developed by [MASK] [MASK] [MASK] . [SEP],The Political Machine,Stardock:2,0,Stardock:2,0,-0.21093
+[CLS] The Settlers:3 III is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Ubisoft:3 Blue Byte:2,0,Ubisoft:3 Blue Byte:2,0,-0.20562
+[CLS] Colony Wars is developed by [MASK] [MASK] [MASK] . [SEP],K . K,SCE:2 Studio Liverpool,0,SCE:2 Studio Liverpool,0,-0.44785
+[CLS] Team Buddies:2 is developed by [MASK] [MASK] [MASK] . [SEP],Team Buddies:2,SCE:2 Studio Liverpool,0,SCE:2 Studio Liverpool,0,-0.12945
+[CLS] Saints Row : Gat:2 out of Hell is developed by [MASK] [MASK] . [SEP],Saints Row,Deep Silver Volition:2,0,Deep Silver Volition:2,0,-0.00092
+[CLS] Football Manager 2008 is developed by [MASK] [MASK] . [SEP],Football Manager,Sports Interactive,0,Sports Interactive,0,-0.07238
+[CLS] GeForce:4 500 Series is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],GeForce:4,NVIDIA:4,0,NVIDIA:4,0,-0.00426
+[CLS] Toy Pop is developed by [MASK] [MASK] . [SEP],Toy Pop,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.05420
+[CLS] Broken Sword : The Shadow of the Templars:3 is developed by [MASK] [MASK] . [SEP],Broken Sword,Revolution Software,0,Revolution Software,0,-0.00594
+[CLS] Pocket Planes:2 is developed by [MASK] [MASK] [MASK] . [SEP],Pocket Planes:2,NimbleBit:4,0,NimbleBit:4,0,-0.08981
+"[CLS] Achaea:3 , Dreams of Divine Lands is developed by [MASK] [MASK] [MASK] . [SEP]",Achaea:3,Iron Realms:2 Entertainment,0,Iron Realms:2 Entertainment,0,-0.02455
+[CLS] Cursed:2 Mountain is developed by [MASK] [MASK] [MASK] . [SEP],Cursed:2 Mountain,Deep Silver,0,Deep Silver,0,-0.04992
+[CLS] World War II : Frontline:2 Command is developed by [MASK] [MASK] [MASK] . [SEP],the United States,The Bitmap:3 Brothers,0,The Bitmap:3 Brothers,0,-0.02180
+[CLS] WingNuts:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the WingNuts:3 Foundation,Freeverse:2,0,Freeverse:2,0,-0.62519
+[CLS] Blade Master is developed by [MASK] [MASK] . [SEP],Blade Master,Irem:2,0,Irem:2,0,-0.45263
+[CLS] A + is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],"A + , Inc",Morgan Stanley,0,Morgan Stanley,0,-0.65765
+[CLS] Creative Writer 2 is developed by [MASK] [MASK] . [SEP],Creative Writer,Microsoft Home,0,Microsoft Home,0,-0.01122
+[CLS] Sly:2 3 : Honor Among Thieves:3 is developed by [MASK] [MASK] . [SEP],Sly:2,Sucker:2 Punch Productions,0,Sucker:2 Punch Productions,0,-0.00876
+[CLS] 3D Monster Maze:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],3D Monster Maze:2,Malcolm Evans,0,Malcolm Evans,0,-0.05449
+[CLS] Dance Dance Revolution Extreme is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],N . N .,Konami:2,0,Konami:2,0,-0.54793
+[CLS] Quick Mail Queuing:2 Protocol is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Daniel J . Bernstein,0,Daniel J . Bernstein,0,-0.07999
+[CLS] Harry Potter and the Half - Blood Prince is developed by [MASK] [MASK] . [SEP],Harry Potter,Electronic Arts,0,Electronic Arts,0,-0.01941
+[CLS] Gal * Gun is developed by [MASK] [MASK] [MASK] . [SEP],Gal * Gun,Inti:2 Creates:3,0,Inti:2 Creates:3,0,-0.05573
+[CLS] Command & Conquer:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Command & Conquer:2,Danger Close Games,0,Danger Close Games,0,-0.18200
+[CLS] Coded:2 Arms : Contagion:3 is developed by [MASK] [MASK] [MASK] . [SEP],Coded:2 Arms,Creat:2 Studios,0,Creat:2 Studios,0,-0.00179
+[CLS] BE - 4 is developed by [MASK] [MASK] [MASK] . [SEP],BE - 4,Blue Origin,0,Blue Origin,0,-0.43690
+[CLS] Integrated Data Store is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Home Affairs,Charles Bachman:2,0,Charles Bachman:2,0,-0.57217
+[CLS] 4D:2 Sports Boxing is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the T . T,Distinctive:3 Software,0,Distinctive:3 Software,0,-0.83015
+[CLS] Bully:2 is developed by [MASK] [MASK] . [SEP],Bully:2,Rockstar:2 Vancouver,0,Rockstar:2 Vancouver,0,-0.14607
+[CLS] Golden Basket is developed by [MASK] [MASK] . [SEP],Golden Basket,Opera Soft,0,Opera Soft,0,-0.02088
+[CLS] The Chaos Engine 2 is developed by [MASK] [MASK] . [SEP],Chaos Engine,The Bitmap:3 Brothers,0,The Bitmap:3 Brothers,0,-0.05308
+[CLS] ExtremeZ:2 - IP is developed by [MASK] [MASK] . [SEP],ExtremeZ:2,GroupLogic:4,0,GroupLogic:4,0,-0.08070
+[CLS] Speed Challenge : Jacques Villeneuve ' s Racing Vision is developed by [MASK] [MASK] . [SEP],Speed Challenge,Ubisoft:3,0,Ubisoft:3,0,-0.05289
+[CLS] TKO Super Championship Boxing is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the TKO Super Championship Boxing,Sting Entertainment,0,Sting Entertainment,0,-0.60240
+[CLS] Scalable:2 Vector:2 Graphics is developed by [MASK] [MASK] [MASK] . [SEP],Vector:2 Graphics,World Wide Web Consortium,0,World Wide Web Consortium,0,-0.00962
+[CLS] Championship Manager : Season 02 / 03 is developed by [MASK] [MASK] . [SEP],Championship Manager,Eidos:2 Interactive,0,Eidos:2 Interactive,0,-0.04721
+[CLS] Zoo Keeper:2 is developed by [MASK] [MASK] [MASK] . [SEP],Zoo Keeper:2,Success:3,0,Success:3,0,-0.10598
+[CLS] Lamborghini American Challenge is developed by [MASK] . [SEP],Lamborghini,Titus Software,0,Titus Software,0,-0.01598
+[CLS] Virtua:2 Tennis 2009 is developed by [MASK] [MASK] [MASK] . [SEP],Virtua:2 Tennis,Sumo:2 Digital,0,Sumo:2 Digital,0,-0.01079
+[CLS] Hasbro:2 Family Game Night is developed by [MASK] [MASK] . [SEP],Hasbro:2,Electronic Arts,0,Electronic Arts,0,-0.00300
+[CLS] Boot Camp is developed by [MASK] [MASK] . [SEP],Boot Camp,Apple Inc .,0,Apple Inc .,0,-0.10248
+[CLS] Pico is developed by [MASK] [MASK] [MASK] . [SEP],the Pico Group,University of Washington,0,University of Washington,0,-1.03014
+[CLS] Might:2 and Magic V : Darkside:2 of Xeen:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Might:2 and Magic,New World Computing,0,New World Computing,0,-0.03151
+[CLS] F7U:3 Cutlass:2 is developed by [MASK] [MASK] [MASK] . [SEP],F7U:3,Vought:2,0,Vought:2,0,-0.02970
+[CLS] Cosmic Guerilla:3 is developed by [MASK] [MASK] [MASK] . [SEP],the Space Shuttle,Crystal Computing,0,Crystal Computing,0,-0.65338
+[CLS] Brataccas:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Brataccas:4,SCE:2 Studio Liverpool,0,SCE:2 Studio Liverpool,0,-0.06378
+[CLS] The Legendary:2 Axe:2 II is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Victor Interactive Software,0,Victor Interactive Software,0,-0.13928
+[CLS] Raiden:2 Fighters Jet is developed by [MASK] [MASK] [MASK] . [SEP],Raiden:2 Fighters,Seibu:2 Kaihatsu:3,0,Seibu:2 Kaihatsu:3,0,-0.01941
+[CLS] Stationfall:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S .,Infocom:2,0,Infocom:2,0,-0.24875
+[CLS] Life Is Strange is developed by [MASK] [MASK] [MASK] . [SEP],Life Is Strange,Dontnod:3 Entertainment,0,Dontnod:3 Entertainment,0,-0.06896
+[CLS] Qualcomm:3 Hexagon:3 is developed by [MASK] [MASK] [MASK] . [SEP],Qualcomm:3,Qualcomm:3 Inc .,0,Qualcomm:3 Inc .,0,-0.00307
+[CLS] Art of Murder : Hunt for the Puppeteer:4 is developed by [MASK] [MASK] [MASK] . [SEP],Art of Murder,CI:2 Games S . A .,0,CI:2 Games S . A .,0,-0.00543
+[CLS] Gargoyles:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Gargoyles:4,Disney Interactive Studios,0,Disney Interactive Studios,0,-0.03013
+[CLS] The Lost Vikings is developed by [MASK] [MASK] [MASK] . [SEP],The Lost Vikings,Blizzard Entertainment,0,Blizzard Entertainment,0,-0.11393
+[CLS] Brain Challenge is developed by [MASK] [MASK] . [SEP],Brain Challenge,Gameloft:3,0,Gameloft:3,0,-0.65192
+[CLS] Opera Coast is developed by [MASK] [MASK] . [SEP],Opera Coast,Opera Software,0,Opera Software,0,-0.07873
+[CLS] Condemned:3 : Criminal Origins is developed by [MASK] [MASK] [MASK] . [SEP],Condemned:3,Monolith:3 Productions,0,Monolith:3 Productions,0,-0.00278
+[CLS] Tarantella:3 is developed by [MASK] [MASK] [MASK] . [SEP],Tarantella:3,Sun Microsystems:2,0,Sun Microsystems:2,0,-0.07153
+[CLS] sed is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Lee E . McMahon,0,Lee E . McMahon,0,-0.14272
+[CLS] Shadow Realms:2 is developed by [MASK] [MASK] [MASK] . [SEP],Shadow Realms:2,BioWare:3,0,BioWare:3,0,-0.11953
+[CLS] list of minor Apogee:3 Software video games is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Apogee:3 Software,3D Realms:2,0,3D Realms:2,0,-0.01253
+[CLS] Tokyo Mono Hara Shi : Karasu:2 no Mori Gakuen:3 Kitan:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Shueisha:3 Shoten:2,Atlus:2,0,Atlus:2,0,-0.71790
+[CLS] Joust:2 2 : Survival of the Fittest:3 is developed by [MASK] [MASK] . [SEP],Joust:2,WMS:2 Industries,0,WMS:2 Industries,0,-0.00923
+[CLS] PowerJet:3 SaM146:4 is developed by [MASK] [MASK] [MASK] . [SEP],PowerJet:3,PowerJet:3,1,PowerJet:3,1,-0.00538
+[CLS] Internet Channel is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Navy,Opera Software,0,Opera Software,0,-0.34906
+[CLS] Salamander:3 is developed by [MASK] [MASK] [MASK] . [SEP],Salamander:3,Konami:2,0,Konami:2,0,-0.06106
+[CLS] Shank:2 is developed by [MASK] [MASK] . [SEP],Shank:2,Klei:2 Entertainment,0,Klei:2 Entertainment,0,-0.20742
+[CLS] Nancy Drew : Secret of the Scarlet Hand is developed by [MASK] [MASK] . [SEP],Nancy Drew,Her Interactive,0,Her Interactive,0,-0.00277
+[CLS] Planet of Death is developed by [MASK] [MASK] [MASK] . [SEP],Planet of Death,Ubisoft:3,0,Ubisoft:3,0,-0.04430
+[CLS] All 4 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],T . T . T,Channel Four Television Corporation,0,Channel Four Television Corporation,0,-0.62984
+[CLS] The Sentinel is developed by [MASK] [MASK] . [SEP],The Sentinel,Geoff Crammond:3,0,Geoff Crammond:3,0,-0.38304
+[CLS] Modern Combat : Domination:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Gameloft:3,0,Gameloft:3,0,-0.11613
+[CLS] World War II Combat : Road to Berlin is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Zombie Studios,0,Zombie Studios,0,-0.08565
+[CLS] The Flintstones:3 : The Rescue of Dino & Hoppy:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],The Flintstones:3,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.04224
+[CLS] Tak and the Power of Juju:2 is developed by [MASK] [MASK] [MASK] . [SEP],Shueisha:3,Avalanche:3 Software,0,Avalanche:3 Software,0,-0.16415
+[CLS] The Saboteur:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Saboteur:3,Pandemic:3 Studios,0,Pandemic:3 Studios,0,-0.50485
+[CLS] Space Hulk is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],"Space Hulk , Inc",Electronic Arts,0,Electronic Arts,0,-0.19221
+[CLS] EF2000:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the EF2000:2 Group,Digital Image Design,0,Digital Image Design,0,-0.82500
+[CLS] BlackBerry:3 Tablet:2 OS is developed by [MASK] [MASK] [MASK] . [SEP],BlackBerry:3,BlackBerry:3,1,BlackBerry:3,1,-0.00246
+[CLS] Dark Castle is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],"Dark Castle , Inc",Silicon Beach Software,0,Silicon Beach Software,0,-0.15224
+[CLS] Jurassic : The Hunted:2 is developed by [MASK] [MASK] . [SEP],Jurassic Park,Cauldron:3,0,Cauldron:3,0,-0.21690
+[CLS] Assassin ' s Creed Unity is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Assassin ' s Creed,Ubisoft:3 Montreal,0,Ubisoft:3 Montreal,0,-0.00253
+[CLS] Freakin:2 ' Funky:2 Fuzzballs:4 is developed by [MASK] [MASK] [MASK] . [SEP],the same company,Sir - Tech,0,Sir - Tech,0,-1.04298
+[CLS] Army Men : Air Attack is developed by [MASK] [MASK] [MASK] . [SEP],the Army Men,The 3DO:2 Company,0,The 3DO:2 Company,0,-0.37516
+[CLS] Grand Prix Story is developed by [MASK] [MASK] . [SEP],Grand Prix,Kairosoft:3,0,Kairosoft:3,0,-0.00297
+[CLS] Symbian:3 is developed by [MASK] [MASK] . [SEP],Symbia:2,Symbian:3 Foundation,0,Symbian:3 Foundation,0,-0.02784
+[CLS] Winning:2 Run is developed by [MASK] [MASK] . [SEP],Winning:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.11935
+[CLS] New International Track & Field is developed by [MASK] [MASK] . [SEP],New International,Sumo:2 Digital,0,Sumo:2 Digital,0,-0.15378
+[CLS] Quazatron:3 is developed by [MASK] [MASK] [MASK] . [SEP],Quazatron:3,Graftgold:3,0,Graftgold:3,0,-0.16578
+[CLS] Virtua:2 Racing is developed by [MASK] [MASK] . [SEP],Virtua:2,Sega AM2:2,0,Sega AM2:2,0,-0.05970
+[CLS] Apple A8X:2 is developed by [MASK] [MASK] [MASK] . [SEP],Apple A8X:2,Apple Inc .,0,Apple Inc .,0,-0.07764
+[CLS] The Dark Knight is developed by [MASK] [MASK] [MASK] . [SEP],The Dark Knight,Pandemic:3 Studios,0,Pandemic:3 Studios,0,-0.25004
+[CLS] Osu:2 ! Tatakae:3 ! Ouendan:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the company Ouendan:3,iNiS:4,0,iNiS:4,0,-0.66086
+[CLS] Cosmic Osmo:2 ' s Hex:2 Isle is developed by [MASK] [MASK] [MASK] . [SEP],Cosmic Osmo:2,Cyan:2 Worlds,0,Cyan:2 Worlds,0,-0.00975
+[CLS] Soma:2 Bringer:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Soma:2 Bringer:2,Monolith:3 Soft,0,Monolith:3 Soft,0,-0.05345
+[CLS] Shining Wind is developed by [MASK] [MASK] . [SEP],Shining Wind,Nex:2 Entertainment,0,Nex:2 Entertainment,0,-0.32219
+[CLS] Space Shuttle : A Journey into Space is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States Space Shuttle,"Activision:3 Publishing , Inc .",0,"Activision:3 Publishing , Inc .",0,-0.33305
+[CLS] Arcticfox:3 is developed by [MASK] [MASK] [MASK] . [SEP],Arcticfox:3,Dynamix:3,0,Dynamix:3,0,-0.11256
+[CLS] Mystery Case Files : Huntsville:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Studio Studio Studio,Big Fish Games,0,Big Fish Games,0,-2.01660
+[CLS] OCFS2:4 is developed by [MASK] [MASK] [MASK] . [SEP],OCFS:3,Oracle Corporation,0,Oracle Corporation,0,-0.03138
+[CLS] Porsche Challenge is developed by [MASK] . [SEP],Porsche,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.00932
+[CLS] Pet Alien : An Intergalactic:3 Puzzlepalooza:6 is developed by [MASK] [MASK] . [SEP],Pet Alien,Shin ' en Multimedia,0,Shin ' en Multimedia,0,-0.00380
+[CLS] The King of Fighters 2001 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],The King of Fighters,SNK:2,0,SNK:2,0,-0.03164
+[CLS] F - 1 Grand Prix Part II is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],F - 1 Grand Prix,Video System,0,Video System,0,-0.00881
+[CLS] Book of Potions:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.12110
+[CLS] GNUzilla:3 is developed by [MASK] [MASK] [MASK] . [SEP],GNUzilla:3,GNU Project,0,GNU Project,0,-0.44349
+[CLS] Frak:2 ! is developed by [MASK] [MASK] [MASK] . [SEP],Frak:2 !,Nick Pelling:2,0,Nick Pelling:2,0,-0.52651
+[CLS] AdventureQuest:4 Worlds is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],AdventureQuest:4,Artix:2 Entertainment,0,Artix:2 Entertainment,0,-0.02122
+[CLS] Sea - Doo Hydrocross:3 is developed by [MASK] [MASK] [MASK] . [SEP],Sea - Doo,Vicarious:3 Visions,0,Vicarious:3 Visions,0,-0.00148
+[CLS] Zombie Raid:2 is developed by [MASK] [MASK] [MASK] . [SEP],Zombie Raid:2,Sammy Corporation,0,Sammy Corporation,0,-0.07430
+[CLS] WolfQuest:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],WolfQuest:4,Minnesota Zoo,0,Minnesota Zoo,0,-0.04932
+[CLS] Elemental:2 : War of Magic is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Stardock:2,0,Stardock:2,0,-0.32973
+[CLS] Orbient:3 is developed by [MASK] [MASK] [MASK] . [SEP],Orbient:3,skip Ltd .,0,skip Ltd .,0,-0.19775
+[CLS] Fist:2 of the North Star is developed by [MASK] [MASK] . [SEP],Fist:2,Arc System Works,0,Arc System Works,0,-0.07065
+[CLS] Dead State is developed by [MASK] [MASK] . [SEP],Dead State,DoubleBear:3 Productions,0,DoubleBear:3 Productions,0,-0.18455
+[CLS] R . B . I . Baseball is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],R . B . I,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.00026
+[CLS] udev:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Greg Kroah:3 - Hartman,0,Greg Kroah:3 - Hartman,0,-0.20732
+[CLS] Buzz ! Junior : Monster Rumble is developed by [MASK] [MASK] [MASK] . [SEP],Buzz ! Junior,FreeStyleGames:6,0,FreeStyleGames:6,0,-0.01261
+[CLS] Might:2 & Magic Heroes VI is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Might:2 & Magic,Black Hole Entertainment,0,Black Hole Entertainment,0,-0.09562
+[CLS] Pirates Plund:2 - Arrr:2 is developed by [MASK] [MASK] [MASK] . [SEP],Pirates Plund:2,Boomzap:3 Entertainment,0,Boomzap:3 Entertainment,0,-0.01244
+[CLS] G . I . Joe : A Real American Hero is developed by [MASK] [MASK] [MASK] . [SEP],G . I,Epyx:3,0,Epyx:3,0,-0.04744
+[CLS] Topple:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,ngmoco:3,0,ngmoco:3,0,-0.17127
+[CLS] Falcon 4 . 0 is developed by [MASK] [MASK] [MASK] . [SEP],F . F,MicroProse:3,0,MicroProse:3,0,-0.33270
+[CLS] Jurassic Park III : Dino Defender:2 is developed by [MASK] [MASK] . [SEP],Jurassic Park,JumpStart:4 Games,0,JumpStart:4 Games,0,-0.02413
+[CLS] King ' s Valley II is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],King ' s Valley,Konami:2,0,Konami:2,0,-0.00620
+[CLS] Ace Combat : Joint Assault is developed by [MASK] [MASK] . [SEP],Ace Combat,Access Games,0,Access Games,0,-0.01232
+[CLS] Harvest Moon : Hero of Leaf Valley is developed by [MASK] [MASK] . [SEP],Harvest Moon,Marvelous:2 Entertainment,0,Marvelous:2 Entertainment,0,-0.00730
+[CLS] ALGOL:3 W is developed by [MASK] [MASK] [MASK] . [SEP],ALGOL:3,Niklaus:3 Wirth:2,0,Niklaus:3 Wirth:2,0,-0.04153
+[CLS] Commanders:2 : Attack of the Genos:2 is developed by [MASK] [MASK] [MASK] . [SEP],Commander Commanders:2,SouthEnd:3 Interactive,0,SouthEnd:3 Interactive,0,-0.73508
+[CLS] Star Trek : 25th Anniversary is developed by [MASK] [MASK] . [SEP],Star Trek,Interplay:2 Entertainment,0,Interplay:2 Entertainment,0,-0.02854
+[CLS] Photo Booth is developed by [MASK] [MASK] . [SEP],Photo Booth,Apple Inc .,0,Apple Inc .,0,-0.18091
+[CLS] You Don ' t Know Jack is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the K . K,Jackbox:2 Games,0,Jackbox:2 Games,0,-0.50557
+[CLS] The King of Fighters 2003 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],The King of Fighters,SNK:2,0,SNK:2,0,-0.03715
+[CLS] Assassin ' s Creed : Brotherhood is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Assassin ' s Creed,Ubisoft:3 Montreal,0,Ubisoft:3 Montreal,0,-0.00542
+[CLS] Super Dimension Fortress Macross:2 : Scrambled:4 Valkyrie:3 is developed by [MASK] [MASK] [MASK] . [SEP],Super Dimension Fortress,Winkysoft:4,0,Winkysoft:4,0,-0.00780
+[CLS] Asus:2 Transformer:2 Pad:2 Infinity is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Asus:2 Transformer:2,AsusTek:4 Computer Inc .,0,AsusTek:4 Computer Inc .,0,-0.00670
+[CLS] Anarchy:2 Online is developed by [MASK] [MASK] . [SEP],Anarchy:2,Funcom:2,0,Funcom:2,0,-0.00445
+[CLS] SpongeBob:4 HeroPants:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],SpongeBob:4,Behaviour:4 Interactive,0,Behaviour:4 Interactive,0,-0.00903
+[CLS] James Clavell:3 ' s Shōgun:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Shōgun:4,Infocom:2,0,Infocom:2,0,-0.12058
+[CLS] Madden:2 Season 2 is developed by [MASK] [MASK] . [SEP],Madden:2,Global VR,0,Global VR,0,-0.00472
+[CLS] Hockey Allstar:2 Shootout:2 is developed by [MASK] [MASK] [MASK] . [SEP],Hockey Allstar:2,Big Blue Bubble:2,0,Big Blue Bubble:2,0,-0.05839
+[CLS] War Gods is developed by [MASK] [MASK] . [SEP],War Gods,Midway Games,0,Midway Games,0,-0.36832
+[CLS] Sword of Vermilion:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sword of Vermilion:3,Sega AM2:2,0,Sega AM2:2,0,-0.02038
+[CLS] Coded:2 Arms is developed by [MASK] [MASK] . [SEP],Coded:2,Konami:2,0,Konami:2,0,-0.15665
+[CLS] Stranglehold:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Stranglehold:4,Midway Games,0,Midway Games,0,-0.01449
+[CLS] Greg Norman ' s Golf Power is developed by [MASK] [MASK] . [SEP],Greg Norman,Gremlin:3 Interactive,0,Gremlin:3 Interactive,0,-0.00444
+[CLS] Dokuro:2 is developed by [MASK] [MASK] . [SEP],Dokuro:2,Game Arts,0,Game Arts,0,-0.07089
+[CLS] Bomberman:2 Land 3 is developed by [MASK] [MASK] [MASK] . [SEP],Bomberman:2 Land,Racjin:3,0,Racjin:3,0,-0.04629
+[CLS] Dr . Mario Express is developed by [MASK] [MASK] [MASK] . [SEP],Dr . Mario,Arika:2,0,Arika:2,0,-0.01169
+[CLS] The Outsider:2 is developed by [MASK] [MASK] [MASK] . [SEP],The Outsider:2,Frontier Developments:2,0,Frontier Developments:2,0,-0.18231
+[CLS] RiscPC:4 is developed by [MASK] [MASK] [MASK] . [SEP],Risc:3,Acorn:2 computers,0,Acorn:2 computers,0,-0.06173
+[CLS] Patterns:2 is developed by [MASK] [MASK] . [SEP],Patterns:2,Linden Lab,0,Linden Lab,0,-0.05597
+[CLS] Nickelodeon Party Blast is developed by [MASK] [MASK] [MASK] . [SEP],Nickelodeon Party Blast,Data Design Interactive,0,Data Design Interactive,0,-0.13583
+[CLS] Shin Megami:2 Tensei:2 if . . . is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Shin Megami:2 Tensei:2,Atlus:2,0,Atlus:2,0,-0.01781
+[CLS] Deadly Creatures:3 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,THQ:3,0,THQ:3,0,-0.59529
+[CLS] Batman Begins:2 is developed by [MASK] [MASK] [MASK] . [SEP],Batman Begins:2,Eurocom:2,0,Eurocom:2,0,-0.26657
+[CLS] The Feeble:3 Files is developed by [MASK] [MASK] [MASK] . [SEP],Feeble:3,Adventure Soft,0,Adventure Soft,0,-0.01503
+[CLS] Titanfall:2 is developed by [MASK] [MASK] . [SEP],Titanfall:2,Respawn:3 Entertainment,0,Respawn:3 Entertainment,0,-0.50478
+[CLS] Braid:2 is developed by [MASK] [MASK] . [SEP],Braid:2,Jonathan Blow,0,Jonathan Blow,0,-0.13428
+[CLS] OS X Mavericks:3 is developed by [MASK] [MASK] . [SEP],OS X,Apple Inc .,0,Apple Inc .,0,-0.02045
+[CLS] Tank Beat is developed by [MASK] [MASK] . [SEP],Tank Beat,Milestone:2 Inc .,0,Milestone:2 Inc .,0,-0.12338
+[CLS] Namco:2 Museum is developed by [MASK] [MASK] . [SEP],Namco:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.02602
+[CLS] Rastan:2 Saga II is developed by [MASK] [MASK] [MASK] . [SEP],Rastan:2 Saga,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.01339
+[CLS] Mighty Flip:2 Champs ! is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the F . F,WayForward:4 Technologies,0,WayForward:4 Technologies,0,-0.56083
+[CLS] Joe & Mac is developed by [MASK] [MASK] [MASK] . [SEP],Joe & Mac,Data East,0,Data East,0,-0.04866
+[CLS] A - 40 Albatros is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],A - 40 Albatros,Beriev:3,0,Beriev:3,0,-0.39539
+[CLS] Kawasaki Quad:2 Bikes:2 is developed by [MASK] . [SEP],Kawasaki,Data Design Interactive,0,Data Design Interactive,0,-0.00907
+[CLS] Kaio:2 : King of Pirates is developed by [MASK] [MASK] . [SEP],Kaio:2,Level - 5 Comcept:2,0,Level - 5 Comcept:2,0,-0.06395
+[CLS] Fur:2 Fighters is developed by [MASK] [MASK] . [SEP],Fur:2,Bizarre:3 Creations:2,0,Bizarre:3 Creations:2,0,-0.05699
+[CLS] Championship Manager 2010 is developed by [MASK] [MASK] . [SEP],Championship Manager,Beautiful Game Studios,0,Beautiful Game Studios,0,-0.06240
+"[CLS] Warhammer:2 40 , 000 : Fire Warrior is developed by [MASK] [MASK] . [SEP]",Warhammer:2,Kuju:2 Ltd .,0,Kuju:2 Ltd .,0,-0.01087
+[CLS] Lords of Time is developed by [MASK] [MASK] [MASK] . [SEP],Lords of Time,Level 9 Computing,0,Level 9 Computing,0,-0.08327
+[CLS] D is developed by [MASK] [MASK] [MASK] . [SEP],D . D,Superwarp:3,0,Superwarp:3,0,-0.36001
+[CLS] Batman : The Video Game is developed by [MASK] [MASK] [MASK] . [SEP],Metro Game Studios,Sunsoft:2,0,Sunsoft:2,0,-1.11362
+[CLS] City of Heroes is developed by [MASK] [MASK] [MASK] . [SEP],City of Heroes,Cryptic:2 Studios,0,Cryptic:2 Studios,0,-0.03177
+[CLS] Koudelka:3 is developed by [MASK] [MASK] [MASK] . [SEP],Koudelka:3,Sacnoth:4,0,Sacnoth:4,0,-0.07057
+[CLS] Indiana Jones and the Infernal:2 Machine is developed by [MASK] [MASK] . [SEP],Indiana Jones,LucasArts:3,0,LucasArts:3,0,-0.06287
+[CLS] The ClueFinders:5 Reading Adventures is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ClueFinders:5,The Learning Company,0,The Learning Company,0,-0.00414
+[CLS] Magna Carta : The Phantom of Avalanche:3 is developed by [MASK] [MASK] . [SEP],Magna Carta,Softmax:2,0,Softmax:2,0,-0.01386
+[CLS] Corel:2 AfterShot:3 Pro is developed by [MASK] [MASK] . [SEP],Corel:2,Corel:2,1,Corel:2,1,-0.01461
+[CLS] BlazBlue:4 : Clone:2 Phantasma:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],BlazBlue:4,Arc System Works,0,Arc System Works,0,-0.00755
+[CLS] Hebereke:3 ' s Popoitto:3 is developed by [MASK] [MASK] [MASK] . [SEP],Hebereke:3,Sunsoft:2,0,Sunsoft:2,0,-0.03682
+[CLS] Phineas:3 and Ferb:2 : Ride Again is developed by [MASK] [MASK] [MASK] . [SEP],Walt Disney Studios,Altron:2,0,Altron:2,0,-0.11117
+[CLS] Rail Simulator:2 is developed by [MASK] [MASK] [MASK] . [SEP],Rail Simulator:2,Kuju:2 Ltd .,0,Kuju:2 Ltd .,0,-0.74420
+[CLS] CalDAV:3 is developed by [MASK] [MASK] [MASK] . [SEP],CalDAV:3,Internet Engineering Task Force,0,Internet Engineering Task Force,0,-0.15118
+[CLS] Akaneiro:3 : Demon Hunters:2 is developed by [MASK] [MASK] [MASK] . [SEP],Akaneiro:3,Spicy:2 Horse,0,Spicy:2 Horse,0,-0.00431
+[CLS] Hero of Sparta II is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Gameloft:3,0,Gameloft:3,0,-0.48781
+[CLS] World War II Combat : Iwo:2 Jima:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Zombie Studios,0,Zombie Studios,0,-0.05774
+[CLS] PageRank:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Microsoft PageRank:3,Larry Page,0,Larry Page,0,-0.48351
+[CLS] Giana:2 Sisters DS is developed by [MASK] [MASK] [MASK] . [SEP],Giana:2 Sisters,Spellbound:3 Entertainment,0,Spellbound:3 Entertainment,0,-0.00729
+[CLS] A1N:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Defence,Nakajima:2,0,Nakajima:2,0,-0.25822
+[CLS] Fragile:2 Allegiance:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the M . E,Gremlin:3 Interactive,0,Gremlin:3 Interactive,0,-1.42999
+[CLS] Operation Creature:3 Feature is developed by [MASK] [MASK] [MASK] . [SEP],the United States,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.10468
+[CLS] Konami:2 Game Master is developed by [MASK] [MASK] . [SEP],Konami:2,Konami:2,1,Konami:2,1,-0.00966
+[CLS] Super Castlevania:2 IV is developed by [MASK] [MASK] [MASK] . [SEP],Super Castlevania:2,Konami:2,0,Konami:2,0,-0.01320
+[CLS] Zoobles:2 ! Spring to Life ! is developed by [MASK] [MASK] . [SEP],Zoobles:2,Now Production,0,Now Production,0,-0.04740
+[CLS] Halo is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Xbox Game Studios,0,Xbox Game Studios,0,-0.54178
+[CLS] Kirby ' s Dream Land is developed by [MASK] . [SEP],Kirby,HAL:2 Laboratory,0,HAL:2 Laboratory,0,-0.01693
+[CLS] Killzone:2 : Liberation is developed by [MASK] [MASK] . [SEP],Killzone:2,Guerrilla:3 Games,0,Guerrilla:3 Games,0,-0.00291
+[CLS] We Farm is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the We Farm School District,Zynga:3 Dallas,0,Zynga:3 Dallas,0,-0.37903
+[CLS] Jurassic Park Interactive is developed by [MASK] [MASK] . [SEP],Jurassic Park,Vivendi:2 Games,0,Vivendi:2 Games,0,-0.05520
+[CLS] Lunar Legend is developed by [MASK] [MASK] . [SEP],Lunar Legend,Japan Art Media,0,Japan Art Media,0,-0.34265
+[CLS] Pandora ' s Tower is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Ganbarion:3,0,Ganbarion:3,0,-0.33923
+[CLS] Urban Legend in Limbo:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the team of the team,Twilight Frontier,0,Twilight Frontier,0,-1.47940
+[CLS] Evolution Worlds is developed by [MASK] [MASK] . [SEP],Evolution Worlds,Sting Entertainment,0,Sting Entertainment,0,-0.32869
+[CLS] Hyperspace:3 Delivery:3 Boy ! is developed by [MASK] [MASK] [MASK] . [SEP],Hyperspace:3,Monkeystone:2 Games,0,Monkeystone:2 Games,0,-0.00731
+[CLS] Parodius:3 is developed by [MASK] [MASK] [MASK] . [SEP],Parodius:3,Konami:2,0,Konami:2,0,-0.15201
+[CLS] Klonoa:3 Beach Volleyball is developed by [MASK] [MASK] [MASK] . [SEP],Klonoa:3,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.01454
+[CLS] Big Brain Wolf is developed by [MASK] [MASK] [MASK] . [SEP],Big Brain Wolf,Frima:2 Studio,0,Frima:2 Studio,0,-0.05840
+[CLS] Otogirisō:5 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Otogiris:4,Chunsoft:3,0,Chunsoft:3,0,-0.52825
+[CLS] Star Wars : The Empire Strikes:2 Back is developed by [MASK] [MASK] . [SEP],Star Wars,Atari Games,0,Atari Games,0,-0.13822
+[CLS] Samurai Shodown:3 64 is developed by [MASK] [MASK] [MASK] . [SEP],Shodown:3,SNK:2,0,SNK:2,0,-0.02948
+[CLS] Killer Is Dead is developed by [MASK] [MASK] [MASK] . [SEP],Killer Is Dead,Grasshopper:3 Manufacture:3,0,Grasshopper:3 Manufacture:3,0,-0.03274
+[CLS] Dynamite:2 Duke is developed by [MASK] [MASK] [MASK] . [SEP],Dynamite:2 Duke,Seibu:2 Kaihatsu:3,0,Seibu:2 Kaihatsu:3,0,-0.26316
+[CLS] Astro Invader:2 is developed by [MASK] [MASK] [MASK] . [SEP],Astro Invader:2,Konami:2,0,Konami:2,0,-0.40224
+[CLS] Killing Day is developed by [MASK] [MASK] . [SEP],Killing Day,Ubisoft:3,0,Ubisoft:3,0,-0.04244
+[CLS] Rex Ronan:2 : Experimental Surgeon:2 is developed by [MASK] [MASK] . [SEP],Ronan:2,Sculptured:2 Software,0,Sculptured:2 Software,0,-0.00348
+[CLS] Ratchet:2 & Clank:2 Future : Quest for Booty:2 is developed by [MASK] [MASK] . [SEP],Ratchet:2,Insomniac:4 Games,0,Insomniac:4 Games,0,-0.00766
+[CLS] Keystone:2 Kapers:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Keystone:2 Kapers:2,"Activision:3 Publishing , Inc .",0,"Activision:3 Publishing , Inc .",0,-0.04603
+[CLS] El Grande is developed by [MASK] [MASK] . [SEP],El Grande,Wolfgang Kramer,0,Wolfgang Kramer,0,-0.28581
+[CLS] Grand Theft Auto is developed by [MASK] [MASK] [MASK] . [SEP],Grand Theft Auto,Rockstar:2 North,0,Rockstar:2 North,0,-0.26658
+[CLS] Real Bout:2 Fatal Fury is developed by [MASK] [MASK] . [SEP],Electronic Arts,SNK:2,0,SNK:2,0,-0.36468
+[CLS] Airforce:2 Delta is developed by [MASK] [MASK] . [SEP],Airforce:2,Konami:2,0,Konami:2,0,-0.01830
+[CLS] Adobe Persuasion:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Adobe Persuasion:3,Aldus:2,0,Aldus:2,0,-0.13562
+[CLS] Agaju:2 : The Sacred Path of Treasure is developed by [MASK] [MASK] . [SEP],Agaju:2,Gizmondo:3,0,Gizmondo:3,0,-0.00384
+[CLS] Deadliest:3 Warrior : Legends is developed by [MASK] [MASK] [MASK] . [SEP],Deadliest:3,Pipeworks:3 Software,0,Pipeworks:3 Software,0,-0.02497
+[CLS] jQuery:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],jQuery:4,John Resig:2,0,John Resig:2,0,-0.25812
+[CLS] Comic Party is developed by [MASK] [MASK] . [SEP],Comic Party,Aquaplus:2,0,Aquaplus:2,0,-0.35603
+[CLS] Cocoto:2 Fishing:2 Master is developed by [MASK] [MASK] . [SEP],Cocoto:2,Neko:2 Entertainment,0,Neko:2 Entertainment,0,-0.02073
+[CLS] Eureka:2 ! is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],T . T . T,Ian Livingstone,0,Ian Livingstone,0,-1.03644
+[CLS] language tag is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],M . M .,Internet Engineering Task Force,0,Internet Engineering Task Force,0,-1.03664
+[CLS] Monster Rancher:2 4 is developed by [MASK] [MASK] [MASK] . [SEP],Monster Rancher:2,Tecmo:3,0,Tecmo:3,0,-0.02834
+[CLS] Alien Breed:2 is developed by [MASK] [MASK] [MASK] . [SEP],Alien Breed:2,Team17:2,0,Team17:2,0,-0.01017
+[CLS] Delta Force : Xtreme:3 is developed by [MASK] [MASK] . [SEP],Delta Force,NovaLogic:4,0,NovaLogic:4,0,-0.00117
+[CLS] Public Key Cryptography:3 Standard 12 is developed by [MASK] [MASK] . [SEP],Public Key,RSA:2,0,RSA:2,0,-0.01072
+[CLS] Primal:2 is developed by [MASK] [MASK] . [SEP],Primal:2,Guerrilla:3 Cambridge,0,Guerrilla:3 Cambridge,0,-0.16119
+[CLS] iPod Nano:2 is developed by [MASK] [MASK] [MASK] . [SEP],iPod Nano:2,Apple Inc .,0,Apple Inc .,0,-0.09272
+[CLS] VM2000:2 is developed by [MASK] [MASK] . [SEP],VMS:2,Fujitsu:2 Siemens Computers:2,0,Fujitsu:2 Siemens Computers:2,0,-2.71530
+[CLS] F - 15 Strike Eagle II is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],F - 15 Strike Eagle,MicroProse:3,0,MicroProse:3,0,-0.03738
+[CLS] Armored:2 Car is developed by [MASK] [MASK] [MASK] . [SEP],Armored:2 Car,game companies named Stern,0,game companies named Stern,0,-0.03218
+[CLS] Solitaire:2 Royale is developed by [MASK] [MASK] . [SEP],Solitaire:2,Spectrum HoloByte:4,0,Spectrum HoloByte:4,0,-0.02917
+[CLS] 10 - Yard Fight is developed by [MASK] [MASK] [MASK] . [SEP],K . K,Irem:2,0,Irem:2,0,-0.54932
+[CLS] Heaven & Earth is developed by [MASK] [MASK] [MASK] . [SEP],Heaven & Earth,Disney Interactive Studios,0,Disney Interactive Studios,0,-0.05089
+[CLS] Pro Evolution Soccer is developed by [MASK] [MASK] [MASK] . [SEP],Pro Evolution Soccer,Konami:2,0,Konami:2,0,-0.12419
+[CLS] Battle Master is developed by [MASK] [MASK] . [SEP],Battle Master,Personal Software Services,0,Personal Software Services,0,-0.46808
+[CLS] Avernum:3 : Escape from the Pit is developed by [MASK] [MASK] [MASK] . [SEP],Avernum:3,Spiderweb:2 Software,0,Spiderweb:2 Software,0,-0.00277
+[CLS] C is developed by [MASK] [MASK] [MASK] . [SEP],C . C,International Organization for Standardization:2,0,International Organization for Standardization:2,0,-0.49623
+[CLS] Fish Fillets:3 NG is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Fish Fillets:3,Altar Games,0,Altar Games,0,-0.01352
+[CLS] F - 1 Sensation:2 is developed by [MASK] [MASK] [MASK] . [SEP],F - 1,Konami:2,0,Konami:2,0,-0.07543
+[CLS] Cadaver:2 is developed by [MASK] [MASK] . [SEP],Cadaver:2,The Bitmap:3 Brothers,0,The Bitmap:3 Brothers,0,-0.07310
+[CLS] Warcraft II : Beyond the Dark Portal is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the studio Blizzard Entertainment,Cyberlore:2 Studios,0,Cyberlore:2 Studios,0,-0.50824
+[CLS] Mamoru:3 - kun wa Norowarete:3 Shimatta:2 ! is developed by [MASK] [MASK] . [SEP],Tokuma:2,G . rev,0,G . rev,0,-1.39211
+[CLS] OverDrive:3 Media Console:2 is developed by [MASK] [MASK] [MASK] . [SEP],OverDrive:3,"OverDrive:3 , Inc .",0,"OverDrive:3 , Inc .",0,-0.09695
+[CLS] Berkut:3 spacesuit:2 is developed by [MASK] [MASK] [MASK] . [SEP],Berkut:3,NPP:2 Zvezda:3,0,NPP:2 Zvezda:3,0,-0.02350
+[CLS] Myth Makers:2 : Super Kart:2 GP is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nintendo console console consoles:2,Data Design Interactive,0,Data Design Interactive,0,-1.03587
+[CLS] Black Knight Sword is developed by [MASK] [MASK] [MASK] . [SEP],Black Knight Sword,Digital Reality,0,Digital Reality,0,-0.03227
+[CLS] MechWarrior:5 3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],MechWarrior:5,Zipper:2 Interactive,0,Zipper:2 Interactive,0,-0.00908
+[CLS] Ghostbusters:3 : Sanctum:2 of Slime:2 is developed by [MASK] [MASK] [MASK] . [SEP],Ghostbusters:3,Wanako:2 Studios,0,Wanako:2 Studios,0,-0.00601
+[CLS] Paper Mario is developed by [MASK] [MASK] . [SEP],Paper Mario,Intelligent:3 Systems,0,Intelligent:3 Systems,0,-0.14693
+[CLS] Jigsaw:3 Madness is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Jigsaw:3 Madness,Nippon Ichi:2 Software,0,Nippon Ichi:2 Software,0,-0.14313
+[CLS] GBA:2 Championship Basketball : Two - on - Two is developed by [MASK] [MASK] . [SEP],GBA:2,Dynamix:3,0,Dynamix:3,0,-0.00338
+[CLS] Swords:2 & Soldiers is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Swords:2 & Soldiers,Ronimo:2 Games,0,Ronimo:2 Games,0,-0.03780
+[CLS] Unix is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Brian Kernighan:3,0,Brian Kernighan:3,0,-0.06999
+[CLS] Naruto Shippuden:3 : Ultimate Ninja Storm 2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Tokuchi:3 Shoten:2,CyberConnect2:5,0,CyberConnect2:5,0,-0.69678
+[CLS] LittleBigPlanet:6 Karting:2 is developed by [MASK] [MASK] [MASK] . [SEP],LittleBig:3,Media Molecule:2,0,Media Molecule:2,0,-0.00467
+[CLS] Tales of the Abyss:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the studio of the studio,Namco:2 Tales Studio,0,Namco:2 Tales Studio,0,-1.12159
+[CLS] ANBO:3 V is developed by [MASK] [MASK] [MASK] . [SEP],ANBO:3,Antanas Gustaitis:3,0,Antanas Gustaitis:3,0,-0.04519
+[CLS] VMmark:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,VMware:2 Inc .,0,VMware:2 Inc .,0,-0.16463
+[CLS] Emotion:2 Engine is developed by [MASK] [MASK] [MASK] . [SEP],Emotion:2 Engine,Toshiba:3,0,Toshiba:3,0,-0.11283
+[CLS] Starship:2 Hector is developed by [MASK] [MASK] [MASK] . [SEP],Starship:2 Hector,Hudson Soft,0,Hudson Soft,0,-0.03236
+[CLS] Top Secret Spies:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Wolfgang Kramer,0,Wolfgang Kramer,0,-0.16885
+[CLS] Loco:2 is developed by [MASK] [MASK] . [SEP],Loco:2,Antony Crowther:2,0,Antony Crowther:2,0,-0.40123
+[CLS] Marathon Infinity is developed by [MASK] [MASK] . [SEP],Marathon Infinity,Bungie:3,0,Bungie:3,0,-0.18942
+[CLS] The Flash is developed by [MASK] [MASK] . [SEP],Adobe Flash,Acclaim:4 Studios London,0,Acclaim:4 Studios London,0,-0.20644
+[CLS] Sonic the Hedgehog:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sonic the Hedgehog:3,Sonic Team,0,Sonic Team,0,-0.01673
+[CLS] S3:2 is developed by [MASK] [MASK] . [SEP],S3:2,International Computers:2 Limited,0,International Computers:2 Limited,0,-0.31902
+[CLS] Metal Slug:2 6 is developed by [MASK] [MASK] [MASK] . [SEP],Metal Slug:2,SNK:2,0,SNK:2,0,-0.00980
+[CLS] Bookworm:2 Adventures is developed by [MASK] [MASK] . [SEP],Bookworm:2,PopCap:3 Games,0,PopCap:3 Games,0,-0.03568
+[CLS] Naruto : Rise of a Ninja is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Shuku:2 - Shuku:2,Ubisoft:3 Montreal,0,Ubisoft:3 Montreal,0,-0.63151
+[CLS] Dragon Slayer : The Legend of Heroes is developed by [MASK] [MASK] . [SEP],Dragon Slayer,Nihon Falcom:2,0,Nihon Falcom:2,0,-0.35651
+[CLS] Hedgehog:3 Engine is developed by [MASK] [MASK] [MASK] . [SEP],Hedgehog:3,Sonic Team,0,Sonic Team,0,-0.00243
+[CLS] Dissidia:3 012 Final Fantasy is developed by [MASK] [MASK] [MASK] . [SEP],Dissidia:3,Square Enix:2,0,Square Enix:2,0,-0.01344
+[CLS] Spaceward:2 Ho ! is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Spaceward:2 Ho !,Delta Tao Software,0,Delta Tao Software,0,-0.08309
+[CLS] Mary is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the K . K,SINTEF:3,0,SINTEF:3,0,-0.71347
+[CLS] Buzz ! : Quiz:2 World is developed by [MASK] [MASK] . [SEP],Buzz !,Relentless:3 Software,0,Relentless:3 Software,0,-0.07630
+[CLS] King ' s Quest VII : The Princeless:2 Bride is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],King ' s Quest,Sierra Entertainment,0,Sierra Entertainment,0,-0.00199
+[CLS] Teenage Mutant:2 Ninja Turtles:2 III : The Manhattan Project is developed by [MASK] [MASK] [MASK] . [SEP],the Manhattan Project,Konami:2,0,Konami:2,0,-0.79923
+[CLS] Viper:2 Phase 1 is developed by [MASK] [MASK] . [SEP],Viper:2,Seibu:2 Kaihatsu:3,0,Seibu:2 Kaihatsu:3,0,-0.01213
+[CLS] Neverwinter:3 Nights : Hordes:2 of the Underdark:3 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,BioWare:3,0,BioWare:3,0,-0.44785
+[CLS] Suikoden:3 II is developed by [MASK] [MASK] [MASK] . [SEP],Suikoden:3,Konami:2,0,Konami:2,0,-0.00615
+[CLS] Rescue on Fractalus:3 ! is developed by [MASK] [MASK] [MASK] . [SEP],R . R,LucasArts:3,0,LucasArts:3,0,-0.90751
+[CLS] Dynasty Warriors : Gundam is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Tokuma:2 Shoten:2,Koei:2,0,Koei:2,0,-0.39814
+[CLS] Korolyov:4 RP - 318 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Korolyov:4,Sergei Korolev:3,0,Sergei Korolev:3,0,-0.00771
+[CLS] WRC 4 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],WRC WRC and WRC WRC,Evolution Studios,0,Evolution Studios,0,-0.41243
+[CLS] Slam City with Scottie:2 Pippen:2 is developed by [MASK] [MASK] . [SEP],Slam City,Digital Pictures,0,Digital Pictures,0,-0.05669
+[CLS] Omikron:3 : The Nomad:2 Soul is developed by [MASK] [MASK] [MASK] . [SEP],Omikron:3,Quantic:2 Dream,0,Quantic:2 Dream,0,-0.00977
+[CLS] FL Studio Mobile is developed by [MASK] [MASK] . [SEP],FL Studio,Image - Line,0,Image - Line,0,-0.02565
+[CLS] Night Trap is developed by [MASK] [MASK] . [SEP],Night Trap,Digital Pictures,0,Digital Pictures,0,-0.22115
+[CLS] Tales of the Tempest:2 is developed by [MASK] [MASK] [MASK] . [SEP],the same company,Dimps:2,0,Dimps:2,0,-1.30712
+[CLS] Sandy Beach is developed by [MASK] [MASK] . [SEP],Sandy Beach,Frozen Codebase:2,0,Frozen Codebase:2,0,-0.20093
+[CLS] LittleBigPlanet:6 2 is developed by [MASK] [MASK] [MASK] . [SEP],LittleBig:3,Media Molecule:2,0,Media Molecule:2,0,-0.00493
+[CLS] Hot Wheels:2 Battle Force 5 is developed by [MASK] [MASK] [MASK] . [SEP],Hot Wheels:2,Sidhe:2,0,Sidhe:2,0,-0.00223
+[CLS] The Operative:2 : No One Lives Forever is developed by [MASK] [MASK] [MASK] . [SEP],The Operative:2,Monolith:3 Productions,0,Monolith:3 Productions,0,-0.10864
+[CLS] Adventures of Sherlock Holmes is developed by [MASK] [MASK] . [SEP],Sherlock Holmes,Frogwares:4,0,Frogwares:4,0,-0.07643
+[CLS] Freedom Force is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Defence,Sunsoft:2,0,Sunsoft:2,0,-0.16435
+[CLS] Forth:2 is developed by [MASK] [MASK] . [SEP],Forth:2,Charles H . Moore,0,Charles H . Moore,0,-0.04975
+[CLS] Sonic and the Secret Rings is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sonic and the Secret Rings,Sonic Team,0,Sonic Team,0,-0.02424
+[CLS] Gnash:3 is developed by [MASK] [MASK] [MASK] . [SEP],Gnash:3,GNU Project,0,GNU Project,0,-0.10042
+[CLS] Star Trek : Tactical Assault is developed by [MASK] [MASK] . [SEP],Star Trek,Quicksilver:3 Software,0,Quicksilver:3 Software,0,-0.13769
+[CLS] Tekken:2 3 is developed by [MASK] [MASK] . [SEP],Tekken:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.07891
+[CLS] The ClueFinders:5 Search and Solve:2 Adventures is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ClueFinders:5,The Learning Company,0,The Learning Company,0,-0.00389
+[CLS] Tenchi:2 Muyo:2 ! Game Hen is developed by [MASK] [MASK] [MASK] . [SEP],Toei:2 Animation,Banpresto:3,0,Banpresto:3,0,-0.56556
+[CLS] iWeb:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"the company , the company",Apple Inc .,0,Apple Inc .,0,-1.80400
+[CLS] Caesar III is developed by [MASK] [MASK] . [SEP],Caesar III,Impressions:3 Games,0,Impressions:3 Games,0,-0.35994
+[CLS] Cooking:2 Mama 3 : Shop & Chop:2 is developed by [MASK] [MASK] [MASK] . [SEP],Cooking:2 Mama,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.01096
+[CLS] MC Groovz:4 Dance Craze:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],MC Groovz:4,Mad Catz:2,0,Mad Catz:2,0,-0.01456
+[CLS] Cities XL 2012 is developed by [MASK] [MASK] . [SEP],Cities XL,Focus Home Interactive,0,Focus Home Interactive,0,-0.05769
+[CLS] Everybody ' s Gone to the Rapture:2 is developed by [MASK] [MASK] [MASK] . [SEP],the same company,The Chinese Room,0,The Chinese Room,0,-1.19128
+[CLS] bs:2 is developed by [MASK] [MASK] . [SEP],bs:2,Apple Inc .,0,Apple Inc .,0,-0.22002
+[CLS] Command & Conquer:2 : Tiberium:3 Alliances:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Command & Conquer:2,EA Phenomic:3,0,EA Phenomic:3,0,-0.03284
+[CLS] Bit . Trip Flux:2 is developed by [MASK] [MASK] [MASK] . [SEP],Bit . Trip,Choice Provisions:3,0,Choice Provisions:3,0,-0.00244
+[CLS] Halo is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Saber:2 Interactive,0,Saber:2 Interactive,0,-0.54178
+[CLS] Armored:2 Fist:2 3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Armored:2 Fist:2,NovaLogic:4,0,NovaLogic:4,0,-0.00626
+[CLS] Fatal Fury : King of Fighters is developed by [MASK] [MASK] [MASK] . [SEP],U . S,SNK:2,0,SNK:2,0,-0.23538
+[CLS] Apache ZooKeeper:4 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Apache ZooKeeper:4,Apache Software Foundation,0,Apache Software Foundation,0,-0.13653
+[CLS] Silver Surfer:2 is developed by [MASK] [MASK] [MASK] . [SEP],Silver Surfer:2,Software Creations:2,0,Software Creations:2,0,-0.08370
+[CLS] Mole:2 Mania:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Mole:2 Mania:2,Nintendo Entertainment Analysis & Development,0,Nintendo Entertainment Analysis & Development,0,-0.05576
+[CLS] Learjet:2 55 is developed by [MASK] [MASK] . [SEP],Learjet:2,Learjet:2,1,Learjet:2,1,-0.02220
+[CLS] Thor : God of Thunder is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Liquid Entertainment,0,Liquid Entertainment,0,-0.09218
+[CLS] Tournament of Legends is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the console console Game Gear,High Voltage:2 Software,0,High Voltage:2 Software,0,-0.92967
+[CLS] Dead Man ' s Hand is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Dead Man ' s,Human Head Studios,0,Human Head Studios,0,-0.18037
+[CLS] Evolution : The World of Sacred Device:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the E . E,Sting Entertainment,0,Sting Entertainment,0,-0.61034
+"[CLS] Warhammer:2 40 , 000 : Squad Command is developed by [MASK] [MASK] . [SEP]",Warhammer:2,RedLynx:4,0,RedLynx:4,0,-0.02120
+[CLS] The Legend of Heroes VII is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Nihon Falcom:2,0,Nihon Falcom:2,0,-0.41393
+[CLS] Zoo Tycoon:3 2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Zoo Tycoon:3,Blue Fang Games,0,Blue Fang Games,0,-0.00713
+[CLS] Learjet:2 25 is developed by [MASK] [MASK] . [SEP],Learjet:2,Learjet:2,1,Learjet:2,1,-0.03020
+[CLS] Ultimate Spider - Man : Total Mayhem:2 is developed by [MASK] . [SEP],Capcom,Gameloft:3,0,Gameloft:3,0,-0.72198
+[CLS] Pilotwings:3 is developed by [MASK] [MASK] [MASK] . [SEP],Pilotwings:3,Nintendo Entertainment Analysis & Development,0,Nintendo Entertainment Analysis & Development,0,-0.23765
+[CLS] NASCAR 98 is developed by [MASK] [MASK] [MASK] . [SEP],NASCAR Motorsports:2,EA Sports,0,EA Sports,0,-0.41208
+[CLS] Apache OpenJPA:3 is developed by [MASK] [MASK] . [SEP],Apache Apache,Apache Software Foundation,0,Apache Software Foundation,0,-0.20018
+[CLS] Divinity:3 : Dragon Commander is developed by [MASK] [MASK] [MASK] . [SEP],Divinity:3,Larian:2 Studios,0,Larian:2 Studios,0,-0.00109
+[CLS] Klonoa:3 : Door to Phantomile:2 is developed by [MASK] [MASK] [MASK] . [SEP],Klonoa:3,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.01391
+[CLS] Neverwinter:3 Nights 2 is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Obsidian:3 Entertainment,0,Obsidian:3 Entertainment,0,-0.40143
+[CLS] Dr . Franken is developed by [MASK] [MASK] [MASK] . [SEP],Dr . Franken,Elite Systems,0,Elite Systems,0,-0.06290
+[CLS] SilverFast:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the company SilverFast:3,LaserSoft:3 Imaging:2,0,LaserSoft:3 Imaging:2,0,-0.81012
+[CLS] Crossed:2 Swords:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Crossed:2 Swords:2,ADK:2,0,ADK:2,0,-0.02950
+[CLS] Sun Secure:2 Global Desktop:2 is developed by [MASK] [MASK] [MASK] . [SEP],Sun Secure:2,Sun Microsystems:2,0,Sun Microsystems:2,0,-0.01560
+[CLS] Mario Golf is developed by [MASK] [MASK] . [SEP],Mario Golf,Camelot:2 Software Planning,0,Camelot:2 Software Planning,0,-0.26067
+[CLS] The Evil Within is developed by [MASK] [MASK] [MASK] . [SEP],The Evil Within,Tango Gameworks:2,0,Tango Gameworks:2,0,-0.11595
+[CLS] The Chronicles of Riddick:3 : Escape from Butcher:2 Bay is developed by [MASK] [MASK] [MASK] . [SEP],Riddick:3,Starbreeze:3 Studios,0,Starbreeze:3 Studios,0,-0.00193
+[CLS] Crash of the Titans is developed by [MASK] [MASK] . [SEP],Warner Bros,Radical Entertainment,0,Radical Entertainment,0,-0.02211
+[CLS] Apache Excalibur:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Apache Apache Excalibur:3,Apache Software Foundation,0,Apache Software Foundation,0,-0.12629
+[CLS] Driver is developed by [MASK] [MASK] [MASK] . [SEP],the same company,Ubisoft:3 Reflections,0,Ubisoft:3 Reflections,0,-0.98795
+[CLS] BASIC09:3 is developed by [MASK] [MASK] [MASK] . [SEP],BASIC09:3,Microware:2,0,Microware:2,0,-0.44232
+[CLS] Sorcerian:3 is developed by [MASK] [MASK] [MASK] . [SEP],Sorcerian:3,Nihon Falcom:2,0,Nihon Falcom:2,0,-0.02673
+[CLS] Dungeons:3 & Dragons Computer Fantasy Game is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Dungeons:3 & Dragons,Mattel:2,0,Mattel:2,0,-0.02167
+[CLS] DJMax:3 Technika:2 2 is developed by [MASK] [MASK] [MASK] . [SEP],DJMax:3,Pentavision:3,0,Pentavision:3,0,-0.00462
+[CLS] Darwin is developed by [MASK] . [SEP],Darwin,Apple Inc .,0,Apple Inc .,0,-0.34585
+[CLS] Gals:2 Panic is developed by [MASK] [MASK] . [SEP],Gals:2,Kaneko:2,0,Kaneko:2,0,-0.02949
+[CLS] Poncotsu:3 Roman Daikatsugeki:5 Bumpy:3 Trot:2 2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Poncotsu:3 Roman,Irem:2,0,Irem:2,0,-0.00974
+[CLS] Movable:3 Type is developed by [MASK] [MASK] [MASK] . [SEP],Movable:3,Six Apart,0,Six Apart,0,-0.09980
+[CLS] Microsurgeon:3 is developed by [MASK] [MASK] [MASK] . [SEP],Microsurgeon:3,Imagic:2,0,Imagic:2,0,-0.22582
+[CLS] Rocks Cluster:2 Distribution is developed by [MASK] [MASK] [MASK] . [SEP],Rocks Cluster:2,San Diego Supercomputer:3 Center,0,San Diego Supercomputer:3 Center,0,-0.00288
+[CLS] Red Faction:2 is developed by [MASK] [MASK] [MASK] . [SEP],Red Faction:2,Deep Silver Volition:2,0,Deep Silver Volition:2,0,-0.07279
+[CLS] Thunderhawk:2 2 : Firestorm:3 is developed by [MASK] [MASK] . [SEP],Thunderhawk:2,Core Design,0,Core Design,0,-0.02809
+[CLS] MRC:2 is developed by [MASK] [MASK] . [SEP],MRC:2,British Medical Research Council,0,British Medical Research Council,0,-0.34794
+[CLS] NBA Give ' n Go is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Give ' n Go,Konami:2,0,Konami:2,0,-0.01700
+[CLS] 3D World Atlas is developed by [MASK] [MASK] [MASK] . [SEP],3D World Atlas,Cosmi:2 Corporation,0,Cosmi:2 Corporation,0,-0.27568
+[CLS] Tokimeki:3 Memorial 3 : Yakusoku:3 no Ano Basho:2 de is developed by [MASK] [MASK] [MASK] . [SEP],Tokimeki:3,Konami:2,0,Konami:2,0,-0.00731
+[CLS] Tower of Babel is developed by [MASK] [MASK] . [SEP],Steven Spielberg,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.05770
+[CLS] The Legend of the Mystical:2 Ninja is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Konami:2,0,Konami:2,0,-0.43187
+[CLS] Database - Packed:2 File is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Electronic Arts,0,Electronic Arts,0,-0.06102
+[CLS] Polar Bowler:2 is developed by [MASK] [MASK] [MASK] . [SEP],Polar Bowler:2,WildTangent:4,0,WildTangent:4,0,-0.09170
+[CLS] Full Throttle:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Full Throttle:3,LucasArts:3,0,LucasArts:3,0,-0.04977
+[CLS] Super Fighter is developed by [MASK] [MASK] . [SEP],Super Fighter,Super Fighter Team,0,Super Fighter Team,0,-0.14456
+[CLS] Cosmic Wars is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Konami:2,0,Konami:2,0,-0.15539
+[CLS] Drakan:2 : Order of the Flame is developed by [MASK] [MASK] . [SEP],Drakan:2,Surreal:2 Software,0,Surreal:2 Software,0,-0.26649
+[CLS] Musashi:2 : Samurai Legend is developed by [MASK] [MASK] [MASK] . [SEP],Shueisha:3,Square Enix:2,0,Square Enix:2,0,-0.21478
+[CLS] Mutation:2 Nation is developed by [MASK] [MASK] [MASK] . [SEP],Mutation:2 Nation,SNK:2,0,SNK:2,0,-0.05651
+[CLS] Kiki:2 Trick:2 is developed by [MASK] [MASK] . [SEP],Kiki:2,Nintendo Software Planning & Development,0,Nintendo Software Planning & Development,0,-0.03350
+[CLS] OmniPlan:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],OmniPlan:4,The Omni:2 Group,0,The Omni:2 Group,0,-0.09586
+[CLS] Structured:2 Query:2 Language is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Query:2 Society,Raymond F . Boyce:2,0,Raymond F . Boyce:2,0,-0.77700
+[CLS] Airport Tycoon:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Airport Tycoon:3,Krisalis:2 Software,0,Krisalis:2 Software,0,-0.43667
+[CLS] Metal Gear is developed by [MASK] [MASK] . [SEP],Metal Gear,Konami:2,0,Konami:2,0,-0.12017
+[CLS] Leather:2 Goddesses:3 of Phobos:3 2 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Infocom:2,0,Infocom:2,0,-0.67655
+[CLS] Golf is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Technology and Entertainment Software,0,Technology and Entertainment Software,0,-0.31274
+[CLS] XF5700:4 Mantis:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],XF5700:4,MicroProse:3,0,MicroProse:3,0,-0.02485
+[CLS] Luxor:2 2 is developed by [MASK] [MASK] . [SEP],Luxor:2,MumboJumbo:5,0,MumboJumbo:5,0,-0.01153
+[CLS] Pokémon Omega Ruby and Alpha Sapphire:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the team of the team,Game Freak,0,Game Freak,0,-1.38586
+[CLS] ActivePerl:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],ActivePerl:4,ActiveState:3,0,ActiveState:3,0,-0.15687
+[CLS] Automatic Storage:2 Management is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Government of the Philippines,Oracle Corporation,0,Oracle Corporation,0,-0.98756
+[CLS] WWE Immortals:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],WWE Immortals:3,NetherRealm:5 Studios,0,NetherRealm:5 Studios,0,-0.03060
+[CLS] Cal Ripken:3 Jr . Baseball is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Cal Ripken:3 Jr,Krome:2 Studios Melbourne,0,Krome:2 Studios Melbourne,0,-0.00183
+[CLS] Gremlins:3 2 : The New Batch:2 is developed by [MASK] [MASK] [MASK] . [SEP],Gremlins:3,Sunsoft:2,0,Sunsoft:2,0,-0.01114
+[CLS] Mashed:2 is developed by [MASK] [MASK] . [SEP],Mashed:2,Supersonic:3 Software,0,Supersonic:3 Software,0,-0.17352
+[CLS] Siege is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Mindcraft:2,0,Mindcraft:2,0,-0.09160
+"[CLS] Port Royale : Gold , Power and Pirates is developed by [MASK] [MASK] . [SEP]",Port Royale,Ascaron:3,0,Ascaron:3,0,-0.02273
+[CLS] Border Zone is developed by [MASK] [MASK] . [SEP],Border Zone,Infocom:2,0,Infocom:2,0,-0.22055
+[CLS] Links is developed by [MASK] [MASK] [MASK] . [SEP],Li Li Li,Indie Built,0,Indie Built,0,-0.99110
+[CLS] Bubba:2 ' n ' Stix:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Core Design,0,Core Design,0,-0.12316
+[CLS] Battle Arena Toshinden:3 is developed by [MASK] [MASK] [MASK] . [SEP],Toshinden:3,Tamsoft:3,0,Tamsoft:3,0,-0.28069
+[CLS] Structured:2 Query:2 Language is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Query:2 Society,International Organization for Standardization:2,0,International Organization for Standardization:2,0,-0.77700
+[CLS] OpenSSH:3 is developed by [MASK] [MASK] . [SEP],Source Source,OpenBSD:2,0,OpenBSD:2,0,-0.35948
+[CLS] Euro Truck Simulator:2 is developed by [MASK] [MASK] . [SEP],Euro Truck,SCS:2 Software,0,SCS:2 Software,0,-0.00593
+[CLS] Crash Bandicoot:3 2 : Cortex:2 Strikes:2 Back is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Crash Bandicoot:3,Naughty:3 Dog,0,Naughty:3 Dog,0,-0.03091
+[CLS] PC Tools:2 is developed by [MASK] [MASK] [MASK] . [SEP],PC Tools:2,Central Point Software,0,Central Point Software,0,-0.07445
+[CLS] Sky Jinks:2 is developed by [MASK] [MASK] [MASK] . [SEP],Sky Jinks:2,"Activision:3 Publishing , Inc .",0,"Activision:3 Publishing , Inc .",0,-0.11783
+[CLS] Corruption:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United Nations,Magnetic Scrolls:3,0,Magnetic Scrolls:3,0,-0.34675
+[CLS] Serpent:2 is developed by [MASK] [MASK] . [SEP],Serpent:2,Kaga:2 Create:2,0,Kaga:2 Create:2,0,-0.07611
+[CLS] Samurai Shodown:3 Anthology is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Samurai Shodown:3,SNK:2,0,SNK:2,0,-0.00612
+[CLS] Tex Murphy : Overseer:3 is developed by [MASK] [MASK] . [SEP],Tex Murphy,Indie Built,0,Indie Built,0,-0.01563
+[CLS] F - Zero : Maximum Velocity:3 is developed by [MASK] [MASK] [MASK] . [SEP],F - Zero,Nd:2 Cube,0,Nd:2 Cube,0,-0.01777
+[CLS] Double Dragon Neon is developed by [MASK] [MASK] [MASK] . [SEP],Double Dragon Neon,WayForward:4 Technologies,0,WayForward:4 Technologies,0,-0.30781
+[CLS] GNU Linux - libre is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],GNU Linux - libre,Alexandre Oliva,0,Alexandre Oliva,0,-0.06513
+[CLS] Apache Click:2 is developed by [MASK] [MASK] [MASK] . [SEP],Apache Click:2,Apache Software Foundation,0,Apache Software Foundation,0,-0.13112
+[CLS] The Tweenies:2 The Movie is developed by [MASK] [MASK] [MASK] . [SEP],The Tweenies:2,Tiertex:2 Design Studios,0,Tiertex:2 Design Studios,0,-0.05729
+[CLS] iPad mini 3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the iPad mini 3,Apple Inc .,0,Apple Inc .,0,-0.66309
+[CLS] Dark Adventure is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],"Dark Adventure , Inc",Konami:2,0,Konami:2,0,-0.24511
+[CLS] Mortal Kombat:2 is developed by [MASK] [MASK] [MASK] . [SEP],Mortal Kombat:2,NetherRealm:5 Studios,0,NetherRealm:5 Studios,0,-0.57533
+[CLS] Eco Shooter:2 : Plant 530 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Eco Shooter:2,Intelligent:3 Systems,0,Intelligent:3 Systems,0,-0.19201
+[CLS] Jump Ultimate Stars is developed by [MASK] [MASK] [MASK] . [SEP],Jump Ultimate Stars,Ganbarion:3,0,Ganbarion:3,0,-0.05148
+[CLS] Apple Cider:2 Spider is developed by [MASK] [MASK] [MASK] . [SEP],Apple Cider:2,Sierra Entertainment,0,Sierra Entertainment,0,-0.01731
+[CLS] Wishbringer:3 is developed by [MASK] [MASK] [MASK] . [SEP],Wishbringer:3,Infocom:2,0,Infocom:2,0,-0.03493
+[CLS] Gradius:2 Collection is developed by [MASK] [MASK] . [SEP],Gradius:2,Konami:2,0,Konami:2,0,-0.00732
+[CLS] Oracle Communications Messaging:2 Server is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Oracle Communications Messaging:2,Sun Microsystems:2,0,Sun Microsystems:2,0,-0.01446
+[CLS] OpenMAX:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the OpenMAX:3 Group,Khronos:3 Group,0,Khronos:3 Group,0,-0.47168
+[CLS] Major League Baseball 2K13:3 is developed by [MASK] [MASK] [MASK] . [SEP],the Defense Department,Visual Concepts:2,0,Visual Concepts:2,0,-1.20047
+[CLS] Ωmega:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],T . T . T,Portland State University,0,Portland State University,0,-0.63557
+[CLS] Wizardry:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Sir - Tech,0,Sir - Tech,0,-0.15812
+[CLS] Peggle:3 is developed by [MASK] [MASK] [MASK] . [SEP],Peggle:3,PopCap:3 Games,0,PopCap:3 Games,0,-0.03161
+[CLS] Sin and Punishment:3 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sin and Punishment:3,Nintendo Research & Development 1,0,Nintendo Research & Development 1,0,-0.01279
+[CLS] Emperor : Rise of the Middle Kingdom is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],console console console console,BreakAway:3 Games,0,BreakAway:3 Games,0,-0.47127
+[CLS] Mikie:2 is developed by [MASK] [MASK] . [SEP],Mikie:2,Konami:2,0,Konami:2,0,-0.60487
+[CLS] White Knight Chronicles : Origins is developed by [MASK] [MASK] [MASK] . [SEP],White Knight Chronicles,SIE:2 Japan Studio,0,SIE:2 Japan Studio,0,-0.12563
+[CLS] Spiral:2 Knights is developed by [MASK] [MASK] [MASK] . [SEP],Spiral:2 Knights,Three Rings Design,0,Three Rings Design,0,-0.00549
+[CLS] Dying Light is developed by [MASK] [MASK] . [SEP],Dying Light,Techland:2,0,Techland:2,0,-0.31843
+[CLS] Code Name : S . T . E . A . M . is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S . T . E,Intelligent:3 Systems,0,Intelligent:3 Systems,0,-0.00896
+[CLS] Apache Spark:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Apache Apache Apache Apache Apache,Apache Software Foundation,0,Apache Software Foundation,0,-0.09965
+[CLS] Ace Combat : Assault Horizon is developed by [MASK] [MASK] . [SEP],Ace Combat,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.03670
+[CLS] Tales of Vesperia:3 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,Namco:2 Tales Studio,0,Namco:2 Tales Studio,0,-0.66629
+[CLS] Godzilla : Destroy:3 All Monsters Melee:2 is developed by [MASK] [MASK] . [SEP],Melee:2,Pipeworks:3 Software,0,Pipeworks:3 Software,0,-0.05893
+[CLS] EA - 6B:2 Prowler:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],EA - 6B:2,Grumman:3,0,Grumman:3,0,-0.03427
+[CLS] Little Big Adventure 2 is developed by [MASK] [MASK] [MASK] . [SEP],Little Big Adventure,Adeline:2 Software International,0,Adeline:2 Software International,0,-0.02453
+[CLS] Haunted:2 Castle is developed by [MASK] [MASK] [MASK] . [SEP],Haunted:2 Castle,Konami:2,0,Konami:2,0,-0.07861
+[CLS] Robo:2 Rampage:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Robo:2 Rampage:2,Miniclip:3,0,Miniclip:3,0,-0.03892
+[CLS] Pirates of the Caribbean : Dead Man ' s Chest:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Pirates of the Caribbean,Griptonite:4 Games,0,Griptonite:4 Games,0,-0.01053
+[CLS] Treasure MathStorm:4 ! is developed by [MASK] [MASK] [MASK] . [SEP],the same company,The Learning Company,0,The Learning Company,0,-0.93724
+[CLS] Pokémon Red and Blue is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Pokémon Pokémon and Pokémon Pokémon,Game Freak,0,Game Freak,0,-0.60067
+[CLS] Majin:2 Tensei:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Majin:2 Tensei:2,Atlus:2,0,Atlus:2,0,-0.27681
+[CLS] SingStar:3 is developed by [MASK] [MASK] [MASK] . [SEP],SingStar:3,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.29145
+[CLS] I ' m Sorry is developed by [MASK] [MASK] [MASK] . [SEP],the same same,Banpresto:3,0,Banpresto:3,0,-1.19796
+[CLS] Bakutotsu:3 Kijūtei:4 is developed by [MASK] [MASK] [MASK] . [SEP],Tohoku:3,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.47066
+[CLS] Sacred Citadel:3 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,SouthEnd:3 Interactive,0,SouthEnd:3 Interactive,0,-0.24169
+[CLS] Michigan : Report from Hell is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Michigan : Report from Hell,Grasshopper:3 Manufacture:3,0,Grasshopper:3 Manufacture:3,0,-0.06044
+[CLS] Nine Inch:2 Nails:2 Revenge is developed by [MASK] [MASK] [MASK] . [SEP],U . S,Tapulous:3,0,Tapulous:3,0,-0.22519
+[CLS] SINIX:3 is developed by [MASK] [MASK] [MASK] . [SEP],SINIX:3,Siemens Nixdorf:3 Informationssysteme:3,0,Siemens Nixdorf:3 Informationssysteme:3,0,-0.30479
+[CLS] Kōryū:4 no Mimi is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Kōryū:4,VAP:2 Inc .,0,VAP:2 Inc .,0,-0.01005
+[CLS] Digital Asset:2 Exchange is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Digital Asset:2 Exchange,Khronos:3 Group,0,Khronos:3 Group,0,-0.07032
+[CLS] Savage is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Acclaim:4 Studios London,0,Acclaim:4 Studios London,0,-0.15564
+[CLS] Ys:2 Origin is developed by [MASK] [MASK] [MASK] . [SEP],Ys:2 Origin,Nihon Falcom:2,0,Nihon Falcom:2,0,-0.11803
+[CLS] Nail:2 ' d is developed by [MASK] [MASK] . [SEP],Nail:2,Techland:2,0,Techland:2,0,-0.05749
+[CLS] Apple Qmaster:2 is developed by [MASK] . [SEP],Apple,Apple Inc .,0,Apple Inc .,0,-0.05418
+[CLS] Dance 86 . 4 Funky:2 Radio Station is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Dance 86 . 4,Konami:2,0,Konami:2,0,-0.04180
+[CLS] Space Eggs:2 is developed by [MASK] [MASK] [MASK] . [SEP],Space Eggs:2,Nasir Gebelli:3,0,Nasir Gebelli:3,0,-0.12893
+[CLS] Chameleon:3 is developed by [MASK] [MASK] [MASK] . [SEP],Chameleon:3,2K:2 Czech,0,2K:2 Czech,0,-0.02008
+[CLS] I Made a Game with Zombies:2 in It ! is developed by [MASK] [MASK] . [SEP],Warner Bros,Ska:2 Studios,0,Ska:2 Studios,0,-0.03762
+[CLS] Wallace & Gromit:3 : The Curse of the Were - Rabbit is developed by [MASK] [MASK] [MASK] . [SEP],Gromit:3,Frontier Developments:2,0,Frontier Developments:2,0,-0.01661
+[CLS] Final Fantasy Crystal Chronicles : Ring of Fates:2 is developed by [MASK] [MASK] . [SEP],Final Fantasy,Square Enix:2,0,Square Enix:2,0,-0.01706
+[CLS] Grand Theft Auto Online is developed by [MASK] [MASK] [MASK] . [SEP],Grand Theft Auto,Rockstar:2 North,0,Rockstar:2 North,0,-0.08394
+[CLS] SNK:2 vs . Capcom : SVC:2 Chaos is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],SNK:2 vs . Capcom,SNK:2,0,SNK:2,0,-0.00173
+[CLS] Eberouge:3 is developed by [MASK] [MASK] [MASK] . [SEP],Eberouge:3,Fujitsu:2,0,Fujitsu:2,0,-0.01651
+[CLS] ARM architecture is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the University of North Carolina,ARM Holdings,0,ARM Holdings,0,-0.63143
+[CLS] Grand Prix Simulator:2 is developed by [MASK] [MASK] . [SEP],Grand Prix,Codemasters:3,0,Codemasters:3,0,-0.00346
+[CLS] Mac OS 8 is developed by [MASK] [MASK] [MASK] . [SEP],Mac OS 8,Apple Inc .,0,Apple Inc .,0,-0.50337
+[CLS] Star Trek : Elite Force II is developed by [MASK] [MASK] . [SEP],Star Trek,Ritual Entertainment,0,Ritual Entertainment,0,-0.08818
+[CLS] Water Data Transfer Format is developed by [MASK] [MASK] [MASK] . [SEP],Water Data Transfer,Commonwealth Scientific and Industrial Research Organisation,0,Commonwealth Scientific and Industrial Research Organisation,0,-0.16712
+[CLS] Deadlock:2 II : Shrine:2 Wars is developed by [MASK] [MASK] . [SEP],Deadlock:2,Cyberlore:2 Studios,0,Cyberlore:2 Studios,0,-0.01490
+[CLS] Hitman:2 : Absolution:3 is developed by [MASK] [MASK] . [SEP],Hitman:2,IO:2 Interactive,0,IO:2 Interactive,0,-0.01246
+[CLS] Crysis:2 2 is developed by [MASK] [MASK] . [SEP],Crysis:2,Crytek:2,0,Crytek:2,0,-0.03134
+[CLS] DONKEY:4 . BAS:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Bill Gates,0,Bill Gates,0,-0.10102
+[CLS] Little Computer People is developed by [MASK] [MASK] [MASK] . [SEP],Little Computer People,"Activision:3 Publishing , Inc .",0,"Activision:3 Publishing , Inc .",0,-0.06813
+[CLS] Virtua:2 Cop 2 is developed by [MASK] [MASK] [MASK] . [SEP],Virtua:2 Cop,Sega AM2:2,0,Sega AM2:2,0,-0.03520
+[CLS] Facebook is developed by [MASK] [MASK] [MASK] . [SEP],Facebook . com,Andrew McCollu:5,0,Andrew McCollu:5,0,-0.40693
+[CLS] Escape Velocity:3 Nova is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Escape Velocity:3,Ambrosia:3 Software,0,Ambrosia:3 Software,0,-0.00279
+[CLS] Monster Trux:3 Extreme : Offroad:3 Edition is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Monster Trux:3,Data Design Interactive,0,Data Design Interactive,0,-0.00635
+[CLS] Arcana:2 is developed by [MASK] [MASK] . [SEP],Arcana:2,HAL:2 Laboratory,0,HAL:2 Laboratory,0,-0.37095
+[CLS] Buzz ! : The Hollywood Quiz:2 is developed by [MASK] [MASK] . [SEP],Buzz !,Relentless:3 Software,0,Relentless:3 Software,0,-0.14695
+[CLS] Shattered:3 Steel is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Shattered:3 Steel,BioWare:3,0,BioWare:3,0,-0.02747
+[CLS] Wuala:2 is developed by [MASK] [MASK] . [SEP],Wuala:2,LaCie:3,0,LaCie:3,0,-0.53870
+[CLS] Legions:2 : Overdrive:3 is developed by [MASK] [MASK] [MASK] . [SEP],the Legions:2,GarageGames:4,0,GarageGames:4,0,-0.26716
+[CLS] Adventure Island : The Beginning is developed by [MASK] [MASK] . [SEP],Adventure Island,Hudson Soft,0,Hudson Soft,0,-0.04186
+[CLS] Facebook is developed by [MASK] [MASK] [MASK] . [SEP],Facebook . com,Mark Zuckerberg:3,0,Mark Zuckerberg:3,0,-0.40693
+[CLS] Escape Velocity:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Escape Velocity:3,Ambrosia:3 Software,0,Ambrosia:3 Software,0,-0.01844
+[CLS] Safecracker:3 : The Ultimate Puzzle:3 Adventure is developed by [MASK] [MASK] [MASK] . [SEP],Safecracker:3,Kheops:3 Studio,0,Kheops:3 Studio,0,-0.01462
+[CLS] Schema:3 . org is developed by [MASK] [MASK] [MASK] . [SEP],Schema:3,Yandex:3,0,Yandex:3,0,-0.02551
+[CLS] Arc is developed by [MASK] [MASK] [MASK] . [SEP],D ' Arc,Paul Graham,0,Paul Graham,0,-0.21434
+[CLS] B - 534 is developed by [MASK] [MASK] [MASK] . [SEP],B - 534,Avia:2,0,Avia:2,0,-0.42175
+[CLS] The Legend of Legacy is developed by [MASK] [MASK] . [SEP],Warner Bros,Grezzo:3,0,Grezzo:3,0,-0.03442
+[CLS] WarioWare:4 : Smooth:3 Moves:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],WarioWare:4,Nintendo Software Planning & Development,0,Nintendo Software Planning & Development,0,-0.00410
+[CLS] China Warrior is developed by [MASK] [MASK] . [SEP],China Warrior,Hudson Soft,0,Hudson Soft,0,-0.27955
+[CLS] Elimination:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],E . E .,Kee:2 Games,0,Kee:2 Games,0,-0.94971
+[CLS] Qix:2 II - Tournament is developed by [MASK] [MASK] . [SEP],Qix:2,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.01375
+[CLS] Buzz ! : The Sports Quiz:2 is developed by [MASK] [MASK] . [SEP],Buzz !,Kuju:2 Ltd .,0,Kuju:2 Ltd .,0,-0.09494
+[CLS] Xenoblade:4 Chronicles is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Xenoblade:4,Monolith:3 Soft,0,Monolith:3 Soft,0,-0.01255
+[CLS] Beneath:2 a Steel Sky is developed by [MASK] [MASK] [MASK] . [SEP],the same company,Revolution Software,0,Revolution Software,0,-1.15460
+[CLS] ESPN MLS ExtraTime:3 2002 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ESPN MLS ExtraTime:3,Konami:2,0,Konami:2,0,-0.00164
+[CLS] Flight Control is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Firemint:2,0,Firemint:2,0,-0.12126
+[CLS] Fantasy World Dizzy:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Fantasy World Dizzy:2,Oliver Twins,0,Oliver Twins,0,-0.01298
+[CLS] Takeshi no Chōsenjō:4 is developed by [MASK] [MASK] . [SEP],Shoten:2,Taito:2 Corporation,0,Taito:2 Corporation,0,-0.58006
+[CLS] Rolling Thunder 2 is developed by [MASK] [MASK] [MASK] . [SEP],Rolling Thunder 2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.57575
+[CLS] Vorbis:2 is developed by [MASK] [MASK] . [SEP],Vorbis:2,Xiph:2 . Org Foundation,0,Xiph:2 . Org Foundation,0,-0.06180
+[CLS] Marsport:2 is developed by [MASK] [MASK] . [SEP],Marsport:2,Gargoyle:3 Games,0,Gargoyle:3 Games,0,-0.50823
+[CLS] The Dagger:2 of Amon Ra is developed by [MASK] [MASK] [MASK] . [SEP],K . K,Sierra Entertainment,0,Sierra Entertainment,0,-0.57548
+[CLS] Lula:2 is developed by [MASK] [MASK] . [SEP],Lula:2,cdv:2 Software Entertainment,0,cdv:2 Software Entertainment,0,-0.15800
+[CLS] Vib:2 - Ripple:3 is developed by [MASK] [MASK] . [SEP],Vib:2,NanaOn:3 - Sha,0,NanaOn:3 - Sha,0,-0.04020
+[CLS] Waterworld:2 is developed by [MASK] [MASK] . [SEP],Waterworld:2,Ocean Software,0,Ocean Software,0,-0.48609
+[CLS] Return to Zork:2 is developed by [MASK] [MASK] [MASK] . [SEP],S . S,"Activision:3 Publishing , Inc .",0,"Activision:3 Publishing , Inc .",0,-0.42110
+[CLS] Diner:2 Dash 5 : BOOM:3 ! is developed by [MASK] [MASK] [MASK] . [SEP],Diner:2 Dash,PlayFirst:4,0,PlayFirst:4,0,-0.00664
+[CLS] Hydro:2 Thunder is developed by [MASK] [MASK] . [SEP],Hydro:2,Midway Games,0,Midway Games,0,-0.00596
+[CLS] Battlezone:2 II : Combat Commander is developed by [MASK] [MASK] [MASK] . [SEP],Battlezone:2 II,Pandemic:3 Studios,0,Pandemic:3 Studios,0,-0.48975
+[CLS] Reading Blaster:2 2000 is developed by [MASK] [MASK] [MASK] . [SEP],Reading Blaster:2,Davidson & Associates,0,Davidson & Associates,0,-0.00917
+[CLS] This Is Football is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Sports,SIE:2 London Studio,0,SIE:2 London Studio,0,-0.58264
+[CLS] Tail to Nose:2 is developed by [MASK] [MASK] [MASK] . [SEP],the United States,Video System,0,Video System,0,-0.17479
+[CLS] Powerball:2 is developed by [MASK] [MASK] . [SEP],Powerball:2,Bandai:2 Namco:2 Amusement:2,0,Bandai:2 Namco:2 Amusement:2,0,-0.61746
+[CLS] Chronicles of Mystery : The Scorpio:3 Ritual is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Chronicles of Mystery,CI:2 Games S . A .,0,CI:2 Games S . A .,0,-0.26915
+[CLS] Bejeweled:4 is developed by [MASK] [MASK] [MASK] . [SEP],Bejewel:3,PopCap:3 Games,0,PopCap:3 Games,0,-0.08006
+[CLS] AstroPop:3 is developed by [MASK] [MASK] [MASK] . [SEP],AstroPop:3,PopCap:3 Games,0,PopCap:3 Games,0,-0.56780
+[CLS] ColorSync:4 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],ColorSync:4,Apple Inc .,0,Apple Inc .,0,-0.19569
+[CLS] Pages is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Education,Apple Inc .,0,Apple Inc .,0,-0.40469
+[CLS] Sítio:3 do Picapau:3 Amarelo:2 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the city of São Paulo,Tectoy:3,0,Tectoy:3,0,-0.44003
+[CLS] AFL Mascot:2 Manor is developed by [MASK] [MASK] [MASK] . [SEP],AFL Mascot:2,Wicked Witch Software,0,Wicked Witch Software,0,-0.01206
+[CLS] Apache Synapse:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Apache Synapse:3,Apache Software Foundation,0,Apache Software Foundation,0,-0.07111
+[CLS] The Last Mission is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Opera Soft,0,Opera Soft,0,-0.18165
+[CLS] RoboCop:4 versus The Terminator is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],RoboCop:4,Virgin Interactive,0,Virgin Interactive,0,-0.02059
+[CLS] Offroad:3 Thunder is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Offroad:3 Thunder,Midway Games,0,Midway Games,0,-0.26395
+[CLS] Recoil:3 is developed by [MASK] [MASK] [MASK] . [SEP],Recoil:3,Zipper:2 Interactive,0,Zipper:2 Interactive,0,-0.14341
+[CLS] Falsion:3 is developed by [MASK] [MASK] [MASK] . [SEP],Falsion:3,Konami:2,0,Konami:2,0,-0.12174
+[CLS] Blokus:2 Portable : Steambot:2 Championship is developed by [MASK] [MASK] . [SEP],Blokus:2,Irem:2,0,Irem:2,0,-0.01026
+[CLS] Romance of the Three Kingdoms:2 IX is developed by [MASK] [MASK] . [SEP],Kirby Kirby,Koei:2,0,Koei:2,0,-0.45652
+[CLS] Pachislot:3 Akumajō:3 Dracula is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kazuyuki:3 Toki:2,Konami:2,0,Konami:2,0,-1.47942
+[CLS] Dragoon:2 Might:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Dragoon:2 Might:2,Konami:2,0,Konami:2,0,-0.04668
+[CLS] Let L - 610 is developed by [MASK] [MASK] . [SEP],Let Let,Aircraft Industries,0,Aircraft Industries,0,-0.10770
+[CLS] Apple Pippin:3 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Apple Pippin:3,Apple Inc .,0,Apple Inc .,0,-0.01704
+[CLS] Nancy Drew : Sea of Darkness is developed by [MASK] [MASK] . [SEP],Nancy Drew,Her Interactive,0,Her Interactive,0,-0.00183
+[CLS] The Adventures of Willy Beamish:3 is developed by [MASK] [MASK] [MASK] . [SEP],Walt Disney Studios,Dynamix:3,0,Dynamix:3,0,-0.12274
+[CLS] Wang OFFICE:4 is developed by [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Wang OFFICE:4,Wang Laboratories:2,0,Wang Laboratories:2,0,-0.06626
+[CLS] Homeworld:2 : Cataclysm:4 is developed by [MASK] [MASK] . [SEP],Homeworld:2,Rockstar:2 Vancouver,0,Rockstar:2 Vancouver,0,-0.00948
+[CLS] Rise of Nations : Rise of Legends is developed by [MASK] [MASK] [MASK] . [SEP],Rise of Nations,Big Huge:2 Games,0,Big Huge:2 Games,0,-0.11631
+[CLS] A City Sleeps:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],A City Sleeps:2,Harmonix:3 Music Systems,0,Harmonix:3 Music Systems,0,-0.09468
+[CLS] Trantor:3 : The Last Stormtrooper:3 is developed by [MASK] [MASK] [MASK] . [SEP],Trantor:3,Acclaim:4 Studios London,0,Acclaim:4 Studios London,0,-0.00476
+[CLS] Stronghold:2 Kingdoms:2 is developed by [MASK] [MASK] [MASK] [MASK] . [SEP],Stronghold:2 Kingdoms:2,Firefly:2 Studios,0,Firefly:2 Studios,0,-0.13440
+[CLS] Dungeon:3 Siege II is developed by [MASK] [MASK] [MASK] . [SEP],Dungeon:3,Wargaming:3 Seattle,0,Wargaming:3 Seattle,0,-0.02030

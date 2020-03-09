@@ -1,0 +1,995 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Fred Gerbic:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,New Zealand Labour Party,0,New Zealand Labour Party,0,-2.91992
+[CLS] Rudolf Henke:2 is a member of the [MASK] political party . [SEP],party,Christian Democratic Union,0,Christian Democratic Union,0,-2.65566
+[CLS] Leonardo Rodríguez Alcaine:3 is a member of the [MASK] political party . [SEP],Democratic,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.79728
+[CLS] Giuliano Pisapia:2 is a member of the [MASK] political party . [SEP],Italian,"Left , Ecology and Freedom",0,"Left , Ecology and Freedom",0,-2.78549
+[CLS] Dhananjay:3 Mahadik:2 is a member of the [MASK] political party . [SEP],party,Nationalist:2 Congress Party,0,Nationalist:2 Congress Party,0,-2.42015
+[CLS] Jennie:2 George is a member of the [MASK] political party . [SEP],Party,Australian Labor Party,0,Australian Labor Party,0,-3.79368
+[CLS] Pierre Arcand:2 is a member of the [MASK] political party . [SEP],party,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.12999
+[CLS] Mahadeepak:4 Singh Shakya:3 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.39381
+[CLS] Don Hopgood:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.11521
+[CLS] Eliezer:2 Cohen is a member of the [MASK] political party . [SEP],Israeli,Yisrael:3 Beiteinu:3,0,Yisrael:3 Beiteinu:3,0,-0.96868
+[CLS] Stephen Bromhead:3 is a member of the [MASK] political party . [SEP],Labour,National Party of Australia,0,National Party of Australia,0,-1.80092
+[CLS] Don Davies is a member of the [MASK] political party . [SEP],Labour,New Democratic Party,0,New Democratic Party,0,-1.05043
+[CLS] Wolfgang Pepper is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-2.82411
+[CLS] Michael Chan is a member of the [MASK] political party . [SEP],Chan,Ontario Liberal Party,0,Ontario Liberal Party,0,-1.69441
+[CLS] Ron Bailey is a member of the [MASK] political party . [SEP],Labour,New Zealand Labour Party,0,New Zealand Labour Party,0,-2.67781
+[CLS] Roger Dean is a member of the [MASK] [MASK] political party . [SEP],Green Party,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.58114
+[CLS] Girijakumari:5 S . is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.17051
+[CLS] C . N . Jayadevan:3 is a member of the [MASK] [MASK] [MASK] [MASK] political party . [SEP],Bharathia:4,Communist Party of India,0,Communist Party of India,0,-1.90212
+[CLS] Henri de Raincourt:2 is a member of the [MASK] political party . [SEP],Labour,Union for a Popular Movement,0,Union for a Popular Movement,0,-2.22708
+[CLS] Geoffrey Giles is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-0.58782
+[CLS] Mark Eyking:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.73642
+[CLS] Garry Kasparov:2 is a member of the [MASK] political party . [SEP],Russian,United Civil Front,0,United Civil Front,0,-1.30676
+[CLS] Wang Shusheng:3 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.61905
+[CLS] Xosé Manuel Beiras:2 is a member of the [MASK] political party . [SEP],Labour,Galician:2 Nationalist:2 Bloc:2,0,Galician:2 Nationalist:2 Bloc:2,0,-1.99240
+[CLS] Jayalath:3 Jayawardena:3 is a member of the [MASK] political party . [SEP],Party,United National Party,0,United National Party,0,-2.80311
+[CLS] Peter Sinclair is a member of the [MASK] political party . [SEP],Sinclair,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.32165
+[CLS] John Dallat:2 is a member of the [MASK] political party . [SEP],Democratic,Social Democratic and Labour Party,0,Social Democratic and Labour Party,0,-3.45039
+[CLS] Linda Fabiani:2 is a member of the [MASK] political party . [SEP],Italian,Scottish National Party,0,Scottish National Party,0,-2.58479
+[CLS] Sándor Farkas:2 is a member of the [MASK] political party . [SEP],Hungarian,Fidesz:3,0,Fidesz:3,0,-2.06032
+[CLS] José Varela Fernández is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Popular Democratic Party,0,Popular Democratic Party,0,-2.62461
+[CLS] C . P . Subbiah:3 Mudaliar:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-1.97177
+[CLS] Eduardo Doryan:2 is a member of the [MASK] political party . [SEP],party,National Liberation Party,0,National Liberation Party,0,-3.30265
+[CLS] Art Torres is a member of the [MASK] [MASK] [MASK] political party . [SEP],A - Party,Democratic Party,0,Democratic Party,0,-2.78826
+[CLS] Amitesh:3 Shukla:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.53979
+[CLS] Ruedi:2 Lustenberger:3 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic People ' s Party,0,Christian Democratic People ' s Party,0,-3.14694
+[CLS] Akira Nishino:2 is a member of the [MASK] political party . [SEP],SDP,New Frontier Party,0,New Frontier Party,0,-3.17724
+[CLS] Robert Weld:2 Mitchell is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.96935
+[CLS] Honoré Achim:3 is a member of the [MASK] political party . [SEP],ruling,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.21928
+[CLS] William A . Wilkins is a member of the [MASK] political party . [SEP],Democratic,Labour Party,0,Labour Party,0,-3.41909
+[CLS] Gaspar Zarrías:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Spanish Socialist Workers ' Party,0,Spanish Socialist Workers ' Party,0,-2.84751
+[CLS] Edmund Stoiber:3 is a member of the [MASK] political party . [SEP],Democratic,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-3.35484
+[CLS] Arthur Maloney:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.26523
+[CLS] Joseph Martin is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-3.04440
+[CLS] Rafael Paasio:3 is a member of the [MASK] political party . [SEP],Democratic,Social Democratic Party of Finland,0,Social Democratic Party of Finland,0,-2.96388
+[CLS] John Tory:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.35073
+[CLS] Harry Andrew Moore is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.75583
+[CLS] Amanda Vanstone:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-3.39952
+[CLS] Gabriel Loubier:2 is a member of the [MASK] political party . [SEP],Labour,Union Nationale,0,Union Nationale,0,-2.18862
+[CLS] Władysław Lizoń:3 is a member of the [MASK] political party . [SEP],Polish,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.08499
+[CLS] Marek Rocki:2 is a member of the [MASK] political party . [SEP],Polish,Civic Platform,0,Civic Platform,0,-2.16191
+[CLS] Jean Dubuc:2 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.13746
+[CLS] Li Jishen:2 is a member of the [MASK] political party . [SEP],party,Kuomintang:3,0,Kuomintang:3,0,-1.01582
+[CLS] Ad Melkert:2 is a member of the [MASK] political party . [SEP],Dutch,Labour Party,0,Labour Party,0,-4.05769
+[CLS] John Ewasew:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.45043
+[CLS] Hilde:2 Houben:2 - Bertrand is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,Christian Democratic and Flemish:3,0,Christian Democratic and Flemish:3,0,-1.41095
+[CLS] Joanne Benson is a member of the [MASK] political party . [SEP],party,Republican Party of Minnesota,0,Republican Party of Minnesota,0,-2.99778
+[CLS] Terry Donahoe:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Association of Nova Scotia,0,Progressive Conservative Association of Nova Scotia,0,-3.13774
+[CLS] Thomas Robertson is a member of the [MASK] political party . [SEP],Labour,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-2.40940
+[CLS] Ricardo Balbín:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Radical Civic Union,0,Radical Civic Union,0,-2.80243
+[CLS] Ed Fulton is a member of the [MASK] political party . [SEP],Fulton,Ontario Liberal Party,0,Ontario Liberal Party,0,-3.12705
+[CLS] Paul Crittenden:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.21477
+[CLS] Agar:2 Rodney Adamson:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-3.40716
+[CLS] Len Webber is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-2.94802
+[CLS] Andrzej Gołaś:3 is a member of the [MASK] political party . [SEP],party,Civic Platform,0,Civic Platform,0,-2.16420
+[CLS] Stewart Maxwell is a member of the [MASK] political party . [SEP],Labour,Scottish National Party,0,Scottish National Party,0,-2.31814
+[CLS] Mikalay:2 Dzyemyantsyey:6 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.33006
+[CLS] Giriraj:3 Poddar:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.55078
+[CLS] Wacław:3 Frankowski:2 is a member of the [MASK] political party . [SEP],Polish,Polish Workers ' Party,0,Polish Workers ' Party,0,-1.83940
+[CLS] Allen Trimble:2 is a member of the [MASK] political party . [SEP],Labour,Federalist:2 Party,0,Federalist:2 Party,0,-3.61505
+[CLS] Floyd M . Baker is a member of the [MASK] political party . [SEP],Democratic,Alberta Social Credit Party,0,Alberta Social Credit Party,0,-2.48691
+[CLS] Cristian Castaño:2 Contreras is a member of the [MASK] political party . [SEP],Democratic,National Action Party,0,National Action Party,0,-2.71066
+[CLS] Apiwan:3 Wiriyachai:4 is a member of the [MASK] political party . [SEP],party,Pheu:2 Thai Party,0,Pheu:2 Thai Party,0,-2.05579
+[CLS] Donald Archibald is a member of the [MASK] political party . [SEP],Scottish,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-1.73688
+[CLS] Qu Qiubai:3 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-2.13664
+[CLS] Jack Melloy:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.80126
+[CLS] Paul Piesse:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,New Zealand Labour Party,0,New Zealand Labour Party,0,-2.44538
+[CLS] Mark Norris is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-3.16328
+[CLS] Hamid Khan is a member of the [MASK] political party . [SEP],Pakistan,Pakistan Tehreek:3 - e - Insaf:3,0,Pakistan Tehreek:3 - e - Insaf:3,0,-1.62528
+[CLS] Louis Ruchonnet:4 is a member of the [MASK] political party . [SEP],Socialist,Free Democratic Party of Switzerland,0,Free Democratic Party of Switzerland,0,-2.61201
+[CLS] Aruna:2 Kumari:2 Galla:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.46849
+[CLS] P . J . Sheehan:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],B - - - Party,Fine Gael:2,0,Fine Gael:2,0,-3.70078
+[CLS] Mate Granić:2 is a member of the [MASK] political party . [SEP],Serbian,Croatian Democratic Union,0,Croatian Democratic Union,0,-1.81099
+[CLS] Georges Mamelonet:3 is a member of the [MASK] political party . [SEP],Socialist,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.85629
+[CLS] Alfred Gilpin:2 Jones is a member of the [MASK] political party . [SEP],Labour,Anti - Confederation Party,0,Anti - Confederation Party,0,-2.15822
+[CLS] James McKay Harding is a member of the [MASK] political party . [SEP],Ulster,Progressive Conservative Association of Nova Scotia,0,Progressive Conservative Association of Nova Scotia,0,-3.45149
+[CLS] Paranjape:3 Prakash:3 Vishvanath:4 is a member of the [MASK] political party . [SEP],party,Shiv:2 Sena,0,Shiv:2 Sena,0,-1.66347
+[CLS] Masashi:2 Ishibashi:3 is a member of the [MASK] political party . [SEP],SDP,Social Democratic Party,0,Social Democratic Party,0,-1.89686
+[CLS] Vasil:2 Biľak:3 is a member of the [MASK] political party . [SEP],Slovak,Communist Party of Czechoslovakia,0,Communist Party of Czechoslovakia,0,-2.68668
+[CLS] Michael Clapham:3 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.07407
+[CLS] Kyle Seeback:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],New - - - the,Conservative Party of Canada,0,Conservative Party of Canada,0,-3.65209
+[CLS] Royal Theodore Graham is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.03818
+[CLS] Girish:3 Bapat:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.27301
+[CLS] Cameron Murphy is a member of the [MASK] political party . [SEP],Ulster,Australian Labor Party,0,Australian Labor Party,0,-2.10218
+[CLS] John Curtin:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.05553
+[CLS] Michael Aird:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.44567
+[CLS] Klaus - Dieter Fritsche:3 is a member of the [MASK] political party . [SEP],SPD,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-1.82888
+[CLS] Donald Ewen:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-1.28708
+[CLS] Katrina Shanks:2 is a member of the [MASK] political party . [SEP],Labour,New Zealand National Party,0,New Zealand National Party,0,-3.70529
+[CLS] Achille - Ferdinand Carrier is a member of the [MASK] political party . [SEP],Labour,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.74666
+[CLS] Arthur - Joseph Lapointe:3 is a member of the [MASK] political party . [SEP],Socialist,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.56847
+[CLS] R . Margabandhu:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-3.00405
+[CLS] Barry Seal is a member of the [MASK] political party . [SEP],Seal,Labour Party,0,Labour Party,0,-1.80230
+[CLS] Luigi Di Maio is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Five Star Movement,0,Five Star Movement,0,-1.72073
+[CLS] Robert Greenshields:4 Meikle:2 is a member of the [MASK] political party . [SEP],Labour,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.60417
+[CLS] Jan Rokita:2 is a member of the [MASK] political party . [SEP],party,Civic Platform,0,Civic Platform,0,-2.70726
+[CLS] David Hernández Vallín:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.72473
+[CLS] R . T . Inbathamilan:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-3.06909
+[CLS] Ad Koppejan:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],K - Party,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.53413
+[CLS] Paul Blobel:3 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-2.98585
+[CLS] Allan Mansoor:2 is a member of the [MASK] political party . [SEP],Pakistan,California Republican Party,0,California Republican Party,0,-2.99734
+[CLS] Charles Ruijs:2 de Beerenbrouck:4 is a member of the [MASK] political party . [SEP],Labour,Roman Catholic State Party,0,Roman Catholic State Party,0,-2.51710
+[CLS] Agneta:3 Ringman:2 is a member of the [MASK] political party . [SEP],party,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-2.53719
+[CLS] Michael Brennan is a member of the [MASK] political party . [SEP],Brennan,Progressive Democrats,0,Progressive Democrats,0,-1.51049
+[CLS] Yolanda:2 González Hernández is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.49668
+[CLS] Charles Hueber:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Nazi Party,0,Nazi Party,0,-2.96023
+[CLS] Bill Edmonds:2 is a member of the [MASK] political party . [SEP],Conservative,Australian Labor Party,0,Australian Labor Party,0,-2.61625
+[CLS] Ludwig Erhard:2 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-2.18455
+[CLS] Robert Gladstone:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.88628
+[CLS] Margarita Flores Sánchez is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.38310
+[CLS] Pratibha:3 Singh is a member of the [MASK] political party . [SEP],Punjab,Indian National Congress,0,Indian National Congress,0,-3.14179
+[CLS] Arnold Darroch:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],A - Party,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.00848
+[CLS] Douglas Abbott is a member of the [MASK] political party . [SEP],Abbott,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.34333
+[CLS] Harry Butcher:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.21447
+[CLS] Peter Wood is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-0.67738
+[CLS] Tarja:2 Cronberg:3 is a member of the [MASK] political party . [SEP],Swedish,Green League,0,Green League,0,-1.60943
+[CLS] Alan Leong:2 is a member of the [MASK] political party . [SEP],Labour,Civic Party,0,Civic Party,0,-3.07683
+[CLS] S . Pasupathipillai:5 is a member of the [MASK] political party . [SEP],party,Tamil National Alliance,0,Tamil National Alliance,0,-1.88676
+[CLS] Waride:2 Bakari:2 Jabu:2 is a member of the [MASK] political party . [SEP],party,Party of the Revolution,0,Party of the Revolution,0,-2.07360
+[CLS] Huang Ju is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.91489
+[CLS] Josep Ibarz:3 i Gilart:2 is a member of the [MASK] political party . [SEP],party,Democratic Convergence:3 of Catalonia,0,Democratic Convergence:3 of Catalonia,0,-2.30853
+[CLS] Yosef:2 Kushnir:3 is a member of the [MASK] political party . [SEP],Syrian,Mapam:2,0,Mapam:2,0,-2.74583
+[CLS] Mike Ward is a member of the [MASK] political party . [SEP],Labour,Values:2 Party,0,Values:2 Party,0,-2.41971
+[CLS] Halina:2 Rozpondek:4 is a member of the [MASK] political party . [SEP],Polish,Civic Platform,0,Civic Platform,0,-1.72586
+[CLS] Reed Scowen:3 is a member of the [MASK] political party . [SEP],Democratic,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.85859
+[CLS] Tim Barnett is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,New Zealand Labour Party,0,New Zealand Labour Party,0,-2.86434
+[CLS] Carlos Castillo Peraza:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,National Action Party,0,National Action Party,0,-2.80572
+[CLS] Russell Kerr is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-0.74405
+[CLS] Pierre Vaillandet:3 is a member of the [MASK] political party . [SEP],Socialist,French Section of the Workers ' International,0,French Section of the Workers ' International,0,-2.40610
+[CLS] James Brien is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.36441
+[CLS] Pierre Reid is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.97670
+[CLS] K . Karunakaran:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.32205
+[CLS] Jerzy Kawalerowicz:4 is a member of the [MASK] political party . [SEP],Polish,Polish United Workers ' Party,0,Polish United Workers ' Party,0,-1.37569
+[CLS] Youssef:3 Amrani:2 is a member of the [MASK] political party . [SEP],party,Istiqlal:3 Party,0,Istiqlal:3 Party,0,-2.00619
+[CLS] Hans Zimmermann is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-1.83449
+[CLS] Martin Pakula:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Australian Labor Party,0,Australian Labor Party,0,-3.05618
+[CLS] Alyn:2 Smith is a member of the [MASK] political party . [SEP],Labour,Scottish National Party,0,Scottish National Party,0,-2.70366
+[CLS] David Emerson is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.38839
+[CLS] Praveen:3 Rashtrapal:4 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-1.85499
+[CLS] William Bennett is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.73509
+[CLS] Juan Francisco Rivera Bedoya:2 is a member of the [MASK] political party . [SEP],Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.60601
+[CLS] Reinert:2 Torgeirson:4 is a member of the [MASK] political party . [SEP],Norwegian,Communist Party of Norway,0,Communist Party of Norway,0,-2.16714
+[CLS] Kazimierz Plocke:2 is a member of the [MASK] political party . [SEP],Polish,Civic Platform,0,Civic Platform,0,-1.55700
+[CLS] Chaudhary:4 Lal:2 Singh is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.77780
+[CLS] Sten Nordin:2 is a member of the [MASK] political party . [SEP],Swedish,Moderate:2 Party,0,Moderate:2 Party,0,-2.05979
+[CLS] Shlomo:3 Benizri:3 is a member of the [MASK] political party . [SEP],party,Shas:2,0,Shas:2,0,-2.48515
+[CLS] Amarpal:2 Singh Ajnala:3 is a member of the [MASK] political party . [SEP],Party,Shiromani:3 Akali:2 Dal,0,Shiromani:3 Akali:2 Dal,0,-2.41718
+[CLS] Horst Mahler is a member of the [MASK] political party . [SEP],Mahler,National Democratic Party of Germany,0,National Democratic Party of Germany,0,-0.41771
+[CLS] Maria Minna:2 is a member of the [MASK] political party . [SEP],party,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.65687
+[CLS] Harshana:3 Rajakaruna:3 is a member of the [MASK] political party . [SEP],party,United National Party,0,United National Party,0,-2.07057
+[CLS] Charles Rich is a member of the [MASK] political party . [SEP],Conservative,Democratic - Republican Party,0,Democratic - Republican Party,0,-3.39770
+[CLS] Danny López Soto is a member of the [MASK] political party . [SEP],Democratic,New Progressive Party of Puerto Rico,0,New Progressive Party of Puerto Rico,0,-3.09173
+[CLS] Luc Van den Brande:2 is a member of the [MASK] political party . [SEP],Labour,Christian Democratic and Flemish:3,0,Christian Democratic and Flemish:3,0,-2.12795
+[CLS] Corey Mock:2 is a member of the [MASK] [MASK] political party . [SEP],Green Party,North Dakota Democratic - Nonpartisan:3 League Party,0,North Dakota Democratic - Nonpartisan:3 League Party,0,-2.26246
+[CLS] Francisc:2 Panet:2 is a member of the [MASK] political party . [SEP],Socialist,Romanian Communist Party,0,Romanian Communist Party,0,-3.10478
+[CLS] Wilhelm Amsinck:3 Burchard:3 - Motz:2 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-1.58175
+[CLS] A . K . Antony is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Indian National Congress,0,Indian National Congress,0,-2.73292
+[CLS] Gustav Sobottka:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Communist Party of Germany,0,Communist Party of Germany,0,-2.86627
+[CLS] Chandresh:3 Patel Kordia:2 is a member of the [MASK] political party . [SEP],Jain,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-3.00903
+[CLS] Özkan:3 Yorgancıoğlu:4 is a member of the [MASK] political party . [SEP],party,Republican Turkish Party,0,Republican Turkish Party,0,-1.13644
+[CLS] Cora:2 Taylor Casselman:3 is a member of the [MASK] political party . [SEP],Republican,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.49281
+[CLS] Tom Froese is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-3.01599
+[CLS] Prosper:2 Poullet:2 is a member of the [MASK] political party . [SEP],Labour,Catholic Party,0,Catholic Party,0,-1.71764
+[CLS] María Sornosa:3 Martinez is a member of the [MASK] political party . [SEP],party,Spanish Socialist Workers ' Party,0,Spanish Socialist Workers ' Party,0,-2.55060
+[CLS] Xu Qinxian:3 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.44411
+[CLS] Tarun:2 Ram Phukan:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.28308
+[CLS] Hanna Suchocka:3 is a member of the [MASK] political party . [SEP],Polish,Democratic Union,0,Democratic Union,0,-2.46681
+[CLS] Saddam Hussein is a member of the [MASK] political party . [SEP],Islamic,Ba ' ath:2 Party,0,Ba ' ath:2 Party,0,-1.41189
+[CLS] Rama Devi is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.39476
+[CLS] Hemchandra:4 Burman:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-3.21167
+[CLS] Michel Roussin:3 is a member of the [MASK] political party . [SEP],Labour,Rally for the Republic,0,Rally for the Republic,0,-2.15727
+[CLS] Hugo Vandenberghe:4 is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,Christian Democratic and Flemish:3,0,Christian Democratic and Flemish:3,0,-1.82692
+[CLS] Tjeerd:3 van Dekken:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.37267
+[CLS] Yasutoshi:4 Nishimura:3 is a member of the [MASK] political party . [SEP],party,Liberal Democratic Party,0,Liberal Democratic Party,0,-1.93548
+[CLS] Freya:2 Piryns:3 is a member of the [MASK] political party . [SEP],Latvian,Groen:2,0,Groen:2,0,-2.67216
+[CLS] Roman Zambrowski:4 is a member of the [MASK] political party . [SEP],Polish,Polish Workers ' Party,0,Polish Workers ' Party,0,-1.94515
+[CLS] John McMillan:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.56073
+[CLS] Bashir:2 Ahmad is a member of the [MASK] political party . [SEP],Pakistan,Scottish National Party,0,Scottish National Party,0,-2.38805
+[CLS] Alfons Gorbach:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Gorbach:3,Austrian People ' s Party,0,Austrian People ' s Party,0,-0.01078
+[CLS] Odd Holten:2 is a member of the [MASK] political party . [SEP],Labour,Christian Democratic Party,0,Christian Democratic Party,0,-2.07244
+[CLS] Harcharan:3 Singh Balli:2 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-2.78438
+[CLS] Rafael Erich is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,National Coalition Party,0,National Coalition Party,0,-3.03856
+[CLS] Margareta Cederfelt:3 is a member of the [MASK] political party . [SEP],Swedish,Moderate:2 Party,0,Moderate:2 Party,0,-2.05089
+[CLS] Ernst Damzog:2 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Nazi Party,0,Nazi Party,0,-2.09279
+[CLS] Brij:2 Bhushan:3 Mehra:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.36590
+[CLS] Dianne:2 Yates is a member of the [MASK] political party . [SEP],Democratic,New Zealand Labour Party,0,New Zealand Labour Party,0,-3.05034
+[CLS] Raymond Guyot:2 is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,French Communist Party,0,French Communist Party,0,-1.80842
+[CLS] Patricia Ferguson is a member of the [MASK] political party . [SEP],Labour,Scottish Labour Party,0,Scottish Labour Party,0,-3.15201
+[CLS] Maryam:2 Rajavi:2 is a member of the [MASK] political party . [SEP],Party,People ' s Mujahedin:4 of Iran,0,People ' s Mujahedin:4 of Iran,0,-2.36049
+[CLS] Johann Baptist Gradl:2 is a member of the [MASK] political party . [SEP],SPD,Centre Party,0,Centre Party,0,-2.75223
+[CLS] Jesús Alcántara:3 Núñez is a member of the [MASK] [MASK] [MASK] political party . [SEP],Social - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.86576
+[CLS] Maragatham:3 K is a member of the [MASK] [MASK] [MASK] political party . [SEP],Maragatham:3,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-0.02673
+[CLS] Neville Roper:2 is a member of the [MASK] political party . [SEP],Labour,Alberta Social Credit Party,0,Alberta Social Credit Party,0,-0.90714
+[CLS] Hashim:2 Safi:2 Al Din is a member of the [MASK] [MASK] political party . [SEP],Shafi:2,Hezbollah:3,0,Hezbollah:3,0,-1.85789
+[CLS] Derek Nolan is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.64080
+[CLS] Andrew Buchanan is a member of the [MASK] political party . [SEP],Buchanan,Jacksonian:2 Democracy,0,Jacksonian:2 Democracy,0,-0.97003
+[CLS] Amalia Fleming is a member of the [MASK] political party . [SEP],Swedish,Panhellenic:4 Socialist Movement,0,Panhellenic:4 Socialist Movement,0,-2.24075
+[CLS] T . Pachamal:3 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.79606
+[CLS] Robert Alexander Walker is a member of the [MASK] political party . [SEP],Party,Saskatchewan New Democratic Party,0,Saskatchewan New Democratic Party,0,-3.09899
+[CLS] Ingrid Lieten:2 is a member of the [MASK] political party . [SEP],party,Socialist Party Different,0,Socialist Party Different,0,-2.43071
+[CLS] Makongoro:3 Nyerere:2 is a member of the [MASK] political party . [SEP],party,Party of the Revolution,0,Party of the Revolution,0,-1.92759
+[CLS] Alasdair:3 Webster is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.35480
+[CLS] Wojciech Jaruzelski:3 is a member of the [MASK] political party . [SEP],Polish,Polish United Workers ' Party,0,Polish United Workers ' Party,0,-1.23468
+[CLS] Charles Langelier:2 is a member of the [MASK] political party . [SEP],Labour,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.41214
+[CLS] Daniel Johnson is a member of the [MASK] political party . [SEP],Johnson,Union Nationale,0,Union Nationale,0,-2.61968
+[CLS] Art Staed:3 is a member of the [MASK] political party . [SEP],Labour,Iowa Democratic Party,0,Iowa Democratic Party,0,-2.36758
+[CLS] Anton Lubowski:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,South - West Africa People ' s Organization,0,South - West Africa People ' s Organization,0,-2.61574
+[CLS] George Rankin:2 is a member of the [MASK] political party . [SEP],Conservative,National Party of Australia,0,National Party of Australia,0,-3.29659
+[CLS] Robin Richardson is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-1.12421
+[CLS] Anouchka:3 van Miltenburg:3 is a member of the [MASK] political party . [SEP],party,People ' s Party for Freedom and Democracy,0,People ' s Party for Freedom and Democracy,0,-2.18174
+[CLS] Christian Waber:3 is a member of the [MASK] political party . [SEP],Christian,Federal Democratic Union of Switzerland,0,Federal Democratic Union of Switzerland,0,-2.65200
+[CLS] Hartmut:2 Schwesinger:4 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-2.09296
+[CLS] Najeeb:3 Ahmed is a member of the [MASK] political party . [SEP],Pakistan,Pakistan Peoples Party,0,Pakistan Peoples Party,0,-1.90553
+[CLS] John Eldridge:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.82767
+[CLS] Punnulal:3 Mohle:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.12616
+[CLS] A . Chelladurai:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.57030
+[CLS] Michael Adye:2 Smith is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],New - - - Party,Australian Labor Party,0,Australian Labor Party,0,-3.76420
+[CLS] Miroslava:2 Němcová:5 is a member of the [MASK] political party . [SEP],Czech,Civic Democratic Party,0,Civic Democratic Party,0,-1.35829
+[CLS] Abel Nazario:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],A - Party,New Progressive Party of Puerto Rico,0,New Progressive Party of Puerto Rico,0,-2.52998
+[CLS] Tony Robinson is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.37996
+[CLS] Ilie:2 Pintilie:3 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Romanian Communist Party,0,Romanian Communist Party,0,-2.00739
+[CLS] William Schneider is a member of the [MASK] political party . [SEP],Democratic,Maine Republican Party,0,Maine Republican Party,0,-2.95224
+[CLS] Tiruchi:3 Siva:2 is a member of the [MASK] political party . [SEP],party,Dravida:3 Munnetra:3 Kazhagam:4,0,Dravida:3 Munnetra:3 Kazhagam:4,0,-2.69793
+[CLS] Raymond de Roon:2 is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,Party for Freedom,0,Party for Freedom,0,-1.86737
+[CLS] Donna Kennedy - Glans:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-3.10507
+[CLS] Abdulrahman:3 Kinana:2 is a member of the [MASK] political party . [SEP],Pakistan,Party of the Revolution,0,Party of the Revolution,0,-2.43069
+[CLS] Archie Gumede:3 is a member of the [MASK] political party . [SEP],Congo,African National Congress,0,African National Congress,0,-3.65428
+[CLS] Göran Persson is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-0.69687
+[CLS] Reino Paasilinna:4 is a member of the [MASK] [MASK] political party . [SEP],Social Party,Social Democratic Party of Finland,0,Social Democratic Party of Finland,0,-2.82796
+[CLS] Bill Routley:3 is a member of the [MASK] political party . [SEP],Conservative,British Columbia New Democratic Party,0,British Columbia New Democratic Party,0,-2.33602
+[CLS] Carlos Raúl Contín:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Radical Civic Union,0,Radical Civic Union,0,-2.78924
+[CLS] Mohamed Surty:2 is a member of the [MASK] political party . [SEP],party,African National Congress,0,African National Congress,0,-3.03139
+[CLS] Michelle Courchesne:3 is a member of the [MASK] political party . [SEP],Socialist,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.73004
+[CLS] Ebenezer:2 Vining:2 Bodwell:3 is a member of the [MASK] political party . [SEP],Conservative,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.48755
+[CLS] Krishna Bose is a member of the [MASK] political party . [SEP],party,All India Trinamool:3 Congress,0,All India Trinamool:3 Congress,0,-2.88609
+[CLS] Zoran Zaev:2 is a member of the [MASK] political party . [SEP],Serbian,Social Democratic Union of Macedonia,0,Social Democratic Union of Macedonia,0,-1.83917
+[CLS] Ed Lorraine is a member of the [MASK] political party . [SEP],Lorraine,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-2.11598
+[CLS] Alexandru Iacob:3 is a member of the [MASK] political party . [SEP],Moldova,Romanian Communist Party,0,Romanian Communist Party,0,-1.77353
+[CLS] James Johnson is a member of the [MASK] political party . [SEP],Johnson,Labour Party,0,Labour Party,0,-3.09156
+[CLS] David Dutremble:3 is a member of the [MASK] political party . [SEP],Labour,Maine Democratic Party,0,Maine Democratic Party,0,-2.27633
+[CLS] Maureen MacDonald is a member of the [MASK] political party . [SEP],Labour,Nova Scotia New Democratic Party,0,Nova Scotia New Democratic Party,0,-0.97860
+[CLS] Rob Fleming is a member of the [MASK] political party . [SEP],Labour,British Columbia New Democratic Party,0,British Columbia New Democratic Party,0,-2.82341
+[CLS] María Eugenia Campos Galván:2 is a member of the [MASK] political party . [SEP],party,National Action Party,0,National Action Party,0,-1.83369
+[CLS] Sanjay:2 Raut:2 is a member of the [MASK] political party . [SEP],Party,Shiv:2 Sena,0,Shiv:2 Sena,0,-2.74760
+[CLS] Karel Dillen:2 is a member of the [MASK] political party . [SEP],Labour,People ' s Union,0,People ' s Union,0,-3.46221
+[CLS] Michael Connelly:2 is a member of the [MASK] political party . [SEP],Labour,New Zealand Labour Party,0,New Zealand Labour Party,0,-2.68162
+[CLS] Erdoğan:2 Bayraktar:3 is a member of the [MASK] political party . [SEP],Turkish,Justice and Development Party,0,Justice and Development Party,0,-2.07004
+[CLS] Franz Six is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Nazi Party,0,Nazi Party,0,-2.99171
+[CLS] Sassui:3 Palijo:2 is a member of the [MASK] political party . [SEP],party,Pakistan Peoples Party,0,Pakistan Peoples Party,0,-2.71542
+[CLS] Darren Grimwade:4 is a member of the [MASK] political party . [SEP],Labour,Liberal National Party of Queensland,0,Liberal National Party of Queensland,0,-2.37125
+[CLS] Percy Hordern:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.83022
+[CLS] Hans Schaidinger:4 is a member of the [MASK] political party . [SEP],SPD,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-2.14768
+[CLS] Patrick Minahan:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.94670
+[CLS] Gabriel Rodríguez Aguiló:3 is a member of the [MASK] political party . [SEP],Democratic,New Progressive Party of Puerto Rico,0,New Progressive Party of Puerto Rico,0,-2.86353
+[CLS] R . Arunachalam:4 is a member of the [MASK] political party . [SEP],Party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.89186
+[CLS] Roderick:2 Blaker:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.10817
+[CLS] K . P . Paramasivam:3 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-1.92876
+[CLS] Yitzhak:3 Shamir:2 is a member of the [MASK] political party . [SEP],party,Likud:2,0,Likud:2,0,-2.89141
+[CLS] Luis Barrios Tassano:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Colorado Party,0,Colorado Party,0,-2.57250
+[CLS] Debby:2 Carlson is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.99571
+[CLS] Max Allwein:2 is a member of the [MASK] political party . [SEP],SPD,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-2.58841
+[CLS] Mário Covas:2 is a member of the [MASK] political party . [SEP],Portuguese,Brazilian Social Democracy Party,0,Brazilian Social Democracy Party,0,-1.90114
+[CLS] Bappi:2 Lahiri:3 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.35936
+[CLS] Edward Richards is a member of the [MASK] political party . [SEP],Labour,United Bermuda Party,0,United Bermuda Party,0,-1.76688
+[CLS] Peter Pedersen is a member of the [MASK] political party . [SEP],Labour,Left Party,0,Left Party,0,-2.28086
+[CLS] Margareta Israelsson:2 is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-1.62532
+[CLS] Tetsuma:3 Esaki:2 is a member of the [MASK] political party . [SEP],party,Liberal Democratic Party,0,Liberal Democratic Party,0,-2.16384
+[CLS] Vladimir Kryuchkov:4 is a member of the [MASK] political party . [SEP],Russian,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.68283
+[CLS] Roberto Madrazo:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.53718
+[CLS] Lin Shu - fen:2 is a member of the [MASK] political party . [SEP],party,Democratic Progressive Party,0,Democratic Progressive Party,0,-1.77538
+[CLS] Dan Mackinnon:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.84329
+[CLS] Mohammad Ali is a member of the [MASK] [MASK] political party . [SEP],Islami:2,Telangana:3 Rashtra:3 Samithi:2,0,Telangana:3 Rashtra:3 Samithi:2,0,-1.67460
+[CLS] K . V . Subba:2 Reddy:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-1.68239
+[CLS] María Antonieta:2 Pérez Reyes is a member of the [MASK] political party . [SEP],PP,National Action Party,0,National Action Party,0,-2.58253
+[CLS] Dadabhai:3 Naoroji:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.12675
+[CLS] Herbert Sri Nissanka:2 is a member of the [MASK] political party . [SEP],party,Sri Lanka Freedom Party,0,Sri Lanka Freedom Party,0,-2.36560
+[CLS] Raymond Knops:3 is a member of the [MASK] political party . [SEP],Labour,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.97860
+[CLS] Alain Meyer is a member of the [MASK] political party . [SEP],Labour,Luxembourg Socialist Workers ' Party,0,Luxembourg Socialist Workers ' Party,0,-1.87122
+[CLS] John Palmer MacBeth:3 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-1.16160
+[CLS] Alan Simpson is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-3.05639
+[CLS] Jacek Bogucki:3 is a member of the [MASK] political party . [SEP],Polish,Law and Justice,0,Law and Justice,0,-1.91414
+[CLS] M . Mayandi:2 Nadar:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.63906
+[CLS] Sadifa:2 Khamis:3 is a member of the [MASK] political party . [SEP],party,Party of the Revolution,0,Party of the Revolution,0,-1.97861
+[CLS] Anthony McGuin:4 Rankin:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-3.15994
+[CLS] Norah:2 Beare:2 is a member of the [MASK] political party . [SEP],Labour,Democratic Unionist:2 Party,0,Democratic Unionist:2 Party,0,-2.92905
+[CLS] Vuk:2 Drašković:4 is a member of the [MASK] political party . [SEP],Serbian,Serbian Renewal:2 Movement,0,Serbian Renewal:2 Movement,0,-1.37259
+[CLS] Alois Stöger:3 is a member of the [MASK] political party . [SEP],Austrian,Social Democratic Party of Austria,0,Social Democratic Party of Austria,0,-2.12755
+[CLS] Jenia:2 Taversky:3 is a member of the [MASK] political party . [SEP],party,Mapai:2,0,Mapai:2,0,-2.92333
+[CLS] Peter McMahon is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.93588
+[CLS] Penny Wright is a member of the [MASK] political party . [SEP],Labour,Australian Greens:2,0,Australian Greens:2,0,-1.55611
+[CLS] B . Raja Ravi Varma:2 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-1.97726
+[CLS] Aghasi:3 Khanjian:2 is a member of the [MASK] political party . [SEP],Pakistan,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.21401
+[CLS] Anna Záborská:4 is a member of the [MASK] political party . [SEP],Czech,Christian Democratic Movement,0,Christian Democratic Movement,0,-2.69563
+[CLS] Philip Collier is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.21583
+[CLS] Sophie Mirabella:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Australia,0,Liberal Party of Australia,0,-3.01766
+[CLS] Hanna Zetterberg:3 is a member of the [MASK] political party . [SEP],Swedish,Left Party,0,Left Party,0,-2.89884
+[CLS] Bruce Bishop is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.99398
+[CLS] Johanna Karimäki:2 is a member of the [MASK] political party . [SEP],Finnish,Green League,0,Green League,0,-1.79500
+[CLS] Hans de Boer is a member of the [MASK] political party . [SEP],Labour,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.37642
+[CLS] Karl von Westphalen:3 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-2.72217
+[CLS] Yannis:2 Dragasakis:4 is a member of the [MASK] political party . [SEP],Labour,Communist Party of Greece,0,Communist Party of Greece,0,-1.84941
+[CLS] Heinrich Rau:2 is a member of the [MASK] political party . [SEP],SPD,Socialist Unity Party of Germany,0,Socialist Unity Party of Germany,0,-2.06362
+[CLS] Ajay:2 Maroo:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.98554
+[CLS] Joseph Jackson Cleary:2 is a member of the [MASK] political party . [SEP],Democratic,Labour Party,0,Labour Party,0,-2.80445
+[CLS] Pape Diop:2 is a member of the [MASK] political party . [SEP],party,Senegalese:2 Democratic Party,0,Senegalese:2 Democratic Party,0,-2.46472
+[CLS] Martine Taelman:2 is a member of the [MASK] political party . [SEP],Labour,Open Flemish:3 Liberals:2 and Democrats,0,Open Flemish:3 Liberals:2 and Democrats,0,-2.65109
+[CLS] Karin Åström:2 is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-1.16469
+[CLS] Toby Barrett is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.90464
+[CLS] Charlotte Anita Whitney is a member of the [MASK] political party . [SEP],Whitney,Communist Labor Party of America,0,Communist Labor Party of America,0,-3.82428
+[CLS] James Hurst:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.52721
+[CLS] Thorleif:3 Røhn:3 is a member of the [MASK] political party . [SEP],Labour,Nasjonal:2 Samling:2,0,Nasjonal:2 Samling:2,0,-1.74876
+[CLS] Enneüs:3 Heerma:2 is a member of the [MASK] political party . [SEP],party,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.29564
+[CLS] Bob Ives:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.43084
+[CLS] Girdhari:4 Lal:2 Bhargava:4 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.28866
+[CLS] Glen Little is a member of the [MASK] [MASK] political party . [SEP],Green Party,Progressive Conservative Party of Newfoundland and Labrador,0,Progressive Conservative Party of Newfoundland and Labrador,0,-2.12828
+[CLS] Clifford Lincoln is a member of the [MASK] political party . [SEP],Lincoln,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.29472
+[CLS] Lynne Neagle:2 is a member of the [MASK] political party . [SEP],Labour,Welsh Labour,0,Welsh Labour,0,-3.06137
+[CLS] Harihar:2 Narayan:2 Prabhakar:4 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.01675
+[CLS] Christiane Scrivener:3 is a member of the [MASK] political party . [SEP],SPD,Republican Party,0,Republican Party,0,-1.82879
+[CLS] Albert Bedouce:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,French Section of the Workers ' International,0,French Section of the Workers ' International,0,-3.34791
+[CLS] John McDonald is a member of the [MASK] political party . [SEP],Labour,National Party of Australia,0,National Party of Australia,0,-2.05311
+[CLS] Viktor Yushchenko:3 is a member of the [MASK] political party . [SEP],Ukrainian,Our Ukraine,0,Our Ukraine,0,-1.84653
+[CLS] Paul Brousse:2 is a member of the [MASK] political party . [SEP],Labour,French Section of the Workers ' International,0,French Section of the Workers ' International,0,-2.30970
+[CLS] Pablo Longueira:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Independent Democratic Union,0,Independent Democratic Union,0,-2.45784
+[CLS] Abubakar:3 Saleh:2 Michika:3 is a member of the [MASK] political party . [SEP],party,National Republican Convention,0,National Republican Convention,0,-2.66462
+[CLS] William James Hammell:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Party of Canada,0,Progressive Party of Canada,0,-2.93967
+[CLS] María del Carmen Escudero:3 is a member of the [MASK] political party . [SEP],party,National Action Party,0,National Action Party,0,-2.20987
+[CLS] Flavio Maspoli:2 is a member of the [MASK] [MASK] political party . [SEP],Social Party,Ticino League,0,Ticino League,0,-2.86430
+[CLS] Sabitri:3 Mitra:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.66435
+"[CLS] Matthew Oakeshott:3 , Baron Oakeshott:3 of Seagrove:3 Bay is a member of the [MASK] political party . [SEP]",Labour,Liberal Democrats,0,Liberal Democrats,0,-0.89567
+[CLS] Jhong:2 Hilario:3 is a member of the [MASK] political party . [SEP],party,United Nationalist:2 Alliance,0,United Nationalist:2 Alliance,0,-2.39150
+[CLS] Robert Grant is a member of the [MASK] political party . [SEP],Labour,British Columbia Conservative Party,0,British Columbia Conservative Party,0,-2.79559
+[CLS] Petre:2 Roman is a member of the [MASK] political party . [SEP],Roman,National Salvation:2 Front,0,National Salvation:2 Front,0,-1.73175
+[CLS] Lambert Schaus is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Christian Social People ' s Party,0,Christian Social People ' s Party,0,-2.86021
+[CLS] Fernando de la Rúa:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Radical Civic Union,0,Radical Civic Union,0,-2.51742
+[CLS] Evangelia:3 Tzampazi:4 is a member of the [MASK] political party . [SEP],party,Panhellenic:4 Socialist Movement,0,Panhellenic:4 Socialist Movement,0,-2.13421
+[CLS] Jackie Kelly is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.86929
+[CLS] Hidipo:3 Hamutenya:3 is a member of the [MASK] political party . [SEP],party,Rally for Democracy and Progress,0,Rally for Democracy and Progress,0,-2.48730
+[CLS] Petra Steger:2 is a member of the [MASK] political party . [SEP],SPD,Austrian Freedom Party,0,Austrian Freedom Party,0,-1.94719
+[CLS] Harvie:2 Andre is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.89955
+[CLS] Ian Murray is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.62319
+[CLS] Mabel Rebello:2 is a member of the [MASK] political party . [SEP],Labour,Indian National Congress,0,Indian National Congress,0,-3.34498
+[CLS] Michael Lucy is a member of the [MASK] political party . [SEP],Lucy,Australian Labor Party,0,Australian Labor Party,0,-1.61130
+[CLS] Kanimozhi:3 is a member of the [MASK] political party . [SEP],party,Dravida:3 Munnetra:3 Kazhagam:4,0,Dravida:3 Munnetra:3 Kazhagam:4,0,-1.22201
+[CLS] Abdul Rahman Abbas is a member of the [MASK] political party . [SEP],Islamic,United Malays:2 National Organisation,0,United Malays:2 National Organisation,0,-2.43264
+[CLS] Jan Kohout:2 is a member of the [MASK] political party . [SEP],Labour,Communist Party of Czechoslovakia,0,Communist Party of Czechoslovakia,0,-2.50681
+[CLS] Roy Nikisch:2 is a member of the [MASK] political party . [SEP],Communist,Radical Civic Union,0,Radical Civic Union,0,-3.08389
+[CLS] Alexander Parvus:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-2.85311
+[CLS] P . K . Vairamuthu:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-1.60124
+[CLS] Hilda Narváez:3 Bravo is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.86742
+[CLS] Czesław:3 Fiedorowicz:3 is a member of the [MASK] political party . [SEP],party,Civic Platform,0,Civic Platform,0,-1.24587
+[CLS] Archibald Blacklow:2 is a member of the [MASK] political party . [SEP],Labour,United Australia Party,0,United Australia Party,0,-2.13322
+[CLS] George Hahn is a member of the [MASK] political party . [SEP],Hahn,Social Credit Party of Canada,0,Social Credit Party of Canada,0,-1.96422
+[CLS] Pál Csáky:3 is a member of the [MASK] political party . [SEP],party,Party of the Hungarian Community,0,Party of the Hungarian Community,0,-2.20218
+[CLS] Brian Sedgemore:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Democrats,0,Liberal Democrats,0,-1.28397
+[CLS] Fouad:2 Abou:2 Nader:2 is a member of the [MASK] political party . [SEP],party,Kataeb:2 Party,0,Kataeb:2 Party,0,-2.48354
+[CLS] Frank Engel is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Christian Social People ' s Party,0,Christian Social People ' s Party,0,-3.03256
+[CLS] Bert Soper:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.26303
+[CLS] Graeme:3 Campbell is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.52122
+[CLS] Charles Pannell:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.90123
+[CLS] Noriah:2 Kasnon:3 is a member of the [MASK] political party . [SEP],Syrian,United Malays:2 National Organisation,0,United Malays:2 National Organisation,0,-3.00300
+[CLS] David Watson is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.95677
+[CLS] Morley Kells:2 is a member of the [MASK] [MASK] political party . [SEP],Labour Party,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-0.38485
+[CLS] David Llewellyn:4 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-0.33215
+[CLS] Alexey:2 Stakhanov:4 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.32726
+[CLS] Nazeer:3 Ahmed Baghio:3 is a member of the [MASK] political party . [SEP],party,Pakistan Peoples Party,0,Pakistan Peoples Party,0,-2.86759
+[CLS] José Gerena:3 Polanco:2 is a member of the [MASK] political party . [SEP],party,New Progressive Party of Puerto Rico,0,New Progressive Party of Puerto Rico,0,-2.59966
+[CLS] Leonel:2 Sandoval Figueroa is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.09132
+[CLS] Colin Challen:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.15639
+[CLS] Pablo Arnaud Carreño:2 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.90843
+[CLS] Lillian van Litsenburg:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.72617
+[CLS] Yisrael:3 Guri:2 is a member of the [MASK] political party . [SEP],party,Mapai:2,0,Mapai:2,0,-2.20245
+[CLS] Jacob Gedleyihlekisa:6 Zuma:2 is a member of the [MASK] political party . [SEP],party,African National Congress,0,African National Congress,0,-2.68348
+[CLS] Juan Molinar:2 Horcasitas:4 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,National Action Party,0,National Action Party,0,-2.48750
+[CLS] Graham Ernst is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.02368
+[CLS] Arjun:2 Narasingha:3 K . C . is a member of the [MASK] political party . [SEP],Communist,Nepali:2 Congress,0,Nepali:2 Congress,0,-2.67531
+[CLS] Donald Greenfield:2 MacDonell:4 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.72023
+[CLS] Arthur Mitchell is a member of the [MASK] political party . [SEP],Labour,Yukon Liberal Party,0,Yukon Liberal Party,0,-2.72164
+[CLS] Akram:2 al - Hawrani:3 is a member of the [MASK] political party . [SEP],party,Arab Socialist Movement,0,Arab Socialist Movement,0,-1.98518
+[CLS] William Rodgers is a member of the [MASK] political party . [SEP],Labour,Liberal Democrats,0,Liberal Democrats,0,-2.71069
+[CLS] Han Changfu:2 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.25847
+[CLS] Jeremy Thorpe is a member of the [MASK] political party . [SEP],Labour,Liberal Party,0,Liberal Party,0,-0.97847
+[CLS] Barbro:2 Holmberg:2 is a member of the [MASK] political party . [SEP],party,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-2.28027
+[CLS] William H . Randall is a member of the [MASK] [MASK] political party . [SEP],Green Party,Unconditional:4 Union Party,0,Unconditional:4 Union Party,0,-2.35400
+[CLS] Gergely:3 Gulyás:4 is a member of the [MASK] political party . [SEP],Democratic,Fidesz:3,0,Fidesz:3,0,-2.79787
+[CLS] Ketki:2 Devi Singh is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.72999
+[CLS] Vedas:2 Venkaiah:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.54960
+[CLS] David Wilks:3 is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.49281
+[CLS] Anatoly:3 Lokot:2 is a member of the [MASK] political party . [SEP],party,Communist Party of the Russian Federation,0,Communist Party of the Russian Federation,0,-2.29905
+[CLS] Ralf Krewinkel:3 is a member of the [MASK] political party . [SEP],SPD,Labour Party,0,Labour Party,0,-1.33326
+[CLS] Tokia:2 Saïfi:3 is a member of the [MASK] political party . [SEP],party,Ecology Generation,0,Ecology Generation,0,-2.36034
+[CLS] Gilles Loiselle:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.37898
+[CLS] Ehud:3 Olmert:2 is a member of the [MASK] political party . [SEP],Democratic,Kadima:2,0,Kadima:2,0,-2.52805
+[CLS] A . P . Jithender:3 Reddy:2 is a member of the [MASK] political party . [SEP],party,Telangana:3 Rashtra:3 Samithi:2,0,Telangana:3 Rashtra:3 Samithi:2,0,-2.60822
+[CLS] José Alberto Castañeda:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,National Action Party,0,National Action Party,0,-2.25154
+[CLS] Gulab:3 Singh Shaktawat:3 is a member of the [MASK] political party . [SEP],Punjab,Indian National Congress,0,Indian National Congress,0,-2.61238
+[CLS] Leonel:2 Cota:2 Montaño:2 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-1.54390
+[CLS] Li Ruihuan:3 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.19275
+[CLS] Jörg Leichtfried:3 is a member of the [MASK] political party . [SEP],SPD,Social Democratic Party of Austria,0,Social Democratic Party of Austria,0,-1.93974
+[CLS] Sylvie Boucher:2 is a member of the [MASK] political party . [SEP],Socialist,Conservative Party of Canada,0,Conservative Party of Canada,0,-1.91187
+[CLS] Abhimanyu:4 Sindhu:3 is a member of the [MASK] political party . [SEP],Communist,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.55078
+[CLS] Ivan Venning:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.84590
+[CLS] Nichi:2 Vendola:2 is a member of the [MASK] political party . [SEP],party,"Left , Ecology and Freedom",0,"Left , Ecology and Freedom",0,-2.33163
+[CLS] Sitaram:2 Yechury:3 is a member of the [MASK] political party . [SEP],party,Communist Party of India ( Marxist:2 ),0,Communist Party of India ( Marxist:2 ),0,-2.42857
+[CLS] Esmond:2 Birnie:2 is a member of the [MASK] political party . [SEP],Labour,Ulster Unionist:2 Party,0,Ulster Unionist:2 Party,0,-1.89378
+[CLS] Mohan:2 Lal:2 Sukhadia:3 is a member of the [MASK] political party . [SEP],Pakistan,Indian National Congress,0,Indian National Congress,0,-2.15267
+[CLS] Matt Thistlethwaite:5 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.25097
+[CLS] Hiram:2 Blanchard is a member of the [MASK] [MASK] political party . [SEP],Green Party,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-2.66942
+[CLS] Anastasios:3 Nerantzis:3 is a member of the [MASK] political party . [SEP],party,New Democracy,0,New Democracy,0,-2.45040
+"[CLS] Oliver Kitson:2 , 4th Baron Airedale:2 is a member of the [MASK] [MASK] political party . [SEP]",Conservative Party,Liberal Democrats,0,Liberal Democrats,0,-0.86460
+[CLS] Héctor Mayagoitia:3 Domínguez is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.89591
+[CLS] Frank Kirwan:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.42206
+[CLS] Waldemar Quiles:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,New Progressive Party of Puerto Rico,0,New Progressive Party of Puerto Rico,0,-2.94072
+[CLS] Maya Ali is a member of the [MASK] political party . [SEP],Islamic,Labour Party,0,Labour Party,0,-3.02878
+[CLS] Jim McLay:4 is a member of the [MASK] political party . [SEP],Republican,New Zealand National Party,0,New Zealand National Party,0,-2.74998
+[CLS] Dan Muhlbauer:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Iowa Democratic Party,0,Iowa Democratic Party,0,-2.91230
+[CLS] Abdul Aziz al - Hakim is a member of the [MASK] [MASK] political party . [SEP],Umma:2,National Iraqi Alliance,0,National Iraqi Alliance,0,-1.00404
+[CLS] Rufus King is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Federalist:2 Party,0,Federalist:2 Party,0,-2.83375
+[CLS] Ajit:2 Pawar:2 is a member of the [MASK] political party . [SEP],Party,Nationalist:2 Congress Party,0,Nationalist:2 Congress Party,0,-2.49841
+[CLS] Mostafa:2 Tajzadeh:3 is a member of the [MASK] political party . [SEP],Pakistan,Islamic Iran Participation:2 Front,0,Islamic Iran Participation:2 Front,0,-2.49413
+[CLS] Carolina Viggiano:3 is a member of the [MASK] political party . [SEP],Democratic,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.62968
+[CLS] Annette Hurley is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.11750
+[CLS] Alejandro Guevara Cobos:2 is a member of the [MASK] political party . [SEP],Democratic,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.24614
+[CLS] Antanas Mockus:3 is a member of the [MASK] political party . [SEP],Lithuanian,Green Party,0,Green Party,0,-2.26168
+[CLS] Jorge Busti:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Justicialist:2 Party,0,Justicialist:2 Party,0,-2.84906
+[CLS] Reinette:2 Klever:2 is a member of the [MASK] political party . [SEP],party,Party for Freedom,0,Party for Freedom,0,-2.61018
+[CLS] Anwar Hussain:2 is a member of the [MASK] political party . [SEP],Pakistan,Indian National Congress,0,Indian National Congress,0,-2.95930
+[CLS] Paul Reynaud:3 is a member of the [MASK] political party . [SEP],Labour,Democratic Republican Alliance,0,Democratic Republican Alliance,0,-1.83944
+[CLS] Ieuan:2 Wyn:2 Jones is a member of the [MASK] political party . [SEP],Labour,Plaid:2 Cymru,0,Plaid:2 Cymru,0,-1.06724
+[CLS] José Ramírez Gamero:2 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.20718
+[CLS] J . Krishna Palemar:2 is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.98570
+[CLS] Larisa:3 Lee is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - Party,Country Liberal Party,0,Country Liberal Party,0,-3.36691
+[CLS] Raimo:2 Ilaskivi:4 is a member of the [MASK] political party . [SEP],Finnish,National Coalition Party,0,National Coalition Party,0,-2.38630
+[CLS] Avraham:3 Ravitz:2 is a member of the [MASK] political party . [SEP],Pakistan,Degel:2 HaTorah:4,0,Degel:2 HaTorah:4,0,-3.34530
+[CLS] Ed Harper is a member of the [MASK] political party . [SEP],Harper,Reform Party of Canada,0,Reform Party of Canada,0,-1.63661
+[CLS] Sergio Lorenzo Quiroz:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.71024
+[CLS] Bob Zimmer is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Conservative Party of Canada,0,Conservative Party of Canada,0,-3.00742
+[CLS] Ernst Bergmann:2 is a member of the [MASK] political party . [SEP],party,Nazi Party,0,Nazi Party,0,-2.19641
+[CLS] Sue Walker is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.70638
+[CLS] Farideh:3 Mashini:2 is a member of the [MASK] political party . [SEP],Pakistan,Islamic Iran Participation:2 Front,0,Islamic Iran Participation:2 Front,0,-2.01316
+[CLS] Hans Olsson is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-2.09271
+[CLS] Frederick Frost is a member of the [MASK] [MASK] political party . [SEP],Green Party,New Zealand Labour Party,0,New Zealand Labour Party,0,-2.03760
+[CLS] Presley Spruance:3 is a member of the [MASK] political party . [SEP],UK,Whig:2 Party,0,Whig:2 Party,0,-3.86693
+[CLS] Su Rong:2 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.31471
+[CLS] Archie Latimer:3 Hodgins:4 is a member of the [MASK] political party . [SEP],Conservative,Progressive Party of Canada,0,Progressive Party of Canada,0,-3.55555
+[CLS] Doug Moppett:3 is a member of the [MASK] political party . [SEP],Labour,National Party of Australia,0,National Party of Australia,0,-3.66033
+[CLS] James Cunningham is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.27871
+[CLS] Ken Monteith:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-1.54085
+[CLS] Rainer Wend:2 is a member of the [MASK] political party . [SEP],SPD,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-2.45708
+[CLS] Tan Soo Khoon:3 is a member of the [MASK] political party . [SEP],party,People ' s Action Party,0,People ' s Action Party,0,-2.18291
+[CLS] Achille Larose:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Quebec Liberal Party,0,Quebec Liberal Party,0,-3.09566
+[CLS] A . Jayamohan:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.05663
+[CLS] Zsigmond Kunfi:2 is a member of the [MASK] political party . [SEP],Hungarian,Hungarian Social Democratic Party,0,Hungarian Social Democratic Party,0,-1.54954
+[CLS] George Griffiths is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.98298
+[CLS] Joseph Garang:2 is a member of the [MASK] political party . [SEP],Democratic,Sudanese:2 Communist Party,0,Sudanese:2 Communist Party,0,-3.12335
+[CLS] John Clark is a member of the [MASK] political party . [SEP],Labour,Federalist:2 Party,0,Federalist:2 Party,0,-2.43491
+[CLS] Waldemar Witkowski:2 is a member of the [MASK] political party . [SEP],Polish,Labour Union,0,Labour Union,0,-2.11976
+[CLS] Don Marriott:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.16061
+[CLS] John Dufficy:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.32161
+[CLS] K . Swami Veerabahu:4 is a member of the [MASK] political party . [SEP],party,Tamil National Alliance,0,Tamil National Alliance,0,-2.18791
+[CLS] Shulamit:3 Aloni:2 is a member of the [MASK] political party . [SEP],party,Meretz:2,0,Meretz:2,0,-2.24255
+[CLS] Beatriz Zavala:2 is a member of the [MASK] [MASK] political party . [SEP],Social Party,National Action Party,0,National Action Party,0,-2.98333
+[CLS] William Homewood:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.91929
+[CLS] Salvador Allende is a member of the [MASK] [MASK] political party . [SEP],Salvador Allende,Socialist Party of Chile,0,Socialist Party of Chile,0,-0.00338
+[CLS] Andrew Gwynne:3 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.67211
+[CLS] Robert Tickner:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.23839
+[CLS] Chandan:2 Mitra:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.53027
+[CLS] Paul Hilton is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.32523
+[CLS] Thomas W . Bucci:2 is a member of the [MASK] political party . [SEP],Democratic,Democratic Party,0,Democratic Party,0,-2.57498
+[CLS] Manoj:2 Chakraborty:4 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-2.96364
+[CLS] Moses Elijah McGarry:5 is a member of the [MASK] political party . [SEP],Democratic,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-2.97932
+[CLS] Carlos Jonguitud:3 Barrios is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.00890
+[CLS] Lara Giddings:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.20002
+"[CLS] Alexander Fermor:3 - Hesketh:3 , 3rd Baron Hesketh:3 is a member of the [MASK] political party . [SEP]",Conservative,UK Independence Party,0,UK Independence Party,0,-1.04304
+[CLS] Yosef:2 Kremerman:3 is a member of the [MASK] political party . [SEP],Israeli,Herut:2,0,Herut:2,0,-2.42722
+[CLS] Christa:2 Schroeder:3 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-1.85835
+[CLS] James Rajotte:2 is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-3.27858
+[CLS] Louis Auguste Olivier is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.45802
+[CLS] David Vaughan is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.22105
+[CLS] Katalin Ertsey:3 is a member of the [MASK] political party . [SEP],Hungarian,Politics Can Be Different,0,Politics Can Be Different,0,-1.06456
+[CLS] William McDougall:5 is a member of the [MASK] political party . [SEP],Labour,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-2.07888
+[CLS] Rolando:2 Zapata Bello is a member of the [MASK] political party . [SEP],Democratic,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.04140
+[CLS] Mario Feleppa:3 is a member of the [MASK] political party . [SEP],Italian,Australian Labor Party,0,Australian Labor Party,0,-2.46215
+[CLS] Gheorghe Pintilie:3 is a member of the [MASK] political party . [SEP],PSD,Romanian Communist Party,0,Romanian Communist Party,0,-2.18367
+[CLS] Allan Pilkey:3 is a member of the [MASK] political party . [SEP],Labour,Ontario New Democratic Party,0,Ontario New Democratic Party,0,-1.89084
+[CLS] Nele:2 Lijnen:2 is a member of the [MASK] political party . [SEP],Labour,Open Flemish:3 Liberals:2 and Democrats,0,Open Flemish:3 Liberals:2 and Democrats,0,-1.97329
+[CLS] Baliram:2 Kashyap:4 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.45807
+[CLS] Joe Gander:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-2.86783
+[CLS] David Fawcett:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-1.66050
+[CLS] Claire Baker is a member of the [MASK] political party . [SEP],Labour,Scottish Labour Party,0,Scottish Labour Party,0,-2.30297
+[CLS] Paul Mullins:3 Gervais is a member of the [MASK] political party . [SEP],Gervais,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.70283
+[CLS] David Wright is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.10656
+[CLS] Sai Prathap:3 Annayyagari:4 is a member of the [MASK] [MASK] [MASK] [MASK] political party . [SEP],Bharaharai:4,Indian National Congress,0,Indian National Congress,0,-1.71101
+[CLS] Simon Finn is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.45122
+[CLS] Shantaram:3 Potdukhe:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-1.59242
+[CLS] Hu Qili:2 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-2.32869
+[CLS] Alex Finlay:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.80405
+[CLS] Alfred Bates is a member of the [MASK] political party . [SEP],Conservative,Labour Party,0,Labour Party,0,-2.84546
+[CLS] Dvora:2 Netzer:2 is a member of the [MASK] political party . [SEP],SPD,Mapai:2,0,Mapai:2,0,-3.58990
+[CLS] Rajni:2 Ranjan:3 Sahu:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.32821
+[CLS] Grażyna:4 Tyszko:3 is a member of the [MASK] political party . [SEP],party,Self - Defence of the Republic of Poland,0,Self - Defence of the Republic of Poland,0,-1.48688
+[CLS] Michael Considine:3 is a member of the [MASK] political party . [SEP],Democratic,Australian Labor Party,0,Australian Labor Party,0,-3.31439
+[CLS] Makoto Nishida:3 is a member of the [MASK] political party . [SEP],party,Komeito:2,0,Komeito:2,0,-2.81488
+[CLS] T . Venkata:3 Reddy:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],Bharayaya:4 Party,Indian National Congress,0,Indian National Congress,0,-1.84382
+[CLS] Kevin Stewart is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.87503
+[CLS] Willi Münzenberg:3 is a member of the [MASK] political party . [SEP],SPD,Communist Party of Germany,0,Communist Party of Germany,0,-1.84920
+[CLS] Dean Whiteway:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-3.03443
+[CLS] Allan Bresland:3 is a member of the [MASK] political party . [SEP],Labour,Democratic Unionist:2 Party,0,Democratic Unionist:2 Party,0,-1.55737
+[CLS] Dharmapuri:2 Srinivas:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.79725
+[CLS] Ajit:2 Jogi:2 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-3.09622
+[CLS] Angela Vautour:3 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.74516
+[CLS] Tajuddin:2 Ahmad is a member of the [MASK] [MASK] political party . [SEP],Islami:2,Bangladesh Awami:2 League,0,Bangladesh Awami:2 League,0,-1.68634
+[CLS] Jamie Nicholls:3 is a member of the [MASK] political party . [SEP],Labour,New Democratic Party,0,New Democratic Party,0,-1.08207
+[CLS] Ralph Klein is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-2.94660
+[CLS] Bente:2 Sandvig:2 is a member of the [MASK] political party . [SEP],Labour,Socialist Left Party,0,Socialist Left Party,0,-2.10889
+[CLS] José Antonio Girón:3 is a member of the [MASK] political party . [SEP],party,Juntas:2 de Ofensiva:2 Nacional - Sindicalista:3,0,Juntas:2 de Ofensiva:2 Nacional - Sindicalista:3,0,-2.23359
+[CLS] Mahadhi:2 Juma:2 Maalim:2 is a member of the [MASK] political party . [SEP],party,Party of the Revolution,0,Party of the Revolution,0,-2.33571
+[CLS] Marie Moloney:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.03030
+[CLS] Ger:2 Koopmans:3 is a member of the [MASK] political party . [SEP],Labour,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.22453
+[CLS] Elizabeth Witmer:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.92973
+[CLS] Bill Haigh:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.72006
+[CLS] André Ouellet:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.00102
+[CLS] Sadhu:2 Ram Sharma is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-2.25050
+[CLS] Pala:2 . Karuppiah:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.60265
+[CLS] Renate:2 Adolph is a member of the [MASK] political party . [SEP],party,The Left,0,The Left,0,-2.86224
+[CLS] Kwamena:2 Ahwoi:3 is a member of the [MASK] political party . [SEP],Democratic,National Democratic Congress,0,National Democratic Congress,0,-2.05116
+[CLS] Kerry Towle:3 is a member of the [MASK] political party . [SEP],Kerry,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-1.73953
+[CLS] Marie - Claude Vaillant:2 - Couturier:3 is a member of the [MASK] political party . [SEP],Labour,French Communist Party,0,French Communist Party,0,-2.09930
+[CLS] Paul Dewar:2 is a member of the [MASK] political party . [SEP],Labour,New Democratic Party,0,New Democratic Party,0,-2.83707
+[CLS] Prakash:3 Mehta:2 is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.60227
+[CLS] Krystyna:3 Łybacka:3 is a member of the [MASK] political party . [SEP],party,Polish United Workers ' Party,0,Polish United Workers ' Party,0,-1.11443
+[CLS] Petter Eide:2 is a member of the [MASK] political party . [SEP],Labour,Socialist Left Party,0,Socialist Left Party,0,-2.10384
+[CLS] William F . Johnston is a member of the [MASK] political party . [SEP],Democratic,Whig:2 Party,0,Whig:2 Party,0,-2.34137
+[CLS] Berndt:2 Röder:3 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-1.75012
+[CLS] Jorge Juraidini:3 is a member of the [MASK] political party . [SEP],Peru,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.94087
+[CLS] David Gillies:2 is a member of the [MASK] political party . [SEP],Labour,Quebec Liberal Party,0,Quebec Liberal Party,0,-1.63219
+[CLS] Rudolf Fehrmann:3 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-2.98642
+[CLS] John Carlyle Herbert is a member of the [MASK] political party . [SEP],Conservative,Federalist:2 Party,0,Federalist:2 Party,0,-2.22605
+[CLS] Nikolay:2 Shvernik:3 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.67267
+[CLS] Joseph Haslet:2 is a member of the [MASK] political party . [SEP],Socialist,Democratic - Republican Party,0,Democratic - Republican Party,0,-3.25117
+[CLS] Ralph Metcalf:3 is a member of the [MASK] political party . [SEP],Conservative,North Dakota Democratic - Nonpartisan:3 League Party,0,North Dakota Democratic - Nonpartisan:3 League Party,0,-2.83927
+[CLS] António Teixeira de Sousa is a member of the [MASK] political party . [SEP],PSD,Regenerator:3 Party,0,Regenerator:3 Party,0,-2.16481
+[CLS] Sid Prest:2 is a member of the [MASK] political party . [SEP],Labour,Nova Scotia New Democratic Party,0,Nova Scotia New Democratic Party,0,-2.97743
+[CLS] Alexander Peter Ross is a member of the [MASK] political party . [SEP],Scottish,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.88242
+[CLS] George Cooper is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.79721
+[CLS] Nanci:2 Parrilli:3 is a member of the [MASK] political party . [SEP],party,Justicialist:2 Party,0,Justicialist:2 Party,0,-2.66772
+[CLS] Marco Maciel:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,National Renewal:2 Alliance Party,0,National Renewal:2 Alliance Party,0,-2.90301
+[CLS] Giriraj:3 Singh is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.47353
+[CLS] Siegmund:2 Weltlinger:2 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-2.75745
+[CLS] U Lwin:2 is a member of the [MASK] political party . [SEP],party,National League for Democracy,0,National League for Democracy,0,-2.47311
+[CLS] Alfredo Anaya:2 Gudiño:2 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.24710
+[CLS] Heikki Ritavuori:3 is a member of the [MASK] political party . [SEP],Finnish,National Progressive Party,0,National Progressive Party,0,-1.71971
+[CLS] Pat Deering:2 is a member of the [MASK] political party . [SEP],Conservative,Fine Gael:2,0,Fine Gael:2,0,-3.08484
+[CLS] Carmel Shama:2 is a member of the [MASK] political party . [SEP],Muslim,Likud:2,0,Likud:2,0,-3.42120
+[CLS] Bud Bradley is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-3.00287
+[CLS] Željka:3 Antunović:3 is a member of the [MASK] political party . [SEP],Serbian,Social Democratic Party of Croatia,0,Social Democratic Party of Croatia,0,-1.84783
+[CLS] Elías:2 Rodríguez is a member of the [MASK] political party . [SEP],party,American Popular Revolutionary Alliance,0,American Popular Revolutionary Alliance,0,-2.41478
+[CLS] Eduardo Angeloz:2 is a member of the [MASK] political party . [SEP],party,Radical Civic Union,0,Radical Civic Union,0,-2.76723
+[CLS] Julián Gorkin:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,POUM:3,0,POUM:3,0,-2.84735
+[CLS] Antonín Novotný:2 is a member of the [MASK] political party . [SEP],Czech,Communist Party of Czechoslovakia,0,Communist Party of Czechoslovakia,0,-1.33395
+[CLS] Vicente González Lizondo:2 is a member of the [MASK] [MASK] political party . [SEP],Social Party,Valencian:2 Union,0,Valencian:2 Union,0,-2.77121
+[CLS] Eduardo Duhalde:3 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Justicialist:2 Party,0,Justicialist:2 Party,0,-1.72451
+[CLS] Alfred Ashley - Brown is a member of the [MASK] political party . [SEP],Conservative,Australian Labor Party,0,Australian Labor Party,0,-2.06481
+[CLS] Otto Hellmuth:2 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-2.56461
+[CLS] Raymond Dupont is a member of the [MASK] political party . [SEP],Democratic,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.96259
+[CLS] Raimo:2 Pärssinen:4 is a member of the [MASK] political party . [SEP],Finnish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-1.36883
+[CLS] Chandra Shekhar:3 is a member of the [MASK] political party . [SEP],Party,Samajwadi:3 Janata:2 Party,0,Samajwadi:3 Janata:2 Party,0,-2.67835
+[CLS] Steve Crabb:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-2.93709
+[CLS] K . Raghupati:4 Bhat:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-1.52825
+[CLS] Yang Sen is a member of the [MASK] political party . [SEP],party,Kuomintang:3,0,Kuomintang:3,0,-2.01753
+[CLS] Abdul Hamid Khan Bhashani:3 is a member of the [MASK] political party . [SEP],Pakistan,Bangladesh Awami:2 League,0,Bangladesh Awami:2 League,0,-1.51239
+[CLS] Knut Storberget:4 is a member of the [MASK] political party . [SEP],Norwegian,Norwegian Labour Party,0,Norwegian Labour Party,0,-2.22343
+[CLS] Lucinda:2 Creighton:3 is a member of the [MASK] political party . [SEP],Labour,Fine Gael:2,0,Fine Gael:2,0,-1.81006
+[CLS] Heidrun:3 Bluhm:2 is a member of the [MASK] political party . [SEP],SPD,The Left,0,The Left,0,-2.39627
+[CLS] Ivo Strejček:3 is a member of the [MASK] political party . [SEP],Czech,Civic Democratic Party,0,Civic Democratic Party,0,-2.79876
+[CLS] Danam:2 Nagender:2 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-2.84159
+[CLS] Michael Roth is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-3.04895
+[CLS] Abdul Rashid Shaheen:2 is a member of the [MASK] political party . [SEP],Pakistan,Jammu & Kashmir National Conference,0,Jammu & Kashmir National Conference,0,-2.55540
+[CLS] Subramaniam:4 Sinniah:2 is a member of the [MASK] political party . [SEP],party,Malaysian Indian Congress,0,Malaysian Indian Congress,0,-2.47675
+[CLS] André Bugnon:2 is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,Swiss People ' s Party,0,Swiss People ' s Party,0,-1.72932
+[CLS] Javed:2 Hashmi:2 is a member of the [MASK] political party . [SEP],Party,Pakistan Muslim League ( N ),0,Pakistan Muslim League ( N ),0,-2.72168
+[CLS] Khan Abdul Wali:2 Khan is a member of the [MASK] political party . [SEP],Pakistan,National Awami:2 Party,0,National Awami:2 Party,0,-1.30031
+[CLS] Pierre Derbigny:3 is a member of the [MASK] political party . [SEP],Labour,National Republican Party,0,National Republican Party,0,-2.19338
+[CLS] Chintaman:3 Vanaga:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.47466
+[CLS] Carlos Jiménez Macías:2 is a member of the [MASK] political party . [SEP],Democratic,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.41872
+[CLS] Benedict Ole - Nangoro:3 is a member of the [MASK] political party . [SEP],Nigerian,Party of the Revolution,0,Party of the Revolution,0,-2.33764
+[CLS] Felix Calonder:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Free Democratic Party of Switzerland,0,Free Democratic Party of Switzerland,0,-3.14438
+[CLS] Jarvis:2 Tyner:2 is a member of the [MASK] political party . [SEP],Labour,Communist Party USA,0,Communist Party USA,0,-1.87547
+[CLS] José Antonio Aguilar Bodegas:3 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.11373
+[CLS] John McWilliam:5 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.92791
+[CLS] Guy Ricard:2 is a member of the [MASK] political party . [SEP],Socialist,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.58270
+[CLS] Larry D . Shippy:2 is a member of the [MASK] political party . [SEP],Republican,Republican Party,0,Republican Party,0,-3.61659
+[CLS] Jacques Peyrat:3 is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,Independent Republicans,0,Independent Republicans,0,-1.75955
+[CLS] Ramswaroop:3 Koli:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-1.40121
+[CLS] William Haworth:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-1.43445
+[CLS] H . V . Evatt:2 is a member of the [MASK] political party . [SEP],Norwegian,Australian Labor Party,0,Australian Labor Party,0,-2.96664
+[CLS] George Taylor Fulford:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.07349
+[CLS] S . Narayanan:2 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.48268
+[CLS] Jeff Lantz:2 is a member of the [MASK] political party . [SEP],Democratic,Progressive Conservative Party of Prince Edward Island,0,Progressive Conservative Party of Prince Edward Island,0,-3.47678
+[CLS] Ferdi:2 Sabit:2 Soyer:2 is a member of the [MASK] political party . [SEP],Syrian,Republican Turkish Party,0,Republican Turkish Party,0,-2.79331
+[CLS] Kanwar:2 Singh Tanwar:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Bhara:2 Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.78959
+[CLS] Hubertus:2 Heil:2 is a member of the [MASK] political party . [SEP],SPD,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-2.70836
+[CLS] Ernie Shepherd is a member of the [MASK] political party . [SEP],Conservative,Australian Labor Party,0,Australian Labor Party,0,-2.62069
+[CLS] Sanath:2 Jayasuriya:3 is a member of the [MASK] political party . [SEP],party,United People ' s Freedom Alliance,0,United People ' s Freedom Alliance,0,-2.54477
+[CLS] Samudrala:3 Venugopal:4 Chary:2 is a member of the [MASK] political party . [SEP],party,Telangana:3 Rashtra:3 Samithi:2,0,Telangana:3 Rashtra:3 Samithi:2,0,-1.65870
+[CLS] Gao Shuxun:3 is a member of the [MASK] political party . [SEP],party,Kuomintang:3,0,Kuomintang:3,0,-1.03806
+[CLS] José Alberto González Morales is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.20381
+[CLS] Bud Nornes:2 is a member of the [MASK] political party . [SEP],Norwegian,Republican Party of Minnesota,0,Republican Party of Minnesota,0,-2.03302
+[CLS] John Robertson Dargavel:3 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.76674
+[CLS] Witold Gintowt:4 - Dziewałtowski:5 is a member of the [MASK] political party . [SEP],Polish,Democratic Left Alliance,0,Democratic Left Alliance,0,-1.16908
+[CLS] Jan Zahradil:3 is a member of the [MASK] political party . [SEP],Czech,Civic Democratic Party,0,Civic Democratic Party,0,-2.58780
+[CLS] Boris Yeltsin:3 is a member of the [MASK] political party . [SEP],Russia,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.01856
+[CLS] Devwrat:3 Singh is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.48810
+[CLS] Stan Randall is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.85071
+[CLS] Suzanne Lohnes:3 - Croft:2 is a member of the [MASK] political party . [SEP],Labour,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-1.72814
+[CLS] M . Kandaswamy:4 Padayachi:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-1.74941
+[CLS] Andy Manson is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-3.02887
+[CLS] Audrey Wise is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.56707
+[CLS] José Ignacio Paliza:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Dominican Revolutionary Party,0,Dominican Revolutionary Party,0,-2.72068
+[CLS] Razhden:3 Arsenidze:3 is a member of the [MASK] political party . [SEP],party,Russian Social Democratic Labour Party,0,Russian Social Democratic Labour Party,0,-1.65051
+[CLS] Ivan Melnikov:2 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.92066
+[CLS] Børre:2 Rønningen:3 is a member of the [MASK] political party . [SEP],Labour,Socialist Left Party,0,Socialist Left Party,0,-2.22094
+[CLS] Bill Eaton is a member of the [MASK] political party . [SEP],Eaton,Australian Labor Party,0,Australian Labor Party,0,-1.25799
+[CLS] George Porter is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Labour Party,0,Labour Party,0,-2.89609
+[CLS] Tamás Katona:2 is a member of the [MASK] political party . [SEP],Hungarian,Hungarian Democratic Forum,0,Hungarian Democratic Forum,0,-1.98352
+[CLS] Dennis Dawson is a member of the [MASK] political party . [SEP],Democratic,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.95144
+[CLS] José Antonio Labordeta:3 is a member of the [MASK] political party . [SEP],party,Chunta:2 Aragonesista:3,0,Chunta:2 Aragonesista:3,0,-2.03547
+[CLS] T . Rasalingam:3 is a member of the [MASK] political party . [SEP],party,Tamil United Liberation Front,0,Tamil United Liberation Front,0,-2.63943
+[CLS] Jussi Vatanen:2 is a member of the [MASK] political party . [SEP],Finnish,Social Democratic Party of Finland,0,Social Democratic Party of Finland,0,-0.96315
+[CLS] K . Palanisamy:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.21425
+[CLS] Justin Keating:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - Party,Labour Party,0,Labour Party,0,-3.19444
+[CLS] Rajesh:2 Khanna:2 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-2.59687
+[CLS] Jean Roy is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.08688
+[CLS] Lois Brown is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.62645
+"[CLS] George Grennell:3 , Jr . is a member of the [MASK] [MASK] political party . [SEP]",Green Party,National Republican Party,0,National Republican Party,0,-2.44305
+[CLS] Rafael Cancel:2 Miranda is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Puerto Rican:2 Nationalist:2 Party,0,Puerto Rican:2 Nationalist:2 Party,0,-2.94675
+[CLS] Dipika:3 Damerla:2 is a member of the [MASK] political party . [SEP],party,Ontario Liberal Party,0,Ontario Liberal Party,0,-2.61078
+[CLS] Jami:2 - Lee Ross is a member of the [MASK] political party . [SEP],Democratic,New Zealand National Party,0,New Zealand National Party,0,-3.10293
+[CLS] Napoléon Séguin:3 is a member of the [MASK] political party . [SEP],French,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.90729
+[CLS] Arnold Tusa:2 is a member of the [MASK] political party . [SEP],Democratic,Progressive Conservative Party of Saskatchewan,0,Progressive Conservative Party of Saskatchewan,0,-3.36779
+[CLS] Françoise d ' Eaubonne:3 is a member of the [MASK] political party . [SEP],party,French Communist Party,0,French Communist Party,0,-2.40492
+[CLS] William McLean Hamilton is a member of the [MASK] political party . [SEP],Party,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-3.21340
+[CLS] Jovan:2 Krkobabić:3 is a member of the [MASK] political party . [SEP],Serbian,Party of United Pensioners:3 of Serbia,0,Party of United Pensioners:3 of Serbia,0,-1.99037
+[CLS] Maurice Vellacott:3 is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.72362
+[CLS] Frederick Kidd is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-2.16792
+[CLS] Faye B . Culp:2 is a member of the [MASK] political party . [SEP],Democratic,Republican Party,0,Republican Party,0,-3.72104
+[CLS] S . John Jacob is a member of the [MASK] political party . [SEP],Labour,Indian National Congress,0,Indian National Congress,0,-3.50061
+[CLS] Gladys Strum:2 is a member of the [MASK] political party . [SEP],Labour,Co - operative Commonwealth Federation,0,Co - operative Commonwealth Federation,0,-3.09539
+[CLS] Ricardo Urzúa:3 Rivera is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.68642
+[CLS] Joseph Godbout:3 is a member of the [MASK] political party . [SEP],Socialist,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.58291
+[CLS] Vojislav:3 Mihailović:2 is a member of the [MASK] political party . [SEP],Serbian,Serbian Renewal:2 Movement,0,Serbian Renewal:2 Movement,0,-1.19550
+[CLS] Mustapha:3 Harun:2 is a member of the [MASK] political party . [SEP],Pakistan,United Sabah National Organisation,0,United Sabah National Organisation,0,-2.68979
+[CLS] Lech Kuropatwiński:4 is a member of the [MASK] political party . [SEP],Polish,Self - Defence of the Republic of Poland,0,Self - Defence of the Republic of Poland,0,-1.46216
+[CLS] Gladys Berejiklian:3 is a member of the [MASK] political party . [SEP],Democratic,Liberal Party of Australia,0,Liberal Party of Australia,0,-3.21764
+[CLS] Henry Stanislas:3 Harwood:2 is a member of the [MASK] political party . [SEP],Conservative,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.87245
+[CLS] Samuel Carey Bradshaw:2 is a member of the [MASK] political party . [SEP],Labour,Opposition Party,0,Opposition Party,0,-3.41707
+[CLS] Óscar García Barrón:2 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.44367
+[CLS] Rafi:2 Elul:2 is a member of the [MASK] political party . [SEP],Islamic,Israeli Labor Party,0,Israeli Labor Party,0,-2.63061
+[CLS] Fred Daly is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - a,Australian Labor Party,0,Australian Labor Party,0,-3.35906
+[CLS] Georgios:2 Voulgarakis:4 is a member of the [MASK] political party . [SEP],party,New Democracy,0,New Democracy,0,-2.61990
+[CLS] Dan Albas:2 is a member of the [MASK] [MASK] political party . [SEP],Albas:2,Conservative Party of Canada,0,Conservative Party of Canada,0,-0.22820
+[CLS] Gerhard Stoltenberg:3 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-1.62127
+[CLS] Graciano:3 Antuña:3 is a member of the [MASK] political party . [SEP],party,Spanish Socialist Workers ' Party,0,Spanish Socialist Workers ' Party,0,-2.37887
+[CLS] Ernst Meyer is a member of the [MASK] political party . [SEP],Labour,Communist Party of Germany,0,Communist Party of Germany,0,-2.44688
+[CLS] Ray Thomas is a member of the [MASK] political party . [SEP],Labour,Social Credit Party of Canada,0,Social Credit Party of Canada,0,-2.57910
+[CLS] Marko Đurić:3 is a member of the [MASK] political party . [SEP],Serbian,Serbian Progressive Party,0,Serbian Progressive Party,0,-2.69870
+[CLS] Rich Whitney is a member of the [MASK] political party . [SEP],Democratic,Illinois Green Party,0,Illinois Green Party,0,-3.72562
+[CLS] Zhang Xueliang:3 is a member of the [MASK] political party . [SEP],party,Kuomintang:3,0,Kuomintang:3,0,-1.11085
+[CLS] Ghulam:3 Hassan Pinglana:2 is a member of the [MASK] political party . [SEP],Pakistan,Indian National Congress,0,Indian National Congress,0,-2.77083
+[CLS] Fanny Brownbill:3 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.57449
+[CLS] Bernhard Rapkay:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-2.75541
+[CLS] Gordon Fogo:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.65946
+[CLS] Irene Blanco Becerra:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,National Action Party,0,National Action Party,0,-2.70644
+[CLS] Frank Gaha:2 is a member of the [MASK] political party . [SEP],Democratic,Australian Labor Party,0,Australian Labor Party,0,-3.58851
+[CLS] Sophie in ' t Veld:2 is a member of the [MASK] political party . [SEP],Socialist,Democrats 66,0,Democrats 66,0,-2.83946
+[CLS] Charles Marcil:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.54959
+[CLS] Angus MacLean:3 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Prince Edward Island,0,Progressive Conservative Party of Prince Edward Island,0,-1.64412
+[CLS] Erling:2 Bentzen:2 is a member of the [MASK] political party . [SEP],Labour,Communist Party of Norway,0,Communist Party of Norway,0,-2.42694
+[CLS] Henry McQuillan:5 is a member of the [MASK] political party . [SEP],Ulster,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-2.69299
+[CLS] Karl Döhler:3 is a member of the [MASK] political party . [SEP],SPD,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-2.21006
+[CLS] Kodiyeri:3 Balakrishnan:4 is a member of the [MASK] political party . [SEP],Party,Communist Party of India ( Marxist:2 ),0,Communist Party of India ( Marxist:2 ),0,-2.01981
+"[CLS] Anthony Jacobs , Baron Jacobs is a member of the [MASK] political party . [SEP]",Labour,Liberal Democrats,0,Liberal Democrats,0,-1.51939
+[CLS] Reshef:3 Hen is a member of the [MASK] political party . [SEP],party,Shinui:2,0,Shinui:2,0,-2.78039
+[CLS] Helga Pedersen is a member of the [MASK] political party . [SEP],Norwegian,Norwegian Labour Party,0,Norwegian Labour Party,0,-2.27132
+[CLS] Raghunath:4 Singh is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.80942
+[CLS] Karl Hans Strobl:3 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-2.45775
+[CLS] Teodoro Sandiko:2 is a member of the [MASK] political party . [SEP],Democratic,Nacionalista:2 Party,0,Nacionalista:2 Party,0,-2.34169
+[CLS] Javier Carrasquillo:4 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,New Progressive Party of Puerto Rico,0,New Progressive Party of Puerto Rico,0,-2.79591
+[CLS] Ágnes:2 Molnár:2 is a member of the [MASK] political party . [SEP],Hungarian,Fidesz:3,0,Fidesz:3,0,-3.21093
+[CLS] Bert Leboe:3 is a member of the [MASK] political party . [SEP],Labour,Social Credit Party of Canada,0,Social Credit Party of Canada,0,-1.87586
+[CLS] Curtis Malloch:2 is a member of the [MASK] political party . [SEP],Democratic,Progressive Conservative Party of New Brunswick,0,Progressive Conservative Party of New Brunswick,0,-3.06677
+[CLS] Alexander Ilyich:3 Yegorov:3 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.16616
+[CLS] Bart Somers:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Open Flemish:3 Liberals:2 and Democrats,0,Open Flemish:3 Liberals:2 and Democrats,0,-2.73648
+[CLS] Stuart Agnew:3 is a member of the [MASK] political party . [SEP],Labour,UK Independence Party,0,UK Independence Party,0,-1.63963
+[CLS] Barbara Ronson:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Democrats,0,Liberal Democrats,0,-2.66605
+[CLS] César Jáuregui:3 Robles:2 is a member of the [MASK] political party . [SEP],party,National Action Party,0,National Action Party,0,-2.27525
+[CLS] Josef Albert Meisinger:2 is a member of the [MASK] political party . [SEP],Austrian,Nazi Party,0,Nazi Party,0,-3.28127
+[CLS] Sardar:2 Muhammad Yaqoob:4 Khan Nasar:2 is a member of the [MASK] political party . [SEP],Pakistan,Pakistan Muslim League ( N ),0,Pakistan Muslim League ( N ),0,-0.92831
+[CLS] John Prescott is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.59126
+[CLS] Karapet:2 by Ruben Rubinyan:2 is a member of the [MASK] political party . [SEP],party,Pan - Armenian National Movement,0,Pan - Armenian National Movement,0,-3.38350
+[CLS] Thomas Walter Scott is a member of the [MASK] political party . [SEP],Scott,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.46514
+[CLS] William McCreary:5 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.56035
+[CLS] John Leerdam:3 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.09914
+[CLS] C . N . Visvanathan:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-1.66989
+[CLS] Gabriel Gómez Michel is a member of the [MASK] [MASK] political party . [SEP],Green Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.16574
+[CLS] Shane Rattenbury:3 is a member of the [MASK] political party . [SEP],Labour,Australian Greens:2,0,Australian Greens:2,0,-2.06879
+[CLS] Li Hanhun:2 is a member of the [MASK] political party . [SEP],party,Kuomintang:3,0,Kuomintang:3,0,-1.26762
+[CLS] Bill Shorten:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-3.16626
+[CLS] Hermann Dietrich is a member of the [MASK] political party . [SEP],SPD,German Democratic Party,0,German Democratic Party,0,-2.20706
+[CLS] Julie Greig:3 is a member of the [MASK] political party . [SEP],SPD,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.75701
+[CLS] Jo Grimond:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party,0,Liberal Party,0,-2.86975
+[CLS] Don Brown is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-2.89317
+[CLS] Fabricio:3 Ojeda:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Democratic Republican Union,0,Democratic Republican Union,0,-2.66089
+[CLS] Manda:2 Vijay Mhatre:3 is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.25758
+[CLS] Carlos Salinas de Gortari:3 is a member of the [MASK] political party . [SEP],Salinas,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-0.31235
+[CLS] Nirmal:2 Kumar Singh is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.48391
+[CLS] Stavros:3 Malas:2 is a member of the [MASK] political party . [SEP],party,Progressive Party of Working People,0,Progressive Party of Working People,0,-2.47949
+[CLS] Jacqui:3 Dean is a member of the [MASK] political party . [SEP],Dean,New Zealand National Party,0,New Zealand National Party,0,-3.21836
+[CLS] Timothy C . Day is a member of the [MASK] political party . [SEP],Democratic,Opposition Party,0,Opposition Party,0,-2.79304
+[CLS] Parmjit:3 Dhanda:3 is a member of the [MASK] political party . [SEP],Party,Labour Party,0,Labour Party,0,-2.58848
+[CLS] Christopher Kajoro:3 Chiza:2 is a member of the [MASK] political party . [SEP],Democratic,Party of the Revolution,0,Party of the Revolution,0,-2.58488
+[CLS] Els Borst:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Democrats 66,0,Democrats 66,0,-3.20924
+[CLS] N . S . Palanisamy:4 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.23147
+[CLS] Mark Dearey:2 is a member of the [MASK] political party . [SEP],Labour,Green Party,0,Green Party,0,-1.99457
+[CLS] G . Sanjeeva:3 Reddy:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.37118
+[CLS] Karel Van Miert:2 is a member of the [MASK] political party . [SEP],Socialist,Socialist Party Different,0,Socialist Party Different,0,-2.28973
+[CLS] Hemant:2 Godse:2 is a member of the [MASK] political party . [SEP],party,Shiv:2 Sena,0,Shiv:2 Sena,0,-2.62958
+[CLS] Michael Steed:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Democrats,0,Liberal Democrats,0,-2.01127
+[CLS] Uzi:2 Landau is a member of the [MASK] [MASK] political party . [SEP],Uzi:2,Yisrael:3 Beiteinu:3,0,Yisrael:3 Beiteinu:3,0,-0.13470
+[CLS] Binodanand:3 Jha:2 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.06598
+[CLS] Nora Schimming:3 - Chase is a member of the [MASK] political party . [SEP],Labour,South West Africa National Union,0,South West Africa National Union,0,-2.04372
+[CLS] Jaco:2 Geurts:3 is a member of the [MASK] political party . [SEP],Labour,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.55113
+[CLS] Hildur:3 Horn Øien:2 is a member of the [MASK] political party . [SEP],Norwegian,Christian Democratic Party,0,Christian Democratic Party,0,-2.08170
+[CLS] Abiel:2 Wood is a member of the [MASK] political party . [SEP],Labour,Democratic - Republican Party,0,Democratic - Republican Party,0,-1.67338
+[CLS] Ashwini:3 Sharma is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.80541
+[CLS] Jaffer:2 Sharief:3 is a member of the [MASK] political party . [SEP],Islamic,Indian National Congress,0,Indian National Congress,0,-2.69356
+[CLS] Shalom:2 Zisman:2 is a member of the [MASK] political party . [SEP],Islamic,General Zionists:2,0,General Zionists:2,0,-2.94544
+[CLS] Selma Aliye:2 Kavaf:3 is a member of the [MASK] political party . [SEP],Syrian,Justice and Development Party,0,Justice and Development Party,0,-2.03675
+[CLS] Vikram:3 Usendi:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.36070
+[CLS] Yukio:2 Edano:2 is a member of the [MASK] political party . [SEP],party,Democratic Party of Japan,0,Democratic Party of Japan,0,-2.79433
+[CLS] Göran Lindblad:3 is a member of the [MASK] political party . [SEP],Swedish,Moderate:2 Party,0,Moderate:2 Party,0,-1.08316
+[CLS] Ángel Sergio Guerrero Mier:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.93398
+[CLS] Clement Attlee:3 is a member of the [MASK] political party . [SEP],Conservative,Labour Party,0,Labour Party,0,-1.40354
+[CLS] Ernest Howard Armstrong is a member of the [MASK] political party . [SEP],Armstrong,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-3.24087
+[CLS] Josée:2 Verner:2 is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.63612
+[CLS] Kari Rajamäki:3 is a member of the [MASK] political party . [SEP],Finnish,Social Democratic Party of Finland,0,Social Democratic Party of Finland,0,-1.94197
+[CLS] Tagir:2 Kusimov:3 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.28080
+[CLS] Lester Bird is a member of the [MASK] political party . [SEP],Labour,Antigua and Barbuda:2 Labour Party,0,Antigua and Barbuda:2 Labour Party,0,-2.93979
+[CLS] Friedhelm:4 Frischenschlager:4 is a member of the [MASK] political party . [SEP],SPD,Austrian Freedom Party,0,Austrian Freedom Party,0,-1.98558
+[CLS] Nnamdi:3 Azikiwe:3 is a member of the [MASK] political party . [SEP],party,National Council of Nigeria and the Cameroons:2,0,National Council of Nigeria and the Cameroons:2,0,-1.11103
+[CLS] John Hill is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.73255
+[CLS] T . B . Jayachandra:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.00070
+[CLS] Pierre Villon:2 is a member of the [MASK] political party . [SEP],party,French Communist Party,0,French Communist Party,0,-2.56414
+[CLS] Marco Antonio Adame:2 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,National Action Party,0,National Action Party,0,-1.91900
+"[CLS] Laurie Kelly , Sr . is a member of the [MASK] political party . [SEP]",Kelly,Australian Labor Party,0,Australian Labor Party,0,-1.54365
+[CLS] Satish:2 Upadhyay:4 is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.49521
+[CLS] Nathaniel Pettes:2 is a member of the [MASK] political party . [SEP],Democratic,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.49445
+[CLS] Judith Merkies:2 is a member of the [MASK] political party . [SEP],Democratic,Labour Party,0,Labour Party,0,-3.03683
+[CLS] Emmanuel Dubourg:2 is a member of the [MASK] political party . [SEP],Socialist,Quebec Liberal Party,0,Quebec Liberal Party,0,-2.64040
+[CLS] Henry Latulippe:4 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - Party,Social Credit Party of Canada,0,Social Credit Party of Canada,0,-3.35379
+[CLS] Kurt Blecha:3 is a member of the [MASK] political party . [SEP],SPD,Socialist Unity Party of Germany,0,Socialist Unity Party of Germany,0,-2.91831
+[CLS] Charles Kingston is a member of the [MASK] political party . [SEP],Jamaica,Protectionist:2 Party,0,Protectionist:2 Party,0,-1.98040
+[CLS] Hélène Scherrer:3 is a member of the [MASK] political party . [SEP],Socialist,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.40554
+[CLS] Ram Swaroop:3 Sharma is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.22041
+[CLS] Mike Ellis is a member of the [MASK] political party . [SEP],Party,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-3.36994
+[CLS] Uanhenga:4 Xitu:2 is a member of the [MASK] political party . [SEP],party,People ' s Movement for the Liberation of Angola,0,People ' s Movement for the Liberation of Angola,0,-2.17130
+[CLS] Abd al - Karim al - Jundi:2 is a member of the [MASK] political party . [SEP],party,Ba ' ath:2 Party,0,Ba ' ath:2 Party,0,-2.59391
+[CLS] Chris Pearson is a member of the [MASK] political party . [SEP],Labour,Yukon Progressive Conservative Party,0,Yukon Progressive Conservative Party,0,-2.69148
+[CLS] Peter Reith:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.66920
+[CLS] Alexander Hamilton is a member of the [MASK] political party . [SEP],Hamilton,Federalist:2 Party,0,Federalist:2 Party,0,-0.87039
+[CLS] Carlos Eduardo de Sousa Braga is a member of the [MASK] political party . [SEP],party,Democratic Movement Party,0,Democratic Movement Party,0,-2.34843
+[CLS] V . Moorthy:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-3.05007
+[CLS] Wernher:3 von Braun is a member of the [MASK] political party . [SEP],Braun,Nazi Party,0,Nazi Party,0,-1.67105
+[CLS] Daniel Bernard is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Quebec Liberal Party,0,Quebec Liberal Party,0,-3.03223
+[CLS] Hervé de Charette:2 is a member of the [MASK] political party . [SEP],Labour,Union for a Popular Movement,0,Union for a Popular Movement,0,-2.72991
+[CLS] Osmany:2 Cienfuegos:4 is a member of the [MASK] political party . [SEP],Democratic,Popular Socialist Party,0,Popular Socialist Party,0,-2.83784
+[CLS] Michael Ronaldson:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.42792
+[CLS] Claudio Polsinelli:3 is a member of the [MASK] political party . [SEP],Democratic,Ontario Liberal Party,0,Ontario Liberal Party,0,-2.48706
+[CLS] K . V . Ramalingam:3 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.15170
+[CLS] Marion Reilly is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.98591
+[CLS] Kiran:2 Walia:2 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-3.10386
+[CLS] Igor Gräzin:4 is a member of the [MASK] political party . [SEP],party,Estonian Reform Party,0,Estonian Reform Party,0,-2.78466
+[CLS] Raoul Calas:2 is a member of the [MASK] political party . [SEP],Socialist,French Communist Party,0,French Communist Party,0,-2.70880
+[CLS] S . Vedachalam:3 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.18936
+[CLS] Gavan:2 O ' Connor is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.55375
+[CLS] Hamid Chabat:2 is a member of the [MASK] political party . [SEP],Islam,Istiqlal:3 Party,0,Istiqlal:3 Party,0,-2.54253
+[CLS] Yao Wenyuan:2 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.49255
+[CLS] John Banks is a member of the [MASK] political party . [SEP],Labour,ACT New Zealand,0,ACT New Zealand,0,-1.88112
+[CLS] Károly Herényi:2 is a member of the [MASK] political party . [SEP],Hungarian,Hungarian Democratic Forum,0,Hungarian Democratic Forum,0,-1.45055
+[CLS] Benito Mussolini is a member of the [MASK] political party . [SEP],Italian,Italian Socialist Party,0,Italian Socialist Party,0,-1.83637
+[CLS] Gary Carr is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.25952
+[CLS] Elyakim:3 Haetzni:3 is a member of the [MASK] political party . [SEP],party,Tehiya:3,0,Tehiya:3,0,-2.67922
+[CLS] Samuel Brown is a member of the [MASK] political party . [SEP],Democratic,United Farmers:2 of Alberta,0,United Farmers:2 of Alberta,0,-3.04558
+[CLS] Jonathan Bing is a member of the [MASK] political party . [SEP],Zimbabwe,Democratic Party,0,Democratic Party,0,-3.29903
+[CLS] Jual:2 Oram:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-1.85140
+[CLS] Hugo Rodríguez Díaz is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.60015
+[CLS] Wu De is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.52991
+[CLS] Titus Mlengeya:4 Dismas:2 Kamani:2 is a member of the [MASK] political party . [SEP],Democratic,Party of the Revolution,0,Party of the Revolution,0,-2.60054
+[CLS] Ray Thorburn:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.37182
+[CLS] Cecilia Bobrovskaya:4 is a member of the [MASK] political party . [SEP],Russian,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.81490
+[CLS] Marie Nordén:2 is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-1.67333
+[CLS] Joseph H . Casey is a member of the [MASK] political party . [SEP],Republican,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-1.68329
+[CLS] Hillevi:2 Engström:2 is a member of the [MASK] political party . [SEP],Swedish,Moderate:2 Party,0,Moderate:2 Party,0,-1.54553
+[CLS] Kofi:2 Portuphy:3 is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,National Democratic Congress,0,National Democratic Congress,0,-3.47133
+[CLS] Angus McGillis:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-1.91039
+[CLS] John McAdam:4 is a member of the [MASK] political party . [SEP],Democratic,Liberal - Conservative Party,0,Liberal - Conservative Party,0,-2.64805
+[CLS] Bernhard Eriksson is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-1.81705
+[CLS] Yoram:2 Marciano:2 is a member of the [MASK] political party . [SEP],Party,Israeli Labor Party,0,Israeli Labor Party,0,-3.52931
+[CLS] Haribhau:3 Joshi:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.50887
+[CLS] Mian:2 Iftikhar:3 Hussain:2 is a member of the [MASK] political party . [SEP],Pakistan,Awami:2 National Party,0,Awami:2 National Party,0,-2.15490
+[CLS] Hanna Elise Marcussen:2 is a member of the [MASK] political party . [SEP],Norwegian,Green Party,0,Green Party,0,-2.41861
+[CLS] Yvonne Jones is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.63392
+[CLS] January Makamba:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Party of the Revolution,0,Party of the Revolution,0,-2.95714
+[CLS] Willie Rennie:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Democrats,0,Liberal Democrats,0,-3.68841
+"[CLS] Hervey:2 Rhodes , Baron Rhodes is a member of the [MASK] political party . [SEP]",Rhodes,Labour Party,0,Labour Party,0,-1.44444
+[CLS] Michael Polley:2 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-2.07774
+[CLS] Heinz Nittel:2 is a member of the [MASK] political party . [SEP],party,Social Democratic Party of Austria,0,Social Democratic Party of Austria,0,-2.12737
+[CLS] Conrad Fink is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Party y Tontis:2,0,Party y Tontis:2,0,-3.01072
+[CLS] Johann Anetseder:3 is a member of the [MASK] political party . [SEP],party,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-2.87489
+[CLS] Arturo Armando Molina is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,National Coalition Party,0,National Coalition Party,0,-2.99795
+[CLS] Walter Tucker is a member of the [MASK] political party . [SEP],Union,Saskatchewan Liberal Party,0,Saskatchewan Liberal Party,0,-3.10141
+[CLS] Ulf Sjösten:3 is a member of the [MASK] political party . [SEP],Swedish,Moderate:2 Party,0,Moderate:2 Party,0,-1.89791
+[CLS] Brian McGowan:5 is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.94183
+[CLS] Hedvig:3 Gebhard:3 is a member of the [MASK] political party . [SEP],party,Finnish Party,0,Finnish Party,0,-2.01008
+[CLS] Shigeki:3 Sato is a member of the [MASK] political party . [SEP],SDP,Komeito:2,0,Komeito:2,0,-2.37310
+[CLS] P . Ayngaranesan:4 is a member of the [MASK] political party . [SEP],party,Tamil National Alliance,0,Tamil National Alliance,0,-2.40960
+[CLS] Radheshyam:4 Biswas:2 is a member of the [MASK] political party . [SEP],party,All India United Democratic Front,0,All India United Democratic Front,0,-2.18192
+[CLS] Zoltán Bagó:2 is a member of the [MASK] political party . [SEP],Hungarian,Fidesz:3,0,Fidesz:3,0,-1.77688
+[CLS] Karl Retzlaw:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Communist Party of Germany,0,Communist Party of Germany,0,-2.80797
+[CLS] Chandler Woodcock:2 is a member of the [MASK] political party . [SEP],Labour,Maine Republican Party,0,Maine Republican Party,0,-2.06117
+[CLS] William Lyne:2 Wilson is a member of the [MASK] political party . [SEP],Labour,Bourbon Democrat,0,Bourbon Democrat,0,-2.08703
+[CLS] Hugo Spatz:2 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-2.66895
+[CLS] Paul Kehoe:2 is a member of the [MASK] political party . [SEP],Labour,Fine Gael:2,0,Fine Gael:2,0,-2.92491
+[CLS] Helen Westwood is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.20059
+[CLS] Tristram:3 Hunt is a member of the [MASK] [MASK] political party . [SEP],Green Party,Labour Party,0,Labour Party,0,-2.62567
+[CLS] Ruth Richardson is a member of the [MASK] political party . [SEP],Labour,New Zealand National Party,0,New Zealand National Party,0,-1.99922
+[CLS] Ana Bricia:2 Muro:2 González is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.92266
+[CLS] Jiang Shan is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.37427
+[CLS] Stephen Woodworth:2 is a member of the [MASK] political party . [SEP],Labour,Conservative Party of Canada,0,Conservative Party of Canada,0,-1.22229
+[CLS] Raime:2 Unggi:2 is a member of the [MASK] political party . [SEP],party,United Malays:2 National Organisation,0,United Malays:2 National Organisation,0,-2.42836
+[CLS] André Bernier:2 is a member of the [MASK] political party . [SEP],Labour,Social Credit Party of Canada,0,Social Credit Party of Canada,0,-2.10764
+[CLS] Pino Rauti:2 is a member of the [MASK] political party . [SEP],Pino,Italian Social Movement,0,Italian Social Movement,0,-3.01263
+[CLS] Andrew Broder:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.85205
+[CLS] Hari Om Pandey:3 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.23609
+[CLS] Otto Telschow:3 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-1.97353
+[CLS] Suryakant:3 Acharya:3 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.48158
+[CLS] Hua Guofeng:3 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.69994
+[CLS] Demetri:3 Dollis:2 is a member of the [MASK] political party . [SEP],Cyprus,Australian Labor Party,0,Australian Labor Party,0,-2.89737
+[CLS] Julieta:2 Marín Torres is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.90025
+[CLS] Guillermo Ruiz de Teresa is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.88306
+[CLS] Andrej Bajuk:2 is a member of the [MASK] political party . [SEP],Slovakia,New Slovenia,0,New Slovenia,0,-2.62526
+[CLS] K . Lakkappa:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.08984
+[CLS] Peter Anderson is a member of the [MASK] political party . [SEP],Labour,Australian Labor Party,0,Australian Labor Party,0,-1.68594
+[CLS] Alexander Kerensky:3 is a member of the [MASK] political party . [SEP],party,Socialist Revolutionary Party,0,Socialist Revolutionary Party,0,-3.00872
+[CLS] Rob Stokes is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.90665
+[CLS] Merv:2 Hunter is a member of the [MASK] political party . [SEP],Hunter,Australian Labor Party,0,Australian Labor Party,0,-2.08177
+[CLS] Leonel:2 Cota:2 Montaño:2 is a member of the [MASK] [MASK] political party . [SEP],Democratic Party,Party of the Democratic Revolution,0,Party of the Democratic Revolution,0,-1.54390
+[CLS] Bernard Jean is a member of the [MASK] political party . [SEP],Labour,New Brunswick Liberal Association,0,New Brunswick Liberal Association,0,-2.57023
+[CLS] Edward Farrell is a member of the [MASK] political party . [SEP],Farrell,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-2.05833
+[CLS] Kumba:2 Ialá:2 is a member of the [MASK] political party . [SEP],party,Party for Social Renewal:2,0,Party for Social Renewal:2,0,-1.97417
+[CLS] Parm:2 Gill is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Conservative Party of Canada,0,Conservative Party of Canada,0,-3.37403
+[CLS] Pier Luigi Bersani:3 is a member of the [MASK] political party . [SEP],party,Italian Communist Party,0,Italian Communist Party,0,-1.98944
+[CLS] Das Williams is a member of the [MASK] [MASK] political party . [SEP],Islami:2,California Democratic Party,0,California Democratic Party,0,-3.15243
+[CLS] Henry Berry is a member of the [MASK] political party . [SEP],Conservative,Labour Party,0,Labour Party,0,-3.14294
+[CLS] Bai Wanxiang:3 is a member of the [MASK] political party . [SEP],party,Kuomintang:3,0,Kuomintang:3,0,-1.35452
+[CLS] Screaming:2 Lord Sutch:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],K - Party,Official Monster Raving:2 Loony:2 Party,0,Official Monster Raving:2 Loony:2 Party,0,-3.26633
+[CLS] José Manzur:2 Quiroga:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.75063
+[CLS] Ron Duhamel:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-2.50947
+[CLS] Ingegerd:3 Saarinen:2 is a member of the [MASK] political party . [SEP],Finnish,Green Party,0,Green Party,0,-1.66711
+[CLS] John Hugill:3 is a member of the [MASK] political party . [SEP],Labour,Alberta Social Credit Party,0,Alberta Social Credit Party,0,-2.40676
+[CLS] Rupert Scholz:2 is a member of the [MASK] political party . [SEP],SPD,Christian Democratic Union,0,Christian Democratic Union,0,-2.61336
+[CLS] Freundel:2 Stuart is a member of the [MASK] [MASK] political party . [SEP],Green Party,Democratic Labour Party,0,Democratic Labour Party,0,-2.81844
+[CLS] John M . Fabrizi:3 is a member of the [MASK] political party . [SEP],Democratic,Democratic Party,0,Democratic Party,0,-3.30053
+[CLS] Veerle:3 Wouters:3 is a member of the [MASK] political party . [SEP],Labour,New Flemish:3 Alliance,0,New Flemish:3 Alliance,0,-2.48239
+[CLS] Fritz Müller is a member of the [MASK] political party . [SEP],SPD,Socialist Unity Party of Germany,0,Socialist Unity Party of Germany,0,-2.39566
+[CLS] Hermann Hummel:2 is a member of the [MASK] political party . [SEP],SPD,German Democratic Party,0,German Democratic Party,0,-1.91599
+[CLS] Lilian:2 Helder:2 is a member of the [MASK] political party . [SEP],Socialist,Party for Freedom,0,Party for Freedom,0,-3.61901
+[CLS] Theo Bot is a member of the [MASK] [MASK] [MASK] political party . [SEP],K - Party,Catholic People ' s Party,0,Catholic People ' s Party,0,-3.39646
+[CLS] Martin Gallagher is a member of the [MASK] political party . [SEP],Labour,New Zealand Labour Party,0,New Zealand Labour Party,0,-1.90866
+[CLS] Keir:2 Hardie:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-1.77414
+[CLS] Kim Howells:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.79541
+[CLS] Jorge Romero Romero is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.16592
+[CLS] Akbaruddin:2 Owaisi:3 is a member of the [MASK] political party . [SEP],party,All India Majlis - e - Ittehadul:4 Muslimeen:2,0,All India Majlis - e - Ittehadul:4 Muslimeen:2,0,-2.43088
+[CLS] Ty Lund is a member of the [MASK] political party . [SEP],Swedish,Progressive Conservative Association of Alberta,0,Progressive Conservative Association of Alberta,0,-2.06606
+[CLS] Shiaan:2 - Bin Huang is a member of the [MASK] political party . [SEP],party,African National Congress,0,African National Congress,0,-1.90249
+[CLS] César Nava:2 Vázquez is a member of the [MASK] political party . [SEP],PP,National Action Party,0,National Action Party,0,-2.73043
+[CLS] Ramón Mota:2 Sánchez is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.48792
+[CLS] Yekaterina:3 Furtseva:3 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-1.20697
+[CLS] Ybeltje:3 Berckmoes:4 - Duindam:3 is a member of the [MASK] political party . [SEP],party,People ' s Party for Freedom and Democracy,0,People ' s Party for Freedom and Democracy,0,-2.10989
+[CLS] Nathan Gill is a member of the [MASK] political party . [SEP],Labour,UK Independence Party,0,UK Independence Party,0,-2.72528
+[CLS] Josiah:2 Tshangana:3 Gumede:3 is a member of the [MASK] political party . [SEP],party,African National Congress,0,African National Congress,0,-1.52965
+[CLS] John Heppell:3 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.07444
+[CLS] Noel Duignan:3 is a member of the [MASK] political party . [SEP],Labour,Ontario New Democratic Party,0,Ontario New Democratic Party,0,-1.46647
+[CLS] Zhang Guotao:2 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.74767
+[CLS] Michael Eitan:2 is a member of the [MASK] political party . [SEP],Israeli,Likud:2,0,Likud:2,0,-3.60299
+[CLS] Eddie Britt is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-2.81322
+[CLS] Tofilau:3 Eti:2 Alesana:2 is a member of the [MASK] political party . [SEP],party,Human Rights Protection Party,0,Human Rights Protection Party,0,-1.81141
+[CLS] Ronnie Kasrils:3 is a member of the [MASK] political party . [SEP],Punjab,African National Congress,0,African National Congress,0,-3.63724
+[CLS] Babu:2 Divakaran:2 is a member of the [MASK] political party . [SEP],Party,Revolutionary Socialist Party ( India ),0,Revolutionary Socialist Party ( India ),0,-2.39068
+[CLS] Herbert Hupka:2 is a member of the [MASK] political party . [SEP],Czech,Social Democratic Party of Germany,0,Social Democratic Party of Germany,0,-2.80733
+[CLS] Mario Mendoza Cortés is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-3.33367
+[CLS] Norman MacAuley:4 is a member of the [MASK] political party . [SEP],Labour,Saskatchewan New Democratic Party,0,Saskatchewan New Democratic Party,0,-1.48414
+[CLS] Uxue:3 Barkos:2 is a member of the [MASK] political party . [SEP],party,Nafarroa:3 Bai,0,Nafarroa:3 Bai,0,-2.63011
+[CLS] Horace Chang is a member of the [MASK] political party . [SEP],China,Jamaica Labour Party,0,Jamaica Labour Party,0,-3.46880
+[CLS] Karl Ritter is a member of the [MASK] political party . [SEP],German,Nazi Party,0,Nazi Party,0,-3.30438
+[CLS] Gopalakrishnan:5 Chinnaraj:3 is a member of the [MASK] political party . [SEP],Party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.37572
+[CLS] Gerardo Zamora is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Front for Victory,0,Front for Victory,0,-2.88466
+[CLS] Santosh:2 Gangwar:2 is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.77673
+[CLS] Jean - Pierre Bemba:2 is a member of the [MASK] political party . [SEP],party,Movement for the Liberation of the Congo,0,Movement for the Liberation of the Congo,0,-1.96348
+[CLS] Damodar:3 Barku:2 Shingada:2 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],Damodar:3 Bar Party,Indian National Congress,0,Indian National Congress,0,-2.37472
+[CLS] Peter Veniot:3 is a member of the [MASK] political party . [SEP],Labour,New Brunswick Liberal Association,0,New Brunswick Liberal Association,0,-2.29371
+[CLS] Marlyn:2 Glen is a member of the [MASK] political party . [SEP],Labour,Scottish Labour Party,0,Scottish Labour Party,0,-2.15383
+[CLS] Juan Sabines:2 Guerrero is a member of the [MASK] political party . [SEP],party,Party of the Democratic Revolution,0,Party of the Democratic Revolution,0,-2.79202
+[CLS] Deng Fa is a member of the [MASK] political party . [SEP],Deng,Communist Party of China,0,Communist Party of China,0,-2.17562
+[CLS] Steele Hall is a member of the [MASK] political party . [SEP],Democratic,Liberal and Country League of South Australia,0,Liberal and Country League of South Australia,0,-2.56341
+[CLS] A . Pappa:2 Sundaram:2 is a member of the [MASK] political party . [SEP],party,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,All India Anna Dravida:3 Munnetra:3 Kazhagam:4,0,-2.05568
+[CLS] Vera Dua is a member of the [MASK] [MASK] [MASK] political party . [SEP],B - Party,Groen:2,0,Groen:2,0,-3.38557
+[CLS] James Norris is a member of the [MASK] political party . [SEP],Norris,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.75961
+[CLS] Gilberto Ojeda:2 Camacho:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.58519
+[CLS] Eleanor Maroes:2 is a member of the [MASK] political party . [SEP],Labour,Alberta Alliance Party,0,Alberta Alliance Party,0,-3.48568
+[CLS] Jotindra:3 Lal:2 Tripura:2 is a member of the [MASK] political party . [SEP],party,Bangladesh Awami:2 League,0,Bangladesh Awami:2 League,0,-3.05124
+[CLS] Ed Fast is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Conservative Party of Canada,0,Conservative Party of Canada,0,-3.10159
+[CLS] Neeldaman:3 Khatri:3 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.14311
+[CLS] Mátyás:2 Rákosi:3 is a member of the [MASK] political party . [SEP],Democratic,Hungarian Communist Party,0,Hungarian Communist Party,0,-1.83196
+[CLS] Joseph Reid is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - Party,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-3.41625
+[CLS] María Lucero:2 Saldaña:3 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.15699
+[CLS] Vere:2 Bird is a member of the [MASK] political party . [SEP],Labour,Antigua and Barbuda:2 Labour Party,0,Antigua and Barbuda:2 Labour Party,0,-3.33381
+[CLS] Sanjaasürengiin:5 Oyuun:2 is a member of the [MASK] political party . [SEP],party,Civil Will - Green Party,0,Civil Will - Green Party,0,-1.53632
+[CLS] Joyce Hayden is a member of the [MASK] political party . [SEP],Labour,Yukon New Democratic Party,0,Yukon New Democratic Party,0,-2.86135
+[CLS] Les McMahon is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Australian Labor Party,0,Australian Labor Party,0,-3.00769
+[CLS] Bernard Cornut:2 - Gentille:2 is a member of the [MASK] political party . [SEP],Labour,Union for the New Republic,0,Union for the New Republic,0,-2.38566
+[CLS] Hollis:2 Beckett is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-3.11002
+[CLS] János Kádár:3 is a member of the [MASK] political party . [SEP],Hungarian,Hungarian Socialist Workers ' Party,0,Hungarian Socialist Workers ' Party,0,-1.27107
+[CLS] Lu Zhangong:2 is a member of the [MASK] political party . [SEP],party,Communist Party of China,0,Communist Party of China,0,-1.77842
+[CLS] Ferdinand von Lüninck:3 is a member of the [MASK] political party . [SEP],party,German National People ' s Party,0,German National People ' s Party,0,-2.95160
+[CLS] Larry Condon:2 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.37157
+[CLS] Charles Wilson Cross is a member of the [MASK] political party . [SEP],Cross,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.24229
+[CLS] Shwe:3 Mann is a member of the [MASK] political party . [SEP],party,Union Solidarity:2 and Development Party,0,Union Solidarity:2 and Development Party,0,-2.97737
+[CLS] Clarence Stork:3 is a member of the [MASK] political party . [SEP],Democratic,Saskatchewan New Democratic Party,0,Saskatchewan New Democratic Party,0,-3.36617
+[CLS] Fatma:2 Koşer:3 Kaya is a member of the [MASK] political party . [SEP],Party,Democrats 66,0,Democrats 66,0,-2.76018
+[CLS] Christian Holm is a member of the [MASK] political party . [SEP],Labour,Moderate:2 Party,0,Moderate:2 Party,0,-2.35784
+[CLS] Bhanu:3 Pratap:2 Singh Verma:2 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.34862
+[CLS] William Gannaway:3 Brownlow:2 is a member of the [MASK] political party . [SEP],Conservative,Whig:2 Party,0,Whig:2 Party,0,-2.80918
+[CLS] Ajeet:3 Singh Kharkhari:4 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.61765
+[CLS] Jack Murta:2 is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Canada,0,Progressive Conservative Party of Canada,0,-3.07053
+[CLS] John Sparrow David Thompson is a member of the [MASK] political party . [SEP],Thompson,Liberal - Conservative Party,0,Liberal - Conservative Party,0,-2.73386
+[CLS] Óscar Jorge is a member of the [MASK] political party . [SEP],party,Justicialist:2 Party,0,Justicialist:2 Party,0,-2.63349
+[CLS] Ram Prasad:3 Sharma is a member of the [MASK] political party . [SEP],Party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.40669
+[CLS] Shaul:2 Yahalom:3 is a member of the [MASK] political party . [SEP],Pakistan,National Religious Party,0,National Religious Party,0,-2.39125
+[CLS] Ilse:2 Aigner:2 is a member of the [MASK] political party . [SEP],party,Christian Social Union of Bavaria,0,Christian Social Union of Bavaria,0,-2.76306
+[CLS] Lina Haag is a member of the [MASK] political party . [SEP],Netherlands,Communist Party of Germany,0,Communist Party of Germany,0,-2.94520
+[CLS] Johann Schneider - Ammann:2 is a member of the [MASK] political party . [SEP],SPD,FDP . The Liberals:2,0,FDP . The Liberals:2,0,-1.97670
+[CLS] Peter Jenkins is a member of the [MASK] political party . [SEP],Labour,Yukon Party,0,Yukon Party,0,-1.51402
+[CLS] Rosa Meriläinen:3 is a member of the [MASK] political party . [SEP],Finnish,Green League,0,Green League,0,-1.44450
+[CLS] Robert Emmett:3 Finn is a member of the [MASK] political party . [SEP],Finn,Nova Scotia Liberal Party,0,Nova Scotia Liberal Party,0,-1.92870
+[CLS] Ketchum:3 Graham is a member of the [MASK] political party . [SEP],Labour,Progressive Conservative Party of Ontario,0,Progressive Conservative Party of Ontario,0,-2.44900
+[CLS] Eric Harrison is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Liberal Party of Australia,0,Liberal Party of Australia,0,-2.91637
+[CLS] Hans Wallmark:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Moderate:2 Party,0,Moderate:2 Party,0,-2.48087
+[CLS] Michel Rog:2 is a member of the [MASK] political party . [SEP],Labour,Democrats 66,0,Democrats 66,0,-1.97759
+[CLS] Nirmala:3 Sitaraman:3 is a member of the [MASK] political party . [SEP],party,Bharatiya:4 Janata:2 Party,0,Bharatiya:4 Janata:2 Party,0,-2.51980
+[CLS] Rob Anders is a member of the [MASK] political party . [SEP],Swedish,Conservative Party of Canada,0,Conservative Party of Canada,0,-2.13410
+[CLS] Antonio Aloisio:2 is a member of the [MASK] political party . [SEP],party,Alberta Social Credit Party,0,Alberta Social Credit Party,0,-2.46376
+[CLS] Alain Giguère:3 is a member of the [MASK] [MASK] political party . [SEP],Socialist Party,New Democratic Party,0,New Democratic Party,0,-1.72107
+[CLS] Fermín:3 Montes Cavazos:3 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.10963
+[CLS] Harvey William Burk:2 is a member of the [MASK] political party . [SEP],Conservative,Liberal Party of Canada,0,Liberal Party of Canada,0,-3.48657
+[CLS] Stanisław Radkiewicz:2 is a member of the [MASK] political party . [SEP],Polish,Polish United Workers ' Party,0,Polish United Workers ' Party,0,-1.82973
+[CLS] Norbert Schmelzer:3 is a member of the [MASK] [MASK] [MASK] [MASK] [MASK] political party . [SEP],the - - - the,Christian Democratic Appeal,0,Christian Democratic Appeal,0,-2.93806
+[CLS] Ossi:2 Sandvik:2 is a member of the [MASK] political party . [SEP],Norwegian,Finns:2 Party,0,Finns:2 Party,0,-2.44778
+[CLS] Britta:2 Rådström:3 is a member of the [MASK] political party . [SEP],Swedish,Swedish Social Democratic Party,0,Swedish Social Democratic Party,0,-1.37743
+[CLS] Clemens Schmalstich:4 is a member of the [MASK] political party . [SEP],SPD,Nazi Party,0,Nazi Party,0,-3.09637
+[CLS] Mohammed Taslimuddin:3 is a member of the [MASK] [MASK] political party . [SEP],Islami:2,Rashtriya:4 Janata:2 Dal,0,Rashtriya:4 Janata:2 Dal,0,-1.83710
+[CLS] Roy Ells:2 is a member of the [MASK] political party . [SEP],Labour,Alberta Social Credit Party,0,Alberta Social Credit Party,0,-1.87680
+[CLS] Philippos:2 Sachinidis:4 is a member of the [MASK] political party . [SEP],party,Panhellenic:4 Socialist Movement,0,Panhellenic:4 Socialist Movement,0,-2.87907
+[CLS] Tikhon:3 Kiselyov:3 is a member of the [MASK] political party . [SEP],party,Communist Party of the Soviet Union,0,Communist Party of the Soviet Union,0,-2.08920
+[CLS] Emma Lewell:2 - Buck is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-2.16267
+[CLS] Michael Colle is a member of the [MASK] political party . [SEP],Colle,Ontario Liberal Party,0,Ontario Liberal Party,0,-1.06040
+[CLS] Ken Ticehurst:3 is a member of the [MASK] political party . [SEP],Labour,Liberal Party of Australia,0,Liberal Party of Australia,0,-1.30910
+[CLS] Erich Vagts:3 is a member of the [MASK] political party . [SEP],SPD,German National People ' s Party,0,German National People ' s Party,0,-2.51527
+[CLS] John Augustus Barron:2 is a member of the [MASK] political party . [SEP],Conservative,Liberal Party of Canada,0,Liberal Party of Canada,0,-1.79175
+[CLS] Sanjay:2 Bhoi:3 is a member of the [MASK] political party . [SEP],Party,Indian National Congress,0,Indian National Congress,0,-2.78750
+[CLS] Henrik von Sydow:2 is a member of the [MASK] [MASK] [MASK] political party . [SEP],Party - Party,Moderate:2 Party,0,Moderate:2 Party,0,-2.76012
+[CLS] P . Veldurai:3 is a member of the [MASK] political party . [SEP],party,Indian National Congress,0,Indian National Congress,0,-2.67037
+[CLS] Lisa Nandy:2 is a member of the [MASK] political party . [SEP],Labour,Labour Party,0,Labour Party,0,-3.32615
+[CLS] Guillermina:4 López Balbuena:3 is a member of the [MASK] political party . [SEP],party,Institutional:2 Revolutionary Party,0,Institutional:2 Revolutionary Party,0,-2.36327
+[CLS] Syed Abdullah Muhammad Taher:2 is a member of the [MASK] political party . [SEP],Pakistan,Bangladesh Jamaat:2 - e - Islami:2,0,Bangladesh Jamaat:2 - e - Islami:2,0,-1.62669

@@ -1,0 +1,981 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Liviu:2 Librescu:2 works for Virginia Tech . [SEP],Virginia Tech,Virginia Tech,1,Virginia Tech,1,-7.14915
+[CLS] Clement Attlee:3 works for London School of Economics and Political Science . [SEP],London School of Economics and Political Science,London School of Economics and Political Science,1,London School of Economics and Political Science,1,-0.35985
+[CLS] Rick Schmidlin:2 works for University of British Columbia . [SEP],University of British Columbia,University of British Columbia,1,University of British Columbia,1,-1.12371
+[CLS] Nicholas Mirzoeff:4 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.21664
+[CLS] Michael Hagemeister:3 works for University of Marburg . [SEP],University of Marburg,University of Marburg,1,University of Marburg,1,-3.49022
+[CLS] Norman O ' Neill works for Royal Academy of Music . [SEP],Royal Academy of Music,Royal Academy of Music,1,Royal Academy of Music,1,-1.73742
+[CLS] C . - C . Jay Kuo:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.46507
+[CLS] Sturgis:3 Elleno:2 Leavitt:2 works for Northwestern University . [SEP],Northwestern University,Northwestern University,1,Northwestern University,1,-3.47034
+[CLS] Randall Balmer:2 works for Northwestern University . [SEP],Northwestern University,Northwestern University,1,Northwestern University,1,-3.30031
+[CLS] Barry R . Schaller:3 works for Wesleyan:2 University . [SEP],Wesleyan:2 University,Wesleyan:2 University,1,Wesleyan:2 University,1,-2.54342
+[CLS] Carleton S . Coon:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.16549
+[CLS] Nicholas Patrick works for National Aeronautics:3 and Space Administration . [SEP],National Aeronautics:3 and Space Administration,National Aeronautics:3 and Space Administration,1,National Aeronautics:3 and Space Administration,1,-0.47000
+[CLS] Donald W . Parry works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.53918
+[CLS] Johan Erhard:2 Areschoug:3 works for Uppsala University . [SEP],Uppsala University,Uppsala University,1,Uppsala University,1,-2.68576
+[CLS] Benjamin Powell works for Texas Tech University . [SEP],Texas Tech University,Texas Tech University,1,Texas Tech University,1,-2.90877
+[CLS] Shlomo:3 Sternberg:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.74645
+[CLS] W . Lewis Hyde works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.24568
+[CLS] John Carlstrom:2 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.05059
+[CLS] Kevin P . Clements works for University of Otago:2 . [SEP],University of Otago:2,University of Otago:2,1,University of Otago:2,1,-1.48652
+[CLS] Sun Qixiang:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.10777
+[CLS] Joseph Schnitzer:4 works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-1.00654
+[CLS] David Farr:2 works for Emerson Electric . [SEP],Emerson Electric,Emerson Electric,1,Emerson Electric,1,-6.62424
+[CLS] David Axon:2 works for University of Sussex . [SEP],University of Sussex,University of Sussex,1,University of Sussex,1,-2.74077
+[CLS] Qiang:2 Du works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.58335
+[CLS] Peter and Rosemary Grant works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.39493
+[CLS] Jeff Sigafoos:4 works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.12438
+[CLS] Heribert:2 Adam works for Simon Fraser University . [SEP],Simon Fraser University,Simon Fraser University,1,Simon Fraser University,1,-3.77026
+[CLS] Abdul Aziz Said works for American University . [SEP],American University,American University,1,American University,1,-6.55357
+[CLS] George W . McClusky:5 works for New York City Police Department . [SEP],New York City Police Department,New York City Police Department,1,New York City Police Department,1,-0.54403
+[CLS] Birger:2 Møller - Pedersen works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.21007
+[CLS] Masahiro:2 Morioka:2 works for Waseda:2 University . [SEP],Waseda:2 University,Waseda:2 University,1,Waseda:2 University,1,-2.20457
+[CLS] J . Cheryl Exum:2 works for University of Sheffield . [SEP],University of Sheffield,University of Sheffield,1,University of Sheffield,1,-2.28831
+[CLS] Ashley Holcombe:3 works for United States women ' s national softball:2 team . [SEP],United States women ' s national softball:2 team,United States women ' s national softball:2 team,1,United States women ' s national softball:2 team,1,-0.16986
+[CLS] Wilhelm Gass:2 works for University of Greifswald . [SEP],University of Greifswald,University of Greifswald,1,University of Greifswald,1,-2.55704
+[CLS] Josyane:3 Savigneau:3 works for Le Monde . [SEP],Le Monde,Le Monde,1,Le Monde,1,-2.11257
+[CLS] John Sutton Nettlefold:3 works for Kynoch:3 . [SEP],Kynoch:3,Kynoch:3,1,Kynoch:3,1,-6.27497
+[CLS] Harrison B . Tordoff:3 works for University of Minnesota . [SEP],University of Minnesota,University of Minnesota,1,University of Minnesota,1,-1.75802
+[CLS] María Celeste:2 Arrarás:3 works for Telemundo:3 . [SEP],Telemundo:3,Telemundo:3,1,Telemundo:3,1,-0.44226
+[CLS] H . Bruce Franklin works for Rutgers University . [SEP],Rutgers University,Rutgers University,1,Rutgers University,1,-3.35235
+[CLS] Alexander Belskiy:3 works for Perm State University . [SEP],Perm State University,Perm State University,1,Perm State University,1,-4.08676
+[CLS] Stephen Wizner:3 works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-1.79221
+[CLS] Gavin D ' Costa works for University of Bristol . [SEP],University of Bristol,University of Bristol,1,University of Bristol,1,-2.52718
+[CLS] Ferdinand Ritter von Hebra:2 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.76199
+[CLS] Hendrik Hofmeyr:3 works for University of Cape Town . [SEP],University of Cape Town,University of Cape Town,1,University of Cape Town,1,-1.34007
+[CLS] Joakim:3 Frederik Schouw:3 works for University of Copenhagen . [SEP],University of Copenhagen,University of Copenhagen,1,University of Copenhagen,1,-1.76655
+[CLS] Richard L . Wallace works for University of Missouri . [SEP],University of Missouri,University of Missouri,1,University of Missouri,1,-2.33532
+[CLS] Stefan Fröhlich:3 works for University of Erlangen - Nuremberg . [SEP],University of Erlangen - Nuremberg,University of Erlangen - Nuremberg,1,University of Erlangen - Nuremberg,1,-1.02523
+[CLS] George L . Vose:2 works for Bowdoin:3 College . [SEP],Bowdoin:3 College,Bowdoin:3 College,1,Bowdoin:3 College,1,-1.64910
+[CLS] Arthur Galston:2 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.71570
+[CLS] Berent:2 Schwineköper:5 works for University of Freiburg . [SEP],University of Freiburg,University of Freiburg,1,University of Freiburg,1,-2.43393
+[CLS] G . H . Monrad:2 - Krohn:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.51341
+[CLS] Debbie Black works for Ohio State University . [SEP],Ohio State University,Ohio State University,1,Ohio State University,1,-2.26523
+[CLS] Glen Keane works for Walt Disney Animation Studios . [SEP],Walt Disney Animation Studios,Walt Disney Animation Studios,1,Walt Disney Animation Studios,1,-0.46398
+[CLS] J . Frank Dobie:2 works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.07352
+[CLS] Emmette:2 Redford:2 works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.08325
+[CLS] Frank Bough:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.84189
+[CLS] Richard Murnane:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.87243
+[CLS] Benjamin Holman:2 works for Chicago Daily News . [SEP],Chicago Daily News,Chicago Daily News,1,Chicago Daily News,1,-2.79884
+"[CLS] Robert Lustig:2 works for University of California , San Francisco . [SEP]","University of California , San Francisco","University of California , San Francisco",1,"University of California , San Francisco",1,-0.42155
+[CLS] Baltasar:3 Mena:2 Iniesta:2 works for National Autonomous University of Mexico . [SEP],National Autonomous University of Mexico,National Autonomous University of Mexico,1,National Autonomous University of Mexico,1,-1.79276
+[CLS] Jeremy Gardiner works for Pratt Institute . [SEP],Pratt Institute,Pratt Institute,1,Pratt Institute,1,-5.65299
+[CLS] Wilhelm von Bezold:2 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-2.20357
+[CLS] Maria Mitchell works for Vassar:2 College . [SEP],Vassar:2 College,Vassar:2 College,1,Vassar:2 College,1,-1.79181
+[CLS] Benedikt Isserlin:3 works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-2.43223
+[CLS] Will Wyatt works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.16716
+[CLS] Jonathan Hill works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.43877
+[CLS] Hans - Joachim Veen:2 works for University of Trier . [SEP],University of Trier,University of Trier,1,University of Trier,1,-2.35394
+[CLS] James L . Leighton:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.85873
+[CLS] Christopher Jackson works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-3.40296
+[CLS] Joseph Mutaboba:3 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-1.39786
+[CLS] Georg Frederik Hallager:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.00873
+[CLS] Nake:2 M . Kamrany:3 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.78163
+[CLS] Anthony J . Russo Jr . works for RAND:2 Corporation . [SEP],RAND:2 Corporation,RAND:2 Corporation,1,RAND:2 Corporation,1,-2.00503
+[CLS] Finn Fuglestad:3 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.08503
+[CLS] Bailey Willis works for United States Geological Survey . [SEP],United States Geological Survey,United States Geological Survey,1,United States Geological Survey,1,-0.45306
+[CLS] Arnold Ross works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-1.12185
+[CLS] Shelley E . Taylor works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.80033
+[CLS] Kerry Emanuel works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.89068
+[CLS] Pete Harrison works for National League . [SEP],National League,National League,1,National League,1,-4.61019
+[CLS] Martin Hairer:2 works for University of Warwick . [SEP],University of Warwick,University of Warwick,1,University of Warwick,1,-2.93656
+[CLS] Andrew Davies works for University of Warwick . [SEP],University of Warwick,University of Warwick,1,University of Warwick,1,-2.78553
+[CLS] Rosemary Wyse:2 works for Johns Hopkins University . [SEP],Johns Hopkins University,Johns Hopkins University,1,Johns Hopkins University,1,-0.74671
+[CLS] John Summerskill:2 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.50829
+[CLS] Charles Bidwell:3 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.15502
+[CLS] Martin B . Hickman:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.49717
+[CLS] Gordon Van Wylen:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-1.92564
+[CLS] Andrea Dalessandro:3 works for Arizona Senate . [SEP],Arizona Senate,Arizona Senate,1,Arizona Senate,1,-9.85918
+[CLS] Dan J . Stein works for University of Cape Town . [SEP],University of Cape Town,University of Cape Town,1,University of Cape Town,1,-1.43222
+[CLS] Genshō:3 Imanari:2 works for Kokushikan:4 University . [SEP],Kokushikan:4 University,Kokushikan:4 University,1,Kokushikan:4 University,1,-2.86557
+[CLS] Lars Stigzelius:3 works for Uppsala University . [SEP],Uppsala University,Uppsala University,1,Uppsala University,1,-3.07722
+[CLS] Del Thiessen works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.15967
+[CLS] James Hamilton works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.47407
+[CLS] Susan Pharr:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.71989
+[CLS] Steve Phillips works for New York Mets . [SEP],New York Mets,New York Mets,1,New York Mets,1,-1.42522
+[CLS] Gordon Dougan:2 works for Wellcome:2 Sanger:2 Institute . [SEP],Wellcome:2 Sanger:2 Institute,Wellcome:2 Sanger:2 Institute,1,Wellcome:2 Sanger:2 Institute,1,-4.46672
+[CLS] Tiberius Hemsterhuis:4 works for Leiden University . [SEP],Leiden University,Leiden University,1,Leiden University,1,-3.13641
+[CLS] Javier Martínez - Torrón:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.12028
+[CLS] Theodore Reff:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.78768
+[CLS] Christine Korsgaard:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.16637
+[CLS] Ronald Drever:2 works for University of Glasgow . [SEP],University of Glasgow,University of Glasgow,1,University of Glasgow,1,-3.16712
+[CLS] Joseph Morton Ransdell:3 works for Texas Tech University . [SEP],Texas Tech University,Texas Tech University,1,Texas Tech University,1,-2.21380
+[CLS] Michael Denning:2 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.16059
+[CLS] Peter Schönemann:3 works for Purdue:3 University . [SEP],Purdue:3 University,Purdue:3 University,1,Purdue:3 University,1,-0.34260
+[CLS] Thomas V . Morris works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-1.11697
+[CLS] Earl Lawson works for The Cincinnati Post . [SEP],The Cincinnati Post,The Cincinnati Post,1,The Cincinnati Post,1,-4.74097
+[CLS] José Luis Calderón Cabrera works for National Autonomous University of Mexico . [SEP],National Autonomous University of Mexico,National Autonomous University of Mexico,1,National Autonomous University of Mexico,1,-1.74722
+[CLS] Jennifer Rexford:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.34654
+[CLS] Aleksei:3 Fedorovich:3 Filippov:2 works for Moscow State University . [SEP],Moscow State University,Moscow State University,1,Moscow State University,1,-1.21107
+[CLS] Guy Banister:2 works for Federal Bureau of Investigation . [SEP],Federal Bureau of Investigation,Federal Bureau of Investigation,1,Federal Bureau of Investigation,1,-0.86149
+[CLS] Oscar Casares:2 works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.11836
+[CLS] Charles Lenormant:3 works for University of Paris ( 1896 - 1968 ) . [SEP],University of Paris ( 1896 - 1968 ),University of Paris ( 1896 - 1968 ),1,University of Paris ( 1896 - 1968 ),1,-3.24044
+[CLS] Peter Downie:2 works for Concordia University . [SEP],Concordia University,Concordia University,1,Concordia University,1,-5.38359
+[CLS] Noureddin:3 Zarrinkelk:4 works for University of Tehran . [SEP],University of Tehran,University of Tehran,1,University of Tehran,1,-3.03607
+[CLS] Robert A . Bryan works for University of Florida . [SEP],University of Florida,University of Florida,1,University of Florida,1,-2.63619
+[CLS] Wendell:2 Lovett:2 works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-2.53060
+[CLS] Chris Perrins:2 works for Edward Grey Institute of Field Ornithology:4 . [SEP],Edward Grey Institute of Field Ornithology:4,Edward Grey Institute of Field Ornithology:4,1,Edward Grey Institute of Field Ornithology:4,1,-2.55415
+[CLS] Glenn Greenwald:2 works for The Intercept:2 . [SEP],The Intercept:2,The Intercept:2,1,The Intercept:2,1,-1.92789
+[CLS] Martijn:2 Padding:3 works for Royal Conservatory of The Hague . [SEP],Royal Conservatory of The Hague,Royal Conservatory of The Hague,1,Royal Conservatory of The Hague,1,-3.10118
+[CLS] Carl von Voit:2 works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-1.31989
+[CLS] Paula Fredriksen:2 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-5.11508
+[CLS] Grace Helbig:3 works for G4:2 . [SEP],G4:2,G4:2,1,G4:2,1,-5.60527
+[CLS] Jali:2 Nyama:2 Suso:2 works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-3.17268
+[CLS] Jeffrey Sachs works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.28583
+[CLS] George Karsten:2 works for Leipzig University . [SEP],Leipzig University,Leipzig University,1,Leipzig University,1,-4.94291
+[CLS] David Cooperrider:3 works for Case Western Reserve University . [SEP],Case Western Reserve University,Case Western Reserve University,1,Case Western Reserve University,1,-1.41225
+[CLS] Hans Gross works for University of Graz . [SEP],University of Graz,University of Graz,1,University of Graz,1,-2.59992
+[CLS] Robert Lue:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.53881
+[CLS] Chris Crowe:2 works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.62346
+[CLS] Colette:2 Mazzucelli:4 works for Georgetown University . [SEP],Georgetown University,Georgetown University,1,Georgetown University,1,-4.81630
+[CLS] Afif:2 Safieh:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.83793
+[CLS] Catherine Bertini:2 works for Syracuse University . [SEP],Syracuse University,Syracuse University,1,Syracuse University,1,-3.89829
+[CLS] José Luis Machinea:2 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-2.05827
+[CLS] Gregory Pardlo:2 works for Hunter College . [SEP],Hunter College,Hunter College,1,Hunter College,1,-5.58882
+[CLS] Ivan Brunetti:2 works for Columbia College Chicago . [SEP],Columbia College Chicago,Columbia College Chicago,1,Columbia College Chicago,1,-8.43924
+[CLS] John Ferrillo:3 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-4.39872
+[CLS] Georges Cuvier works for Muséum national d ' histoire naturelle . [SEP],Muséum national d ' histoire naturelle,Muséum national d ' histoire naturelle,1,Muséum national d ' histoire naturelle,1,-0.07958
+[CLS] Harold Bunger:2 works for Georgia Institute of Technology . [SEP],Georgia Institute of Technology,Georgia Institute of Technology,1,Georgia Institute of Technology,1,-1.56342
+[CLS] Kristin Luker:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.77938
+[CLS] Simon Saradzhyan:4 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.05216
+[CLS] Robert Williams works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-2.20231
+[CLS] Hans Sedlmayr:4 works for University of Salzburg . [SEP],University of Salzburg,University of Salzburg,1,University of Salzburg,1,-1.94776
+[CLS] Ronald Grigor:3 Suny:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.38016
+[CLS] John O ' Brian works for University of British Columbia . [SEP],University of British Columbia,University of British Columbia,1,University of British Columbia,1,-1.31444
+[CLS] Eric Isaacs:2 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-1.73737
+[CLS] Dana Perino:2 works for Fox News . [SEP],Fox News,Fox News,1,Fox News,1,-3.64818
+[CLS] Richard D . Gill works for Leiden University . [SEP],Leiden University,Leiden University,1,Leiden University,1,-4.04760
+[CLS] Barend:2 Mons works for Erasmus MC . [SEP],Erasmus MC,Erasmus MC,1,Erasmus MC,1,-8.73396
+[CLS] Lawrence Wright works for The New Yorker . [SEP],The New Yorker,The New Yorker,1,The New Yorker,1,-0.63375
+[CLS] John Milsum:2 works for University of British Columbia . [SEP],University of British Columbia,University of British Columbia,1,University of British Columbia,1,-1.49670
+[CLS] Tony Ageh:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.72826
+[CLS] Mark H . Moore works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.75584
+[CLS] William Berenberg:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.74536
+[CLS] Preston Cloud works for University of Minnesota . [SEP],University of Minnesota,University of Minnesota,1,University of Minnesota,1,-1.87569
+[CLS] Edward Skinner King works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.44949
+[CLS] Alfredo Alvar:2 works for Complutense:3 University of Madrid . [SEP],Complutense:3 University of Madrid,Complutense:3 University of Madrid,1,Complutense:3 University of Madrid,1,-0.54825
+[CLS] John Glenn works for National Aeronautics:3 and Space Administration . [SEP],National Aeronautics:3 and Space Administration,National Aeronautics:3 and Space Administration,1,National Aeronautics:3 and Space Administration,1,-0.42171
+[CLS] Efren:3 Navarro works for Los Angeles Angels of Anaheim . [SEP],Los Angeles Angels of Anaheim,Los Angeles Angels of Anaheim,1,Los Angeles Angels of Anaheim,1,-0.31198
+[CLS] Guy Bailey works for Emory:2 University . [SEP],Emory:2 University,Emory:2 University,1,Emory:2 University,1,-1.92389
+[CLS] Hermann Johannes Pfannenstiel:5 works for University of Kiel . [SEP],University of Kiel,University of Kiel,1,University of Kiel,1,-2.88376
+[CLS] Ernst Küster:2 works for University of Bonn . [SEP],University of Bonn,University of Bonn,1,University of Bonn,1,-2.19401
+[CLS] Amos Tversky:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.61469
+[CLS] V . V . Chari:2 works for Northwestern University . [SEP],Northwestern University,Northwestern University,1,Northwestern University,1,-4.01588
+[CLS] Maír:2 José Benardete:3 works for Brooklyn College . [SEP],Brooklyn College,Brooklyn College,1,Brooklyn College,1,-6.34535
+[CLS] Johann Ritter von Oppolzer:3 works for Charles University . [SEP],Charles University,Charles University,1,Charles University,1,-8.68661
+[CLS] Nils Peter Hamberg:2 works for Karolinska:2 Institute . [SEP],Karolinska:2 Institute,Karolinska:2 Institute,1,Karolinska:2 Institute,1,-1.12332
+[CLS] Makau:2 W . Mutua:2 works for University at Buffalo . [SEP],University at Buffalo,University at Buffalo,1,University at Buffalo,1,-5.04238
+[CLS] Arve:2 Solstad:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-1.97146
+[CLS] Ruth Lomon:2 works for Radcliffe College . [SEP],Radcliffe College,Radcliffe College,1,Radcliffe College,1,-5.50125
+[CLS] Robert G . Vosper:2 works for University of Kansas . [SEP],University of Kansas,University of Kansas,1,University of Kansas,1,-2.33227
+[CLS] Yoshiki:3 Kuramoto:3 works for Kyoto University . [SEP],Kyoto University,Kyoto University,1,Kyoto University,1,-3.18200
+[CLS] Marilyn Tyler works for Jacksonville University . [SEP],Jacksonville University,Jacksonville University,1,Jacksonville University,1,-6.89976
+[CLS] Alice Echols:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.51934
+[CLS] John Pittenger:2 works for Rutgers University . [SEP],Rutgers University,Rutgers University,1,Rutgers University,1,-3.69584
+[CLS] Marie - Dominique Philippe works for University of Fribourg . [SEP],University of Fribourg,University of Fribourg,1,University of Fribourg,1,-2.84918
+[CLS] Laura Otis works for Emory:2 University . [SEP],Emory:2 University,Emory:2 University,1,Emory:2 University,1,-1.42009
+[CLS] Alanna:2 Rizzo:3 works for Time Warner Cable SportsNet:2 LA . [SEP],Time Warner Cable SportsNet:2 LA,Time Warner Cable SportsNet:2 LA,1,Time Warner Cable SportsNet:2 LA,1,-6.78714
+[CLS] David Bruce Dill:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.79036
+[CLS] Karen Ter - Martirosian:3 works for Ioffe:2 Institute . [SEP],Ioffe:2 Institute,Ioffe:2 Institute,1,Ioffe:2 Institute,1,-4.60851
+[CLS] Charles Cogan:2 works for Central Intelligence Agency . [SEP],Central Intelligence Agency,Central Intelligence Agency,1,Central Intelligence Agency,1,-1.21536
+[CLS] Massimo Teodori:2 works for Johns Hopkins University . [SEP],Johns Hopkins University,Johns Hopkins University,1,Johns Hopkins University,1,-0.63754
+[CLS] Giliano:2 Wijnaldum:4 works for FC Groningen . [SEP],FC Groningen,FC Groningen,1,FC Groningen,1,-4.89007
+[CLS] Francis B . Hildebrand:3 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.55704
+[CLS] Anatol:2 Heintz:3 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.63931
+[CLS] Kenneth Chan works for Hong Kong Baptist University . [SEP],Hong Kong Baptist University,Hong Kong Baptist University,1,Hong Kong Baptist University,1,-2.91121
+[CLS] Berthold Ullman:3 works for Iowa State University . [SEP],Iowa State University,Iowa State University,1,Iowa State University,1,-2.02772
+[CLS] Alberto Abadie:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-1.12372
+[CLS] Helen Krich:2 Chinoy:2 works for Rutgers University . [SEP],Rutgers University,Rutgers University,1,Rutgers University,1,-3.85232
+[CLS] William Beauchamp:3 works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-1.75565
+[CLS] Fujio:2 Masuoka:3 works for Tohoku:3 University . [SEP],Tohoku:3 University,Tohoku:3 University,1,Tohoku:3 University,1,-1.37309
+"[CLS] Robert Eaglestone:2 works for Royal Holloway , University of London . [SEP]","Royal Holloway , University of London","Royal Holloway , University of London",1,"Royal Holloway , University of London",1,-1.66338
+[CLS] Gilberto Dimenstein:3 works for Correio:3 Braziliense:3 . [SEP],Correio:3 Braziliense:3,Correio:3 Braziliense:3,1,Correio:3 Braziliense:3,1,-1.91081
+[CLS] Henry G . Booker works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.39495
+[CLS] Toyohiko:3 Satoh:2 works for Royal Conservatory of The Hague . [SEP],Royal Conservatory of The Hague,Royal Conservatory of The Hague,1,Royal Conservatory of The Hague,1,-3.39705
+[CLS] Gerald Steinacher:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.92956
+[CLS] James Mathews:2 works for Iowa State University . [SEP],Iowa State University,Iowa State University,1,Iowa State University,1,-1.90684
+[CLS] Paul Lansky:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.05437
+[CLS] Bill Shankly:3 works for Grimsby:3 Town F . C . . [SEP],Grimsby:3 Town F . C .,Grimsby:3 Town F . C .,1,Grimsby:3 Town F . C .,1,-0.08839
+[CLS] Doug Herzog works for ViacomCBS:4 Domestic:2 Media Networks . [SEP],ViacomCBS:4 Domestic:2 Media Networks,ViacomCBS:4 Domestic:2 Media Networks,1,ViacomCBS:4 Domestic:2 Media Networks,1,-2.62819
+[CLS] Sigrid:2 D . Peyerimhoff:4 works for University of Bonn . [SEP],University of Bonn,University of Bonn,1,University of Bonn,1,-2.30255
+[CLS] Gary D . Solis:2 works for Georgetown University Law Center . [SEP],Georgetown University Law Center,Georgetown University Law Center,1,Georgetown University Law Center,1,-3.66315
+[CLS] Donald Brittain:2 works for National Film Board of Canada . [SEP],National Film Board of Canada,National Film Board of Canada,1,National Film Board of Canada,1,-2.28355
+[CLS] Dave Pascal works for The New Yorker . [SEP],The New Yorker,The New Yorker,1,The New Yorker,1,-1.40328
+[CLS] Amy Harris works for The Australian Ballet . [SEP],The Australian Ballet,The Australian Ballet,1,The Australian Ballet,1,-5.74914
+[CLS] Ferdinand Hitzig:2 works for Heidelberg University . [SEP],Heidelberg University,Heidelberg University,1,Heidelberg University,1,-2.91624
+[CLS] David Lewin:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.83225
+[CLS] Joseph Brunton:2 works for Boy Scouts of America . [SEP],Boy Scouts of America,Boy Scouts of America,1,Boy Scouts of America,1,-0.17535
+[CLS] James Chadwick:2 works for University of Manchester . [SEP],University of Manchester,University of Manchester,1,University of Manchester,1,-2.53026
+[CLS] Hans Larsson works for Lund University . [SEP],Lund University,Lund University,1,Lund University,1,-3.37513
+[CLS] Faye Leung:2 works for Hong Kong Ballet . [SEP],Hong Kong Ballet,Hong Kong Ballet,1,Hong Kong Ballet,1,-2.16274
+[CLS] Perri:2 6 works for Queen Mary University of London . [SEP],Queen Mary University of London,Queen Mary University of London,1,Queen Mary University of London,1,-2.13709
+[CLS] Namas:2 Chandra works for Florida State University . [SEP],Florida State University,Florida State University,1,Florida State University,1,-3.92998
+[CLS] Michael Lipton:2 works for University of Sussex . [SEP],University of Sussex,University of Sussex,1,University of Sussex,1,-3.06547
+[CLS] John P . Snyder works for United States Geological Survey . [SEP],United States Geological Survey,United States Geological Survey,1,United States Geological Survey,1,-0.14287
+[CLS] Riccardo Rebonato:3 works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-2.02738
+[CLS] Ann Kirschner:3 works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-1.66433
+[CLS] Ian Hodder:2 works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-1.73770
+[CLS] Ulrich S . Schubert works for University of Jena . [SEP],University of Jena,University of Jena,1,University of Jena,1,-2.59573
+[CLS] Stephen Quirke:2 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.23168
+[CLS] Kenneth Rogoff:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.66593
+[CLS] Tiina:2 Rosenberg works for Stockholm University . [SEP],Stockholm University,Stockholm University,1,Stockholm University,1,-5.14725
+[CLS] Robert L . Dawson works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.07472
+[CLS] David Colander:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.25518
+[CLS] Zineb:2 El Rhazoui:4 works for Charlie Hebdo:3 . [SEP],Charlie Hebdo:3,Charlie Hebdo:3,1,Charlie Hebdo:3,1,-0.06662
+[CLS] Antoni Milkowski:2 works for Hunter College . [SEP],Hunter College,Hunter College,1,Hunter College,1,-7.24233
+[CLS] Abraham Maslow:2 works for Brandeis:2 University . [SEP],Brandeis:2 University,Brandeis:2 University,1,Brandeis:2 University,1,-1.45240
+[CLS] Lawrence D . Brown works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.36221
+[CLS] Frank S . Alexander works for Emory:2 University . [SEP],Emory:2 University,Emory:2 University,1,Emory:2 University,1,-1.57733
+[CLS] Gabriel Gorodetsky:4 works for Tel Aviv University . [SEP],Tel Aviv University,Tel Aviv University,1,Tel Aviv University,1,-1.68607
+[CLS] Robert Fogelin:3 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.59415
+[CLS] Arthur ter Hofstede:3 works for University of Queensland . [SEP],University of Queensland,University of Queensland,1,University of Queensland,1,-3.18454
+[CLS] David A . Nethercot:3 works for Imperial College London . [SEP],Imperial College London,Imperial College London,1,Imperial College London,1,-2.51972
+[CLS] Ruth Tringham:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.25702
+[CLS] Steven Hyman:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.76628
+[CLS] George I . Mavrodes:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.43162
+[CLS] Roger G . Walker works for McMaster:4 University . [SEP],McMaster:4 University,McMaster:4 University,1,McMaster:4 University,1,-1.16015
+[CLS] Rufus Edward Foster works for Tulane:2 University . [SEP],Tulane:2 University,Tulane:2 University,1,Tulane:2 University,1,-1.78889
+[CLS] Myron:2 Tribus:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-1.10604
+[CLS] Heinrich Zimmer works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.91459
+[CLS] Theodore H . Okiishi:3 works for Iowa State University . [SEP],Iowa State University,Iowa State University,1,Iowa State University,1,-1.88575
+[CLS] Masakatsu:3 Shibasaki:3 works for Hokkaido University . [SEP],Hokkaido University,Hokkaido University,1,Hokkaido University,1,-2.67259
+[CLS] Patricia Ingraham:3 works for Syracuse University . [SEP],Syracuse University,Syracuse University,1,Syracuse University,1,-3.84921
+[CLS] Mike McDonagh:5 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-2.04115
+[CLS] María Perceval:3 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-2.30182
+[CLS] Shinya:2 Yamanaka:3 works for Kyoto University . [SEP],Kyoto University,Kyoto University,1,Kyoto University,1,-3.24470
+[CLS] Ng Chiau:2 - tong:2 works for University of Tokyo . [SEP],University of Tokyo,University of Tokyo,1,University of Tokyo,1,-1.79881
+[CLS] Mikita:2 Brottman:3 works for Maryland Institute College of Art . [SEP],Maryland Institute College of Art,Maryland Institute College of Art,1,Maryland Institute College of Art,1,-3.50249
+[CLS] Nils Otto Myklestad:3 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-4.03518
+[CLS] Amédée:2 de Noé:2 works for Le Charivari:3 . [SEP],Le Charivari:3,Le Charivari:3,1,Le Charivari:3,1,-2.08406
+[CLS] Troels:3 Jørgensen works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.58329
+[CLS] Lloyd Geering:2 works for Victoria University of Wellington . [SEP],Victoria University of Wellington,Victoria University of Wellington,1,Victoria University of Wellington,1,-3.17873
+[CLS] Masatsugu:3 Suzuki works for Binghamton:2 University . [SEP],Binghamton:2 University,Binghamton:2 University,1,Binghamton:2 University,1,-3.03982
+[CLS] Ralf J . Spatzier:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.05907
+[CLS] Gerard Salton:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.07215
+[CLS] Ernst Späth:3 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.99305
+[CLS] Larry W . Hurtado:2 works for University of Edinburgh . [SEP],University of Edinburgh,University of Edinburgh,1,University of Edinburgh,1,-3.87177
+[CLS] Peter McCabe:4 works for Rolling Stone . [SEP],Rolling Stone,Rolling Stone,1,Rolling Stone,1,-0.94833
+[CLS] Nicholas Witchell:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.02534
+[CLS] Alfred Baeumler:3 works for TU Dresden . [SEP],TU Dresden,TU Dresden,1,TU Dresden,1,-4.13771
+[CLS] Harry Kroger:3 works for Binghamton:2 University . [SEP],Binghamton:2 University,Binghamton:2 University,1,Binghamton:2 University,1,-3.32851
+[CLS] Albert Brackmann:3 works for University of Marburg . [SEP],University of Marburg,University of Marburg,1,University of Marburg,1,-3.26140
+[CLS] Paul Gewirtz:4 works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-2.18868
+[CLS] Robert Lusty:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.04911
+[CLS] Timothy Sumner:2 works for Imperial College London . [SEP],Imperial College London,Imperial College London,1,Imperial College London,1,-3.12282
+[CLS] Jon Feltheimer:4 works for Lions Gate Entertainment . [SEP],Lions Gate Entertainment,Lions Gate Entertainment,1,Lions Gate Entertainment,1,-2.30112
+[CLS] Paul Flechsig:3 works for Leipzig University . [SEP],Leipzig University,Leipzig University,1,Leipzig University,1,-4.77422
+[CLS] Fritz Schachermeyr:5 works for University of Graz . [SEP],University of Graz,University of Graz,1,University of Graz,1,-2.72754
+[CLS] Paula Barrett works for University of Queensland . [SEP],University of Queensland,University of Queensland,1,University of Queensland,1,-2.62831
+[CLS] Delphine:2 Parrott:2 works for Cancer Research UK . [SEP],Cancer Research UK,Cancer Research UK,1,Cancer Research UK,1,-3.32645
+[CLS] Walter Bowers:2 Pillsbury:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.10228
+[CLS] Charles Herbert Lowe works for University of Arizona . [SEP],University of Arizona,University of Arizona,1,University of Arizona,1,-3.32352
+[CLS] Marcello Truzzi:3 works for Eastern Michigan University . [SEP],Eastern Michigan University,Eastern Michigan University,1,Eastern Michigan University,1,-4.46038
+[CLS] David H . H . Metcalfe:3 works for University of Manchester . [SEP],University of Manchester,University of Manchester,1,University of Manchester,1,-2.78645
+[CLS] Rodney Stark works for Baylor:2 University . [SEP],Baylor:2 University,Baylor:2 University,1,Baylor:2 University,1,-2.42551
+[CLS] Friedrich Hund works for University of Jena . [SEP],University of Jena,University of Jena,1,University of Jena,1,-2.90150
+[CLS] Rebekah:3 Modrak:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.44964
+[CLS] Karl Lashley:3 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.21203
+[CLS] Peter Sissons:3 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.57668
+[CLS] Victoria Stilwell:2 works for Animal Planet . [SEP],Animal Planet,Animal Planet,1,Animal Planet,1,-3.83349
+[CLS] Charles Ogletree:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.73949
+[CLS] Wilfrid:3 Desan:2 works for Georgetown University . [SEP],Georgetown University,Georgetown University,1,Georgetown University,1,-4.19485
+"[CLS] John Marley works for Bolckow:3 , Vaughan . [SEP]","Bolckow:3 , Vaughan","Bolckow:3 , Vaughan",1,"Bolckow:3 , Vaughan",1,-4.99399
+[CLS] Digby:2 Tantam:2 works for University of Sheffield . [SEP],University of Sheffield,University of Sheffield,1,University of Sheffield,1,-2.71559
+[CLS] Nelson Dunford:3 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.67229
+[CLS] Lori Wallach:2 works for Global Trade Watch . [SEP],Global Trade Watch,Global Trade Watch,1,Global Trade Watch,1,-5.70184
+[CLS] Dmitry:3 Machinsky:3 works for Hermitage:3 Museum . [SEP],Hermitage:3 Museum,Hermitage:3 Museum,1,Hermitage:3 Museum,1,-2.08339
+[CLS] Jesse Lowen:2 Shearer:2 works for Pennsylvania State University . [SEP],Pennsylvania State University,Pennsylvania State University,1,Pennsylvania State University,1,-2.32050
+[CLS] Tamar:2 Gendler:2 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-4.05936
+[CLS] John Wallis works for Magdalen:2 College . [SEP],Magdalen:2 College,Magdalen:2 College,1,Magdalen:2 College,1,-1.11261
+[CLS] Du Gangjian:2 works for Shantou:2 University . [SEP],Shantou:2 University,Shantou:2 University,1,Shantou:2 University,1,-3.98835
+[CLS] Andrew Milner:2 works for University of Warwick . [SEP],University of Warwick,University of Warwick,1,University of Warwick,1,-3.15309
+[CLS] David Schmittlein:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.68222
+[CLS] Lino Pertile:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.32510
+[CLS] Moses Abramovitz:4 works for Stanford University . [SEP],Stanford University,Stanford University,1,Stanford University,1,-3.79550
+[CLS] James Marriott:3 works for Simon & Schuster . [SEP],Simon & Schuster,Simon & Schuster,1,Simon & Schuster,1,-1.91090
+[CLS] Aditi:2 Shankardass:3 works for Harvard Medical School . [SEP],Harvard Medical School,Harvard Medical School,1,Harvard Medical School,1,-3.45048
+[CLS] Rolf Griebel:3 works for Bavarian State Library . [SEP],Bavarian State Library,Bavarian State Library,1,Bavarian State Library,1,-2.99313
+[CLS] Lisa Randall works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.65411
+[CLS] Anton von Frisch:2 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.83847
+[CLS] Scott Pingel:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.22861
+[CLS] C . Bradford Welles works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-2.90044
+"[CLS] Alfred Gilman , Sr . works for Columbia University . [SEP]",Columbia University,Columbia University,1,Columbia University,1,-3.16699
+[CLS] Hans Joas:2 works for University of Erfurt . [SEP],University of Erfurt,University of Erfurt,1,University of Erfurt,1,-3.90166
+[CLS] Carl Haakon:2 Waadeland:3 works for Norwegian University of Science and Technology . [SEP],Norwegian University of Science and Technology,Norwegian University of Science and Technology,1,Norwegian University of Science and Technology,1,-1.33049
+[CLS] Robert Lucas works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.16595
+[CLS] Ilona Hubay:2 works for Bavarian State Library . [SEP],Bavarian State Library,Bavarian State Library,1,Bavarian State Library,1,-2.66054
+[CLS] Hu Shuli:2 works for Sun Yat:2 - sen University . [SEP],Sun Yat:2 - sen University,Sun Yat:2 - sen University,1,Sun Yat:2 - sen University,1,-0.92587
+[CLS] Donald J . Darensbourg:3 works for Texas A & M University . [SEP],Texas A & M University,Texas A & M University,1,Texas A & M University,1,-0.93895
+[CLS] Ernst Sellin:2 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.94310
+[CLS] Edmund Rose works for University of Zurich . [SEP],University of Zurich,University of Zurich,1,University of Zurich,1,-3.04452
+[CLS] Nguyen Xuan:2 Vinh:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.43098
+[CLS] Anton Blok works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.78712
+[CLS] Richard Alan Cross works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-0.85355
+[CLS] Pedro Ramírez Vázquez works for National Autonomous University of Mexico . [SEP],National Autonomous University of Mexico,National Autonomous University of Mexico,1,National Autonomous University of Mexico,1,-1.67184
+[CLS] Jules T . Allen works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-1.65897
+[CLS] Nathan O . Kaplan works for Brandeis:2 University . [SEP],Brandeis:2 University,Brandeis:2 University,1,Brandeis:2 University,1,-1.37849
+[CLS] Nordal:2 Wille:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.30900
+[CLS] Karen Lynn Davidson works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.69517
+[CLS] Richard Shaw works for Millwall:2 F . C . . [SEP],Millwall:2 F . C .,Millwall:2 F . C .,1,Millwall:2 F . C .,1,-0.46037
+[CLS] Marti:2 G . Subrahmanyam:4 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.69290
+[CLS] Vladimir Petković:2 works for University of Belgrade . [SEP],University of Belgrade,University of Belgrade,1,University of Belgrade,1,-1.49817
+[CLS] Dennis Sullivan works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-1.70012
+[CLS] Eleanora:2 Knopf works for United States Geological Survey . [SEP],United States Geological Survey,United States Geological Survey,1,United States Geological Survey,1,-0.36419
+[CLS] Brian Duensing:3 works for Minnesota Twins . [SEP],Minnesota Twins,Minnesota Twins,1,Minnesota Twins,1,-4.31873
+[CLS] Ernest L . Eliel:2 works for University of North Carolina at Chapel Hill . [SEP],University of North Carolina at Chapel Hill,University of North Carolina at Chapel Hill,1,University of North Carolina at Chapel Hill,1,-0.10165
+[CLS] Lou Rossini works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.36536
+[CLS] Ananda:2 Ranga:2 Pillai:3 works for French East India Company . [SEP],French East India Company,French East India Company,1,French East India Company,1,-4.61424
+[CLS] Marilyn Stokstad:3 works for University of Kansas . [SEP],University of Kansas,University of Kansas,1,University of Kansas,1,-2.35855
+[CLS] Dan Ariely:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-1.09144
+[CLS] Clas:2 Theodor Odhner:2 works for Lund University . [SEP],Lund University,Lund University,1,Lund University,1,-3.62438
+[CLS] Jeremy King works for Mount Holyoke:2 College . [SEP],Mount Holyoke:2 College,Mount Holyoke:2 College,1,Mount Holyoke:2 College,1,-2.10645
+[CLS] Arthur Bohn:2 works for Vonnegut:3 & Bohn:2 . [SEP],Vonnegut:3 & Bohn:2,Vonnegut:3 & Bohn:2,1,Vonnegut:3 & Bohn:2,1,-1.83236
+[CLS] Charles William Hanko:2 works for Case Western Reserve University . [SEP],Case Western Reserve University,Case Western Reserve University,1,Case Western Reserve University,1,-1.62476
+[CLS] Anastasia Powell works for RMIT:2 University . [SEP],RMIT:2 University,RMIT:2 University,1,RMIT:2 University,1,-4.31643
+[CLS] Friedrich Schlemm:3 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.95606
+[CLS] Adam František Kollár:3 works for Maria Theresa of Austria . [SEP],Maria Theresa of Austria,Maria Theresa of Austria,1,Maria Theresa of Austria,1,-0.59497
+[CLS] Hugh Gurling:3 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.32508
+[CLS] Shigehisa:4 Kuriyama:3 works for Emory:2 University . [SEP],Emory:2 University,Emory:2 University,1,Emory:2 University,1,-1.73560
+[CLS] Kim S . Cameron works for Case Western Reserve University . [SEP],Case Western Reserve University,Case Western Reserve University,1,Case Western Reserve University,1,-1.68744
+[CLS] J . Scott Yaruss:3 works for University of Pittsburgh . [SEP],University of Pittsburgh,University of Pittsburgh,1,University of Pittsburgh,1,-2.19092
+[CLS] Mark Watson works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.38370
+[CLS] Brankica:3 Stanković:2 works for B92:3 . [SEP],B92:3,B92:3,1,B92:3,1,-1.91115
+[CLS] Richard Machalek:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.66216
+[CLS] Nichola:3 Gutgold:2 works for Pennsylvania State University . [SEP],Pennsylvania State University,Pennsylvania State University,1,Pennsylvania State University,1,-2.03106
+[CLS] Hermann Vöchting:4 works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-3.07159
+[CLS] Amnon:2 Yariv:3 works for California Institute of Technology . [SEP],California Institute of Technology,California Institute of Technology,1,California Institute of Technology,1,-1.48616
+[CLS] Yoshito:3 Kishi:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.28743
+[CLS] Charles Kiesler:3 works for University of Missouri . [SEP],University of Missouri,University of Missouri,1,University of Missouri,1,-2.51703
+[CLS] Stephen Holmes works for Central Intelligence Agency . [SEP],Central Intelligence Agency,Central Intelligence Agency,1,Central Intelligence Agency,1,-1.51718
+[CLS] Raia:2 Prokhovnik:4 works for The Open University . [SEP],The Open University,The Open University,1,The Open University,1,-5.03153
+[CLS] Judith Palfrey:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.90979
+[CLS] Arlette:2 Chabot:2 works for Europe 1 . [SEP],Europe 1,Europe 1,1,Europe 1,1,-6.49613
+[CLS] Howard Mayer Brown works for Wellesley:2 College . [SEP],Wellesley:2 College,Wellesley:2 College,1,Wellesley:2 College,1,-1.68847
+[CLS] John F . Ince:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.18780
+[CLS] Abram:2 S . Isaacs:2 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.24396
+[CLS] Laurence Iannaccone:3 works for George Mason University . [SEP],George Mason University,George Mason University,1,George Mason University,1,-3.40738
+[CLS] Johann Peter Gogarten:2 works for University of Connecticut . [SEP],University of Connecticut,University of Connecticut,1,University of Connecticut,1,-4.13908
+[CLS] Barron:2 H . Lerner:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.21841
+[CLS] Frank J . Tipler:2 works for Tulane:2 University . [SEP],Tulane:2 University,Tulane:2 University,1,Tulane:2 University,1,-1.65465
+[CLS] Luigi R . Einaudi works for Wesleyan:2 University . [SEP],Wesleyan:2 University,Wesleyan:2 University,1,Wesleyan:2 University,1,-3.27362
+[CLS] Elda:2 Emma Anderson works for Los Alamos:2 National Laboratory . [SEP],Los Alamos:2 National Laboratory,Los Alamos:2 National Laboratory,1,Los Alamos:2 National Laboratory,1,-0.64764
+[CLS] Herta:2 Glaz:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.51840
+[CLS] Hazel Genn:2 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.56752
+[CLS] Stanisław Ruziewicz:3 works for Lviv:2 University . [SEP],Lviv:2 University,Lviv:2 University,1,Lviv:2 University,1,-1.93524
+[CLS] Friedrich Wilhelm Joseph Schelling:3 works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-1.11464
+[CLS] Robert Thomas Jones works for National Aeronautics:3 and Space Administration . [SEP],National Aeronautics:3 and Space Administration,National Aeronautics:3 and Space Administration,1,National Aeronautics:3 and Space Administration,1,-0.54263
+[CLS] Yum:2 - Tong Siu:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.68536
+[CLS] Walter Knödel:4 works for University of Stuttgart . [SEP],University of Stuttgart,University of Stuttgart,1,University of Stuttgart,1,-2.57109
+[CLS] Emil Artin:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.64352
+[CLS] Charles Anthon:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.08675
+[CLS] Brittney:2 Ezell:2 works for East Tennessee State University . [SEP],East Tennessee State University,East Tennessee State University,1,East Tennessee State University,1,-3.31438
+[CLS] Ronald S . Sullivan Jr . works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.13817
+[CLS] Diane Elam:2 works for Indiana University Bloomington:2 . [SEP],Indiana University Bloomington:2,Indiana University Bloomington:2,1,Indiana University Bloomington:2,1,-1.16416
+[CLS] Torbjörn:4 Caspersson:3 works for Karolinska:2 Institute . [SEP],Karolinska:2 Institute,Karolinska:2 Institute,1,Karolinska:2 Institute,1,-1.26761
+[CLS] Thomas Offenberg:2 Backer:2 works for Norwegian Public Roads Administration . [SEP],Norwegian Public Roads Administration,Norwegian Public Roads Administration,1,Norwegian Public Roads Administration,1,-7.22994
+[CLS] Hal Hickel:2 works for Pixar:2 . [SEP],Pixar:2,Pixar:2,1,Pixar:2,1,-3.12067
+[CLS] Bernard O ' Donoghue:3 works for Magdalen:2 College . [SEP],Magdalen:2 College,Magdalen:2 College,1,Magdalen:2 College,1,-0.94551
+[CLS] Béla Balassa:2 works for Johns Hopkins University . [SEP],Johns Hopkins University,Johns Hopkins University,1,Johns Hopkins University,1,-1.07313
+[CLS] Gary Ridley works for Oklahoma Department of Transportation . [SEP],Oklahoma Department of Transportation,Oklahoma Department of Transportation,1,Oklahoma Department of Transportation,1,-2.06583
+[CLS] Wilhelm Oechsli:3 works for University of Zurich . [SEP],University of Zurich,University of Zurich,1,University of Zurich,1,-2.41028
+[CLS] Sven Berggren:2 works for Uppsala University . [SEP],Uppsala University,Uppsala University,1,Uppsala University,1,-2.06040
+[CLS] Archie Brown works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.48311
+[CLS] Warren Goldfarb:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.74411
+[CLS] Olivia Cajero:2 Bedford works for Arizona House of Representatives . [SEP],Arizona House of Representatives,Arizona House of Representatives,1,Arizona House of Representatives,1,-2.32821
+[CLS] William H . Moran works for United States Secret Service . [SEP],United States Secret Service,United States Secret Service,1,United States Secret Service,1,-0.95918
+[CLS] Otto H . Schade:3 works for A . Atwater:2 Kent . [SEP],A . Atwater:2 Kent,A . Atwater:2 Kent,1,A . Atwater:2 Kent,1,-5.51497
+[CLS] Richard Pillard:3 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-4.48477
+[CLS] Jeff Westbrook:2 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.16252
+[CLS] Walter Burckhardt:4 works for University of Zurich . [SEP],University of Zurich,University of Zurich,1,University of Zurich,1,-2.01444
+[CLS] Rob Smedley:3 works for Williams Grand Prix Engineering . [SEP],Williams Grand Prix Engineering,Williams Grand Prix Engineering,1,Williams Grand Prix Engineering,1,-2.98534
+[CLS] Toshiko:3 Takaezu:3 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-4.51956
+[CLS] John Avise:2 works for University of Georgia . [SEP],University of Georgia,University of Georgia,1,University of Georgia,1,-3.20316
+"[CLS] Wendell:2 Lim works for University of California , San Francisco . [SEP]","University of California , San Francisco","University of California , San Francisco",1,"University of California , San Francisco",1,-0.53177
+[CLS] John F . Dickson works for New York City Police Department . [SEP],New York City Police Department,New York City Police Department,1,New York City Police Department,1,-0.73095
+[CLS] Butler Lampson:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-1.07191
+[CLS] Stephen Olin:2 works for University of Georgia . [SEP],University of Georgia,University of Georgia,1,University of Georgia,1,-2.76972
+[CLS] Percy Edgar works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.49922
+[CLS] Rahul:2 Pandharipande:4 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.57087
+[CLS] Colin Dayan:2 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.67409
+[CLS] Francis Loewenheim:3 works for Rice University . [SEP],Rice University,Rice University,1,Rice University,1,-6.72034
+"[CLS] Margaret Jay , Baroness:2 Jay of Paddington:3 works for British Broadcasting Corporation . [SEP]",British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.52348
+[CLS] Philip England works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-1.95261
+[CLS] George L . Priest works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-2.04532
+[CLS] Barclay Kamb:2 works for California Institute of Technology . [SEP],California Institute of Technology,California Institute of Technology,1,California Institute of Technology,1,-1.17362
+"[CLS] Arthur M . Schlesinger:3 , Sr . works for Harvard University . [SEP]",Harvard University,Harvard University,1,Harvard University,1,-2.96916
+[CLS] William L . Bray works for Syracuse University . [SEP],Syracuse University,Syracuse University,1,Syracuse University,1,-3.85894
+[CLS] Bo Ralph works for University of Gothenburg:3 . [SEP],University of Gothenburg:3,University of Gothenburg:3,1,University of Gothenburg:3,1,-1.35333
+[CLS] Laurens:2 de Haan:2 works for Erasmus University Rotterdam . [SEP],Erasmus University Rotterdam,Erasmus University Rotterdam,1,Erasmus University Rotterdam,1,-3.51067
+[CLS] Emilio Botín:2 works for Banco Santander . [SEP],Banco Santander,Banco Santander,1,Banco Santander,1,-4.03739
+[CLS] Marilyn Arnold works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.59623
+[CLS] Judith Kurland:2 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-4.74803
+[CLS] Liêm:2 Hoang:2 - Ngoc:2 works for University of Paris ( 1896 - 1968 ) . [SEP],University of Paris ( 1896 - 1968 ),University of Paris ( 1896 - 1968 ),1,University of Paris ( 1896 - 1968 ),1,-4.03626
+[CLS] Gisela:2 Striker:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.24921
+[CLS] Paul Ulanowsky:4 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.54053
+[CLS] Charles L . Christ works for Wesleyan:2 University . [SEP],Wesleyan:2 University,Wesleyan:2 University,1,Wesleyan:2 University,1,-3.08563
+[CLS] Albert Wesley Johnson works for University of Toronto . [SEP],University of Toronto,University of Toronto,1,University of Toronto,1,-2.24806
+[CLS] Stephen H . West works for Arizona State University . [SEP],Arizona State University,Arizona State University,1,Arizona State University,1,-2.75793
+[CLS] Allan Kozinn:3 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.24611
+[CLS] Mario Davidovsky:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.85119
+[CLS] Bernhard Windscheid:2 works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-3.07622
+[CLS] Michael O ' Flaherty:3 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-1.85985
+[CLS] Paul Wilson works for University of Miami . [SEP],University of Miami,University of Miami,1,University of Miami,1,-2.90019
+[CLS] Edward C . Franklin works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.23244
+[CLS] Elizabeth H . West works for Texas Tech University . [SEP],Texas Tech University,Texas Tech University,1,Texas Tech University,1,-2.34432
+[CLS] Kumar Mangalam:2 Birla:2 works for Aditya:2 Birla:2 Group . [SEP],Aditya:2 Birla:2 Group,Aditya:2 Birla:2 Group,1,Aditya:2 Birla:2 Group,1,-2.04296
+[CLS] Mick McCarthy works for Ipswich Town F . C . . [SEP],Ipswich Town F . C .,Ipswich Town F . C .,1,Ipswich Town F . C .,1,-0.44675
+[CLS] Frits:2 Went:2 works for Utrecht University . [SEP],Utrecht University,Utrecht University,1,Utrecht University,1,-3.54559
+[CLS] Arthur I . Miller works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.44531
+[CLS] Mary Elizabeth Turner Salter:2 works for Wellesley:2 College . [SEP],Wellesley:2 College,Wellesley:2 College,1,Wellesley:2 College,1,-1.77542
+[CLS] Leslie Green works for Underground Electric Railways Company of London . [SEP],Underground Electric Railways Company of London,Underground Electric Railways Company of London,1,Underground Electric Railways Company of London,1,-3.64954
+[CLS] Laurent Merchiers:3 works for Ghent:3 University . [SEP],Ghent:3 University,Ghent:3 University,1,Ghent:3 University,1,-1.93768
+[CLS] Michael Riffaterre:4 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.93567
+[CLS] Alfred Holmes White works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.03990
+[CLS] Bruce Shapiro:2 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.15319
+[CLS] Babatunde:3 Osotimehin:4 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-1.96280
+[CLS] Paul Gottfried works for Elizabethtown:2 College . [SEP],Elizabethtown:2 College,Elizabethtown:2 College,1,Elizabethtown:2 College,1,-4.92367
+[CLS] Andrew Lih:2 works for American University . [SEP],American University,American University,1,American University,1,-6.21060
+[CLS] William Sager:2 works for University of Houston . [SEP],University of Houston,University of Houston,1,University of Houston,1,-3.44318
+[CLS] Dionysios:3 Zakythinos:4 works for Panteion:3 University . [SEP],Panteion:3 University,Panteion:3 University,1,Panteion:3 University,1,-3.23184
+[CLS] Ludwig Radermacher:3 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-2.03791
+[CLS] Christina Jutterström:3 works for Dagens:2 Nyheter:2 . [SEP],Dagens:2 Nyheter:2,Dagens:2 Nyheter:2,1,Dagens:2 Nyheter:2,1,-0.18023
+[CLS] Jean - Paul Fitoussi:3 works for Sciences Po . [SEP],Sciences Po,Sciences Po,1,Sciences Po,1,-2.84622
+[CLS] Richard Belluzzo:3 works for Silicon Graphics . [SEP],Silicon Graphics,Silicon Graphics,1,Silicon Graphics,1,-2.33011
+[CLS] Friedrich Loeffler:4 works for University of Greifswald . [SEP],University of Greifswald,University of Greifswald,1,University of Greifswald,1,-2.82344
+[CLS] Ross D . King works for University of Manchester . [SEP],University of Manchester,University of Manchester,1,University of Manchester,1,-3.28313
+[CLS] I . J . Good works for Bletchley:4 Park . [SEP],Bletchley:4 Park,Bletchley:4 Park,1,Bletchley:4 Park,1,-1.16563
+[CLS] Werner Tochtermann:2 works for University of Kiel . [SEP],University of Kiel,University of Kiel,1,University of Kiel,1,-2.47032
+[CLS] Allan Hay works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-3.18955
+[CLS] Andrew Szanton:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.57815
+[CLS] Jon Meacham:3 works for Newsweek:2 . [SEP],Newsweek:2,Newsweek:2,1,Newsweek:2,1,-3.28550
+[CLS] Vincenz:2 Czerny:3 works for Heidelberg University . [SEP],Heidelberg University,Heidelberg University,1,Heidelberg University,1,-3.85262
+[CLS] Christine Walkden:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.04169
+[CLS] Leroy Robertson works for University of Utah . [SEP],University of Utah,University of Utah,1,University of Utah,1,-2.71511
+[CLS] Penny Ballem:2 works for University of British Columbia . [SEP],University of British Columbia,University of British Columbia,1,University of British Columbia,1,-1.24306
+[CLS] Ron Hadfield:2 works for West Midlands Police . [SEP],West Midlands Police,West Midlands Police,1,West Midlands Police,1,-2.33177
+[CLS] Mari - Luci:2 Jaramillo:3 works for University of New Mexico . [SEP],University of New Mexico,University of New Mexico,1,University of New Mexico,1,-1.61666
+[CLS] Charles Townsend Copeland works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.05850
+[CLS] Stanley Smith Stevens works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.09155
+[CLS] Jim Magilton:3 works for Melbourne Victory . [SEP],Melbourne Victory,Melbourne Victory,1,Melbourne Victory,1,-5.87675
+[CLS] Laura Boldrini:2 works for United Nations High Commissioner for Refugees:3 . [SEP],United Nations High Commissioner for Refugees:3,United Nations High Commissioner for Refugees:3,1,United Nations High Commissioner for Refugees:3,1,-0.20822
+[CLS] John Logan works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-0.57048
+[CLS] Peter Maxwell Davies works for Royal Academy of Music . [SEP],Royal Academy of Music,Royal Academy of Music,1,Royal Academy of Music,1,-1.68391
+[CLS] Kenneth G . Miller works for Rutgers University . [SEP],Rutgers University,Rutgers University,1,Rutgers University,1,-3.37229
+[CLS] Edward Fountain works for National League . [SEP],National League,National League,1,National League,1,-5.50638
+[CLS] Gilles Peterson works for Talkin:2 ' Loud . [SEP],Talkin:2 ' Loud,Talkin:2 ' Loud,1,Talkin:2 ' Loud,1,-3.52563
+[CLS] Ernst Curtius:2 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-2.04320
+[CLS] Michael Langone:2 works for International Cultic:2 Studies Association . [SEP],International Cultic:2 Studies Association,International Cultic:2 Studies Association,1,International Cultic:2 Studies Association,1,-5.99808
+[CLS] Shirlee:3 Emmons:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.53139
+[CLS] Gary Schwartz works for University of Arizona . [SEP],University of Arizona,University of Arizona,1,University of Arizona,1,-2.41020
+[CLS] Hamid Mowlana:3 works for American University . [SEP],American University,American University,1,American University,1,-7.05485
+[CLS] Gustav Schwalbe:3 works for University of Jena . [SEP],University of Jena,University of Jena,1,University of Jena,1,-3.11227
+[CLS] Robert L . Annis:2 works for Brown University . [SEP],Brown University,Brown University,1,Brown University,1,-4.98266
+[CLS] Colin Dayan:2 works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-1.64706
+[CLS] Paul R . Gross works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.21610
+[CLS] John Carroll works for La Trobe:3 University . [SEP],La Trobe:3 University,La Trobe:3 University,1,La Trobe:3 University,1,-2.42492
+[CLS] Murray H . Protter:2 works for Syracuse University . [SEP],Syracuse University,Syracuse University,1,Syracuse University,1,-3.98852
+[CLS] Barnaby:2 Ruhe:3 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.51322
+[CLS] Max Newman works for University of Manchester . [SEP],University of Manchester,University of Manchester,1,University of Manchester,1,-2.58321
+[CLS] Eugene Aserinsky:3 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-1.85313
+[CLS] Karin Falck:3 works for Sveriges Radio . [SEP],Sveriges Radio,Sveriges Radio,1,Sveriges Radio,1,-2.45943
+[CLS] John Jeffries works for British Army . [SEP],British Army,British Army,1,British Army,1,-5.46079
+[CLS] Allan Hobson:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.17622
+[CLS] Anke:2 Ehlers:3 works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-2.59080
+[CLS] Leonardo Legaspi:3 works for University of Santo Tomas . [SEP],University of Santo Tomas,University of Santo Tomas,1,University of Santo Tomas,1,-1.81026
+[CLS] Friedrich Hayek:2 works for London School of Economics and Political Science . [SEP],London School of Economics and Political Science,London School of Economics and Political Science,1,London School of Economics and Political Science,1,-0.22361
+"[CLS] Mark Malloch:2 Brown , Baron Malloch:2 - Brown works for United Nations . [SEP]",United Nations,United Nations,1,United Nations,1,-1.95972
+[CLS] Dietrich Hermann Hegewisch:4 works for University of Kiel . [SEP],University of Kiel,University of Kiel,1,University of Kiel,1,-2.53788
+[CLS] Basil Hall Chamberlain works for University of Tokyo . [SEP],University of Tokyo,University of Tokyo,1,University of Tokyo,1,-2.58689
+[CLS] Tyler Jacks:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-1.17297
+[CLS] Edward Cussler:3 works for University of Minnesota . [SEP],University of Minnesota,University of Minnesota,1,University of Minnesota,1,-1.86622
+[CLS] Dale Cooper works for Federal Bureau of Investigation . [SEP],Federal Bureau of Investigation,Federal Bureau of Investigation,1,Federal Bureau of Investigation,1,-0.89671
+[CLS] John Van Maanen:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.98759
+[CLS] Aida Bamia:2 works for University of Florida . [SEP],University of Florida,University of Florida,1,University of Florida,1,-2.90774
+[CLS] Walter Rogowski:3 works for RWTH:2 Aachen University . [SEP],RWTH:2 Aachen University,RWTH:2 Aachen University,1,RWTH:2 Aachen University,1,-1.33140
+[CLS] E . Philip Howrey:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.27726
+[CLS] Adolf Loewy:2 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.88564
+[CLS] Leutrell:3 Osborne works for Central Intelligence Agency . [SEP],Central Intelligence Agency,Central Intelligence Agency,1,Central Intelligence Agency,1,-1.58370
+[CLS] Victor Arnautoff:3 works for Stanford University . [SEP],Stanford University,Stanford University,1,Stanford University,1,-3.35986
+[CLS] Morton Fried:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.24112
+[CLS] Horst Oertel:3 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-3.71152
+[CLS] Bruce Dickins:2 works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-2.34328
+[CLS] Heinrich Adolf von Bardeleben:3 works for University of Giessen:3 . [SEP],University of Giessen:3,University of Giessen:3,1,University of Giessen:3,1,-1.58462
+[CLS] G . P . Wells works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.54615
+[CLS] Tancred:3 Borenius:3 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.12105
+[CLS] John Henry Coatsworth:3 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.41966
+[CLS] Alexander Filippou:2 works for University of Bonn . [SEP],University of Bonn,University of Bonn,1,University of Bonn,1,-3.22420
+[CLS] Gary Barber works for Metro - Goldwyn - Mayer . [SEP],Metro - Goldwyn - Mayer,Metro - Goldwyn - Mayer,1,Metro - Goldwyn - Mayer,1,-0.08198
+[CLS] Michael Luck works for University of Warwick . [SEP],University of Warwick,University of Warwick,1,University of Warwick,1,-3.10810
+[CLS] Ronald Gillespie works for McMaster:4 University . [SEP],McMaster:4 University,McMaster:4 University,1,McMaster:4 University,1,-1.37559
+[CLS] Joseph Klausner:2 works for Hebrew University of Jerusalem . [SEP],Hebrew University of Jerusalem,Hebrew University of Jerusalem,1,Hebrew University of Jerusalem,1,-0.95939
+[CLS] Ernest Sosa:2 works for Rutgers University . [SEP],Rutgers University,Rutgers University,1,Rutgers University,1,-4.03523
+[CLS] Suzannah:3 Clark works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.80137
+[CLS] Thomas Piketty:2 works for School for Advanced Studies in the Social Sciences . [SEP],School for Advanced Studies in the Social Sciences,School for Advanced Studies in the Social Sciences,1,School for Advanced Studies in the Social Sciences,1,-1.41641
+[CLS] Hannah Landecker:2 works for Rice University . [SEP],Rice University,Rice University,1,Rice University,1,-6.03761
+[CLS] Raymond Boudon:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.15419
+[CLS] Leigh Sales works for Australian Broadcasting Corporation . [SEP],Australian Broadcasting Corporation,Australian Broadcasting Corporation,1,Australian Broadcasting Corporation,1,-2.73048
+[CLS] Cisca:2 Dresselhuys:4 works for Opzij:3 . [SEP],Opzij:3,Opzij:3,1,Opzij:3,1,-7.82127
+[CLS] Anton Weichselbaum:4 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.89056
+[CLS] Franz König works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.83029
+[CLS] Zeba:2 Islam Seraj:2 works for University of Dhaka . [SEP],University of Dhaka,University of Dhaka,1,University of Dhaka,1,-2.51303
+[CLS] Diego Gambetta:3 works for European University Institute . [SEP],European University Institute,European University Institute,1,European University Institute,1,-7.17855
+[CLS] Trude:2 Dothan:2 works for Hebrew University of Jerusalem . [SEP],Hebrew University of Jerusalem,Hebrew University of Jerusalem,1,Hebrew University of Jerusalem,1,-1.18288
+[CLS] Barnett Rubin works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.37163
+[CLS] Ivan Stranski:3 works for Technical University of Berlin . [SEP],Technical University of Berlin,Technical University of Berlin,1,Technical University of Berlin,1,-4.60403
+[CLS] Bob Shankly:3 works for Third Lanark:2 A . C . . [SEP],Third Lanark:2 A . C .,Third Lanark:2 A . C .,1,Third Lanark:2 A . C .,1,-1.49482
+[CLS] Sulayman:3 S . Nyang:2 works for Howard University . [SEP],Howard University,Howard University,1,Howard University,1,-7.41574
+[CLS] Roman Jackiw:3 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-1.10133
+[CLS] Mia Bloom works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.62185
+[CLS] Scott Mills works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.56474
+[CLS] Dong Tonghe:2 works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-3.56819
+[CLS] Pedr:2 James works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.20550
+[CLS] Alf Ramsey works for Ipswich Town F . C . . [SEP],Ipswich Town F . C .,Ipswich Town F . C .,1,Ipswich Town F . C .,1,-0.68497
+[CLS] Bradford Perkins works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.61549
+[CLS] Robert Reich works for Brandeis:2 University . [SEP],Brandeis:2 University,Brandeis:2 University,1,Brandeis:2 University,1,-1.36398
+"[CLS] Christopher Edley:2 , Jr . works for Harvard University . [SEP]",Harvard University,Harvard University,1,Harvard University,1,-3.61639
+[CLS] David J . Cooney:2 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-1.58639
+[CLS] Piet Hut works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-4.11230
+[CLS] Sheila Leatherman:3 works for University of North Carolina at Chapel Hill . [SEP],University of North Carolina at Chapel Hill,University of North Carolina at Chapel Hill,1,University of North Carolina at Chapel Hill,1,-0.13714
+[CLS] Stephen Kotkin:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.59443
+[CLS] John K . Roth works for Claremont:2 McKenna:4 College . [SEP],Claremont:2 McKenna:4 College,Claremont:2 McKenna:4 College,1,Claremont:2 McKenna:4 College,1,-1.54214
+[CLS] Eberhart:3 Jensen works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.48044
+[CLS] François d ' Orcival:3 works for Valeurs:2 Actuelles:3 . [SEP],Valeurs:2 Actuelles:3,Valeurs:2 Actuelles:3,1,Valeurs:2 Actuelles:3,1,-2.92499
+[CLS] Friedrich Schleiermacher:4 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.93565
+[CLS] Carsten Peter Thiede:2 works for Ben - Gurion:2 University of the Negev:3 . [SEP],Ben - Gurion:2 University of the Negev:3,Ben - Gurion:2 University of the Negev:3,1,Ben - Gurion:2 University of the Negev:3,1,-0.81737
+[CLS] Cecil O . Samuelson:2 works for University of Utah . [SEP],University of Utah,University of Utah,1,University of Utah,1,-2.48711
+[CLS] Richard Bonneau:2 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.29565
+[CLS] August von Rothmund:2 works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-1.40749
+[CLS] Barbara J . Fields works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.67096
+[CLS] Jeffrey Obrow:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.48346
+[CLS] Robin Kelley works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.39623
+[CLS] David Thodey:3 works for Telstra:2 . [SEP],Telstra:2,Telstra:2,1,Telstra:2,1,-4.49656
+[CLS] James J . O ' Donnell works for Georgetown University . [SEP],Georgetown University,Georgetown University,1,Georgetown University,1,-3.65667
+[CLS] August Wilhelm Schlegel:3 works for University of Bonn . [SEP],University of Bonn,University of Bonn,1,University of Bonn,1,-2.46119
+[CLS] Eugene Parker works for University of Utah . [SEP],University of Utah,University of Utah,1,University of Utah,1,-2.40769
+[CLS] Michael Reiter works for University of North Carolina at Chapel Hill . [SEP],University of North Carolina at Chapel Hill,University of North Carolina at Chapel Hill,1,University of North Carolina at Chapel Hill,1,-0.08008
+[CLS] John Kennedy Toole:2 works for Hunter College . [SEP],Hunter College,Hunter College,1,Hunter College,1,-4.86660
+[CLS] Bell I . Wiley works for Emory:2 University . [SEP],Emory:2 University,Emory:2 University,1,Emory:2 University,1,-1.99166
+[CLS] Tilli:2 Tansey:2 works for Queen Mary University of London . [SEP],Queen Mary University of London,Queen Mary University of London,1,Queen Mary University of London,1,-1.77522
+[CLS] Uri Rosenthal works for Leiden University . [SEP],Leiden University,Leiden University,1,Leiden University,1,-4.46832
+[CLS] David Martyn:2 Smith works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.14172
+[CLS] Friedrich August Eckstein:3 works for Leipzig University . [SEP],Leipzig University,Leipzig University,1,Leipzig University,1,-4.01487
+[CLS] Harry Beevers:2 works for Purdue:3 University . [SEP],Purdue:3 University,Purdue:3 University,1,Purdue:3 University,1,-0.39634
+[CLS] Sebastian Miczyński:2 works for Jagiellonian:4 University . [SEP],Jagiellonian:4 University,Jagiellonian:4 University,1,Jagiellonian:4 University,1,-0.91660
+[CLS] C . Boyden:2 Gray works for Wilmer:2 Cutler:2 Pickering:2 Hale and Dorr:2 . [SEP],Wilmer:2 Cutler:2 Pickering:2 Hale and Dorr:2,Wilmer:2 Cutler:2 Pickering:2 Hale and Dorr:2,1,Wilmer:2 Cutler:2 Pickering:2 Hale and Dorr:2,1,-4.01495
+[CLS] Ivica:2 Kostović:3 works for University of Zagreb . [SEP],University of Zagreb,University of Zagreb,1,University of Zagreb,1,-1.86092
+[CLS] William W . Skinner works for University of Maryland . [SEP],University of Maryland,University of Maryland,1,University of Maryland,1,-2.67218
+[CLS] Robin Blackburn works for University of Essex . [SEP],University of Essex,University of Essex,1,University of Essex,1,-3.79190
+[CLS] Mike Donkin:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.26013
+[CLS] Katherine Elizabeth Fleming works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.35301
+[CLS] Hilary Bell works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.21232
+[CLS] Harlan:2 James Smith works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.10114
+[CLS] Michael Zimmer works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-2.05446
+[CLS] Adilson:3 E . Motter:2 works for Northwestern University . [SEP],Northwestern University,Northwestern University,1,Northwestern University,1,-3.40325
+[CLS] Henryk Grossman:2 works for Leipzig University . [SEP],Leipzig University,Leipzig University,1,Leipzig University,1,-4.59993
+[CLS] Kenneth H . Keller works for Johns Hopkins University . [SEP],Johns Hopkins University,Johns Hopkins University,1,Johns Hopkins University,1,-0.45493
+[CLS] Martin Grabmann:2 works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-0.87362
+[CLS] Hans Jürgen Briegel:2 works for University of Innsbruck . [SEP],University of Innsbruck,University of Innsbruck,1,University of Innsbruck,1,-2.48294
+[CLS] Supriyo:3 Datta:2 works for Purdue:3 University . [SEP],Purdue:3 University,Purdue:3 University,1,Purdue:3 University,1,-0.22192
+[CLS] Louis Henkin:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.10628
+[CLS] Harry Binswanger:4 works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.11540
+[CLS] Gretel:3 Killeen:2 works for Network 10 . [SEP],Network 10,Network 10,1,Network 10,1,-7.59146
+[CLS] Alberto Conti works for Northrop:2 Grumman:3 . [SEP],Northrop:2 Grumman:3,Northrop:2 Grumman:3,1,Northrop:2 Grumman:3,1,-0.72210
+[CLS] Wilbert:3 J . McKeachie:5 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-1.81315
+[CLS] Hertha:2 Wambacher:3 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.69860
+[CLS] Jonathan David Katz works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-2.61819
+[CLS] Bill Engeln:2 works for National League . [SEP],National League,National League,1,National League,1,-5.31654
+[CLS] Stuart Hall works for The Open University . [SEP],The Open University,The Open University,1,The Open University,1,-4.60785
+[CLS] Galileo Galilei works for University of Padua . [SEP],University of Padua,University of Padua,1,University of Padua,1,-2.70752
+[CLS] Stephen Lichtenbaum:3 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.74058
+[CLS] Samuel O . Freedman:2 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-2.95235
+[CLS] Nancy Fraser works for The New School . [SEP],The New School,The New School,1,The New School,1,-4.25264
+[CLS] Annping:2 Chin works for Wesleyan:2 University . [SEP],Wesleyan:2 University,Wesleyan:2 University,1,Wesleyan:2 University,1,-3.50958
+[CLS] Friedrich Bessel:2 works for Koenigsberg:4 Observatory . [SEP],Koenigsberg:4 Observatory,Koenigsberg:4 Observatory,1,Koenigsberg:4 Observatory,1,-1.76504
+[CLS] Ian Learmonth:3 works for Kent Police . [SEP],Kent Police,Kent Police,1,Kent Police,1,-7.55023
+[CLS] Lee Pierce Butler works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.25511
+[CLS] Lawrence Weschler:3 works for New York University . [SEP],New York University,New York University,1,New York University,1,-1.98732
+[CLS] Albert Eschenmoser:4 works for ETH:2 Zurich . [SEP],ETH:2 Zurich,ETH:2 Zurich,1,ETH:2 Zurich,1,-0.53734
+[CLS] Marianne Stanley works for Los Angeles Sparks . [SEP],Los Angeles Sparks,Los Angeles Sparks,1,Los Angeles Sparks,1,-1.93163
+[CLS] Lester S . Hill works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.31288
+[CLS] Dietrich Grönemeyer:4 works for Georgetown University . [SEP],Georgetown University,Georgetown University,1,Georgetown University,1,-4.78470
+[CLS] Ernesto Mayz:2 Vallenilla:2 works for Central University of Venezuela . [SEP],Central University of Venezuela,Central University of Venezuela,1,Central University of Venezuela,1,-4.61142
+[CLS] Jacques F . Benders:2 works for Eindhoven University of Technology . [SEP],Eindhoven University of Technology,Eindhoven University of Technology,1,Eindhoven University of Technology,1,-1.40881
+[CLS] Ezra Hall Gillett:2 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.25008
+[CLS] Shōzō:5 Fujii:2 works for Kyoto Sangyo:2 University . [SEP],Kyoto Sangyo:2 University,Kyoto Sangyo:2 University,1,Kyoto Sangyo:2 University,1,-4.25357
+[CLS] Oskar Eberhard Ulbrich:3 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.89444
+[CLS] Abigail Bakan:2 works for University of Toronto . [SEP],University of Toronto,University of Toronto,1,University of Toronto,1,-2.33744
+[CLS] Michael Mackenzie works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.75579
+[CLS] Don Newman works for CTV:2 Television Network . [SEP],CTV:2 Television Network,CTV:2 Television Network,1,CTV:2 Television Network,1,-1.72205
+[CLS] Margaret J . M . Ezell:2 works for Texas A & M University . [SEP],Texas A & M University,Texas A & M University,1,Texas A & M University,1,-0.90938
+[CLS] Paul R . Williams works for American University . [SEP],American University,American University,1,American University,1,-5.86918
+[CLS] Philip Meyer works for University of North Carolina at Chapel Hill . [SEP],University of North Carolina at Chapel Hill,University of North Carolina at Chapel Hill,1,University of North Carolina at Chapel Hill,1,-0.11737
+[CLS] Gundolf:3 Ernst works for Freie Universität Berlin . [SEP],Freie Universität Berlin,Freie Universität Berlin,1,Freie Universität Berlin,1,-2.29840
+[CLS] Konrad Ott works for University of Kiel . [SEP],University of Kiel,University of Kiel,1,University of Kiel,1,-2.36248
+[CLS] Robert H . Daines:2 III works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.56733
+[CLS] Eduard Prugovečki:4 works for University of Alberta . [SEP],University of Alberta,University of Alberta,1,University of Alberta,1,-3.29876
+[CLS] Edmund Barry Gaither:3 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-4.98297
+[CLS] Jane Dacre:2 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.55597
+[CLS] Bart Kosko:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.63427
+[CLS] Mercy Oduyoye:4 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.56535
+[CLS] Amitava:2 Bose works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-4.52684
+[CLS] Elkan:2 Blout:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.84369
+[CLS] Dorothy Otnow:3 Lewis works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.39387
+[CLS] Denis Jenkinson:2 works for Motor Sport . [SEP],Motor Sport,Motor Sport,1,Motor Sport,1,-6.91973
+[CLS] J . Keith Melville works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.68246
+[CLS] Francis Maitland:2 Balfour:2 works for University of Cambridge . [SEP],University of Cambridge,University of Cambridge,1,University of Cambridge,1,-1.93035
+[CLS] Cynthia Herrup:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.63558
+[CLS] George Irwin works for Crystal Palace F . C . . [SEP],Crystal Palace F . C .,Crystal Palace F . C .,1,Crystal Palace F . C .,1,-0.58804
+[CLS] Fernando Quevedo:2 works for University of Cambridge . [SEP],University of Cambridge,University of Cambridge,1,University of Cambridge,1,-2.95028
+[CLS] Mara Liasson:3 works for NPR:2 . [SEP],NPR:2,NPR:2,1,NPR:2,1,-2.65304
+[CLS] Shirley M . Tilghman:3 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.33295
+[CLS] Lenos:2 Trigeorgis:4 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.34011
+[CLS] Inger:2 Nordal:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-1.90763
+[CLS] Doug McMillon:4 works for Walmart:4 . [SEP],Walmart:4,Walmart:4,1,Walmart:4,1,-0.56403
+[CLS] Louis Cordier:2 works for Muséum national d ' histoire naturelle . [SEP],Muséum national d ' histoire naturelle,Muséum national d ' histoire naturelle,1,Muséum national d ' histoire naturelle,1,-0.11267
+[CLS] Takao:2 Doi:2 works for National Space Development Agency . [SEP],National Space Development Agency,National Space Development Agency,1,National Space Development Agency,1,-5.09829
+[CLS] Ralph Paffenbarger:4 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.58109
+[CLS] William Happer:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.30148
+[CLS] Peter James Spielmann:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.10539
+[CLS] Boutros:2 Boutros:2 - Ghali:2 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-0.80397
+[CLS] Nicolai Hartmann works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.86562
+[CLS] Herschel L . Roman works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-3.38733
+[CLS] George Locke works for Toronto Public Library . [SEP],Toronto Public Library,Toronto Public Library,1,Toronto Public Library,1,-3.99016
+[CLS] Richard Marius works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.11218
+[CLS] Mary G . Dietz:2 works for Northwestern University . [SEP],Northwestern University,Northwestern University,1,Northwestern University,1,-2.88664
+[CLS] Kaj:2 Pindal:2 works for Sheridan College . [SEP],Sheridan College,Sheridan College,1,Sheridan College,1,-6.14318
+[CLS] Harold Morris works for University of Texas at Austin . [SEP],University of Texas at Austin,University of Texas at Austin,1,University of Texas at Austin,1,-0.07349
+[CLS] Maria Szyszkowska:5 works for University of Warsaw . [SEP],University of Warsaw,University of Warsaw,1,University of Warsaw,1,-2.02633
+[CLS] Kevin J Worthen:2 works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.48153
+[CLS] Faruk:2 Gül:2 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-4.36851
+[CLS] Julia Gillard:2 works for Slater and Gordon . [SEP],Slater and Gordon,Slater and Gordon,1,Slater and Gordon,1,-7.20062
+[CLS] Willem Vrolik:3 works for University of Groningen . [SEP],University of Groningen,University of Groningen,1,University of Groningen,1,-2.10820
+[CLS] Jeremy Bowen works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.42244
+[CLS] Christian K . Wedemeyer:3 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-1.87947
+[CLS] Matthias Steinmetz:3 works for University of Arizona . [SEP],University of Arizona,University of Arizona,1,University of Arizona,1,-2.97898
+[CLS] George S . Romney:2 works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.53377
+[CLS] Lillian Robinson works for Concordia University . [SEP],Concordia University,Concordia University,1,Concordia University,1,-5.45480
+[CLS] Antony Flew:2 works for York University . [SEP],York University,York University,1,York University,1,-5.83484
+[CLS] Akira Miyawaki:3 works for Yokohama National University . [SEP],Yokohama National University,Yokohama National University,1,Yokohama National University,1,-3.99649
+[CLS] Eva Brems:2 works for Amnesty International . [SEP],Amnesty International,Amnesty International,1,Amnesty International,1,-2.23572
+[CLS] Alfred E . Kahn works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.06833
+[CLS] Soma:2 Weiss works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-4.31594
+[CLS] Otto Benesch:2 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.61370
+[CLS] Bernard Cohen works for University of Pittsburgh . [SEP],University of Pittsburgh,University of Pittsburgh,1,University of Pittsburgh,1,-2.35787
+[CLS] Harry George Champion works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-1.75308
+[CLS] Martha Friedman works for Pratt Institute . [SEP],Pratt Institute,Pratt Institute,1,Pratt Institute,1,-4.54662
+[CLS] Margaret Chan works for Government of Hong Kong . [SEP],Government of Hong Kong,Government of Hong Kong,1,Government of Hong Kong,1,-0.84464
+[CLS] Robert Curl:2 works for Rice University . [SEP],Rice University,Rice University,1,Rice University,1,-6.09545
+[CLS] Adam Leventhal:3 works for Oracle Corporation . [SEP],Oracle Corporation,Oracle Corporation,1,Oracle Corporation,1,-3.87645
+[CLS] Paul Crowell:2 works for University of Minnesota . [SEP],University of Minnesota,University of Minnesota,1,University of Minnesota,1,-1.80342
+[CLS] Grahame:2 Thompson works for The Open University . [SEP],The Open University,The Open University,1,The Open University,1,-4.68834
+[CLS] Charles Joseph Faulkner:3 works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-1.94975
+[CLS] Melvin Fitting:2 works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-1.85045
+[CLS] Jeffrey L . Seglin:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.27772
+[CLS] Laurence A . Rickels:2 works for European Graduate School . [SEP],European Graduate School,European Graduate School,1,European Graduate School,1,-5.57899
+[CLS] Ferdinand Georg Frobenius:3 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.88884
+[CLS] Ray Mackintosh:3 works for The Open University . [SEP],The Open University,The Open University,1,The Open University,1,-4.77664
+[CLS] Gloria Laycock:2 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.50555
+[CLS] Farshad:2 Fotouhi:3 works for Wayne State University . [SEP],Wayne State University,Wayne State University,1,Wayne State University,1,-3.02422
+[CLS] Milo C . Beach works for Smithsonian Institution . [SEP],Smithsonian Institution,Smithsonian Institution,1,Smithsonian Institution,1,-1.53852
+[CLS] Eugene Braunwald:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.48482
+[CLS] Wang Maozu:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.12560
+[CLS] Linda Martín Alcoff:3 works for Syracuse University . [SEP],Syracuse University,Syracuse University,1,Syracuse University,1,-4.04094
+[CLS] Walther Bothe:2 works for University of Giessen:3 . [SEP],University of Giessen:3,University of Giessen:3,1,University of Giessen:3,1,-1.59022
+[CLS] Victor Francis Hess works for University of Graz . [SEP],University of Graz,University of Graz,1,University of Graz,1,-3.46193
+[CLS] Mathieu Blanchette:2 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-2.41251
+[CLS] Richard Heffner:3 works for Rutgers University . [SEP],Rutgers University,Rutgers University,1,Rutgers University,1,-3.83565
+[CLS] Moritz Roth works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-2.61828
+[CLS] W . Stanford Reid works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-4.01509
+[CLS] William Elphinstone:3 works for University of Paris ( 1896 - 1968 ) . [SEP],University of Paris ( 1896 - 1968 ),University of Paris ( 1896 - 1968 ),1,University of Paris ( 1896 - 1968 ),1,-3.74176
+[CLS] Emil Fackenheim:3 works for University of Toronto . [SEP],University of Toronto,University of Toronto,1,University of Toronto,1,-2.43003
+[CLS] Jouke:2 de Vries works for Leiden University . [SEP],Leiden University,Leiden University,1,Leiden University,1,-2.35763
+[CLS] Paul Bradshaw:2 works for Birmingham City University . [SEP],Birmingham City University,Birmingham City University,1,Birmingham City University,1,-3.74278
+[CLS] Marcia Neave:2 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.31533
+[CLS] George Legrady:3 works for San Francisco State University . [SEP],San Francisco State University,San Francisco State University,1,San Francisco State University,1,-1.36107
+[CLS] Gilles Peterson works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.90377
+[CLS] Noha:2 Radwan:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-6.14820
+[CLS] William H . Beaver works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.20494
+[CLS] Tony Veitch:2 works for Television New Zealand . [SEP],Television New Zealand,Television New Zealand,1,Television New Zealand,1,-2.74026
+[CLS] Andrew Marlton:2 works for Crikey:3 . [SEP],Crikey:3,Crikey:3,1,Crikey:3,1,-5.98541
+[CLS] Vivienne:3 Parry works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.38303
+[CLS] Morris Goodman works for Wayne State University . [SEP],Wayne State University,Wayne State University,1,Wayne State University,1,-2.07820
+[CLS] Helen Lynd:2 works for Sarah Lawrence College . [SEP],Sarah Lawrence College,Sarah Lawrence College,1,Sarah Lawrence College,1,-2.39695
+[CLS] Eric Ormsby:3 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-2.58498
+[CLS] Kenneth Roux works for Florida State University . [SEP],Florida State University,Florida State University,1,Florida State University,1,-2.03979
+[CLS] Chi Wang works for Library of Congress . [SEP],Library of Congress,Library of Congress,1,Library of Congress,1,-0.07423
+[CLS] Selig:2 Brodetsky:3 works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-2.28394
+[CLS] Peter Tufano:2 works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-2.41636
+[CLS] Alexey:2 A . Petrov works for Wayne State University . [SEP],Wayne State University,Wayne State University,1,Wayne State University,1,-3.42525
+[CLS] Geoffrey Parker works for Ohio State University . [SEP],Ohio State University,Ohio State University,1,Ohio State University,1,-2.20005
+[CLS] Gottfried Münzenberg:3 works for Johannes Gutenberg University Mainz . [SEP],Johannes Gutenberg University Mainz,Johannes Gutenberg University Mainz,1,Johannes Gutenberg University Mainz,1,-3.83029
+[CLS] Irwin Altman:2 works for University of Utah . [SEP],University of Utah,University of Utah,1,University of Utah,1,-2.39907
+[CLS] Howard Shanet:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.93433
+[CLS] Moritz Schlick:3 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.91996
+[CLS] Henry O . Pollak:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.50595
+[CLS] Edward Malefakis:3 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.14044
+[CLS] James Kakalios:3 works for University of Minnesota . [SEP],University of Minnesota,University of Minnesota,1,University of Minnesota,1,-1.91802
+[CLS] Thomas Homer - Dixon works for University of Toronto . [SEP],University of Toronto,University of Toronto,1,University of Toronto,1,-2.18454
+[CLS] Robert Lyster:2 Thornton works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.12785
+[CLS] Franklin Toker:2 works for University of Pittsburgh . [SEP],University of Pittsburgh,University of Pittsburgh,1,University of Pittsburgh,1,-2.25959
+[CLS] George P . Chrousos:3 works for Eunice:2 Kennedy Shriver:2 National Institute of Child Health and Human Development . [SEP],Eunice:2 Kennedy Shriver:2 National Institute of Child Health and Human Development,Eunice:2 Kennedy Shriver:2 National Institute of Child Health and Human Development,1,Eunice:2 Kennedy Shriver:2 National Institute of Child Health and Human Development,1,-2.97696
+[CLS] Steve Rabson:2 works for Brown University . [SEP],Brown University,Brown University,1,Brown University,1,-5.05304
+[CLS] Richard Shaw works for Coventry City F . C . . [SEP],Coventry City F . C .,Coventry City F . C .,1,Coventry City F . C .,1,-1.11492
+[CLS] Michael C . Rea:2 works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-0.86225
+[CLS] Will W . Alexander works for Dillard:2 University . [SEP],Dillard:2 University,Dillard:2 University,1,Dillard:2 University,1,-3.63151
+[CLS] John Rigby:3 Hale works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.15223
+[CLS] Gabriele Oettingen:3 works for University of Hamburg . [SEP],University of Hamburg,University of Hamburg,1,University of Hamburg,1,-1.95393
+[CLS] Katy Gardner works for University of Sussex . [SEP],University of Sussex,University of Sussex,1,University of Sussex,1,-3.56063
+[CLS] Arup:2 Bose works for Purdue:3 University . [SEP],Purdue:3 University,Purdue:3 University,1,Purdue:3 University,1,-0.28625
+[CLS] William Howard Taft:2 works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-2.12700
+[CLS] Ulrich Bonnell:2 Phillips works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.52597
+[CLS] Nash Roberts works for WVUE:3 - DT:2 . [SEP],WVUE:3 - DT:2,WVUE:3 - DT:2,1,WVUE:3 - DT:2,1,-4.68057
+[CLS] Keith Hopkins works for London School of Economics and Political Science . [SEP],London School of Economics and Political Science,London School of Economics and Political Science,1,London School of Economics and Political Science,1,-0.38931
+[CLS] Susan Landau works for Worcester Polytechnic Institute . [SEP],Worcester Polytechnic Institute,Worcester Polytechnic Institute,1,Worcester Polytechnic Institute,1,-2.89069
+[CLS] Edna Garabedian:3 works for American University . [SEP],American University,American University,1,American University,1,-6.24043
+[CLS] Raye:2 Kass:2 works for Concordia University . [SEP],Concordia University,Concordia University,1,Concordia University,1,-5.41289
+[CLS] Eric Bentley works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.17825
+[CLS] Osamu:2 Shimomura:3 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-5.80105
+[CLS] Edward D . Miller works for Johns Hopkins University . [SEP],Johns Hopkins University,Johns Hopkins University,1,Johns Hopkins University,1,-0.52378
+[CLS] Friedrich Ranke:2 works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-3.10458
+[CLS] Bobby Dodd works for Georgia Tech Yellow Jackets:2 football . [SEP],Georgia Tech Yellow Jackets:2 football,Georgia Tech Yellow Jackets:2 football,1,Georgia Tech Yellow Jackets:2 football,1,-2.53858
+[CLS] Jack Dongarra:2 works for University of Tennessee . [SEP],University of Tennessee,University of Tennessee,1,University of Tennessee,1,-2.43577
+[CLS] David Baltimore works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.57872
+[CLS] Lucas Papademos:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.75743
+[CLS] Denis Wick:2 works for Royal Academy of Music . [SEP],Royal Academy of Music,Royal Academy of Music,1,Royal Academy of Music,1,-2.02159
+[CLS] Peter Bromley:3 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.46872
+[CLS] Francis Gano:2 Benedict works for Wesleyan:2 University . [SEP],Wesleyan:2 University,Wesleyan:2 University,1,Wesleyan:2 University,1,-3.66886
+[CLS] Carl Brühl:2 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-2.14870
+[CLS] Kenkichi:3 Iwasawa:3 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-4.66467
+[CLS] Werner Leibbrand:3 works for University of Paris ( 1896 - 1968 ) . [SEP],University of Paris ( 1896 - 1968 ),University of Paris ( 1896 - 1968 ),1,University of Paris ( 1896 - 1968 ),1,-3.69528
+[CLS] Anthony Farmer works for Magdalen:2 College . [SEP],Magdalen:2 College,Magdalen:2 College,1,Magdalen:2 College,1,-1.15232
+[CLS] Carl Kunasek:2 works for Arizona Senate . [SEP],Arizona Senate,Arizona Senate,1,Arizona Senate,1,-9.73220
+[CLS] Richard J . Finlay:2 works for University of Strathclyde:4 . [SEP],University of Strathclyde:4,University of Strathclyde:4,1,University of Strathclyde:4,1,-0.85964
+[CLS] Jeff Williams works for Apple Inc . . [SEP],Apple Inc .,Apple Inc .,1,Apple Inc .,1,-2.32104
+[CLS] James Oakes:2 works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-1.90617
+[CLS] Louis Martin Robert Rutten:3 works for Utrecht University . [SEP],Utrecht University,Utrecht University,1,Utrecht University,1,-3.60920
+[CLS] Harold Powers works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.02062
+[CLS] Earl Kim works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.57246
+[CLS] Katharine Viner:2 works for The Guardian . [SEP],The Guardian,The Guardian,1,The Guardian,1,-2.36307
+[CLS] Ertuğrul:4 Apakan:3 works for United Nations . [SEP],United Nations,United Nations,1,United Nations,1,-2.59882
+[CLS] Philip Shabecoff:3 works for The New York Times . [SEP],The New York Times,The New York Times,1,The New York Times,1,-0.15625
+[CLS] C . D . Howe works for Dalhousie:3 University . [SEP],Dalhousie:3 University,Dalhousie:3 University,1,Dalhousie:3 University,1,-1.88452
+[CLS] Bill Schelly:3 works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-3.00343
+[CLS] Susan Hirsch works for George Mason University . [SEP],George Mason University,George Mason University,1,George Mason University,1,-3.07798
+[CLS] Frank Armitage:3 works for The Walt Disney Company . [SEP],The Walt Disney Company,The Walt Disney Company,1,The Walt Disney Company,1,-0.23344
+[CLS] Wallace Smith Broecker:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.90177
+[CLS] Rick Levin works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.26625
+[CLS] Jenny Hill works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.20488
+[CLS] Frank S . Walsh works for King ' s College London . [SEP],King ' s College London,King ' s College London,1,King ' s College London,1,-1.06931
+[CLS] Christian Feest:2 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-2.31052
+[CLS] Mark A . Heckler:3 works for Siena College . [SEP],Siena College,Siena College,1,Siena College,1,-5.95329
+[CLS] Kathleen Barry works for Brandeis:2 University . [SEP],Brandeis:2 University,Brandeis:2 University,1,Brandeis:2 University,1,-1.81785
+[CLS] Richard Beckhard:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.76360
+[CLS] Maicer:2 Izturis:3 works for Cleveland Indians . [SEP],Cleveland Indians,Cleveland Indians,1,Cleveland Indians,1,-6.08873
+[CLS] Peter Gay works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.33182
+[CLS] Crispin:3 Wright works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-1.92546
+[CLS] Peter Aloys:3 Gratz:3 works for University of Bonn . [SEP],University of Bonn,University of Bonn,1,University of Bonn,1,-2.12734
+[CLS] Carlos Escudé:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.25061
+[CLS] Sigismund Payne Best works for Secret Intelligence Service . [SEP],Secret Intelligence Service,Secret Intelligence Service,1,Secret Intelligence Service,1,-1.22652
+[CLS] Alexander Ecker:2 works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-2.87364
+[CLS] Ghislaine:3 Dupont works for Radio France Internationale . [SEP],Radio France Internationale,Radio France Internationale,1,Radio France Internationale,1,-5.25273
+[CLS] Mojtaba:3 Minovi:2 works for University of Tehran . [SEP],University of Tehran,University of Tehran,1,University of Tehran,1,-2.87726
+[CLS] Richard Lloyd Anderson works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.55218
+[CLS] Herbert Seifert:2 works for Heidelberg University . [SEP],Heidelberg University,Heidelberg University,1,Heidelberg University,1,-2.95071
+[CLS] John Bissell:2 Carroll works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.60956
+"[CLS] Richard Hill works for St James ' Church , Sydney . [SEP]","St James ' Church , Sydney","St James ' Church , Sydney",1,"St James ' Church , Sydney",1,-2.52125
+[CLS] Richard Taylor works for Brown University . [SEP],Brown University,Brown University,1,Brown University,1,-4.59531
+[CLS] David Borden:2 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.46659
+"[CLS] Louann:2 Brizendine:4 works for University of California , San Francisco . [SEP]","University of California , San Francisco","University of California , San Francisco",1,"University of California , San Francisco",1,-0.47516
+[CLS] Robert P . Dilworth:2 works for California Institute of Technology . [SEP],California Institute of Technology,California Institute of Technology,1,California Institute of Technology,1,-0.63009
+[CLS] Aharon:2 Barak:2 works for University of Toronto . [SEP],University of Toronto,University of Toronto,1,University of Toronto,1,-2.39128
+[CLS] Edwin D . Kilbourne:4 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-2.54664
+[CLS] Bruce Reynolds works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.95640
+[CLS] Annica:2 Dahlström:2 works for University of Gothenburg:3 . [SEP],University of Gothenburg:3,University of Gothenburg:3,1,University of Gothenburg:3,1,-0.45367
+[CLS] Harminder:3 Dua works for Thomas Jefferson University . [SEP],Thomas Jefferson University,Thomas Jefferson University,1,Thomas Jefferson University,1,-3.72485
+[CLS] Pavel Pabst:2 works for Moscow Conservatory . [SEP],Moscow Conservatory,Moscow Conservatory,1,Moscow Conservatory,1,-4.70778
+[CLS] Tammi:2 Reiss:2 works for San Antonio Stars . [SEP],San Antonio Stars,San Antonio Stars,1,San Antonio Stars,1,-3.75283
+[CLS] Jane Somerville:3 works for Imperial College London . [SEP],Imperial College London,Imperial College London,1,Imperial College London,1,-2.86614
+"[CLS] Keith Yamamoto works for University of California , San Francisco . [SEP]","University of California , San Francisco","University of California , San Francisco",1,"University of California , San Francisco",1,-0.39420
+[CLS] Peter Huybers:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.64886
+[CLS] Paul Godfrey works for Toronto Blue Jays:2 . [SEP],Toronto Blue Jays:2,Toronto Blue Jays:2,1,Toronto Blue Jays:2,1,-1.86545
+[CLS] Constantine Dafermos:3 works for Brown University . [SEP],Brown University,Brown University,1,Brown University,1,-5.17607
+[CLS] Tonya:2 Edwards works for Alcorn:2 State University . [SEP],Alcorn:2 State University,Alcorn:2 State University,1,Alcorn:2 State University,1,-3.62346
+[CLS] Gregory S . Boebinger:3 works for Florida State University . [SEP],Florida State University,Florida State University,1,Florida State University,1,-1.67298
+[CLS] Angela Belcher:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.82611
+[CLS] Jeanne Mance:2 works for Société Notre - Dame de Montréal . [SEP],Société Notre - Dame de Montréal,Société Notre - Dame de Montréal,1,Société Notre - Dame de Montréal,1,-2.25867
+[CLS] Peter Magowan:3 works for San Francisco Giants . [SEP],San Francisco Giants,San Francisco Giants,1,San Francisco Giants,1,-2.17102
+[CLS] C . Anthony Anderson works for University of Minnesota . [SEP],University of Minnesota,University of Minnesota,1,University of Minnesota,1,-1.97251
+[CLS] Nikolay:2 Dollezhal:3 works for Bauman:2 Moscow State Technical University . [SEP],Bauman:2 Moscow State Technical University,Bauman:2 Moscow State Technical University,1,Bauman:2 Moscow State Technical University,1,-2.98065
+[CLS] Aaron Dollar works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.36979
+[CLS] Ebrahim:3 Pourdavoud:3 works for University of Tehran . [SEP],University of Tehran,University of Tehran,1,University of Tehran,1,-3.35641
+[CLS] Edgar Schein:3 works for MIT Sloan School of Management . [SEP],MIT Sloan School of Management,MIT Sloan School of Management,1,MIT Sloan School of Management,1,-1.93649
+[CLS] Mart Bax:2 works for Vrije:2 Universiteit . [SEP],Vrije:2 Universiteit,Vrije:2 Universiteit,1,Vrije:2 Universiteit,1,-1.57580
+[CLS] Alec Wilkie:2 works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-2.01276
+[CLS] Claudio Ciborra:3 works for London School of Economics and Political Science . [SEP],London School of Economics and Political Science,London School of Economics and Political Science,1,London School of Economics and Political Science,1,-0.34735
+[CLS] Alec Stone Sweet works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-2.84835
+[CLS] Peter Vaughan works for South Wales Police . [SEP],South Wales Police,South Wales Police,1,South Wales Police,1,-1.53365
+[CLS] Liz Balmaseda:3 works for NBC News . [SEP],NBC News,NBC News,1,NBC News,1,-4.77318
+[CLS] Jill McCorkle:5 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.02071
+[CLS] Dragomir:2 R . Radev:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.70052
+[CLS] Hee Oh works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-4.31140
+[CLS] William Horn Battle works for University of North Carolina at Chapel Hill . [SEP],University of North Carolina at Chapel Hill,University of North Carolina at Chapel Hill,1,University of North Carolina at Chapel Hill,1,-0.16636
+[CLS] Panos:2 Papasoglu:4 works for University of Paris ( 1896 - 1968 ) . [SEP],University of Paris ( 1896 - 1968 ),University of Paris ( 1896 - 1968 ),1,University of Paris ( 1896 - 1968 ),1,-4.02663
+[CLS] Kristen Valkner:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-2.57333
+[CLS] Robin Bullough:2 works for University of Manchester . [SEP],University of Manchester,University of Manchester,1,University of Manchester,1,-2.84217
+[CLS] Vojo:2 Deretic:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.42755
+[CLS] Allison R . Palmer works for United States Geological Survey . [SEP],United States Geological Survey,United States Geological Survey,1,United States Geological Survey,1,-0.23916
+[CLS] Edward L . Hart works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.62410
+[CLS] David W . Doyle works for Central Intelligence Agency . [SEP],Central Intelligence Agency,Central Intelligence Agency,1,Central Intelligence Agency,1,-1.25046
+[CLS] Douglas Conant:2 works for Campbell Soup:2 Company . [SEP],Campbell Soup:2 Company,Campbell Soup:2 Company,1,Campbell Soup:2 Company,1,-4.51948
+[CLS] Herbert Hice:2 Whetzel:3 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.09413
+[CLS] Geoffrey Miller works for University of New Mexico . [SEP],University of New Mexico,University of New Mexico,1,University of New Mexico,1,-2.18277
+[CLS] Carl Friedrich Otto Westphal:3 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.84835
+[CLS] Ruth Witt - Diamant:2 works for San Francisco State University . [SEP],San Francisco State University,San Francisco State University,1,San Francisco State University,1,-1.38730
+[CLS] Charalambos:4 D . Aliprantis:3 works for Purdue:3 University . [SEP],Purdue:3 University,Purdue:3 University,1,Purdue:3 University,1,-0.28200
+[CLS] Bernard Green works for Ampleforth:4 Abbey . [SEP],Ampleforth:4 Abbey,Ampleforth:4 Abbey,1,Ampleforth:4 Abbey,1,-2.96576
+[CLS] Max Bodenstein:2 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.84750
+[CLS] Pamela J . Bjorkman:4 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.56668
+[CLS] Ludolph:3 van Ceulen:2 works for Leiden University . [SEP],Leiden University,Leiden University,1,Leiden University,1,-3.14886
+[CLS] Charles Kiesler:3 works for Vanderbilt University . [SEP],Vanderbilt University,Vanderbilt University,1,Vanderbilt University,1,-4.73396
+[CLS] Rafi:2 Eitan:2 works for Mossad:2 . [SEP],Mossad:2,Mossad:2,1,Mossad:2,1,-3.06390
+[CLS] James O . McKinsey:5 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-1.86621
+[CLS] Archimedes:3 Russell works for Syracuse University . [SEP],Syracuse University,Syracuse University,1,Syracuse University,1,-3.57447
+[CLS] Eva Feldman:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.16288
+[CLS] William Revelli:2 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.27454
+[CLS] Fawwaz:4 T . Ulaby:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.16459
+[CLS] Andrei Voronkov:3 works for University of Manchester . [SEP],University of Manchester,University of Manchester,1,University of Manchester,1,-3.42340
+[CLS] Siddhartha:4 Mukherjee:4 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-5.83959
+[CLS] John Wikswo:3 works for Vanderbilt University . [SEP],Vanderbilt University,Vanderbilt University,1,Vanderbilt University,1,-4.16175
+[CLS] Gus Grissom:3 works for National Aeronautics:3 and Space Administration . [SEP],National Aeronautics:3 and Space Administration,National Aeronautics:3 and Space Administration,1,National Aeronautics:3 and Space Administration,1,-0.54176
+[CLS] James L . Powell works for Franklin Institute . [SEP],Franklin Institute,Franklin Institute,1,Franklin Institute,1,-4.10692
+[CLS] Ludwig Reichenbach works for Leipzig University . [SEP],Leipzig University,Leipzig University,1,Leipzig University,1,-3.91257
+[CLS] Shmuel:3 Weinberger:2 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.00980
+[CLS] Ralph Hunter works for Hunter College . [SEP],Hunter College,Hunter College,1,Hunter College,1,-3.29714
+[CLS] Jonathan Alter works for Newsweek:2 . [SEP],Newsweek:2,Newsweek:2,1,Newsweek:2,1,-2.59941
+[CLS] James A . Banks works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-2.65477
+[CLS] Freda:2 Lingstrom:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.70512
+[CLS] Marla:2 Shapiro:2 works for University of Toronto . [SEP],University of Toronto,University of Toronto,1,University of Toronto,1,-2.17387
+[CLS] Bruno Bosteels:3 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.32235
+[CLS] Carrie Derick:2 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-2.93835
+[CLS] Joanna Gosling:2 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.53737
+[CLS] Pamela Silver works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.97352
+[CLS] Nafeez:3 Mosaddeq:4 Ahmed works for University of Sussex . [SEP],University of Sussex,University of Sussex,1,University of Sussex,1,-2.99091
+[CLS] Paul Cootner:3 works for MIT Sloan School of Management . [SEP],MIT Sloan School of Management,MIT Sloan School of Management,1,MIT Sloan School of Management,1,-1.97445
+[CLS] Bengt Holmström:2 works for Massachusetts Institute of Technology . [SEP],Massachusetts Institute of Technology,Massachusetts Institute of Technology,1,Massachusetts Institute of Technology,1,-0.88312
+[CLS] Gustav Kirchhoff:3 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.79304
+[CLS] Dermot:2 Moran works for Rice University . [SEP],Rice University,Rice University,1,Rice University,1,-6.04454
+[CLS] Richard F . Gordon works for National Aeronautics:3 and Space Administration . [SEP],National Aeronautics:3 and Space Administration,National Aeronautics:3 and Space Administration,1,National Aeronautics:3 and Space Administration,1,-0.46074
+[CLS] Karl Binz:2 works for University of Bonn . [SEP],University of Bonn,University of Bonn,1,University of Bonn,1,-2.17749
+[CLS] Naitō:3 Torajirō:3 works for Kyoto University . [SEP],Kyoto University,Kyoto University,1,Kyoto University,1,-3.03790
+[CLS] Jonah:2 Goldberg works for National Review . [SEP],National Review,National Review,1,National Review,1,-6.63460
+[CLS] John Vinocur:4 works for International New York Times . [SEP],International New York Times,International New York Times,1,International New York Times,1,-3.51579
+[CLS] Preston McAfee:5 works for California Institute of Technology . [SEP],California Institute of Technology,California Institute of Technology,1,California Institute of Technology,1,-1.06859
+[CLS] Frank Charles Schrader:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.19567
+[CLS] Carlos Salazar Lomelín:3 works for Monterrey Institute of Technology and Higher Education . [SEP],Monterrey Institute of Technology and Higher Education,Monterrey Institute of Technology and Higher Education,1,Monterrey Institute of Technology and Higher Education,1,-1.26398
+[CLS] Scott Turow:2 works for Stanford University . [SEP],Stanford University,Stanford University,1,Stanford University,1,-3.78316
+[CLS] Carlos Quentin works for Arizona Diamondbacks:2 . [SEP],Arizona Diamondbacks:2,Arizona Diamondbacks:2,1,Arizona Diamondbacks:2,1,-0.47583
+[CLS] David M . Thompson works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.52072
+[CLS] Eric Maskin:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.63472
+[CLS] Stanley Fields works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-2.53489
+[CLS] Manoug:3 Parikian:3 works for Manchester Camerata:2 . [SEP],Manchester Camerata:2,Manchester Camerata:2,1,Manchester Camerata:2,1,-5.94863
+[CLS] Hans Dragendorff:3 works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-3.03279
+[CLS] Jonathan Agnew:3 works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-1.84268
+[CLS] Herbert Baxter Adams works for Johns Hopkins University . [SEP],Johns Hopkins University,Johns Hopkins University,1,Johns Hopkins University,1,-0.69407
+[CLS] Jean - Claude Colliard:2 works for Sciences Po . [SEP],Sciences Po,Sciences Po,1,Sciences Po,1,-1.88102
+[CLS] William Dandridge:3 Peck works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.70692
+[CLS] Salikoko:3 Mufwene:4 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.23624
+[CLS] Robert M . Weitman:2 works for Metro - Goldwyn - Mayer . [SEP],Metro - Goldwyn - Mayer,Metro - Goldwyn - Mayer,1,Metro - Goldwyn - Mayer,1,-0.04325
+[CLS] Richard Schechner:3 works for New York University . [SEP],New York University,New York University,1,New York University,1,-2.04782
+[CLS] Willem Witteveen:2 works for Tilburg:2 University . [SEP],Tilburg:2 University,Tilburg:2 University,1,Tilburg:2 University,1,-1.59187
+[CLS] John Sterman:2 works for MIT Sloan School of Management . [SEP],MIT Sloan School of Management,MIT Sloan School of Management,1,MIT Sloan School of Management,1,-2.10852
+[CLS] Friedrich Asinger:2 works for RWTH:2 Aachen University . [SEP],RWTH:2 Aachen University,RWTH:2 Aachen University,1,RWTH:2 Aachen University,1,-1.22323
+[CLS] Eugene Fama:2 works for University of Chicago . [SEP],University of Chicago,University of Chicago,1,University of Chicago,1,-2.03429
+[CLS] Soren:2 Edsberg:2 works for Brigham:3 Young University . [SEP],Brigham:3 Young University,Brigham:3 Young University,1,Brigham:3 Young University,1,-0.51349
+[CLS] Alonso Lujambio:3 works for National Autonomous University of Mexico . [SEP],National Autonomous University of Mexico,National Autonomous University of Mexico,1,National Autonomous University of Mexico,1,-1.85699
+[CLS] William McKeen:4 works for Boston University . [SEP],Boston University,Boston University,1,Boston University,1,-4.45860
+[CLS] Adolf Dieudonné:3 works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-1.22611
+[CLS] Hans Vermeer:2 works for Johannes Gutenberg University Mainz . [SEP],Johannes Gutenberg University Mainz,Johannes Gutenberg University Mainz,1,Johannes Gutenberg University Mainz,1,-3.95383
+[CLS] Richard Aldridge:3 works for University of Leicester . [SEP],University of Leicester,University of Leicester,1,University of Leicester,1,-2.82958
+[CLS] T . Ranganathan:3 works for Wesleyan:2 University . [SEP],Wesleyan:2 University,Wesleyan:2 University,1,Wesleyan:2 University,1,-4.03141
+[CLS] George Saliba:2 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.88260
+[CLS] Krystyna:3 Chojnicka:3 works for Jagiellonian:4 University . [SEP],Jagiellonian:4 University,Jagiellonian:4 University,1,Jagiellonian:4 University,1,-0.96303
+[CLS] Verna:2 Wright works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-1.92613
+[CLS] Joseph Murdoch Ritchie works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-3.27701
+[CLS] William Gould Dow works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-1.96769
+[CLS] John Nicholas Wood works for University College London . [SEP],University College London,University College London,1,University College London,1,-1.96214
+[CLS] Peter Henry St George - Hyslop:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-4.39094
+[CLS] Willem Karel Dicke:2 works for Utrecht University . [SEP],Utrecht University,Utrecht University,1,Utrecht University,1,-2.83633
+[CLS] Richard Plant works for City University of New York . [SEP],City University of New York,City University of New York,1,City University of New York,1,-2.01691
+[CLS] Markus Fierz:2 works for University of Basel . [SEP],University of Basel,University of Basel,1,University of Basel,1,-2.58660
+[CLS] John Lewis Gaddis:3 works for Yale University . [SEP],Yale University,Yale University,1,Yale University,1,-2.99687
+[CLS] Margaret Warner works for Newsweek:2 . [SEP],Newsweek:2,Newsweek:2,1,Newsweek:2,1,-3.24101
+[CLS] John Horton Conway works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-2.92206
+[CLS] Clara Holst:2 works for Wellesley:2 College . [SEP],Wellesley:2 College,Wellesley:2 College,1,Wellesley:2 College,1,-1.98365
+[CLS] David Medalla works for University of Paris ( 1896 - 1968 ) . [SEP],University of Paris ( 1896 - 1968 ),University of Paris ( 1896 - 1968 ),1,University of Paris ( 1896 - 1968 ),1,-3.56023
+[CLS] John Jackson works for Georgetown University . [SEP],Georgetown University,Georgetown University,1,Georgetown University,1,-4.01882
+[CLS] Kenneth Turan:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.46829
+[CLS] Murray Gell:2 - Mann works for California Institute of Technology . [SEP],California Institute of Technology,California Institute of Technology,1,California Institute of Technology,1,-0.59334
+[CLS] Thorild:2 Wulff:3 works for Stockholm University . [SEP],Stockholm University,Stockholm University,1,Stockholm University,1,-5.25826
+[CLS] Luca Giuliani:2 works for Humboldt University of Berlin . [SEP],Humboldt University of Berlin,Humboldt University of Berlin,1,Humboldt University of Berlin,1,-1.83919
+[CLS] Ailana:2 Fraser works for Brown University . [SEP],Brown University,Brown University,1,Brown University,1,-5.10560
+[CLS] Michael Taylor works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-2.83661
+[CLS] Abdolhossein:4 Zarrinkoob:4 works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.67596
+[CLS] Shannon C . Stimson:3 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.93574
+[CLS] Jennifer Finney:2 Boylan:2 works for Colby:2 College . [SEP],Colby:2 College,Colby:2 College,1,Colby:2 College,1,-3.26327
+[CLS] Gustav Giemsa:3 works for University of Hamburg . [SEP],University of Hamburg,University of Hamburg,1,University of Hamburg,1,-2.16105
+"[CLS] Adam Gazzaley:3 works for University of California , San Francisco . [SEP]","University of California , San Francisco","University of California , San Francisco",1,"University of California , San Francisco",1,-0.44082
+[CLS] Jan G . F . Veldhuis:3 works for Utrecht University . [SEP],Utrecht University,Utrecht University,1,Utrecht University,1,-2.51669
+[CLS] C . J . McNaspy:5 works for Loyola University New Orleans . [SEP],Loyola University New Orleans,Loyola University New Orleans,1,Loyola University New Orleans,1,-1.19206
+[CLS] Tomasz Kamusella:3 works for University of St Andrews . [SEP],University of St Andrews,University of St Andrews,1,University of St Andrews,1,-1.05447
+[CLS] Scott D . Emr:2 works for Cornell University . [SEP],Cornell University,Cornell University,1,Cornell University,1,-3.65769
+[CLS] Charles Issawi:3 works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-4.57035
+[CLS] Vic Allen works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-2.23811
+[CLS] Feryal:3 Özel:2 works for University of Arizona . [SEP],University of Arizona,University of Arizona,1,University of Arizona,1,-2.65893
+[CLS] Paul Ariste:2 works for University of Tartu . [SEP],University of Tartu,University of Tartu,1,University of Tartu,1,-2.90173
+[CLS] Berthold Hatschek:3 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-1.70834
+[CLS] Arne Mastekaasa:3 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-1.80245
+[CLS] Boris Vadimovich:3 Sokolov:2 works for Russian State Social University . [SEP],Russian State Social University,Russian State Social University,1,Russian State Social University,1,-5.78507
+[CLS] Keith F . Otterbein:3 works for University at Buffalo . [SEP],University at Buffalo,University at Buffalo,1,University at Buffalo,1,-4.63792
+[CLS] Jack Nusan:2 Porter works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.71177
+[CLS] Ernest L . Eliel:2 works for University of Notre Dame . [SEP],University of Notre Dame,University of Notre Dame,1,University of Notre Dame,1,-1.13639
+[CLS] Rodney K . Smith works for University of Memphis . [SEP],University of Memphis,University of Memphis,1,University of Memphis,1,-3.88128
+[CLS] Matt Hamon:2 works for University of Washington . [SEP],University of Washington,University of Washington,1,University of Washington,1,-3.00379
+[CLS] Anders J . Thor works for Royal Institute of Technology . [SEP],Royal Institute of Technology,Royal Institute of Technology,1,Royal Institute of Technology,1,-2.52391
+[CLS] Wilder Penfield:2 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-3.23495
+[CLS] John Hoppus:2 works for University College London . [SEP],University College London,University College London,1,University College London,1,-2.49510
+[CLS] Krishna Palem:2 works for Rice University . [SEP],Rice University,Rice University,1,Rice University,1,-7.17566
+[CLS] Oscar Ludvig Stoud:2 Platou:2 works for University of Oslo . [SEP],University of Oslo,University of Oslo,1,University of Oslo,1,-1.48235
+[CLS] Dipak:2 C . Jain works for Northwestern University . [SEP],Northwestern University,Northwestern University,1,Northwestern University,1,-4.55253
+[CLS] John R . Pfeifer:3 works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-2.02980
+[CLS] Charles Collett:2 works for Great Western Railway . [SEP],Great Western Railway,Great Western Railway,1,Great Western Railway,1,-1.54254
+[CLS] Patrick Cramer works for Ludwig Maximilian University of Munich . [SEP],Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,1,Ludwig Maximilian University of Munich,1,-0.84445
+[CLS] Gideon Lester works for Columbia University . [SEP],Columbia University,Columbia University,1,Columbia University,1,-3.13580
+[CLS] Park Honan:2 works for University of Leeds . [SEP],University of Leeds,University of Leeds,1,University of Leeds,1,-3.31654
+[CLS] Joe Mashburn:3 works for University of Houston . [SEP],University of Houston,University of Houston,1,University of Houston,1,-3.46560
+[CLS] John R . Platt works for University of Michigan . [SEP],University of Michigan,University of Michigan,1,University of Michigan,1,-1.90222
+[CLS] Barrie:2 Edgar works for British Broadcasting Corporation . [SEP],British Broadcasting Corporation,British Broadcasting Corporation,1,British Broadcasting Corporation,1,-2.05004
+[CLS] Reynold:3 C . Fuson:2 works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.63304
+[CLS] Susan Rose - Ackerman:3 works for Yale Law School . [SEP],Yale Law School,Yale Law School,1,Yale Law School,1,-1.74757
+[CLS] Robert E . Horn works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.27641
+[CLS] J . Michael Steele works for Princeton University . [SEP],Princeton University,Princeton University,1,Princeton University,1,-3.37684
+[CLS] Comte de Rochefort works for Cardinal Richelieu . [SEP],Cardinal Richelieu,Cardinal Richelieu,1,Cardinal Richelieu,1,-0.23732
+[CLS] Della Purves:3 works for Royal Botanic:2 Garden Edinburgh . [SEP],Royal Botanic:2 Garden Edinburgh,Royal Botanic:2 Garden Edinburgh,1,Royal Botanic:2 Garden Edinburgh,1,-1.51411
+[CLS] Daniel Lidar:2 works for University of Southern California . [SEP],University of Southern California,University of Southern California,1,University of Southern California,1,-0.53997
+[CLS] Salomon Stricker:3 works for University of Vienna . [SEP],University of Vienna,University of Vienna,1,University of Vienna,1,-2.45841
+[CLS] Gilles Pisier:2 works for Texas A & M University . [SEP],Texas A & M University,Texas A & M University,1,Texas A & M University,1,-1.20030
+[CLS] Benjamin Thompson works for Royal Society . [SEP],Royal Society,Royal Society,1,Royal Society,1,-3.34049
+[CLS] Sue Whitesides:2 works for McGill University . [SEP],McGill University,McGill University,1,McGill University,1,-3.17743
+[CLS] Michael R . Eisenson:2 works for Charlesbank:2 Capital Partners . [SEP],Charlesbank:2 Capital Partners,Charlesbank:2 Capital Partners,1,Charlesbank:2 Capital Partners,1,-6.70934
+[CLS] Vagn:2 Walfrid:4 Ekman:2 works for Lund University . [SEP],Lund University,Lund University,1,Lund University,1,-2.29596
+[CLS] Bob Bell works for Jordan Grand Prix . [SEP],Jordan Grand Prix,Jordan Grand Prix,1,Jordan Grand Prix,1,-3.28679
+[CLS] John T . Koch works for Harvard University . [SEP],Harvard University,Harvard University,1,Harvard University,1,-3.27002
+[CLS] David Albright:3 works for George Mason University . [SEP],George Mason University,George Mason University,1,George Mason University,1,-3.04888
+[CLS] Roy Gordon Grainger:3 works for University of Oxford . [SEP],University of Oxford,University of Oxford,1,University of Oxford,1,-1.92156
+[CLS] Christian M . M . Brady works for Tulane:2 University . [SEP],Tulane:2 University,Tulane:2 University,1,Tulane:2 University,1,-1.51728
+[CLS] Martin Dülfer:3 works for TU Dresden . [SEP],TU Dresden,TU Dresden,1,TU Dresden,1,-4.16634
+[CLS] Harry Flam:2 works for Stockholm University . [SEP],Stockholm University,Stockholm University,1,Stockholm University,1,-6.59205
+[CLS] Heinrich Kohl works for Leibniz University Hannover . [SEP],Leibniz University Hannover,Leibniz University Hannover,1,Leibniz University Hannover,1,-5.29203
+[CLS] Karl Gottfried Konstantin Dehio:2 works for University of Tartu . [SEP],University of Tartu,University of Tartu,1,University of Tartu,1,-2.43982
+[CLS] Harold Greene works for KCBS:2 - TV . [SEP],KCBS:2 - TV,KCBS:2 - TV,1,KCBS:2 - TV,1,-1.52546
+[CLS] Mari Fitzduff:4 works for Brandeis:2 University . [SEP],Brandeis:2 University,Brandeis:2 University,1,Brandeis:2 University,1,-1.39288
+[CLS] Terry Craft:2 works for American League . [SEP],American League,American League,1,American League,1,-4.66811

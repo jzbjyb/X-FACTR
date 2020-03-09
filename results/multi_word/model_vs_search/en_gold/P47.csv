@@ -1,0 +1,922 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Carson County shares border with Gray County . [SEP],Gray County,Gray County,1,Gray County,1,-3.69180
+[CLS] Castelvecchio:3 di Rocca Barbena:2 shares border with Bardineto:3 . [SEP],Bardineto:3,Bardineto:3,1,Bardineto:3,1,-5.98989
+[CLS] Kazuno:3 District shares border with Kazuno:3 . [SEP],Kazuno:3,Kazuno:3,1,Kazuno:3,1,-0.54344
+[CLS] Rotella:2 shares border with Ascoli:2 Piceno:2 . [SEP],Ascoli:2 Piceno:2,Ascoli:2 Piceno:2,1,Ascoli:2 Piceno:2,1,-0.57532
+[CLS] Cornale:2 shares border with Mezzana:3 Bigli:2 . [SEP],Mezzana:3 Bigli:2,Mezzana:3 Bigli:2,1,Mezzana:3 Bigli:2,1,-4.81150
+[CLS] Llanyrafon:4 shares border with Croesyceiliog:6 . [SEP],Croesyceiliog:6,Croesyceiliog:6,1,Croesyceiliog:6,1,-6.10751
+[CLS] Como shares border with Vacallo:3 . [SEP],Vacallo:3,Vacallo:3,1,Vacallo:3,1,-6.94576
+"[CLS] Pigna:2 , Liguria shares border with Saorge:2 . [SEP]",Saorge:2,Saorge:2,1,Saorge:2,1,-10.94198
+[CLS] Utrecht shares border with De Bilt:2 . [SEP],De Bilt:2,De Bilt:2,1,De Bilt:2,1,-1.50665
+[CLS] Limone:2 Piemonte shares border with La Brigue:2 . [SEP],La Brigue:2,La Brigue:2,1,La Brigue:2,1,-5.25584
+[CLS] Alatri:2 shares border with Ferentino:3 . [SEP],Ferentino:3,Ferentino:3,1,Ferentino:3,1,-3.28196
+[CLS] Gaggiano:3 shares border with Cusago:3 . [SEP],Cusago:3,Cusago:3,1,Cusago:3,1,-3.73081
+[CLS] Jilin:2 shares border with Liaoning:3 . [SEP],Liaoning:3,Liaoning:3,1,Liaoning:3,1,-0.01593
+[CLS] Odisha:2 shares border with West Bengal . [SEP],West Bengal,West Bengal,1,West Bengal,1,-0.48372
+[CLS] Regional District of Kootenay:3 Boundary:2 shares border with Regional District of Central Okanagan:3 . [SEP],Regional District of Central Okanagan:3,Regional District of Central Okanagan:3,1,Regional District of Central Okanagan:3,1,-1.52212
+[CLS] Helena shares border with Billings:2 . [SEP],Billings:2,Billings:2,1,Billings:2,1,-3.34548
+[CLS] Shanxi:2 shares border with Shaanxi:3 . [SEP],Shaanxi:3,Shaanxi:3,1,Shaanxi:3,1,-0.03124
+[CLS] Pemiscot:3 County shares border with Mississippi County . [SEP],Mississippi County,Mississippi County,1,Mississippi County,1,-3.21973
+[CLS] West Feliciana:3 Parish shares border with East Baton:2 Rouge Parish . [SEP],East Baton:2 Rouge Parish,East Baton:2 Rouge Parish,1,East Baton:2 Rouge Parish,1,-0.86890
+[CLS] Free State shares border with North West . [SEP],North West,North West,1,North West,1,-3.74623
+[CLS] Khmelnytskyi:6 Oblast shares border with Rivne:2 Oblast . [SEP],Rivne:2 Oblast,Rivne:2 Oblast,1,Rivne:2 Oblast,1,-0.38618
+[CLS] Carisolo:3 shares border with Vermiglio:3 . [SEP],Vermiglio:3,Vermiglio:3,1,Vermiglio:3,1,-3.11300
+[CLS] Cursolo:3 - Orasso:2 shares border with Malesco:2 . [SEP],Malesco:2,Malesco:2,1,Malesco:2,1,-6.68839
+[CLS] Piatto:2 shares border with Valdengo:3 . [SEP],Valdengo:3,Valdengo:3,1,Valdengo:3,1,-4.23530
+[CLS] Druogno:3 shares border with Masera:2 . [SEP],Masera:2,Masera:2,1,Masera:2,1,-5.14647
+[CLS] Republic of Tatarstan:3 shares border with Samara Oblast . [SEP],Samara Oblast,Samara Oblast,1,Samara Oblast,1,-3.52335
+[CLS] East Brunswick shares border with North Brunswick . [SEP],North Brunswick,North Brunswick,1,North Brunswick,1,-1.21740
+[CLS] Dormelletto:3 shares border with Castelletto:2 sopra Ticino . [SEP],Castelletto:2 sopra Ticino,Castelletto:2 sopra Ticino,1,Castelletto:2 sopra Ticino,1,-3.16113
+[CLS] Ventura shares border with Oxnard:3 . [SEP],Oxnard:3,Oxnard:3,1,Oxnard:3,1,-1.80483
+[CLS] Yzeures:3 - sur - Creuse shares border with La Roche - Posay:2 . [SEP],La Roche - Posay:2,La Roche - Posay:2,1,La Roche - Posay:2,1,-3.28031
+[CLS] Sillano:2 shares border with Villa Minozzo:3 . [SEP],Villa Minozzo:3,Villa Minozzo:3,1,Villa Minozzo:3,1,-3.38081
+[CLS] Montecorvino:3 Rovella:3 shares border with Acerno:2 . [SEP],Acerno:2,Acerno:2,1,Acerno:2,1,-5.36884
+[CLS] Bedfordshire:2 shares border with Cambridgeshire:2 . [SEP],Cambridgeshire:2,Cambridgeshire:2,1,Cambridgeshire:2,1,-1.70942
+[CLS] Poppi:2 shares border with Pratovecchio:3 . [SEP],Pratovecchio:3,Pratovecchio:3,1,Pratovecchio:3,1,-1.07621
+[CLS] La Roche - en - Ardenne shares border with Houffalize:4 . [SEP],Houffalize:4,Houffalize:4,1,Houffalize:4,1,-4.93061
+[CLS] Gmina Opatowiec:3 shares border with Gmina Nowy Korczyn:3 . [SEP],Gmina Nowy Korczyn:3,Gmina Nowy Korczyn:3,1,Gmina Nowy Korczyn:3,1,-1.52496
+[CLS] Serbia and Montenegro shares border with European Union . [SEP],European Union,European Union,1,European Union,1,-1.86584
+[CLS] Chiusa:2 Sclafani:4 shares border with Corleone:3 . [SEP],Corleone:3,Corleone:3,1,Corleone:3,1,-0.57284
+[CLS] Cajamarca:2 shares border with Piura:2 . [SEP],Piura:2,Piura:2,1,Piura:2,1,-2.21985
+[CLS] Butte County shares border with Yuba:2 County . [SEP],Yuba:2 County,Yuba:2 County,1,Yuba:2 County,1,-2.83016
+[CLS] Kosciusko:3 County shares border with Elkhart:2 County . [SEP],Elkhart:2 County,Elkhart:2 County,1,Elkhart:2 County,1,-1.24304
+[CLS] Gazzaniga:4 shares border with Cene:2 . [SEP],Cene:2,Cene:2,1,Cene:2,1,-7.20640
+[CLS] Lanuvio:3 shares border with Genzano:2 di Roma . [SEP],Genzano:2 di Roma,Genzano:2 di Roma,1,Genzano:2 di Roma,1,-2.15996
+[CLS] Augusta County shares border with Rockbridge:2 County . [SEP],Rockbridge:2 County,Rockbridge:2 County,1,Rockbridge:2 County,1,-3.60302
+[CLS] Cornalba:3 shares border with Vertova:2 . [SEP],Vertova:2,Vertova:2,1,Vertova:2,1,-7.31209
+[CLS] Gaeta:2 shares border with Formia:2 . [SEP],Formia:2,Formia:2,1,Formia:2,1,-4.34084
+[CLS] Capri:2 shares border with Anacapri:3 . [SEP],Anacapri:3,Anacapri:3,1,Anacapri:3,1,-5.96366
+[CLS] Mosso:2 shares border with Bioglio:2 . [SEP],Bioglio:2,Bioglio:2,1,Bioglio:2,1,-9.87665
+[CLS] Lansingerland:3 shares border with Alphen:2 aan den Rijn:2 . [SEP],Alphen:2 aan den Rijn:2,Alphen:2 aan den Rijn:2,1,Alphen:2 aan den Rijn:2,1,-0.55674
+[CLS] Geldermalsen:4 shares border with Leerdam:3 . [SEP],Leerdam:3,Leerdam:3,1,Leerdam:3,1,-1.48318
+[CLS] Magoula:3 shares border with Mandra:2 . [SEP],Mandra:2,Mandra:2,1,Mandra:2,1,-4.61702
+[CLS] Castelbuono:3 shares border with Geraci:2 Siculo:2 . [SEP],Geraci:2 Siculo:2,Geraci:2 Siculo:2,1,Geraci:2 Siculo:2,1,-5.31483
+[CLS] Buskerud:3 shares border with Vestfold:2 . [SEP],Vestfold:2,Vestfold:2,1,Vestfold:2,1,-0.12969
+[CLS] Smolensk:3 Oblast shares border with Moscow Oblast . [SEP],Moscow Oblast,Moscow Oblast,1,Moscow Oblast,1,-0.85956
+[CLS] Cabatuan:3 shares border with Santa Barbara . [SEP],Santa Barbara,Santa Barbara,1,Santa Barbara,1,-2.34665
+[CLS] Hyderabad district shares border with Ranga:2 Reddy:2 district . [SEP],Ranga:2 Reddy:2 district,Ranga:2 Reddy:2 district,1,Ranga:2 Reddy:2 district,1,-0.69134
+[CLS] Gulen:2 shares border with Solund:2 . [SEP],Solund:2,Solund:2,1,Solund:2,1,-8.02922
+[CLS] Guardia Lombardi:2 shares border with Bisaccia:3 . [SEP],Bisaccia:3,Bisaccia:3,1,Bisaccia:3,1,-1.99300
+[CLS] Mercer County shares border with Lawrence County . [SEP],Lawrence County,Lawrence County,1,Lawrence County,1,-4.00539
+[CLS] Motteggiana:3 shares border with San Benedetto Po . [SEP],San Benedetto Po,San Benedetto Po,1,San Benedetto Po,1,-3.39368
+[CLS] Harmondsworth:3 shares border with Colnbrook:3 . [SEP],Colnbrook:3,Colnbrook:3,1,Colnbrook:3,1,-5.19401
+[CLS] Mahendragarh:5 district shares border with Bhiwani:3 district . [SEP],Bhiwani:3 district,Bhiwani:3 district,1,Bhiwani:3 district,1,-2.39162
+[CLS] Santa Domenica:2 Vittoria shares border with Randazzo:2 . [SEP],Randazzo:2,Randazzo:2,1,Randazzo:2,1,-3.24153
+[CLS] South Australia shares border with Northern Territory . [SEP],Northern Territory,Northern Territory,1,Northern Territory,1,-1.31545
+[CLS] Inzago:3 shares border with Gessate:3 . [SEP],Gessate:3,Gessate:3,1,Gessate:3,1,-5.53363
+[CLS] Codogné:3 shares border with San Vendemiano:4 . [SEP],San Vendemiano:4,San Vendemiano:4,1,San Vendemiano:4,1,-1.04946
+[CLS] Calvi:2 shares border with Calenzana:3 . [SEP],Calenzana:3,Calenzana:3,1,Calenzana:3,1,-4.31110
+[CLS] Cusano:2 Milanino:2 shares border with Cormano:2 . [SEP],Cormano:2,Cormano:2,1,Cormano:2,1,-6.83488
+[CLS] Roncofreddo:4 shares border with Cesena:2 . [SEP],Cesena:2,Cesena:2,1,Cesena:2,1,-0.89149
+[CLS] Alfortville:3 shares border with Choisy:2 - le - Roi . [SEP],Choisy:2 - le - Roi,Choisy:2 - le - Roi,1,Choisy:2 - le - Roi,1,-0.49318
+[CLS] Gargallo:3 shares border with Borgomanero:3 . [SEP],Borgomanero:3,Borgomanero:3,1,Borgomanero:3,1,-4.12022
+[CLS] Cariño:2 shares border with Cedeira:2 ( municipality ) . [SEP],Cedeira:2 ( municipality ),Cedeira:2 ( municipality ),1,Cedeira:2 ( municipality ),1,-2.38089
+[CLS] Zamboanga:3 del Sur shares border with Zamboanga:3 del Norte . [SEP],Zamboanga:3 del Norte,Zamboanga:3 del Norte,1,Zamboanga:3 del Norte,1,-0.24642
+[CLS] Costilla:2 County shares border with Conejos:3 County . [SEP],Conejos:3 County,Conejos:3 County,1,Conejos:3 County,1,-0.84347
+[CLS] Ghemme:3 shares border with Romagnano:2 Sesia:2 . [SEP],Romagnano:2 Sesia:2,Romagnano:2 Sesia:2,1,Romagnano:2 Sesia:2,1,-5.19783
+[CLS] Ailoche:3 shares border with Guardabosone:3 . [SEP],Guardabosone:3,Guardabosone:3,1,Guardabosone:3,1,-10.48911
+[CLS] Stavropol:4 Krai:2 shares border with Republic of North Ossetia:3 - Alania:2 . [SEP],Republic of North Ossetia:3 - Alania:2,Republic of North Ossetia:3 - Alania:2,1,Republic of North Ossetia:3 - Alania:2,1,-1.55400
+[CLS] Fiano:2 Romano shares border with Montopoli:3 di Sabina . [SEP],Montopoli:3 di Sabina,Montopoli:3 di Sabina,1,Montopoli:3 di Sabina,1,-5.24189
+[CLS] San Francesco al Campo shares border with San Maurizio Canavese:3 . [SEP],San Maurizio Canavese:3,San Maurizio Canavese:3,1,San Maurizio Canavese:3,1,-1.53745
+[CLS] Pratovecchio:3 shares border with Poppi:2 . [SEP],Poppi:2,Poppi:2,1,Poppi:2,1,-3.38303
+[CLS] Pannarano:3 shares border with Avella:2 . [SEP],Avella:2,Avella:2,1,Avella:2,1,-5.68486
+[CLS] Tavarnelle:3 Val di Pesa:2 shares border with Montespertoli:3 . [SEP],Montespertoli:3,Montespertoli:3,1,Montespertoli:3,1,-4.06185
+[CLS] City of Banyule:3 shares border with Shire of Nillumbik:3 . [SEP],Shire of Nillumbik:3,Shire of Nillumbik:3,1,Shire of Nillumbik:3,1,-7.10177
+[CLS] Gela:2 shares border with Caltagirone:4 . [SEP],Caltagirone:4,Caltagirone:4,1,Caltagirone:4,1,-0.47076
+[CLS] Texel:2 shares border with Vlieland:3 . [SEP],Vlieland:3,Vlieland:3,1,Vlieland:3,1,-1.46120
+[CLS] Carmarthenshire:5 shares border with Brecknockshire:4 . [SEP],Brecknockshire:4,Brecknockshire:4,1,Brecknockshire:4,1,-0.97168
+[CLS] Pompei:3 shares border with Scafati:3 . [SEP],Scafati:3,Scafati:3,1,Scafati:3,1,-0.75716
+[CLS] Nembro:2 shares border with Selvino:2 . [SEP],Selvino:2,Selvino:2,1,Selvino:2,1,-4.31711
+[CLS] Strozza:3 shares border with Roncola:2 . [SEP],Roncola:2,Roncola:2,1,Roncola:2,1,-6.80359
+[CLS] Viborg Municipality shares border with Skive:2 Municipality . [SEP],Skive:2 Municipality,Skive:2 Municipality,1,Skive:2 Municipality,1,-1.77278
+[CLS] Mecklenburg County shares border with Iredell:3 County . [SEP],Iredell:3 County,Iredell:3 County,1,Iredell:3 County,1,-4.76854
+[CLS] Gmina Pszczew:4 shares border with Gmina Przytoczna:3 . [SEP],Gmina Przytoczna:3,Gmina Przytoczna:3,1,Gmina Przytoczna:3,1,-3.84264
+[CLS] Alhaurín:4 el Grande shares border with Mijas:2 . [SEP],Mijas:2,Mijas:2,1,Mijas:2,1,-6.56076
+[CLS] Franklin County shares border with Windham:2 County . [SEP],Windham:2 County,Windham:2 County,1,Windham:2 County,1,-1.67214
+[CLS] San Martín de Porres:2 shares border with Puente Piedra . [SEP],Puente Piedra,Puente Piedra,1,Puente Piedra,1,-5.18677
+[CLS] Hagonoy:3 shares border with Calumpit:3 . [SEP],Calumpit:3,Calumpit:3,1,Calumpit:3,1,-7.18834
+[CLS] Borgofranco:2 d ' Ivrea:3 shares border with Chiaverano:3 . [SEP],Chiaverano:3,Chiaverano:3,1,Chiaverano:3,1,-5.44775
+[CLS] Dorgali:2 shares border with Oliena:2 . [SEP],Oliena:2,Oliena:2,1,Oliena:2,1,-7.34043
+[CLS] Verkhovyna:4 Raion:2 shares border with Nadvirna:3 Raion:2 . [SEP],Nadvirna:3 Raion:2,Nadvirna:3 Raion:2,1,Nadvirna:3 Raion:2,1,-3.99385
+[CLS] Salzburg shares border with Berchtesgadener:5 Land . [SEP],Berchtesgadener:5 Land,Berchtesgadener:5 Land,1,Berchtesgadener:5 Land,1,-0.94992
+[CLS] Pietravairano:4 shares border with Raviscanina:3 . [SEP],Raviscanina:3,Raviscanina:3,1,Raviscanina:3,1,-10.70848
+[CLS] Monastier:3 di Treviso shares border with Roncade:2 . [SEP],Roncade:2,Roncade:2,1,Roncade:2,1,-8.16290
+[CLS] Welschnofen:5 shares border with Pozza:2 di Fassa:2 . [SEP],Pozza:2 di Fassa:2,Pozza:2 di Fassa:2,1,Pozza:2 di Fassa:2,1,-3.73228
+[CLS] Hebi:2 shares border with Xinxiang:4 . [SEP],Xinxiang:4,Xinxiang:4,1,Xinxiang:4,1,-0.95745
+[CLS] Orune:2 shares border with Nuoro:2 . [SEP],Nuoro:2,Nuoro:2,1,Nuoro:2,1,-6.76958
+[CLS] Grandola:2 ed Uniti shares border with Menaggio:2 . [SEP],Menaggio:2,Menaggio:2,1,Menaggio:2,1,-5.97968
+[CLS] Pekela:3 shares border with Oldambt:3 . [SEP],Oldambt:3,Oldambt:3,1,Oldambt:3,1,-6.20360
+"[CLS] Westwood , Edmonton shares border with Edmonton City Centre Airport . [SEP]",Edmonton City Centre Airport,Edmonton City Centre Airport,1,Edmonton City Centre Airport,1,-4.01212
+[CLS] Bedollo:3 shares border with Sant ' Orsola:2 Terme . [SEP],Sant ' Orsola:2 Terme,Sant ' Orsola:2 Terme,1,Sant ' Orsola:2 Terme,1,-2.56147
+[CLS] Wesermarsch:3 shares border with Bremerhaven:2 . [SEP],Bremerhaven:2,Bremerhaven:2,1,Bremerhaven:2,1,-0.37725
+[CLS] Velletri:3 shares border with Genzano:2 di Roma . [SEP],Genzano:2 di Roma,Genzano:2 di Roma,1,Genzano:2 di Roma,1,-1.88816
+[CLS] Oslo shares border with Buskerud:3 . [SEP],Buskerud:3,Buskerud:3,1,Buskerud:3,1,-0.20372
+[CLS] New Brunswick shares border with North Brunswick . [SEP],North Brunswick,North Brunswick,1,North Brunswick,1,-3.42239
+[CLS] Prudnik:3 County shares border with Nysa:2 County . [SEP],Nysa:2 County,Nysa:2 County,1,Nysa:2 County,1,-3.37566
+[CLS] Mallabia:2 shares border with Ermua:2 . [SEP],Ermua:2,Ermua:2,1,Ermua:2,1,-5.06997
+[CLS] Cova:2 Lima Municipality shares border with Ainaro:2 Municipality . [SEP],Ainaro:2 Municipality,Ainaro:2 Municipality,1,Ainaro:2 Municipality,1,-5.00076
+[CLS] Ambivere:3 shares border with Palazzago:4 . [SEP],Palazzago:4,Palazzago:4,1,Palazzago:4,1,-1.81535
+[CLS] Coryell:2 County shares border with Bosque:2 County . [SEP],Bosque:2 County,Bosque:2 County,1,Bosque:2 County,1,-2.72104
+[CLS] Saint - Germain - en - Laye:2 shares border with Achères:3 . [SEP],Achères:3,Achères:3,1,Achères:3,1,-3.53080
+[CLS] Butler County shares border with Sedgwick:4 County . [SEP],Sedgwick:4 County,Sedgwick:4 County,1,Sedgwick:4 County,1,-0.10369
+[CLS] Viganò:3 shares border with Missaglia:2 . [SEP],Missaglia:2,Missaglia:2,1,Missaglia:2,1,-3.87122
+[CLS] Howard County shares border with Cooper County . [SEP],Cooper County,Cooper County,1,Cooper County,1,-4.72291
+[CLS] Lauco:2 shares border with Tolmezzo:3 . [SEP],Tolmezzo:3,Tolmezzo:3,1,Tolmezzo:3,1,-2.44576
+[CLS] Forty:2 Fort shares border with Swoyersville:4 . [SEP],Swoyersville:4,Swoyersville:4,1,Swoyersville:4,1,-4.39161
+[CLS] Mondariz:3 shares border with Salvaterra:3 de Miño:2 . [SEP],Salvaterra:3 de Miño:2,Salvaterra:3 de Miño:2,1,Salvaterra:3 de Miño:2,1,-1.93418
+[CLS] Maschito:3 shares border with Palazzo San Gervasio:4 . [SEP],Palazzo San Gervasio:4,Palazzo San Gervasio:4,1,Palazzo San Gervasio:4,1,-1.31343
+[CLS] Millstone:2 Township shares border with Upper Freehold:2 Township . [SEP],Upper Freehold:2 Township,Upper Freehold:2 Township,1,Upper Freehold:2 Township,1,-3.21806
+[CLS] Province of Turin shares border with Province of Alessandria . [SEP],Province of Alessandria,Province of Alessandria,1,Province of Alessandria,1,-2.36360
+[CLS] Överkalix:4 Municipality shares border with Pajala:2 Municipality . [SEP],Pajala:2 Municipality,Pajala:2 Municipality,1,Pajala:2 Municipality,1,-2.19667
+[CLS] Gentofte:3 Municipality shares border with Copenhagen Municipality . [SEP],Copenhagen Municipality,Copenhagen Municipality,1,Copenhagen Municipality,1,-1.96596
+[CLS] Limone:2 Piemonte shares border with Tende:2 . [SEP],Tende:2,Tende:2,1,Tende:2,1,-6.55727
+[CLS] Moscow Oblast shares border with Yaroslavl:4 Oblast . [SEP],Yaroslavl:4 Oblast,Yaroslavl:4 Oblast,1,Yaroslavl:4 Oblast,1,-0.08923
+[CLS] Antillo:2 shares border with Fondachelli:3 - Fantina:2 . [SEP],Fondachelli:3 - Fantina:2,Fondachelli:3 - Fantina:2,1,Fondachelli:3 - Fantina:2,1,-5.82463
+[CLS] Cunevo:3 shares border with Tuenno:3 . [SEP],Tuenno:3,Tuenno:3,1,Tuenno:3,1,-6.66103
+[CLS] Region of Murcia shares border with Castile - La Mancha . [SEP],Castile - La Mancha,Castile - La Mancha,1,Castile - La Mancha,1,-0.22051
+[CLS] Vaie:2 shares border with Condove:3 . [SEP],Condove:3,Condove:3,1,Condove:3,1,-4.26922
+[CLS] Klamath:3 County shares border with Siskiyou:4 County . [SEP],Siskiyou:4 County,Siskiyou:4 County,1,Siskiyou:4 County,1,-1.59038
+[CLS] Civitanova:3 Marche shares border with Potenza:2 Picena:2 . [SEP],Potenza:2 Picena:2,Potenza:2 Picena:2,1,Potenza:2 Picena:2,1,-1.60539
+[CLS] Juniata:2 County shares border with Huntingdon:2 County . [SEP],Huntingdon:2 County,Huntingdon:2 County,1,Huntingdon:2 County,1,-1.09718
+[CLS] Chittagong:3 District shares border with Feni:2 District . [SEP],Feni:2 District,Feni:2 District,1,Feni:2 District,1,-7.01109
+[CLS] Monleale:3 shares border with Volpedo:3 . [SEP],Volpedo:3,Volpedo:3,1,Volpedo:3,1,-4.97401
+[CLS] Barisal:2 District shares border with Barguna:2 District . [SEP],Barguna:2 District,Barguna:2 District,1,Barguna:2 District,1,-5.85756
+[CLS] San Rocco al Porto shares border with Santo Stefano Lodigiano:2 . [SEP],Santo Stefano Lodigiano:2,Santo Stefano Lodigiano:2,1,Santo Stefano Lodigiano:2,1,-0.69325
+[CLS] Cairo Montenotte:3 shares border with Albisola:3 Superiore . [SEP],Albisola:3 Superiore,Albisola:3 Superiore,1,Albisola:3 Superiore,1,-2.76659
+[CLS] Caltignaga:4 shares border with Cameri:2 . [SEP],Cameri:2,Cameri:2,1,Cameri:2,1,-4.50625
+[CLS] Teverga:3 shares border with Belmonte:2 de Miranda . [SEP],Belmonte:2 de Miranda,Belmonte:2 de Miranda,1,Belmonte:2 de Miranda,1,-2.80021
+[CLS] Mels:2 shares border with Sargans:3 . [SEP],Sargans:3,Sargans:3,1,Sargans:3,1,-3.73937
+[CLS] Uttaradit:3 shares border with Phitsanulok:4 . [SEP],Phitsanulok:4,Phitsanulok:4,1,Phitsanulok:4,1,-6.70378
+[CLS] Fukushima:2 Prefecture shares border with Yamagata:3 Prefecture . [SEP],Yamagata:3 Prefecture,Yamagata:3 Prefecture,1,Yamagata:3 Prefecture,1,-0.18110
+[CLS] Salerno shares border with Vietri:2 sul Mare . [SEP],Vietri:2 sul Mare,Vietri:2 sul Mare,1,Vietri:2 sul Mare,1,-4.56987
+[CLS] Sissa:2 shares border with San Secondo Parmense:3 . [SEP],San Secondo Parmense:3,San Secondo Parmense:3,1,San Secondo Parmense:3,1,-1.44058
+[CLS] Little Ferry shares border with Moonachie:3 . [SEP],Moonachie:3,Moonachie:3,1,Moonachie:3,1,-5.75955
+[CLS] Castronovo:2 di Sicilia shares border with Lercara:3 Friddi:3 . [SEP],Lercara:3 Friddi:3,Lercara:3 Friddi:3,1,Lercara:3 Friddi:3,1,-6.97041
+[CLS] Sunflower:2 County shares border with Coahoma:3 County . [SEP],Coahoma:3 County,Coahoma:3 County,1,Coahoma:3 County,1,-2.39171
+[CLS] Hokkaidō:4 shares border with Aomori:2 Prefecture . [SEP],Aomori:2 Prefecture,Aomori:2 Prefecture,1,Aomori:2 Prefecture,1,-0.05366
+[CLS] Manciano:2 shares border with Magliano:2 in Toscana . [SEP],Magliano:2 in Toscana,Magliano:2 in Toscana,1,Magliano:2 in Toscana,1,-2.51219
+[CLS] Toano:2 shares border with Villa Minozzo:3 . [SEP],Villa Minozzo:3,Villa Minozzo:3,1,Villa Minozzo:3,1,-3.64107
+[CLS] Imus:2 shares border with Kawit:2 . [SEP],Kawit:2,Kawit:2,1,Kawit:2,1,-7.31385
+[CLS] Hampstead:3 Garden Suburb:3 shares border with Temple Fortune . [SEP],Temple Fortune,Temple Fortune,1,Temple Fortune,1,-11.11360
+[CLS] Prato shares border with Campi:2 Bisenzio:3 . [SEP],Campi:2 Bisenzio:3,Campi:2 Bisenzio:3,1,Campi:2 Bisenzio:3,1,-2.99130
+[CLS] Santa Venerina:2 shares border with Acireale:4 . [SEP],Acireale:4,Acireale:4,1,Acireale:4,1,-2.81769
+[CLS] Suzano:2 shares border with Itaquaquecetuba:6 . [SEP],Itaquaquecetuba:6,Itaquaquecetuba:6,1,Itaquaquecetuba:6,1,-4.86234
+[CLS] Vilanova:2 d ' Ozcos:2 shares border with Taramundi:3 . [SEP],Taramundi:3,Taramundi:3,1,Taramundi:3,1,-6.25470
+[CLS] Dieppe:2 shares border with Moncton:3 . [SEP],Moncton:3,Moncton:3,1,Moncton:3,1,-0.84937
+[CLS] Spilimbergo:4 shares border with San Giorgio della Richinvelda:4 . [SEP],San Giorgio della Richinvelda:4,San Giorgio della Richinvelda:4,1,San Giorgio della Richinvelda:4,1,-4.85100
+[CLS] Karaganda:3 Region shares border with Kostanay:3 Region . [SEP],Kostanay:3 Region,Kostanay:3 Region,1,Kostanay:3 Region,1,-3.98100
+[CLS] Ravarino:3 shares border with Camposanto:2 . [SEP],Camposanto:2,Camposanto:2,1,Camposanto:2,1,-3.75423
+[CLS] Zevio:2 shares border with San Martino Buon:2 Albergo:3 . [SEP],San Martino Buon:2 Albergo:3,San Martino Buon:2 Albergo:3,1,San Martino Buon:2 Albergo:3,1,-2.08390
+[CLS] Utrecht shares border with Gelderland:2 . [SEP],Gelderland:2,Gelderland:2,1,Gelderland:2,1,-0.61083
+[CLS] Bourg - Saint - Maurice shares border with La Thuile:2 . [SEP],La Thuile:2,La Thuile:2,1,La Thuile:2,1,-6.11130
+[CLS] Konitsa:3 shares border with Kalpaki:3 . [SEP],Kalpaki:3,Kalpaki:3,1,Kalpaki:3,1,-4.56799
+[CLS] Rangamati:3 Hill District shares border with Chittagong:3 District . [SEP],Chittagong:3 District,Chittagong:3 District,1,Chittagong:3 District,1,-0.48879
+[CLS] Casape:2 shares border with Capranica:3 Prenestina:3 . [SEP],Capranica:3 Prenestina:3,Capranica:3 Prenestina:3,1,Capranica:3 Prenestina:3,1,-2.84640
+[CLS] Vitulano:3 shares border with Guardia Sanframondi:4 . [SEP],Guardia Sanframondi:4,Guardia Sanframondi:4,1,Guardia Sanframondi:4,1,-4.11607
+[CLS] Robecco:3 sul Naviglio:3 shares border with Cerano:2 . [SEP],Cerano:2,Cerano:2,1,Cerano:2,1,-6.25945
+[CLS] Almens:2 shares border with Paspels:3 . [SEP],Paspels:3,Paspels:3,1,Paspels:3,1,-6.17957
+[CLS] Eidsvoll:3 shares border with Nord - Odal:2 . [SEP],Nord - Odal:2,Nord - Odal:2,1,Nord - Odal:2,1,-0.97738
+[CLS] Prarolo:3 shares border with Vercelli:2 . [SEP],Vercelli:2,Vercelli:2,1,Vercelli:2,1,-2.79240
+[CLS] Forsand:3 shares border with Sirdal:2 . [SEP],Sirdal:2,Sirdal:2,1,Sirdal:2,1,-4.64176
+[CLS] Bergantino:3 shares border with Melara:2 . [SEP],Melara:2,Melara:2,1,Melara:2,1,-7.52963
+[CLS] Trikolonoi:4 shares border with Dimitsana:3 . [SEP],Dimitsana:3,Dimitsana:3,1,Dimitsana:3,1,-7.94384
+[CLS] Fabro:2 shares border with San Casciano:3 dei Bagni:2 . [SEP],San Casciano:3 dei Bagni:2,San Casciano:3 dei Bagni:2,1,San Casciano:3 dei Bagni:2,1,-1.61827
+[CLS] Palazzo Adriano shares border with Bivona:2 . [SEP],Bivona:2,Bivona:2,1,Bivona:2,1,-6.83099
+[CLS] Paris shares border with Vincennes:2 . [SEP],Vincennes:2,Vincennes:2,1,Vincennes:2,1,-1.11959
+[CLS] Gmina Czaplinek:4 shares border with Gmina Borne:2 Sulinowo:3 . [SEP],Gmina Borne:2 Sulinowo:3,Gmina Borne:2 Sulinowo:3,1,Gmina Borne:2 Sulinowo:3,1,-3.59906
+[CLS] Barney Circle shares border with Anacostia:3 River . [SEP],Anacostia:3 River,Anacostia:3 River,1,Anacostia:3 River,1,-4.76871
+[CLS] Upper East Region shares border with Upper West Region . [SEP],Upper West Region,Upper West Region,1,Upper West Region,1,-0.98013
+[CLS] Lee County shares border with Glades:2 County . [SEP],Glades:2 County,Glades:2 County,1,Glades:2 County,1,-2.16684
+[CLS] Almere:2 shares border with Zeewolde:3 . [SEP],Zeewolde:3,Zeewolde:3,1,Zeewolde:3,1,-2.18381
+[CLS] Amelia County shares border with Chesterfield:2 County . [SEP],Chesterfield:2 County,Chesterfield:2 County,1,Chesterfield:2 County,1,-1.37435
+[CLS] Cusco:2 shares border with Ucayali:3 . [SEP],Ucayali:3,Ucayali:3,1,Ucayali:3,1,-2.09590
+[CLS] Muravera:3 shares border with San Vito . [SEP],San Vito,San Vito,1,San Vito,1,-3.50245
+[CLS] Brewster County shares border with Presidio:3 County . [SEP],Presidio:3 County,Presidio:3 County,1,Presidio:3 County,1,-0.51085
+[CLS] Ouled:2 Khoudir:3 shares border with Timoudi:2 . [SEP],Timoudi:2,Timoudi:2,1,Timoudi:2,1,-9.73300
+[CLS] Vimercate:3 shares border with Agrate:3 Brianza:2 . [SEP],Agrate:3 Brianza:2,Agrate:3 Brianza:2,1,Agrate:3 Brianza:2,1,-3.77993
+[CLS] Mulhouse:2 shares border with Riedisheim:4 . [SEP],Riedisheim:4,Riedisheim:4,1,Riedisheim:4,1,-3.44978
+[CLS] Corridonia:3 shares border with Mogliano:3 . [SEP],Mogliano:3,Mogliano:3,1,Mogliano:3,1,-2.70867
+[CLS] Mino:2 Province shares border with Owari:2 Province . [SEP],Owari:2 Province,Owari:2 Province,1,Owari:2 Province,1,-3.75044
+[CLS] Valle San Nicolao:2 shares border with Piatto:2 . [SEP],Piatto:2,Piatto:2,1,Piatto:2,1,-4.60407
+[CLS] Pettorazza:3 Grimani:3 shares border with Cavarzere:4 . [SEP],Cavarzere:4,Cavarzere:4,1,Cavarzere:4,1,-3.66814
+[CLS] Carmarthenshire:5 shares border with Pembrokeshire:2 . [SEP],Pembrokeshire:2,Pembrokeshire:2,1,Pembrokeshire:2,1,-0.72076
+[CLS] Caronia:2 shares border with Sant ' Agata:2 di Militello:3 . [SEP],Sant ' Agata:2 di Militello:3,Sant ' Agata:2 di Militello:3,1,Sant ' Agata:2 di Militello:3,1,-1.15401
+[CLS] Toamasina:3 Province shares border with Antananarivo:4 Province . [SEP],Antananarivo:4 Province,Antananarivo:4 Province,1,Antananarivo:4 Province,1,-0.03191
+[CLS] Marzano:2 shares border with Vidigulfo:4 . [SEP],Vidigulfo:4,Vidigulfo:4,1,Vidigulfo:4,1,-5.43978
+[CLS] Greater Accra:3 Region shares border with Volta Region . [SEP],Volta Region,Volta Region,1,Volta Region,1,-4.20490
+[CLS] Isera:2 shares border with Villa Lagarina:3 . [SEP],Villa Lagarina:3,Villa Lagarina:3,1,Villa Lagarina:3,1,-3.20315
+[CLS] Savignone:3 shares border with Busalla:2 . [SEP],Busalla:2,Busalla:2,1,Busalla:2,1,-11.78319
+"[CLS] Jerzu:3 shares border with Gairo:2 , Sardinia . [SEP]","Gairo:2 , Sardinia","Gairo:2 , Sardinia",1,"Gairo:2 , Sardinia",1,-6.46849
+[CLS] Berlin shares border with Dahme:2 - Spreewald:3 District . [SEP],Dahme:2 - Spreewald:3 District,Dahme:2 - Spreewald:3 District,1,Dahme:2 - Spreewald:3 District,1,-1.42203
+[CLS] Francavilla:2 Fontana shares border with Manduria:3 . [SEP],Manduria:3,Manduria:3,1,Manduria:3,1,-4.77737
+[CLS] Luogosanto:4 shares border with Luras:2 . [SEP],Luras:2,Luras:2,1,Luras:2,1,-7.02246
+[CLS] Pontenure:3 shares border with Carpaneto:3 Piacentino:3 . [SEP],Carpaneto:3 Piacentino:3,Carpaneto:3 Piacentino:3,1,Carpaneto:3 Piacentino:3,1,-2.43470
+[CLS] Digos:2 shares border with Bansalan:3 . [SEP],Bansalan:3,Bansalan:3,1,Bansalan:3,1,-8.73484
+[CLS] Alb:2 - Donau - Kreis shares border with Neu - Ulm . [SEP],Neu - Ulm,Neu - Ulm,1,Neu - Ulm,1,-3.26291
+[CLS] Rotella:2 shares border with Montelparo:3 . [SEP],Montelparo:3,Montelparo:3,1,Montelparo:3,1,-5.68254
+[CLS] Venosa:2 shares border with Palazzo San Gervasio:4 . [SEP],Palazzo San Gervasio:4,Palazzo San Gervasio:4,1,Palazzo San Gervasio:4,1,-1.44363
+[CLS] Maletto:2 shares border with Zafferana:3 Etnea:2 . [SEP],Zafferana:3 Etnea:2,Zafferana:3 Etnea:2,1,Zafferana:3 Etnea:2,1,-5.78694
+[CLS] Lapeer:3 County shares border with Sanilac:3 County . [SEP],Sanilac:3 County,Sanilac:3 County,1,Sanilac:3 County,1,-4.53785
+[CLS] Isola d ' Asti shares border with Costigliole:4 d ' Asti . [SEP],Costigliole:4 d ' Asti,Costigliole:4 d ' Asti,1,Costigliole:4 d ' Asti,1,-2.61847
+[CLS] Gävleborg:4 County shares border with Dalarna:2 County . [SEP],Dalarna:2 County,Dalarna:2 County,1,Dalarna:2 County,1,-0.09704
+[CLS] Pontremoli:3 shares border with Zeri:2 . [SEP],Zeri:2,Zeri:2,1,Zeri:2,1,-10.02091
+[CLS] Salmour:3 shares border with Narzole:3 . [SEP],Narzole:3,Narzole:3,1,Narzole:3,1,-6.17333
+[CLS] Gattatico:3 shares border with Brescello:3 . [SEP],Brescello:3,Brescello:3,1,Brescello:3,1,-2.09019
+"[CLS] Cox Green , Berkshire shares border with Maidenhead:2 . [SEP]",Maidenhead:2,Maidenhead:2,1,Maidenhead:2,1,-1.96806
+[CLS] Seneghe:3 shares border with Cuglieri:3 . [SEP],Cuglieri:3,Cuglieri:3,1,Cuglieri:3,1,-6.93313
+[CLS] Madrid shares border with Alcobendas:4 . [SEP],Alcobendas:4,Alcobendas:4,1,Alcobendas:4,1,-1.40883
+[CLS] Punjab shares border with Sindh:2 . [SEP],Sindh:2,Sindh:2,1,Sindh:2,1,-0.03450
+[CLS] Fiumalbo:4 shares border with Pievepelago:4 . [SEP],Pievepelago:4,Pievepelago:4,1,Pievepelago:4,1,-3.59008
+[CLS] Robecco:3 sul Naviglio:3 shares border with Abbiategrasso:5 . [SEP],Abbiategrasso:5,Abbiategrasso:5,1,Abbiategrasso:5,1,-1.89323
+[CLS] Romanillos:2 de Atienza:2 shares border with Atienza:2 . [SEP],Atienza:2,Atienza:2,1,Atienza:2,1,-0.01497
+[CLS] Arzana:2 shares border with Desulo:2 . [SEP],Desulo:2,Desulo:2,1,Desulo:2,1,-10.05338
+[CLS] Pio Duran shares border with Jovellar:3 . [SEP],Jovellar:3,Jovellar:3,1,Jovellar:3,1,-4.31722
+[CLS] Tingvoll:3 shares border with Halsa:2 . [SEP],Halsa:2,Halsa:2,1,Halsa:2,1,-4.85906
+[CLS] Ceresole:3 Alba shares border with Carmagnola:4 . [SEP],Carmagnola:4,Carmagnola:4,1,Carmagnola:4,1,-1.44530
+[CLS] Larvik:2 shares border with Lardal:3 . [SEP],Lardal:3,Lardal:3,1,Lardal:3,1,-2.61984
+[CLS] Comignago:3 shares border with Gattico:3 . [SEP],Gattico:3,Gattico:3,1,Gattico:3,1,-4.71292
+[CLS] Ronco:2 Biellese:3 shares border with Biella:2 . [SEP],Biella:2,Biella:2,1,Biella:2,1,-0.73262
+[CLS] Huntington Beach shares border with Newport Beach . [SEP],Newport Beach,Newport Beach,1,Newport Beach,1,-4.83863
+[CLS] Città della Pieve:2 shares border with Allerona:2 . [SEP],Allerona:2,Allerona:2,1,Allerona:2,1,-8.25861
+[CLS] Basel - Stadt shares border with Haut - Rhin . [SEP],Haut - Rhin,Haut - Rhin,1,Haut - Rhin,1,-1.90373
+[CLS] Livo:2 shares border with Cles:2 . [SEP],Cles:2,Cles:2,1,Cles:2,1,-7.31918
+[CLS] Trivero:2 shares border with Valle Mosso:2 . [SEP],Valle Mosso:2,Valle Mosso:2,1,Valle Mosso:2,1,-4.85249
+[CLS] Torrita:2 di Siena shares border with Montepulciano:3 . [SEP],Montepulciano:3,Montepulciano:3,1,Montepulciano:3,1,-0.69931
+[CLS] Gratangen:3 shares border with Lavangen:2 . [SEP],Lavangen:2,Lavangen:2,1,Lavangen:2,1,-8.83440
+[CLS] Carpasio:3 shares border with Borgomaro:3 . [SEP],Borgomaro:3,Borgomaro:3,1,Borgomaro:3,1,-5.88572
+[CLS] Rosebud:2 Indian Reservation:2 shares border with Pine Ridge Indian Reservation:2 . [SEP],Pine Ridge Indian Reservation:2,Pine Ridge Indian Reservation:2,1,Pine Ridge Indian Reservation:2,1,-0.95303
+[CLS] Ponsacco:3 shares border with Capannoli:3 . [SEP],Capannoli:3,Capannoli:3,1,Capannoli:3,1,-4.53000
+[CLS] Bulgarograsso:5 shares border with Appiano:2 Gentile:2 . [SEP],Appiano:2 Gentile:2,Appiano:2 Gentile:2,1,Appiano:2 Gentile:2,1,-2.09448
+[CLS] Wennigsen:3 shares border with Barsinghausen:3 . [SEP],Barsinghausen:3,Barsinghausen:3,1,Barsinghausen:3,1,-5.26909
+[CLS] Regional Municipality of Waterloo shares border with Perth County . [SEP],Perth County,Perth County,1,Perth County,1,-8.88104
+[CLS] Ballerup:3 Municipality shares border with Egedal:3 Municipality . [SEP],Egedal:3 Municipality,Egedal:3 Municipality,1,Egedal:3 Municipality,1,-2.99431
+[CLS] Hennepin:3 County shares border with Carver:2 County . [SEP],Carver:2 County,Carver:2 County,1,Carver:2 County,1,-1.45301
+[CLS] Quittengo:3 shares border with Mosso:2 . [SEP],Mosso:2,Mosso:2,1,Mosso:2,1,-4.99008
+[CLS] Community of Madrid shares border with Cuenca Province . [SEP],Cuenca Province,Cuenca Province,1,Cuenca Province,1,-5.53678
+[CLS] Oliana:2 shares border with Coll de Nargó:3 . [SEP],Coll de Nargó:3,Coll de Nargó:3,1,Coll de Nargó:3,1,-4.79205
+[CLS] Capriate:2 San Gervasio:4 shares border with Vaprio:3 d ' Adda:2 . [SEP],Vaprio:3 d ' Adda:2,Vaprio:3 d ' Adda:2,1,Vaprio:3 d ' Adda:2,1,-2.89082
+[CLS] Baricella:2 shares border with Molinella:3 . [SEP],Molinella:3,Molinella:3,1,Molinella:3,1,-2.97076
+[CLS] Guadalupe County shares border with Hays:2 County . [SEP],Hays:2 County,Hays:2 County,1,Hays:2 County,1,-3.46191
+[CLS] Pavia shares border with San Miguel . [SEP],San Miguel,San Miguel,1,San Miguel,1,-5.41410
+[CLS] Granvin:2 shares border with Kvam:2 . [SEP],Kvam:2,Kvam:2,1,Kvam:2,1,-6.29436
+[CLS] Macugnaga:4 shares border with Saas:2 - Almagell:3 . [SEP],Saas:2 - Almagell:3,Saas:2 - Almagell:3,1,Saas:2 - Almagell:3,1,-6.04829
+[CLS] Montebruno:3 shares border with Lorsica:2 . [SEP],Lorsica:2,Lorsica:2,1,Lorsica:2,1,-8.61890
+[CLS] Macerata:2 shares border with Pollenza:2 . [SEP],Pollenza:2,Pollenza:2,1,Pollenza:2,1,-4.10216
+[CLS] Aachen shares border with Herzogenrath:3 . [SEP],Herzogenrath:3,Herzogenrath:3,1,Herzogenrath:3,1,-2.25313
+[CLS] San Giorgio della Richinvelda:4 shares border with Cordenons:3 . [SEP],Cordenons:3,Cordenons:3,1,Cordenons:3,1,-7.76978
+[CLS] Lardirago:4 shares border with Bornasco:2 . [SEP],Bornasco:2,Bornasco:2,1,Bornasco:2,1,-13.55374
+[CLS] Santa Margherita di Staffora:2 shares border with Varzi:2 . [SEP],Varzi:2,Varzi:2,1,Varzi:2,1,-5.04644
+[CLS] Balingen:2 shares border with Meßstetten:4 . [SEP],Meßstetten:4,Meßstetten:4,1,Meßstetten:4,1,-1.94412
+[CLS] Bolbeno:3 shares border with Bleggio:3 Superiore . [SEP],Bleggio:3 Superiore,Bleggio:3 Superiore,1,Bleggio:3 Superiore,1,-4.75310
+[CLS] Region of Murcia shares border with Albacete Province . [SEP],Albacete Province,Albacete Province,1,Albacete Province,1,-2.65189
+[CLS] Madison County shares border with Limestone:3 County . [SEP],Limestone:3 County,Limestone:3 County,1,Limestone:3 County,1,-0.31573
+[CLS] Schoolcraft:2 County shares border with Alger County . [SEP],Alger County,Alger County,1,Alger County,1,-5.78838
+[CLS] Rocamadour:3 shares border with Gramat:2 . [SEP],Gramat:2,Gramat:2,1,Gramat:2,1,-8.15998
+[CLS] Novaledo:3 shares border with Roncegno:3 Terme . [SEP],Roncegno:3 Terme,Roncegno:3 Terme,1,Roncegno:3 Terme,1,-5.68727
+[CLS] Tacuarembó:4 Department shares border with Cerro Largo Department . [SEP],Cerro Largo Department,Cerro Largo Department,1,Cerro Largo Department,1,-1.75081
+[CLS] Birbhum:3 district shares border with Dumka:2 district . [SEP],Dumka:2 district,Dumka:2 district,1,Dumka:2 district,1,-5.22555
+[CLS] Castelletto:2 Merli:2 shares border with Moncalvo:3 . [SEP],Moncalvo:3,Moncalvo:3,1,Moncalvo:3,1,-3.52886
+[CLS] Szczecin Voivodeship shares border with Mecklenburg - Vorpommern . [SEP],Mecklenburg - Vorpommern,Mecklenburg - Vorpommern,1,Mecklenburg - Vorpommern,1,-0.11514
+[CLS] Lolo:2 shares border with Missoula:3 . [SEP],Missoula:3,Missoula:3,1,Missoula:3,1,-3.92238
+[CLS] Castelnuovo:3 di Ceva:2 shares border with Murialdo:3 . [SEP],Murialdo:3,Murialdo:3,1,Murialdo:3,1,-4.36140
+[CLS] Limerick shares border with Downtown Louisville . [SEP],Downtown Louisville,Downtown Louisville,1,Downtown Louisville,1,-7.48851
+[CLS] North Sumatra shares border with West Sumatra . [SEP],West Sumatra,West Sumatra,1,West Sumatra,1,-1.50796
+[CLS] Valstrona:3 shares border with Pieve:2 Vergonte:3 . [SEP],Pieve:2 Vergonte:3,Pieve:2 Vergonte:3,1,Pieve:2 Vergonte:3,1,-4.05017
+[CLS] Montecalvo:3 Versiggia:3 shares border with Montalto:3 Pavese:3 . [SEP],Montalto:3 Pavese:3,Montalto:3 Pavese:3,1,Montalto:3 Pavese:3,1,-0.52304
+[CLS] Lavertezzo:3 shares border with Brione:2 ( Verzasca:3 ) . [SEP],Brione:2 ( Verzasca:3 ),Brione:2 ( Verzasca:3 ),1,Brione:2 ( Verzasca:3 ),1,-3.28171
+[CLS] Simcoe:2 County shares border with Grey County . [SEP],Grey County,Grey County,1,Grey County,1,-4.22692
+[CLS] Nonantola:3 shares border with Bomporto:3 . [SEP],Bomporto:3,Bomporto:3,1,Bomporto:3,1,-3.84935
+[CLS] Kumamoto:3 Prefecture shares border with Fukuoka Prefecture . [SEP],Fukuoka Prefecture,Fukuoka Prefecture,1,Fukuoka Prefecture,1,-1.05168
+[CLS] Kriens:2 shares border with Littau:3 . [SEP],Littau:3,Littau:3,1,Littau:3,1,-3.35108
+[CLS] Frattaminore:4 shares border with Orta di Atella:2 . [SEP],Orta di Atella:2,Orta di Atella:2,1,Orta di Atella:2,1,-6.99906
+[CLS] Tovo:2 di Sant ' Agata:2 shares border with Mazzo:2 di Valtellina:3 . [SEP],Mazzo:2 di Valtellina:3,Mazzo:2 di Valtellina:3,1,Mazzo:2 di Valtellina:3,1,-2.33418
+[CLS] Odisha:2 shares border with Chhattisgarh:5 . [SEP],Chhattisgarh:5,Chhattisgarh:5,1,Chhattisgarh:5,1,-0.37398
+[CLS] New York shares border with Lower Canada . [SEP],Lower Canada,Lower Canada,1,Lower Canada,1,-1.92521
+[CLS] Heumen:2 shares border with Wijchen:3 . [SEP],Wijchen:3,Wijchen:3,1,Wijchen:3,1,-5.30506
+[CLS] Gandino:2 shares border with Ranzanico:3 . [SEP],Ranzanico:3,Ranzanico:3,1,Ranzanico:3,1,-5.29288
+[CLS] Palapag:3 shares border with Laoang:2 . [SEP],Laoang:2,Laoang:2,1,Laoang:2,1,-7.20511
+[CLS] Bacacay:3 shares border with Malilipot:3 . [SEP],Malilipot:3,Malilipot:3,1,Malilipot:3,1,-7.31469
+[CLS] Hitra:2 shares border with Frøya:2 . [SEP],Frøya:2,Frøya:2,1,Frøya:2,1,-5.98858
+[CLS] Norderney:3 shares border with Baltrum:2 . [SEP],Baltrum:2,Baltrum:2,1,Baltrum:2,1,-5.48967
+[CLS] Natore:2 District shares border with Bogra:2 District . [SEP],Bogra:2 District,Bogra:2 District,1,Bogra:2 District,1,-5.41819
+[CLS] Province of Frosinone:3 shares border with Province of L ' Aquila . [SEP],Province of L ' Aquila,Province of L ' Aquila,1,Province of L ' Aquila,1,-0.07384
+[CLS] Buronzo:3 shares border with Masserano:2 . [SEP],Masserano:2,Masserano:2,1,Masserano:2,1,-6.22597
+[CLS] Bad Tölz:3 - Wolfratshausen:3 shares border with Weilheim:2 - Schongau:2 . [SEP],Weilheim:2 - Schongau:2,Weilheim:2 - Schongau:2,1,Weilheim:2 - Schongau:2,1,-0.39226
+[CLS] Sør - Trøndelag shares border with Hedmark:2 . [SEP],Hedmark:2,Hedmark:2,1,Hedmark:2,1,-0.11773
+[CLS] Central Kalimantan shares border with East Kalimantan . [SEP],East Kalimantan,East Kalimantan,1,East Kalimantan,1,-1.44105
+[CLS] Hidalgo shares border with Tlaxcala:3 . [SEP],Tlaxcala:3,Tlaxcala:3,1,Tlaxcala:3,1,-0.05983
+[CLS] Grenoble shares border with Saint - Martin - d ' Hères:2 . [SEP],Saint - Martin - d ' Hères:2,Saint - Martin - d ' Hères:2,1,Saint - Martin - d ' Hères:2,1,-1.35356
+[CLS] Schivenoglia:4 shares border with Quistello:3 . [SEP],Quistello:3,Quistello:3,1,Quistello:3,1,-5.81848
+[CLS] Tabaco:3 shares border with Polangui:3 . [SEP],Polangui:3,Polangui:3,1,Polangui:3,1,-5.29369
+[CLS] San Giorgio in Bosco shares border with Fontaniva:3 . [SEP],Fontaniva:3,Fontaniva:3,1,Fontaniva:3,1,-4.52113
+[CLS] Badia:2 Polesine:2 shares border with Trecenta:3 . [SEP],Trecenta:3,Trecenta:3,1,Trecenta:3,1,-6.15106
+[CLS] Georgia shares border with North Carolina . [SEP],North Carolina,North Carolina,1,North Carolina,1,-3.09644
+[CLS] Cullompton:4 shares border with Willand:2 . [SEP],Willand:2,Willand:2,1,Willand:2,1,-7.43829
+[CLS] Valmadrera:3 shares border with Mandello:3 del Lario:2 . [SEP],Mandello:3 del Lario:2,Mandello:3 del Lario:2,1,Mandello:3 del Lario:2,1,-2.73501
+[CLS] Hunterdon:2 County shares border with Mercer County . [SEP],Mercer County,Mercer County,1,Mercer County,1,-3.25119
+"[CLS] Seui:2 shares border with Gairo:2 , Sardinia . [SEP]","Gairo:2 , Sardinia","Gairo:2 , Sardinia",1,"Gairo:2 , Sardinia",1,-6.28568
+[CLS] Castel Morrone:2 shares border with Capua:2 . [SEP],Capua:2,Capua:2,1,Capua:2,1,-2.19253
+[CLS] Quattordio:4 shares border with Felizzano:3 . [SEP],Felizzano:3,Felizzano:3,1,Felizzano:3,1,-4.47058
+[CLS] Ceriana:2 shares border with Taggia:2 . [SEP],Taggia:2,Taggia:2,1,Taggia:2,1,-7.37513
+[CLS] Scaldasole:4 shares border with Ferrera:2 Erbognone:4 . [SEP],Ferrera:2 Erbognone:4,Ferrera:2 Erbognone:4,1,Ferrera:2 Erbognone:4,1,-4.20278
+[CLS] Entre - Deux shares border with Le Tampon:2 . [SEP],Le Tampon:2,Le Tampon:2,1,Le Tampon:2,1,-3.17114
+[CLS] Avignon shares border with Sorgues:3 . [SEP],Sorgues:3,Sorgues:3,1,Sorgues:3,1,-2.12802
+[CLS] Calais shares border with Coquelles:3 . [SEP],Coquelles:3,Coquelles:3,1,Coquelles:3,1,-3.72055
+[CLS] Chhattisgarh:5 shares border with Uttar Pradesh . [SEP],Uttar Pradesh,Uttar Pradesh,1,Uttar Pradesh,1,-0.60232
+[CLS] Carcans:2 shares border with Lacanau:3 . [SEP],Lacanau:3,Lacanau:3,1,Lacanau:3,1,-5.85531
+"[CLS] Casella:2 , Italy shares border with Montoggio:3 . [SEP]",Montoggio:3,Montoggio:3,1,Montoggio:3,1,-3.47734
+[CLS] Alatri:2 shares border with Veroli:2 . [SEP],Veroli:2,Veroli:2,1,Veroli:2,1,-6.67443
+[CLS] Staffordshire shares border with Worcestershire:2 . [SEP],Worcestershire:2,Worcestershire:2,1,Worcestershire:2,1,-1.45575
+[CLS] Elvas:2 shares border with Monforte:2 . [SEP],Monforte:2,Monforte:2,1,Monforte:2,1,-2.18727
+[CLS] Prato shares border with Calenzano:3 . [SEP],Calenzano:3,Calenzano:3,1,Calenzano:3,1,-2.74188
+[CLS] Halifax shares border with Lunenburg:2 County . [SEP],Lunenburg:2 County,Lunenburg:2 County,1,Lunenburg:2 County,1,-2.34493
+[CLS] Cabo Rojo shares border with Lajas:2 . [SEP],Lajas:2,Lajas:2,1,Lajas:2,1,-8.37028
+[CLS] Saint - Paul - sur - Ubaye:3 shares border with Bellino:2 . [SEP],Bellino:2,Bellino:2,1,Bellino:2,1,-5.66217
+[CLS] Cavalese:3 shares border with Tesero:2 . [SEP],Tesero:2,Tesero:2,1,Tesero:2,1,-7.10856
+[CLS] Holladay:3 shares border with Cottonwood:2 Heights . [SEP],Cottonwood:2 Heights,Cottonwood:2 Heights,1,Cottonwood:2 Heights,1,-5.02796
+[CLS] Upper Normandy shares border with Picardy:2 . [SEP],Picardy:2,Picardy:2,1,Picardy:2,1,-0.38720
+[CLS] Villastellone:3 shares border with Carignano:3 . [SEP],Carignano:3,Carignano:3,1,Carignano:3,1,-1.78413
+[CLS] Skiptvet:3 shares border with Rakkestad:3 . [SEP],Rakkestad:3,Rakkestad:3,1,Rakkestad:3,1,-2.20687
+[CLS] Casalnoceto:3 shares border with Viguzzolo:4 . [SEP],Viguzzolo:4,Viguzzolo:4,1,Viguzzolo:4,1,-3.70760
+[CLS] Bandung shares border with West Bandung . [SEP],West Bandung,West Bandung,1,West Bandung,1,-2.35659
+[CLS] Brivio:3 shares border with Olgiate:3 Molgora:2 . [SEP],Olgiate:3 Molgora:2,Olgiate:3 Molgora:2,1,Olgiate:3 Molgora:2,1,-7.94325
+[CLS] Ford County shares border with Champaign:3 County . [SEP],Champaign:3 County,Champaign:3 County,1,Champaign:3 County,1,-0.28453
+[CLS] Monreale:3 shares border with Corleone:3 . [SEP],Corleone:3,Corleone:3,1,Corleone:3,1,-1.32273
+[CLS] Cremona shares border with Castelverde:2 . [SEP],Castelverde:2,Castelverde:2,1,Castelverde:2,1,-2.89307
+[CLS] Ubon:2 Ratchathani:3 shares border with Amnat:2 Charoen:2 . [SEP],Amnat:2 Charoen:2,Amnat:2 Charoen:2,1,Amnat:2 Charoen:2,1,-7.41265
+[CLS] Vaikom:2 shares border with Udayamperoor:5 . [SEP],Udayamperoor:5,Udayamperoor:5,1,Udayamperoor:5,1,-5.49849
+[CLS] Caldarola:3 shares border with Camerino:2 . [SEP],Camerino:2,Camerino:2,1,Camerino:2,1,-3.26460
+[CLS] Cereseto:3 shares border with Pontestura:3 . [SEP],Pontestura:3,Pontestura:3,1,Pontestura:3,1,-5.20871
+[CLS] KwaZulu:3 - Natal shares border with Eastern Cape . [SEP],Eastern Cape,Eastern Cape,1,Eastern Cape,1,-2.11690
+[CLS] Perdasdefogu:5 shares border with Ulassai:3 . [SEP],Ulassai:3,Ulassai:3,1,Ulassai:3,1,-5.77136
+[CLS] Leiden shares border with Teylingen:3 . [SEP],Teylingen:3,Teylingen:3,1,Teylingen:3,1,-5.47148
+[CLS] Pembrokeshire:2 shares border with Ceredigion:3 . [SEP],Ceredigion:3,Ceredigion:3,1,Ceredigion:3,1,-0.01649
+[CLS] Sullivan County shares border with Lycoming:3 County . [SEP],Lycoming:3 County,Lycoming:3 County,1,Lycoming:3 County,1,-0.39498
+[CLS] Aamjiwnaang:5 First Nation shares border with Sarnia:2 . [SEP],Sarnia:2,Sarnia:2,1,Sarnia:2,1,-7.07831
+[CLS] Vastogirardi:4 shares border with Capracotta:3 . [SEP],Capracotta:3,Capracotta:3,1,Capracotta:3,1,-6.29062
+[CLS] Lendinara:3 shares border with Fratta:2 Polesine:2 . [SEP],Fratta:2 Polesine:2,Fratta:2 Polesine:2,1,Fratta:2 Polesine:2,1,-3.05665
+[CLS] Cusano:2 Mutri:2 shares border with Faicchio:3 . [SEP],Faicchio:3,Faicchio:3,1,Faicchio:3,1,-4.78305
+[CLS] Narail:2 District shares border with Faridpur:3 District . [SEP],Faridpur:3 District,Faridpur:3 District,1,Faridpur:3 District,1,-2.52230
+[CLS] Garland County shares border with Hot Spring County . [SEP],Hot Spring County,Hot Spring County,1,Hot Spring County,1,-3.55839
+[CLS] Lyon shares border with Écully:3 . [SEP],Écully:3,Écully:3,1,Écully:3,1,-4.37271
+[CLS] Chelan:2 County shares border with Snohomish:4 County . [SEP],Snohomish:4 County,Snohomish:4 County,1,Snohomish:4 County,1,-0.62263
+[CLS] Meudon:3 shares border with Boulogne - Billancourt:3 . [SEP],Boulogne - Billancourt:3,Boulogne - Billancourt:3,1,Boulogne - Billancourt:3,1,-0.01384
+[CLS] European Union shares border with North Macedonia . [SEP],North Macedonia,North Macedonia,1,North Macedonia,1,-8.04570
+[CLS] Porsgrunn:4 shares border with Skien:2 . [SEP],Skien:2,Skien:2,1,Skien:2,1,-2.65094
+[CLS] Sichuan shares border with Gansu:2 . [SEP],Gansu:2,Gansu:2,1,Gansu:2,1,-0.32303
+[CLS] Piedmont shares border with Emilia - Romagna . [SEP],Emilia - Romagna,Emilia - Romagna,1,Emilia - Romagna,1,-0.01005
+[CLS] La Libertad shares border with Huanuco:3 . [SEP],Huanuco:3,Huanuco:3,1,Huanuco:3,1,-4.52188
+[CLS] Great Bentley shares border with Frating:2 . [SEP],Frating:2,Frating:2,1,Frating:2,1,-8.80243
+[CLS] Taurianova:3 shares border with Oppido:2 Mamertina:3 . [SEP],Oppido:2 Mamertina:3,Oppido:2 Mamertina:3,1,Oppido:2 Mamertina:3,1,-3.11287
+[CLS] Carpineto:3 Romano shares border with Supino:2 . [SEP],Supino:2,Supino:2,1,Supino:2,1,-8.47269
+[CLS] Glaslyn:2 shares border with North Battleford:2 . [SEP],North Battleford:2,North Battleford:2,1,North Battleford:2,1,-3.81818
+[CLS] Ixelles:3 shares border with Uccle:3 . [SEP],Uccle:3,Uccle:3,1,Uccle:3,1,-0.67762
+"[CLS] Rabbi , Trentino shares border with Ulten:2 . [SEP]",Ulten:2,Ulten:2,1,Ulten:2,1,-6.98100
+[CLS] Aulla:2 shares border with Bolano:2 . [SEP],Bolano:2,Bolano:2,1,Bolano:2,1,-6.18689
+[CLS] Les Contamines:3 - Montjoie:3 shares border with Courmayeur:3 . [SEP],Courmayeur:3,Courmayeur:3,1,Courmayeur:3,1,-0.55534
+[CLS] Monte Cavallo:3 shares border with Serravalle:2 di Chienti:2 . [SEP],Serravalle:2 di Chienti:2,Serravalle:2 di Chienti:2,1,Serravalle:2 di Chienti:2,1,-3.18809
+[CLS] Saint - André - d ' Argenteuil:3 shares border with Lachute:3 . [SEP],Lachute:3,Lachute:3,1,Lachute:3,1,-6.59813
+[CLS] Mauricie:3 shares border with Laurentides:2 . [SEP],Laurentides:2,Laurentides:2,1,Laurentides:2,1,-2.52250
+[CLS] Rimini shares border with Riccione:2 . [SEP],Riccione:2,Riccione:2,1,Riccione:2,1,-2.41641
+[CLS] Lipetsk:3 Oblast shares border with Oryol:3 Oblast . [SEP],Oryol:3 Oblast,Oryol:3 Oblast,1,Oryol:3 Oblast,1,-1.94721
+[CLS] Sassofeltrio:4 shares border with Chiesanuova:3 . [SEP],Chiesanuova:3,Chiesanuova:3,1,Chiesanuova:3,1,-1.79997
+[CLS] Cavour:2 shares border with Bagnolo:3 Piemonte . [SEP],Bagnolo:3 Piemonte,Bagnolo:3 Piemonte,1,Bagnolo:3 Piemonte,1,-2.40259
+[CLS] Vobbia:2 shares border with Isola del Cantone:2 . [SEP],Isola del Cantone:2,Isola del Cantone:2,1,Isola del Cantone:2,1,-3.15531
+[CLS] Steinkjer:2 shares border with Grong:2 . [SEP],Grong:2,Grong:2,1,Grong:2,1,-6.11178
+[CLS] Odessa shares border with Chornomorsk:4 . [SEP],Chornomorsk:4,Chornomorsk:4,1,Chornomorsk:4,1,-2.65965
+[CLS] Kaysville:2 shares border with Layton:2 . [SEP],Layton:2,Layton:2,1,Layton:2,1,-5.09881
+[CLS] Eidsvoll:3 shares border with Ullensaker:4 . [SEP],Ullensaker:4,Ullensaker:4,1,Ullensaker:4,1,-0.37636
+[CLS] San Isidro shares border with Kapalong:3 . [SEP],Kapalong:3,Kapalong:3,1,Kapalong:3,1,-4.66858
+[CLS] Revine:2 Lago shares border with Cison:2 di Valmarino:2 . [SEP],Cison:2 di Valmarino:2,Cison:2 di Valmarino:2,1,Cison:2 di Valmarino:2,1,-5.45264
+[CLS] Reggio Calabria shares border with Villa San Giovanni . [SEP],Villa San Giovanni,Villa San Giovanni,1,Villa San Giovanni,1,-2.86675
+[CLS] Manistee:3 County shares border with Benzie:2 County . [SEP],Benzie:2 County,Benzie:2 County,1,Benzie:2 County,1,-3.31635
+[CLS] Nysa:2 County shares border with Prudnik:3 County . [SEP],Prudnik:3 County,Prudnik:3 County,1,Prudnik:3 County,1,-1.82226
+[CLS] Cesate:2 shares border with Caronno:2 Pertusella:3 . [SEP],Caronno:2 Pertusella:3,Caronno:2 Pertusella:3,1,Caronno:2 Pertusella:3,1,-5.58000
+[CLS] Busso:2 shares border with Campobasso:3 . [SEP],Campobasso:3,Campobasso:3,1,Campobasso:3,1,-2.23202
+[CLS] Filottrano:3 shares border with Cingoli:3 . [SEP],Cingoli:3,Cingoli:3,1,Cingoli:3,1,-2.92821
+[CLS] Genk:2 shares border with Zonhoven:3 . [SEP],Zonhoven:3,Zonhoven:3,1,Zonhoven:3,1,-2.80207
+[CLS] Lazio shares border with Umbria:2 . [SEP],Umbria:2,Umbria:2,1,Umbria:2,1,-0.02008
+[CLS] Mansuè:3 shares border with Oderzo:2 . [SEP],Oderzo:2,Oderzo:2,1,Oderzo:2,1,-5.71902
+[CLS] Roccaforte:2 del Greco shares border with Reggio Calabria . [SEP],Reggio Calabria,Reggio Calabria,1,Reggio Calabria,1,-0.25477
+[CLS] Vik:2 shares border with Balestrand:3 . [SEP],Balestrand:3,Balestrand:3,1,Balestrand:3,1,-3.75077
+[CLS] Buenos Aires shares border with Province of Buenos Aires . [SEP],Province of Buenos Aires,Province of Buenos Aires,1,Province of Buenos Aires,1,-0.37033
+[CLS] Dürrröhrsdorf:5 - Dittersbach:3 shares border with Stolpen:3 . [SEP],Stolpen:3,Stolpen:3,1,Stolpen:3,1,-2.35701
+[CLS] Horwich:3 shares border with Rivington:3 . [SEP],Rivington:3,Rivington:3,1,Rivington:3,1,-1.54309
+[CLS] Auderghem:3 shares border with Woluwe:3 - Saint - Pierre . [SEP],Woluwe:3 - Saint - Pierre,Woluwe:3 - Saint - Pierre,1,Woluwe:3 - Saint - Pierre,1,-0.94627
+[CLS] Great Bookham:2 shares border with Fetcham:3 . [SEP],Fetcham:3,Fetcham:3,1,Fetcham:3,1,-6.39925
+[CLS] Waldviertel:2 shares border with Mostviertel:2 . [SEP],Mostviertel:2,Mostviertel:2,1,Mostviertel:2,1,-4.85433
+[CLS] Tito shares border with Satriano:3 di Lucania:2 . [SEP],Satriano:3 di Lucania:2,Satriano:3 di Lucania:2,1,Satriano:3 di Lucania:2,1,-2.14500
+[CLS] Fermo:2 shares border with Mogliano:3 . [SEP],Mogliano:3,Mogliano:3,1,Mogliano:3,1,-2.96877
+[CLS] Montezuma:2 County shares border with San Juan County . [SEP],San Juan County,San Juan County,1,San Juan County,1,-1.24545
+[CLS] Ucria:3 shares border with Sinagra:2 . [SEP],Sinagra:2,Sinagra:2,1,Sinagra:2,1,-7.64892
+[CLS] Sambuca:3 di Sicilia shares border with Menfi:2 . [SEP],Menfi:2,Menfi:2,1,Menfi:2,1,-5.90099
+[CLS] Zaragoza shares border with Tauste:2 . [SEP],Tauste:2,Tauste:2,1,Tauste:2,1,-8.36410
+[CLS] Khon:2 Kaen:2 shares border with Maha Sarakham:3 . [SEP],Maha Sarakham:3,Maha Sarakham:3,1,Maha Sarakham:3,1,-5.68317
+[CLS] Staten Island shares border with Middlesex County . [SEP],Middlesex County,Middlesex County,1,Middlesex County,1,-3.34684
+[CLS] Fondo shares border with Sarnonico:3 . [SEP],Sarnonico:3,Sarnonico:3,1,Sarnonico:3,1,-6.57270
+[CLS] Vaiano:2 shares border with Calenzano:3 . [SEP],Calenzano:3,Calenzano:3,1,Calenzano:3,1,-2.67006
+[CLS] Northern Province shares border with Muchinga:2 Province . [SEP],Muchinga:2 Province,Muchinga:2 Province,1,Muchinga:2 Province,1,-4.23993
+[CLS] Nesseby:2 shares border with Tana:2 . [SEP],Tana:2,Tana:2,1,Tana:2,1,-4.57604
+[CLS] Castione:2 Andevenno:3 shares border with Torre di Santa Maria . [SEP],Torre di Santa Maria,Torre di Santa Maria,1,Torre di Santa Maria,1,-1.47982
+[CLS] Thoothukudi:5 district shares border with Tirunelveli:4 district . [SEP],Tirunelveli:4 district,Tirunelveli:4 district,1,Tirunelveli:4 district,1,-0.46365
+[CLS] Sonitpur:3 district shares border with East Kameng:2 district . [SEP],East Kameng:2 district,East Kameng:2 district,1,East Kameng:2 district,1,-4.85967
+[CLS] Lomagna:2 shares border with Osnago:3 . [SEP],Osnago:3,Osnago:3,1,Osnago:3,1,-5.25993
+[CLS] Alice Bel Colle shares border with Fontanile:3 . [SEP],Fontanile:3,Fontanile:3,1,Fontanile:3,1,-2.71991
+[CLS] Hattfjelldal:5 shares border with Vefsn:3 . [SEP],Vefsn:3,Vefsn:3,1,Vefsn:3,1,-2.42273
+[CLS] Fontanafredda:3 shares border with Sacile:2 . [SEP],Sacile:2,Sacile:2,1,Sacile:2,1,-5.24193
+[CLS] Ceriale:3 shares border with Toirano:3 . [SEP],Toirano:3,Toirano:3,1,Toirano:3,1,-5.18546
+[CLS] Casalromano:4 shares border with Asola:2 . [SEP],Asola:2,Asola:2,1,Asola:2,1,-6.23891
+[CLS] Turrillas:3 shares border with Tabernas:3 . [SEP],Tabernas:3,Tabernas:3,1,Tabernas:3,1,-2.87122
+[CLS] Hof van Twente shares border with Rijssen:3 - Holten:2 . [SEP],Rijssen:3 - Holten:2,Rijssen:3 - Holten:2,1,Rijssen:3 - Holten:2,1,-2.68110
+[CLS] Sha Tin District shares border with Sai Kung District . [SEP],Sai Kung District,Sai Kung District,1,Sai Kung District,1,-4.40877
+[CLS] Trinity County shares border with Siskiyou:4 County . [SEP],Siskiyou:4 County,Siskiyou:4 County,1,Siskiyou:4 County,1,-1.79356
+[CLS] Tynset:3 shares border with Folldal:3 . [SEP],Folldal:3,Folldal:3,1,Folldal:3,1,-3.84963
+[CLS] Piantedo:3 shares border with Gera Lario:2 . [SEP],Gera Lario:2,Gera Lario:2,1,Gera Lario:2,1,-8.56890
+[CLS] Mook:2 en Middelaar:3 shares border with Heumen:2 . [SEP],Heumen:2,Heumen:2,1,Heumen:2,1,-8.67943
+[CLS] Lisciano:3 Niccone:3 shares border with Umbertide:3 . [SEP],Umbertide:3,Umbertide:3,1,Umbertide:3,1,-5.45617
+[CLS] Fidenza:2 shares border with Busseto:3 . [SEP],Busseto:3,Busseto:3,1,Busseto:3,1,-1.43186
+[CLS] Maggiora:3 shares border with Valduggia:3 . [SEP],Valduggia:3,Valduggia:3,1,Valduggia:3,1,-5.94917
+[CLS] Vasastaden:2 shares border with Norrmalm:3 . [SEP],Norrmalm:3,Norrmalm:3,1,Norrmalm:3,1,-0.60526
+[CLS] Trivero:2 shares border with Strona:2 . [SEP],Strona:2,Strona:2,1,Strona:2,1,-8.20174
+[CLS] Molveno:2 shares border with Tuenno:3 . [SEP],Tuenno:3,Tuenno:3,1,Tuenno:3,1,-6.46413
+[CLS] Centa:2 San Nicolò:2 shares border with Besenello:3 . [SEP],Besenello:3,Besenello:3,1,Besenello:3,1,-6.47140
+[CLS] Caccamo:3 shares border with Trabia:2 . [SEP],Trabia:2,Trabia:2,1,Trabia:2,1,-8.37969
+[CLS] place d ' Italie shares border with boulevard de l ' Hôpital:3 . [SEP],boulevard de l ' Hôpital:3,boulevard de l ' Hôpital:3,1,boulevard de l ' Hôpital:3,1,-1.64900
+[CLS] Hulme:2 shares border with Manchester city centre . [SEP],Manchester city centre,Manchester city centre,1,Manchester city centre,1,-1.56438
+[CLS] Caldiero:3 shares border with Zevio:2 . [SEP],Zevio:2,Zevio:2,1,Zevio:2,1,-7.49777
+[CLS] Bagaladi:3 shares border with Roccaforte:2 del Greco . [SEP],Roccaforte:2 del Greco,Roccaforte:2 del Greco,1,Roccaforte:2 del Greco,1,-3.88981
+[CLS] Dhamar:3 Governorate:2 shares border with Al Hudaydah:3 Governorate:2 . [SEP],Al Hudaydah:3 Governorate:2,Al Hudaydah:3 Governorate:2,1,Al Hudaydah:3 Governorate:2,1,-3.37496
+[CLS] Godiasco:3 shares border with Rivanazzano:3 Terme . [SEP],Rivanazzano:3 Terme,Rivanazzano:3 Terme,1,Rivanazzano:3 Terme,1,-6.19559
+[CLS] Vall d ' Albaida:2 shares border with Costera:2 . [SEP],Costera:2,Costera:2,1,Costera:2,1,-5.53584
+[CLS] Perth County shares border with Regional Municipality of Waterloo . [SEP],Regional Municipality of Waterloo,Regional Municipality of Waterloo,1,Regional Municipality of Waterloo,1,-6.48376
+[CLS] Mississippi County shares border with Pemiscot:3 County . [SEP],Pemiscot:3 County,Pemiscot:3 County,1,Pemiscot:3 County,1,-3.60652
+[CLS] Montecalvo:3 in Foglia:3 shares border with Tavullia:3 . [SEP],Tavullia:3,Tavullia:3,1,Tavullia:3,1,-7.56866
+[CLS] Vrhaveč:3 shares border with Klatovy:3 . [SEP],Klatovy:3,Klatovy:3,1,Klatovy:3,1,-2.14206
+[CLS] Province of Buenos Aires shares border with La Pampa . [SEP],La Pampa,La Pampa,1,La Pampa,1,-2.93378
+[CLS] Helmetta:2 shares border with East Brunswick . [SEP],East Brunswick,East Brunswick,1,East Brunswick,1,-6.65506
+[CLS] Cercola:3 shares border with Pollena:2 Trocchia:3 . [SEP],Pollena:2 Trocchia:3,Pollena:2 Trocchia:3,1,Pollena:2 Trocchia:3,1,-3.67379
+[CLS] Amstelveen:3 shares border with Ouder:2 - Amstel:2 . [SEP],Ouder:2 - Amstel:2,Ouder:2 - Amstel:2,1,Ouder:2 - Amstel:2,1,-0.86447
+[CLS] Crosa:2 shares border with Strona:2 . [SEP],Strona:2,Strona:2,1,Strona:2,1,-7.67900
+[CLS] Province of Teramo:2 shares border with Province of Pescara . [SEP],Province of Pescara,Province of Pescara,1,Province of Pescara,1,-1.68414
+[CLS] Transacqua:3 shares border with Siror:2 . [SEP],Siror:2,Siror:2,1,Siror:2,1,-7.20135
+"[CLS] Milo , Sicily shares border with Giarre:2 . [SEP]",Giarre:2,Giarre:2,1,Giarre:2,1,-5.89493
+[CLS] Barile:2 shares border with Ginestra:3 . [SEP],Ginestra:3,Ginestra:3,1,Ginestra:3,1,-2.55150
+[CLS] Bieno:2 shares border with Strigno:3 . [SEP],Strigno:3,Strigno:3,1,Strigno:3,1,-4.47009
+[CLS] Feltre:2 shares border with Cesiomaggiore:5 . [SEP],Cesiomaggiore:5,Cesiomaggiore:5,1,Cesiomaggiore:5,1,-3.36708
+[CLS] Minsk Region shares border with Gomel:2 Region . [SEP],Gomel:2 Region,Gomel:2 Region,1,Gomel:2 Region,1,-4.24924
+[CLS] Acquanegra:5 sul Chiese:2 shares border with Bozzolo:3 . [SEP],Bozzolo:3,Bozzolo:3,1,Bozzolo:3,1,-2.78395
+[CLS] King William County shares border with New Kent County . [SEP],New Kent County,New Kent County,1,New Kent County,1,-3.66042
+[CLS] Northeast Greenland National Park shares border with Qaasuitsup:5 . [SEP],Qaasuitsup:5,Qaasuitsup:5,1,Qaasuitsup:5,1,-1.67192
+[CLS] Mono County shares border with Tuolumne:3 County . [SEP],Tuolumne:3 County,Tuolumne:3 County,1,Tuolumne:3 County,1,-0.64347
+[CLS] Kaluga:3 Oblast shares border with Moscow Oblast . [SEP],Moscow Oblast,Moscow Oblast,1,Moscow Oblast,1,-1.08263
+[CLS] Ajangiz:3 ( municipality ) shares border with Gernika:3 . [SEP],Gernika:3,Gernika:3,1,Gernika:3,1,-4.45912
+[CLS] Quảng Nam shares border with Da Nang:2 . [SEP],Da Nang:2,Da Nang:2,1,Da Nang:2,1,-2.45568
+[CLS] Kadavanthra:3 shares border with Kathrikadavu:4 . [SEP],Kathrikadavu:4,Kathrikadavu:4,1,Kathrikadavu:4,1,-5.02984
+[CLS] West Kirby shares border with Hoylake:2 . [SEP],Hoylake:2,Hoylake:2,1,Hoylake:2,1,-6.61017
+[CLS] Castelmola:3 shares border with Taormina:3 . [SEP],Taormina:3,Taormina:3,1,Taormina:3,1,-0.86785
+[CLS] Hiesville:2 shares border with Sainte - Marie - du - Mont . [SEP],Sainte - Marie - du - Mont,Sainte - Marie - du - Mont,1,Sainte - Marie - du - Mont,1,-0.90064
+[CLS] Silvano:2 Pietra:2 shares border with Casei:2 Gerola:3 . [SEP],Casei:2 Gerola:3,Casei:2 Gerola:3,1,Casei:2 Gerola:3,1,-4.41810
+[CLS] Zubieta:2 shares border with Ituren:2 . [SEP],Ituren:2,Ituren:2,1,Ituren:2,1,-8.30729
+[CLS] Lodi Vecchio shares border with San Zenone:2 al Lambro:2 . [SEP],San Zenone:2 al Lambro:2,San Zenone:2 al Lambro:2,1,San Zenone:2 al Lambro:2,1,-3.33685
+"[CLS] Pratapgarh:4 , Uttar Pradesh shares border with Prayagraj:4 division . [SEP]",Prayagraj:4 division,Prayagraj:4 division,1,Prayagraj:4 division,1,-4.31428
+[CLS] Fisher County shares border with Nolan County . [SEP],Nolan County,Nolan County,1,Nolan County,1,-4.11738
+[CLS] Bueng:2 Kan shares border with Nong:2 Khai:2 . [SEP],Nong:2 Khai:2,Nong:2 Khai:2,1,Nong:2 Khai:2,1,-2.02896
+[CLS] New York shares border with New Jersey . [SEP],New Jersey,New Jersey,1,New Jersey,1,-1.31392
+[CLS] Gmina Ciasna:3 shares border with Gmina Kochanowice:3 . [SEP],Gmina Kochanowice:3,Gmina Kochanowice:3,1,Gmina Kochanowice:3,1,-1.68462
+[CLS] Phitsanulok:4 shares border with Phetchabun:4 . [SEP],Phetchabun:4,Phetchabun:4,1,Phetchabun:4,1,-3.75405
+[CLS] Lampang:2 shares border with Phrae:2 . [SEP],Phrae:2,Phrae:2,1,Phrae:2,1,-8.00868
+[CLS] Rocca d ' Arazzo:2 shares border with Rocchetta:3 Tanaro:2 . [SEP],Rocchetta:3 Tanaro:2,Rocchetta:3 Tanaro:2,1,Rocchetta:3 Tanaro:2,1,-1.48877
+[CLS] Kowloon:3 shares border with New Territories . [SEP],New Territories,New Territories,1,New Territories,1,-3.91318
+[CLS] Ål:2 shares border with Hol:2 . [SEP],Hol:2,Hol:2,1,Hol:2,1,-3.18184
+[CLS] Amorosi:2 shares border with Telese:2 Terme . [SEP],Telese:2 Terme,Telese:2 Terme,1,Telese:2 Terme,1,-5.70570
+[CLS] Buri:2 Ram shares border with Surin:2 . [SEP],Surin:2,Surin:2,1,Surin:2,1,-4.63655
+[CLS] Kyōto:3 Prefecture shares border with Nara Prefecture . [SEP],Nara Prefecture,Nara Prefecture,1,Nara Prefecture,1,-2.02352
+[CLS] Tombolo:2 shares border with Galliera:2 Veneta:2 . [SEP],Galliera:2 Veneta:2,Galliera:2 Veneta:2,1,Galliera:2 Veneta:2,1,-3.32697
+[CLS] Guinobatan:4 shares border with Jovellar:3 . [SEP],Jovellar:3,Jovellar:3,1,Jovellar:3,1,-6.21278
+[CLS] Castelfranco:2 Veneto shares border with Loreggia:3 . [SEP],Loreggia:3,Loreggia:3,1,Loreggia:3,1,-3.69719
+[CLS] Carmona:2 shares border with Seville:2 . [SEP],Seville:2,Seville:2,1,Seville:2,1,-3.13476
+[CLS] Pals:2 shares border with Begur:2 . [SEP],Begur:2,Begur:2,1,Begur:2,1,-7.54830
+[CLS] Leerdam:3 shares border with Geldermalsen:4 . [SEP],Geldermalsen:4,Geldermalsen:4,1,Geldermalsen:4,1,-1.81111
+[CLS] Emmaboda:3 Municipality shares border with Karlskrona:2 Municipality . [SEP],Karlskrona:2 Municipality,Karlskrona:2 Municipality,1,Karlskrona:2 Municipality,1,-1.67382
+[CLS] Madaripur:3 District shares border with Faridpur:3 District . [SEP],Faridpur:3 District,Faridpur:3 District,1,Faridpur:3 District,1,-2.25163
+[CLS] Torre Orsaia:3 shares border with Roccagloriosa:4 . [SEP],Roccagloriosa:4,Roccagloriosa:4,1,Roccagloriosa:4,1,-9.31991
+[CLS] Masi:2 Torello:2 shares border with Portomaggiore:4 . [SEP],Portomaggiore:4,Portomaggiore:4,1,Portomaggiore:4,1,-1.57079
+[CLS] Ligosullo:3 shares border with Paluzza:3 . [SEP],Paluzza:3,Paluzza:3,1,Paluzza:3,1,-3.64502
+[CLS] Nule:2 shares border with Pattada:2 . [SEP],Pattada:2,Pattada:2,1,Pattada:2,1,-8.36319
+[CLS] Nurallao:3 shares border with Isili:2 . [SEP],Isili:2,Isili:2,1,Isili:2,1,-6.34498
+[CLS] Liège shares border with Flemish:3 Brabant . [SEP],Flemish:3 Brabant,Flemish:3 Brabant,1,Flemish:3 Brabant,1,-0.56750
+[CLS] South Swindon:3 shares border with North Swindon:3 . [SEP],North Swindon:3,North Swindon:3,1,North Swindon:3,1,-0.21735
+[CLS] Lyngdal:3 shares border with Audnedal:3 . [SEP],Audnedal:3,Audnedal:3,1,Audnedal:3,1,-4.55737
+[CLS] Athens shares border with Zografou:3 . [SEP],Zografou:3,Zografou:3,1,Zografou:3,1,-5.55071
+[CLS] Andreis:2 shares border with Montereale:3 Valcellina:3 . [SEP],Montereale:3 Valcellina:3,Montereale:3 Valcellina:3,1,Montereale:3 Valcellina:3,1,-4.51086
+[CLS] Merriam shares border with Overland:2 Park . [SEP],Overland:2 Park,Overland:2 Park,1,Overland:2 Park,1,-4.10642
+[CLS] Midsund:2 shares border with Aukra:2 . [SEP],Aukra:2,Aukra:2,1,Aukra:2,1,-7.07260
+[CLS] Lakshmipur:4 District shares border with Chandpur:3 District . [SEP],Chandpur:3 District,Chandpur:3 District,1,Chandpur:3 District,1,-0.98042
+[CLS] Prince William County shares border with Stafford County . [SEP],Stafford County,Stafford County,1,Stafford County,1,-2.97292
+[CLS] Turnhout:2 shares border with Vosselaar:3 . [SEP],Vosselaar:3,Vosselaar:3,1,Vosselaar:3,1,-2.55735
+[CLS] Terrebonne:3 shares border with Mascouche:3 . [SEP],Mascouche:3,Mascouche:3,1,Mascouche:3,1,-5.02592
+[CLS] Callabiana:3 shares border with Bioglio:2 . [SEP],Bioglio:2,Bioglio:2,1,Bioglio:2,1,-10.44214
+[CLS] Watford:2 shares border with Bushey:2 . [SEP],Bushey:2,Bushey:2,1,Bushey:2,1,-6.23805
+[CLS] Kartuzy:3 County shares border with Gdynia:2 . [SEP],Gdynia:2,Gdynia:2,1,Gdynia:2,1,-0.66129
+[CLS] Hopewell:2 Township shares border with Hopewell:2 . [SEP],Hopewell:2,Hopewell:2,1,Hopewell:2,1,-0.26388
+[CLS] Alicante shares border with Sant Joan d ' Alacant:2 . [SEP],Sant Joan d ' Alacant:2,Sant Joan d ' Alacant:2,1,Sant Joan d ' Alacant:2,1,-0.70083
+[CLS] Gmina Bircza:2 shares border with Gmina Dubiecko:3 . [SEP],Gmina Dubiecko:3,Gmina Dubiecko:3,1,Gmina Dubiecko:3,1,-3.09435
+[CLS] Avers:2 shares border with Piuro:2 . [SEP],Piuro:2,Piuro:2,1,Piuro:2,1,-9.09131
+[CLS] Franklin County shares border with Washington County . [SEP],Washington County,Washington County,1,Washington County,1,-2.69592
+[CLS] Rasen:2 - Antholz:2 shares border with Bruneck:2 . [SEP],Bruneck:2,Bruneck:2,1,Bruneck:2,1,-6.04035
+[CLS] Zafferana:3 Etnea:2 shares border with Aci:2 Sant ' Antonio . [SEP],Aci:2 Sant ' Antonio,Aci:2 Sant ' Antonio,1,Aci:2 Sant ' Antonio,1,-3.73497
+[CLS] Papendrecht:3 shares border with Zwijndrecht:5 . [SEP],Zwijndrecht:5,Zwijndrecht:5,1,Zwijndrecht:5,1,-0.50646
+[CLS] Serravalle:2 di Chienti:2 shares border with Foligno:3 . [SEP],Foligno:3,Foligno:3,1,Foligno:3,1,-2.27211
+[CLS] Paroldo:3 shares border with Ceva:2 . [SEP],Ceva:2,Ceva:2,1,Ceva:2,1,-5.93108
+"[CLS] Riola:2 Sardo:2 shares border with Cabras:2 , Sardinia . [SEP]","Cabras:2 , Sardinia","Cabras:2 , Sardinia",1,"Cabras:2 , Sardinia",1,-6.50425
+[CLS] Narvik:2 shares border with Ballangen:2 . [SEP],Ballangen:2,Ballangen:2,1,Ballangen:2,1,-1.70982
+[CLS] Apricale:3 shares border with Perinaldo:3 . [SEP],Perinaldo:3,Perinaldo:3,1,Perinaldo:3,1,-5.66524
+[CLS] Vallelunga:3 Pratameno:2 shares border with Polizzi:3 Generosa:2 . [SEP],Polizzi:3 Generosa:2,Polizzi:3 Generosa:2,1,Polizzi:3 Generosa:2,1,-4.19019
+[CLS] Bonorva:2 shares border with Bolotana:3 . [SEP],Bolotana:3,Bolotana:3,1,Bolotana:3,1,-5.19372
+[CLS] Segariu:2 shares border with Guasila:3 . [SEP],Guasila:3,Guasila:3,1,Guasila:3,1,-5.02970
+[CLS] Crodo:3 shares border with Crevoladossola:5 . [SEP],Crevoladossola:5,Crevoladossola:5,1,Crevoladossola:5,1,-3.98510
+[CLS] Imbabura:3 Province shares border with Carchi:2 Province . [SEP],Carchi:2 Province,Carchi:2 Province,1,Carchi:2 Province,1,-5.19274
+[CLS] Bavaria - Landshut:2 shares border with Bavaria - Munich . [SEP],Bavaria - Munich,Bavaria - Munich,1,Bavaria - Munich,1,-0.75539
+[CLS] Pasco:2 shares border with Huanuco:3 . [SEP],Huanuco:3,Huanuco:3,1,Huanuco:3,1,-5.85570
+[CLS] Tirupur:3 district shares border with Coimbatore:4 district . [SEP],Coimbatore:4 district,Coimbatore:4 district,1,Coimbatore:4 district,1,-0.50919
+[CLS] Tynset:3 shares border with Alvdal:3 . [SEP],Alvdal:3,Alvdal:3,1,Alvdal:3,1,-3.84319
+[CLS] Boyacá:3 Department shares border with Norte de Santander Department . [SEP],Norte de Santander Department,Norte de Santander Department,1,Norte de Santander Department,1,-1.08855
+[CLS] Dobřív:4 shares border with Rokycany:4 . [SEP],Rokycany:4,Rokycany:4,1,Rokycany:4,1,-1.21856
+[CLS] Palma Campania shares border with Ottaviano:3 . [SEP],Ottaviano:3,Ottaviano:3,1,Ottaviano:3,1,-0.45135
+[CLS] Spormaggiore:4 shares border with Mezzolombardo:5 . [SEP],Mezzolombardo:5,Mezzolombardo:5,1,Mezzolombardo:5,1,-1.50114
+[CLS] Sverdlovsk:4 Oblast shares border with Kurgan:2 Oblast . [SEP],Kurgan:2 Oblast,Kurgan:2 Oblast,1,Kurgan:2 Oblast,1,-3.59259
+[CLS] Moschato:3 shares border with Piraeus:3 . [SEP],Piraeus:3,Piraeus:3,1,Piraeus:3,1,-2.68125
+[CLS] Ulyanovsk:4 Oblast shares border with Saratov:2 Oblast . [SEP],Saratov:2 Oblast,Saratov:2 Oblast,1,Saratov:2 Oblast,1,-0.60351
+[CLS] Japan shares border with South Korea . [SEP],South Korea,South Korea,1,South Korea,1,-0.18115
+[CLS] Courtedoux:3 shares border with Porrentruy:4 . [SEP],Porrentruy:4,Porrentruy:4,1,Porrentruy:4,1,-1.09349
+[CLS] Galliate:2 shares border with Turbigo:3 . [SEP],Turbigo:3,Turbigo:3,1,Turbigo:3,1,-5.61942
+[CLS] Cambre:2 shares border with Abegondo:3 . [SEP],Abegondo:3,Abegondo:3,1,Abegondo:3,1,-5.28110
+[CLS] Orkdal:3 shares border with Rindal:2 . [SEP],Rindal:2,Rindal:2,1,Rindal:2,1,-3.54850
+[CLS] Zelzate:3 shares border with Ghent:3 . [SEP],Ghent:3,Ghent:3,1,Ghent:3,1,-2.46532
+[CLS] 3rd arrondissement of Paris shares border with 2nd arrondissement of Paris . [SEP],2nd arrondissement of Paris,2nd arrondissement of Paris,1,2nd arrondissement of Paris,1,-0.37104
+[CLS] Ceresara:3 shares border with Medole:2 . [SEP],Medole:2,Medole:2,1,Medole:2,1,-7.10423
+[CLS] Paesana:3 shares border with Sampeyre:3 . [SEP],Sampeyre:3,Sampeyre:3,1,Sampeyre:3,1,-6.31250
+[CLS] Kutai:2 Kartanegara:3 shares border with West Kutai:2 . [SEP],West Kutai:2,West Kutai:2,1,West Kutai:2,1,-1.94242
+[CLS] Vittorio Veneto shares border with Conegliano:3 . [SEP],Conegliano:3,Conegliano:3,1,Conegliano:3,1,-0.66724
+[CLS] Alata:2 shares border with Ajaccio:3 . [SEP],Ajaccio:3,Ajaccio:3,1,Ajaccio:3,1,-3.53696
+[CLS] Guardia Sanframondi:4 shares border with Solopaca:3 . [SEP],Solopaca:3,Solopaca:3,1,Solopaca:3,1,-4.86222
+[CLS] Gyeonggi:4 Province shares border with South Chungcheong:3 Province . [SEP],South Chungcheong:3 Province,South Chungcheong:3 Province,1,South Chungcheong:3 Province,1,-0.45281
+[CLS] Rudolfsheim:2 - Fünfhaus:2 shares border with Ottakring:3 . [SEP],Ottakring:3,Ottakring:3,1,Ottakring:3,1,-2.61367
+[CLS] North - East District shares border with Francistown:2 . [SEP],Francistown:2,Francistown:2,1,Francistown:2,1,-6.29358
+[CLS] Nizza di Sicilia shares border with Roccalumera:3 . [SEP],Roccalumera:3,Roccalumera:3,1,Roccalumera:3,1,-7.18840
+[CLS] Monteu:2 Roero:3 shares border with Ceresole:3 Alba . [SEP],Ceresole:3 Alba,Ceresole:3 Alba,1,Ceresole:3 Alba,1,-6.31241
+[CLS] Dorno:2 shares border with Sannazzaro:4 de ' Burgondi:3 . [SEP],Sannazzaro:4 de ' Burgondi:3,Sannazzaro:4 de ' Burgondi:3,1,Sannazzaro:4 de ' Burgondi:3,1,-2.45924
+[CLS] Santa Eulalia:3 de Oscos:2 shares border with Grandas:2 de Salime:2 . [SEP],Grandas:2 de Salime:2,Grandas:2 de Salime:2,1,Grandas:2 de Salime:2,1,-4.60295
+[CLS] Ortueri:3 shares border with Neoneli:2 . [SEP],Neoneli:2,Neoneli:2,1,Neoneli:2,1,-8.30726
+[CLS] Venetico:2 shares border with Roccavaldina:3 . [SEP],Roccavaldina:3,Roccavaldina:3,1,Roccavaldina:3,1,-5.94388
+[CLS] Casalmaggiore:4 shares border with Sabbioneta:4 . [SEP],Sabbioneta:4,Sabbioneta:4,1,Sabbioneta:4,1,-1.41650
+[CLS] Gmina Gubin:3 shares border with Gmina Cybinka:4 . [SEP],Gmina Cybinka:4,Gmina Cybinka:4,1,Gmina Cybinka:4,1,-2.40295
+[CLS] San Giorgio su Legnano:2 shares border with Villa Cortese:2 . [SEP],Villa Cortese:2,Villa Cortese:2,1,Villa Cortese:2,1,-3.57893
+[CLS] Villa di Serio:2 shares border with Ranica:2 . [SEP],Ranica:2,Ranica:2,1,Ranica:2,1,-7.83664
+[CLS] Banbury:2 shares border with Bicester:3 . [SEP],Bicester:3,Bicester:3,1,Bicester:3,1,-1.78371
+[CLS] Montegrosso:3 d ' Asti shares border with Castelnuovo:3 Calcea:2 . [SEP],Castelnuovo:3 Calcea:2,Castelnuovo:3 Calcea:2,1,Castelnuovo:3 Calcea:2,1,-1.96358
+[CLS] Konstanz shares border with Schwarzwald:2 - Baar:2 district . [SEP],Schwarzwald:2 - Baar:2 district,Schwarzwald:2 - Baar:2 district,1,Schwarzwald:2 - Baar:2 district,1,-2.16910
+"[CLS] Eindhoven shares border with Nuenen:2 , Gerwen:3 en Nederwetten:4 . [SEP]","Nuenen:2 , Gerwen:3 en Nederwetten:4","Nuenen:2 , Gerwen:3 en Nederwetten:4",1,"Nuenen:2 , Gerwen:3 en Nederwetten:4",1,-3.74189
+[CLS] Ráječko:4 shares border with Blansko:3 . [SEP],Blansko:3,Blansko:3,1,Blansko:3,1,-0.86745
+[CLS] Sevastopol:4 shares border with Autonomous Republic of Crimea . [SEP],Autonomous Republic of Crimea,Autonomous Republic of Crimea,1,Autonomous Republic of Crimea,1,-2.42344
+[CLS] Santo Stefano Quisquina:3 shares border with Castronovo:2 di Sicilia . [SEP],Castronovo:2 di Sicilia,Castronovo:2 di Sicilia,1,Castronovo:2 di Sicilia,1,-2.89577
+[CLS] Palazzo San Gervasio:4 shares border with Acerenza:2 . [SEP],Acerenza:2,Acerenza:2,1,Acerenza:2,1,-5.08676
+[CLS] Cadrezzate:3 shares border with Ispra:2 . [SEP],Ispra:2,Ispra:2,1,Ispra:2,1,-6.05974
+[CLS] Lower Austria shares border with Upper Austria . [SEP],Upper Austria,Upper Austria,1,Upper Austria,1,-0.96238
+[CLS] Ansbach shares border with Neustadt ( Aisch:2 ) - Bad Windsheim:2 . [SEP],Neustadt ( Aisch:2 ) - Bad Windsheim:2,Neustadt ( Aisch:2 ) - Bad Windsheim:2,1,Neustadt ( Aisch:2 ) - Bad Windsheim:2,1,-0.88224
+[CLS] City of Hobsons:3 Bay shares border with City of Brimbank:3 . [SEP],City of Brimbank:3,City of Brimbank:3,1,City of Brimbank:3,1,-2.79843
+[CLS] Villar Pellice:2 shares border with Torre Pellice:2 . [SEP],Torre Pellice:2,Torre Pellice:2,1,Torre Pellice:2,1,-3.03134
+[CLS] White County shares border with Faulkner:3 County . [SEP],Faulkner:3 County,Faulkner:3 County,1,Faulkner:3 County,1,-0.15514
+[CLS] San Tammaro:3 shares border with Casal:2 di Principe . [SEP],Casal:2 di Principe,Casal:2 di Principe,1,Casal:2 di Principe,1,-4.16858
+[CLS] Målselv:4 shares border with Balsfjord:3 . [SEP],Balsfjord:3,Balsfjord:3,1,Balsfjord:3,1,-1.74406
+[CLS] Lauria:2 shares border with Lagonegro:3 . [SEP],Lagonegro:3,Lagonegro:3,1,Lagonegro:3,1,-4.15878
+[CLS] Frassino:3 shares border with Brossasco:3 . [SEP],Brossasco:3,Brossasco:3,1,Brossasco:3,1,-5.29673
+[CLS] Croissy:3 - sur - Seine shares border with Bougival:3 . [SEP],Bougival:3,Bougival:3,1,Bougival:3,1,-5.47122
+[CLS] Kalmar County shares border with Kronoberg:3 County . [SEP],Kronoberg:3 County,Kronoberg:3 County,1,Kronoberg:3 County,1,-1.01507
+[CLS] Carnate:2 shares border with Vimercate:3 . [SEP],Vimercate:3,Vimercate:3,1,Vimercate:3,1,-7.51171
+[CLS] Welling:2 shares border with Bexleyheath:5 . [SEP],Bexleyheath:5,Bexleyheath:5,1,Bexleyheath:5,1,-3.51633
+[CLS] Trento shares border with Aldeno:3 . [SEP],Aldeno:3,Aldeno:3,1,Aldeno:3,1,-3.15454
+[CLS] Laoang:2 shares border with Palapag:3 . [SEP],Palapag:3,Palapag:3,1,Palapag:3,1,-6.25134
+[CLS] Northern Ostrobothnia:5 shares border with Karelia:2 . [SEP],Karelia:2,Karelia:2,1,Karelia:2,1,-0.20230
+[CLS] Taibon:2 Agordino:3 shares border with Tonadico:3 . [SEP],Tonadico:3,Tonadico:3,1,Tonadico:3,1,-6.58289
+[CLS] Varzi:2 shares border with Zavattarello:4 . [SEP],Zavattarello:4,Zavattarello:4,1,Zavattarello:4,1,-4.34371
+[CLS] Kings County shares border with Fresno County . [SEP],Fresno County,Fresno County,1,Fresno County,1,-4.28543
+"[CLS] Resiutta:3 shares border with Resia:2 , Friuli . [SEP]","Resia:2 , Friuli","Resia:2 , Friuli",1,"Resia:2 , Friuli",1,-4.85583
+[CLS] Dolgellau:3 shares border with Maentwrog:4 . [SEP],Maentwrog:4,Maentwrog:4,1,Maentwrog:4,1,-4.32351
+[CLS] Aurland:2 shares border with Ulvik:3 . [SEP],Ulvik:3,Ulvik:3,1,Ulvik:3,1,-1.05091
+[CLS] Vidracco:3 shares border with Vistrorio:3 . [SEP],Vistrorio:3,Vistrorio:3,1,Vistrorio:3,1,-8.47120
+[CLS] Taboada:3 shares border with Monterroso:3 . [SEP],Monterroso:3,Monterroso:3,1,Monterroso:3,1,-4.16284
+[CLS] Cabanatuan:3 shares border with Talavera:2 . [SEP],Talavera:2,Talavera:2,1,Talavera:2,1,-2.06099
+[CLS] Hornindal:3 shares border with Volda:2 . [SEP],Volda:2,Volda:2,1,Volda:2,1,-5.14113
+[CLS] Bee County shares border with Live Oak County . [SEP],Live Oak County,Live Oak County,1,Live Oak County,1,-4.30868
+[CLS] Englewood:3 shares border with Bergenfield:2 . [SEP],Bergenfield:2,Bergenfield:2,1,Bergenfield:2,1,-8.85647
+[CLS] Soriano:2 Department shares border with Flores Department . [SEP],Flores Department,Flores Department,1,Flores Department,1,-3.67834
+[CLS] Tobacco:3 Row shares border with Shockoe:2 Bottom . [SEP],Shockoe:2 Bottom,Shockoe:2 Bottom,1,Shockoe:2 Bottom,1,-12.17878
+[CLS] Felonica:2 shares border with Ficarolo:3 . [SEP],Ficarolo:3,Ficarolo:3,1,Ficarolo:3,1,-5.57123
+[CLS] Uckfield:3 shares border with Maresfield:2 . [SEP],Maresfield:2,Maresfield:2,1,Maresfield:2,1,-8.25554
+[CLS] Trieste shares border with Duino:2 - Aurisina:3 . [SEP],Duino:2 - Aurisina:3,Duino:2 - Aurisina:3,1,Duino:2 - Aurisina:3,1,-4.38419
+[CLS] Leningrad Oblast shares border with Novgorod Oblast . [SEP],Novgorod Oblast,Novgorod Oblast,1,Novgorod Oblast,1,-2.17542
+[CLS] Hesse shares border with North Rhine - Westphalia:3 . [SEP],North Rhine - Westphalia:3,North Rhine - Westphalia:3,1,North Rhine - Westphalia:3,1,-0.15277
+[CLS] Morrovalle:2 shares border with Macerata:2 . [SEP],Macerata:2,Macerata:2,1,Macerata:2,1,-1.31272
+[CLS] Azzano:2 Decimo:2 shares border with Pasiano:2 di Pordenone:3 . [SEP],Pasiano:2 di Pordenone:3,Pasiano:2 di Pordenone:3,1,Pasiano:2 di Pordenone:3,1,-2.14398
+[CLS] Linden shares border with New York City . [SEP],New York City,New York City,1,New York City,1,-0.34136
+[CLS] Trescore:2 Balneario:3 shares border with Gorlago:3 . [SEP],Gorlago:3,Gorlago:3,1,Gorlago:3,1,-4.60331
+[CLS] Autonomous Republic of Crimea shares border with Kherson:3 Oblast . [SEP],Kherson:3 Oblast,Kherson:3 Oblast,1,Kherson:3 Oblast,1,-0.51726
+[CLS] Třebíč:4 District shares border with Brno - Country District . [SEP],Brno - Country District,Brno - Country District,1,Brno - Country District,1,-3.33589
+[CLS] Ernakulam:4 district shares border with Thrissur:3 district . [SEP],Thrissur:3 district,Thrissur:3 district,1,Thrissur:3 district,1,-0.04899
+[CLS] Sissa:2 shares border with Colorno:2 . [SEP],Colorno:2,Colorno:2,1,Colorno:2,1,-6.82605
+[CLS] Roveredo:2 in Piano shares border with San Quirino:2 . [SEP],San Quirino:2,San Quirino:2,1,San Quirino:2,1,-1.28417
+[CLS] Resana:2 shares border with Castelfranco:2 Veneto . [SEP],Castelfranco:2 Veneto,Castelfranco:2 Veneto,1,Castelfranco:2 Veneto,1,-1.82562
+[CLS] Castel d ' Aiano:2 shares border with Zocca:2 . [SEP],Zocca:2,Zocca:2,1,Zocca:2,1,-4.24365
+[CLS] Gmina Strzelce:3 Opolskie:3 shares border with Gmina Gogolin:3 . [SEP],Gmina Gogolin:3,Gmina Gogolin:3,1,Gmina Gogolin:3,1,-2.33817
+[CLS] Montedoro:2 shares border with Serradifalco:4 . [SEP],Serradifalco:4,Serradifalco:4,1,Serradifalco:4,1,-5.67227
+[CLS] West Baton:2 Rouge Parish shares border with West Feliciana:3 Parish . [SEP],West Feliciana:3 Parish,West Feliciana:3 Parish,1,West Feliciana:3 Parish,1,-0.73053
+[CLS] Camino al Tagliamento:3 shares border with Codroipo:3 . [SEP],Codroipo:3,Codroipo:3,1,Codroipo:3,1,-7.12187
+[CLS] Qaasuitsup:5 shares border with Northeast Greenland National Park . [SEP],Northeast Greenland National Park,Northeast Greenland National Park,1,Northeast Greenland National Park,1,-3.02000
+[CLS] Aia:2 shares border with Zarautz:2 . [SEP],Zarautz:2,Zarautz:2,1,Zarautz:2,1,-3.95183
+[CLS] Podlaskie:3 Voivodeship shares border with Warmian:2 - Masurian:3 Voivodeship . [SEP],Warmian:2 - Masurian:3 Voivodeship,Warmian:2 - Masurian:3 Voivodeship,1,Warmian:2 - Masurian:3 Voivodeship,1,-0.00868
+[CLS] Boltiere:2 shares border with Brembate:3 . [SEP],Brembate:3,Brembate:3,1,Brembate:3,1,-5.42358
+[CLS] McMullen:5 County shares border with Atascosa:2 County . [SEP],Atascosa:2 County,Atascosa:2 County,1,Atascosa:2 County,1,-1.36277
+[CLS] Alice Bel Colle shares border with Ricaldone:3 . [SEP],Ricaldone:3,Ricaldone:3,1,Ricaldone:3,1,-7.69361
+[CLS] Grafton:2 shares border with Cedarburg:2 . [SEP],Cedarburg:2,Cedarburg:2,1,Cedarburg:2,1,-8.78326
+[CLS] Val - d ' Oise shares border with Seine - Saint - Denis . [SEP],Seine - Saint - Denis,Seine - Saint - Denis,1,Seine - Saint - Denis,1,-0.29093
+[CLS] Tyne and Wear:2 shares border with County Durham . [SEP],County Durham,County Durham,1,County Durham,1,-0.34668
+[CLS] Monteleone:3 di Spoleto:3 shares border with Cascia:3 . [SEP],Cascia:3,Cascia:3,1,Cascia:3,1,-1.87147
+[CLS] Dorchester:2 County shares border with Sussex County . [SEP],Sussex County,Sussex County,1,Sussex County,1,-1.73813
+[CLS] Alvdal:3 shares border with Stor:2 - Elvdal:3 . [SEP],Stor:2 - Elvdal:3,Stor:2 - Elvdal:3,1,Stor:2 - Elvdal:3,1,-2.21056
+[CLS] Acqualagna:4 shares border with Cagli:2 . [SEP],Cagli:2,Cagli:2,1,Cagli:2,1,-5.00145
+[CLS] Lavalleja:2 Department shares border with Maldonado Department . [SEP],Maldonado Department,Maldonado Department,1,Maldonado Department,1,-2.48000
+[CLS] Isola del Piano shares border with Fossombrone:4 . [SEP],Fossombrone:4,Fossombrone:4,1,Fossombrone:4,1,-1.00255
+[CLS] Piura:2 shares border with Lambayeque:3 . [SEP],Lambayeque:3,Lambayeque:3,1,Lambayeque:3,1,-0.46176
+[CLS] Franklin shares border with Southampton County . [SEP],Southampton County,Southampton County,1,Southampton County,1,-7.01478
+[CLS] Melara:2 shares border with Ostiglia:2 . [SEP],Ostiglia:2,Ostiglia:2,1,Ostiglia:2,1,-5.77327
+[CLS] Zinasco:3 shares border with Cava:2 Manara:2 . [SEP],Cava:2 Manara:2,Cava:2 Manara:2,1,Cava:2 Manara:2,1,-6.92126
+[CLS] Landkreis Ravensburg:2 shares border with Bodenseekreis:3 . [SEP],Bodenseekreis:3,Bodenseekreis:3,1,Bodenseekreis:3,1,-2.12677
+[CLS] Crevoladossola:5 shares border with Varzo:2 . [SEP],Varzo:2,Varzo:2,1,Varzo:2,1,-4.57361
+[CLS] Tribano:2 shares border with Monselice:3 . [SEP],Monselice:3,Monselice:3,1,Monselice:3,1,-4.64409
+[CLS] Saint - Nazaire:3 shares border with La Baule:2 - Escoublac:4 . [SEP],La Baule:2 - Escoublac:4,La Baule:2 - Escoublac:4,1,La Baule:2 - Escoublac:4,1,-2.62847
+[CLS] Granada Province shares border with Jaén Province . [SEP],Jaén Province,Jaén Province,1,Jaén Province,1,-1.93138
+[CLS] Milan shares border with Baranzate:3 . [SEP],Baranzate:3,Baranzate:3,1,Baranzate:3,1,-7.38702
+[CLS] Piandimeleto:4 shares border with Sassocorvaro:4 . [SEP],Sassocorvaro:4,Sassocorvaro:4,1,Sassocorvaro:4,1,-6.59543
+[CLS] Pinal:2 County shares border with Graham County . [SEP],Graham County,Graham County,1,Graham County,1,-4.98883
+[CLS] Portoscuso:3 shares border with Gonnesa:3 . [SEP],Gonnesa:3,Gonnesa:3,1,Gonnesa:3,1,-5.71232
+[CLS] Piedimonte:3 Etneo:2 shares border with Mascali:2 . [SEP],Mascali:2,Mascali:2,1,Mascali:2,1,-8.20101
+[CLS] Maha Sarakham:3 shares border with Buri:2 Ram . [SEP],Buri:2 Ram,Buri:2 Ram,1,Buri:2 Ram,1,-5.22290
+[CLS] Montello:2 shares border with Gorlago:3 . [SEP],Gorlago:3,Gorlago:3,1,Gorlago:3,1,-4.00608
+[CLS] Frio:2 County shares border with Atascosa:2 County . [SEP],Atascosa:2 County,Atascosa:2 County,1,Atascosa:2 County,1,-1.72449
+[CLS] Casalnuovo:3 di Napoli shares border with Sant ' Anastasia . [SEP],Sant ' Anastasia,Sant ' Anastasia,1,Sant ' Anastasia,1,-1.35069
+[CLS] Romagnano:2 Sesia:2 shares border with Fontaneto:3 d ' Agogna:3 . [SEP],Fontaneto:3 d ' Agogna:3,Fontaneto:3 d ' Agogna:3,1,Fontaneto:3 d ' Agogna:3,1,-0.96339
+[CLS] Halden:2 shares border with Tanum:2 Municipality . [SEP],Tanum:2 Municipality,Tanum:2 Municipality,1,Tanum:2 Municipality,1,-6.24410
+"[CLS] Chiaravalle:2 , Marche shares border with Monte San Vito . [SEP]",Monte San Vito,Monte San Vito,1,Monte San Vito,1,-2.19926
+[CLS] Accomack:3 County shares border with Worcester County . [SEP],Worcester County,Worcester County,1,Worcester County,1,-3.69310
+[CLS] Dane County shares border with Rock County . [SEP],Rock County,Rock County,1,Rock County,1,-4.53684
+[CLS] Tours shares border with Joué:2 - lès - Tours . [SEP],Joué:2 - lès - Tours,Joué:2 - lès - Tours,1,Joué:2 - lès - Tours,1,-1.17702
+[CLS] Capiz:2 shares border with Aklan:2 . [SEP],Aklan:2,Aklan:2,1,Aklan:2,1,-7.15169
+[CLS] Vaglio:2 Basilicata:2 shares border with Potenza:2 . [SEP],Potenza:2,Potenza:2,1,Potenza:2,1,-0.05267
+[CLS] Cincinnati Arch shares border with Black Warrior Basin . [SEP],Black Warrior Basin,Black Warrior Basin,1,Black Warrior Basin,1,-9.55304
+[CLS] Piozzano:2 shares border with Pecorara:3 . [SEP],Pecorara:3,Pecorara:3,1,Pecorara:3,1,-3.28328
+[CLS] Laino:2 shares border with Claino:3 con Osteno:2 . [SEP],Claino:3 con Osteno:2,Claino:3 con Osteno:2,1,Claino:3 con Osteno:2,1,-6.09057
+[CLS] Onslow:2 County shares border with Jones County . [SEP],Jones County,Jones County,1,Jones County,1,-3.93930
+[CLS] Gorle:2 shares border with Pedrengo:3 . [SEP],Pedrengo:3,Pedrengo:3,1,Pedrengo:3,1,-4.43857
+[CLS] Rutland:3 shares border with Northamptonshire:2 . [SEP],Northamptonshire:2,Northamptonshire:2,1,Northamptonshire:2,1,-1.87842
+[CLS] Rovagnate:4 shares border with Olgiate:3 Molgora:2 . [SEP],Olgiate:3 Molgora:2,Olgiate:3 Molgora:2,1,Olgiate:3 Molgora:2,1,-6.99948
+[CLS] Calamandrana:4 shares border with Canelli:2 . [SEP],Canelli:2,Canelli:2,1,Canelli:2,1,-6.75165
+[CLS] Realmonte:2 shares border with Siculiana:3 . [SEP],Siculiana:3,Siculiana:3,1,Siculiana:3,1,-4.48961
+[CLS] Gmina Zbiczno:3 shares border with Brodnica:2 . [SEP],Brodnica:2,Brodnica:2,1,Brodnica:2,1,-2.79197
+[CLS] County of Bentheim:2 shares border with Emsland:2 . [SEP],Emsland:2,Emsland:2,1,Emsland:2,1,-3.01081
+[CLS] Boville:2 Ernica:2 shares border with Veroli:2 . [SEP],Veroli:2,Veroli:2,1,Veroli:2,1,-5.90227
+[CLS] Prunelli:3 - di - Casacconi:3 shares border with Campile:2 . [SEP],Campile:2,Campile:2,1,Campile:2,1,-8.80309
+[CLS] Beura:2 - Cardezza:3 shares border with Vogogna:3 . [SEP],Vogogna:3,Vogogna:3,1,Vogogna:3,1,-4.56782
+[CLS] Crawford County shares border with Ashtabula:3 County . [SEP],Ashtabula:3 County,Ashtabula:3 County,1,Ashtabula:3 County,1,-3.91943
+[CLS] Crystal Palace shares border with Gipsy:3 Hill . [SEP],Gipsy:3 Hill,Gipsy:3 Hill,1,Gipsy:3 Hill,1,-1.55241
+[CLS] Chelyabinsk:4 Oblast shares border with Sverdlovsk:4 Oblast . [SEP],Sverdlovsk:4 Oblast,Sverdlovsk:4 Oblast,1,Sverdlovsk:4 Oblast,1,-0.00410
+[CLS] Napa:2 County shares border with Yolo:2 County . [SEP],Yolo:2 County,Yolo:2 County,1,Yolo:2 County,1,-2.24798
+[CLS] Borgloon:3 shares border with Tongeren:2 . [SEP],Tongeren:2,Tongeren:2,1,Tongeren:2,1,-2.53362
+[CLS] Detroit shares border with Dearborn:2 . [SEP],Dearborn:2,Dearborn:2,1,Dearborn:2,1,-0.71155
+[CLS] Prachin:3 Buri:2 shares border with Nakhon:3 Ratchasima:3 . [SEP],Nakhon:3 Ratchasima:3,Nakhon:3 Ratchasima:3,1,Nakhon:3 Ratchasima:3,1,-0.97789
+[CLS] Siat:2 shares border with Rueun:2 . [SEP],Rueun:2,Rueun:2,1,Rueun:2,1,-9.45942
+[CLS] Marie - Victorin:2 shares border with Taillon:2 . [SEP],Taillon:2,Taillon:2,1,Taillon:2,1,-3.38438
+[CLS] Grande Prairie shares border with Sexsmith:2 . [SEP],Sexsmith:2,Sexsmith:2,1,Sexsmith:2,1,-9.24679
+[CLS] Noviglio:2 shares border with Gaggiano:3 . [SEP],Gaggiano:3,Gaggiano:3,1,Gaggiano:3,1,-3.51145
+[CLS] Fabriano:3 shares border with Matelica:2 . [SEP],Matelica:2,Matelica:2,1,Matelica:2,1,-7.02453
+[CLS] Candia:2 Canavese:3 shares border with Caluso:2 . [SEP],Caluso:2,Caluso:2,1,Caluso:2,1,-9.29804
+[CLS] Pornichet:3 shares border with Saint - Nazaire:3 . [SEP],Saint - Nazaire:3,Saint - Nazaire:3,1,Saint - Nazaire:3,1,-0.05399
+[CLS] Orbetello:3 shares border with Capalbio:3 . [SEP],Capalbio:3,Capalbio:3,1,Capalbio:3,1,-5.11259
+[CLS] Waterland:2 shares border with Landsmeer:2 . [SEP],Landsmeer:2,Landsmeer:2,1,Landsmeer:2,1,-8.30863
+[CLS] Central Finland Province shares border with Vaasa:2 Province . [SEP],Vaasa:2 Province,Vaasa:2 Province,1,Vaasa:2 Province,1,-0.41231
+[CLS] San Nicolò:2 di Comelico:2 shares border with Obertilliach:4 . [SEP],Obertilliach:4,Obertilliach:4,1,Obertilliach:4,1,-4.18288
+[CLS] Mitte shares border with Charlottenburg:2 - Wilmersdorf:3 . [SEP],Charlottenburg:2 - Wilmersdorf:3,Charlottenburg:2 - Wilmersdorf:3,1,Charlottenburg:2 - Wilmersdorf:3,1,-0.17317
+[CLS] Pasturana:3 shares border with Novi Ligure:2 . [SEP],Novi Ligure:2,Novi Ligure:2,1,Novi Ligure:2,1,-3.26613
+[CLS] Novallas:2 shares border with Tarazona:2 . [SEP],Tarazona:2,Tarazona:2,1,Tarazona:2,1,-2.97931
+[CLS] La Tremblade:3 shares border with Marennes:2 . [SEP],Marennes:2,Marennes:2,1,Marennes:2,1,-4.94359
+[CLS] Martignacco:4 shares border with Fagagna:3 . [SEP],Fagagna:3,Fagagna:3,1,Fagagna:3,1,-4.22509
+[CLS] Muchinga:2 Province shares border with Luapula:3 Province . [SEP],Luapula:3 Province,Luapula:3 Province,1,Luapula:3 Province,1,-1.71082
+[CLS] Franquelin:3 shares border with Baie - Comeau:2 . [SEP],Baie - Comeau:2,Baie - Comeau:2,1,Baie - Comeau:2,1,-2.48423
+[CLS] Cabiate:3 shares border with Seregno:3 . [SEP],Seregno:3,Seregno:3,1,Seregno:3,1,-2.40641
+[CLS] Schwarzwald:2 - Baar:2 district shares border with Breisgau - Hochschwarzwald:6 . [SEP],Breisgau - Hochschwarzwald:6,Breisgau - Hochschwarzwald:6,1,Breisgau - Hochschwarzwald:6,1,-0.36932
+"[CLS] Vera Cruz , Pennsylvania shares border with Emmaus:2 . [SEP]",Emmaus:2,Emmaus:2,1,Emmaus:2,1,-5.52657
+[CLS] Kvam:2 shares border with Vaksdal:3 . [SEP],Vaksdal:3,Vaksdal:3,1,Vaksdal:3,1,-3.56475
+[CLS] Eddington:2 shares border with Herne:2 Bay . [SEP],Herne:2 Bay,Herne:2 Bay,1,Herne:2 Bay,1,-5.32236
+[CLS] Tadjourah:4 Region shares border with Arta:2 Region . [SEP],Arta:2 Region,Arta:2 Region,1,Arta:2 Region,1,-3.50714
+[CLS] Genuri:2 shares border with Genoni:2 . [SEP],Genoni:2,Genoni:2,1,Genoni:2,1,-5.45108
+[CLS] Motta:2 Visconti shares border with Casorate:3 Primo . [SEP],Casorate:3 Primo,Casorate:3 Primo,1,Casorate:3 Primo,1,-6.20239
+[CLS] Rocca Priora:2 shares border with Monte Compatri:3 . [SEP],Monte Compatri:3,Monte Compatri:3,1,Monte Compatri:3,1,-3.97480
+[CLS] North Carolina shares border with South Carolina . [SEP],South Carolina,South Carolina,1,South Carolina,1,-0.31634
+[CLS] Selbu:3 shares border with Malvik:2 . [SEP],Malvik:2,Malvik:2,1,Malvik:2,1,-6.81461
+[CLS] Udon:2 Thani:2 shares border with Kalasin:3 . [SEP],Kalasin:3,Kalasin:3,1,Kalasin:3,1,-4.92460
+[CLS] Cesano:2 Boscone:2 shares border with Trezzano:2 sul Naviglio:3 . [SEP],Trezzano:2 sul Naviglio:3,Trezzano:2 sul Naviglio:3,1,Trezzano:2 sul Naviglio:3,1,-2.56095
+[CLS] Neive:2 shares border with Treiso:2 . [SEP],Treiso:2,Treiso:2,1,Treiso:2,1,-10.13929
+[CLS] Bettona:2 shares border with Deruta:2 . [SEP],Deruta:2,Deruta:2,1,Deruta:2,1,-6.74179
+[CLS] Ferentino:3 shares border with Alatri:2 . [SEP],Alatri:2,Alatri:2,1,Alatri:2,1,-4.22693
+[CLS] Novgorod Oblast shares border with Pskov:3 Oblast . [SEP],Pskov:3 Oblast,Pskov:3 Oblast,1,Pskov:3 Oblast,1,-0.16205
+[CLS] Grinzane:3 Cavour:2 shares border with Diano:2 d ' Alba . [SEP],Diano:2 d ' Alba,Diano:2 d ' Alba,1,Diano:2 d ' Alba,1,-2.80640
+"[CLS] Lenna:2 , Lombardy:2 shares border with Camerata:2 Cornello:2 . [SEP]",Camerata:2 Cornello:2,Camerata:2 Cornello:2,1,Camerata:2 Cornello:2,1,-5.01045
+[CLS] Gubbio:3 shares border with Costacciaro:3 . [SEP],Costacciaro:3,Costacciaro:3,1,Costacciaro:3,1,-8.39391
+[CLS] Torre de ' Roveri:2 shares border with Scanzorosciate:5 . [SEP],Scanzorosciate:5,Scanzorosciate:5,1,Scanzorosciate:5,1,-5.86376
+[CLS] Pinzano:2 al Tagliamento:3 shares border with Spilimbergo:4 . [SEP],Spilimbergo:4,Spilimbergo:4,1,Spilimbergo:4,1,-3.41858
+[CLS] Massa e Cozzile:3 shares border with Montecatini:3 Terme . [SEP],Montecatini:3 Terme,Montecatini:3 Terme,1,Montecatini:3 Terme,1,-1.11853
+[CLS] Marmirolo:3 shares border with Porto Mantovano:2 . [SEP],Porto Mantovano:2,Porto Mantovano:2,1,Porto Mantovano:2,1,-3.93260
+[CLS] Jhajjar:4 district shares border with Bhiwani:3 district . [SEP],Bhiwani:3 district,Bhiwani:3 district,1,Bhiwani:3 district,1,-2.87556
+[CLS] Adams County shares border with Whitman County . [SEP],Whitman County,Whitman County,1,Whitman County,1,-4.16099
+[CLS] Aylmer:2 shares border with Pontiac:2 . [SEP],Pontiac:2,Pontiac:2,1,Pontiac:2,1,-1.69269
+[CLS] Sessano:2 del Molise:2 shares border with Frosolone:3 . [SEP],Frosolone:3,Frosolone:3,1,Frosolone:3,1,-5.97458
+[CLS] Ritchie County shares border with Tyler County . [SEP],Tyler County,Tyler County,1,Tyler County,1,-3.64922
+[CLS] Adrano:2 shares border with Biancavilla:2 . [SEP],Biancavilla:2,Biancavilla:2,1,Biancavilla:2,1,-5.56248
+[CLS] Grimstad:3 shares border with Lillesand:3 . [SEP],Lillesand:3,Lillesand:3,1,Lillesand:3,1,-1.07295
+[CLS] Canal San Bovo:2 shares border with Siror:2 . [SEP],Siror:2,Siror:2,1,Siror:2,1,-7.41642
+[CLS] Point Edward shares border with Sarnia:2 . [SEP],Sarnia:2,Sarnia:2,1,Sarnia:2,1,-5.28994
+[CLS] Wicomico:3 County shares border with Dorchester:2 County . [SEP],Dorchester:2 County,Dorchester:2 County,1,Dorchester:2 County,1,-1.95990
+[CLS] Cochabamba:3 Department shares border with Santa Cruz Department . [SEP],Santa Cruz Department,Santa Cruz Department,1,Santa Cruz Department,1,-0.21339
+[CLS] Bokeo:3 Province shares border with Shan State . [SEP],Shan State,Shan State,1,Shan State,1,-4.90495
+[CLS] Banda Sea shares border with Southeast Sulawesi . [SEP],Southeast Sulawesi,Southeast Sulawesi,1,Southeast Sulawesi,1,-4.37589
+[CLS] Venosa:2 shares border with Ginestra:3 . [SEP],Ginestra:3,Ginestra:3,1,Ginestra:3,1,-2.31874
+[CLS] Central Finland shares border with Northern Ostrobothnia:5 . [SEP],Northern Ostrobothnia:5,Northern Ostrobothnia:5,1,Northern Ostrobothnia:5,1,-0.99256
+[CLS] San Miguel Petapa:2 shares border with Guatemala City . [SEP],Guatemala City,Guatemala City,1,Guatemala City,1,-4.00162
+[CLS] Cupramontana:4 shares border with Serra San Quirico:2 . [SEP],Serra San Quirico:2,Serra San Quirico:2,1,Serra San Quirico:2,1,-3.34693
+[CLS] Andrate:2 shares border with Chiaverano:3 . [SEP],Chiaverano:3,Chiaverano:3,1,Chiaverano:3,1,-6.54842
+[CLS] Salta Province shares border with Antofagasta:3 Region . [SEP],Antofagasta:3 Region,Antofagasta:3 Region,1,Antofagasta:3 Region,1,-1.81028
+[CLS] Kalasin:3 shares border with Sakon:2 Nakhon:3 . [SEP],Sakon:2 Nakhon:3,Sakon:2 Nakhon:3,1,Sakon:2 Nakhon:3,1,-3.65988
+[CLS] Primorsky:3 Krai:2 shares border with Khabarovsk:5 Krai:2 . [SEP],Khabarovsk:5 Krai:2,Khabarovsk:5 Krai:2,1,Khabarovsk:5 Krai:2,1,-0.38555
+[CLS] Barneveld:2 shares border with Nijkerk:3 . [SEP],Nijkerk:3,Nijkerk:3,1,Nijkerk:3,1,-0.26294
+[CLS] Kungälv:3 Municipality shares border with Ale Municipality . [SEP],Ale Municipality,Ale Municipality,1,Ale Municipality,1,-7.94145
+[CLS] Calosso:3 shares border with Agliano:3 Terme . [SEP],Agliano:3 Terme,Agliano:3 Terme,1,Agliano:3 Terme,1,-2.06910
+[CLS] Casalnuovo:3 di Napoli shares border with Pomigliano:3 d ' Arco . [SEP],Pomigliano:3 d ' Arco,Pomigliano:3 d ' Arco,1,Pomigliano:3 d ' Arco,1,-0.32433
+[CLS] Canazei:3 shares border with Rocca Pietore:2 . [SEP],Rocca Pietore:2,Rocca Pietore:2,1,Rocca Pietore:2,1,-8.57613
+[CLS] Masserano:2 shares border with Buronzo:3 . [SEP],Buronzo:3,Buronzo:3,1,Buronzo:3,1,-5.32300
+[CLS] San Giuliano Terme shares border with Vicopisano:4 . [SEP],Vicopisano:4,Vicopisano:4,1,Vicopisano:4,1,-3.04394
+[CLS] Vancouver shares border with Burnaby:2 . [SEP],Burnaby:2,Burnaby:2,1,Burnaby:2,1,-1.81331
+[CLS] Pasay:2 shares border with Makati:2 . [SEP],Makati:2,Makati:2,1,Makati:2,1,-2.15282
+[CLS] Terzigno:3 shares border with Boscotrecase:3 . [SEP],Boscotrecase:3,Boscotrecase:3,1,Boscotrecase:3,1,-9.24272
+[CLS] Brown County shares border with Highland County . [SEP],Highland County,Highland County,1,Highland County,1,-4.47074
+[CLS] Spello:2 shares border with Foligno:3 . [SEP],Foligno:3,Foligno:3,1,Foligno:3,1,-1.39325
+[CLS] Belvedere:2 Ostrense:3 shares border with Senigallia:3 . [SEP],Senigallia:3,Senigallia:3,1,Senigallia:3,1,-0.13533
+[CLS] Tehri:2 Garhwal:4 district shares border with Dehradun:3 district . [SEP],Dehradun:3 district,Dehradun:3 district,1,Dehradun:3 district,1,-0.99454
+[CLS] Tortorici:3 shares border with Sinagra:2 . [SEP],Sinagra:2,Sinagra:2,1,Sinagra:2,1,-4.66350
+[CLS] Muscatine:3 County shares border with Cedar County . [SEP],Cedar County,Cedar County,1,Cedar County,1,-4.18826
+[CLS] Torre de ' Roveri:2 shares border with Pedrengo:3 . [SEP],Pedrengo:3,Pedrengo:3,1,Pedrengo:3,1,-3.81778
+[CLS] Province of Mantua:2 shares border with Province of Ferrara . [SEP],Province of Ferrara,Province of Ferrara,1,Province of Ferrara,1,-1.63099
+[CLS] Cascina:3 shares border with San Giuliano Terme . [SEP],San Giuliano Terme,San Giuliano Terme,1,San Giuliano Terme,1,-2.00390
+[CLS] Amsterdam shares border with Ouder:2 - Amstel:2 . [SEP],Ouder:2 - Amstel:2,Ouder:2 - Amstel:2,1,Ouder:2 - Amstel:2,1,-1.20106
+[CLS] Santa Croce sull ' Arno shares border with Fucecchio:3 . [SEP],Fucecchio:3,Fucecchio:3,1,Fucecchio:3,1,-5.53483
+[CLS] Herstappe:3 shares border with Tongeren:2 . [SEP],Tongeren:2,Tongeren:2,1,Tongeren:2,1,-2.54730
+[CLS] Cesana:2 Brianza:2 shares border with Eupilio:3 . [SEP],Eupilio:3,Eupilio:3,1,Eupilio:3,1,-5.88048
+[CLS] Valencia shares border with Godella:2 . [SEP],Godella:2,Godella:2,1,Godella:2,1,-8.90841
+[CLS] Søgne:3 shares border with Songdalen:2 . [SEP],Songdalen:2,Songdalen:2,1,Songdalen:2,1,-6.35610
+[CLS] Gmina Sieradz:3 shares border with Sieradz:3 . [SEP],Sieradz:3,Sieradz:3,1,Sieradz:3,1,-0.21389
+[CLS] Neder:2 - Betuwe:2 shares border with Tiel:2 . [SEP],Tiel:2,Tiel:2,1,Tiel:2,1,-3.51947
+[CLS] Alleghany:3 County shares border with Greenbrier:3 County . [SEP],Greenbrier:3 County,Greenbrier:3 County,1,Greenbrier:3 County,1,-3.03397
+[CLS] Livorno Ferraris:2 shares border with Trino:2 . [SEP],Trino:2,Trino:2,1,Trino:2,1,-6.27968
+[CLS] Montano:2 Lucino:2 shares border with Villa Guardia . [SEP],Villa Guardia,Villa Guardia,1,Villa Guardia,1,-7.32274
+[CLS] Vallerano:2 shares border with Vignanello:3 . [SEP],Vignanello:3,Vignanello:3,1,Vignanello:3,1,-3.05311
+[CLS] Askvoll:2 shares border with Naustdal:3 . [SEP],Naustdal:3,Naustdal:3,1,Naustdal:3,1,-3.74834
+[CLS] Oppdal:3 shares border with Dovre:2 . [SEP],Dovre:2,Dovre:2,1,Dovre:2,1,-2.10526
+[CLS] Penzing:2 shares border with Mauerbach:2 . [SEP],Mauerbach:2,Mauerbach:2,1,Mauerbach:2,1,-6.67076
+[CLS] Cuenca Province shares border with Community of Madrid . [SEP],Community of Madrid,Community of Madrid,1,Community of Madrid,1,-3.85697
+[CLS] Rome shares border with Formello:2 . [SEP],Formello:2,Formello:2,1,Formello:2,1,-8.69176
+[CLS] Upper Demerara:3 - Berbice:3 shares border with Demerara:3 - Mahaica:2 . [SEP],Demerara:3 - Mahaica:2,Demerara:3 - Mahaica:2,1,Demerara:3 - Mahaica:2,1,-2.97161
+[CLS] Micigliano:4 shares border with Cantalice:2 . [SEP],Cantalice:2,Cantalice:2,1,Cantalice:2,1,-5.14233
+"[CLS] Gais:2 , South Tyrol:2 shares border with Bruneck:2 . [SEP]",Bruneck:2,Bruneck:2,1,Bruneck:2,1,-4.04833
+[CLS] Aversa:2 shares border with Sant ' Antimo:2 . [SEP],Sant ' Antimo:2,Sant ' Antimo:2,1,Sant ' Antimo:2,1,-2.79620
+[CLS] Mamoiada:3 shares border with Ollolai:3 . [SEP],Ollolai:3,Ollolai:3,1,Ollolai:3,1,-7.99386
+[CLS] Spormaggiore:4 shares border with Tuenno:3 . [SEP],Tuenno:3,Tuenno:3,1,Tuenno:3,1,-6.30853
+[CLS] Bolsena:2 shares border with Orvieto:3 . [SEP],Orvieto:3,Orvieto:3,1,Orvieto:3,1,-0.49428
+[CLS] Demonte:2 shares border with Vinadio:3 . [SEP],Vinadio:3,Vinadio:3,1,Vinadio:3,1,-5.24324
+[CLS] Montagnareale:4 shares border with Sant ' Angelo di Brolo:2 . [SEP],Sant ' Angelo di Brolo:2,Sant ' Angelo di Brolo:2,1,Sant ' Angelo di Brolo:2,1,-2.05205
+[CLS] Solana:2 shares border with Tuguegarao:4 . [SEP],Tuguegarao:4,Tuguegarao:4,1,Tuguegarao:4,1,-5.96065
+[CLS] Butler County shares border with Preble:2 County . [SEP],Preble:2 County,Preble:2 County,1,Preble:2 County,1,-3.68480
+"[CLS] Hanwell:2 , New Brunswick shares border with Fredericton:2 . [SEP]",Fredericton:2,Fredericton:2,1,Fredericton:2,1,-1.35370
+[CLS] East Grinstead:3 shares border with Horley:2 . [SEP],Horley:2,Horley:2,1,Horley:2,1,-6.03253
+[CLS] Ibaraki:3 Prefecture shares border with Fukushima:2 Prefecture . [SEP],Fukushima:2 Prefecture,Fukushima:2 Prefecture,1,Fukushima:2 Prefecture,1,-0.19122
+[CLS] Brescia shares border with San Zeno:2 Naviglio:3 . [SEP],San Zeno:2 Naviglio:3,San Zeno:2 Naviglio:3,1,San Zeno:2 Naviglio:3,1,-2.19369
+[CLS] Schirnding:3 shares border with Cheb:2 . [SEP],Cheb:2,Cheb:2,1,Cheb:2,1,-7.10495
+[CLS] Amur:2 Oblast shares border with Zabaykalsky:4 Krai:2 . [SEP],Zabaykalsky:4 Krai:2,Zabaykalsky:4 Krai:2,1,Zabaykalsky:4 Krai:2,1,-1.47850
+[CLS] Kitatsugaru:4 District shares border with Goshogawara:4 . [SEP],Goshogawara:4,Goshogawara:4,1,Goshogawara:4,1,-6.39410
+[CLS] Trapani:2 shares border with Salemi:2 . [SEP],Salemi:2,Salemi:2,1,Salemi:2,1,-5.31304
+[CLS] Middlesex shares border with Dunellen:3 . [SEP],Dunellen:3,Dunellen:3,1,Dunellen:3,1,-5.11633
+[CLS] Lille shares border with Wattignies:3 . [SEP],Wattignies:3,Wattignies:3,1,Wattignies:3,1,-3.43649
+[CLS] Terragnolo:3 shares border with Folgaria:4 . [SEP],Folgaria:4,Folgaria:4,1,Folgaria:4,1,-1.37895
+[CLS] Ponzano:3 di Fermo:2 shares border with Grottazzolina:4 . [SEP],Grottazzolina:4,Grottazzolina:4,1,Grottazzolina:4,1,-2.87300
+[CLS] Merced:2 County shares border with Santa Clara County . [SEP],Santa Clara County,Santa Clara County,1,Santa Clara County,1,-1.68172
+[CLS] New Orleans shares border with St . Tammany:2 Parish . [SEP],St . Tammany:2 Parish,St . Tammany:2 Parish,1,St . Tammany:2 Parish,1,-0.37645
+[CLS] Rollag:2 shares border with Tinn:2 . [SEP],Tinn:2,Tinn:2,1,Tinn:2,1,-5.81531
+[CLS] Serra Riccò:3 shares border with Montoggio:3 . [SEP],Montoggio:3,Montoggio:3,1,Montoggio:3,1,-3.62552
+[CLS] Whitby:3 shares border with Oshawa:3 . [SEP],Oshawa:3,Oshawa:3,1,Oshawa:3,1,-1.36533
+[CLS] Choisy:2 - le - Roi shares border with Vitry:2 - sur - Seine . [SEP],Vitry:2 - sur - Seine,Vitry:2 - sur - Seine,1,Vitry:2 - sur - Seine,1,-0.94870
+[CLS] Viseu:2 District shares border with Coimbra District . [SEP],Coimbra District,Coimbra District,1,Coimbra District,1,-3.63499
+[CLS] Escalaplano:4 shares border with Seui:2 . [SEP],Seui:2,Seui:2,1,Seui:2,1,-9.40479
+[CLS] Pomigliano:3 d ' Arco shares border with Somma:2 Vesuviana:3 . [SEP],Somma:2 Vesuviana:3,Somma:2 Vesuviana:3,1,Somma:2 Vesuviana:3,1,-1.07234
+[CLS] Jackson County shares border with Greer:2 County . [SEP],Greer:2 County,Greer:2 County,1,Greer:2 County,1,-2.10338
+"[CLS] Springtown:2 , Pennsylvania shares border with Hellertown:2 . [SEP]",Hellertown:2,Hellertown:2,1,Hellertown:2,1,-7.40445
+[CLS] Zamboanga:3 del Sur shares border with Zamboanga:3 Sibugay:3 . [SEP],Zamboanga:3 Sibugay:3,Zamboanga:3 Sibugay:3,1,Zamboanga:3 Sibugay:3,1,-1.51677
+[CLS] Taraclia:3 District shares border with Cahul:2 District . [SEP],Cahul:2 District,Cahul:2 District,1,Cahul:2 District,1,-3.59549
+[CLS] Marly:2 - la - Ville shares border with Louvres:2 . [SEP],Louvres:2,Louvres:2,1,Louvres:2,1,-6.12113
+[CLS] Paderno:3 Dugnano:2 shares border with Bollate:2 . [SEP],Bollate:2,Bollate:2,1,Bollate:2,1,-6.08066
+[CLS] Belforte:2 all ' Isauro:2 shares border with Carpegna:3 . [SEP],Carpegna:3,Carpegna:3,1,Carpegna:3,1,-2.13650
+[CLS] San Biagio:3 di Callalta:2 shares border with Salgareda:3 . [SEP],Salgareda:3,Salgareda:3,1,Salgareda:3,1,-5.17552
+[CLS] Meana:2 di Susa:2 shares border with Usseaux:3 . [SEP],Usseaux:3,Usseaux:3,1,Usseaux:3,1,-5.43718
+"[CLS] Stella , Liguria shares border with Celle Ligure:2 . [SEP]",Celle Ligure:2,Celle Ligure:2,1,Celle Ligure:2,1,-3.79746
+[CLS] Frederick County shares border with Carroll County . [SEP],Carroll County,Carroll County,1,Carroll County,1,-2.33946
+[CLS] Hamilton Township shares border with Bordentown:3 . [SEP],Bordentown:3,Bordentown:3,1,Bordentown:3,1,-3.28195
+[CLS] Mametz:3 shares border with Bray - sur - Somme . [SEP],Bray - sur - Somme,Bray - sur - Somme,1,Bray - sur - Somme,1,-1.39607
+[CLS] Schiermonnikoog:5 shares border with Ameland:2 . [SEP],Ameland:2,Ameland:2,1,Ameland:2,1,-2.29066
+[CLS] Nule:2 shares border with Orune:2 . [SEP],Orune:2,Orune:2,1,Orune:2,1,-7.32852
+[CLS] Cundinamarca:4 Department shares border with Huila:2 Department . [SEP],Huila:2 Department,Huila:2 Department,1,Huila:2 Department,1,-0.94835
+[CLS] Mondulkiri:4 Province shares border with Ratanakiri:3 Province . [SEP],Ratanakiri:3 Province,Ratanakiri:3 Province,1,Ratanakiri:3 Province,1,-2.37256
+[CLS] Brackley:3 shares border with Daventry:3 . [SEP],Daventry:3,Daventry:3,1,Daventry:3,1,-2.79124
+[CLS] Mazingarbe:4 shares border with Vermelles:3 . [SEP],Vermelles:3,Vermelles:3,1,Vermelles:3,1,-3.37597
+[CLS] Llanes:3 shares border with Peñamellera:3 Alta . [SEP],Peñamellera:3 Alta,Peñamellera:3 Alta,1,Peñamellera:3 Alta,1,-3.46729
+[CLS] Cupramontana:4 shares border with Maiolati:2 Spontini:3 . [SEP],Maiolati:2 Spontini:3,Maiolati:2 Spontini:3,1,Maiolati:2 Spontini:3,1,-6.57000
+[CLS] Solothurn:3 shares border with Bellach:2 . [SEP],Bellach:2,Bellach:2,1,Bellach:2,1,-7.03627
+[CLS] Nuristan:2 shares border with Panjshir:3 . [SEP],Panjshir:3,Panjshir:3,1,Panjshir:3,1,-4.04243
+[CLS] Molenwaard:4 shares border with Alblasserdam:4 . [SEP],Alblasserdam:4,Alblasserdam:4,1,Alblasserdam:4,1,-4.76913
+[CLS] Suhl:2 shares border with Ilm:2 - Kreis . [SEP],Ilm:2 - Kreis,Ilm:2 - Kreis,1,Ilm:2 - Kreis,1,-0.72350
+[CLS] Utrecht shares border with North Holland . [SEP],North Holland,North Holland,1,North Holland,1,-1.26839
+[CLS] Mon district shares border with Longleng:3 district . [SEP],Longleng:3 district,Longleng:3 district,1,Longleng:3 district,1,-3.25651
+[CLS] Quaregna:3 shares border with Piatto:2 . [SEP],Piatto:2,Piatto:2,1,Piatto:2,1,-4.77145
+[CLS] Lazise:3 shares border with Castelnuovo:3 del Garda . [SEP],Castelnuovo:3 del Garda,Castelnuovo:3 del Garda,1,Castelnuovo:3 del Garda,1,-0.59551
+[CLS] Central Ostrobothnia:5 shares border with Northern Ostrobothnia:5 . [SEP],Northern Ostrobothnia:5,Northern Ostrobothnia:5,1,Northern Ostrobothnia:5,1,-0.35924
+[CLS] Las Animas:2 County shares border with Baca:2 County . [SEP],Baca:2 County,Baca:2 County,1,Baca:2 County,1,-4.10970
+[CLS] County Longford:2 shares border with County Roscommon:2 . [SEP],County Roscommon:2,County Roscommon:2,1,County Roscommon:2,1,-0.20530
+[CLS] Jose Panganiban:3 shares border with Paracale:2 . [SEP],Paracale:2,Paracale:2,1,Paracale:2,1,-8.47991
+[CLS] Pompeiana:3 shares border with Santo Stefano al Mare . [SEP],Santo Stefano al Mare,Santo Stefano al Mare,1,Santo Stefano al Mare,1,-1.27572
+[CLS] Arosa:2 shares border with Peist:2 . [SEP],Peist:2,Peist:2,1,Peist:2,1,-8.99399
+[CLS] Telve:2 shares border with Valfloriana:4 . [SEP],Valfloriana:4,Valfloriana:4,1,Valfloriana:4,1,-3.91754
+[CLS] Montauro:3 shares border with Squillace:3 . [SEP],Squillace:3,Squillace:3,1,Squillace:3,1,-0.96253
+[CLS] Gowanus:3 shares border with Carroll Gardens . [SEP],Carroll Gardens,Carroll Gardens,1,Carroll Gardens,1,-8.89604
+[CLS] Amazonas shares border with Mato Grosso . [SEP],Mato Grosso,Mato Grosso,1,Mato Grosso,1,-0.01064
+[CLS] Kasaï:3 - Occidental shares border with Katanga:2 Province . [SEP],Katanga:2 Province,Katanga:2 Province,1,Katanga:2 Province,1,-0.84414
+[CLS] Obion:2 County shares border with Fulton County . [SEP],Fulton County,Fulton County,1,Fulton County,1,-4.29810
+[CLS] Riolo:2 Terme shares border with Casola:2 Valsenio:3 . [SEP],Casola:2 Valsenio:3,Casola:2 Valsenio:3,1,Casola:2 Valsenio:3,1,-4.49799
+[CLS] Castropol:2 shares border with Vilanova:2 d ' Ozcos:2 . [SEP],Vilanova:2 d ' Ozcos:2,Vilanova:2 d ' Ozcos:2,1,Vilanova:2 d ' Ozcos:2,1,-3.92897
+[CLS] Rueglio:2 shares border with Alice Superiore . [SEP],Alice Superiore,Alice Superiore,1,Alice Superiore,1,-10.80976
+[CLS] Bubbiano:3 shares border with Morimondo:2 . [SEP],Morimondo:2,Morimondo:2,1,Morimondo:2,1,-6.09369
+[CLS] Barolo:2 shares border with Narzole:3 . [SEP],Narzole:3,Narzole:3,1,Narzole:3,1,-3.73264
+[CLS] Saint - Georges - des - Gardes:2 shares border with La Tourlandry:3 . [SEP],La Tourlandry:3,La Tourlandry:3,1,La Tourlandry:3,1,-5.04537
+[CLS] Terzo:2 shares border with Bistagno:3 . [SEP],Bistagno:3,Bistagno:3,1,Bistagno:3,1,-4.50013
+[CLS] Chiusa:2 di Pesio:2 shares border with Limone:2 Piemonte . [SEP],Limone:2 Piemonte,Limone:2 Piemonte,1,Limone:2 Piemonte,1,-5.06005
+[CLS] Frenchtown:2 shares border with Missoula:3 . [SEP],Missoula:3,Missoula:3,1,Missoula:3,1,-2.79982
+[CLS] Sitges:2 shares border with Sant Pere de Ribes:2 . [SEP],Sant Pere de Ribes:2,Sant Pere de Ribes:2,1,Sant Pere de Ribes:2,1,-1.18019
+[CLS] Murcia shares border with Alhama:2 de Murcia . [SEP],Alhama:2 de Murcia,Alhama:2 de Murcia,1,Alhama:2 de Murcia,1,-0.66361
+[CLS] Poweshiek:4 County shares border with Tama:2 County . [SEP],Tama:2 County,Tama:2 County,1,Tama:2 County,1,-2.37161
+[CLS] Vorpommern - Greifswald District shares border with Mecklenburgische:2 Seenplatte:2 District . [SEP],Mecklenburgische:2 Seenplatte:2 District,Mecklenburgische:2 Seenplatte:2 District,1,Mecklenburgische:2 Seenplatte:2 District,1,-0.42433
+[CLS] Kreuzberg:2 shares border with Tempelhof:2 . [SEP],Tempelhof:2,Tempelhof:2,1,Tempelhof:2,1,-3.22879
+[CLS] Bolognola:4 shares border with Sarnano:2 . [SEP],Sarnano:2,Sarnano:2,1,Sarnano:2,1,-5.26962
+[CLS] Cass County shares border with Howard County . [SEP],Howard County,Howard County,1,Howard County,1,-5.47469
+[CLS] Ain shares border with Canton of Geneva . [SEP],Canton of Geneva,Canton of Geneva,1,Canton of Geneva,1,-3.23547
+[CLS] Caledon:3 shares border with Brampton:3 . [SEP],Brampton:3,Brampton:3,1,Brampton:3,1,-1.45268
+[CLS] Aktobe:2 Region shares border with Karaganda:3 Region . [SEP],Karaganda:3 Region,Karaganda:3 Region,1,Karaganda:3 Region,1,-2.23076
+[CLS] Manikganj:4 District shares border with Faridpur:3 District . [SEP],Faridpur:3 District,Faridpur:3 District,1,Faridpur:3 District,1,-2.31882
+[CLS] Massello:2 shares border with Fenestrelle:4 . [SEP],Fenestrelle:4,Fenestrelle:4,1,Fenestrelle:4,1,-3.54702
+[CLS] Frabosa:3 Sottana:3 shares border with Magliano:2 Alpi . [SEP],Magliano:2 Alpi,Magliano:2 Alpi,1,Magliano:2 Alpi,1,-4.97174
+[CLS] Sant ' Andrea del Garigliano:3 shares border with Rocca d ' Evandro:2 . [SEP],Rocca d ' Evandro:2,Rocca d ' Evandro:2,1,Rocca d ' Evandro:2,1,-1.97386
+[CLS] Casalnoceto:3 shares border with Rivanazzano:3 Terme . [SEP],Rivanazzano:3 Terme,Rivanazzano:3 Terme,1,Rivanazzano:3 Terme,1,-5.55159
+[CLS] Pojana:2 Maggiore shares border with Cologna:2 Veneta:2 . [SEP],Cologna:2 Veneta:2,Cologna:2 Veneta:2,1,Cologna:2 Veneta:2,1,-3.76307
+[CLS] Ferentillo:3 shares border with Monteleone:3 di Spoleto:3 . [SEP],Monteleone:3 di Spoleto:3,Monteleone:3 di Spoleto:3,1,Monteleone:3 di Spoleto:3,1,-1.51976
+[CLS] Chiusaforte:3 shares border with Bovec:2 . [SEP],Bovec:2,Bovec:2,1,Bovec:2,1,-6.67259
+[CLS] Capracotta:3 shares border with Agnone:3 . [SEP],Agnone:3,Agnone:3,1,Agnone:3,1,-2.15224
+[CLS] Sambuca:3 Pistoiese:3 shares border with Pistoia:3 . [SEP],Pistoia:3,Pistoia:3,1,Pistoia:3,1,-1.47722
+[CLS] Sorianello:3 shares border with Soriano:2 Calabro:3 . [SEP],Soriano:2 Calabro:3,Soriano:2 Calabro:3,1,Soriano:2 Calabro:3,1,-0.80364
+[CLS] Khabarovsk:5 Krai:2 shares border with Amur:2 Oblast . [SEP],Amur:2 Oblast,Amur:2 Oblast,1,Amur:2 Oblast,1,-1.10809
+[CLS] Massa di Somma:2 shares border with Ercolano:3 . [SEP],Ercolano:3,Ercolano:3,1,Ercolano:3,1,-1.82193
+[CLS] Castel Morrone:2 shares border with Caserta:2 . [SEP],Caserta:2,Caserta:2,1,Caserta:2,1,-0.72968
+[CLS] Ripalimosani:5 shares border with Campobasso:3 . [SEP],Campobasso:3,Campobasso:3,1,Campobasso:3,1,-0.39906
+[CLS] Serrone:2 shares border with Paliano:2 . [SEP],Paliano:2,Paliano:2,1,Paliano:2,1,-4.95876
+[CLS] Bou shares border with Jargeau:3 . [SEP],Jargeau:3,Jargeau:3,1,Jargeau:3,1,-5.27611
+[CLS] Ripi:3 shares border with Veroli:2 . [SEP],Veroli:2,Veroli:2,1,Veroli:2,1,-5.58489
+[CLS] Centre Hastings shares border with Madoc:2 . [SEP],Madoc:2,Madoc:2,1,Madoc:2,1,-7.37249
+[CLS] Gattinara:3 shares border with Romagnano:2 Sesia:2 . [SEP],Romagnano:2 Sesia:2,Romagnano:2 Sesia:2,1,Romagnano:2 Sesia:2,1,-5.29894
+[CLS] Naples shares border with Casoria:3 . [SEP],Casoria:3,Casoria:3,1,Casoria:3,1,-2.36689
+[CLS] Borghetto:3 Santo Spirito:2 shares border with Loano:2 . [SEP],Loano:2,Loano:2,1,Loano:2,1,-4.60764
+[CLS] Montecrestese:4 shares border with Crodo:3 . [SEP],Crodo:3,Crodo:3,1,Crodo:3,1,-6.13893
+[CLS] Castiadas:3 shares border with Villasimius:3 . [SEP],Villasimius:3,Villasimius:3,1,Villasimius:3,1,-7.35895
+[CLS] Tusa:2 shares border with Pettineo:3 . [SEP],Pettineo:3,Pettineo:3,1,Pettineo:3,1,-6.92580
+[CLS] Dorney:2 shares border with Maidenhead:2 . [SEP],Maidenhead:2,Maidenhead:2,1,Maidenhead:2,1,-2.62218
+[CLS] Lehrte:2 shares border with Uetze:2 . [SEP],Uetze:2,Uetze:2,1,Uetze:2,1,-5.35409
+[CLS] Andigné:3 shares border with Le Lion - d ' Angers . [SEP],Le Lion - d ' Angers,Le Lion - d ' Angers,1,Le Lion - d ' Angers,1,-2.42072
+[CLS] Paruzzaro:4 shares border with Arona:2 . [SEP],Arona:2,Arona:2,1,Arona:2,1,-4.22923
+[CLS] Boxborough:2 shares border with Acton:2 . [SEP],Acton:2,Acton:2,1,Acton:2,1,-3.48261
+[CLS] Brugine:3 shares border with Bovolenta:3 . [SEP],Bovolenta:3,Bovolenta:3,1,Bovolenta:3,1,-5.63116
+[CLS] Pskov:3 Oblast shares border with Alūksne:4 Municipality . [SEP],Alūksne:4 Municipality,Alūksne:4 Municipality,1,Alūksne:4 Municipality,1,-5.57427
+[CLS] Olginate:3 shares border with Calolziocorte:5 . [SEP],Calolziocorte:5,Calolziocorte:5,1,Calolziocorte:5,1,-7.79622
+[CLS] Buffalo County shares border with Winona:2 County . [SEP],Winona:2 County,Winona:2 County,1,Winona:2 County,1,-1.67611
+[CLS] Pianico:2 shares border with Lovere:2 . [SEP],Lovere:2,Lovere:2,1,Lovere:2,1,-4.96251
