@@ -19,8 +19,9 @@ for m in "${MODELS[@]}"; do # access each element of array
     for l in "${LANGS[@]}"; do
         echo "==========" $m $l ${args} "=========="
         filename=${out_dir}/${m}__${l}.out
-        echo "python scripts/probe.py --probe $probe --model $m --lang $l ${args} &> $filename" > $filename
-        python scripts/probe.py --probe $probe --model $m --lang $l "${@:4}" &>> $filename
+        pred_dir=${out_dir}/${m}__${l}/
+        echo "python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir ${args} &> $filename" > $filename
+        python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir "${@:4}" &>> $filename
         tail -n 1 $filename
     done
 done

@@ -93,6 +93,23 @@ class CsvLogFileContext:
             self.file.close()
 
 
+class JsonLogFileContext:
+    def __init__(self, filename: str=None):
+        self.filename = filename
+
+
+    def __enter__(self):
+        if self.filename:
+            self.file = open(self.filename, 'w')
+            return self.file
+        return None
+
+
+    def __exit__(self, exc_type, exc_value, exc_traceback):
+        if self.filename:
+            self.file.close()
+
+
 class ProbeIterator(object):
     def __init__(self, args: argparse.Namespace, tokenizer):
         if args.use_gold:
@@ -155,6 +172,8 @@ class ProbeIterator(object):
         # log
         if args.log_dir and not os.path.exists(args.log_dir):
             os.makedirs(args.log_dir)
+        if args.pred_dir and not os.path.exists(args.pred_dir):
+            os.makedirs(args.pred_dir)
 
         # prompt model
         self.prompt_model = Prompt.from_lang(
@@ -207,12 +226,14 @@ class ProbeIterator(object):
                 if self.unk in sub_label_t or self.unk in obj_label_t:
                     not_exist += 1
                     continue
-                if self.args.skip_single_word and len(obj_label_t) <= 1:
+                if len(obj_label_t) <= 1:
                     num_single_word += 1
-                    continue
-                if self.args.skip_multi_word and len(obj_label_t) > 1:
+                    if self.args.skip_single_word:
+                        continue
+                if len(obj_label_t) > 1:
                     num_multi_word += 1
-                    continue
+                    if self.args.skip_multi_word:
+                        continue
                 queries.append(l)
 
         return queries, [num_skip, not_exist, num_multi_word, num_single_word]
@@ -311,7 +332,11 @@ class ProbeIterator(object):
                     log_filename = os.path.join(self.args.log_dir, relation + '.csv')
                     headers = ['sentence', 'prediction', 'gold_inflection', 'is_same',
                                'gold_original', 'is_same', 'log_prob']
-                with CsvLogFileContext(log_filename, headers=headers) as csv_file:
+                json_log_filename = None
+                if self.args.pred_dir:
+                    json_log_filename = os.path.join(self.args.pred_dir, relation + '.jsonl')
+                with CsvLogFileContext(log_filename, headers=headers) as csv_file, \
+                        JsonLogFileContext(json_log_filename) as json_file:
                     start_time = time.time()
 
                     # get queries
@@ -392,6 +417,40 @@ class ProbeIterator(object):
                                         load_word_ids(obj_ori, self.tokenizer, self.pad_label), is_correct_ori,
                                         '{:.5f}'.format(lp.item())])
 
+                                def get_all_pred_score():
+                                    results: List[str] = []
+                                    for nm in range(NUM_MASK):
+                                        pred = logprob[i, nm].masked_select(
+                                            mask_ind[i, nm].eq(1)).detach().cpu().numpy().reshape(-1)
+                                        results.append(pred.tolist())
+                                    return results
+
+                                def get_all_pred():
+                                    results: List[str] = []
+                                    for nm in range(NUM_MASK):
+                                        pred = out_tensor[i, nm].masked_select(
+                                            mask_ind[i, nm].eq(1)).detach().cpu().numpy().reshape(-1)
+                                        results.append(merge_subwords(pred, tokenizer, merge=False))
+                                    return results
+
+                                if self.args.pred_dir:
+                                    json_file.write(json.dumps({
+                                        # raw data
+                                        'sub_uri': query_batch[i]['sub_uri'],
+                                        'obj_uri': query_batch[i]['obj_uri'],
+                                        'sub_label': query_batch[i]['sub_label'],
+                                        'obj_label': query_batch[i]['obj_label'],
+                                        'prompt': prompt,
+                                        # tokenized data
+                                        'num_mask': best_num_mask.item() + 1,
+                                        'sentence': merge_subwords(inp, tokenizer, merge=False),
+                                        'tokenized_obj_label_inflection': merge_subwords(obj, tokenizer, merge=False),
+                                        'tokenized_obj_label': merge_subwords(obj_ori, tokenizer, merge=False),
+                                        # predictions
+                                        'pred': get_all_pred(),
+                                        'pred_log_prob': get_all_pred_score(),
+                                    }) + '\n')
+
                                 '''
                                 if len(pred) == len(obj):
                                     print('pred {}\tgold {}'.format(
@@ -408,10 +467,11 @@ class ProbeIterator(object):
                     acc_li.append(acc_for_rel)
 
                     print('pid {}\t#fact {}\t'
-                          '#notrans {}\t#notexist {}\t#skipmultiword {}\t#skipsingleword {}\t'
+                          '#notrans {}\t#notexist {}\t#multiword {},{}\t#singleword {},{}\t'
                           'oracle {:.4f}\ttime {:.1f}'.format(
                         relation, len(queries),
-                        num_skip, not_exist, num_multi_word, num_single_word,
+                        num_skip, not_exist, num_multi_word, self.args.skip_multi_word,
+                        num_single_word, self.args.skip_single_word,
                         acc_for_rel, time.time() - start_time))
 
             except Exception as e:
@@ -446,6 +506,12 @@ def load_word_ids(ids: Union[np.ndarray, List[int]], tokenizer, pad_label: str) 
         else:
             tokens.append([t, 1])
     return ' '.join(map(lambda t: '{}:{}'.format(*t) if t[1] > 1 else t[0], tokens))
+
+
+def merge_subwords(ids: Union[np.ndarray, List[int]], tokenizer, merge: bool=False) -> str:
+    if not merge:
+        return list(tokenizer.convert_ids_to_tokens(ids))
+    return NotImplementedError
 
 
 def iter_decode(model,
@@ -591,7 +657,8 @@ if __name__ == '__main__':
 
     # others
     parser.add_argument('--use_gold', action='store_true', help='use gold objects')
-    parser.add_argument('--log_dir', type=str, help='directory to store prediction results', default=None)
+    parser.add_argument('--log_dir', type=str, help='directory to vis prediction results', default=None)
+    parser.add_argument('--pred_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()

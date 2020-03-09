@@ -20,8 +20,9 @@ while [ $i -lt ${#FACTS[*]} ]; do
 
     echo "==========" $f ${args} "=========="
     filename=${out_dir}/${f}.out
-    echo "python scripts/probe.py --model ${model} --lang ${lang} --facts ${fact_file}:${f} ${args} &> $filename" > $filename
-    python scripts/probe.py --model ${model} --lang ${lang} --facts ${fact_file}:${f} "${@:6}" &>> $filename
+    pred_dir=${out_dir}/${f}/
+    echo "python scripts/probe.py --model ${model} --lang ${lang} --facts ${fact_file}:${f} --pred_dir $pred_dir ${args} &> $filename" > $filename
+    python scripts/probe.py --model ${model} --lang ${lang} --facts ${fact_file}:${f} --pred_dir $pred_dir "${@:6}" &>> $filename
     tail -n 1 $filename
 
     i=$(( $i + 1));
