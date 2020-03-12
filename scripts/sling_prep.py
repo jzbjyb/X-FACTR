@@ -12,7 +12,7 @@ import string
 import importlib
 import sling
 from distantly_supervise import SlingExtractor
-from probe import load_entity_lang, ENTITY_LANG_PATH, ENTITY_PATH
+from probe import load_entity_lang
 
 
 # inspect a record file
@@ -282,7 +282,7 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
     parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds', 'cw_gen_data',
-                                                     'partition_entity', 'partition_fact'])
+                                                     'partition_entity', 'partition_fact', 'cw_gen_data_control'])
     parser.add_argument('--lang', type=str, help='language to probe', choices=['el', 'fr', 'nl'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
     parser.add_argument('--inp', type=str, default=None)
@@ -432,3 +432,70 @@ if __name__ == '__main__':
                         if (e2, e1) in facts:
                             fact2count[(e2, e1)] += 1
 
+    elif args.task == 'cw_gen_data_control':
+        entity_lang_path = 'data/mTREx_unicode_escape.txt'
+
+        # load entities' translations
+        entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(entity_lang_path)
+
+        # load facts we want to identify
+        facts: List[Tuple[str, str, str]] = []
+        entities: Set[str] = set()
+        for root, dirs, files in os.walk(args.inp):
+            for file in files:
+                with open(os.path.join(root, file), 'r') as fin:
+                    pid = file.split('.', 1)[0]
+                    for l in fin:
+                        f = json.loads(l)
+                        s, o = f['sub_uri'], f['obj_uri']
+                        if args.lang not in entity2lang[s] or \
+                                'en' not in entity2lang[s] or \
+                                args.lang not in entity2lang[o] or \
+                                'en' not in entity2lang[o]:
+                            continue
+                        f = (s, pid, o)
+                        facts.append(f)
+                        entities.add(s)
+                        entities.add(o)
+
+        print('#facts {}, #entities {}'.format(len(facts), len(entities)))
+
+        if not os.path.exists(args.out):
+            os.makedirs(args.out, exist_ok=True)
+
+        for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
+            # code-switching for two directions
+            with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
+                for sent, mentions in locate_entity(
+                        entities, glob.glob('data/sling/{}/*.rec'.format(lang_from))):
+                    if len(sent) >= 128:  # TODO: focus on short sentence
+                        continue
+
+                    pos2mentind: Dict[int, int] = {}
+                    for i, (entity, start, end) in enumerate(mentions):
+                        for j in range(start, end):
+                            if j in pos2mentind:
+                                break  # avoid overlapping mentions
+                            pos2mentind[j] = i
+
+                    entity_id: List[str] = []
+                    surface_from: List[str] = []
+                    surface_to: List[str] = []
+                    tokens: List[str] = []
+
+                    for i in range(len(sent)):
+                        if i not in pos2mentind:
+                            tokens.append(sent[i])
+                        elif i in pos2mentind and (i - 1) in pos2mentind and pos2mentind[i] == pos2mentind[i - 1]:
+                            continue
+                        else:
+                            entity, start, end = mentions[pos2mentind[i]]
+                            tokens.append('[[' + entity + ']]')
+                            entity_id.append(entity)
+                            surface_from.append(' '.join(sent[start:end]))
+                            surface_to.append(entity2lang[entity][lang_to])
+
+                    fout.write('{}\t{}\n'.format(
+                        ' '.join(tokens),
+                        '\t'.join(['{} ||| {} ||| {}'.format(e, f, t)
+                                   for e, f, t in zip(entity_id, surface_from, surface_to)])))
