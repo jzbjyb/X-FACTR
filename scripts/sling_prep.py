@@ -8,11 +8,18 @@ from collections import defaultdict
 import numpy as np
 import glob
 from tqdm import tqdm
+import random
+from random import shuffle
 import string
 import importlib
 import sling
 from distantly_supervise import SlingExtractor
 from probe import load_entity_lang
+
+
+SEED = 2020
+random.seed(SEED)
+np.random.seed(SEED)
 
 
 # inspect a record file
@@ -463,6 +470,10 @@ if __name__ == '__main__':
         if not os.path.exists(args.out):
             os.makedirs(args.out, exist_ok=True)
 
+        with open(os.path.join(args.out, 'facts.txt'), 'w') as fout:
+            for s, p, o in facts:
+                fout.write('{}\t{}\t{}'.format(s, p, o))
+
         for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
             # code-switching for two directions
             with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
@@ -499,3 +510,33 @@ if __name__ == '__main__':
                         ' '.join(tokens),
                         '\t'.join(['{} ||| {} ||| {}'.format(e, f, t)
                                    for e, f, t in zip(entity_id, surface_from, surface_to)])))
+
+    elif args.task == 'cw_gen_data_control2':
+        source_lang, target_lang = 'en', 'el'
+
+        facts: Dict[Tuple[str, str], Set[str]] = defaultdict(set)
+        with open(os.path.join(args.inp, 'facts.txt'), 'r') as fin:
+            for l in fin:
+                s, p, o = l.strip().split('\t')
+                facts[(s, o)].add(p)
+
+        fact2sent1: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
+        fact2sent2: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
+
+        for ind, (source, target) in enumerate([(source_lang, target_lang), (target_lang, source_lang)]):
+            fact2sent = eval('fact2sent{}'.format(ind))
+            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt'.format(source, target)))
+            for sent_ind, (tokens, mentions) in enumerate(dataset.iter()):
+                for i in range(len(mentions)):
+                    for j in range(i + 1, len(mentions)):
+                        e1, e2 = mentions[i][0], mentions[j][0]
+                        if (e1, e2) in facts:
+                            fact2sent[(e1, e2)].add(sent_ind)
+                        if (e2, e1) in facts:
+                            fact2sent[(e2, e1)].add(sent_ind)
+
+        print('#facts {}, #facts {} {}, #facts {} {}'.format(
+            len(facts), source_lang, len(fact2sent1), target_lang, len(fact2sent2)))
+
+        join_fact = list(set(fact2sent1.keys()) & set(fact2sent2.keys()))
+        shuffle(join_fact)
