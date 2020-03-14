@@ -1,0 +1,47 @@
+Relation	Label	Desc	Type	French Template
+P19	place of birth	most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character	N-1	[X] est né en [Y] .
+P20	place of death	most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character	N-1	[X] est décédé en [Y] .
+P279	subclass of	all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)	N-1	[X] est une sous-classe de [Y] .
+P37	official language	language designated as official by this item	N-1	La langue officielle de [X] est [Y] .
+P413	position played on team / speciality	position or specialism of a player on a team, e.g. Small Forward	N-1	[X] joue en position [Y] .
+P166	award received	award or recognition received by a person, organisation or creative work	N-M	[X] a reçu le [Y] .
+P449	original network	network(s) the radio or television show was originally aired on,  including	N-1	[X] a été diffusé à l'origine sur [Y] .
+P69	educated at	educational institution attended by subject	N-M	[X] a fait ses études à l'Université de [Y] .
+P47	shares border with	countries or administrative subdivisions, of equal level, that this item borders, either by land or water	N-M	[X] partage la frontière avec [Y] .
+P138	named after	entity or event that inspired the subject's name, or namesake (in at least one language)	N-1	[X] est nommé d'après [Y] .
+P364	original language of film or TV show	language in which a film or a performance work was originally created. Deprecated for written works; use P407 ("language of work or name") instead.	N-1	La langue d'origine de [X] est [Y] .
+P54	member of sports team	sports teams or clubs that the subject currently represents or formerly represented	N-1	[X] joue avec [Y] .
+P463	member of	organization or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).	N-M	[X] est membre de [Y] .
+P101	field of work	specialization of a person or organization; see P106 for the occupation	N-M	[X] fonctionne dans le domaine de [Y] .
+P1923	participating team	Like 'Participant' (P710) but for teams. For an event like a cycle race or a football match you can use this property to list the teams and P710 to list the individuals (with 'member of sports team' (P54)' as a qualifier for the individuals)	N-M	[Y] a participé au [X] .
+P106	occupation	occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)	N-M	[X] est un [Y] de profession .
+P527	has part	part of this subject; inverse property of "part of" (P361). See also "has parts of the class" (P2670).	N-M	[X] se compose de [Y] .
+P102	member of political party	the political party of which this politician is or has been a member	N-1	[X] est membre du parti politique [Y] .
+P530	diplomatic relation	diplomatic relations of the country	N-M	[X] entretient des relations diplomatiques avec [Y] .
+P176	manufacturer	manufacturer or producer of this product	N-1	[X] est produit par [Y] .
+P27	country of citizenship	the object is a country that recognizes the subject as its citizen	N-M	[X] est citoyen [Y] .
+P407	language of work or name	language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use P103 and P1412)	N-1	[X] a été écrit en [Y] .
+P30	continent	continent of which the subject is a part	N-1	[X] est situé dans [Y] .
+P178	developer	organisation or person that developed the item	N-M	[X] est développé par [Y] .
+P1376	capital of	country, state, department, canton or other administrative division of which the municipality is the governmental seat	1-1	[X] est la capitale de [Y] .
+P131	located in the administrative territorial entity	the item is located on the territory of the following administrative entity. Use P276 (location) for specifying the location of non-administrative places and for items about events	N-1	[X] est situé dans [Y] .
+P1412	languages spoken, written or signed	language(s) that a person speaks or writes, including the native language(s)	N-M	[X] communiquait en [Y] .
+P108	employer	person or organization for which the subject works or worked	N-M	[X] fonctionne pour [Y] .
+P136	genre	creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic	N-1	[X] lit la musique [Y] .
+P17	country	sovereign state of this item; don't use on humans	N-1	[X] est situé dans [Y] .
+P39	position held	subject currently or formerly holds the object position or public office	N-M	[X] a la position de [Y] .
+P264	record label	brand and trademark associated with the marketing of subject music recordings and music videos	N-1	[X] est représenté par le label musical [Y] .
+P276	location	location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.	N-1	[X] est situé dans [Y] .
+P937	work location	location where persons were active	N-M	[X] travaillait auparavant dans [Y] .
+P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1	[X] est affilié à la religion [Y] .
+P1303	instrument	musical instrument that a person plays	N-M	[X] joue [Y] .
+P127	owned by	owner of the subject	N-1	[X] appartient à [Y] .
+P103	native language	language or languages a person has learned from early childhood	N-1	La langue maternelle de [X] est [Y] .
+P190	twinned administrative body	twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments	N-M	[X] et [Y] sont des villes jumelles .
+P1001	applies to jurisdiction	the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)	N-M	[X] est un terme juridique en [Y] .
+P31	instance of	that class of which this subject is a particular example and member (subject typically an individual member with a proper name label); different from P279; using this property as a qualifier is deprecated—use P2868 or P3831 instead	N-M	[X] est un [Y] .
+P495	country of origin	country of origin of this item (creative work, food, phrase, product, etc.)	N-1	[X] a été créé dans [Y] .
+P159	headquarters location	specific location where an organization's headquarters is or has been situated. Inverse property of "occupant" (P466).	N-1	Le siège social de [X] est en [Y] .
+P36	capital	primary city of a country, state or other type of administrative territorial entity	1-1	Le capital de [X] est [Y] .
+P740	location of formation	location where a group or organization was formed	N-1	[X] a été fondée en [Y] .
+P361	part of	object of which the subject is a part (it's not useful to link objects which are themselves parts of other objects already listed as parts of the subject). Inverse property of "has part" (P527, see also "has parts of the class" (P2670)).	N-1	[X] fait partie de [Y] .

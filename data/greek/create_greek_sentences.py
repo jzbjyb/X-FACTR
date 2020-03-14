@@ -51,6 +51,17 @@ def read_necessary_data():
 		ent_gender = l[1]
 		genders[ent_id] = ent_gender
 
+	# Read list of entity IDs with their instanceof or subclassof information, if known
+	with open("../TREx_instanceof.txt") as inp:
+		lines = inp.readlines()
+
+	instanceof = {}
+	for l in lines:
+		l = l.strip().split('\t')
+		ent_id = l[0]
+		instanceof[ent_id] = ','.join(l[1:])
+
+
 	# Read list of greek entities
 	with open("TREx_greek.txt") as inp:
 		lines = inp.readlines()
@@ -61,12 +72,52 @@ def read_necessary_data():
 		ent_id = l[0]
 		ent_form = l[1]
 		ent_gender = gender_heuristic(ent_form).upper()
+		ent_number = "SG"
 		if ent_id in genders:
 			if genders[ent_id] == "male":
 				ent_gender = "MASC"
 			elif genders[ent_id] == "female":
 				ent_gender = "FEM"
-		entities[ent_id] = (ent_form, ent_gender)	
+			else:
+				if ent_id in instanceof and ent_gender == "NEUT":
+					if 'state' in instanceof[ent_id] or 'country' in instanceof[ent_id]:
+						if 'ν' != ent_form[-1] and 'ο' != ent_form[-1]  and 'ό' != ent_form[-1]:
+							ent_gender = "FEM"
+					elif 'business' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					elif 'enterprise' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					elif 'city' in instanceof[ent_id]:
+						if 'ι' != ent_form[-1] and 'ο' != ent_form[-1]:
+							ent_gender = "FEM"
+					# ARGH WHAT TO DO HERE
+					elif 'human' in instanceof[ent_id]:
+						ent_gender = "MASC" 
+					elif 'island' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					elif 'literary work' in instanceof[ent_id]:
+						ent_gender = "NEUT"
+					elif 'musical group' in instanceof[ent_id]:
+						ent_gender = "MASC"
+						ent_number = "PL"
+					elif 'record label' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					elif 'language' in instanceof[ent_id]:
+						ent_gender = "NEUT"
+						ent_number = "PL"
+					elif 'sports team' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					elif 'automobile manufacturer' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					elif 'football club' in instanceof[ent_id]:
+						ent_gender = "FEM"
+					#elif '' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif '' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+
+
+		entities[ent_id] = (ent_form, ent_gender, ent_number)	
 
 	'''
 	# Read list of greek entities
@@ -82,7 +133,7 @@ def read_necessary_data():
 		entities[ent_id] = (ent_form, ent_gender)
 	'''
 
-	with open("articles.el.txt") as inp:
+	with open("../lang_resource/el/articles.txt") as inp:
 		lines = inp.readlines()
 
 	article = {}
@@ -93,16 +144,16 @@ def read_necessary_data():
 	return entities, article
 
 
-def fil_y(words, ent_form, ent_gender, article):
+def fil_y(words, ent_form, ent_gender, ent_number, article):
 	#ent_form = entities[ent_id][0]
 	#ent_gender = entities[ent_id][1].upper()
-	ent_number = "SG"
-	if ent_form[-2:] == "ες":
+	#ent_number = "SG"
+	if ent_form[-2:] == "ες" or ent_form[-2:] == "ές":
 		ent_number = "PL"
 		ent_gender = "FEM"
-	elif ent_form[-1] == "ά":
-		ent_number = "PL"
-		ent_gender = "NEUT"
+	#elif ent_form[-1] == "ά":
+	#	ent_number = "PL"
+	#	ent_gender = "NEUT"
 
 	if some_roman_chars(ent_form) or ent_form.isupper() or ent_form[-1] in ['β','γ','δ','ζ','κ','λ','μ','ν','ξ','π','ρ','τ','φ','χ','ψ']:
 		do_not_inflect = True
@@ -155,16 +206,13 @@ def fil_y(words, ent_form, ent_gender, article):
 	
 	return words
 
-def fil_x(words, ent_form, ent_gender, article):
+def fil_x(words, ent_form, ent_gender, ent_number, article):
 	#ent_form = entities[ent_id][0]
 	#ent_gender = entities[ent_id][1].upper()
-	ent_number = "SG"
+	#ent_number = "SG"
 	if ent_form[-2:] == "ες":
 		ent_number = "PL"
 		ent_gender = "FEM"
-	elif ent_form[-1] == "ά":
-		ent_number = "PL"
-		ent_gender = "NEUT"
 
 	if some_roman_chars(ent_form) or ent_form.isupper() or ent_form[-1] in ['β','γ','δ','ζ','κ','λ','μ','ν','ξ','π','ρ','τ','φ','χ','ψ']:
 		do_not_inflect = True
@@ -206,7 +254,19 @@ def fil_x(words, ent_form, ent_gender, article):
 	if "[PREPDEF;X]" in words:
 		i = words.index('[PREPDEF;X]')
 		words[i] = article[f"ART;PREPDEF;{ent_gender};{ent_number};{ent_case}"]
-		
+
+	# Now also check the corresponfing verbs, if they exist.
+	# Needed for subject-verb agreement
+	for i,w in enumerate(words):
+		if w[0] == '[' and 'X-Number' in w:
+			if '|' in w:
+				options = w.strip()[1:-1].split('|')
+				if ent_number == "SG":
+					form = options[0].strip().split(';')[0]
+					words[i] = form
+				else:
+					form = options[1].strip().split(';')[0]
+					words[i] = form		
 	return words
 
 def print_examples_for_relation(relation, entities, article):
@@ -230,9 +290,9 @@ def print_examples_for_relation(relation, entities, article):
 				if X_ent_id in entities and Y_ent_id in entities:
 					#if ' ' not in entities[X_ent_id][0] and ' ' not in entities[Y_ent_id][0]:
 					if ' ' not in entities[Y_ent_id][0]:
-						sentence = fil_x(list(words), entities[X_ent_id][0], entities[X_ent_id][1].upper(), article)
-						sentence = fil_y(sentence, entities[Y_ent_id][0], entities[Y_ent_id][1].upper(), article)
-						print("\t\t\t\t\t\t", ' '.join(sentence))
+						sentence = fil_x(list(words), entities[X_ent_id][0], entities[X_ent_id][1].upper(), entities[X_ent_id][2].upper(), article)
+						sentence = fil_y(sentence, entities[Y_ent_id][0], entities[Y_ent_id][1].upper(), entities[Y_ent_id][2].upper(), article)
+						print("\t", ' '.join(sentence))
 						count += 1
 					else:
 						count_double += 1
