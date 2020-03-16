@@ -62,6 +62,8 @@ class Prompt(object):
             return PromptEL(*args, **kwargs)
         if lang == 'ru':
             return PromptRU(*args, **kwargs)
+        if lang == 'fr':
+            return PromptFR(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
