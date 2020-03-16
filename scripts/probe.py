@@ -17,7 +17,7 @@ import pandas
 import csv
 import time
 from prompt import Prompt
-from check_gender import load_entity_gender
+from check_gender import load_entity_gender, Gender
 
 logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
@@ -110,6 +110,15 @@ class JsonLogFileContext:
             self.file.close()
 
 
+def load_entity_instance(filename: str):
+    entity2instance: Dict[str, str] = {}
+    with open(filename, 'r') as fin:
+        for l in fin:
+            l = l.strip().split('\t')
+            entity2instance[l[0]] = ','.join(l[1:])
+    return entity2instance
+
+
 class ProbeIterator(object):
     def __init__(self, args: argparse.Namespace, tokenizer):
         if args.use_gold:
@@ -144,21 +153,25 @@ class ProbeIterator(object):
             self.entity_path = 'data/TREx/{}.jsonl'
             self.entity_lang_path = 'data/TREx_unicode_escape.txt'
             self.entity_gender_path = 'data/TREx_gender.txt'
+            self.entity_instance_path = 'data/TREx_instanceof.txt'
         elif args.probe == 'lama-uhn':
             self.entity_path = 'data/TREx_UHN/{}.jsonl'
             self.entity_lang_path = 'data/TREx_unicode_escape.txt'
             self.entity_gender_path = 'data/TREx_gender.txt'
+            self.entity_instance_path = 'data/TREx_instanceof.txt'
         elif args.probe == 'mlama':
             self.entity_path = 'data/mTREx/sub/{}.jsonl'
             self.entity_lang_path = 'data/mTREx_unicode_escape.txt'
             self.entity_gender_path = 'data/mTREx_gender.txt'
+            self.entity_instance_path = 'data/mTREx_instanceof.txt'
 
         # load data
         self.patterns = []
         with open(self.relation_path) as fin:
             self.patterns.extend([json.loads(l) for l in fin])
         self.entity2lang = load_entity_lang(self.entity_lang_path)
-        self.entity2gender = load_entity_gender(self.entity_gender_path)
+        self.entity2gender: Dict[str, Gender] = load_entity_gender(self.entity_gender_path)
+        self.entity2instance: Dict[str, str] = load_entity_instance(self.entity_instance_path)
         self.prompt_lang = pandas.read_csv(self.prompt_lang_path)
 
         # load facts
@@ -177,7 +190,8 @@ class ProbeIterator(object):
 
         # prompt model
         self.prompt_model = Prompt.from_lang(
-            args.prompt_model_lang or args.lang, args.disable_inflection, args.disable_article)
+            args.prompt_model_lang or args.lang, self.entity2gender, self.entity2instance,
+            args.disable_inflection, args.disable_article)
 
 
     def relation_iter(self, pids: Set[str]=None) -> Tuple[Dict, str]:
@@ -211,9 +225,6 @@ class ProbeIterator(object):
                 elif self.args.portion == 'non' and exist:
                     num_skip += 1
                     continue
-                # load gender
-                l['sub_gender'] = self.entity2gender[l['sub_uri']]
-                l['obj_gender'] = self.entity2gender[l['obj_uri']]
                 # resort to English label
                 if self.args.sub_obj_same_lang:
                     l['sub_label'] = self.entity2lang[l['sub_uri']][LANG if exist else 'en']
@@ -254,24 +265,24 @@ class ProbeIterator(object):
             for query in query_batch:
                 # fill in subjects
                 instance_x, _ = self.prompt_model.fill_x(
-                    prompt, query['sub_uri'], query['sub_label'], gender=query['sub_gender'])
+                    prompt, query['sub_uri'], query['sub_label'])
 
                 # fill in objects
                 instance_xys: List[str] = []
                 if self.args.use_gold:
                     instance_xy, obj_label = self.prompt_model.fill_y(
-                        instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'])
+                        instance_x, query['obj_uri'], query['obj_label'])
                     instance_xys.append(instance_xy)
                     nt_obj = len(tokenizer_wrap(self.tokenizer, LANG, False, obj_label))
                     instance_xy_, _ = self.prompt_model.fill_y(
-                        instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
+                        instance_x, query['obj_uri'], query['obj_label'],
                         num_mask=nt_obj, mask_sym=self.mask_label)
                     gold_with_mask_tensor.append(
                         torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy_)))
                 else:
                     for nm in range(NUM_MASK):
                         instance_xy, obj_label = self.prompt_model.fill_y(
-                            instance_x, query['obj_uri'], query['obj_label'], gender=query['obj_gender'],
+                            instance_x, query['obj_uri'], query['obj_label'],
                             num_mask=nm + 1, mask_sym=self.mask_label)
                         instance_xys.append(instance_xy)
 

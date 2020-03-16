@@ -1,5 +1,4 @@
 from typing import Dict, Tuple, Set
-from collections import defaultdict
 import unicodedata as ud
 import functools
 from overrides import overrides
@@ -35,16 +34,22 @@ class Prompt(object):
     }
 
 
-    def __init__(self, disable_inflection: str=None, disable_article: bool=False):
+    def __init__(self,
+                 entity2lang: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=None,
+                 disable_article: bool=False):
+        self.entity2lang = entity2lang
+        self.entity2instance = entity2instance
         self.disable_inflection: Set[str] = set(disable_inflection) if disable_inflection is not None else set()
         self.disable_article = disable_article
 
 
-    def fill_x(self, prompt: str, uri: str, label: str, gender: Gender=None) -> Tuple[str, str]:
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
         return prompt.replace('[X]', label), label
 
 
-    def fill_y(self, prompt: str, uri: str, label: str, gender: Gender=None,
+    def fill_y(self, prompt: str, uri: str, label: str,
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
         if num_mask <= 0:
             return prompt.replace('[Y]', label), label
@@ -64,8 +69,15 @@ class PromptEL(Prompt):
     SUFS = {'β', 'γ', 'δ', 'ζ', 'κ', 'λ', 'μ', 'ν', 'ξ', 'π', 'ρ', 'τ', 'φ', 'χ', 'ψ'}
 
 
-    def __init__(self, disable_inflection: str=False, disable_article: bool=False):
-        super().__init__(disable_inflection=disable_inflection, disable_article=disable_article)
+    def __init__(self,
+                 entity2lang: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=False,
+                 disable_article: bool=False):
+        super().__init__(entity2lang=entity2lang,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
         self.article: Dict[str, str] = {}
         with open('data/lang_resource/el/articles.txt') as inp:
             for l in inp:
@@ -74,7 +86,8 @@ class PromptEL(Prompt):
 
 
     @overrides
-    def fill_x(self, prompt: str, uri: str, label: str, gender: Gender=None) -> Tuple[str, str]:
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        gender = self.entity2lang[uri]
         gender = self.GENDER_MAP[gender]
         ent_number = "SG"
         if label[-2:] == "ες":
@@ -145,8 +158,9 @@ class PromptEL(Prompt):
 
 
     @overrides
-    def fill_y(self, prompt: str, uri: str, label: str, gender: Gender=None,
+    def fill_y(self, prompt: str, uri: str, label: str,
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        gender = self.entity2lang[uri]
         gender = self.GENDER_MAP[gender]
         ent_number = "SG"
         if label[-2:] == "ες":
@@ -250,12 +264,20 @@ class PromptRU(Prompt):
             return "MASC"
 
 
-    def __init__(self, disable_inflection: str=False, disable_article: bool=False):
-        super().__init__(disable_inflection=disable_inflection, disable_article=disable_article)
+    def __init__(self,
+                 entity2lang: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=False,
+                 disable_article: bool=False):
+        super().__init__(entity2lang=entity2lang,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
 
 
     @overrides
-    def fill_x(self, prompt: str, uri: str, label: str, gender: Gender = None) -> Tuple[str, str]:
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        gender = self.entity2lang[uri]
         gender = self.GENDER_MAP[gender] if gender != 'none' else self.gender_heuristic(label).upper()
         ent_number = "SG"
 
@@ -318,8 +340,10 @@ class PromptRU(Prompt):
 
 
     @overrides
-    def fill_y(self, prompt: str, uri: str, label: str, gender: Gender = None,
+    def fill_y(self, prompt: str, uri: str, label: str,
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        gender = self.entity2lang[uri]
+        gender = self.GENDER_MAP[gender] if gender != 'none' else self.gender_heuristic(label).upper()
         ent_number = "SG"
 
         mask_sym = ' '.join([mask_sym] * num_mask)
