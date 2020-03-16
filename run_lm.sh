@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-train_file=data/cs/el_en_all/train.txt
-test_file=data/cs/el_en_all/test.txt
+train_file=data/cs/el_en_mtrex/train.txt
+test_file=data/cs/el_en_mtrex/test.txt
 output=$1
 warmup=0
 epoch=5

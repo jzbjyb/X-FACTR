@@ -15,6 +15,7 @@ import importlib
 import sling
 from distantly_supervise import SlingExtractor
 from probe import load_entity_lang
+from ft import CodeSwitchDataset
 
 
 SEED = 2020
@@ -289,7 +290,8 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
     parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds', 'cw_gen_data',
-                                                     'partition_entity', 'partition_fact', 'cw_gen_data_control'])
+                                                     'partition_entity', 'partition_fact',
+                                                     'cw_gen_data_control', 'cw_gen_data_control2'])
     parser.add_argument('--lang', type=str, help='language to probe', choices=['el', 'fr', 'nl'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
     parser.add_argument('--inp', type=str, default=None)
@@ -472,7 +474,7 @@ if __name__ == '__main__':
 
         with open(os.path.join(args.out, 'facts.txt'), 'w') as fout:
             for s, p, o in facts:
-                fout.write('{}\t{}\t{}'.format(s, p, o))
+                fout.write('{}\t{}\t{}\n'.format(s, p, o))
 
         for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
             # code-switching for two directions
@@ -524,8 +526,8 @@ if __name__ == '__main__':
         fact2sent2: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
 
         for ind, (source, target) in enumerate([(source_lang, target_lang), (target_lang, source_lang)]):
-            fact2sent = eval('fact2sent{}'.format(ind))
-            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt'.format(source, target)))
+            fact2sent = eval('fact2sent{}'.format(ind + 1))
+            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.train.txt'.format(source, target)))
             for sent_ind, (tokens, mentions) in enumerate(dataset.iter()):
                 for i in range(len(mentions)):
                     for j in range(i + 1, len(mentions)):
@@ -537,6 +539,23 @@ if __name__ == '__main__':
 
         print('#facts {}, #facts {} {}, #facts {} {}'.format(
             len(facts), source_lang, len(fact2sent1), target_lang, len(fact2sent2)))
+        print('most freq facts in {} {}'.format(
+            source_lang, sorted(map(lambda x: (x[0], len(x[1])), fact2sent1.items()), key=lambda x: -x[1])[:3]))
+        print('most freq facts in {} {}'.format(
+            target_lang, sorted(map(lambda x: (x[0], len(x[1])), fact2sent2.items()), key=lambda x: -x[1])[:3]))
 
-        join_fact = list(set(fact2sent1.keys()) & set(fact2sent2.keys()))
-        shuffle(join_fact)
+        join_fact = set(fact2sent1.keys()) & set(fact2sent2.keys())
+        fact_only1 = set(fact2sent1.keys()) - join_fact
+        fact_only2 = set(fact2sent2.keys()) - join_fact
+        fact_none = set(facts.keys()) - join_fact - fact_only1 - fact_only2
+
+        print('join {}, {} {}, {} {}, none {}'.format(
+            len(join_fact), source_lang, len(fact_only1), target_lang, len(fact_only2), len(fact_none)))
+
+        with open(args.out, 'w') as fout:
+            json.dump({
+                'join': list(join_fact),
+                source_lang: list(fact_only1),
+                target_lang: list(fact_only2),
+                'none': list(fact_none),
+            }, fout)
