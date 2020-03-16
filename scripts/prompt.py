@@ -85,7 +85,8 @@ class PromptEL(Prompt):
                 self.article[l[1]] = l[0]
 
 
-    def gender_heuristic(self, w: str):
+    @staticmethod
+    def gender_heuristic(w: str):
         w = w.strip()
         if ' ' not in w:
             if w[-1] in {"η", "ή", "α"}:
@@ -211,6 +212,19 @@ class PromptEL(Prompt):
             else:
                 words[i] = art
 
+        # Now also check the corresponfing verbs, if they exist.
+        # Needed for subject-verb agreement
+        for i, w in enumerate(words):
+            if w[0] == '[' and 'X-Number' in w:
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if ent_number == "SG":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+
         return ' '.join(words), label
 
 
@@ -298,7 +312,7 @@ class PromptEL(Prompt):
 
 
 class PromptRU(Prompt):
-    SUFS = {"б", "в", "г", "д", "ж", "з", "к", "л", "м", "н", "п", "р", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"}
+    SUFS = {"й", "б", "в", "г", "д", "ж", "з", "к", "л", "м", "н", "п", "р", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"}
 
 
     # Decide on Russian gender for the unknown entities based on the endings
@@ -306,14 +320,27 @@ class PromptRU(Prompt):
     @staticmethod
     def gender_heuristic(w):
         w = w.strip()
-        if w[-1] == "a" or w[-1] == "я":
+        if w[-1] in {"a", "я"}:
             return "FEM"
-        elif w[-1] == "о" or w[-1] == "е" or w[-1] == "ё":
+        elif w[-1] in {"о", "е", "ё"}:
             return "NEUT"
-        elif w[-1] == "й" or w[-1] in PromptRU.SUFS:
+        elif w[-1] in PromptRU.SUFS:
             return "MASC"
         else:
             return "MASC"
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = "SG"
+        gender = self.GENDER_MAP[self.entity2lang[uri]]
+
+        if gender == 'NEUT':  # use heuristics
+            gender = self.gender_heuristic(label)
+        if gender == 'NEUT' and uri in self.entity2instance:
+            if 'human' in self.entity2instance[uri]:
+                gender = "MASC"
+
+        return gender, number
 
 
     def __init__(self,
@@ -329,9 +356,7 @@ class PromptRU(Prompt):
 
     @overrides
     def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
-        gender = self.entity2lang[uri]
-        gender = self.GENDER_MAP[gender] if gender != 'none' else self.gender_heuristic(label).upper()
-        ent_number = "SG"
+        gender, ent_number = self.get_ender_number(uri, label)
 
         if some_roman_chars(label) or label.isupper():
             do_not_inflect = True
@@ -367,7 +392,7 @@ class PromptRU(Prompt):
             raise Exception('no X')
         words[i] = label
 
-        # Now also check the correponsing articles, if the exist
+        # Now also check the correponsing verbs, if they exist
         for i, w in enumerate(words):
             if w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
@@ -394,9 +419,7 @@ class PromptRU(Prompt):
     @overrides
     def fill_y(self, prompt: str, uri: str, label: str,
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
-        gender = self.entity2lang[uri]
-        gender = self.GENDER_MAP[gender] if gender != 'none' else self.gender_heuristic(label).upper()
-        ent_number = "SG"
+        gender, ent_number = self.get_ender_number(uri, label)
 
         mask_sym = ' '.join([mask_sym] * num_mask)
 
