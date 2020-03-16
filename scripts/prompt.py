@@ -85,17 +85,74 @@ class PromptEL(Prompt):
                 self.article[l[1]] = l[0]
 
 
+    def gender_heuristic(self, w: str):
+        w = w.strip()
+        if ' ' not in w:
+            if w[-1] in {"η", "ή", "α"}:
+                return "FEM"
+            elif w[-2:] in {"ος", "ης", "ής", "ας", "άς", "ός", "ήλ"}:
+                return "MASC"
+            else:
+                return "NEUT"
+        else:
+            w2 = w.split(' ')[0]
+            if w2[-1] in {"η", "ή", "α"}:
+                return "FEM"
+            elif w2[-2:] in {"ος", "ης", "ής", "ας", "άς", "ός", "ήλ"}:
+                return "MASC"
+            else:
+                return "NEUT"
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = "SG"
+        gender = self.GENDER_MAP[self.entity2lang[uri]]
+
+        if gender == 'NEUT':  # use heuristics
+            gender = self.gender_heuristic(label)
+        if gender == 'NEUT' and uri in self.entity2instance:
+            if 'state' in self.entity2instance[uri] or 'country' in self.entity2instance[uri]:
+                last_char = label[-1]
+                if last_char not in {'ν', 'ο', 'ό'}:
+                    gender = "FEM"
+            elif 'business' in self.entity2instance[uri]:
+                gender = "FEM"
+            elif 'enterprise' in self.entity2instance[uri]:
+                gender = "FEM"
+            elif 'city' in self.entity2instance[uri]:
+                last_char = label[-1]
+                if last_char not in {'ι', 'ο'}:
+                    gender = "FEM"
+            elif 'human' in self.entity2instance[uri]:
+                gender = "MASC"
+            elif 'island' in self.entity2instance[uri]:
+                gender = "FEM"
+            elif 'literary work' in self.entity2instance[uri]:
+                gender = "NEUT"
+            elif 'musical group' in self.entity2instance[uri]:
+                gender = "MASC"
+                number = "PL"
+            elif 'record label' in self.entity2instance[uri]:
+                gender = "FEM"
+            elif 'language' in self.entity2instance[uri]:
+                gender = "NEUT"
+                number = "PL"
+            elif 'sports team' in self.entity2instance[uri]:
+                gender = "FEM"
+            elif 'automobile manufacturer' in self.entity2instance[uri]:
+                gender = "FEM"
+            elif 'football club' in self.entity2instance[uri]:
+                gender = "FEM"
+
+        return gender, number
+
+
     @overrides
     def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
-        gender = self.entity2lang[uri]
-        gender = self.GENDER_MAP[gender]
-        ent_number = "SG"
+        gender, ent_number = self.get_ender_number(uri, label)
         if label[-2:] == "ες":
             ent_number = "PL"
             gender = "FEM"
-        elif label[-1] == "ά":
-            ent_number = "PL"
-            gender = "NEUT"
 
         if some_roman_chars(label) or label.isupper() or label[-1] in self.SUFS:
             do_not_inflect = True
@@ -160,15 +217,10 @@ class PromptEL(Prompt):
     @overrides
     def fill_y(self, prompt: str, uri: str, label: str,
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
-        gender = self.entity2lang[uri]
-        gender = self.GENDER_MAP[gender]
-        ent_number = "SG"
-        if label[-2:] == "ες":
+        gender, ent_number = self.get_ender_number(uri, label)
+        if label[-2:] in {"ες", "ές"}:
             ent_number = "PL"
             gender = "FEM"
-        elif label[-1] == "ά":
-            ent_number = "PL"
-            gender = "NEUT"
 
         mask_sym = ' '.join([mask_sym] * num_mask)
 
