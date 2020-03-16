@@ -43,6 +43,17 @@ def read_necessary_data():
 		ent_gender = l[1]
 		genders[ent_id] = ent_gender
 
+	# Read list of entity IDs with their instanceof or subclassof information, if known
+	with open("../TREx_instanceof.txt") as inp:
+		lines = inp.readlines()
+
+	instanceof = {}
+	for l in lines:
+		l = l.strip().split('\t')
+		ent_id = l[0]
+		instanceof[ent_id] = ','.join(l[1:])
+
+
 	# Read list of russian entities
 	with open("TREx_russian.txt") as inp:
 		lines = inp.readlines()
@@ -58,6 +69,43 @@ def read_necessary_data():
 				ent_gender = "MASC"
 			elif genders[ent_id] == "female":
 				ent_gender = "FEM"
+			else:
+				if ent_id in instanceof and ent_gender == "NEUT":
+					#if 'state' in instanceof[ent_id] or 'country' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'business' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'enterprise' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'city' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					# ARGH WHAT TO DO HERE : Using MASC because it is the most common one :(
+					if 'human' in instanceof[ent_id]:
+						ent_gender = "MASC" 
+					#elif 'island' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'literary work' in instanceof[ent_id]:
+					#	ent_gender = "NEUT"
+					#elif 'musical group' in instanceof[ent_id]:
+					#	ent_gender = "MASC"
+					#	ent_number = "PL"
+					#elif 'record label' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'language' in instanceof[ent_id]:
+					#	ent_gender = "NEUT"
+					#	ent_number = "PL"
+					#elif 'sports team' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'automobile manufacturer' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif 'football club' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif '' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+					#elif '' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
+
+
 		entities[ent_id] = (ent_form, ent_gender)
 	
 	return entities
@@ -173,16 +221,16 @@ def fil_x(words, ent_form, ent_gender):
 			words[i] = inflect(ent_form, f"N;ESS;{ent_number}", language='rus')[0]
 		ent_case = "ESS"
 
-	# Now also check the correponsing articles, if the exist
+	# Now also check the corresponfing verbs, if they exist
 	for i,w in enumerate(words):
 		if w[0] == '[' and 'X-Gender' in w:
 			if '|' in w:
 				options = w.strip()[1:-1].split('|')
 				if ent_gender == "Masc" or ent_gender == "Fem":
-					form = option[0].strip().split(';')[0]
+					form = options[0].strip().split(';')[0]
 					words[i] = form
 				else:
-					form = option[1].strip().split(';')[0]
+					form = options[1].strip().split(';')[0]
 					words[i] = form
 			else:
 				lemma = w.strip()[1:-1].split('.')[0]
