@@ -641,7 +641,6 @@ class PromptFR(Prompt):
         # Now also check the correponding articles, if they exist
         has_article: bool = False
         if "[ARTDEF;X]" in words:
-            has_article = True
             i = words.index('[ARTDEF;X]')
             vowel = self.starts_with_vowel(words[i + 1])
             if ent_proper and not ent_country:
@@ -689,6 +688,8 @@ class PromptFR(Prompt):
         # Now also check the corresponfing verbs, if they exist.
         # Needed for subject-verb agreement
         for i, w in enumerate(words):
+            if len(w) <= 0:
+                continue
             if w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
@@ -702,7 +703,8 @@ class PromptFR(Prompt):
         return ' '.join(words), label
 
 
-    def fil_y(self, prompt: str, uri: str, label: str,
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str,
               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
         ent_gender, ent_number, ent_country, ent_city, ent_proper = self.get_ender_number(uri, label)
 
@@ -715,7 +717,10 @@ class PromptFR(Prompt):
 
         if '[Y]' in words:
             i = words.index('[Y]')
-            words[i] = label
+            if num_mask > 0:
+                words[i] = ' '.join([mask_sym] * num_mask)
+            else:
+                words[i] = label
 
         # Now also check the correponsing articles, if they exist
         has_article: bool = False
