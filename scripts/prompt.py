@@ -398,12 +398,18 @@ class PromptRU(Prompt):
         for i, w in enumerate(words):
             if w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
-                    option = w.strip()[1:-1].split('|')
-                    if gender == "MASC" or gender == "FEM":
-                        form = option[0].strip().split(';')[0]
+                    options = w.strip()[1:-1].split('|')
+                    if gender == "MASC":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif gender == "FEM":
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    elif gender == "NEUT":
+                        form = options[2].strip().split(';')[0]
                         words[i] = form
                     else:
-                        form = option[1].strip().split(';')[0]
+                        form = options[0].strip().split(';')[0]
                         words[i] = form
                 else:
                     lemma = w.strip()[1:-1].split('.')[0]
@@ -478,14 +484,26 @@ class PromptRU(Prompt):
         # Now also check the correponsing articles, if the exist
         for i, w in enumerate(words):
             if w[0] == '[' and 'Y-Gender' in w:
-                lemma = w.strip()[1:-1].split('.')[0]
-                form2 = lemma
-                if not self.disable_inflection:
-                    if "Pst" in w:
-                        form2 = cache_inflect(lemma, f"V;PST;SG;{gender}", language='rus')[0]
-                    elif "Lgspec1" in w:
-                        form2 = cache_inflect(lemma, f"ADJ;{gender};SG;LGSPEC1", language='rus')[0]
-                words[i] = form2
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if gender == "MASC":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif gender == "FEM":
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    elif gender == "NEUT":
+                        form = options[2].strip().split(';')[0]
+                        words[i] = form
+                else:
+                    lemma = w.strip()[1:-1].split('.')[0]
+                    form2 = lemma
+                    if not self.disable_inflection:
+                        if "Pst" in w:
+                            form2 = cache_inflect(lemma, f"V;PST;SG;{gender}", language='rus')[0]
+                        elif "Lgspec1" in w:
+                            form2 = cache_inflect(lemma, f"ADJ;{gender};SG;LGSPEC1", language='rus')[0]
+                    words[i] = form2
 
         return ' '.join(words), label
 
@@ -516,6 +534,7 @@ class PromptFR(Prompt):
 
     @staticmethod
     def gender_heuristic(w):
+        # Based on this: https://frenchtogether.com/french-nouns-gender/
         w = w.strip()
         if ' ' not in w:
             if w[-6:] in {"ouille"}:
