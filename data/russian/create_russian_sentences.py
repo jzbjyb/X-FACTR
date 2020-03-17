@@ -170,7 +170,17 @@ def fil_y(words, ent_form, ent_gender):
 	# Now also check the correponsing articles, if the exist
 	for i,w in enumerate(words):
 		if w[0] == '[' and 'Y-Gender' in w:
-			lemma = w.strip()[1:-1].split('.')[0]
+			if '|' in w:
+				options = w.strip()[1:-1].split('|')
+				if ent_gender == "MASC":
+					form = options[0].strip().split(';')[0]
+					words[i] = form
+				elif ent_gender == "FEM":
+					form = options[1].strip().split(';')[0]
+					words[i] = form
+				elif ent_gender == "NEUT":
+					form = options[2].strip().split(';')[0]
+					words[i] = form
 			if "Pst" in w:
 				form2 = inflect(lemma, f"V;PST;SG;{ent_gender}", language='rus')[0]
 			elif "Lgspec1" in w:
@@ -226,19 +236,25 @@ def fil_x(words, ent_form, ent_gender):
 		if w[0] == '[' and 'X-Gender' in w:
 			if '|' in w:
 				options = w.strip()[1:-1].split('|')
-				if ent_gender == "Masc" or ent_gender == "Fem":
+				if ent_gender == "MASC":
 					form = options[0].strip().split(';')[0]
 					words[i] = form
-				else:
+				elif ent_gender == "FEM":
 					form = options[1].strip().split(';')[0]
 					words[i] = form
-			else:
-				lemma = w.strip()[1:-1].split('.')[0]
-				if "Pst" in w:
-					form2 = inflect(lemma, f"V;PST;SG;{ent_gender}", language='rus')[0]
-				elif "Lgspec1" in w:
-					form2 = inflect(lemma, f"ADJ;{ent_gender};SG;LGSPEC1", language='rus')[0]
-				words[i] = form2
+				elif ent_gender == "NEUT":
+					form = options[2].strip().split(';')[0]
+					words[i] = form
+				else:
+					form = options[0].strip().split(';')[0]
+					words[i] = form
+			#else:
+			#	lemma = w.strip()[1:-1].split('.')[0]
+			#	if "Pst" in w:
+			#		form2 = inflect(lemma, f"V;PST;SG;{ent_gender}", language='rus')[0]
+			#	elif "Lgspec1" in w:
+			#		form2 = inflect(lemma, f"ADJ;{ent_gender};SG;LGSPEC1", language='rus')[0]
+			#	words[i] = form2
 		
 	return words
 
@@ -284,5 +300,7 @@ with jsonlines.open('relations.ru.jsonl') as reader:
 	for obj in reader:
 		print_examples_for_relation(obj, entities)
 		count += 1
+		if count == 4:
+			break
 		
 

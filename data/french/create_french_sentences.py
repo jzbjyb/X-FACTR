@@ -9,6 +9,7 @@ def starts_with_vowel(w):
 	return False
 
 def gender_heuristic(w):
+	# Based on this: https://frenchtogether.com/french-nouns-gender/
 	w = w.strip()
 	if ' ' not in w:
 		if w[-6:] in ["ouille"]:
