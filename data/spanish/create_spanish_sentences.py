@@ -92,8 +92,8 @@ def read_necessary_data():
 					#	ent_number = "PL"
 					#elif 'sports team' in instanceof[ent_id]:
 					#	ent_gender = "FEM"
-					elif 'automobile manufacturer' in instanceof[ent_id]:
-						ent_gender = "FEM"
+					#elif 'automobile manufacturer' in instanceof[ent_id]:
+					#	ent_gender = "FEM"
 					elif 'football club' in instanceof[ent_id]:
 						ent_gender = "FEM"
 					#elif '' in instanceof[ent_id]:
@@ -122,7 +122,7 @@ def fil_y(words, ent_form, ent_gender, ent_number):
 		words[i] = ent_form
 
 	if '[ART;Y-Gender]' in words:
-		i = words.index['[ART;Y-Gender]']
+		i = words.index('[ART;Y-Gender]')
 		if ent_gender == "MASC":
 			words[i] = 'un'
 		elif ent_gender == "FEM":
@@ -130,12 +130,25 @@ def fil_y(words, ent_form, ent_gender, ent_number):
 		else:
 			words[i] = 'un'
 
+	if '[DEF;Y]' in words:
+		i = words.index('[DEF;Y]')
+		if ent_gender == "MASC":
+			words[i] = 'el'
+		elif ent_gender == "FEM":
+			words[i] = 'la'
+		else:
+			words[i] = 'un'
+
+
 	# Now also check the correponsing articles, if the exist
 	for i,w in enumerate(words):
 		if w[0] == '[' and 'Y-Gender' in w:
 			if '|' in w:
 				options = w.strip()[1:-1].split('|')
-				if ent_gender == "MASC":
+				if ent_number == "PL" and len(options) == 3:
+					form = options[2].strip().split(';')[0]
+					words[i] = form
+				elif ent_gender == "MASC":
 					form = options[0].strip().split(';')[0]
 					words[i] = form
 				elif ent_gender == "FEM":
@@ -164,7 +177,7 @@ def fil_x(words, ent_form, ent_gender, ent_number):
 		words[i] = ent_form
 
 	if '[ART;X-Gender]' in words:
-		i = words.index['[ART;X-Gender]']
+		i = words.index('[ART;X-Gender]')
 		if ent_gender == "MASC":
 			words[i] = 'un'
 		elif ent_gender == "FEM":
@@ -177,14 +190,28 @@ def fil_x(words, ent_form, ent_gender, ent_number):
 		#if w[0] == '[' and 'X-Gender' in w:
 		if w[0] == '[':
 			#print(w, ent_gender)
-			if '|' in w:
+			if '|' in w and 'X-Gender' in w:
 				options = w.strip()[1:-1].split('|')
 				#print(w, ent_gender, options)
-				if ent_gender == "MASC":
+				if ent_number == "PL" and len(options) == 3:
+					form = options[2].strip().split(';')[0]
+					words[i] = form
+				elif ent_gender == "MASC":
 					form = options[0].strip().split(';')[0]
 					words[i] = form
 				elif ent_gender == "FEM":
 					form = options[1].strip().split(';')[0]
+					words[i] = form
+				else:
+					form = options[0].strip().split(';')[0]
+					words[i] = form
+			elif '|' in w and 'X-Number' in w:
+				options = w.strip()[1:-1].split('|')
+				if ent_number == "PL":
+					form = options[1].strip().split(';')[0]
+					words[i] = form
+				elif ent_number == "SG":
+					form = options[0].strip().split(';')[0]
 					words[i] = form
 				else:
 					form = options[0].strip().split(';')[0]
@@ -204,6 +231,7 @@ def print_examples_for_relation(relation, entities):
 	
 	exfiles = f"/Users/antonis/research/lama/data/TREx/{rel_id}.jsonl"
 	try:
+	#if rel_id != "P166" and rel_id!="P69" and rel_id!= "P54": 
 		with jsonlines.open(exfiles) as reader:
 			count = 0
 			count_double = 0

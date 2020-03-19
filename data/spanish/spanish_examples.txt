@@ -84,17 +84,17 @@ Found 1 entries with more than one word.
 	 Priolo Gargallo comparte una frontera con Siracusa .
 	 Northamptonshire comparte una frontera con Oxfordshire .
 Found 0 entries with more than one word.
-[X] lleva el nombre de [Y] .
-	 Aristotelismo lleva el nombre de Aristóteles .
-	 Alemania lleva el nombre de Baviera .
-	 Estados Unidos lleva el nombre de América .
-	 Atenas lleva el nombre de Atenea .
-	 Océano Índico lleva el nombre de India .
-	 Provincia de Amberes lleva el nombre de Amberes .
-	 Isla de Navidad lleva el nombre de Navidad .
-	 cafeína lleva el nombre de café .
-	 Cubalibre lleva el nombre de Cuba .
-	 Devónico lleva el nombre de Devon .
+[X] recibiò su nombre de [Y] .
+	 Aristotelismo recibiò su nombre de Aristóteles .
+	 Alemania recibiò su nombre de Baviera .
+	 Estados Unidos recibiò su nombre de América .
+	 Atenas recibiò su nombre de Atenea .
+	 Océano Índico recibiò su nombre de India .
+	 Provincia de Amberes recibiò su nombre de Amberes .
+	 Isla de Navidad recibiò su nombre de Navidad .
+	 cafeína recibiò su nombre de café .
+	 Cubalibre recibiò su nombre de Cuba .
+	 Devónico recibiò su nombre de Devon .
 Found 3 entries with more than one word.
 El idioma original de [X] es [Y] .
 	 El idioma original de Nuestra Señora de París es francés .
@@ -110,6 +110,17 @@ El idioma original de [X] es [Y] .
 Found 0 entries with more than one word.
 [X] juega con [Y] .
 [X] es [ART;X-Gender] [miembro;X-Gender=MASC|miembra;X-Gender=FEM] de [Y] .
+	 Albania es una miembra de OTAN .
+	 Estados Unidos es una miembra de OTAN .
+	 Croacia es una miembra de OTAN .
+	 Bélgica es una miembra de OTAN .
+	 República Checa es una miembra de OTAN .
+	 Canadá es una miembra de OTAN .
+	 Dinamarca es una miembra de OTAN .
+	 selección de fútbol de México es una miembra de FIFA .
+	 Estonia es una miembra de OTAN .
+	 Francia es una miembra de OTAN .
+Found 1 entries with more than one word.
 [X] trabaja en [Y] .
 	 Alan Turing trabaja en lógica .
 	 John Atanasoff trabaja en matemáticas .
@@ -124,17 +135,28 @@ Found 0 entries with more than one word.
 Found 1 entries with more than one word.
 [X] participo en [Y] .
 [X] es [ART;Y-Gender] [Y] de profesiòn .
-[X] consiste en [Y] .
-	 Pectina consiste en carbono .
-	 Dashavatara consiste en Rama .
-	 parafina consiste en carbono .
-	 Apfelstrudel consiste en manzana .
-	 dióxido de nitrógeno consiste en oxígeno .
-	 carburo de silicio consiste en silicio .
-	 artes liberales consiste en retórica .
-	 ejército consiste en infantería .
-	 carbonato consiste en oxígeno .
-	 Grupo de los 20 consiste en Italia .
+	 Shreela Ghosh es un actor de profesiòn .
+	 Naomi Shihab Nye es una poeta de profesiòn .
+	 Frits Helmuth es un actor de profesiòn .
+	 Lillian Leighton es un actor de profesiòn .
+	 Halle Berry es un modelo de profesiòn .
+	 Biagio Marini es un compositor de profesiòn .
+	 Melinda Kinnaman es un actor de profesiòn .
+	 Lusia Strus es un actor de profesiòn .
+	 Henri Dutrochet es un médico de profesiòn .
+	 Mino Guerrini es una guionista de profesiòn .
+Found 0 entries with more than one word.
+[X] consiste de [Y] .
+	 Pectina consiste de carbono .
+	 Dashavatara consiste de Rama .
+	 parafina consiste de carbono .
+	 Apfelstrudel consiste de manzana .
+	 dióxido de nitrógeno consiste de oxígeno .
+	 carburo de silicio consiste de silicio .
+	 artes liberales consiste de retórica .
+	 ejército consiste de infantería .
+	 carbonato consiste de oxígeno .
+	 Grupo de los 20 consiste de Italia .
 Found 0 entries with more than one word.
 [X] es [miembro;X-Gender=MASC|miembra;X-Gender=FEM] del partido [Y] .
 [X] mantiene relaciones diplomaticas con [Y] .
@@ -235,11 +257,11 @@ Found 0 entries with more than one word.
 	 Horst Feistel trabaja para IBM .
 	 Philip Donald Estridge trabaja para IBM .
 Found 0 entries with more than one word.
-[X] toca musica de [Y] .
+[X] [toca;X-Number=SG|tocan;X-Number=PL] musica de [Y] .
 	 John Cage toca musica de ópera .
 	 Herbie Mann toca musica de jazz .
 	 William Bolcom toca musica de ópera .
-	 Original Dixieland Jass Band toca musica de jazz .
+	 Original Dixieland Jass Band tocan musica de jazz .
 	 Jean-Michel Pilc toca musica de jazz .
 	 Giulio Caccini toca musica de ópera .
 	 Nicolas Dalayrac toca musica de ópera .
@@ -260,15 +282,15 @@ Found 0 entries with more than one word.
 	 Suleiman I of Persia tiene la posiciòn de Sah .
 	 Urbano III tiene la posiciòn de papa .
 Found 0 entries with more than one word.
-[X] està [representado;X-Gender=MASC|representada;X-Gender=FEM] por el sello musical [Y] .
-	 The Temptations està representado por el sello musical Motown .
-	 The Funk Brothers està representado por el sello musical Motown .
+[X] [està;X-Number=SG|estan;X-Number=PL] [representado;X-Gender=MASC|representada;X-Gender=FEM|representados;X-Number=PL] por el sello musical [Y] .
+	 The Temptations estan representados por el sello musical Motown .
+	 The Funk Brothers estan representados por el sello musical Motown .
 	 The Marvelettes està representado por el sello musical Motown .
 	 David Bowie està representado por el sello musical EMI .
 	 Marvin Gaye està representado por el sello musical Motown .
 	 Stevie Wonder està representado por el sello musical Motown .
 	 Berry Gordy està representado por el sello musical Motown .
-	 The Supremes està representado por el sello musical Motown .
+	 The Supremes estan representados por el sello musical Motown .
 	 Barrett Strong està representado por el sello musical Motown .
 	 Fulfillingness' First Finale està representado por el sello musical Motown .
 Found 8 entries with more than one word.
@@ -285,41 +307,41 @@ Found 8 entries with more than one word.
 	 Johan Christian Dahl trabajaba en Dresde .
 	 Charles Jean Marie Barbaroux trabajaba en París .
 Found 0 entries with more than one word.
-[X] està [afilado;X-Gender=MASC|adilada;X-Gender=FEM] con la religiòn [Y] .
+[X] està [afilado;X-Gender=MASC|afilada;X-Gender=FEM] con la religiòn [Y] .
 	 Buda Gautama està afilado con la religiòn budismo .
-	 cristianización està adilada con la religiòn cristianismo .
+	 cristianización està afilada con la religiòn cristianismo .
 	 Agustín de Hipona està afilado con la religiòn cristianismo .
 	 pueblo albanés està afilado con la religiòn musulmán .
 	 Beda està afilado con la religiòn cristianismo .
 	 Constantino I està afilado con la religiòn cristianismo .
 	 Jacob està afilado con la religiòn judaísmo .
-	 filosofía budista està adilada con la religiòn budismo .
+	 filosofía budista està afilada con la religiòn budismo .
 	 Triduo Pascual està afilado con la religiòn cristianismo .
 	 obispo està afilado con la religiòn cristianismo .
 Found 0 entries with more than one word.
-[X] toca [Y] .
-	 Kenny G toca saxofón .
-	 Walter Parazaider toca saxofón .
-	 Scott Klopfenstein toca trompeta .
-	 Nigel Pulsford toca guitarra .
-	 Maurice Vieux toca viola .
-	 Bobby Militello toca saxofón .
-	 Antonio Rolla toca violín .
-	 Britney Spears toca canto .
-	 Anthony Plog toca trompeta .
-	 Hal Russell toca trompeta .
+[X] [toca;X-Number=SG|tocan;X-Number=PL] [DEF;Y] [Y] .
+	 Kenny G toca el saxofón .
+	 Walter Parazaider toca el saxofón .
+	 Scott Klopfenstein toca la trompeta .
+	 Nigel Pulsford toca la guitarra .
+	 Maurice Vieux toca la viola .
+	 Bobby Militello toca el saxofón .
+	 Antonio Rolla toca el violín .
+	 Britney Spears toca el canto .
+	 Anthony Plog toca la trompeta .
+	 Hal Russell toca la trompeta .
 Found 0 entries with more than one word.
-[X] es [dueño;X-Gender=MASC|dueña;X-Gender=FEM] de [Y] .
-	 iWork es dueño de Apple .
-	 Laboratorios Bell es dueño de Nokia .
-	 BMW Motorrad es dueño de BMW .
-	 Soldier Field es dueño de Chicago .
-	 Xbox es dueño de Microsoft .
-	 Ducati es dueño de Audi .
-	 Lamborghini es dueña de Audi .
-	 Torre Eiffel es dueño de París .
-	 BBC Four es dueño de BBC .
-	 Miami Orange Bowl es dueño de Miami .
+El [dueño;Y-Gender=MASC|dueña;Y-Gender=FEM] de [X] es [Y] .
+	 El dueño de iWork es Apple .
+	 El dueña de Laboratorios Bell es Nokia .
+	 El dueño de BMW Motorrad es BMW .
+	 El dueño de Soldier Field es Chicago .
+	 El dueño de Xbox es Microsoft .
+	 El dueño de Ducati es Audi .
+	 El dueño de Lamborghini es Audi .
+	 El dueño de Torre Eiffel es París .
+	 El dueño de BBC Four es BBC .
+	 El dueño de Miami Orange Bowl es Miami .
 Found 0 entries with more than one word.
 El idioma nativo de [X] es [Y] .
 	 El idioma nativo de Louis Jules Trochu es francés .
@@ -345,29 +367,29 @@ Found 0 entries with more than one word.
 	 Oslo y Varsovia son ciudades gemelas.
 	 Los Ángeles y Beirut son ciudades gemelas.
 Found 1 entries with more than one word.
-[X] es el tema legal de [Y] .
-	 presidente de la República de Francia es el tema legal de Francia .
-	 primer ministro de Canadá es el tema legal de Canadá .
-	 Partido Laborista Australiano es el tema legal de Australia .
-	 Presidente de México es el tema legal de México .
-	 Senado de Australia es el tema legal de Australia .
-	 gobernador de California es el tema legal de California .
-	 Corte Suprema de Canadá es el tema legal de Canadá .
-	 Canciller de Alemania es el tema legal de Alemania .
-	 Ley Fundamental para la República Federal de Alemania es el tema legal de Alemania .
-	 Presidente de Brasil es el tema legal de Brasil .
+[X] es un tema legal de [Y] .
+	 presidente de la República de Francia es un tema legal de Francia .
+	 primer ministro de Canadá es un tema legal de Canadá .
+	 Partido Laborista Australiano es un tema legal de Australia .
+	 Presidente de México es un tema legal de México .
+	 Senado de Australia es un tema legal de Australia .
+	 gobernador de California es un tema legal de California .
+	 Corte Suprema de Canadá es un tema legal de Canadá .
+	 Canciller de Alemania es un tema legal de Alemania .
+	 Ley Fundamental para la República Federal de Alemania es un tema legal de Alemania .
+	 Presidente de Brasil es un tema legal de Brasil .
 Found 0 entries with more than one word.
-[X] es un ejemplo de [Y] .
-	 Castillo Tantallon es un ejemplo de castillo .
-	 Long Preston es un ejemplo de pueblo .
-	 alfusozina es un ejemplo de medicamento .
-	 Crawfordsbur es un ejemplo de pueblo .
-	 Elizabeth R es un ejemplo de miniserie .
-	 Good Kid es un ejemplo de álbum .
-	 lógica proposicional es un ejemplo de lógica .
-	 Aeropuerto de Pokhara es un ejemplo de aeropuerto .
-	 Terremoto de Sichuan de 2008 es un ejemplo de terremoto .
-	 Greens Norton es un ejemplo de pueblo .
+[X] es un ejemplo de [ART;Y-Gender] [Y] .
+	 Castillo Tantallon es un ejemplo de un castillo .
+	 Long Preston es un ejemplo de un pueblo .
+	 alfusozina es un ejemplo de un medicamento .
+	 Crawfordsbur es un ejemplo de un pueblo .
+	 Elizabeth R es un ejemplo de un miniserie .
+	 Good Kid es un ejemplo de un álbum .
+	 lógica proposicional es un ejemplo de una lógica .
+	 Aeropuerto de Pokhara es un ejemplo de un aeropuerto .
+	 Terremoto de Sichuan de 2008 es un ejemplo de un terremoto .
+	 Greens Norton es un ejemplo de un pueblo .
 Found 1 entries with more than one word.
 [X] fue [creado;X-Gender=MASC|creada;X-Gender=FEM] en [Y] .
 	 Sopressata fue creada en Italia .
