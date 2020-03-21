@@ -169,6 +169,8 @@ def locate_entity(entities: Set[str], sling_recfiles: List[str]) -> set:
         # TODO: only find sentences in articles corresponding to these entities
         for wid, tokens, mentions in tqdm(s.iter_mentions(wid_set=entities, only_entity=True, split_by='sentence')):
             mentions = [mention for mention in mentions if mention[0] in entities]
+            if len(mentions) == 0:
+                continue
             yield tokens, mentions
 
 
@@ -521,7 +523,7 @@ if __name__ == '__main__':
                                    for e, f, t in zip(entity_id, surface_from, surface_to)])))
 
     elif args.task == 'cw_gen_data_control2':
-        source_lang, target_lang = 'en', 'el'
+        source_lang, target_lang = 'en', args.lang
 
         facts: Dict[Tuple[str, str], Set[str]] = defaultdict(set)
         with open(os.path.join(args.inp, 'facts.txt'), 'r') as fin:
@@ -529,14 +531,22 @@ if __name__ == '__main__':
                 s, p, o = l.strip().split('\t')
                 facts[(s, o)].add(p)
 
+        numentity2count1: Dict[int, int] = defaultdict(lambda: 0)
+        numentity2count2: Dict[int, int] = defaultdict(lambda: 0)
+        entity2count1: Dict[str, int] = defaultdict(lambda: 0)
+        entity2count2: Dict[str, int] = defaultdict(lambda: 0)
         fact2sent1: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
         fact2sent2: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
 
         for ind, (source, target) in enumerate([(source_lang, target_lang), (target_lang, source_lang)]):
+            numentity2count = eval('numentity2count{}'.format(ind + 1))
             fact2sent = eval('fact2sent{}'.format(ind + 1))
+            entity2count = eval('entity2count{}'.format(ind + 1))
             dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.train.txt'.format(source, target)))
             for sent_ind, (tokens, mentions) in enumerate(dataset.iter()):
+                numentity2count[len(mentions)] += 1
                 for i in range(len(mentions)):
+                    entity2count[mentions[i][0]] += 1
                     for j in range(i + 1, len(mentions)):
                         e1, e2 = mentions[i][0], mentions[j][0]
                         if (e1, e2) in facts:
@@ -546,8 +556,16 @@ if __name__ == '__main__':
 
         print('#facts {}, #facts {} {}, #facts {} {}'.format(
             len(facts), source_lang, len(fact2sent1), target_lang, len(fact2sent2)))
+        print('#entites per sent in {} {}'.format(
+            source_lang, sorted(numentity2count1.items(), key=lambda x: -x[1])[:5]))
+        print('most freq entities in {} {}'.format(
+            source_lang, sorted(entity2count1.items(), key=lambda x: -x[1])[:5]))
         print('most freq facts in {} {}'.format(
             source_lang, sorted(map(lambda x: (x[0], len(x[1])), fact2sent1.items()), key=lambda x: -x[1])[:3]))
+        print('#entites per sent in {} {}'.format(
+            target_lang, sorted(numentity2count2.items(), key=lambda x: -x[1])[:5]))
+        print('most freq entities in {} {}'.format(
+            target_lang, sorted(entity2count2.items(), key=lambda x: -x[1])[:5]))
         print('most freq facts in {} {}'.format(
             target_lang, sorted(map(lambda x: (x[0], len(x[1])), fact2sent2.items()), key=lambda x: -x[1])[:3]))
 
