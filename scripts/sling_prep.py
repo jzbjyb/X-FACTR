@@ -443,6 +443,7 @@ if __name__ == '__main__':
 
     elif args.task == 'cw_gen_data_control':
         entity_lang_path = 'data/mTREx_unicode_escape.txt'
+        fact_path = 'data/mTREx'
 
         # load entities' translations
         entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(entity_lang_path)
@@ -450,7 +451,7 @@ if __name__ == '__main__':
         # load facts we want to identify
         facts: List[Tuple[str, str, str]] = []
         entities: Set[str] = set()
-        for root, dirs, files in os.walk(args.inp):
+        for root, dirs, files in os.walk(fact_path):
             for file in files:
                 with open(os.path.join(root, file), 'r') as fin:
                     pid = file.split('.', 1)[0]
@@ -479,6 +480,7 @@ if __name__ == '__main__':
         for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
             # code-switching for two directions
             with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
+                # TODO: restrict to articles of these entites
                 for sent, mentions in locate_entity(
                         entities, glob.glob('data/sling/{}/*.rec'.format(lang_from))):
                     if len(sent) >= 128:  # TODO: focus on short sentence
@@ -486,9 +488,14 @@ if __name__ == '__main__':
 
                     pos2mentind: Dict[int, int] = {}
                     for i, (entity, start, end) in enumerate(mentions):
+                        overlap: bool = False
                         for j in range(start, end):
                             if j in pos2mentind:
-                                break  # avoid overlapping mentions
+                                overlap = True
+                                break
+                        if overlap:
+                            continue
+                        for j in range(start, end):
                             pos2mentind[j] = i
 
                     entity_id: List[str] = []
