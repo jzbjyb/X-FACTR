@@ -134,6 +134,7 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str, choices=['filter', 'gen', 'partition_by_ds'])
     parser.add_argument('--inp', type=str, help='output')
     parser.add_argument('--out', type=str, help='output')
+    parser.add_argument('--lang', type=str, help='language to probe')
     parser.add_argument('--replace', action='store_true')
     parser.add_argument('--no_ds', action='store_true', help='keep the sentence if entities exist')
     parser.add_argument('--thres', type=int, default=0)
@@ -154,9 +155,9 @@ if __name__ == '__main__':
     if args.task == 'gen':
         for split in ['train', 'test']:
             with open('{}/{}{}.txt'.format(args.inp, split, '_raw' if not args.replace else ''), 'w') as fout:
-                for source, target in [('en', 'el'), ('el', 'en')]:
+                for source, target in [('en', args.lang), (args.lang, 'en')]:
                     # TODO: the ratio between en and el is not balanced
-                    dataset = CodeSwitchDataset('{}/{}_{}.{}.txt'.format(args.inp, source, target, split))
+                    dataset = CodeSwitchDataset('{}/{}_{}.txt.{}'.format(args.inp, source, target, split))
                     for tokens, mentions in dataset.iter():
                         sent_source = dataset.fill(tokens, mentions, replace=False, tab_for_filled_mention=True)
                         fout.write(sent_source + '\n')

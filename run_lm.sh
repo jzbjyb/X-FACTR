@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
 
-train_file=data/cs/el_en_mtrex/train.txt
-test_file=data/cs/el_en_mtrex/test.txt
-output=$1
+train_file=$1
+test_file=$2
+output=$3
+epoch=$4
+
 warmup=0
-epoch=5
 block_size=256
 batch_size=4
 cs_mlm_probability=0.5
 save_step=100000
-args="${@:2}"
+args="${@:5}"
 
 python scripts/run_language_modeling.py \
 	--train_data_file ${train_file} \
