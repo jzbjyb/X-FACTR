@@ -445,7 +445,7 @@ if __name__ == '__main__':
 
     elif args.task == 'cw_gen_data_control':
         entity_lang_path = 'data/mTREx_unicode_escape.txt'
-        fact_path = 'data/mTREx'
+        fact_path = 'data/mTREx/sub'
 
         # load entities' translations
         entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(entity_lang_path)
@@ -542,7 +542,7 @@ if __name__ == '__main__':
             numentity2count = eval('numentity2count{}'.format(ind + 1))
             fact2sent = eval('fact2sent{}'.format(ind + 1))
             entity2count = eval('entity2count{}'.format(ind + 1))
-            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.train.txt'.format(source, target)))
+            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt.train'.format(source, target)))
             for sent_ind, (tokens, mentions) in enumerate(dataset.iter()):
                 numentity2count[len(mentions)] += 1
                 for i in range(len(mentions)):
