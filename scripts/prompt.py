@@ -60,10 +60,12 @@ class Prompt(object):
     def from_lang(lang: str, *args, **kwargs):
         if lang == 'el':
             return PromptEL(*args, **kwargs)
-        if lang == 'ru':
+        elif lang == 'ru':
             return PromptRU(*args, **kwargs)
-        if lang == 'fr':
+        elif lang == 'fr':
             return PromptFR(*args, **kwargs)
+        elif lang == 'es':
+            return PromptES(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
@@ -806,5 +808,203 @@ class PromptFR(Prompt):
                 words[i] = ''
             else:
                 words[i] = art
+
+        return ' '.join(words), label
+
+
+class PromptES(Prompt):
+    def __init__(self,
+                 entity2lang: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=False,
+                 disable_article: bool=False):
+        super().__init__(entity2lang=entity2lang,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
+
+
+    @staticmethod
+    def gender_heuristic(w):
+        '''
+        Decide on Spanish gender for the unknown entities based on the endings
+        Based on http://www.study-languages-online.com/russian-nouns-gender.html
+        '''
+        w = w.strip()
+        if ' ' not in w:
+            if w[-1] == "o":
+                return "MASC"
+            elif w[-1] == "a" or w[-4:] in {"ción", "sión"} or w[-3:] in {"dad", "tad"} or w[-5:] in {"umbre"}:
+                return "FEM"
+            else:
+                return "MASC"
+        else:
+            w2 = w.split(' ', 1)[0]
+            if w2[-1] == "o":
+                return "MASC"
+            elif w2[-1] == "a" or w2[-4:] in {"ción", "sión"} or w2[-3:] in {"dad", "tad"} or w2[-5:] in {"umbre"}:
+                return "FEM"
+            else:
+                return "MASC"
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = "SG"
+        gender = self.GENDER_MAP[self.entity2lang[uri]]
+
+        if gender == 'NEUT':  # use heuristics
+            gender = self.gender_heuristic(label)
+            if uri in self.entity2instance:
+                # ARGH WHAT TO DO HERE : Using MASC because it is the most common one :(
+                if 'human' in self.entity2instance[uri]:
+                    gender = "MASC"
+                if 'state' in self.entity2instance[uri] or 'country' in self.entity2instance[uri]:
+                    gender = "FEM"
+                elif 'musical group' in self.entity2instance[uri]:
+                    gender = "MASC"
+                    number = "PL"
+                elif 'record label' in self.entity2instance[uri]:
+                    gender = "FEM"
+                elif 'football club' in self.entity2instance[uri]:
+                    gender = "FEM"
+        return gender, number
+
+
+    @overrides
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        ent_gender, ent_number = self.get_ender_number(uri, label)
+
+        if label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        words = prompt.split(' ')
+
+        if '[X]' in words:
+            i = words.index('[X]')
+            words[i] = label
+
+        has_article: bool = False
+        if '[ART;X-Gender]' in words:
+            has_article = True
+            i = words.index('[ART;X-Gender]')
+            if ent_gender == "MASC":
+                art = 'un'
+            elif ent_gender == "FEM":
+                art = 'una'
+            else:
+                art = 'un'
+
+        if has_article:
+            if self.disable_article:
+                words[i] = ''
+            else:
+                words[i] = art
+
+        # Now also check the corresponding verbs, if they exist
+        for i, w in enumerate(words):
+            if w[0] == '[':
+                if '|' in w and 'X-Gender' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if ent_number == "PL" and len(options) == 3:
+                        form = options[2].strip().split(';')[0]
+                        words[i] = form
+                    elif ent_gender == "MASC":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif ent_gender == "FEM":
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                elif '|' in w and 'X-Number' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if ent_number == "PL":
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    elif ent_number == "SG":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+
+        return ' '.join(words), label
+
+
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str,
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        ent_gender, ent_number = self.get_ender_number(uri, label)
+
+        if label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        words = prompt.split(' ')
+
+        if '[Y]' in words:
+            i = words.index('[Y]')
+            if num_mask > 0:
+                words[i] = ' '.join([mask_sym] * num_mask)
+            else:
+                words[i] = label
+
+        has_article: bool = False
+        if '[ART;Y-Gender]' in words:
+            has_article = True
+            i = words.index('[ART;Y-Gender]')
+            if ent_gender == "MASC":
+                art = 'un'
+            elif ent_gender == "FEM":
+                art = 'una'
+            else:
+                art = 'un'
+
+        if has_article:
+            if self.disable_article:
+                words[i] = ''
+            else:
+                words[i] = art
+
+        has_article: bool = False
+        if '[DEF;Y]' in words:
+            has_article = True
+            i = words.index('[DEF;Y]')
+            if ent_gender == "MASC":
+                art = 'el'
+            elif ent_gender == "FEM":
+                art = 'la'
+            else:
+                art = 'un'
+
+        if has_article:
+            if self.disable_article:
+                words[i] = ''
+            else:
+                words[i] = art
+
+        # Now also check the correponsing verb, if they exist
+        for i, w in enumerate(words):
+            if len(w) == 0:
+                continue
+            if w[0] == '[' and 'Y-Gender' in w:
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if ent_number == "PL" and len(options) == 3:
+                        form = options[2].strip().split(';')[0]
+                        words[i] = form
+                    elif ent_gender == "MASC":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif ent_gender == "FEM":
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
 
         return ' '.join(words), label
