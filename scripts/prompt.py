@@ -66,6 +66,8 @@ class Prompt(object):
             return PromptFR(*args, **kwargs)
         elif lang == 'es':
             return PromptES(*args, **kwargs)
+        elif lang == 'mr':
+            return PromptMR(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
@@ -1006,5 +1008,129 @@ class PromptES(Prompt):
                     else:
                         form = options[0].strip().split(';')[0]
                         words[i] = form
+
+        return ' '.join(words), label
+
+
+class PromptMR(Prompt):
+    def __init__(self,
+                 entity2lang: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=False,
+                 disable_article: bool=False):
+        super().__init__(entity2lang=entity2lang,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
+
+
+    @staticmethod
+    def gender_heuristic(w):
+        w = w.strip()
+        if ' ' not in w:
+            return "NEUT"
+        else:
+            w2 = w.split(' ', 1)[0]
+            return "NEUT"
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = "SG"
+        gender = self.GENDER_MAP[self.entity2lang[uri]]
+
+        if gender == 'NEUT':  # use heuristics
+            gender = self.gender_heuristic(label)
+            if uri in self.entity2instance and gender == "NEUT":
+                if 'state' in self.entity2instance[uri] or 'country' in self.entity2instance[uri]:
+                    gender = "NEUT"
+                elif 'human' in self.entity2instance[uri]:
+                    # ARGH WHAT TO DO HERE
+                    gender = "MASC"
+        return gender, number
+
+
+    @overrides
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        ent_gender, ent_number = self.get_ender_number(uri, label)
+        if label[-2:] == "ες":
+            ent_number = "PL"
+            ent_gender = "FEM"
+
+        if some_roman_chars(label) or label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        words = prompt.split(' ')
+
+        if '[X]' in words:
+            i = words.index('[X]')
+            words[i] = label
+            ent_case = "NOM"
+        elif "[X.NOM]" in words:
+            # In Greek the default case is Nominative so we don't need to try to inflect it
+            i = words.index('[X.NOM]')
+            words[i] = label
+            ent_case = "NOM"
+
+        # Now check for the ones that we have a fixed suffix:
+        for i, w in enumerate(words):
+            if w[:3] == '[X]' and len(w) > 3:
+                words[i] = label + w[3:]
+
+        # Now also check the corresponfing verbs, if they exist.
+        # Needed for subject-verb agreement
+        for i, w in enumerate(words):
+            if w[0] == '[' and 'X-Gender' in w:
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if ent_gender == "MASC":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif ent_gender == "FEM":
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+
+        return ' '.join(words), label
+
+
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str,
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        ent_gender, ent_number = self.get_ender_number(uri, label)
+
+        if some_roman_chars(label) or label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        words = prompt.split(' ')
+
+        if '[Y]' in words:
+            i = words.index('[Y]')
+            ent_case = "NOM"
+        elif "[Y.LOC]" in words:
+            # In Greek the default case is Nominative so we don't need to try to inflect it
+            i = words.index('[Y.LOC]')
+            if not do_not_inflect:
+                # words[i] = inflect(ent_form, f"N;LOC;{ent_number}", language='mar')[0]
+                label = label + 'त'
+            ent_case = "LOC"
+
+        if num_mask > 0:
+            words[i] = ' '.join([mask_sym] * num_mask)
+        else:
+            words[i] = label
+
+        # Now check for the ones that we have a fixed suffix:
+        for i, w in enumerate(words):
+            if w[:3] == '[Y]' and len(w) > 3:
+                if num_mask > 0:
+                    words[i] = ' '.join([mask_sym] * num_mask) + w[3:]
+                else:
+                    words[i] = label + w[3:]
 
         return ' '.join(words), label
