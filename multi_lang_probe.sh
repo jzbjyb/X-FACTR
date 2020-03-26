@@ -7,7 +7,7 @@ langs=$2  # a list of languages joined by ","
 out_dir=$3  # dir to save output
 args="${@:4}"
 
-probe=lama
+probe=mlama
 
 mkdir -p ${out_dir}
 

@@ -655,7 +655,7 @@ if __name__ == '__main__':
 
     # inflection-related flags
     parser.add_argument('--prompt_model_lang', type=str, help='prompt model to use',
-                        choices=['en', 'el', 'ru'], default=None)
+                        choices=['en', 'el', 'ru', 'es', 'mr'], default=None)
     parser.add_argument('--disable_inflection', type=str, choices=['x', 'y', 'xy'])
     parser.add_argument('--disable_article', action='store_true')
 
