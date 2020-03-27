@@ -40,6 +40,22 @@ VALUES ?item { %s }
 }
 """
 
+GET_ALIAS_IN_LANG = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT ?item ?itemLabel ?alt WHERE
+{
+VALUES ?item { %s }
+OPTIONAL {
+?item skos:altLabel ?alt .
+FILTER (lang(?alt)='%s')
+}
+SERVICE wikibase:label { bd:serviceParam wikibase:language "%s" }
+}
+"""
+
 prefix = '<http://www.wikidata.org/entity/'
 
 
@@ -101,6 +117,22 @@ def get_langs(uris:  Union[List[str], Set[str]]) -> Dict[str, Dict[str, str]]:
 		label = result['label']['value']
 		id2lang[uri][lang] = label
 	return id2lang
+
+
+@handle_redirect(debug=True)
+def get_alias(uris: Union[List[str], Set[str]], lang: str) -> Dict[str, Set[str]]:
+	id2alias: Dict[str, Set[str]] = defaultdict(set)
+	results = get_result(GET_ALIAS_IN_LANG % (' '.join(map(lambda x: 'wd:' + x, uris)), lang, lang))
+	for result in results['results']['bindings']:
+		uri = get_qid_from_uri(result['item']['value'])
+		label = result['itemLabel']['value']
+		if label == uri:  # redirected entity
+			continue
+		id2alias[uri].add(label)
+		if 'alt' in result:
+			alias = result['alt']['value']
+			id2alias[uri].add(alias)
+	return id2alias
 
 
 def get_redirects(uris: Union[List[str], Set[str]]) -> Dict[str, str]:
@@ -227,9 +259,27 @@ if __name__ == '__main__':
 		print('#entities {}'.format(len(entities)))
 		entities = list(entities)
 		for b in tqdm(range(0, len(entities), batch_size)):
-			r = get_langs(entities[b:b + batch_size], handle_redirect=True)
+			r = get_langs(entities[b:b + batch_size])
 			results.update(r)
 		with open(out, 'w') as fout:
 			for eid in sorted(results.keys(), key=lambda x: int(x[1:])):
 				fout.write('{}\t{}\n'.format(
 					eid, '\t'.join(map(lambda x: '"{}"@{}'.format(x[1], x[0]), results[eid].items()))))
+
+	elif task == 'get_alias':
+		inp_dir, lang, batch_size, out = sys.argv[2:]
+		batch_size = int(batch_size)
+		data = TRExDataset(inp_dir)
+		entities: Set[str] = set()
+		results: Dict[str, Set[str]] = {}
+		for query in data.iter():
+			for entity in [query['sub_uri'], query['obj_uri']]:
+				entities.add(entity)
+		print('#entities {}'.format(len(entities)))
+		entities = list(entities)
+		for b in tqdm(range(0, len(entities), batch_size)):
+			r = get_alias(entities[b:b + batch_size], lang=lang)
+			results.update(r)
+		with open(out, 'w') as fout:
+			for eid in sorted(results, key=lambda x: int(x[1:])):
+				fout.write('{}\t{}\n'.format(eid, '\t'.join(sorted(results[eid]))))
