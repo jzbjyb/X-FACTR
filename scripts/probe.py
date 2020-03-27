@@ -489,6 +489,7 @@ class ProbeIterator(object):
                 # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
                 print('bug for pid {}'.format(relation))
                 print(e)
+                raise e
 
         print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}'.format(
             num_correct_fact, num_fact, num_correct_fact / (num_fact + 1e-10), np.mean(acc_li), np.mean(iters)))
@@ -623,13 +624,13 @@ def compute_likelihood(model,
         if logits is None:
             logits = (logit * cur_mask).detach()
         else:
-            logits = logits * (1 - cur_mask) + (logit * cur_mask).detach()
+            logits = (logits * (1 - cur_mask) + logit * cur_mask).detach()
     if restrict_vocab is not None:
         logits[:, :, restrict_vocab] = float('-inf')
     lp = logits.log_softmax(-1)
     lp = torch.gather(lp.view(-1, lp.size(-1)), 1, inp_tensor.view(-1).unsqueeze(-1)).view(bs, seq_len)
     lp_tensor = (1 - mask_tensor).float() * lp_tensor + mask_tensor.float() * lp
-    return lp_tensor
+    return lp_tensor.detach()
 
 
 if __name__ == '__main__':

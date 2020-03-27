@@ -1109,6 +1109,7 @@ class PromptMR(Prompt):
 
         words = prompt.split(' ')
 
+        i: int = -1
         if '[Y]' in words:
             i = words.index('[Y]')
             ent_case = "NOM"
@@ -1120,10 +1121,11 @@ class PromptMR(Prompt):
                 label = label + 'त'
             ent_case = "LOC"
 
-        if num_mask > 0:
-            words[i] = ' '.join([mask_sym] * num_mask)
-        else:
-            words[i] = label
+        if i != -1:
+            if num_mask > 0:
+                words[i] = ' '.join([mask_sym] * num_mask)
+            else:
+                words[i] = label
 
         # Now check for the ones that we have a fixed suffix:
         for i, w in enumerate(words):
