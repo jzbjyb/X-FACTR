@@ -18,6 +18,7 @@ import csv
 import time
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
+from check_instanceof import load_entity_instance
 
 logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
@@ -108,15 +109,6 @@ class JsonLogFileContext:
     def __exit__(self, exc_type, exc_value, exc_traceback):
         if self.filename:
             self.file.close()
-
-
-def load_entity_instance(filename: str):
-    entity2instance: Dict[str, str] = {}
-    with open(filename, 'r') as fin:
-        for l in fin:
-            l = l.strip().split('\t')
-            entity2instance[l[0]] = ','.join(l[1:])
-    return entity2instance
 
 
 class ProbeIterator(object):

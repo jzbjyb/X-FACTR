@@ -33,6 +33,15 @@ def get_instanceof(uris: List[str]) -> Dict[str, Set[Tuple[str, str]]]:
     return instanceofs
 
 
+def load_entity_instance(filename: str):
+    entity2instance: Dict[str, str] = {}
+    with open(filename, 'r') as fin:
+        for l in fin:
+            l = l.strip().split('\t')
+            entity2instance[l[0]] = ','.join(l[1:])
+    return entity2instance
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='retrieve the instance-of relation of entities')
     parser.add_argument('--inp', type=str, help='input file')

@@ -74,6 +74,33 @@ class TRExDataset(object):
 						yield json.loads(l)
 
 
+class Alias(object):
+	def __init__(self, directory: str):
+		self.directory = directory
+		self.alias: Dict[str, Dict[str, List[str]]] = {}
+
+
+	@staticmethod
+	def load_alias_from_file(filename: str) -> Dict[str, List[str]]:
+		id2alias: Dict[str, List[str]] = defaultdict(list)
+		with open(filename, 'r') as fin:
+			for l in fin:
+				l = l.strip().split('\t')
+				id2alias[l[0]].extend(l[1:])
+		return id2alias
+
+
+	def load_alias(self, lang: str):
+		if lang in self.alias:
+			return
+		self.alias[lang] = self.load_alias_from_file(os.path.join(self.directory, lang + '.txt'))
+
+
+	def get_alias(self, uri: str, lang: str) -> List[str]:
+		self.load_alias(lang)
+		return self.alias[lang][uri]
+
+
 def get_lang(uri):
 	return get_result(GET_LANG % uri)
 
