@@ -364,11 +364,11 @@ class ProbeIterator(object):
 
                             # decoding
                             # SHAPE: (batch_size * num_mask, seq_len)
-                            out_tensor, logprob, iter = iter_decode(
+                            out_tensor, logprob, iter = iter_decode_beam_search(
                                 model, inp_tensor, mask_ind, attention_mask,
                                 restrict_vocab=self.restrict_vocab, mask_value=self.mask,
                                 max_iter=self.args.max_iter, tokenizer=self.tokenizer, method=self.args.iter_method,
-                                reprob=self.args.reprob)
+                                reprob=self.args.reprob, beam_size=5)
                             iters.append(iter)
 
                             # SHAPE: (batch_size, num_mask, seq_len)
@@ -584,6 +584,106 @@ def iter_decode(model,
         if max_iter and iter >= max_iter:  # max_iter can be zero
             break
 
+    final_out_logprob = out_logprob
+    if reprob:
+        final_out_logprob = compute_likelihood(
+            model, out_tensor, out_logprob, raw_mask, attention_mask, restrict_vocab, mask_value=mask_value)
+
+    return out_tensor, final_out_logprob, iter
+
+
+def iter_decode_beam_search(model,
+                inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                raw_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                restrict_vocab: List[int] = None,
+                mask_value: int = 0,  # indicate which value is used for mask
+                max_iter: int = None,  # max number of iteration
+                tokenizer = None,
+                method: str = 'all',
+                reprob: bool = False,  # recompute the prob finally
+                beam_size: int = 5,
+                ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
+    '''
+    Masks must be consecutive.
+    '''
+    assert method in {'all', 'left_right'}
+    bs, sl = inp_tensor.size(0), inp_tensor.size(1)
+    init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
+
+    # SHAPE: (batch_size, seq_len)
+    out_tensors: List[torch.LongTensor] = inp_tensor.unsqueeze(0)
+    out_logprobs: List[torch.Tensor] = torch.zeros_like(inp_tensor).float().unsqueeze(0)  # tokens not considered have log prob of zero
+    iter = 0
+    while True and init_mask.sum().item() > 0:  # skip when there is not mask initially
+        next_out_tensors = []
+        next_out_logprobs = []
+
+        for out_tensor, out_logprob in zip(out_tensors, out_logprobs):
+            # get input
+            if iter > 0:
+                has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
+                inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
+                # no need to insert mask when there are masks
+                inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
+
+            # predict
+            # SHAPE: (batch_size, seq_len)
+            mask_mask = inp_tensor.eq(mask_value).long()
+            logit = model_prediction_wrap(model, inp_tensor, attention_mask)
+            if restrict_vocab is not None:
+                logit[:, :, restrict_vocab] = float('-inf')
+            # SHAPE: (batch_size, seq_len, beam_size)
+            new_out_logprobs, new_out_tensors = logit.log_softmax(-1).topk(beam_size, dim=-1)
+
+            for b in range(beam_size):
+                new_out_logprob = new_out_logprobs[:, :, b]
+                new_out_tensor = new_out_tensors[:, :, b]
+
+                # merge results
+                # SHAPE: (batch_size, seq_len)
+                changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
+                if method == 'all':
+                    pass
+                elif method == 'left_right':  # when there are multiple consecutive changes, only use the left-most one.
+                    changes = changes & torch.cat([changes.new_ones((bs, 1)), ~changes], 1)[:, :-1]
+
+                # only modify tokens that have changes
+                changes = changes.long()
+                out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
+                out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
+
+                '''
+                for i in range(5):
+                    print(tokenizer.convert_ids_to_tokens(out_tensor[i].cpu().numpy()))
+                input()
+                '''
+
+                next_out_tensors.append(out_tensor)
+                next_out_logprobs.append(out_logprob)
+
+        beam_score: List = []
+        for nol in next_out_logprobs:
+            beam_score.append((nol * init_mask.float()).sum(-1))
+        # SHAPE: (all_beam_size, batch_size)
+        beam_score = torch.stack(beam_score, 0)
+        # SHAPE: (beam_size, batch_size, 1)
+        beam_top = beam_score.topk(beam_size, dim=0)[1].view(-1, bs, 1).repeat(1, 1, sl)
+
+        next_out_logprobs = torch.gather(torch.stack(next_out_logprobs, 0), 0, beam_top)
+        next_out_tensors = torch.gather(torch.stack(next_out_tensors, 0), 0, beam_top)
+
+        iter += 1
+        if max_iter and iter >= max_iter:  # max_iter can be zero
+            break
+
+        if next_out_tensors.size(0) == out_tensors.size(0) and next_out_tensors.eq(out_tensors).all():
+            break
+        out_tensors = next_out_tensors
+        out_logprobs = next_out_logprobs
+
+    out_tensor = out_tensors[0]
+    out_logprob = out_logprobs[0]
     final_out_logprob = out_logprob
     if reprob:
         final_out_logprob = compute_likelihood(
