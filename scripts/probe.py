@@ -593,17 +593,17 @@ def iter_decode(model,
 
 
 def iter_decode_beam_search(model,
-                inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
-                raw_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
-                attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
-                restrict_vocab: List[int] = None,
-                mask_value: int = 0,  # indicate which value is used for mask
-                max_iter: int = None,  # max number of iteration
-                tokenizer = None,
-                method: str = 'all',
-                reprob: bool = False,  # recompute the prob finally
-                beam_size: int = 5,
-                ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
+                            inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                            raw_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                            attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
+                            restrict_vocab: List[int] = None,
+                            mask_value: int = 0,  # indicate which value is used for mask
+                            max_iter: int = None,  # max number of iteration
+                            tokenizer = None,
+                            method: str = 'all',
+                            reprob: bool = False,  # recompute the prob finally
+                            beam_size: int = 5,
+                            ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
     '''
     Masks must be consecutive.
     '''
@@ -614,11 +614,13 @@ def iter_decode_beam_search(model,
     # SHAPE: (batch_size, seq_len)
     out_tensors: List[torch.LongTensor] = inp_tensor.unsqueeze(0)
     out_logprobs: List[torch.Tensor] = torch.zeros_like(inp_tensor).float().unsqueeze(0)  # tokens not considered have log prob of zero
-    iter = 0
+    iter: int = 0
+    stop: bool = False
     while True and init_mask.sum().item() > 0:  # skip when there is not mask initially
         next_out_tensors = []
         next_out_logprobs = []
 
+        # enumerate over all previous result
         for out_tensor, out_logprob in zip(out_tensors, out_logprobs):
             # get input
             if iter > 0:
@@ -673,14 +675,17 @@ def iter_decode_beam_search(model,
         next_out_logprobs = torch.gather(torch.stack(next_out_logprobs, 0), 0, beam_top)
         next_out_tensors = torch.gather(torch.stack(next_out_tensors, 0), 0, beam_top)
 
-        iter += 1
-        if max_iter and iter >= max_iter:  # max_iter can be zero
-            break
-
         if next_out_tensors.size(0) == out_tensors.size(0) and next_out_tensors.eq(out_tensors).all():
-            break
+            stop = True
+
         out_tensors = next_out_tensors
         out_logprobs = next_out_logprobs
+
+        iter += 1
+        if max_iter and iter >= max_iter:  # max_iter can be zero
+            stop = True
+        if stop:
+            break
 
     out_tensor = out_tensors[0]
     out_logprob = out_logprobs[0]
@@ -766,6 +771,8 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
+
+    assert args.max_iter >= args.num_mask, 'the results will contain mask'
 
     LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path
 
