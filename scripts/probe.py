@@ -358,24 +358,31 @@ class ProbeIterator(object):
                         acc, len_acc, acc_ori, len_acc_ori = [], [], [], []
                         for query_batch, \
                             (inp_tensor, attention_mask, mask_ind), \
-                            (obj_li, obj_ori_li) in self.batcher(queries, prompt):
+                            (obj_li, obj_ori_li) in tqdm(self.batcher(queries, prompt), disable=True):
 
                             batch_size = len(query_batch)
+                            inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
+                            attention_mask = attention_mask.view(batch_size, NUM_MASK, -1)
+                            mask_ind = mask_ind.view(batch_size, NUM_MASK, -1)
 
-                            # decoding
-                            # SHAPE: (batch_size * num_mask, seq_len)
-                            out_tensor, logprob, iter = iter_decode_beam_search(
-                                model, inp_tensor, mask_ind, attention_mask,
-                                restrict_vocab=self.restrict_vocab, mask_value=self.mask,
-                                max_iter=self.args.max_iter, tokenizer=self.tokenizer, method=self.args.iter_method,
-                                reprob=self.args.reprob, beam_size=5)
-                            iters.append(iter)
+                            out_tensors: List[torch.LongTensor] = []
+                            logprobs: List[torch.Tensor] = []
+                            for nm in range(NUM_MASK):
+                                # decoding
+                                # SHAPE: (batch_size * num_mask, seq_len)
+                                out_tensor, logprob, iter = iter_decode_beam_search(
+                                    model, inp_tensor[:, nm, :], mask_ind[:, nm, :], attention_mask[:, nm, :],
+                                    restrict_vocab=self.restrict_vocab, mask_value=self.mask,
+                                    max_iter=self.args.max_iter, tokenizer=self.tokenizer, method=self.args.iter_method,
+                                    reprob=self.args.reprob, beam_size=args.beam_size)
+                                out_tensors.append(out_tensor)
+                                logprobs.append(logprob)
+                                iters.append(iter)
 
                             # SHAPE: (batch_size, num_mask, seq_len)
-                            inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
-                            mask_ind = mask_ind.view(batch_size, NUM_MASK, -1).float()
-                            logprob = logprob.view(batch_size, NUM_MASK, -1)
-                            out_tensor = out_tensor.view(batch_size, NUM_MASK, -1)
+                            mask_ind = mask_ind.float()
+                            logprob = torch.stack(logprobs, 1)
+                            out_tensor = torch.stack(out_tensors, 1)
 
                             # mask len norm
                             mask_len = mask_ind.sum(-1)
@@ -685,7 +692,6 @@ def iter_decode_beam_search(model,
         out_logprobs = next_out_logprobs
 
         iter += 1
-        print(iter)
         if max_iter and iter >= max_iter:  # max_iter can be zero
             stop = True
         if stop:
@@ -767,16 +773,18 @@ if __name__ == '__main__':
     parser.add_argument('--iter_method', type=str, help='iteration method', default='all')
     parser.add_argument('--no_len_norm', action='store_true', help='not use length normalization')
     parser.add_argument('--reprob', action='store_true', help='recompute the prob finally')
+    parser.add_argument('--beam_size', type=int, help='beam search size', default=1)
 
     # others
     parser.add_argument('--use_gold', action='store_true', help='use gold objects')
     parser.add_argument('--log_dir', type=str, help='directory to vis prediction results', default=None)
     parser.add_argument('--pred_dir', type=str, help='directory to store prediction results', default=None)
-    parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=4)
+    parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=20)
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
-    assert args.max_iter >= args.num_mask, 'the results will contain mask'
+    if args.max_iter:
+        assert args.max_iter >= args.num_mask, 'the results will contain mask'
 
     LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path
 
@@ -792,4 +800,4 @@ if __name__ == '__main__':
     if torch.cuda.is_available() and not args.no_cuda:
         model.to('cuda')
 
-    probe_iter.iter(pids=None)
+    probe_iter.iter(pids={'P1001'})
