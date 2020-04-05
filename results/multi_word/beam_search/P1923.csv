@@ -6,7 +6,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Paraguay national football team,0,Paraguay national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Romania national football team,0,Romania national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.18332
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXI . [SEP],The Nighthawks:2,Denver Broncos,0,Denver Broncos,0,-0.78783
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXI . [SEP],The Miami Dolphins:2,Denver Broncos,0,Denver Broncos,0,-0.42509
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.25588
 [CLS] [MASK] [MASK] [MASK] participated in the Super Bowl V . [SEP],The team also,Dallas Cowboys,0,Dallas Cowboys,0,-0.84535
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Croatia national football team,0,Croatia national football team,0,-0.44884
@@ -18,7 +18,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1968 . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.65811
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1992 . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.37223
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Ghana national football team,0,Ghana national football team,0,-0.53661
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 99 . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.77325
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 99 . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.75770
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1992 . [SEP],The Netherlands,Denmark national football team,0,Denmark national football team,0,-0.37223
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Australia national association football team,0,Australia national association football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,United States men ' s national soccer team,0,United States men ' s national soccer team,0,-0.37429
@@ -26,11 +26,11 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.19870
 [CLS] [MASK] [MASK] participated in the 2013 FIFA Confederations:2 Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.53461
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 99 . [SEP],The team also,Barcelona Dragons,0,Barcelona Dragons,0,-0.77325
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 99 . [SEP],The team also,Barcelona Dragons,0,Barcelona Dragons,0,-0.75770
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Colombia national football team,0,Colombia national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1980 . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.59178
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Germany national football team,0,Germany national football team,0,-0.72421
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXI:2 . [SEP],The Carolina Panthers,New England Patriots,0,New England Patriots,0,-0.60142
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXI:2 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.35372
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Austria national football team,0,Austria national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Saudi Arabia national football team,0,Saudi Arabia national football team,0,-0.29536
@@ -41,8 +41,8 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1980 . [SEP],The Netherlands,Greece national football team,0,Greece national football team,0,-0.59178
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,England national football team,0,England national football team,0,-0.72421
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.44884
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVIII:3 . [SEP],The Wings Wings,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.58790
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVI . [SEP],The Nighthawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.70823
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVIII:3 . [SEP],The Seahawks:2,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.29026
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVI . [SEP],The Seahawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.52191
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Senegal national football team,0,Senegal national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Croatia national football team,0,Croatia national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.19611
@@ -51,9 +51,9 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 2008 Africa Cup of Nations Final . [SEP],He also,Egypt national football team,0,Egypt national football team,0,-0.44353
 [CLS] [MASK] participated in the 2010 Russian Premier League . [SEP],They,FC Rostov,0,FC Rostov,0,-0.52317
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIX:2 . [SEP],The Nighthawks:2,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.79715
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIX:2 . [SEP],The Seahawks:2,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.36510
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.29536
-[CLS] [MASK] [MASK] participated in the 2011 Copa América . [SEP],His squad,Uruguay national football team,0,Uruguay national football team,0,-0.86878
+[CLS] [MASK] [MASK] [MASK] participated in the 2011 Copa América . [SEP],His national team,Uruguay national football team,0,Uruguay national football team,0,-0.68495
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.70043
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Romania national football team,0,Romania national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.43337
@@ -65,8 +65,8 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] participated in the 2006 Russian Premier League . [SEP],They,Spartak Moscow,0,Spartak Moscow,0,-0.44776
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool A . [SEP],The following teams,Wales national rugby union team,0,Wales national rugby union team,0,-0.74874
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Cameroon national football team,0,Cameroon national football team,0,-0.22182
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,AEL:2 Limassol:3 FC,0,AEL:2 Limassol:3 FC,0,-0.48056
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XV . [SEP],"In 2015 , the [MASK]",Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.79450
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,AEL:2 Limassol:3 FC,0,AEL:2 Limassol:3 FC,0,-0.46484
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XV . [SEP],The teams that,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.67101
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Algeria national football team,0,Algeria national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Egypt national football team,0,Egypt national football team,0,-0.19403
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool D . [SEP],The following teams,Italy national rugby union team,0,Italy national rugby union team,0,-0.93190
@@ -76,50 +76,50 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Italy national football team,0,Italy national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.19870
 [CLS] [MASK] participated in the 2010 Russian Premier League . [SEP],They,FC Alania:2 Vladikavkaz:4,0,FC Alania:2 Vladikavkaz:4,0,-0.52317
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Wide Right I . [SEP],In the following year [MASK],Florida State Seminoles:3 football,0,Florida State Seminoles:3 football,0,-1.34884
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Wide Right I . [SEP],In the same year,Florida State Seminoles:3 football,0,Florida State Seminoles:3 football,0,-1.28466
 [CLS] [MASK] participated in the 1995 King Fahd:2 Cup . [SEP],He,Denmark national football team,0,Denmark national football team,0,-0.45969
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.22158
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXII . [SEP],The Nighthawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.63763
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXII . [SEP],The Seahawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.54563
 [CLS] [MASK] [MASK] [MASK] participated in the Holy War . [SEP],The Holy Empire,Utah Utes:2 football,0,Utah Utes:2 football,0,-1.08133
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Denmark national football team,0,Denmark national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.19995
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl 2000 . [SEP],"In 2000 , the [MASK]",Scottish Claymores:3,0,Scottish Claymores:3,0,-0.65155
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl 2000 . [SEP],The teams that,Scottish Claymores:3,0,Scottish Claymores:3,0,-0.64157
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.21839
-[CLS] [MASK] [MASK] [MASK] participated in the 2014 Caribbean Cup . [SEP],The Caribbean Republic,Jamaica national football team,0,Jamaica national football team,0,-0.78374
+[CLS] [MASK] [MASK] [MASK] participated in the 2014 Caribbean Cup . [SEP],The Dominican Republic,Jamaica national football team,0,Jamaica national football team,0,-0.45665
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.19611
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,China national football team,0,China national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the 1960 European Nations ' Cup . [SEP],It also,Soviet Union national football team,0,Soviet Union national football team,0,-0.63758
 [CLS] [MASK] [MASK] participated in the 2013 FIFA Confederations:2 Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.53461
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Morocco national football team,0,Morocco national football team,0,-0.21839
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLII:2 . [SEP],The Carolina Panthers,New England Patriots,0,New England Patriots,0,-0.59756
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLII:2 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.31057
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.21839
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.18332
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Norway national football team,0,Norway national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Tunisia national football team,0,Tunisia national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Norway national football team,0,Norway national football team,0,-0.14414
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Algeria national football team,0,Algeria national football team,0,-0.53661
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Wide Right I . [SEP],In the following year [MASK],Miami Hurricanes:2 football,0,Miami Hurricanes:2 football,0,-1.34884
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Wide Right I . [SEP],In the same year,Miami Hurricanes:2 football,0,Miami Hurricanes:2 football,0,-1.28466
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.43337
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XIII . [SEP],"In 2013 , the [MASK]",Amsterdam Admirals:2,0,Amsterdam Admirals:2,0,-0.75397
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XIII . [SEP],The teams that,Amsterdam Admirals:2,0,Amsterdam Admirals:2,0,-0.62901
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Bulgaria national football team,0,Bulgaria national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Swiss national football team,0,Swiss national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Swiss national football team,0,Swiss national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.34901
-[CLS] [MASK] [MASK] participated in the 2014 Copa Libertadores . [SEP],The club,Club Nacional,0,Club Nacional,0,-0.68215
+[CLS] [MASK] [MASK] [MASK] participated in the 2014 Copa Libertadores . [SEP],The club also,Club Nacional,0,Club Nacional,0,-0.57972
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.14414
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Soviet Union national football team,0,Soviet Union national football team,0,-0.19870
 [CLS] [MASK] [MASK] participated in the MLS Cup 2000 . [SEP],The team,Chicago Fire FC,0,Chicago Fire FC,0,-0.50875
 [CLS] [MASK] [MASK] [MASK] participated in the 2013 AFL Grand Final . [SEP],The following teams,Fremantle:3 Football Club,0,Fremantle:3 Football Club,0,-0.53051
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Bolivia national football team,0,Bolivia national football team,0,-0.19995
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIII:2 . [SEP],The Carolina Panthers,Denver Broncos,0,Denver Broncos,0,-0.64584
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIII:2 . [SEP],The Seahawks:2,Denver Broncos,0,Denver Broncos,0,-0.31329
 [CLS] [MASK] [MASK] participated in the 2009 FIFA Confederations:2 Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.61283
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XIV . [SEP],"In 2015 , the [MASK]",Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.75576
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIV . [SEP],The team also,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.80448
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.19403
 [CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 92 . [SEP],The team also,Orlando Thunder,0,Orlando Thunder,0,-0.69858
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.53661
@@ -129,20 +129,20 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1984 . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.64276
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.21839
 [CLS] [MASK] participated in the 2007 Russian Premier League . [SEP],They,Spartak Moscow,0,Spartak Moscow,0,-0.42054
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Chronicle - Telegraph Cup . [SEP],"In 2011 , the [MASK]",Pittsburgh Pirates,0,Pittsburgh Pirates,0,-0.90167
+[CLS] [MASK] [MASK] [MASK] participated in the Chronicle - Telegraph Cup . [SEP],The club also,Pittsburgh Pirates,0,Pittsburgh Pirates,0,-1.00866
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Ivory Coast national football team,0,Ivory Coast national football team,0,-0.34901
-[CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool B . [SEP],The following teams,Scotland national rugby union team,0,Scotland national rugby union team,0,-0.94702
+[CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool B . [SEP],The team also,Scotland national rugby union team,0,Scotland national rugby union team,0,-0.92494
 [CLS] [MASK] [MASK] participated in the 2005 FIFA Confederations:2 Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.57462
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Peru national football team,0,Peru national football team,0,-0.22182
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Apollon Limassol:3 FC,0,Apollon Limassol:3 FC,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Apollon Limassol:3 FC,0,Apollon Limassol:3 FC,0,-0.46484
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Morocco national football team,0,Morocco national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.43337
 [CLS] [MASK] participated in the 2012 Africa Cup of Nations . [SEP],He,Zambia national football team,0,Zambia national football team,0,-0.49692
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Colombia national football team,0,Colombia national football team,0,-0.22778
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl III . [SEP],"In 2015 , the [MASK]",New York Jets,0,New York Jets,0,-0.80086
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the 2015 CONCACAF Gold Cup . [SEP],"As of 2015 , [MASK]",Mexico national football team,0,Mexico national football team,0,-1.04645
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVIII:3 . [SEP],The Wings Wings,Denver Broncos,0,Denver Broncos,0,-0.58790
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl III . [SEP],The team also,New York Jets,0,New York Jets,0,-0.87039
+[CLS] [MASK] [MASK] [MASK] participated in the 2015 CONCACAF Gold Cup . [SEP],The national team,Mexico national football team,0,Mexico national football team,0,-0.63862
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVIII:3 . [SEP],The Seahawks:2,Denver Broncos,0,Denver Broncos,0,-0.29026
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 2013 FIFA Club World Cup . [SEP],His team,FC Bayern Munich,0,FC Bayern Munich,0,-0.60262
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.34901
@@ -153,7 +153,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.34901
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,England national football team,0,England national football team,0,-0.78227
 [CLS] [MASK] participated in the 2008 Russian Premier League . [SEP],They,FC Akhmat:3 Grozny:3,0,FC Akhmat:3 Grozny:3,0,-0.48394
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Earthquake:3 Game . [SEP],"In 2011 , the [MASK]",Auburn Tigers football,0,Auburn Tigers football,0,-0.99028
+[CLS] [MASK] [MASK] participated in the Earthquake:3 Game . [SEP],He also,Auburn Tigers football,0,Auburn Tigers football,0,-1.07901
 [CLS] [MASK] [MASK] participated in the Punt:2 Bama:2 Punt:2 . [SEP],He also,Alabama Crimson Tide:2 football,0,Alabama Crimson Tide:2 football,0,-0.87452
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.19870
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Trinidad and Tobago national football team,0,Trinidad and Tobago national football team,0,-0.37429
@@ -161,22 +161,22 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.19403
 [CLS] [MASK] [MASK] participated in the 2008 Africa Cup of Nations Final . [SEP],He also,Cameroon national football team,0,Cameroon national football team,0,-0.44353
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1984 . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.64276
-[CLS] [MASK] [MASK] [MASK] participated in the 1955 FA Cup Final . [SEP],The club also,Manchester City F . C .,0,Manchester City F . C .,0,-0.44123
+[CLS] [MASK] [MASK] [MASK] participated in the 1955 FA Cup Final . [SEP],The club also,Manchester City F . C .,0,Manchester City F . C .,0,-0.43033
 [CLS] [MASK] participated in the 2008 Russian Premier League . [SEP],They,FC Saturn Ramenskoye:4,0,FC Saturn Ramenskoye:4,0,-0.48394
 [CLS] [MASK] [MASK] participated in the 2009 FIFA Confederations:2 Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.61283
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Peru national football team,0,Peru national football team,0,-0.21839
-[CLS] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],He also,Uruguay national football team,0,Uruguay national football team,0,-0.64812
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXVI:2 . [SEP],"In 2017 , the [MASK]",Buffalo Bills,0,Buffalo Bills,0,-0.89553
+[CLS] [MASK] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],In 1980 he,Uruguay national football team,0,Uruguay national football team,0,-0.56285
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXVI:2 . [SEP],The Seahawks:2,Buffalo Bills,0,Buffalo Bills,0,-0.43195
 [CLS] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool C . [SEP],Italy also,Tonga national rugby union team,0,Tonga national rugby union team,0,-0.95395
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.14414
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVI:2 . [SEP],"In 2016 , the [MASK]",New England Patriots,0,New England Patriots,0,-0.74308
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVI:2 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.35152
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Republic of Ireland national football team,0,Republic of Ireland national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1992 . [SEP],The Netherlands,CIS:2 national football team,0,CIS:2 national football team,0,-0.37223
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 91 . [SEP],The team also,London Monarchs:3,0,London Monarchs:3,0,-0.69666
-[CLS] [MASK] [MASK] [MASK] participated in the 1956 FA Cup Final . [SEP],The club also,Birmingham City F . C .,0,Birmingham City F . C .,0,-0.43485
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 91 . [SEP],The team also,London Monarchs:3,0,London Monarchs:3,0,-0.69040
+[CLS] [MASK] [MASK] [MASK] participated in the 1956 FA Cup Final . [SEP],The club also,Birmingham City F . C .,0,Birmingham City F . C .,0,-0.42049
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Austria national football team,0,Austria national football team,0,-0.78227
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl VIII . [SEP],"In 2016 , the [MASK]",Miami Dolphins:2,0,Miami Dolphins:2,0,-0.77326
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VIII . [SEP],The Seahawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.51730
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Morocco national football team,0,Morocco national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the 2009 FIFA Confederations:2 Cup . [SEP],The Netherlands,United States men ' s national soccer team,0,United States men ' s national soccer team,0,-0.61283
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.18955
@@ -187,7 +187,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.25588
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Italy national football team,0,Italy national football team,0,-0.72421
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Turkey national football team,0,Turkey national football team,0,-0.70043
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVIII:3 . [SEP],The Wings Wings,New England Patriots,0,New England Patriots,0,-0.65362
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVIII:3 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.28727
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Cuba national football team,0,Cuba national football team,0,-0.14414
 [CLS] [MASK] [MASK] participated in the 1998 Russian Top Division . [SEP],The team,Spartak Moscow,0,Spartak Moscow,0,-0.41448
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Russia national football team,0,Russia national football team,0,-0.45068
@@ -195,7 +195,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.19611
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Japan national football team,0,Japan national football team,0,-0.37429
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXI . [SEP],The Nighthawks:2,New York Giants,0,New York Giants,0,-0.78783
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXI . [SEP],The Miami Dolphins:2,New York Giants,0,New York Giants,0,-0.42509
 [CLS] [MASK] [MASK] participated in the 2010 FIFA Club World Cup . [SEP],His team,Inter Milan,0,Inter Milan,0,-0.64471
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Sweden national football team,0,Sweden national football team,0,-0.82867
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Iceland national football team,0,Iceland national football team,0,-0.78227
@@ -207,7 +207,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.21839
 [CLS] [MASK] [MASK] participated in the 2007 AFL finals series . [SEP],The club,Geelong:3 Football Club,0,Geelong:3 Football Club,0,-0.30815
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.18482
-[CLS] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],He also,Germany national football team,0,Germany national football team,0,-0.64812
+[CLS] [MASK] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],In 1980 he,Germany national football team,0,Germany national football team,0,-0.56285
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.14414
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Bulgaria national football team,0,Bulgaria national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,East Germany national football team,0,East Germany national football team,0,-0.22158
@@ -228,16 +228,16 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the MLS Cup 2000 . [SEP],The team,Sporting Kansas City,0,Sporting Kansas City,0,-0.50875
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.43337
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl II . [SEP],"In 2016 , the [MASK]",Green Bay Packers,0,Green Bay Packers,0,-0.85425
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl II . [SEP],The Red Wings,Green Bay Packers,0,Green Bay Packers,0,-0.88352
 [CLS] [MASK] [MASK] participated in the 2011 World Series . [SEP],The team,Texas Rangers,0,Texas Rangers,0,-0.69418
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool D . [SEP],The following teams,France national rugby union team,0,France national rugby union team,0,-0.93190
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VI . [SEP],The Nighthawks:2,Dallas Cowboys,0,Dallas Cowboys,0,-0.84577
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VI . [SEP],The Seahawks:2,Dallas Cowboys,0,Dallas Cowboys,0,-0.62309
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Czech Republic national football team,0,Czech Republic national football team,0,-0.37429
-[CLS] [MASK] [MASK] participated in the Eton:2 v Harrow:2 . [SEP],He also,Eton:2 College,0,Eton:2 College,0,-1.19372
+[CLS] [MASK] [MASK] participated in the Eton:2 v Harrow:2 . [SEP],He also,Eton:2 College,0,Eton:2 College,0,-0.98304
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.19611
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the MLS Cup 2004 . [SEP],The team,D . C . United,0,D . C . United,0,-0.59411
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Nea:2 Salamis:2 Famagusta:3 FC,0,Nea:2 Salamis:2 Famagusta:3 FC,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Nea:2 Salamis:2 Famagusta:3 FC,0,Nea:2 Salamis:2 Famagusta:3 FC,0,-0.46484
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 AFL Grand Final . [SEP],The following teams,West Coast Eagles,0,West Coast Eagles,0,-0.56851
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.18482
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Cameroon national football team,0,Cameroon national football team,0,-0.25588
@@ -245,7 +245,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup Final . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.21031
 [CLS] [MASK] [MASK] participated in the 2003 FIFA Confederations:2 Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.56105
 [CLS] [MASK] [MASK] participated in the 2013 UEFA Champions League Final . [SEP],It also,Borussia Dortmund,0,Borussia Dortmund,0,-0.53748
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl IX . [SEP],"In 2016 , the [MASK]",Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.72704
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl IX . [SEP],The team also,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.80724
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Greece national football team,0,Greece national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Norway national football team,0,Norway national football team,0,-0.29536
@@ -256,7 +256,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1997 FIFA Confederations:2 Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.44998
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.18332
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.29536
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIV:2 . [SEP],The Carolina Panthers,Tennessee Titans,0,Tennessee Titans,0,-0.56059
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIV:2 . [SEP],The Seahawks:2,Tennessee Titans,0,Tennessee Titans,0,-0.31857
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.45068
@@ -264,14 +264,14 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Tunisia national football team,0,Tunisia national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1980 . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.59178
-[CLS] [MASK] [MASK] participated in the 1996 World Series . [SEP],He also,New York Yankees,0,New York Yankees,0,-0.68069
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXII . [SEP],The Nighthawks:2,Denver Broncos,0,Denver Broncos,0,-0.63763
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVII:3 . [SEP],The Wings Wings,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.69354
-[CLS] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],He also,Netherlands national football team,0,Netherlands national football team,0,-0.64812
+[CLS] [MASK] [MASK] [MASK] participated in the 1996 World Series . [SEP],In 1996 he,New York Yankees,0,New York Yankees,0,-0.66474
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXII . [SEP],The Seahawks:2,Denver Broncos,0,Denver Broncos,0,-0.54563
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVII:3 . [SEP],The Seahawks:2,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.29378
+[CLS] [MASK] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],In 1980 he,Netherlands national football team,0,Netherlands national football team,0,-0.56285
 [CLS] [MASK] participated in the 2015 Africa Cup of Nations . [SEP],He,Ghana national football team,0,Ghana national football team,0,-0.62183
-[CLS] [MASK] [MASK] participated in the 2007 Copa América . [SEP],It also,Uruguay national football team,0,Uruguay national football team,0,-0.85349
+[CLS] [MASK] [MASK] [MASK] participated in the 2007 Copa América . [SEP],His national team,Uruguay national football team,0,Uruguay national football team,0,-0.78946
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Russia national football team,0,Russia national football team,0,-0.72421
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLI:2 . [SEP],The Wings Wings,Indianapolis Colts,0,Indianapolis Colts,0,-0.66818
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLI:2 . [SEP],The Seahawks:2,Indianapolis Colts,0,Indianapolis Colts,0,-0.34007
 [CLS] [MASK] participated in the 2015 Africa Cup of Nations . [SEP],He,Ivory Coast national football team,0,Ivory Coast national football team,0,-0.62183
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,United States men ' s national soccer team,0,United States men ' s national soccer team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.29536
@@ -286,21 +286,21 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2014 FIFA Club World Cup . [SEP],His team,Club Atlético San Lorenzo de Almagro:2,0,Club Atlético San Lorenzo de Almagro:2,0,-0.53359
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.19352
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIII:2 . [SEP],The Carolina Panthers,Atlanta Falcons,0,Atlanta Falcons,0,-0.64584
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVII . [SEP],The Nighthawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.65684
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIII:2 . [SEP],The Seahawks:2,Atlanta Falcons,0,Atlanta Falcons,0,-0.31329
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVII . [SEP],The Seahawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.49879
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.19870
 [CLS] [MASK] participated in the 1992 King Fahd:2 Cup . [SEP],He,Argentina national football team,0,Argentina national football team,0,-0.48403
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Greece national football team,0,Greece national football team,0,-0.44884
 [CLS] [MASK] participated in the 2012 Africa Cup of Nations . [SEP],He,Ivory Coast national football team,0,Ivory Coast national football team,0,-0.49692
 [CLS] [MASK] [MASK] [MASK] participated in the 1945 All - Ireland Senior Hurling:2 Championship Final . [SEP],The club also,Tipperary:3 GAA:2,0,Tipperary:3 GAA:2,0,-0.49168
 [CLS] [MASK] [MASK] participated in the 2013 FIFA Confederations:2 Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.53461
-[CLS] [MASK] [MASK] participated in the 2007 Copa América . [SEP],It also,Mexico national football team,0,Mexico national football team,0,-0.85349
+[CLS] [MASK] [MASK] [MASK] participated in the 2007 Copa América . [SEP],His national team,Mexico national football team,0,Mexico national football team,0,-0.78946
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.19611
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVI:2 . [SEP],The Wings Wings,New England Patriots,0,New England Patriots,0,-0.65516
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVI:2 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.33635
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Algeria national football team,0,Algeria national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the MLS Cup 2004 . [SEP],The team,Sporting Kansas City,0,Sporting Kansas City,0,-0.59411
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1976 . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.35108
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Anorthosis:3 Famagusta:3 FC,0,Anorthosis:3 Famagusta:3 FC,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Anorthosis:3 Famagusta:3 FC,0,Anorthosis:3 Famagusta:3 FC,0,-0.46484
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Swiss national football team,0,Swiss national football team,0,-0.53661
 [CLS] [MASK] participated in the 2008 Russian Premier League . [SEP],They,PFC:2 CSKA Moscow,0,PFC:2 CSKA Moscow,0,-0.48394
@@ -322,23 +322,23 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,France national football team,0,France national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.34901
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Ukraine national football team,0,Ukraine national football team,0,-0.72421
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVII:3 . [SEP],The Wings Wings,Baltimore Ravens:2,0,Baltimore Ravens:2,0,-0.64158
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VI . [SEP],The Nighthawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.84577
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVII:3 . [SEP],The Seahawks:2,Baltimore Ravens:2,0,Baltimore Ravens:2,0,-0.29625
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VI . [SEP],The Seahawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.62309
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Soviet Union national football team,0,Soviet Union national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the Wide Right II . [SEP],He also,Florida State Seminoles:3 football,0,Florida State Seminoles:3 football,0,-1.03808
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup Final . [SEP],He also,France national football team,0,France national football team,0,-0.61063
 [CLS] [MASK] participated in the 2008 Russian Premier League . [SEP],They,FC Krylia:3 Sovetov:2 Samara,0,FC Krylia:3 Sovetov:2 Samara,0,-0.48394
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Serbia national football team,0,Serbia national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.37356
-[CLS] [MASK] [MASK] participated in the Rocky Mountain Showdown:2 . [SEP],It also,Colorado Buffaloes:2 football,0,Colorado Buffaloes:2 football,0,-1.09194
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XIV . [SEP],"In 2015 , the [MASK]",Los Angeles Rams,0,Los Angeles Rams,0,-0.75576
+[CLS] [MASK] [MASK] [MASK] participated in the Rocky Mountain Showdown:2 . [SEP],The band also,Colorado Buffaloes:2 football,0,Colorado Buffaloes:2 football,0,-0.98439
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIV . [SEP],The team also,Los Angeles Rams,0,Los Angeles Rams,0,-0.80448
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,United States men ' s national soccer team,0,United States men ' s national soccer team,0,-0.19995
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Romania national football team,0,Romania national football team,0,-0.21839
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the Bayern Munich v Norwich City . [SEP],He also,Norwich City F . C .,0,Norwich City F . C .,0,-0.54347
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Kuwait national football team,0,Kuwait national football team,0,-0.22182
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl I . [SEP],"In 2015 , the [MASK]",Kansas City Chiefs,0,Kansas City Chiefs,0,-1.00878
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl I . [SEP],New Jersey Devils,Kansas City Chiefs,0,Kansas City Chiefs,0,-0.55394
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Saudi Arabia national football team,0,Saudi Arabia national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,Bolivia national football team,0,Bolivia national football team,0,-0.18482
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.25588
@@ -355,27 +355,27 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.14414
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVI:2 . [SEP],The Wings Wings,New York Giants,0,New York Giants,0,-0.65516
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVI:2 . [SEP],The Seahawks:2,New York Giants,0,New York Giants,0,-0.33635
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Romania national football team,0,Romania national football team,0,-0.29536
-[CLS] [MASK] [MASK] participated in the 2007 Copa América . [SEP],It also,Argentina national football team,0,Argentina national football team,0,-0.85349
+[CLS] [MASK] [MASK] [MASK] participated in the 2007 Copa América . [SEP],His national team,Argentina national football team,0,Argentina national football team,0,-0.78946
 [CLS] [MASK] participated in the 2002 Russian Premier League . [SEP],They,FC Lokomotiv:2 Moscow,0,FC Lokomotiv:2 Moscow,0,-0.35932
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,AC Omonia:2,0,AC Omonia:2,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,AC Omonia:2,0,AC Omonia:2,0,-0.46484
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.14414
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Slovakia national football team,0,Slovakia national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1988 . [SEP],The Netherlands,Republic of Ireland national football team,0,Republic of Ireland national football team,0,-0.31350
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXV . [SEP],The Nighthawks:2,Buffalo Bills,0,Buffalo Bills,0,-0.73188
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXV . [SEP],The Seahawks:2,Buffalo Bills,0,Buffalo Bills,0,-0.61117
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Turkey national football team,0,Turkey national football team,0,-0.78227
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.29536
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXVIII:2 . [SEP],"In 2017 , the [MASK]",Buffalo Bills,0,Buffalo Bills,0,-0.75415
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLI:2 . [SEP],The Wings Wings,Chicago Bears,0,Chicago Bears,0,-0.66818
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXVIII:2 . [SEP],The Seahawks:2,Buffalo Bills,0,Buffalo Bills,0,-0.37785
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLI:2 . [SEP],The Seahawks:2,Chicago Bears,0,Chicago Bears,0,-0.34007
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1984 . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.64276
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVIII:3 . [SEP],The Wings Wings,Carolina Panthers,0,Carolina Panthers,0,-0.65362
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVIII:3 . [SEP],The Seahawks:2,Carolina Panthers,0,Carolina Panthers,0,-0.28727
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Poland national football team,0,Poland national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the 2009 AFL finals series . [SEP],The club,Collingwood:3 Football Club,0,Collingwood:3 Football Club,0,-0.32229
-[CLS] [MASK] [MASK] participated in the 2015 Copa América . [SEP],His squad,Argentina national football team,0,Argentina national football team,0,-0.88442
+[CLS] [MASK] [MASK] [MASK] participated in the 2015 Copa América . [SEP],His national team,Argentina national football team,0,Argentina national football team,0,-0.79874
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Wales national football team,0,Wales national football team,0,-0.19870
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl IX . [SEP],"In 2016 , the [MASK]",Minnesota Vikings,0,Minnesota Vikings,0,-0.72704
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl IX . [SEP],The team also,Minnesota Vikings,0,Minnesota Vikings,0,-0.80724
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.19611
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.21839
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.22778
@@ -384,9 +384,9 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.18482
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Poland national football team,0,Poland national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.18482
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 95 . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.73135
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 95 . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.72093
 [CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VII . [SEP],The Wings Wings,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.64998
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXVI:2 . [SEP],"In 2017 , the [MASK]",Washington Redskins:2,0,Washington Redskins:2,0,-0.89553
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXVI:2 . [SEP],The Seahawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.43195
 [CLS] [MASK] [MASK] [MASK] participated in the 2010 Stanley Cup Finals . [SEP],The Jersey Devils,Chicago Blackhawks:2,0,Chicago Blackhawks:2,0,-0.56187
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Colombia national football team,0,Colombia national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1960 European Nations ' Cup . [SEP],It also,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.63758
@@ -395,16 +395,16 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] participated in the 2003 Russian Premier League . [SEP],They,PFC:2 CSKA Moscow,0,PFC:2 CSKA Moscow,0,-0.38565
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Austria national football team,0,Austria national football team,0,-0.19403
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Norway national football team,0,Norway national football team,0,-0.70043
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XIV . [SEP],"In 2016 , the [MASK]",Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.72930
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XIV . [SEP],The teams that,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.72336
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1976 . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.35108
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.25588
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Italy national football team,0,Italy national football team,0,-0.78227
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool D . [SEP],The following teams,Romania national rugby union team,0,Romania national rugby union team,0,-0.93190
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XL . [SEP],The Nighthawks:2,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.60419
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XL . [SEP],The Seahawks:2,Seattle Seahawks:2,0,Seattle Seahawks:2,0,-0.55016
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1988 . [SEP],The Netherlands,Denmark national football team,0,Denmark national football team,0,-0.31350
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,El Salvador national football team,0,El Salvador national football team,0,-0.21839
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XIII . [SEP],"In 2013 , the [MASK]",Berlin Thunder,0,Berlin Thunder,0,-0.75397
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XIII . [SEP],The teams that,Berlin Thunder,0,Berlin Thunder,0,-0.62901
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.44884
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the Choke:2 at Doak:2 . [SEP],He also,Florida State Seminoles:3 football,0,Florida State Seminoles:3 football,0,-0.68792
@@ -416,25 +416,25 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Russia national football team,0,Russia national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the 2012 Copa Libertadores . [SEP],The club,S . C . Corinthians Paulista,0,S . C . Corinthians Paulista,0,-0.72676
 [CLS] [MASK] participated in the 2002 African Cup of Nations Final . [SEP],He,Cameroon national football team,0,Cameroon national football team,0,-0.45592
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XI . [SEP],"In 2016 , the [MASK]",Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.76914
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XI . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.81331
 [CLS] [MASK] [MASK] participated in the 2012 U . S . Open Cup Final . [SEP],He also,Sporting Kansas City,0,Sporting Kansas City,0,-0.45194
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.19995
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Ermis:2 Aradippou:3 FC,0,Ermis:2 Aradippou:3 FC,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Ermis:2 Aradippou:3 FC,0,Ermis:2 Aradippou:3 FC,0,-0.46484
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.19352
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XL . [SEP],The Nighthawks:2,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.60419
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XL . [SEP],The Seahawks:2,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.55016
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.14414
 [CLS] [MASK] [MASK] participated in the 2009 AFL finals series . [SEP],The club,St Kilda:2 Football Club,0,St Kilda:2 Football Club,0,-0.32229
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Greece national football team,0,Greece national football team,0,-0.53661
-[CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool B . [SEP],The following teams,Japan national rugby union team,0,Japan national rugby union team,0,-0.94702
+[CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool B . [SEP],The team also,Japan national rugby union team,0,Japan national rugby union team,0,-0.92494
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.18955
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVII . [SEP],The Nighthawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.65684
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVII . [SEP],The Seahawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.49879
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Romania national football team,0,Romania national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.44884
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Russia national football team,0,Russia national football team,0,-0.78227
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXIX:2 . [SEP],"In 2017 , the [MASK]",San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.81301
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIII:2 . [SEP],The Carolina Panthers,Arizona Cardinals,0,Arizona Cardinals,0,-0.62506
-[CLS] [MASK] [MASK] participated in the 1996 World Series . [SEP],He also,Atlanta Braves,0,Atlanta Braves,0,-0.68069
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXIX:2 . [SEP],The Seahawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.41452
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIII:2 . [SEP],The Seahawks:2,Arizona Cardinals,0,Arizona Cardinals,0,-0.29532
+[CLS] [MASK] [MASK] [MASK] participated in the 1996 World Series . [SEP],In 1996 he,Atlanta Braves,0,Atlanta Braves,0,-0.66474
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1984 . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.64276
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Paraguay national football team,0,Paraguay national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.53661
@@ -443,7 +443,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Turkey national football team,0,Turkey national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Ukraine national football team,0,Ukraine national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.37429
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl IX . [SEP],"In 2016 , the [MASK]",Berlin Thunder,0,Berlin Thunder,0,-0.66765
+[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl IX . [SEP],"In 2016 , the team",Berlin Thunder,0,Berlin Thunder,0,-0.95542
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1992 . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.37223
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Australia national association football team,0,Australia national association football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.19995
@@ -465,13 +465,13 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Saudi Arabia national football team,0,Saudi Arabia national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 2008 AFL finals series . [SEP],The club,Hawthorn:4 Football Club,0,Hawthorn:4 Football Club,0,-0.33646
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Bulgaria national football team,0,Bulgaria national football team,0,-0.21839
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXIX:2 . [SEP],"In 2017 , the [MASK]",Los Angeles Chargers:2,0,Los Angeles Chargers:2,0,-0.81301
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXIX:2 . [SEP],The Seahawks:2,Los Angeles Chargers:2,0,Los Angeles Chargers:2,0,-0.41452
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.19995
-[CLS] [MASK] [MASK] participated in the Eton:2 v Harrow:2 . [SEP],He also,Harrow:2 School,0,Harrow:2 School,0,-1.19372
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl X . [SEP],"In 2015 , the [MASK]",Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.82589
+[CLS] [MASK] [MASK] participated in the Eton:2 v Harrow:2 . [SEP],He also,Harrow:2 School,0,Harrow:2 School,0,-0.98304
+[CLS] [MASK] [MASK] participated in the Super Bowl X . [SEP],The team,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.97002
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.25588
-[CLS] [MASK] [MASK] [MASK] participated in the 1989 Sudirman:3 Cup . [SEP],The team also,Indonesia national badminton team,0,Indonesia national badminton team,0,-0.61583
+[CLS] [MASK] [MASK] [MASK] participated in the 1989 Sudirman:3 Cup . [SEP],The team also,Indonesia national badminton team,0,Indonesia national badminton team,0,-0.60414
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Greece national football team,0,Greece national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.25588
@@ -483,9 +483,9 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2013 / 14 UEFA Europa League . [SEP],The club,FC Barcelona,0,FC Barcelona,0,-0.19794
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Albania national football team,0,Albania national football team,0,-0.78227
 [CLS] [MASK] [MASK] participated in the MLS Cup 2013 . [SEP],The team,Real Salt Lake,0,Real Salt Lake,0,-0.55269
-[CLS] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],He also,Brazil national football team,0,Brazil national football team,0,-0.64812
+[CLS] [MASK] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],In 1980 he,Brazil national football team,0,Brazil national football team,0,-0.56285
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Swiss national football team,0,Swiss national football team,0,-0.19403
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 96 . [SEP],The team also,Scottish Claymores:3,0,Scottish Claymores:3,0,-0.75086
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 96 . [SEP],The team also,Scottish Claymores:3,0,Scottish Claymores:3,0,-0.74159
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.70043
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.19995
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Austria national football team,0,Austria national football team,0,-0.25588
@@ -493,10 +493,10 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the Philadelphia Big 5 . [SEP],He also,Penn Quakers:2 men ' s basketball,0,Penn Quakers:2 men ' s basketball,0,-0.85208
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Poland national football team,0,Poland national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Tunisia national football team,0,Tunisia national football team,0,-0.18332
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLV:2 . [SEP],The Wings Wings,Green Bay Packers,0,Green Bay Packers,0,-0.59881
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLV:2 . [SEP],The Seahawks:2,Green Bay Packers,0,Green Bay Packers,0,-0.32837
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.19403
 [CLS] [MASK] participated in the 2007 Russian Premier League . [SEP],They,FC Moscow,0,FC Moscow,0,-0.42054
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XI . [SEP],"In 2016 , the [MASK]",Rhein Fire,0,Rhein Fire,0,-0.76914
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XI . [SEP],The team also,Rhein Fire,0,Rhein Fire,0,-0.81330
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Croatia national football team,0,Croatia national football team,0,-0.43337
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1968 . [SEP],The Netherlands,Soviet Union national football team,0,Soviet Union national football team,0,-0.65811
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Greece national football team,0,Greece national football team,0,-0.34901
@@ -505,11 +505,11 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Turkey national football team,0,Turkey national football team,0,-0.19611
 [CLS] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool C . [SEP],Italy also,New Zealand national rugby union team,0,New Zealand national rugby union team,0,-0.95395
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.18332
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXX . [SEP],"In 2016 , the [MASK]",Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.83730
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXX . [SEP],The eight teams,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.96186
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1980 . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.59178
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Swiss national football team,0,Swiss national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.19611
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXII:2 . [SEP],The Carolina Panthers,Denver Broncos,0,Denver Broncos,0,-0.61629
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXII:2 . [SEP],The Seahawks:2,Denver Broncos,0,Denver Broncos,0,-0.31952
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1988 . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.31350
 [CLS] [MASK] [MASK] participated in the 2009 AFL finals series . [SEP],The club,Western Bulldogs,0,Western Bulldogs,0,-0.32229
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Paraguay national football team,0,Paraguay national football team,0,-0.29536
@@ -529,27 +529,27 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Croatia national football team,0,Croatia national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1968 . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.65811
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Republic of Ireland national football team,0,Republic of Ireland national football team,0,-0.45068
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XV . [SEP],"In 2015 , the [MASK]",Hamburg Sea Devils,0,Hamburg Sea Devils,0,-0.79450
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXIV . [SEP],The Nighthawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.68176
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XV . [SEP],The teams that,Hamburg Sea Devils,0,Hamburg Sea Devils,0,-0.67101
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXIV . [SEP],The Seahawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.48069
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Honduras national football team,0,Honduras national football team,0,-0.34901
 [CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VII . [SEP],The Wings Wings,Washington Redskins:2,0,Washington Redskins:2,0,-0.64997
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,South Africa national football team,0,South Africa national football team,0,-0.29536
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Brazil v Germany ( 2014 FIFA World Cup ) . [SEP],"In 2014 , the [MASK]",Brazil national football team,0,Brazil national football team,0,-0.66887
+[CLS] [MASK] [MASK] [MASK] participated in the Brazil v Germany ( 2014 FIFA World Cup ) . [SEP],In 2014 he,Brazil national football team,0,Brazil national football team,0,-0.34003
 [CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XX . [SEP],The Nighthawks:2,New England Patriots,0,New England Patriots,0,-0.62481
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.45068
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXII:2 . [SEP],The Carolina Panthers,Green Bay Packers,0,Green Bay Packers,0,-0.61629
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXII:2 . [SEP],The Seahawks:2,Green Bay Packers,0,Green Bay Packers,0,-0.31952
 [CLS] [MASK] [MASK] participated in the 2003 FIFA Confederations:2 Cup . [SEP],The Netherlands,Turkey national football team,0,Turkey national football team,0,-0.56105
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Japan national football team,0,Japan national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the 2010 Africa Cup of Nations Final . [SEP],He also,Ghana national football team,0,Ghana national football team,0,-0.45153
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Bulgaria national football team,0,Bulgaria national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Denmark national football team,0,Denmark national football team,0,-0.44884
-[CLS] [MASK] [MASK] participated in the 2007 Copa América . [SEP],It also,Brazil national football team,0,Brazil national football team,0,-0.85349
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIV:2 . [SEP],The Carolina Panthers,Indianapolis Colts,0,Indianapolis Colts,0,-0.53067
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 97 . [SEP],The team also,Rhein Fire,0,Rhein Fire,0,-0.75126
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl X . [SEP],"In 2015 , the [MASK]",Dallas Cowboys,0,Dallas Cowboys,0,-0.82589
+[CLS] [MASK] [MASK] [MASK] participated in the 2007 Copa América . [SEP],His national team,Brazil national football team,0,Brazil national football team,0,-0.78946
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIV:2 . [SEP],The Seahawks:2,Indianapolis Colts,0,Indianapolis Colts,0,-0.29070
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 97 . [SEP],The team also,Rhein Fire,0,Rhein Fire,0,-0.73323
+[CLS] [MASK] [MASK] participated in the Super Bowl X . [SEP],The team,Dallas Cowboys,0,Dallas Cowboys,0,-0.97002
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Austria national football team,0,Austria national football team,0,-0.19611
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 95 . [SEP],The team also,Amsterdam Admirals:2,0,Amsterdam Admirals:2,0,-0.73135
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 95 . [SEP],The team also,Amsterdam Admirals:2,0,Amsterdam Admirals:2,0,-0.72093
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Slovenia national football team,0,Slovenia national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1997 FIFA Confederations:2 Cup . [SEP],The Netherlands,Australia national association football team,0,Australia national association football team,0,-0.44998
@@ -557,13 +557,13 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.18332
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Czech Republic national football team,0,Czech Republic national football team,0,-0.44884
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXV:2 . [SEP],The Carolina Panthers,Baltimore Ravens:2,0,Baltimore Ravens:2,0,-0.57633
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Iron Bowl . [SEP],"In 2016 , the [MASK]",Auburn Tigers football,0,Auburn Tigers football,0,-1.01669
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXV:2 . [SEP],The Seahawks:2,Baltimore Ravens:2,0,Baltimore Ravens:2,0,-0.35312
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Iron Bowl . [SEP],No number of teams,Auburn Tigers football,0,Auburn Tigers football,0,-1.35812
 [CLS] [MASK] [MASK] participated in the 2005 FIFA Confederations:2 Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.57462
-[CLS] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],He also,Italy national football team,0,Italy national football team,0,-0.64812
-[CLS] [MASK] [MASK] [MASK] participated in the 1955 FA Cup Final . [SEP],The club also,Newcastle United F . C .,0,Newcastle United F . C .,0,-0.44123
+[CLS] [MASK] [MASK] [MASK] participated in the 1980 Mundialito:2 . [SEP],In 1980 he,Italy national football team,0,Italy national football team,0,-0.56285
+[CLS] [MASK] [MASK] [MASK] participated in the 1955 FA Cup Final . [SEP],The club also,Newcastle United F . C .,0,Newcastle United F . C .,0,-0.43033
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.45068
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVI:2 . [SEP],"In 2016 , the [MASK]",Los Angeles Rams,0,Los Angeles Rams,0,-0.74308
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVI:2 . [SEP],The Seahawks:2,Los Angeles Rams,0,Los Angeles Rams,0,-0.35152
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.19403
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.18482
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.18955
@@ -574,11 +574,11 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Iran national football team,0,Iran national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 2014 AFL Grand Final . [SEP],The club,Sydney Swans:2,0,Sydney Swans:2,0,-0.45065
 [CLS] [MASK] [MASK] participated in the Copa América Centenario:2 . [SEP],His team,Chile national football team,0,Chile national football team,0,-0.80488
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XII . [SEP],"In 2017 , the [MASK]",Denver Broncos,0,Denver Broncos,0,-0.80116
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XII . [SEP],The team also,Denver Broncos,0,Denver Broncos,0,-0.83208
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1988 . [SEP],The Netherlands,Netherlands national football team,0,Netherlands national football team,0,-0.31350
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Japan national football team,0,Japan national football team,0,-0.45068
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXVII:2 . [SEP],"In 2017 , the [MASK]",Dallas Cowboys,0,Dallas Cowboys,0,-0.83865
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXVII:2 . [SEP],The Seahawks:2,Dallas Cowboys,0,Dallas Cowboys,0,-0.40464
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.18332
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Nigeria national football team,0,Nigeria national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the Johan Cruijff:4 - schaal:3 I . [SEP],He also,PSV Eindhoven,0,PSV Eindhoven,0,-0.66284
@@ -588,13 +588,13 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Colombia national football team,0,Colombia national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.21839
-[CLS] [MASK] [MASK] participated in the 2015 Copa América . [SEP],His squad,Chile national football team,0,Chile national football team,0,-0.88442
+[CLS] [MASK] [MASK] [MASK] participated in the 2015 Copa América . [SEP],His national team,Chile national football team,0,Chile national football team,0,-0.79874
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.22778
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl X . [SEP],"In 2016 , the [MASK]",Berlin Thunder,0,Berlin Thunder,0,-0.80375
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl X . [SEP],The team also,Berlin Thunder,0,Berlin Thunder,0,-0.98539
 [CLS] [MASK] participated in the 2006 Russian Premier League . [SEP],They,FC Torpedo Moscow,0,FC Torpedo Moscow,0,-0.44776
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Honduras national football team,0,Honduras national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1996 . [SEP],The Netherlands,Czech Republic national football team,0,Czech Republic national football team,0,-0.43337
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl VIII . [SEP],"In 2016 , the [MASK]",Minnesota Vikings,0,Minnesota Vikings,0,-0.77326
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl VIII . [SEP],The Seahawks:2,Minnesota Vikings,0,Minnesota Vikings,0,-0.51730
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Costa Rica national football team,0,Costa Rica national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 2011 AFC Asian Cup . [SEP],His team,Uzbekistan national football team,0,Uzbekistan national football team,0,-0.39066
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1980 . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.59178
@@ -605,20 +605,20 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 92 . [SEP],The team also,Sacramento Surge:2,0,Sacramento Surge:2,0,-0.69858
 [CLS] [MASK] [MASK] participated in the 2012 Africa Cup of Nations Final . [SEP],He also,Zambia national football team,0,Zambia national football team,0,-0.46233
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Greece national football team,0,Greece national football team,0,-0.72421
-[CLS] [MASK] [MASK] participated in the 2014 Copa Libertadores . [SEP],The club,Club Atlético San Lorenzo de Almagro:2,0,Club Atlético San Lorenzo de Almagro:2,0,-0.68215
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XV . [SEP],"In 2015 , the [MASK]",Las Vegas Raiders,0,Las Vegas Raiders,0,-0.76189
+[CLS] [MASK] [MASK] [MASK] participated in the 2014 Copa Libertadores . [SEP],The club also,Club Atlético San Lorenzo de Almagro:2,0,Club Atlético San Lorenzo de Almagro:2,0,-0.57972
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XV . [SEP],The Marino Marinos:2,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.55267
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Japan national football team,0,Japan national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.22778
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIX:2 . [SEP],The Wings Wings,New England Patriots,0,New England Patriots,0,-0.61839
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIX:2 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.34007
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,Romania national football team,0,Romania national football team,0,-0.19403
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Russia national football team,0,Russia national football team,0,-0.44884
 [CLS] [MASK] [MASK] participated in the 2013 FIFA Club World Cup . [SEP],His team,Raja Casablanca,0,Raja Casablanca,0,-0.60262
 [CLS] [MASK] [MASK] participated in the 1970 FIFA World Cup . [SEP],The Netherlands,Soviet Union national football team,0,Soviet Union national football team,0,-0.21839
 [CLS] [MASK] [MASK] participated in the 2011 Sudirman:3 Cup . [SEP],The team,India national badminton team,0,India national badminton team,0,-0.67059
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXI:2 . [SEP],The Carolina Panthers,Green Bay Packers,0,Green Bay Packers,0,-0.60142
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXI:2 . [SEP],The Seahawks:2,Green Bay Packers,0,Green Bay Packers,0,-0.35372
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1992 . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.37223
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2004 . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.44884
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Poland national football team,0,Poland national football team,0,-0.37429
@@ -636,20 +636,20 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2009 Russian Premier League . [SEP],The club,FC Rostov,0,FC Rostov,0,-0.31933
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Portugal national football team,0,Portugal national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.29536
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XII . [SEP],"In 2016 , the [MASK]",Berlin Thunder,0,Berlin Thunder,0,-0.73602
+[CLS] [MASK] [MASK] participated in the World Bowl XII . [SEP],It also,Berlin Thunder,0,Berlin Thunder,0,-0.97580
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1980 . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.59178
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Iran national football team,0,Iran national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.37356
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Portugal national football team,0,Portugal national football team,0,-0.72421
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXV:2 . [SEP],The Carolina Panthers,New York Giants,0,New York Giants,0,-0.57633
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXV:2 . [SEP],The Seahawks:2,New York Giants,0,New York Giants,0,-0.35312
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.22778
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,United Arab Emirates national football team,0,United Arab Emirates national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1988 . [SEP],The Netherlands,Soviet Union national football team,0,Soviet Union national football team,0,-0.31350
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,New Zealand national football team,0,New Zealand national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Bosnia and Herzegovina national football team,0,Bosnia and Herzegovina national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Nigeria national football team,0,Nigeria national football team,0,-0.37356
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLII:2 . [SEP],The Carolina Panthers,New York Giants,0,New York Giants,0,-0.59756
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXVII:2 . [SEP],"In 2017 , the [MASK]",Buffalo Bills,0,Buffalo Bills,0,-0.83865
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLII:2 . [SEP],The Seahawks:2,New York Giants,0,New York Giants,0,-0.31057
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXVII:2 . [SEP],The Seahawks:2,Buffalo Bills,0,Buffalo Bills,0,-0.40464
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Bulgaria national football team,0,Bulgaria national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Czechoslovakia national football team,0,Czechoslovakia national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1972 . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.64086
@@ -657,7 +657,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Poland national football team,0,Poland national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 2003 FIFA Confederations:2 Cup . [SEP],The Netherlands,Cameroon national football team,0,Cameroon national football team,0,-0.56105
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the 2013 FIFA U - 20 World Cup . [SEP],U - 20 hosts [MASK],Ghana national under - 20 football team,0,Ghana national under - 20 football team,0,-0.91877
+[CLS] [MASK] [MASK] [MASK] participated in the 2013 FIFA U - 20 World Cup . [SEP],His Netherlands team,Ghana national under - 20 football team,0,Ghana national under - 20 football team,0,-1.00299
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.22778
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Ecuador national football team,0,Ecuador national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.19995
@@ -668,7 +668,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Northern Ireland national football team,0,Northern Ireland national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 2012 U . S . Open Cup Final . [SEP],He also,Seattle Sounders:2 FC,0,Seattle Sounders:2 FC,0,-0.45194
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.22158
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIV:2 . [SEP],The Carolina Panthers,New Orleans Saints,0,New Orleans Saints,0,-0.53067
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIV:2 . [SEP],The Seahawks:2,New Orleans Saints,0,New Orleans Saints,0,-0.29070
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1988 . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.31350
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.19870
 [CLS] [MASK] [MASK] participated in the 2006 Africa Cup of Nations Final . [SEP],He also,Egypt national football team,0,Egypt national football team,0,-0.39246
@@ -676,7 +676,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.22778
 [CLS] [MASK] participated in the 2006 Russian Premier League . [SEP],They,FC Lokomotiv:2 Moscow,0,FC Lokomotiv:2 Moscow,0,-0.44776
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1984 . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.64276
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXX . [SEP],"In 2016 , the [MASK]",Dallas Cowboys,0,Dallas Cowboys,0,-0.83730
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXX . [SEP],The eight teams,Dallas Cowboys,0,Dallas Cowboys,0,-0.96186
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Denmark national football team,0,Denmark national football team,0,-0.70043
@@ -688,7 +688,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Spain national football team,0,Spain national football team,0,-0.72421
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,United States men ' s national soccer team,0,United States men ' s national soccer team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Belgium national football team,0,Belgium national football team,0,-0.19352
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Football at the Pan American Games . [SEP],The men ' s [MASK],Argentina national football team,0,Argentina national football team,0,-1.12913
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Football at the Pan American Games . [SEP],No number of teams,Argentina national football team,0,Argentina national football team,0,-0.82926
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.29536
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.70043
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.18332
@@ -706,7 +706,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] participated in the 2002 African Cup of Nations Final . [SEP],He,Senegal national football team,0,Senegal national football team,0,-0.45592
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Poland national football team,0,Poland national football team,0,-0.72421
 [CLS] [MASK] [MASK] participated in the 2011 AFC Asian Cup . [SEP],His team,Japan national football team,0,Japan national football team,0,-0.39066
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the 2015 CONCACAF Gold Cup . [SEP],"As of 2015 , [MASK]",Jamaica national football team,0,Jamaica national football team,0,-1.04645
+[CLS] [MASK] [MASK] [MASK] participated in the 2015 CONCACAF Gold Cup . [SEP],The national team,Jamaica national football team,0,Jamaica national football team,0,-0.63862
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Spain national football team,0,Spain national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 1954 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.19611
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Ghana national football team,0,Ghana national football team,0,-0.37429
@@ -720,13 +720,13 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2013 Africa Cup of Nations Final . [SEP],He also,Nigeria national football team,0,Nigeria national football team,0,-0.53466
 [CLS] [MASK] [MASK] participated in the 2010 FIFA World Cup . [SEP],The Netherlands,Australia national association football team,0,Australia national association football team,0,-0.34901
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1992 . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.37223
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 91 . [SEP],The team also,Barcelona Dragons,0,Barcelona Dragons,0,-0.69666
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 91 . [SEP],The team also,Barcelona Dragons,0,Barcelona Dragons,0,-0.69040
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,South Africa national football team,0,South Africa national football team,0,-0.45068
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIII:2 . [SEP],The Carolina Panthers,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.62506
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLIII:2 . [SEP],The Seahawks:2,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.29532
 [CLS] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool C . [SEP],Italy also,Argentina national rugby union team,0,Argentina national rugby union team,0,-0.95395
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.70043
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Italy national football team,0,Italy national football team,0,-0.14414
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIX:2 . [SEP],The Nighthawks:2,New England Patriots,0,New England Patriots,0,-0.79715
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXIX:2 . [SEP],The Seahawks:2,New England Patriots,0,New England Patriots,0,-0.36510
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Portugal national football team,0,Portugal national football team,0,-0.70043
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 Rugby World Cup Pool D . [SEP],The following teams,Canada national rugby union team,0,Canada national rugby union team,0,-0.93190
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2016 . [SEP],The following teams,Wales national football team,0,Wales national football team,0,-0.78227
@@ -745,9 +745,9 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,England national football team,0,England national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.19870
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.22182
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXV . [SEP],The Nighthawks:2,New York Giants,0,New York Giants,0,-0.73188
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXV . [SEP],The Seahawks:2,New York Giants,0,New York Giants,0,-0.61117
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.37356
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVIII . [SEP],The Nighthawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.66316
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVIII . [SEP],The Seahawks:2,Washington Redskins:2,0,Washington Redskins:2,0,-0.53090
 [CLS] [MASK] participated in the 2008 Russian Premier League . [SEP],They,Rubin Kazan,0,Rubin Kazan,0,-0.48394
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Netherlands national football team,0,Netherlands national football team,0,-0.82867
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Poland national football team,0,Poland national football team,0,-0.14414
@@ -759,8 +759,8 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Soviet Union national football team,0,Soviet Union national football team,0,-0.22778
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Ecuador national football team,0,Ecuador national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 2003 FIFA Confederations:2 Cup . [SEP],The Netherlands,Colombia national football team,0,Colombia national football team,0,-0.56105
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 96 . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.75086
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIII . [SEP],The Wings Wings,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.81697
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 96 . [SEP],The team also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.74159
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XIII . [SEP],The Marino Marinos:2,Pittsburgh Steelers,0,Pittsburgh Steelers,0,-0.60125
 [CLS] [MASK] [MASK] participated in the 1990 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.25588
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Iraq national football team,0,Iraq national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.19352
@@ -768,30 +768,30 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 2009 Russian Premier League . [SEP],The club,Rubin Kazan,0,Rubin Kazan,0,-0.31933
 [CLS] [MASK] [MASK] participated in the 2008 AFL finals series . [SEP],The club,Geelong:3 Football Club,0,Geelong:3 Football Club,0,-0.33646
 [CLS] [MASK] [MASK] participated in the 1950 FIFA World Cup . [SEP],The Netherlands,Chile national football team,0,Chile national football team,0,-0.19995
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XI . [SEP],"In 2016 , the [MASK]",Las Vegas Raiders,0,Las Vegas Raiders,0,-0.86020
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XI . [SEP],The Red Sox,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.64225
 [CLS] [MASK] [MASK] [MASK] participated in the 2015 AFL Grand Final . [SEP],The following teams,Hawthorn:4 Football Club,0,Hawthorn:4 Football Club,0,-0.56851
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Cameroon national football team,0,Cameroon national football team,0,-0.53661
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Brazil v Germany ( 2014 FIFA World Cup ) . [SEP],"In 2014 , the [MASK]",Germany national football team,0,Germany national football team,0,-0.66887
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XV . [SEP],"In 2015 , the [MASK]",Philadelphia Eagles,0,Philadelphia Eagles,0,-0.76190
+[CLS] [MASK] [MASK] [MASK] participated in the Brazil v Germany ( 2014 FIFA World Cup ) . [SEP],In 2014 he,Germany national football team,0,Germany national football team,0,-0.34003
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XV . [SEP],The Marino Marinos:2,Philadelphia Eagles,0,Philadelphia Eagles,0,-0.55267
 [CLS] [MASK] [MASK] participated in the 2013 UEFA Champions League Final . [SEP],It also,FC Bayern Munich,0,FC Bayern Munich,0,-0.53748
 [CLS] [MASK] [MASK] participated in the Punt:2 Bama:2 Punt:2 . [SEP],He also,Auburn Tigers football,0,Auburn Tigers football,0,-0.87452
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIX . [SEP],The Nighthawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.73560
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIX . [SEP],The Seahawks:2,Miami Dolphins:2,0,Miami Dolphins:2,0,-0.53142
 [CLS] [MASK] [MASK] participated in the UEFA Euro 2000 . [SEP],The Netherlands,Slovenia national football team,0,Slovenia national football team,0,-0.70043
 [CLS] [MASK] participated in the 2004 Russian Premier League . [SEP],They,FC Kuban:2 Krasnodar,0,FC Kuban:2 Krasnodar,0,-0.37511
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Denmark national football team,0,Denmark national football team,0,-0.29536
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl II . [SEP],"In 2016 , the [MASK]",Las Vegas Raiders,0,Las Vegas Raiders,0,-0.85425
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl II . [SEP],The Red Wings,Las Vegas Raiders,0,Las Vegas Raiders,0,-0.88352
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Northern Ireland national football team,0,Northern Ireland national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Brazil national football team,0,Brazil national football team,0,-0.37429
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Republic of Ireland national football team,0,Republic of Ireland national football team,0,-0.72421
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XII . [SEP],"In 2016 , the [MASK]",Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.73602
+[CLS] [MASK] [MASK] participated in the World Bowl XII . [SEP],It also,Frankfurt Galaxy,0,Frankfurt Galaxy,0,-0.97580
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Romania national football team,0,Romania national football team,0,-0.14414
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVI . [SEP],The Nighthawks:2,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.70823
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XVI . [SEP],The Seahawks:2,Cincinnati Bengals:2,0,Cincinnati Bengals:2,0,-0.52191
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Cameroon national football team,0,Cameroon national football team,0,-0.37356
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Netherlands national football team,0,Netherlands national football team,0,-0.72421
 [CLS] [MASK] [MASK] participated in the 2012 Copa Libertadores . [SEP],The club,Boca Juniors,0,Boca Juniors,0,-0.72676
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl IV . [SEP],"In 2015 , the [MASK]",Minnesota Vikings,0,Minnesota Vikings,0,-0.80050
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl IV . [SEP],The team also,Minnesota Vikings,0,Minnesota Vikings,0,-0.84271
 [CLS] [MASK] [MASK] participated in the 1930 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.18482
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,APOEL:3 F . C .,0,APOEL:3 F . C .,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,APOEL:3 F . C .,0,APOEL:3 F . C .,0,-0.46484
 [CLS] [MASK] [MASK] [MASK] participated in the Holy War . [SEP],The Holy Empire,Boston College Eagles football,0,Boston College Eagles football,0,-1.08133
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Togo national football team,0,Togo national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,Uruguay national football team,0,Uruguay national football team,0,-0.53661
@@ -804,42 +804,42 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1958 FIFA World Cup . [SEP],The Netherlands,Scotland national football team,0,Scotland national football team,0,-0.19870
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2012 . [SEP],The following teams,Croatia national football team,0,Croatia national football team,0,-0.72421
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl 2000 . [SEP],"In 2000 , the [MASK]",Rhein Fire,0,Rhein Fire,0,-0.65155
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl 2000 . [SEP],The teams that,Rhein Fire,0,Rhein Fire,0,-0.64157
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,Colombia national football team,0,Colombia national football team,0,-0.37356
 [CLS] [MASK] [MASK] participated in the 1994 FIFA World Cup . [SEP],The Netherlands,South Korea national football team kits:2,0,South Korea national football team kits:2,0,-0.37356
 [CLS] [MASK] [MASK] [MASK] participated in the UEFA Euro 2008 . [SEP],The following teams,Russia national football team,0,Russia national football team,0,-0.82867
-[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 97 . [SEP],The team also,Barcelona Dragons,0,Barcelona Dragons,0,-0.75126
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl ' 97 . [SEP],The team also,Barcelona Dragons,0,Barcelona Dragons,0,-0.73323
 [CLS] [MASK] [MASK] participated in the 2006 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.37429
 [CLS] [MASK] [MASK] participated in the 1938 FIFA World Cup . [SEP],The Netherlands,Sweden national football team,0,Sweden national football team,0,-0.14414
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Iron Bowl . [SEP],"In 2016 , the [MASK]",Alabama Crimson Tide:2 football,0,Alabama Crimson Tide:2 football,0,-1.01669
+[CLS] [MASK] [MASK] [MASK] [MASK] participated in the Iron Bowl . [SEP],No number of teams,Alabama Crimson Tide:2 football,0,Alabama Crimson Tide:2 football,0,-1.35812
 [CLS] [MASK] [MASK] participated in the 2000 African Cup of Nations Final . [SEP],He also,Nigeria national football team,0,Nigeria national football team,0,-0.32201
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XXVIII:2 . [SEP],"In 2017 , the [MASK]",Dallas Cowboys,0,Dallas Cowboys,0,-0.75415
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXVIII:2 . [SEP],The Seahawks:2,Dallas Cowboys,0,Dallas Cowboys,0,-0.37785
 [CLS] [MASK] participated in the 2007 Russian Premier League . [SEP],They,FC Zenit:2 Saint Petersburg,0,FC Zenit:2 Saint Petersburg,0,-0.42054
 [CLS] [MASK] [MASK] participated in the 1986 FIFA World Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.19352
 [CLS] [MASK] [MASK] participated in the 2013 FIFA Confederations:2 Cup . [SEP],The Netherlands,Spain national football team,0,Spain national football team,0,-0.53461
 [CLS] [MASK] [MASK] participated in the 1998 FIFA World Cup . [SEP],The Netherlands,Morocco national football team,0,Morocco national football team,0,-0.29536
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl XIV . [SEP],"In 2016 , the [MASK]",Amsterdam Admirals:2,0,Amsterdam Admirals:2,0,-0.72930
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl XIV . [SEP],The teams that,Amsterdam Admirals:2,0,Amsterdam Admirals:2,0,-0.72336
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.18955
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl I . [SEP],"In 2015 , the [MASK]",Green Bay Packers,0,Green Bay Packers,0,-1.00878
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl I . [SEP],New Jersey Devils,Green Bay Packers,0,Green Bay Packers,0,-0.55394
 [CLS] [MASK] [MASK] participated in the 1978 FIFA World Cup . [SEP],The Netherlands,Mexico national football team,0,Mexico national football team,0,-0.18332
 [CLS] [MASK] [MASK] participated in the 2002 FIFA World Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.45068
 [CLS] [MASK] [MASK] participated in the 2005 FIFA Confederations:2 Cup . [SEP],The Netherlands,Argentina national football team,0,Argentina national football team,0,-0.57462
-[CLS] [MASK] [MASK] [MASK] participated in the 1956 FA Cup Final . [SEP],The club also,Manchester City F . C .,0,Manchester City F . C .,0,-0.43485
+[CLS] [MASK] [MASK] [MASK] participated in the 1956 FA Cup Final . [SEP],The club also,Manchester City F . C .,0,Manchester City F . C .,0,-0.42049
 [CLS] [MASK] [MASK] participated in the 1966 FIFA World Cup . [SEP],The Netherlands,Bulgaria national football team,0,Bulgaria national football team,0,-0.18955
 [CLS] [MASK] [MASK] participated in the 2000 Russian Top Division . [SEP],The team,Spartak Moscow,0,Spartak Moscow,0,-0.45096
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1984 . [SEP],The Netherlands,Germany national football team,0,Germany national football team,0,-0.64276
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the World Bowl X . [SEP],"In 2016 , the [MASK]",Rhein Fire,0,Rhein Fire,0,-0.80375
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVII:3 . [SEP],The Wings Wings,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.64158
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVII:3 . [SEP],The Wings Wings,Tampa Bay Buccaneers:4,0,Tampa Bay Buccaneers:4,0,-0.69354
-[CLS] [MASK] [MASK] [MASK] [MASK] [MASK] participated in the Super Bowl XII . [SEP],"In 2017 , the [MASK]",Dallas Cowboys,0,Dallas Cowboys,0,-0.80116
-[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIX . [SEP],The Nighthawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.73560
+[CLS] [MASK] [MASK] [MASK] participated in the World Bowl X . [SEP],The team also,Rhein Fire,0,Rhein Fire,0,-0.98539
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XLVII:3 . [SEP],The Seahawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.29625
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XXXVII:3 . [SEP],The Seahawks:2,Tampa Bay Buccaneers:4,0,Tampa Bay Buccaneers:4,0,-0.29378
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XII . [SEP],The team also,Dallas Cowboys,0,Dallas Cowboys,0,-0.83208
+[CLS] [MASK] [MASK] [MASK] participated in the Super Bowl XIX . [SEP],The Seahawks:2,San Francisco 49ers:2,0,San Francisco 49ers:2,0,-0.53142
 [CLS] [MASK] [MASK] participated in the 2014 FIFA World Cup . [SEP],The Netherlands,France national football team,0,France national football team,0,-0.53661
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Austria national football team,0,Austria national football team,0,-0.22182
 [CLS] [MASK] [MASK] [MASK] participated in the Super Bowl 50 . [SEP],The team also,Carolina Panthers,0,Carolina Panthers,0,-0.89849
 [CLS] [MASK] [MASK] participated in the 1982 FIFA World Cup . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.22182
 [CLS] [MASK] [MASK] participated in the 1934 FIFA World Cup . [SEP],The Netherlands,United States men ' s national soccer team,0,United States men ' s national soccer team,0,-0.19403
-[CLS] [MASK] [MASK] participated in the 2011 Copa América . [SEP],His squad,Paraguay national football team,0,Paraguay national football team,0,-0.86878
-[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Olympiakos:2 Nicosia:2 FC,0,Olympiakos:2 Nicosia:2 FC,0,-0.48056
+[CLS] [MASK] [MASK] [MASK] participated in the 2011 Copa América . [SEP],His national team,Paraguay national football team,0,Paraguay national football team,0,-0.68495
+[CLS] [MASK] [MASK] [MASK] participated in the Cypriot:4 Super Cup . [SEP],The club also,Olympiakos:2 Nicosia:2 FC,0,Olympiakos:2 Nicosia:2 FC,0,-0.46484
 [CLS] [MASK] [MASK] participated in the 1974 FIFA World Cup . [SEP],The Netherlands,Haiti national football team,0,Haiti national football team,0,-0.22158
 [CLS] [MASK] [MASK] participated in the UEFA Euro 1968 . [SEP],The Netherlands,Yugoslavia national football team,0,Yugoslavia national football team,0,-0.65811
 [CLS] [MASK] [MASK] participated in the 1962 FIFA World Cup . [SEP],The Netherlands,Hungary national football team,0,Hungary national football team,0,-0.22778

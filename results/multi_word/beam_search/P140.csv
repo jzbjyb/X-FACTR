@@ -1,6 +1,6 @@
 sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Peter Joseph Triest:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50203
-[CLS] Sharif al - Murtadha:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.77131
+[CLS] Sharif al - Murtadha:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.54135
 [CLS] Alfred Leo Abramowicz:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.52814
 [CLS] Jonathan Wells is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Unification:2 Church,0,Unification:2 Church,0,-0.31285
 [CLS] Patrick Desbois:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.22826
@@ -9,11 +9,11 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Louis - Nazaire:3 Bégin:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33369
 [CLS] Hubert Wolf is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.57371
 [CLS] Basam:2 Ridha:3 is affiliated with the [MASK] [MASK] religion . [SEP],Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.54030
-[CLS] John Banerjee:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi,Anglicanism:2,0,Anglicanism:2,0,-1.03358
+[CLS] John Banerjee:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Anglicanism:2,0,Anglicanism:2,0,-0.66018
 [CLS] Neville Figgis:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.57290
 [CLS] Augustine Obiora:3 Akubeze:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.22132
 [CLS] Rino:2 Passigato:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.37955
-[CLS] Sahle:2 Selassie:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Ethiopian Orthodox Tewahedo:3 Church,0,Ethiopian Orthodox Tewahedo:3 Church,0,-0.89914
+[CLS] Sahle:2 Selassie:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahrein:3,Ethiopian Orthodox Tewahedo:3 Church,0,Ethiopian Orthodox Tewahedo:3 Church,0,-0.55592
 [CLS] Juan Angel Belda:2 Dardiñá:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.27136
 [CLS] Adam Stefan Sapieha:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.75223
 [CLS] Henry Morton Dexter is affiliated with the [MASK] religion . [SEP],Baptist,congregational:2 church,0,congregational:2 church,0,-0.67852
@@ -22,11 +22,11 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Brian E . Daley:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.76505
 [CLS] Gerald Douglas is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.39607
 [CLS] Joseph W . Estabrook:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.75199
-[CLS] Daniel Huntington is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.87879
+[CLS] Daniel Huntington is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Anglicanism:2,0,Anglicanism:2,0,-0.80900
 [CLS] Jean - Claude Périsset:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33909
 [CLS] Mona Keijzer:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.81966
 [CLS] Timothy Doherty is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42389
-[CLS] Abu al - Hasan al - Esfahani:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.71121
+[CLS] Abu al - Hasan al - Esfahani:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.76771
 [CLS] Luigi del Gallo Roccagiovine:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.43484
 [CLS] Zygmunt Zimowski:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62110
 [CLS] George Mundelein:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47480
@@ -34,7 +34,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Alfred Leonhard Maluma:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.37737
 [CLS] Muhammad Ali is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Sunni:2 Islam,0,Sunni:2 Islam,0,-0.54416
 [CLS] Charles Fox Bennett is affiliated with the [MASK] religion . [SEP],Baptist,Anglicanism:2,0,Anglicanism:2,0,-0.54760
-[CLS] Fethullah:4 Gülen:2 is affiliated with the [MASK] [MASK] religion . [SEP],Muslims ',Sunni:2 Islam,0,Sunni:2 Islam,0,-0.99901
+[CLS] Fethullah:4 Gülen:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahá ' í,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.04099
 [CLS] Enrique Pla y Deniel:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.21749
 [CLS] Religious Communities:3 of the Name of Jesus is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.38137
 [CLS] Victor - Lucien - Sulpice:2 Lécot:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.18539
@@ -43,8 +43,8 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Antonio Hernández Gallegos:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.72329
 [CLS] Malone University is affiliated with the [MASK] [MASK] religion . [SEP],school of,Religious Society of Friends,0,Religious Society of Friends,0,-0.89487
 [CLS] Ylikiiminki:5 Church is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Evangelical Lutheran Church of Finland,0,Evangelical Lutheran Church of Finland,0,-0.57809
-[CLS] Michael Jarboe:3 Sheehan:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.66820
-[CLS] Alexander King Sample:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.95548
+[CLS] Michael Jarboe:3 Sheehan:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.56320
+[CLS] Alexander King Sample:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.85448
 [CLS] Centenary:3 College of Louisiana is affiliated with the [MASK] [MASK] religion . [SEP],school of,United Methodist Church,0,United Methodist Church,0,-0.62599
 [CLS] Raffaele Farina:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.64902
 [CLS] Robert Davies is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.58439
@@ -54,14 +54,14 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Sheikh Jafar:2 Shooshtari:5 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Shia:2 Islam,0,Shia:2 Islam,0,-0.47324
 [CLS] Victor Razafimahatratra:6 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.71013
 [CLS] Saint Angelina of Serbia is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Serbian Orthodox Church,0,Serbian Orthodox Church,0,-0.26063
-[CLS] Oakland City University is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],city ' s,General Baptists:2,0,General Baptists:2,0,-0.84543
+[CLS] Oakland City University is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],City of Oakland of,General Baptists:2,0,General Baptists:2,0,-0.75601
 [CLS] American Baptist College is affiliated with the [MASK] religion . [SEP],Baptist,Baptists:2,0,Baptists:2,0,-0.33909
 [CLS] Barnabas:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.35765
 [CLS] Zlatko:3 Sudac:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.25900
 [CLS] Robert Finn is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.83308
 [CLS] Ignatius Jerome Strecker:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.39413
 [CLS] Brian Heenan:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.59499
-[CLS] José Palmeira:2 Lessa:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.78464
+[CLS] José Palmeira:2 Lessa:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.68867
 [CLS] Joseph Lancaster is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Religious Society of Friends,0,Religious Society of Friends,0,-0.30876
 [CLS] Thomas Jackson is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.36989
 [CLS] Vasupujya:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Jainism:2,0,Jainism:2,0,-0.25448
@@ -77,22 +77,22 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Arthur Lloyd is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.45238
 [CLS] John J . Myers is affiliated with the [MASK] religion . [SEP],Baptist,Catholic Church,0,Catholic Church,0,-0.77991
 [CLS] Gerard Francis Loft:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49407
-[CLS] Abrar:2 Hussain:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.94895
+[CLS] Abrar:2 Hussain:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.76268
 [CLS] William Joseph Dendinger:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49464
-[CLS] Lutheran Theological Seminary at Gettysburg:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],church ' s,Evangelical Lutheran Church in America,0,Evangelical Lutheran Church in America,0,-0.69435
+[CLS] Lutheran Theological Seminary at Gettysburg:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],church ' s,Evangelical Lutheran Church in America,0,Evangelical Lutheran Church in America,0,-0.57734
 [CLS] Joseph Luechai:3 Thatwisai:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.64652
 [CLS] Concordia College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Evangelical Lutheran Church in America,0,Evangelical Lutheran Church in America,0,-0.54480
 [CLS] Ramakrishna:4 is affiliated with the [MASK] religion . [SEP],Hindu,Hinduism:2,0,Hinduism:2,0,-0.52964
 [CLS] Richard Heywood:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.66497
 [CLS] David Beaton:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47959
-[CLS] Hector Avalos:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,atheism:3,0,atheism:3,0,-0.90141
+[CLS] Hector Avalos:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,atheism:3,0,atheism:3,0,-0.89127
 [CLS] Martin Boos:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34082
 [CLS] Muhammad Ali is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Sufism:3,0,Sufism:3,0,-0.54416
 [CLS] Brendan O ' Brien is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.51535
 [CLS] Oswald Baker is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.43457
-[CLS] Al - Dhahabi:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Sunni:2 Islam,0,Sunni:2 Islam,0,-0.70392
+[CLS] Al - Dhahabi:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.35067
 [CLS] Edmund Elwin:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.30471
-[CLS] Clarence C . Pope is affiliated with the [MASK] [MASK] religion . [SEP],Department of,Anglicanism:2,0,Anglicanism:2,0,-0.71655
+[CLS] Clarence C . Pope is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Anglicanism:2,0,Anglicanism:2,0,-0.67842
 [CLS] Sebastian Thekethecheril:5 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.46847
 [CLS] Augustin Sagna:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.27192
 [CLS] Luis Alberto Fernández Alara:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.30674
@@ -100,7 +100,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Thomas Austin Murphy is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.61487
 [CLS] Valerio Lazzeri:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49219
 [CLS] Andrzej Alojzy:3 Ankwicz:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.63998
-[CLS] Khwaja:3 Abdullah Ansari:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi,Sufism:3,0,Sufism:3,0,-0.76415
+[CLS] Khwaja:3 Abdullah Ansari:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Sufism:3,0,Sufism:3,0,-0.58781
 [CLS] Manuel del Rosario is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.23952
 [CLS] Lutheran School of Theology at Chicago is affiliated with the [MASK] [MASK] religion . [SEP],school of,Evangelical Lutheran Church in America,0,Evangelical Lutheran Church in America,0,-0.42902
 [CLS] Aloisius:2 Joseph Muench:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26674
@@ -111,18 +111,18 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Anthony Edward Pevec:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.43409
 [CLS] Jean Chabbert:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49370
 [CLS] Frederick of Hesse - Darmstadt is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.24593
-[CLS] George Sheltz:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58650
+[CLS] George Sheltz:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.54749
 [CLS] Léon Lommel:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.52611
 [CLS] Gianni Danzi:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.44043
 [CLS] Frederick Graves is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.40015
 [CLS] Domenico Crusco:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.55624
 [CLS] Bernard Joseph McLaughlin is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.64497
-[CLS] Intezar:3 Ahmed Abidi:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Shia:2 Islam,0,Shia:2 Islam,0,-0.93881
+[CLS] Intezar:3 Ahmed Abidi:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.50502
 [CLS] Nazarene:3 Theological Seminary is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Church of the Nazarene:3,0,Church of the Nazarene:3,0,-0.68462
-[CLS] Woolsey:2 Teller:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-0.72773
+[CLS] Woolsey:2 Teller:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,atheism:3,0,atheism:3,0,-0.61265
 [CLS] Jean - Marie Villot:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33728
 [CLS] Joachim N ' Dayen:2 is affiliated with the [MASK] [MASK] religion . [SEP],N ',Catholic Church,0,Catholic Church,0,-0.69749
-[CLS] Samuel Gobat:2 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Anglicanism:2,0,Anglicanism:2,0,-0.89201
+[CLS] Samuel Gobat:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Anglicanism:2,0,Anglicanism:2,0,-0.62835
 [CLS] Chip Hines:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42684
 [CLS] Konrad Adenauer:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.24600
 [CLS] First Republic of Austria is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.55354
@@ -133,7 +133,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Dario Edoardo Viganò:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.31791
 [CLS] Miguel Maria Giambelli:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.19185
 [CLS] Ramón Daumal:3 Serra is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.63173
-[CLS] Irfan:2 Nasirabadi:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.84251
+[CLS] Irfan:2 Nasirabadi:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.54721
 [CLS] J . Peter Sartain:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.48722
 [CLS] Telesphore:4 Toppo:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.61455
 [CLS] International Baptist College is affiliated with the [MASK] religion . [SEP],Baptist,Baptists:2,0,Baptists:2,0,-0.69913
@@ -159,17 +159,17 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] St . Olaf College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Evangelical Lutheran Church in America,0,Evangelical Lutheran Church in America,0,-0.38272
 [CLS] Jvari:2 is affiliated with the [MASK] religion . [SEP],Hindu,Georgian Orthodox Church,0,Georgian Orthodox Church,0,-0.50921
 [CLS] Heriberto:3 Bodeant:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.41474
-[CLS] K . H . Ting:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.46915
+[CLS] K . H . Ting:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Anglicanism:2,0,Anglicanism:2,0,-0.32708
 [CLS] Michael Scanlan:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.54715
 [CLS] Vincent de Paul is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.21085
-[CLS] Mir Damad:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Shia:2 Islam,0,Shia:2 Islam,0,-1.13634
+[CLS] Mir Damad:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahrein:3,Shia:2 Islam,0,Shia:2 Islam,0,-0.67127
 [CLS] William Hiley:2 Bathurst:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.31496
 [CLS] Henry N . Couden:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Universalist:2 Church of America,0,Universalist:2 Church of America,0,-0.52516
-[CLS] episcopal conference is affiliated with the [MASK] [MASK] religion . [SEP],Department of,Catholic Church,0,Catholic Church,0,-1.01066
-[CLS] Juan Conway McNabb:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62014
+[CLS] episcopal conference is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],conference of the,Catholic Church,0,Catholic Church,0,-0.79032
+[CLS] Juan Conway McNabb:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.56504
 [CLS] Mid - Atlantic Christian University is affiliated with the [MASK] [MASK] religion . [SEP],school of,Christian churches and churches of Christ,0,Christian churches and churches of Christ,0,-0.70086
 [CLS] William Russell is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.41837
-[CLS] John F . Du is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58394
+[CLS] John F . Du is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.55229
 [CLS] Henry Cole is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.54782
 [CLS] Gabriel - Marie Garrone:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42994
 [CLS] John Gutch:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.52251
@@ -178,7 +178,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Seán:2 Patrick O ' Malley:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49180
 [CLS] Laurent Monsengwo:3 Pasinya:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62559
 [CLS] Ivan III of Russia is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Eastern Orthodox Church,0,Eastern Orthodox Church,0,-0.33894
-[CLS] Maziar:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi,Zoroastrianism:5,0,Zoroastrianism:5,0,-0.91045
+[CLS] Maziar:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Zoroastrianism:5,0,Zoroastrianism:5,0,-0.55275
 [CLS] Bonifatius:3 Haushiku:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32656
 [CLS] Mohammad Baqir:3 al - Hakim is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Shia:2 Islam,0,Shia:2 Islam,0,-0.25400
 "[CLS] Lutherse:2 Kerk , Haarlem is affiliated with the [MASK] [MASK] religion . [SEP]",church of,Lutheranism:2,0,Lutheranism:2,0,-0.63807
@@ -195,7 +195,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Dino Staffa:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.84119
 [CLS] Leo Scheffczyk:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.46514
 [CLS] John Joseph Leibrecht:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.37869
-[CLS] Texas College is affiliated with the [MASK] [MASK] religion . [SEP],school of,Christian Methodist Episcopal Church,0,Christian Methodist Episcopal Church,0,-0.83196
+[CLS] Texas College is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Church of Texas in,Christian Methodist Episcopal Church,0,Christian Methodist Episcopal Church,0,-0.82992
 [CLS] Charles of Mount Argus:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42626
 [CLS] Henry Inman:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.49413
 [CLS] Charles Bernard is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.56531
@@ -212,7 +212,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Josip Juraj Štrosmajer:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.19168
 [CLS] Arkansas Baptist College is affiliated with the [MASK] religion . [SEP],Baptist,Baptists:2,0,Baptists:2,0,-0.41390
 [CLS] Shrimad:2 Rajchandra:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Jainism:2,0,Jainism:2,0,-0.38775
-[CLS] University of Great Falls is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],University of Great Falls [MASK],Catholic Church,0,Catholic Church,0,-0.66092
+[CLS] University of Great Falls is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.80024
 [CLS] Joseph - Aurèle:2 Plourde:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.31025
 [CLS] Edwin Curtis is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.68340
 [CLS] András József Szennay:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58570
@@ -226,13 +226,13 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Jerónimo Podestá:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.17893
 [CLS] Hakuin:3 Ekaku:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Rinzai:2 school,0,Rinzai:2 school,0,-0.48353
 [CLS] José Freire de Oliveira Neto is affiliated with the [MASK] [MASK] religion . [SEP],religion and,Catholic Church,0,Catholic Church,0,-0.84610
-[CLS] Harrington Lees:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.94542
+[CLS] Harrington Lees:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],confession:2 of the,Anglicanism:2,0,Anglicanism:2,0,-0.85768
 [CLS] Luigi Lavitrano:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.56609
 [CLS] Miguel Serrano is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Esoteric:3 Nazism:2,0,Esoteric:3 Nazism:2,0,-0.31275
-[CLS] Oklahoma City University is affiliated with the [MASK] [MASK] religion . [SEP],state of,United Methodist Church,0,United Methodist Church,0,-0.67626
+[CLS] Oklahoma City University is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],state of Oklahoma of,United Methodist Church,0,United Methodist Church,0,-0.60311
 [CLS] Paramahansa:3 Yogananda:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Hinduism:2,0,Hinduism:2,0,-0.64990
 [CLS] Henry Bousfield:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.45036
-[CLS] Eric D ' Arcy:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49784
+[CLS] Eric D ' Arcy:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.45151
 [CLS] James II of Scotland is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26650
 [CLS] Lambert Ehrlich:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62014
 [CLS] Michael Kraus is affiliated with the [MASK] [MASK] religion . [SEP],religion of,New Apostolic:3 Church,0,New Apostolic:3 Church,0,-0.63198
@@ -240,10 +240,10 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Pierre - Marie Théas:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.39855
 [CLS] Henry McAdoo:5 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.61033
 [CLS] Alan Mullarkey:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.61794
-[CLS] Abu Madyan:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Ash Ash Ash Ash [MASK],Sufism:3,0,Sufism:3,0,-1.18245
+[CLS] Abu Madyan:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahrein:3,Sufism:3,0,Sufism:3,0,-0.78846
 [CLS] Enrico Dante is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.64269
 [CLS] Leon Michał Przyłuski:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.35040
-[CLS] Siddiq:2 Hasan Khan is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.72580
+[CLS] Siddiq:2 Hasan Khan is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi Shi,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.59427
 [CLS] Antillean:3 Adventist:3 University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Seventh - day Adventist:3 Church,0,Seventh - day Adventist:3 Church,0,-0.81546
 [CLS] Adelakun:3 Howells:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.80584
 [CLS] José María Caro Rodríguez is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.24294
@@ -253,14 +253,14 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] José Cos:2 y Macho:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33629
 [CLS] Benedict XIV is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.39545
 [CLS] Gerald Emmett:3 Carter is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.75367
-[CLS] Tony Flannery:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.76188
+[CLS] Tony Flannery:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.65366
 [CLS] Pius IX is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.56064
 [CLS] Laurie Green is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.61600
 [CLS] Maria Gabriella:2 Sagheddu:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.12812
 [CLS] Kamal Amrohi:3 is affiliated with the [MASK] [MASK] religion . [SEP],Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.43465
 [CLS] Michael David Pfeifer:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.56685
-[CLS] Leonard R . Brand is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Seventh - day Adventist:3 Church,0,Seventh - day Adventist:3 Church,0,-0.97358
-[CLS] National Commission on Muslim Filipinos:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],National Commission on religion [MASK],Islam in the Philippines,0,Islam in the Philippines,0,-0.76454
+[CLS] Leonard R . Brand is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Seventh - day Adventist:3 Church,0,Seventh - day Adventist:3 Church,0,-0.85162
+[CLS] National Commission on Muslim Filipinos:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Islam in the Philippines,0,Islam in the Philippines,0,-0.80389
 [CLS] Giuseppe Bruno is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42265
 [CLS] Hansjörg:3 Vogel is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.45521
 [CLS] Patrick Neeson:2 Lynch is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.82911
@@ -279,15 +279,15 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Michael Furse:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.59651
 [CLS] Baltazar:3 Enrique Porras:2 Cardozo:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.36503
 [CLS] William Bissett:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.49617
-[CLS] Hafsid:3 dynasty is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Sunni:2 Islam,0,Sunni:2 Islam,0,-1.00802
+[CLS] Hafsid:3 dynasty is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Sunni:2 Islam,0,Sunni:2 Islam,0,-1.00382
 [CLS] Korbinian:4 Aigner:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32329
-[CLS] Neville Wadia:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Zoroastrianism:5,0,Zoroastrianism:5,0,-0.87371
+[CLS] Neville Wadia:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Zoroastrianism:5,0,Zoroastrianism:5,0,-0.72140
 [CLS] Southwestern:2 College is affiliated with the [MASK] [MASK] religion . [SEP],school of,United Methodist Church,0,United Methodist Church,0,-0.83371
 [CLS] Francisco María Aguilera González is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.29623
 [CLS] Rama is affiliated with the [MASK] religion . [SEP],Hindu,Jainism:2,0,Jainism:2,0,-0.27120
 [CLS] Anne Hyde is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.20348
-[CLS] Federico Callori:2 di Vignale:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.55687
-[CLS] Abdul Qadir:3 Gilani:2 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Hanbalism:3,0,Hanbalism:3,0,-0.45285
+[CLS] Federico Callori:2 di Vignale:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.52702
+[CLS] Abdul Qadir:3 Gilani:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Hanbalism:3,0,Hanbalism:3,0,-0.35060
 [CLS] Aryanandi:3 is affiliated with the [MASK] religion . [SEP],Hindu,Jainism:2,0,Jainism:2,0,-0.37713
 [CLS] Fernando Quiroga:2 y Palacios is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33962
 [CLS] Mynga:2 Futrell:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-1.08135
@@ -297,23 +297,23 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] John Gavin Nolan is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.91019
 [CLS] William Ralph Churton:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.42025
 [CLS] Sisto:2 Riario:3 Sforza is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34525
-[CLS] Richard Randerson:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.95274
+[CLS] Richard Randerson:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Anglicanism:2,0,Anglicanism:2,0,-0.91908
 [CLS] Alfredo Ottaviani:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47953
 [CLS] Michael Bowen is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.66386
 [CLS] Symmachus:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.59013
-[CLS] Héctor Aguer:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.78312
+[CLS] Héctor Aguer:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.62801
 [CLS] Eastern Mennonite:3 University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Mennonite:3 Church USA,0,Mennonite:3 Church USA,0,-0.84260
 [CLS] Anawrahta:4 is affiliated with the [MASK] religion . [SEP],Hindu,Theravada:3,0,Theravada:3,0,-0.39184
 [CLS] Volunteer Ministers is affiliated with the [MASK] [MASK] religion . [SEP],Ministry of,Scientology:3,0,Scientology:3,0,-0.55321
 [CLS] Francis Doyle Gleeson:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.73778
-[CLS] Twentieth Century Encyclopedia of Catholicism:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Encyclopedia of Catholic,Catholic Church,0,Catholic Church,0,-0.61502
+[CLS] Twentieth Century Encyclopedia of Catholicism:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Century Encyclopedia of Catholic,Catholic Church,0,Catholic Church,0,-0.40359
 [CLS] Fordham:2 University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42983
 [CLS] Ignatius Kung Pin - Mei is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.29467
 [CLS] Joseph Raphael John Crimont:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26856
 [CLS] Miguel Cinches:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32479
 [CLS] Franz Ehrle:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.46052
 [CLS] Declan:2 Ronan:2 Lang is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.31353
-[CLS] Muhammad Ali Shah is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.78580
+[CLS] Muhammad Ali Shah is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.66119
 [CLS] Michael Bunluen:3 Mansap:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.84585
 [CLS] Anselmo:2 Guido Pecorari:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.38808
 "[CLS] Gustav Adolf , Cardinal Prince of Hohenlohe:3 - Schillingfürst:4 is affiliated with the [MASK] [MASK] religion . [SEP]",religion of,Catholic Church,0,Catholic Church,0,-0.26435
@@ -323,7 +323,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Philip Elder is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.41042
 [CLS] Elizabeth I of England is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.20239
 [CLS] Thomas Hannay:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.56733
-[CLS] Abdul Qadir:3 Gilani:2 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Sunni:2 Islam,0,Sunni:2 Islam,0,-0.45285
+[CLS] Abdul Qadir:3 Gilani:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.35060
 [CLS] منغولي:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Shia:2 Islam,0,Shia:2 Islam,0,-0.18595
 [CLS] Bruno Musarò:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32587
 [CLS] Giulio Boschi:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.52091
@@ -346,10 +346,10 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Adalbert Ebner:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62956
 [CLS] k . d . lang is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Tibetan Buddhism,0,Tibetan Buddhism,0,-0.65837
 [CLS] Thomas Jefferson is affiliated with the [MASK] [MASK] religion . [SEP],religion of,deism:2,0,deism:2,0,-0.28739
-[CLS] John Knox is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Calvinism:2,0,Calvinism:2,0,-0.67105
+[CLS] John Knox is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Calvinism:2,0,Calvinism:2,0,-0.58739
 [CLS] Lewis Radford:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.35977
 [CLS] Charles Aylen:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.35443
-[CLS] Michael Rackl:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62780
+[CLS] Michael Rackl:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.54179
 [CLS] James Green is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.39150
 [CLS] Maurice Roy is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.45724
 [CLS] Edward Vincent Dargin:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32143
@@ -367,34 +367,34 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Frederick William Freking:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.46822
 [CLS] David Talley:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.39423
 [CLS] Anna Christina Radziwill:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.23942
-[CLS] Muhammad al - Tijani:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.87451
+[CLS] Muhammad al - Tijani:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.61864
 [CLS] Károly Hornig:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.63646
 [CLS] Votive:2 office is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.71897
 [CLS] Kshama:3 is affiliated with the [MASK] religion . [SEP],Hindu,Hinduism:2,0,Hinduism:2,0,-0.49454
-[CLS] Ryukyu:3 Kingdom is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Ryukyuan:3 religion,0,Ryukyuan:3 religion,0,-0.36937
-[CLS] Tammam:3 Salam:2 is affiliated with the [MASK] religion . [SEP],Hindu,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.76121
+[CLS] Ryukyu:3 Kingdom is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Ryukyu:3,Ryukyuan:3 religion,0,Ryukyuan:3 religion,0,-0.26172
+[CLS] Tammam:3 Salam:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.56325
 [CLS] Sathya:3 Sai Baba is affiliated with the [MASK] [MASK] religion . [SEP],Jain Jain,Hinduism:2,0,Hinduism:2,0,-0.80415
 [CLS] Hubert Patrick O ' Connor is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.56835
 [CLS] Francis Lagan:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.64211
 [CLS] Gaetano Aloisi:2 Masella:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.54877
-[CLS] Roman Catholic Diocese of Subotica:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.54749
+[CLS] Roman Catholic Diocese of Subotica:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Catholic Church of,Catholic Church,0,Catholic Church,0,-0.31231
 [CLS] Robert - Casimir Tonyui:2 Messan:2 Dosseh:2 - Anyron:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.29888
 [CLS] Anandghan:3 is affiliated with the [MASK] religion . [SEP],Hindu,Jainism:2,0,Jainism:2,0,-0.51147
-[CLS] Emery Emery is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-0.99517
+[CLS] Emery Emery is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,atheism:3,0,atheism:3,0,-0.56222
 [CLS] Jack T . Chick:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Independent Baptist,0,Independent Baptist,0,-0.65954
 [CLS] Rogelio:3 Cabrera López is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.59139
 [CLS] James Daniel Niedergeses:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58461
 [CLS] Fiorenzo:3 Angelini:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58348
-[CLS] Emmet:2 M . Walsh is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-1.04278
+[CLS] Emmet:2 M . Walsh is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],school of the,Catholic Church,0,Catholic Church,0,-0.89012
 [CLS] Miloš Obilić:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Serbian Orthodox Church,0,Serbian Orthodox Church,0,-0.25640
 [CLS] Saparmurat:4 Niyazov:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.19613
 [CLS] Deogratias:4 Muganwa:3 Byabazaire:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.51782
 [CLS] Mateus:2 Feliciano:3 Augusto Tomás is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.24999
 [CLS] José Rodrigues de Souza is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34152
-[CLS] Kumail:2 Nanjiani:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Kumail:2 Nanjian:2 [MASK],atheism:3,0,atheism:3,0,-0.82195
+[CLS] Kumail:2 Nanjiani:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,atheism:3,0,atheism:3,0,-0.55526
 [CLS] Luis Concha:2 Córdoba is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.27731
-[CLS] Leonard Beecher:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.77627
-[CLS] Wolf Gold is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Orthodox Judaism,0,Orthodox Judaism,0,-0.68985
+[CLS] Leonard Beecher:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Anglicanism:2,0,Anglicanism:2,0,-0.67660
+[CLS] Wolf Gold is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Orthodox Judaism,0,Orthodox Judaism,0,-0.48631
 [CLS] Jean - Louis Tauran:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.35747
 [CLS] Andrew Joseph McDonald is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.51376
 [CLS] Lex de Azevedo:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,The Church of Jesus Christ of Latter:2 - day Saints,0,The Church of Jesus Christ of Latter:2 - day Saints,0,-0.42329
@@ -406,21 +406,21 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Frederick William Faber is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.46619
 [CLS] Calvin Theological Seminary is affiliated with the [MASK] [MASK] religion . [SEP],ministry of,Christian Reformed:2 Church in North America,0,Christian Reformed:2 Church in North America,0,-0.77899
 [CLS] Manuel Aurelio Cruz is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.63883
-[CLS] Bill Clinton is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Baptists:2,0,Baptists:2,0,-0.40474
+[CLS] Bill Clinton is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Baptists:2,0,Baptists:2,0,-0.35111
 [CLS] Hussein Al - Sadr:2 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Shia:2 Islam,0,Shia:2 Islam,0,-0.29942
 [CLS] Tim Stevens is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.69681
 [CLS] John Armstrong is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.52865
 [CLS] Ibn Abidin:2 is affiliated with the [MASK] religion . [SEP],Islamic,Hanafism:3,0,Hanafism:3,0,-0.92127
 [CLS] Juan Pérez de Montalbán:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.57314
 [CLS] André Vallée is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50737
-[CLS] Latimer:3 Fuller is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.78095
+[CLS] Latimer:3 Fuller is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Anglicanism:2,0,Anglicanism:2,0,-0.60538
 [CLS] Talib:2 Jauhari:3 is affiliated with the [MASK] [MASK] religion . [SEP],Sunni:2,Shia:2 Islam,0,Shia:2 Islam,0,-0.14535
 [CLS] Daniel Witter:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.57853
 [CLS] Séamus:3 Cunningham is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],confessional:3,Catholic Church,0,Catholic Church,0,-0.58330
 [CLS] Achille Silvestrini:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.56533
 [CLS] Lucas Van Looy:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34714
 [CLS] Fernando Cento:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34315
-[CLS] Mohammad Ebrahim:3 Jannaati:3 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Shia:2 Islam,0,Shia:2 Islam,0,-0.69009
+[CLS] Mohammad Ebrahim:3 Jannaati:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahá ' í,Shia:2 Islam,0,Shia:2 Islam,0,-0.26113
 [CLS] Bronisław:3 Komorowski:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33462
 [CLS] Musicam:2 Sacram:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.57989
 [CLS] Frank Norris is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.69110
@@ -453,7 +453,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Mishar:2 Tatars:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.22249
 [CLS] Henrique Johannpötter:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.54882
 [CLS] Patrick Taval:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.77153
-[CLS] Dionigi:2 Tettamanzi:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.76673
+[CLS] Dionigi:2 Tettamanzi:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.70119
 [CLS] La Sierra University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Seventh - day Adventist:3 Church,0,Seventh - day Adventist:3 Church,0,-0.50343
 [CLS] James McGuinness:5 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.67710
 [CLS] George Santayana:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,atheism:3,0,atheism:3,0,-0.78858
@@ -461,9 +461,9 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Francesco Roberti:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.59970
 [CLS] Alan Buchanan is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.50404
 [CLS] Vicente Casanova y Marzol:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.28103
-[CLS] Joseph M . Marling:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.52366
+[CLS] Joseph M . Marling:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.51122
 [CLS] Dmitry:3 Medvedev is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Russian Orthodox Church,0,Russian Orthodox Church,0,-0.24404
-[CLS] Mowaffak:4 al - Rubaie:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.75314
+[CLS] Mowaffak:4 al - Rubaie:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.46715
 [CLS] Loa:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Haitian:2 Vodou:2,0,Haitian:2 Vodou:2,0,-0.33696
 [CLS] Dan Barker is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-0.61003
 [CLS] Church of St . Andrew is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.17034
@@ -474,14 +474,14 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Lewis University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.61872
 [CLS] Johann Sebastian Bach is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Lutheranism:2,0,Lutheranism:2,0,-0.17194
 [CLS] Thomas G . Doran:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.55072
-[CLS] Donal:2 McKeown:5 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.78945
+[CLS] Donal:2 McKeown:5 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.58166
 [CLS] Matthieu:3 Ricard:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Tibetan Buddhism,0,Tibetan Buddhism,0,-0.51571
 [CLS] Filipe Neri Ferrão:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32850
-[CLS] Mirza Mohammed Athar:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.87963
+[CLS] Mirza Mohammed Athar:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.70996
 [CLS] Raúl Marcelo Pacífico Scozzina:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50463
 [CLS] Benedict Groeschel:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.37493
 [CLS] Alessandro Sanminiatelli:4 Zabarella:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32337
-[CLS] Cora:2 Evans is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.99120
+[CLS] Cora:2 Evans is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.68366
 [CLS] Morningside:2 College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,United Methodist Church,0,United Methodist Church,0,-0.62866
 [CLS] Vow:2 of obedience:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33930
 [CLS] Roman Catholic Diocese of Mukacheve:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33637
@@ -498,9 +498,9 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] John McDowell is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.56504
 [CLS] Avelar:2 Brandão:2 Vilela:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.39991
 [CLS] Petro Konashevych:5 - Sahaidachny:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Eastern Orthodox Church,0,Eastern Orthodox Church,0,-0.29331
-[CLS] Mohammad Reza Pahlavi:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Shia:2 Islam,0,Shia:2 Islam,0,-0.79370
+[CLS] Mohammad Reza Pahlavi:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.57336
 [CLS] Gaetano Aldo Donato is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.53883
-[CLS] Zayn:2 al - Din al - Juba ' i al ' Amili:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.65622
+[CLS] Zayn:2 al - Din al - Juba ' i al ' Amili:2 is affiliated with the [MASK] [MASK] religion . [SEP],Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.66538
 [CLS] Ignatius Arnoz:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.72083
 [CLS] José Refugio:2 Mercado Díaz is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.36562
 [CLS] James Langstaff:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.57851
@@ -519,8 +519,8 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Georges Cottier:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.63596
 [CLS] Lycoming:3 College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,United Methodist Church,0,United Methodist Church,0,-0.39877
 [CLS] Trishala:3 is affiliated with the [MASK] religion . [SEP],Hindu,Jainism:2,0,Jainism:2,0,-0.35120
-[CLS] Selassie:3 I Haile:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Ethiopian Orthodox Tewahedo:3 Church,0,Ethiopian Orthodox Tewahedo:3 Church,0,-1.00564
-[CLS] Hassan Rouhani:3 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Shia:2 Islam,0,Shia:2 Islam,0,-0.59608
+[CLS] Selassie:3 I Haile:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Ethiopian Orthodox Tewahedo:3 Church,0,Ethiopian Orthodox Tewahedo:3 Church,0,-0.49739
+[CLS] Hassan Rouhani:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahá ' í,Shia:2 Islam,0,Shia:2 Islam,0,-0.06620
 [CLS] William Williams is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.37187
 [CLS] John Fleming is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47557
 [CLS] Michele Di Ruberto:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.31900
@@ -529,7 +529,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] William Thomas Bullock is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.54970
 [CLS] Bruno Bertagna:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.64242
 [CLS] Emidio:3 Taliani:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.35227
-[CLS] Mark Sittich:2 von Hohenems:3 Altemps:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.41197
+[CLS] Mark Sittich:2 von Hohenems:3 Altemps:2 is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],following of the following,Catholic Church,0,Catholic Church,0,-0.32528
 [CLS] Jeremiah:3 Francis Minihan:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.38626
 [CLS] John Clayton Nienstedt:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.64984
 [CLS] Michael Francis Burbidge:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.53041
@@ -551,43 +551,43 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Alfred Willis is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.84977
 [CLS] Michael Simmons is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.64649
 [CLS] Spanish Netherlands is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.47930
-[CLS] József Mindszenty:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.99109
+[CLS] József Mindszenty:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.87540
 [CLS] Cabrini:3 University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.54152
 [CLS] Benno:2 Gut is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.38678
 [CLS] Herbert Romulus:2 O ' Conor:2 is affiliated with the [MASK] [MASK] religion . [SEP],O ',Catholic Church,0,Catholic Church,0,-0.09028
-[CLS] Charlie Masters is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.61561
+[CLS] Charlie Masters is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Anglicanism:2,0,Anglicanism:2,0,-0.57830
 [CLS] Antonio Quarracino:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.32414
-[CLS] José Freire Falcão:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.72754
+[CLS] José Freire Falcão:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.62427
 [CLS] Catherine of Bosnia is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.18771
-[CLS] Samuel D . McEnery:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.91410
+[CLS] Samuel D . McEnery:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.84014
 [CLS] Anthony Fisher is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58914
 [CLS] St . John ' s Seminary is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.58874
 [CLS] Giovanni De Andrea is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47850
 [CLS] Wang Qinghui:3 is affiliated with the [MASK] [MASK] religion . [SEP],Shi Shi,Taoism:2,0,Taoism:2,0,-1.12321
 [CLS] Walmor:3 Oliveira de Azevedo:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.41327
 [CLS] William Robert Johnson is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50253
-[CLS] Anthony Fernandes is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahá ' í,Catholic Church,0,Catholic Church,0,-1.06748
+[CLS] Anthony Fernandes is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.54693
 [CLS] Peter I is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Lutheranism:2,0,Lutheranism:2,0,-0.46670
 [CLS] João Alves is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.70567
 [CLS] Hugh Charles Boyle is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.44204
 [CLS] Dutch Republic is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Dutch Reformed:2 Church,0,Dutch Reformed:2 Church,0,-0.58830
 [CLS] Salvatore Pappalardo:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.41380
-[CLS] John T . McNicholas:5 is affiliated with the [MASK] [MASK] religion . [SEP],Department of,Catholic Church,0,Catholic Church,0,-0.96318
+[CLS] John T . McNicholas:5 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.80613
 [CLS] Filippo Spinola:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47485
 [CLS] Sebastian Gebhard:3 Messmer:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.45100
 [CLS] Jorge Scarso:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.36351
-[CLS] Muhammad Ahmad ibn ʿAbdallah:5 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Sufism:3,0,Sufism:3,0,-0.34359
+[CLS] Muhammad Ahmad ibn ʿAbdallah:5 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahá ' í,Sufism:3,0,Sufism:3,0,-0.04004
 [CLS] Julius Dinder:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50504
 [CLS] St . Michael ' s Church is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.23507
 [CLS] Joseph Maria Pernicone:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34843
 [CLS] John III is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47093
 [CLS] Salvador Casañas:2 y Pagés:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26110
 [CLS] Robert Baker Girdlestone:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.56272
-[CLS] Sadr:2 al - Din al - Sadr:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Shia:2 Islam,0,Shia:2 Islam,0,-0.51366
+[CLS] Sadr:2 al - Din al - Sadr:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.42940
 [CLS] Mount St . Mary ' s University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.31112
 [CLS] James Edmeston:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.68491
 [CLS] Marijan:2 Oblak:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.11607
-[CLS] David G . McAfee:5 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-0.74141
+[CLS] David G . McAfee:5 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,atheism:3,0,atheism:3,0,-0.69721
 [CLS] Emilio Ogñénovich:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50253
 [CLS] Croatia in personal union with Hungary is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.18563
 [CLS] Al - Juwayni:3 is affiliated with the [MASK] [MASK] religion . [SEP],Sunni:2,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.07410
@@ -600,7 +600,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Free City of Danzig is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Lutheranism:2,0,Lutheranism:2,0,-0.30866
 [CLS] Józef Glemp:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.27954
 [CLS] Trinity Baptist College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Baptists:2,0,Baptists:2,0,-0.43814
-[CLS] Roman Catholic Archdiocese:2 of Kalocsa:3 - Kecskemét:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.51171
+[CLS] Roman Catholic Archdiocese:2 of Kalocsa:3 - Kecskemét:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Catholic Church of,Catholic Church,0,Catholic Church,0,-0.34880
 [CLS] Church of Our Lady and St Rose of Lima is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.19299
 [CLS] John Douglas Deshotel:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49578
 [CLS] Ferdinando d ' Adda:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33910
@@ -634,7 +634,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Arthur Henry Krawczak:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.52940
 [CLS] Paul Peter Rhode is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.57825
 [CLS] Willem Marinus:2 van Rossum:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.45779
-[CLS] Michael L . Fitzgerald is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.85294
+[CLS] Michael L . Fitzgerald is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.84739
 [CLS] Thomas Bryan Martin is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.53515
 [CLS] Lawrence Shehan:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.72274
 [CLS] Javier Echevarría:4 Rodríguez is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.67592
@@ -642,7 +642,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Yonason:2 Sacks:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Orthodox Judaism,0,Orthodox Judaism,0,-0.49026
 [CLS] Church of England is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.12868
 [CLS] Thomas Walsh is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.54688
-[CLS] Mohammad Taqi:2 Baraghani:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.85664
+[CLS] Mohammad Taqi:2 Baraghani:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.42895
 [CLS] José Antonio Fortea:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26571
 [CLS] Ferenc Keszthelyi:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.41988
 [CLS] Robert Carter is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.45881
@@ -655,7 +655,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Manman:2 - ji is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Rinzai:2 school,0,Rinzai:2 school,0,-0.43811
 [CLS] Jean - Pierre Kutwa:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.36159
 [CLS] Colonial Brazil is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.79116
-[CLS] Muhammad Ahmad ibn ʿAbdallah:5 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Sunni:2 Islam,0,Sunni:2 Islam,0,-0.34359
+[CLS] Muhammad Ahmad ibn ʿAbdallah:5 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahá ' í,Sunni:2 Islam,0,Sunni:2 Islam,0,-0.04004
 [CLS] Lev Skrbenský:4 z Hříště:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50033
 [CLS] Juan Luis Cipriani:3 Thorne is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.36068
 [CLS] Nicky Gumbel:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Anglicanism:2,0,Anglicanism:2,0,-0.91001
@@ -678,7 +678,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Thomas Sebastian Byrne is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.55161
 [CLS] Church of the Cross is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Lutheranism:2,0,Lutheranism:2,0,-0.17449
 [CLS] Stanisław Szymecki:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.38347
-[CLS] Roman Catholic Archdiocese:2 of Alba Iulia is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.40391
+[CLS] Roman Catholic Archdiocese:2 of Alba Iulia is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Catholic Church of,Catholic Church,0,Catholic Church,0,-0.34144
 [CLS] Guido Breña:2 López is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.31772
 [CLS] Timothy C . Senior is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.63588
 [CLS] Joseph Lloyd Hogan is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.71877
@@ -688,7 +688,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Leonard Williams is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.66733
 [CLS] Hugh Lindsay is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.43871
 [CLS] Gerard Geldenhouwer:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Lutheranism:2,0,Lutheranism:2,0,-0.53529
-[CLS] Ibn Abi Zayd:2 al - Qayrawani:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi ' an,Malikism:2,0,Malikism:2,0,-0.41845
+[CLS] Ibn Abi Zayd:2 al - Qayrawani:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Qur ' an,Malikism:2,0,Malikism:2,0,-0.25337
 [CLS] Horatio:2 Southgate:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.52693
 [CLS] Anthony Sablan:3 Apuron:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.34744
 "[CLS] William Pery:2 , 1st Baron Glentworth:3 is affiliated with the [MASK] [MASK] religion . [SEP]",religion of,Anglicanism:2,0,Anglicanism:2,0,-0.31764
@@ -703,16 +703,16 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Eduard Kojnok:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26453
 [CLS] Francesco Marchetti:2 Selvaggiani:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.40873
 [CLS] William Murphy is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.47401
-[CLS] Bahram:3 V is affiliated with the [MASK] [MASK] religion . [SEP],Shi Shi,Zoroastrianism:5,0,Zoroastrianism:5,0,-0.44291
+[CLS] Bahram:3 V is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Bahram:3,Zoroastrianism:5,0,Zoroastrianism:5,0,-0.08840
 [CLS] Tod Brown is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.73894
 [CLS] Giovanni Diodati:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Calvinism:2,0,Calvinism:2,0,-0.57876
 [CLS] James MacCawell:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.67066
 [CLS] Charles Pourtales:2 Golightly:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.40503
 [CLS] Kingdom of Wessex is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglo - Saxon paganism:3,0,Anglo - Saxon paganism:3,0,-0.13602
 [CLS] Electoral Palatinate:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Calvinism:2,0,Calvinism:2,0,-0.38004
-[CLS] Cornelius Schilder:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62233
-[CLS] Yadollah:3 Duzduzani:3 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Shia:2 Islam,0,Shia:2 Islam,0,-0.60998
-[CLS] Edward J . Burns is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.97139
+[CLS] Cornelius Schilder:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.55215
+[CLS] Yadollah:3 Duzduzani:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.60391
+[CLS] Edward J . Burns is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.85686
 [CLS] Ann Lee is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Shakers:2,0,Shakers:2,0,-0.55954
 [CLS] Lindsay Urwin:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.46324
 [CLS] Faithful:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50150
@@ -758,7 +758,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Carlos Carmelo Vasconcellos:3 Motta:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.33443
 [CLS] St Andrew ' s Church is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.25943
 [CLS] Joseph Cardijn:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.28965
-[CLS] Mark Rylands:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.63842
+[CLS] Mark Rylands:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Anglicanism:2,0,Anglicanism:2,0,-0.62850
 [CLS] Alfred Clifford is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.57329
 [CLS] Muhammad Ilyas:2 Kandhalawi:4 is affiliated with the [MASK] [MASK] religion . [SEP],Shi ',Sufism:3,0,Sufism:3,0,-0.61640
 "[CLS] Amadeus IX , Duke of Savoy is affiliated with the [MASK] [MASK] religion . [SEP]",religion of,Catholic Church,0,Catholic Church,0,-0.12852
@@ -766,7 +766,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Travancore:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Hinduism:2,0,Hinduism:2,0,-0.51448
 [CLS] Creighton:3 University is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.56153
 [CLS] William Scot:2 Wilson is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Anglicanism:2,0,Anglicanism:2,0,-0.69842
-[CLS] Sign of the times is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Sign of the,Catholic Church,0,Catholic Church,0,-0.48747
+[CLS] Sign of the times is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Sign of the,Catholic Church,0,Catholic Church,0,-0.39502
 [CLS] Henry Martyn:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.47257
 [CLS] Edward Stopford:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Anglicanism:2,0,Anglicanism:2,0,-0.65751
 [CLS] Francesco De Nittis:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.62340
@@ -774,15 +774,15 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Giorgio Gusmini:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.44057
 [CLS] Spring Hill College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.48427
 [CLS] Hugo Manuel Salaberry:2 Goyeneche:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.70277
-[CLS] Muhammad Rizvi:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi Shi [MASK],Shia:2 Islam,0,Shia:2 Islam,0,-0.84418
-[CLS] Cathrew:3 Fisher is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.64368
+[CLS] Muhammad Rizvi:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Shia:2 Islam,0,Shia:2 Islam,0,-0.54421
+[CLS] Cathrew:3 Fisher is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Cathrew:3 Fisher,Anglicanism:2,0,Anglicanism:2,0,-0.02690
 [CLS] Thomas Parfitt:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.40446
 [CLS] James J . LeBar:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.84378
 [CLS] Melville Jones is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.52318
 [CLS] Francis Raymond Shea is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.65642
-[CLS] Daniel L . Ryan is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.90288
+[CLS] Daniel L . Ryan is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.76829
 [CLS] Rite:2 of Christian Initiation:3 of Adults:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.57298
-[CLS] Pius XI is affiliated with the [MASK] [MASK] religion . [SEP],Church of,Catholic Church,0,Catholic Church,0,-0.57132
+[CLS] Pius XI is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Church of the,Catholic Church,0,Catholic Church,0,-0.54937
 [CLS] Augustin Henninghaus:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.66347
 [CLS] Marian Court College is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.26223
 [CLS] John Leadley:2 Dagg:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Calvinism:2,0,Calvinism:2,0,-0.49348
@@ -792,7 +792,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Luc Cyr is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.50383
 [CLS] Andrzej Maria Deskur:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.61770
 [CLS] Putrakameshti:4 is affiliated with the [MASK] [MASK] religion . [SEP],Shi Shi,Hinduism:2,0,Hinduism:2,0,-0.60210
-[CLS] Tabitha:3 Babbitt:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi,Shakers:2,0,Shakers:2,0,-0.75031
+[CLS] Tabitha:3 Babbitt:3 is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],Hindu Shi Shi Shi,Shakers:2,0,Shakers:2,0,-0.68207
 [CLS] Michael Ugwu:3 Eneja:2 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion of the,Catholic Church,0,Catholic Church,0,-0.81844
 [CLS] Ambrosio:3 Echebarria:4 Arroita:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.25219
 [CLS] Thomas Cromwell is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.19033
@@ -807,8 +807,8 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Linus is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.40545
 [CLS] Yemelyan:3 Yaroslavsky:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-0.58473
 [CLS] Alberto di Jorio:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.35504
-[CLS] Matt Dillahunty:4 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,atheism:3,0,atheism:3,0,-0.53468
-[CLS] Patrick Flores is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.79225
+[CLS] Matt Dillahunty:4 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,atheism:3,0,atheism:3,0,-0.53223
+[CLS] Patrick Flores is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.61782
 [CLS] Hugh Gough:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.51273
 [CLS] Robert Anthony Daniels is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.63703
 [CLS] Judas Iscariot:3 is affiliated with the [MASK] [MASK] religion . [SEP],Jews ',Catholic Church,0,Catholic Church,0,-0.18675
@@ -821,7 +821,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Griffith Roberts is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.51973
 [CLS] Gerhard Hirschfelder:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.67684
 [CLS] R . Walker Nickless:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.76968
-[CLS] Florida Christian College is affiliated with the [MASK] [MASK] religion . [SEP],school of,Christian churches and churches of Christ,0,Christian churches and churches of Christ,0,-0.80746
+[CLS] Florida Christian College is affiliated with the [MASK] [MASK] [MASK] [MASK] religion . [SEP],state of Florida of,Christian churches and churches of Christ,0,Christian churches and churches of Christ,0,-0.72339
 [CLS] Cyril Conrad Cowderoy:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.40604
 [CLS] Werenfried:3 van Straaten:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42791
 [CLS] Pedro Moya:2 de Contreras is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.19461
@@ -839,7 +839,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Joaquim Justino:2 Carreira:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.60641
 "[CLS] Ferdinand I , Emperor of Austria is affiliated with the [MASK] religion . [SEP]",Catholic,Catholic Church,0,Catholic Church,0,-0.70209
 [CLS] Duchy of Prussia is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Lutheranism:2,0,Lutheranism:2,0,-0.10803
-[CLS] Januarius:2 Kyūnosuke:3 Hayasaka:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.49089
+[CLS] Januarius:2 Kyūnosuke:3 Hayasaka:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],religion . The,Catholic Church,0,Catholic Church,0,-0.46870
 [CLS] Saint Casimir is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.18229
 [CLS] Giuseppe Caprio:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.42830
 [CLS] Agustín Romualdo:3 Álvarez Rodríguez is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.35458
@@ -859,7 +859,7 @@ sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
 [CLS] Henry IV of France is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.11650
 [CLS] Kevin Joyce is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.59660
 [CLS] Steven Croft:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Anglicanism:2,0,Anglicanism:2,0,-0.49218
-[CLS] Hafez:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Sufism:3,0,Sufism:3,0,-1.05471
+[CLS] Hafez:3 is affiliated with the [MASK] [MASK] [MASK] religion . [SEP],Shi Shi Shi,Sufism:3,0,Sufism:3,0,-0.83969
 [CLS] Bartolomeo Bacilieri:3 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.29477
 [CLS] Mieczysław Maliński:2 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.45691
 [CLS] John Jeremiah:3 McRaith:5 is affiliated with the [MASK] [MASK] religion . [SEP],religion of,Catholic Church,0,Catholic Church,0,-0.61582
