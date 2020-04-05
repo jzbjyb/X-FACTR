@@ -535,12 +535,13 @@ def iter_decode(model,
     assert method in {'all', 'left_right'}
     bs = inp_tensor.size(0)
     init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
+    init_has_mask = init_mask.sum().item() > 0
 
     # SHAPE: (batch_size, seq_len)
     out_tensor: torch.LongTensor = inp_tensor
     out_logprob: torch.Tensor = torch.zeros_like(inp_tensor).float()  # tokens not considered have log prob of zero
     iter = 0
-    while True and init_mask.sum().item() > 0:  # skip when there is not mask initially
+    while True and init_has_mask:  # skip when there is not mask initially
         # get input
         if iter > 0:
             has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
@@ -610,13 +611,15 @@ def iter_decode_beam_search(model,
     assert method in {'all', 'left_right'}
     bs, sl = inp_tensor.size(0), inp_tensor.size(1)
     init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
+    init_has_mask = init_mask.sum().item() > 0
 
-    # SHAPE: (batch_size, seq_len)
+    # SHAPE: (<=beam_size, batch_size, seq_len)
     out_tensors: List[torch.LongTensor] = inp_tensor.unsqueeze(0)
-    out_logprobs: List[torch.Tensor] = torch.zeros_like(inp_tensor).float().unsqueeze(0)  # tokens not considered have log prob of zero
+    # tokens not considered have log prob of zero
+    out_logprobs: List[torch.Tensor] = torch.zeros_like(inp_tensor).float().unsqueeze(0)
     iter: int = 0
     stop: bool = False
-    while True and init_mask.sum().item() > 0:  # skip when there is not mask initially
+    while True and init_has_mask:  # skip when there is not mask initially
         next_out_tensors = []
         next_out_logprobs = []
 
@@ -652,24 +655,24 @@ def iter_decode_beam_search(model,
 
                 # only modify tokens that have changes
                 changes = changes.long()
-                out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
-                out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
+                _out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
+                _out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
 
                 '''
                 for i in range(5):
-                    print(tokenizer.convert_ids_to_tokens(out_tensor[i].cpu().numpy()))
+                    print(tokenizer.convert_ids_to_tokens(_out_tensor[i].cpu().numpy()))
                 input()
                 '''
 
-                next_out_tensors.append(out_tensor)
-                next_out_logprobs.append(out_logprob)
+                next_out_tensors.append(_out_tensor)
+                next_out_logprobs.append(_out_logprob)
 
         beam_score: List = []
         for nol in next_out_logprobs:
             beam_score.append((nol * init_mask.float()).sum(-1))
         # SHAPE: (all_beam_size, batch_size)
         beam_score = torch.stack(beam_score, 0)
-        # SHAPE: (beam_size, batch_size, 1)
+        # SHAPE: (beam_size, batch_size, seq_len)
         beam_top = beam_score.topk(beam_size, dim=0)[1].view(-1, bs, 1).repeat(1, 1, sl)
 
         next_out_logprobs = torch.gather(torch.stack(next_out_logprobs, 0), 0, beam_top)
@@ -682,6 +685,7 @@ def iter_decode_beam_search(model,
         out_logprobs = next_out_logprobs
 
         iter += 1
+        print(iter)
         if max_iter and iter >= max_iter:  # max_iter can be zero
             stop = True
         if stop:
