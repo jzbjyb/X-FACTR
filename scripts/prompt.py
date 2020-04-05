@@ -78,7 +78,7 @@ class PromptEL(Prompt):
     def __init__(self,
                  entity2lang: Dict[str, Gender],
                  entity2instance: Dict[str, str],
-                 disable_inflection: str=False,
+                 disable_inflection: str=None,
                  disable_article: bool=False):
         super().__init__(entity2lang=entity2lang,
                          entity2instance=entity2instance,
@@ -324,7 +324,7 @@ class PromptRU(Prompt):
     def __init__(self,
                  entity2lang: Dict[str, Gender],
                  entity2instance: Dict[str, str],
-                 disable_inflection: str=False,
+                 disable_inflection: str=None,
                  disable_article: bool=False):
         super().__init__(entity2lang=entity2lang,
                          entity2instance=entity2instance,
@@ -516,7 +516,7 @@ class PromptFR(Prompt):
     def __init__(self,
                  entity2lang: Dict[str, Gender],
                  entity2instance: Dict[str, str],
-                 disable_inflection: str=False,
+                 disable_inflection: str=None,
                  disable_article: bool=False):
         super().__init__(entity2lang=entity2lang,
                          entity2instance=entity2instance,
@@ -818,7 +818,7 @@ class PromptES(Prompt):
     def __init__(self,
                  entity2lang: Dict[str, Gender],
                  entity2instance: Dict[str, str],
-                 disable_inflection: str=False,
+                 disable_inflection: str=None,
                  disable_article: bool=False):
         super().__init__(entity2lang=entity2lang,
                          entity2instance=entity2instance,
@@ -1016,7 +1016,7 @@ class PromptMR(Prompt):
     def __init__(self,
                  entity2lang: Dict[str, Gender],
                  entity2instance: Dict[str, str],
-                 disable_inflection: str=False,
+                 disable_inflection: str=None,
                  disable_article: bool=False):
         super().__init__(entity2lang=entity2lang,
                          entity2instance=entity2instance,
