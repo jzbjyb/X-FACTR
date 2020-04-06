@@ -43,6 +43,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
     parser.add_argument('--task', type=str, choices=['logprob', 'acc', 'compare', 'multi_eval', 'prettify'])
     parser.add_argument('--lang', type=str, help='language')
+    parser.add_argument('--probe', type=str, help='probe dataset',
+                        choices=['lama', 'lama-uhn', 'mlama'], default='lama')
+    parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--inp', type=str, help='input')
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()
@@ -118,7 +121,7 @@ if __name__ == '__main__':
             print('{}\tacc {}'.format(result_dir, np.mean(acc_li)))
 
     elif args.task == 'multi_eval':
-        eval = EvalContext(lang=args.lang)
+        eval = EvalContext(lang=args.lang, lm=args.model, probe=args.probe)
         acc_li: List[float] = []
         for root, dirs, files in os.walk(args.inp):
             for file in files:
@@ -129,7 +132,7 @@ if __name__ == '__main__':
         print('acc {}'.format(np.mean(acc_li)))
 
     elif args.task == 'prettify':
-        eval = EvalContext(lang=args.lang)
+        eval = EvalContext(lang=args.lang, lm=args.lm, probe=args.probe)
         for root, dirs, files in os.walk(args.inp):
             for file in files:
                 if not file.endswith('.jsonl'):

@@ -43,6 +43,29 @@ LM_NAME = {
     'nl_bert_base': 'bert-base-dutch-cased',
     'ru_bert_base': 'DeepPavlov/rubert-base-cased'
 }
+DATASET = {
+    'lama': {
+        'entity_path': 'data/TREx/{}.jsonl',
+        'entity_lang_path': 'data/TREx_unicode_escape.txt',
+        'entity_gender_path': 'data/TREx_gender.txt',
+        'entity_instance_path': 'data/TREx_instanceof.txt',
+        'alias_root': 'data/alias/TREx',
+    },
+    'lama-uhn': {
+        'entity_path': 'data/TREx_UHN/{}.jsonl',
+        'entity_lang_path': 'data/TREx_unicode_escape.txt',
+        'entity_gender_path': 'data/TREx_gender.txt',
+        'entity_instance_path': 'data/TREx_instanceof.txt',
+        'alias_root': 'data/alias/TREx',
+    },
+    'mlama': {
+        'entity_path': 'data/mTREx/sub/{}.jsonl',
+        'entity_lang_path': 'data/mTREx_unicode_escape.txt',
+        'entity_gender_path': 'data/mTREx_gender.txt',
+        'entity_instance_path': 'data/mTREx_instanceof.txt',
+        'alias_root': 'data/alias/mTREx',
+    }
+}
 
 
 def model_prediction_wrap(model, inp_tensor, attention_mask):
@@ -77,16 +100,15 @@ def tokenizer_wrap(tokenizer, lang: str, encode: bool, *args, **kwargs):
 
 
 class EvalContext(object):
-    def __init__(self, lang: str):
+    def __init__(self, lang: str, lm: str='mbert_base', probe: str='mlama'):
         self.norm: bool = True
         self.use_alias: bool = True
-        self.lang: str = lang
         self.uncase: bool = True
+        self.lang: str = lang
 
-        self.entity_gender_path = 'data/mTREx_gender.txt'
-        self.entity_instance_path = 'data/mTREx_instanceof.txt'
-        self.alias_root = 'data/alias/mTREx'
-        self.lm = 'bert-base-multilingual-cased'
+        for k, v in DATASET[probe].items():
+            setattr(self, k, v)
+        self.lm = LM_NAME[lm]
         self.entity2gender = load_entity_gender(self.entity_gender_path)
         self.entity2instance = load_entity_instance(self.entity_instance_path)
         self.prompt_model = Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)
@@ -236,21 +258,8 @@ class ProbeIterator(object):
         # prepare path to data
         self.relation_path = RELATION_PATH
         self.prompt_lang_path = PROMPT_LANG_PATH
-        if args.probe == 'lama':
-            self.entity_path = 'data/TREx/{}.jsonl'
-            self.entity_lang_path = 'data/TREx_unicode_escape.txt'
-            self.entity_gender_path = 'data/TREx_gender.txt'
-            self.entity_instance_path = 'data/TREx_instanceof.txt'
-        elif args.probe == 'lama-uhn':
-            self.entity_path = 'data/TREx_UHN/{}.jsonl'
-            self.entity_lang_path = 'data/TREx_unicode_escape.txt'
-            self.entity_gender_path = 'data/TREx_gender.txt'
-            self.entity_instance_path = 'data/TREx_instanceof.txt'
-        elif args.probe == 'mlama':
-            self.entity_path = 'data/mTREx/sub/{}.jsonl'
-            self.entity_lang_path = 'data/mTREx_unicode_escape.txt'
-            self.entity_gender_path = 'data/mTREx_gender.txt'
-            self.entity_instance_path = 'data/mTREx_instanceof.txt'
+        for k, v in DATASET[self.probe].items():
+            setattr(self, k, v)
 
         # load data
         self.patterns = []
