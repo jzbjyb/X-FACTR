@@ -590,7 +590,7 @@ sentence,prediction,gold,is_same
 [CLS] Architype:3 Van Doesburg:2 is named after [MASK] [MASK] [MASK] . [SEP],Van Doesburg:2,Theo van Doesburg:2 | Aldo Camini:2 | C . E . M . Küpper:3 | Christiaan Emil Maria Kupper:2 | Christiaan Emil Maria Kupper:2 Doesburg:2 | Christiaan Emil Marie Küppers:3 | Christian Emil Marie Kupper:2 | Christian Emil Marie Küpper:3 | Doesburg:2 | I . K . Bonset:2 | I . K . Bonset:2 | Theo Van Doesburg:2 | Theo van Doesburg:2 | Theo van Doesburg:2 ( Christian Emil Marie Küpper:3 ),False
 "[CLS] Mike Huckabee:3 presidential campaign , 2008 is named after [MASK] [MASK] [MASK] . [SEP]",Huckabee:3,"Mike Huckabee:3 | Michael Dale "" Mike "" Huckabee:3 | Michael Dale Huckabee:3 | Michael Huckabee:3 | Mike Huckabee:3",False
 [CLS] Morrow County is named after [MASK] [MASK] . [SEP],Morrow County,Jeremiah:3 Morrow | Jeremiah:3 Morrow,False
-[CLS] fuchsia:3 is named after [MASK] [MASK] [MASK] . [SEP],Fuchsia:3,Fuchsia:2 | Fuchsia:2,False
+[CLS] fuchsia:3 is named after [MASK] [MASK] [MASK] . [SEP],Fuchsia:3,Fuchsia:2 | Fuchsia:2,True
 [CLS] Johnson solid is named after [MASK] . [SEP],Johnson,Norman Johnson | Norman Johnson,False
 [CLS] Saint Helena Airport is named after [MASK] [MASK] . [SEP],Saint Helena,Saint Helena | Saint Helena | St Helena,True
 [CLS] witherite:3 is named after [MASK] [MASK] [MASK] . [SEP],witherite:3,William Withering:2 | William Withering:2 | With .,False

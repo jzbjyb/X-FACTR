@@ -175,7 +175,7 @@ class LamaPredictions(object):
                         tokenizer=None,
                         alias_manager=None,
                         ) -> Tuple[bool, List[List[str]]]:
-        casify = lambda x: [t.lower() for t in x] if uncase else x
+        casify = lambda x: x.lower() if uncase else x
         if use_alias:
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
             for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
@@ -183,9 +183,8 @@ class LamaPredictions(object):
                 golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
         else:
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
-        pred = casify(pred)
-        for gold in map(casify, golds):
-            if len(pred) == len(gold) and (np.array(pred) == np.array(gold)).all():
+        for gold in golds:
+            if casify(tokenizer.convert_tokens_to_string(pred)) == casify(tokenizer.convert_tokens_to_string(gold)):
                 return True, golds
         return False, golds
 

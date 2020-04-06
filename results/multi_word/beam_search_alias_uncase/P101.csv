@@ -14,14 +14,14 @@ sentence,prediction,gold,is_same
 [CLS] George Pólya:3 works in the field of [MASK] [MASK] [MASK] . [SEP],Pólya:3,combinatorics:4 | combinatorics:4,False
 [CLS] Frans de Waal:2 works in the field of [MASK] [MASK] [MASK] . [SEP],co - operation,ethology:3 | behavioral:2 biology | behavioural:2 biology | biology of behaviour | ethology:3,False
 [CLS] José Antonio Pavón:3 works in the field of [MASK] [MASK] . [SEP],literary criticism,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False
-[CLS] Bureau of Meteorology:2 works in the field of [MASK] [MASK] . [SEP],Meteorology:2,meteorology:3 | meteorology:3,False
+[CLS] Bureau of Meteorology:2 works in the field of [MASK] [MASK] . [SEP],Meteorology:2,meteorology:3 | meteorology:3,True
 [CLS] Edward Rudge:3 works in the field of [MASK] [MASK] [MASK] . [SEP],cognition:3,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False
 [CLS] Madeleine M . Joullié:3 works in the field of [MASK] [MASK] . [SEP],literary criticism,organic chemistry | Organic Chemistry | Organic chemistry | organic chemistry,False
 [CLS] Liberty Hyde Bailey works in the field of [MASK] [MASK] . [SEP],literary criticism,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False
 [CLS] Jeff Dinitz:2 works in the field of [MASK] [MASK] [MASK] . [SEP],psychics:3,combinatorics:4 | combinatorics:4,False
 [CLS] Abu Nasr:2 Mansur:2 works in the field of [MASK] [MASK] [MASK] . [SEP],Shaykh:3,astronomy:2 | Astronomy | astronomy:2,False
 [CLS] András Hajnal:3 works in the field of [MASK] [MASK] [MASK] . [SEP],co - co,combinatorics:4 | combinatorics:4,False
-[CLS] Bachelor of Science in Nursing works in the field of [MASK] . [SEP],Nursing,nursing:2 | nursing:2,False
+[CLS] Bachelor of Science in Nursing works in the field of [MASK] . [SEP],Nursing,nursing:2 | nursing:2,True
 [CLS] armed forces works in the field of [MASK] [MASK] . [SEP],armed forces,military science | Military Science | military science,False
 [CLS] Odd Hassel:2 works in the field of [MASK] [MASK] . [SEP],the arts,physical chemistry | physical chemistry,False
 [CLS] Boris Grakov:3 works in the field of [MASK] [MASK] [MASK] . [SEP],psychics:3,archaeology:3 | Archaeology | archaeology:3 | archeology:3 | archæology:3 | excavation:3,False
@@ -393,7 +393,7 @@ sentence,prediction,gold,is_same
 [CLS] Jiang Fan works in the field of [MASK] [MASK] [MASK] . [SEP],e . g,110 metres hurdles:2 | 110 m hurdles:2 | 110 meter hurdles:2 | 110 meters hurdles:2 | 110 metre hurdle:2 | 110 metre hurdles:2 | 110 metres hurdles:2 | 110 - meter hurdles:2,False
 [CLS] Charles François Antoine Morren:2 works in the field of [MASK] [MASK] . [SEP],Morren:2,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False
 [CLS] Olga Arsenievna:3 Oleinik:3 works in the field of [MASK] [MASK] . [SEP],literary criticism,theory of elasticity:3 | linear elasticity:3 | theory of elasticity:3,False
-[CLS] Minnesota School of Cosmetology:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],Cosmetology:4,cosmetology:3 | cosmetology:3,False
+[CLS] Minnesota School of Cosmetology:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],Cosmetology:4,cosmetology:3 | cosmetology:3,True
 [CLS] James Kennedy works in the field of [MASK] [MASK] [MASK] . [SEP],cognition:3,particle swarm:3 optimization:3 | particle swarm:3 optimization:3,False
 [CLS] Emil von Sydow:2 works in the field of [MASK] [MASK] . [SEP],astronomy:2,geography:2 | Geography | Geography ( General ) | geographical science | geography:2,False
 [CLS] Ann Dunham:2 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],women ' s literature,anthropology:4 | Anthropology | anthropology:4,False
@@ -756,7 +756,7 @@ sentence,prediction,gold,is_same
 [CLS] Joseph Fins works in the field of [MASK] [MASK] [MASK] . [SEP],psychics:3,bioethics:3 | bioethics:3,False
 [CLS] Jan Arnoldus:2 Schouten:3 works in the field of [MASK] [MASK] . [SEP],a painter,differential geometry | differential geometry,False
 [CLS] Dominique Villars:2 works in the field of [MASK] [MASK] . [SEP],sociology:2,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False
-[CLS] Joint Institute for Nuclear Astrophysics works in the field of [MASK] [MASK] . [SEP],nuclear Astrophysics,nuclear astrophysics:5 | nuclear astrophysics:5,False
+[CLS] Joint Institute for Nuclear Astrophysics works in the field of [MASK] [MASK] . [SEP],nuclear Astrophysics,nuclear astrophysics:5 | nuclear astrophysics:5,True
 [CLS] Pierre de Fermat:2 works in the field of [MASK] [MASK] [MASK] . [SEP],physics:3,number theory | arithmetic:4 | number theory,False
 [CLS] Max Nonne:2 works in the field of [MASK] [MASK] . [SEP],sociology:2,neurology:2 | neurology:2,False
 [CLS] Emery Clarence Leonard works in the field of [MASK] [MASK] . [SEP],astronomy:2,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False

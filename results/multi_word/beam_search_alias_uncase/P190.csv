@@ -124,7 +124,7 @@ sentence,prediction,gold,is_same
 [CLS] Havana and [MASK] are twin cities . [SEP],Havana,"Santo Domingo | Santo Domingo | Santo Domingo de Guzman:3 | Santo Domingo de Guzmán | Santo Domingo , Dominican Republic",False
 [CLS] Shanghai and [MASK] are twin cities . [SEP],Shanghai,Busan:2 | Busan:2 | Pusan:2,False
 [CLS] Rio de Janeiro and [MASK] [MASK] [MASK] are twin cities . [SEP],Rio de Janeiro,"Santo Domingo | Santo Domingo | Santo Domingo de Guzman:3 | Santo Domingo de Guzmán | Santo Domingo , Dominican Republic",False
-[CLS] Philippsbourg:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Philippsburg:3,Philippsburg:2 | Philippsburg:2,False
+[CLS] Philippsbourg:3 and [MASK] [MASK] [MASK] are twin cities . [SEP],Philippsburg:3,Philippsburg:2 | Philippsburg:2,True
 [CLS] Bordeaux and [MASK] are twin cities . [SEP],Bordeaux,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque:3 | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion:2 | Tinsel:2 Town",False
 [CLS] Kiel and [MASK] are twin cities . [SEP],Kiel,Stralsund:3 | Stralsund:3,False
 [CLS] Auenstein:2 and [MASK] [MASK] [MASK] [MASK] are twin cities . [SEP],Schweinfurt:4,Ilsfeld:2 | Ilsfeld:2,False

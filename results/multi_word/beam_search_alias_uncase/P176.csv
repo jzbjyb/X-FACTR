@@ -718,7 +718,7 @@ sentence,prediction,gold,is_same
 [CLS] Castoro:2 Sei is produced by [MASK] [MASK] [MASK] . [SEP],Castoro:2 Sei,Fincantieri:3 | Fincantieri:3 | Fincantieri:3 - Cantieri:2 Navali:2 Italiani:2 S . p . A .,False
 [CLS] USS Bronx is produced by [MASK] [MASK] [MASK] . [SEP],U . S,Oregon Shipbuilding:2 Corporation | Oregon Shipbuilding:2 Corporation,False
 [CLS] HMS Samphire:3 is produced by [MASK] [MASK] [MASK] [MASK] . [SEP],HMS Samphire:3,Smiths Dock Company | Smiths Dock | Smiths Dock Company,False
-[CLS] ZIL:2 - 112 Sports is produced by [MASK] [MASK] . [SEP],ZIL:2,ZiL:2 | AMO:2 ZiL:2 | Zavod:2 imeni:2 Likhachova:4 | ZiL:2,False
+[CLS] ZIL:2 - 112 Sports is produced by [MASK] [MASK] . [SEP],ZIL:2,ZiL:2 | AMO:2 ZiL:2 | Zavod:2 imeni:2 Likhachova:4 | ZiL:2,True
 [CLS] Jeep:2 Commander is produced by [MASK] [MASK] [MASK] . [SEP],Jeep:2 Commander,Jeep:2 | Jeep:2,False
 [CLS] Jaguar XJ:2 ( XJ40:3 ) is produced by [MASK] . [SEP],Jaguar,Jaguar Cars | Jaguar | Jaguar Cars,True
 [CLS] Type X submarine is produced by [MASK] [MASK] [MASK] . [SEP],U . S,Friedrich Krupp Germaniawerft:3 | Friedrich Krupp Germaniawerft:3 | Germaniawerft:3,False
