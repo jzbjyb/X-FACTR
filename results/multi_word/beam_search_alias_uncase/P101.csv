@@ -29,7 +29,7 @@ sentence,prediction,gold,is_same
 [CLS] Subrahmanyan:4 Chandrasekhar:3 works in the field of [MASK] [MASK] . [SEP],sociology:2,astrophysics:5 | Astrophysics | astrophysics:5,False
 [CLS] L . W . Beineke:3 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],psychiatry:4,graph theory | graph theory,False
 [CLS] Bogdan Dobrescu:3 works in the field of [MASK] [MASK] . [SEP],literary criticism,particle physics | particle physics | subatomic:3 physics,False
-[CLS] World History Association works in the field of [MASK] [MASK] . [SEP],World History,world history | global history | world history,False
+[CLS] World History Association works in the field of [MASK] [MASK] . [SEP],World History,world history | global history | world history,True
 [CLS] Giuseppe Luigi Assemani:3 works in the field of [MASK] [MASK] [MASK] . [SEP],archaeology:3,"Oriental studies | Asian Studies | Oriental Studies , | Oriental Studies , Orientalics:2 | Oriental studies | Orientalics:2",False
 [CLS] Panos:2 Valavanis:3 works in the field of [MASK] [MASK] . [SEP],social science,classical archaeology:3 | classical archaeology:3 | classical archeology:3,False
 [CLS] Georges Valiron:2 works in the field of [MASK] [MASK] [MASK] . [SEP],psychics:3,mathematical analysis | Analysis | analysis | mathematical analysis,False
@@ -238,7 +238,7 @@ sentence,prediction,gold,is_same
 [CLS] William Menasco:2 works in the field of [MASK] [MASK] [MASK] . [SEP],psychologists:3,topology:2 | topology:2,False
 [CLS] George Smith works in the field of [MASK] [MASK] . [SEP],science fiction,Assyriology:3 | Assyriology:3,False
 [CLS] Albert Ellis works in the field of [MASK] [MASK] . [SEP],astronomy:2,clinical psychology | clinical psychology,False
-[CLS] Cornell Lab of Ornithology:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],Ornithology:4,ornithology:4 | ornithology:4,False
+[CLS] Cornell Lab of Ornithology:4 works in the field of [MASK] [MASK] [MASK] [MASK] . [SEP],Ornithology:4,ornithology:4 | ornithology:4,True
 [CLS] Wilhelm Hofmeister:2 works in the field of [MASK] [MASK] . [SEP],astronomy:2,botany:2 | Botany | botany:2 | phytology:3 | plant biology | plant science | plant sciences,False
 [CLS] Alexander Beilinson:3 works in the field of [MASK] [MASK] . [SEP],astronomy:2,algebraic:2 geometry | algebraic:2 geometry,False
 [CLS] Hermann von Helmholtz:3 works in the field of [MASK] [MASK] [MASK] . [SEP],mag mag mag,physiology:3 | Physiology | physiology:3,False
@@ -601,7 +601,7 @@ sentence,prediction,gold,is_same
 [CLS] Raffaele Garofalo:4 works in the field of [MASK] [MASK] [MASK] . [SEP],psychologists:3,criminology:3 | criminology:3,False
 [CLS] Ivan Petrovsky:2 works in the field of [MASK] [MASK] . [SEP],literary criticism,probability theory | probability theory,False
 [CLS] Elias Wessén:3 works in the field of [MASK] [MASK] . [SEP],astronomy:2,linguistics:2 | Linguistics | linguistic | linguistic science | linguistics:2,False
-[CLS] Master of Health Administration works in the field of [MASK] [MASK] . [SEP],Health Administration,health administration | Health Services Administration | health administration | health service management | healthcare:2 administration,False
+[CLS] Master of Health Administration works in the field of [MASK] [MASK] . [SEP],Health Administration,health administration | Health Services Administration | health administration | health service management | healthcare:2 administration,True
 [CLS] Karl Mahlburg:3 works in the field of [MASK] [MASK] . [SEP],sociology:2,combinatorics:4 | combinatorics:4,False
 [CLS] William Mann works in the field of [MASK] [MASK] [MASK] . [SEP],psychics:3,mathematical analysis | Analysis | analysis | mathematical analysis,False
 [CLS] Friedrich Robert Helmert:2 works in the field of [MASK] [MASK] . [SEP],astronomy:2,geodesy:3 | Geodesy:3 | geodesy:3 | geodetics:3,False

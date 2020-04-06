@@ -328,7 +328,7 @@ sentence,prediction,gold,is_same
 [CLS] Josephson:2 effect is named after [MASK] [MASK] . [SEP],Josephson:2,Brian David Josephson:2 | Brian David Josephson:2 | Brian Josephson:2,False
 [CLS] Arrow ' s impossibility:4 theorem is named after [MASK] . [SEP],Arrow,Kenneth Arrow | Ken Arrow | Kenneth Arrow | Kenneth J . Arrow | Kenneth Joseph Arrow,False
 [CLS] Oakworth:2 railway station is named after [MASK] [MASK] [MASK] [MASK] . [SEP],Oakworth:2 railway station,"Oakworth:2 | Oakworth:2 | Oakworth:2 , West Yorkshire",False
-[CLS] The Blues Brothers is named after [MASK] [MASK] [MASK] . [SEP],the Blues Brothers,The Blues Brothers | The Blues Brothers | The Blues Brothers ' Show Band and Revue,False
+[CLS] The Blues Brothers is named after [MASK] [MASK] [MASK] . [SEP],the Blues Brothers,The Blues Brothers | The Blues Brothers | The Blues Brothers ' Show Band and Revue,True
 [CLS] 152188:3 Morricone:3 is named after [MASK] [MASK] [MASK] . [SEP],Morricone:3,Ennio:2 Morricone:3 | Dan Savio:2 | Ennio:2 Morricone:3 | Leo Nichols,False
 [CLS] Frome:2 railway station is named after [MASK] [MASK] . [SEP],Frome:2,"Frome:2 | Frome:2 | Frome:2 , Somerset",True
 [CLS] Puerto Rico Trench:2 is named after [MASK] [MASK] . [SEP],Puerto Rico,Puerto Rico | Borikén:3 | Borinquen:3 | Boriquén:4 | Commonwealth of Puerto Rico | Estado Libre Asociado:3 de Puerto Rico | Island of Enchantment:3 | PR | Porto Rico | Puerto Rico | Territory of Puerto Rico | The Commonwealth of Puerto Rico | [UNK],True
@@ -395,7 +395,7 @@ sentence,prediction,gold,is_same
 [CLS] USS John Adams is named after [MASK] . [SEP],him,John Adams | J . Adams | John Adams | President Adams,False
 [CLS] Atchison:3 County is named after [MASK] [MASK] [MASK] [MASK] . [SEP],Atchison:3 County,David Rice Atchison:3 | D . R . Atchison:3 | David Rice Atchison:3,False
 [CLS] 2060:2 Chiron:2 is named after [MASK] [MASK] . [SEP],Chiron:2,Chiron:2 | Chiron:2,True
-[CLS] Khamsin:3 Pass is named after [MASK] [MASK] [MASK] . [SEP],Khamsin:3,khamsin:3 | chamsin:3 | hamsin:2 | khamaseen:3 | khamsin:3,False
+[CLS] Khamsin:3 Pass is named after [MASK] [MASK] [MASK] . [SEP],Khamsin:3,khamsin:3 | chamsin:3 | hamsin:2 | khamaseen:3 | khamsin:3,True
 [CLS] Burton Dassett:2 railway station is named after [MASK] [MASK] [MASK] . [SEP],Burton Dassett:2,"Burton Dassett:2 | Burton Dassett:2 | Burton Dassett:2 , Warwickshire:2",True
 [CLS] Pleasington:3 railway station is named after [MASK] [MASK] [MASK] . [SEP],Pleasington:3,"Pleasington:3 | Pleasington:3 | Pleasington:3 , Lancashire",True
 [CLS] Cynthiana:2 - Harrison County Airport is named after [MASK] [MASK] [MASK] [MASK] . [SEP],Harrison County Cynthiana:2,"Harrison County | Harrison County | Harrison County , Kentucky",False

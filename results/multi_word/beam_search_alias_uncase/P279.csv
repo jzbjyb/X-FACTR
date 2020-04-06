@@ -379,7 +379,7 @@ sentence,prediction,gold,is_same
 [CLS] Croline:3 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Croline:3,pastry:2 | pastry:2,False
 [CLS] Toyota MR2:2 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Toyota MR2:2,sports car | sports car | sportscar:2,False
 [CLS] Harlequin:3 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Harlequin:3,Commedia:2 dell ' arte | Commedia:2 dell ' arte | Italian comedy,False
-[CLS] Archdeacon:3 of Leicester is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Archdeacon:3,archdeacon:3 | archdeacon:3,False
+[CLS] Archdeacon:3 of Leicester is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Archdeacon:3,archdeacon:3 | archdeacon:3,True
 [CLS] schnitzel:4 is a subclass:3 of [MASK] [MASK] [MASK] [MASK] . [SEP],schnitzel:4,breaded:3 cutlet:2 | Cutlet:2 | breaded:3 cutlet:2,False
 [CLS] Rondel:2 dagger:2 is a subclass:3 of [MASK] [MASK] [MASK] [MASK] . [SEP],Rondel:2 dagger:2,dagger:2 | dagger:2,False
 [CLS] multiple pterygium:3 syndrome is a subclass:3 of [MASK] [MASK] [MASK] [MASK] . [SEP],pterygium:3 syndrome,genetic disease | familial:2 disorder | genetic condition | genetic disease | genetic disorder | hereditary:3 disease | hereditary:3 diseases | inborn:2 disorder | inherited disease | molecular disease,False
@@ -523,7 +523,7 @@ sentence,prediction,gold,is_same
 [CLS] Manx:2 is a subclass:3 of [MASK] [MASK] . [SEP],Manx:2,house cat | Felis:2 silvestris:3 catus:2 | cat | domestic cat | house cat | housecat:2,False
 [CLS] ergocalciferol:5 is a subclass:3 of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ergocalciferol:5,vitamin D | vitamin D,False
 [CLS] parabiaugmented:5 truncated:3 dodecahedron:5 is a subclass:3 of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],dodecahedron:5,Johnson solid | Johnson solid,False
-[CLS] Archdeacon:3 of Pontefract:3 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Archdeacon:3,archdeacon:3 | archdeacon:3,False
+[CLS] Archdeacon:3 of Pontefract:3 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Archdeacon:3,archdeacon:3 | archdeacon:3,True
 [CLS] unstable:2 angina:2 is a subclass:3 of [MASK] [MASK] [MASK] [MASK] . [SEP],unstable:2 angina:2,coronary:2 artery:2 disease | CAD | CHD:2 | CHD:2 ( coronary:2 heart disease ) | Coronary:2 Atherosclerosis:6 | IHD:2 | atherosclerosis:6 of coronary:2 artery:2 | atherosclerotic:6 cardiovascular:4 disease | atherosclerotic:6 heart disease | coronary:2 arteriosclerosis:5 | coronary:2 artery:2 arteriosclerosis:5 ( disease ) | coronary:2 artery:2 disease | coronary:2 heart disease | ischemic:3 heart disease,False
 [CLS] Harira:2 is a subclass:3 of [MASK] [MASK] . [SEP],Harira:2,soup:2 | soup:2,False
 [CLS] prostitution:2 in Indonesia is a subclass:3 of [MASK] [MASK] [MASK] [MASK] . [SEP],prostitution:2 in Indonesia,prostitution:2 | prostitution:2,False
@@ -720,7 +720,7 @@ sentence,prediction,gold,is_same
 [CLS] Zenit:2 - 2 is a subclass:3 of [MASK] [MASK] . [SEP],Zenit:2,Zenit:2 | Zenit:2,True
 [CLS] 4 - 10 - 0 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],4 - 10,steam locomotive | steam locomotive,False
 [CLS] citrullinemia:4 is a subclass:3 of [MASK] [MASK] [MASK] [MASK] . [SEP],citrullinemia:4,"urea:2 cycle disorder | Inborn:2 Urea:2 Cycle Disorder:2 | Urea:2 Cycle Metabolism:2 Disorder:2 | disorder of metabolism:2 of ornithine:3 , citrulline:3 , argininosuccinic:5 acid , arginine:3 and ammonia:2 | disorder of urea:2 cycle metabolism:2 | urea:2 cycle defect:2 | urea:2 cycle disorder",False
-[CLS] Archdeacon:3 of Sarum:2 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Archdeacon:3,archdeacon:3 | archdeacon:3,False
+[CLS] Archdeacon:3 of Sarum:2 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],Archdeacon:3,archdeacon:3 | archdeacon:3,True
 [CLS] pop music is a subclass:3 of [MASK] [MASK] . [SEP],pop music,popular music | pop music | popular music,True
 [CLS] badger:2 is a subclass:3 of [MASK] [MASK] . [SEP],badger:2,Mustelidae:3 | Mustelidae:3 | the mustelid:3 family,False
 [CLS] sound trademark:2 is a subclass:3 of [MASK] [MASK] [MASK] . [SEP],sound trademark:2,trademark:2 | TM | trade mark | trademark:2 | ™,False

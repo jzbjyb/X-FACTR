@@ -81,6 +81,7 @@ class EvalContext(object):
         self.norm: bool = True
         self.use_alias: bool = True
         self.lang: str = lang
+        self.uncase: bool = True
 
         self.entity_gender_path = 'data/mTREx_gender.txt'
         self.entity_instance_path = 'data/mTREx_instanceof.txt'
@@ -148,7 +149,7 @@ class LamaPredictions(object):
         best = np.argmax(scores)
         correct, golds = self.match_with_gold(
             self.result['pred'][best], self.result,
-            use_alias=eval.use_alias, lang=eval.lang,
+            use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
             prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager)
         self.pred = self.result['pred'][best]
         self.correct = correct
@@ -169,10 +170,12 @@ class LamaPredictions(object):
                         result: Dict,
                         use_alias: bool=False,
                         lang: str=None,
+                        uncase: bool=False,
                         prompt_model=None,
                         tokenizer=None,
                         alias_manager=None,
                         ) -> Tuple[bool, List[List[str]]]:
+        casify = lambda x: [t.lower() for t in x] if uncase else x
         if use_alias:
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
             for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
@@ -180,7 +183,8 @@ class LamaPredictions(object):
                 golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
         else:
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
-        for gold in golds:
+        pred = casify(pred)
+        for gold in map(casify, golds):
             if len(pred) == len(gold) and (np.array(pred) == np.array(gold)).all():
                 return True, golds
         return False, golds
@@ -892,4 +896,4 @@ if __name__ == '__main__':
     if torch.cuda.is_available() and not args.no_cuda:
         model.to('cuda')
 
-    probe_iter.iter(pids={'P1001'})
+    probe_iter.iter(pids=None)

@@ -75,7 +75,7 @@ sentence,prediction,gold,is_same
 [CLS] Achberg:2 is a [MASK] [MASK] . [SEP],German municipality,municipality of Germany | Gemeinde | Municipalities:2 of Germany | municipality of Germany,False
 [CLS] Flibbiddydibbiddydob:9 is a [MASK] [MASK] [MASK] [MASK] . [SEP],Flibbiddy:4,extended play | E . P . | EP | Extended Play | extended play,False
 [CLS] 500 is a [MASK] [MASK] [MASK] . [SEP],red red red,natural number | n | n ( natural number ) | natural number | natural number ( ambiguously:3 including zero ) | natural numbers ( individually:2 ) | [UNK],False
-[CLS] Manchester Town Hall is a [MASK] [MASK] . [SEP],Town hall,city hall | city hall | rathaus:2 | seat of local government | town hall | town or city hall | townhall:2,False
+[CLS] Manchester Town Hall is a [MASK] [MASK] . [SEP],Town hall,city hall | city hall | rathaus:2 | seat of local government | town hall | town or city hall | townhall:2,True
 [CLS] Hida:2 - Furukawa:3 Station is a [MASK] . [SEP],station,railway station | rail station | rail stop | railroad station | railway station | railway stop | train station,False
 [CLS] USS New Berne is a [MASK] [MASK] [MASK] . [SEP],U . S,steamship:2 | steam boat | steam ship | steamboat:2 | steamer:2 | steamship:2,False
 [CLS] Inside the Third Reich is a [MASK] . [SEP],film,television film | MOTW:3 | MOW:2 | TV film | TV movie | TV - Movie | Television movie | direct - to - TV film | feature - length drama | made - for - television film | movie of the week | original movie | single drama | telefilm:2 | telemovie:3 | television film | television movie,False
@@ -228,7 +228,7 @@ sentence,prediction,gold,is_same
 [CLS] Talling:2 is a [MASK] [MASK] [MASK] . [SEP],village in Norway,municipality of Germany | Gemeinde | Municipalities:2 of Germany | municipality of Germany,False
 [CLS] stress is a [MASK] [MASK] [MASK] [MASK] . [SEP],component of the stress,physical quantity | physical quantity,False
 [CLS] Vorly:2 is a [MASK] [MASK] . [SEP],small town,commune of France | commune | commune ( France ) | commune of France,False
-[CLS] Drexel:2 University College of Medicine is a [MASK] [MASK] [MASK] . [SEP],College of Medicine,medical school | college of medicine | medical college | medical school | school of medicine,False
+[CLS] Drexel:2 University College of Medicine is a [MASK] [MASK] [MASK] . [SEP],College of Medicine,medical school | college of medicine | medical college | medical school | school of medicine,True
 [CLS] Nitting:2 is a [MASK] [MASK] . [SEP],small town,commune of France | commune | commune ( France ) | commune of France,False
 [CLS] Transcopic:3 Records is a [MASK] [MASK] . [SEP],record label,record label | imprint:2 | label | music label | record label,True
 [CLS] Object 187 is a [MASK] [MASK] . [SEP],class class,main battle tank | MBT:2 | MBTs:3 | Main Battle Tanks:2 | battle tank | main battle tank | main battle tanks | universal tank,False
@@ -265,7 +265,7 @@ sentence,prediction,gold,is_same
 [CLS] Rivas is a [MASK] [MASK] [MASK] . [SEP],town - town,commune of France | commune | commune ( France ) | commune of France,False
 [CLS] Rikuzen:3 - Shirasawa:3 Station is a [MASK] . [SEP],station,railway station | rail station | rail stop | railroad station | railway station | railway stop | train station,False
 [CLS] Pinzolo:3 is a [MASK] [MASK] [MASK] [MASK] . [SEP],municipality in the municipality,comune of Italy | Comune | Italian commune | Italian communes | comune | comune of Italy | comunes,False
-[CLS] 1997 Beach Volleyball World Championships is a [MASK] [MASK] [MASK] [MASK] . [SEP],beach volleyball World Championships,Beach Volleyball World Championships | Beach Volleyball World Championships | FIVB:3 Beach Volleyball SWATCH:3 World Championships | Swatch:2 FIVB:3 World Championships,False
+[CLS] 1997 Beach Volleyball World Championships is a [MASK] [MASK] [MASK] [MASK] . [SEP],beach volleyball World Championships,Beach Volleyball World Championships | Beach Volleyball World Championships | FIVB:3 Beach Volleyball SWATCH:3 World Championships | Swatch:2 FIVB:3 World Championships,True
 [CLS] Ponzano:3 Monferrato:2 is a [MASK] [MASK] [MASK] [MASK] . [SEP],municipality in the municipality,comune of Italy | Comune | Italian commune | Italian communes | comune | comune of Italy | comunes,False
 [CLS] Pakistan Liberal Party is a [MASK] [MASK] [MASK] . [SEP],Pakistan Liberal Party,political party | party | political party,False
 [CLS] Lisp:2 Machine Lisp:2 is a [MASK] [MASK] [MASK] . [SEP],Lisp:2 Machine,programming language | computer language | computer programming language | programming language,False
@@ -283,7 +283,7 @@ sentence,prediction,gold,is_same
 [CLS] Son of Beast is a [MASK] [MASK] [MASK] . [SEP],". , directed",wooden roller coaster:2 | wooden roller coaster:2,False
 [CLS] Saint - Didier - sur - Rochefort is a [MASK] . [SEP],commune,commune of France | commune | commune ( France ) | commune of France,True
 [CLS] Donovan ' s Greatest Hits and More is a [MASK] [MASK] [MASK] . [SEP],compilation of Donovan,compilation album | best album | compilation album | compilation disc | rarities:2 album,False
-[CLS] Eibsee:3 Cable Car is a [MASK] [MASK] . [SEP],Cable Car,aerial tramway | aerial tramway | cable car | pendelbahn:3 | ropeway:3 | sky tram | telepherique:3 | téléphérique:4,False
+[CLS] Eibsee:3 Cable Car is a [MASK] [MASK] . [SEP],Cable Car,aerial tramway | aerial tramway | cable car | pendelbahn:3 | ropeway:3 | sky tram | telepherique:3 | téléphérique:4,True
 [CLS] Oxted:3 is a [MASK] [MASK] [MASK] . [SEP],commune in France,civil parish | English civil parish | civil parish | civil parish in England | civil parishes in England,False
 [CLS] United Nations Security Council Resolution 1920 is a [MASK] [MASK] [MASK] . [SEP],United Nations resolution,United Nations Security Council resolution | United Nations Security Council resolution,False
 [CLS] Solimana:3 is a [MASK] [MASK] [MASK] . [SEP],municipality in Spain,volcano:2 | volcano:2,False
@@ -311,7 +311,7 @@ sentence,prediction,gold,is_same
 [CLS] Edogawadai:3 Station is a [MASK] . [SEP],station,railway station | rail station | rail stop | railroad station | railway station | railway stop | train station,False
 [CLS] Tiggiano:3 is a [MASK] [MASK] [MASK] [MASK] . [SEP],municipality in the municipality,comune of Italy | Comune | Italian commune | Italian communes | comune | comune of Italy | comunes,False
 [CLS] Bluit:2 is a [MASK] [MASK] [MASK] . [SEP],d . d,ghost town | abandoned city | abandoned town | abandoned village | extinct town | ghost town,False
-[CLS] Biathlon:2 World Championships 1999 is a [MASK] [MASK] [MASK] [MASK] . [SEP],biathlon:2 World Championships,Biathlon:2 World Championships | Biathlon:2 World Championships | World Biathlon:2 Championships,False
+[CLS] Biathlon:2 World Championships 1999 is a [MASK] [MASK] [MASK] [MASK] . [SEP],biathlon:2 World Championships,Biathlon:2 World Championships | Biathlon:2 World Championships | World Biathlon:2 Championships,True
 [CLS] Brøgger:3 Glacier is a [MASK] [MASK] [MASK] . [SEP],glacier:3,glacier:3 | glacier:3,True
 [CLS] Brunstatt:3 is a [MASK] [MASK] [MASK] . [SEP],municipality in Germany,commune of France | commune | commune ( France ) | commune of France,False
 [CLS] Chattisham:3 is a [MASK] [MASK] . [SEP],badminton badminton,civil parish | English civil parish | civil parish | civil parish in England | civil parishes in England,False
@@ -470,7 +470,7 @@ sentence,prediction,gold,is_same
 [CLS] Beyond Thee:2 Infinite Beat is a [MASK] [MASK] [MASK] . [SEP],a . u,remix album | remix album,False
 [CLS] Templeuve:2 - en - Pévèle:4 is a [MASK] . [SEP],commune,commune of France | commune | commune ( France ) | commune of France,True
 "[CLS] Arlington Beach , Saskatchewan is a [MASK] [MASK] . [SEP]",ski resort,designated place of Canada | designated place of Canada,False
-[CLS] Østerfælled:6 Barracks:2 is a [MASK] [MASK] . [SEP],Barracks:2,barracks:2 | barrack:2 | barracks:2,False
+[CLS] Østerfælled:6 Barracks:2 is a [MASK] [MASK] . [SEP],Barracks:2,barracks:2 | barrack:2 | barracks:2,True
 [CLS] Tempi:2 / Matatabi:3 is a [MASK] [MASK] [MASK] [MASK] . [SEP],town in Tempi:2,extended play | E . P . | EP | Extended Play | extended play,False
 [CLS] Nick Knight is a [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. S . A .,television film | MOTW:3 | MOW:2 | TV film | TV movie | TV - Movie | Television movie | direct - to - TV film | feature - length drama | made - for - television film | movie of the week | original movie | single drama | telefilm:2 | telemovie:3 | television film | television movie,False
 [CLS] Aphrodite:4 Glacier is a [MASK] [MASK] [MASK] [MASK] . [SEP],Glacial:3 Glacier,glacier:3 | glacier:3,False
