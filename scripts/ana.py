@@ -10,56 +10,38 @@ import json
 from random import shuffle
 from glob import glob
 import numpy as np
-from transformers import AutoTokenizer
-from entity_lang import Alias
-from prompt import Prompt
-from check_gender import load_entity_gender
-from check_instanceof import load_entity_instance
-from probe import tokenizer_wrap
+from probe import tokenizer_wrap, LamaPredictions, EvalContext, CsvLogFileContext
 
 
-def load_result(filename: str) -> List[Dict]:
+def load_result(filename: str) -> List[LamaPredictions]:
     result: List[Dict] = []
     with open(filename, 'r') as fin:
         for l in fin:
-            r = json.loads(l)
-            result.append(r)
+            result.append(LamaPredictions.from_str(l))
     return result
 
 
-def is_correct(pred: List[str], result: Dict, use_alias: bool=False, lang: str=None, **kwargs):
-    if use_alias:
-        prompt_model = kwargs['prompt_model']
-        tokenizer = kwargs['tokenizer']
-        alias_manager = kwargs['alias_manager']
-        golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
-        for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
-            _, alias = prompt_model.fill_y(result['prompt'], result['obj_uri'], alias)
-            golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
-    else:
-        golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
-    for gold in golds:
-        if len(pred) == len(gold) and (np.array(pred) == np.array(gold)).all():
-            return True
-    return False
-
-
-def compute_acc(filename: str, norm: bool=False, use_alias: bool=False, lang: str=None, **kwargs) -> float:
-    result = load_result(filename)
+def compute_acc(filename: str, eval: EvalContext) -> float:
+    result: List[LamaPredictions] = load_result(filename)
     correct = total = 0
     for r in result:
-        scores: List[float] = []
-        for p in r['pred_log_prob']:
-            scores.append(np.mean(p) if norm else np.sum(p))
-        best = np.argmax(scores)
-        correct += is_correct(r['pred'][best], r, use_alias=use_alias, lang=lang, **kwargs)
+        correct += int(r.eval(eval))
         total += 1
     return correct / (total or 1)
 
 
+def prettify(in_file: str, out_file: str, eval: EvalContext):
+    headers = ['sentence', 'prediction', 'gold', 'is_same']
+    result: List[LamaPredictions] = load_result(in_file)
+    with CsvLogFileContext(out_file, headers=headers) as csv_file:
+        for r in result:
+            r.eval(eval)
+            r.prettify(csv_file)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
-    parser.add_argument('--task', type=str, choices=['logprob', 'acc', 'compare', 'multi_eval'])
+    parser.add_argument('--task', type=str, choices=['logprob', 'acc', 'compare', 'multi_eval', 'prettify'])
     parser.add_argument('--lang', type=str, help='language')
     parser.add_argument('--inp', type=str, help='input')
     parser.add_argument('--out', type=str, help='output')
@@ -136,18 +118,22 @@ if __name__ == '__main__':
             print('{}\tacc {}'.format(result_dir, np.mean(acc_li)))
 
     elif args.task == 'multi_eval':
-        entity_gender_path = 'data/mTREx_gender.txt'
-        entity_instance_path = 'data/mTREx_instanceof.txt'
-        alias_root = 'data/alias/mTREx'
-        entity2gender = load_entity_gender(entity_gender_path)
-        entity2instance = load_entity_instance(entity_instance_path)
-        prompt_model = Prompt.from_lang(args.lang, entity2gender, entity2instance)
-        tokenizer = AutoTokenizer.from_pretrained('bert-base-multilingual-cased')
-        alias_manager = Alias(alias_root)
+        eval = EvalContext(lang=args.lang)
         acc_li: List[float] = []
         for root, dirs, files in os.walk(args.inp):
             for file in files:
-                acc = compute_acc(os.path.join(root, file), norm=True, use_alias=True, lang=args.lang,
-                                  prompt_model=prompt_model, tokenizer=tokenizer, alias_manager=alias_manager)
+                if not file.endswith('.jsonl'):
+                    continue
+                acc = compute_acc(os.path.join(root, file), eval)
                 acc_li.append(acc)
         print('acc {}'.format(np.mean(acc_li)))
+
+    elif args.task == 'prettify':
+        eval = EvalContext(lang=args.lang)
+        for root, dirs, files in os.walk(args.inp):
+            for file in files:
+                if not file.endswith('.jsonl'):
+                    continue
+                prettify(os.path.join(root, file),
+                         os.path.join(root, file.rsplit('.', 1)[0] + '.csv'),
+                         eval)

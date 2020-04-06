@@ -1,0 +1,756 @@
+sentence,prediction,gold,is_same
+[CLS] Museum of Arts and Sciences is located in [MASK] [MASK] [MASK] . [SEP],U . S,"Macon:2 | Macon:2 | Macon:2 , Georgia",False
+[CLS] Marylebone:3 High Street is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Marylebone:3 High Street,Marylebone:3 | Marylebone:3,False
+[CLS] First Magdalena Massacre is located in [MASK] [MASK] [MASK] . [SEP],First Magdalena Massacre,Magdalena de Kino | Magdalena de Kino,False
+[CLS] Portrait of a young man with a skull is located in [MASK] [MASK] [MASK] . [SEP],the graveyard:2,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] King ' s College London is located in [MASK] [MASK] [MASK] . [SEP],Kensington and Chelsea,Central London | Central London,False
+[CLS] Hutton is located in [MASK] [MASK] [MASK] . [SEP],New York County,Mare Australe:2 quadrangle:3 | Mare Australe:2 quadrangle:3,False
+[CLS] 1959 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1959 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] Battle of Farrukhabad:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Farrukhabad:4,Farrukhabad:4 | Farrukhabad:4 | Farukhabad:4 | Nawab:3 of Farkhabad:3 | Nawab:3 of Farrukhabad:4,True
+[CLS] Dateland:2 Air Force Auxiliary:3 Field is located in [MASK] [MASK] . [SEP],Dateland:2,"Dateland:2 | Dateland:2 | Dateland:2 , Arizona",True
+[CLS] 2010 Kosovska:3 Mitrovica:3 attack is located in [MASK] [MASK] [MASK] . [SEP],the city centre,North Mitrovica:3 | Mitrovica:3 Veriore:3 | North Kosovska:3 Mitrovica:3 | North Mitrovica:3,False
+[CLS] Africa Centre is located in [MASK] [MASK] . [SEP],Cape Town,Cape Town | Cape | Cape Town | Kaap | Kaapstad | iKapa:3,True
+[CLS] Karl G . Jansky:2 Very Large Array:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,"Socorro County | Socorro County | Socorro County , New Mexico",False
+[CLS] 55th:2 Annual Grammy Awards is located in [MASK] [MASK] [MASK] . [SEP],"Dallas , Texas",Staples:3 Center | STAPLES:4 Center | Staples:3 Center,False
+[CLS] 2015 Chinese Grand Prix is located in [MASK] [MASK] . [SEP],Zhuhai:2,Shanghai International Circuit | Shanghai International Circuit,False
+[CLS] St Ives:2 School is located in [MASK] [MASK] [MASK] . [SEP],St Ives:2,"St Ives:2 | St Ives:2 | St Ives:2 , Cornwall | St . Ives:2",True
+[CLS] Marine Corps Air Station Yuma:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Yuma:2 , United States",Yuma:2 | Yuma:2,False
+[CLS] 2014 AFL Grand Final is located in [MASK] [MASK] [MASK] . [SEP],"Brisbane , Brisbane",Melbourne Cricket Ground | MCG | Melbourne Cricket Ground | The G,False
+[CLS] Leeuwarden:3 Achter:2 de Hoven:2 railway station is located in [MASK] [MASK] [MASK] . [SEP],Leeuwarden:3,Leeuwarden:3 | Leeuwarden:3 | Leewadden:3 | Liwwadden:4 | Ljouwert | Luwt:3,True
+[CLS] Battle of Ümera:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Ümera:2,Valmiera:3 | Valmiera:3 | Wolmar:3,False
+[CLS] Prince Balthasar Charles as a Hunter is located in [MASK] [MASK] [MASK] . [SEP],U . S,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Charing:2 Cross Hospital is located in [MASK] [MASK] [MASK] . [SEP],Charing:2 Cross,Hammersmith:2 | Hammersmith:2,False
+[CLS] Alligator:3 Reef is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Alligator:3 Reef,Florida Keys National Marine Sanctuary | FKNMS:3 | Florida Keys National Marine Sanctuary,False
+[CLS] Battle of the Santa Cruz Islands is located in [MASK] [MASK] [MASK] . [SEP],Santa Cruz Islands,Santa Cruz Islands | Santa Cruz Islands,True
+[CLS] Akuressa:3 suicide bombing is located in [MASK] [MASK] [MASK] . [SEP],Akuressa:3,Akuressa:3 | Akuressa:3,True
+[CLS] Helvellyn:4 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] 3rd Yerevan:2 Golden Apricot:3 International Film Festival is located in [MASK] [MASK] . [SEP],Yerevan:2,Yerevan:2 | Erevan:2 | Eriwan:3 | The Pink City | Yerevan:2,True
+[CLS] Naval Base Guam is located in [MASK] . [SEP],Guam,Apra:2 Harbor | Apra:2 Harbor,False
+[CLS] Bexell:2 Cottage:2 is located in [MASK] [MASK] . [SEP],Bexell:2,Varberg:2 | Varberg:2,False
+[CLS] Central Chambers is located in [MASK] [MASK] . [SEP],Central Chambers,Confederation Square | Confederation Square,False
+"[CLS] The Square , Bournemouth:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]","Bournemouth:2 , Bournemouth:2",Bournemouth:2 | Bournemouth:2,False
+[CLS] Crewe:2 is located in [MASK] [MASK] [MASK] . [SEP],Cheshire Cheshire Cheshire,Margaritifer:4 Sinus:2 quadrangle:3 | Margaritifer:4 Sinus:2 quadrangle:3,False
+[CLS] Battle of Bennington:3 is located in [MASK] [MASK] [MASK] . [SEP],Bennington:3,"Bennington:3 | Bennington:3 | Bennington:3 , VT | Bennington:3 , Vermont",True
+[CLS] Battle of the Tarigo:2 Convoy:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Tarigo:2 Convoy:2,Mediterranean Sea | Mediterranean Sea,False
+[CLS] Mars Pathfinder:2 is located in [MASK] [MASK] [MASK] . [SEP],the Pathfinder:2,Oxia:2 Palus:2 quadrangle:3 | MC - 11 | Oxia:2 Palus:2 quadrangle:3,False
+[CLS] St . Peter ' s Basilica is located in [MASK] [MASK] [MASK] . [SEP],"Westminster , Westminster",Vatican City | Città del Vaticano | Civitas:2 Vaticana:2 | Papal:2 State | State of Vatican City | Stato della Città del Vaticano | Status Civitatis:3 Vaticanae:2 | The Vatican | Vatican | Vatican City | Vatican City State | va | vat | [UNK],False
+[CLS] 2001 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],2001 Open Championship,Royal Lytham:3 & St Annes:2 Golf Club | Royal Lytham:3 & St Annes:2 Golf Club,False
+[CLS] 1999 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1999 Open Championship,Carnoustie:4 Golf Links | Carnoustie:4 Golf Links,False
+[CLS] 2004 Epsom:3 Derby is located in [MASK] [MASK] [MASK] . [SEP],Epsom:3,Epsom:3 Downs Racecourse:2 | Epsom:3 Downs | Epsom:3 Downs Racecourse:2 | Epsom:3 Race Course,False
+[CLS] Circus Tavern:2 is located in [MASK] [MASK] [MASK] . [SEP],Circus Tavern:2,"Purfleet:4 | Purfleet:4 | Purfleet:4 , Essex",False
+[CLS] 1972 World Figure Skating:3 Championships is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Berlin ( Germany ),Stampede:3 Corral:2 | Stampede:3 Corral:2,False
+[CLS] Kista:2 Science Tower is located in [MASK] [MASK] . [SEP],Kista:2,Kista:2 | Kista:2,True
+[CLS] Dujail:3 Massacre is located in [MASK] [MASK] [MASK] . [SEP],Dujail:3,Dujail:3 | Dujail:3,True
+[CLS] 2007 China Open is located in [MASK] [MASK] [MASK] . [SEP],"2007 , China",Beijing University Students ' Gymnasium | Beijing University Students ' Gymnasium,False
+[CLS] Statue of the Earl of Derby is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Earl of Derby,"Parliament Square | Parliament Square | Parliament Square , London | Parliament Square , Westminster",False
+[CLS] Green Bank Telescope is located in [MASK] [MASK] . [SEP],Green Bank,"Green Bank | Green Bank | Green Bank , West Virginia",True
+[CLS] 2010 Chechen:2 Parliament attack is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2010 Chechen:2 Parliament,Grozny:3 | Grozny:3,False
+[CLS] Eaton Square is located in [MASK] [MASK] . [SEP],Eaton Square,Belgravia:3 | Belgravia:3,False
+[CLS] AFI Docs:2 - International Documentary Festival is located in [MASK] [MASK] [MASK] . [SEP],"Chicago , IL","Washington , D . C . | D . C . | DC | District of Columbia | Washington | Washington D . C . | Washington DC | Washington , D . C . | Washington , DC | Washington , District of Columbia",False
+[CLS] Junior Eurovision Song Contest 2010 is located in [MASK] [MASK] [MASK] . [SEP],"Belgrade , Serbia",Minsk - Arena | Minsk - Arena,False
+[CLS] The Lovers is located in [MASK] [MASK] . [SEP],The Lovers,Lynden:2 Sculpture Garden | Lynden:2 Sculpture Garden,False
+[CLS] Astapus:3 Colles:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Casius:2 quadrangle:3 | Casius:2 quadrangle:3,False
+[CLS] Olympica:2 Fossae:3 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Olympica:2 Fossae:3,Tharsis:3 quadrangle:3 | Tharsis:3 quadrangle:3,False
+[CLS] 2012 American League Wild Card Game is located in [MASK] [MASK] [MASK] . [SEP],the Arena Arena,Globe Life Park in Arlington | Ameriquest:3 Field in Arlington | Ballpark:2 in Arlington | Globe Life Park in Arlington | Rangers Ballpark:2 in Arlington | The Ballpark:2 in Arlington,False
+[CLS] Laughlin:3 / Bullhead:2 International Airport is located in [MASK] [MASK] [MASK] . [SEP],Laughlin:3,"Mohave:3 County | Mohave:3 County | Mohave:3 County , Arizona",False
+[CLS] Battle of Buttington:3 is located in [MASK] [MASK] [MASK] . [SEP],the United States,Buttington:3 | Buttington:3 | Tal - y - bont:2,False
+[CLS] 1955 MacArthur Airport United Airlines crash is located in [MASK] [MASK] [MASK] . [SEP],D . D,Long Island MacArthur Airport | ISP:2 | KISP:3 | Long Island MacArthur Airport,False
+[CLS] Odenplan:3 is located in [MASK] [MASK] [MASK] . [SEP],Odenplan:3,Vasastaden:2 | Vasastaden:2 | Vasastan:2,False
+[CLS] 1912 FA Cup Final is located in [MASK] [MASK] . [SEP],Court Court,Bramall:3 Lane | Bramall:3 Lane,False
+[CLS] Hong Kong Jewish Film Festival is located in [MASK] [MASK] . [SEP],Hong Kong,"Hong Kong | China Hong Kong | HK | HKG:2 | HKSAR:3 | Hong Kong | Hong Kong SAR | Hong Kong SAR , China | Hong Kong Special Administrative Region | Hong Kong , China | Hongkong | hk | [UNK]",True
+[CLS] Battle of the Guadalquivir:5 is located in [MASK] [MASK] . [SEP],the city,Guadalquivir:5 | Guadalquivir:5,False
+[CLS] 1996 Italian Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] Zaans:2 Museum is located in [MASK] [MASK] . [SEP],Zaans:2,Zaandam:3 | Zaandam:3,False
+[CLS] Aden Country Park is located in [MASK] . [SEP],Aden,Aberdeenshire:2 | Aberdeenshire:2,False
+"[CLS] Town Hall , De Rijp:3 is located in [MASK] [MASK] [MASK] [MASK] . [SEP]",De Rijp:3,De Rijp:3 | De Rijp:3,True
+[CLS] Battle of Lissa:2 is located in [MASK] [MASK] . [SEP],Lissa:2,Adriatic:3 Sea | Adria:2 | Adriatic:3 Riviera | Adriatic:3 Sea | Mare Adriatico:3 | Riviera Adriatica:3,False
+[CLS] 2015 PGA Championship is located in [MASK] [MASK] [MASK] . [SEP],2015 PGA Championship,Whistling:3 Straits | Whistling:3 Straits,False
+[CLS] 21 July 2005 London bombings:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the City of London,Shoreditch:3 | Shoreditch:3,False
+[CLS] 2013 Ashes series is located in [MASK] [MASK] [MASK] . [SEP],2013 Ashes series,Trent Bridge | Trent Bridge | Trent Bridge cricket ground,False
+[CLS] Tennispalatsi:3 is located in [MASK] [MASK] [MASK] . [SEP],Tennispalatsi:3,Kamppi:3 | Kampen | Kamppi:3,False
+[CLS] Battle of Haguenau:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Haguenau:2,Haguenau:2 | Hagenau:2 | Haguenau:2,False
+[CLS] Evacuation:3 Day is located in [MASK] [MASK] [MASK] . [SEP],U . S,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs:2",False
+[CLS] Hoxne:3 treasure:2 is located in [MASK] [MASK] [MASK] . [SEP],Hoxne:3,British Museum | BM | British Museum | The British Museum,False
+[CLS] Baloncesto:3 Fuenlabrada:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Fuenlabrada:4,Fuenlabrada:4 | Fuenlabrada:4,True
+[CLS] Madonna del Prato is located in [MASK] . [SEP],Prato,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] pursuit of Goeben:2 and Breslau is located in [MASK] [MASK] [MASK] [MASK] . [SEP],district of Goeben:2,Mediterranean Sea | Mediterranean Sea,False
+[CLS] Aldershot:3 Observatory is located in [MASK] [MASK] [MASK] . [SEP],Aldershot:3,Aldershot:3 | Aldershot:3,True
+[CLS] Hemavan:3 - Tärnaby:4 Airport is located in [MASK] [MASK] [MASK] . [SEP],Hemavan:3,Hemavan:3 | Hemavan:3,True
+[CLS] Guantanamo:4 Bay detention:2 camp is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Guantanamo:4 Bay,Guantanamo:4 Bay Naval Base | GTMO:3 | Gitmo:3 | Guantanamo:4 Bay Naval Base | United States Naval Station Guantanamo:4 Bay,False
+[CLS] 1969 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1969 Open Championship,Royal Lytham:3 & St Annes:2 Golf Club | Royal Lytham:3 & St Annes:2 Golf Club,False
+[CLS] 2002 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Miyagi:3 Stadium | Miyagi:3 Stadium,False
+[CLS] Byron David Smith killings:2 is located in [MASK] [MASK] [MASK] . [SEP],Byron David Smith,"Little Falls | Little Falls | Little Falls , Minnesota",False
+[CLS] Noli:2 me tangere:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Noli:2 me tangere:2,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] Battle of the Kentish:2 Knock:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Kentish:2 Knock:2,North Sea | North Sea,False
+[CLS] October 2010 Abuja:2 attacks is located in [MASK] [MASK] . [SEP],Abuja:2,Abuja:2 | Abuja:2,True
+[CLS] Ouarzazate:4 Airport is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Ouarzazate:4,Ouarzazate:4 | Ouarzazate:4,True
+[CLS] Battle of Cape St . Vincent is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Cape St . Vincent,Cape St . Vincent | Cape St . Vincent,True
+[CLS] 1981 Canadian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1981 Canadian Grand Prix,Circuit Gilles Villeneuve | Circuit Gilles Villeneuve,False
+[CLS] Lansdowne:4 Heracles:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Lansdowne:4,Getty:2 Villa | Getty:2 Villa | J Paul Getty:2 Museum at the Getty:2 Villa | J . Paul Getty:2 Museum at the Getty:2 Villa | The Getty:2 Villa,False
+[CLS] Treaty of Saint - Germain - en - Laye:2 is located in [MASK] [MASK] [MASK] . [SEP],Saint - Germain,Saint - Germain - en - Laye:2 | Saint - Germain - en - Laye:2 | St . Germain - en - Laye:2,False
+[CLS] Cape Hatteras:3 Light is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Cape Hatteras:3,Cape Hatteras:3 National Seashore:2 | Cape Hatteras:3 National Seashore:2,False
+[CLS] 2015 German Masters is located in [MASK] [MASK] . [SEP],German Masters,Tempodrom:2 | Tempodrom:2,False
+[CLS] Tanais:2 Tablets:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Tanais:2 Tablets:2,Hermitage:3 Museum | Hermitage:3 | Hermitage:3 Museum | State Hermitage:3 | State Hermitage:3 Museum | The Hermitage:3 | The State Hermitage:3 Museum,False
+[CLS] Nickel Plate Road 587 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Nickel Plate Road 587,Indiana Transportation Museum | Indiana Transportation Museum,False
+[CLS] Battle of Rennell:2 Island is located in [MASK] [MASK] [MASK] . [SEP],U . S,Rennell:2 Island | Rennell:2 Island,False
+[CLS] Anseris:2 Mons is located in [MASK] [MASK] [MASK] . [SEP],Anseris:2 Mons,Iapygia:3 quadrangle:3 | Iapygia:3 quadrangle:3,False
+[CLS] Zwijnaarde:4 science park is located in [MASK] [MASK] . [SEP],the village,Zwijnaarde:4 | Zwijnaarde:4,False
+[CLS] Battle of Guillemont:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of Guillemont:2,Guillemont:2 | Guillemont:2,False
+[CLS] 1995 World Snooker Championship is located in [MASK] [MASK] [MASK] . [SEP],"1995 , Australia",Crucible:3 Theatre | Crucible:3 Theatre | The Crucible:3,False
+[CLS] 40 Bank Street is located in [MASK] [MASK] [MASK] . [SEP],40 Bank Street,Canary Wharf:2 | Canary Wharf:2,False
+[CLS] Battle of Sasireti:3 is located in [MASK] [MASK] [MASK] . [SEP],Sasireti:3,Shida:2 Kartli:2 | Inner Kartli:2 | Shida:2 Kartli:2 | Upper Kartli:2,False
+[CLS] Preparedness:4 Day Bombing:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco:3 | Paris of the West | SF | SFO:2 | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False
+[CLS] February 2008 Bosaso:2 bombings:2 is located in [MASK] [MASK] . [SEP],Bosaso:2,Bosaso:2 | Boosaaso:3 | Bosaso:2,True
+[CLS] Macon:2 Peaches:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Macon:2 Peaches:2,"Macon:2 | Macon:2 | Macon:2 , Georgia",False
+[CLS] Portrait of a Knight is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Gallery of Art,Thyssen:3 - Bornemisza:3 Museum | Museo Nacional Thyssen:3 - Bornemisza:3 | Museo Thyssen:3 - Bornemisza:3 | Thyssen:3 - Bornemisza:3 Museum,False
+[CLS] Battle of Santa Cruz de Tenerife is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Santa Cruz de Tenerife,Santa Cruz de Tenerife | Santa Cruz de Tenerife,True
+[CLS] Cline:2 Cellars:2 is located in [MASK] [MASK] [MASK] . [SEP],New Jersey City,Los Carneros:3 AVA:2 | Carneros:3 AVA:2 | Los Carneros:3 AVA:2,False
+[CLS] Super Bowl I is located in [MASK] [MASK] . [SEP],Super Bowl,Los Angeles Memorial Coliseum | Los Angeles Memorial Coliseum,False
+[CLS] 11th Army Corps is located in [MASK] [MASK] [MASK] . [SEP],U . S,Kiev Military District | Kiev Military District,False
+[CLS] Echus:2 Montes is located in [MASK] [MASK] [MASK] . [SEP],Echus:2 Montes,Lunae:2 Palus:2 quadrangle:3 | Lunae:2 Palus:2 | Lunae:2 Palus:2 quadrangle:3,False
+[CLS] 1987 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],1987 UK Championship,Preston Guild Hall | Preston Guild Hall,False
+[CLS] 1885 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1885 Open Championship,Old Course at St Andrews | Old Course at St Andrews,False
+[CLS] Portrait of a Young Man with a Lamp:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Gallery of Art,Kunsthistorisches:4 Museum | Kunsthistorisches:4 Museum | Museum of Art History,False
+[CLS] Siege of Al - Dāmūs:3 is located in [MASK] [MASK] [MASK] . [SEP],Dāmūs:3,Ademuz:3 | Ademuz:3,False
+[CLS] Battle of Point Pleasant is located in [MASK] [MASK] . [SEP],Point Pleasant,"Point Pleasant | Point Pleasant | Point Pleasant , West Virginia",True
+[CLS] 2009 World Junior Badminton Championships is located in [MASK] [MASK] [MASK] . [SEP],"Nanjing , Nanjing",Alor:2 Setar:2 | Alor:2 Setar:2,False
+[CLS] 57th:2 Academy Awards is located in [MASK] [MASK] [MASK] . [SEP],"Dallas , Texas",Dorothy Chandler Pavilion | Dorothy Chandler Pavilion,False
+[CLS] Kastanjegården:5 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kastanjegården:5,Fosie:3 | Fosie:3,False
+[CLS] Seven Stars is located in [MASK] [MASK] . [SEP],Seven Stars,Holborn:3 | Holborn:3,False
+[CLS] Mt . Zion Schoolhouse:2 is located in [MASK] . [SEP],Mt,"Mount Solon:2 | Mount Solon:2 | Mount Solon:2 , Virginia",False
+[CLS] Subramaniam:4 Academy of Performing Arts is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Subramaniam:4,Bengaluru:2 | Bangalore | Bengaluru:2 | Namma:2 Bengaluru:2,False
+[CLS] Archaeological Museum of Thasos:2 is located in [MASK] [MASK] . [SEP],Thasos:2,Thasos:2 | Limenas:2 | Thasos:2,True
+[CLS] Berlin & Beyond Film Festival is located in [MASK] . [SEP],Berlin,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco:3 | Paris of the West | SF | SFO:2 | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False
+[CLS] 1961 PGA Championship is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Lincoln Center , Lincoln Center",Olympia Fields Country Club | Olympia Fields Country Club,False
+[CLS] 1969 United States Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Watkins Glen International | Watkins Glen Grand Prix Circuit | Watkins Glen International | Watkins Glen International Raceway:2,False
+[CLS] 1980 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],1980 UK Championship,Preston Guild Hall | Preston Guild Hall,False
+[CLS] 2002 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Daegu:2 Stadium | Daegu:2 Stadium | Daegu:2 World Cup Stadium,False
+[CLS] Battle of Desio:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of Desio:2,Desio:2 | Desio:2,False
+[CLS] 101 California Street shooting is located in [MASK] [MASK] [MASK] . [SEP],101 California Street,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco:3 | Paris of the West | SF | SFO:2 | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False
+[CLS] Rancho Llano de Santa Rosa is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Llano de Santa Rosa,Sebastopol:4 | Sebastopol:4,False
+[CLS] 1972 Republican National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D",Miami Beach Convention Center | MBCC:2 | Miami Beach Convention Center,False
+[CLS] 2006 Bahrain Grand Prix is located in [MASK] . [SEP],Bahrain,Bahrain International Circuit | Bahrain International Circuit,False
+[CLS] Ryan Airfield:2 is located in [MASK] [MASK] [MASK] . [SEP],Ryan Airfield:2,"Pima:2 County | Pima:2 County | Pima:2 County , Arizona",False
+[CLS] Mariposa:2 Folk Festival is located in [MASK] [MASK] . [SEP],Mariposa:2,"Orillia:3 | Orillia:3 | Orillia:3 , Ontario",False
+[CLS] 2003 World Snooker Championship is located in [MASK] [MASK] [MASK] . [SEP],"2003 , China",Crucible:3 Theatre | Crucible:3 Theatre | The Crucible:3,False
+[CLS] 1960 Republican National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D",International Amphitheatre:5 | Chicago Ampitheater:3 | Chicago Ampitheatre:4 | International Amphitheatre:5 | International Ampitheater:3,False
+[CLS] Battle of the Upper Baetis:3 is located in [MASK] [MASK] [MASK] . [SEP],Baetis:3,Guadalquivir:5 | Guadalquivir:5,False
+[CLS] 1700 Cascadia:3 earthquake is located in [MASK] [MASK] [MASK] . [SEP],Cascadia:3,"Pacific Northwest | Pacific Northwest | Pacific Northwest , PNW:3 , PacNW:3",False
+[CLS] 7th World Scout Jamboree:3 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Bad Ischl:3 | Bad Ischl:3,False
+[CLS] Wellcome:2 Sanger:2 Institute is located in [MASK] [MASK] . [SEP],the town,Wellcome:2 Genome Campus | Wellcome:2 Genome Campus | Wellcome:2 Trust Genome Campus,False
+[CLS] Eastern Front of World War II is located in [MASK] [MASK] [MASK] . [SEP],U . S,Eastern Europe | Eastern Europe,False
+[CLS] Titus as a Monk is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Rijksmuseum:3 | Amsterdam . Rijksmuseum:3 | Rijksmuseum:3 | Rijksmuseum:3 Amsterdam,False
+[CLS] Pajala:2 Airport is located in [MASK] [MASK] . [SEP],Pajala:2,Pajala:2 | Pajala:2,True
+[CLS] Men of the Docks:2 is located in [MASK] [MASK] [MASK] . [SEP],St . St,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] General Artemas:2 Ward is located in [MASK] [MASK] [MASK] . [SEP],La La La,Ward Circle | Ward Circle | Ward Circle N . W . | Ward Circle NW:2 | Ward Circle Northwest,False
+[CLS] R . Betis:2 Energía:3 Plus is located in [MASK] [MASK] [MASK] . [SEP],R . R,Seville:2 | Sevilla | Seville:2,False
+[CLS] Disney Main Street window honors is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Disney Main Street window,"Main Street , U . S . A . | Main Street U . S . A . | Main Street , U . S . A .",False
+[CLS] 2002 World Figure Skating:3 Championships is located in [MASK] [MASK] [MASK] . [SEP],"Budapest , Hungary",M - Wave | M - Wave | Nagano Olympic Memorial Arena,False
+[CLS] October 1978 Getxo:2 attack is located in [MASK] [MASK] . [SEP],Getxo:2,Getxo:2 | Getxo:2,True
+[CLS] Battle of Wiesloch:3 is located in [MASK] [MASK] [MASK] . [SEP],Wiesloch:3,Wiesloch:3 | Wezzinloch:4 | Wiesloch:3 | Wissloch:3,True
+[CLS] 1965 Yerevan:2 Demonstrations:3 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Yerevan:2 , Yerevan:2",Yerevan:2 | Erevan:2 | Eriwan:3 | The Pink City | Yerevan:2,False
+[CLS] Northern Arizona Prospectors:3 is located in [MASK] [MASK] . [SEP],Northern Arizona,"Prescott Valley | Prescott Valley | Prescott Valley , Arizona",False
+[CLS] Battle of Rich Mountain is located in [MASK] [MASK] [MASK] . [SEP],Battle of Rich,"Randolph County | Randolph County | Randolph County , West Virginia",False
+[CLS] 2007 Amirli:2 bombing is located in [MASK] [MASK] . [SEP],Amirli:2,Amirli:2 | Amirli:2,True
+[CLS] 1997 German Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1997 German Grand Prix,Hockenheimring:4 | Hockenheimring:4,False
+[CLS] Burning of Jaffna:3 library is located in [MASK] [MASK] [MASK] . [SEP],Jaffna:3,"Jaffna:3 | Jaffna:3 | Jaffna:3 , Sri Lanka",True
+[CLS] 2008 Grammy Awards is located in [MASK] [MASK] [MASK] . [SEP],"Dallas , Texas","Los Angeles | City of Angels | City of Los Angeles | Double Dubuque:3 | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion:2 | Tinsel:2 Town",False
+[CLS] 2014 Winter Olympics closing ceremony is located in [MASK] [MASK] [MASK] . [SEP],"Beijing , China",Fisht:2 Olympic Stadium | Fisht:2 Olympic Stadium | Fisht:2 Stadium | Sochi:2 Olympic Stadium | Stadium Fisht:2,False
+[CLS] France in the Eurovision Song Contest 1958 is located in [MASK] [MASK] [MASK] . [SEP],"Paris , France",Hilversum:3 | Hilversum:3,False
+[CLS] Kentucky Bourbon Festival is located in [MASK] [MASK] [MASK] . [SEP],"Louisville , Kentucky",Bardstown:3 | Bardstown:3,False
+[CLS] Rhine - Waal:2 University of Applied Sciences is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Rhine - Waal:2,Kleve:2 | Cleve:2 | Cleves:2 | Clivia:3 | Clèves:3 | Kleef:2 | Kleff:3 | Kleve:2,False
+[CLS] Habo:2 Church is located in [MASK] [MASK] . [SEP],Habo:2,Habo:2 | Habo:2,True
+[CLS] Female and Male Herm:2 is located in [MASK] [MASK] [MASK] . [SEP],the hall hall,"Indianapolis Museum of Art | Art Association of Indianapolis | Herron:2 Museum of Art | IN Indianapolis USA . Indianapolis Museum of Art | IN , USA . Indianapolis Museum of Art Indianapolis | IN . Indianapolis Museum of Art Indianapolis | Indianapolis Museum of Art | John Herron:2 Art Institute | Newfields:2",False
+[CLS] 2009 Nouakchott:4 suicide bombing is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Nouakchott:4,Nouakchott:4 | Nouakchott:4,True
+[CLS] Festival do Rio is located in [MASK] [MASK] . [SEP],São Paulo,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False
+[CLS] Bounce:2 Rock is located in [MASK] [MASK] [MASK] . [SEP],Bounce:2 Rock,Margaritifer:4 Sinus:2 quadrangle:3 | Margaritifer:4 Sinus:2 quadrangle:3,False
+[CLS] 1968 Masters Tournament is located in [MASK] [MASK] [MASK] . [SEP],"Arena , Arena",Augusta National Golf Club | Augusta National | Augusta National Golf Club,False
+[CLS] Battle of Catraeth:3 is located in [MASK] [MASK] [MASK] . [SEP],Catraeth:3,"Catterick:3 | Catterick:3 | Catterick:3 , North Yorkshire",False
+[CLS] Cancioneiro:3 de Belém is located in [MASK] . [SEP],Belém,National Archaeology Museum | Museu Nacional de Arqueologia:3 | National Archaeology Museum,False
+[CLS] Battle of Morotai:2 is located in [MASK] [MASK] . [SEP],Morotai:2,Morotai:2 | Morotai:2 | Morotai:2 Island | Pulau Morotai:2,True
+[CLS] Farnese Diadumenos:3 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Farnese Diadumenos:3,British Museum | BM | British Museum | The British Museum,False
+[CLS] Warawtampu:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Warawtampu:4,"Pasco:2 | Pasco:2 | Pasco:2 department | Pasco:2 region | Pasco:2 , Spain",False
+[CLS] Acton:2 is located in [MASK] [MASK] . [SEP],Acton:2,"Los Angeles County | County of Los Angeles , California | Los Angeles County | Los Angeles County , California",False
+[CLS] Christ Child is located in [MASK] [MASK] . [SEP],Christ Child,St Martin - in - the - Fields | St Martin - in - the - Fields,False
+[CLS] death of Henry Glover is located in [MASK] [MASK] [MASK] . [SEP],his graveyard:2,"New Orleans | NOLA:2 | New Orleans | New Orleans , LA | New Orleans , Louisiana",False
+[CLS] 1973 Italian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1973 Italian Grand Prix,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] Treaty of Chaguaramas:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Chaguaramas:4,Chaguaramas:4 | Chaguaramas:4,True
+[CLS] Battle of Kosovo is located in [MASK] [MASK] [MASK] . [SEP],Battle of Kosovo,Kosovo Polje:2 | Kosovo Polje:2,False
+[CLS] Lipik:2 is located in [MASK] [MASK] . [SEP],Lipik:2,Hellas quadrangle:3 | Hellas quadrangle:3,False
+[CLS] Two Old Men Eating:2 Soup:2 is located in [MASK] [MASK] [MASK] . [SEP],New York County,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Norra Dryckesgränd:6 is located in [MASK] [MASK] [MASK] . [SEP],"Stockholm , Sweden",Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] Dawnsong:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the north of Dawnsong:2,Indianapolis Art Center | Indianapolis Art Center,False
+[CLS] 2010 Peshawar:3 bombings:2 is located in [MASK] [MASK] [MASK] . [SEP],Peshawar:3,Peshawar:3 | Pekhawar:3 | Peshawar:3,True
+[CLS] 1970 Belgian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1970 Belgian Grand Prix,Spa - Francorchamps:4 | Circuit de Spa - Francorchamps:4 | Spa - Francorchamps:4,False
+[CLS] Battle of Fort Albany is located in [MASK] [MASK] [MASK] [MASK] . [SEP],"Albany , New York","Fort Albany , Ontario | Fort Albany , Ontario",False
+[CLS] Hendre:2 ' r - ywydd:2 Uchaf:3 Farmhouse:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Hendre:2 , Hendre:2",St Fagans:3 | Sain:2 Ffagan:3 | St Fagans:3,False
+[CLS] Gray Crag:2 is located in [MASK] [MASK] [MASK] . [SEP],Gray Crag:2,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] 1964 Austrian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1964 Austrian Grand Prix,Zeltweg:3 Air Base | Zeltweg:3 Air Base,False
+[CLS] Water conflict in the Middle East and North Africa is located in [MASK] [MASK] [MASK] . [SEP],the Middle East,Middle East and North Africa | MENA:2 | Middle East and North Africa | NAWA:2 | North Africa and the Middle East | North Africa - West Asia | WANA:3 | West Asia and North Africa,False
+[CLS] Almhög:3 is located in [MASK] [MASK] [MASK] . [SEP],Almhög:3,Fosie:3 | Fosie:3,False
+[CLS] Middle Dodd is located in [MASK] [MASK] . [SEP],Middle Dodd,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] Anglo - Mysore:2 Wars is located in [MASK] [MASK] . [SEP],Mysore:2,South India | South India,False
+[CLS] Frankfurt Auschwitz Trials:2 is located in [MASK] . [SEP],Frankfurt,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie:3 Stadt Frankfurt am Main,True
+[CLS] 1960 French Grand Prix is located in [MASK] [MASK] . [SEP],Grand Prix,Reims - Gueux:3 | Circuit de Reims - Gueux:3 | Reims - Gueux:3,False
+[CLS] 1890 Epsom:3 Derby is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Epsom:3 Derby,Epsom:3 Downs Racecourse:2 | Epsom:3 Downs | Epsom:3 Downs Racecourse:2 | Epsom:3 Race Course,False
+[CLS] Galaxias:3 Chaos is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Galaxias:3 Chaos,Cebrenia:3 quadrangle:3 | Cebrenia:3 quadrangle:3,False
+[CLS] 1987 Ryder Cup is located in [MASK] [MASK] [MASK] . [SEP],"Boston , Massachusetts",Muirfield:2 Village | Muirfield:2 Village,False
+[CLS] San Diego International Film Festival is located in [MASK] [MASK] . [SEP],San Diego,"San Diego | America ' s Finest:2 City | SD | San Diego | San Diego , California | Sandi:2 | the birthplace:2 of California",True
+[CLS] Royal Cavalry Armory:2 of Seville:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Seville:2 , United States",Seville:2 | Sevilla | Seville:2,False
+[CLS] Antenor:2 Kore is located in [MASK] [MASK] [MASK] . [SEP],U . S,Acropolis:3 of Athens | Acropolis:3 ( Athens ) | Acropolis:3 of Athens,False
+[CLS] Battle of Thiepval:4 Ridge is located in [MASK] [MASK] [MASK] . [SEP],the United States,Thiepval:4 | Thiepval:4,False
+[CLS] Capture:2 of Minorca:2 is located in [MASK] [MASK] . [SEP],Minorca:2,Menorca:2 | Menorca:2 | Minorca:2,True
+[CLS] 1971 Austrian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1971 Austrian Grand Prix,Red Bull Ring | A1 - Ring | Osterreichring:4 | Red Bull Ring | Österreichring:2,False
+[CLS] Bisbee:2 - Douglas International Airport is located in [MASK] [MASK] . [SEP],Bisbee:2,"Cochise:3 County | Cochise:3 County | Cochise:3 County , Arizona",False
+[CLS] 1985 Lahad:2 Datu:2 ambush:2 is located in [MASK] [MASK] [MASK] . [SEP],B . B,Lahad:2 Datu:2 | Lahad:2 Datu:2,False
+[CLS] Portland Place is located in [MASK] [MASK] . [SEP],Portland Place,Marylebone:3 | Marylebone:3,False
+[CLS] Battle of Cocos:2 is located in [MASK] [MASK] . [SEP],Cocos:2,Cocos:2 ( Keeling:2 ) Islands | Cocos:2 ( Keeling:2 ) Islands | Cocos:2 Islands | Keeling:2 Islands | Territory of the Cocos:2 ( Keeling:2 ) Islands | cc | [UNK],False
+[CLS] Ghriba:3 synagogue bombing is located in [MASK] [MASK] [MASK] . [SEP],Ghriba:3,El Ghriba:3 Synagogue:3 | El Ghriba:3 Synagogue:3,False
+[CLS] 2010 Appomattox:4 shootings:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Appomattox:4,Appomattox:4 | Appomattox:4,True
+[CLS] Miracle of Lanciano:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],"Lanciano:2 , Italy",Lanciano:2 | Lanciano:2,False
+[CLS] Imperial Trans - Antarctic Expedition is located in [MASK] [MASK] [MASK] . [SEP],U . S,Elephant Island y orlando:2 | Elephant Island y orlando:2 | chile:2,False
+[CLS] 2014 National League Wild Card Game is located in [MASK] [MASK] [MASK] . [SEP],2014 National League,PNC:2 Park | PNC:2 Park,False
+[CLS] IBK:2 Sundsvall:3 is located in [MASK] [MASK] [MASK] . [SEP],Sundsvall:3,Sundsvall:3 | Sundsvall:3,True
+[CLS] 1921 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1921 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] Causey:2 Pike is located in [MASK] [MASK] [MASK] . [SEP],Causey:2 Pike,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] Miss World riots:2 is located in [MASK] [MASK] [MASK] . [SEP],"Caracas , Venezuela",Kaduna:2 | Kaduna:2,False
+[CLS] 1962 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Estadio Carlos Dittborn:3 | Estadio Carlos Dittborn:3,False
+[CLS] Siege of Mirandola:2 ( 1551 ) is located in [MASK] [MASK] [MASK] [MASK] . [SEP],"Mirandola:2 , Italy",Mirandola:2 | Mirandola:2,False
+[CLS] 1887 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1887 Open Championship,Prestwick:3 Golf Club | Prestwick:3 Golf Club,False
+[CLS] Siege of La Rochelle is located in [MASK] [MASK] . [SEP],La Rochelle,La Rochelle | La Rochelle,True
+[CLS] 2007 Baghlan:3 sugar factory bombing is located in [MASK] [MASK] [MASK] . [SEP],Baghlan:3,Baghlan:3 | Baghlan:3,True
+[CLS] 1984 Dutch Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1984 Dutch Grand Prix,Circuit Park Zandvoort:4 | Circuit Park Zandvoort:4,False
+[CLS] 1976 United States Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Watkins Glen International | Watkins Glen Grand Prix Circuit | Watkins Glen International | Watkins Glen International Raceway:2,False
+[CLS] St Patrick ' s College is located in [MASK] [MASK] . [SEP],St Patrick,"Drumcondra:3 | Drumcondra:3 | Drumcondra:3 , Dublin",False
+[CLS] Pelican:2 Pete is located in [MASK] [MASK] [MASK] . [SEP],Pelican:2 Pete,"Pelican:2 Rapids | Pelican:2 Rapids | Pelican:2 Rapids , Minnesota",False
+[CLS] Shrine:2 of Venus Cloacina:3 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Venus Cloacina:3,Roman Forum | Forum Romanum:2 | Roman Forum,False
+[CLS] Liechtenstein Palace is located in [MASK] [MASK] . [SEP],Liechtenstein Palace,Kampa:2 Island | Kampa:2 Island,False
+[CLS] Blaaksedijk:5 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Blaaksedijk:5,Mijnsheerenland:5 | Mijnsheerenland:5,False
+[CLS] obelisk:3 of Theodosius:3 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the centre of town,Hippodrome:3 of Constantinople | Hippodrome:3 of Constantinople | Sultan Ahmet Square | Sultanahmet:3 square,False
+[CLS] 1974 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Parkstadion:3 | Parkstadion:3,False
+[CLS] Navajo:2 Nation Zoological and Botanical Park is located in [MASK] [MASK] [MASK] . [SEP],Navajo:2 Nation,Window Rock | Window Rock,False
+[CLS] Blue House Raid:2 is located in [MASK] [MASK] . [SEP],Blue House,Blue House | Blue House,True
+[CLS] 1908 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1908 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] Madonna and Child is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Gallery of Art,Uffizi:3 | Galleria degli Uffizi:3 | Gallerie:2 degli Uffizi:3 | Palazzo degli Uffizi:3 | Uffizi:3,False
+[CLS] IRAM:2 30m:2 telescope:2 is located in [MASK] [MASK] . [SEP],the village,Veleta:2 | Veleta:2,False
+[CLS] 1958 Masters Tournament is located in [MASK] [MASK] [MASK] . [SEP],"Beijing , China",Augusta National Golf Club | Augusta National | Augusta National Golf Club,False
+[CLS] Battle of Hanko:2 is located in [MASK] [MASK] . [SEP],Hanko:2,Hanko:2 Peninsula | Hangö:2 udd:2 | Hangöudd:3 | Hanko:2 Peninsula | Hanko:2 Penisula:3 | Hankoniemi:3,False
+[CLS] Battle of Red Ford is located in [MASK] [MASK] . [SEP],Red Ford,Loch Awe:2 | Loch Awe:2,False
+[CLS] Portrait of Bindo:2 Altoviti:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Bindo:2 Altoviti:2,"National Gallery of Art | Mellon:2 Gallery of Art | NGA:2 | National Art Gallery ( U . S . ) | National Gallery | National Gallery of Art | National Gallery of Art ( U . S . ) | National Gallery of Art ( Washington D . C . ) | National Gallery of Art ( Washington , D . C . ) | United States . National Gallery of Art",False
+[CLS] Gowbarrow:4 Fell is located in [MASK] [MASK] [MASK] . [SEP],Gowbar:3,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] 2012 Japanese Grand Prix is located in [MASK] [MASK] [MASK] . [SEP],"2012 , 2012",Suzuka:2 Circuit | Suzuka:2 Circuit,False
+[CLS] 1956 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1956 Open Championship,"Royal Liverpool Golf Club , Hoylake:2 | Royal Liverpool Golf Club , Hoylake:2",False
+[CLS] Battle of the Atlantic is located in [MASK] [MASK] . [SEP],the city,North Sea | North Sea,False
+[CLS] Ashland:2 Independent Film Festival is located in [MASK] [MASK] . [SEP],Ashland:2,"Ashland:2 | Ashland:2 | Ashland:2 , Oregon | City of Ashland:2 , Oregon",True
+[CLS] Battle of Forts:2 Jackson and St . Philip is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Jackson , St . Philip","New Orleans | NOLA:2 | New Orleans | New Orleans , LA | New Orleans , Louisiana",False
+[CLS] Allaipiddy:4 massacre is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Allaipiddy:4,Allaippiddi:4 | Allaippiddi:4,False
+[CLS] Blasieholmen:4 Church is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Blasieholmen:4,Blasieholmen:4 | Blasieholmen:4,True
+[CLS] 1925 World Figure Skating:3 Championships is located in [MASK] [MASK] [MASK] . [SEP],"Tokyo , Japan",Davos:2 | Davos:2 | Davos:2 GR,False
+[CLS] Protestant church of Buitenpost:3 is located in [MASK] [MASK] [MASK] . [SEP],Buitenpost:3,Buitenpost:3 | Buitenpost:3,True
+[CLS] Miss World 1953 is located in [MASK] [MASK] [MASK] . [SEP],Miss World 1953,"Lyceum:3 Theatre | Lyceum:3 Theatre | Lyceum:3 Theatre , London",False
+[CLS] Battle of Preveza:3 is located in [MASK] [MASK] [MASK] . [SEP],Preveza:3,Ionian:2 Sea | Ionian:2 Sea,False
+[CLS] Clapham:3 Junction railway station is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Clapham:3 Junction,Battersea:3 | Battersea:3,False
+[CLS] Eberswalde:3 is located in [MASK] [MASK] [MASK] . [SEP],Eberswalde:3,Margaritifer:4 Sinus:2 quadrangle:3 | Margaritifer:4 Sinus:2 quadrangle:3,False
+[CLS] Kitanaura:3 is located in [MASK] [MASK] [MASK] . [SEP],Kitanaura:3,Lycia:3 | Lycia:3,False
+[CLS] The Allegory:3 of Love is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Gallery of Art,Prague Castle | Prague Castle,False
+[CLS] Barcelona Zoo is located in [MASK] . [SEP],Barcelona,Parc de la Ciutadella:3 | Parc de la Ciutadella:3,False
+[CLS] 1965 PGA Championship is located in [MASK] [MASK] [MASK] . [SEP],New Jersey County,Laurel Valley Golf Club | Laurel Valley Golf Club,False
+[CLS] 1992 Epsom:3 Derby is located in [MASK] [MASK] [MASK] . [SEP],Epsom:3,Epsom:3 Downs Racecourse:2 | Epsom:3 Downs | Epsom:3 Downs Racecourse:2 | Epsom:3 Race Course,False
+[CLS] Battle of Leuthen:3 is located in [MASK] [MASK] [MASK] . [SEP],Leuthen:3,"Lutynia:3 , Środa:2 Śląska County | Lutynia:3 | Lutynia:3 , Środa:2 Śląska County",False
+[CLS] 2010 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Royal Bafokeng:4 Stadium | Royal Bafokeng:4 Stadium,False
+[CLS] Nagorno:2 - Karabakh:3 War is located in [MASK] [MASK] . [SEP],the region,Nagorno:2 - Karabakh:3 | Nagorno:2 - Karabakh:3,False
+"[CLS] Siege of Stralsund:3 , 1678 is located in [MASK] [MASK] [MASK] . [SEP]",Stralsund:3,Stralsund:3 | Stralsund:3,True
+[CLS] Muthanga:3 Incident:2 is located in [MASK] [MASK] [MASK] . [SEP],Muthanga:3,Wayanad:3 Wildlife Sanctuary | Wayanad:3 Wildlife Sanctuary,False
+[CLS] Munkbron:3 is located in [MASK] [MASK] [MASK] . [SEP],Munkbron:3,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] Tay:2 Bridge disaster is located in [MASK] [MASK] . [SEP],Tay:2,Tay:2 Rail Bridge | Tay:2 Bridge | Tay:2 Rail Bridge,False
+[CLS] Winslow:2 is located in [MASK] [MASK] . [SEP],Winslow:2,Iapygia:3 quadrangle:3 | Iapygia:3 quadrangle:3,False
+[CLS] Sitakunda:3 massacre is located in [MASK] [MASK] [MASK] . [SEP],Sitakunda:3,Sitakunda:3 | Sitakunda:3,True
+[CLS] Cuncolim:3 Revolt:2 is located in [MASK] [MASK] [MASK] . [SEP],Cuncolim:3,Cuncolim:3 | Cuncolim:3 | Kumkuma:3,True
+[CLS] Cook Statue is located in [MASK] [MASK] [MASK] . [SEP],O . O,Victoria Square | Market Place | Market Square | Victoria Square,False
+[CLS] 2012 Benghazi:3 attack is located in [MASK] [MASK] [MASK] . [SEP],Benghazi:3,Benghazi:3 | Benghazi:3,True
+[CLS] Storkyrkobrinken:6 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] Cross of Justin II is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Cross of Justin II,"St . Peter ' s Basilica | Basilica of Saint Peter | Papal:2 Basilica of Saint Peter in the Vatican | Saint Peter ' s Basilica | Saint Peter ' s , Vatican | St Peter ' s Basilica | St . Peter ' s Basilica",False
+[CLS] 2001 Italian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2001 Italian Grand Prix,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] Wrestlers:3 is located in [MASK] [MASK] [MASK] . [SEP],Wrestlers:3,Uffizi:3 | Galleria degli Uffizi:3 | Gallerie:2 degli Uffizi:3 | Palazzo degli Uffizi:3 | Uffizi:3,False
+[CLS] 2009 Hotel Shamo:2 bombing is located in [MASK] [MASK] [MASK] . [SEP],Hotel Shamo:2,Mogadishu:4 | Hamar | Maqadīshū:6 | Mogadishu:4 | The Seat of the Shah | Xamar:2,False
+[CLS] Madonna and Child Playing With the Veil:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"San Francisco , San Francisco",Mauritshuis:3 | Mauritshuis:3,False
+[CLS] 1997 Spanish Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1997 Spanish Grand Prix,Circuit de Catalunya | Circuit de Barcelona | Circuit de Catalunya,False
+[CLS] Heeze:2 Castle is located in [MASK] [MASK] . [SEP],Heeze:2,Heeze:2 | Heeze:2,True
+[CLS] Battle of Osan:2 is located in [MASK] [MASK] . [SEP],Osan:2,Osan:2 | Osan:2,True
+[CLS] 2010 Chabahar:3 suicide bombing is located in [MASK] [MASK] [MASK] . [SEP],Chabahar:3,Chabahar:3 | Bandar Beheshtī:4 | Chabahar:3 | Chah:2 Bahar:2,True
+[CLS] 2008 German Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2008 German Grand Prix,Hockenheimring:4 | Hockenheimring:4,False
+[CLS] Battle of Dol is located in [MASK] [MASK] [MASK] . [SEP],Battle of Dol,Pontorson:3 | Pontorson:3,False
+"[CLS] De Rat , IJlst:3 is located in [MASK] [MASK] [MASK] . [SEP]",IJlst:3,IJlst:3 | IJlst:3,True
+[CLS] Stade Pershing:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,bois de Vincennes:2 | bois de Vincennes:2,False
+[CLS] Gekås:3 is located in [MASK] [MASK] [MASK] . [SEP],Gekås:3,Ullared:2 | Ullared:2,False
+[CLS] 2005 Grammy Awards is located in [MASK] [MASK] [MASK] . [SEP],the Center Building,Staples:3 Center | STAPLES:4 Center | Staples:3 Center,False
+[CLS] Battle of Lostwithiel:4 is located in [MASK] [MASK] [MASK] . [SEP],New York County,"Lostwithiel:4 | Lostwithiel:4 | Lostwithiel:4 CP | Lostwithiel:4 civil parish | Lostwithiel:4 , Cornwall",False
+[CLS] Dulwich:3 Picture Gallery is located in [MASK] [MASK] [MASK] . [SEP],Dulwich:3,Dulwich:3 | Dulwich:3,True
+[CLS] death of John Lennon is located in [MASK] [MASK] [MASK] . [SEP],the graveyard:2,The Dakota | Dakota Apartments:2 | The Dakota,False
+[CLS] Kfar:2 Yuval:2 hostage:2 crisis is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Kfar:2 Yuval:2,Yuval:2 | Kfar:2 Yuval:2 | Yuval:2 | كفار:3 يوفال:3,True
+[CLS] Tanner Trail is located in [MASK] [MASK] . [SEP],Tanner Trail,Grand Canyon National Park | Grand Canyon National Park | Marble:2 Canyon National Monument,False
+[CLS] Earp:2 Vendetta:3 Ride is located in [MASK] [MASK] . [SEP],Earp:2,Arizona Territory | Arizona Territory,False
+[CLS] Cotton library is located in [MASK] [MASK] . [SEP],Cotton library,British Library | B . L . | BL | British Library | The British Library | The British Museum Library,False
+[CLS] Battle of Nicaea:3 is located in [MASK] [MASK] [MASK] . [SEP],Nicaea:3,Nicaea:3 | Nicaea:3,True
+[CLS] TACA:2 Flight 110 is located in [MASK] [MASK] [MASK] . [SEP],Ta Ta Ta,"New Orleans | NOLA:2 | New Orleans | New Orleans , LA | New Orleans , Louisiana",False
+[CLS] Treaty of Waitangi:3 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Waitangi:3 | Waitangi:3,False
+[CLS] 2014 G - 20 Australia summit is located in [MASK] [MASK] [MASK] . [SEP],U . S,Brisbane Convention & Exhibition Centre | Brisbane Convention & Exhibition Centre,False
+[CLS] Mokronoge:4 massacre is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Mokronoge:4,Tomislavgrad:4 | Duvno:2 | Tomislavgrad:4,False
+[CLS] Portrait of Alvise:2 Cornaro:2 is located in [MASK] [MASK] [MASK] . [SEP],Museum of Art,Palazzo Pitti:2 | Palazzo Pitti:2 | Pitti:2 Palace,False
+[CLS] South Norwood:2 Leisure:2 Centre is located in [MASK] [MASK] [MASK] . [SEP],South Norwood:2,South Norwood:2 | South Norwood:2,True
+[CLS] 2005 New York City transit strike is located in [MASK] [MASK] [MASK] . [SEP],New York City,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs:2",True
+[CLS] Sinai is located in [MASK] . [SEP],Sinai,Lynden:2 Sculpture Garden | Lynden:2 Sculpture Garden,False
+[CLS] Battery Weed:2 is located in [MASK] [MASK] [MASK] . [SEP],Battery Weed:2,Gateway National Recreation Area | Gateway National Recreation Area,False
+[CLS] Mission San Francisco de Asís:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],San Francisco de Asís:2,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco:3 | Paris of the West | SF | SFO:2 | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False
+[CLS] One & Other is located in [MASK] [MASK] [MASK] . [SEP],One & Other,"Fourth Plinth:3 | Fourth Plinth:3 | Fourth Plinth:3 , Trafalgar:3 Square",False
+[CLS] 2017 Southeast Asian Games is located in [MASK] [MASK] . [SEP],Southeast Asia,Kuala Lumpur | KL:2 | Kuala Lumpur,False
+[CLS] Fesenkov:3 is located in [MASK] [MASK] [MASK] . [SEP],Fesenkov:3,Lunae:2 Palus:2 quadrangle:3 | Lunae:2 Palus:2 | Lunae:2 Palus:2 quadrangle:3,False
+[CLS] Huajramarca:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Huajramarca:4,Áncash:3 | Áncash:3,False
+[CLS] Battle of Horodok:3 is located in [MASK] [MASK] [MASK] . [SEP],Horodok:3,Horodok:3 | Horodok:3,True
+[CLS] Battle of Pucará:3 is located in [MASK] [MASK] [MASK] . [SEP],Pucará:3,Pukara:3 | Pukara:3,False
+[CLS] FIS Freestyle:2 World Ski Championships 1986 is located in [MASK] [MASK] [MASK] . [SEP],"Oslo , Norway",Tignes:2 | Tignes:2,False
+[CLS] Howells:2 is located in [MASK] [MASK] . [SEP],Howells:2,Cardiff city centre | Cardiff city centre | canol:2 dinas:2 Caerdydd:2,False
+[CLS] Köpmantorget:5 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Köpmantorget:5,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] Raleigh Tavern:2 is located in [MASK] . [SEP],Raleigh,Colonial Williamsburg:2 | Colonial Williamsburg:2,False
+[CLS] Zaian:2 War is located in [MASK] [MASK] [MASK] . [SEP],Zaian:2 War,French protectorate:3 in Morocco | French protectorate:3 in Morocco | Protectorat:4 français au Maroc,False
+[CLS] Augustenborg:2 is located in [MASK] [MASK] [MASK] . [SEP],"Copenhagen , Denmark",Fosie:3 | Fosie:3,False
+[CLS] 2011 Wuxi:2 Classic is located in [MASK] [MASK] . [SEP],Wuxi:2,Wuxi:2 | Wuxi:2,True
+[CLS] Battle of Sedgemoor:3 is located in [MASK] [MASK] [MASK] . [SEP],Sedgemoor:3,"Bridgwater:4 | Bridgwater:4 | Bridgwater:4 , Somerset",False
+"[CLS] The Great Fire of Whitstable:4 , 1869 is located in [MASK] [MASK] [MASK] [MASK] . [SEP]",Whitstable:4,Whitstable:4 | Whitstable:4,True
+[CLS] Bellevue:2 Massacre is located in [MASK] [MASK] . [SEP],Bellevue:2,"Bellevue:2 | Bellevue:2 | Bellevue:2 , Washington | City of Bellevue:2",True
+[CLS] Battle of Magenta:2 is located in [MASK] [MASK] . [SEP],Magenta:2,Magenta:2 | Magenta:2,True
+[CLS] McDonald ' s Cycle Center is located in [MASK] [MASK] [MASK] . [SEP],O . O,Millennium Park | Millennium Park,False
+[CLS] Wedderborg:3 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Wedde:2 | Wedde:2,False
+[CLS] 1967 British Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1967 British Grand Prix,Silverstone:2 Circuit | Silverstone:2 Circuit,False
+[CLS] Nagorno:2 - Karabakh:3 conflict is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nagorno:2 Karabakh:3,South Caucasus | South Caucasus | Transcaucasia:4,False
+[CLS] The Old Musician:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Old Musician:2,"National Gallery of Art | Mellon:2 Gallery of Art | NGA:2 | National Art Gallery ( U . S . ) | National Gallery | National Gallery of Art | National Gallery of Art ( U . S . ) | National Gallery of Art ( Washington D . C . ) | National Gallery of Art ( Washington , D . C . ) | United States . National Gallery of Art",False
+[CLS] Battle of Evesham:3 is located in [MASK] [MASK] [MASK] . [SEP],Evesham:3,"Evesham:3 | Evesham:3 | Evesham:3 , Worcestershire:2",True
+[CLS] Battle of Adrianople:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Adrianople:2,Edirne:2 | Adrianople:2 | Edirne:2,False
+[CLS] Miss America 1984 is located in [MASK] [MASK] . [SEP],Miss America,Boardwalk:2 Hall | Boardwalk:2 Hall | Historic Atlantic City Convention Hall,False
+[CLS] Battle of Jaffa:2 is located in [MASK] [MASK] . [SEP],Jaffa:2,Jaffa:2 | Jaffa:2,True
+[CLS] Brashear:3 Crater:2 is located in [MASK] [MASK] [MASK] . [SEP],the Sun Sun,Thaumasia:3 quadrangle:3 | Thaumasia:3 quadrangle:3,False
+[CLS] Goswick:3 rail crash is located in [MASK] [MASK] [MASK] . [SEP],Goswick:3,"Goswick:3 | Goswick:3 | Goswick:3 , Northumberland",True
+[CLS] 1994 Monaco Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Circuit de Monaco | Circuit de Monaco,False
+[CLS] 1998 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],"1998 , UK",Bournemouth:2 International Centre | Bournemouth:2 International Center | Bournemouth:2 International Centre,False
+[CLS] St Nedelya:3 Church assault is located in [MASK] [MASK] [MASK] [MASK] . [SEP],St Nedelya:3,St Nedelya:3 Church | St Nedelya:3 Church,False
+[CLS] David and Goliath:3 is located in [MASK] [MASK] [MASK] . [SEP],St . St,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Paumgartner:4 altarpiece:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Alte Pinakothek:4 | Alte Pinakothek:4 | Alte Pinakothek:4 Bayerische Staatsgemäldesammlungen:7 | Alte Pinakothek:4 München | Munich Alte Pinakothek:4 | Ältere:3 Pinakothek:4,False
+[CLS] Saint Isaac ' s Cathedral is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Saint Isaac ' s,Saint Petersburg | Leningrad | Petersburg | Petrograd:2 | Saint Petersburg | Sankt - Peterburg:2 | St Petersburg | St . Petersburg,False
+[CLS] June 2014 central Nigeria attacks is located in [MASK] [MASK] [MASK] . [SEP],N . N,Abuja:2 | Abuja:2,False
+[CLS] Perry Hall Park is located in [MASK] [MASK] [MASK] . [SEP],Perry Hall Park,Perry Barr | Perry Barr,False
+[CLS] The Dance of the Villagers:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Biscay:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Northeast of Biscay:2,Basque Country | Autonomous Community of the Basque Country | Basque Country | Euskadi | Euskal Autonomia:3 Erkidegoa:4 | Pais:2 Vasco | País Vasco | Vascongadas:3,False
+[CLS] Halifax Central Library is located in [MASK] . [SEP],Halifax,"Spring Garden | Spring Garden | Spring Garden , Halifax",False
+[CLS] 2001 Jammu and Kashmir legislative assembly attack is located in [MASK] [MASK] [MASK] . [SEP],Jammu and Kashmir,Srinagar:3 | Serinagor:3 | Shrinagar:3 | Shrînâgar:6 | Sirinagor:3 | Sri Nagar | Srinagar:3 | Srinigar:3 | Srīnagar:4,False
+[CLS] Rio Carnival is located in [MASK] [MASK] . [SEP],Rio Carnival,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False
+[CLS] Cestello:2 Annunciation:3 is located in [MASK] [MASK] . [SEP],Cestello:2,Uffizi:3 | Galleria degli Uffizi:3 | Gallerie:2 degli Uffizi:3 | Palazzo degli Uffizi:3 | Uffizi:3,False
+[CLS] Battle of the Afsluitdijk:5 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Afsluitdijk:5,Afsluitdijk:5 | Afsluitdijk:5,True
+[CLS] Kongsberg:2 Gloger:3 organ is located in [MASK] [MASK] . [SEP],Kongsberg:2,Kongsberg:2 Church | Kongsberg:2 Church,False
+[CLS] Abbey Hey is located in [MASK] [MASK] . [SEP],Abbey Hey,Gorton:2 | Gorton:2,False
+[CLS] Harry Potter Movie Magic Experience is located in [MASK] [MASK] . [SEP],Harry Potter,Warner Bros . Movie World | Warner Bros . Movie World,False
+[CLS] Salle Richelieu is located in [MASK] [MASK] [MASK] . [SEP],"Richelieu , Richelieu",Palais - Royal | Palais - Cardinal | Palais - Royal,False
+[CLS] 2009 Japanese Grand Prix is located in [MASK] [MASK] [MASK] . [SEP],"2009 , 2009",Suzuka:2 Circuit | Suzuka:2 Circuit,False
+[CLS] Rancho German is located in [MASK] [MASK] . [SEP],Rancho German,Sea Ranch | Sea Ranch,False
+[CLS] Scheringa:3 Museum of Realist:2 Art is located in [MASK] [MASK] [MASK] . [SEP],Scheringa:3,Spanbroek:4 | Spanbroek:4,False
+[CLS] Eppleton:4 Hall is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Eppleton:4 Hall,San Francisco Maritime National Historical Park | San Francisco Maritime National Historical Park,False
+[CLS] 2009 Jiangsu:2 Classic is located in [MASK] [MASK] . [SEP],Jiangsu:2,Wuxi:2 | Wuxi:2,False
+[CLS] 2011 Skate:2 Canada International is located in [MASK] [MASK] [MASK] . [SEP],"2011 , 2011",Paramount Fine Foods Centre | Hershey:3 Centre | Paramount Fine Foods Centre,False
+[CLS] 1921 U . S . Open is located in [MASK] [MASK] . [SEP],the city,Columbia Country Club | Columbia Country Club,False
+[CLS] September 2010 Quetta:2 bombing is located in [MASK] [MASK] . [SEP],Quetta:2,Quetta:2 | Quetta:2,True
+[CLS] 1981 Dutch Grand Prix is located in [MASK] [MASK] [MASK] . [SEP],Dutch Grand Prix,Circuit Park Zandvoort:4 | Circuit Park Zandvoort:4,False
+[CLS] Martin Luther Church is located in [MASK] [MASK] [MASK] . [SEP],Martin Luther Church,Halmstad:3 | Halmstad:3,False
+[CLS] B . B . Moeur:2 Activity:2 Building is located in [MASK] [MASK] [MASK] . [SEP],B . B,Arizona State University | ASU:2 | ASU:2 Tempe:2 | Arizona Normal School | Arizona State | Arizona State College | Arizona State Teachers College | Arizona State University | Arizona Territorial Normal School | Normal School of Arizona | Tempe:2 Normal School | Tempe:2 State Teachers College | Territorial Normal School,False
+[CLS] 1966 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Wembley Stadium | New Wembley | Wembley | Wembley Stadium,False
+[CLS] 1889 FA Cup Final is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Booth Booth Booth,The Oval | Kia:2 Oval | The Oval,False
+[CLS] Battle of Havrincourt:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Havrincourt:4,Havrincourt:4 | Havrincourt:4,True
+[CLS] Comiket:3 is located in [MASK] [MASK] [MASK] . [SEP],Comiket:3,Tokyo Big Sight:2 | Tokyo Big Sight:2 | Tokyo International Exhibition Center,False
+[CLS] Mijn:2 Keuken:3 is located in [MASK] [MASK] [MASK] . [SEP],Keuken:3,Wouw:2 | Wouw:2,False
+[CLS] 1976 Italian Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] 1902 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1902 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] 2010 Malaysian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2010 Malaysian Grand Prix,Sepang:2 International Circuit | Sepang:2 International Circuit,False
+[CLS] Bernward:2 Column:3 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bernward:2 Column:3,Hildesheim Cathedral | Cathedral of the Assumption:2 of Mary | Hildesheim Cathedral | St . Mary ' s Cathedral,False
+[CLS] Queen ' s Head is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Queen ' s Head,"Bramfield:3 | Bramfield:3 | Bramfield:3 , Suffolk",False
+[CLS] Portrait of Camilla Gonzaga and Her Three Sons is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Gallery of Art,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Battle of Fombio:3 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Fombio:3 | Fombio:3,False
+[CLS] Battle of Skaithmuir:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Skaithmuir:4,Coldstream:2 | Coldstream:2,False
+[CLS] Operation Corridor:2 is located in [MASK] [MASK] [MASK] . [SEP],D . C,Bosnia and Herzegovina | B & H | BIH:2 | BiH | Bosnia | Bosnia & Herzegovina | Bosnia and Herzegovina | Bosnia - Herzegovina | ba | [UNK],False
+[CLS] 2011 Japanese Grand Prix is located in [MASK] [MASK] [MASK] . [SEP],"2011 , 2011",Suzuka:2 Circuit | Suzuka:2 Circuit,False
+[CLS] Battle of the Granicus:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Biga:2 Çayı:3 | Biga:2 Çayı:3,False
+[CLS] Harlingen:2 Lighthouse:2 is located in [MASK] [MASK] . [SEP],Harlingen:2,Harlingen:2 | Harlingen:2,True
+[CLS] Neue Pinakothek:4 is located in [MASK] [MASK] . [SEP],the city,Kunstareal:3 | Kunstareal:3 | Kunstareal:3 Munich,False
+[CLS] Ex Stasis:2 is located in [MASK] [MASK] [MASK] . [SEP],Ex Stasis:2,Marquette:2 University | Marquette:2 University,False
+[CLS] 1925 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1925 Open Championship,Prestwick:3 Golf Club | Prestwick:3 Golf Club,False
+[CLS] 1908 Republican National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D",Chicago Coliseum | Chicago Coliseum,False
+[CLS] 1865 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1865 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] Chardon:2 High School shooting is located in [MASK] [MASK] . [SEP],Chardon:2,Chardon:2 High School | Chardon:2 High School,False
+[CLS] Pico dos Dias Observatory is located in [MASK] [MASK] [MASK] . [SEP],Pico dos Dias,Minas Gerais | MG | Minas Gerais | Minas Gerais state,False
+[CLS] Siege of Kiev is located in [MASK] [MASK] [MASK] . [SEP],"Kiev , Ukraine",Kyiv:2 | Kiev | Kyiv:2 | Kyiw:3 | Kyjiv:3 | Kyjiw:3 | Kyyiv:3 | Kyïv:3,False
+[CLS] Elineberg:3 Housing is located in [MASK] [MASK] [MASK] . [SEP],Elineberg:3,Helsingborg:4 | Helsingborg:4 | Hälsingborg:4,False
+[CLS] Siege of Autun:2 is located in [MASK] [MASK] . [SEP],Autun:2,Autun:2 | Autun:2,True
+[CLS] International Film Festival Kyrgyzstan:5 - Land of Short Films is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kyrgyzstan:5,Bishkek:3 | Bishkek:3 | Frunze:3,False
+[CLS] Milankovič:3 is located in [MASK] [MASK] [MASK] . [SEP],the town proper,Diacria:3 quadrangle:3 | Diacria:3 quadrangle:3,False
+[CLS] 9th Vietnam Film Festival is located in [MASK] [MASK] . [SEP],Dong Dong,Nha Trang | Nha Trang,False
+[CLS] Cochapata:3 is located in [MASK] [MASK] [MASK] . [SEP],Cochapata:3,"Cusco:2 | Cusco:2 department | Cusco:2 region | Cusco:2 , Peru | Cuzco:2 Region | Cuzco:2 department | Cuzco:2 , Peru",False
+[CLS] East Carter High School shooting is located in [MASK] [MASK] . [SEP],East Carter,"Grayson:2 | Grayson:2 | Grayson:2 , Kentucky",False
+[CLS] 2012 Major League Baseball All - Star Game is located in [MASK] [MASK] [MASK] . [SEP],"Columbus , Ohio",Kauffman:3 Stadium | Kauffman:3 Stadium | Royals Stadium | The K,False
+[CLS] Battle of Formentera:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Formentera:2,Formentera:2 | Formentera:2,False
+[CLS] Armenian Genocide is located in [MASK] [MASK] [MASK] . [SEP],U . S,Ottoman Empire | Exalted:3 Ottoman State | Osmanli:2 Empire | Ottoman Empire | Turkish Empire,False
+[CLS] 2005 Palu:2 market bombing is located in [MASK] [MASK] . [SEP],Palu:2,Palu:2 | Palu:2,True
+[CLS] 2005 U . S . Open is located in [MASK] [MASK] [MASK] . [SEP],U . S,Pinehurst:2 Resort | Pinehurst:2 Resort,False
+[CLS] American Civil War is located in [MASK] [MASK] [MASK] . [SEP],G . G,Southern United States | American South | American Southeast | Dixie | Region 3 : South | Southeast United States | Southeastern:2 States | Southern States | Southern United States | U . S . Census Bureau region 3 | U . S . census region 3 | US Census Bureau region 3 | US census region 3 | United States Census Bureau region 3 | United States census region 3 | the South,False
+[CLS] Cross Keys is located in [MASK] [MASK] . [SEP],Cross Keys,Covent:2 Garden | Covent:2 Garden,False
+[CLS] Hepner:3 Hall is located in [MASK] [MASK] . [SEP],the village,San Diego State University | SDSU:2 | San Diego State University,False
+[CLS] SeaWorld:4 is located in [MASK] [MASK] [MASK] . [SEP],St . St,"San Diego | America ' s Finest:2 City | SD | San Diego | San Diego , California | Sandi:2 | the birthplace:2 of California",False
+[CLS] Battle of the Segre:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Segre:2 | Segre:2 | Sicoris:3,False
+[CLS] Fure:2 ' s Cabin:2 is located in [MASK] [MASK] . [SEP],Fure:2,Katmai:2 National Park and Preserve:3 | Katmai:2 National Park and Preserve:3,False
+[CLS] Solitary:3 Tree is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Solitary:3 Tree,Alte Nationalgalerie:3 | Alte Nationalgalerie:3,False
+[CLS] Motala:2 Motor Museum is located in [MASK] [MASK] . [SEP],Motala:2,Motala:2 | Motala:2,True
+[CLS] Equestrian:3 statue of the Duke of Wellington is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Duke of Wellington,Hyde Park Corner | Hyde Park Corner,False
+[CLS] Nili:2 Fossae:3 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nili:2 Fossae:3,Syrtis:3 Major quadrangle:3 | Syrtis:3 Major quadrangle:3,False
+[CLS] Avro:2 Vulcan:3 XH558:4 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Avro:2 Vulcan:3,Doncaster:2 Sheffield Airport | DCS:2 | DSA:2 | Doncaster:2 Sheffield | Doncaster:2 Sheffield Airport | Doncaster:2 / Sheffield | EGCN:3 | Robin Hood Airport Doncaster:2 Sheffield,False
+[CLS] Patras:2 Carnival is located in [MASK] [MASK] . [SEP],Patras:2,Patras:2 | Patra:2 | Patrai:2 | Patras:2,True
+[CLS] Saint George is located in [MASK] [MASK] . [SEP],Saint George,Tretyakov:3 Gallery | Galería Tret:2 ' yakov:2 | Galería estatal de Tretyakov:3 | Tretyakov:3 Gallery,False
+[CLS] Hardy Memorial Tower is located in [MASK] [MASK] [MASK] . [SEP],"Hardy , Laurel",San Diego State University | SDSU:2 | San Diego State University,False
+[CLS] Battle of Westerplatte:3 is located in [MASK] [MASK] [MASK] . [SEP],Westerplatte:3,Westerplatte:3 | Westerplatte:3,True
+[CLS] 2012 German Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2012 German Grand Prix,Hockenheimring:4 | Hockenheimring:4,False
+[CLS] Oslo is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the City of Oslo,Hackney:3 Central | Hackney:3 Central,False
+[CLS] Mather:2 Air Force Base is located in [MASK] [MASK] . [SEP],Mather:2,Rancho Cordova:2 | Rancho Cordova:2,False
+[CLS] Battle of Fahl:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of Fahl:2,Jordan River | Jordan River | River Jordan,False
+[CLS] Battle of Occhiobello:3 is located in [MASK] [MASK] [MASK] . [SEP],Occhiobello:3,Occhiobello:3 | Occhiobello:3,True
+[CLS] Broad Street Presbyterian Church is located in [MASK] [MASK] . [SEP],Broad Street,"Broad Street | Broad Street | Broad Street , Birmingham",True
+[CLS] The Gloomy:3 Day is located in [MASK] [MASK] [MASK] . [SEP],St . St,Kunsthistorisches:4 Museum | Kunsthistorisches:4 Museum | Museum of Art History,False
+[CLS] Last Chance is located in [MASK] [MASK] [MASK] . [SEP],Rock Rock Rock,Margaritifer:4 Sinus:2 quadrangle:3 | Margaritifer:4 Sinus:2 quadrangle:3,False
+[CLS] Redondo:2 Junction train wreck:2 is located in [MASK] [MASK] . [SEP],Redondo:2,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque:3 | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion:2 | Tinsel:2 Town",False
+[CLS] Killick:2 is located in [MASK] [MASK] . [SEP],Killick:2,Port - au - Prince | Port au Prince | Port - au - Prince,False
+[CLS] 2013 attack on U . S . consulate:2 in Herat:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Herat:2 , Herat:2",Herat:2 | Herat:2,False
+[CLS] Convoy:2 PQ:2 17 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Arctic Ocean | Arctic Ocean | Arctic Sea | Northern Ocean,False
+[CLS] Sardinia Radio Telescope is located in [MASK] [MASK] [MASK] . [SEP],"Sardinia , Sardinia",San Basilio:2 | San Basilio:2,False
+[CLS] Kärnan:3 is located in [MASK] [MASK] [MASK] . [SEP],Kärnan:3,Helsingborg:4 | Helsingborg:4 | Hälsingborg:4,False
+[CLS] Bonestell:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Mare Acidalium:3 quadrangle:3 | Mare Acidalium:3 quadrangle:3,False
+[CLS] Tompkins:3 Square Riot is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Tompkins:3 Square,Tompkins:3 Square Park | Tompkins:3 Square Park,False
+[CLS] 2011 U . S . Open is located in [MASK] [MASK] [MASK] . [SEP],U . S,Congressional Country Club | Congressional | Congressional Country Club,False
+[CLS] Battle of Okpo:2 is located in [MASK] [MASK] . [SEP],Okpo:2,Okpo:2 - dong | Okpo:2 - dong,False
+[CLS] Tegnérlunden:4 is located in [MASK] [MASK] [MASK] . [SEP],Tegnér:3,Norrmalm:3 | Norrmalm:3,False
+[CLS] A Young Girl Reading is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the centre of town,"National Gallery of Art | Mellon:2 Gallery of Art | NGA:2 | National Art Gallery ( U . S . ) | National Gallery | National Gallery of Art | National Gallery of Art ( U . S . ) | National Gallery of Art ( Washington D . C . ) | National Gallery of Art ( Washington , D . C . ) | United States . National Gallery of Art",False
+[CLS] 2005 AFL Grand Final is located in [MASK] [MASK] [MASK] . [SEP],"Carlton , Carlton",Melbourne Cricket Ground | MCG | Melbourne Cricket Ground | The G,False
+[CLS] 1988 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],1988 UK Championship,Preston Guild Hall | Preston Guild Hall,False
+[CLS] 1997 Cup of Russia is located in [MASK] [MASK] [MASK] . [SEP],Cup of Russia,Saint Petersburg | Leningrad | Petersburg | Petrograd:2 | Saint Petersburg | Sankt - Peterburg:2 | St Petersburg | St . Petersburg,False
+[CLS] Yuma:2 Regional Medical Center is located in [MASK] [MASK] . [SEP],Yuma:2,Yuma:2 | Yuma:2,True
+[CLS] 1989 Masters Tournament is located in [MASK] [MASK] [MASK] . [SEP],the tennis courts,Augusta National Golf Club | Augusta National | Augusta National Golf Club,False
+[CLS] 1863 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1863 Open Championship,Prestwick:3 Golf Club | Prestwick:3 Golf Club,False
+[CLS] Crimean:2 War is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Crimean:2 War,Baltic Sea | Baltic Sea,False
+[CLS] Deutsches Zweirad:2 - und NSU:2 - Museum is located in [MASK] [MASK] [MASK] . [SEP],Berlin - Brandenburg,Neckarsulm:3 | Neckarsulm:3,False
+[CLS] 2014 Bukidnon:2 bus bombing is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"Bukidnon:2 , Bukidnon:2",Maramag:3 | Maramag:3,False
+[CLS] Arch of Titus is located in [MASK] [MASK] [MASK] . [SEP],Arch of Titus,Roman Forum | Forum Romanum:2 | Roman Forum,False
+[CLS] Battle of Gettysburg:3 is located in [MASK] [MASK] [MASK] . [SEP],Gettysburg:3,Gettysburg:3 | Gettysburg:3,True
+[CLS] Argentina v England is located in [MASK] [MASK] [MASK] . [SEP],the stadium hall,Estadio Azteca:2 | Coloso:2 de Santa Ursula | El Coloso:2 de Santa Ursula | Estadio Azteca:2,False
+[CLS] Royal Naval Division Memorial is located in [MASK] [MASK] [MASK] . [SEP],Royal Naval Division,Horse Guards Parade | Horse Guards | Horse Guards Parade,False
+[CLS] Christopher Street Pier is located in [MASK] [MASK] [MASK] . [SEP],Christopher Street Pier,Greenwich Village | Greenwich Village | the Village,False
+[CLS] 1894 Colonial Conference is located in [MASK] [MASK] [MASK] . [SEP],Co . Co,Centre Block | Centre Block,False
+[CLS] Savoy Hotel Attack is located in [MASK] [MASK] [MASK] . [SEP],Savoy Hotel Attack,Tel Aviv | Tel Aviv | Tel Aviv City | Tel Aviv Jaffa:2 | Tel Aviv - Jaffa:2 | Tel Aviv - Jafo:2 | Tel Aviv - Yafo:2 | Tel aviv:2 | Tel - Aviv | Tel - Aviv Jaffa:2 | Tel - aviv:2,False
+[CLS] Ascot:2 Racecourse:2 Heliport:3 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Ascot:2 Racecourse:2,Ascot:2 Racecourse:2 | Ascot:2 | Ascot:2 Racecourse:2 | Royal Ascot:2,True
+[CLS] 1982 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1982 Open Championship,Royal Troon:2 Golf Club | Royal Troon:2 Golf Club,False
+[CLS] Cairn:2 in Snow is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Cairn:2 in Snow,Galerie Neue Meister | Galerie Neue Meister,False
+[CLS] Silvertown:2 explosion is located in [MASK] [MASK] . [SEP],Silvertown:2,Silvertown:2 | Silvertown:2,True
+[CLS] Müller is located in [MASK] [MASK] [MASK] . [SEP],U . S,Mare Tyrrhenum:4 quadrangle:3 | Mare Tyrrhenum:4 quadrangle:3,False
+[CLS] 1980 Canadian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1980 Canadian Grand Prix,Circuit Gilles Villeneuve | Circuit Gilles Villeneuve,False
+[CLS] Siege of Algeciras:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Algeciras:4,Algeciras:4 | Algeciras:4,True
+[CLS] 1968 Race of Champions is located in [MASK] [MASK] [MASK] . [SEP],Race of Champions,Brands:2 Hatch | Brands:2 Hatch,False
+[CLS] Zweth:3 is located in [MASK] [MASK] [MASK] . [SEP],Zweth:3,Overschie:3 | Overschie:3,False
+"[CLS] Peel Art Gallery , Museum and Archives is located in [MASK] . [SEP]",Peel,Brampton:3 | Brampton:3,False
+[CLS] De Molen:2 is located in [MASK] [MASK] [MASK] . [SEP],De Molen:2,Kaatsheuvel:4 | Kaatsheuvel:4,False
+[CLS] 1971 Monaco Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Circuit de Monaco | Circuit de Monaco,False
+[CLS] Budyonnovsk:4 hospital hostage:2 crisis is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Budyonnovsk:4,Budyonnovsk:4 | Budennovsk:4 | Budyonnovsk:4 | Prikumsk:3 | Svyatoy:3 Krest:2,True
+[CLS] Michael Shen Fu - Tsung:2 is located in [MASK] [MASK] [MASK] . [SEP],Hong Kong Kong,Windsor Castle | Windsor Castle,False
+[CLS] Cumbria:2 shootings:2 is located in [MASK] [MASK] . [SEP],Cumbria:2,Cumbria:2 | Cumbria:2,True
+[CLS] 2007 Coca - Cola 600 is located in [MASK] [MASK] [MASK] . [SEP],Coca - Cola,Charlotte Motor Speedway | Charlotte Motor Speedway | Lowes:2 Motor Speedway,False
+[CLS] Raid:2 on Le Havre is located in [MASK] [MASK] [MASK] . [SEP],Saint - Martin,Le Havre | Le Havre,False
+[CLS] Monument of the Eponymous:4 Heroes is located in [MASK] [MASK] [MASK] . [SEP],U . S,Ancient Agora of Athens | Ancient Agora of Athens,False
+[CLS] 2014 FIFA World Cup is located in [MASK] [MASK] . [SEP],El Salvador,Arena Corinthians | Arena Corinthians | jkeyro:3,False
+[CLS] Copterline:3 Flight 103 is located in [MASK] [MASK] [MASK] . [SEP],D . C,Tallinn Bay | Tallinn Bay,False
+[CLS] Battle of Caporetto:3 is located in [MASK] [MASK] [MASK] . [SEP],Caporetto:3,Kobarid:3 | Kobarid:3,False
+[CLS] Västerstrands:5 AIK is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Västerstrands:5,Karlstad:2 | Karlstad:2,False
+[CLS] Expo 2005 is located in [MASK] [MASK] . [SEP],El Salvador,Aichi:2 Prefecture | Aichi:2 Prefecture,False
+[CLS] Arboretum:2 de l ' École du Breuil:2 is located in [MASK] [MASK] [MASK] . [SEP],Le Breuil:2,bois de Vincennes:2 | bois de Vincennes:2,False
+[CLS] St . Philip Neri Church shelling:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],St Philip Neri Church,Allaippiddi:4 | Allaippiddi:4,False
+[CLS] Struma:3 operation is located in [MASK] [MASK] [MASK] . [SEP],U . S,Struma:3 | Struma:3,False
+[CLS] 1963 Italian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1963 Italian Grand Prix,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] Cyane:3 Fossae:3 is located in [MASK] [MASK] [MASK] . [SEP],Cyane:3,Diacria:3 quadrangle:3 | Diacria:3 quadrangle:3,False
+[CLS] Three Gorges:3 Dam is located in [MASK] [MASK] [MASK] . [SEP],Gorges:3,Sandouping:3 | Sandouping:3,False
+[CLS] Wendell:2 Willkie:2 is located in [MASK] [MASK] [MASK] . [SEP],New York County,Indiana State House | Indiana Capitol Building | Indiana State House | Indiana Statehouse:2,False
+[CLS] Nab:2 Scar:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Nab:2 Scar:2,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] 1996 Family Circle Cup is located in [MASK] [MASK] [MASK] . [SEP],D . D,Sea Pines:2 Resort | Sea Pines:2 Resort,False
+[CLS] 1st G6:2 summit is located in [MASK] [MASK] [MASK] . [SEP],1st G6:2,Rambouillet:3 | Rambouillet:3,False
+[CLS] Action of Arsuf:2 is located in [MASK] [MASK] [MASK] . [SEP],D . D,Arsuf:2 | Arsuf:2,False
+[CLS] Carnaval del Pueblo is located in [MASK] [MASK] [MASK] . [SEP],Carnaval del Pueblo,Burgess Park | Burgess Park,False
+[CLS] PIA:2 Flight 705 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Cairo International Airport | CAI:2 | Cairo | Cairo Airport | Cairo International Airport | HECA:3,False
+[CLS] 2004 Iranian seizure:3 of Royal Navy personnel is located in [MASK] [MASK] [MASK] . [SEP],Shi Shi Shi,Persian Gulf | Gulf of Iran | Persian Gulf | The Gulf,False
+[CLS] 2009 Australian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2009 Australian Grand Prix,Melbourne Grand Prix Circuit | Melbourne Grand Prix Circuit,False
+[CLS] Battle of Granville:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Granville:2,Granville:2 | Granville:2,False
+[CLS] Brestenberg:2 Castle is located in [MASK] [MASK] . [SEP],Brestenberg:2,Seengen:2 | Seengen:2 | Seengen:2 AG,False
+[CLS] Battle of Balanjar:3 is located in [MASK] [MASK] [MASK] . [SEP],Balanjar:3,Balanjar:3 | Balanjar:3,True
+[CLS] Battle of Yashima:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Shizuoka:3 Prefecture,Takamatsu:3 | Takamatsu:3,False
+[CLS] The Reading is located in [MASK] [MASK] . [SEP],the Reading,Museum of Fine Arts of Lyon | Museum of Fine Arts of Lyon | musee:2 des Beaux - Arts de Lyon | musée des Beaux - Arts de Lyon,False
+[CLS] 2009 African Union base bombings:2 in Mogadishu:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Mogadishu:4,Mogadishu:4 | Hamar | Maqadīshū:6 | Mogadishu:4 | The Seat of the Shah | Xamar:2,True
+[CLS] UEFA Euro 2020 is located in [MASK] [MASK] [MASK] . [SEP],"Chelsea , London",Wembley Stadium | New Wembley | Wembley | Wembley Stadium,False
+[CLS] Ausonia:2 Montes is located in [MASK] [MASK] [MASK] . [SEP],the United States,Mare Tyrrhenum:4 quadrangle:3 | Mare Tyrrhenum:4 quadrangle:3,False
+[CLS] 1952 Republican National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D",International Amphitheatre:5 | Chicago Ampitheater:3 | Chicago Ampitheatre:4 | International Amphitheatre:5 | International Ampitheater:3,False
+[CLS] Trädgårdstvärgränd:11 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Trädgård:5,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] Girl with a Flute:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],"Monica Monica , Monica","National Gallery of Art | Mellon:2 Gallery of Art | NGA:2 | National Art Gallery ( U . S . ) | National Gallery | National Gallery of Art | National Gallery of Art ( U . S . ) | National Gallery of Art ( Washington D . C . ) | National Gallery of Art ( Washington , D . C . ) | United States . National Gallery of Art",False
+[CLS] 1991 Belgian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1991 Belgian Grand Prix,Spa - Francorchamps:4 | Circuit de Spa - Francorchamps:4 | Spa - Francorchamps:4,False
+[CLS] Second Battle of the Somme is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of the Somme,River Somme | River Somme | Somme,False
+[CLS] TD Tower is located in [MASK] [MASK] [MASK] . [SEP],D . D,Downtown Vancouver | Downtown Vancouver,False
+[CLS] Exit is located in [MASK] [MASK] [MASK] . [SEP],U . S,Petrovaradin:3 Fortress | Petrovaradin:3 Fortress,False
+[CLS] online exhibition is located in [MASK] [MASK] [MASK] . [SEP],U . S,cyberspace:4 | cyberspace:4,False
+[CLS] 1930 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1930 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] The Dog is located in [MASK] [MASK] . [SEP],the Dog,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Peshtigo:3 Fire is located in [MASK] [MASK] [MASK] . [SEP],Peshtigo:3,"Peshtigo:3 | City of Peshtigo:3 | Peshtigo:3 | Peshtigo:3 , Wisconsin",True
+[CLS] Den Haag Laan:2 van NOI:2 railway station is located in [MASK] [MASK] . [SEP],Den Haag,Voorburg:2 | Voorburg:2,False
+[CLS] Peace Fountain is located in [MASK] [MASK] . [SEP],Peace Fountain,Morningside:2 Heights | Morningside:2 Heights,False
+[CLS] 1993 Australian Grand Prix is located in [MASK] [MASK] . [SEP],Grand Prix,Adelaide Street Circuit | Adelaide Parklands:2 Circuit | Adelaide Street Circuit,False
+[CLS] Battle of Brechin:3 is located in [MASK] [MASK] [MASK] . [SEP],Brechin:3,Brechin:3 | Brechin:3,True
+"[CLS] Church of Christ the King , Bloomsbury:2 is located in [MASK] [MASK] . [SEP]",Bloomsbury:2,Bloomsbury:2 | Bloomsbury:2,True
+[CLS] Battle of Casalecchio:3 is located in [MASK] [MASK] [MASK] . [SEP],Casalecchio:3,Casalecchio:3 di Reno | Casalecchio:3 di Reno,False
+[CLS] Battle of the Great Redan:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Great Redan:2,Sevastopol:4 | Aqyar:3 | Sebastopol:4 | Sevastopol:4 | Sevastopol:4 ' | Sewastupolis:4 | Sewastúpolis:4 | Σεβαστούπολις:7 | Ахтіар:4 | Севастополь:4,False
+[CLS] Battle of Hingston:3 Down is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Hingston:3 Down,Hingston:3 Down | Hingston:3 Down,True
+[CLS] Apollonia:2 ( Lycia:3 ) is located in [MASK] [MASK] [MASK] . [SEP],Lycia:3,Lycia:3 | Lycia:3,True
+[CLS] Jacmel:3 Film Festival is located in [MASK] [MASK] [MASK] . [SEP],Jacmel:3,Jacmel:3 | Jacmel:3,True
+[CLS] 52nd:2 Academy Awards is located in [MASK] [MASK] [MASK] . [SEP],"Dallas , Texas",Dorothy Chandler Pavilion | Dorothy Chandler Pavilion,False
+[CLS] Battle of Neumarkt:2 - Sankt Veit:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of Neumarkt:2,Neumarkt:2 - Sankt Veit:2 | Neumarkt:2 - Sankt Veit:2,False
+[CLS] Tell Ain Saouda:2 is located in [MASK] [MASK] [MASK] . [SEP],Ain Saouda:2,Beqaa:3 Valley | Beqaa:3 Valley,False
+[CLS] 1971 U . S . Open is located in [MASK] [MASK] . [SEP],the city,"Ardmore:3 | Ardmore:3 | Ardmore:3 ( Pennsylvania ) | Ardmore:3 , PA | Ardmore:3 , Pennsylvania",False
+[CLS] Out In Africa South African Gay and Lesbian Film Festival is located in [MASK] [MASK] . [SEP],South Africa,Cape Town | Cape | Cape Town | Kaap | Kaapstad | iKapa:3,False
+[CLS] Fantasmic:3 ! is located in [MASK] [MASK] . [SEP],the city,Disney ' s Hollywood Studios | Disney Studios Florida | Disney ' s Hollywood Studios | Disney - MGM Studios | Hollywood Studios,False
+[CLS] Bull ' s Head is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Bull ' s Head,Strand - on - the - Green | Strand - on - the - Green,False
+[CLS] San Diego Jewish Film Festival is located in [MASK] [MASK] . [SEP],San Diego,"San Diego | America ' s Finest:2 City | SD | San Diego | San Diego , California | Sandi:2 | the birthplace:2 of California",True
+[CLS] Hawes:2 Junction rail crash is located in [MASK] [MASK] [MASK] . [SEP],Hawes:2 Junction,Aisgill:3 | Aisgill:3,False
+[CLS] 1978 FIFA World Cup is located in [MASK] [MASK] . [SEP],El Salvador,José Amalfitani:4 Stadium | Estadio Jose Amalfitani:4 | José Amalfitani:4 Stadium,False
+[CLS] Cape Canaveral:3 Air Force Station Space Launch Complex 40 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Cape Canaveral:3,Cape Canaveral:3 Air Force Station | CCAFS:3 | Cape Canaveral:3 Air Force Station,False
+[CLS] Wishes:2 : A Magical:2 Gathering:3 of Disney Dreams is located in [MASK] [MASK] [MASK] . [SEP],U . S,Magic Kingdom | Magic Kingdom,False
+[CLS] Gourmet:3 is located in [MASK] [MASK] [MASK] . [SEP],Gourmet:3,"Hong Kong | China Hong Kong | HK | HKG:2 | HKSAR:3 | Hong Kong | Hong Kong SAR | Hong Kong SAR , China | Hong Kong Special Administrative Region | Hong Kong , China | Hongkong | hk | [UNK]",False
+[CLS] Main Quad:2 is located in [MASK] [MASK] [MASK] . [SEP],Main Quad:2,Stanford University | Leland:2 Stanford Junior University | Stanford | Stanford University | The Farm | University of Stanford,False
+[CLS] Battle of Stockach:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Stockach:2,Stockach:2 | Stockach:2,False
+[CLS] 1972 Spanish Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1972 Spanish Grand Prix,Circuito del Jarama:2 | Circuito Permanente:2 del Jarama:2 | Circuito del Jarama:2,False
+[CLS] Green Quarter Fell is located in [MASK] [MASK] [MASK] . [SEP],Green Quarter Fell,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] 2004 Speedway World Cup Final is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Speedway World Cup,Poole Stadium | Poole Stadium,False
+[CLS] 2014 Monaco Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Circuit de Monaco | Circuit de Monaco,False
+[CLS] 2014 Hungarian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2014 Hungarian Grand Prix,Hungaroring:3 | Hungaroring:3,False
+[CLS] Ybema:3 ' s Molen:2 is located in [MASK] [MASK] [MASK] . [SEP],Ybema:3,Workum:2 | Workum:2,False
+[CLS] Palace of Stok:2 is located in [MASK] [MASK] . [SEP],Stok:2,Stok:2 | Stok:2,True
+[CLS] Schoenau:3 ultimatum:2 is located in [MASK] [MASK] [MASK] . [SEP],Schoenau:3,Marchegg:2 | Marchegg:2,False
+[CLS] Olympia is located in [MASK] [MASK] [MASK] . [SEP],U . S,Helsingborg:4 | Helsingborg:4 | Hälsingborg:4,False
+[CLS] 1882 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1882 Open Championship,Old Course at St Andrews | Old Course at St Andrews,False
+[CLS] Equestrian:3 Portrait of Philip III is located in [MASK] [MASK] [MASK] . [SEP],Equestrian:3,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Rahe:2 is located in [MASK] [MASK] . [SEP],Rahe:2,Tharsis:3 quadrangle:3 | Tharsis:3 quadrangle:3,False
+[CLS] 1970 Dutch Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1970 Dutch Grand Prix,Circuit Park Zandvoort:4 | Circuit Park Zandvoort:4,False
+[CLS] The Martyrdom:3 of Saint Symphorian:4 is located in [MASK] [MASK] [MASK] . [SEP],the churchyard:2,Autun:2 Cathedral | Autun:2 Cathedral,False
+[CLS] Vitoria - Gasteiz:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the city of Vitoria,Basque Country | Autonomous Community of the Basque Country | Basque Country | Euskadi | Euskal Autonomia:3 Erkidegoa:4 | Pais:2 Vasco | País Vasco | Vascongadas:3,False
+[CLS] Sonoy:2 is located in [MASK] [MASK] . [SEP],Sonoy:2,Emmeloord:4 | Emmeloord:4,False
+[CLS] Bilbao is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the city of Bilbao,Basque Country | Autonomous Community of the Basque Country | Basque Country | Euskadi | Euskal Autonomia:3 Erkidegoa:4 | Pais:2 Vasco | País Vasco | Vascongadas:3,False
+[CLS] Ehden:2 massacre is located in [MASK] [MASK] . [SEP],Ehden:2,Ehden:2 | Ehden:2,True
+[CLS] Maiden Moor is located in [MASK] [MASK] . [SEP],Maiden Moor,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] Hague Divorce:3 Convention is located in [MASK] . [SEP],Hague,The Hague | ' s - Gravenhage:3 | Den Haag | Haag | The Hague,False
+[CLS] Second Battle of Ypres:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of Ypres:2,Ypres:2 | Ypres:2 | leper:2,False
+[CLS] Wimbledon Windmill:2 is located in [MASK] [MASK] [MASK] . [SEP],"Wimbledon , Wimbledon",Wimbledon Common | Wimbledon Common,False
+[CLS] Funckens:3 gränd:3 is located in [MASK] [MASK] . [SEP],Funcken:2,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] Thammasat:3 University massacre is located in [MASK] [MASK] [MASK] . [SEP],Thammasat:3,Thammasat:3 University | Mahawitthayalai:5 Thammasat:3 | TU | Thammasat:3 University | The University of Moral and Political Sciences,False
+[CLS] Battle of Faesulae:3 is located in [MASK] [MASK] [MASK] . [SEP],Faesulae:3,Fiesole:3 | Fiesole:3,False
+"[CLS] St Mary the Virgin , Northolt:2 is located in [MASK] [MASK] . [SEP]",Northolt:2,Northolt:2 | Northolt:2,True
+[CLS] nuclear pasta is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the centre of town,neutron:2 star | Neutron:2 star | neutron:2 star,False
+[CLS] National Museum of Haiti is located in [MASK] . [SEP],Haiti,Port - au - Prince | Port au Prince | Port - au - Prince,False
+[CLS] 1960 Summer Olympics is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Rome ( Italy ),"Stadio Olimpico:3 | Stadio Olimpico:3 | Stadio Olimpico:3 , Roma",False
+[CLS] Boyacá:3 International Cultural Festival is located in [MASK] [MASK] [MASK] . [SEP],Boyacá:3,Tunja:2 | Tunja:2,False
+[CLS] Lady Seated:2 at a Virginal:2 is located in [MASK] [MASK] [MASK] . [SEP],a Virginal:2,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] 2003 Nasiriyah:2 bombing is located in [MASK] [MASK] [MASK] [MASK] . [SEP],"Nasiriyah:2 , Iraq",Nasiriyah:2 | An Nasiriyah:2 | Nasiriyah:2,False
+[CLS] Ross Crater:2 is located in [MASK] [MASK] [MASK] . [SEP],Ross Crater:2,Thaumasia:3 quadrangle:3 | Thaumasia:3 quadrangle:3,False
+[CLS] King of the Ring is located in [MASK] [MASK] [MASK] . [SEP],U . S,BI:2 - LO:2 Center | BI:2 - LO:2 Center,False
+[CLS] Kalsbeek:3 College is located in [MASK] [MASK] [MASK] . [SEP],Kalsbeek:3,Woerden:2 | Woerden:2,False
+[CLS] St . Roch:2 is located in [MASK] [MASK] [MASK] . [SEP],St . Roc,Vancouver Maritime Museum | Vancouver Maritime Museum,False
+[CLS] Pyongyang:3 International Film Festival is located in [MASK] [MASK] [MASK] . [SEP],Pyongyang:3,Pyongyang:3 | Capital of Revolution | Pyongyang:3 | Ryugyong:3,True
+[CLS] Crush:2 ' n ' Gusher:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Crush:2 ' n ',Disney ' s Typhoon Lagoon:2 | Disney ' s Typhoon Lagoon:2 | Typhoon Lagoon:2,False
+[CLS] 2013 Singapore Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2013 Singapore Grand Prix,Marina Bay Street Circuit | Marina Bay Street Circuit,False
+[CLS] Freud Museum is located in [MASK] [MASK] [MASK] . [SEP],"Brooklyn , Brooklyn",Hampstead:3 | Bournemouth:2,False
+[CLS] Störtebeker:4 Festival is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Störtebeker:4,Ralswiek:3 | Ralswiek:3,False
+[CLS] Mosque Saudique:2 is located in [MASK] [MASK] [MASK] . [SEP],Mosque Saudique:2,Nouakchott:4 | Nouakchott:4,False
+[CLS] Battle of Vrbanja:3 bridge is located in [MASK] [MASK] [MASK] . [SEP],"Belgrade , Serbia",Suada:2 and Olga bridge | Most Suade:2 i Olge:2 | Suada:2 and Olga bridge | Vrbanja:3 bridge,False
+[CLS] Gibraltar Cruise Terminal is located in [MASK] . [SEP],Gibraltar,"North Mole:2 , Gibraltar Harbour | North Mole:2 , Gibraltar Harbour",False
+[CLS] 2007 Grammy Awards is located in [MASK] [MASK] [MASK] . [SEP],"Miami , Florida",Staples:3 Center | STAPLES:4 Center | Staples:3 Center,False
+[CLS] Togoland:2 Campaign is located in [MASK] [MASK] . [SEP],Togoland:2,Togoland:2 | Togo | Togoland:2,True
+[CLS] Royal Institute of Painters:2 in Water Colours:2 is located in [MASK] [MASK] [MASK] . [SEP],"London , UK",Federation of British Artists | Federation of British Artists,False
+[CLS] 2011 World Single Distance Speed Skating:3 Championships is located in [MASK] [MASK] [MASK] . [SEP],"Shanghai , China",Eisstadion:2 Inzell:2 | Eisstadion:2 Inzell:2,False
+[CLS] Miss World 1962 is located in [MASK] [MASK] . [SEP],Miss World,"Lyceum:3 Theatre | Lyceum:3 Theatre | Lyceum:3 Theatre , London",False
+[CLS] Bilingual:3 Review Press is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bilingual:3 Review Press,"Tempe:2 | Tempe:2 | Tempe:2 , Arizona",False
+[CLS] Sana ' a school shooting is located in [MASK] [MASK] [MASK] . [SEP],Sana ' a,Sana ' a | Sana | Sana ' a | Sanaa:2 | Sana [UNK] a | Ṣan:2 [UNK] ā [UNK],True
+[CLS] St Margaret and the Dragon is located in [MASK] [MASK] [MASK] . [SEP],U . S,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] 1972 Italian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1972 Italian Grand Prix,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] Round Table is located in [MASK] [MASK] . [SEP],Round Table,Camelot:2 | Camelot:2,False
+[CLS] Adobe Creek is located in [MASK] [MASK] [MASK] . [SEP],Beaver Beaver Beaver,Rancho Petaluma:3 Adobe | Petaluma:3 Adobe State Historic Park | Rancho Petaluma:3 Adobe,False
+[CLS] 1964 Democratic National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Denver , CO",Boardwalk:2 Hall | Boardwalk:2 Hall | Historic Atlantic City Convention Hall,False
+[CLS] Witches:2 ' Flight is located in [MASK] [MASK] [MASK] . [SEP],U . S,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] 2013 Bilderberg:2 Conference is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D","The Grove , Watford:2 | The Grove , Watford:2",False
+[CLS] Hog:2 Island is located in [MASK] [MASK] [MASK] . [SEP],Hog:2 Island,"Sonoma:2 County | County of Sonoma:2 | Sonoma:2 County | Sonoma:2 County , California",False
+[CLS] Operation Zarb:2 - e - Azb:2 is located in [MASK] [MASK] [MASK] . [SEP],the Middle East,North Waziristan:4 | North Waziristan:4 | North Waziristan:4 Agency,False
+[CLS] Annunciation:3 is located in [MASK] [MASK] [MASK] . [SEP],St . St,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] Outerside:2 is located in [MASK] [MASK] . [SEP],Outerside:2,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] 1998 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Stade Chaban:2 - Delmas:2 | Parc Lescure:2 | Stade Chaban:2 - Delmas:2 | Stade Jacques - Chaban:2 - Delmas:2,False
+[CLS] Empire College is located in [MASK] [MASK] . [SEP],Empire College,"Santa Rosa | Santa Rosa | Santa Rosa , California",False
+[CLS] Siege of the Sogdian:3 Rock is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Sogdian:3 Rock,Sogdia:3 | Sogdia:3 | Sogdiana:3,False
+[CLS] The Holocaust is located in [MASK] [MASK] . [SEP],the city,German - occupied Europe | German - occupied Europe | Nazi Empire,False
+[CLS] 1990 German Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1990 German Grand Prix,Hockenheimring:4 | Hockenheimring:4,False
+[CLS] 007 Stage is located in [MASK] [MASK] . [SEP],007 Stage,Pinewood:2 Studios | Pinewood:2 Studios,False
+[CLS] Königsfelden:3 Abbey is located in [MASK] [MASK] [MASK] . [SEP],Königsfelden:3,Windisch:2 | Windisch:2 | Windisch:2 AG,False
+[CLS] Landscape with Psyche:3 Outside the Palace of Cupid:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Palace of Cupid:2,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] Actions:2 in Inner Mongolia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the province of Inner Mongolia,Chahar:2 Province | Chahar:2 Province,False
+[CLS] Battle of Kismayo:3 is located in [MASK] [MASK] [MASK] . [SEP],Kismayo:3,Kismayo:3 | Kismayo:3,True
+[CLS] 1985 Belgian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1985 Belgian Grand Prix,Spa - Francorchamps:4 | Circuit de Spa - Francorchamps:4 | Spa - Francorchamps:4,False
+[CLS] 2006 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Fritz - Walter - Stadion | Betze:2 | Betzenberg:3 | Betzenbergstadion:5 | Fritz - Walter - Stadion,False
+[CLS] Rinkeby:3 metro station is located in [MASK] [MASK] [MASK] . [SEP],Rinkeby:3,Rinkeby:3 | Rinkeby:3,True
+[CLS] Miss Universe 1977 is located in [MASK] [MASK] [MASK] . [SEP],Miss Universe 1977,"Santo Domingo | Santo Domingo | Santo Domingo de Guzman:3 | Santo Domingo de Guzmán | Santo Domingo , Dominican Republic",False
+[CLS] Cedar Point is located in [MASK] [MASK] . [SEP],Cedar Point,"Sandusky:3 | Sandusky:3 | Sandusky:3 , Ohio",False
+[CLS] 2006 Welsh Open is located in [MASK] [MASK] [MASK] . [SEP],"Cardiff , Wales",Newport Centre | Newport Center | Newport Centre | Newport Leisure:2 Center | Newport Leisure:2 Centre,False
+[CLS] Battle of Geronium:3 is located in [MASK] [MASK] [MASK] . [SEP],Geronium:3,Molise:2 | Molise:2 | Molise:2 region,False
+[CLS] Siege of Berat:2 is located in [MASK] [MASK] . [SEP],Berat:2,Berat:2 | Berat:2,True
+[CLS] Battle of Giglio:3 is located in [MASK] [MASK] [MASK] . [SEP],Giglio:3,Giglio:3 | Giglio:3 | Isola del Giglio:3,True
+[CLS] Kilauea:3 School is located in [MASK] [MASK] [MASK] . [SEP],Kilauea:3,"Kilauea:3 | Kilauea:3 | Kilauea:3 , Hawaii",True
+[CLS] San Luis Obispo International Film Festival is located in [MASK] [MASK] [MASK] . [SEP],San Luis Obispo,"San Luis Obispo | San Luis Obispo | San Luis Obispo , California",True
+[CLS] Battle of Lalakaon:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Lalakaon:4,Paphlagonia:4 | Paphlagonia:4,False
+[CLS] 1991 Punjab killings:2 is located in [MASK] [MASK] [MASK] . [SEP],Punjab killings:2,Ludhiana:3 district | Ludhiana:3 district,False
+[CLS] Self - portrait is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Museum of Art,Uffizi:3 | Galleria degli Uffizi:3 | Gallerie:2 degli Uffizi:3 | Palazzo degli Uffizi:3 | Uffizi:3,False
+[CLS] Battle of Hazir:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Battle of Hazir:2,Qinnasrin:3 | Qinnasrin:3,False
+[CLS] House of the Vestals:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Roman Forum | Forum Romanum:2 | Roman Forum,False
+[CLS] Temple of Caesar is located in [MASK] [MASK] [MASK] . [SEP],Caesar Caesar Caesar,Roman Forum | Forum Romanum:2 | Roman Forum,False
+[CLS] Ahwahnee:3 Heritage Days is located in [MASK] [MASK] [MASK] . [SEP],Ahwahnee:3,Yosemite:3 National Park | Yosemite:3 | Yosemite:3 NP | Yosemite:3 National Park,False
+[CLS] Brabantse:2 Pijl:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Brabantse:2 Pijl:2,Flemish:3 Brabant | Flemish:3 Brabant | Flemish:3 Brabant Province,False
+[CLS] Battle of Shenkursk:3 is located in [MASK] [MASK] [MASK] . [SEP],the Soviet Union,Shenkursk:3 | Shenkursk:3,False
+[CLS] Self - Portrait with Seven Fingers:2 is located in [MASK] [MASK] [MASK] . [SEP],Self - Portrait,Stedelijk:2 Museum Amsterdam | Het Stedelijk:2 | Municipal Museum Amsterdam | Stedelijk:2 | Stedelijk:2 Museum | Stedelijk:2 Museum Amsterdam,False
+[CLS] Battle of Antietam:3 is located in [MASK] [MASK] [MASK] . [SEP],Antietam:3,"Washington County | Washington County | Washington County , Maryland",False
+[CLS] Battle of Nola:2 ( 215 BC ) is located in [MASK] [MASK] . [SEP],Nola:2,Nola:2 | Nola:2,True
+[CLS] Battle of Toungoo:3 is located in [MASK] [MASK] [MASK] . [SEP],Toungoo:3,Taungoo:3 | Taungoo:3 | Toungoo:3,True
+[CLS] Orange River Convention is located in [MASK] [MASK] . [SEP],Orange River,Bloemfontein:4 | Bloemfontein:4,False
+[CLS] 2002 Speedway World Cup Event 2 is located in [MASK] [MASK] [MASK] . [SEP],"Indianapolis , Indiana",Poole Stadium | Poole Stadium,False
+[CLS] Toren van Goedereede:4 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Goedereede:4,Goedereede:4 | Goedereede:4,True
+[CLS] cc les gens is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the center of town,Museo del Prado | Museo Nacional Del Prado | Museo Nacional del Prado | Museo Real de Pintura:2 y Escultura:2 | Museo del Prado | Prado | Prado Museum | Prado National Museum | Royal Museum of Painting,False
+[CLS] 1994 NHK Trophy is located in [MASK] [MASK] [MASK] . [SEP],"Japan , Japan",Morioka:2 | Morioka:2,False
+[CLS] 1983 Masters Tournament is located in [MASK] [MASK] [MASK] . [SEP],1983 Masters Tournament,Augusta National Golf Club | Augusta National | Augusta National Golf Club,False
+[CLS] 2014 Grand National is located in [MASK] [MASK] [MASK] . [SEP],2014 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] Battle of Achelous:3 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Pomorie:3 | Anchialos:3 | Pomorie:3,False
+[CLS] 1987 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1987 Open Championship,Muirfield:2 | Muirfield:2,False
+[CLS] Pinkuylluna:4 is located in [MASK] [MASK] [MASK] . [SEP],P . P,"Cusco:2 | Cusco:2 department | Cusco:2 region | Cusco:2 , Peru | Cuzco:2 Region | Cuzco:2 department | Cuzco:2 , Peru",False
+[CLS] Universitet Yugra:2 Surgut:2 is located in [MASK] [MASK] . [SEP],the city,Surgut:2 | Surgut:2,False
+[CLS] Skepsis:3 is located in [MASK] [MASK] [MASK] . [SEP],Skepsis:3,Troad:3 | Troad:3,False
+[CLS] The Origin of the Milky:2 Way is located in [MASK] [MASK] [MASK] [MASK] . [SEP],the Milky:2 Way,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] Saint George and the Dragon is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Saint George and the Dragon,Farleigh:2 Hungerford:2 Castle | Farleigh:2 Castle | Farleigh:2 Hungerford:2 Castle | Farley:2 Castle,False
+[CLS] Siege of Toul:2 is located in [MASK] [MASK] . [SEP],Toul:2,Toul:2 | Toul:2,True
+[CLS] Battle of Kapyong:2 is located in [MASK] [MASK] . [SEP],Kapyong:2,Gapyeong:3 County | Gapyeong:3 | Gapyeong:3 County,False
+[CLS] Mamshit:3 is located in [MASK] [MASK] [MASK] . [SEP],Mal Mal Mal,Negev:3 | Negev:3,False
+[CLS] 1937 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1937 Open Championship,Carnoustie:4 Golf Links | Carnoustie:4 Golf Links,False
+[CLS] 2010 Abu Dhabi Grand Prix is located in [MASK] [MASK] [MASK] . [SEP],2010 Abu Dhabi,Yas:2 Marina Circuit | Yas:2 Marina Circuit,False
+[CLS] Stratford tube crash is located in [MASK] . [SEP],Stratford,Stratford station | Stratford | Stratford DLR:2 station | Stratford Underground station | Stratford railway station | Stratford station | Stratford tube station,True
+[CLS] 1963 Grand National is located in [MASK] [MASK] [MASK] . [SEP],1963 Grand National,Aintree:2 Racecourse:2 | Aintree:2 Racecourse:2,False
+[CLS] Remembrance:4 Day bombing is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Remembrance:4 Day,Enniskillen:3 | Enniskillen:3,False
+[CLS] The Shard:2 is located in [MASK] [MASK] [MASK] . [SEP],the Shard:2,Southwark:2 | Borough | Southwark:2 | The Borough,False
+[CLS] 2010 Pichilemu:3 earthquakes:2 is located in [MASK] [MASK] [MASK] . [SEP],Pichilemu:3,Pichilemu:3 | City of Pichilemu:3 | Ciudad de Pichilemu:3 | Illustrious:3 Municipality of Pichilemu:3 | Municipality of Pichilemu:3 | Pichilemu:3 | Pichilemu:3 City | Pichilemu:3 municipality,True
+[CLS] UEFA Euro 1984 is located in [MASK] [MASK] [MASK] . [SEP],"Madrid , Spain",Stade Geoffroy - Guichard:3 | Stade Geoffroy - Guichard:3,False
+[CLS] Zion Memorial Chapel is located in [MASK] [MASK] [MASK] . [SEP],Zion Memorial Chapel,"New Hamburg | New Hamburg | New Hamburg , New York",False
+[CLS] St . Nicholas Chapel is located in [MASK] [MASK] [MASK] . [SEP],St . Nicholas,Pedro Bay | Pedro Bay,False
+[CLS] Tharrawaddy:4 Min Bell is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Tharrawaddy:4,Shwedagon:4 Pagoda:2 | Shwedagon:4 Pagoda:2,False
+[CLS] 1983 Summer Special Olympics is located in [MASK] [MASK] [MASK] . [SEP],"Nanjing , Nanjing","Baton:2 Rouge | Baton:2 Rouge | Baton:2 Rouge , LA | Baton:2 Rouge , Louisiana",False
+[CLS] AAA When Worlds Collide:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Los Angeles Memorial Sports Arena | Los Angeles Memorial Sports Arena | Los Angeles Sports Arena,False
+[CLS] Battle of Cape St . Vincent is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Cape St . Vincent,Cape St . Vincent | Cape St . Vincent,True
+[CLS] Holden is located in [MASK] [MASK] [MASK] . [SEP],"Holden , Holden",Margaritifer:4 Sinus:2 quadrangle:3 | Margaritifer:4 Sinus:2 quadrangle:3,False
+[CLS] 7th Academy Awards is located in [MASK] [MASK] [MASK] . [SEP],"Dallas , Texas",Millennium Biltmore:3 Hotel | Millennium Biltmore:3 Hotel,False
+[CLS] Renoir is located in [MASK] [MASK] [MASK] . [SEP],"Paris , France",Kuiper:2 quadrangle:3 | Kuiper:2 quadrangle:3,False
+[CLS] 1979 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],1979 UK Championship,Preston Guild Hall | Preston Guild Hall,False
+"[CLS] New York Lesbian , Gay , Bisexual:3 , & Transgender:2 Film Festival is located in [MASK] [MASK] [MASK] [MASK] . [SEP]","New York , NY","New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs:2",False
+[CLS] Battle of Coffrane:3 is located in [MASK] [MASK] [MASK] . [SEP],Coffrane:3,Coffrane:3 | Coffrane:3,True
+[CLS] 1990 Italian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1990 Italian Grand Prix,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] 2001 French Grand Prix is located in [MASK] [MASK] . [SEP],Grand Prix,Circuit de Nevers Magny:2 - Cours | Circuit de Nevers Magny:2 - Cours,False
+[CLS] Museum of the Great Plains is located in [MASK] [MASK] . [SEP],Great Plains,Lawton:2 | Lawton:2,False
+[CLS] 25 North Colonnade:2 is located in [MASK] [MASK] [MASK] . [SEP],North Colonnade:2,Canary Wharf:2 | Canary Wharf:2,False
+[CLS] Tuol:2 Sleng:3 torture center is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Tuol:2 Sleng:3,Phnom:2 Penh:2 | Phnom:2 Penh:2,False
+[CLS] Arch of Gallienus:3 is located in [MASK] [MASK] [MASK] . [SEP],Gallienus:3,Porta Esquilina:3 | Porta Esquilina:3,False
+[CLS] Relief of Thionville:3 is located in [MASK] [MASK] [MASK] . [SEP],Thionville:3,Thionville:3 | Diddenuewen:4 | Diedenhofen:3 | Thionville:3,True
+[CLS] speed skating:2 at the 2006 Winter Olympics is located in [MASK] [MASK] [MASK] . [SEP],"Beijing , China",Oval Lingotto:2 | Oval Lingotto:2,False
+[CLS] New County Jail:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],New County Jail:2,Appomattox:4 Court House National Historical Park | Appomattox:4 Court House National Historical Park,False
+"[CLS] Crimean:2 referendum , 2014 is located in [MASK] [MASK] [MASK] . [SEP]","Crimea , Ukraine",Sevastopol:4 | Aqyar:3 | Sebastopol:4 | Sevastopol:4 | Sevastopol:4 ' | Sewastupolis:4 | Sewastúpolis:4 | Σεβαστούπολις:7 | Ахтіар:4 | Севастополь:4,False
+[CLS] Kano:2 riot:2 of 1953 is located in [MASK] [MASK] . [SEP],Kano:2,Kano:2 | Kano:2,True
+[CLS] Adams is located in [MASK] [MASK] [MASK] . [SEP],"Adams , Adams",Cebrenia:3 quadrangle:3 | Cebrenia:3 quadrangle:3,False
+[CLS] 2010 Wuxi:2 Classic is located in [MASK] [MASK] . [SEP],Wuxi:2,Wuxi:2 | Wuxi:2,True
+[CLS] 2010 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],"2010 , UK",Telford:2 | Telford:2,False
+[CLS] Battle of Fraga:2 is located in [MASK] [MASK] . [SEP],Fraga:2,Fraga:2 | Fraga:2,True
+"[CLS] Windlust:2 , Achthuizen:3 is located in [MASK] [MASK] [MASK] . [SEP]",Achthuizen:3,Achthuizen:3 | Achthuizen:3,True
+[CLS] Battle of Bab El Oued is located in [MASK] [MASK] [MASK] . [SEP],Bab El Oued,Bab El Oued | Bab El Oued,True
+[CLS] The Vision of Saint Eustace:3 is located in [MASK] [MASK] [MASK] . [SEP],the parish church,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] 1920 Republican National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D",Chicago Coliseum | Chicago Coliseum,False
+[CLS] 2012 British Grand Prix is located in [MASK] [MASK] . [SEP],Great Britain,Silverstone:2 Circuit | Silverstone:2 Circuit,False
+"[CLS] 2012 College Station , Texas shooting is located in [MASK] [MASK] [MASK] [MASK] . [SEP]","College Station , Texas","College Station | College Station | College Station , Texas",True
+[CLS] Sherman Minton:2 is located in [MASK] [MASK] [MASK] . [SEP],Sherman Minton:2,Indiana State House | Indiana Capitol Building | Indiana State House | Indiana Statehouse:2,False
+[CLS] Battle of Tarcal:3 is located in [MASK] [MASK] [MASK] . [SEP],Tarcal:3,Tokaj:2 | Tokaj:2,False
+[CLS] Marconiplein:3 is located in [MASK] [MASK] [MASK] . [SEP],Marconiplein:3,Delfshaven:3 | Delfshaven:3,False
+[CLS] Spring Awakening:3 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Soldier Field | Soldier Field,False
+[CLS] Hotel Oloffson:3 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],hotel Oloffson:3,Port - au - Prince | Port au Prince | Port - au - Prince,False
+[CLS] Bonde:2 Palace is located in [MASK] [MASK] . [SEP],Bonde:2,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] The Adoration:2 of the Magi:2 is located in [MASK] [MASK] [MASK] . [SEP],the churchyard:2,Metropolitan Museum of Art | MMA | Met | Met Museum | Metropolitan Museum of Art | The Met | The Met Museum | The Metropolitan Museum of Art,False
+[CLS] 2011 MTV Video Music Aid Japan is located in [MASK] [MASK] [MASK] . [SEP],"Japan , Japan",Makuhari:3 Messe | Makuhari:3 Messe,False
+[CLS] Night of the Murdered:2 Poets:2 is located in [MASK] [MASK] . [SEP],the city,Lubyanka:3 Building | Lubyanka:3 Building,False
+[CLS] 1980 German Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1980 German Grand Prix,Hockenheimring:4 | Hockenheimring:4,False
+[CLS] 1935 Open Championship is located in [MASK] [MASK] [MASK] . [SEP],1935 Open Championship,Muirfield:2 | Muirfield:2,False
+[CLS] High Street is located in [MASK] [MASK] . [SEP],High Street,Lake District | Lake District | Lakeland:2 | The Lakes,False
+[CLS] Agrabad:3 is located in [MASK] [MASK] [MASK] . [SEP],Agrabad:3,Chittagong:3 | Chattagram:3 | Chattogram:3 | Chittagong:3 | Chottogram:3,False
+[CLS] 1947 Ryder Cup is located in [MASK] [MASK] [MASK] . [SEP],"1947 , England",Portland Golf Club | Portland Golf Club,False
+[CLS] Peshawar:3 church bombing is located in [MASK] [MASK] [MASK] . [SEP],Peshawar:3,Peshawar:3 | Pekhawar:3 | Peshawar:3,True
+[CLS] 1852 Whig:2 National Convention is located in [MASK] [MASK] [MASK] . [SEP],"Washington , D",Maryland Institute College of Art | MICA:2 | Maryland Institute College of Art | Maryland Institute for the Promotion of the Mechanic:3 Arts,False
+[CLS] Adoration:2 of the Magi:2 is located in [MASK] [MASK] [MASK] . [SEP],the parish church,Uffizi:3 | Galleria degli Uffizi:3 | Gallerie:2 degli Uffizi:3 | Palazzo degli Uffizi:3 | Uffizi:3,False
+[CLS] Uncial:2 0227:2 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Austrian National Library | Austrian National Library | Bibl:2 . Pal . | Hofbibliothek:2 | National Library of Austria | OeNB:3 | Oesterreichische:4 Nationalbibliothek:2 | Osterreichische:4 Nationalbibliothek:2 | Prunksaal:3 | ÖNB:2 | Österreichische Nationalbibliothek:2,False
+[CLS] 2008 Russian submarine K - 152 Nerpa:2 accident is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the region of Nerpa:2,Russian submarine K - 152 Nerpa:2 | INS:2 Chakra:2 II | K - 152 Nerpa:2 | Russian submarine K - 152 Nerpa:2 | К - 152 « Нерпа:3 » | आईएनएस:5 चक्र:3 २,False
+[CLS] Route du Sud is located in [MASK] [MASK] [MASK] . [SEP],Route du Sud,Southern France | Le Midi | Midi | South of France | Southern France | Southern France 、 south of France,False
+[CLS] Miss World 1951 is located in [MASK] [MASK] [MASK] . [SEP],Miss World 1951,"Lyceum:3 Theatre | Lyceum:3 Theatre | Lyceum:3 Theatre , London",False
+[CLS] Slotervaart:3 is located in [MASK] [MASK] [MASK] . [SEP],Slotervaart:3,Amsterdam Nieuw - West | Amsterdam Nieuw - West,False
+[CLS] 1974 French Embassy attack in The Hague is located in [MASK] [MASK] [MASK] [MASK] . [SEP],"the Hague , Netherlands",The Hague | ' s - Gravenhage:3 | Den Haag | Haag | The Hague,False
+[CLS] Stanser:2 Verkommnis:4 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Stans:2 | Stans:2 | Stans:2 NW:2,False
+[CLS] Parliament House is located in [MASK] [MASK] . [SEP],Parliament House,Gamla:2 stan | Gamla:2 Stan | Gamla:2 stan,False
+[CLS] The Death of Actaeon:2 is located in [MASK] [MASK] [MASK] . [SEP],Rock Rock Rock,"National Gallery | National Gallery | National Gallery , London | The National Gallery | The National Gallery , London",False
+[CLS] Heritage Hall is located in [MASK] [MASK] [MASK] . [SEP],U . S,Valparaiso:3 University | Northern Indiana Normal School and Business Institute | VU:2 | Valparaiso:3 College | Valparaiso:3 Male and Female College | Valparaiso:3 University | Valpo:2,False
+[CLS] 2008 Swat:2 Valley bombing is located in [MASK] [MASK] [MASK] . [SEP],Swat:2 Valley,Swat:2 District | Swat:2 District,False
+[CLS] The Albany is located in [MASK] [MASK] . [SEP],the Albany,Deptford:3 | Deptford:3,False
+[CLS] 13th Vietnam Film Festival is located in [MASK] . [SEP],Hanoi,Vinh:2 | Vinh:2,False
+[CLS] 2008 Hopman:2 Cup is located in [MASK] [MASK] [MASK] . [SEP],Hopman:2 Cup,Crown Perth | Burswood:3 Casino | Burswood:3 Dome | Burswood:3 Island Casino | Burswood:3 Island Complex | Burswood:3 Resort | Crown Perth,False
+[CLS] Colonos:2 Agoraios:2 is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Colonos:2 Agoraios:2,Ancient Agora of Athens | Ancient Agora of Athens,False
+[CLS] 1986 FIFA World Cup is located in [MASK] [MASK] . [SEP],São Paulo,Corregidora:4 Stadium | Corregidora:4 Stadium | Estadio Corregidora:4,False
+[CLS] Aarburg:3 Castle is located in [MASK] [MASK] [MASK] . [SEP],Aarburg:3,Aarburg:3 | Aarburg:3 | Aarburg:3 AG,True
+[CLS] Stozhary:4 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Kyiv:2 | Kiev | Kyiv:2 | Kyiw:3 | Kyjiv:3 | Kyjiw:3 | Kyyiv:3 | Kyïv:3,False
+[CLS] 1986 Italian Grand Prix is located in [MASK] [MASK] . [SEP],San Marino,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] AirAsia:3 Flight 8501:2 is located in [MASK] [MASK] [MASK] . [SEP],D . C,Java Sea | Java Sea,False
+[CLS] Siege of Lilybaeum:3 is located in [MASK] [MASK] [MASK] . [SEP],Lilybaeum:3,Marsala:2 | Lilybaeum:3 | Maissala:2 | Marsala:2,True
+[CLS] Johanneshov:2 ice stadium is located in [MASK] [MASK] . [SEP],Johanneshov:2,Johanneshov:2 | Johanneshov:2,True
+[CLS] Nybroplan:3 is located in [MASK] [MASK] [MASK] . [SEP],Nybroplan:3,Norrmalm:3 | Norrmalm:3,False
+[CLS] Battle of Carabobo:3 is located in [MASK] [MASK] [MASK] . [SEP],Carabobo:3,Carabobo:3 | Carabobo:3,True
+[CLS] Ho Man Tin station is located in [MASK] [MASK] [MASK] . [SEP],Ho Man Tin,Ho Man Tin | Ho Man Tin,True
+[CLS] 1906 FA Cup Final is located in [MASK] [MASK] . [SEP],Court Court,Crystal Palace National Sports Centre | Crystal Palace National Sports Centre | Crystal Palace Park,False
+[CLS] 1985 Custom Credit Australian Indoor Championships is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Custom Credit Australian Indoor Championships,Sydney Entertainment Centre | Qantas:2 Credit Union Arena | Sydney Entertainment Centre | Sydney Sports and Entertainment Centre,False
+[CLS] Phoenix Rising FC is located in [MASK] [MASK] . [SEP],Phoenix Rising,Peoria:2 | Peoria:2,False
+[CLS] 1974 Italian Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],1974 Italian Grand Prix,Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale Monza | Autodromo:3 Nazionale di Monza | autodromo:3 nazionale di Monza,False
+[CLS] Armagh:2 rail disaster is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Armagh:2 rail disaster,Armagh:2 | Armagh:2,False
+[CLS] 2000 UK Championship is located in [MASK] [MASK] [MASK] . [SEP],"2000 , UK",Bournemouth:2 International Centre | Bournemouth:2 International Center | Bournemouth:2 International Centre,False
+[CLS] Summertime:2 Ball is located in [MASK] [MASK] [MASK] . [SEP],Summertime:2 Ball,Wembley Stadium | New Wembley | Wembley | Wembley Stadium,False
+[CLS] 2007 Spanish Grand Prix is located in [MASK] [MASK] [MASK] [MASK] . [SEP],2007 Spanish Grand Prix,Circuit de Catalunya | Circuit de Barcelona | Circuit de Catalunya,False
+[CLS] 2003 Men ' s South American Volleyball Championship is located in [MASK] [MASK] . [SEP],El Salvador,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False
+[CLS] UEFA Euro 2012 is located in [MASK] [MASK] [MASK] . [SEP],"Paris , France",Arena Lviv:2 | Arena Lviv:2,False
+[CLS] 2011 German Masters is located in [MASK] [MASK] . [SEP],German Masters,Tempodrom:2 | Tempodrom:2,False
+[CLS] Top Gear test track is located in [MASK] [MASK] [MASK] . [SEP],U . S,Dunsfold:3 Aerodrome:2 | Dunsfold:3 Aerodrome:2 | EGTD:3 | FAA,False
+[CLS] 1954 PGA Championship is located in [MASK] [MASK] [MASK] . [SEP],St . St,Keller Golf Course | Keller Golf Course,False
+[CLS] Sabetta:3 is located in [MASK] [MASK] [MASK] . [SEP],Sabetta:3,Yamal:2 Peninsula | Yamal:2 Peninsula,False
+[CLS] Jeonju:3 International Film Festival is located in [MASK] [MASK] [MASK] . [SEP],Jeonju:3,Jeonju:3 | Jeonju:3,True
+[CLS] Tower House School is located in [MASK] [MASK] . [SEP],Tower House,East Sheen:2 | East Sheen:2 | Sheen:2,False
+[CLS] Noorderkerk:3 is located in [MASK] [MASK] [MASK] . [SEP],Noorderkerk:3,Rijssen:3 | Rijssen:3,False
+[CLS] St Matthew Academy is located in [MASK] [MASK] . [SEP],St Matthew,Blackheath:3 | Blackheath:3,False
+[CLS] H . Vincent Meredith Residence:3 is located in [MASK] [MASK] [MASK] . [SEP],H . Vincent,McGill University | McGill | McGill University | McGill college | Royal institution of advanced learning | University of McGill College,False
+[CLS] Fishing:2 Creek Confederacy:4 is located in [MASK] [MASK] [MASK] . [SEP],Fishing:2 Creek,"Columbia County | Columbia County | Columbia County , Pennsylvania",False
+[CLS] 8 Canada Square is located in [MASK] [MASK] [MASK] . [SEP],8 Canada Square,Canary Wharf:2 | Canary Wharf:2,False
+[CLS] 1950 PGA Championship is located in [MASK] [MASK] . [SEP],the city,Scioto:2 Country Club | Scioto:2 Country Club,False
+[CLS] Hukumina:2 is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the north of the city,Buru:2 | Buru:2 | Buru:2 Island | Pulau Buru:2,False
+[CLS] Battle of Wiesloch:3 is located in [MASK] [MASK] [MASK] . [SEP],Wiesloch:3,Wiesloch:3 | Wezzinloch:4 | Wiesloch:3 | Wissloch:3,True
+[CLS] Hindeloopen:4 railway station is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Hindeloopen:4,Hindeloopen:4 | Hindeloopen:4,True
+[CLS] Siberia Airlines Flight 1812 is located in [MASK] [MASK] [MASK] . [SEP],U . S,Black Sea | Black Sea,False
+[CLS] WYSIWYG:6 Film Festival is located in [MASK] [MASK] [MASK] . [SEP],"Seattle , Washington","San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco:3 | Paris of the West | SF | SFO:2 | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False
+[CLS] Itapetinga:4 Radio Observatory is located in [MASK] [MASK] [MASK] [MASK] . [SEP],Itapetinga:4,Atibaia:3 | Atibaia:3 | Estancia:2 de Atibaia:3 | Estância:2 de Atibaia:3,False

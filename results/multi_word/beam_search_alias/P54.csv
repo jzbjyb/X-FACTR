@@ -1,0 +1,998 @@
+sentence,prediction,gold,is_same
+[CLS] Curtis Fleming plays with [MASK] [MASK] [MASK] [MASK] . [SEP],M . D .,Middlesbrough F . C . | MFC:2 | Middlesbrough | Middlesbrough F . C . | Middlesbrough FC | Middlesbrough Football Club | The Boro:2,False
+[CLS] León Strembel:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Leon Strembel:3,Argentina national football team | Argentina national football team | Selección de fútbol de Argentina,False
+[CLS] Rumen:2 Rangelov:2 plays with [MASK] [MASK] [MASK] . [SEP],S . S,FC Lokomotiv:2 1929 Sofia | FC Lokomotiv:2 1929 Sofia | PFC:2 Lokomotiv:2 Sofia | RSC:2 | Railway Sports Club,False
+[CLS] George Watts plays with [MASK] [MASK] [MASK] . [SEP],W . W,Washington Redskins:2 | Boston Redskins:2 | Washington Redskins:2,False
+[CLS] Ian Holloway plays with [MASK] [MASK] . [SEP],Ian Holloway,Torquay:3 United F . C . | TUFC:2 | The Gulls:2 | Torquay:3 | Torquay:3 United | Torquay:3 United F . C . | Torquay:3 United FC | Torquay:3 United Football Club | United,False
+[CLS] Garyn:2 Preen:2 plays with [MASK] [MASK] . [SEP],Preen:2,Cinderford:3 Town A . F . C . | Cinderford:3 Town A . F . C .,False
+[CLS] Siobhan:3 Chamberlain plays with [MASK] [MASK] [MASK] . [SEP],F . F,Chelsea L . F . C . | Chelsea Football Club Women | Chelsea L . F . C . | Chelsea Ladies Football Club,False
+[CLS] Bob Meinke:2 plays with [MASK] [MASK] [MASK] . [SEP],B . B,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Luis Quiñones:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Oakland Athletics | A ' s | Athletics | Kansas City Athletics | Oakland A ' s | Oakland Athletics | Philadelphia Athletics,False
+[CLS] R . H . Massy:2 - Westropp:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],. R . H,Ireland national rugby union team | Ireland Rugby | Ireland national rugby team | Ireland national rugby union team | Ireland rugby team | Ireland rugby union team | Irish Rugby | Irish national rugby team | Irish national rugby union team | Irish rugby team | Irish rugby union team,False
+[CLS] Jeremy Richardson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,San Antonio Spurs | Dallas Chaparrals:4 | San Antonio Spurs | Texas Chaparrals:4,False
+[CLS] Steven Finn plays with [MASK] [MASK] . [SEP],Steven Finn,Quebec Nordiques:2 | Quebec Nordiques:2,False
+[CLS] Sidnei:2 Sciola:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Esporte Clube Noroeste:2 | Esporte Clube Noroeste:2,False
+[CLS] Abderrahmane:4 Mahjoub:4 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Morocco national football team | Lions of the Atlas | Morocco national football team | Morocco national soccer team | Morocco national team,False
+[CLS] Rincón plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,E . S . Troyes A . C . | E . S . Troyes A . C . | Troyes AC,False
+[CLS] Sergio Angulo:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Independiente Santa Fe | Independiente Santa Fe | Santa Fe,False
+[CLS] Paul Henderson plays with [MASK] [MASK] [MASK] . [SEP],Paul Henderson Band,New Zealand national rugby union team | All Blacks | New Zealand national rugby team | New Zealand national rugby union team | New Zealand rugby team | New Zealand rugby union team,False
+[CLS] Voro:2 plays with [MASK] [MASK] . [SEP],Voro:2,Valencia CF | Blanquinegres:5 | Los Che | Mig:2 - Ouets:2 | Valencia | Valencia CF | Valencia CF football | Valencia CF soccer | Valencia Club de Futbol | Valencia Club de Fútbol | Valencia Club de Fútbol team,False
+[CLS] Bruce Douglas plays with [MASK] [MASK] . [SEP],his father,Sacramento Kings | Cincinnati Royals | Kansas City Kings | Kansas City - Omaha Kings | Rochester Royals | Sacramento Kings,False
+[CLS] Arthur Wolstenholme:5 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brass of Brass,Gillingham:2 F . C . | GFC:2 | Gillingham:2 | Gillingham:2 F . C . | Gillingham:2 FC | Gillingham:2 Football Club | The Gills:2,False
+[CLS] Maksym:3 Prykhodnoy:4 plays with [MASK] [MASK] [MASK] . [SEP],K . K,FC Hirnyk:3 - Sport Horishni:3 Plavni:2 | FC Hirnyk:3 - Sport Horishni:3 Plavni:2 | FC Hirnyk:3 - Sport Komsomolsk:4,False
+[CLS] Jack Carpenter plays with [MASK] [MASK] . [SEP],Jack Carpenter,Hamilton Tiger - Cats | Hamilton Tiger - Cats,False
+[CLS] Gonzalo Bazán:2 plays with [MASK] [MASK] . [SEP],Bazán:2,Club Atlético San Lorenzo de Almagro:2 | Club Atlético San Lorenzo de Almagro:2 | Los Gauchos:3 de Boedo:2 | San Lorenzo de Almagro:2 | pag,False
+[CLS] Arthur Yedigaryan:4 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Alashkert:3 FC | Alashkert:3 FC | Alashkert:3 Martuni:2,False
+[CLS] Leon Powe:2 plays with [MASK] [MASK] [MASK] . [SEP],Leon Powe:2,Memphis Grizzlies:4 | Memphis Grizzlies:4 | The Grizz:3 | Vancouver Grizzlies:4,False
+[CLS] Alexandre Moreno Lopera:2 plays with [MASK] [MASK] . [SEP],Lopera:2,Rayo:2 Vallecano:2 | Rayo:2 Football | Rayo:2 Vallecano:2 | Rayo:2 Vallecano:2 de Madrid | Rayo:2 Vellecano:3 Football | Rayo:2 Vellecano:3 Soccer Club,False
+[CLS] Andy Bathgate:2 plays with [MASK] [MASK] [MASK] . [SEP],Andy Bathgate:2,New York Rangers | New York Rangers,False
+[CLS] Børre:2 Steenslid:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Børre:2 Steenslid:2,Viking FK | Viking FK,False
+[CLS] Paul Henare:2 plays with [MASK] [MASK] [MASK] . [SEP],Paul Henare:2,Christchurch Cougars:3 | Christchurch Cougars:3,False
+[CLS] Emmanuel McDaniel:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Arizona Cardinals | Arizona Cardinals | Chicago Cardinals | Morgan Athletic Club | Phoenix Cardinals | Racine Cardinals | St . Louis Cardinals,False
+[CLS] Kyle Richardson plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Miami Dolphins:2 | Miami Dolphins:2,False
+[CLS] Peter Bullough:2 plays with [MASK] [MASK] [MASK] . [SEP],Peter Bullough:2,Bolton Wanderers F . C . | BWFC:3 | Bolton | Bolton Wanderers | Bolton Wanderers F . C . | Bolton Wanderers FC | Bolton Wanderers Football Club | The Trotters:3 | Wanderers,False
+[CLS] Chris Parker plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Gateshead:2 Thunder | Gateshead:2 Thunder,False
+[CLS] Franjo Lovrić:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Yugoslavia national football team | Yugoslavia national football team,False
+[CLS] Craig Armstrong plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . C .,Gillingham:2 F . C . | GFC:2 | Gillingham:2 | Gillingham:2 F . C . | Gillingham:2 FC | Gillingham:2 Football Club | The Gills:2,False
+[CLS] Billy Findlay:2 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Kilmarnock:4 F . C . | KFC:2 | Killie:2 | Kilmarnock:4 | Kilmarnock:4 F . C . | Kilmarnock:4 FC | Kilmarnock:4 Football Club,False
+[CLS] Tim Moynihan:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Arizona Cardinals | Arizona Cardinals | Chicago Cardinals | Morgan Athletic Club | Phoenix Cardinals | Racine Cardinals | St . Louis Cardinals,False
+[CLS] Earl Okine:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Brooklyn Bolts:2 | Brooklyn Bolts:2,False
+[CLS] Kazuyoshi:3 Miura:2 plays with [MASK] [MASK] [MASK] . [SEP],Kazuyoshi:3,Yokohama FC | Yokohama FC,False
+[CLS] Felix Rossignol:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Felix Rossignol:3,Detroit Red Wings | Detroit Red Wings,False
+[CLS] Diyan:2 Donchev:2 plays with [MASK] [MASK] [MASK] . [SEP],D . D,A . E . K . Athens F . C . | A . E . K . Athens F . C . | AEK:2 Athens F . C .,False
+[CLS] Mick Bodley:2 plays with [MASK] [MASK] [MASK] . [SEP],Mick Bodley:2,Chelsea F . C . | CFC:2 | Chelsea | Chelsea F . C . | Chelsea FC | Chelsea Football Club | The Blues | The London Blues | The Pensioners:3,False
+[CLS] Harlon:2 Hill plays with [MASK] [MASK] [MASK] . [SEP],Harlon:2 Hill,Detroit Lions | Detroit Lions,False
+[CLS] John Heitinga:3 plays with [MASK] [MASK] [MASK] . [SEP],Heitinga:3,"Hertha:2 BSC:2 | Hertha:2 | Hertha:2 BSC:2 | Hertha:2 BSC:2 Berlin | Hertha:2 , Berliner Sport - Club e . V",False
+[CLS] Yevgeni:3 Stukanov:3 plays with [MASK] [MASK] [MASK] . [SEP],the Russian team,FC Rostov | FC Rostov,False
+[CLS] Dean Horribine:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Hibernian:3 F . C . | HFC:2 | Hibees:3 | Hibernian:3 | Hibernian:3 F . C . | Hibernian:3 FC | Hibernian:3 Football Club | Hibs:2,False
+[CLS] David Andreoli:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Luzern | FC Luzern | Fussbal:3 Club Luzern,False
+[CLS] Bud Stefanski:2 plays with [MASK] [MASK] [MASK] . [SEP],Bud Stefanski:2,New York Rangers | New York Rangers,False
+[CLS] Herbert Erhardt:2 plays with [MASK] [MASK] [MASK] . [SEP],Herbert Erhardt:2,FC Bayern Munich | Bayern | Bayern Muenchen:3 | Bayern Munchen:3 | Bayern Munich | Bayern München | FC Bayern Muenchen:3 | FC Bayern Munchen:3 | FC Bayern Munich | FC Bayern München | FCBM:3,False
+[CLS] Artem:2 Bobukh:3 plays with [MASK] [MASK] [MASK] . [SEP],B . B,FC Belshina:3 Bobruisk:3 | FC Belshina:3 Bobruisk:3,False
+[CLS] Ronan:2 Murray plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Swindon:3 Town F . C . | STFC:2 | Swindon:3 | Swindon:3 Town | Swindon:3 Town F . C . | Swindon:3 Town FC | Swindon:3 Town Football Club | The Robins:2 | Town,False
+[CLS] Gustavo Teixeira plays with [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,S . L . Benfica | Benfica | S . L . Benfica | SL Benfica | SLB:2 | Sport Lisboa e Benfica | The Eagles,False
+[CLS] Justin Hickman:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Washington Redskins:2 | Boston Redskins:2 | Washington Redskins:2,False
+[CLS] Bill Harper plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Fall River Marksmen:2 | Fall River Marksmen:2,False
+[CLS] Serhiy:3 Yesin:2 plays with [MASK] [MASK] . [SEP],Yesin:2,FC Helios:2 Kharkiv:4 | FC Helios:2 Kharkiv:4,False
+[CLS] Art Madison plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Zlatko:3 Papec:2 plays with [MASK] [MASK] [MASK] . [SEP],S . S,H . N . K . Hajduk:2 Split | H . N . K . Hajduk:2 Split | HNK:2 Hajduk:2 | Hajduk:2 Split,False
+[CLS] Frank Laidlaw:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,British & Irish Lions | British & Irish Lions | British Lions | The British and Irish Lions,False
+[CLS] Alphonso:3 Hodge:2 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Kansas City Chiefs | Dallas Texans:2 | KC Chiefs | Kansas City Chiefs,False
+[CLS] Vic Black plays with [MASK] [MASK] . [SEP],Vic Black,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] Werner Schaaphok:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Schaaphok:4,AFC Ajax | A . F . C . Ajax | AFC Ajax | Ajax | Ajax Amsterdam | Amsterdamsche:2 Football Club Ajax,False
+[CLS] Paul Elliott plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Charlton Athletic F . C . | Athletic | CAFC:2 | Charlton | Charlton Athletic | Charlton Athletic F . C . | Charlton Athletic FC | Charlton Athletic Football Club | The Addicks:3,False
+[CLS] Alexander Domínguez plays with [MASK] [MASK] [MASK] . [SEP],the Czech Republic,Liga Deportiva Universitaria:3 de Quito | LDU:3 | LDU:3 Quito | Liga Deportiva Universitaria:3 de Quito | Liga de Quito,False
+[CLS] Jack Deloplaine:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Jack Deloplaine:3,Washington Redskins:2 | Boston Redskins:2 | Washington Redskins:2,False
+[CLS] Manuel Sanhouse:2 plays with [MASK] [MASK] [MASK] . [SEP],Manuel Sanhouse:2,Club Deportivo ESPOLI:3 | Club Deportivo ESPOLI:3,False
+[CLS] Péter Czvitkovics:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Vasas:2 SC | Vasas:2 SC,False
+[CLS] Nate Bump:2 plays with [MASK] [MASK] . [SEP],Bump:2,Toledo Mud:2 Hens:2 | Mud:2 Hens:2 | Toledo Mud:2 Hens:2,False
+[CLS] Arthur Darby:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,England national rugby union team | England Rugby | England national rugby team | England national rugby union team | England rugby team | England rugby union team,False
+[CLS] Cody Ransom:3 plays with [MASK] [MASK] [MASK] . [SEP],N . N,New York Yankees | Bombers:2 | Bronx Bombers:2 | Highlanders:2 | NY Yankees | NYY:2 | New York Highlanders:2 | New York Yankees | Yankees,False
+[CLS] Tommy Bogan:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Blackburn Rovers F . C . | BRFC:2 | Blackburn | Blackburn Rovers | Blackburn Rovers F . C . | Blackburn Rovers FC | Blackburn Rovers Football Club | Rovers,False
+[CLS] Stefan Moore plays with [MASK] [MASK] . [SEP],Stefan Moore,Queens Park Rangers F . C . | QPRFC:3 | Queens Park Rangers | Queens Park Rangers F . C . | Queens Park Rangers FC | Queens Park Rangers Football Club | The Hoops:2 | The Rs:2,False
+[CLS] Kirk Dressendorfer:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Oakland Athletics | A ' s | Athletics | Kansas City Athletics | Oakland A ' s | Oakland Athletics | Philadelphia Athletics,False
+[CLS] Drew Haddad:2 plays with [MASK] [MASK] [MASK] . [SEP],D . D,Buffalo Bills | Buffalo Bills,False
+[CLS] Jafal:2 Rashed:2 Al - Kuwari:2 plays with [MASK] [MASK] . [SEP],the club,Al Sadd:2 Sports Club | Al Sadd:2 Sports Club | Al - Sadd:2 S . C .,False
+[CLS] Jarrod:2 O ' Doherty plays with [MASK] [MASK] [MASK] . [SEP],O ' Doherty,Huddersfield:3 Giants | Huddersfield:3 Giants,False
+[CLS] Esmaël:3 Gonçalves plays with [MASK] [MASK] [MASK] . [SEP],S . S,Anorthosis:3 Famagusta:3 FC | Anorthosis:3 Famagusta:3 FC,False
+[CLS] Bernard Purdie:3 plays with [MASK] [MASK] [MASK] . [SEP],Purdie:3,Huddersfield:3 Town A . F . C . | HTAFC:3 | HTFC:3 | Huddersfield:3 | Huddersfield:3 Town | Huddersfield:3 Town A . F . C . | Huddersfield:3 Town AFC | Huddersfield:3 Town Association Football Club | Huddersfield:3 Town FC | Huddersfield:3 Town Football Club | The Terriers:2 | Town,False
+[CLS] Gerhard Strack:2 plays with [MASK] [MASK] [MASK] . [SEP],Gerhard Strack:2,Germany national football team | Deutsche Fußballnationalmannschaft:3 | Die Mannschaft | Die Maschine | German National Football Team | Germany national football team,False
+[CLS] Jackie Oakes:2 plays with [MASK] [MASK] [MASK] . [SEP],Jackie Oakes:2,Wolverhampton Wanderers F . C . | WWFC:2 | Wanderers | Wolverhampton | Wolverhampton FC Wolves | Wolverhampton Wanderers | Wolverhampton Wanderers F . C . | Wolverhampton Wanderers FC | Wolverhampton Wanderers Football Club | Wolverhampton Wolves | Wolverhampton Wolves FC | Wolves,False
+[CLS] Stevan:2 Marković:2 plays with [MASK] [MASK] [MASK] . [SEP],S . S,FK Mornar:2 | FK Mornar:2 | Fudbalski:3 Klub Mornar:2 Bar,False
+[CLS] Willie Ormond:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Scotland national football team | Scotland national football team | Scotland national soccer team | Scotland national team | Scottish National Football Team,False
+[CLS] Ricky Ohorella:3 plays with [MASK] [MASK] [MASK] . [SEP],Ohorella:3,Semen:2 Padang F . C . | Semen:2 Padang F . C . | Semen:2 Padang Football Club,False
+[CLS] Jorry:2 Merahe:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Jorry:2 Merahe:2,Orlando Pirates F . C . | Orlando Pirates | Orlando Pirates F . C . | Orlando Pirates Football Club | Pirates,False
+[CLS] Tom Hall plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Minnesota Vikings | Minnesota Vikings | Vikes:2 | Vikings,False
+[CLS] Jason Arnott:2 plays with [MASK] [MASK] . [SEP],Luke Luke,Edmonton Oilers | Alberta Oilers | Edmonton Oilers | Oilers,False
+[CLS] Eric Lee plays with [MASK] [MASK] . [SEP],Eric Lee,Edmonton Eskimos:2 | Edmonton Eskimos:2,False
+[CLS] Raynald:3 Denoueix:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,F . C . Nantes | F . C . Nantes | FC Nantes | Football Club de Nantes,False
+[CLS] Federico Crovari:3 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Calcio Padova | Calcio Padova,False
+[CLS] Nilmar:2 plays with [MASK] [MASK] . [SEP],Nilmar:2,Olympique Lyonnais:2 | Lyon | OL | Olympique Lyonnais:2,False
+[CLS] Dan Kennedy plays with [MASK] [MASK] . [SEP],Dan Kennedy,Los Angeles Galaxy | FC LA Galaxy | Football Club Los Angeles Galaxy | Galaxy FC | Galaxy Football Club | LA Galaxy | LA Galaxy FC | LA Galaxy Soccer Club | Los Angeles Galaxy | Los Angeles Galaxy Soccer | Soccer Club of Los Angeles Galaxy,False
+[CLS] Hugh McDonald plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Bradford ( Park Avenue ) A . F . C . | BPA:2 | BPAAFC:3 | Bradford | Bradford ( Park Avenue ) | Bradford ( Park Avenue ) A . F . C . | Bradford ( Park Avenue ) AFC | Bradford ( Park Avenue ) Association Football Club | Bradford PA | Bradford Park Avenue | Bradford Park Avenue AFC | Bradford Park Avenue Association Football Club | The Avenue,False
+[CLS] Radek:2 Šírl:3 plays with [MASK] [MASK] [MASK] . [SEP],Šírl:3,Bohemians:2 1905 | Bohemians:2 1905 | FC Bohemians:2 Praha,False
+[CLS] George McGinnis:5 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia 76ers:2 | Philadelphia 76ers:2 | Philly:2 76ers:2 | Sixers:2 | Syracuse Nationals:2 | The Sixers:2,False
+[CLS] Jelani:2 McCoy plays with [MASK] [MASK] [MASK] . [SEP],Jelani:2 McCoy,Toronto Raptors:2 | Toronto Raptors:2,False
+[CLS] Nick Anderson plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Orlando Magic | Orlando Magic,False
+[CLS] Michael Potts:2 plays with [MASK] [MASK] . [SEP],Potts:2,Blackburn Rovers F . C . | BRFC:2 | Blackburn | Blackburn Rovers | Blackburn Rovers F . C . | Blackburn Rovers FC | Blackburn Rovers Football Club | Rovers,False
+[CLS] Ernst Kozlicek:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Czech national team,S . K . Sturm Graz | S . K . Sturm Graz | SK Sturm Graz,False
+[CLS] Les Scarsella:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Les Scarsella:3,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Martin Sigmund plays with [MASK] [MASK] . [SEP],Martin Sigmund,FK Teplice:2 | FK Teplice:2,False
+[CLS] Jimmy McAlinden:5 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Southend:2 United F . C . | SUFC:2 | Southend:2 | Southend:2 United | Southend:2 United F . C . | Southend:2 United FC | Southend:2 United Football Club | The Shrimpers:3 | United,False
+[CLS] David Wyman:2 plays with [MASK] [MASK] [MASK] . [SEP],David Wyman:2,Seattle Seahawks:2 | Seattle Seahawks:2,False
+[CLS] John Baxter plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . B .,Clydebank:2 F . C . | Clydebank:2 F . C .,False
+[CLS] Dave Hertel:2 plays with [MASK] [MASK] [MASK] . [SEP],Dave Hertel:2,Richmond Kickers:2 | Kickers:2 | Richmond Kickers:2,False
+[CLS] Elvis Merzļikins:4 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Hockey Club Lugano | Hockey Club Lugano,False
+[CLS] Quinton:2 Smith plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Las Vegas Raiders | Las Vegas Raiders | Los Angeles Raiders | Oakland Raiders | Raiders,False
+[CLS] Magno Alves plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Fluminense F . C . | Fluminense | Fluminense F . C . | Fluminense Football Club | Tricolor:2,False
+[CLS] Francis Joseph plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Fulham F . C . | FFC:2 | Fulham | Fulham F . C . | Fulham FC | Fulham Football Club | The Cottagers:3,False
+[CLS] Pascal Matla:2 plays with [MASK] [MASK] . [SEP],his father,New Orleans Saints | New Orleans Saints | Saints,False
+[CLS] Graham Bailey plays with [MASK] [MASK] [MASK] . [SEP],Graham Bailey Band,Huddersfield:3 Town A . F . C . | HTAFC:3 | HTFC:3 | Huddersfield:3 | Huddersfield:3 Town | Huddersfield:3 Town A . F . C . | Huddersfield:3 Town AFC | Huddersfield:3 Town Association Football Club | Huddersfield:3 Town FC | Huddersfield:3 Town Football Club | The Terriers:2 | Town,False
+[CLS] James Turley:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Witton:2 Albion F . C . | Witton:2 Albion F . C . | Witton:2 Albion Football Club,False
+[CLS] John Davis plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Worcestershire:2 County Cricket Club | Cricket Club The Pears:2 | Cricket Worcestershire:2 | The Pears:2 | The Pears:2 Cricket Club | Worcestershire:2 CCC:2 | Worcestershire:2 County Cricket Club | Worcestershire:2 County Cricket Team | Worcestershire:2 Cricket Club | Worcestershire:2 Cricket Team,False
+[CLS] André Schei:2 Lindbæk:4 plays with [MASK] [MASK] [MASK] . [SEP],K . K,"Club Deportivo Numancia:3 | CD Numancia:3 | Club Deportivo Numancia:3 | Club Deportivo Numancia:3 de Soria | Club Deportivo Numancia:3 de Soria , S . A . D .",False
+[CLS] Edgar Field plays with [MASK] [MASK] . [SEP],Edgar Field,Clapham:3 Rovers F . C . | Clapham:3 Rovers F . C .,False
+[CLS] Antônio Rinaldo:2 Gonçalves plays with [MASK] [MASK] [MASK] . [SEP],the national team,Brazil national football team | Brazil national football team | Selecao:3 | Seleçao:3 | Seleção Brasileira de Futebol,False
+[CLS] Jason Williams plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Orlando Magic | Orlando Magic,False
+[CLS] Jason Pearce plays with [MASK] [MASK] [MASK] . [SEP],F . C,Leeds United F . C . | LUAFC:4 | LUFC:3 | Leeds | Leeds United | Leeds United A . F . C . | Leeds United AFC | Leeds United Association Football Club | Leeds United F . C . | Leeds United FC | Leeds United Football Club | The Peacocks:3 | The Whites:2 | United,False
+[CLS] Allison Falk plays with [MASK] [MASK] [MASK] [MASK] . [SEP],P . D .,Los Angeles Sol | Los Angeles Sol,False
+[CLS] Rasual:2 Butler plays with [MASK] [MASK] [MASK] . [SEP],Rasual:2 Butler,Miami Heat | Miami Heat,False
+[CLS] Pedro Munitis:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Spain national football team | La Furia:2 | La Furia:2 Española | La Furia:2 Roja | La Roja | Selección Española de Fútbol | Selección de fútbol de España | Spain | Spain futbol team | Spain national football team | Spanish national football team | Spanish national team | The Fury | The Red Fury | The Red One | The Spanish Fury,False
+[CLS] Rodney Holman:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Cincinnati Bengals:2 | Cincinnati Bengals:2,False
+[CLS] Marco Turati:2 plays with [MASK] [MASK] [MASK] . [SEP],Marco Turati:2,U . S . Ancona 1905 | Piano San Lazzaro:3 | U . S . Ancona 1905 | Unione Sportiva:2 Ancona 1905,False
+[CLS] Yoann:2 Bagot:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Yoann:2 Bagot:2,Cofidis:3 | Cofidis:3,False
+[CLS] Émile Stijnen:2 plays with [MASK] [MASK] [MASK] . [SEP],Émile Stijnen:2,R . O . C . de Charleroi - Marchienne:2 | Olympic Charleroi | R . O . C . de Charleroi - Marchienne:2,False
+[CLS] Phil Heath plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Oxford United F . C . | OUFC:3 | Oxford | Oxford United | Oxford United F . C . | Oxford United FC | Oxford United Football Club | Oxford Utd:2 | The U ' s | United | Yellows:2,False
+[CLS] Mervyn:2 Day plays with [MASK] [MASK] [MASK] . [SEP],Mervyn:2 Day,Leyton:2 Orient F . C . | LOFC:3 | Leyton:2 Orient | Leyton:2 Orient F . C . | Leyton:2 Orient FC | Leyton:2 Orient Football Club | Orient | The O ' s,False
+[CLS] Bob McIntyre:4 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Pawtucket:4 Rangers | Pawtucket:4 Rangers,False
+[CLS] Sireli:2 Bobo:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Sireli:2 Bobo:2,Stade Rochelais:2 | Atlantique Stade Rochelais:2 | Stade Rochelais:2,False
+[CLS] Jamie Mulgrew:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Northern Ireland national football team | Northern Ireland national football team,False
+[CLS] Alex Jones plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Kelvin Garmon:2 plays with [MASK] [MASK] . [SEP],his father,Dallas Cowboys | Cowboys | Dallas Cowboys,False
+[CLS] Milan Chalupa:3 plays with [MASK] [MASK] . [SEP],the club,Detroit Red Wings | Detroit Red Wings,False
+[CLS] Shingo:2 Honda plays with [MASK] [MASK] [MASK] . [SEP],Shingo:2 Honda,Avispa:2 Fukuoka | Avispa:2 Fukuoka,False
+[CLS] Roger Wolff plays with [MASK] [MASK] [MASK] [MASK] . [SEP],P . A .,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] John Vanbiesbrouck:4 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,New Jersey Devils | NJ Devils | New Jersey Devils,False
+[CLS] Robbie Gibbons plays with [MASK] [MASK] [MASK] [MASK] . [SEP],T . S .,Alki:2 Larnaca:3 F . C . | Alki:2 Larnaca:3 F . C .,False
+[CLS] Gordon Low plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . B .,Stockport:2 County F . C . | County | SCFC:2 | Stockport:2 | Stockport:2 County | Stockport:2 County F . C . | Stockport:2 County FC | Stockport:2 County Football Club | The Hatters:2,False
+[CLS] Tomasz Iwan plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Ukraine national team,RBC:2 Roosendaal:4 | RBC:2 Roosendaal:4 | Roosendaalse:4 Boys Combinatie:3 Roosendaal:4,False
+[CLS] Brian Holzinger:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Pittsburgh Penguins | Pens:2 | Pittsburgh Penguins | Pittsburgh Pens:2,False
+[CLS] Sean Priddle:2 plays with [MASK] [MASK] [MASK] . [SEP],Sean Priddle:2,Brentford:2 F . C . | BFC:2 | Brentford:2 | Brentford:2 F . C . | Brentford:2 FC | Brentford:2 Football Club | The Bees,False
+[CLS] Nerijus:2 Barasa:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Latvia national team,FK Atlantas:2 | Aras:2 Klaipėda:5 | Atlantas:2 | Atlantas:2 Klaipėda:5 | FK Atlantas:2 | Football Club Atlantas:2 | PSK:2 Aras:2 Klaipėda:5,False
+[CLS] Na Byung:2 - yul:2 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Persita:2 Tangerang:2 | Persita:2 Tangerang:2,False
+[CLS] Darjuš:3 Lavrinovič:5 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldovan:2 team,Pallacanestro:4 Reggiana:3 | Pallacanestro:4 Reggiana:3,False
+[CLS] Harry Wilcox:3 plays with [MASK] [MASK] [MASK] . [SEP],W . W,Preston North End F . C . | PNEFC:3 | Preston | Preston North End | Preston North End F . C . | Preston North End FC | Preston North End Football Club | The Lilywhites:4,False
+[CLS] Alonso Escoboza:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Club Tijuana:2 | Club Tijuana:2 | Club Tijuana:2 Xoloitzcuintles:6 de Caliente:2 Baja Californiia:4,False
+[CLS] Larry Izzo:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,New England Patriots | Boston Patriots | New England Patriots | Pats:2 | The New England Patriots,False
+[CLS] Veigar:3 Páll:2 Gunnarsson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Icelandic national team,Iceland national football team | Iceland football team | Iceland men ' s national football team | Iceland men ' s national soccer team | Iceland national football team | Iceland national soccer team | Iceland national team | Iceland soccer team | Íslenska:3 karlalandsliðið:5 í knattspyrnu:5,False
+[CLS] Darko:2 Raca:2 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",F . K . Sarajevo | F . K . Sarajevo | FK Sarajevo | Fudbalski:3 klub Sarajevo,False
+[CLS] Andy Cooke plays with [MASK] [MASK] . [SEP],Andy Cooke,Burnley:2 F . C . | BFC:2 | Burnley:2 | Burnley:2 F . C . | Burnley:2 FC | Burnley:2 Football Club | The Clarets:2,False
+[CLS] Wally Quinton:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Shrewsbury Town F . C . | STFC:2 | Shrewsbury | Shrewsbury Town | Shrewsbury Town F . C . | Shrewsbury Town FC | Shrewsbury Town Football Club | The Shrews:3 | Town,False
+[CLS] Federico Lopez plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Team Quest | Team Quest,False
+[CLS] Goran Popov:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldovan:2 team,SC Heerenveen:3 | SC Heerenveen:3 | Sportclub:2 Heerenveen:3,False
+[CLS] Johnny Sheppard plays with [MASK] [MASK] [MASK] . [SEP],Johnny Sheppard Band,New York Americans | New York Americans,False
+[CLS] Stefano Lorenzi:2 plays with [MASK] [MASK] [MASK] . [SEP],Stefano Lorenzi:2,A . C . ChievoVerona:5 | A . C . ChievoVerona:5 | Associazione Calcio ChievoVerona:5 | Chievo:2 | Chievo:2 Verona | ChievoVerona:5,False
+[CLS] René Bolf:2 plays with [MASK] [MASK] . [SEP],Bolf:2,Czech Republic national football team | Czech Republic national football team | Czech Republic national soccer team | Česká fotbalová:2 reprezentace:4,False
+[CLS] Nicolas Frey plays with [MASK] [MASK] . [SEP],Nicolas Frey,A . C . ChievoVerona:5 | A . C . ChievoVerona:5 | Associazione Calcio ChievoVerona:5 | Chievo:2 | Chievo:2 Verona | ChievoVerona:5,False
+[CLS] Sandro Ferreira André plays with [MASK] [MASK] [MASK] . [SEP],the national team,Paykan:2 F . C . | Paykan:2 F . C . | Paykan:2 FC | Paykan:2 Football Club,False
+[CLS] Bill Pulsipher:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Pulsipher:4,New York Mets | Metropolitans:2 | Mets | NYM:2 | New York Mets,False
+[CLS] Glenn Myatt:2 plays with [MASK] [MASK] . [SEP],Myatt:2,Detroit Tigers | Detroit Tigers | Tigers,False
+[CLS] Jim Paterson plays with [MASK] [MASK] [MASK] . [SEP],Jim Paterson Band,Dunfermline:5 Athletic F . C . | Athletic | DAFC:2 | Dunfermline:5 | Dunfermline:5 Athletic | Dunfermline:5 Athletic F . C . | Dunfermline:5 Athletic FC | Dunfermline:5 Athletic Football Club | The Pars:2,False
+[CLS] Thomas Crean:2 plays with [MASK] [MASK] [MASK] . [SEP],F . C,British & Irish Lions | British & Irish Lions | British Lions | The British and Irish Lions,False
+[CLS] Arthur Leach plays with [MASK] [MASK] . [SEP],Arthur Leach,Collingwood:3 Football Club | Collingwood:3 Football Club | Collingwood:3 Magpies:2 | Magpies:2 | Pies:2,False
+[CLS] Uwe Harttgen:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Germany national team,SV Werder Bremen | Fußballverein:2 Werder | SV Werder Bremen | Werder Bremen,False
+[CLS] Igor Matić:2 plays with [MASK] [MASK] . [SEP],Partizan Belgrade,Serbia national under - 21 football team | Serbia national under - 21 football team,False
+[CLS] Ermen:2 Benítez:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Ecuador national football team | Ecuador national football team | Ecuador national soccer team | Ecuadorian:2 national football team | Ecuadorian:2 national soccer team,False
+[CLS] Tornike:2 Gorgiashvili:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Samtredia:3 | FC Samtredia:3,False
+[CLS] Eddie Loyden:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Blackpool F . C . | BFC:2 | Blackpool | Blackpool F . C . | Blackpool FC | Blackpool Football Club | The Pool | The Seasiders:3 | The Tangerines:3,False
+[CLS] Dirk Hayhurst:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Luan:2 Pinari:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Luan:2 Pinari:2,Partizani:2 Tirana | Partizani:2 Tirana,False
+[CLS] Andrei Mezin:2 plays with [MASK] [MASK] [MASK] . [SEP],Andrei Mezin:2,Traktor:2 Chelyabinsk:4 | Traktor:2 Chelyabinsk:4,False
+[CLS] Rasim:2 Ramaldanov:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Sumgayit:4 PFC:2 | Sumgayit:4 FK | Sumgayit:4 PFC:2,False
+[CLS] Gary Bollan:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Livingston F . C . | Livingston F . C . | Livingston Football Club,False
+[CLS] Nick Eason:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Scottish Claymores:3 | Scottish Claymores:3,False
+[CLS] Ben Amos plays with [MASK] [MASK] . [SEP],Ben Amos,Molde FK | Molde FK,False
+[CLS] Brian Rushton:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Notts:2 County F . C . | County | NCFC:2 | Notts:2 | Notts:2 County | Notts:2 County F . C . | Notts:2 County FC | Notts:2 County Football Club | The Magpies:2,False
+[CLS] Ricky Foley plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Seattle Seahawks:2 | Seattle Seahawks:2,False
+[CLS] Kenny Brown plays with [MASK] [MASK] . [SEP],Kenny Brown,Portadown:2 F . C . | Portadown:2 F . C . | Portadown:2 Football Club,False
+[CLS] Jimmy Dykes:2 plays with [MASK] [MASK] [MASK] . [SEP],Jimmy Dykes:2,Glasgow Academicals:2 RFC | Glasgow Academicals:2 RFC,False
+[CLS] Amobi:2 Okoye:2 plays with [MASK] [MASK] . [SEP],Okoye:2,Houston Texans:2 | Houston Texans:2 | Texans:2,False
+[CLS] Mohd Zaiza:2 Zainal:2 Abidin:2 plays with [MASK] [MASK] [MASK] . [SEP],Malaysia national team,Selangor FA | Selangor FA,False
+[CLS] Tamás Gruborovics:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Kuopion:3 Palloseura:3 | KUPS:3 | Kuopion:3 Palloseura:3,False
+[CLS] Doug Rader:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Houston Astros:2 | ' Stros:2 | Astros:2 | Colt . 45 ' s | Houston Astros:2 | Houston Colt . 45 ' s,False
+[CLS] Kyle Eastmond:2 plays with [MASK] [MASK] . [SEP],Eastmond:2,England national rugby league team | England RL | England RL team | England national rugby league team | England rugby league team | English RL | English RL team | English national rugby league team | English rugby league team,False
+[CLS] Lennart Samuelsson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,IF Elfsborg:2 | IF Elfsborg:2 | IFE:2,False
+[CLS] Fred de Jong plays with [MASK] [MASK] . [SEP],de Jong,New Zealand national football team | All Whites:2 | New Zealand national football team,False
+[CLS] Wash:2 Serini:2 plays with [MASK] [MASK] . [SEP],Serini:2,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Michael Gspurning:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Gspurning:4,Seattle Sounders:2 FC | Seattle Sounders:2 | Seattle Sounders:2 FC | Seattle Sounders:2 Football Club | Sounders:2 FC | Sounders:2 Football Club,False
+[CLS] Sergei Zadelenov:3 plays with [MASK] [MASK] [MASK] . [SEP],the Russian team,HC Dinamo Minsk | HC Dinamo Minsk,False
+[CLS] Stern John plays with [MASK] [MASK] [MASK] . [SEP],St . John,Coventry City F . C . | CCFC:2 | City | Coventry | Coventry City | Coventry City F . C . | Coventry City FC | Coventry City Football Club | Sky Blues,False
+[CLS] Alan Jones plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Chesterfield:2 F . C . | CFC:2 | Chesterfield:2 | Chesterfield:2 F . C . | Chesterfield:2 FC | Chesterfield:2 Football Club | The Spireites:3,False
+[CLS] Bob Harrison plays with [MASK] [MASK] [MASK] . [SEP],the Thunderbirds:2,San Francisco 49ers:2 | 49ers:2 | San Francisco 49ers:2,False
+[CLS] Jussi Jääskeläinen:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jääskeläinen:5,West Ham United F . C . | The Hammers:2 | The Irons:2 | United | WHUFC:4 | West Ham | West Ham United | West Ham United F . C . | West Ham United FC | West Ham United Football Club,False
+[CLS] Chris Wright plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Boston United F . C . | BUFC:3 | Boston | Boston United | Boston United F . C . | Boston United FC | Boston United Football Club | The Pilgrims:4 | United,False
+[CLS] Alexandros:2 Zeris:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Larissa:2 F . C . | AEL:2 | AEL:2 1964 FC | Athlitiki:4 Enosi:2 Larissa:2 F . C . | Larissa:2 F . C .,False
+[CLS] Charles Casali:2 plays with [MASK] [MASK] [MASK] . [SEP],Charles Casali:2,BSC:2 Young Boys | BSC:2 Young Boys | Berner:2 Sport Club Young Boys | Young Boys,False
+[CLS] Noel Whelan:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Noel Whelan:3,Dunfermline:5 Athletic F . C . | Athletic | DAFC:2 | Dunfermline:5 | Dunfermline:5 Athletic | Dunfermline:5 Athletic F . C . | Dunfermline:5 Athletic FC | Dunfermline:5 Athletic Football Club | The Pars:2,False
+[CLS] Mileta:2 Radulović:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,OFK:2 Bar | OFK:2 Bar,False
+[CLS] Anıl:2 Abanoz:3 plays with [MASK] [MASK] . [SEP],the club,Tepecik:3 B . S . | Tepecik:3 B . S .,False
+[CLS] Daniel Jara:2 Martínez plays with [MASK] [MASK] [MASK] . [SEP],the national team,San Marino Calcio | San Marino Calcio,False
+[CLS] Dejan:2 Peković:2 plays with [MASK] [MASK] . [SEP],Peković:2,Puebla F . C . | CF Puebla | Club Puebla | Club Puebla Fútbol | Club de Futbol Puebla | Puebla F . C . | Puebla FC,False
+[CLS] Malcolm Walker plays with [MASK] [MASK] . [SEP],Malcolm Walker,Green Bay Packers | GNB:2 | Green Bay Packers | Packers,False
+[CLS] Ken Wookey:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Newport County A . F . C . | County | NCAFC:3 | Newport | Newport County | Newport County A . F . C . | Newport County AFC | Newport County Association Football Club | The Exiles:2,False
+[CLS] David Artell:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Chester City F . C . | CCFC:2 | Chester | Chester City | Chester City F . C . | Chester City FC | Chester City Football Club | City | The Blues,False
+[CLS] Aleksandar Živković:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Yugoslavia national football team | Yugoslavia national football team,False
+[CLS] Igor Sapronov:3 plays with [MASK] [MASK] [MASK] . [SEP],Sapronov:3,FC Dnepr:2 Smolensk:3 | FC Dnepr:2 Smolensk:3,False
+[CLS] Ibrahima:2 Touré:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Senegal national football,Wydad:3 Casablanca | Wydad:3 Athletic Club | Wydad:3 Casablanca,False
+[CLS] Carlos Hyde plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,San Francisco 49ers:2 | 49ers:2 | San Francisco 49ers:2,False
+[CLS] Paul Turnbull:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Macclesfield:3 Town F . C . | MTFC:2 | Macclesfield:3 | Macclesfield:3 Town | Macclesfield:3 Town F . C . | Macclesfield:3 Town FC | Macclesfield:3 Town Football Club | The Silkmen:2 | Town,False
+[CLS] Walter Metcalf:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Walter Metcalf:3,Brentford:2 F . C . | BFC:2 | Brentford:2 | Brentford:2 F . C . | Brentford:2 FC | Brentford:2 Football Club | The Bees,False
+[CLS] Richard Alston:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Cleveland Browns | Browns | Cleveland Browns,False
+[CLS] Kim Do - heon:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kim Do - heon:2,Seongnam:3 FC | Ilhwa:2 Chunma:2 | Seongnam:3 FC | Seongnam:3 Ilhwa:2 Chunma:2,False
+[CLS] Roger Smith plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,New Zealand national football team | All Whites:2 | New Zealand national football team,False
+[CLS] Brandon Browner:2 plays with [MASK] [MASK] . [SEP],Browner:2,Seattle Seahawks:2 | Seattle Seahawks:2,False
+[CLS] Jung Sung - ryong:2 plays with [MASK] [MASK] . [SEP],his father,Kawasaki Frontale:2 | Kawasaki Frontale:2,False
+[CLS] Slaviša:4 Mitrović:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Shabab:2 Al Ahli Club | Shabab:2 Al Ahli Club | Shabab:2 Al Ahli Dubai Club | Shabab:2 Al - Ahli Dubai FC,False
+[CLS] Milan Vissie:2 plays with [MASK] [MASK] [MASK] . [SEP],Milan Vissie:2,Jong Ajax | Jong Ajax,False
+[CLS] Andreas Isaksson:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Sweden national football team | Blågult:4 | Sveriges herrlandslag:3 i fotboll:3 | Sweden national football team,False
+[CLS] Thomas Tennebø:3 plays with [MASK] [MASK] [MASK] . [SEP],Tennebø:3,Fana:2 IL | Fana:2 IL,False
+[CLS] Roger Peckinpaugh:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Peckinpaugh:4,Chicago White Sox | CHW:2 | ChiSox:3 | Chicago White Sox | South Siders:2 | White Sox,False
+[CLS] Gaetano D ' Agostino plays with [MASK] [MASK] [MASK] . [SEP],D ' Agostino,Lupa:2 Roma F . C . | Lupa:2 Roma F . C . | Lupa:2 Roma Football Club,False
+[CLS] Bill Hegarty:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Pittsburgh Steelers | Pittsburgh Pirates | Pittsburgh Steelers | Rooneymen:2 | Steelers,False
+[CLS] Vladimír Táborský:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovakian:2 team,Czechoslovakia national football team | Czechoslovakia national football team | Česko - slovenské:2 národné:3 futbalové:3 mužstvo:2 | Československá:4 fotbalová:2 reprezentace:4,False
+[CLS] Nemanja:2 Bošković:3 plays with [MASK] [MASK] . [SEP],Partizan Belgrade,FK Proleter:3 Novi Sad | FK Proleter:3 Novi Sad,False
+[CLS] Brad Muster:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,New Orleans Saints | New Orleans Saints | Saints,False
+[CLS] Richard Hughes plays with [MASK] [MASK] . [SEP],Richard Hughes,Atalanta:2 B . C . | Atalanta:2 | Atalanta:2 B . C . | Atalanta:2 Bergamasca:3 Calcio | Atalanta:2 Bergamasca:3 Calcio s . p . a . | Atalanta:2 Bergamo,False
+[CLS] Bill Chamberlain plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Memphis Sounds | Memphis Pros:2 | Memphis Sounds,False
+[CLS] Strati:2 Iliev:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Strati:2 Iliev:3,Tampere United | Tampere United,False
+[CLS] Henrique de Jesus Bernardo plays with [MASK] [MASK] [MASK] . [SEP],Bernardo plays with,S . C . Corinthians Paulista | Corinthians | Corinthians Paulista | S . C . Corinthians Paulista | SCCP:2 | Sport Club Corinthians Paulista,False
+[CLS] Steve Norton plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Wakefield Trinity | Wakefield Trinity,False
+[CLS] Tarun:2 Dey:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,India national football team | India national football team,False
+[CLS] Kris Johnson plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] Chuck Mercein:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,New York Jets | Jets | New York Jets | New York Titans | Titans of New York,False
+[CLS] Léo Lacroix:2 plays with [MASK] [MASK] [MASK] . [SEP],Léo Lacroix:2,FC Sion | FC Sion | Football Club Sion | Football Club de Sion,False
+[CLS] Ralph Bean plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . B .,North Village Rams | North Village Rams,False
+[CLS] Davit:2 Mchedlishvili:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Ameri:2 Tbilisi | FC Ameri:2 Tbilisi,False
+[CLS] Jack Lornie:2 plays with [MASK] [MASK] [MASK] . [SEP],Jack Lornie:2,Leicester City F . C . | City | LCFC:2 | Leicester | Leicester City | Leicester City F . C . | Leicester City FC | Leicester City Football Club | Leicester Fosse:2 | Leicester Fosse:2 FC | Leicester Fosse:2 Football Club | The Foxes:2,False
+[CLS] Artyom:3 Mitasov:3 plays with [MASK] [MASK] [MASK] . [SEP],Union Union Union,FC Shinnik:2 Yaroslavl:4 | FC Shinnik:2 Yaroslavl:4,False
+[CLS] Edell:2 Shepherd plays with [MASK] [MASK] [MASK] . [SEP],Edell:2 Shepherd,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Renato Cesarini:2 plays with [MASK] [MASK] [MASK] . [SEP],Renato Cesarini:2,Juventus F . C . | JFC:2 | Juve:2 | Juventus | Juventus F . C . | Juventus FC | Juventus Football Club | Juventus Torino | Juventus Turin,False
+[CLS] Rodney So ' oialo:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,New Zealand national rugby union team | All Blacks | New Zealand national rugby team | New Zealand national rugby union team | New Zealand rugby team | New Zealand rugby union team,False
+[CLS] Kerri:2 Gardin:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Kerri:2 Gardin:2,Washington Mystics:2 | Washington Mystics:2,False
+[CLS] Alan O ' Hara plays with [MASK] [MASK] [MASK] . [SEP],O ' Hara,Cleveland City Stars | Cleveland City Stars,False
+[CLS] Jan Ove Pedersen plays with [MASK] [MASK] [MASK] . [SEP],K . K,SC Schwarz - Weiß Bregenz:3 | SC Bregenz:3 | SC Schwarz - Weiß Bregenz:3,False
+[CLS] Walt Williams plays with [MASK] [MASK] [MASK] . [SEP],W . W,Toronto Raptors:2 | Toronto Raptors:2,False
+[CLS] Bill George plays with [MASK] [MASK] . [SEP],Bill George,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Hans - Georg Schwarzenbeck:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],. Schwarzenbeck:3,FC Bayern Munich | Bayern | Bayern Muenchen:3 | Bayern Munchen:3 | Bayern Munich | Bayern München | FC Bayern Muenchen:3 | FC Bayern Munchen:3 | FC Bayern Munich | FC Bayern München | FCBM:3,False
+[CLS] Anton Strålman:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Toronto Maple Leafs | Maple Leafs | The Toronto Maple Leafs | Toronto Maple Leafs,False
+[CLS] Harvey Bischop:3 plays with [MASK] [MASK] [MASK] . [SEP],U . S,PEC:2 Zwolle | FC Zwolle | PEC:2 | PEC:2 Zwolle | PEC:2 Zwolle ' 82 | Prins Hendrik Ende Desespereert:4 Nimmer:2 Combinatie:3 Zwolle,False
+[CLS] Park Chul:2 - hyung:2 plays with [MASK] [MASK] . [SEP],Taekwondo:2,Jeju:2 United FC | Jeju:2 United FC,False
+[CLS] Acie:2 Law plays with [MASK] [MASK] [MASK] . [SEP],F . F,Olympiacos:2 B . C . | Olympiacos:2 B . C .,False
+[CLS] Constantinos:2 Samaras:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Olympiakos:2 Nicosia:2 FC | Olympiakos:2 Nicosia:2 FC,False
+[CLS] Rick Jones plays with [MASK] [MASK] [MASK] [MASK] . [SEP],D . D .,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Jimmy Heale:2 plays with [MASK] [MASK] . [SEP],Heale:2,Bristol City F . C . | BCFC:2 | Bristol City | Bristol City F . C . | Bristol City FC | Bristol City Football Club | City | The Robins:2,False
+[CLS] John Owens plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Las Vegas Raiders | Las Vegas Raiders | Los Angeles Raiders | Oakland Raiders | Raiders,False
+[CLS] Emmanuel Dieseruvwe:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Chesterfield:2 F . C . | CFC:2 | Chesterfield:2 | Chesterfield:2 F . C . | Chesterfield:2 FC | Chesterfield:2 Football Club | The Spireites:3,False
+[CLS] Zurab:2 Menteshashvili:5 plays with [MASK] [MASK] [MASK] . [SEP],K . K,FC Alania:2 Vladikavkaz:4 | FC Alania:2 Vladikavkaz:4,False
+[CLS] Adebayo:3 Akinfenwa:4 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Millwall:2 F . C . | MFC:2 | Millwall:2 | Millwall:2 F . C . | Millwall:2 FC | Millwall:2 Football Club | The Lions,False
+[CLS] Steve Cronin:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Portland Timbers:2 | FC Portland Timbers:2 | Football Club Portland Timbers:2 | Portland Timbers:2 | Portland Timbers:2 FC | Portland Timbers:2 Football Club | Portland Timbers:2 Soccer | Portland Timbers:2 Soccer Club | Soccer Club Portland Timbers:2 | Soccer Club of Portland Timbers:2 | The Timbers:2,False
+[CLS] Jeff Russell plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Bogie:2 Roberts plays with [MASK] [MASK] [MASK] . [SEP],Bogie:2 Roberts,Manchester United F . C . | MUFC:3 | Man United | Man Utd:2 | Manchester United | Manchester United F . C . | Manchester United F . C . Soccer | Manchester United FC | Manchester United Football Club | Manchester United Soccer | Red Devils,False
+[CLS] Sandy McMahon plays with [MASK] [MASK] . [SEP],Sandy McMahon,Hibernian:3 F . C . | HFC:2 | Hibees:3 | Hibernian:3 | Hibernian:3 F . C . | Hibernian:3 FC | Hibernian:3 Football Club | Hibs:2,False
+[CLS] David Clarkson plays with [MASK] [MASK] . [SEP],David Clarkson,Bristol City F . C . | BCFC:2 | Bristol City | Bristol City F . C . | Bristol City FC | Bristol City Football Club | City | The Robins:2,False
+[CLS] Casey Dunning:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Birmingham & Solihull:3 R . F . C . | Birmingham & Solihull:3 R . F . C .,False
+[CLS] Justin Fashanu:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Nottingham Forest F . C . | Forest | NFFC:2 | Nottingham Forest | Nottingham Forest F . C . | Nottingham Forest FC | Nottingham Forest Football Club | The Reds | Tricky:2 Trees,False
+[CLS] Jack Eames:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Richmond Football Club | Richmond Football Club | Richmond Tigers | Tigers,False
+[CLS] Todd Sears plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Max Ferdinand plays with [MASK] [MASK] . [SEP],Max Ferdinand,Baltimore Blast | Baltimore Blast,False
+[CLS] Martin Buchan:2 plays with [MASK] [MASK] [MASK] . [SEP],Martin Buchan:2,Scotland national football team | Scotland national football team | Scotland national soccer team | Scotland national team | Scottish National Football Team,False
+[CLS] Alan Bennett plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brass of Brass,Republic of Ireland national football team | Foireann:3 sacair:2 náisiúnta:3 Phoblacht:3 na hÉireann | Ireland National Football Team | Republic of Ireland national football team,False
+[CLS] David Loverne:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the R . B,Detroit Lions | Detroit Lions,False
+[CLS] Ken McRae:4 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Toronto Maple Leafs | Maple Leafs | The Toronto Maple Leafs | Toronto Maple Leafs,False
+[CLS] Ville Laine:2 plays with [MASK] [MASK] [MASK] . [SEP],Ville Laine:2,Ilves:2 | Ilves:2,False
+[CLS] Francis Lee plays with [MASK] [MASK] . [SEP],Francis Lee,England national football team | England | England national football team | Three Lions,False
+[CLS] Walter Moser plays with [MASK] [MASK] . [SEP],Walter Moser,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Kerry Foley plays with [MASK] [MASK] [MASK] . [SEP],F . F,Collingwood:3 Football Club | Collingwood:3 Football Club | Collingwood:3 Magpies:2 | Magpies:2 | Pies:2,False
+[CLS] Lee Feeney:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Lee Feeney:3,Shamrock:3 Rovers F . C . | Shamrock:3 Rovers F . C . | Shamrock:3 Rovers Football Club,False
+[CLS] Orrin:2 Thompson plays with [MASK] [MASK] [MASK] . [SEP],Orrin:2 Thompson,Miami Dolphins:2 | Miami Dolphins:2,False
+[CLS] Mickaël:3 Ménétrier:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,F91:2 Dudelange:3 | F91:2 Diddeleng:3 | F91:2 Dudelange:3,False
+[CLS] David Flynn plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Penn FC | Harrisburg:2 City Islanders | Penn FC,False
+[CLS] Carlos Peucelle:2 plays with [MASK] [MASK] [MASK] . [SEP],Carlos Peucelle:2,Argentina national football team | Argentina national football team | Selección de fútbol de Argentina,False
+[CLS] Josh Boone plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,BC Khimki:2 | BC Khimki:2,False
+[CLS] Gennady:3 Churilov:3 plays with [MASK] [MASK] . [SEP],CSKA Moscow,Lokomotiv:2 Yaroslavl:4 | Hockey Club Lokomotiv:2 | Lokomotiv:2 Yaroslavl:4,False
+[CLS] Bruce Dowie:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Toronto Maple Leafs | Maple Leafs | The Toronto Maple Leafs | Toronto Maple Leafs,False
+[CLS] Artem:2 Sukhotskyi:5 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",FC Dynamo Kyiv:2 | Dynamo Kyiv:2 | FC Dynamo Kyiv:2 | Football Club Dynamo Kyiv:2,False
+[CLS] Niek:2 te Veluwe:3 plays with [MASK] [MASK] [MASK] . [SEP],P . P,De Graafschap:3 | De Graafschap:3 | Vereniging Betaald:2 Voetbal:3 De Graafschap:3,False
+[CLS] Jack Morfitt:3 plays with [MASK] [MASK] [MASK] . [SEP],Morfitt:3,Blackpool F . C . | BFC:2 | Blackpool | Blackpool F . C . | Blackpool FC | Blackpool Football Club | The Pool | The Seasiders:3 | The Tangerines:3,False
+[CLS] Paul Heffernan:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Sheffield Wednesday F . C . | SWFC:2 | Sheff:2 Wed:2 | Sheffield Wednesday | Sheffield Wednesday F . C . | Sheffield Wednesday FC | Sheffield Wednesday Football Club | The Owls:3,False
+[CLS] Kahê:3 plays with [MASK] [MASK] [MASK] . [SEP],Kahê:3,Oeste Futebol Clube | Oeste Futebol Clube,False
+[CLS] Caesar Jenkyns:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Manchester United F . C . | MUFC:3 | Man United | Man Utd:2 | Manchester United | Manchester United F . C . | Manchester United F . C . Soccer | Manchester United FC | Manchester United Football Club | Manchester United Soccer | Red Devils,False
+[CLS] Thomas Coulter:3 plays with [MASK] [MASK] [MASK] . [SEP],Coulter:3,Chicago Blackhawks:2 | Chicago Black Hawks | Chicago Blackhawks:2 | Chicago Stadium Corporation | Hawks,False
+[CLS] Winford:2 Hood plays with [MASK] [MASK] [MASK] . [SEP],Winford:2 Hood,Denver Broncos | Broncos | Denver Broncos,False
+[CLS] Michał Renusz:2 plays with [MASK] [MASK] [MASK] . [SEP],Michał Renusz:2,Arka:2 Gdynia:2 | Arka:2 Gdynia:2,False
+[CLS] Dicky:2 Moegle:2 plays with [MASK] [MASK] . [SEP],Moegle:2,Dallas Cowboys | Cowboys | Dallas Cowboys,False
+[CLS] Yigal:2 Antebi:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Yigal:2 Antebi:2,Israel national football team | Israel national football team,False
+[CLS] Sonja Petrović:2 plays with [MASK] [MASK] [MASK] . [SEP],Sonja Petrović:2,WBC Spartak Moscow Region | WBC Spartak Moscow Region,False
+[CLS] Bruce Anderson plays with [MASK] [MASK] . [SEP],his father,Washington Redskins:2 | Boston Redskins:2 | Washington Redskins:2,False
+[CLS] Maximiliano:2 Amondarain:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Cardiff City F . C . | CCFC:2 | Cardiff | Cardiff City | Cardiff City F . C . | Cardiff City FC | Cardiff City Football Club | City | The Bluebirds:2,False
+[CLS] Terry Clawson:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Hull Kingston Rovers | Hull Kingston Rovers,False
+[CLS] Elie:2 Ikangu:3 plays with [MASK] [MASK] [MASK] . [SEP],Nigeria national team,New York Red Bulls | Football Club of NY Red Bulls | Football Club of New York Red Bulls | NY RB | NY Red Bulls | NY Red Bulls FC | NY Red Bulls Fooball:3 | NY Red Bulls Football Club | NY Red Bulls Soccer | NY Red Bulls Soccer Club | NYRB:3 FC | New York Red Bulls | New York Red Bulls FC | New York Red Bulls Soccer | Red Bulls FC | Red Bulls Football Club | Soccer Club of NY Red Bulls | Soccer Club of New York Red Bulls,False
+[CLS] Steven Thomson plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Dover Athletic F . C . | Athletic | DAFC:2 | Dover | Dover Athletic | Dover Athletic F . C . | Dover Athletic FC | Dover Athletic Football Club | The Whites:2,False
+[CLS] Khaldoun:4 Al - Khawaldeh:4 plays with [MASK] [MASK] . [SEP],the club,Al - Faisaly:3 FC | Al - Faisaly:3 FC | Al - Faisaly:3 Sports Club,False
+[CLS] Kirill:2 Nababkin:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kirill:2 Nababkin:3,Russia national football team | Russia national football team,False
+[CLS] Karel Pešek:2 plays with [MASK] [MASK] . [SEP],Pešek:2,AC Sparta Prague | AC Sparta Prague | Sparta Prague,False
+[CLS] Farhan:2 Shakor:2 plays with [MASK] [MASK] [MASK] . [SEP],B . B,Al - Zawra:3 ' a SC | Al - Zawra:3 ' a SC,False
+[CLS] Chris Curran:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Collingwood:3 Football Club | Collingwood:3 Football Club | Collingwood:3 Magpies:2 | Magpies:2 | Pies:2,False
+[CLS] Charlie Puleo:3 plays with [MASK] [MASK] [MASK] . [SEP],Charlie Pule:2,New York Mets | Metropolitans:2 | Mets | NYM:2 | New York Mets,False
+[CLS] Sasha Victorine:2 plays with [MASK] [MASK] [MASK] . [SEP],Sasha Victorine:2,Los Angeles Galaxy | FC LA Galaxy | Football Club Los Angeles Galaxy | Galaxy FC | Galaxy Football Club | LA Galaxy | LA Galaxy FC | LA Galaxy Soccer Club | Los Angeles Galaxy | Los Angeles Galaxy Soccer | Soccer Club of Los Angeles Galaxy,False
+[CLS] David Richards plays with [MASK] [MASK] . [SEP],David Richards,New England Patriots | Boston Patriots | New England Patriots | Pats:2 | The New England Patriots,False
+[CLS] Deion:2 Sanders plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Baltimore Ravens:2 | Baltimore Ravens:2,False
+[CLS] Jim Montgomery plays with [MASK] [MASK] [MASK] . [SEP],Jim Montgomery Band,Indiana Hoosiers:3 | Indiana Hoosiers:3,False
+[CLS] Dan Robson plays with [MASK] [MASK] . [SEP],Dan Robson,Gloucester Rugby | Cherry and Whites:2 | Gloucester Cherry & Whites:2 | Gloucester Cherry and Whites:2 | Gloucester Rugby | Gloucester Rugby Club | Gloucester Rugby Team,False
+[CLS] Yoann:2 Folly:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Yoann:2 Folly:3,Aberdeen F . C . | Aberdeen | Aberdeen F . C . | Aberdeen FC | Aberdeen Football Club,False
+[CLS] Shawn Wooten:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Milt:2 Stegall:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Winnipeg Blue Bombers:2 | Winnipeg Blue Bombers:2,False
+[CLS] Brodrick:2 Bunkley:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia Eagles | Eagles | Philadelphia Eagles | The Birds,False
+[CLS] Giancarlo Cadè:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Giancarlo Cadè:3,Atalanta:2 B . C . | Atalanta:2 | Atalanta:2 B . C . | Atalanta:2 Bergamasca:3 Calcio | Atalanta:2 Bergamasca:3 Calcio s . p . a . | Atalanta:2 Bergamo,False
+[CLS] Clif:2 Groce:3 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Cincinnati Bengals:2 | Cincinnati Bengals:2,False
+[CLS] Chris Nielsen plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Columbus Blue Jackets:2 | Columbus Blue Jackets:2,False
+[CLS] John Baker plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . B .,Shreveport:4 Steamer:2 | Houston Texans:2 | Shreveport:4 Steamer:2,False
+[CLS] Matt Johnson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Los Angeles Kings | LA Kings | Los Angeles Kings,False
+[CLS] Walt Lautenbach:2 plays with [MASK] [MASK] [MASK] . [SEP],W . W,Sheboygan:3 Red Skins:2 | Sheboygan:3 Red Skins:2,False
+[CLS] William Sarvis:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brass Band Band,Manchester United F . C . | MUFC:3 | Man United | Man Utd:2 | Manchester United | Manchester United F . C . | Manchester United F . C . Soccer | Manchester United FC | Manchester United Football Club | Manchester United Soccer | Red Devils,False
+[CLS] Mario Bossi:2 plays with [MASK] [MASK] [MASK] . [SEP],Mario Bossi:2,A . S . Roma | A . S . Roma | AS Roma | ASR:2 | Associazione Sportiva:2 Roma | Roma,False
+[CLS] Ryan Finnie:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Hamilton Academical:2 F . C . | Hamilton Academical:2 F . C . | Hamilton Academical:2 Football Club | Hamilton Academicals:2,False
+[CLS] James Metcalfe:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],James Metcalfe:3,Wakefield Trinity | Wakefield Trinity,False
+[CLS] Ársæll:4 Kristjánsson:4 plays with [MASK] [MASK] . [SEP],his father,Iceland national football team | Iceland football team | Iceland men ' s national football team | Iceland men ' s national soccer team | Iceland national football team | Iceland national soccer team | Iceland national team | Iceland soccer team | Íslenska:3 karlalandsliðið:5 í knattspyrnu:5,False
+[CLS] Micky:2 Fenton:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Micky:2 Fenton:2,Middlesbrough F . C . | MFC:2 | Middlesbrough | Middlesbrough F . C . | Middlesbrough FC | Middlesbrough Football Club | The Boro:2,False
+[CLS] Dave Walker plays with [MASK] [MASK] . [SEP],Dave Walker,Burnley:2 F . C . | BFC:2 | Burnley:2 | Burnley:2 F . C . | Burnley:2 FC | Burnley:2 Football Club | The Clarets:2,False
+[CLS] Britt Assombalonga:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the F . C,Peterborough United F . C . | PUFC:3 | Peterborough | Peterborough United | Peterborough United F . C . | Peterborough United FC | Peterborough United Football Club | The Posh:2 | United,False
+[CLS] Shiva Shrestha:4 plays with [MASK] [MASK] [MASK] . [SEP],P . P,Manang:2 Marshyangdi:3 Club | Manang:2 Marshyangdi:3 Club,False
+[CLS] Pierre Duhart:2 plays with [MASK] [MASK] [MASK] . [SEP],Pierre Duhart:2,Uruguay national football team | Ganamos:2 siempre | La Celeste:2 | Los Charruas:3 | Uruguay national football team,False
+[CLS] David Vržogić:5 plays with [MASK] [MASK] . [SEP],Partizan Belgrade,Dynamo Dresden | Dynamo Dresden | SG Dynamo Dresden,False
+[CLS] Marko Kraljević:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Balestier:3 Khalsa:3 FC | Balestier:3 Khalsa:3 FC | Balestier:3 Khalsa:3 Football Club,False
+[CLS] Geoffrey Ward plays with [MASK] [MASK] . [SEP],Geoffrey Ward,Castleford:2 Tigers | Castleford:2 Tigers,False
+[CLS] Nahuel:3 Guzmán plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Nahuel:3 Guzmán,Tigres:2 UANL:2 | Club Chico de Fútbol Tigres:2 de la Universidad Autónoma de Nuevo León | Club de Futbol Tigres:2 de la Universidad Autonoma:2 de Nuevo Leon | Tigres:2 UANL:2,False
+[CLS] Willie Mays:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,San Francisco Giants | Giants | Gothams:2 | New York Giants | New York Gothams:2 | SF Giants | SFG:2 | San Francisco Giants,False
+[CLS] Colin Wilson plays with [MASK] [MASK] [MASK] . [SEP],the national team,Hull Kingston Rovers | Hull Kingston Rovers,False
+[CLS] Tom Roberts plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Wales national rugby union team | Wales Rugby | Wales national rugby | Wales national rugby union | Wales national rugby union team | Wales rugby union | Wales rugby union team,False
+[CLS] Fergus:2 Thomson plays with [MASK] [MASK] [MASK] . [SEP],Fergus:2 Thomson,Scotland national rugby union team | Scotland national rugby union team | Scotland rugby team | Scottish national rugby team | Scottish rugby team,False
+[CLS] Davanzo:3 Tate plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Davanzo:3 Tate,New York Giants | Giants | NY Giants | NYG:2 | New York Giants,False
+[CLS] Bert MacLachlan:4 plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Aberdeen F . C . | Aberdeen | Aberdeen F . C . | Aberdeen FC | Aberdeen Football Club,False
+[CLS] Glenn Murray plays with [MASK] [MASK] . [SEP],Glenn Murray,Stockport:2 County F . C . | County | SCFC:2 | Stockport:2 | Stockport:2 County | Stockport:2 County F . C . | Stockport:2 County FC | Stockport:2 County Football Club | The Hatters:2,False
+[CLS] Tom Haller:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Detroit Tigers | Detroit Tigers | Tigers,False
+[CLS] Joe Skibinski:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Green Bay Packers | GNB:2 | Green Bay Packers | Packers,False
+[CLS] Bryan Helmer:2 plays with [MASK] [MASK] [MASK] . [SEP],U . S,Arizona Coyotes:3 | AZ Coyotes:3 | Arizona Coyotes:3,False
+[CLS] Don Revie:2 plays with [MASK] [MASK] [MASK] . [SEP],Don Revie:2,The Football League XI | The Football League XI,False
+[CLS] Fernando Ricksen:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Netherlands national football team | Nederlands voetbalelftal:2 | Netherlands national football team | Oranje,False
+[CLS] Mark Patterson plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Blackburn Rovers F . C . | BRFC:2 | Blackburn | Blackburn Rovers | Blackburn Rovers F . C . | Blackburn Rovers FC | Blackburn Rovers Football Club | Rovers,False
+[CLS] Con Barrell:2 plays with [MASK] [MASK] [MASK] . [SEP],Con Barrell:2,New Zealand national rugby union team | All Blacks | New Zealand national rugby team | New Zealand national rugby union team | New Zealand rugby team | New Zealand rugby union team,False
+[CLS] Phil Jagielka:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Phil Jagielka:3,England national football team | England | England national football team | Three Lions,False
+[CLS] Nick Markakis:2 plays with [MASK] [MASK] [MASK] . [SEP],Nick Markakis:2,Baltimore Orioles:3 | Baltimore Orioles:3 | Brewers:2 | Browns | Milwaukee Brewers:2 | O ' s | Orioles:3 | St . Louis Browns,False
+[CLS] Glenn Burvill:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Glenn Burvill:3,Aldershot:3 F . C . | Aldershot:3 F . C .,False
+[CLS] Pete Larson plays with [MASK] [MASK] [MASK] . [SEP],St . St,Washington Redskins:2 | Boston Redskins:2 | Washington Redskins:2,False
+[CLS] Bobby Walden plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Edmonton Eskimos:2 | Edmonton Eskimos:2,False
+[CLS] Andy Gardner plays with [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Grimsby:3 Town F . C . | GTFC:2 | Grimsby:3 | Grimsby:3 Town | Grimsby:3 Town F . C . | Grimsby:3 Town FC | Grimsby:3 Town Football Club | The Mariners:2 | Town,False
+[CLS] Aaron Lockett:2 plays with [MASK] [MASK] [MASK] . [SEP],B . B,BC Lions | BC Lions | British Columbia Lions,False
+[CLS] Alan Leandro plays with [MASK] [MASK] . [SEP],Alan Leandro,Bangkok United F . C . | Bangkok United | Bangkok United F . C . | Bangkok United FC,False
+[CLS] Iqbal:3 Abdulla:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Kolkata Knight Riders | KKR:2 | Kolkata Knight Riders,False
+[CLS] Irakli:2 Modebadze:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,FC Metalurgi:3 Rustavi:3 | FC Metalurgi:3 Rustavi:3 | FC Olimpi:3 Rustavi:3,False
+[CLS] Scott Prince plays with [MASK] [MASK] [MASK] . [SEP],S . S,Gold Coast Titans | Gold Coast Titans | Gold Coast Titans Club | Gold Coast Titans Club Ltd . | Gold Coast Titans League Football Club | Gold Coast Titans League Football Club Ltd . | Gold Coast Titans Rugby | Gold Coast Titans Rugby Club | Gold Coast Titans Rugby Club Ltd . | Gold Coast Titans Rugby League | Gold Coast Titans Rugby League Club | Gold Coast Titans Rugby League Club Ltd . | Gold Coast Titans Rugby League Football | NRL:2 Gold Coast Titans | Rugby Club Gold Coast Titans | Rugby Club of Gold Coast Titans | Rugby League Club Gold Coast Titans | Rugby League Football Club Gold Coast Titans | Rugby League Football Club Ltd . Gold Coast Titans | Rugby League Football Club of Gold Coast Titans,False
+[CLS] Bob Woollard:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Bob Woollard:3,Miami Floridians:3 | Miami Floridians:3,False
+[CLS] Eliseo:2 Mouriño:3 plays with [MASK] [MASK] [MASK] . [SEP],Mouriño:3,Boca Juniors | Boca Juniors | CA Boca Juniors | Club Atlético Boca | Club Atlético Boca Juniors | La 12 | La Mitad:2 Mas Uno | Xeneizes:3,False
+[CLS] Norman Kelly plays with [MASK] [MASK] [MASK] . [SEP],D . D,Linfield:2 F . C . | Linfield:2 | Linfield:2 F . C . | Linfield:2 FC | Linfield:2 Football Club,False
+[CLS] Salem Ibrahim Al Rewani:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Almadina:2 S . C . | Almadina:2 S . C .,False
+[CLS] George Lynch plays with [MASK] [MASK] [MASK] [MASK] . [SEP],D . D .,Charlotte Hornets:2 | Charlotte Bobcats:2 | Charlotte Hornets:2,False
+[CLS] Espen:2 Hægeland:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,FK Mandalskameratene:5 | FK Mandalskameratene:5,False
+[CLS] Malcolm Graham plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Bristol City F . C . | BCFC:2 | Bristol City | Bristol City F . C . | Bristol City FC | Bristol City Football Club | City | The Robins:2,False
+[CLS] Harry Wolter:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Daniel Lafferty:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Northern Ireland national football team | Northern Ireland national football team,False
+[CLS] Eduardo Echeverría:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Club Olimpia | Club Olimpia,False
+[CLS] Ma Mingyu:2 plays with [MASK] [MASK] . [SEP],Mingyu:2,A . C . Perugia Calcio | A . C . Perugia Calcio | Associazione Calcistica:3 Perugia Calcio,False
+[CLS] Aaron Kampman:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Green Bay Packers | GNB:2 | Green Bay Packers | Packers,False
+[CLS] Jan B . Poulsen:2 plays with [MASK] [MASK] . [SEP],Jan B,Boldklubben:3 Frem:2 | Boldklubben:3 Frem:2,False
+[CLS] Sid Rawlings:2 plays with [MASK] [MASK] [MASK] . [SEP],Sid Rawlings:2,Huddersfield:3 Town A . F . C . | HTAFC:3 | HTFC:3 | Huddersfield:3 | Huddersfield:3 Town | Huddersfield:3 Town A . F . C . | Huddersfield:3 Town AFC | Huddersfield:3 Town Association Football Club | Huddersfield:3 Town FC | Huddersfield:3 Town Football Club | The Terriers:2 | Town,False
+[CLS] Nathan Kanya:2 plays with [MASK] [MASK] . [SEP],Kanya:2,Hamilton Tiger - Cats | Hamilton Tiger - Cats,False
+[CLS] Ted Killean:2 plays with [MASK] [MASK] [MASK] . [SEP],Ted Killean:2,Blackburn Rovers F . C . | BRFC:2 | Blackburn | Blackburn Rovers | Blackburn Rovers F . C . | Blackburn Rovers FC | Blackburn Rovers Football Club | Rovers,False
+[CLS] Ivan Kurdanin:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],. Kurdanin:3,FC Gubkin:3 | FC Gubkin:3,False
+[CLS] Brent Barry plays with [MASK] [MASK] [MASK] . [SEP],F . F,San Antonio Spurs | Dallas Chaparrals:4 | San Antonio Spurs | Texas Chaparrals:4,False
+[CLS] Owen Kasule:3 plays with [MASK] [MASK] [MASK] . [SEP],Nigeria national team,Uganda Revenue Authority SC | Uganda Revenue Authority SC,False
+[CLS] Alan King plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Runcorn:2 F . C . Halton:2 | Runcorn:2 F . C . Halton:2,False
+[CLS] Nevin:2 McCaskill:5 plays with [MASK] [MASK] [MASK] . [SEP],the baseball team,Philadelphia Eagles | Eagles | Philadelphia Eagles | The Birds,False
+[CLS] José Anilton:2 Júnior plays with [MASK] [MASK] [MASK] . [SEP],the national team,Clube Desportivo:2 das Aves | Aves | C . D . Aves | Clube Desportivo:2 das Aves | Desportivo:2 das Aves,False
+[CLS] Johnny Watts plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Bromsgrove:4 Rovers F . C . | Bromsgrove:4 Rovers F . C . | Bromsgrove:4 Rovers Football Club,False
+[CLS] Matthew Lowton:2 plays with [MASK] [MASK] . [SEP],Lowton:2,Aston Villa F . C . | AVFC:2 | Aston Villa | Aston Villa F . C . | Aston Villa FC | Aston Villa Football Club | The Villa | The Villans:2 | Villa,False
+[CLS] Daniel Moreira plays with [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Toulouse FC | TFC:2 | Toulouse | Toulouse F . C . | Toulouse FC | Toulouse Football Club,False
+[CLS] Jay Humphries:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Jay Humphries:3,Milwaukee Bucks | Milwaukee Bucks,False
+[CLS] Gabriel Popescu:2 plays with [MASK] [MASK] [MASK] . [SEP],S . S,FCU:2 Craiova:3 1948 | FCU:2 Craiova:3 | FCU:2 Craiova:3 1948 | Fotbal:3 Club U Craiova:3 1948,False
+[CLS] Ousmane:3 Dabo:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,S . S . Lazio | Lazio | S . S . Lazio | S . S . Lazio | SS Lazio | Societa:3 Sportiva:2 Lazio | Societa:3 Sportiva:2 Lazio S . p . A . | Società Sportiva:2 Lazio | Società Sportiva:2 Lazio S . p . A .,False
+[CLS] Geoff Kellaway:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Aberystwyth:3 Town F . C . | Aberystwyth:3 Town F . C . | Aberystwyth:3 Town Football Club,False
+[CLS] Adrian Capes:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Burton Wanderers F . C . | Burton Wanderers F . C .,False
+[CLS] John Akinde:2 plays with [MASK] [MASK] [MASK] . [SEP],John Akinde:2,Barnet:2 F . C . | BFC:2 | Barnet:2 | Barnet:2 F . C . | Barnet:2 FC | Barnet:2 Football Club | The Bees,False
+[CLS] Mike Maddux:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Houston Astros:2 | ' Stros:2 | Astros:2 | Colt . 45 ' s | Houston Astros:2 | Houston Colt . 45 ' s,False
+[CLS] Gordon Boyd plays with [MASK] [MASK] . [SEP],his father,Scunthorpe:4 United F . C . | SUFC:2 | Scunthorpe:4 | Scunthorpe:4 & Lindsey United | Scunthorpe:4 & Lindsey United FC | Scunthorpe:4 & Lindsey United Football Club | Scunthorpe:4 United | Scunthorpe:4 United F . C . | Scunthorpe:4 United FC | Scunthorpe:4 United Football Club | The Iron | United,False
+[CLS] Dixie Walker plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Detroit Tigers | Detroit Tigers | Tigers,False
+[CLS] Dimitris:2 Salpingidis:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,P . A . O . K . Thessaloniki F . C . | Dikefalos:4 tou Vorra:2 | P . A . O . K . F . C . | P . A . O . K . Thessaloniki F . C . | PAOK:2 FC | PAOK:2 Football Club | PAOK:2 Salonika:2,False
+[CLS] Travis Dorsch:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the D . C,Cincinnati Bengals:2 | Cincinnati Bengals:2,False
+[CLS] Courtney Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Winnipeg Blue Bombers:2 | Winnipeg Blue Bombers:2,False
+[CLS] Yevgeni:3 Odintsov:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the O . S,FC Tekstilshchik:5 Kamyshin:3 | FC Tekstilshchik:5 Kamyshin:3,False
+[CLS] Adnan:2 Oçelli:3 plays with [MASK] [MASK] . [SEP],the club,1 . FC Union Berlin | 1 . FC Union Berlin | 1 . Fußballclub:2 Union Berlin | Berlin FC | FC Berlin | FC Union Berlin,False
+[CLS] Darren Davis plays with [MASK] [MASK] [MASK] . [SEP],F . F,Scarborough:3 F . C . | Boro:2 | SFC:2 | Scarborough:3 | Scarborough:3 F . C . | Scarborough:3 FC | Scarborough:3 Football Club | Seadogs:3,False
+[CLS] Joonas:2 Ikäläinen:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Vaasan:2 Palloseura:3 | Vaasan:2 Palloseura:3,False
+[CLS] Sydney Howard Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Great Britain Davis Cup team | Great Britain Davis Cup team,False
+[CLS] Oleksandr:3 Agarin:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Kyrgyzstan:5 national football team | Kyrgyzstan:5 national football team,False
+[CLS] Karl - Johan Johnsson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Randers:2 FC | Randers:2 FC | Randers:2 Football Club,False
+[CLS] Mia Brogaard:2 plays with [MASK] [MASK] [MASK] . [SEP],Mia Brogaard:2,Denmark women ' s national football team | Danmarks kvindefodboldlandshold:7 | Denmark women ' s national football team,False
+[CLS] Henry Blanco plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Chicago Cubs | Chicago Colts | Chicago Cubs | Chicago Orphans:3 | Chicago White Stockings:2 | Colts | Cubbies:3 | Cubs | North Siders:2 | Orphans:3,False
+[CLS] Shawn Cronin:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Washington Capitals:2 | Capitals:2 | Caps:2 | Washington Capitals:2 | Washington Caps:2,False
+[CLS] Nick Deacy:2 plays with [MASK] [MASK] [MASK] . [SEP],Nick Deacy:2,PSV Eindhoven | Eindhoven Football Club | PSV | PSV Eindhoven | Philips Sport Vereniging,False
+[CLS] Joe Robson plays with [MASK] [MASK] . [SEP],Joe Robson,Bradford ( Park Avenue ) A . F . C . | BPA:2 | BPAAFC:3 | Bradford | Bradford ( Park Avenue ) | Bradford ( Park Avenue ) A . F . C . | Bradford ( Park Avenue ) AFC | Bradford ( Park Avenue ) Association Football Club | Bradford PA | Bradford Park Avenue | Bradford Park Avenue AFC | Bradford Park Avenue Association Football Club | The Avenue,False
+[CLS] Samir:2 Kadhim:2 Hassan plays with [MASK] [MASK] [MASK] . [SEP],the national team,Iraq national football team | Iraq national football team,False
+[CLS] Les Barton plays with [MASK] [MASK] . [SEP],Les Barton,Bolton Wanderers F . C . | BWFC:3 | Bolton | Bolton Wanderers | Bolton Wanderers F . C . | Bolton Wanderers FC | Bolton Wanderers Football Club | The Trotters:3 | Wanderers,False
+[CLS] Bill Yates plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Watford:2 F . C . | The Hornets:2 | WFC:2 | Watford:2 | Watford:2 F . C . | Watford:2 FC | Watford:2 Football | Watford:2 Football Club,False
+[CLS] Chris Chapman plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Patriots England Patriots,Leeds Rhinos:2 | Leeds Rhinos:2 | Leeds Rhinos:2 R . L . F . C . | Leeds Rhinos:2 Rugby League Football Club,False
+[CLS] Cuttino:2 Mobley:3 plays with [MASK] [MASK] [MASK] . [SEP],Mobley:3,Orlando Magic | Orlando Magic,False
+[CLS] Anton Fink plays with [MASK] [MASK] . [SEP],Anton Fink,Chemnitzer:2 FC | Chemnitzer:2 FC,False
+[CLS] Chris Tancill:3 plays with [MASK] [MASK] [MASK] . [SEP],Tancill:3,Hartford Whalers:3 | Hartford Whalers:3,False
+[CLS] Craig Beattie:2 plays with [MASK] [MASK] [MASK] . [SEP],Craig Beattie:2,Scotland national football team | Scotland national football team | Scotland national soccer team | Scotland national team | Scottish National Football Team,False
+[CLS] Tumelo:3 Nhlapo:3 plays with [MASK] [MASK] [MASK] . [SEP],a football club,Bloemfontein:4 Celtic F . C . | Bloemfontein:4 Celtic | Bloemfontein:4 Celtic F . C . | Bloemfontein:4 Celtic Football Club | Celtic,False
+[CLS] Stern John plays with [MASK] [MASK] [MASK] . [SEP],St . John,Columbus Crew SC | Columbus Crew | Columbus Crew SC | Columbus Crew Soccer Club | Crew SC | Crew Soccer Club | The Crew | The Massive:2,False
+[CLS] William Clay plays with [MASK] [MASK] . [SEP],William Clay,Sheffield United F . C . | SUFC:2 | Sheff:2 Utd:2 | Sheff:2 . Utd:2 . | Sheffield United | Sheffield United F . C . | Sheffield United FC | Sheffield United Football Club | The Blades:2 | United,False
+[CLS] Alberto Terry plays with [MASK] [MASK] . [SEP],Alberto Terry,"Club Universitario de Deportes | Club Universitario de Deportes | Federación Universitaria:3 de Fútbol | La "" U "" | Universitario | Universitario de Perú",False
+[CLS] Andre Drummond plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Detroit Pistons:3 | Detroit Pistons:3 | Fort Wayne Pistons:3 | Fort Wayne Zollner:3 Pistons:3,False
+[CLS] Isaiah:2 Osbourne plays with [MASK] [MASK] [MASK] . [SEP],the bat bat,Nottingham Forest F . C . | Forest | NFFC:2 | Nottingham Forest | Nottingham Forest F . C . | Nottingham Forest FC | Nottingham Forest Football Club | The Reds | Tricky:2 Trees,False
+[CLS] Butch Keeling:2 plays with [MASK] [MASK] . [SEP],his father,New York Rangers | New York Rangers,False
+[CLS] Ricardo plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Manchester United F . C . | MUFC:3 | Man United | Man Utd:2 | Manchester United | Manchester United F . C . | Manchester United F . C . Soccer | Manchester United FC | Manchester United Football Club | Manchester United Soccer | Red Devils,False
+[CLS] Juan Pablo Rodríguez Conde plays with [MASK] [MASK] [MASK] . [SEP],the national team,Al - Ittihad:3 Club | Al - Ittihad:3 | Al - Ittihad:3 Club | Al - Ittihad:3 Club Saudi Arabia | Al - Ittihad:3 Football Club | Al - Ittihad:3 Jeddah:3 | Ittihad:3 FC,False
+[CLS] Danilo Sekulić:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,F . K . Vojvodina:4 | F . K . Vojvodina:4 | FK Vojvodina:4 | Fudbalski:3 klub Vojvodina:4,False
+[CLS] Malcolm Christie plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. Malcolm Christie plays with,Middlesbrough F . C . | MFC:2 | Middlesbrough | Middlesbrough F . C . | Middlesbrough FC | Middlesbrough Football Club | The Boro:2,False
+[CLS] Theoren:2 Fleury:3 plays with [MASK] [MASK] [MASK] . [SEP],Fleury:3,Belfast Giants | Belfast Giants,False
+[CLS] Ryan Anstey:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Toronto Lynx | Toronto Lynx,False
+[CLS] Oumare:2 Tounkara:3 plays with [MASK] [MASK] . [SEP],the club,CS Sedan Ardennes | CS Sedan Ardennes | Club Sportif:2 Sedan Ardennes,False
+[CLS] Jack Parry plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brass of Brass,Boston United F . C . | BUFC:3 | Boston | Boston United | Boston United F . C . | Boston United FC | Boston United Football Club | The Pilgrims:4 | United,False
+[CLS] Alex Gonzalez plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Igor Korneev:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,SC Heerenveen:3 | SC Heerenveen:3 | Sportclub:2 Heerenveen:3,False
+[CLS] Albert Kaçi:2 plays with [MASK] [MASK] . [SEP],Kaçi:2,KS Elbasani:3 | KS Elbasani:3 | Klubi:2 i Futbollit:2 or KF:2 Elbasani:3,False
+[CLS] Emil Lyng:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Esbjerg:2 fB:2 | Esbjerg:2 fB:2,False
+[CLS] Brian de la Puente plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Brian de la Puente,New Orleans Saints | New Orleans Saints | Saints,False
+[CLS] Chris Gratton:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Philadelphia Flyers | Flyers | Philadelphia Flyers | Philly:2 Flyers,False
+[CLS] Joe Walton plays with [MASK] [MASK] . [SEP],Joe Walton,Washington Redskins:2 | Boston Redskins:2 | Washington Redskins:2,False
+[CLS] Tom Metcalf:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Tom Metcalf:3,Southampton F . C . | SFC:2 | Southampton | Southampton F . C . | Southampton FC | Southampton Football Club | The Saints,False
+[CLS] Rolando:2 Cantu:2 plays with [MASK] [MASK] . [SEP],Cantu:2,Arizona Cardinals | Arizona Cardinals | Chicago Cardinals | Morgan Athletic Club | Phoenix Cardinals | Racine Cardinals | St . Louis Cardinals,False
+[CLS] Todd Zeile:2 plays with [MASK] [MASK] [MASK] . [SEP],N . N,Montreal Expos:2 | Expos:2 | Montreal Expos:2,False
+[CLS] James Grieve:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Jim Grieve:3,Annfield:2 Plain F . C . | Annfield:2 Plain F . C .,False
+[CLS] John Schiechl:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Schiechl:4,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Dave Shipperley:3 plays with [MASK] [MASK] [MASK] . [SEP],Chip Chip Chip,Charlton Athletic F . C . | Athletic | CAFC:2 | Charlton | Charlton Athletic | Charlton Athletic F . C . | Charlton Athletic FC | Charlton Athletic Football Club | The Addicks:3,False
+[CLS] Fred Forman:2 plays with [MASK] [MASK] [MASK] . [SEP],Fred Forman:2,Derby County F . C . | County | DCFC:2 | Derby | Derby County | Derby County F . C . | Derby County FC | Derby County Football Club | The Rams,False
+[CLS] Jesús Cabrero:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,RCD:2 Mallorca | Mallorca | RCD:2 Mallorca | Real Club Deportivo Mallorca,False
+[CLS] Heather Scheuber:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Scheuber:4,Birmingham City L . F . C . | Birmingham City L . F . C . | Birmingham City Ladies Football Club,False
+[CLS] Ryan Brown plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Stafford Rangers F . C . | Stafford Rangers F . C . | Stafford Rangers Football Club,False
+[CLS] Mike Wallace plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Ole Miss Rebels:2 football | Ole Miss Rebels:2 football,False
+[CLS] Toninho:2 Cecílio:3 plays with [MASK] [MASK] [MASK] . [SEP],the national side,Brazil national football team | Brazil national football team | Selecao:3 | Seleçao:3 | Seleção Brasileira de Futebol,False
+[CLS] Jiří Pešek:2 plays with [MASK] [MASK] . [SEP],Pešek:2,SK Slavia Prague | SK Slavia Prague | SK Slavia Praha | Slavia Prague,False
+[CLS] Mohamad:3 Mido:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Al - Ittihad:3 SC Aleppo | Al Ittihad:3 of Aleppo | Al - Ittihad:3 SC Aleppo | Al - Ittihad:3 Sports Club of Aleppo,False
+[CLS] Craig Westcarr:3 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Cambridge United F . C . | CUFC:3 | Cambridge | Cambridge United | Cambridge United F . C . | Cambridge United FC | Cambridge United Football Club | The U ' s | United,False
+[CLS] Bill Chipcase:2 plays with [MASK] [MASK] [MASK] . [SEP],Bill Chipcase:2,Montreal Wanderers | Montreal Wanderers,False
+[CLS] Wei Qun:2 plays with [MASK] [MASK] [MASK] . [SEP],Wei Qun:2,Sichuan Guancheng:4 F . C . | Sichuan Guancheng:4 F . C .,False
+[CLS] Mark Draper:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Rayo:2 Vallecano:2 | Rayo:2 Football | Rayo:2 Vallecano:2 | Rayo:2 Vallecano:2 de Madrid | Rayo:2 Vellecano:3 Football | Rayo:2 Vellecano:3 Soccer Club,False
+[CLS] Oscar Hold plays with [MASK] [MASK] . [SEP],Oscar Hold,Norwich City F . C . | City | NCFC:2 | Norwich | Norwich City | Norwich City F . C . | Norwich City FC | Norwich City Football Club | The Canaries:2,False
+[CLS] Gareth Risbridger:4 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Staines:3 Town F . C . | STFC:2 | Staines:3 | Staines:3 Town | Staines:3 Town F . C . | Staines:3 Town FC | Staines:3 Town Football Club | The Swans:2 | Town,False
+[CLS] Jim Higgins plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Home Farm F . C . | Home Farm F . C . | Home Farm Football Club,False
+[CLS] George Merritt:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brass of Brass,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] Scott Dureau:2 plays with [MASK] [MASK] [MASK] . [SEP],Scott Dureau:2,Catalans:2 Dragons | Catalans:2 Dragons,False
+[CLS] Jim Betts:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Hamilton Tiger - Cats | Hamilton Tiger - Cats,False
+[CLS] Daryl Kavanagh:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Mets York Mets,Drogheda:3 United F . C . | Drogheda:3 United F . C . | Drogheda:3 United Football Club,False
+[CLS] Jerry van Ewijk:2 plays with [MASK] [MASK] [MASK] . [SEP],N . N,AGOVV:3 Apeldoorn:4 | AGOVV:3 | AGOVV:3 Apeldoorn:4,False
+[CLS] Scott Griffiths plays with [MASK] [MASK] . [SEP],Scott Griffiths,Crawley:3 Town F . C . | CTFC:2 | Crawley:3 | Crawley:3 Town | Crawley:3 Town F . C . | Crawley:3 Town FC | Crawley:3 Town Football Club | The Reds | Town,False
+[CLS] Dennis Mochan:2 plays with [MASK] [MASK] . [SEP],Mochan:2,Raith:2 Rovers F . C . | Raith:2 Rovers | Raith:2 Rovers F . C . | Raith:2 Rovers Football Club,False
+[CLS] Whelliton:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Whelliton:4,Boavista:2 F . C . | Boavista:2 F . C . | Boavista:2 FC,False
+[CLS] Srebrenko:3 Posavec:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Hunan:2 Billows:2 F . C . | Hunan:2 Billows:2 F . C . | 湖 南 湘 涛,False
+[CLS] Denis Cheryshev:4 plays with [MASK] [MASK] [MASK] . [SEP],the football team,"Sevilla FC | Sevilla | Sevilla FC | Sevilla FC football | Sevilla FC soccer | Sevilla Football | Sevilla Fútbol Club , S . A . D . | Sevilla Soccer Team",False
+[CLS] Nadiem:2 Amiri:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,TSG:2 1899 Hoffenheim:3 | 1899 Hoffenheim:3 | 1899 Hoffenheim:3 II | TSG:2 1899 Hoffenheim:3 | TSG:2 Hoffenheim:3 | TSG:2 Hoffenheim:3 II | Turn - und Sportgemeinschaft:2 1899 Hoffenheim:3 e . V .,False
+[CLS] Dorian:2 Kërçiku:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,KF:2 Tirana | KF:2 Tirana,False
+[CLS] Alfonso Pérez plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Spain national football team | La Furia:2 | La Furia:2 Española | La Furia:2 Roja | La Roja | Selección Española de Fútbol | Selección de fútbol de España | Spain | Spain futbol team | Spain national football team | Spanish national football team | Spanish national team | The Fury | The Red Fury | The Red One | The Spanish Fury,False
+[CLS] Gary Mills plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Grantham:2 Town F . C . | GTFC:2 | Grantham:2 Town | Grantham:2 Town F . C . | Grantham:2 Town FC | Grantham:2 Town Football Club | Granthan:2 | The Gingerbreads:3 | Town,False
+[CLS] Aleksandr Semyachkin:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the S . S,FC Terek:2 - 2 Grozny:3 | FC Terek:2 - 2 Grozny:3,False
+[CLS] Kim Sang - ho plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Kim Sang - ho,Pohang:2 Steelers | Pohang:2 Steelers,False
+[CLS] Néstor:2 Carballo:2 plays with [MASK] [MASK] . [SEP],Carballo:2,Club Nacional de Football | Albos:2 | Bolso:2 | Club Nacional de Football | Decano:2 | Nacional | Tricolores:3,False
+[CLS] Craig Beattie:2 plays with [MASK] [MASK] [MASK] . [SEP],Craig Beattie:2,West Bromwich:3 Albion F . C . | The Albion | The Baggies:3 | The Throstles:3 | WBAFC:2 | West Brom:2 | West Bromwich:3 Albion | West Bromwich:3 Albion F . C . | West Bromwich:3 Albion FC | West Bromwich:3 Albion Football Club,False
+[CLS] Kelly Shoppach:2 plays with [MASK] [MASK] [MASK] . [SEP],Kelly Shoppach:2,Tampa Bay Rays:2 | Devil Rays:2 | Rays:2 | TBR:2 | Tampa Bay Devil Rays:2 | Tampa Bay Rays:2 | Tampa Rays:2,False
+[CLS] Davide Moro plays with [MASK] [MASK] . [SEP],Davide Moro,Associazione Sportiva:2 Livorno Calcio | A . S . Livorno Calcio | Associazione Sportiva:2 Livorno Calcio,False
+[CLS] Mohamad:3 Yehya:2 Al Rashed:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Tishreen:3 SC | Tishreen:3 SC,False
+[CLS] Gianluca:2 Sansone:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,SSC:2 Bari | A . S . Bari | AS Bari | Bari Calcio | F . C . Bari | FC Bari | Football Club Bari | S . S . C . Bari | SSC:2 Bari | Società Sportiva:2 Calcio Bari,False
+[CLS] Ta ' Shia:2 Phillips plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Ta ' Shia:2,New York Liberty | New York Liberty,False
+[CLS] Greg Mackey:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Huddersfield:3 Giants | Huddersfield:3 Giants,False
+[CLS] Henry Janzen:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,Winnipeg Blue Bombers:2 | Winnipeg Blue Bombers:2,False
+[CLS] Juan Francisco plays with [MASK] [MASK] . [SEP],Juan Francisco,Toronto Blue Jays:2 | Blue Jays:2 | Bluejays:3 | Jays:2 | TBJ:2 | Toronto Blue Jays:2 | Toronto Bluejays:3 | Toronto Jays:2,False
+[CLS] Viktor Vasilyev:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Energiya:3 Volzhsky:3 | FC Energiya:3 Volzhsky:3,False
+[CLS] Bertie:2 Miller plays with [MASK] [MASK] [MASK] . [SEP],Bertie:2 Miller,Rangers F . C . | Glasgow Rangers | RFC | Rangers | Rangers F . C . | Rangers FC | Rangers Football Club | The Gers,False
+[CLS] Billy Zitzmann:3 plays with [MASK] [MASK] [MASK] . [SEP],Zitzmann:3,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] Larry Strickland:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Ronaldinho:2 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Associazione Calcio Milan | A . C . Milan | AC Milan | Associazione Calcio Milan,False
+[CLS] Giosuè:4 Stucchi:3 plays with [MASK] [MASK] [MASK] . [SEP],Italy national team,Udinese:2 Calcio | Udinese:2 | Udinese:2 Calcio | Udinese:2 Calcio S . p . A,False
+[CLS] James Williams plays with [MASK] [MASK] . [SEP],James Williams,San Francisco 49ers:2 | 49ers:2 | San Francisco 49ers:2,False
+[CLS] Thomas Adey:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Hull City A . F . C . | City | HCAFC:3 | Hull | Hull City | Hull City A . F . C . | Hull City AFC | Hull City Association Football Club | The Tigers,False
+[CLS] Michel van de Korput:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,Netherlands national football team | Nederlands voetbalelftal:2 | Netherlands national football team | Oranje,False
+[CLS] James Marshall plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . B .,Arsenal F . C . | AFC | Arsenal | Arsenal F . C . | Arsenal FC | Arsenal Football Club | Gunners:2,False
+[CLS] Benaouda:3 Boudjellal:4 plays with [MASK] [MASK] . [SEP],the club,Mouloudia:3 Club Oranais:2 | MC Oran:2 | Mouloudia:3 Club Oranais:2 | Mouloudia:3 Club of Oran:2 | Mouloudia:3 of Oran:2,False
+[CLS] Roy Powell plays with [MASK] [MASK] [MASK] . [SEP],B . B,Leeds Rhinos:2 | Leeds Rhinos:2 | Leeds Rhinos:2 R . L . F . C . | Leeds Rhinos:2 Rugby League Football Club,False
+[CLS] Joe Launchbury:2 plays with [MASK] [MASK] [MASK] . [SEP],Joe Launchbury:2,England national rugby union team | England Rugby | England national rugby team | England national rugby union team | England rugby team | England rugby union team,False
+[CLS] Peter Trška:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Peter Trška:3,HC Slovan Bratislava | HC Slovan Bratislava,False
+[CLS] Will Antwi:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Staines:3 Town F . C . | STFC:2 | Staines:3 | Staines:3 Town | Staines:3 Town F . C . | Staines:3 Town FC | Staines:3 Town Football Club | The Swans:2 | Town,False
+[CLS] Ian Roper:2 plays with [MASK] [MASK] [MASK] . [SEP],Ian Roper:2,Walsall:3 F . C . | The Saddlers:2 | WFC:2 | Walsall:3 | Walsall:3 F . C . | Walsall:3 FC | Walsall:3 Football Club,False
+[CLS] Oscar Steen plays with [MASK] [MASK] . [SEP],Oscar Steen,AIK IF | AIK | AIK Hockey | AIK IF | AIK Ishockey:2 | AIK Rats:2,False
+[CLS] Marshall Faulk:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Indianapolis Colts | Indianapolis Colts,False
+[CLS] Jonathan Ruttens:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,K . V . C . Westerlo:3 | K . V . C . Westerlo:3 | KVC:2 Westerlo:3 | Koninklijke Voetbal:3 Club Westerlo:3 | Westerlo:3,False
+[CLS] Kanstantsin:3 Lepin:2 plays with [MASK] [MASK] . [SEP],Lepin:2,FC Khimik:2 Svetlogorsk:4 | FC Khimik:2 Svetlogorsk:4,False
+[CLS] Roel:2 Janssen plays with [MASK] [MASK] . [SEP],his father,VVV:2 - Venlo:3 | VVV:2 - Venlo:3 | Venlose:3 Voetbal:3 Vereniging Venlo:3,False
+[CLS] Guy Dufour:2 plays with [MASK] [MASK] [MASK] . [SEP],Guy Dufour:2,K . A . S . Eupen:2 | K . A . S . Eupen:2,False
+[CLS] Corey Williams plays with [MASK] [MASK] [MASK] [MASK] . [SEP],C . C .,Dacin:2 Tigers | Dacin:2 Tigers,False
+[CLS] Ali Alizadeh:3 plays with [MASK] [MASK] . [SEP],Ali Ali,Esteghlal:3 F . C . | Blues of Tehran | Esteghlal:3 F . C . | giants:2,False
+[CLS] Joris:2 Kayembe:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Joris:2 Kayembe:2,Rio Ave F . C . | Rio Ave F . C .,False
+[CLS] Thomas Danter:2 plays with [MASK] [MASK] [MASK] . [SEP],Thomas Danter:2,Hull F . C . | Hull F . C . | Hull FC,False
+[CLS] Yevgeni:3 Malofeyev:3 plays with [MASK] [MASK] [MASK] . [SEP],the Soviet Union,FC Strogino:3 Moscow | FC Strogino:3 Moscow,False
+[CLS] Stewart Murdoch plays with [MASK] [MASK] . [SEP],Stewart Murdoch,Fleetwood Town F . C . | Cod:2 Army | FTFC:3 | Fleetwood | Fleetwood Town | Fleetwood Town F . C . | Fleetwood Town FC | Fleetwood Town Football Club | Town,False
+[CLS] Mugur:2 Gușatu:4 plays with [MASK] [MASK] . [SEP],Mugur:2,SC Heerenveen:3 | SC Heerenveen:3 | Sportclub:2 Heerenveen:3,False
+[CLS] Benjamín:3 Zarandona:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,"Real Betis:2 Balompié:4 | Beticos:2 , verdiblancos:4 | Real Betis:2 | Real Betis:2 Balompié:4 | Real Betis:2 Soccer | Real Betis:2 football | Real chupameestepenco:6 S . A . D . | balompédicos:5",False
+[CLS] Clyde Wijnhard:3 plays with [MASK] [MASK] [MASK] . [SEP],Wijnhard:3,Leeds United F . C . | LUAFC:4 | LUFC:3 | Leeds | Leeds United | Leeds United A . F . C . | Leeds United AFC | Leeds United Association Football Club | Leeds United F . C . | Leeds United FC | Leeds United Football Club | The Peacocks:3 | The Whites:2 | United,False
+[CLS] Elias Owen plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Wales national football team | Tîm:3 pêl:2 - droed:2 cenedlaethol:5 Cymru | Wales national football team | Wales national soccer team | Wales national team,False
+[CLS] Peter Greco plays with [MASK] [MASK] . [SEP],Peter Greco,Columbus Clan F . C . | Columbus Clan F . C .,False
+[CLS] Gustavo Zamudio:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Kitchee:3 SC | Kit Chee:2 Sports Club Limited | Kitchee:3 Football Team | Kitchee:3 SC | Kitchee:3 Sports Club | Kitchee:3 Sports Club Limited,False
+[CLS] Paul Blades:2 plays with [MASK] [MASK] [MASK] . [SEP],Paul Blades:2,Norwich City F . C . | City | NCFC:2 | Norwich | Norwich City | Norwich City F . C . | Norwich City FC | Norwich City Football Club | The Canaries:2,False
+[CLS] Jimmy Forrest plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Blackburn Rovers F . C . | BRFC:2 | Blackburn | Blackburn Rovers | Blackburn Rovers F . C . | Blackburn Rovers FC | Blackburn Rovers Football Club | Rovers,False
+[CLS] Jay Graham plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Seattle Seahawks:2 | Seattle Seahawks:2,False
+[CLS] Blagoja:3 Milevski:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Blagoja:3 Milevski:2,Red Star Belgrade | Crvena:3 Zvezda:3 | FK Crvena:3 Zvezda:3 | FK Red Star Belgrade | Red Star Belgrade,False
+[CLS] George Berry plays with [MASK] [MASK] [MASK] . [SEP],George Berry Band,Preston North End F . C . | PNEFC:3 | Preston | Preston North End | Preston North End F . C . | Preston North End FC | Preston North End Football Club | The Lilywhites:4,False
+[CLS] Raef:2 LaFrentz:4 plays with [MASK] [MASK] [MASK] . [SEP],Rangers Rangers Rangers,Dallas Mavericks:3 | Dallas Mavericks:3 | Mavs:2,False
+[CLS] Warren Jowitt:3 plays with [MASK] [MASK] [MASK] . [SEP],Jowitt:3,Salford:2 Red Devils | Salford:2 Red Devils,False
+[CLS] Eduardo Godinho:2 Felipe de Souza plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the S . S,C . D . Trofense:4 | C . D . Trofense:4 | CD Trofense:4 | Trofense:4,False
+[CLS] Luke Chadwick:2 plays with [MASK] [MASK] [MASK] . [SEP],Luke Chadwick:2,Burnley:2 F . C . | BFC:2 | Burnley:2 | Burnley:2 F . C . | Burnley:2 FC | Burnley:2 Football Club | The Clarets:2,False
+[CLS] Vedat:2 İnceefe:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,Manisaspor:3 | Manisaspor:3,False
+[CLS] Jordan Adéoti:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Stade Malherbe:3 Caen | S . M . Caen | SM Caen | Stade Malherbe:3 Caen | Stade Malherbe:3 de Caen,False
+[CLS] Ivan Myasnikov:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Vladimir Myasnikov:3,FC Energiya:3 Volzhsky:3 | FC Energiya:3 Volzhsky:3,False
+[CLS] Jim Wohlford:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,San Francisco Giants | Giants | Gothams:2 | New York Giants | New York Gothams:2 | SF Giants | SFG:2 | San Francisco Giants,False
+[CLS] Erwin Louis Mueller plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Virginia Squires:3 | Virginia Squires:3,False
+[CLS] Rahim:2 Ouédraogo:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Twente | FC Twente | Football Club Twente,False
+[CLS] Joe Anyon:2 plays with [MASK] [MASK] [MASK] . [SEP],Joe Anyon:2,Shrewsbury Town F . C . | STFC:2 | Shrewsbury | Shrewsbury Town | Shrewsbury Town F . C . | Shrewsbury Town FC | Shrewsbury Town Football Club | The Shrews:3 | Town,False
+[CLS] Lee Cornwell:3 plays with [MASK] [MASK] [MASK] . [SEP],Lee Corn:2,Los Angeles Lazers:2 | Los Angeles Lazers:2,False
+[CLS] Nicky Summerbee:2 plays with [MASK] [MASK] [MASK] . [SEP],Nicky Summerbee:2,Manchester City F . C . | Citizens | City | MCFC:2 | Man City | Manchester City | Manchester City F . C . | Manchester City F . C . Soccer | Manchester City FC | Manchester City Football Club | Sky Blues,False
+[CLS] Chris Hudson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Roy Bethell:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Gillingham:2 F . C . | GFC:2 | Gillingham:2 | Gillingham:2 F . C . | Gillingham:2 FC | Gillingham:2 Football Club | The Gills:2,False
+[CLS] Gene Peacosh:3 plays with [MASK] [MASK] [MASK] . [SEP],Peacosh:3,New York Golden Blades:2 | New York Golden Blades:2,False
+[CLS] Jonathan St . Pierre plays with [MASK] [MASK] . [SEP],his father,Toronto Argonauts:3 | Toronto Argonaut:2 Football Club | Toronto Argonauts:3,False
+[CLS] Derek Norris plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Ryan Ashington:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Torquay:3 United F . C . | TUFC:2 | The Gulls:2 | Torquay:3 | Torquay:3 United | Torquay:3 United F . C . | Torquay:3 United FC | Torquay:3 United Football Club | United,False
+[CLS] Alexander Sutherland plays with [MASK] [MASK] [MASK] . [SEP],N . N,Elgin:2 City F . C . | Elgin:2 City F . C . | Elgin:2 City Football Club,False
+[CLS] Brendan McNally:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],McNally:4,Cambridge City F . C . | Cambridge City F . C . | Cambridge City Football Club,False
+[CLS] Trent Cummings plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Fitzroy:3 Football Club | Fitzroy:3 Football Club,False
+[CLS] David Norman plays with [MASK] [MASK] . [SEP],his father,Collingwood:3 Football Club | Collingwood:3 Football Club | Collingwood:3 Magpies:2 | Magpies:2 | Pies:2,False
+[CLS] Leroy Houston plays with [MASK] [MASK] . [SEP],Houston Rockets,Queensland Reds | Queensland Reds | The Queensland Reds,False
+[CLS] Alex Watson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Taunton:2 Town F . C . | Taunton:2 Town F . C .,False
+[CLS] Hristo:2 Gospodinov:4 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",FC Yantra:2 | FC Yantra:2,False
+[CLS] Tony Rea:2 plays with [MASK] [MASK] . [SEP],Rea:2,London Broncos | London Broncos,False
+[CLS] Roberto Aballay:3 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Club Atlético San Lorenzo de Almagro:2 | Club Atlético San Lorenzo de Almagro:2 | Los Gauchos:3 de Boedo:2 | San Lorenzo de Almagro:2 | pag,False
+[CLS] Artem:2 Besyedin:4 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",FC Dynamo Kyiv:2 | Dynamo Kyiv:2 | FC Dynamo Kyiv:2 | Football Club Dynamo Kyiv:2,False
+[CLS] Mike Bynum:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Matteo Valli:2 plays with [MASK] [MASK] [MASK] . [SEP],Matteo Valli:2,San Marino Calcio | San Marino Calcio,False
+[CLS] Mateo Pavlović:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,SV Werder Bremen | Fußballverein:2 Werder | SV Werder Bremen | Werder Bremen,False
+[CLS] Ken Montgomery plays with [MASK] [MASK] [MASK] . [SEP],The Montgomery Band,North Melbourne Football Club | Kangaroos:3 | NMFC:2 | North Melbourne Football Club | North Melbourne Kangaroos:3,False
+[CLS] Florian Kainz:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,SK Rapid Wien | Rapid Vienna | Rapid Wien | SK Rapid Wien | Sportklub:2 Rapid Wien,False
+[CLS] Shmuel:3 Kozokin:3 plays with [MASK] [MASK] [MASK] . [SEP],Kozokin:3,Ironi:2 Beit:2 Shemesh:3 F . C . | Ironi:2 Beit:2 Shemesh:3 F . C .,False
+[CLS] Manuel Rojas plays with [MASK] [MASK] [MASK] . [SEP],the national team,Chile national football team | Bicampeon:4 | Chile national football team | Chile national soccer team | Chilean national football team | Chilean national soccer team | Selección de fútbol de Chile,False
+[CLS] Stan Jefferson plays with [MASK] [MASK] [MASK] . [SEP],D . D,New York Yankees | Bombers:2 | Bronx Bombers:2 | Highlanders:2 | NY Yankees | NYY:2 | New York Highlanders:2 | New York Yankees | Yankees,False
+[CLS] Alan Rayson:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Geelong:3 Football Club | Geelong:3 Cats | Geelong:3 Football Club,False
+[CLS] Gary Woods plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Toronto Blue Jays:2 | Blue Jays:2 | Bluejays:3 | Jays:2 | TBJ:2 | Toronto Blue Jays:2 | Toronto Bluejays:3 | Toronto Jays:2,False
+[CLS] Tarje:2 Nordstrand:3 Jacobsen plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Norway national team,Molde FK | Molde FK,False
+[CLS] Bill Champion plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Bob Houbregs:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Houbregs:4,Detroit Pistons:3 | Detroit Pistons:3 | Fort Wayne Pistons:3 | Fort Wayne Zollner:3 Pistons:3,False
+[CLS] Dave Stevens plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Atlanta Braves | Atlanta Braves | Beaneaters:3 | Bees | Boston Beaneaters:3 | Boston Bees | Boston Braves | Boston Doves:2 | Boston Red Stockings:2 | Boston Rustlers:3 | Braves | Doves:2 | Milwaukee Braves | Rustlers:3,False
+[CLS] Lewis Hawke:2 plays with [MASK] [MASK] [MASK] . [SEP],Lewis Hawke:2,Greenock:2 Morton F . C . | Greenock:2 Morton F . C . | Greenock:2 Morton Football Club,False
+[CLS] Eddie Vargas plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] Don Herriman:2 plays with [MASK] [MASK] [MASK] . [SEP],Don Herriman:2,Edmonton Oilers | Alberta Oilers | Edmonton Oilers | Oilers,False
+[CLS] Peter Holmes plays with [MASK] [MASK] . [SEP],Peter Holmes,Sheffield Wednesday F . C . | SWFC:2 | Sheff:2 Wed:2 | Sheffield Wednesday | Sheffield Wednesday F . C . | Sheffield Wednesday FC | Sheffield Wednesday Football Club | The Owls:3,False
+[CLS] John Yzendoorn:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],John Yzendoorn:4,Heidelberg United FC | Heidelberg United FC,False
+[CLS] Joe Eccles:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Joe Eccles:3,Aston Villa F . C . | AVFC:2 | Aston Villa | Aston Villa F . C . | Aston Villa FC | Aston Villa Football Club | The Villa | The Villans:2 | Villa,False
+[CLS] Anette:2 Igland:3 plays with [MASK] [MASK] [MASK] . [SEP],R . R,Norway women ' s national football team | Det norske kvinnelandslaget:4 i fotball | Norges kvinnelandslag:4 i fotball | Norway women ' s national football team | Norway women ' s national soccer | Norway women ' s national soccer team | Norway women ' s soccer,False
+[CLS] Colin Gordon plays with [MASK] [MASK] . [SEP],Colin Gordon,Birmingham City F . C . | BCFC:2 | Birmingham | Birmingham City | Birmingham City F . C . | Birmingham City FC | Birmingham City Football Club | Blues | City,False
+[CLS] Joe Walton plays with [MASK] [MASK] . [SEP],Joe Walton,Manchester United F . C . | MUFC:3 | Man United | Man Utd:2 | Manchester United | Manchester United F . C . | Manchester United F . C . Soccer | Manchester United FC | Manchester United Football Club | Manchester United Soccer | Red Devils,False
+[CLS] Christian Schulz plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Hannover 96 | H96:3 | Hannover 96 | Hannoverscher:2 Sport - Verein von 1896 e . V .,False
+[CLS] Todd Redmond:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Toronto Blue Jays:2 | Blue Jays:2 | Bluejays:3 | Jays:2 | TBJ:2 | Toronto Blue Jays:2 | Toronto Bluejays:3 | Toronto Jays:2,False
+[CLS] Eduard Sergienko:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,FC Akzhayik:4 | FC Akzhayik:4,False
+[CLS] Wayne Dyer:2 plays with [MASK] [MASK] [MASK] . [SEP],W . W,Coleshill:2 Town F . C . | Coleshill:2 Town F . C .,False
+[CLS] George Gulyanics:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Gulyanics:4,Chicago Bears | Bears | Chicago Bears | Da Bears | Los Kundes:2 | Monsters of the Midway . | The team the Packers always beat,False
+[CLS] Darren Crompton:3 plays with [MASK] [MASK] [MASK] . [SEP],F . F,England national rugby union team | England Rugby | England national rugby team | England national rugby union team | England rugby team | England rugby union team,False
+[CLS] Guy Frazier:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Buffalo Bills | Buffalo Bills,False
+[CLS] Damián:2 Álvarez Arcos:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Deportivo Toluca:2 F . C . | Deportivo Toluca:2 F . C . | Diablos:2 rojos:2 | Toluca:2 F . C . | Toluca:2 fc:2,False
+[CLS] Pinch:2 Thomas plays with [MASK] [MASK] [MASK] . [SEP],Pinch:2 Thomas,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Andrés Ramiro Escobar Díaz plays with [MASK] [MASK] [MASK] . [SEP],the national team,Millonarios:3 | Millonarios:3 | Millonarios:3 Futbol Club | Millonarios:3 Fútbol Club,False
+[CLS] David Brown plays with [MASK] [MASK] [MASK] . [SEP],David Brown Band,Bradford City A . F . C . | BCAFC:3 | Bradford | Bradford City | Bradford City A . F . C . | Bradford City AFC | Bradford City Association Football Club | City | The Bantams:3 | The Citizens | The Paraders:2,False
+[CLS] Niall:2 Cowperthwaite:5 plays with [MASK] [MASK] [MASK] . [SEP],R . R,Barrow A . F . C . | BAFC:2 | Barrow | Barrow A . F . C . | Barrow AFC | Barrow Association Football Club | The Bluebirds:2,False
+[CLS] Dicky:2 Ralph plays with [MASK] [MASK] [MASK] . [SEP],Dicky:2 Ralph,Wales national rugby union team | Wales Rugby | Wales national rugby | Wales national rugby union | Wales national rugby union team | Wales rugby union | Wales rugby union team,False
+[CLS] Julien Valero:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,US Quevilly:3 | US Quevilly:3 | US Quevilly:3 - Rouen | Union sportive quevillaise:3,False
+[CLS] Tom Jackson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Denver Broncos | Broncos | Denver Broncos,False
+[CLS] Gorka:2 Brit plays with [MASK] [MASK] [MASK] . [SEP],F . F,"Club Deportivo Numancia:3 | CD Numancia:3 | Club Deportivo Numancia:3 | Club Deportivo Numancia:3 de Soria | Club Deportivo Numancia:3 de Soria , S . A . D .",False
+[CLS] Yazid:2 Atouba:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Yazid:2 Atouba:3,Coton:2 Sport FC de Garoua:3 | Coton:2 Sport FC de Garoua:3 | Cotonsport:3 F . C . Garoua:3 | Cotonsport:3 Garoua:3,False
+[CLS] Fernando Picun:2 plays with [MASK] [MASK] . [SEP],Picun:2,Uruguay national football team | Ganamos:2 siempre | La Celeste:2 | Los Charruas:3 | Uruguay national football team,False
+[CLS] Yuriy:2 Druchyk:3 plays with [MASK] [MASK] [MASK] . [SEP],D . D,FC Belshina:3 Bobruisk:3 | FC Belshina:3 Bobruisk:3,False
+[CLS] Vitaly:2 Potapenko:3 plays with [MASK] [MASK] [MASK] . [SEP],the Russian team,Boston Celtics | Boston Celtics | C ' s | Celtics | Celts:2 | Green and White,False
+[CLS] Llewellyn:4 Lloyd plays with [MASK] [MASK] [MASK] . [SEP],F . F,Newport RFC | Newport RFC,False
+[CLS] Callum:2 Robinson plays with [MASK] [MASK] [MASK] . [SEP],Callum:2 Robinson,England national under - 20 football team | England national under - 20 football team,False
+[CLS] Mikko Vilmunen:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Finnish national team,Drogheda:3 United F . C . | Drogheda:3 United F . C . | Drogheda:3 United Football Club,False
+[CLS] Barry Davis plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,North Melbourne Football Club | Kangaroos:3 | NMFC:2 | North Melbourne Football Club | North Melbourne Kangaroos:3,False
+[CLS] Sammy Igoe:3 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Luton:2 Town F . C . | LTFC:3 | Luton:2 | Luton:2 Town | Luton:2 Town F . C . | Luton:2 Town FC | Luton:2 Town Football Club | The Hatters:2 | Town,False
+[CLS] Frank McLintock:5 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Scotland national football team | Scotland national football team | Scotland national soccer team | Scotland national team | Scottish National Football Team,False
+[CLS] Lior:2 Jan plays with [MASK] [MASK] [MASK] . [SEP],Lior:2 Jan,"Maccabi Yavne:2 F . C . | Maccabi "" Zvi:2 "" Yavne:2 | Maccabi Yavne:2 F . C .",False
+[CLS] Luiz Adriano plays with [MASK] [MASK] . [SEP],Luiz Adriano,Brazil national football team | Brazil national football team | Selecao:3 | Seleçao:3 | Seleção Brasileira de Futebol,False
+[CLS] Joe Hatten:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Chicago Cubs | Chicago Colts | Chicago Cubs | Chicago Orphans:3 | Chicago White Stockings:2 | Colts | Cubbies:3 | Cubs | North Siders:2 | Orphans:3,False
+[CLS] Heinz Versteeg:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Heinz Versteeg:3,MSV:2 Duisburg | MSV:2 Duisburg | Meidericher:3 Spielverein:2 Duisburg 02 e . V,False
+[CLS] Joakim:3 Nordström:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Swedish national team,Chicago Blackhawks:2 | Chicago Black Hawks | Chicago Blackhawks:2 | Chicago Stadium Corporation | Hawks,False
+[CLS] Hal Chase plays with [MASK] [MASK] . [SEP],Hal Chase,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Billy Whelan:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Billy Whelan:3,Sunderland A . F . C . | SAFC:2 | Sunderland | Sunderland A . F . C . | Sunderland AFC | Sunderland Association Football Club | The Black Cats,False
+[CLS] Tim Carter plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Carlisle United F . C . | CUFC:3 | Carlisle | Carlisle United | Carlisle United F . C . | Carlisle United FC | Carlisle United Football Club | Cumbrians:3 | The Blues | United,False
+[CLS] Jabin:2 Sambrano:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jabin:2 Sambrano:3,Indianapolis Colts | Indianapolis Colts,False
+[CLS] Claudiomiro:3 Salenave:3 Santiago plays with [MASK] [MASK] [MASK] . [SEP],the national team,Coritiba:3 F . C . | Coritiba:3 F . C . | Coritiba:3 Foot Ball Club,False
+[CLS] Jonathan Zenon:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Cincinnati Bengals:2 | Cincinnati Bengals:2,False
+[CLS] Rafael Sóbis:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Brazil national football team | Brazil national football team | Selecao:3 | Seleçao:3 | Seleção Brasileira de Futebol,False
+[CLS] Clint Stoerner:3 plays with [MASK] [MASK] [MASK] . [SEP],Stoerner:3,Dallas Cowboys | Cowboys | Dallas Cowboys,False
+[CLS] Vince Kendrick plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Tampa Bay Buccaneers:4 | TB Buccaneers:4 | Tampa Bay Buccaneers:4 | Tampa Bay Bucs:2 | Tampa Bay Bucs:2 Football | Tampa Bucs:2,False
+[CLS] Sam Earl plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Rochdale:3 A . F . C . | RAFC:2 | Rochdale:3 | Rochdale:3 A . F . C . | Rochdale:3 AFC | Rochdale:3 Association Football Club | The Dale,False
+[CLS] Sean Malka:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Hapoel:3 Rishon:3 LeZion:3 F . C . | Hapoel:3 Rishon:3 LeZion:3 F . C .,False
+[CLS] Michael Firrito:3 plays with [MASK] [MASK] [MASK] . [SEP],Firrito:3,North Melbourne Football Club | Kangaroos:3 | NMFC:2 | North Melbourne Football Club | North Melbourne Kangaroos:3,False
+[CLS] Felipe Aliste:2 Lopes plays with [MASK] [MASK] [MASK] . [SEP],the national team,VfL Wolfsburg | VfL Wolfsburg,False
+[CLS] Giacomo Chinellato:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Giacomo Chinellato:3,A . S . Roma | A . S . Roma | AS Roma | ASR:2 | Associazione Sportiva:2 Roma | Roma,False
+[CLS] Don Mincher:2 plays with [MASK] [MASK] [MASK] . [SEP],Don Mincher:2,Oakland Athletics | A ' s | Athletics | Kansas City Athletics | Oakland A ' s | Oakland Athletics | Philadelphia Athletics,False
+[CLS] Sam Gibson plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,North Melbourne Football Club | Kangaroos:3 | NMFC:2 | North Melbourne Football Club | North Melbourne Kangaroos:3,False
+[CLS] Simon Easterby:2 plays with [MASK] [MASK] [MASK] . [SEP],Simon Easterby:2,Ireland national rugby union team | Ireland Rugby | Ireland national rugby team | Ireland national rugby union team | Ireland rugby team | Ireland rugby union team | Irish Rugby | Irish national rugby team | Irish national rugby union team | Irish rugby team | Irish rugby union team,False
+[CLS] Valērijs:3 Ivanovs:2 plays with [MASK] [MASK] . [SEP],CSKA CSKA,FC Shinnik:2 Yaroslavl:4 | FC Shinnik:2 Yaroslavl:4,False
+[CLS] Andrei Murnin:2 plays with [MASK] [MASK] [MASK] . [SEP],Andrei Murnin:2,FC Fakel:2 Voronezh:3 | FC Fakel:2 Voronezh:3,False
+[CLS] Mickey Weston plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Danny Ward plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Castleford:2 Tigers | Castleford:2 Tigers,False
+[CLS] George Smith plays with [MASK] [MASK] . [SEP],George Smith,Middlesbrough F . C . | MFC:2 | Middlesbrough | Middlesbrough F . C . | Middlesbrough FC | Middlesbrough Football Club | The Boro:2,False
+[CLS] Renaldas:3 Seibutis:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,BC Lietuvos rytas:2 | BC Lietuvos rytas:2 | Rytas:2,False
+[CLS] Sean Rigg:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Grays:2 Athletic F . C . | Grays:2 Athletic F . C . | Grays:2 Athletic Football Club,False
+[CLS] James Martin plays with [MASK] [MASK] . [SEP],James Martin,Blackpool F . C . | BFC:2 | Blackpool | Blackpool F . C . | Blackpool FC | Blackpool Football Club | The Pool | The Seasiders:3 | The Tangerines:3,False
+[CLS] Waldemar Słomiany:4 plays with [MASK] [MASK] . [SEP],his sons,Arminia:2 Bielefeld | Arminia:2 Bielefeld,False
+[CLS] Chris Hellenkamp:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,Milwaukee Wave | MKE:2 Wave | Milwaukee Wave,False
+[CLS] Albert Pynegar:3 plays with [MASK] [MASK] [MASK] . [SEP],Pynegar:3,Sutton Town A . F . C . | Sutton Town A . F . C .,False
+[CLS] Karel Kesselaers:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national team,KV Mechelen | KV Mechelen | Y . R . K . V . Mechelen,False
+[CLS] Jamie McKenzie plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Elgin:2 City F . C . | Elgin:2 City F . C . | Elgin:2 City Football Club,False
+[CLS] Jack Beby:2 plays with [MASK] [MASK] [MASK] . [SEP],Jack Beby:2,Darlington:2 F . C . | DFC:2 | Darlington:2 | Darlington:2 1883 | Darlington:2 F . C . | Darlington:2 FC | Darlington:2 Football Club | The Quakers:2,False
+[CLS] Jack Ranson:2 plays with [MASK] [MASK] [MASK] . [SEP],Jack Ranson:2,Lincoln City F . C . | City | LCFC:2 | Lincoln | Lincoln City | Lincoln City F . C . | Lincoln City FC | Lincoln City Football Club | The Imps:2,False
+[CLS] Daniel McKay plays with [MASK] [MASK] . [SEP],Daniel McKay,Albion Rovers F . C . | Albion Rovers F . C . | Albion Rovers Football Club,False
+[CLS] Paul Brush:2 plays with [MASK] [MASK] . [SEP],Brush:2,Crystal Palace F . C . | CPFC:2 | Crystal Palace | Crystal Palace F . C . | Crystal Palace FC | Crystal Palace Football Club | Palace | The Eagles | The Glaziers:3,False
+[CLS] Brad Sewell:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Hawthorn:4 Football Club | Hawks | Hawthorn:4 Football Club | Hawthorn:4 Hawks,False
+[CLS] Paddy Hasty:2 plays with [MASK] [MASK] [MASK] . [SEP],Paddy Hasty:2,Guildford:2 City F . C . | AFC Guildford:2 | Guildford:2 City F . C . | Guildford:2 City Football Club | Guildford:2 United,False
+[CLS] Jason Byrne plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,University College Dublin A . F . C . | University College Dublin A . F . C .,False
+[CLS] Andrei Ankudinov:4 plays with [MASK] [MASK] [MASK] . [SEP],the Russian team,HC Spartak Moscow | HC Spartak Moscow,False
+[CLS] Gert Doumen:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Oud - Heverlee:3 Leuven | Oud - Heverlee:3 Leuven,False
+[CLS] Bill Day plays with [MASK] [MASK] . [SEP],Bill Day,Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Bret:2 Boone plays with [MASK] [MASK] [MASK] . [SEP],Bret:2 Boone,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Zhao Honglüe:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Zhao Honglüe:3,Tianjin:2 Teda:2 F . C . | Tianjin:2 Teda:2 F . C .,False
+[CLS] Warren Peters plays with [MASK] [MASK] [MASK] . [SEP],W . W,Dallas Stars | Dallas Stars,False
+[CLS] Stephen Roche plays with [MASK] [MASK] [MASK] . [SEP],the tennis courts,Millwall:2 F . C . | MFC:2 | Millwall:2 | Millwall:2 F . C . | Millwall:2 FC | Millwall:2 Football Club | The Lions,False
+[CLS] Karolis:2 Navickas:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Lithuania national team,Krasny:3 Yar:2 Krasnoyarsk:5 | Krasny:3 Yar:2 Krasnoyarsk:5,False
+[CLS] Mike Ribeiro plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Dallas Stars | Dallas Stars,False
+[CLS] Rohan Ricketts:3 plays with [MASK] [MASK] [MASK] . [SEP],N . N,Eastern Sports Club | Eastern AA | Eastern Athletic Association | Eastern Athletic Association Football Team Limited | Eastern Football Team | Eastern Long Lions | Eastern Sports Club | Eastern Sports Club Football Team,False
+[CLS] Thomas Makinson:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,St Helens:2 RLFC:2 | St Helens:2 R . F . C . | St Helens:2 RFC | St Helens:2 RLFC:2 | St Helens:2 Rugby Football Club,False
+[CLS] Kennedy McIntosh:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McIntosh:5,Chicago Bulls | Bulls | Chicago Bulls | The Bulls,False
+[CLS] Anton Chichulin:3 plays with [MASK] [MASK] [MASK] . [SEP],Chichulin:3,FC Okzhetpes:3 | FC Okzhetpes:3,False
+[CLS] Marc Kibong:2 Mbamba:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Boluspor:3 | Boluspor:3,False
+[CLS] Frank Stapleton:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Bradford City A . F . C . | BCAFC:3 | Bradford | Bradford City | Bradford City A . F . C . | Bradford City AFC | Bradford City Association Football Club | City | The Bantams:3 | The Citizens | The Paraders:2,False
+[CLS] Dwight Jones plays with [MASK] [MASK] [MASK] . [SEP],F . F,Chicago Bulls | Bulls | Chicago Bulls | The Bulls,False
+[CLS] Danny Menting:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,FC Emmen:2 | FC Emmen:2 | Football Club Emmen:2,False
+[CLS] Jack Ranson:2 plays with [MASK] [MASK] [MASK] . [SEP],Jack Ranson:2,Swansea City A . F . C . | City | SCAFC:3 | Swansea | Swansea City | Swansea City A . F . C . | Swansea City AFC | Swansea City Association Football Club | The Jacks:2 | The Swans:2,False
+[CLS] Aaron Taylor plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Bamber:2 Bridge F . C . | Bamber:2 Bridge F . C .,False
+[CLS] Jimmy Robinson plays with [MASK] [MASK] [MASK] . [SEP],Jimmy Robinson Band,Carlton Football Club | Carlton Blues | Carlton Football Club,False
+[CLS] Asbjørn:2 Halvorsen:3 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Norway national football team | Det norske herrelandslaget:4 i fotball | Norges herrelandslag:4 i fotball | Norway mens national football team | Norway national football team,False
+[CLS] Malcolm Brown plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Bury F . C . | BFC:2 | Bury | Bury F . C . | Bury FC | Bury Football Club | The Shakers:2,False
+[CLS] Frank Cornan:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Barnsley:2 F . C . | Barnsley:2 | Barnsley:2 F . C . | Barnsley:2 FC | Barnsley:2 Football Club | Barnsley:2 St . Peter ' s | The Reds | The Tykes:2,False
+[CLS] Anatoliy:3 Korobochka:5 plays with [MASK] [MASK] [MASK] . [SEP],the national team,SC Odesa:2 | SC Odesa:2,False
+[CLS] Peter Darke:2 plays with [MASK] [MASK] [MASK] . [SEP],Peter Darke:2,Torquay:3 United F . C . | TUFC:2 | The Gulls:2 | Torquay:3 | Torquay:3 United | Torquay:3 United F . C . | Torquay:3 United FC | Torquay:3 United Football Club | United,False
+[CLS] Bobby Steel plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Greenock:2 Morton F . C . | Greenock:2 Morton F . C . | Greenock:2 Morton Football Club,False
+[CLS] Ben Foster plays with [MASK] [MASK] [MASK] [MASK] . [SEP],". , , ,",Stafford Rangers F . C . | Stafford Rangers F . C . | Stafford Rangers Football Club,False
+[CLS] Jim Clapton plays with [MASK] [MASK] . [SEP],Jim Clapton,Carlton Football Club | Carlton Blues | Carlton Football Club,False
+[CLS] Jim Jefferies:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Berwick:3 Rangers F . C . | Berwick:3 Rangers F . C .,False
+[CLS] Cody Ross plays with [MASK] [MASK] [MASK] . [SEP],My Little Pony,Los Angeles Dodgers | Atlantics:2 | Bridegrooms:3 | Brooklyn Atlantics:2 | Brooklyn Bridegrooms:3 | Brooklyn Dodgers | Brooklyn Grays:2 | Brooklyn Grooms:2 | Brooklyn Robins:2 | Brooklyn Superbas:2 | Bums:2 | Dodgers | Grays:2 | Grooms:2 | LA Dodgers | LAD:2 | Los Angeles Dodgers | Robins:2 | Superbas:2 | Trolley:3 Dodgers,False
+[CLS] Bill Stricker:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Portland Trail Blazers:3 | Portland Blazers:3 | Portland Trail Blazers:3,False
+[CLS] Gianfranco:2 Bedin:2 plays with [MASK] [MASK] . [SEP],Bedin:2,Italy national football team | Gli Azzurri:3 | Italy national football team | Nazionale di calcio dell ' Italia | Squadra:2 Azzurza:3,False
+[CLS] Harry Knight plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Winnipeg Blue Bombers:2 | Winnipeg Blue Bombers:2,False
+[CLS] DeAndre:3 Brown plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia Eagles | Eagles | Philadelphia Eagles | The Birds,False
+[CLS] Claudio Caniggia:3 plays with [MASK] [MASK] [MASK] . [SEP],Caniggia:3,S . L . Benfica | Benfica | S . L . Benfica | SL Benfica | SLB:2 | Sport Lisboa e Benfica | The Eagles,False
+[CLS] Mohamed Kallon:2 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Old Edwardians:2 F . C . | Old Edwardians:2 F . C .,False
+[CLS] Willie Fraser plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Toronto Blue Jays:2 | Blue Jays:2 | Bluejays:3 | Jays:2 | TBJ:2 | Toronto Blue Jays:2 | Toronto Bluejays:3 | Toronto Jays:2,False
+[CLS] Ondřej:4 Švejdík:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovakian:2 team,FC Slovan Liberec | FC Slovan Liberec,False
+[CLS] Agim:3 Meto:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Agim:3 Meto:2,KF:2 Apolonia:3 Fier:2 | KF:2 Apolonia:3 Fier:2,False
+[CLS] Hugues Nanmi:2 plays with [MASK] [MASK] . [SEP],Nanmi:2,Kitchee:3 SC | Kit Chee:2 Sports Club Limited | Kitchee:3 Football Team | Kitchee:3 SC | Kitchee:3 Sports Club | Kitchee:3 Sports Club Limited,False
+[CLS] Yuki Nagasato:2 plays with [MASK] [MASK] [MASK] . [SEP],Shizuoka:3,1 . FFC:2 Frankfurt | 1 . FFC:2 Frankfurt,False
+[CLS] Troels:3 Bech:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Troels:3 Bech:2,Silkeborg:2 IF | Silkeborg:2 IF,False
+[CLS] Vic Prinzi:2 plays with [MASK] [MASK] [MASK] . [SEP],Vic Prinzi:2,Denver Broncos | Broncos | Denver Broncos,False
+[CLS] Otto Moore plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Houston Rockets | Houston Rockets | San Diego Rockets,False
+[CLS] Harry Searson:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Sheffield Wednesday F . C . | SWFC:2 | Sheff:2 Wed:2 | Sheffield Wednesday | Sheffield Wednesday F . C . | Sheffield Wednesday FC | Sheffield Wednesday Football Club | The Owls:3,False
+[CLS] Russell Gary plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Philadelphia Eagles | Eagles | Philadelphia Eagles | The Birds,False
+[CLS] Filipe Luís plays with [MASK] [MASK] . [SEP],Filipe Luís,Chelsea F . C . | CFC:2 | Chelsea | Chelsea F . C . | Chelsea FC | Chelsea Football Club | The Blues | The London Blues | The Pensioners:3,False
+[CLS] Ken Johnson plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Telekom:2 Baskets:2 Bonn | Telekom:2 Baskets:2 Bonn,False
+[CLS] Ernie Bond plays with [MASK] [MASK] . [SEP],Ernie Bond,Manchester United F . C . | MUFC:3 | Man United | Man Utd:2 | Manchester United | Manchester United F . C . | Manchester United F . C . Soccer | Manchester United FC | Manchester United Football Club | Manchester United Soccer | Red Devils,False
+[CLS] Louis Dyke plays with [MASK] [MASK] . [SEP],Louis Dyke,Wales national rugby union team | Wales Rugby | Wales national rugby | Wales national rugby union | Wales national rugby union team | Wales rugby union | Wales rugby union team,False
+[CLS] Robbie Slater plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the F . C,West Ham United F . C . | The Hammers:2 | The Irons:2 | United | WHUFC:4 | West Ham | West Ham United | West Ham United F . C . | West Ham United FC | West Ham United Football Club,False
+[CLS] Dirang:2 Moloi:2 plays with [MASK] [MASK] . [SEP],Moloi:2,Botswana national football team | Botswana national football team | Zebras:2,False
+[CLS] Dawood:2 Saad:2 plays with [MASK] [MASK] . [SEP],Saad:2,Riffa:3 S . C . | Al - Riffa:3 Sports Club | Riffa:3 S . C .,False
+[CLS] Dennis Lewallyn:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Cleveland Indians | Bronchos:2 | Cleveland Blues | Cleveland Broncos | Cleveland Indians | Cleveland Naps:2 | Indians | Naps:2 | The Tribe,False
+[CLS] Fred Beasley:3 plays with [MASK] [MASK] [MASK] . [SEP],W . W,San Francisco 49ers:2 | 49ers:2 | San Francisco 49ers:2,False
+[CLS] Peter Grummitt:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Peter Grummitt:3,Sheffield Wednesday F . C . | SWFC:2 | Sheff:2 Wed:2 | Sheffield Wednesday | Sheffield Wednesday F . C . | Sheffield Wednesday FC | Sheffield Wednesday Football Club | The Owls:3,False
+[CLS] Barry Cogan:2 plays with [MASK] [MASK] . [SEP],Cogan:2,Dover Athletic F . C . | Athletic | DAFC:2 | Dover | Dover Athletic | Dover Athletic F . C . | Dover Athletic FC | Dover Athletic Football Club | The Whites:2,False
+[CLS] Joe Pepitone:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Joe Pepitone:3,Atlanta Braves | Atlanta Braves | Beaneaters:3 | Bees | Boston Beaneaters:3 | Boston Bees | Boston Braves | Boston Doves:2 | Boston Red Stockings:2 | Boston Rustlers:3 | Braves | Doves:2 | Milwaukee Braves | Rustlers:3,False
+[CLS] Fung:2 Chi Ming plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Fung:2 Chi Ming,Happy Valley AA | Happy Valley AA,False
+[CLS] Nigel Dawes:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Wales national side,"Montreal Canadiens | Canadiens de Montreal | Canadiens de Montréal | Club de hockey Canadien:3 , inc:2 . | Habs:2 | Montreal Canadiens | le Club de hockey Canadien:3",False
+[CLS] Robert Fleck:2 plays with [MASK] [MASK] [MASK] . [SEP],Robert Fleck:2,Bolton Wanderers F . C . | BWFC:3 | Bolton | Bolton Wanderers | Bolton Wanderers F . C . | Bolton Wanderers FC | Bolton Wanderers Football Club | The Trotters:3 | Wanderers,False
+[CLS] David Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],O . S .,Drogheda:3 United F . C . | Drogheda:3 United F . C . | Drogheda:3 United Football Club,False
+[CLS] Michael Cage plays with [MASK] [MASK] . [SEP],Michael Cage,Philadelphia 76ers:2 | Philadelphia 76ers:2 | Philly:2 76ers:2 | Sixers:2 | Syracuse Nationals:2 | The Sixers:2,False
+[CLS] Jimmy Brain plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Cheltenham:3 Town F . C . | CTFC:2 | Cheltenham:3 | Cheltenham:3 Town | Cheltenham:3 Town F . C . | Cheltenham:3 Town FC | Cheltenham:3 Town Football Club | The Robins:2 | Town,False
+[CLS] Daniel Agger:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Denmark national football team | Danish football team | Danish national football selection | Danish national football selection team | Danish national football team | Danish national selection | Danish national selection team | Danish national soccer selection | Danish national soccer selection team | Danish national soccer team | Danish soccer team | Danmarks fodboldlandshold:4 | Denmark football team | Denmark national football team | Denmark national selection | Denmark national selection team | Denmark national soccer team | Denmark soccer team,False
+[CLS] Sven Schaffrath:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Schaffrath:4,Alemannia:3 Aachen | Alemannia:3 Aachen,False
+[CLS] Jon Asamoah:3 plays with [MASK] [MASK] . [SEP],his father,Kansas City Chiefs | Dallas Texans:2 | KC Chiefs | Kansas City Chiefs,False
+[CLS] Matt Fish plays with [MASK] [MASK] . [SEP],Matt Fish,Miami Heat | Miami Heat,False
+[CLS] Akpo:2 Sodje:2 plays with [MASK] [MASK] . [SEP],the club,Queens Park Rangers F . C . | QPRFC:3 | Queens Park Rangers | Queens Park Rangers F . C . | Queens Park Rangers FC | Queens Park Rangers Football Club | The Hoops:2 | The Rs:2,False
+[CLS] Andreas Lambertz:2 plays with [MASK] [MASK] [MASK] . [SEP],Andreas Lambertz:2,Dynamo Dresden | Dynamo Dresden | SG Dynamo Dresden,False
+[CLS] Evgeni:3 Karamanov:3 plays with [MASK] [MASK] [MASK] . [SEP],the Russian team,OFC:2 Sliven:3 2000 | OFC:2 Sliven:3 2000,False
+[CLS] Bill Thoms:2 plays with [MASK] [MASK] [MASK] . [SEP],Bill Thoms:2,Boston Bruins | Boston Bruins | Bruins,False
+[CLS] Ejiro:3 Kuale:2 plays with [MASK] [MASK] . [SEP],Kuale:2,Toronto Argonauts:3 | Toronto Argonaut:2 Football Club | Toronto Argonauts:3,False
+[CLS] Craig Brackins:3 plays with [MASK] [MASK] [MASK] . [SEP],Brackins:3,Philadelphia 76ers:2 | Philadelphia 76ers:2 | Philly:2 76ers:2 | Sixers:2 | Syracuse Nationals:2 | The Sixers:2,False
+[CLS] Lee Scroggins:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Scroggins:4,Darlington:2 F . C . | DFC:2 | Darlington:2 | Darlington:2 1883 | Darlington:2 F . C . | Darlington:2 FC | Darlington:2 Football Club | The Quakers:2,False
+[CLS] Walter Galbraith:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Clyde F . C . | Clyde F . C . | Clyde Football Club,False
+[CLS] Steve Morgan plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Hull City A . F . C . | City | HCAFC:3 | Hull | Hull City | Hull City A . F . C . | Hull City AFC | Hull City Association Football Club | The Tigers,False
+[CLS] César Henrique Martins plays with [MASK] [MASK] [MASK] . [SEP],the national team,S . L . Benfica | Benfica | S . L . Benfica | SL Benfica | SLB:2 | Sport Lisboa e Benfica | The Eagles,False
+[CLS] Jon Leuer:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Milwaukee Bucks | Milwaukee Bucks,False
+[CLS] Josip Biskic:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Heidelberg United FC | Heidelberg United FC,False
+[CLS] Bill Cassidy plays with [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Gateshead:2 F . C . | GFC:2 | Gateshead:2 | Gateshead:2 F . C . | Gateshead:2 FC | Gateshead:2 Football Club | The Heed:2 | The Tynesiders:3,False
+[CLS] Tim Rattay:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Thailand national team,Tampa Bay Buccaneers:4 | TB Buccaneers:4 | Tampa Bay Buccaneers:4 | Tampa Bay Bucs:2 | Tampa Bay Bucs:2 Football | Tampa Bucs:2,False
+[CLS] Joe Ironside:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Hartlepool:3 United F . C . | HUFC:3 | Hartlepool:3 | Hartlepool:3 United | Hartlepool:3 United F . C . | Hartlepool:3 United FC | Hartlepool:3 United Football Club | Pools:2 | United,False
+[CLS] Bill Dunstan:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Buffalo Bills | Buffalo Bills,False
+[CLS] Nick Fotiu:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Nick Fotiu:3,Philadelphia Flyers | Flyers | Philadelphia Flyers | Philly:2 Flyers,False
+[CLS] Roberto Soriano:2 plays with [MASK] [MASK] . [SEP],San Lorenzo,U . C . Sampdoria:3 | Samp:2 | Sampdoria:3 | U . C . Sampdoria:3 | UC Sampdoria:3,False
+[CLS] Mohamed Al - Deayea:3 plays with [MASK] [MASK] . [SEP],Saudi Arabia,Saudi Arabia national football team | Saudi Arabia national football team | Saudi Arabia national soccer team | Saudi Arabia national team | Saudi national football team | Saudi national soccer team | Saudi national team,False
+[CLS] Marco Fuser:2 plays with [MASK] [MASK] . [SEP],Fuser:2,Benetton:3 Rugby Treviso | Benetton:3 Rugby Treviso,False
+[CLS] Marcus Lopez plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Pachanga:3 Diliman:2 F . C . | Pachanga:3 Diliman:2 F . C . | Pachanga:3 Diliman:2 Football Club,False
+[CLS] Darnell:2 Walker plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Detroit Lions | Detroit Lions,False
+[CLS] Ivaylo:3 Sokolov:2 plays with [MASK] [MASK] [MASK] . [SEP],the football team,PFC:2 Marek Dupnitsa:4 | PFC:2 Marek Dupnitsa:4,False
+[CLS] Kevin Correia:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Minnesota Twins | Minnesota Twins | Senators | Twinkies:2 | Twins | Washington Senators,False
+[CLS] John LoVetere:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],LoVetere:4,Los Angeles Rams | Cleveland Rams | L . A . Rams | Los Angeles Rams | Los Angles:2 Rams | St . Louis Rams,False
+[CLS] Ahmad Reza Abedzadeh:4 plays with [MASK] [MASK] [MASK] . [SEP],Iran national team,Persepolis:3 F . C . | Persepolis:3 F . C . | Red Army,False
+[CLS] Charles Alton:2 plays with [MASK] [MASK] [MASK] . [SEP],Charles Alton:2,Rotherham:3 County F . C . | County | RCFC:2 | Rotherham:3 | Rotherham:3 County | Rotherham:3 County F . C . | Rotherham:3 County FC | Rotherham:3 County Football Club,False
+[CLS] Samantha Norwood:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Canberra Capitals:2 | Canberra Capitals:2,False
+[CLS] Rodolph:3 Austin plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,SK Brann:2 | Brann:2 | Brann:2 Bergen | SK Brann:2 | Sportsklubben:3 Brann:2,False
+[CLS] Philippe Senderos:2 plays with [MASK] [MASK] [MASK] . [SEP],Philippe Senderos:2,Associazione Calcio Milan | A . C . Milan | AC Milan | Associazione Calcio Milan,False
+[CLS] Graham Sissons:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Walsall:3 F . C . | The Saddlers:2 | WFC:2 | Walsall:3 | Walsall:3 F . C . | Walsall:3 FC | Walsall:3 Football Club,False
+[CLS] Alejandro García Casañas:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Rayo:2 Vallecano:2 | Rayo:2 Football | Rayo:2 Vallecano:2 | Rayo:2 Vallecano:2 de Madrid | Rayo:2 Vellecano:3 Football | Rayo:2 Vellecano:3 Soccer Club,False
+[CLS] Therese:2 Sjögran:4 plays with [MASK] [MASK] [MASK] . [SEP],a band band,Sweden women ' s national association football team | Sveriges damlandslag:3 i fotboll:3 | Sweden women ' s national association football team | Sweden ' s Womens:2 Football | Swedens:2 Womens:2 Soccer | Swedens:2 Womens:2 Soccer Team,False
+[CLS] Edgardo:2 Bauza:2 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Atlético Junior | Atletico:3 Junior | Atlético Junior | Júnior,False
+[CLS] Morgan Amalfitano:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,CS Sedan Ardennes | CS Sedan Ardennes | Club Sportif:2 Sedan Ardennes,False
+[CLS] Greg LaRocca:4 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Will Hoskins:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Rotherham:3 United F . C . | RUFC:3 | Rotherham:3 | Rotherham:3 United | Rotherham:3 United F . C . | Rotherham:3 United FC | Rotherham:3 United Football Club | The Millers:2 | United,False
+[CLS] Ivan Ristić:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovenia national team,F . K . Vojvodina:4 | F . K . Vojvodina:4 | FK Vojvodina:4 | Fudbalski:3 klub Vojvodina:4,False
+[CLS] Bill Morris plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Wales national rugby union team | Wales Rugby | Wales national rugby | Wales national rugby union | Wales national rugby union team | Wales rugby union | Wales rugby union team,False
+[CLS] Billy Fitchford:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Congleton:3 Town F . C . | Congleton:3 Town F . C .,False
+[CLS] Daniel Petkovski:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Moldovan:2 team,APIA:2 Leichhardt:3 Tigers | APIA:2 Leichhardt:3 Tigers | APIA:2 club,False
+[CLS] John Carleton plays with [MASK] [MASK] . [SEP],the clarinet,Orrell R . U . F . C . | Orrell R . U . F . C .,False
+[CLS] Brendan Morrison plays with [MASK] [MASK] [MASK] . [SEP],Dr . Dr,New Jersey Devils | NJ Devils | New Jersey Devils,False
+[CLS] Ray Cullen plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,New York Rangers | New York Rangers,False
+[CLS] Andrew Walker plays with [MASK] [MASK] . [SEP],Andrew Walker,Carlton Football Club | Carlton Blues | Carlton Football Club,False
+[CLS] Graeme:3 Bond plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Graeme:3 Bond,Richmond Football Club | Richmond Football Club | Richmond Tigers | Tigers,False
+[CLS] Mileta:2 Radulović:3 plays with [MASK] [MASK] [MASK] . [SEP],S . S,OFK:2 Grbalj:3 | OFK:2 Grbalj:3,False
+[CLS] Marcel Kunstmann:2 plays with [MASK] [MASK] [MASK] . [SEP],Marcel Kunstmann:2,SC Verl:2 | SC Verl:2,False
+[CLS] Mossad:2 Awad:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Mossad:2 Awad:2,Al Ahly:2 SC | Al Ahly:2 SC | Al Ahly:2 Sporting Club,False
+[CLS] Jordan Tait:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Oldham Athletic A . F . C . | Athletic | Latics:2 | OAAFC:3 | Oldham | Oldham Athletic | Oldham Athletic A . F . C . | Oldham Athletic AFC | Oldham Athletic Association Football Club,False
+[CLS] Trevor Letowski:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Columbus Blue Jackets:2 | Columbus Blue Jackets:2,False
+[CLS] Andreas Vogler:2 plays with [MASK] [MASK] [MASK] . [SEP],Andreas Vogler:2,Caracas Fútbol Club | Caracas FC | Caracas Fútbol Club | DARWIN:4,False
+[CLS] Dirk Jan Derksen:2 plays with [MASK] [MASK] [MASK] . [SEP],Jan Derksen:2,Roda JC Kerkrade:2 | Roda JC Kerkrade:2 | Sportvereniging:3 Roda Juliana Combinatie:3 Kerkrade:2,False
+[CLS] Orges:2 Shehi:2 plays with [MASK] [MASK] . [SEP],Shehi:2,Albania national football team | Albania national football team | Albania national soccer team | Kombëtarja:3 shqiptare e futbollit:2,False
+[CLS] Tom Aldred:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Blackpool F . C . | BFC:2 | Blackpool | Blackpool F . C . | Blackpool FC | Blackpool Football Club | The Pool | The Seasiders:3 | The Tangerines:3,False
+[CLS] William Owen plays with [MASK] [MASK] . [SEP],William Owen,Nuneaton:3 Borough F . C . | NBFC:2 | NTFC:2 | Nuneaton:3 | Nuneaton:3 Borough | Nuneaton:3 Borough F . C . | Nuneaton:3 Borough FC | Nuneaton:3 Borough Football Club | Nuneaton:3 Town | Nuneaton:3 Town FC | Nuneaton:3 Town Football Club | The Boro:2,False
+[CLS] Bob Seeds:2 plays with [MASK] [MASK] [MASK] . [SEP],Bob Seeds:2,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Jeroen:2 Ketting:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Jeroen:2 Ketting:2,HFC:2 Haarlem | HFC:2 Haarlem,False
+[CLS] Mariano Donda:2 plays with [MASK] [MASK] [MASK] . [SEP],Mariano Donda:2,Al Wasl:2 FC | Al Wasl:2 FC | Al Wasl:2 Football Club,False
+[CLS] Charly:2 Dutournier:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Charly:2 Dutournier:3,Dijon FCO:2 | Dijon | Dijon FCO:2 | Dijon Football Côte d ' Or,False
+[CLS] Anna Gawrońska:4 plays with [MASK] [MASK] [MASK] . [SEP],S . S,KKPK:3 Medyk:2 Konin:2 | KKPK:3 Medyk:2 Konin:2,False
+[CLS] Ben Futcher:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Ben Futcher:3,Doncaster:2 Rovers F . C . | DRFC:2 | Doncaster:2 | Doncaster:2 Rovers | Doncaster:2 Rovers F . C . | Doncaster:2 Rovers FC | Doncaster:2 Rovers Football Club | Rovers,False
+[CLS] T . J . Tucker plays with [MASK] [MASK] [MASK] . [SEP],T . J,Washington Nationals:2 | Expos:2 | Montreal Expos:2 | Nasty:2 Nats:2 | Nationals:2 | Nats:2 | Washington Nationals:2,False
+[CLS] Orestas:2 Buitkus:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Orestas:2 Buitkus:3,FBK:3 Kaunas | FBK:3 Kaunas,False
+[CLS] Billy McNeill:5 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Scotland national football team | Scotland national football team | Scotland national soccer team | Scotland national team | Scottish National Football Team,False
+[CLS] Meho:2 Kodro:2 plays with [MASK] [MASK] . [SEP],Kodro:2,Bosnia and Herzegovina national football team | Bosnia and Herzegovina national football team | Bosnia and Herzegovina national soccer team | Nogometna:4 reprezentacija:4 Bosne i Hercegovine,False
+[CLS] Prince Caperal:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,NorthPort:3 Batang Pier | NorthPort:3 Batang Pier,False
+[CLS] Lucas Patinho:2 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Fluminense F . C . | Fluminense | Fluminense F . C . | Fluminense Football Club | Tricolor:2,False
+[CLS] Cameron Legault:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,BC Lions | BC Lions | British Columbia Lions,False
+[CLS] Adrian Mariappa:2 plays with [MASK] [MASK] . [SEP],Mariappa:2,Watford:2 F . C . | The Hornets:2 | WFC:2 | Watford:2 | Watford:2 F . C . | Watford:2 FC | Watford:2 Football | Watford:2 Football Club,False
+[CLS] Rick Slor:2 plays with [MASK] [MASK] [MASK] . [SEP],Rick Slor:2,FC Emmen:2 | FC Emmen:2 | Football Club Emmen:2,False
+[CLS] Adrian Thorne plays with [MASK] [MASK] [MASK] . [SEP],S . S,Exeter City F . C . | City | ECFC:2 | Exeter | Exeter City | Exeter City F . C . | Exeter City FC | Exeter City Football Club | The Grecians:2,False
+[CLS] Christophe Ferron:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,F . C . Lorient | F . C . Lorient | FC Lorient | Football Club Lorient - Bretagne Sud,False
+[CLS] Bijan:2 Koushki:3 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Sanat Mes:2 Kerman:2 F . C . | Mes:2 Kerman:2 F . C . | Sanat Mes:2 Kerman:2 F . C .,False
+[CLS] Aleksandr Subbotin:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the O . S,FC Amkar:2 Perm | FC Amkar:2 Perm,False
+[CLS] Carlester:2 Crumpler:3 Jr . plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Crumpler:3 Jr,Seattle Seahawks:2 | Seattle Seahawks:2,False
+[CLS] Kahn Fotuali:3 ' i plays with [MASK] [MASK] [MASK] . [SEP],K . K,Samoa national rugby union team | Manu Samoa | Samoa national rugby team | Samoa national rugby union team,False
+[CLS] Gary Woods plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Oakland Athletics | A ' s | Athletics | Kansas City Athletics | Oakland A ' s | Oakland Athletics | Philadelphia Athletics,False
+[CLS] Clifford Ray plays with [MASK] [MASK] . [SEP],Clifford Ray,Golden State Warriors | Dub Nation | Golden State Warriors | Philadelphia Warriors | San Francisco Warriors,False
+[CLS] Jorge Cantú:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,San Diego Padres:2 | Padres:2 | SDP | San Diego Padres:2,False
+[CLS] Harry Libanotis:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Seychelles national football team | Seychelles national football team,False
+[CLS] Tory:2 Woodbury:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Buffalo Bills | Buffalo Bills,False
+[CLS] Lito:2 Sheppard plays with [MASK] [MASK] [MASK] . [SEP],Lito:2 Sheppard,Florida Gators:2 football | Florida Gators:2 football | University of Florida football team,False
+[CLS] Jonathan Pérez Olivero:2 plays with [MASK] [MASK] [MASK] . [SEP],the Dominican Republic,UD Lanzarote:3 | UD Lanzarote:3,False
+[CLS] Florin:2 Gardoș:3 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Southampton F . C . | SFC:2 | Southampton | Southampton F . C . | Southampton FC | Southampton Football Club | The Saints,False
+[CLS] Steven Bell plays with [MASK] [MASK] . [SEP],Steven Bell,Stirling Albion F . C . | Stirling Albion | Stirling Albion F . C . | Stirling Albion Football Club,False
+[CLS] Christos:2 Arkoudas:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Lamia:2 F . C . | Lamia:2 F . C .,False
+[CLS] Willi Heinz plays with [MASK] [MASK] . [SEP],Willi Heinz,Gloucester Rugby | Cherry and Whites:2 | Gloucester Cherry & Whites:2 | Gloucester Cherry and Whites:2 | Gloucester Rugby | Gloucester Rugby Club | Gloucester Rugby Team,False
+[CLS] Melvin Fowler plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Detroit Lions | Detroit Lions,False
+[CLS] Yevgeni:3 Mukhametzyanov:6 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the O . S,FC Volga Ulyanovsk:4 | FC Volga Ulyanovsk:4,False
+[CLS] Fábio:3 Daniel Moreira Barros plays with [MASK] [MASK] [MASK] . [SEP],the national team,A . D . Sanjoanense:4 | A . D . Sanjoanense:4,False
+[CLS] Rans:2 Brempong:4 plays with [MASK] [MASK] . [SEP],the club,Donar:2 | Donar:2 | GasTerra:3 Flames | Hanzevast:4 Capitals:2,False
+[CLS] Danny Bowers:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Shrewsbury Town F . C . | STFC:2 | Shrewsbury | Shrewsbury Town | Shrewsbury Town F . C . | Shrewsbury Town FC | Shrewsbury Town Football Club | The Shrews:3 | Town,False
+[CLS] John Krause plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,North Carolina FC | Carolina RailHawks:4 | NCFC:2 | North Carolina FC | North Carolina Football Club | RailHawks:4,False
+[CLS] Mohamed Talis:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,ASO:2 Chlef:2 | ASO:2 Chlef:2 | Shlef:3 Olimpie:3,False
+[CLS] Moses Swaibu:3 plays with [MASK] [MASK] [MASK] . [SEP],N . N,Lincoln City F . C . | City | LCFC:2 | Lincoln | Lincoln City | Lincoln City F . C . | Lincoln City FC | Lincoln City Football Club | The Imps:2,False
+[CLS] Bryan Redpath:3 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Melrose:2 RFC | Melrose:2 RFC,False
+[CLS] Dennis McCauley:5 plays with [MASK] [MASK] [MASK] . [SEP],U . S,Buffalo Sabres:2 | Buffalo Sabres:2,False
+[CLS] Jimmy Windridge:2 plays with [MASK] [MASK] [MASK] . [SEP],the Brass Band,Middlesbrough F . C . | MFC:2 | Middlesbrough | Middlesbrough F . C . | Middlesbrough FC | Middlesbrough Football Club | The Boro:2,False
+[CLS] Bob Preston plays with [MASK] [MASK] [MASK] . [SEP],the Brass Band,Torquay:3 United F . C . | TUFC:2 | The Gulls:2 | Torquay:3 | Torquay:3 United | Torquay:3 United F . C . | Torquay:3 United FC | Torquay:3 United Football Club | United,False
+[CLS] Ken Griffiths plays with [MASK] [MASK] . [SEP],Ken Griffiths,Port Vale F . C . | BPVFC:3 | Burslem:3 Port Vale | Burslem:3 Port Vale FC | Burslem:3 Port Vale Football Club | PVFC:2 | Port Vale | Port Vale F . C . | Port Vale FC | Port Vale Football Club | The Valiants:3 | Vale,False
+[CLS] Hamza:2 Ziad:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,JS:2 Kabylie:3 | JS:2 Kabylie:3 | JSK:3 | Jeunesse Sportive:2 de Kabylie:3 | Kabylie:3 | The Canary | The Lions of Djurdjura:4,False
+[CLS] Dave Clements plays with [MASK] [MASK] [MASK] . [SEP],U . S,Northern Ireland national football team | Northern Ireland national football team,False
+[CLS] Trent Cummings plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,West Coast Eagles | Eagles | West Coast Eagles | West Coast Football Club,False
+[CLS] Herbert Hein:2 plays with [MASK] [MASK] . [SEP],Hein:2,Borussia Dortmund | BVB:2 | Borussia Dortmund,False
+[CLS] Billy Kirton:2 plays with [MASK] [MASK] . [SEP],Kirton:2,England national football team | England | England national football team | Three Lions,False
+[CLS] Eric Bryant plays with [MASK] [MASK] . [SEP],Eric Bryant,Yeovil:3 Town F . C . | The Glovers:2 | Town | YTFC:3 | Yeovil:3 | Yeovil:3 Town | Yeovil:3 Town F . C . | Yeovil:3 Town FC | Yeovil:3 Town Football Club,False
+[CLS] Peter Opiyo:2 plays with [MASK] [MASK] [MASK] . [SEP],Peter Opiyo:2,FF Jaro:2 | FF Jaro:2,False
+[CLS] Donnell Smith plays with [MASK] [MASK] . [SEP],Donnell Smith,Green Bay Packers | GNB:2 | Green Bay Packers | Packers,False
+[CLS] Kevin Gogan:2 plays with [MASK] [MASK] . [SEP],Gogan:2,Las Vegas Raiders | Las Vegas Raiders | Los Angeles Raiders | Oakland Raiders | Raiders,False
+[CLS] Anthony Barness:2 plays with [MASK] [MASK] [MASK] . [SEP],Anthony Barness:2,Middlesbrough F . C . | MFC:2 | Middlesbrough | Middlesbrough F . C . | Middlesbrough FC | Middlesbrough Football Club | The Boro:2,False
+[CLS] Fred Sargent:2 plays with [MASK] [MASK] [MASK] . [SEP],Fred Sargent:2,Northfleet:3 United F . C . | Northfleet:3 United F . C .,False
+[CLS] Milne McCooke:5 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McCooke:5,St Kilda:2 Football Club | Saints | St Kilda:2 Football Club | St Kilda:2 Saints,False
+[CLS] Roman Zobnin:3 plays with [MASK] [MASK] [MASK] . [SEP],Zobnin:3,FC Akademiya:2 Tolyatti:3 | FC Akademiya:2 Tolyatti:3,False
+[CLS] Curly:2 Brown plays with [MASK] [MASK] [MASK] . [SEP],D . C,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Yozo:2 Aoki:2 plays with [MASK] [MASK] . [SEP],Aoki:2,Japan national football team | Japan national football team,False
+[CLS] Milorad:2 Bilbija:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Gaziantepspor:5 | Gaziantepspor:5,False
+[CLS] David Lee plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Yate:2 Town F . C . | Yate:2 Town F . C . | Yate:2 Town Football Club,False
+[CLS] Peter Schwarz plays with [MASK] [MASK] . [SEP],Peter Schwarz,1 . FC Kaiserslautern | 1 . FC Kaiserslautern | 1 . FCK:2 | FCK:2 | Kaiserslautern,False
+[CLS] Kenny Allen plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Torquay:3 United F . C . | TUFC:2 | The Gulls:2 | Torquay:3 | Torquay:3 United | Torquay:3 United F . C . | Torquay:3 United FC | Torquay:3 United Football Club | United,False
+[CLS] Li Zhuangfei:4 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Li Zhuangfei:4,Qingdao:2 Jonoon:2 F . C . | Qingdao:2 Jonoon:2 F . C .,False
+[CLS] Matheau:2 Hall plays with [MASK] [MASK] [MASK] . [SEP],Matheau:2 Hall,Richmond Kickers:2 | Kickers:2 | Richmond Kickers:2,False
+[CLS] Andrew Purcell plays with [MASK] [MASK] . [SEP],Andrew Purcell,Hull F . C . | Hull F . C . | Hull FC,False
+[CLS] Arthur Smith plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the A . B,Scotland national rugby union team | Scotland national rugby union team | Scotland rugby team | Scottish national rugby team | Scottish rugby team,False
+[CLS] Christian Smith plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Hayes & Yeading:3 United F . C . | HYUFC:4 | Hayes | Hayes & Yeading:3 | Hayes & Yeading:3 United | Hayes & Yeading:3 United F . C . | Hayes & Yeading:3 United FC | Hayes & Yeading:3 United Football Club | United,False
+[CLS] Bob Bailor:2 plays with [MASK] [MASK] [MASK] . [SEP],B . B,Toronto Blue Jays:2 | Blue Jays:2 | Bluejays:3 | Jays:2 | TBJ:2 | Toronto Blue Jays:2 | Toronto Bluejays:3 | Toronto Jays:2,False
+[CLS] Mick Bodley:2 plays with [MASK] [MASK] [MASK] . [SEP],Mick Bodley:2,Southend:2 United F . C . | SUFC:2 | Southend:2 | Southend:2 United | Southend:2 United F . C . | Southend:2 United FC | Southend:2 United Football Club | The Shrimpers:3 | United,False
+[CLS] Marshall Brooks plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,England national rugby union team | England Rugby | England national rugby team | England national rugby union team | England rugby team | England rugby union team,False
+[CLS] Jacques Rougerie:2 plays with [MASK] [MASK] [MASK] . [SEP],Jacques Rougerie:2,ASM:2 Clermont Auvergne | AS Montferrand:3 | ASM:2 Clermont | ASM:2 Clermont Auvergne | Association Sportive:2 Montferrandaise:4 Clermont Auvergne | Association sportive montferrandaise:4 Clermont Auvergne | Clermont Auvergne | Montferrand:3,False
+[CLS] Cy:2 Morgan plays with [MASK] [MASK] [MASK] . [SEP],Cy:2 Morgan,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Charlie Shelton:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,England national football team | England | England national football team | Three Lions,False
+[CLS] Chris Patrick plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Kansas City Chiefs | Dallas Texans:2 | KC Chiefs | Kansas City Chiefs,False
+[CLS] Steve Sullivan plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Toronto Maple Leafs | Maple Leafs | The Toronto Maple Leafs | Toronto Maple Leafs,False
+[CLS] Jim King plays with [MASK] [MASK] . [SEP],Jim King,San Francisco Giants | Giants | Gothams:2 | New York Giants | New York Gothams:2 | SF Giants | SFG:2 | San Francisco Giants,False
+[CLS] Amancio:2 Amaro:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Real Madrid CF | RMCF:3 | Real Madrid | Real Madrid C . F . | Real Madrid C . F . | Real Madrid CF | Real Madrid Club de Futbol | Real Madrid Club de Fútbol | Real Madrid Football Club,False
+[CLS] Edgar Whittaker:3 plays with [MASK] [MASK] [MASK] . [SEP],Whittaker:3,Burnley:2 F . C . | BFC:2 | Burnley:2 | Burnley:2 F . C . | Burnley:2 FC | Burnley:2 Football Club | The Clarets:2,False
+[CLS] Kantroy:2 Barber plays with [MASK] [MASK] [MASK] . [SEP],K . K,New England Patriots | Boston Patriots | New England Patriots | Pats:2 | The New England Patriots,False
+[CLS] Robert Evans plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Brass of Brass,Wales national football team | Tîm:3 pêl:2 - droed:2 cenedlaethol:5 Cymru | Wales national football team | Wales national soccer team | Wales national team,False
+[CLS] Stephen Fry plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,South Africa national rugby union team | Bokke:2 | SA national rugby union team | SA rugby team | SA rugby union team | South Africa national rugby union | South Africa national rugby union team | South Africa rugby union team | Springboks:3,False
+[CLS] Darryl:2 Wakelin:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,St Kilda:2 Football Club | Saints | St Kilda:2 Football Club | St Kilda:2 Saints,False
+[CLS] J . J . Arrington:2 plays with [MASK] [MASK] [MASK] . [SEP],J . J,Arizona Cardinals | Arizona Cardinals | Chicago Cardinals | Morgan Athletic Club | Phoenix Cardinals | Racine Cardinals | St . Louis Cardinals,False
+[CLS] Christopher Tanev:2 plays with [MASK] [MASK] [MASK] . [SEP],K . K,Vancouver Canucks:3 | Vancouver Canucks:3,False
+[CLS] Martin Pearson plays with [MASK] [MASK] . [SEP],Martin Pearson,Halifax RLFC:2 | Halifax RLFC:2,False
+[CLS] Brandon Laird:2 plays with [MASK] [MASK] [MASK] . [SEP],the Rangers Rangers,Houston Astros:2 | ' Stros:2 | Astros:2 | Colt . 45 ' s | Houston Astros:2 | Houston Colt . 45 ' s,False
+[CLS] Leonel:2 Herrera Rojas plays with [MASK] [MASK] . [SEP],San Lorenzo,O ' Higgins F . C . | Club Deportivo O ' Higgins | O ' Higgins F . C . | O ' Higgins de Rancagua:3,False
+[CLS] Frank Dancewicz:2 plays with [MASK] [MASK] [MASK] . [SEP],Frank Dancewicz:2,Notre Dame Fighting Irish football | Notre Dame Fighting Irish football | Notre Dame Football | University of Notre Dame Football | University of Notre Dame football team,False
+[CLS] Kenan:2 Čejvanović:4 plays with [MASK] [MASK] . [SEP],Partizan Belgrade,HNK:2 Gorica:2 | HNK:2 Gorica:2,False
+[CLS] Stoyan:3 Stavrev:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,PFC:2 Cherno:2 More Varna:2 | PFC:2 Cherno:2 More Varna:2,False
+[CLS] Tommy Docherty:3 plays with [MASK] [MASK] [MASK] . [SEP],Rangers Rangers Rangers,Chelsea F . C . | CFC:2 | Chelsea | Chelsea F . C . | Chelsea FC | Chelsea Football Club | The Blues | The London Blues | The Pensioners:3,False
+[CLS] Rob Worrincy:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Rob Worrincy:3,London Broncos | London Broncos,False
+[CLS] Darko:2 Franić:2 plays with [MASK] [MASK] [MASK] . [SEP],S . S,NK Junak:2 Sinj:2 | NK Junak:2 Sinj:2,False
+[CLS] Jim Iley:2 plays with [MASK] [MASK] [MASK] . [SEP],Jim Iley:2,Nottingham Forest F . C . | Forest | NFFC:2 | Nottingham Forest | Nottingham Forest F . C . | Nottingham Forest FC | Nottingham Forest Football Club | The Reds | Tricky:2 Trees,False
+[CLS] Chris Kelly plays with [MASK] [MASK] [MASK] [MASK] . [SEP],C . C .,Boston Bruins | Boston Bruins | Bruins,False
+[CLS] Colin Gibson plays with [MASK] [MASK] . [SEP],Colin Gibson,Walsall:3 F . C . | The Saddlers:2 | WFC:2 | Walsall:3 | Walsall:3 F . C . | Walsall:3 FC | Walsall:3 Football Club,False
+[CLS] Erwin Ballabio:3 plays with [MASK] [MASK] [MASK] . [SEP],Ballabio:3,FC Grenchen:3 | FC Grenchen:3,False
+[CLS] Ian Storey:2 - Moore plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Scunthorpe:4 United F . C . | SUFC:2 | Scunthorpe:4 | Scunthorpe:4 & Lindsey United | Scunthorpe:4 & Lindsey United FC | Scunthorpe:4 & Lindsey United Football Club | Scunthorpe:4 United | Scunthorpe:4 United F . C . | Scunthorpe:4 United FC | Scunthorpe:4 United Football Club | The Iron | United,False
+[CLS] Volodymyr:4 Barilko:2 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",FC Chornomorets:4 Odesa:2 | FC Chornomorets:4 Odesa:2,False
+[CLS] Béla Sebestyén:4 plays with [MASK] [MASK] [MASK] . [SEP],piano and piano,Hungary national football team | Hungary national football team | Magyar labdarúgó - válogatott,False
+[CLS] Tony Lagerström:2 plays with [MASK] [MASK] [MASK] . [SEP],Tony Lagerström:2,Chicago Blackhawks:2 | Chicago Black Hawks | Chicago Blackhawks:2 | Chicago Stadium Corporation | Hawks,False
+[CLS] Graham Cross plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Preston North End F . C . | PNEFC:3 | Preston | Preston North End | Preston North End F . C . | Preston North End FC | Preston North End Football Club | The Lilywhites:4,False
+[CLS] Emanuele Del Vecchio plays with [MASK] [MASK] [MASK] . [SEP],S . S,Brazil national football team | Brazil national football team | Selecao:3 | Seleçao:3 | Seleção Brasileira de Futebol,False
+[CLS] Tay:2 Cody plays with [MASK] [MASK] . [SEP],Tay:2,Edmonton Eskimos:2 | Edmonton Eskimos:2,False
+[CLS] Milivoj:3 Bračun:3 plays with [MASK] [MASK] . [SEP],FK Partizan,GNK:2 Dinamo Zagreb | Dinamo Zagreb | GNK:2 Dinamo Zagreb | Građanski:4 nogometni klub Dinamo Zagreb | NK Dinamo Zagreb,False
+[CLS] Ferdinando Vitofrancesco:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Associazione Sportiva:2 Cittadella:3 | A . S . Cittadella:3 | Associazione Sportiva:2 Cittadella:3,False
+[CLS] Lloyd Dyer:2 plays with [MASK] [MASK] . [SEP],Dyer:2,Queens Park Rangers F . C . | QPRFC:3 | Queens Park Rangers | Queens Park Rangers F . C . | Queens Park Rangers FC | Queens Park Rangers Football Club | The Hoops:2 | The Rs:2,False
+[CLS] J . T . O ' Sullivan plays with [MASK] [MASK] [MASK] . [SEP],J . O,Carolina Panthers | Carolina Panthers,False
+[CLS] Cowin:2 Mathurin:2 plays with [MASK] [MASK] . [SEP],Cowin:2,Antigua Barracuda:2 FC | Antigua Barracuda:2 | Antigua Barracuda:2 F . C . | Antigua Barracuda:2 FC | Antigua Barracuda:2 Football Club | the Barracudas:3,False
+[CLS] Ivan Dineen:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Munster Rugby | Munster | Munster Rugby,False
+[CLS] Liam Noble plays with [MASK] [MASK] [MASK] . [SEP],the Nobles:2,Carlisle United F . C . | CUFC:3 | Carlisle | Carlisle United | Carlisle United F . C . | Carlisle United FC | Carlisle United Football Club | Cumbrians:3 | The Blues | United,False
+[CLS] Charlie Chech:2 plays with [MASK] [MASK] . [SEP],Chech:2,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Ghafour:3 Jahani:2 plays with [MASK] [MASK] . [SEP],Jahani:2,Iran national football team | Iran national football team | Iran national team | Team Melli:2,False
+[CLS] Bob Lendrum:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Bob Lendrum:3,New Zealand national rugby union team | All Blacks | New Zealand national rugby team | New Zealand national rugby union team | New Zealand rugby team | New Zealand rugby union team,False
+[CLS] Vic Wertz:2 plays with [MASK] [MASK] [MASK] . [SEP],Vic Wertz:2,Detroit Tigers | Detroit Tigers | Tigers,False
+[CLS] Eddie Hinton:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,New England Patriots | Boston Patriots | New England Patriots | Pats:2 | The New England Patriots,False
+[CLS] Mike Brumley:3 plays with [MASK] [MASK] [MASK] . [SEP],F . F,Houston Astros:2 | ' Stros:2 | Astros:2 | Colt . 45 ' s | Houston Astros:2 | Houston Colt . 45 ' s,False
+[CLS] Eliota:2 Fuimaono:3 - Sapolu:3 plays with [MASK] [MASK] [MASK] . [SEP],Sapolu:3,Bath Rugby | Bath Rugby | Bath Rugby Club | Bath Rugby Team,False
+[CLS] Ben Botica:2 plays with [MASK] [MASK] [MASK] . [SEP],Ben Botica:2,North Harbour Rugby Union | North Harbour Rugby Union,False
+[CLS] Gerry Ehman:2 plays with [MASK] [MASK] [MASK] . [SEP],Gerry Ehman:2,Boston Bruins | Boston Bruins | Bruins,False
+[CLS] Jim O ' Toole:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],O ' Toole:2,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Chris Klute:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Portland Timbers:2 | FC Portland Timbers:2 | Football Club Portland Timbers:2 | Portland Timbers:2 | Portland Timbers:2 FC | Portland Timbers:2 Football Club | Portland Timbers:2 Soccer | Portland Timbers:2 Soccer Club | Soccer Club Portland Timbers:2 | Soccer Club of Portland Timbers:2 | The Timbers:2,False
+[CLS] Herman Fontenot:2 plays with [MASK] [MASK] [MASK] . [SEP],Herman Fontenot:2,Green Bay Packers | GNB:2 | Green Bay Packers | Packers,False
+[CLS] Charlie Joiner:2 plays with [MASK] [MASK] [MASK] . [SEP],Charlie Joiner:2,Cincinnati Bengals:2 | Cincinnati Bengals:2,False
+[CLS] Ted Duckhouse:2 plays with [MASK] [MASK] [MASK] . [SEP],Ted Duckhouse:2,West Bromwich:3 Albion F . C . | The Albion | The Baggies:3 | The Throstles:3 | WBAFC:2 | West Brom:2 | West Bromwich:3 Albion | West Bromwich:3 Albion F . C . | West Bromwich:3 Albion FC | West Bromwich:3 Albion Football Club,False
+[CLS] Tommy Todd plays with [MASK] [MASK] . [SEP],Tommy Todd,Crewe:2 Alexandra F . C . | CAFC:2 | Crewe:2 | Crewe:2 Alexandra | Crewe:2 Alexandra F . C . | Crewe:2 Alexandra FC | Crewe:2 Alexandra Football Club | The Alex | The Railwaymen:2,False
+[CLS] Bill Shores:2 plays with [MASK] [MASK] [MASK] . [SEP],Bill Shores:2,Chicago White Sox | CHW:2 | ChiSox:3 | Chicago White Sox | South Siders:2 | White Sox,False
+[CLS] Teddy Lučić:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Sweden national football team | Blågult:4 | Sveriges herrlandslag:3 i fotboll:3 | Sweden national football team,False
+[CLS] Serge Yoffou:3 plays with [MASK] [MASK] [MASK] . [SEP],Yoffou:3,PFC:2 Dobrudzha:4 Dobrich:3 | PFC:2 Dobrudzha:4 Dobrich:3,False
+[CLS] Gianni De Rosa plays with [MASK] [MASK] [MASK] . [SEP],Gianni De Rosa,Como 1907 | Calcio Como | Como 1907 | Como Calcio | F . C . Como,False
+[CLS] Jimmy Garth:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Clyde F . C . | Clyde F . C . | Clyde Football Club,False
+[CLS] Boško:2 Mihajlović:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FK Proleter:3 Zrenjanin:4 | FK Proleter:3 Zrenjanin:4,False
+[CLS] Will Sharp plays with [MASK] [MASK] [MASK] . [SEP],U . S,London Broncos | London Broncos,False
+[CLS] Darío Scotto:2 plays with [MASK] [MASK] . [SEP],San Lorenzo,Club Necaxa:3 | Club Necaxa:3 | Electricistas:2 | Equipo:3 de la Decada:2 | Equipo:3 de la Década:3 | Necaxa:3 | Once Hermanos:2 | Rayos:2 | Rojiblancos:5,False
+[CLS] Vyacheslav:4 Osnovin:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Traktor:2 Chelyabinsk:4 | Traktor:2 Chelyabinsk:4,False
+[CLS] Vojtech:3 Masný:2 plays with [MASK] [MASK] . [SEP],Masný:2,Czechoslovakia national football team | Czechoslovakia national football team | Česko - slovenské:2 národné:3 futbalové:3 mužstvo:2 | Československá:4 fotbalová:2 reprezentace:4,False
+[CLS] Malcolm Shotton:2 plays with [MASK] [MASK] [MASK] . [SEP],Malcolm Shotton:2,Portsmouth F . C . | PFC:2 | Pompey:3 | Portsmouth | Portsmouth F . C . | Portsmouth FC | Portsmouth Football Club,False
+[CLS] Edevaldo:3 de Freitas:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Brazil national football team | Brazil national football team | Selecao:3 | Seleçao:3 | Seleção Brasileira de Futebol,False
+[CLS] Darius Charles plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Stevenage:2 F . C . | SBFC:2 | SFC:2 | Stevenage:2 | Stevenage:2 Borough | Stevenage:2 Borough F . C . | Stevenage:2 Borough FC | Stevenage:2 F . C . | Stevenage:2 FC | Stevenage:2 Football Club | The Boro:2,False
+[CLS] Matthew Bloomer:2 plays with [MASK] [MASK] [MASK] . [SEP],Matthew Bloomer:2,Boston United F . C . | BUFC:3 | Boston | Boston United | Boston United F . C . | Boston United FC | Boston United Football Club | The Pilgrims:4 | United,False
+[CLS] Kevin O ' Connell plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,New England Patriots | Boston Patriots | New England Patriots | Pats:2 | The New England Patriots,False
+[CLS] Ray Hiron:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Portsmouth F . C . | PFC:2 | Pompey:3 | Portsmouth | Portsmouth F . C . | Portsmouth FC | Portsmouth Football Club,False
+[CLS] Lou Schettler:3 plays with [MASK] [MASK] [MASK] . [SEP],R . R,Philadelphia Phillies:2 | Philadelphia Phillies:2 | Philadelphia Quakers:2 | Phillies:2 | Phils:2 | Quakers:2,False
+[CLS] Marat:2 Daudov:3 plays with [MASK] [MASK] . [SEP],Marat:2,FC Stal Alchevsk:3 | FC Stal Alchevsk:3,False
+[CLS] Daniel Puce:2 plays with [MASK] [MASK] [MASK] . [SEP],Daniel Puce:2,FC Wil:2 1900 | FC Wil:2 1900 | Fussbal:3 Club Wil:2,False
+[CLS] William Robertson plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Patriots England Patriots,Stoke City F . C . | City | SCFC:2 | Stoke | Stoke City | Stoke City F . C . | Stoke City FC | Stoke City Football Club | The Potters:2,False
+[CLS] Albert Mullard:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Albert Mullard:3,Port Vale F . C . | BPVFC:3 | Burslem:3 Port Vale | Burslem:3 Port Vale FC | Burslem:3 Port Vale Football Club | PVFC:2 | Port Vale | Port Vale F . C . | Port Vale FC | Port Vale Football Club | The Valiants:3 | Vale,False
+[CLS] Lendy:2 Castillo plays with [MASK] [MASK] . [SEP],Lendy:2,Chicago Cubs | Chicago Colts | Chicago Cubs | Chicago Orphans:3 | Chicago White Stockings:2 | Colts | Cubbies:3 | Cubs | North Siders:2 | Orphans:3,False
+[CLS] Giannis:2 Zaradoukas:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Greece national football team | Greece national football team,False
+[CLS] Georgi Shchennikov:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,PFC:2 CSKA Moscow | PFC:2 CSKA Moscow | PFC:2 Central Sport Club of the Army Moscow | Professional Football Club Central Sports Club of Army Moscow,False
+[CLS] Luke Summerfield:2 plays with [MASK] [MASK] . [SEP],Summerfield:2,Shrewsbury Town F . C . | STFC:2 | Shrewsbury | Shrewsbury Town | Shrewsbury Town F . C . | Shrewsbury Town FC | Shrewsbury Town Football Club | The Shrews:3 | Town,False
+[CLS] Jamie Ward plays with [MASK] [MASK] [MASK] . [SEP],F . F,Northern Ireland national football team | Northern Ireland national football team,False
+[CLS] Everette:2 Brown plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Detroit Lions | Detroit Lions,False
+[CLS] Sébastien Piché:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,EHC:2 Black Wings Linz | EHC:2 Black Wings Linz,False
+[CLS] Marc Iavaroni:3 plays with [MASK] [MASK] [MASK] . [SEP],Iavaroni:3,San Antonio Spurs | Dallas Chaparrals:4 | San Antonio Spurs | Texas Chaparrals:4,False
+[CLS] Rodrigo de la Fuente plays with [MASK] [MASK] [MASK] . [SEP],de la Fuente,Teramo:2 Basket | Teramo:2 Basket,False
+[CLS] Paul Posluszny:3 plays with [MASK] [MASK] [MASK] . [SEP],P . P,Jacksonville Jaguars:2 | Jacksonville Jaguars:2 | Jaguars:2,False
+[CLS] Joseph H . Thompson plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Pittsburgh Panthers football | Pitt Panthers football | Pittsburgh Panthers football,False
+[CLS] Zhai:2 Yanpeng:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Zhai:2 Yanpeng:3,China national football team | China PR national football team | China PR national soccer team | China national football team | China national soccer team | Chinese national football team | Chinese national soccer team,False
+[CLS] Herbert Smith plays with [MASK] [MASK] . [SEP],Herbert Smith,Castleford:2 Tigers | Castleford:2 Tigers,False
+[CLS] Gus Triandos:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Gus Triandos:3,Detroit Tigers | Detroit Tigers | Tigers,False
+[CLS] Håvard:3 Storbæk:4 plays with [MASK] [MASK] [MASK] . [SEP],K . K,FK Haugesund:3 | FK Haugesund:3,False
+[CLS] Michael Hansen plays with [MASK] [MASK] . [SEP],Michael Hansen,FC Midtjylland:3 | Chen Jining:2 | FC Midtjylland:3,False
+[CLS] Romina:2 Ferro plays with [MASK] [MASK] [MASK] . [SEP],Italy national team,Oviedo Moderno:2 CF | Oviedo Moderno:2 CF,False
+[CLS] Ioannis:2 Kanotidis:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Panthrakikos:4 F . C . | Panthrakikos:4 F . C .,False
+[CLS] Joe Parker plays with [MASK] [MASK] . [SEP],Joe Parker,Gloucester City A . F . C . | Gloucester City A . F . C .,False
+[CLS] Douglas Flockhart:3 plays with [MASK] [MASK] [MASK] . [SEP],Flockhart:3,Doncaster:2 R . F . C . | Doncaster:2 Knights | Doncaster:2 Knights RFC | Doncaster:2 Knights Rugby | Doncaster:2 Knights Rugby Football Club | Doncaster:2 Knights Rugby Team | Doncaster:2 Knights rugby union club | Doncaster:2 R . F . C .,False
+[CLS] Randy Lerch:2 plays with [MASK] [MASK] . [SEP],Lerch:2,Montreal Expos:2 | Expos:2 | Montreal Expos:2,False
+[CLS] Dominique Thompson plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Carolina Panthers | Carolina Panthers,False
+[CLS] Colin Clifft:2 plays with [MASK] [MASK] [MASK] . [SEP],Colin Clifft:2,Featherstone:3 Rovers | Featherstone:3 Rovers,False
+[CLS] Evan Meek:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Pittsburgh Pirates | Alleghenys:3 | Buccos:3 | Bucs:2 | Pirates | Pittsburg:2 Pirates | Pittsburgh Alleghenys:3 | Pittsburgh Pirates,False
+[CLS] Elmer Smith plays with [MASK] [MASK] . [SEP],Elmer Smith,Cincinnati Reds | Cincinnati Red Stockings:2 | Cincinnati Redlegs:3 | Cincinnati Reds | Red Stockings:2 | Redlegs:3 | Reds,False
+[CLS] Walter Pandiani:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Birmingham City F . C . | BCFC:2 | Birmingham | Birmingham City | Birmingham City F . C . | Birmingham City FC | Birmingham City Football Club | Blues | City,False
+[CLS] Roman Reigns:2 plays with [MASK] [MASK] . [SEP],Roman Reign,Edmonton Eskimos:2 | Edmonton Eskimos:2,False
+[CLS] Tim Kempton:2 plays with [MASK] [MASK] [MASK] . [SEP],the Stafford Rangers,San Antonio Spurs | Dallas Chaparrals:4 | San Antonio Spurs | Texas Chaparrals:4,False
+[CLS] Yoon Jong - hwan:2 plays with [MASK] [MASK] . [SEP],Taekwondo:2,Jeonbuk:3 Hyundai Motors | Jeonbuk:3 Hyundai Motors | Jeonbuk:3 Hyundai Motors FC,False
+[CLS] Ángel Arocha:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,"C . D . Tenerife | C . D . Tenerife | CD Tenerife | Club Deportivo Tenerife , S . A . D .",False
+[CLS] James Plimmer:3 plays with [MASK] [MASK] [MASK] . [SEP],P . P,Castleford:2 Tigers | Castleford:2 Tigers,False
+[CLS] Ryota:3 Aoki:2 plays with [MASK] [MASK] [MASK] . [SEP],Japan national team,Roasso:3 Kumamoto:3 | Roasso:3 Kumamoto:3,False
+[CLS] Netan:2 Sansara:2 plays with [MASK] [MASK] [MASK] . [SEP],F . F,A . F . C . Telford:2 United | A . F . C . Telford:2 United | AFC Telford:2 United | AFCTU:3 | Association Football Club Telford:2 United | Telford:2 | Telford:2 United | The Bucks | United,False
+[CLS] Mark Yeates:2 plays with [MASK] [MASK] [MASK] . [SEP],Mark Yeates:2,Geelong:3 Football Club | Geelong:3 Cats | Geelong:3 Football Club,False
+[CLS] Roberto Cardinale plays with [MASK] [MASK] [MASK] . [SEP],Italy national team,A . C . Perugia Calcio | A . C . Perugia Calcio | Associazione Calcistica:3 Perugia Calcio,False
+[CLS] Roman Tseryuta:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Saturn Ramenskoye:4 | FC Saturn Moscow Oblast | FC Saturn Ramenskoye:4,False
+[CLS] John Scott plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,Leith:2 Athletic F . C . | Leith:2 Athletic F . C .,False
+[CLS] Pat Angerer:2 plays with [MASK] [MASK] [MASK] . [SEP],Pat Angerer:2,Indianapolis Colts | Indianapolis Colts,False
+[CLS] Sean O ' Driscoll:4 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Fulham F . C . | FFC:2 | Fulham | Fulham F . C . | Fulham FC | Fulham Football Club | The Cottagers:3,False
+[CLS] Angelis:2 Charalambous:4 plays with [MASK] [MASK] [MASK] . [SEP],", plays with",Apollon Limassol:3 FC | Apollon Limassol:3 FC | Apollon Limassol:3 Men,False
+[CLS] John Utaka:2 plays with [MASK] [MASK] [MASK] . [SEP],John Utaka:2,Sivasspor:2 | Sivasspor:2,False
+[CLS] Rune Pedersen plays with [MASK] [MASK] [MASK] . [SEP],S . S,Lyngby:2 Boldklub:2 | Lyngby:2 Boldklub:2,False
+[CLS] Mathieu Dandenault:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the France national team,"Montreal Canadiens | Canadiens de Montreal | Canadiens de Montréal | Club de hockey Canadien:3 , inc:2 . | Habs:2 | Montreal Canadiens | le Club de hockey Canadien:3",False
+[CLS] Carlos Álvarez Sánchez plays with [MASK] [MASK] [MASK] . [SEP],the national team,"Real Murcia | Real Club de Fútbol , SAD | Real Murcia",False
+[CLS] Daniel Høegh:4 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Denmark national team,FC Basel | FC Basel | Fussball:3 club Basel 1893,False
+[CLS] Wilf:2 Crompton:3 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Wilf:2 Crompton:3,Blackburn Rovers F . C . | BRFC:2 | Blackburn | Blackburn Rovers | Blackburn Rovers F . C . | Blackburn Rovers FC | Blackburn Rovers Football Club | Rovers,False
+[CLS] Nathan Taylor plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Salford:2 City F . C . | City | SCFC:2 | Salford:2 | Salford:2 City | Salford:2 City F . C . | Salford:2 City FC | Salford:2 City Football Club | The Ammies:2,False
+[CLS] Jason Baitieri:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Catalans:2 Dragons | Catalans:2 Dragons,False
+[CLS] Steve Okoniewski:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Buffalo Bills | Buffalo Bills,False
+[CLS] Liam Ridgewell:2 plays with [MASK] [MASK] [MASK] . [SEP],Liam Ridgewell:2,Portland Timbers:2 | FC Portland Timbers:2 | Football Club Portland Timbers:2 | Portland Timbers:2 | Portland Timbers:2 FC | Portland Timbers:2 Football Club | Portland Timbers:2 Soccer | Portland Timbers:2 Soccer Club | Soccer Club Portland Timbers:2 | Soccer Club of Portland Timbers:2 | The Timbers:2,False
+[CLS] Aud:2 Tuten:2 plays with [MASK] [MASK] . [SEP],Tuten:2,Chicago Blackhawks:2 | Chicago Black Hawks | Chicago Blackhawks:2 | Chicago Stadium Corporation | Hawks,False
+[CLS] Skeeter:3 Newsome:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Skeeter:3 Newsome:2,Boston Red Sox | BoSox:3 | Boston Americans | Boston Red Sox | Red Sox | RedSox:3 | Redsox:2 | Sox | redsox:3 | redsoxs:4,False
+[CLS] Tommy Wright plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Scotland national football team | Scotland national football team | Scotland national soccer team | Scotland national team | Scottish National Football Team,False
+[CLS] Ian Clarke plays with [MASK] [MASK] . [SEP],Ian Clarke,Calgary Mustangs:2 | Calgary Mustangs:2,False
+[CLS] Raymond Ausloos:2 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],the Netherlands national side,Belgium national football team | Belgium national football team | Red Devils,False
+[CLS] Dave Elmendorf:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Los Angeles Rams | Cleveland Rams | L . A . Rams | Los Angeles Rams | Los Angles:2 Rams | St . Louis Rams,False
+[CLS] Ömer:2 Aysan:2 Barış:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Trabzonspor:2 | Trabzonspor:2,False
+[CLS] Adem:2 Büyük plays with [MASK] [MASK] [MASK] . [SEP],F . F,Turkey national under - 21 football team | Turkey national under - 21 football team,False
+[CLS] Bilel:2 El Hamzaoui:4 plays with [MASK] [MASK] . [SEP],the club,CA Bastia | CA Bastia | Cercle Athletique:3 Bastiais:2,False
+[CLS] Miguel Ángel Alonso plays with [MASK] [MASK] [MASK] . [SEP],the national team,FC Barcelona | Barcelona | Barcelona FC | Barcelona Football Club | Barça:2 | Blaugrana:3 | F . C . Barcelona | FC Barcelona | FC Barcelona Soccer | FCB:2 | Futbol Club Barcelona | Fútbol Club Barcelona,False
+[CLS] Hamid Reza Abrarinia:3 plays with [MASK] [MASK] [MASK] . [SEP],the national team,Iran national futsal:2 team | Iran national futsal:2 team,False
+[CLS] Alan Mayes:2 plays with [MASK] [MASK] [MASK] . [SEP],Alan Mayes:2,Northampton Town F . C . | NTFC:2 | Northampton | Northampton Town | Northampton Town F . C . | Northampton Town FC | Northampton Town Football Club | The Cobblers:2 | Town,False
+[CLS] Ryan Kidd plays with [MASK] [MASK] [MASK] [MASK] . [SEP],F . C .,Preston North End F . C . | PNEFC:3 | Preston | Preston North End | Preston North End F . C . | Preston North End FC | Preston North End Football Club | The Lilywhites:4,False
+[CLS] Jean - François Domergue:3 plays with [MASK] [MASK] [MASK] . [SEP],Jean - François,France national football team | France national football team | Équipe de France de football,False
+[CLS] Greg Buckner:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Grand Rapids Hoops:2 | Grand Rapids Hoops:2 | Grand Rapids Mackers:2,False
+[CLS] José Vítor:3 Moreira Semedo:2 plays with [MASK] [MASK] [MASK] . [SEP],F . C,Sheffield Wednesday F . C . | SWFC:2 | Sheff:2 Wed:2 | Sheffield Wednesday | Sheffield Wednesday F . C . | Sheffield Wednesday FC | Sheffield Wednesday Football Club | The Owls:3,False
+[CLS] Ángelo:2 Henríquez:2 plays with [MASK] [MASK] [MASK] . [SEP],the national team,GNK:2 Dinamo Zagreb | Dinamo Zagreb | GNK:2 Dinamo Zagreb | Građanski:4 nogometni klub Dinamo Zagreb | NK Dinamo Zagreb,False
+[CLS] Quincy Pondexter:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Quincy Pondexter:3,New Orleans Pelicans:3 | New Orleans Hornets:2 | New Orleans Pelicans:3 | New Orleans / Oklahoma City Hornets:2,False
+[CLS] Anton Dedaj:2 plays with [MASK] [MASK] [MASK] . [SEP],Anton Dedaj:2,FC Koper:2 | FC Koper:2 | Football Club Koper:2,False
+[CLS] Kyle Wachholtz:4 plays with [MASK] [MASK] [MASK] . [SEP],the Texas Rangers,USC Trojans:3 football | USC Trojans:3 football | University of Southern California football team,False
+[CLS] Joe Donnachie:2 plays with [MASK] [MASK] [MASK] . [SEP],Joe Donnachie:2,Everton F . C . | EFC:2 | Everton | Everton F . C . | Everton FC | Everton Football Club | The Toffees:3,False
+[CLS] Liam Trotter:3 plays with [MASK] [MASK] [MASK] [MASK] . [SEP],Liam Trotter:3,Bolton Wanderers F . C . | BWFC:3 | Bolton | Bolton Wanderers | Bolton Wanderers F . C . | Bolton Wanderers FC | Bolton Wanderers Football Club | The Trotters:3 | Wanderers,False
+[CLS] John Hewie:2 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Bexley:3 United F . C . | Bexley:3 United F . C .,False
+[CLS] Matt Carkner:2 plays with [MASK] [MASK] . [SEP],Carkner:2,San Jose Sharks | SJ Sharks | San Jose Sharks,False
+[CLS] Colin Grainger:3 plays with [MASK] [MASK] [MASK] . [SEP],Sox Sox Sox,Sheffield United F . C . | SUFC:2 | Sheff:2 Utd:2 | Sheff:2 . Utd:2 . | Sheffield United | Sheffield United F . C . | Sheffield United FC | Sheffield United Football Club | The Blades:2 | United,False
+[CLS] Daniel Cotton plays with [MASK] [MASK] . [SEP],Daniel Cotton,Boston United F . C . | BUFC:3 | Boston | Boston United | Boston United F . C . | Boston United FC | Boston United Football Club | The Pilgrims:4 | United,False
+[CLS] Eldra:2 Buckley plays with [MASK] [MASK] . [SEP],her mother,Philadelphia Eagles | Eagles | Philadelphia Eagles | The Birds,False
+[CLS] Sean Parrish:2 plays with [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Kidderminster:4 Harriers:2 F . C . | Harriers:2 | KHFC:3 | Kidderminster:4 | Kidderminster:4 Harriers:2 | Kidderminster:4 Harriers:2 F . C . | Kidderminster:4 Harriers:2 FC | Kidderminster:4 Harriers:2 Football Club | Kiddy:2,False
+[CLS] Blerim:3 Kotobelli:3 plays with [MASK] [MASK] [MASK] . [SEP],F . F,KF:2 Tirana | KF:2 Tirana,False
+[CLS] Charlie Howard plays with [MASK] [MASK] [MASK] [MASK] . [SEP],A . D .,Thurrock:3 F . C . | Thurrock:3 F . C . | Thurrock:3 Football Club,False

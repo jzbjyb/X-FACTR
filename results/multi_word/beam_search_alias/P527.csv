@@ -1,0 +1,864 @@
+sentence,prediction,gold,is_same
+[CLS] dipotassium:4 tartrate:3 consists of [MASK] [MASK] . [SEP],two compounds,potassium:3 | K | element 19 | kalium:2 | potassium:3,False
+[CLS] basement membrane consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,basal lamina:2 | GO : 0005605:4 | basal lamina:2 | basement lamina:2,False
+[CLS] Leeward:2 Antilles consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Caribbean and the Caribbean,Bonaire:2 | Bonaire:2 | Boneiru:2,False
+[CLS] Wagon:2 Wheels:2 consists of [MASK] [MASK] . [SEP],Wheels:2,marshmallow:4 | marshmallow:4,False
+[CLS] bone remodeling:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],bone remodeling:3,bone resorption:3 | GO : 0045453:4 | bone resorption:3,False
+[CLS] Shed:2 Seven consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Shed:2 Seven,Rick Witter:2 | Rick Witter:2,False
+[CLS] Fair Ground consists of [MASK] [MASK] [MASK] . [SEP],the Fair Ground,Pete Lesperance:3 | Pete Lesperance:3,False
+[CLS] After School consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: B . B,Raina:2 | Oh Hye:2 - rin | Raina:2 | 레이나:2 | 오혜린:3,False
+[CLS] Hawkwind:2 consists of [MASK] [MASK] [MASK] . [SEP],: Hawkwind:2,Keith Hale | Keith Hale,False
+[CLS] Southeastern:2 Conference consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the conference of conferences,Vanderbilt Commodores:2 | Vanderbilt Commodores:2 | Vanderbilt University sports teams,False
+[CLS] Stonefunkers:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in - and in -,Papa Dee | Papa Dee,False
+[CLS] Lunatic:2 Soul consists of [MASK] [MASK] . [SEP],two tracks,Mariusz:2 Duda:2 | Mariusz:2 Duda:2,False
+[CLS] Asia consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Geoff Downes:2 | Geoff Downes:2 | Geoffrey Downes:2,False
+[CLS] dried:2 shredded:3 squid:2 consists of [MASK] [MASK] [MASK] . [SEP],two separate subspecies,Teuthida:3 | Teuthida:3 | squid:2,False
+[CLS] Suicidal:3 Tendencies:3 consists of [MASK] [MASK] [MASK] . [SEP],two tracks tracks,Thundercat:2 | Stephen Bruner:2 | Stephen Lee Bruner:2 | Thundercat:2,False
+[CLS] Ladysmith:2 Black Mambazo:3 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,Jockey:2 Shabalala:3 | Jockey:2 Shabalala:3,False
+[CLS] The Ghost of a Saber:2 Tooth:2 Tiger consists of [MASK] [MASK] [MASK] . [SEP],two short films,Sean Lennon | Sean Lennon,False
+[CLS] Berner:2 Haselnusslebkuchen:6 consists of [MASK] [MASK] [MASK] . [SEP],two different varieties,hazelnut:3 | cobnut:3 | filbert:2 | hazelnut:3,False
+[CLS] potassium:3 permanganate:4 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,potassium:3 | K | element 19 | kalium:2 | potassium:3,False
+[CLS] De Eneste:2 To consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the first two songs,Simon Kvamm:3 | Simon Kvamm:3,False
+[CLS] Quetschentaart:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Quetschentaart:4,Prunus domestica:2 subsp . insititia:3 | Damson:2 | Prunus domestica:2 subsp . insititia:3 | damson:2 plum:2,False
+[CLS] Peg:2 Meyer ' s Melody Kings consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Melody Kings and Melody Kings,Jess Stacy | Jess Stacy,False
+[CLS] Holden Snyder and Lily Walsh consists of [MASK] [MASK] [MASK] . [SEP],the vocal vocal,Holden Snyder | Holden Snyder,False
+[CLS] Yale University Library consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Yale University Library,Lewis Walpole:3 Library | Lewis Walpole:3 Library,False
+[CLS] hoşmerim:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the hoşmerim:4,semolina:2 | semolina:2,False
+[CLS] tellurium:3 trioxide:2 consists of [MASK] [MASK] . [SEP],trioxide:2,tellurium:3 | 52Te:3 | Te | Tellurium:3 element | aurum:2 paradoxum:3 | element 52 | metallum:2 problematum:2 | tellurium:3,False
+[CLS] Lacabòn:3 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,honey:2 | honey:2,False
+[CLS] Maximum Balloon:2 consists of [MASK] [MASK] [MASK] . [SEP],Maximum Balloon:2,Dave Sitek:2 | Dave Sitek:2 | David Andrew Sitek:2,False
+[CLS] Cupid:2 Car Club consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Cupid:2 Car Club,Ian Svenonius:3 | Ian Svenonius:3,False
+[CLS] PNNM:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],PNNM:4,"potassium:3 nitrate:2 | Niter:2 | Nitrate:2 of potash:2 | Nitre:2 | Nitric:2 acid , potassium:3 salt | Salt peter:2 | Saltpeter:3 | potassium:3 nitrate:2 | saltpetre:3",False
+[CLS] Utah State Legislature consists of [MASK] [MASK] . [SEP],the Senate,Utah State Senate | Utah State Senate,False
+[CLS] Rick Bryant and the Jive:2 Bombers:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Rick Bryant and Rick Bryant,Rick Bryant | Rick Bryant,False
+[CLS] Bundeswehr consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,German Air Force | GAF:2 | German Air Force | Luftwaffe ( Bundeswehr ) | West German Air Force | af Germany | air force of Germany,False
+[CLS] Haarlemmerliede:4 en Spaarnwoude:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Haarlemmerliedes:4,Spaarnwoude:4 | Spaarnwoude:4,False
+[CLS] Japan Open Tennis Championships consists of [MASK] [MASK] [MASK] . [SEP],singles and doubles,Pan Pacific Open | Pan Pacific Open | Toray:2 Pan Pacific Open,False
+[CLS] Your Vegas consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Coyle:2 Girelli:3 | Coyle:2 Girelli:3,False
+[CLS] sukiyaki:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Sukiyaki:4,beef:2 | beef:2 | bovine:2 meat | cow:2 meat,False
+[CLS] Del Amitri:2 consists of [MASK] [MASK] [MASK] . [SEP],the following parties,Justin Currie | Justin Currie,False
+[CLS] RTZ:2 consists of [MASK] [MASK] [MASK] . [SEP],: RTZ:2,Brad Delp:2 | Brad Delp:2 | Bradley E . Delp:2 | Bradley Edward Delp:2,False
+[CLS] Heroes of Might:2 and Magic consists of [MASK] [MASK] [MASK] . [SEP],three game modes,Might:2 & Magic Heroes VI | Heroes of Might:2 & Magic VI | Might:2 & Magic Heroes VI,False
+[CLS] Khrennikov:3 ' s Seven consists of [MASK] [MASK] [MASK] . [SEP],three Sevens:2,Elena Firsova:3 | Elena Firsova:3,False
+[CLS] Canadian Armed Forces consists of [MASK] [MASK] [MASK] . [SEP],Canadian Armed Force,Canadian Special Operations Forces Command | Canadian Special Operations Forces Command,False
+[CLS] SerialPod:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a SerialPod:3,Trey:2 Anastasio:3 | Trey:2 Anastasio:3,False
+[CLS] Ilf:2 and Petrov consists of [MASK] [MASK] [MASK] . [SEP],the stage stage,Ilya:2 Ilf:2 | Ilya:2 Ilf:2,False
+[CLS] Beer cheese:2 consists of [MASK] [MASK] . [SEP],Beer Beer,processed:2 cheese:2 | processed:2 cheese:2,False
+[CLS] Silver Columns:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Silver Columns:3,Adem:2 Ilhan:2 | Adem:2 Ilhan:2,False
+[CLS] Rilo:2 Kiley:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a variety of songs,Jenny Lewis | Jennifer Diane Lewis | Jenny Lewis,False
+[CLS] Fredericks:2 Goldman Jones consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Carole Fredericks:2 | Carole Fredericks:2,False
+[CLS] Virus consists of [MASK] [MASK] [MASK] . [SEP],infectious:3,Carl - Michael Eide:2 | Carl - Michael Eide:2,False
+[CLS] Gangrene:2 consists of [MASK] [MASK] [MASK] . [SEP],the gangrene:2,The Alchemist:3 | Alchemist:3 | Daniel Alan Maman:2 | The Alchemist:3,False
+[CLS] Hugo Largo consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Mimi Goese:2 | Mimi Goese:2,False
+[CLS] The Cure consists of [MASK] [MASK] . [SEP],The Cure,Robert Smith | 00046970947:6 IPI:2 | Robert James Smith | Robert Smith,False
+[CLS] Yellowcard:2 consists of [MASK] [MASK] [MASK] . [SEP],the Yellow card,Ryan Key | Ryan Key,False
+[CLS] Late Triassic:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Late Triassic:3,Rhaetian:4 | Rhaetian:4,False
+[CLS] Jacobites:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a group of Jacobites:2,Nikki Sudden:2 | Nikki Sudden:2,False
+[CLS] Snafu:3 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,Bobby Harrison | Bobby Harrison,False
+[CLS] diphenhydramine:5 citrate:2 consists of [MASK] [MASK] . [SEP],amino acid,"diphenhydramine:5 | 2 - ( benzhydryloxy:5 ) - N , N - dimethylethylamine:6 | 2 - diphenylmethoxy:6 - N , N - demthylethanamine:5 | Alledryl:3 | Allergan:2 | Allergina:3 | Benadryl:3 | Benadryl®:4 | Bendylate:3 | Benzantin:3 | Difenhydramine:5 | Dimedrol:3 | Dimedrolum:4 | Dimethylamine:4 benzhydryl:4 ester:2 | Diphamine:3 | Diphantine:4 | Dobacen:3 | N - ( 2 - ( diphenylmethoxy:6 ) ethyl:2 ) - N , N - dimethylamine:4 | O - benzhydryldimethylaminoethanol:11 | [ 2 - ( diphenylmethoxy:6 ) ethyl:2 ] dimethylamine:4 | alpha - ( 2 - dimethylaminoethoxy:7 ) diphenylmethane:5 | benzhydramine:5 | beta - dimethylaminoethanol:8 diphenylmethyl:5 ether:2 | beta - dimethylaminoethyl:7 benzhydryl:4 ether:2 | dimehydrinate:5 | diphenhydramine:5",False
+[CLS] neptunium:4 ( VI ) fluoride:3 consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,neptunium:4 | Np:2 | element 93 | neptunium:4,False
+[CLS] National Collegiate Hockey Conference consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the conference ' s teams,Denver Pioneers:2 men ' s ice hockey | Denver Pioneers:2 men ' s ice hockey,False
+[CLS] Le Tigre consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,JD:2 Samson | JD:2 Samson,False
+[CLS] Makem:2 and Clancy consists of [MASK] [MASK] [MASK] . [SEP],a single single,Tommy Makem:2 | Tommy Makem:2,False
+[CLS] The Long Goodbye consists of [MASK] [MASK] . [SEP],two tracks,Michael Cera:2 | Michael Austin Cera:2 | Michael Cera:2,False
+[CLS] manganocene:3 consists of [MASK] [MASK] [MASK] . [SEP],meta . meta,manganese:2 | Mn:2 | element 25 | manganese:2,False
+[CLS] Mario franchise consists of [MASK] [MASK] [MASK] . [SEP],the Mario series,Super Mario | Mario | Super Mario | Super Mario Bros,False
+[CLS] Inkheart:4 trilogy:2 consists of [MASK] [MASK] [MASK] . [SEP],a trilogy:2,Inkspell:4 | Inkspell:4,False
+[CLS] Scorcolga:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Scorcolga:4,walnut:3 | Juglans:3 regia | walnut:3,False
+[CLS] Jason Morgan and Elizabeth Webber consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jason Morgan and Elizabeth Webber,Elizabeth Webber | Elizabeth Webber,False
+[CLS] americium:3 ( IV ) oxide:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,americium:3 | 95Am:3 | Am | americium:3 | element 95,False
+[CLS] Academy Awards consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Academy of Academy Awards,Academy Award for Best Animated Feature | Academy Award for Best Animated Feature,False
+[CLS] Bruce - Baker - Moore consists of [MASK] [MASK] [MASK] . [SEP],two phase phases,Gary Moore | Gary Moore | Robert William Gary Moore,False
+[CLS] Eocene:2 consists of [MASK] [MASK] . [SEP],Eocene:2,Bartonian:2 | Bartonian:2,False
+[CLS] conic:2 section consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a conic:2 section,hyperbola:3 | hyperbola:3,False
+[CLS] The Other Steve and Edie:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Steve and Edie:2,"Edie:2 Falco | Edie:2 Falco | Edith "" Edie:2 "" Falco",False
+[CLS] Stiltskin:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following incorporated settlements,Ray Wilson | Ray Wilson,False
+[CLS] Queensrÿche:4 consists of [MASK] [MASK] [MASK] . [SEP],the following bands,Parker Lundgren:2 | Parker Lundgren:2,False
+[CLS] Castellano:2 and Pipolo:2 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,Franco Castellano:2 | Franco Castellano:2,False
+[CLS] Palazzo Ducale:2 Mantua:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Palazzo Ducale:2,Camera degli Sposi:2 | Camera degli Sposi:2 | Camera picta:2,False
+[CLS] Hotlegs:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the hotlegs:3,Eric Stewart | Eric Stewart,False
+[CLS] Ryukyu:3 Kingdom consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Ryukyu:3 Kingdom,Amami:2 Islands | Amami:2 Islands,False
+[CLS] Jeungpyeon:4 consists of [MASK] [MASK] . [SEP],1 town,rice flour:2 | rice flour:2,False
+[CLS] cheesesteak:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],cheesesteak:4,steak:2 | steak:2,False
+[CLS] MTR:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,East Rail line | EAL:2 | East Rail | East Rail line | KCR:2 British Section | KCR:2 East Rail | Kowloon:3 - Canton Railway British Section,False
+[CLS] Southern All Stars consists of [MASK] [MASK] [MASK] . [SEP],Southern All Stars,Kazuyuki:3 Sekiguchi:4 | Kazuyuki:3 Sekiguchi:4,False
+[CLS] DAX:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Lanxess:3 | Lanxess:3 | Lanxess:3 AG | Lanxess:3 Aktiengesellschaft:3,False
+[CLS] zinc selenide:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],zinc selenide:3,selenium:3 | 34Se:3 | Se | Selenium:3 | element 34 | selen:2 | selenium:3,False
+[CLS] Apollo 440 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Apollo 440s:2,James Gardner | James Gardner,False
+[CLS] Cloud2Ground:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Cloud2Ground:4,Jeremy Dawson | Jeremy Dawson,False
+[CLS] Crash Vegas consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following two tracks,Michelle McAdorey:5 | Michelle McAdorey:5,False
+[CLS] Boyoz:2 consists of [MASK] [MASK] . [SEP],two villages,flour:2 | flour:2,False
+[CLS] X consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a set of symbols,Ian Rilen:2 | Ian Rilen:2,False
+[CLS] Ramayana:2 consists of [MASK] [MASK] [MASK] . [SEP],the Ramayana:2,Balakanda:3 | Balakanda:3,False
+[CLS] Tour de France consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Tour of France,2013 Tour de France | 2013 Tour de France,False
+[CLS] R . E . M . consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the A . S,Peter Buck | 00008715000:5 IPI:2 | Peter Buck | Peter Lawrence Buck | Raoul,False
+[CLS] tteok:3 consists of [MASK] [MASK] [MASK] . [SEP],tteok:3,glutinous:4 rice | Oryza:3 sativa:2 var . glutinosa:3 | glutinous:4 rice | mochi:2 rice | sticky:2 rice | sweet rice | waxy:2 rice,False
+[CLS] Jamiroquai:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Jamiroquai:4,Jay Kay | Jason Kay | Jay Kay,False
+[CLS] Ragi:2 mudde:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],ragi:2 mudde:2,"Eleusine:3 coracana:3 | Eleusine:3 coracana:3 | Finger Millet:2 , African Millet:2 , Coracan:3 , Natcheny:3 , Ragi:2 | Finger millet:2",False
+[CLS] Guns N ' Roses consists of [MASK] [MASK] . [SEP],four bands,Steven Adler | 00127508089:6 IPI:2 | Michael Coletti:2 | Steven Adler,False
+[CLS] contiguous:3 United States consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S .,"New Hampshire | NH | New Hampshire | New Hampshire , United States | State of New Hampshire | The Granite:2 State",False
+[CLS] Anno Dracula series consists of [MASK] [MASK] [MASK] . [SEP],Anno Dracula novels,Dracula Cha Cha Cha | Dracula Cha Cha Cha,False
+[CLS] Alta Moda:2 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,Molly Johnson | Molly Johnson,False
+[CLS] Robot short stories consists of [MASK] [MASK] . [SEP],short stories,The Naked Sun | The Naked Sun,False
+[CLS] The Holy Modal:2 Rounders:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Holy Modal:2 Round,Peter Stampfel:3 | Peter Stampfel:3,False
+[CLS] Ginjinha:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Ginjinha:4,cherry:2 | cherry:2,False
+[CLS] Talkhan:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,walnut:3 | Juglans:3 regia | walnut:3,False
+[CLS] Kreator:3 consists of [MASK] [MASK] [MASK] . [SEP],a male female,Mille Petrozza:2 | Miland:2 Petrozza:2 | Mille Petrozza:2,False
+[CLS] The Rugburns:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Rugburns:4,Steve Poltz:2 | Steve Poltz:2,False
+[CLS] diphosphorus:4 pentasulfide:5 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,phosphoru:4 | P | element 15 | phosphorus:3,False
+[CLS] Times of Grace consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Adam Dutkiewicz:3 | Adam Dutkiewicz:3,False
+[CLS] UnSun:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Maurycy:3 Stefanowicz:2 | Maurycy:3 Stefanowicz:2,False
+[CLS] Colonna family consists of [MASK] [MASK] [MASK] . [SEP],the Colonna cardinal,Anna Colonna | Anna Colonna,False
+[CLS] Black Star Riders consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Black Star Riders,Ricky Warwick | Ricky Warwick,False
+[CLS] Erpe:2 - Mere:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following localities:2,Ottergem:3 | Ottergem:3,False
+[CLS] Phantomsmasher:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Phantomsmasher:3,James Plotkin:3 | James Plotkin:3,False
+[CLS] lithium:2 citrate:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,lithium:2 | Li | element 3 | lithium:2,False
+[CLS] Prežganka:4 consists of [MASK] [MASK] [MASK] . [SEP],the following settlements,flour:2 | flour:2,False
+[CLS] The Softies:2 consists of [MASK] [MASK] [MASK] . [SEP],the Softies:2,Rose Melberg:2 | Rose Melberg:2,False
+[CLS] hydroxidooxidoaluminium:8 consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,aluminum:3 | 13Al:3 | Al | aluminium | aluminum:3 | element 13,False
+[CLS] Palais Schaumburg:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Palais Schaumburg:3,Holger Hiller:2 | Holger Hiller:2,False
+[CLS] Beautiful Pea:2 Green Boat consists of [MASK] [MASK] [MASK] . [SEP],two Green boats,Ian Williams | Ian Williams,False
+[CLS] Rhythm Devils consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the members of Rhythm Devils,Bill Kreutzmann:4 | Bill Kreutzmann:4,False
+[CLS] logic consists of [MASK] [MASK] [MASK] . [SEP],logic and logic,classical logic | classical logic | standard logic,False
+[CLS] The Dead Rabbitts:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],The Dead Rabbitts:2,Craig Mabbitt:3 | Craig Mabbitt:3,False
+[CLS] Khiladi:2 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,Sabse:3 Bada:2 Khiladi:2 | Sabse:3 Bada:2 Khiladi:2,False
+[CLS] Lananeeneenoonoo:5 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,Dawn French | Dawn French,False
+[CLS] H & Claire consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the H & Claire,Claire Richards | Claire Richards,False
+[CLS] Mesclun:3 consists of [MASK] [MASK] [MASK] . [SEP],the following settlements,Anthriscus:3 cerefolium:4 | Anthriscus:3 cerefolium:4 | French parsley:2 | chervil:3 | garden chervil:3,False
+[CLS] Dundee Cake:2 consists of [MASK] [MASK] [MASK] . [SEP],Dundee Cakes:2,Zante:2 currant:3 | Corinth:3 raisin:2 | Corinthian:3 raisin:2 | Zante:2 currant:3 | currant:3,False
+[CLS] Unwritten:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,"These Words | These Words | These Words ( I Love You , I Love You )",False
+[CLS] First Rutte:3 cabinet consists of [MASK] [MASK] [MASK] [MASK] . [SEP],First Rutte:3,Hans Hillen:2 | Hans Hillen:2,False
+[CLS] eggplant:2 salads:2 and appetizers:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],eggplant:2 salads:2,eggplant:2 | Eggplant:2 | Solanum melongena:3 | White Eggplant:2 | aubergine:3 | brinjal:3 | eggplant:2 | garden egg | guinea:2 squash:3 | melongene:3,False
+[CLS] Bridgetown:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bridgetown:2 and Bridgetown:2,Garrison Historic Area | Garrison Historic Area,False
+[CLS] Spirit Squad consists of [MASK] [MASK] . [SEP],Spirit Squad,Johnny Jeter:2 | Johnny Jeter:2,False
+[CLS] Lega Nord consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Lega Nord and Lega Nord,Lega Nord Friuli - Venezia Giulia | LNFVG:4 | Lega Friuli | Lega Nord Friuli - Venezia Giulia | North League Friuli - Venezia Giulia,False
+[CLS] The Blizzards:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,Niall:2 Breslin:3 | Bressie:3 | Niall:2 Breslin:3,False
+[CLS] D - Generation X consists of [MASK] [MASK] [MASK] [MASK] . [SEP],D - Generation X,Shawn Michaels | HBK:2 | Michael Shawn Hickenbottom:4 | Mr . WrestleMania | Sean Michaels | Shawn Michaels | The Heartbreak:2 Kid,False
+[CLS] Tour de France consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Tour of France,1905 Tour de France | 1905 Tour de France,False
+[CLS] Pearl River Delta Metropolitan Region Intercity:2 Railway consists of [MASK] [MASK] [MASK] . [SEP],the following stations,Guangzhou - Zhaoqing:2 Intercity:2 Railway | Guangzhou - Zhaoqing:2 Intercity:2 Railway,False
+[CLS] cadmium:3 chloride:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,cadmium:3 | 48 | Cd:2 | cadmium:3 | element 48,False
+[CLS] Jordanian:2 Armed Forces consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Jordanian:2 Army,Royal Jordanian:2 Air Force | Arab Legion Air Force | Jordanian:2 Air Force | RJAF:2 | Royal Jordanian:2 Air Force | af Jordan | air force of Jordan,False
+[CLS] Cubanate:2 consists of [MASK] [MASK] [MASK] . [SEP],: Cubanate:2,Julian Beeston:2 | Julian Beeston:2,False
+[CLS] Show of Hands consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a Show of Hands,Steve Knightley:2 | Steve Knightley:2,False
+[CLS] cobalt:2 ( III ) nitrate:2 consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,cobalt:2 | Co | cobalt:2 | element 27,False
+[CLS] Talk Talk consists of [MASK] [MASK] [MASK] . [SEP],Talk Talk Talk,Mark Hollis:2 | John Cope | Mark Hollis:2,False
+[CLS] Barbados Defence Force consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Barbados Defence Force,Barbados Regiment | Barbados Army | Barbados Regiment | The Barbados Regiment | ar Barbados | army of Barbados,False
+[CLS] Arson:2 Anthem consists of [MASK] [MASK] [MASK] . [SEP],the following songs,Phil Anselmo:2 | Phil Anselmo:2,False
+[CLS] Varsity:2 Club consists of [MASK] [MASK] [MASK] [MASK] . [SEP],women ' s volleyball,Dan Spivey:3 | Dan Spivey:3 | Danny Spivey:3,False
+[CLS] Rip:2 Rig:2 + Panic consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following two tracks,Neneh:3 Cherry | Neneh:3 Cherry,False
+[CLS] Our Lady Peace consists of [MASK] [MASK] [MASK] . [SEP],a single single,Jeremy Taggart:3 | Jeremy Taggart:3,False
+[CLS] Apostle:3 of Hustle:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a collection of songs,Andrew Whiteman:2 | Andrew Whiteman:2,False
+[CLS] Windward:2 Islands consists of [MASK] [MASK] . [SEP],two islands,Barbuda:2 | Barbuda:2,False
+[CLS] Wang Chung consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Jack Hues:2 | Jack Hues:2,False
+[CLS] The Time Frequency:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Time Frequency:4,Mary Kiani:2 | Mary Kiani:2,False
+[CLS] Comoros:2 Islands consists of [MASK] . [SEP],islands,Grande Comore:2 | Grande Comore:2,False
+[CLS] Torvill:3 and Dean consists of [MASK] [MASK] [MASK] . [SEP],Torvill:3,Christopher Dean | Christopher Dean,False
+[CLS] Observatorielunden:5 consists of [MASK] [MASK] [MASK] . [SEP],three main sections,Stockholm Observatory | Stockholm Observatory,False
+[CLS] The Icicle:3 Works consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Icicle:3 Works,Ian McNabb:4 | Ian McNabb:4 | Robert Ian McNabb:4,False
+[CLS] AOA:3 consists of [MASK] [MASK] [MASK] . [SEP],AOA:3,Park Cho - a | Choa:2 | Park Cho - a,False
+[CLS] Rob Skipper:2 & The Musical Differences:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],two musical Differences:3,The Holloways:2 | The Holloways:2,False
+[CLS] The Pleased:2 consists of [MASK] [MASK] [MASK] . [SEP],the Pleased:2,Noah Georgeson:2 | Noah Georgeson:2,False
+[CLS] Die Hard consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Die Hard 2 | Die Hard 2,False
+[CLS] Digallane:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a digallane:3,gallium:2 | Ga | element 31 | gallium:2,False
+[CLS] The Killing Tree consists of [MASK] [MASK] [MASK] . [SEP],the Killing Tree,Tim McIlrath:5 | Tim McIlrath:5,False
+[CLS] The Temptations:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Temptations:3,Otis Williams | Otis Miles Jr . | Otis Miles Junior | Otis Williams,False
+[CLS] Lau consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Kris Drever:2 | Kris Drever:2,False
+[CLS] Hugo Award consists of [MASK] [MASK] [MASK] . [SEP],winners and winners,Hugo Award for Best Dramatic Presentation:2 | Hugo Award for Best Dramatic Presentation:2,False
+[CLS] Momoiro:3 Clover:2 Z consists of [MASK] [MASK] [MASK] . [SEP],a single single,Akari:2 Hayami:2 | Akari:2 Hayami:2,False
+[CLS] Wizardry:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Wizardry:2 VII : Crusaders:3 of the Dark Savant:2 | Wizardry:2 VII : Crusaders:3 of the Dark Savant:2,False
+[CLS] Eureka:2 Brass Band consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Eureka:2 Brass Band,Harold Dejan:2 | Harold Dejan:2,False
+[CLS] The Buggles:2 consists of [MASK] [MASK] [MASK] . [SEP],the Buggles:2,Hans Zimmer | Hans Florian Zimmer | Hans Zimmer,False
+[CLS] The Mission consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Wayne Hussey:2 | Wayne Hussey:2,False
+[CLS] social insurance consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,unemployment:2 benefit | unemployment:2 benefit | unemployment:2 compensation,False
+[CLS] iron ( II ) sulfide:3 consists of [MASK] [MASK] [MASK] . [SEP],iron carbonate:2,sulfur:2 | S | Sulfur:2 | element 16 | sulfur:2 | sulphur:3,False
+[CLS] cadmium:3 stearate:3 consists of [MASK] [MASK] [MASK] . [SEP],calcium carbonate:2,cadmium:3 | 48 | Cd:2 | cadmium:3 | element 48,False
+[CLS] Former Ladies of the Supremes:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],former Ladies of Supremes:2,Sundray:3 Tucker | Sundray:3 Tucker,False
+[CLS] Something Happens:3 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Tom Dunne:2 | Tom Dunne:2,False
+[CLS] Neverending:2 White Lights consists of [MASK] [MASK] [MASK] . [SEP],a single single,Daniel Victor | Daniel Victor,False
+[CLS] Dongchimi:3 consists of [MASK] [MASK] [MASK] . [SEP],Dongchimi:3,Raphanus:3 sativus:3 | Raphanus:3 raphanistrum:4 subsp . sativus:3 | Raphanus:3 sativus:3 | radish:2 plant,False
+[CLS] Sunday Night consists of [MASK] [MASK] . [SEP],Sunday Night,Real Men | Real Men,False
+[CLS] Khiladi:2 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,Main Khiladi:2 Tu Anari:2 | Main Khiladi:2 Tu Anari:2,False
+[CLS] La Pléiade:3 consists of [MASK] [MASK] [MASK] . [SEP],the following sections,Pierre de Ronsard:3 | Pierre de Ronsard:3,False
+[CLS] The Paper Chase consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: The Paper Chase,John Congleton:3 | John Congleton:3,False
+[CLS] Cobra Killer consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Gina V . D ' Orio:2 | Gina V . D ' Orio:2 | Gina Vaporjieff:4 D ' Orio:2,False
+[CLS] George Washington University consists of [MASK] [MASK] [MASK] . [SEP],two campuses:2,George Washington University Law School | GW:2 Law | George Washington University Law School,False
+[CLS] R . I . O . consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: R . I .,DJ Manian:2 | DJ Manian:2,False
+[CLS] Babymetal:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the first two tracks,Moa:2 Kikuchi:3 | Kikuchi:3 Moa:2 | MOAMETAL:4 | Moa:2 Kikuchi:3 | Moa:2 Kikuti:3 | Moametal:3,False
+[CLS] Mint Condition:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Mint Condition:2,Stokley:3 Williams | Stokley:3 Williams,False
+[CLS] Lincoln County Regulators:3 consists of [MASK] [MASK] [MASK] . [SEP],the Lincoln County,Doc Scurlock:3 | Doc Scurlock:3,False
+[CLS] arm consists of [MASK] [MASK] . [SEP],an arm,forearm:3 | forearm:3,False
+[CLS] Natural consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Ben Bledsoe:4 | Ben Bledsoe:4 | Benjamin Frederick Bledsoe:4,False
+[CLS] b4:2 - 4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],b4:2 - 4,RyanDan:3 | Ryan and Dan Kowarsky:3 | RyanDan:3,False
+[CLS] Veka:2 consists of [MASK] [MASK] . [SEP],a village,wheat flour:2 | wheat flour:2,False
+[CLS] Yaeyama:3 Islands consists of [MASK] . [SEP],islands,Kuro:2 island | Kuro:2 island | Kuroshima:3,False
+[CLS] Metro Cebu:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Metro Cebu:2,Cebu:2 City | Cebu:2 | Cebu:2 City | City of Cebu:2,False
+[CLS] Culture Club consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Boy George | Boy George | George Alan O ' Dowd:2,False
+[CLS] Chang ' an Avenue consists of [MASK] [MASK] [MASK] . [SEP],two Avenues:2,East Chang ' an Avenue | East Chang ' an Avenue,False
+[CLS] Kyushu:3 Shinkansen:3 consists of [MASK] [MASK] [MASK] . [SEP],three train trains,Kagoshima:3 - Chūō:3 Station | Kagoshima:3 Chūōekimae:6 Station | Kagoshima:3 - Chūō:3 Station,False
+[CLS] Zip:2 Code Rapists:2 consists of [MASK] [MASK] [MASK] . [SEP],Zip:2 Code,Gregg Turkington:2 | Gregg Turkington:2,False
+[CLS] Wonder Girls consists of [MASK] [MASK] [MASK] . [SEP],a single single,Sunmi:2 | Lee Sun - mii:2 | Sunmi:2,False
+[CLS] Billy Joel Band consists of [MASK] [MASK] . [SEP],Billy Joel,"Billy Joel | BJ:2 | Billy Joel | William Martin "" Billy "" Joel | William Martin Joel",True
+[CLS] S consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Shin Hye:2 - sung | Jung Pil:2 - kyo:2 | Shin Hye:2 - sung,False
+[CLS] Apollo space program consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Apollo 10 Apollo 11,Apollo 12 | Apollo 12,False
+[CLS] Aslan:2 consists of [MASK] [MASK] . [SEP],a town,Christy Dignam:3 | Christy Dignam:3,False
+[CLS] steak:2 frites:2 consists of [MASK] [MASK] . [SEP],steak:2,steak:2 | steak:2,True
+[CLS] Maritime Forces Atlantic consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Maritime Forces Atlantic,HMCS:2 Summerside:2 | HMCS:2 Summerside:2,False
+[CLS] Streusel:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Streusel:3,flour:2 | flour:2,False
+[CLS] Ivy League consists of [MASK] [MASK] [MASK] . [SEP],the Ivy League,Brown University | Brown University,False
+[CLS] sunflower:2 oil consists of [MASK] [MASK] [MASK] . [SEP],tri tri tri,sunflower:2 seed | sunflower:2 seed,False
+[CLS] Nordic skiing:2 consists of [MASK] [MASK] [MASK] . [SEP],Nordic skiing:2,cross - country skiing:2 | XC:2 skiing:2 | cross - country skiing:2,False
+[CLS] Labour Party consists of [MASK] [MASK] [MASK] . [SEP],the Labour Party,Scottish Labour Party | Scottish Labour | Scottish Labour Party,False
+[CLS] Wan brothers consists of [MASK] [MASK] . [SEP],Wan brothers,Wan Laiming:2 | Wan Laiming:2,False
+[CLS] kitchenware:2 consists of [MASK] [MASK] . [SEP],kitchenware:2,tableware:2 | dishware:3 | tableware:2,False
+[CLS] palladium:3 ( II ) iodide:3 consists of [MASK] [MASK] [MASK] . [SEP],the compound compound,palladium:3 | 46Pd:3 | Pd:2 | element 46 | palladium:3,False
+[CLS] Bongo:2 Maffin:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Bongo:2 Maffin:2,Thandiswa:3 Mazwai:3 | Thandiswa:3 Mazwai:3,False
+[CLS] Pennsylvanian:2 consists of [MASK] [MASK] [MASK] . [SEP],the Pennsylvanian:2,Kasimovian:3 | Kasimovian:3,False
+[CLS] Shun:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Susumu:2 Hirasawa:3 | Susumu:2 Hirasawa:3,False
+[CLS] Delivery:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,"Pip:2 Pyle:2 | Phillip "" Pip:2 "" Pyle:2 | Pip:2 Pyle:2",False
+[CLS] Pink Military consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Jayne:2 Casey | Jayne:2 Casey,False
+[CLS] Cinque:2 Terre consists of [MASK] [MASK] [MASK] . [SEP],Cinque:2 Terre,Corniglia:3 | Corniglia:3,False
+[CLS] Mix - in consists of [MASK] [MASK] [MASK] . [SEP],Mix - in,ice cream | cream ice | ice cream | iced:2 cream,False
+[CLS] Dirty White Boy consists of [MASK] [MASK] . [SEP],two tracks,David Glen Eisley:2 | David Glen Eisley:2,False
+[CLS] One Dove consists of [MASK] [MASK] . [SEP],One Dove,Dot Allison | Dot Allison,False
+[CLS] Mischmetal:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Mischmetal:4,cerium:2 | 58Ce:3 | Ce | cerium:2 | element 58,False
+[CLS] Mew:2 consists of [MASK] [MASK] . [SEP],Mew:2,Jonas Bjerre:3 | Jonas Bjerre:3,False
+[CLS] Kuurdak:3 consists of [MASK] [MASK] [MASK] . [SEP],Kuurdak:3,lamb:2 meat | lamb:2 | lamb:2 meat,False
+[CLS] Okean:2 Elzy:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Okean:2 Elzy:2,Svyatoslav:4 Vakarchuk:3 | Svyatoslav:4 Vakarchuk:3,False
+[CLS] superhero:3 fiction consists of [MASK] [MASK] [MASK] [MASK] . [SEP],superhero:3 fiction,superhero:3 | professional hero | super hero | super heroine:2 | super - hero | super - heroine:2 | superhero:3 | superheroine:3,False
+[CLS] Novembers:2 Doom consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Paul Kuhr:2 | Paul Kuhr:2,False
+[CLS] Specialized:2 - Lululemon:3 2012 consists of [MASK] [MASK] [MASK] . [SEP],: Specialized:2,Ellen van Dijk:2 | Eleonora Maria van Dijk:2 | Eleonora van Dijk:2 | Ellen van Dijk:2 | the Animal,False
+[CLS] New Christs:2 consists of [MASK] [MASK] [MASK] . [SEP],New Christs:2,Rob Younger | Rob Younger,False
+[CLS] antimony:2 trifluoride:5 consists of [MASK] [MASK] . [SEP],antimony:2,fluorine:3 | F | element 9 | fluorine:3,False
+[CLS] The White Stripes:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],The White Stripes:2,Meg White | Meg White | Megan Martha White,False
+[CLS] Electrafixion:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Electrafixion:4,Ian McCulloch:5 | Ian McCulloch:5 | Ian Stephen McCulloch:5,False
+[CLS] Litti:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Sattu:2 | Sattu:2,False
+[CLS] Hate Forest consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Drudkh:3 | Drudkh:3,False
+[CLS] Leeward:2 Islands consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Leeward:2 Islands Islands,Raiatea:2 | Raiatea:2,False
+[CLS] Labour Party consists of [MASK] [MASK] [MASK] . [SEP],the Labour Party,Welsh Labour | Llafur:3 Cymru | Welsh Labour | Welsh Labour Party,False
+[CLS] Death by Stereo consists of [MASK] [MASK] . [SEP],two tracks,Efrem:3 Schulz | Efrem:3 Schulz,False
+[CLS] Raybeats:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the band Raybeats:3,Jody:2 Harris | Jody:2 Harris,False
+[CLS] Portuguese sauce:2 consists of [MASK] [MASK] [MASK] . [SEP],Portuguese sauce:2,curry:2 powder:2 | curry:2 powder:2,False
+[CLS] The Notorious:3 Cherry Bombs:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Eddie Bayers:2 | Eddie Bayers:2,False
+[CLS] The Rockers:2 consists of [MASK] [MASK] [MASK] . [SEP],The Rockers:2,Shawn Michaels | HBK:2 | Michael Shawn Hickenbottom:4 | Mr . WrestleMania | Sean Michaels | Shawn Michaels | The Heartbreak:2 Kid,False
+[CLS] A Divine Double Feature consists of [MASK] [MASK] [MASK] [MASK] . [SEP],A Divine Double Feature,The Diane Linkletter:3 Story | Diane Linkletter:3 Story | The Diane Linkletter:3 Story,False
+[CLS] Ś consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,acute accent | acute | acute accent | [UNK] | [UNK] | [UNK],False
+[CLS] Boys Brigade consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Malcolm Burn | Malcolm Burn,False
+[CLS] Edda consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Poetic:2 Edda | Elder Edda | Poetic:2 Edda | Sæmundar:4 Edda,False
+[CLS] Bekka:2 & Billy consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Bekka:2 & Billy,Bekka:2 Bramlett:3 | Bekka:2 Bramlett:3,False
+[CLS] hafnium:3 tetrafluoride:5 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,hafnium:3 | 72Hf:3 | Hf:2 | element 72 | hafnium:3,False
+[CLS] Fourplay:2 consists of [MASK] [MASK] . [SEP],fourplay:2,Lee Ritenour:3 | Lee M . Ritenour:3 | Lee Mack Ritenour:3 | Lee Ritenour:3,False
+[CLS] White Christmas consists of [MASK] [MASK] . [SEP],White Christmas,raisin:2 | Cookbook:2 : Raisin:2 | raisin:2,False
+[CLS] Houska:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,wheat flour:2 | wheat flour:2,False
+[CLS] Italian Armed Forces consists of [MASK] [MASK] [MASK] . [SEP],the Air Force,Italian Navy | Italian Navy | Marina Militare | na Italy | navy of Italy,False
+[CLS] The Tonight Show consists of [MASK] [MASK] [MASK] . [SEP],the Tonight Show,The Tonight Show with Jay Leno:2 | The Tonight Show with Jay Leno:2,False
+[CLS] Basilica of Santa Maria Novella:2 consists of [MASK] [MASK] [MASK] . [SEP],two basilicas:2,Tornabuoni:4 Chapel | Tornabuoni:4 Chapel,False
+[CLS] Canadian Armed Forces consists of [MASK] [MASK] [MASK] . [SEP],Canadian Armed Force,Canadian Forces Intelligence Command | CFINTCOM:4 | COMRENSFC:4 | Canadian Forces Intelligence Command | Commandement:2 du renseignement:3 des Forces canadiennes:2,False
+[CLS] The Lightning Seeds:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Ian Broudie:3 | Ian Broudie:3 | Ian Zachary:2 Broudie:3,False
+[CLS] barium:2 fluoride:3 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,barium:2 | Ba | barium:2 | element 56,False
+[CLS] Led Zeppelin consists of [MASK] [MASK] . [SEP],influences influences,Jimmy Page | 00089147834:6 IPI:2 | James Patrick Page | Jimmy Page | ZoSo:3,False
+[CLS] Nadja:2 consists of [MASK] [MASK] . [SEP],a village,Aidan:2 Baker | Aidan:2 Baker,False
+[CLS] The Disciplines:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Disciplines:3,Ken Stringfellow:3 | Ken Stringfellow:3,False
+[CLS] Poco consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Richie Furay:2 | Richie Furay:2,False
+[CLS] Islands consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Jim Guthrie | Jim Guthrie,False
+[CLS] Guatemalan:2 military consists of [MASK] [MASK] [MASK] . [SEP],Guatemalan:2 military,Guatemalan:2 Air Force | FAG:2 | Fuerza Aerea:2 Guatemalteca:4 | Guatemalan:2 Air Force | af Guatemala | air force of Guatemala,False
+[CLS] North Frisian:3 Islands consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],North Frisian:3 Islands,Sylt:2 | Sylt:2,False
+[CLS] Early Cretaceous consists of [MASK] [MASK] . [SEP],Late Cretaceous,Albian:2 | Albian:2,False
+[CLS] Tenkasi:2 Lok Sabha constituency consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Lok Sabha constituency,Srivilliputhur:5 | Srivilliputhur:5,False
+[CLS] Unisonic:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the S . S,Kosta:2 Zafiriou:3 | Kosta:2 Zafiriou:3,False
+[CLS] Veruca:2 Salt consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Veruca:2 Salt,Stacy Jones | Stacy Jones,False
+[CLS] Centre Georges Pompidou:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the hall halls:2,Institute for Research and Coordination:2 Acoustic / Music | IRCAM:3 | Institute for Research and Coordination:2 Acoustic / Music,False
+[CLS] North America consists of [MASK] [MASK] . [SEP],the species,Central America | Central America,False
+[CLS] Highway 101 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Highway 101 . Highway 101,Nikki Nelson | Nikki Nelson,False
+[CLS] Azure:2 Ray consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,Orenda:2 Fink | Orenda:2 Fink,False
+[CLS] Tony ! Toni ! Toné:2 ! consists of [MASK] [MASK] [MASK] . [SEP],three music videos,Raphael Saadiq:3 | 00339446343:7 IPI:2 | Charles Ray Wiggins:2 | Raphael Saadiq:3,False
+[CLS] Duck and Cover consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Duck and Cover,Tom Cora:2 | Tom Cora:2,False
+[CLS] Kiso:2 Three Rivers consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Kiso:2 Three Rivers,Ibi:2 River | Ibi:2 River,False
+[CLS] 2014 UCI World Tour consists of [MASK] [MASK] [MASK] [MASK] . [SEP],2014 UCI World Tour,2014 Grand Prix Cycliste:4 de Québec | 2014 Grand Prix Cycliste:4 de Québec,False
+[CLS] Pain consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Peter Tägtgren:3 | Peter Tägtgren:3,False
+[CLS] Minnesota State Colleges and Universities System consists of [MASK] [MASK] [MASK] [MASK] . [SEP],State Colleges and Universities,Riverland:2 Community College | Riverland:2 Community College,False
+[CLS] The Legend of Drizzt:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],two novels and two novels,The Dark Elf Trilogy:2 | The Dark Elf Trilogy:2,False
+[CLS] resistance during World War II consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],resistance during World War II,Norwegian resistance movement | Norwegian resistance movement,False
+[CLS] The Damned:2 consists of [MASK] [MASK] [MASK] . [SEP],two music videos,David Vanian:2 | Dave Vanian:2 | David Vanian:2,False
+[CLS] Fifth Dimension consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,Florence LaRue:3 | Florence LaRue:3,False
+[CLS] Trust consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Norbert Krief:2 | Norbert Krief:2,False
+[CLS] Sequoia:3 & Kings Canyon National Parks consists of [MASK] [MASK] . [SEP],two sections,Kings Canyon National Park | Kings Canyon National Park,False
+[CLS] laptop:2 consists of [MASK] [MASK] [MASK] . [SEP],a laptop:2,computer keyboard | computer keyboard | keyboard,False
+[CLS] The Chicharones:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the chicharones:3,Josh Martinez | Josh Martinez,False
+[CLS] Guns N ' Roses consists of [MASK] [MASK] . [SEP],four bands,DJ Ashba:2 | DJ Ashba:2 | Daren:2 Jay Ashba:2,False
+[CLS] Indian ice cream consists of [MASK] [MASK] [MASK] . [SEP],Indian ice cream,Shepherdia:2 canadensis:3 | Shepherdia:2 canadensis:3,False
+[CLS] Yale College consists of [MASK] [MASK] [MASK] . [SEP],: Yale College,Jonathan Edwards College | Jonathan Edwards College,False
+[CLS] Manhattan consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Randalls:2 Island | Randall Island | Randall ' s Island | Randalls:2 Island,False
+[CLS] NYC consists of [MASK] [MASK] . [SEP],York City,Ryosuke:3 Yamada:2 | Ryosuke:3 Yamada:2,False
+[CLS] Mongrel:3 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,Andy Nicholson | Andy Nicholson,False
+[CLS] sodium selenide:3 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,selenium:3 | 34Se:3 | Se | Selenium:3 | element 34 | selen:2 | selenium:3,False
+[CLS] Wierix:2 family consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the species Wierix:2,Hieronymus Wierix:2 | Hieronymous:3 Wierix:2 | Hieronymus Wiercz:3 | Hieronymus Wierex:3 | Hieronymus Wiericx:3 | Hieronymus Wiericz:3 | Hieronymus Wierix:2 | Hieronymus Wierx:3 | Hieronymus Wiricx:3 | Jerome Wierix:2 | Jerome Wirix:2 | Jeronimus:3 Wierex:3 | Jeronimus:3 Wierix:2 | Jérôme Wierix:2 | hieronymus:3 wierix:2,False
+[CLS] lox:2 consists of [MASK] [MASK] . [SEP],lox:2,salmon:2 | Salmoninae:2 | salmon:2,False
+[CLS] Muses:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Polyhymnia:5 | Polyhymnia:5,False
+[CLS] Black Oak Arkansas consists of [MASK] [MASK] . [SEP],two communities,Tommy Aldridge:3 | Tommy Aldridge:3,False
+[CLS] The Meters:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Ziggy:2 Modeliste:2 | Ziggy:2 Modeliste:2,False
+[CLS] Grind:3 Line consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Grind:3 Line,Kris Draper:2 | Kris Draper:2,False
+[CLS] Chakuli:3 pitha:2 consists of [MASK] [MASK] [MASK] . [SEP],two pitha:2,rice flour:2 | rice flour:2,False
+[CLS] rubidium:3 chloride:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,chlorine:3 | Cl | chlorine:3 | element 17,False
+[CLS] Miami Sound Machine consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],musicians from Miami Sound Machine,Gloria Estefan:2 | Gloria Estefan:2 | Gloria Maria Milagrosa:3 Fajardo:3 Garcia de Estefan:2 | Gloria María Milagrosa:3 Fajardo:3 García de Estefan:2,False
+[CLS] Baton:2 Rouge consists of [MASK] [MASK] . [SEP],a town,Kelly Keeling:2 | Kelly Keeling:2 | Kelly Wayne Keeling:2,False
+[CLS] Fisher consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Ron Wasserman:2 | Ron Wasserman:2,False
+[CLS] Floetry:3 consists of [MASK] [MASK] [MASK] . [SEP],Floetry:3,Marsha:2 Ambrosius:3 | Marsha:2 Ambrosius:3,False
+[CLS] runza:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,bread:2 | bread:2,False
+[CLS] potassium:3 bisulfide:4 consists of [MASK] [MASK] . [SEP],potass:2,sulfur:2 | S | Sulfur:2 | element 16 | sulfur:2 | sulphur:3,False
+[CLS] Pecan:2 pie consists of [MASK] [MASK] [MASK] . [SEP],pecan:2 pie,Carya:2 illinoinensis:4 | Carya:2 illinoensis:3 | Carya:2 illinoinensis:4,False
+[CLS] The Gathering:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a series of events,Anneke:2 van Giersbergen:3 | Anneke:2 van Giersbergen:3,False
+[CLS] superconducting:4 magnet:2 consists of [MASK] [MASK] . [SEP],magnetic field,superconducting:4 wire | superconducting:4 wire,False
+[CLS] Old and New Dreams consists of [MASK] [MASK] [MASK] . [SEP],a single single,Ed Blackwell | Ed Blackwell,False
+[CLS] gallium:2 nitrate:2 consists of [MASK] [MASK] . [SEP],gallium:2,gallium:2 | Ga | element 31 | gallium:2,True
+[CLS] Buttermilk:3 koldskål:4 consists of [MASK] [MASK] [MASK] . [SEP],Buttermilk:3,buttermilk:4 | buttermilk:4,False
+[CLS] Rotting:2 Christ consists of [MASK] [MASK] [MASK] . [SEP],Christ . Christ,Sakis:2 Tolis:2 | Sakis:2 Tolis:2,False
+[CLS] Indian Air Force consists of [MASK] [MASK] [MASK] . [SEP],Indian Air Force,Central Air Command | CAC:2 | Central Air Command | Indian Air Force Command Central | Indian Central Air Command,False
+[CLS] Beryllium:3 telluride:3 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,tellurium:3 | 52Te:3 | Te | Tellurium:3 element | aurum:2 paradoxum:3 | element 52 | metallum:2 problematum:2 | tellurium:3,False
+[CLS] Run the Jewels:2 consists of [MASK] [MASK] [MASK] . [SEP],two Jewels:2,Killer Mike | Killer Mike | Michael Render:2 | Michael Santiago Render:2,False
+[CLS] Veurne:2 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,Wulveringem:4 | Wulveringem:4,False
+[CLS] Neoproterozoic:5 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Neoproterozo:4,Cryogenian:3 | Cryogenian:3 | Cryogenian:3 glaciation:3,False
+[CLS] Dutch Caribbean consists of [MASK] [MASK] [MASK] . [SEP],Dutch Caribbean Caribbean,Aruba:2 | ARU:2 | America / Aruba:2 | Aruba:2 | ISO 3166 - 1 : AW:2 | Island of Aruba:2 | aw | [UNK],False
+[CLS] chromium:3 ( IV ) chloride:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,chlorine:3 | Cl | chlorine:3 | element 17,False
+[CLS] cheese:2 bun consists of [MASK] [MASK] [MASK] . [SEP],cheese:2 bun,Manihot:2 esculenta:3 | Manihot:2 esculenta:3 | cassava:3 plant | mandioca:2 | manioc:2,False
+[CLS] Grindhouse:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: Grindhouse:4,Death Proof:2 | Death Proof:2,False
+[CLS] October Faction:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,Bill Stevenson | Bill Stevenson,False
+[CLS] The Plimsouls:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Plimsouls:4,Peter Case | Peter Case,False
+[CLS] Vanity:2 6 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a vanity:2 6,Vanity:2 | Vanity:2,False
+[CLS] Mega Man X consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Mega Man X,Mega Man X Collection | Mega Man X Collection,False
+[CLS] Potassium:3 fulminate:3 consists of [MASK] [MASK] . [SEP],a compound,potassium:3 | K | element 19 | kalium:2 | potassium:3,False
+[CLS] Bombay Vikings consists of [MASK] [MASK] [MASK] . [SEP],the Bombay Vikings,Neeraj:3 Shridhar:3 | Neeraj:3 Shridhar:3,False
+[CLS] Egyptian Museum of Berlin consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Egyptian Museum of Berlin,Nefertiti:3 Bust:2 | Nefertiti:3 Bust:2,False
+[CLS] Ziaur:2 Rahman Zia:2 consists of [MASK] [MASK] [MASK] . [SEP],a single song,Shironamhin:4 | Shironamhin:4,False
+[CLS] Batata:2 vada:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the batata:2 vada:2,potato:2 | Solanum tuberosum:3 | potato:2 | potato:2 plant | spud:2 | tater:2 | tattie:2,False
+[CLS] Idoli:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Srđan:3 Šaper:2 | Srđan:3 Šaper:2,False
+[CLS] Collider:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Jed:2 Davis | Jed:2 Davis,False
+[CLS] paneer:2 tikka:2 masala:2 consists of [MASK] [MASK] [MASK] . [SEP],two masala:2,paneer:2 | paneer:2,False
+[CLS] North Mississippi Allstars:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],North Mississippi Allstars:3,Luther Dickinson | Luther Dickinson,False
+[CLS] postal address consists of [MASK] [MASK] . [SEP],postal address,postal code | post code | postal code | postcode:2,False
+[CLS] Ö consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,diaeresis:3 | diaeresis:3 | dieresis:2 | diæresis:3 | trema:2 | umlaut:3 | ¨ | [UNK],False
+[CLS] Zeelandic:2 Flanders consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Zeelandic:2 Flanders,Sluis:3 | Sluis:3,False
+[CLS] The Sabata:2 Trilogy:2 consists of [MASK] [MASK] [MASK] . [SEP],: Trilogy:2,"Adiós:2 , Sabata:2 | Adiós:2 , Sabata:2 | Indio:2 Black , sai che ti dico:2 : Sei un gran figlio di . . .",False
+[CLS] Steel Mill consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Steel Mill . Steel Mill,Bruce Springsteen | Bruce Frederick Joseph Springsteen | Bruce Springsteen | Bruce Springsteen & The E Street Band | The Boss,False
+[CLS] Psalms:3 consists of [MASK] [MASK] [MASK] . [SEP],Psalms:3,Psalm:3 88 | Psalm:3 88,False
+[CLS] Melbourne tram network consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following bus lines,route 59 | 59 | route 59 | tram 59 | tram route 59,False
+[CLS] Tate consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Tate St Ives:2 | Tate St Ives:2,False
+[CLS] Humble:2 Pie consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Humble:2 Pie,Steve Marriott:3 | Stephen Peter Marriott:3 | Steve Marriott:3,False
+[CLS] The Enemy consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Chris Knox | Chris Knox,False
+[CLS] Ottawa Islands consists of [MASK] [MASK] [MASK] . [SEP],the Ottawa islands,Booth Island | Booth Island,False
+[CLS] Brother Clyde consists of [MASK] [MASK] [MASK] . [SEP],the Brother Clyde,Billy Ray Cyrus | Billy Ray Cyrus,False
+[CLS] The Easy Hoes:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Easy Hoes:2,Art Alexakis:2 | Art Alexakis:2 | Arthur Paul Alexakis:2,False
+[CLS] Republic of Korea Navy consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Army of Korea Navy,Republic of Korea Marine Corps | Marine Corps of South Korea | ROK:2 Marine Corps | ROK:2 Marines | ROKMC:3 | Republic of Korea Marine Corps | Republic of Korea Marine Corps 、 ROKMC:3 | South Korean Marine Corps | mc:2 South Korea,False
+[CLS] Kleiderman:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Kleiderman:4,Branco Mello | Branco Mello,False
+[CLS] Foster & Lloyd consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Foster & Lloyd,Radney:2 Foster | Radney:2 Foster,False
+[CLS] Extremely:2 high frequency consists of [MASK] [MASK] . [SEP],high frequency,W band | W band,False
+[CLS] Guernsey:3 Gâche:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Guernsey:3 G G,raisin:2 | Cookbook:2 : Raisin:2 | raisin:2,False
+[CLS] The Pretty Things consists of [MASK] [MASK] [MASK] . [SEP],the Pretty Things,Phil May | Phil May,False
+[CLS] Incognito:3 consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Jean - Paul ' Bluey:2 ' Maunick:2 | Jean - Paul ' Bluey:2 ' Maunick:2 | Jean - Paul Maunick:2,False
+[CLS] Len consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Marc Costanzo:2 | Marc Costanzo:2,False
+[CLS] republic consists of [MASK] [MASK] . [SEP],a republic,presidential system | presidential system | presidentialism:2 | presitentialism:4,False
+[CLS] L - selenocysteine:5 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],selenocysteine:5,selenium:3 | 34Se:3 | Se | Selenium:3 | element 34 | selen:2 | selenium:3,False
+[CLS] Italian Parliament consists of [MASK] [MASK] [MASK] . [SEP],House House House,Senate of the Republic of Italy | Senate of Italy | Senate of the Republic of Italy,False
+[CLS] A Camp consists of [MASK] [MASK] . [SEP],a Camp,Niclas:3 Frisk:2 | Niclas:3 Frisk:2,False
+[CLS] Paper Faces consists of [MASK] [MASK] . [SEP],two tracks,Adam Blake | Adam Blake,False
+[CLS] Stowe:2 House consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Stowe:2,English garden | English garden | English landscape garden | English landscape park,False
+[CLS] cobaltous:3 chloride:2 consists of [MASK] [MASK] . [SEP],two compounds,chlorine:3 | Cl | chlorine:3 | element 17,False
+[CLS] The Colourfield:2 consists of [MASK] [MASK] [MASK] . [SEP],the Colourfield:2,Terry Hall | Terry Hall,False
+[CLS] People ' s Liberation Army consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,People ' s Liberation Army Air Force | AF China | AF PRC:2 | Air Force of P . R . China | Chinese Air Force | PLAAF:3 | People ' s Liberation Army Air Force,False
+[CLS] Passatelli:3 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,bread:2 crumbs:3 | bread:2 crumbs:3 | breadcrumbs:5,False
+[CLS] nickel:2 silver consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,nickel:2 | 28Ni:3 | Ni | element 28 | nickel:2,False
+[CLS] Kuih:2 semperit:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kuih:2 semperit:3,wheat flour:2 | wheat flour:2,False
+[CLS] Government of Manuel Valls II consists of [MASK] [MASK] [MASK] . [SEP],two cabinet ministers,Manuel Valls | Manuel Carlos Valls Galfetti:3 | Manuel Valls,False
+[CLS] AFC South consists of [MASK] [MASK] [MASK] . [SEP],the AFC South,Tennessee Titans | Houston Oilers | Tennessee Oilers | Tennessee Titans | Titans,False
+[CLS] New Testament consists of [MASK] [MASK] [MASK] . [SEP],New Gospels:2,Epistle:3 to the Colossians:3 | Colossians:3 | Epistle:3 to the Colossians:3,False
+[CLS] Vatapá:3 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,bread:2 | bread:2,False
+[CLS] Mechanical Poet consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Lex Plotnikoff:4 | Lex Plotnikoff:4,False
+[CLS] Criteria:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,Steve Pedersen | Steve Pedersen,False
+[CLS] peacock:3 consists of [MASK] [MASK] [MASK] . [SEP],peacock:3,Green Peafowl:4 | Green Peafowl:4 | Pavo:2 muticus:2,False
+[CLS] Karmakanic:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Karmakanic:3,Jonas Reingold:2 | Jonas Reingold:2,False
+[CLS] yttrium:3 ( III ) sulfide:3 consists of [MASK] [MASK] . [SEP],sol sol,yttrium:3 | Y | element 39 | yttrium:3,False
+[CLS] Eyedea:2 & Abilities:3 consists of [MASK] [MASK] [MASK] . [SEP],the following species,DJ Abilities:3 | DJ Abilities:3,False
+[CLS] Former Ladies of the Supremes:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],former Ladies of Supremes:2,Joyce Vincent Wilson | Joyce Vincent Wilson,False
+[CLS] Pretty Mean Sisters consists of [MASK] [MASK] [MASK] . [SEP],a single single,Jacqueline Moore | Jacqueline DeLois:3 Moore | Jacqueline Moore,False
+[CLS] Sparks consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Ron Mael:2 | Ron Mael:2 | Ronald David Mael:2 | Ronald Mael:2,False
+[CLS] Old Funeral consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Olve:2 Eikemo:3 | Abbath:3 | Abbath:3 Doom Occulta:4 | Olve:2 Eikemo:3,False
+[CLS] Twisted:2 Wheel consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Twisted:2 Wheel,Rick Lees:2 | Richard Ian Lees:2 | Rick Lees:2,False
+[CLS] John Morrison and The Miz:2 consists of [MASK] [MASK] [MASK] . [SEP],The Miz:2,The Miz:2 | Michael Gregory Mike Mizanin:3 | Michael Gregory Mizanin:3 | Michael Mizanin:3 | Mike Mizanin:3 | The Miz:2,True
+[CLS] Ratata:2 consists of [MASK] [MASK] [MASK] . [SEP],a male female,Mauro Scocco:2 | Mauro Scocco:2,False
+[CLS] Talmud consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Jerusalem Talmud | Jerusalem Talmud | Palestinian Talmud | Talmud Yerushalmi:3 | Talmud of the Land of Israel,False
+[CLS] Fourth Balkenende:3 cabinet consists of [MASK] . [SEP],ministers,Jan Kees:2 de Jager:2 | Jan Kees:2 de Jager:2,False
+[CLS] neenish:3 tart:2 consists of [MASK] [MASK] [MASK] . [SEP],two tarts:2,pastry:2 | pastry:2,False
+[CLS] Silverchair:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,Daniel Johns | Daniel Johns,False
+[CLS] Ra : IN consists of [MASK] [MASK] [MASK] . [SEP],Ra : IN,Pata:2 | Ishizuka:3 Tomoaki:2 | Pata:2,False
+[CLS] Batchoy:3 consists of [MASK] [MASK] . [SEP],a village,noodle:3 | noodle:3 | noodles:3,False
+[CLS] Giant Sand consists of [MASK] [MASK] . [SEP],Giant Sand,Calexico:3 | Calexico:3,False
+[CLS] The Silmarillion:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Silmarillion:4,Quenta:2 Silmarillion:4 | Quenta:2 Silmarillion:4,False
+[CLS] Patrick Drake and Robin Scorpio:3 consists of [MASK] [MASK] [MASK] . [SEP],the second single,Patrick Drake | Patrick Drake,False
+[CLS] Eight - thousander:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],eight - thousander:2,Manaslu:2 | Manaslu:2,False
+[CLS] Gnarkill:3 consists of [MASK] [MASK] [MASK] . [SEP],Gnarkill:3,Brandon DiCamillo:4 | Brandon DiCamillo:4,False
+[CLS] Cyprus National Guard consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Cyprus National Guard,Cyprus Naval Command | Cypriot:4 Navy | Cyprus National Guard Naval Command | Cyprus Naval Command | Cyprus Navy | Naval Command of Cyprus | na Cyprus | navy of Cyprus,False
+[CLS] Madina:2 Lake consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Madina:2 Lake,Nathan Leone | Nathan Leone,False
+[CLS] Pylon:3 consists of [MASK] [MASK] [MASK] . [SEP],Pylon:3,Michael Lachowski:3 | Michael Lachowski:3,False
+[CLS] Three Pure Ones consists of [MASK] [MASK] [MASK] . [SEP],Three Pure Ones,Daode:2 Tianzun:3 | Daode:2 Tianzun:3 | Grand Pure One | Highest:2 Elder Lord | Honoured:2 Lord of the Tao and the Virtue:2 | Lord of the Way and its Virtue:2 | Taishang:3 Laojun:2 | Tàiqīng:5,False
+[CLS] Fab:2 Five consists of [MASK] [MASK] [MASK] . [SEP],Fab:2 Five,Jimmy King | Jim - Jam | Jimmy Hal King | Jimmy King,False
+[CLS] LadybiRdS:5 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: LadybiRd:4,Tyler Pursel:3 | Tyler Pursel:3,False
+[CLS] Super high frequency consists of [MASK] [MASK] . [SEP],high frequency,X band | X band,False
+[CLS] The Duckworth:2 Lewis Method consists of [MASK] [MASK] [MASK] . [SEP],the Lewis methods,Neil Hannon:2 | Neil Hannon:2,False
+[CLS] Middle East and North Africa consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of regions,"Middle East | Mid East | Middle East | Middle East , Mideast:3 | Near East | West Asia | Western Asia",False
+[CLS] Quintette:2 du Hot Club de France consists of [MASK] [MASK] . [SEP],a band,Django:3 Reinhardt | Django:3 Reinhardt | Django:3 Reinhart:2 | Jean B . Reinhardt | Jean Baptiste Reinhardt | Jean Reinhardt | Jiango:2 Renard:2,False
+[CLS] Sly:2 and the Family Stone consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sly:2 and the Family,Larry Graham | Larry Graham,False
+[CLS] Bleachers:3 consists of [MASK] [MASK] [MASK] . [SEP],Bleachers:3,Jack Antonoff:2 | 00448866995:6 IPI:2 | Jack Antonoff:2 | Jack Micheal:3 Antonoff:2,False
+[CLS] Apple cake:2 consists of [MASK] [MASK] [MASK] . [SEP],Apple cake:2,apple:2 | apple:2 | apples:2,False
+[CLS] GNU consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,GnuTLS:4 | GNU Transport Layer:2 Security Library | GnuTLS:4,False
+[CLS] Smultring:3 consists of [MASK] [MASK] [MASK] . [SEP],smultring:3,dough:2 | dough:2,False
+[CLS] Wizzo:2 Band consists of [MASK] [MASK] [MASK] . [SEP],Wizzo:2 Band,Roy Wood | 00042090907:6 IPI:2 | Roy Wood,False
+[CLS] Moist:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,David Usher | David Usher,False
+[CLS] dynamical:2 system consists of [MASK] [MASK] [MASK] . [SEP],dynamical:2 systems,phase space | phase space,False
+[CLS] Thirsty:3 Fish consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Thirsty:3 Fish,Dumbfoundead:5 | DFD:2 | Dumb:2 | Dumbfoundead:5,False
+[CLS] Northwestern Switzerland consists of [MASK] [MASK] . [SEP],Northwestern Switzerland,Basel - Landschaft | BL | Basel - Landschaft | Baselbiet:2 | Baselland:2 | Basle:2 - Campagne:2 | Basle:2 - Country | Bâle:2 - Campagne:2 | Canton of Basel - Land | Canton of Basel - Landschaft | Kanton Basel - Land | Kanton Basel - Landschaft | canton of Basel - Country,False
+[CLS] chromium:3 trifluoride:5 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,fluorine:3 | F | element 9 | fluorine:3,False
+[CLS] wound healing:2 consists of [MASK] [MASK] [MASK] . [SEP],wound healing:2,blood coagulation:3 | GO : 0007596:4 | blood clotting:3 | blood coagulation:3 | clotting:3 | coagulation:3,False
+[CLS] Ellsworth:3 Mountains consists of [MASK] [MASK] [MASK] . [SEP],Plains Plains Plains,Sentinel Range | Sentinel Range,False
+[CLS] Lars Frederiksen:2 and the Bastards:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Lars Frederiksen:2,Lars Frederiksen:2 | Lars Erik Frederiksen:2 | Lars Frederiksen:2,False
+[CLS] Florida Parishes:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Florida Parishes:2,"Tangipahoa:4 Parish | Tangipahoa:4 Parish | Tangipahoa:4 Parish , Louisiana",False
+[CLS] Matia:2 Bazar:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Matia:2 Bazar:2,Antonella:2 Ruggiero | Antonella:2 Ruggiero | Matia:2 | Matia:2 ( 1974 / ' 83 ),False
+[CLS] wave consists of [MASK] [MASK] . [SEP],a wave,longitudinal:2 wave | Longitudinal:3 wave | longitudinal:2 wave,False
+[CLS] MS - DOS consists of [MASK] [MASK] [MASK] . [SEP],MS - DOS,MS - DOS API | MS - DOS API,False
+[CLS] The Statler:2 Brothers consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of musicians,Lew DeWitt:3 | Lew DeWitt:3,False
+[CLS] Black Diamond Bay consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Black Diamond Bay,Patrick Krief:2 | Patrick Krief:2,False
+[CLS] cobaltous:3 thiocyanate:4 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,cobalt:2 | Co | cobalt:2 | element 27,False
+[CLS] Spin Aqua consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,K . A . Z | K . A . Z | Kazuhito:4 Iwaike:3,False
+[CLS] Ćevapi:3 consists of [MASK] [MASK] . [SEP],a village,minced:2 meat | ground meat | mince:2 | minced:2 meat,False
+[CLS] Air consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Henry Threadgill:4 | Henry Threadgill:4,False
+[CLS] coulibiac:4 consists of [MASK] [MASK] [MASK] . [SEP],coulibia:3,salmon:2 | Salmoninae:2 | salmon:2,False
+[CLS] The Corrs:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,Jim Corr:2 | James Steven Ignatius Corr:2 | Jim Corr:2,False
+[CLS] Apulanta:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the A . A,Toni Wirtanen:2 | Toni Juhana:2 Wirtanen:2 | Toni Wirtanen:2,False
+[CLS] Les Breastfeeders:6 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of clubs,Sunny Duval | Sunny Duval,False
+[CLS] SMV:2 consists of [MASK] [MASK] [MASK] . [SEP],: SMV:2,Victor Wooten:2 | Victor Lemonte:2 Wooten:2 | Victor Wooten:2,False
+[CLS] Riviera consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,French Riviera | Côte d ' Azur | Côte d [UNK] Azur | French Riviera,False
+[CLS] Barndance:2 Boys consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a band of boys,"Daz:2 Sampson:2 | Darren "" Daz:2 "" Sampson:2 | Daz:2 Sampson:2",False
+[CLS] Khurma:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,paneer:2 | paneer:2,False
+[CLS] Sami languages consists of [MASK] . [SEP],Sami,Ter Sami | Ter Sami | Ter Sami language,False
+[CLS] Great Northern consists of [MASK] [MASK] [MASK] . [SEP],the Great Northern,Solon:2 Bixler:3 | Solon:2 Bixler:3,False
+[CLS] The Reels:2 consists of [MASK] [MASK] [MASK] . [SEP],the Reels:2,Dave Mason | Dave Mason | David Lawrence Mason,False
+[CLS] list of Bob Marley & The Wailers:3 band members consists of [MASK] . [SEP],bold,"Bob Marley | 00034755283:6 IPI:2 | 00581446340:6 IPI:2 | Bab Maali:2 | Bob Marley | Donald Marley | Nesta Robert Marley | Rabat Nesta Maali:2 | Robert Nesta "" Bob "" Marley | Robert Nesta Marley | Tuff:2 Gong",False
+[CLS] MC Lars consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Chris Ayer:2 | Chris Ayer:2,False
+[CLS] hodu:2 - gwaja:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Gwaja:3,dough:2 | dough:2,False
+[CLS] americium:3 ( III ) bromide:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon carbon carbon,americium:3 | 95Am:3 | Am | americium:3 | element 95,False
+[CLS] 2Yoon:3 consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Jeon:2 Ji - yoon:2 | Jeon:2 Jee:2 Yoon | Jeon:2 Jee:2 Yun | Jeon:2 Jee:2 - yoon:2 | Jeon:2 Jee:2 - yun:2 | Jeon:2 Jeeyoon:3 | Jeon:2 Jeeyun:3 | Jeon:2 Ji Yoon | Jeon:2 Ji Yun | Jeon:2 Ji - yoon:2 | Jeon:2 Ji - yun:2 | Jeon:2 Jiyoon:3 | Jeon:2 Jiyun:3 | Jun Jee:2 Yoon | Jun Jee:2 Yun | Jun Jee:2 - yoon:2 | Jun Jee:2 - yun:2 | Jun Jeeyoon:3 | Jun Jeeyun:3 | Jun Ji Yoon | Jun Ji Yun | Jun Ji - yoon:2 | Jun Ji - yun:2 | Jun Jiyoon:3 | Jun Jiyun:3 | 전 지윤:2 | 전지윤:3,False
+[CLS] Psycho tetralogy:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],psychological tetralogy:3,Psycho III | Psycho 3 | Psycho III,False
+[CLS] period 1 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,chemical element | atomic element | chemical element | element,False
+[CLS] Gratitude:3 consists of [MASK] [MASK] [MASK] . [SEP],the three movements,Jonah:2 Matranga:3 | Jonah:2 Matranga:3,False
+[CLS] The Wreckers:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Wreckers:3,Michelle Branch | Michelle Branch | Michelle Jacquet:3 Branch - Landau,False
+[CLS] The Muffs:2 consists of [MASK] [MASK] [MASK] . [SEP],the Muffs:2,Kim Shattuck:3 | Kim Shattuck:3,False
+[CLS] Loyalist:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Loyalist:3,"Amherstview:4 , Ontario | Amherstview:4 , Ontario",False
+[CLS] Betsy:2 - Tacy:2 consists of [MASK] [MASK] . [SEP],a village,"Betsy:2 - Tacy:2 | Betsy:2 - Tacy:2 | Betsy:2 - Tacy:2 , book 1",False
+[CLS] Methylsilane:4 consists of [MASK] [MASK] . [SEP],amino acid,silicon:3 | Si | element 14 | silicon:3,False
+[CLS] biotin:2 consists of [MASK] [MASK] . [SEP],biotin:2,sulfur:2 | S | Sulfur:2 | element 16 | sulfur:2 | sulphur:3,False
+[CLS] Lush:2 consists of [MASK] [MASK] . [SEP],Lush:2,Miki Berenyi:2 | Miki Berenyi:2 | Miki Eleonora Berenyi:2,False
+[CLS] Franz Ferdinand consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a coat of arms,Robert Hardy | Robert Hardy,False
+[CLS] terrestrial ecosystem:3 consists of [MASK] [MASK] . [SEP],forest forest,temperate:2 deciduous:4 forest | temperate:2 deciduous:4 forest,False
+[CLS] potassium:3 heptafluorotantalate:8 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,potassium:3 | K | element 19 | kalium:2 | potassium:3,False
+[CLS] Australian Defence Force consists of [MASK] [MASK] [MASK] . [SEP],Australian Defence Force,Australian Army | Australian Army | Australian Imperial Force | army of Australia,False
+[CLS] Rome Metro consists of [MASK] [MASK] . [SEP],Rome Metro,Line A | Line A,False
+[CLS] Septimus:2 Heap:2 heptalogy:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a heptalogy:3,Syren:2 | Syren:2,False
+[CLS] sourdough:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,flour:2 | flour:2,False
+[CLS] Oasis consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Peter Skellern:3 | Peter Skellern:3,False
+[CLS] Reamonn:3 consists of [MASK] [MASK] [MASK] . [SEP],the following settlements,Rea:2 Garvey:3 | Raymond Michael Garvey:3 | Rea:2 Garvey:3,False
+[CLS] Baghara:3 baingan:2 consists of [MASK] [MASK] [MASK] . [SEP],: Baingan:2,eggplant:2 | Eggplant:2 | Solanum melongena:3 | White Eggplant:2 | aubergine:3 | brinjal:3 | eggplant:2 | garden egg | guinea:2 squash:3 | melongene:3,False
+[CLS] GOC:2 Army Headquarters consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the GOC:2 Army Headquarters,Armored:2 Corps | Armor Corps | Armored:2 Corps | Armored:2 Corps of Israel | IDF:2 Armored:2 Corps | Israeli Armored:2 Corps,False
+[CLS] Venera:2 4V:2 - 2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Venera:2 4V:2,Venera:2 16 | Venera:2 16,False
+[CLS] Only Crime consists of [MASK] . [SEP],Crime,Russ Rankin:2 | Russ Rankin:2,False
+[CLS] Leaves:2 ' Eyes consists of [MASK] [MASK] [MASK] . [SEP],a single single,Liv Kristine:2 | Liv Kristine:2 | Liv Kristine:2 Espenæs:4 Krull:2,False
+[CLS] Carne:2 asada:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Carne:2 asada:2,beef:2 | beef:2 | bovine:2 meat | cow:2 meat,False
+[CLS] Yeonpotang:4 consists of [MASK] [MASK] . [SEP],a village,broth:2 | broth:2,False
+[CLS] logic consists of [MASK] [MASK] [MASK] . [SEP],logic and logic,propositional:2 logic | propositional:2 calculus:2 | propositional:2 logic | sentential:2 calculus:2 | sentential:2 logic | statement logic | zeroth:2 - order logic,False
+[CLS] kal:2 - guksu:2 consists of [MASK] [MASK] [MASK] . [SEP],two guksu:2,noodle:3 | noodle:3 | noodles:3,False
+[CLS] silicon:3 tetrabromide:4 consists of [MASK] [MASK] [MASK] . [SEP],silicon:3,silicon:3 | Si | element 14 | silicon:3,True
+[CLS] Tambalane:3 consists of [MASK] [MASK] [MASK] . [SEP],Tambalane:3,Wes Carr | Wes Carr,False
+[CLS] KXM:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the KXM:3,George Lynch | George Lynch,False
+[CLS] computer file consists of [MASK] [MASK] . [SEP],computer file,binary file | binary file,False
+[CLS] The Seahorses:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Seahorses:3,John Squire:2 | John Squire:2 | Jonathan Thomas Squire:2,False
+[CLS] Bryan brothers consists of [MASK] [MASK] . [SEP],Bryan brothers,Bob Bryan | Bob Bryan,False
+[CLS] bicycle:2 wheel consists of [MASK] [MASK] [MASK] . [SEP],bicycle:2 wheel,bicycle:2 tire | bicycle:2 tire,False
+[CLS] ice cream cake:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],ice cream cake:2,ice cream | cream ice | ice cream | iced:2 cream,False
+[CLS] didymium:3 consists of [MASK] [MASK] [MASK] . [SEP],the single species,praseodymium:4 | Pr | element 59 | praseodymium:4,False
+[CLS] royal family consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,queen regnant:2 | queen | queen regnant:2,False
+[CLS] Carte:2 de Séjour:4 consists of [MASK] [MASK] [MASK] . [SEP],two Cartes:2,Rachid:2 Taha:2 | Rachid:2 Taha:2,False
+[CLS] Tour de France consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Tour of France,1970 Tour de France | 1970 Tour de France,False
+[CLS] chả:2 giò:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],chả:2 giò:2,minced:2 meat | ground meat | mince:2 | minced:2 meat,False
+[CLS] Rock Mafia consists of [MASK] [MASK] [MASK] . [SEP],the Rock Mafia,Tim James | 00192842743:6 IPI:2 | Tim James | Timothy James Price,False
+[CLS] Blackstreet:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Blackstreet:3,Teddy Riley | Edward Theodore Riley | Lil Man | Street | Teddy Riley,False
+[CLS] Sakinalu:3 consists of [MASK] [MASK] . [SEP],a village,rice flour:2 | rice flour:2,False
+[CLS] Five Great Epics:2 of Tamil Literature consists of [MASK] [MASK] [MASK] [MASK] . [SEP],five great epics:2,Manimekalai:4 | Manimekalai:4 | Manimekhalai:4 | Maṇimēkalai:5,False
+[CLS] P - Model consists of [MASK] [MASK] [MASK] . [SEP],P - Model,Susumu:2 Hirasawa:3 | Susumu:2 Hirasawa:3,False
+[CLS] Dal Shabet:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,Woohee:2 | Bae:2 Woo - hee | Woohee:2,False
+[CLS] Soul Coughing:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Soul Coughing:3,Mike Doughty:3 | Mike Doughty:3,False
+[CLS] Fools:2 Dance consists of [MASK] [MASK] [MASK] . [SEP],two Dances:2,Simon Gallup:2 | 00085090668:6 IPI:2 | Simon Gallup:2 | Simon Jonathon:3 Gallup:2,False
+[CLS] Mandelin:3 reagent:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],three reagents:3,ammonium:3 metavanadate:3 | ammonium:3 metavanadate:3,False
+[CLS] Ghana Armed Forces consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Ghana Armed Forces,Ghana Army | Army of Ghana | Ghana Army | Ghanaian:2 Army | ar Ghana,False
+[CLS] human skull consists of [MASK] [MASK] . [SEP],human skull,frontal bone | frontal bone | os frontis:2,False
+[CLS] 10cc:2 consists of [MASK] [MASK] . [SEP],10cc:2,Graham Gouldman:2 | Graham Gouldman:2,False
+[CLS] My Dying Bride consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of bands,Aaron Stainthorpe:5 | Aaron Stainthorpe:5,False
+[CLS] Five Moons:2 consists of [MASK] [MASK] [MASK] . [SEP],Five Moons:2,Yvonne Chouteau:3 | Yvonne Chouteau:3,False
+[CLS] David Grisman:3 Quintet:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],music by Grisman:3,David Grisman:3 | David Grisman:3,False
+[CLS] T . T . Quick consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Mark Tornillo:3 | Mark Tornillo:3,False
+[CLS] phosphine:3 consists of [MASK] [MASK] [MASK] . [SEP],phosphine:3,phosphoru:4 | P | element 15 | phosphorus:3,False
+[CLS] The Sound consists of [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Adrian Borland:2 | Adrian Borland:2,False
+[CLS] Quarashi:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Quarashi:3,Hössi:3 Ólafsson:4 | Hössi:3 Ólafsson:4,False
+[CLS] Boyz n da Hood consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Boyz n Da Hood,Jeezy:3 | Jay Jenkins | Jay Wayne Jenkins | Jeezy:3 | Jeezy:3 the Snowman:2 | Young Jeezy:3 | Young . Jeezy:3 | Yung:2 Jeezy:3,False
+[CLS] MTR:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: . . . .,East Kowloon:3 line | EKL:2 | East Kowloon:3 line,False
+[CLS] lithium:2 chlorate:3 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,lithium:2 | Li | element 3 | lithium:2,False
+[CLS] The White Stripes:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],The White Stripes:2,Jack White | Jack III White | Jack White | John Anthony Gillis:2,False
+[CLS] Judas Priest consists of [MASK] [MASK] [MASK] . [SEP],the bass guitar,Glenn Tipton:2 | 00077726736:7 IPI:2 | Glenn Raymond Tipton:2 | Glenn Tipton:2,False
+[CLS] Lais:2 of Marie de France consists of [MASK] [MASK] [MASK] . [SEP],the Lais:2,Laüstic:3 | Laüstic:3,False
+[CLS] Cursus:2 honorum:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: S . A,aedile:3 | aedile:3,False
+[CLS] Animals as Leaders:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the E . P,Tosin:2 Abasi:2 | Tosin:2 Abasi:2,False
+[CLS] Dynamite:2 Deluxe consists of [MASK] [MASK] [MASK] . [SEP],the following tracks,Samy:2 Deluxe | Sam Semilia:2 | Samy:2 Deluxe | Samy:2 Sorge:2 | Wickeda:2 MC,False
+[CLS] Firefox OS consists of [MASK] [MASK] . [SEP],Firefox OS,Gecko:2 | Firefox Gecko:2 | Gecko:2 | Gecko:2 engine | Gecko:2 rendering:2 engine | Mozilla Gecko:2,False
+[CLS] Cascada:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Cascada:3,Natalie Horler:2 | Natalie Horler:2,False
+[CLS] lead telluride:3 consists of [MASK] [MASK] . [SEP],carbon carbon,tellurium:3 | 52Te:3 | Te | Tellurium:3 element | aurum:2 paradoxum:3 | element 52 | metallum:2 problematum:2 | tellurium:3,False
+[CLS] selenium:3 dioxide:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,selenium:3 | 34Se:3 | Se | Selenium:3 | element 34 | selen:2 | selenium:3,False
+[CLS] Chocolate chip cookie:2 dough:2 ice cream consists of [MASK] [MASK] . [SEP],chocolate chip,chocolate chip cookie:2 | chocolate chip cookie:2,False
+[CLS] Diggin:3 ' in the Crates:2 Crew consists of [MASK] [MASK] [MASK] . [SEP],Crew . Crew,Big L | Big L | Lamont:2 Coleman,False
+[CLS] Survivor consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Dave Bickler:3 | Dave Bickler:3,False
+[CLS] SHINee:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the group SHINee:3,Choi Min - ho | Choi Min - ho | Minho:2,False
+[CLS] Night Ranger consists of [MASK] [MASK] [MASK] . [SEP],the Night Ranger,Kelly Keagy:3 | Kelly Keagy:3,False
+[CLS] Drummer:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Patrick Carney:2 | Patrick Carney:2 | Patrick J . Carney:2 | Patrick James Carney:2,False
+[CLS] The Lucha:2 Dragons consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Lucha:2 Dragons,Jorge Arias | Hunico:2 | Incognito:3 | Jorge Arias | Sin Cara,False
+[CLS] Cold Blood consists of [MASK] [MASK] [MASK] . [SEP],the second single,Lydia Pense:2 | Lydia Pense:2,False
+[CLS] Metin:2 - Ali - Feyyaz:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a town and a town,Metin:2 Tekin:2 | Metin:2 Tekin:2,False
+[CLS] coconut:3 milk consists of [MASK] [MASK] . [SEP],sugar cane,Cocos:2 nucifera:3 | Coconut:2 palm | Cocos:2 nucifera:3 | coconut:3 palm,False
+[CLS] Girl Thing consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Jodi:2 Albert | Jodi:2 Albert,False
+[CLS] Whitsunday:4 Islands consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Whitsunday:4 Islands,"Hamilton Island | Hamilton Island | Hamilton Island , Queensland",False
+[CLS] Confederate Railroad consists of [MASK] [MASK] [MASK] . [SEP],Confederate Railroads:2,Danny Shirley | Danny Shirley,False
+[CLS] The Desert Rose Band consists of [MASK] [MASK] [MASK] [MASK] . [SEP],The Desert Rose Band,Chris Hillman:2 | Chris Hillman:2,False
+[CLS] Defence Forces consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Ministry of Defence,Reserve Defence Forces | Irish Reserve Defence Forces | Na hOglaigh:4 Cultaca:2 | Na hÓglaigh:4 Cúltaca:3 | RDF:2 | Reserve Defence Forces,False
+[CLS] Hypnogaja:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],hypnogaja:4,ShyBoy:4 | Jason Arnold | ShyBoy:4,False
+[CLS] Axis consists of [MASK] . [SEP],Axis,Kingdom of Romani | Kingdom of Romania | Kingdom of Rumania | Regatul României | Romanian Kingdom | Rumanian:2 Kingdom,False
+[CLS] fleet consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,flotilla:3 | flotilla:3 | naval flotilla:3,False
+[CLS] Sham:2 Pistols:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sham:2 Pistols:3,Jimmy Pursey:3 | Jimmy Pursey:3,False
+[CLS] One Day as a Lion consists of [MASK] [MASK] [MASK] . [SEP],three music videos,Jon Theodore | Jon Theodore,False
+[CLS] The Real Oh My consists of [MASK] [MASK] [MASK] . [SEP],a single track,Mike Watt | Mike Watt,False
+[CLS] Sharks Keep Moving consists of [MASK] [MASK] [MASK] . [SEP],a single track,Jake Snider:3 | Jake Snider:3,False
+[CLS] Los Violadores:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the group of musicians,Pil:2 Trafa:2 | Pil:2 Trafa:2,False
+[CLS] Sasha & John Digweed:4 consists of [MASK] [MASK] [MASK] . [SEP],a single single,John Digweed:4 | John Digweed:4,False
+[CLS] Connecticut General Assembly consists of [MASK] . [SEP],Connecticut,Connecticut Senate | Connecticut Senate | Connecticut State Senate,False
+[CLS] Qatsi:3 trilogy:2 consists of [MASK] [MASK] [MASK] . [SEP],a trilogy:2,Naqoyqatsi:5 | Naqoyqatsi:5,False
+[CLS] Catholic Monarchs:3 consists of [MASK] [MASK] [MASK] . [SEP],Catholic Monarch:2,"Isabella I of Castile | Isabel la Católica | Isabella I | Isabella I of Castile | Isabella the Catholic | Queen of Castile and Leon Isabella | Queen of Castile and León Isabella | Queen of Spain Helisaba:3 I | Queen of Spain Isabel I | Queen of Spain Isabella I | Reina de España Isabel I | de Castilla Isabel | di Castiglia:2 Isabella | la Católica Isabel | la Católica , Queen of Spain Isabel I | of Castile Isabel | reina de Castella Isabel I | reine de Castille:2 Isabelle I",False
+[CLS] Carboniferous:3 consists of [MASK] [MASK] [MASK] . [SEP],Carboniferous:3,Mississippian:2 | Mississippian:2,False
+[CLS] Portion:2 Control consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Portion:2 control,Ian Sharp | Ian Sharp,False
+[CLS] indium:2 chloride:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,indium:2 | 49In:3 | In | element 49 | indium:2,False
+[CLS] Phi Slama:2 Jama:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following activities activities,Clyde Drexler:3 | Clyde Austin Drexler:3 | Clyde Drexler:3 | Clyde the Glide:2,False
+[CLS] Animal Crossing consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Animal Crossing | Animal Crossing,False
+[CLS] chouquette:3 consists of [MASK] [MASK] [MASK] . [SEP],chouquette:3,choux:2 pastry:2 | choux:2 pastry:2 | pate:2 a choux:2 | pâte:3 à choux:2,False
+[CLS] Lega Nord consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Lega Nord and Lega Nord,Liguria Northern League | Lega Nord Liguria | Liguria Northern League,False
+[CLS] Dewa:2 19 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Dewa:2 19,Ahmad Dhani:2 | Ahmad Dhani:2,False
+[CLS] Super Numeri:2 consists of [MASK] [MASK] [MASK] . [SEP],Super Numeri:2,Pop Levi | Pop Levi,False
+[CLS] Dah:2 consists of [MASK] [MASK] [MASK] . [SEP],: Dah:2,Zlatko:3 Manojlović:4 | Zlatko:3 Manojlović:4,False
+[CLS] allyl:2 disulfide:4 consists of [MASK] [MASK] . [SEP],amino acids,sulfur:2 | S | Sulfur:2 | element 16 | sulfur:2 | sulphur:3,False
+[CLS] Coldplay consists of [MASK] [MASK] [MASK] [MASK] . [SEP],"Coldplay , and Coldplay","Jonny:2 Buckland:2 | Jon Buckland:2 | Jonathan Mark "" Jonny:2 "" Buckland:2 | Jonathan Mark Buckland:2 | Jonny:2 Buckland:2",False
+[CLS] Plastic Eaters:2 consists of [MASK] [MASK] [MASK] . [SEP],Plastic Eaters:2,Stan Stammers:2 | Andrew Stammers:2 | Stan Stammers:2,False
+[CLS] Hellenic:2 Armed Forces consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Hellenic:2 Armed Forces,"Hellenic:2 Air Force | Greek Air Force | HAF:2 | Hellenic:2 Air Force | Military Aviation of Greece | Polemikí:3 Aeroporía:3 , literally "" Military Aviation | RHAF:3 | Royal Hellenic:2 Air Force | af of Greece | air force of Greece",False
+[CLS] Coca - Cola consists of [MASK] [MASK] [MASK] [MASK] . [SEP],. Coca - Cola,"caffeine:3 | 1 , 3 , 7 - Trimethyl:3 - 3 , 7 - dihydro:3 - 1H:2 - purine:2 - 2 , 6 - dione:2 | 1 , 3 , 7 - trimethyl:3 - 2 , 3 , 6 , 7 - tetrahydro:4 - 1H:2 - purine:2 - 2 , 6 - dione:2 | 1 , 3 , 7 - trimethyl:3 - 2 , 6 - dioxopurine:4 | 1 , 3 , 7 - trimethylpurine:5 - 2 , 6 - dione:2 | 1 , 3 , 7 - trimethylpurine:5 - 2 , 6 - quinone:2 | 1 , 3 , 7 - trimethylxanthine:6 | 1 - Methyl:2 - Theobromine:3 | 1 - methyltheobromine:6 | 3 , 7 - Dihydro:3 - 1 , 3 , 7 - trimethyl:3 - 1H:2 - purin:2 - 2 , 6 - dion:2 | 3 , 7 - Dihydro:3 - 1 , 3 , 7 - trimethyl:3 - 1H:2 - purine:2 - 2 , 6 - dione:2 | 7 - Methyl:2 Theophylline:4 | 7 - methyltheophylline:6 | Anhydrous:3 caffeine:3 | Anhydrous:3 caffeine:3 ( JP15:2 ) | Cafeína:2 | Caffeine:3 | Caffeinum:3 | Caféine:2 | Coffein:3 | Coffeinum:3 | Guaranine:3 | Hycomine:3 | Koffein:3 | Lanorinal:3 | Mateína:2 | Methyltheobromide:6 | Methyltheobromine:6 | Methylxanthine:5 theophylline:4 | Monohydrate:4 Caffeine:3 | Propoxyphene:5 | Thein:2 | Theine:2 | anhydrous:3 caffeine:3 | caffeine:3 | guaranine:3 | methyltheobromine:6 | teína:2 | theine:2",False
+[CLS] Marx Brothers consists of [MASK] [MASK] [MASK] . [SEP],the Marx Brothers,Groucho:3 Marx | Groucho:3 Marx | Julius Henry Marx,False
+[CLS] Thrice:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Dustin Kensrue:3 | Dustin Kensrue:3,False
+[CLS] The Verve:2 consists of [MASK] [MASK] [MASK] . [SEP],the Verve:2,Richard Ashcroft:2 | Richard Ashcroft:2 | Richard Paul Ashcroft:2,False
+[CLS] Shadows Fall consists of [MASK] [MASK] . [SEP],four tracks,Matt Bachand:2 | Matt Bachand:2,False
+[CLS] Chicken Shack:2 consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Stan Webb | Stan Webb,False
+[CLS] Southern Sons consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: S . S,Jack Jones | Irwin Thomas | Irwin Thomas Whittridge:4 | Jack Jones | Jack Thomas Whittridge:4 Jones,False
+[CLS] barium:2 perchlorate:4 consists of [MASK] [MASK] . [SEP],two compounds,barium:2 | Ba | barium:2 | element 56,False
+[CLS] Hail:2 Mary Mallon:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of songs,Aesop:3 Rock | Aesop:3 Rock | Ian Bavitz:3 | Ian Matthias Bavitz:3,False
+[CLS] Middian:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Mike Scheidt:3 | Mike Scheidt:3,False
+[CLS] cell division consists of [MASK] [MASK] . [SEP],cell division,cytokinesis:5 | GO : 0000910:3 | cell cycle cytokinesis:5 | cytokinesis:5 | cytokinesis:5 involved in cell cycle,False
+[CLS] Nimloth:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Nimloth:3 | Nimloth:3 | white blossom:3,False
+[CLS] Uncle Tupelo:2 consists of [MASK] [MASK] . [SEP],two tracks,Jay Farrar:2 | Jay Farrar:2,False
+[CLS] Hummingbird:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Hummingbird:3,Bobby Tench:2 | Bob Tench:2 | Bobby Gass:2 | Bobby Tench:2 | Robert Tench:2,False
+[CLS] Kara consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Nicole Jung | Jeong:2 Nicole | Jeong:2 Yong Joo:2 | Jeong:2 Yong Ju | Jeong:2 Yong - joo:2 | Jeong:2 Yong - ju | Jeong:2 Yongjoo:3 | Jeong:2 Yongju:2 | Jung Nicole | Jung Yong Joo:2 | Jung Yong Ju | Jung Yong - joo:2 | Jung Yong - ju | Jung Yongjoo:3 | Jung Yongju:2 | Nicole | Nicole Jeong:2 | Nicole Jung | 니콜:2 | 니콜:2 정 | 정 니콜:2 | 정 용주:2 | 정니콜:3 | 정용주:3,False
+[CLS] Polbo:2 á feira consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Polbo:2 á feira,Octopoda:3 | Octopoda:3 | Octopus:2 order | octopods:4,False
+[CLS] Fun Factory consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Marie - Anett:2 Mey | Marie - Anett:2 Mey,False
+[CLS] Gitarkameratene:5 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Gitarkameratene:5,Halvdan:3 Sivertsen:3 | Halvdan:3 Sivertsen:3,False
+[CLS] Al - Kutub:2 al - Sittah:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a mosque and a mosque,Sahih:3 Muslim | Sahih:3 Muslim,False
+[CLS] Triple Entente:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Triple Entents:2,French Third Republic | France | French Republic | French Third Republic | La IIIe:2 Republique:3 | La IIIe:2 République | La Troisieme:2 Republique:3 | La Troisième République | Third Republic of France,False
+[CLS] Gỏi:3 cuốn consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Gỏi:3 cuốn,pork:2 | pig:2 meat | pigmeat:4 | pork:2,False
+[CLS] Amici:2 Forever consists of [MASK] [MASK] [MASK] . [SEP],the first single,Nick Garrett | Nick Garrett,False
+[CLS] Weather Underground consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of bands,Matthew Landy:2 Steen | Matthew Landy:2 Steen | Matthew Steen,False
+[CLS] Pupienus:4 and Balbinus:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Pupienus:4,Balbinus:3 | Balbinus:3 | Decimus:2 Caelius:2 Calvinus:2 Balbinus:3,False
+[CLS] Air Force Materiel:2 Command consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Air Force Materiel:2 Command,Air Armament:2 Center | AAC:2 | AFDTC:3 | Air Armament:2 Center | Air Force Center | Air Force Development Test Center | Air Proving:2 Ground Center | Air Proving:2 Ground Command | Armament:2 Development and Test Center | Armament:2 Division USAF | Army Air Forces School of Applied Tactics:3 | Army Air Forces Tactical Center | Development Test Center USAF | MSD:2 | Munitions:3 Systems Division USAF | USAF Air Armament:2 Center | USAF Development Test Center | USAF Munitions:3 Systems Division | United States Air Force Air Armament:2 Center | United States Air Force Armament:2 Development and Test Center | United States Air Force Armament:2 Division | United States Air Force Development Test Center | United States Air Force Munitions:3 Systems Division,False
+[CLS] 1TYM:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],1TYM:4,Taebin:2 | Danny Im | Im Tae - bin | Taebin:2 | 임태빈:3,False
+[CLS] Tour de France consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Tour of France,1968 Tour de France | 1968 Tour de France,False
+[CLS] The Storys:2 consists of [MASK] [MASK] [MASK] . [SEP],the Storys:2,Steve Balsamo:3 | Steve Balsamo:3,False
+[CLS] Zhoixo:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Zhoixo:4,yogurt:3 | yoghourt:3 | yoghurt:3 | yogurt:3,False
+[CLS] Roxette:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Roxette:3,Per Gessle:3 | 00234167189:6 IPI:2 | Per Gessle:3 | Per Håkan:3 Gessle:3,False
+[CLS] Lumbosacral:5 plexus:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Lumbosacra:4,lumbar:2 plexus:3 | lumbar:2 plexus:3,False
+[CLS] shrimp:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a shrimp:3,Dendrobranchiata:5 | Dendrobranchiata:5,False
+[CLS] University of California consists of [MASK] [MASK] [MASK] . [SEP],a few universities,"University of California , Los Angeles | Los Angeles University of California | State Normal School at Los Angeles | UC Los Angeles | UCLA | University of California Los Angeles | University of California Southern Branch | University of California at Los Angeles | University of California , Los Angeles | University of California - Los Angeles",False
+[CLS] scandium:3 triiodide:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],triiodide:4,scandium:3 | Sc | element 21 | scandium:3,False
+[CLS] Rx:2 consists of [MASK] [MASK] [MASK] . [SEP],the Rx:2,Nivek:2 Ogre:2 | Kevin Graham Ogilvie:3 | Nivek:2 Ogre:2,False
+[CLS] Bergens:2 Tidende:2 consists of [MASK] [MASK] [MASK] . [SEP],the local newspaper,Bergens:2 Tidende:2 TV | Bergens:2 Tidende:2 TV,False
+[CLS] Peninsula Library System consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Peninsula Library System,South San Francisco Public Library | South San Francisco Library | South San Francisco Public Library,False
+[CLS] iodine:2 monobromide:3 consists of [MASK] [MASK] . [SEP],amino acids,iodine:2 | I | element 53 | iodine:2,False
+[CLS] 4Minute:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],4Minute:4,Heo:2 Ga - yoon:2 | Heo:2 Ga Yoon | Heo:2 Ga Yun | Heo:2 Ga - yoon:2 | Heo:2 Ga - yun:2 | Heo:2 Gayoon:2 | Heo:2 Gayun:2 | Heo:2 Ka Yoon | Heo:2 Ka Yun | Heo:2 Ka - yoon:2 | Heo:2 Ka - yun:2 | Heo:2 Kayoon:2 | Heo:2 Kayun:2,False
+[CLS] Chlorotrifluorosilane:8 consists of [MASK] [MASK] . [SEP],amino acid,fluorine:3 | F | element 9 | fluorine:3,False
+[CLS] West Coast Conference consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: West Coast Conference,San Diego Toreros:2 | San Diego Toreros:2,False
+[CLS] Atoms:2 for Peace consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Thom Yorke:2 | Thom Yorke:2 | Thomas Edward Yorke:2,False
+[CLS] One Eskimo:2 consists of [MASK] [MASK] [MASK] . [SEP],One Eskimo:2,Kristian Leontiou:3 | Kristian Leontiou:3,False
+[CLS] antimony:2 pentafluoride:6 consists of [MASK] [MASK] . [SEP],antimony:2,antimony:2 | 51Sb:3 | Sb | antimony:2 | element 51,True
+[CLS] H . O . T . consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Kangta:2 | Kangta:2,False
+[CLS] mushy:3 peas:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a mushy:3,marrowfat:3 peas:2 | marrowfat:3 peas:2,False
+[CLS] Dashavatara:3 consists of [MASK] [MASK] [MASK] . [SEP],the following villages,Gautama:2 Buddha in Hinduism:2 | Gautama:2 Buddha in Hinduism:2,False
+[CLS] Sopa:2 de Cabra:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sopa:2 de Cabra:2,Gerard Quintana | Gerard Quintana,False
+[CLS] Startisan:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Brian Ireland | Brian Ireland,False
+[CLS] Clam:2 dip:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Clam:2 dip:2,sour:2 cream | sour:2 cream,False
+[CLS] half - track consists of [MASK] [MASK] [MASK] . [SEP],half - track,continuous track | caterpillar:4 track | centipede:3 track | continuous track | tank tread:2 | track,False
+[CLS] Tostada:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,wheat tortilla:3 | flour:2 tortilla:3 | wheat tortilla:3,False
+[CLS] Citizen Swing consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Myles:2 Kennedy | Myles:2 Kennedy,False
+[CLS] sandwich:2 loaf:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],sandwich:2 loaf:2,white bread:2 | white bread:2,False
+[CLS] Mega Man X Collection consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Mega Man X Collection,Mega Man X5:2 | Mega Man X5:2 | Rockman:2 X5:2,False
+[CLS] Ruins:2 consists of [MASK] [MASK] [MASK] . [SEP],the town town,Tatsuya:3 Yoshida | Tatsuya:3 Yoshida,False
+[CLS] chimney:2 fire consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a chimney:2 fire,chimney:2 | chimney:2 | funnel:2 | smokestack:3,False
+[CLS] MS - DOS consists of [MASK] [MASK] [MASK] . [SEP],MS - DOS,COMMAND:3 . COM | COMMAND:3 . COM,False
+[CLS] The Noel Redding:2 Band consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Noel Noel Redding:2,Noel Redding:2 | David Redding:2 | Noel David Redding:2 | Noel Redding:2,False
+[CLS] Belokranjska:4 povitica:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],two povities:3,flour:2 | flour:2,False
+[CLS] The Killers consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the band The Killers,Ronnie Vannucci:3 | Ronnie Vannucci:3,False
+[CLS] Apocalypse consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Eloy:2 Fritsch:2 | Eloy:2 Fritsch:2,False
+[CLS] Ike & Tina Turner consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Ike & Tina Turner,Tina Turner | Anna Mae Bullock | Anna - Mae Bullock | Mae Bullock | Tina Turner | Tina Turner - Bullock,False
+[CLS] Walnut:3 and coffee cake:2 consists of [MASK] [MASK] [MASK] . [SEP],coffee cake:2,sponge:2 cake:2 | sponge:2 cake:2,False
+[CLS] The Marshall Tucker Band consists of [MASK] [MASK] [MASK] [MASK] . [SEP],The Marshall Tucker Band,Doug Gray | Doug Gray,False
+[CLS] Red Dead consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the members of Red Dead,Red Dead Redemption:2 | Red Dead Redemption:2,False
+[CLS] LibreOffice:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],free free free free free,LibreOffice:3 Calc:2 | LibreOffice:3 Calc:2,False
+[CLS] Crazy Town consists of [MASK] [MASK] . [SEP],two tracks,DJ AM | Adam Goldstein | DJ AM,False
+[CLS] Snow White salad:2 consists of [MASK] [MASK] [MASK] . [SEP],snow salad:2,yogurt:3 | yoghourt:3 | yoghurt:3 | yogurt:3,False
+[CLS] Stone Temple Pilots:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Stone Temple Pilots:2,Dean DeLeo:3 | Dean DeLeo:3,False
+[CLS] The Rolling Stones consists of [MASK] [MASK] . [SEP],The Beatles,Charlie Watts | 00257364646:5 IPI:2 | 00257414661:6 IPI:2 | Charles Robert Watts | Charlie Watts,False
+[CLS] Burns and Allen consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of genres,Gracie:3 Allen | Grace Ethel Cecile:2 Rosalie:2 Allen | Gracie:3 Allen,False
+[CLS] Four Great Classical Novels:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Four Great Classical Novel,Water Margin:2 | All Men Are Brothers | Men of the Marshes:2 | Outlaws:3 of the Marsh | Shui:2 Hu Zhuan:2 | Shui:2 - hu Chuan:2 | Tale of the Marshes:2 | The Marshes:2 of Mount Liang | Water Margin:2,False
+[CLS] Las Campanas:2 Observatory consists of [MASK] [MASK] [MASK] . [SEP],two observatory:2,Giant Magellan:2 Telescope | GMT | Giant Magellan:2 Telescope | Giant Magellan:2 Telescope ， GMT,False
+[CLS] Farrelly:2 brothers consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Farrelly:2 and Farrelly:2,Peter Farrelly:2 | Peter Farrelly:2,False
+[CLS] Whiskeyhill:4 Singers consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Whiskeyhill:4,Dave Guard | Dave Guard,False
+[CLS] Owen consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Mike Kinsella:3 | Mike Kinsella:3,False
+[CLS] zirconium:3 dioxide:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,zirconium:3 | 40Zr:3 | Zr:2 | element 40 | zirconium:3,False
+[CLS] Jodrell:3 Bank Observatory consists of [MASK] [MASK] [MASK] . [SEP],two satellite satellites,Mark II | Mark II,False
+[CLS] calcium iodide:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],calcium iodide:3,iodine:2 | I | element 53 | iodine:2,False
+[CLS] cardamom:3 bread:2 consists of [MASK] [MASK] [MASK] . [SEP],sugar and sugar,Cardamom:3 | Cardamom:3,False
+[CLS] H . O . T . consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Tony An | Tony An,False
+[CLS] Heavyweight Dub Champion consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Resurrector:3 | Resurrector:3,False
+[CLS] guacamole:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],guacamole:4,Persea:2 americana | Persea:2 americana | the avocado:2 tree,False
+[CLS] Kruibeke:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Kruibeke:4,Rupelmonde:4 | Rupelmonde:4,False
+[CLS] Twenty - Four Histories consists of [MASK] [MASK] [MASK] . [SEP],a second part,Records of the Three Kingdoms:2 | Records of the Three Kingdoms:2,False
+[CLS] Giro d ' Italia Femminile:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Giro of the Italian,2011 Giro d ' Italia Femminile:3 | 2011 Giro d ' Italia Femminile:3,False
+[CLS] Fokofpolisiekar:6 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a variety of activities,Francois Van Coke:2 | Francois Badenhorst:2 | Francois Van Coke:2,False
+[CLS] DragonForce:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the DragonForce:3,ZP:2 Theart:2 | ZP:2 Theart:2,False
+[CLS] The Who consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Who and the Who,Keith Moon | 00065920077:6 IPI:2 | Keith John Moon | Keith Moon | Moon the Loon:2,False
+[CLS] Murchison:3 Radio - astronomy:2 Observatory consists of [MASK] [MASK] [MASK] . [SEP],two satellite satellites,Murchison:3 Widefield:2 Array:2 | Murchison:3 Widefield:2 Array:2,False
+[CLS] potassium:3 sodium DL - tartrate:3 consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,potassium:3 | K | element 19 | kalium:2 | potassium:3,False
+[CLS] copper ( I ) fluoride:3 consists of [MASK] [MASK] . [SEP],two compounds,fluorine:3 | F | element 9 | fluorine:3,False
+[CLS] The High Llamas:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the High Llamas:3,Sean O ' Hagan:2 | Sean O ' Hagan:2 | Sean Ohagan:2,False
+[CLS] A . B . C - Z consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: A . B .,Ryōsuke:4 Hashimoto:3 | Hashimoto:3 Ryosuke:3 | Hashimoto:3 Ryōsuke:4 | Ryosuke:3 Hashimoto:3 | Ryousuke:4 Hashimoto:3 | Ryōsuke:4 Hashimoto:3,False
+[CLS] RAAF:2 Command consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: RAAF:2 Command,Australian First Tactical Air Force | Australian First Tactical Air Force,False
+[CLS] Graveland:2 consists of [MASK] [MASK] [MASK] . [SEP],: Graveland:2,Rob Darken:2 | Rob Darken:2,False
+[CLS] World Bank consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Bank of the World,International Centre for Settlement of Investment Disputes:3 | International Centre for Settlement of Investment Disputes:3,False
+[CLS] The Wurzels:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Wurzels:3,Adge:2 Cutler:2 | Adge:2 Cutler:2,False
+[CLS] Die Krupps:2 consists of [MASK] [MASK] [MASK] . [SEP],the Krupps:2,Bernward:2 Malaka:2 | Bernward:2 Malaka:2,False
+[CLS] Silly:2 Symphonies:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Silly:2 Symphonies:2,The Old Mill | Old Mill | The Old Mill,False
+[CLS] High and Driving:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the High and Driving:2,Anthony Green | Anthony Green,False
+[CLS] Big Four consists of [MASK] [MASK] [MASK] . [SEP],the Big Four,Dicky:2 Cheung:2 | Dicky:2 Cheung:2 | Dicky:2 Cheung:2 Wai:2 - kin | Zhang Weijian:2,False
+[CLS] WhoCares:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],. WhoCares:3,Ian Gillan:2 | 00055054004:6 IPI:2 | Ian Gillan:2,False
+[CLS] Therion:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: Therion:2 was born,Christofer:3 Johnsson:2 | Christofer:3 Johnsson:2,False
+[CLS] Cornuleţe:5 consists of [MASK] [MASK] . [SEP],a village,Turkish delight:2 | Turkish delight:2 | lokum:2 | loukoumi:3,False
+[CLS] Motion City Soundtrack consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Motion Picture Soundtrack,Joshua Cain | Joshua Cain,False
+[CLS] The Cross consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Cross of the Cross,Roger Taylor | 00087044860:6 IPI:2 | 00450840569:6 IPI:2 | Roger Meddows:3 - Taylor | Roger Taylor,False
+[CLS] The Extremists:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Extremists:3,Ace Darling | Ace Darling,False
+[CLS] Casiopea:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Casiopea:3,Issei:2 Noro:2 | Issei:2 Noro:2,False
+[CLS] Death from Above 1979 consists of [MASK] [MASK] . [SEP],two tracks,Sebastien:3 Grainger:3 | Sebastien:3 Grainger:3,False
+[CLS] potassium:3 dichromate:3 consists of [MASK] [MASK] [MASK] . [SEP],carbon and carbon,potassium:3 | K | element 19 | kalium:2 | potassium:3,False
+[CLS] Wu - Tang Clan consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Wu - Tang Clan,Inspectah:3 Deck:2 | Inspectah:3 Deck:2 | Jason Hunter,False
+[CLS] The Rides:2 consists of [MASK] [MASK] [MASK] . [SEP],the Rides:2,Barry Goldberg | Barry Goldberg,False
+[CLS] The Pleasure Fair consists of [MASK] [MASK] [MASK] . [SEP],the Pleasure Fair,Robb Royer:2 | Robb Royer:2,False
+[CLS] Trip Shakespeare consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Matt Wilson | Matt Wilson | Matthew Robert Wilson,False
+[CLS] International Space Station consists of [MASK] [MASK] [MASK] . [SEP],International Space stations,Pirs:2 | Pirs:2,False
+[CLS] Sambrasa:3 Trio consists of [MASK] [MASK] [MASK] . [SEP],Sambrasa:3,Hermeto:3 Pascoal:3 | Hermeto:3 Pascoal:3,False
+[CLS] Deep Listening:2 Band consists of [MASK] [MASK] [MASK] . [SEP],three vocalists:2,Stuart Dempster:3 | Stuart Dempster:3,False
+[CLS] 45 Grave consists of [MASK] [MASK] . [SEP],45 Grave,Dinah:2 Cancer | Dinah:2 Cancer,False
+[CLS] Tiruppur:3 Lok Sabha constituency consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Lok Sabha constituency,Perundurai:3 | Perundurai:3,False
+[CLS] hormone consists of [MASK] . [SEP],hormone,plant hormone | phytohormone:5 | phytohormones:6 | plant hormone,False
+[CLS] Lynyrd:3 Skynyrd:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of bands,Rickey:2 Medlocke:2 | Rickey:2 Medlocke:2,False
+[CLS] Operator consists of [MASK] [MASK] . [SEP],the operator,Johnny Strong | Johnny Strong,False
+[CLS] AKB48 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Manami:2 Oku:2 | Manami:2 Oku:2,False
+[CLS] Espers:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Meg Baird | Meg Baird,False
+[CLS] Def . Diva consists of [MASK] [MASK] [MASK] . [SEP],Def . Diva,Aya Matsuura:3 | Aya Matsuura:3 | Matsuura:3 Aya,False
+[CLS] Semisonic:3 consists of [MASK] [MASK] [MASK] . [SEP],Semisonic:3,Dan Wilson | 00239478333:6 IPI:2 | 00341687551:7 IPI:2 | Dan Wilson | Daniel Dodd Wilson,False
+[CLS] Suicidal:3 Tendencies:3 consists of [MASK] [MASK] [MASK] . [SEP],two tracks tracks,Mike Clark | Mike Clark,False
+[CLS] kidney:3 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,renal:2 cortex:2 | cortex:2 of kidney:3 | cortex:2 renalis:2 | kidney:3 cortex:2 | renal:2 cortex:2,False
+[CLS] cranachan:3 consists of [MASK] [MASK] [MASK] . [SEP],cranachan:3,whipped:3 cream | whipped:3 cream,False
+[CLS] Tiruppur:3 Lok Sabha constituency consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Lok Sabha constituency,Anthiyur:4 | Anthiyur:4,False
+[CLS] Bubbles:3 & Cheesecake:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a variety of items,Allee:2 Willis | Allee:2 Willis,False
+[CLS] lithium:2 carbonate:2 consists of [MASK] [MASK] [MASK] . [SEP],sodium carbonate:2,lithium:2 | Li | element 3 | lithium:2,False
+[CLS] The Durutti:2 Column:3 consists of [MASK] [MASK] [MASK] . [SEP],the Durutti:2,Vini:2 Reilly | Vini:2 Reilly,False
+[CLS] human skull consists of [MASK] [MASK] . [SEP],human skull,ethmoid:3 bone | ethmoid:3 bone,False
+[CLS] human genome consists of [MASK] [MASK] [MASK] . [SEP],human chromosomes:2,human chromosome 7 | Homo sapiens chromosome 7 | chr7:3 | human chromosome 7,False
+[CLS] The Divine Comedy consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Divine Comedy and Divine,Neil Hannon:2 | Neil Hannon:2,False
+[CLS] John Mayer Trio consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],John Mayer and John Mayer,John Mayer | John Clayton Mayer | John Mayer,False
+[CLS] The Alexandria Quartet consists of [MASK] [MASK] [MASK] . [SEP],Alexandria . Alexandria,Mountolive:3 | Mountolive:3,False
+[CLS] 2013 AFL season consists of [MASK] [MASK] [MASK] . [SEP],2013 AFL season,2013 AFL Grand Final | 2013 AFL Grand Final,False
+[CLS] Hong Kong Disneyland Resort consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Hong Kong Disneyland Resort,Inspiration:3 Lake | Inspiration:3 Lake,False
+[CLS] West Virginia Legislature consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the House of Representatives,West Virginia Senate | West Virginia Senate,False
+[CLS] Mercury telluride:3 consists of [MASK] . [SEP],Mercury,tellurium:3 | 52Te:3 | Te | Tellurium:3 element | aurum:2 paradoxum:3 | element 52 | metallum:2 problematum:2 | tellurium:3,False
+[CLS] Road Movie trilogy:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],three trilogies:3,The Wrong Move | The Wrong Move | Wrong Move,False
+[CLS] epichlorohydrin:6 consists of [MASK] [MASK] . [SEP],two compounds,chlorine:3 | Cl | chlorine:3 | element 17,False
+[CLS] The Story consists of [MASK] [MASK] [MASK] [MASK] . [SEP],U . S .,Jonatha:3 Brooke | Jonatha:3 Brooke,False
+[CLS] Nam phrik:2 consists of [MASK] [MASK] [MASK] . [SEP],Nam Phrik:2,chili:2 pepper:2 | chili:2 | chili:2 pepper:2 | chilli:2 | chilli:2 pepper:2 | hot pepper:2,False
+[CLS] Mega Man consists of [MASK] [MASK] [MASK] . [SEP],: Mega Man,Mega Man X | Mega Man X,False
+[CLS] Sonic Elements consists of [MASK] [MASK] [MASK] . [SEP],the Sonic Elements,Dave Kerzner:3 | Dave Kerzner:3,False
+[CLS] Snooker season 2013 / 2014 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the season of Snooker,2013 International Championship | 2013 International Championship,False
+[CLS] Blackpool Lights consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Blackpool Lights and Blackpool Lights,Jim Suptic:2 | Jim Suptic:2,False
+[CLS] genocidal:3 massacre consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,genocide:2 | Genocide | genocide:2,False
+[CLS] Altaic:2 languages consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Altaic:2 languages,Tungusic:3 languages | Tungusic:3 languages,False
+[CLS] petroleum:2 industry consists of [MASK] . [SEP],agriculture,hydrocarbon:4 exploration | hydrocarbon:4 exploration | oil and gas exploration | petroleum:2 exploration,False
+[CLS] The Alliance consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Bounty:2 Killer | Bounty:2 Killer | Rodney Basil Price,False
+[CLS] Athletic Club de Boulogne - Billancourt:3 consists of [MASK] [MASK] [MASK] . [SEP],a football club,Athletic Club de Boulogne - Billancourt:3 | Athletic Club de Boulogne - Billancourt:3,False
+[CLS] Australia consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Seram:2 Island | Ceram:2 | Ceram:2 Island | Pulau Seram:2 | Seram:2 | Seram:2 Island,False
+[CLS] Bob Marley and the Wailers:3 consists of [MASK] [MASK] . [SEP],an album,"Earl Lindo:2 | Earl "" Wire "" Lindo:2 | Earl Lindo:2 | Wire | Wya:2",False
+[CLS] Navarin:3 consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,lamb:2 meat | lamb:2 | lamb:2 meat,False
+[CLS] Michigan consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Upper Peninsula | U . P . | Upper Michigan | Upper Peninsula | Upper Peninsula of Michigan,False
+[CLS] lutetium:3 chloride:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon carbon carbon,"lutetium:3 | 71Lu:3 | Lu | Lutetium:3 , lutecium:3 | cassiopium:4 | element 71 | lutetium:3",False
+[CLS] Electric Six consists of [MASK] [MASK] [MASK] . [SEP],two acoustic guitars,Tyler Spencer | Dick Valentine | Tyler Spencer,False
+[CLS] Rodgers and Hart consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],music by Rodgers and Hart,Lorenz Hart | Lorenz Hart | Lorenz M . Hart | Lorenz Milton Hart,False
+[CLS] Electrostar:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],electrostar:4,British Rail Class 357 | British Rail Class 357 | British Rail Class 357 Electrostar:4,False
+[CLS] Fluticasone:4 furoate:3 / vilanterol:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Fluticasone:4,"vilanterol:3 | 4 - { ( 1R:2 ) - 2 - [ ( 6 - { 2 - [ ( 2 , 6 - dichlorobenzyl:5 ) oxy:2 ] ethoxy:3 } hexyl:3 ) amino ] - 1 - hydroxyethyl:4 } - 2 - ( hydroxymethyl:5 ) phenol:3 | GW:2 - 642444x:4 | GW642444X:6 | Vilanterol:3 | vilanterol:3 | vilantérol:4",False
+[CLS] Association of Language Testers:2 in Europe consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the group of associations,"University of Cambridge | Cambridge | Cambridge University | The Chancellor , Masters , and Scholars:2 of the University of Cambridge | Universitas Cantabrigiensis:4 | University of Cambridge",False
+[CLS] Capitol Offense:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the A . S,"Mike Huckabee:3 | Michael Dale "" Mike "" Huckabee:3 | Michael Dale Huckabee:3 | Michael Huckabee:3 | Mike Huckabee:3",False
+[CLS] Fennoscandia:4 consists of [MASK] [MASK] [MASK] . [SEP],Fennosca:3,Scandinavian Peninsula | Scandinavian Peninsula,False
+[CLS] Children of the Corn:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the children of the Cor,Big L | Big L | Lamont:2 Coleman,False
+[CLS] The Axis of Awesome:3 consists of [MASK] [MASK] . [SEP],the Axis,Jordan Raskopoulos:4 | Jordan Raskopoulos:4,False
+[CLS] Unkle:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,James Lavelle:2 | James Lavelle:2,False
+[CLS] Twenty - Four Histories consists of [MASK] [MASK] [MASK] . [SEP],a second part,Book of Northern Qi | Book of Northern Qi,False
+[CLS] Metropolitan consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,John Masters | John Masters,False
+[CLS] resistance during World War II consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],resistance during World War II,Polish resistance movement in World War II | Polish resistance movement in World War II,False
+[CLS] Unicode plane consists of [MASK] [MASK] . [SEP],a letter,code point | abstract character | character number | code point | code position,False
+[CLS] Capone:2 - N - Noreaga:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following localities:2,Capone:2 | Capone:2,False
+[CLS] Ultramagnetic:4 MCs:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],three different MCs:2,Kool:2 Keith | A . Kool:2 | Black Elvis | Dr . Dooom:2 | Dr . Octagon:2 | Kool:2 Keith | Poppa:2 Large,False
+[CLS] The Dissociatives:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Daniel Johns | Daniel Johns,False
+[CLS] tzatziki:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the tzatziki:3,yogurt:3 | yoghourt:3 | yoghurt:3 | yogurt:3,False
+[CLS] Metroid:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Metroid:2 Prime 2 : Echoes:2 | Dark Echoes:2 | Metroid:2 Prime 2 : Echoes:2,False
+[CLS] fried:2 cauliflower:3 consists of [MASK] [MASK] [MASK] . [SEP],cauliflower:3,Brassica:2 oleracea:3 var . botrytis:3 | Brassica:2 oleracea:3 Cauliflower:3 Group | Brassica:2 oleracea:3 var . botrytis:3 | cauliflower:3 plant,False
+[CLS] . O . rang consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Paul Webb | Paul Webb,False
+[CLS] Toto consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Bobby Kimball:2 | Bobby Kimball:2,False
+[CLS] group 13 consists of [MASK] [MASK] [MASK] . [SEP],a male male,boron:2 | B | boracium:3 | boron:2 | element 5,False
+[CLS] The Damage:2 Manual consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following Guidelines:2,Martin Atkins | Martin Atkins,False
+[CLS] Dextromethorphan:6 / quinidine:3 consists of [MASK] [MASK] . [SEP],two compounds,"dextromethorphan:6 | ( + ) - dextromethorphan:6 | ( 9S:2 , 13S:2 , 14S:2 ) - 3 - methoxy:3 - 17 - methylmorphinan:5 | D - methorphan:4 | DM | Dex:2 | Dextromethorfan:6 | Dextromethorphan:6 | Dextromethorphanum:7 | Dextrometorfano:5 | Dextrométhorphane:7 | d - methorphan:4 | delta - Methorphan:4 | dextromethorphan:6",False
+[CLS] 2014 UCI World Tour consists of [MASK] [MASK] [MASK] [MASK] . [SEP],2014 UCI World Tour,2014 Eneco:2 Tour | 2014 Eneco:2 Tour,False
+[CLS] Kon:2 Kan consists of [MASK] [MASK] . [SEP],a town,Barry Harris | Barry Harris,False
+[CLS] Dihydroartemisinin:6 / piperaquine:3 consists of [MASK] [MASK] . [SEP],two compounds,dihydroartemisinin:6 | artenimol:3 | dihydroartemisinin:6 | dihydroqinghaosu:6,False
+[CLS] nichrome:2 consists of [MASK] [MASK] [MASK] . [SEP],nitrome:2 compounds,nickel:2 | 28Ni:3 | Ni | element 28 | nickel:2,False
+[CLS] Deepest:2 Blue consists of [MASK] [MASK] [MASK] . [SEP],a single single,Matt Schwartz | Matt Schwartz,False
+[CLS] The Walkmen:2 consists of [MASK] [MASK] [MASK] . [SEP],the Walkmen:2,Hamilton Leithauser:4 | Hamilton Leithauser:4,False
+[CLS] ethanol:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,methyl:2 | methyl:2 | methyl:2 end | methyl:2 group,False
+[CLS] TV Mania:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: TV Mania:2,Nick Rhodes | 00047828354:6 IPI:2 | Nicholas James Bates | Nick Rhodes,False
+[CLS] Maritime Forces Pacific consists of [MASK] [MASK] [MASK] . [SEP],the Maritime Forces,HMCS:2 Brandon | HMCS:2 Brandon,False
+[CLS] The Coasters:2 consists of [MASK] [MASK] [MASK] . [SEP],the Coasters:2,Carl Gardner | Carl Gardner,False
+[CLS] Nations by the River consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Nations by the River,Luke Steele | Luke Steele,False
+[CLS] Abernethy:3 biscuit:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],two biscuits:3,hardtack:3 | brewis:3 | cabin bread:2 | hard biscuit:3 | hard bread:2 | hard tack:2 | hardtack:3 | pilot bread:2 | sea biscuit:3 | sea bread:2 | ship ' s biscuit:3 | shipbiscuit:4,False
+[CLS] Saimaa:2 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,Pihlajavesi:4 | Pihlajavesi:4,False
+[CLS] Phi Phi Islands consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Phi Phi Islands,Ko Phi Phi Don | Ko Phi Phi Don,False
+[CLS] Sweet Comfort:2 Band consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Sweet Comfort:2 Band,Bryan Duncan | Bryan Duncan,False
+[CLS] Leslie and the LY:2 ' s consists of [MASK] [MASK] [MASK] . [SEP],Leslie . Leslie,Leslie Hall | Leslie Hall,False
+[CLS] Strictly:3 Come Dancing consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the series of shows,"Strictly:3 Come Dancing , series 12 | Strictly:3 Come Dancing , series 12",False
+[CLS] Camp Half - Blood chronicles:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Camp Half - Blood,The Heroes of Olympus:3 | Percy Jackson & the Heroes of Olympus:3 | The Heroes of Olympus:3 | second Percy Jackson series,False
+[CLS] Fallout:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Peter Steele | Pete Steele | Peter Steele | Petrus Thomas Ratajczyk:3 | The Green Man,False
+[CLS] Sangak:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,wheat flour:2 | wheat flour:2,False
+[CLS] Dim:2 Sum:2 Dollies:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Selena Tan | Selena Tan,False
+[CLS] Jason & the Scorchers:3 consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Jason Ringenberg:2 | Jason Ringenberg:2,False
+[CLS] San Fermín:3 consists of [MASK] [MASK] [MASK] . [SEP],the following municipalities,running of the bulls:2 | running of the bulls:2,False
+[CLS] lithium:2 imide:2 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,lithium:2 | Li | element 3 | lithium:2,False
+[CLS] mustard:2 gas consists of [MASK] [MASK] [MASK] . [SEP],tri tri tri,sulfur:2 | S | Sulfur:2 | element 16 | sulfur:2 | sulphur:3,False
+[CLS] Almanac:2 Singers consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the group of Singers,"Woody Guthrie | Woodrow Wilson "" Woody "" Guthrie | Woodrow Wilson Guthrie | Woody Guthrie",False
+[CLS] Herbes:2 de Provence consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Herbes:2 of Provence,oregano:2 | Origanum:3 vulgare:2 | oregano:2 | wild marjoram:3,False
+[CLS] A - Teens:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],A - Teens:2,Marie Serneholt:3 | Marie Eleonor:2 Serneholt:3 | Marie Serneholt:3,False
+[CLS] Fripp:3 & Eno consists of [MASK] [MASK] [MASK] . [SEP],the following parties,Brian Eno | 00077467634:7 IPI:2 | Brian Eno | Brian Peter George Eno | Eno,False
+[CLS] Hello Sailor consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Dave McArtney:5 | Dave McArtney:5,False
+[CLS] Bob Marley and the Wailers:3 consists of [MASK] [MASK] . [SEP],an album,Aston Barrett | Aston Barrett | Aston Francis Barrett | Family Man | Fams:2,False
+[CLS] Sōmen:3 salad:2 consists of [MASK] [MASK] [MASK] . [SEP],Sōmen:3,noodle:3 | noodle:3 | noodles:3,False
+[CLS] Ueno:2 Imperial Grant Park consists of [MASK] [MASK] [MASK] . [SEP],the following areas,Tokyo Bunka:2 Kaikan:2 | Tokyo Bunka:2 Kaikan:2,False
+[CLS] Yukon Kornelius:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Adam Gardner | Adam Gardner,False
+[CLS] Hollywood Bowl Orchestra consists of [MASK] [MASK] [MASK] [MASK] . [SEP],players from Hollywood Bowl,John Mauceri:3 | John Mauceri:3,False
+[CLS] The Beatles consists of [MASK] [MASK] . [SEP],the Beatles,Ringo Starr | 00029470380:7 IPI:2 | Richard Starkey:2 | Ringo Starr | Sir Richard Starkey:2 MBE:2,False
+[CLS] The Script:2 consists of [MASK] [MASK] [MASK] . [SEP],S . S,Danny O ' Donoghue:3 | Danny O ' Donoghue:3,False
+[CLS] television consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,television channel | TV channel | television channel,False
+[CLS] Furongian:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Furongian:3,Paibian:2 | Paibian:2,False
+[CLS] Metropolin:3 consists of [MASK] [MASK] [MASK] . [SEP],Metropolin:3,Efrat:3 Gosh:2 | Efrat:3 Gosh:2,False
+[CLS] bruschetta:4 consists of [MASK] [MASK] [MASK] . [SEP],the single species,bread:2 | bread:2,False
+[CLS] Carnegie Mellon:2 University consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of institutions,Tepper:2 School of Business | Tepper:2 School of Business | The Tepper:2 School of Business,False
+[CLS] The Parachute:2 Club consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Parachute:2 Club,Lorraine Segato:2 | Lorraine Segato:2,False
+[CLS] list of Anthrax:2 band members consists of [MASK] [MASK] . [SEP],only one,Scott Ian | Scott Ian,False
+[CLS] spindle:2 consists of [MASK] [MASK] [MASK] . [SEP],a spindle:2,spindle:2 whorl:2 | spindle:2 whorl:2 | whorl:2 | whorl:2 spindle:2,False
+[CLS] Mangalore:2 bajji:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],2 bajji:3,maida:2 flour:2 | Maida:2 flour:2 | maida:2 flour:2,False
+[CLS] Doves:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Jez:2 Williams | Deviation:2 | Jeremy Francis Williams | Jez:2 Williams,False
+[CLS] The Evens:2 consists of [MASK] [MASK] . [SEP],ethnicity:2,Amy Farina:2 | Amy Farina:2,False
+[CLS] Erreway:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],. Erreway:3,Camila:2 Bordonaba:3 | Camila:2 Bordonaba:3 | hijos,False
+[CLS] The Pointer:2 Sisters consists of [MASK] [MASK] [MASK] [MASK] . [SEP],The Pointer:2 Sisters,Bonnie Pointer:2 | Bonnie Pointer:2,False
+[CLS] iodine:2 pentoxide:3 consists of [MASK] [MASK] [MASK] . [SEP],carbon . carbon,iodine:2 | I | element 53 | iodine:2,False
+[CLS] Large Hadron:2 Collider:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a Large Hadron:2,A Large Ion Collider:2 Experiment | A Large Ion Collider:2 Experiment | ALICE:3 Collaboration:2 | ALICE:3 experiment,False
+[CLS] Naked Raygun:2 consists of [MASK] [MASK] [MASK] . [SEP],two Raygun:2,Santiago Durango | Santiago Durango,False
+[CLS] Steeler:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Yngwie:3 Malmsteen:3 | Yngwie:3 J . Malmsteen:3 | Yngwie:3 Malmsteen:3,False
+[CLS] Indigo:3 Girls consists of [MASK] [MASK] [MASK] . [SEP],all the girls,Emily Saliers:2 | Emily Saliers:2,False
+[CLS] Big East Conference consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Big East Conference,Creighton:3 Bluejays:3 | Creighton:3 Bluejays:3,False
+[CLS] Dragon consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Todd Hunter | Todd Hunter,False
+[CLS] The Three Musketeers:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],three Musketeers:4,Carl Breer:2 | Carl Breer:2,False
+[CLS] Scarling:3 . consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Scarling:3,Jessicka:3 | Jessicka:3 | Jessicka:3 Addams:2,False
+[CLS] Boston Camerata:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: Boston Camerata:2,Joel Cohen | Joel Cohen,False
+[CLS] Fall Out Boy consists of [MASK] [MASK] . [SEP],four tracks,Joe Trohman:3 | Joe Trohman:3 | Joseph Mark Trohman:3,False
+[CLS] Coimbatore:4 Lok Sabha constituency consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Lok Sabha constituency,Sulur:2 | Sulur:2,False
+[CLS] Starflyer:3 59 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Starflyer:3 59,Jason Martin | Jason Martin,False
+[CLS] sausage:3 consists of [MASK] [MASK] [MASK] . [SEP],sausage:3,sausage:3 casing:2 | casing:2 | sausage:3 casing:2,False
+[CLS] The Predators:2 consists of [MASK] [MASK] [MASK] . [SEP],the Predators:2,Ross McLennan:5 | Ross McLennan:5,False
+[CLS] Hope Sandoval & the Warm:2 Inventions:3 consists of [MASK] [MASK] [MASK] . [SEP],two studio albums,Hope Sandoval | Hope Sandoval,False
+[CLS] Men at Work consists of [MASK] [MASK] [MASK] . [SEP],a single single,Colin Hay | Colin Hay | Colin James Hay,False
+[CLS] Awolnation:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],awolnation:4,Aaron Bruno | Aaron Bruno,False
+[CLS] gâteau:3 Basque consists of [MASK] [MASK] [MASK] . [SEP],gâteau:3,almond:2 meal:2 | almond:2 flour:2 | almond:2 meal:2 | ground almond:2,False
+[CLS] Siria consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Natalie Horler:2 | Natalie Horler:2,False
+[CLS] Tapioca:3 pudding:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a pudding:3,tapioca:2 | polvilho:3 | tapioca:2,False
+[CLS] AC / DC consists of [MASK] [MASK] [MASK] . [SEP],the following routes,Cliff Williams | Cliff Williams | Clifford Williams,False
+[CLS] Rosita:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the following incorporated settlements,Kenickie:3 | Kenickie:3,False
+[CLS] Traveling:2 Wilburys:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: U . S,"Tom Petty | Charlie T . Wilbury:3 , Jr . | Thomas Earl Petty | Tom Petty",False
+[CLS] The Rides:2 consists of [MASK] [MASK] [MASK] . [SEP],the Rides:2,Stephen Stills:2 | Stephen Arthur Stills:2 | Stephen Stills:2 | Steve Stills:2,False
+[CLS] Fifteen:3 consists of [MASK] [MASK] [MASK] . [SEP],Fifteen:3,Jeff Ott | Jeff Ott,False
+[CLS] The Stooges:3 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Stooges:3,Iggy:2 Pop | Iggy:2 Pop | James Newell Osterberg:3,False
+[CLS] Twins consists of [MASK] [MASK] [MASK] [MASK] . [SEP],: . . .,Charlene Choi | Charlene Choi | Choi Tsoek:3 - jin,False
+[CLS] iridium:2 ( V ) fluoride:3 consists of [MASK] [MASK] [MASK] . [SEP],the compound compound,fluorine:3 | F | element 9 | fluorine:3,False
+[CLS] Boondi:2 consists of [MASK] [MASK] [MASK] . [SEP],: Boondi:2,Gram flour:2 | Gram flour:2,False
+[CLS] Akki:2 rotti:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],akki:2 rotti:2,rice flour:2 | rice flour:2,False
+[CLS] Austin Powers consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Austin Powers and Austin Powers,Austin Powers : International Man of Mystery | Austin Powers : International Man of Mystery,False
+[CLS] Saturday Night Massacre consists of [MASK] [MASK] [MASK] . [SEP],two music videos,Elliot Richardson | Elliot Lee Richardson | Elliot Richardson,False
+[CLS] The Lovin:2 ' Spoonful:3 consists of [MASK] [MASK] [MASK] . [SEP],a single single,John Sebastian | John Benson Sebastian | John Sebastian,False
+[CLS] Serenity:3 consists of [MASK] [MASK] [MASK] . [SEP],Serenity:3,Georg Neuhauser:3 | Georg Neuhauser:3,False
+[CLS] Puppet:3 Master consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Puppet:3 Master,Retro:2 Puppet:3 Master | Retro:2 Puppet:3 Master | Retro:2 Puppetmaster:4,False
+[CLS] Gilbert and Sullivan consists of [MASK] [MASK] [MASK] [MASK] . [SEP],a number of genres,Arthur Sullivan | Arthur S . Sullivan | Arthur Seymour Sullivan | Arthur Sullivan | Sir Arthur Sullivan,False
+[CLS] South Florida consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S .,Everglades:3 | Everglades:3,False
+[CLS] diode:2 memory consists of [MASK] [MASK] . [SEP],diode:2,resistor:2 | electrical resistor:2 | ohmic:3 | resistive:3 load | resistor:2 | resistors:3,False
+[CLS] Showoff:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Chris Messer:2 | Chris Messer:2,False
+[CLS] Mentors:2 consists of [MASK] [MASK] [MASK] . [SEP],the male female,Eldon:2 Hoke:2 | El Duce:2 | Eldon:2 Hoke:2,False
+[CLS] Escape the Fate consists of [MASK] [MASK] [MASK] . [SEP],the first single,Ronnie Radke:2 | Ronald Joseph Radke:2 | Ronnie Radke:2,False
+[CLS] Arctic Monkeys:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Jamie Cook | Jamie Cook | Jamie Robert Cook,False
+[CLS] Mixed Emotions:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Drafi:3 Deutscher | Drafi:3 Deutscher,False
+[CLS] Metro Area consists of [MASK] [MASK] . [SEP],Metro Area,Storm Queen | Storm Queen,False
+[CLS] Hawkwind:2 consists of [MASK] [MASK] [MASK] . [SEP],: Hawkwind:2,Harvey Bainbridge:3 | Harvey Bainbridge:3,False
+[CLS] Israel Defense Forces consists of [MASK] [MASK] . [SEP],Prime Minister,Home Front Command | Home Front Command | Home Front Command of Israel | IDF:2 Home Front | Israeli Home Front Command | Pikud:2 Ha ' Oref:2,False
+[CLS] 12 Rounds:2 consists of [MASK] [MASK] [MASK] . [SEP],12 Rounds:2,Atticus:2 Ross | Atticus:2 Ross,False
+[CLS] Mountain consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the U . S,Felix Pappalardi:3 | 00023439500:6 IPI:2 | Felix A . Pappalardi:3 Jr . | Felix Pappalardi:3,False
+[CLS] Ө̄:2 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,macron:2 | macron:2 | [UNK] | [UNK] | [UNK] | [UNK],False
+[CLS] microcontroller:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],microcontroller:4,read - only memory | R0M:3 | ROM | Read - only memory | read only memory | read - only memory,False
+[CLS] nitrogen cycle consists of [MASK] . [SEP],nitrogen,denitrification:4 | denitrification:4,False
+[CLS] Art of Noise consists of [MASK] [MASK] . [SEP],two tracks,Trevor Horn | Trevor Charles Horn | Trevor Horn,False
+[CLS] Near Islands consists of [MASK] [MASK] . [SEP],Near Islands,Attu:2 Island | Attu:2 Island,False
+[CLS] Muses:2 consists of [MASK] [MASK] [MASK] . [SEP],a single single,Erato:2 | Erato:2,False
+[CLS] DeBarge:4 consists of [MASK] [MASK] . [SEP],a town,Bunny DeBarge:4 | Bunny DeBarge:4,False
+[CLS] Yong tau foo:2 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],Yong tau foo:2,tofu:2 | bean:2 curd:2 | beancurd:3 | doufu:3 | dubu:2 | dòufu:4 | tofu:2,False
+[CLS] The Hellacopters:4 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Hellacopters:4,Dregen:2 | Dregen:2,False
+[CLS] Neptune Towers consists of [MASK] [MASK] [MASK] . [SEP],the Neptune towers,Fenriz:3 | Fenriz:3 | Gylve:3 Fenris:3 Nagell:2,False
+[CLS] Bundeswehr consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],. . . . .,Joint Support and Enabling:3 Service | Bundeswehr Joint Support Service | German Joint Support Service | JSES:3 | JSS:2 | Joint Support Service | Joint Support Service of Germany | Joint Support and Enabling:3 Service | SKB:2,False
+[CLS] Y & T consists of [MASK] [MASK] [MASK] [MASK] . [SEP],the Y & T,Dave Meniketti:3 | Dave Meniketti:3,False
+[CLS] Field ' s metal consists of [MASK] [MASK] [MASK] . [SEP],flexibility:3,bismuth:2 | 83Bi:3 | Bi | bismuth:2 | element 83,False
+[CLS] rookworst:4 consists of [MASK] [MASK] [MASK] [MASK] . [SEP],rookworst:4,pork:2 | pig:2 meat | pigmeat:4 | pork:2,False
+[CLS] White boiled:2 shrimp:3 consists of [MASK] [MASK] [MASK] . [SEP],shrimp:3,shrimp:3 | shrimp:3,True
+[CLS] thallium:3 ( III ) nitrate:2 consists of [MASK] [MASK] [MASK] . [SEP],compound compound compound,thallium:3 | 81Tl:3 | Tl:2 | element 81 | thallium:3,False
+[CLS] fluffernutter:5 consists of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],fluffernutter:5,peanut:2 butter:2 | peanut:2 butter:2,False

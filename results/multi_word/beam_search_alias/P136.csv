@@ -1,0 +1,866 @@
+sentence,prediction,gold,is_same
+[CLS] Mission Critical plays [MASK] [MASK] [MASK] music . [SEP],a mix of,adventure game | adventure game | adventure video game,False
+[CLS] Tribuzy:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Rockman:2 EXE:2 Operate:2 Shooting Star plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Home and Away : Secrets and the City plays [MASK] [MASK] music . [SEP],"music ,",soap opera | soap | soap opera | soapie:2 | soapopera:3,False
+[CLS] Aaron Copland:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,symphony:4 | symphony:4,False
+[CLS] This Binary:2 Universe plays [MASK] [MASK] [MASK] music . [SEP],a lot of,trance:2 | Trance:2 | trance:2 | trance:2 music,False
+[CLS] Fire in the Night plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Chris Ward plays [MASK] [MASK] [MASK] music . [SEP],", plays is",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Lovers Lane plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Zelda II : The Adventure of Link plays [MASK] [MASK] music . [SEP],rave:2,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Wizardry:2 VII : Crusaders:3 of the Dark Savant:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] An Eye for an Eye plays [MASK] [MASK] music . [SEP],", plays",action film | action | action film | action movie | film action | movie action,False
+[CLS] Less Than Jake plays [MASK] [MASK] [MASK] music . [SEP],", plays the",ska punk | ska punk | ska - core,False
+[CLS] Seka:2 Aleksić:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",pop - folk | Balkan pop | Chalga:2 | Folk pop | pop - folk,False
+[CLS] Ralf Hütter:2 plays [MASK] [MASK] [MASK] music . [SEP],an interest in,electronic music | electronic music | electrosonic:3,False
+[CLS] Dark Soil:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,folktronica:3 | electro:2 - folk | electrofolk:4 | folktronica:3 | laptop:2 folk | techno:2 folk | techno:2 - folk,False
+[CLS] Wolfenstein:2 RPG plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] E - Motion plays [MASK] [MASK] [MASK] music . [SEP],a mix of,puzzle:2 video game | Puzzle:3 video games | puzzle:2 game | puzzle:2 video game,False
+[CLS] Lankar:2 of Callisto:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Michael Lee Firkins:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",bluegrass:2 music | bluegrass:2 | bluegrass:2 music,False
+[CLS] Schloss Einstein plays [MASK] [MASK] [MASK] music . [SEP],a variety of,soap opera | soap | soap opera | soapie:2 | soapopera:3,False
+[CLS] Ex Machina:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Fort Boyard:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],the Fort Boyard:2,game show | game show | gameshow:2 | quiz:2 show,False
+[CLS] The Restaurant plays [MASK] [MASK] [MASK] music . [SEP],. The Restaurant,reality television genre | reality TV | reality television,False
+[CLS] Xak:2 : The Tower of Gazzel:3 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] El Libro de la Tierra Negra plays [MASK] [MASK] [MASK] music . [SEP],"plays , plays",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] MegaTraveller:4 1 : The Zhodani:3 Conspiracy:4 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Griff:2 the Invisible plays [MASK] [MASK] music . [SEP],", and","comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Fauve:2 ( collective ) plays [MASK] [MASK] [MASK] music . [SEP],a piece of,spoken word | spoken word,False
+[CLS] Fool ' s Paradise plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] The Blazing:3 World plays [MASK] [MASK] [MASK] music . [SEP],", plays and",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Only Crime plays [MASK] [MASK] [MASK] music . [SEP],a piece of,punk rock | punk | punk music | punk rock,False
+[CLS] Fall Guy plays [MASK] [MASK] [MASK] music . [SEP],a mix of,film noir | film noir,False
+[CLS] Karlheinz:3 Stockhausen:2 plays [MASK] [MASK] music . [SEP],", plays",electronic music | electronic music | electrosonic:3,False
+[CLS] Lawson Rollins plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",latin jazz | latin jazz,False
+[CLS] This Could Be the Night plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Zach Williams & The Reformation plays [MASK] [MASK] [MASK] music . [SEP],a piece of,Southern rock | Southern rock,False
+[CLS] Amber Hayes plays [MASK] [MASK] [MASK] music . [SEP],", plays and",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Inequality:3 for All plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Inequality:3 for,documentary film | documentary film | documentary movie,False
+[CLS] OutRunners:4 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,racing video game | Racing video games | racing game | racing video game,False
+[CLS] Psycho le Cému:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",visual kei:2 | V - kei:2 | visual kei:2,False
+[CLS] Hathyar:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",action film | action | action film | action movie | film action | movie action,False
+[CLS] Death Before Dishonor:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,punk rock | punk | punk music | punk rock,False
+[CLS] Tony Rey plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Tony Rey plays,rock music | rock | rock and roll | rock music,False
+[CLS] ABC Stage 67 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,anthology series | anthology series,False
+[CLS] The Exorcist:3 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,horror film | horror film | horror movie,False
+[CLS] Virtual Pro Wrestling 64 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],Virtual Pro Wrestling 64,professional wrestling | pro wrestling | professional wrestling | wrestling,False
+[CLS] Tensou:2 Sentai Goseiger:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",tokusatsu:3 | tokusatsu:3,False
+[CLS] Sirocco:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],the piano and the,film noir | film noir,False
+[CLS] The Guilt:3 Trip plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] The Last Bison:2 plays [MASK] [MASK] music . [SEP],in the,indie folk | indie folk,False
+[CLS] Blue Movie plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pornographic:3 film | X - rated film | X - rated movie | XXX film | adult film | blue movie | hardcore film | hardcore movie | porn:2 | porn:2 film | porn:2 movie | porn:2 video | porno:2 | porno:2 film | pornographic:3 film | sex film,False
+[CLS] Too Dear ! plays [MASK] [MASK] [MASK] music . [SEP],a mix of,short story | short story | tale,False
+[CLS] Chopping:2 Mall plays [MASK] [MASK] [MASK] music . [SEP],Chopping:2 Mall,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Carl Weathersby:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],", plays , plays ,",electric blues | electric blues,False
+[CLS] Devdas:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",romance film | romance film | romance genre | romantic film,False
+[CLS] Lauren Alaina:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Lauren Alaina:2 plays,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Going Down in LA - LA Land plays [MASK] [MASK] [MASK] music . [SEP],music . plays,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Ice Planet plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] A Man Could Get Killed:2 plays [MASK] [MASK] music . [SEP],- plays,comedy film | comedy film | comedy movie,False
+[CLS] Stuart Little plays [MASK] [MASK] music . [SEP],", plays",comedy film | comedy film | comedy movie,False
+[CLS] Les Passions:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,baroque music | Baroque | baroque music,False
+[CLS] U218:2 Singles plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Quintaine:2 Americana plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] I Do ( But I Don ' t ) plays [MASK] [MASK] [MASK] music . [SEP],a piece of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] The Last Time I Saw Paris plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of pop,romance film | romance film | romance genre | romantic film,False
+[CLS] Darling It Hurts:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Infernal:2 : Hell ' s Vengeance plays [MASK] [MASK] [MASK] music . [SEP],a mix of,third - person shooter:2 | TPS:2 | third - person shooter:2,False
+[CLS] Lionel D plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Lionel D plays",rapping:2 | MCing:2 | emceeing:4 | rap | rapping:2 | spitting:3 bars,False
+[CLS] Racer:2 X plays [MASK] [MASK] [MASK] music . [SEP],a mix of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Mon cœur t ' appelle plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",musical film | musical film | musical movie,False
+[CLS] Better Than Sex plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Gumball:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Crumb:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",documentary film | documentary film | documentary movie,False
+[CLS] Carts:2 of Darkness plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Ray Griff:2 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Super Chase : Criminal Termination:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,racing video game | Racing video games | racing game | racing video game,False
+[CLS] V / H / S / 2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,horror film | horror film | horror movie,False
+[CLS] Ritchie Blackmore plays [MASK] [MASK] [MASK] music . [SEP],. Ritchie Blackmore,blues rock | blues rock,False
+[CLS] Cincinnati Symphony Orchestra plays [MASK] [MASK] music . [SEP],choral:2,classical music | European classical music | Western art music | Western classical music | classical music,False
+[CLS] Joseph Bruce plays [MASK] [MASK] [MASK] music . [SEP],", plays is",hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop:2 music,False
+[CLS] Hammerhead:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,noise rock | noise rock,False
+[CLS] Au Secours:2 ! plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] A Man Holdin:2 ' On plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Crysis:2 2 plays [MASK] [MASK] [MASK] music . [SEP],a bit of,first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] Carny:2 plays [MASK] [MASK] music . [SEP],", plays",horror film | horror film | horror movie,False
+[CLS] Emeraldia:3 plays [MASK] [MASK] music . [SEP],", plays",puzzle:2 video game | Puzzle:3 video games | puzzle:2 game | puzzle:2 video game,False
+[CLS] Miliyah:2 Kato plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rhythm and blues | R and B | R & B | RNB:2 | RnB:3 | rhythm and blues,False
+[CLS] Dirty Rotten Imbeciles:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Quarterstaff:3 : The Tomb of Setmoth:3 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Kentucky Thunder plays [MASK] [MASK] [MASK] music . [SEP],a mix of,bluegrass:2 music | bluegrass:2 | bluegrass:2 music,False
+[CLS] Like an Ocean We Rise Again plays [MASK] [MASK] [MASK] music . [SEP],a mix of,metalcore:2 | metalcore:2,False
+[CLS] Shadow Knights plays [MASK] [MASK] [MASK] music . [SEP],a mix of,platform game | Platform video games | platform game | platformer:2,False
+[CLS] Gary Richards plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,electronic music | electronic music | electrosonic:3,False
+[CLS] U - Niq:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop:2 music,False
+[CLS] Super Mad Champ plays [MASK] [MASK] [MASK] music . [SEP],a mix of,racing video game | Racing video games | racing game | racing video game,False
+[CLS] Dave Flett:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,rock music | rock | rock and roll | rock music,False
+[CLS] Pulya:3 plays [MASK] [MASK] [MASK] music . [SEP],music . Plays,ska punk | ska punk | ska - core,False
+[CLS] Lair:2 of the Minotaur:3 plays [MASK] [MASK] [MASK] music . [SEP],classical and classical,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Bottoms:2 Up plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Beverley:3 Knight plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",soul music | soul | soul music,False
+[CLS] The Lord of the Rings : The Fellowship of the Ring plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,action - adventure game | a - avg:2 | action adventure video games | action - adventure game,False
+[CLS] The Gay Hussars:3 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,operetta:2 | Operetta:2 | operetta:2,False
+[CLS] Beyond the Poseidon:3 Adventure plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,disaster film | disaster film | disaster movie,False
+[CLS] Towns plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. . . . .,simulation video game | Simulation:2 video games | engineering simulation | simulation game | simulation genre | simulation video game,False
+[CLS] Lovin:2 ' the Ladies plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] A Fall from Grace plays [MASK] [MASK] [MASK] music . [SEP],", plays and",mystery film | mystery film,False
+[CLS] Som jag är plays [MASK] [MASK] [MASK] [MASK] music . [SEP],. Som jag är,pop music | Pop | pop | pop music,False
+[CLS] Psychic:4 Force 2012 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,fighting game | fighting game | fighting video games,False
+[CLS] The Rage of Paris plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",comedy film | comedy film | comedy movie,False
+[CLS] Scavenger:3 Hunt plays [MASK] [MASK] music . [SEP],", plays",comedy film | comedy film | comedy movie,False
+[CLS] Vee:2 - Jay Records plays [MASK] [MASK] [MASK] music . [SEP],the song in,rock music | rock | rock and roll | rock music,False
+[CLS] Yoon Ha Lee plays [MASK] [MASK] [MASK] music . [SEP],music . plays,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Special When Lit:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],with Lit:2 ' s,documentary film | documentary film | documentary movie,False
+[CLS] Evil plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",horror film | horror film | horror movie,False
+[CLS] Paranormal:2 Activity:2 : The Marked:2 Ones plays [MASK] [MASK] [MASK] music . [SEP],play play play,horror film | horror film | horror movie,False
+[CLS] Ballydowse:4 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Ballydowse:4,punk rock | punk | punk music | punk rock,False
+[CLS] Dream Big plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] The Jacksons:2 : A Family Dynasty plays [MASK] [MASK] [MASK] music . [SEP],pop - pop,reality television genre | reality TV | reality television,False
+[CLS] Blades:2 of Glory plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] Adorable:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],. adorable:3,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Brilliant:2 Conversationalist:4 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a part of the,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Gran Turismo 7 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,racing video game | Racing video games | racing game | racing video game,False
+[CLS] Forgive:2 Her . . . plays [MASK] [MASK] [MASK] music . [SEP],. . .,doom:2 metal | doom:2 metal,False
+[CLS] Fist:2 for Fight plays [MASK] [MASK] [MASK] music . [SEP],a mix of,power metal | power metal,False
+[CLS] Ichiro:2 Ito plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Arrow plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",soca:2 music | soca:2 | soca:2 music,False
+[CLS] Oil Rush plays [MASK] [MASK] [MASK] music . [SEP],a mix of,tower defense | TD | Tower Defense Games | tower defense,False
+[CLS] Genevieve:3 plays [MASK] [MASK] [MASK] music . [SEP],the piano and,comedy film | comedy film | comedy movie,False
+[CLS] Sonnet:2 147 plays [MASK] [MASK] music . [SEP],", plays",sonnet:2 | sonnet:2,False
+[CLS] Squad Five - O plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",ska punk | ska punk | ska - core,False
+[CLS] Nobody in His Right Mind Would ' ve Left Her plays [MASK] [MASK] [MASK] music . [SEP],some of his,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Public Disturbance:4 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],In music . In,punk rock | punk | punk music | punk rock,False
+[CLS] Money Isn:2 ' t Everything plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] Glitch:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",massively:2 multiplayer:2 online game | MMO:2 | MMOG:3 | MMOG:3 ( Massively:3 Multiplayer:2 Online Game ) video games | massively:2 multiplayer:2 online game,False
+[CLS] The Roaring:3 Trumpet:2 plays [MASK] [MASK] [MASK] music . [SEP],piano and piano,novella:2 | novella:2,False
+[CLS] X - Men 2 : Clone:2 Wars plays [MASK] [MASK] [MASK] music . [SEP],a mix of,platform game | Platform video games | platform game | platformer:2,False
+[CLS] Another Kind plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Desiderata:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],the piano and the,prose poetry | poems in prose | prose poems | prose poetry,False
+[CLS] Carsick:2 Cars plays [MASK] [MASK] music . [SEP],Carsick:2,indie rock | Independent rock | indie rock,False
+[CLS] Arcticfox:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] Killpoint:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] Fady:2 Maalouf:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",pop music | Pop | pop | pop music,False
+[CLS] Fullmetal:3 Alchemist:3 and the Broken Angel plays [MASK] [MASK] [MASK] music . [SEP],part of the,action role - playing game | ARPG:2 | action RPG | action role - playing game | action role - playing video game | action / RPG,False
+[CLS] No sabiamos:3 que nombre ponerle:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],plays plays plays plays plays,mystery film | mystery film,False
+[CLS] The Hollow plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Swiss Boy plays [MASK] [MASK] music . [SEP],", and",Italo disco | Italo disco,False
+[CLS] Glup:3 ! plays [MASK] [MASK] [MASK] music . [SEP],a variety of,Britpop:2 | Britpop:2,False
+[CLS] Self - Portrait plays [MASK] [MASK] [MASK] music . [SEP],a piece of,self - portrait | auto - portrait | self portrait | self - portrait | selfportrait:3,False
+[CLS] Winner plays [MASK] [MASK] [MASK] [MASK] music . [SEP],song . Winner plays,K - pop | K POP | K - POP | K - Pop | K - pop | KPOP:2 | Korean pop | Kpop:2,False
+[CLS] Art Bergmann:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,punk rock | punk | punk music | punk rock,False
+[CLS] Original Harmony Ridge Creekdippers:4 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,alternative country | Americana | alt - country | alternative country | insurgent:3 country,False
+[CLS] Tactics:3 of Mistake:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Aereogramme:5 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,post - rock | post - rock,False
+[CLS] Nancy Drew : Secret of the Scarlet Hand plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,adventure game | adventure game | adventure video game,False
+[CLS] Goats:2 Head Soup:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Walk Away Renee:2 plays [MASK] [MASK] music . [SEP],and plays,documentary film | documentary film | documentary movie,False
+[CLS] The Eternal Jew:2 plays [MASK] [MASK] [MASK] music . [SEP],and plays the,propaganda film | propaganda film,False
+[CLS] The Blues plays [MASK] [MASK] music . [SEP],in the,documentary film | documentary film | documentary movie,False
+[CLS] Blackadder:3 : Back & Forth:2 plays [MASK] [MASK] [MASK] music . [SEP],Blackadder:3,comedy film | comedy film | comedy movie,False
+[CLS] Gung:2 Ho ! plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",war film | war film | war movie,False
+[CLS] Alexander O ' Neal plays [MASK] [MASK] music . [SEP],", plays",soul music | soul | soul music,False
+"[CLS] Sakura Wars : So Long , My Love plays [MASK] [MASK] music . [SEP]",as theme,tactical:2 role - playing game | RSLG:3 | Role - Playing Simulation:2 Game | SRPG:2 | Simulation:2 RPGs:2 | Strategy Role - Playing Game | TRPG:2 | Tactical role - playing video games | tactical:2 RPG | tactical:2 role - playing game,False
+[CLS] Albert von Keller plays [MASK] [MASK] [MASK] music . [SEP],music . plays,history painting | historical art | historical painting | history painting,False
+[CLS] Guardian plays [MASK] [MASK] music . [SEP],. Guardian,hard rock | hard rock,False
+[CLS] Old Time Rock and Roll plays [MASK] [MASK] [MASK] music . [SEP],a kind of,rock music | rock | rock and roll | rock music,False
+[CLS] Mixed Nuts:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] Tekken:2 6 plays [MASK] [MASK] [MASK] music . [SEP],a bit of,fighting game | fighting game | fighting video games,False
+[CLS] Living for Love plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"electronic dance music | EDM:2 | Electronic Dance Music , EDM:2 | baile | club music | electronic dance music | música dance",False
+[CLS] SegaSonic:3 the Hedgehog:3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the music . plays the,platform game | Platform video games | platform game | platformer:2,False
+[CLS] Iron Man plays [MASK] [MASK] [MASK] music . [SEP],a mix of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Sussex Carol plays [MASK] [MASK] [MASK] music . [SEP],a variety of,Christmas carol:2 | Christmas carol:2 | carol:2,False
+[CLS] MechQuest:5 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Imitation:2 of Life plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] Lorena Simpson plays [MASK] [MASK] music . [SEP],", and",House music | House music | house,False
+[CLS] Slowdown:2 Virginia plays [MASK] [MASK] [MASK] music . [SEP],a mix of,indie rock | Independent rock | indie rock,False
+[CLS] They Bite:2 plays [MASK] [MASK] [MASK] music . [SEP],and Bite:2,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Bull Durham plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] IronFall:3 : Invasion plays [MASK] [MASK] [MASK] music . [SEP],a mix of,third - person shooter:2 | TPS:2 | third - person shooter:2,False
+[CLS] Armored:2 Car Robbery:2 plays [MASK] [MASK] music . [SEP],", plays",film noir | film noir,False
+[CLS] The American Dollar plays [MASK] [MASK] [MASK] music . [SEP],", plays and",post - rock | post - rock,False
+[CLS] The Pretender:2 : Rebirth:3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the pretender:2 ' s,mystery fiction | mysteries:2 | mystery | mystery books | mystery fiction,False
+[CLS] Riders of the Range plays [MASK] [MASK] [MASK] music . [SEP],a variety of,Western film | Western | Western film | western film | western genre,False
+[CLS] Buffalo Killers plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Atoll:2 K plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",comedy film | comedy film | comedy movie,False
+[CLS] The Janitors:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Tattle:2 Tale plays [MASK] [MASK] [MASK] music . [SEP],a mix of,folk punk | folk punk | rogue:2 folk,False
+[CLS] Nerves:3 Junior plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Nerves:3 Junior,indie rock | Independent rock | indie rock,False
+[CLS] Hercules plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",platform game | Platform video games | platform game | platformer:2,False
+[CLS] Campaign Sourcebook:2 and Catacomb:3 Guide plays [MASK] [MASK] [MASK] music . [SEP],play plays play,role - playing game | RPG | role playing game | role - playing game | roleplaying:3 game,False
+[CLS] Seagull:3 Screaming:2 Kiss Her Kiss Her plays [MASK] [MASK] [MASK] music . [SEP],", and her",indie rock | Independent rock | indie rock,False
+[CLS] Age of Silence plays [MASK] [MASK] [MASK] music . [SEP],a mix of,progressive metal | prog:2 metal | progressive metal | technical metal,False
+[CLS] Some of Your Blood plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror literature | horror literature,False
+[CLS] Serena - Maneesh:3 plays [MASK] [MASK] music . [SEP],piano and,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Willobie:3 His Avisa:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",narrative poetry | narrative poetry,False
+[CLS] Malevolence:3 : The Sword of Ahkranox:4 plays [MASK] [MASK] music . [SEP],", plays",role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Direct Descent:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Ayan:2 plays [MASK] [MASK] music . [SEP],music .,action film | action | action film | action movie | film action | movie action,False
+[CLS] All About That Bass plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pop music | Pop | pop | pop music,False
+[CLS] Alicia Delgado plays [MASK] [MASK] music . [SEP],", plays",folk music | folk music,False
+[CLS] Undercurrent:4 plays [MASK] [MASK] music . [SEP],in the,film noir | film noir,False
+[CLS] Nerawareta:4 Gakuen:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Bash:2 & Pop plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Boom Gaspar plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Boom Gaspar plays,rock music | rock | rock and roll | rock music,False
+[CLS] The Witches:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,horror film | horror film | horror movie,False
+[CLS] Bernard Belle plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Bernard Belle plays,new jack:2 swing | new jack:2 swing | swingbeat:2,False
+[CLS] Shel:2 Talmy:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Río Negro plays [MASK] [MASK] [MASK] music . [SEP],a variety of,documentary film | documentary film | documentary movie,False
+[CLS] Devil ' s Attorney plays [MASK] [MASK] [MASK] music . [SEP],a mix of,turn - based strategy video game | TBS | turn based | turn based strategy | turn - based | turn - based strategy video game,False
+[CLS] The Brakes:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Amy Lee plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Amy Lee plays,rock music | rock | rock and roll | rock music,False
+"[CLS] Crazy , Stupid:3 , Love . plays [MASK] [MASK] [MASK] [MASK] music . [SEP]",". music . ,",romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Charades:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,mystery film | mystery film,False
+[CLS] Weak13:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Bari Siddiqui:3 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,folk music | folk music,False
+[CLS] The Grease:3 Band plays [MASK] [MASK] [MASK] music . [SEP],a variety of,rock music | rock | rock and roll | rock music,False
+[CLS] Cowboy Junkies:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Tora Tora plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",hard rock | hard rock,False
+[CLS] Airdash:3 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Shadows Fall plays [MASK] [MASK] [MASK] music . [SEP],a mix of,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Avenues:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,punk rock | punk | punk music | punk rock,False
+[CLS] Tim Hardin:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,folk music | folk music,False
+[CLS] People Are Funny plays [MASK] [MASK] [MASK] music . [SEP],pop - pop,musical film | musical film | musical movie,False
+[CLS] Crush:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,martial arts film | martial arts film,False
+[CLS] Young Sherlock Holmes : Black Ice plays [MASK] [MASK] [MASK] music . [SEP],some kind of,detective fiction | detective fiction,False
+[CLS] God Lives Underwater:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,industrial rock | industrial rock,False
+[CLS] Tusk:2 plays [MASK] [MASK] [MASK] music . [SEP],. Tusk:2,rock music | rock | rock and roll | rock music,False
+[CLS] Can ' t Be Sure:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,indie pop | alt pop | alt - pop | alternative pop | indie pop | indie pop music | indie - pop | indiepop:2,False
+[CLS] Mario Talavera:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Mario Talavera:2 plays,popular music | pop music | popular music,False
+[CLS] Hello Moscow ! plays [MASK] [MASK] [MASK] music . [SEP],a mix of,musical film | musical film | musical movie,False
+[CLS] Neverwas:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,fantasy film | fantasy film | fantasy movie,False
+[CLS] Samurai Princess plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",action film | action | action film | action movie | film action | movie action,False
+[CLS] In the Name of the King 3 : The Last Mission plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,fantasy film | fantasy film | fantasy movie,False
+[CLS] Talk Back and You ' re Dead plays [MASK] [MASK] [MASK] music . [SEP],a mix of,teen film | teen film | teen movie,False
+[CLS] Jay Jay plays [MASK] [MASK] [MASK] music . [SEP],a lot of,romance film | romance film | romance genre | romantic film,False
+[CLS] A Severa:2 plays [MASK] [MASK] music . [SEP],in the,biographical:2 film | biographical:2 film | biographical:2 movie | biographical:2 picture | biography film | biography movie | biopic:2,False
+[CLS] Chance plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Amor libre plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] The Balloonatic:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",comedy film | comedy film | comedy movie,False
+[CLS] I Due sergenti:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],the piano and the,comedy film | comedy film | comedy movie,False
+[CLS] Bebo:2 Norman plays [MASK] [MASK] [MASK] music . [SEP],", plays and",contemporary Christian music | CCM:2 | Contemporary Christian music | contemporary Christian music | inspirational:2 music,False
+[CLS] They Thirst:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror literature | horror literature,False
+[CLS] Frederick Cuming:2 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,landscape art | landscape art | landscape painting,False
+[CLS] Miranda Cosgrove:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",pop music | Pop | pop | pop music,False
+[CLS] Behemoth:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,black metal | black metal,False
+[CLS] Crystal King plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Sarah Buxton:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Rhys Bobridge:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,pop music | Pop | pop | pop music,False
+[CLS] Armed Response plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] Tora - san Loves an Artist plays [MASK] [MASK] [MASK] music . [SEP],an Artist plays,comedy film | comedy film | comedy movie,False
+[CLS] Date My Mom:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,reality television genre | reality TV | reality television,False
+[CLS] Mystic Chronicles plays [MASK] [MASK] [MASK] music . [SEP],a mix of,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Beat It plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] Blade Symphony plays [MASK] [MASK] [MASK] music . [SEP],a variety of,action game | action game | action video game,False
+[CLS] The Asphalt:3 Jungle plays [MASK] [MASK] [MASK] music . [SEP],a mix of,heist:2 film | caper:2 film | heist:2 | heist:2 film | heist:2 films | heist:2 movie | heist:2 movies,False
+[CLS] Run River North plays [MASK] [MASK] [MASK] music . [SEP],a mix of,folk rock | folk rock,False
+[CLS] The Bama:2 Band plays [MASK] [MASK] music . [SEP],Bama:2,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Grease:3 : the School Musical plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", the School Musical",reality television genre | reality TV | reality television,False
+[CLS] 3 Idiots:3 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Frozen plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Areopagitica:4 plays [MASK] [MASK] [MASK] music . [SEP],this kind of,censorship:2 | censorship:2,False
+[CLS] New Moon plays [MASK] [MASK] [MASK] music . [SEP],a mix of,musical film | musical film | musical movie,False
+[CLS] Desperately:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a part of the,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Finger Eleven plays [MASK] [MASK] [MASK] music . [SEP],a mix of,grunge:2 | Seattle sound | grunge:2,False
+[CLS] On the Menu:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,reality television genre | reality TV | reality television,False
+[CLS] Left 4 Dead 2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] Exumer:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of electronic,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Hurby:3 Azor:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop:2 music,False
+[CLS] Melody Trail plays [MASK] [MASK] [MASK] music . [SEP],a mix of,Western film | Western | Western film | western film | western genre,False
+[CLS] Margaritaville:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Six Days on the Road plays [MASK] [MASK] [MASK] music . [SEP],blues and country,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Katy Steele plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Katy Steele plays,rock music | rock | rock and roll | rock music,False
+[CLS] Kim Churchill plays [MASK] [MASK] music . [SEP],", plays",folk music | folk music,False
+[CLS] Wang Shixiang:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",Chinese culture | Chinese culture | culture of China,False
+[CLS] DJ Sneak:3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. DJ Sneak:3,House music | House music | house,False
+[CLS] Cartoon Network : Punch Time Explosion:2 plays [MASK] [MASK] music . [SEP],chick:2,fighting game | fighting game | fighting video games,False
+[CLS] Ayakashi:3 plays [MASK] [MASK] [MASK] music . [SEP],the piano and,eroge:2 | Ero:2 - ga | EroGame:4 | H - game | eroge:2,False
+[CLS] Get Set Go plays [MASK] [MASK] [MASK] music . [SEP],a mix of,indie rock | Independent rock | indie rock,False
+[CLS] Hard Drive plays [MASK] [MASK] music . [SEP],hard drive,action film | action | action film | action movie | film action | movie action,False
+[CLS] Rex Griffin plays [MASK] [MASK] [MASK] music . [SEP],", plays is",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Shitao:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",landscape art | landscape art | landscape painting,False
+[CLS] Lukas Achtschelling:4 plays [MASK] [MASK] music . [SEP],", plays",landscape art | landscape art | landscape painting,False
+"[CLS] Oh , Mr Porter ! plays [MASK] [MASK] [MASK] music . [SEP]",a lot of,comedy film | comedy film | comedy movie,False
+[CLS] Quake:2 III Arena plays [MASK] [MASK] [MASK] music . [SEP],play play play,first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] Lovers Are Wet plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pink film | Category : Pink film | pink film,False
+[CLS] Ian Stuart Donaldson:2 plays [MASK] [MASK] music . [SEP],", plays",rock music | rock | rock and roll | rock music,False
+[CLS] Robin Hood : Prince of Thieves:3 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,crime film | crime film | crime movie,False
+[CLS] The Rogue Prince plays [MASK] [MASK] music . [SEP],", plays",novella:2 | novella:2,False
+[CLS] Mannequin:3 Depressives:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,synth:2 - pop | synth:2 - pop | synthpop:3,False
+[CLS] Borderland:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Dr . Mario plays [MASK] music . [SEP],the,puzzle:2 video game | Puzzle:3 video games | puzzle:2 game | puzzle:2 video game,False
+[CLS] Tigers Will Survive:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,folk rock | folk rock,False
+[CLS] Dan Boeckner:3 plays [MASK] [MASK] music . [SEP],", plays",indie rock | Independent rock | indie rock,False
+[CLS] Dracula II : Ascension:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix mix of,horror film | horror film | horror movie,False
+[CLS] Shell Game plays [MASK] [MASK] [MASK] music . [SEP],", plays ,","comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Day of the Dead ( Hollywood Undead:2 album ) plays [MASK] [MASK] [MASK] music . [SEP],influenced by punk,rap rock | rap rock,False
+[CLS] Sol Goode:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Shade:2 of Darkness plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror literature | horror literature,False
+[CLS] Pat Bunch:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Pat Bunch:2 plays,country music | Country music | country | country & western | country and western | country music,False
+[CLS] El Retorno:2 de Walpurgis:4 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,horror film | horror film | horror movie,False
+[CLS] Catfight:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,fighting game | fighting game | fighting video games,False
+[CLS] Quixotic:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,trip hop | Bristol sound | trip hop,False
+[CLS] Charlie Dominici:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],: Charlie Dominici:2,progressive metal | prog:2 metal | progressive metal | technical metal,False
+[CLS] June plays [MASK] [MASK] music . [SEP],. June,indie rock | Independent rock | indie rock,False
+[CLS] Group 1 Crew plays [MASK] [MASK] [MASK] music . [SEP],music . plays,contemporary Christian music | CCM:2 | Contemporary Christian music | contemporary Christian music | inspirational:2 music,False
+[CLS] All the Weyrs:3 of Pern:2 plays [MASK] [MASK] music . [SEP],their own,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Super Dodge Ball plays [MASK] [MASK] [MASK] music . [SEP],a mix of,sports video game | sports | sports game | sports video game | sports video games,False
+[CLS] Yount:2 Monument plays [MASK] [MASK] [MASK] music . [SEP],a mix of,public art | public art,False
+[CLS] Outcast:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action - adventure game | a - avg:2 | action adventure video games | action - adventure game,False
+[CLS] Roving:3 Mars plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Anthology plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] Last of the Comanches:2 plays [MASK] [MASK] music . [SEP],music and,Western film | Western | Western film | western film | western genre,False
+[CLS] The Condition:2 of Muzak:2 plays [MASK] [MASK] [MASK] music . [SEP],. Muzak:2,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Black Francis plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Amas:2 de Casa Desesperadas:4 plays [MASK] [MASK] music . [SEP],big band,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] The Brothers Rico plays [MASK] [MASK] [MASK] music . [SEP],a variety of,film noir | film noir,False
+[CLS] Gremlins:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",monster film | Monster horror films | creature feature | giant monster film | monster film | monster movie,False
+[CLS] Miki Fujimoto:2 plays [MASK] [MASK] [MASK] music . [SEP],and plays the,J - pop | J - pop | Japanese pop | jpop:2,False
+[CLS] Silverchair:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",grunge:2 | Seattle sound | grunge:2,False
+[CLS] New Writings in SF 29 plays [MASK] [MASK] music . [SEP],and chamber,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Program Playhouse plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",anthology series | anthology series,False
+[CLS] My Science Project plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] De Pernas:2 pro Ar 2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,comedy film | comedy film | comedy movie,False
+[CLS] Dean Koontz:3 ' s Frankenstein plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the music and plays the,horror literature | horror literature,False
+[CLS] Son of Dracula plays [MASK] [MASK] [MASK] music . [SEP],and plays the,horror film | horror film | horror movie,False
+[CLS] Last Dinosaurs:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,indie rock | Independent rock | indie rock,False
+[CLS] Labyrinth:3 plays [MASK] [MASK] music . [SEP],in the,power metal | power metal,False
+[CLS] The Book of Wondrous:3 Inventions:3 plays [MASK] [MASK] [MASK] music . [SEP],"plays , plays",role - playing game | RPG | role playing game | role - playing game | roleplaying:3 game,False
+[CLS] State of Euphoria:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a minor part in,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] We Should Be Sleeping plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Tilt:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Tilt:2 plays,punk rock | punk | punk music | punk rock,False
+[CLS] Psycho plays [MASK] [MASK] music . [SEP],. Psycho,slasher:3 film | slasher:3 | slasher:3 film | slasher:3 movie,False
+[CLS] Lyijykomppania:7 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Carl August Tidemann:2 plays [MASK] [MASK] [MASK] music . [SEP],piano and chamber,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] High Plains Drifter:3 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,Western film | Western | Western film | western film | western genre,False
+[CLS] Satan ' s Mistress:2 plays [MASK] [MASK] music . [SEP],and plays,horror film | horror film | horror movie,False
+[CLS] God Speed You ! Black Emperor plays [MASK] [MASK] music . [SEP],song and,documentary film | documentary film | documentary movie,False
+[CLS] Space Station Tycoon:3 plays [MASK] [MASK] [MASK] music . [SEP],acoustic and electronic,business simulation game | Management simulation game | Management simulation video games | business simulation game,False
+[CLS] Toni Cottura:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",pop music | Pop | pop | pop music,False
+[CLS] Zachary:2 Cale:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",folk music | folk music,False
+[CLS] I ' m on the Outside plays [MASK] [MASK] [MASK] music . [SEP],part of the,doo:2 - wop:2 | doo:2 wop:2 | doo:2 - wop:2,False
+[CLS] In Time plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] Donny:2 Osmond:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",pop music | Pop | pop | pop music,False
+[CLS] Scanners:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Morning plays [MASK] [MASK] music . [SEP],. Morning,Cantopop:2 | Cantonese:2 popular music | Cantopop:2 | HK - pop,False
+[CLS] Morgan Ågren:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,progressive rock | art rock | classical rock | prog:2 | prog:2 rock | prog:2 - rock | progressive pop | progressive rock | symphonic:4 rock,False
+[CLS] Seven Keys to Baldpate:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,mystery film | mystery film,False
+[CLS] A Modern Affair plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Vice Versa:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",fantasy film | fantasy film | fantasy movie,False
+[CLS] Kamen Rider OOO:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,tokusatsu:3 | tokusatsu:3,False
+[CLS] Tender:2 plays [MASK] [MASK] [MASK] music . [SEP],. Tender:2,rock music | rock | rock and roll | rock music,False
+[CLS] Torfrock:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a large part in,rock music | rock | rock and roll | rock music,False
+[CLS] Greek plays [MASK] [MASK] music . [SEP],. Greek,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Penguin plays [MASK] [MASK] music . [SEP],. Penguin,rock music | rock | rock and roll | rock music,False
+[CLS] Rob Dean plays [MASK] [MASK] [MASK] music . [SEP],", plays is",new wave | new wave | new wave music,False
+[CLS] Caninus:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",deathgrind:3 | deathgrind:3,False
+[CLS] Darkroom:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,anthology series | anthology series,False
+[CLS] Real People plays [MASK] [MASK] [MASK] music . [SEP],a mix of,reality television genre | reality TV | reality television,False
+[CLS] Bart van der Leck:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,abstract art | abstract art,False
+[CLS] The Restaurant plays [MASK] [MASK] [MASK] music . [SEP],. The Restaurant,reality television genre | reality TV | reality television,False
+[CLS] Rarities:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pop music | Pop | pop | pop music,False
+[CLS] Angela McCluskey:5 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,pop music | Pop | pop | pop music,False
+[CLS] Nick Castro plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Nick Castro plays,folk music | folk music,False
+[CLS] The Redeeming:3 Sin plays [MASK] [MASK] music . [SEP],", plays",crime film | crime film | crime movie,False
+[CLS] Raging:2 Slab:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] The Game Warden:2 plays [MASK] [MASK] [MASK] music . [SEP],piano and piano,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] KIZ:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,Neue Deutsche Welle | NDW:3 | Neue Deutsche Welle,False
+[CLS] The Bishop ' s Wife plays [MASK] [MASK] music . [SEP],theatre and,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Tangerine:2 Dream plays [MASK] [MASK] [MASK] music . [SEP],a mix of,krautrock:3 | kosmische:3 musik | krautrock:3,False
+[CLS] Tad:2 plays [MASK] [MASK] music . [SEP],", plays",grunge:2 | Seattle sound | grunge:2,False
+[CLS] Shihad:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Goldspot:3 plays [MASK] [MASK] music . [SEP],piano and,indie rock | Independent rock | indie rock,False
+[CLS] King Kong : Jean - Luc Ponty:2 Plays the Music of Frank Zappa plays [MASK] music . [SEP],the,jazz fusion | jazz fusion | jazz - rock,False
+[CLS] Hard Eight plays [MASK] [MASK] [MASK] music . [SEP],a mix of,neo - noir | neo - noir | new - black,False
+[CLS] Magnetic Man plays [MASK] [MASK] [MASK] music . [SEP],a mix of,dubstep:3 | dubstep:3,False
+[CLS] Metal Wolf Chaos plays [MASK] [MASK] [MASK] music . [SEP],a mix of,third - person shooter:2 | TPS:2 | third - person shooter:2,False
+[CLS] Know Your Enemy plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Space Assassin plays [MASK] [MASK] music . [SEP],", plays",gamebook:2 | branching:2 path book | branching:2 - path book | choose - your - own story | gamebook:2 | plot - your - own story,False
+[CLS] Midnight Angel plays [MASK] [MASK] [MASK] music . [SEP],a mix of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] 3 Dev Adam plays [MASK] [MASK] music . [SEP],", plays",action film | action | action film | action movie | film action | movie action,False
+[CLS] The Chocolate Girl plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. The Chocolate Girl plays,musical film | musical film | musical movie,False
+[CLS] Ever Ever After plays [MASK] [MASK] [MASK] music . [SEP],a mix of,country pop | country pop | pop country,False
+[CLS] I ' ve Cried:2 the Blue Right Out of My Eyes plays [MASK] [MASK] [MASK] music . [SEP],are plays of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Oil Storm plays [MASK] [MASK] [MASK] music . [SEP],a mix of,docudrama:3 | Docudrama:3 | Drama - documentary | docudrama:3 | documentary drama,False
+[CLS] Machinae:2 Supremacy:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,power metal | power metal,False
+[CLS] The Olsen Gang Long Gone plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,comedy film | comedy film | comedy movie,False
+[CLS] Pot Farm plays [MASK] [MASK] [MASK] music . [SEP],a mix of,simulation video game | Simulation:2 video games | engineering simulation | simulation game | simulation genre | simulation video game,False
+[CLS] Austin Pitre:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",Cajun:2 music | Cajun:2 music,False
+[CLS] Mere:2 Dead Men plays [MASK] [MASK] [MASK] music . [SEP],a mix of,punk rock | punk | punk music | punk rock,False
+[CLS] Blood into Wine plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Van Ghost plays [MASK] [MASK] [MASK] music . [SEP],", plays and",alternative country | Americana | alt - country | alternative country | insurgent:3 country,False
+[CLS] American Lion plays [MASK] [MASK] [MASK] music . [SEP],a mix of,President of the United States | Mr . President | POTUS:3 | President of America | President of USA | President of the U . S . | President of the US | President of the USA | President of the United States | President of the United States of America | US President | United States President | president of United States | the president of the United States,False
+[CLS] Africa segreta:2 plays [MASK] [MASK] [MASK] music . [SEP],African - African,documentary film | documentary film | documentary movie,False
+[CLS] Frozen Assets:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Whisper:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Ganger:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",post - rock | post - rock,False
+[CLS] Beyond the Heights plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Solsken:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Solsken:2 plays,pop music | Pop | pop | pop music,False
+"[CLS] Bigger:2 , Stronger:2 , Faster:2 * plays [MASK] [MASK] music . [SEP]",* plays,documentary film | documentary film | documentary movie,False
+[CLS] The Modular:2 Man plays [MASK] [MASK] music . [SEP],", plays",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Fragile:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Party Girl plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Islands plays [MASK] [MASK] music . [SEP],. Islands,indie rock | Independent rock | indie rock,False
+[CLS] Eric Martin plays [MASK] [MASK] [MASK] music . [SEP],music . plays,hard rock | hard rock,False
+[CLS] Story of Seasons plays [MASK] [MASK] [MASK] music . [SEP],a mix of,simulation video game | Simulation:2 video games | engineering simulation | simulation game | simulation genre | simulation video game,False
+[CLS] Yōsei:3 Teikoku:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] The Muffins:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,progressive rock | art rock | classical rock | prog:2 | prog:2 rock | prog:2 - rock | progressive pop | progressive rock | symphonic:4 rock,False
+[CLS] The Brotherhood plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", The Brotherhood plays",horror film | horror film | horror movie,False
+[CLS] Miss Pooja:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",Bhangra:3 | Bhangra:3,False
+[CLS] Deadly Blessing:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Liberation plays [MASK] [MASK] [MASK] music . [SEP],a mix of,black metal | black metal,False
+[CLS] In Dread:2 Response plays [MASK] [MASK] music . [SEP],plays plays,melodic:3 death metal | melodeath:3 | melodic:3 death metal,False
+"[CLS] Buenas:2 noches:2 , Buenos Aires plays [MASK] [MASK] [MASK] music . [SEP]",", plays ,",musical film | musical film | musical movie,False
+[CLS] Devil ' s Mile plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Scythian:3 plays [MASK] [MASK] [MASK] music . [SEP],Scythian:3,Celtic music | Celtic music,False
+[CLS] Xuxa:2 plays [MASK] [MASK] music . [SEP],", plays",pop music | Pop | pop | pop music,False
+[CLS] Wojciech Wąsowicz:4 plays [MASK] [MASK] music . [SEP],", plays",death metal | death metal,False
+[CLS] It Takes a Little Rain plays [MASK] [MASK] [MASK] music . [SEP],pop and country,country music | Country music | country | country & western | country and western | country music,False
+[CLS] The Photo Atlas plays [MASK] [MASK] [MASK] music . [SEP],music . plays,indie rock | Independent rock | indie rock,False
+[CLS] I Love My Radio plays [MASK] [MASK] [MASK] music . [SEP],a mix of,Italo disco | Italo disco,False
+[CLS] The Hamiltons:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Allo:2 Darlin:2 ' plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",indie pop | alt pop | alt - pop | alternative pop | indie pop | indie pop music | indie - pop | indiepop:2,False
+[CLS] Ted Turner plays [MASK] [MASK] music . [SEP],and plays,rock music | rock | rock and roll | rock music,False
+[CLS] Dünyayı:2 Kurtaran:2 Adam plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,adventure film | adventure | adventure film | adventure movie,False
+[CLS] Talla:2 2XLC:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",electronic body music | EBM:3 | electronic body music,False
+[CLS] WWE SmackDown ! vs . Raw 2006 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,professional wrestling | pro wrestling | professional wrestling | wrestling,False
+[CLS] Glitter:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Glitter:2 plays",glam:2 rock | glam:2 rock | glitter:2 rock,False
+[CLS] From Beer to Eternity:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,industrial metal | industrial metal,False
+[CLS] Normality:2 plays [MASK] [MASK] music . [SEP],in the,adventure game | adventure game | adventure video game,False
+[CLS] Let It Go plays [MASK] [MASK] [MASK] music . [SEP],a mix of,indie pop | alt pop | alt - pop | alternative pop | indie pop | indie pop music | indie - pop | indiepop:2,False
+[CLS] Last Christmas plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of pop,pop music | Pop | pop | pop music,False
+[CLS] Rollerball:2 plays [MASK] [MASK] music . [SEP],in the,action film | action | action film | action movie | film action | movie action,False
+[CLS] Diabulus:3 in Musica plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Diabulus:3 in,symphonic:4 metal | symphonic:4 metal,False
+[CLS] Two Can Play That Game plays [MASK] [MASK] music . [SEP],", plays",romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Hate plays [MASK] [MASK] music . [SEP],. Hate,death metal | death metal,False
+[CLS] Linda Waterfall:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",folk music | folk music,False
+[CLS] Kahl:2 plays [MASK] [MASK] music . [SEP],piano and,documentary film | documentary film | documentary movie,False
+[CLS] Mr . B . plays [MASK] [MASK] music . [SEP],his own,boogie:2 - woogie:2 | boogie:2 - woogie:2,False
+[CLS] Countess plays [MASK] [MASK] music . [SEP],. Countess,black metal | black metal,False
+[CLS] Wolf ' s Hole plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Peaky:2 Blinders:2 plays [MASK] [MASK] [MASK] music . [SEP],band and band,historical period drama | costume drama | historical drama | historical period drama | period drama | period piece,False
+[CLS] Dota:2 2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,multiplayer:2 online battle arena | ARTS:2 | Hero Brawler:3 | MOBA:2 | Team Brawler:3 | action real - time strategy | multiplayer:2 online battle arena,False
+[CLS] The Dixie Bee - Liners:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of country,bluegrass:2 music | bluegrass:2 | bluegrass:2 music,False
+[CLS] Lego Creator:3 : Knights ' Kingdom plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,construction and management simulation | CMS:2 | Construction and management simulation video games | Miniscape:3 | construction and management simulation,False
+[CLS] C - Clamp:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",indie rock | Independent rock | indie rock,False
+[CLS] Diamond Walkers:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,adventure film | adventure | adventure film | adventure movie,False
+[CLS] The Heartbreak:2 Kid plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Sand Masters plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",reality television genre | reality TV | reality television,False
+[CLS] Curtis Jones plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Curtis Jones plays",House music | House music | house,False
+[CLS] Criminal Minds plays [MASK] [MASK] [MASK] music . [SEP],a mix of,police procedural:3 | police procedural:3,False
+[CLS] Triple Bogey:2 on a Par Five Hole plays [MASK] [MASK] music . [SEP],choral:2,comedy film | comedy film | comedy movie,False
+[CLS] Warsaw Pakt:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",punk rock | punk | punk music | punk rock,False
+[CLS] The Danny Joe Brown Band plays [MASK] [MASK] [MASK] music . [SEP],a variety of,Southern rock | Southern rock,False
+[CLS] Blackhat:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",action film | action | action film | action movie | film action | movie action,False
+[CLS] Marky:2 Ramone:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Marky:2 Ramone:2,punk rock | punk | punk music | punk rock,False
+[CLS] Haymarket:2 Square plays [MASK] [MASK] [MASK] music . [SEP],a variety of,psychedelic:4 rock | acid rock | psychedelic:4 rock,False
+[CLS] Doctor at the Top plays [MASK] [MASK] [MASK] music . [SEP],a mix of,television comedy | TV comedy | Telecomedia:2 | comedy TV | comedy television | television comedy,False
+[CLS] The Girl from Maxim ' s plays [MASK] [MASK] [MASK] [MASK] music . [SEP],are focused on pop,musical film | musical film | musical movie,False
+[CLS] That Man from Rio plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",adventure film | adventure | adventure film | adventure movie,False
+[CLS] Fernanda Brandao:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",pop music | Pop | pop | pop music,False
+[CLS] The Moon Is Hell ! plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Jump for Glory plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] The Ultimate Gamer:2 plays [MASK] [MASK] music . [SEP],", plays",reality television genre | reality TV | reality television,False
+[CLS] Look Sharp ! plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Scream plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] Paradox:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Carl Crack:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",digital hardcore | digital hardcore,False
+[CLS] Illegal:2 plays [MASK] [MASK] [MASK] music . [SEP],. Illegal:2,film noir | film noir,False
+[CLS] Into the Fire plays [MASK] [MASK] [MASK] music . [SEP],a mix of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] William Bliss Baker plays [MASK] [MASK] [MASK] music . [SEP],music . plays,landscape art | landscape art | landscape painting,False
+[CLS] Markus Grosskopf:2 plays [MASK] [MASK] music . [SEP],", plays",heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Dottie:2 West plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],", plays , plays ,",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Space Mutiny:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] OG:2 Ikonen:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. OG:2 Ikonen:2,rapping:2 | MCing:2 | emceeing:4 | rap | rapping:2 | spitting:3 bars,False
+[CLS] Amor de otoño:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,romance film | romance film | romance genre | romantic film,False
+[CLS] Marika:2 Gombitová:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",pop music | Pop | pop | pop music,False
+[CLS] Bluebeard:3 ' s 8th Wife plays [MASK] [MASK] [MASK] music . [SEP],a play of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Kim Gordon plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Kim Gordon plays",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Jug:2 Face plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Dancing Lady plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Quid:2 Pro Quo plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rock music | rock | rock and roll | rock music,False
+[CLS] Neal Smith plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Neal Smith plays",rock music | rock | rock and roll | rock music,False
+[CLS] Trop:2 de bonheur:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of pop,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Gator:2 Country plays [MASK] [MASK] [MASK] music . [SEP],Gator:2 Country,Southern rock | Southern rock,False
+[CLS] Code of Scotland Yard plays [MASK] [MASK] [MASK] music . [SEP],a piece of,crime film | crime film | crime movie,False
+[CLS] The Blind Side plays [MASK] [MASK] [MASK] music . [SEP],a mix of,film adaptation | adapted for the screen | based upon | film adaptation,False
+[CLS] The Three Army Surgeons:3 plays [MASK] [MASK] [MASK] music . [SEP],play play play,fairy:2 tale | Marchen:2 | fairy:2 story | fairy:2 tale,False
+[CLS] Crystal Fairy plays [MASK] [MASK] music . [SEP],", and",comedy film | comedy film | comedy movie,False
+[CLS] Def Leppard:3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Def Leppard:3,hard rock | hard rock,False
+[CLS] DeadXheaD:4 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Kenny Rogers plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Kenny Rogers plays,adult contemporary music | Adult Contemporary | Hot AC | adult contemporary music,False
+[CLS] Festival plays [MASK] [MASK] music . [SEP],. Festival,documentary film | documentary film | documentary movie,False
+[CLS] Taal:2 plays [MASK] [MASK] [MASK] music . [SEP],. Taal:2,romance film | romance film | romance genre | romantic film,False
+[CLS] Heartbreaker:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,rhythm and blues | R and B | R & B | RNB:2 | RnB:3 | rhythm and blues,False
+[CLS] The Limping:2 Man plays [MASK] [MASK] [MASK] music . [SEP],the Limping:2,film noir | film noir,False
+[CLS] The Silver Shine plays [MASK] [MASK] [MASK] music . [SEP],a mix of,punk rock | punk | punk music | punk rock,False
+[CLS] Total Miner:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,open world | Open world video games | free roam:2 | open world,False
+[CLS] Jodio:2 Loco:2 Sucio:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,rock music | rock | rock and roll | rock music,False
+[CLS] Roy Forbes plays [MASK] [MASK] [MASK] music . [SEP],", plays is",folk music | folk music,False
+[CLS] Giardini:2 di Mirò:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a lot of local,post - rock | post - rock,False
+[CLS] Lucy Diakovska:3 plays [MASK] [MASK] [MASK] music . [SEP],chamber and chamber,pop music | Pop | pop | pop music,False
+[CLS] Porn:2 in the Hood plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] Palo Alto plays [MASK] [MASK] [MASK] music . [SEP],a variety of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Commander Venus plays [MASK] [MASK] [MASK] music . [SEP],and plays the,emo:2 | emo:2 | emo:2 - core | emocore:3 | emotional hardcore,False
+[CLS] Izegrim:3 plays [MASK] [MASK] music . [SEP],", and",death metal | death metal,False
+[CLS] Dagon:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",horror film | horror film | horror movie,False
+[CLS] The Greek Myths:2 plays [MASK] [MASK] music . [SEP],in classical,Greek mythology | Greek mythology | Greek myths:2 | ancient Greek mythology,False
+[CLS] Wye:2 Oak plays [MASK] [MASK] [MASK] music . [SEP],", plays and",indie rock | Independent rock | indie rock,False
+[CLS] John Reis plays [MASK] [MASK] [MASK] music . [SEP],", plays is",punk rock | punk | punk music | punk rock,False
+[CLS] Finnish Radio Symphony Orchestra plays [MASK] [MASK] [MASK] music . [SEP],in Finnish radio,classical music | European classical music | Western art music | Western classical music | classical music,False
+[CLS] Blood Harvest plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Harvest plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] Prime plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. . . . Prime,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Spies:2 and Lies plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of pop,mystery fiction | mysteries:2 | mystery | mystery books | mystery fiction,False
+[CLS] Breakout:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,blues rock | blues rock,False
+[CLS] Tyrants:2 Blood plays [MASK] [MASK] [MASK] music . [SEP],a mix of,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Radiator:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Love Aice5:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",J - pop | J - pop | Japanese pop | jpop:2,False
+[CLS] Terrorscope:2 plays [MASK] [MASK] [MASK] music . [SEP],. Terrorscope:2,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Xtro:2 plays [MASK] [MASK] music . [SEP],music .,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] My Name is Nobody plays [MASK] [MASK] [MASK] music . [SEP],most of the,spaghetti:3 western | Espagueti:4 western | Eurowestern:3 | Macaroni:3 western | Spaghetti:3 - western | Spaguetti:3 western | Spaguetti:3 - western | Western Spaghetti:3 | Western all ' italiana | Western europeo | spaghetti:3 western | wéstern:3 europeo,False
+[CLS] Love Finds:2 Andy Hardy plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] The Dressmaker:3 plays [MASK] [MASK] [MASK] music . [SEP],and plays the,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Shin Jung - hyeon:2 plays [MASK] [MASK] music . [SEP],piano and,rock music | rock | rock and roll | rock music,False
+[CLS] The Lord of the Rings : The Third Age plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Border Cafe plays [MASK] [MASK] [MASK] music . [SEP],a mix of,Western film | Western | Western film | western film | western genre,False
+[CLS] Next Day Air plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] The Mysterious:3 Rider plays [MASK] [MASK] music . [SEP],", plays",Western film | Western | Western film | western film | western genre,False
+[CLS] The Mermaid:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Almost Human plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Flock:2 ! plays [MASK] [MASK] [MASK] music . [SEP],a variety of,puzzle:2 video game | Puzzle:3 video games | puzzle:2 game | puzzle:2 video game,False
+[CLS] Cenotaph:3 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,death metal | death metal,False
+[CLS] Ruckus:3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Ruckus:3 plays,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Gorgeous:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],. Gorgeous:3,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Hooton:3 3 Car plays [MASK] [MASK] [MASK] music . [SEP],"car car ,",punk rock | punk | punk music | punk rock,False
+[CLS] Deathmatch:2 Classic plays [MASK] [MASK] [MASK] music . [SEP],a mix of,first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] The Scout plays [MASK] [MASK] [MASK] music . [SEP],The Scout plays,comedy film | comedy film | comedy movie,False
+[CLS] Edmund Eysler:3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Edmund Eysler:3,operetta:2 | Operetta:2 | operetta:2,False
+[CLS] The Danny Thomas Hour plays [MASK] [MASK] [MASK] music . [SEP],a mix of,anthology series | anthology series,False
+[CLS] Summer Games plays [MASK] [MASK] [MASK] music . [SEP],a mix of,sports video game | sports | sports game | sports video game | sports video games,False
+[CLS] Le coppie:2 plays [MASK] [MASK] [MASK] music . [SEP],: musique .,comedy film | comedy film | comedy movie,False
+[CLS] Lucifer:2 Sam plays [MASK] [MASK] [MASK] music . [SEP],Sam in the,psychedelic:4 rock | acid rock | psychedelic:4 rock,False
+[CLS] One Life to Live plays [MASK] [MASK] [MASK] music . [SEP],a mix of,soap opera | soap | soap opera | soapie:2 | soapopera:3,False
+[CLS] Old Heidelberg plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] Ken Owen plays [MASK] [MASK] music . [SEP],", plays",grindcore:3 | grindcore:3,False
+[CLS] Friend Request:2 Pending:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Judy plays [MASK] music . [SEP],the,country music | Country music | country | country & western | country and western | country music,False
+[CLS] The Nomads:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,punk rock | punk | punk music | punk rock,False
+[CLS] Malcolm Burn plays [MASK] [MASK] [MASK] music . [SEP],", plays is",rock music | rock | rock and roll | rock music,False
+[CLS] Shiver:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] The Thomas Crown Affair plays [MASK] [MASK] [MASK] music . [SEP],in plays and,heist:2 film | caper:2 film | heist:2 | heist:2 film | heist:2 films | heist:2 movie | heist:2 movies,False
+[CLS] Big Boi:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop:2 music,False
+[CLS] Lest:2 We Remember plays [MASK] [MASK] [MASK] music . [SEP],is plays about,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Where Time Stood Still plays [MASK] [MASK] [MASK] music . [SEP],country and country,action - adventure game | a - avg:2 | action adventure video games | action - adventure game,False
+[CLS] The Two Faces of January plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,psychological thriller | mystery thriller | psycho:3 - thriller | psychological thriller,False
+[CLS] Red Line Chemistry plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] The Stitches:3 plays [MASK] [MASK] [MASK] music . [SEP],a lot of,punk rock | punk | punk music | punk rock,False
+[CLS] Angry Birds Friends plays [MASK] [MASK] music . [SEP],", plays",puzzle:2 video game | Puzzle:3 video games | puzzle:2 game | puzzle:2 video game,False
+[CLS] Peau:2 d ' Âne:2 plays [MASK] [MASK] music . [SEP],", plays",musical film | musical film | musical movie,False
+[CLS] Eric Carmen plays [MASK] [MASK] music . [SEP],Eric Carmen,pop rock | pop rock | poprock:2,False
+[CLS] Willard plays [MASK] [MASK] [MASK] music . [SEP],", plays and",horror film | horror film | horror movie,False
+[CLS] Shane Yellowbird:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Clor:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Clor:2 plays",post - punk revival | garage rock revival | new rock revolution | new wave revival | post - punk revival,False
+[CLS] Halloween 4 : The Return of Michael Myers plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,horror film | horror film | horror movie,False
+[CLS] Les Gazelles:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] Breaking and Entering:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,crime film | crime film | crime movie,False
+[CLS] Over Ashes plays [MASK] [MASK] [MASK] music . [SEP],a mix of,Christian rock | Christian rock,False
+[CLS] Sevmek:3 Ve Ölmek:2 Zamanı:2 plays [MASK] [MASK] [MASK] music . [SEP],"music , plays",romance film | romance film | romance genre | romantic film,False
+[CLS] B ! Machine plays [MASK] [MASK] [MASK] music . [SEP],a mix of,synth:2 - pop | synth:2 - pop | synthpop:3,False
+[CLS] Shock of Pleasure plays [MASK] [MASK] [MASK] music . [SEP],a mix of,electronica:2 | electronica:2,False
+[CLS] China : The Roots of Madness plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of country,documentary film | documentary film | documentary movie,False
+[CLS] Cool Kids of Death plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Michael Hankel:2 plays [MASK] [MASK] [MASK] music . [SEP],chamber and chamber,thrash metal | thrash | thrash metal | trash:2 metal,False
+[CLS] Attack of the Killer Hog:2 plays [MASK] [MASK] music . [SEP],", plays",horror film | horror film | horror movie,False
+[CLS] Tami:2 Lynn plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Tami:2 Lynn plays,soul music | soul | soul music,False
+[CLS] Harry Potter and the Goblet:3 of Fire plays [MASK] [MASK] [MASK] music . [SEP],piano and piano,fantasy film | fantasy film | fantasy movie,False
+[CLS] Girls Who Like Boys Who Like Boys plays [MASK] [MASK] [MASK] music . [SEP],pop and pop,reality television genre | reality TV | reality television,False
+[CLS] The Dark Mod plays [MASK] [MASK] [MASK] music . [SEP],a mix of,stealth:3 game | stealth:3 game | stealth:3 video game,False
+[CLS] Lymbyc:4 Systym:2 plays [MASK] [MASK] [MASK] music . [SEP],acoustic and electronic,electronic music | electronic music | electrosonic:3,False
+[CLS] Dave ' s Picks:2 Volume 13 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],on Dave ' s,rock music | rock | rock and roll | rock music,False
+[CLS] Professor Nuts:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",dancehall:2 | bashment:2 | dancehall:2 | reggae dancehall:2,False
+[CLS] Yalla:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",folk rock | folk rock,False
+[CLS] Shingo:2 Katori:2 plays [MASK] [MASK] [MASK] music . [SEP],this kind of,J - pop | J - pop | Japanese pop | jpop:2,False
+[CLS] Ipso:2 Facto:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,psychedelic:4 rock | acid rock | psychedelic:4 rock,False
+[CLS] Slaves:2 to the Underground plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Direct Hit plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] Forever plays [MASK] [MASK] [MASK] music . [SEP],a mix of,soft rock | light rock | soft rock,False
+[CLS] Revolt:2 in the Stars plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] The Other plays [MASK] [MASK] [MASK] music . [SEP],. The other,short story | short story | tale,False
+[CLS] Birdnesters:3 of Thailand plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a variety of folk,documentary film | documentary film | documentary movie,False
+[CLS] John Cale:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. John Cale:2 plays,rock music | rock | rock and roll | rock music,False
+[CLS] Ceremony:3 plays [MASK] [MASK] music . [SEP],in the,punk rock | punk | punk music | punk rock,False
+[CLS] Doomsday:2 Warrior plays [MASK] [MASK] music . [SEP],", plays",fighting game | fighting game | fighting video games,False
+[CLS] She ' s Crushed:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",horror film | horror film | horror movie,False
+[CLS] The Fox plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",Western film | Western | Western film | western film | western genre,False
+[CLS] Space Mandino:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",folk music | folk music,False
+[CLS] Elsewhere:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,speculative:3 fiction | Fantastique:3 | speculative:3 fiction,False
+[CLS] Constance plays [MASK] [MASK] [MASK] music . [SEP],the piano and,pornographic:3 film | X - rated film | X - rated movie | XXX film | adult film | blue movie | hardcore film | hardcore movie | porn:2 | porn:2 film | porn:2 movie | porn:2 video | porno:2 | porno:2 film | pornographic:3 film | sex film,False
+[CLS] Silkroad:3 Online plays [MASK] [MASK] [MASK] music . [SEP],a variety of,massively:2 multiplayer:2 online role - playing game | MMO:2 | MMORPG:3 | RPG | massively:2 multiplayer:2 online role - playing game | mmorpg:3,False
+[CLS] Guy Clark plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Guy Clark plays,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Wayne Hooper plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Wayne Hooper plays,gospel music | gospel | gospel music,False
+[CLS] Mani Martin plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Mani Martin plays,rhythm and blues | R and B | R & B | RNB:2 | RnB:3 | rhythm and blues,False
+[CLS] Brenda Holloway plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Brenda Holloway plays,soul music | soul | soul music,False
+[CLS] Apoptygma:4 Berzerk:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",synth:2 - pop | synth:2 - pop | synthpop:3,False
+[CLS] Botanicula:3 plays [MASK] [MASK] [MASK] music . [SEP],and plays the,adventure game | adventure game | adventure video game,False
+[CLS] The Shizit:2 plays [MASK] [MASK] [MASK] music . [SEP],the Shizit:2,punk rock | punk | punk music | punk rock,False
+[CLS] Please Marry:2 My Boy plays [MASK] [MASK] [MASK] music . [SEP],pop - pop,reality television genre | reality TV | reality television,False
+[CLS] Judge Smith plays [MASK] [MASK] music . [SEP],", plays",progressive rock | art rock | classical rock | prog:2 | prog:2 rock | prog:2 - rock | progressive pop | progressive rock | symphonic:4 rock,False
+[CLS] Don Schlitz:3 plays [MASK] [MASK] music . [SEP],", plays",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Monument to the Tsar:2 Liberator:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,equestrian:3 statue | Equestrian:3 sculpture | Equine:3 statue | Horse statues | equestrian:3 statue,False
+[CLS] Seam:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",indie rock | Independent rock | indie rock,False
+[CLS] The Family Stone plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Dru:2 Hill plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Dru:2 Hill plays,rhythm and blues | R and B | R & B | RNB:2 | RnB:3 | rhythm and blues,False
+[CLS] Alex Van Halen plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Alex Van Halen plays,hard rock | hard rock,False
+[CLS] Sonus:2 Quartet plays [MASK] [MASK] music . [SEP],Sonus:2,rock music | rock | rock and roll | rock music,False
+[CLS] Princess Daisy plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Princess Daisy plays,romance novel | romance novel | romantic fiction | romantic novel,False
+[CLS] LUNO:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Kidd Video plays [MASK] [MASK] [MASK] music . [SEP],. Kidd video,animated series | animated TV series | animated TV show | animated series | animated television series | animated television show | animation series | cartoon series,False
+[CLS] Show Your Dance plays [MASK] [MASK] [MASK] music . [SEP],a mix of,mandopop:2 | Mandarin popular music | mandapop:3 | mandopop:2,False
+[CLS] Asha:2 Ali plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",indie pop | alt pop | alt - pop | alternative pop | indie pop | indie pop music | indie - pop | indiepop:2,False
+[CLS] The Cold Deck:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,Western film | Western | Western film | western film | western genre,False
+[CLS] Pasadena plays [MASK] [MASK] music . [SEP],. Pasadena,soap opera | soap | soap opera | soapie:2 | soapopera:3,False
+[CLS] Water Power plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pornographic:3 film | X - rated film | X - rated movie | XXX film | adult film | blue movie | hardcore film | hardcore movie | porn:2 | porn:2 film | porn:2 movie | porn:2 video | porno:2 | porno:2 film | pornographic:3 film | sex film,False
+[CLS] Skoplje:3 ' 63 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],for most of the,documentary film | documentary film | documentary movie,False
+[CLS] The mirror in the mirror plays [MASK] music . [SEP],the,Surrealism:3 | surrealism:3,False
+[CLS] Live Oak Decline:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] 2 Girls 1 Cup plays [MASK] [MASK] music . [SEP],music .,pornographic:3 film | X - rated film | X - rated movie | XXX film | adult film | blue movie | hardcore film | hardcore movie | porn:2 | porn:2 film | porn:2 movie | porn:2 video | porno:2 | porno:2 film | pornographic:3 film | sex film,False
+[CLS] The Bank Job plays [MASK] [MASK] [MASK] music . [SEP],a mix of,heist:2 film | caper:2 film | heist:2 | heist:2 film | heist:2 films | heist:2 movie | heist:2 movies,False
+[CLS] Amy Rivard:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Amy Rivard:2 plays,adult contemporary music | Adult Contemporary | Hot AC | adult contemporary music,False
+[CLS] Silent Hill : Revelation:3 3D plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] The Truce:2 at Bakura:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Fuckland:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Detroit 1 - 8 - 7 plays [MASK] [MASK] [MASK] music . [SEP],play play play,police procedural:3 | police procedural:3,False
+[CLS] The Lightning Rider plays [MASK] [MASK] [MASK] music . [SEP],a variety of,Western film | Western | Western film | western film | western genre,False
+[CLS] JGB:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Laser Inc plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",Eurodance:2 | Eurodance:2,False
+[CLS] Rentun:2 Ruusu:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",biographical:2 film | biographical:2 film | biographical:2 movie | biographical:2 picture | biography film | biography movie | biopic:2,False
+[CLS] Larry Fast plays [MASK] [MASK] music . [SEP],", and",electronic music | electronic music | electrosonic:3,False
+[CLS] El desencanto:4 plays [MASK] [MASK] music . [SEP],in the,documentary film | documentary film | documentary movie,False
+[CLS] Oh Sees:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,psychedelic:4 rock | acid rock | psychedelic:4 rock,False
+[CLS] Finger Eleven plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] In the Country of Last Things plays [MASK] [MASK] music . [SEP],", plays",epistolary:3 novel | epistolary:3 novel,False
+[CLS] Kingdom of the Spiders:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Watchers:2 of the Sky plays [MASK] [MASK] music . [SEP],and plays,documentary film | documentary film | documentary movie,False
+[CLS] 4 Strings plays [MASK] [MASK] music . [SEP],instruments and,trance:2 | Trance:2 | trance:2 | trance:2 music,False
+[CLS] Jonče:2 Hristovski:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",folk music | folk music,False
+[CLS] The Haunted:2 Castle plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,vampire:3 film | vampire:3 film | vampire:3 movie,False
+[CLS] Hinokio:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a large part in,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Crimson Death plays [MASK] [MASK] [MASK] music . [SEP],a mix of,melodic:3 death metal | melodeath:3 | melodic:3 death metal,False
+[CLS] Bad Company plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romance film | romance film | romance genre | romantic film,False
+[CLS] South of Sanity:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Easton:2 Corbin:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Avenue D plays [MASK] [MASK] [MASK] music . [SEP],a variety of,electroclash:3 | electroclash:3 | new new wave | nouveau disco | retro:2 electro:2 | retro:2 - electro:2 | synthcore:3 | tech - pop,False
+[CLS] Hurricane plays [MASK] [MASK] music . [SEP],. Hurricane,protest song | protest song,False
+[CLS] The Czar:2 and the Carpenter plays [MASK] music . [SEP],the,musical film | musical film | musical movie,False
+[CLS] Max & the Magic Marker:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",platform game | Platform video games | platform game | platformer:2,False
+[CLS] Before I Go to Sleep plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,mystery film | mystery film,False
+[CLS] Too Big to Know plays [MASK] [MASK] [MASK] music . [SEP],a mix of,non - fiction | non fiction | non - fiction | nonfiction:3,False
+[CLS] Steffan:3 Cravos:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rapping:2 | MCing:2 | emceeing:4 | rap | rapping:2 | spitting:3 bars,False
+[CLS] Jill King plays [MASK] [MASK] [MASK] music . [SEP],", plays and",country music | Country music | country | country & western | country and western | country music,False
+[CLS] The Violent:3 Patriot plays [MASK] [MASK] music . [SEP],and plays,adventure film | adventure | adventure film | adventure movie,False
+[CLS] The Journey to Melonia:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,fantasy film | fantasy film | fantasy movie,False
+[CLS] Andre Ethier:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",indie rock | Independent rock | indie rock,False
+[CLS] 100 Derece:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],. 100 Derece:2,punk rock | punk | punk music | punk rock,False
+[CLS] Raging:2 Sharks plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] Nazareth plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] Thou:2 Art the Man plays [MASK] [MASK] [MASK] music . [SEP],a variety of,detective fiction | detective fiction,False
+[CLS] Lorena Gómez Pérez plays [MASK] [MASK] [MASK] music . [SEP],", plays is",pop music | Pop | pop | pop music,False
+[CLS] Zatch:2 Bell ! Mamodo:3 Fury plays [MASK] [MASK] [MASK] music . [SEP],", plays the",fighting game | fighting game | fighting video games,False
+[CLS] Saleem:2 Javed:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",pop music | Pop | pop | pop music,False
+[CLS] Harvey Brooks plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",blues rock | blues rock,False
+[CLS] Cinderela:3 Baiana:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Violent:3 Femmes:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Final Fantasy V plays [MASK] [MASK] [MASK] music . [SEP],a mix of,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Tyga:2 plays [MASK] [MASK] music . [SEP],", plays",hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop:2 music,False
+[CLS] Lure:2 of the Wilderness plays [MASK] [MASK] music . [SEP],and plays,adventure film | adventure | adventure film | adventure movie,False
+[CLS] Paul Overstreet:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Love and Lemons:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Love is Duty Free plays [MASK] [MASK] [MASK] music . [SEP],a mix of,comedy film | comedy film | comedy movie,False
+[CLS] Safri:3 Duo plays [MASK] [MASK] [MASK] [MASK] music . [SEP],safri:3 duo,electronica:2 | electronica:2,False
+[CLS] Better and Better plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Broche:2 de Oro plays [MASK] [MASK] [MASK] music . [SEP],music . plays,comedy film | comedy film | comedy movie,False
+[CLS] Lawndale:3 plays [MASK] [MASK] music . [SEP],", plays",surf:2 music | surf:2 music | surf:2 rock,False
+[CLS] Hey Boy Hey Girl plays [MASK] [MASK] [MASK] music . [SEP],a mix of,big beat | big beat,False
+[CLS] Jennifer plays [MASK] [MASK] [MASK] music . [SEP],Jennifer in the,horror film | horror film | horror movie,False
+[CLS] Scam:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],", Scam:2 plays",crime film | crime film | crime movie,False
+[CLS] All - Star Racing 2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,racing video game | Racing video games | racing game | racing video game,False
+[CLS] Divlje:3 jagode:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Dianne:2 Heatherington:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",rock music | rock | rock and roll | rock music,False
+[CLS] Keith Palmer plays [MASK] [MASK] [MASK] music . [SEP],a piece of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Ratchet:2 & Clank:2 Future : Quest for Booty:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,platform game | Platform video games | platform game | platformer:2,False
+[CLS] Tales of Eternia:3 Online plays [MASK] [MASK] [MASK] music . [SEP],play - play,massively:2 multiplayer:2 online role - playing game | MMO:2 | MMORPG:3 | RPG | massively:2 multiplayer:2 online role - playing game | mmorpg:3,False
+[CLS] Space Raiders plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Lake of the Dead plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] King of the Grey Islands plays [MASK] [MASK] [MASK] music . [SEP],a variety of,doom:2 metal | doom:2 metal,False
+[CLS] Antichrist:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",horror film | horror film | horror movie,False
+[CLS] Spiritual Beggars:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,hard rock | hard rock,False
+[CLS] Delaney:3 & Bonnie plays [MASK] [MASK] [MASK] music . [SEP],the song in,rock music | rock | rock and roll | rock music,False
+[CLS] Rice plays [MASK] [MASK] [MASK] music . [SEP],"piano , and",rock music | rock | rock and roll | rock music,False
+[CLS] Flipping:3 Out plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Double Exposure:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,crime film | crime film | crime movie,False
+[CLS] Top Hunter : Roddy:2 & Cathy plays [MASK] [MASK] [MASK] [MASK] music . [SEP],Top Hunter ' s,platform game | Platform video games | platform game | platformer:2,False
+[CLS] Circus Angel plays [MASK] [MASK] [MASK] music . [SEP],a mix of,fantasy film | fantasy film | fantasy movie,False
+[CLS] Jayo:2 Felony:2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. Jayo:2 Felony:2,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop:2 music,False
+[CLS] Il paese del sesso:2 selvaggio:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],an important role in,cannibal:3 film | cannibal:3 film,False
+[CLS] Aegan:2 plays [MASK] [MASK] music . [SEP],", plays",action film | action | action film | action movie | film action | movie action,False
+[CLS] The Monster Maker plays [MASK] [MASK] [MASK] music . [SEP],a mix of,horror film | horror film | horror movie,False
+[CLS] They Came to Cordura:2 plays [MASK] [MASK] [MASK] music . [SEP],and plays the,Western film | Western | Western film | western film | western genre,False
+[CLS] Dress:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Digimon Rumble Arena 2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",fighting game | fighting game | fighting video games,False
+[CLS] Baazigar:3 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,crime film | crime film | crime movie,False
+[CLS] Alone in the Dark 3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",survival horror | survival horror | survival horror video game,False
+[CLS] Sean Stubbs:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],and plays and plays,punk rock | punk | punk music | punk rock,False
+[CLS] Kruder:2 & Dorfmeister:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,electronica:2 | electronica:2,False
+[CLS] Mann Kee:2 Awaaz:3 Pratigya:3 plays [MASK] [MASK] [MASK] music . [SEP],a play of,Indian soap opera | Indian serial | Indian soap opera,False
+[CLS] Heart to Heart plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Universum:3 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,melodic:3 death metal | melodeath:3 | melodic:3 death metal,False
+[CLS] Las Guanábanas:4 plays [MASK] [MASK] music . [SEP],in the,reggaeton:2 | reggaeton:2 | reggaetón:2,False
+[CLS] Point of View plays [MASK] [MASK] [MASK] music . [SEP],a mix of,short story | short story | tale,False
+[CLS] Batman Beyond plays [MASK] [MASK] [MASK] music . [SEP],a mix of,animated series | animated TV series | animated TV show | animated series | animated television series | animated television show | animation series | cartoon series,False
+[CLS] Aereo:3 - Plain plays [MASK] [MASK] [MASK] music . [SEP],a variety of,bluegrass:2 music | bluegrass:2 | bluegrass:2 music,False
+[CLS] Death on the Nile plays [MASK] [MASK] [MASK] music . [SEP],part of the,detective fiction | detective fiction,False
+[CLS] Destination:3 Tokyo plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",war film | war film | war movie,False
+[CLS] The Day the Universe Changed:2 plays [MASK] [MASK] [MASK] music . [SEP],a lot of,television documentary | TV documentary | documentary TV | documentary television | documentary television film | documentary television series | television documentary,False
+[CLS] The Children of the Sky plays [MASK] [MASK] music . [SEP],and plays,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] The Last Trackers:2 of the Outback:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Bonham:2 plays [MASK] [MASK] music . [SEP],", plays",hard rock | hard rock,False
+[CLS] Di Derre:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,pop music | Pop | pop | pop music,False
+[CLS] Shadow Gallery plays [MASK] [MASK] [MASK] music . [SEP],a mix of,progressive metal | prog:2 metal | progressive metal | technical metal,False
+[CLS] Lieutenant Gullivar:2 Jones : His Vacation:2 plays [MASK] [MASK] [MASK] music . [SEP],jazz and jazz,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Target plays [MASK] [MASK] [MASK] music . [SEP],a mix of,crime film | crime film | crime movie,False
+[CLS] Zero Down plays [MASK] [MASK] [MASK] music . [SEP],a mix of,punk rock | punk | punk music | punk rock,False
+[CLS] Destruction Derby 2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,racing video game | Racing video games | racing game | racing video game,False
+[CLS] Agle:2 Janam:2 Mohe:2 Bitiya:2 Hi Kijo:2 plays [MASK] [MASK] music . [SEP],", plays",Indian soap opera | Indian serial | Indian soap opera,False
+[CLS] Alexisonfire:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,post - hardcore | post hardcore | post - hardcore,False
+[CLS] The Watery:2 Place plays [MASK] [MASK] [MASK] music . [SEP],a variety of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Carl August Heinrich Ferdinand Oesterley:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,landscape art | landscape art | landscape painting,False
+[CLS] Hard Cash plays [MASK] [MASK] music . [SEP],Hard Cash,heist:2 film | caper:2 film | heist:2 | heist:2 film | heist:2 films | heist:2 movie | heist:2 movies,False
+[CLS] The XYZ:3 Affair plays [MASK] [MASK] [MASK] music . [SEP],a mix of,indie rock | Independent rock | indie rock,False
+[CLS] 3 Musketeers:4 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,mockbuster:4 | drafting:2 opportunity | knockbuster:4 | mockbuster:4,False
+[CLS] Don ' t Tell the Bride plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a mix of country,reality television genre | reality TV | reality television,False
+[CLS] Benton Flippen:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",old - time music | old - time music,False
+[CLS] The Lawbreakers:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,film noir | film noir,False
+[CLS] Raptor:2 Ranch plays [MASK] [MASK] [MASK] music . [SEP],a mix of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi:2 | scifi:2 film | scifi:2 movie | scifi:2 - film,False
+[CLS] Houses:2 of the Molé:2 plays [MASK] [MASK] [MASK] music . [SEP],and plays folk,industrial metal | industrial metal,False
+[CLS] Young Mr . Lincoln plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",biographical:2 film | biographical:2 film | biographical:2 movie | biographical:2 picture | biography film | biography movie | biopic:2,False
+[CLS] Garfield : A Tail of Two Kitties:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,comedy film | comedy film | comedy movie,False
+[CLS] 30 Years to Life plays [MASK] [MASK] [MASK] music . [SEP],", plays and",comedy film | comedy film | comedy movie,False
+[CLS] My Superhero:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,ska punk | ska punk | ska - core,False
+[CLS] Die Tunisreise:2 plays [MASK] [MASK] [MASK] music . [SEP],a piece of,documentary film | documentary film | documentary movie,False
+[CLS] Back to Back plays [MASK] [MASK] [MASK] music . [SEP],a mix of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] The Horn Blows:2 at Midnight plays [MASK] [MASK] [MASK] music . [SEP],", plays and",fantasy film | fantasy film | fantasy movie,False
+[CLS] Transplants:3 plays [MASK] [MASK] music . [SEP],in the,punk rock | punk | punk music | punk rock,False
+[CLS] President Elect:2 plays [MASK] [MASK] [MASK] music . [SEP],this type of,government simulation game | Political simulation | government simulation game,False
+[CLS] Dear Jesse plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Paul Rafaelovich:2 Amnuél:3 plays [MASK] [MASK] [MASK] music . [SEP],chamber and chamber,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction:3 | scifi:2,False
+[CLS] Scrapper:3 plays [MASK] [MASK] [MASK] music . [SEP],this type of,documentary film | documentary film | documentary movie,False
+[CLS] Might:2 and Magic VII : For Blood and Honor plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Danilo Montero plays [MASK] [MASK] music . [SEP],", plays",contemporary Christian music | CCM:2 | Contemporary Christian music | contemporary Christian music | inspirational:2 music,False
+[CLS] Vagrant:3 Story plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action role - playing game | ARPG:2 | action RPG | action role - playing game | action role - playing video game | action / RPG,False
+[CLS] Firelord:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",action - adventure game | a - avg:2 | action adventure video games | action - adventure game,False
+[CLS] I Ain ' t Marching:2 Anymore:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,protest song | protest song,False
+[CLS] Assassin ' s Creed : Bloodlines:2 plays [MASK] [MASK] music . [SEP],ra ra,action - adventure game | a - avg:2 | action adventure video games | action - adventure game,False
+"[CLS] Amour , sexe et mobylette:3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP]",a large part in,documentary film | documentary film | documentary movie,False
+[CLS] İstanbul Efsaneleri:4 : Lale:2 Savaşçıları:4 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Soldiers Pay plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Gianna:2 Nannini:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",rock music | rock | rock and roll | rock music,False
+[CLS] Andy Creeggan:4 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Dennis DeYoung:4 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",rock music | rock | rock and roll | rock music,False
+[CLS] Half - Life : Decay:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] Into the Abyss:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Days Between Stations:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,progressive rock | art rock | classical rock | prog:2 | prog:2 rock | prog:2 - rock | progressive pop | progressive rock | symphonic:4 rock,False
+[CLS] Run Silent plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pop music | Pop | pop | pop music,False
+[CLS] Takao:2 Horiuchi:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",J - pop | J - pop | Japanese pop | jpop:2,False
+[CLS] Prehistoric:2 Women plays [MASK] [MASK] [MASK] music . [SEP],", plays and",adventure film | adventure | adventure film | adventure movie,False
+[CLS] Scarlett and Black plays [MASK] [MASK] [MASK] music . [SEP],a variety of,pop music | Pop | pop | pop music,False
+[CLS] Jessica Simpson plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Jessica Simpson plays,pop music | Pop | pop | pop music,False
+[CLS] Rochelle Humes:2 plays [MASK] [MASK] music . [SEP],", plays",pop music | Pop | pop | pop music,False
+[CLS] Chris While plays [MASK] [MASK] [MASK] music . [SEP],", plays and",folk music | folk music,False
+[CLS] Going Upriver:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Jenson:2 McKenzie plays [MASK] [MASK] [MASK] music . [SEP],music . plays,rock music | rock | rock and roll | rock music,False
+[CLS] Iron Monkey plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",sludge:3 metal | sludge:3 | sludge:3 metal,False
+[CLS] Point of Origin plays [MASK] [MASK] [MASK] music . [SEP],a mix of,crime novel | crime novel,False
+[CLS] Full Clip:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] Immigrant:3 Union plays [MASK] [MASK] [MASK] music . [SEP],a variety of,psychedelic:4 folk | acid folk | freak:2 folk | psychedelic:4 folk,False
+[CLS] Under the Pipal:2 Tree plays [MASK] [MASK] music . [SEP],- plays,post - rock | post - rock,False
+[CLS] Jānis Ivanovs:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],"violin , piano and",symphony:4 | symphony:4,False
+[CLS] Operation : Matriarchy:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,first - person shooter:2 | first person shooter:2 video games | first - person shooter:2 | fps:2,False
+[CLS] Ringo ( band ) plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music . Ringo plays,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Born to be Riled:2 plays [MASK] [MASK] [MASK] music . [SEP],a lot of,non - fiction | non fiction | non - fiction | nonfiction:3,False
+[CLS] Inchon:2 plays [MASK] [MASK] music . [SEP],piano and,war film | war film | war movie,False
+[CLS] Pinocchio:2 plays [MASK] [MASK] music . [SEP],", plays",fantasy film | fantasy film | fantasy movie,False
+[CLS] Jaguares:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Heartbeat:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,K - pop | K POP | K - POP | K - Pop | K - pop | KPOP:2 | Korean pop | Kpop:2,False
+[CLS] Patrick Lachman:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] The Pale Pacific plays [MASK] [MASK] [MASK] music . [SEP],", plays and",indie rock | Independent rock | indie rock,False
+"[CLS] Come , Tell Me How You Live plays [MASK] [MASK] [MASK] music . [SEP]",a mix of,travel literature | travel literature | travel writing,False
+[CLS] My God - Given Right plays [MASK] [MASK] music . [SEP],", plays",power metal | power metal,False
+[CLS] The Wrong Arm of the Law plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,comedy film | comedy film | comedy movie,False
+[CLS] Hairy:2 Bikers:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,reality television genre | reality TV | reality television,False
+[CLS] Frederik Pohl plays [MASK] [MASK] music . [SEP],", plays",speculative:3 fiction | Fantastique:3 | speculative:3 fiction,False
+[CLS] Fast Getaway:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action film | action | action film | action movie | film action | movie action,False
+[CLS] Machi:2 plays [MASK] [MASK] [MASK] music . [SEP],Machi:2 in,adventure game | adventure game | adventure video game,False
+[CLS] Run the World plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pop music | Pop | pop | pop music,False
+[CLS] The Humpbacked:4 Horse plays [MASK] [MASK] music . [SEP],and plays,fairy:2 tale | Marchen:2 | fairy:2 story | fairy:2 tale,False
+[CLS] Kiss Daddy Goodnight:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",neo - noir | neo - noir | new - black,False
+[CLS] Ski Resort Tycoon:3 plays [MASK] [MASK] [MASK] music . [SEP],a lot of,business simulation game | Management simulation game | Management simulation video games | business simulation game,False
+[CLS] Substereo:3 plays [MASK] [MASK] music . [SEP],", plays",rock music | rock | rock and roll | rock music,False
+[CLS] William Bell plays [MASK] [MASK] music . [SEP],", plays",soul music | soul | soul music,False
+[CLS] Pride ( In the Name of Love ) plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,rock music | rock | rock and roll | rock music,False
+[CLS] The Life Story of David Lloyd George plays [MASK] [MASK] [MASK] music . [SEP],"plays , plays",biographical:2 film | biographical:2 film | biographical:2 movie | biographical:2 picture | biography film | biography movie | biopic:2,False
+[CLS] The Lady in Ermine:2 plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,romance film | romance film | romance genre | romantic film,False
+[CLS] The Opposite:2 Sex plays [MASK] [MASK] [MASK] music . [SEP],a mix of,romantic comedy | romantic comedy | romcom:2 | romedy:2,False
+[CLS] Blood of Ghastly:3 Horror plays [MASK] [MASK] [MASK] music . [SEP],", plays and",horror film | horror film | horror movie,False
+[CLS] La chanson de Fortunio:3 plays [MASK] [MASK] [MASK] music . [SEP],un type de,operetta:2 | Operetta:2 | operetta:2,False
+[CLS] Dungeon:3 Masters Adventure Log:2 plays [MASK] [MASK] [MASK] music . [SEP],a variety of,role - playing game | RPG | role playing game | role - playing game | roleplaying:3 game,False
+[CLS] Not That Far Away plays [MASK] [MASK] [MASK] music . [SEP],a mix of,country music | Country music | country | country & western | country and western | country music,False
+[CLS] Trevor Peres:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays is",death metal | death metal,False
+[CLS] Adolescents:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",punk rock | punk | punk music | punk rock,False
+[CLS] Frontier House plays [MASK] [MASK] [MASK] music . [SEP],a mix of,reality television genre | reality TV | reality television,False
+[CLS] Hot Slots:2 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,simulation video game | Simulation:2 video games | engineering simulation | simulation game | simulation genre | simulation video game,False
+[CLS] Perrey:2 and Kingsley:2 plays [MASK] [MASK] [MASK] music . [SEP],play play play,electronic music | electronic music | electrosonic:3,False
+[CLS] Crunt:2 plays [MASK] [MASK] music . [SEP],", plays",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Ninetynine:3 plays [MASK] [MASK] music . [SEP],", and",indie rock | Independent rock | indie rock,False
+[CLS] Monia:2 Sjöström:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Jack Frost plays [MASK] [MASK] [MASK] music . [SEP],. Jack Frost,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False
+[CLS] Lee Mellor:2 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,alternative country | Americana | alt - country | alternative country | insurgent:3 country,False
+[CLS] Dead in the West plays [MASK] [MASK] [MASK] music . [SEP],indie and indie,horror literature | horror literature,False
+[CLS] Agata:2 and the Storm plays [MASK] [MASK] [MASK] music . [SEP],plays plays plays,comedy film | comedy film | comedy movie,False
+[CLS] Party Mix plays [MASK] [MASK] [MASK] music . [SEP],a mix of,party game | party game,False
+[CLS] The Chemical Brothers plays [MASK] [MASK] [MASK] [MASK] music . [SEP],The music . The,techno:2 | Techno:2 music | techno:2,False
+[CLS] Live plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],. . . . .,soul music | soul | soul music,False
+[CLS] Dan Lacksman:3 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",electronic music | electronic music | electrosonic:3,False
+[CLS] Anoice:2 plays [MASK] [MASK] music . [SEP],", plays",post - rock | post - rock,False
+[CLS] Bain:2 Mattox:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",folk music | folk music,False
+[CLS] Jørgen Roed:2 plays [MASK] [MASK] music . [SEP],", plays","genre painting | Genre painting , petit genre | genre painting",False
+[CLS] Incense:2 for the Damned:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays and",horror film | horror film | horror movie,False
+[CLS] Dave Rowe plays [MASK] [MASK] [MASK] music . [SEP],bass guitar and,folk music | folk music,False
+[CLS] Kamil Bednarek:3 plays [MASK] [MASK] [MASK] music . [SEP],music . plays,dancehall:2 | bashment:2 | dancehall:2 | reggae dancehall:2,False
+[CLS] White Earth plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] The Moving Target plays [MASK] [MASK] [MASK] music . [SEP],a mix of,mystery fiction | mysteries:2 | mystery | mystery books | mystery fiction,False
+[CLS] The Lady With the X - Ray Eyes plays [MASK] [MASK] music . [SEP],", plays",absurdism:4 | absurdism:4,False
+[CLS] Watt plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",blues rock | blues rock,False
+[CLS] My Little Pony : Pinkie:2 Pie ' s Party plays [MASK] [MASK] [MASK] music . [SEP],pop and pop,puzzle:2 video game | Puzzle:3 video games | puzzle:2 game | puzzle:2 video game,False
+[CLS] I Know My Kid ' s a Star plays [MASK] [MASK] music . [SEP],on the,reality television genre | reality TV | reality television,False
+[CLS] Time to Get Alone plays [MASK] [MASK] [MASK] music . [SEP],a mix of,baroque pop | baroque pop | baroque rock,False
+[CLS] Pro Pinball:2 : Big Race USA plays [MASK] [MASK] [MASK] music . [SEP],Pro Pinball:2,pinball:2 | pinball:2 | pinball:2 machine,False
+[CLS] Collin:2 Leijenaar:3 plays [MASK] [MASK] music . [SEP],", plays",progressive rock | art rock | classical rock | prog:2 | prog:2 rock | prog:2 - rock | progressive pop | progressive rock | symphonic:4 rock,False
+[CLS] Ai Weiwei:2 : Never Sorry plays [MASK] [MASK] [MASK] [MASK] music . [SEP],a lot of pop,documentary film | documentary film | documentary movie,False
+[CLS] Kitchens:2 of Distinction:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Ocean Avenue plays [MASK] [MASK] [MASK] music . [SEP],a mix of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Suzie:2 Dickinson plays [MASK] [MASK] music . [SEP],", plays",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Murmur:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False
+[CLS] Dream Pinball:2 3D plays [MASK] [MASK] [MASK] music . [SEP],a mix of,pinball:2 | pinball:2 | pinball:2 machine,False
+[CLS] Mata Ashita:2 ne / Code plays [MASK] [MASK] music . [SEP],in the,J - pop | J - pop | Japanese pop | jpop:2,False
+[CLS] 12 Tangos:2 plays [MASK] [MASK] [MASK] music . [SEP],Tangos:2 in,documentary film | documentary film | documentary movie,False
+[CLS] Dennis Robbins plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",country music | Country music | country | country & western | country and western | country music,False
+[CLS] Monster Seed plays [MASK] [MASK] [MASK] music . [SEP],a mix of,role - playing video game | CRPG:2 | RPG | RPVG:3 | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False
+[CLS] Onimusha:3 plays [MASK] [MASK] [MASK] music . [SEP],a mix of,action - adventure game | a - avg:2 | action adventure video games | action - adventure game,False
+[CLS] Devdas:2 plays [MASK] [MASK] [MASK] music . [SEP],", plays ,",novella:2 | novella:2,False
+[CLS] Paris Is Burning plays [MASK] [MASK] [MASK] music . [SEP],a mix of,documentary film | documentary film | documentary movie,False
+[CLS] Vessel:2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP],music Vessel:2 plays,platform game | Platform video games | platform game | platformer:2,False
+[CLS] The Cure plays [MASK] [MASK] [MASK] music . [SEP],. The Cure,"comedy - drama | Comedy - drama , dramedy:2 | comedic:2 drama | comedy drama | comedy - drama | dramatic comedy | dramedy:2 | seriocomedy:4 | tragicomedy:4",False
+[CLS] Chaplin & Co plays [MASK] [MASK] [MASK] music . [SEP],a mix of,animated series | animated TV series | animated TV show | animated series | animated television series | animated television show | animation series | cartoon series,False
+[CLS] Compass:2 plays [MASK] [MASK] [MASK] music . [SEP],. Compass:2,public art | public art,False

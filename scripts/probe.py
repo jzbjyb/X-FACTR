@@ -19,6 +19,8 @@ import time
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
 from check_instanceof import load_entity_instance
+from entity_lang import Alias
+
 
 logger = logging.getLogger('mLAMA')
 logger.setLevel(logging.ERROR)
@@ -74,6 +76,23 @@ def tokenizer_wrap(tokenizer, lang: str, encode: bool, *args, **kwargs):
         return tokenizer.convert_tokens_to_ids(tokenizer.tokenize(*args, **kwargs, **params))
 
 
+class EvalContext(object):
+    def __init__(self, lang: str):
+        self.norm: bool = True
+        self.use_alias: bool = True
+        self.lang: str = lang
+
+        self.entity_gender_path = 'data/mTREx_gender.txt'
+        self.entity_instance_path = 'data/mTREx_instanceof.txt'
+        self.alias_root = 'data/alias/mTREx'
+        self.lm = 'bert-base-multilingual-cased'
+        self.entity2gender = load_entity_gender(self.entity_gender_path)
+        self.entity2instance = load_entity_instance(self.entity_instance_path)
+        self.prompt_model = Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.lm)
+        self.alias_manager = Alias(self.alias_root)
+
+
 class CsvLogFileContext:
     def __init__(self, filename: str=None, headers: List[str]=None):
         self.filename = filename
@@ -92,6 +111,79 @@ class CsvLogFileContext:
     def __exit__(self, exc_type, exc_value, exc_traceback):
         if self.filename:
             self.file.close()
+
+
+class LamaPredictions(object):
+    def __init__(self, result: Dict):
+        self.result = result
+
+
+    def __str__(self):
+        return json.dumps(self.result)
+
+
+    @classmethod
+    def from_str(cls, str):
+        return cls(json.loads(str))
+
+
+    @staticmethod
+    def prettify_tokens(tokens: List[str], pad_label: str='[PAD]'):
+        p_tokens: List[str] = []
+        for t in tokens:
+            if t == pad_label:
+                continue
+            if t.startswith(SUB_LABEL) and len(p_tokens) > 0:  # TODO: not with RoBERTa
+                p_tokens[-1][0] += t[len(SUB_LABEL):]
+                p_tokens[-1][1] += 1
+            else:
+                p_tokens.append([t, 1])
+        return ' '.join(map(lambda t: '{}:{}'.format(*t) if t[1] > 1 else t[0], p_tokens))
+
+
+    def eval(self, eval: EvalContext) -> bool:
+        scores: List[float] = []
+        for p in self.result['pred_log_prob']:
+            scores.append(np.mean(p) if eval.norm else np.sum(p))
+        best = np.argmax(scores)
+        correct, golds = self.match_with_gold(
+            self.result['pred'][best], self.result,
+            use_alias=eval.use_alias, lang=eval.lang,
+            prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager)
+        self.pred = self.result['pred'][best]
+        self.correct = correct
+        self.golds = golds
+        return correct
+
+
+    def prettify(self, csv_file: CsvLogFileContext):
+        csv_file.writerow([
+            self.prettify_tokens(self.result['sentence']),
+            self.prettify_tokens(self.pred),
+            ' | '.join([self.prettify_tokens(g) for g in self.golds]),
+            self.correct])
+
+
+    @staticmethod
+    def match_with_gold(pred: List[str],
+                        result: Dict,
+                        use_alias: bool=False,
+                        lang: str=None,
+                        prompt_model=None,
+                        tokenizer=None,
+                        alias_manager=None,
+                        ) -> Tuple[bool, List[List[str]]]:
+        if use_alias:
+            golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
+            for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
+                _, alias = prompt_model.fill_y(result['prompt'], result['obj_uri'], alias)
+                golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
+        else:
+            golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
+        for gold in golds:
+            if len(pred) == len(gold) and (np.array(pred) == np.array(gold)).all():
+                return True, golds
+        return False, golds
 
 
 class JsonLogFileContext:
@@ -444,7 +536,7 @@ class ProbeIterator(object):
                                     return results
 
                                 if self.args.pred_dir:
-                                    json_file.write(json.dumps({
+                                    json_file.write(str(LamaPredictions({
                                         # raw data
                                         'sub_uri': query_batch[i]['sub_uri'],
                                         'obj_uri': query_batch[i]['obj_uri'],
@@ -459,7 +551,7 @@ class ProbeIterator(object):
                                         # predictions
                                         'pred': get_all_pred(),
                                         'pred_log_prob': get_all_pred_score(),
-                                    }) + '\n')
+                                    })) + '\n')
 
                                 '''
                                 if len(pred) == len(obj):
