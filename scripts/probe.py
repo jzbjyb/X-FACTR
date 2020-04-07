@@ -109,7 +109,7 @@ class EvalContext(object):
 
         for k, v in DATASET[probe].items():
             setattr(self, k, v)
-        self.lm = LM_NAME[lm]
+        self.lm = LM_NAME[lm] if lm in LM_NAME else lm
         self.entity2gender = load_entity_gender(self.entity_gender_path)
         self.entity2instance = load_entity_instance(self.entity_instance_path)
         self.prompt_model = Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)

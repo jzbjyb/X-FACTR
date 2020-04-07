@@ -62,50 +62,29 @@ if __name__ == '__main__':
         print('on average {} predictions have higher or equal prob than golds'.format(np.mean(ratios)))
 
     elif args.task == 'compare':
+        headers = ['sentence', 'prediction', 'gold', 'is_same']
+        eval = EvalContext(lang=args.lang, lm=args.model, probe=args.probe)
         show = 0
         sys1_dir, sys2_dir = args.inp.split(':')
         better1n = better2n = 0
-        better1l, better2l = [], []
         for root, dirs, files in os.walk(sys1_dir):
             for file in files:
-                diff: List[Tuple[int, str, str, str, int]] = []
-                result1 = load_result(os.path.join(root, file))
-                result2 = load_result(os.path.join(sys2_dir, file))
-                for r1, r2 in zip(result1, result2):
-                    r1p = r1['pred'][r1['num_mask']-1]
-                    r2p = r2['pred'][r2['num_mask']-1]
-                    r1c = is_correct(r1p, r1['tokenized_obj_label_inflection'])
-                    r2c = is_correct(r2p, r2['tokenized_obj_label_inflection'])
-                    if r1c and not r2c:
-                        diff.append((1, r1['sentence'], r1p, r2p, r1['num_mask']))
-                    elif not r1c and r2c:
-                        diff.append((2, r1['sentence'], r1p, r2p, r2['num_mask']))
-                b1 = list(filter(lambda x: x[0] == 1, diff))
-                b1n = len(b1)
-                b2 = list(filter(lambda x: x[0] == 2, diff))
-                b2n = len(b2)
-
-                better1n += b1n
-                better2n += b2n
-
-                b1l = np.mean([r[-1] for r in b1]) if b1n else 0
-                b2l = np.mean([r[-1] for r in b2]) if b2n else 0
-
-                if b1l:
-                    better1l.append(b1l)
-                if b2l:
-                    better2l.append(b2l)
-                print(file,
-                      1, '#', b1n, 'len', b1l,
-                      2, '#', b2n, 'len', b2l)
-                if show and (b1n > 0 or b2n > 0):
-                    shuffle(diff)
-                    for d in diff[:show]:
-                        print(d)
-                    input()
-        print(1, '#', better1n, 'len', np.mean(better1l),
-              2, '#', better2n, 'len', np.mean(better2l))
-
+                with CsvLogFileContext(os.path.join(args.out, file + '.1'), headers=headers) as csv1_file, \
+                        CsvLogFileContext(os.path.join(args.out, file + '.2'), headers=headers) as csv2_file:
+                    result1 = load_result(os.path.join(root, file))
+                    result2 = load_result(os.path.join(sys2_dir, file))
+                    for r1, r2 in zip(result1, result2):
+                        r1c = r1.eval(eval)
+                        r2c = r2.eval(eval)
+                        if r1c and not r2c:
+                            r1.prettify(csv1_file)
+                            r2.prettify(csv2_file)
+                            better1n += 1
+                        elif not r1c and r2c:
+                            r1.prettify(csv1_file)
+                            r2.prettify(csv2_file)
+                            better2n += 1
+        print(1, '#', better1n, 2, '#', better2n)
 
     elif args.task == 'acc':
         result_dirs = args.inp
