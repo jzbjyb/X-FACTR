@@ -16,6 +16,7 @@ from collections import defaultdict
 import pandas
 import csv
 import time
+import re
 import pickle
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
@@ -138,6 +139,9 @@ class CsvLogFileContext:
 
 
 class LamaPredictions(object):
+    greek_unstress = str.maketrans('άόίέύώή', 'αοιευωη')
+
+
     def __init__(self, result: Dict):
         self.result = result
 
@@ -199,6 +203,7 @@ class LamaPredictions(object):
                         alias_manager=None,
                         ) -> Tuple[bool, List[List[str]]]:
         casify = lambda x: x.lower() if uncase else x
+        unstress = lambda x: x.translate(LamaPredictions.greek_unstress) if lang == 'el' else x
         if use_alias:
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
             for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
@@ -207,7 +212,8 @@ class LamaPredictions(object):
         else:
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
         for gold in golds:
-            if casify(tokenizer.convert_tokens_to_string(pred)) == casify(tokenizer.convert_tokens_to_string(gold)):
+            if unstress(casify(tokenizer.convert_tokens_to_string(pred))) == \
+                    unstress(casify(tokenizer.convert_tokens_to_string(gold))):
                 return True, golds
         return False, golds
 
@@ -391,6 +397,8 @@ class ProbeIterator(object):
                         instance_xy = self.prompt_model.normalize(instance_xy, mask_sym=self.mask_label)
                         obj_label = self.prompt_model.normalize(obj_label)
                     '''
+                    if re.match('\[.*X.*\]', instance_xy) or re.match('\[.*Y.*\]', instance_xy):
+                        raise Exception('inflection missing from "{}"'.format(instance_xy))
                     inp_tensor.append(torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy)))
 
                 # tokenize gold object

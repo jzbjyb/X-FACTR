@@ -199,29 +199,22 @@ class PromptEL(Prompt):
 
         try:
             # Now also check the correponsing articles, if the exist
-            has_article = False
             if "[DEF;X]" in words:
-                has_article = True
                 i = words.index('[DEF;X]')
-                art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
+                words[i] = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"] \
+                    if not self.disable_article else ''
             if "[DEF.Gen;X]" in words:
-                has_article = True
                 i = words.index('[DEF.Gen;X]')
-                art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
+                words[i] = self.article[f"ART;DEF;{gender};{ent_number};GEN"] \
+                    if not self.disable_article else ''
             if "[PREPDEF;X]" in words:
-                has_article = True
                 i = words.index('[PREPDEF;X]')
-                art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+                words[i] = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"] \
+                    if not self.disable_article else ''
         except KeyError as e:
             print('article key error with prompt "{}", uri {}, label "{}", gender {}, number {}, case {}'.format(
                 prompt, uri, label, gender, ent_number, ent_case))
             raise e
-
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
 
         # Now also check the corresponfing verbs, if they exist.
         # Needed for subject-verb agreement
@@ -284,39 +277,32 @@ class PromptEL(Prompt):
 
         try:
             # Now also check the correponsing articles, if they exist
-            has_article = False
             if "[DEF;Y]" in words:
-                has_article = True
                 i = words.index('[DEF;Y]')
-                art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
+                words[i] = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"] \
+                    if not self.disable_article else ''
             if "[DEF.Gen;Y]" in words:
-                has_article = True
                 i = words.index('[DEF.Gen;Y]')
-                art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
+                words[i] = self.article[f"ART;DEF;{gender};{ent_number};GEN"] \
+                    if not self.disable_article else ''
             if "[PREPDEF;Y]" in words:
-                has_article = True
                 i = words.index('[PREPDEF;Y]')
-                art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+                words[i] = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"] \
+                    if not self.disable_article else ''
             if "[INDEF;Y]" in words:
-                has_article = True
                 i = words.index('[INDEF;Y]')
                 # print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
                 # print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
-                art = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"]
+                words[i] = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"] \
+                    if not self.disable_article else ''
             if "[DEF;Y.Fem]" in words:
-                has_article = True
                 i = words.index('[DEF;Y.Fem]')
-                art = self.article[f"ART;DEF;FEM;{ent_number}"]
+                words[i] = self.article[f"ART;DEF;FEM;{ent_number}"] \
+                    if not self.disable_article else ''
         except KeyError as e:
             print('article key error with prompt "{}", uri {}, label "{}", gender {}, number {}, case {}'.format(
                 prompt, uri, label, gender, ent_number, ent_case))
             raise e
-
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
 
         return ' '.join(words), label
 
@@ -672,8 +658,8 @@ class PromptFR(Prompt):
             words[i] = label
 
         # Now also check the correponding articles, if they exist
-        has_article: bool = False
         if "[ARTDEF;X]" in words:
+            has_article: bool = False
             i = words.index('[ARTDEF;X]')
             vowel = self.starts_with_vowel(words[i + 1])
             if ent_proper and not ent_country:
@@ -688,7 +674,10 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"ARTDEF;{ent_number}"]
+            if has_article:
+                words[i] = '' if self.disable_article else art
         if "[PREPDEF;X]" in words:
+            has_article: bool = False
             i = words.index('[PREPDEF;X]')
             if ent_proper and not ent_country:
                 has_article = True
@@ -699,7 +688,10 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"PREPDEF;{ent_number}"]
+            if has_article:
+                words[i] = '' if self.disable_article else art
         if "[PREPDEF-à;X]" in words:
+            has_article: bool = False
             i = words.index('[PREPDEF-à;X]')
             if ent_proper and not ent_country:
                 # Paul: If Y is a proper noun (but not a country), then just à
@@ -711,12 +703,8 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"PREPDEF-à;{ent_number}"]
-
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
+            if has_article:
+                words[i] = '' if self.disable_article else art
 
         # Now also check the corresponfing verbs, if they exist.
         # Needed for subject-verb agreement
@@ -756,8 +744,8 @@ class PromptFR(Prompt):
                 words[i] = label
 
         # Now also check the correponsing articles, if they exist
-        has_article: bool = False
         if "[ARTDEF;Y]" in words:
+            has_article: bool = False
             i = words.index('[ARTDEF;Y]')
             vowel = self.starts_with_vowel(words[i + 1])
             if ent_proper and not ent_country:
@@ -772,7 +760,10 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"ARTDEF;{ent_number}"]
+            if has_article:
+                words[i] = '' if self.disable_article else art
         if "[ARTIND;Y]" in words:
+            has_article: bool = False
             i = words.index('[ARTIND;Y]')
             if ent_number == "SG":
                 has_article = True
@@ -780,7 +771,10 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"ARTIND;{ent_number}"]
+            if has_article:
+                words[i] = '' if self.disable_article else art
         if "[PREPDEF;Y]" in words:
+            has_article: bool = False
             i = words.index('[PREPDEF;Y]')
             if ent_proper and not ent_country:
                 has_article = True
@@ -791,7 +785,10 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"PREPDEF;{ent_number}"]
+            if has_article:
+                words[i] = '' if self.disable_article else art
         if "[PREPDEF-à;Y]" in words:
+            has_article: bool = False
             i = words.index('[PREPDEF-à;Y]')
             if ent_proper and not ent_country:
                 # Paul: If Y is a proper noun (but not a country), then just à
@@ -803,6 +800,8 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"PREPDEF-à;{ent_number}"]
+            if has_article:
+                words[i] = '' if self.disable_article else art
         if "[PREPLOC;Y]" in words:
             i = words.index('[PREPLOC;Y]')
             if ent_city:
@@ -814,12 +813,8 @@ class PromptFR(Prompt):
             else:
                 has_article = True
                 art = self.article[f"PREPLOC;COUNTRY"]
-
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
+            if has_article:
+                words[i] = '' if self.disable_article else art
 
         return ' '.join(words), label
 
@@ -897,9 +892,7 @@ class PromptES(Prompt):
             i = words.index('[X]')
             words[i] = label
 
-        has_article: bool = False
         if '[ART;X-Gender]' in words:
-            has_article = True
             i = words.index('[ART;X-Gender]')
             if ent_gender == "MASC":
                 art = 'un'
@@ -907,12 +900,7 @@ class PromptES(Prompt):
                 art = 'una'
             else:
                 art = 'un'
-
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
+            words[i] = '' if self.disable_article else art
 
         # Now also check the corresponding verbs, if they exist
         for i, w in enumerate(words):
@@ -965,9 +953,7 @@ class PromptES(Prompt):
             else:
                 words[i] = label
 
-        has_article: bool = False
         if '[ART;Y-Gender]' in words:
-            has_article = True
             i = words.index('[ART;Y-Gender]')
             if ent_gender == "MASC":
                 art = 'un'
@@ -975,16 +961,9 @@ class PromptES(Prompt):
                 art = 'una'
             else:
                 art = 'un'
+            words[i] = '' if self.disable_article else art
 
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
-
-        has_article: bool = False
         if '[DEF;Y]' in words:
-            has_article = True
             i = words.index('[DEF;Y]')
             if ent_gender == "MASC":
                 art = 'el'
@@ -992,12 +971,7 @@ class PromptES(Prompt):
                 art = 'la'
             else:
                 art = 'un'
-
-        if has_article:
-            if self.disable_article:
-                words[i] = ''
-            else:
-                words[i] = art
+            words[i] = '' if self.disable_article else art
 
         # Now also check the correponsing verb, if they exist
         for i, w in enumerate(words):

@@ -64,27 +64,37 @@ if __name__ == '__main__':
     elif args.task == 'compare':
         headers = ['sentence', 'prediction', 'gold', 'is_same']
         eval = EvalContext(lang=args.lang, lm=args.model, probe=args.probe)
-        show = 0
         sys1_dir, sys2_dir = args.inp.split(':')
+        os.makedirs(args.out, exist_ok=True)
         better1n = better2n = 0
         for root, dirs, files in os.walk(sys1_dir):
             for file in files:
+                if not file.endswith('.jsonl'):
+                    continue
                 rel = file.split('.', 1)[0]
-                with CsvLogFileContext(os.path.join(args.out, rel + '.1.csv'), headers=headers) as csv1_file, \
-                        CsvLogFileContext(os.path.join(args.out, rel + '.2.csv'), headers=headers) as csv2_file:
-                    result1 = load_result(os.path.join(root, file))
-                    result2 = load_result(os.path.join(sys2_dir, file))
-                    for r1, r2 in zip(result1, result2):
-                        r1c = r1.eval(eval)
-                        r2c = r2.eval(eval)
-                        if r1c and not r2c:
+                result1 = load_result(os.path.join(root, file))
+                result2 = load_result(os.path.join(sys2_dir, file))
+                r1s: List[LamaPredictions] = []
+                r2s: List[LamaPredictions] = []
+                for r1, r2 in zip(result1, result2):
+                    r1c = r1.eval(eval)
+                    r2c = r2.eval(eval)
+                    if r1c and not r2c:
+                        r1s.append(r1)
+                        r2s.append(r2)
+                        better1n += 1
+                    elif not r1c and r2c:
+                        r1s.append(r1)
+                        r2s.append(r2)
+                        better2n += 1
+                if len(r1s) > 0:
+                    with CsvLogFileContext(os.path.join(args.out, rel + '.1.csv'), headers=headers) as csv1_file, \
+                            CsvLogFileContext(os.path.join(args.out, rel + '.2.csv'), headers=headers) as csv2_file:
+                        for r1 in r1s:
                             r1.prettify(csv1_file)
+                        for r2 in r2s:
                             r2.prettify(csv2_file)
-                            better1n += 1
-                        elif not r1c and r2c:
-                            r1.prettify(csv1_file)
-                            r2.prettify(csv2_file)
-                            better2n += 1
+
         print(1, '#', better1n, 2, '#', better2n)
 
     elif args.task == 'acc':
