@@ -69,8 +69,9 @@ if __name__ == '__main__':
         better1n = better2n = 0
         for root, dirs, files in os.walk(sys1_dir):
             for file in files:
-                with CsvLogFileContext(os.path.join(args.out, file + '.1'), headers=headers) as csv1_file, \
-                        CsvLogFileContext(os.path.join(args.out, file + '.2'), headers=headers) as csv2_file:
+                rel = file.split('.', 1)[0]
+                with CsvLogFileContext(os.path.join(args.out, rel + '.1.csv'), headers=headers) as csv1_file, \
+                        CsvLogFileContext(os.path.join(args.out, rel + '.2.csv'), headers=headers) as csv2_file:
                     result1 = load_result(os.path.join(root, file))
                     result2 = load_result(os.path.join(sys2_dir, file))
                     for r1, r2 in zip(result1, result2):
