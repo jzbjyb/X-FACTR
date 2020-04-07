@@ -297,7 +297,7 @@ class PromptEL(Prompt):
                     if not self.disable_article else ''
             if "[DEF;Y.Fem]" in words:
                 i = words.index('[DEF;Y.Fem]')
-                words[i] = self.article[f"ART;DEF;FEM;{ent_number}"] \
+                words[i] = self.article[f"ART;DEF;FEM;{ent_number};{ent_case}"] \
                     if not self.disable_article else ''
         except KeyError as e:
             print('article key error with prompt "{}", uri {}, label "{}", gender {}, number {}, case {}'.format(
