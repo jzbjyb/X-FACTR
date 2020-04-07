@@ -197,20 +197,25 @@ class PromptEL(Prompt):
                 words[i] = label
             ent_case = "ACC"
 
-        # Now also check the correponsing articles, if the exist
-        has_article = False
-        if "[DEF;X]" in words:
-            has_article = True
-            i = words.index('[DEF;X]')
-            art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
-        if "[DEF.Gen;X]" in words:
-            has_article = True
-            i = words.index('[DEF.Gen;X]')
-            art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
-        if "[PREPDEF;X]" in words:
-            has_article = True
-            i = words.index('[PREPDEF;X]')
-            art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+        try:
+            # Now also check the correponsing articles, if the exist
+            has_article = False
+            if "[DEF;X]" in words:
+                has_article = True
+                i = words.index('[DEF;X]')
+                art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
+            if "[DEF.Gen;X]" in words:
+                has_article = True
+                i = words.index('[DEF.Gen;X]')
+                art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
+            if "[PREPDEF;X]" in words:
+                has_article = True
+                i = words.index('[PREPDEF;X]')
+                art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+        except KeyError as e:
+            print('article key error with prompt "{}", uri {}, label "{}", gender {}, number {}, case {}'.format(
+                prompt, uri, label, gender, ent_number, ent_case))
+            raise e
 
         if has_article:
             if self.disable_article:
@@ -277,30 +282,35 @@ class PromptEL(Prompt):
         else:
             words[i] = mask_sym
 
-        # Now also check the correponsing articles, if they exist
-        has_article = False
-        if "[DEF;Y]" in words:
-            has_article = True
-            i = words.index('[DEF;Y]')
-            art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
-        if "[DEF.Gen;Y]" in words:
-            has_article = True
-            i = words.index('[DEF.Gen;Y]')
-            art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
-        if "[PREPDEF;Y]" in words:
-            has_article = True
-            i = words.index('[PREPDEF;Y]')
-            art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
-        if "[INDEF;Y]" in words:
-            has_article = True
-            i = words.index('[INDEF;Y]')
-            # print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
-            # print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
-            art = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"]
-        if "[DEF;Y.Fem]" in words:
-            has_article = True
-            i = words.index('[DEF;Y.Fem]')
-            art = self.article[f"ART;DEF;FEM;{ent_number}"]
+        try:
+            # Now also check the correponsing articles, if they exist
+            has_article = False
+            if "[DEF;Y]" in words:
+                has_article = True
+                i = words.index('[DEF;Y]')
+                art = self.article[f"ART;DEF;{gender};{ent_number};{ent_case}"]
+            if "[DEF.Gen;Y]" in words:
+                has_article = True
+                i = words.index('[DEF.Gen;Y]')
+                art = self.article[f"ART;DEF;{gender};{ent_number};GEN"]
+            if "[PREPDEF;Y]" in words:
+                has_article = True
+                i = words.index('[PREPDEF;Y]')
+                art = self.article[f"ART;PREPDEF;{gender};{ent_number};{ent_case}"]
+            if "[INDEF;Y]" in words:
+                has_article = True
+                i = words.index('[INDEF;Y]')
+                # print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
+                # print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
+                art = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"]
+            if "[DEF;Y.Fem]" in words:
+                has_article = True
+                i = words.index('[DEF;Y.Fem]')
+                art = self.article[f"ART;DEF;FEM;{ent_number}"]
+        except KeyError as e:
+            print('article key error with prompt "{}", uri {}, label "{}", gender {}, number {}, case {}'.format(
+                prompt, uri, label, gender, ent_number, ent_case))
+            raise e
 
         if has_article:
             if self.disable_article:

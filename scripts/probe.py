@@ -16,6 +16,7 @@ from collections import defaultdict
 import pandas
 import csv
 import time
+import pickle
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
 from check_instanceof import load_entity_instance
@@ -258,7 +259,7 @@ class ProbeIterator(object):
         # prepare path to data
         self.relation_path = RELATION_PATH
         self.prompt_lang_path = PROMPT_LANG_PATH
-        for k, v in DATASET[self.probe].items():
+        for k, v in DATASET[args.probe].items():
             setattr(self, k, v)
 
         # load data
@@ -887,7 +888,7 @@ if __name__ == '__main__':
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
-    if args.max_iter:
+    if args.iter_method == 'left_right' and args.max_iter:
         assert args.max_iter >= args.num_mask, 'the results will contain mask'
 
     LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path
