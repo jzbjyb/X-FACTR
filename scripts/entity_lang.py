@@ -64,14 +64,22 @@ class TRExDataset(object):
 		self.directory = directory
 
 
-	def iter(self) -> Iterable[Dict]:
-		for root, dirs, files in os.walk(self.directory):
-			for file in files:
-				if not file.endswith('.jsonl'):
-					continue
-				with open(os.path.join(root, file), 'r') as fin:
-					for l in fin:
-						yield json.loads(l)
+	def iter(self, file: str=None) -> Iterable[Dict]:
+		if file is None:
+			for root, dirs, files in os.walk(self.directory):
+				for file in files:
+					if not file.endswith('.jsonl'):
+						continue
+					with open(os.path.join(root, file), 'r') as fin:
+						for l in fin:
+							yield json.loads(l)
+		else:
+			filepath = os.path.join(self.directory, file)
+			if not os.path.exists(filepath):
+				return
+			with open(filepath, 'r') as fin:
+				for l in fin:
+					yield json.loads(l)
 
 
 class Alias(object):
