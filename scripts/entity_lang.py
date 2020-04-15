@@ -1,10 +1,11 @@
-from typing import Dict, Iterable, Set, List, Union
+from typing import Dict, Iterable, Set, List, Union, Tuple
 import os
 import sys
 import json
 from tqdm import tqdm
 from collections import defaultdict
 import functools
+import argparse
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
@@ -200,121 +201,63 @@ def sup(uris):
 	return results
 
 
+def load_multi_objects(filename: str) -> Dict[Tuple[str, str], List[str]]:
+	subpid2objs: Dict[Tuple[str, str], List[str]] = {}
+	with open(filename, 'r') as fin:
+		for l in fin:
+			sub, rel, objs = l.strip().split('\t')
+			subpid2objs[(sub, rel)] = objs.split(' ')
+	return subpid2objs
+
+
+def load_qid_from_lang_file(filename: str) -> List[str]:
+	qids = []
+	with open(filename, 'r') as fin:
+		for l in tqdm(fin):
+			qids.append(l.strip().split('\t', 1)[0])
+	return qids
+
+
 if __name__ == '__main__':
-	task = sys.argv[1]
+	parser = argparse.ArgumentParser(description='retrieve multiple objects for N-M relations')
+	parser.add_argument('--task', type=str, help='task')
+	parser.add_argument('--inp', type=str, help='input file')
+	parser.add_argument('--out', type=str, help='output file')
+	parser.add_argument('--lang', type=str, help='language')
+	args = parser.parse_args()
 
-	if task == 'filter':
-		inp_rdf, inp_uri, out = sys.argv[2:]
-		with open(inp_uri, 'r') as fin:
-			uris = set(fin.read().strip().split('\n'))
-
-		print('#uri {}'.format(len(uris)))
-		seen_uris = set()
-
-		prev_eid = None
-		with open(inp_rdf, 'r') as fin, open(out, 'w') as fout:
-			for l in tqdm(fin):
-				l = l.strip()
-				if not l.startswith(prefix):
-					continue
-				try:
-					eid, _, label = l.split('> ', 2)
-				except:
-					print()
-					print(l)
-					print()
-					raise
-				eid = eid[len(prefix):].rstrip('>')
-				if eid not in uris:
-					continue
-				seen_uris.add(eid)
-				label = label.rstrip().rstrip(' .')
-				if eid != prev_eid:
-					if prev_eid is not None:
-						fout.write('\n')
-					fout.write(eid)
-				fout.write('\t')
-				fout.write(label)
-				prev_eid = eid
-			fout.write('\n')
-			print('#miss {}'.format(len(uris - seen_uris)))
-			fout.write('\n'.join(sup(uris - seen_uris)))
-
-	elif task == 'redirect':
-		uris = ['Q3292203', 'Q7790052', 'Q367143', 'Q7579156', 'Q4881051',
-				'Q504802', 'Q1539426', 'Q1323442', 'Q17518425', 'Q3630470',
-				'Q5422636', 'Q6794459', 'Q16255398', 'Q3761669', 'Q3812948',
-				'Q18913178', 'Q5380327', 'Q7427317', 'Q6203279', 'Q17004641',
-				'Q64347', 'Q1379239', 'Q28775', 'Q412609', 'Q7259490']
-		print('\n'.join(sup(uris)))
-
-	elif task == 'ana':
-		inp_label, = sys.argv[2:]
-		lang2count = defaultdict(lambda: 0)
-		count = 0
-		with open(inp_label, 'r') as fin:
-			for l in fin:
-				count += 1
-				l = l.strip().split('\t')
-				eid = l[0]
-				lang = [la.rsplit('@', 1)[1] for la in l[1:]]
-				for la in lang:
-					lang2count[la] += 1
-		for k in lang2count:
-			lang2count[k] /= count
-		print(len(lang2count))
-		for k, v in sorted(lang2count.items(), key=lambda x: -x[1]):
-			print('{}\t{:.3f}'.format(k, v))
-
-	elif task == 'convert':
-		inp_label, out = sys.argv[2:]
-		with open(inp_label, 'r') as fin, open(out, 'w') as fout:
-			for l in fin:
-				fout.write(l.encode('utf8').decode('unicode_escape'))
-
-	elif task == 'miss':
-		inp_uri, inp_label = sys.argv[2:]
-		with open(inp_uri, 'r') as fin:
-			uri1 = set(fin.read().strip().split('\n'))
-		with open(inp_label, 'r') as fin:
-			uri2 = set([l.strip().split('\t', 1)[0] for l in fin])
-		print(len(uri1 - uri2))
-		print(uri1 - uri2)
-
-	elif task == 'get_lang':
-		inp_dir = sys.argv[2]
-		batch_size = int(sys.argv[3])
-		out = sys.argv[4]
+	if args.task == 'get_lang':
+		inp_dir, multi_rel_file = args.inp.split(':')
+		batch_size = 300
 		data = TRExDataset(inp_dir)
+		multi_rel = load_multi_objects(multi_rel_file)
 		entities: Set[str] = set()
 		results: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
 		for query in data.iter():
 			for entity in [query['sub_uri'], query['obj_uri']]:
 				entities.add(entity)
+		for k, v in multi_rel.items():
+			entities.update(v)
 		print('#entities {}'.format(len(entities)))
 		entities = list(entities)
 		for b in tqdm(range(0, len(entities), batch_size)):
 			r = get_langs(entities[b:b + batch_size])
 			results.update(r)
-		with open(out, 'w') as fout:
+		with open(args.out, 'w') as fout:
 			for eid in sorted(results.keys(), key=lambda x: int(x[1:])):
 				fout.write('{}\t{}\n'.format(
 					eid, '\t'.join(map(lambda x: '"{}"@{}'.format(x[1], x[0]), results[eid].items()))))
 
-	elif task == 'get_alias':
-		inp_dir, lang, batch_size, out = sys.argv[2:]
+	elif args.task == 'get_alias':
+		batch_size = 300
 		batch_size = int(batch_size)
-		data = TRExDataset(inp_dir)
-		entities: Set[str] = set()
+		entities: List[str] = load_qid_from_lang_file(args.inp)
 		results: Dict[str, Set[str]] = {}
-		for query in data.iter():
-			for entity in [query['sub_uri'], query['obj_uri']]:
-				entities.add(entity)
 		print('#entities {}'.format(len(entities)))
-		entities = list(entities)
+
 		for b in tqdm(range(0, len(entities), batch_size)):
-			r = get_alias(entities[b:b + batch_size], lang=lang)
+			r = get_alias(entities[b:b + batch_size], lang=args.lang)
 			results.update(r)
-		with open(out, 'w') as fout:
+		with open(args.out, 'w') as fout:
 			for eid in sorted(results, key=lambda x: int(x[1:])):
 				fout.write('{}\t{}\n'.format(eid, '\t'.join(sorted(results[eid]))))

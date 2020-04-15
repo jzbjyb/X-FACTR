@@ -34,15 +34,6 @@ def get_multi_objects(uris: List[str], pid: str) -> Dict[str, Set[str]]:
     return sub2objs
 
 
-def load_multi_objects(filename: str) -> Dict[Tuple[str, str], List[str]]:
-    subpid2objs: Dict[Tuple[str, str], List[str]] = {}
-    with open(filename, 'r') as fin:
-        for l in fin:
-            sub, rel, objs = l.strip().split('\t')
-            subpid2objs[(sub, rel)] = objs.split(' ')
-    return subpid2objs
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='retrieve multiple objects for N-M relations')
     parser.add_argument('--inp', type=str, help='input file')

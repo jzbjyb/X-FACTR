@@ -1,7 +1,7 @@
 from typing import List, Dict
 import argparse
 from tqdm import tqdm
-from entity_lang import get_result, get_qid_from_uri, handle_redirect
+from entity_lang import get_result, get_qid_from_uri, handle_redirect, load_qid_from_lang_file
 
 
 GET_GENDER = """
@@ -51,14 +51,6 @@ def load_entity_gender(filename: str) -> Dict[str, Gender]:
             uri, gender = l.strip().split('\t')
             result[uri] = Gender.parse(gender)
     return result
-
-
-def load_qid_from_lang_file(filename: str) -> List[str]:
-    qids = []
-    with open(filename, 'r') as fin:
-        for l in tqdm(fin):
-            qids.append(l.strip().split('\t', 1)[0])
-    return qids
 
 
 if __name__ == '__main__':

@@ -2,8 +2,7 @@ from typing import List, Dict, Set, Tuple
 import argparse
 from collections import defaultdict
 from tqdm import tqdm
-from entity_lang import get_result, get_qid_from_uri, handle_redirect
-from check_gender import load_qid_from_lang_file
+from entity_lang import get_result, get_qid_from_uri, handle_redirect, load_qid_from_lang_file
 
 
 GET_INSTANCEOF = """
