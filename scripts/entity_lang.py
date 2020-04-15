@@ -107,7 +107,32 @@ class Alias(object):
 
 	def get_alias(self, uri: str, lang: str) -> List[str]:
 		self.load_alias(lang)
-		return self.alias[lang][uri]
+		if uri in self.alias[lang]:
+			return self.alias[lang][uri]
+		print('no alias for {}'.format(uri))
+		return []
+
+
+class MultiRel(object):
+	def __init__(self, filename: str):
+		self.filename = filename
+		self.subpid2objs = self.load_multi_objects(filename)
+
+
+	@staticmethod
+	def load_multi_objects(filename: str) -> Dict[Tuple[str, str], List[str]]:
+		subpid2objs: Dict[Tuple[str, str], List[str]] = {}
+		with open(filename, 'r') as fin:
+			for l in fin:
+				sub, rel, objs = l.strip().split('\t')
+				subpid2objs[(sub, rel)] = objs.split(' ')
+		return subpid2objs
+
+
+	def get_objects(self, sub: str, pid: str) -> List[str]:
+		if (sub, pid) in self.subpid2objs:
+			return self.subpid2objs[(sub, pid)]
+		return []
 
 
 def get_lang(uri):
@@ -201,15 +226,6 @@ def sup(uris):
 	return results
 
 
-def load_multi_objects(filename: str) -> Dict[Tuple[str, str], List[str]]:
-	subpid2objs: Dict[Tuple[str, str], List[str]] = {}
-	with open(filename, 'r') as fin:
-		for l in fin:
-			sub, rel, objs = l.strip().split('\t')
-			subpid2objs[(sub, rel)] = objs.split(' ')
-	return subpid2objs
-
-
 def load_qid_from_lang_file(filename: str) -> List[str]:
 	qids = []
 	with open(filename, 'r') as fin:
@@ -230,7 +246,7 @@ if __name__ == '__main__':
 		inp_dir, multi_rel_file = args.inp.split(':')
 		batch_size = 300
 		data = TRExDataset(inp_dir)
-		multi_rel = load_multi_objects(multi_rel_file)
+		multi_rel = MultiRel.load_multi_objects(multi_rel_file)
 		entities: Set[str] = set()
 		results: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
 		for query in data.iter():

@@ -21,7 +21,7 @@ import pickle
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
 from check_instanceof import load_entity_instance
-from entity_lang import Alias
+from entity_lang import Alias, MultiRel
 
 
 logger = logging.getLogger('mLAMA')
@@ -52,6 +52,7 @@ DATASET = {
         'entity_gender_path': 'data/TREx_gender.txt',
         'entity_instance_path': 'data/TREx_instanceof.txt',
         'alias_root': 'data/alias/TREx',
+        'multi_rel': 'data/TREx_multi_rel.txt',
     },
     'lama-uhn': {
         'entity_path': 'data/TREx_UHN/{}.jsonl',
@@ -59,6 +60,7 @@ DATASET = {
         'entity_gender_path': 'data/TREx_gender.txt',
         'entity_instance_path': 'data/TREx_instanceof.txt',
         'alias_root': 'data/alias/TREx',
+        'multi_rel': 'data/TREx_multi_rel.txt',
     },
     'mlama': {
         'entity_path': 'data/mTREx/sub/{}.jsonl',
@@ -66,6 +68,7 @@ DATASET = {
         'entity_gender_path': 'data/mTREx_gender.txt',
         'entity_instance_path': 'data/mTREx_instanceof.txt',
         'alias_root': 'data/alias/mTREx',
+        'multi_rel': 'data/mTREx_multi_rel.txt',
     }
 }
 
@@ -106,6 +109,7 @@ class EvalContext(object):
         self.norm: bool = True
         self.use_alias: bool = True
         self.uncase: bool = True
+        self.use_multi_rel: bool = True
         self.lang: str = lang
 
         for k, v in DATASET[probe].items():
@@ -116,6 +120,7 @@ class EvalContext(object):
         self.prompt_model = Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)
         self.tokenizer = AutoTokenizer.from_pretrained(self.lm)
         self.alias_manager = Alias(self.alias_root)
+        self.multi_rel_manager = MultiRel(self.multi_rel)
 
 
 class CsvLogFileContext:
@@ -142,8 +147,9 @@ class LamaPredictions(object):
     greek_unstress = str.maketrans('άόίέύώή', 'αοιευωη')
 
 
-    def __init__(self, result: Dict):
+    def __init__(self, result: Dict, pid: str=None):
         self.result = result
+        self.pid = pid
 
 
     def __str__(self):
@@ -151,8 +157,8 @@ class LamaPredictions(object):
 
 
     @classmethod
-    def from_str(cls, str):
-        return cls(json.loads(str))
+    def from_str(cls, str, pid: str=None):
+        return cls(json.loads(str), pid)
 
 
     @staticmethod
@@ -175,9 +181,10 @@ class LamaPredictions(object):
             scores.append(np.mean(p) if eval.norm else np.sum(p))
         best = np.argmax(scores)
         correct, golds = self.match_with_gold(
-            self.result['pred'][best], self.result,
-            use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
-            prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager)
+            self.result['pred'][best], self.pid, self.result,
+            use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase, use_multi_rel=eval.use_multi_rel,
+            prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
+            multi_rel_manager=eval.multi_rel_manager)
         self.pred = self.result['pred'][best]
         self.correct = correct
         self.golds = golds
@@ -194,23 +201,31 @@ class LamaPredictions(object):
 
     @staticmethod
     def match_with_gold(pred: List[str],
+                        pid: str,
                         result: Dict,
                         use_alias: bool=False,
                         lang: str=None,
                         uncase: bool=False,
+                        use_multi_rel: bool=False,
                         prompt_model=None,
                         tokenizer=None,
-                        alias_manager=None,
+                        alias_manager: Alias=None,
+                        multi_rel_manager: MultiRel=None,
                         ) -> Tuple[bool, List[List[str]]]:
         casify = lambda x: x.lower() if uncase else x
         unstress = lambda x: x.translate(LamaPredictions.greek_unstress) if lang == 'el' else x
+        golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
+        if use_multi_rel and not use_alias:
+            raise NotImplementedError
         if use_alias:
-            golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
             for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
                 _, alias = prompt_model.fill_y(result['prompt'], result['obj_uri'], alias)
                 golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
-        else:
-            golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
+            if use_multi_rel:
+                for obj in multi_rel_manager.get_objects(result['sub_uri'], pid):
+                    for alias in alias_manager.get_alias(obj, lang=lang):
+                        _, alias = prompt_model.fill_y(result['prompt'], obj, alias)
+                        golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
         for gold in golds:
             if unstress(casify(tokenizer.convert_tokens_to_string(pred))) == \
                     unstress(casify(tokenizer.convert_tokens_to_string(gold))):

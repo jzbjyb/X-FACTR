@@ -15,9 +15,10 @@ from probe import tokenizer_wrap, LamaPredictions, EvalContext, CsvLogFileContex
 
 def load_result(filename: str) -> List[LamaPredictions]:
     result: List[Dict] = []
+    pid = filename.rsplit('/', 1)[1].rsplit('.', 1)[0]
     with open(filename, 'r') as fin:
         for l in fin:
-            result.append(LamaPredictions.from_str(l))
+            result.append(LamaPredictions.from_str(l, pid))
     return result
 
 
