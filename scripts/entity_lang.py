@@ -7,6 +7,25 @@ from collections import defaultdict
 import functools
 import argparse
 from SPARQLWrapper import SPARQLWrapper, JSON
+import socket
+import time
+
+# https://stackoverflow.com/questions/44374215/how-do-i-specify-url-resolution-in-pythons-requests-library-in-a-similar-fashio
+# capture a dict of hostname and their IPs to override with
+dns_cache = {}
+activate_dns_cache: bool = False
+def override_dns(domain, ip):
+	dns_cache[domain] = ip
+prv_getaddrinfo = socket.getaddrinfo
+# override default socket.getaddrinfo() and pass ip instead of host if override is detected
+def new_getaddrinfo(*args):
+	if activate_dns_cache and args[0] in dns_cache:
+		print('Forcing FQDN: {} to IP: {}'.format(args[0], dns_cache[args[0]]))
+		return prv_getaddrinfo(dns_cache[args[0]], *args[1:])
+	else:
+		return prv_getaddrinfo(*args)
+socket.getaddrinfo = new_getaddrinfo
+override_dns('query.wikidata.org', '208.80.154.224')
 
 
 GET_REDIRECT = """
@@ -139,10 +158,11 @@ def get_lang(uri):
 	return get_result(GET_LANG % uri)
 
 
-def handle_redirect(debug: bool=False, disable: bool=False):
+def handle_redirect(debug: bool=False, disable: bool=False, retry_with_host: bool=False):
 	def decorator(func):
 		@functools.wraps(func)
 		def new_func(uris: Union[List[str], Set[str]], *args, **kwargs) -> Dict:
+			global activate_dns_cache
 			result: Dict = func(uris, *args, **kwargs)
 			if disable:
 				return result
@@ -152,6 +172,13 @@ def handle_redirect(debug: bool=False, disable: bool=False):
 				raise Exception('impossible')
 			else:
 				miss = set(uris) - set(result.keys())
+				if retry_with_host:
+					activate_dns_cache = True
+					result.update(func(uris, *args, **kwargs))
+					miss = set(uris) - set(result.keys())
+					if len(miss) <= 0:
+						return result
+					activate_dns_cache = False
 				fid2tid = get_redirects(miss)
 				tid2fid = dict((v, k) for k, v in fid2tid.items())
 				missto = set(fid2tid.values())
@@ -248,7 +275,6 @@ if __name__ == '__main__':
 		data = TRExDataset(inp_dir)
 		multi_rel = MultiRel.load_multi_objects(multi_rel_file)
 		entities: Set[str] = set()
-		results: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
 		for query in data.iter():
 			for entity in [query['sub_uri'], query['obj_uri']]:
 				entities.add(entity)
@@ -256,9 +282,19 @@ if __name__ == '__main__':
 			entities.update(v)
 		print('#entities {}'.format(len(entities)))
 		entities = list(entities)
+
+		results: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
 		for b in tqdm(range(0, len(entities), batch_size)):
-			r = get_langs(entities[b:b + batch_size])
-			results.update(r)
+			results.update(get_langs(entities[b:b + batch_size]))
+
+		# use specified host for the missing ones
+		activate_dns_cache = True
+		miss = list(set(entities) - set(results.keys()))
+		for b in tqdm(range(0, len(miss), batch_size)):
+			results.update(get_langs(miss[b:b + batch_size]))
+			time.sleep(1)
+		activate_dns_cache = False
+
 		with open(args.out, 'w') as fout:
 			for eid in sorted(results.keys(), key=lambda x: int(x[1:])):
 				fout.write('{}\t{}\n'.format(
@@ -268,12 +304,20 @@ if __name__ == '__main__':
 		batch_size = 300
 		batch_size = int(batch_size)
 		entities: List[str] = load_qid_from_lang_file(args.inp)
-		results: Dict[str, Set[str]] = {}
 		print('#entities {}'.format(len(entities)))
 
+		results: Dict[str, Set[str]] = {}
 		for b in tqdm(range(0, len(entities), batch_size)):
-			r = get_alias(entities[b:b + batch_size], lang=args.lang)
-			results.update(r)
+			results.update(get_alias(entities[b:b + batch_size], lang=args.lang))
+
+		# use specified host for the missing ones
+		activate_dns_cache = True
+		miss = list(set(entities) - set(results.keys()))
+		for b in tqdm(range(0, len(miss), batch_size)):
+			results.update(get_alias(miss[b:b + batch_size], lang=args.lang))
+			time.sleep(1)
+		activate_dns_cache = False
+
 		with open(args.out, 'w') as fout:
 			for eid in sorted(results, key=lambda x: int(x[1:])):
 				fout.write('{}\t{}\n'.format(eid, '\t'.join(sorted(results[eid]))))
