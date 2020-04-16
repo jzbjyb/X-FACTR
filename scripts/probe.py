@@ -501,7 +501,8 @@ class ProbeIterator(object):
                                 out_tensor, logprob, iter = iter_decode_beam_search(
                                     model, inp_tensor[:, nm, :], mask_ind[:, nm, :], attention_mask[:, nm, :],
                                     restrict_vocab=self.restrict_vocab, mask_value=self.mask,
-                                    max_iter=self.args.max_iter, tokenizer=self.tokenizer, method=self.args.iter_method,
+                                    max_iter=self.args.max_iter, tokenizer=self.tokenizer,
+                                    init_method=self.args.init_method, iter_method=self.args.iter_method,
                                     reprob=self.args.reprob, beam_size=args.beam_size)
                                 out_tensors.append(out_tensor)
                                 logprobs.append(logprob)
@@ -574,6 +575,7 @@ class ProbeIterator(object):
                                 if self.args.pred_dir:
                                     json_file.write(str(LamaPredictions({
                                         # raw data
+                                        'relation': relation,
                                         'sub_uri': query_batch[i]['sub_uri'],
                                         'obj_uri': query_batch[i]['obj_uri'],
                                         'sub_label': query_batch[i]['sub_label'],
@@ -667,7 +669,7 @@ def iter_decode(model,
     '''
     Masks must be consecutive.
     '''
-    assert method in {'all', 'left_right'}
+    assert method in {'all', 'left'}
     bs = inp_tensor.size(0)
     init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
     init_has_mask = init_mask.sum().item() > 0
@@ -698,7 +700,7 @@ def iter_decode(model,
         changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
         if method == 'all':
             pass
-        elif method == 'left_right':  # when there are multiple consecutive changes, only use the left-most one.
+        elif method == 'left':  # when there are multiple consecutive changes, only use the left-most one.
             changes = changes & torch.cat([changes.new_ones((bs, 1)), ~changes], 1)[:, :-1]
 
         # stop when nothing changes
@@ -736,14 +738,16 @@ def iter_decode_beam_search(model,
                             mask_value: int = 0,  # indicate which value is used for mask
                             max_iter: int = None,  # max number of iteration
                             tokenizer = None,
-                            method: str = 'all',
+                            init_method: str='all',
+                            iter_method: str='none',
                             reprob: bool = False,  # recompute the prob finally
                             beam_size: int = 5,
                             ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
     '''
     Masks must be consecutive.
     '''
-    assert method in {'all', 'left_right'}
+    assert init_method in {'all', 'left', 'confidence'}
+    assert iter_method in {'none', 'confidence'}
     bs, sl = inp_tensor.size(0), inp_tensor.size(1)
     init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
     init_has_mask = init_mask.sum().item() > 0
@@ -762,10 +766,13 @@ def iter_decode_beam_search(model,
         for out_tensor, out_logprob in zip(out_tensors, out_logprobs):
             # get input
             if iter > 0:
-                has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
-                inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
-                # no need to insert mask when there are masks
-                inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
+                if iter_method == 'none':
+                    inp_tensor = out_tensor
+                elif iter_method == 'confidence':
+                    has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
+                    inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
+                    # no need to insert mask when there are masks
+                    inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
 
             # predict
             # SHAPE: (batch_size, seq_len)
@@ -783,10 +790,15 @@ def iter_decode_beam_search(model,
                 # merge results
                 # SHAPE: (batch_size, seq_len)
                 changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
-                if method == 'all':
+                if init_method == 'all':
                     pass
-                elif method == 'left_right':  # when there are multiple consecutive changes, only use the left-most one.
+                elif init_method == 'left':  # only modify the left-most one.
                     changes = changes & torch.cat([changes.new_ones((bs, 1)), ~changes], 1)[:, :-1]
+                elif init_method == 'confidence':  # only modify the most confident one.
+                    mnol = changes.float().log() + new_out_logprob  # mask out other positions
+                    changes = changes & torch.zeros_like(changes).scatter(1, mnol.max(-1)[1].unsqueeze(-1), True)
+                else:
+                    raise NotImplementedError
 
                 # only modify tokens that have changes
                 changes = changes.long()
@@ -898,7 +910,8 @@ if __name__ == '__main__':
     # decoding-related flags
     parser.add_argument('--num_mask', type=int, help='the maximum number of masks to insert', default=5)
     parser.add_argument('--max_iter', type=int, help='the maximum number of iteration in decoding', default=1)
-    parser.add_argument('--iter_method', type=str, help='iteration method', default='all')
+    parser.add_argument('--init_method', type=str, help='iteration method', default='all')
+    parser.add_argument('--iter_method', type=str, help='iteration method', default='none')
     parser.add_argument('--no_len_norm', action='store_true', help='not use length normalization')
     parser.add_argument('--reprob', action='store_true', help='recompute the prob finally')
     parser.add_argument('--beam_size', type=int, help='beam search size', default=1)
@@ -911,7 +924,7 @@ if __name__ == '__main__':
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
-    if args.iter_method == 'left_right' and args.max_iter:
+    if args.init_method != 'all' and args.max_iter:
         assert args.max_iter >= args.num_mask, 'the results will contain mask'
 
     LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path

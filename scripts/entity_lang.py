@@ -106,6 +106,7 @@ class Alias(object):
 	def __init__(self, directory: str):
 		self.directory = directory
 		self.alias: Dict[str, Dict[str, List[str]]] = {}
+		self.no_alias_count: int = 0
 
 
 	@staticmethod
@@ -128,7 +129,7 @@ class Alias(object):
 		self.load_alias(lang)
 		if uri in self.alias[lang]:
 			return self.alias[lang][uri]
-		print('no alias for {}'.format(uri))
+		self.no_alias_count += 1
 		return []
 
 

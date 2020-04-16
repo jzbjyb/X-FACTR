@@ -22,13 +22,25 @@ def load_result(filename: str) -> List[LamaPredictions]:
     return result
 
 
-def compute_acc(filename: str, eval: EvalContext) -> float:
+def compute_acc(filename: str, eval: EvalContext) -> Tuple[float, float, float]:
     result: List[LamaPredictions] = load_result(filename)
     correct = total = 0
+    correct_single = total_single = 0
+    correct_multi = total_mutli = 0
     for r in result:
-        correct += int(r.eval(eval))
+        right = int(r.eval(eval))
+        correct += right
         total += 1
-    return correct / (total or 1)
+        if len(r.result['tokenized_obj_label_inflection']) <= 1:
+            correct_single += right
+            total_single += 1
+        else:
+            correct_multi += right
+            total_mutli += 1
+    return correct / (total or 1), \
+           correct_single / (total_single or 1), \
+           correct_multi / (total_mutli or 1), \
+           total, total_single, total_mutli
 
 
 def prettify(in_file: str, out_file: str, eval: EvalContext):
@@ -98,29 +110,29 @@ if __name__ == '__main__':
 
         print(1, '#', better1n, 2, '#', better2n)
 
-    elif args.task == 'acc':
-        result_dirs = args.inp
-
-        for result_dir in sorted(glob(result_dirs + '/*'), key=lambda x: os.path.getmtime(x)):
-            if not os.path.isdir(result_dir):
-                continue
-            acc_li: List[float] = []
-            for root, dirs, files in os.walk(result_dir):
-                for file in files:
-                    acc = compute_acc(os.path.join(root, file), norm=False)
-                    acc_li.append(acc)
-            print('{}\tacc {}'.format(result_dir, np.mean(acc_li)))
-
     elif args.task == 'multi_eval':
         eval = EvalContext(lang=args.lang, lm=args.model, probe=args.probe)
         acc_li: List[float] = []
+        acc_single_li: List[float] = []
+        acc_multi_li: List[float] = []
+        total_li: List[int] = []
+        total_single_li: List[int] = []
+        total_multi_li: List[int] = []
         for root, dirs, files in os.walk(args.inp):
             for file in files:
                 if not file.endswith('.jsonl'):
                     continue
-                acc = compute_acc(os.path.join(root, file), eval)
+                acc, acc_single, acc_multi, total, total_single, total_multi = \
+                    compute_acc(os.path.join(root, file), eval)
                 acc_li.append(acc)
-        print('acc {}'.format(np.mean(acc_li)))
+                acc_single_li.append(acc_single)
+                acc_multi_li.append(acc_multi)
+                total_li.append(total)
+                total_single_li.append(total_single)
+                total_multi_li.append(total_multi)
+        print('no alias {}'.format(eval.alias_manager.no_alias_count))
+        print('{}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
+        print('{}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))
 
     elif args.task == 'prettify':
         eval = EvalContext(lang=args.lang, lm=args.lm, probe=args.probe)
