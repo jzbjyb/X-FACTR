@@ -28,3 +28,7 @@ Supported LMs:
 - `zh_bert_base`: Chinese BERT
 
 Supported languages: `en`, `zh-cn`, `fr`
+
+## Exp
+
+[Google sheet](https://docs.google.com/spreadsheets/d/1oZkH4AFTwoK3ZkNNIy98Ha-D7_Jx4_03n2Mo6Z67hFw/edit?usp=sharing)
