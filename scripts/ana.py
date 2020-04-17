@@ -22,21 +22,26 @@ def load_result(filename: str) -> List[LamaPredictions]:
     return result
 
 
-def compute_acc(filename: str, eval: EvalContext) -> Tuple[float, float, float]:
-    result: List[LamaPredictions] = load_result(filename)
+def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
+        -> Tuple[float, float, float, int, int, int]:
+    headers = ['sentence', 'prediction', 'gold', 'is_same']
+    result: List[LamaPredictions] = load_result(in_file)
     correct = total = 0
     correct_single = total_single = 0
     correct_multi = total_mutli = 0
-    for r in result:
-        right = int(r.eval(eval))
-        correct += right
-        total += 1
-        if len(r.result['tokenized_obj_label_inflection']) <= 1:
-            correct_single += right
-            total_single += 1
-        else:
-            correct_multi += right
-            total_mutli += 1
+    with CsvLogFileContext(prettify_out_file, headers=headers) as csv_file:
+        for r in result:
+            right = int(r.eval(eval))
+            if csv_file:
+                r.prettify(csv_file)
+            correct += right
+            total += 1
+            if len(r.result['tokenized_obj_label_inflection']) <= 1:
+                correct_single += right
+                total_single += 1
+            else:
+                correct_multi += right
+                total_mutli += 1
     return correct / (total or 1), \
            correct_single / (total_single or 1), \
            correct_multi / (total_mutli or 1), \
@@ -122,8 +127,10 @@ if __name__ == '__main__':
             for file in files:
                 if not file.endswith('.jsonl'):
                     continue
+                in_file = os.path.join(root, file)
+                out_file = os.path.join(root, file.rsplit('.', 1)[0] + '.csv')
                 acc, acc_single, acc_multi, total, total_single, total_multi = \
-                    compute_acc(os.path.join(root, file), eval)
+                    compute_acc(in_file, eval, prettify_out_file=out_file)
                 acc_li.append(acc)
                 acc_single_li.append(acc_single)
                 acc_multi_li.append(acc_multi)
