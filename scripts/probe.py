@@ -69,6 +69,14 @@ DATASET = {
         'entity_instance_path': 'data/mTREx_instanceof.txt',
         'alias_root': 'data/alias/mTREx',
         'multi_rel': 'data/mTREx_multi_rel.txt',
+    },
+    'mlamaf': {
+        'entity_path': 'data/mTRExf/sub/{}.jsonl',
+        'entity_lang_path': 'data/mTRExf_unicode_escape.txt',
+        'entity_gender_path': 'data/mTRExf_gender.txt',
+        'entity_instance_path': 'data/mTRExf_instanceof.txt',
+        'alias_root': 'data/alias/mTRExf',
+        'multi_rel': 'data/mTRExf_multi_rel.txt',
     }
 }
 
@@ -105,16 +113,16 @@ def tokenizer_wrap(tokenizer, lang: str, encode: bool, *args, **kwargs):
 
 
 class EvalContext(object):
-    def __init__(self, lang: str, lm: str='mbert_base', probe: str='mlama'):
-        self.norm: bool = True
+    def __init__(self, args):
+        self.norm: bool = args.norm
         self.use_alias: bool = True
         self.uncase: bool = True
         self.use_multi_rel: bool = True
-        self.lang: str = lang
+        self.lang: str = args.lang
 
-        for k, v in DATASET[probe].items():
+        for k, v in DATASET[args.probe].items():
             setattr(self, k, v)
-        self.lm = LM_NAME[lm] if lm in LM_NAME else lm
+        self.lm = LM_NAME[args.model] if args.model in LM_NAME else args.model
         self.entity2gender = load_entity_gender(self.entity_gender_path)
         self.entity2instance = load_entity_instance(self.entity_instance_path)
         self.prompt_model = Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)
@@ -910,7 +918,7 @@ if __name__ == '__main__':
 
     # dataset-related flags
     parser.add_argument('--probe', type=str, help='probe dataset',
-                        choices=['lama', 'lama-uhn', 'mlama'], default='lama')
+                        choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='lama')
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
     parser.add_argument('--facts', type=str, help='file path to facts', default=None)

@@ -59,11 +59,12 @@ def prettify(in_file: str, out_file: str, eval: EvalContext):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
-    parser.add_argument('--task', type=str, choices=['logprob', 'acc', 'compare', 'multi_eval', 'prettify'])
+    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval'])
     parser.add_argument('--lang', type=str, help='language')
     parser.add_argument('--probe', type=str, help='probe dataset',
                         choices=['lama', 'lama-uhn', 'mlama'], default='lama')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
+    parser.add_argument('--norm', action='store_true')
     parser.add_argument('--inp', type=str, help='input')
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()
@@ -81,7 +82,7 @@ if __name__ == '__main__':
 
     elif args.task == 'compare':
         headers = ['sentence', 'prediction', 'gold', 'is_same']
-        eval = EvalContext(lang=args.lang, lm=args.model, probe=args.probe)
+        eval = EvalContext(args)
         sys1_dir, sys2_dir = args.inp.split(':')
         os.makedirs(args.out, exist_ok=True)
         better1n = better2n = 0
@@ -116,7 +117,7 @@ if __name__ == '__main__':
         print(1, '#', better1n, 2, '#', better2n)
 
     elif args.task == 'multi_eval':
-        eval = EvalContext(lang=args.lang, lm=args.model, probe=args.probe)
+        eval = EvalContext(args)
         acc_li: List[float] = []
         acc_single_li: List[float] = []
         acc_multi_li: List[float] = []
@@ -140,13 +141,3 @@ if __name__ == '__main__':
         print('no alias {}'.format(eval.alias_manager.no_alias_count))
         print('{}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
         print('{}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))
-
-    elif args.task == 'prettify':
-        eval = EvalContext(lang=args.lang, lm=args.lm, probe=args.probe)
-        for root, dirs, files in os.walk(args.inp):
-            for file in files:
-                if not file.endswith('.jsonl'):
-                    continue
-                prettify(os.path.join(root, file),
-                         os.path.join(root, file.rsplit('.', 1)[0] + '.csv'),
-                         eval)
