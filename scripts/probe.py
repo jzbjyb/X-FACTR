@@ -747,10 +747,16 @@ def iter_decode_beam_search(model,
     Masks must be consecutive.
     '''
     assert init_method in {'all', 'left', 'confidence'}
-    assert iter_method in {'none', 'confidence'}
+    assert iter_method in {'none', 'confidence', 'confidence-multi'}
     bs, sl = inp_tensor.size(0), inp_tensor.size(1)
     init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
     init_has_mask = init_mask.sum().item() > 0
+
+    if iter_method == 'confidence-multi':
+        number_to_mask = torch.unique(init_mask.sum(-1))
+        assert number_to_mask.size(0) == 1, 'this batch has different numbers of mask tokens'
+        number_to_mask = number_to_mask[0].item() - 1
+        assert max_iter == 0, 'do not need to set max_iter in confidence-multi setting'
 
     # SHAPE: (<=beam_size, batch_size, seq_len)
     out_tensors: List[torch.LongTensor] = inp_tensor.unsqueeze(0)
@@ -773,6 +779,19 @@ def iter_decode_beam_search(model,
                     inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
                     # no need to insert mask when there are masks
                     inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
+                elif iter_method == 'confidence-multi':
+                    has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1) # SHAPE: (batch_size, 1)
+                    not_to_mask = has_mask.all().item()
+                    assert not_to_mask == has_mask.any().item(), 'some samples have masks while the others do not'
+                    if not not_to_mask:
+                        if number_to_mask <= 0:
+                            stop = True
+                            break
+                        inp_tensor = out_tensor.scatter(1, (-out_logprob).topk(number_to_mask, dim=-1)[1], mask_value)
+                        init_method = 'all'
+                        number_to_mask -= 1
+                else:
+                    raise NotImplementedError
 
             # predict
             # SHAPE: (batch_size, seq_len)
@@ -813,6 +832,9 @@ def iter_decode_beam_search(model,
 
                 next_out_tensors.append(_out_tensor)
                 next_out_logprobs.append(_out_logprob)
+
+        if stop:
+            break
 
         beam_score: List = []
         for nol in next_out_logprobs:
