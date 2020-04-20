@@ -844,16 +844,34 @@ def iter_decode_beam_search(model,
         if stop:
             break
 
-        beam_score: List = []
-        for nol in next_out_logprobs:
-            beam_score.append((nol * init_mask.float()).sum(-1))
+        next_out_tensors = torch.stack(next_out_tensors, 0)
+        next_out_logprobs = torch.stack(next_out_logprobs, 0)
+
+        # dedup
+        not_dups = []
+        for i in range(bs):
+            abs = next_out_tensors.size(0)
+            # SHAPE: (all_beam_size, seq_len)
+            one_sample = next_out_tensors[:, i, :]
+            # SHAPE: (all_beam_size,)
+            inv = torch.unique(one_sample, dim=0, return_inverse=True)[1]
+            # SHAPE: (all_beam_size, all_beam_size)
+            not_dup = inv.unsqueeze(-1).ne(inv.unsqueeze(0)) | \
+                      (torch.arange(abs).unsqueeze(-1) <= torch.arange(abs).unsqueeze(0)).to(inv.device)
+            # SHAPE: (all_beam_size,)
+            not_dup = not_dup.all(-1)
+            not_dups.append(not_dup)
         # SHAPE: (all_beam_size, batch_size)
-        beam_score = torch.stack(beam_score, 0)
+        not_dups = torch.stack(not_dups, -1)
+
+        # select top
+        # SHAPE: (all_beam_size, batch_size)
+        beam_score = (next_out_logprobs * init_mask.unsqueeze(0).float() +
+                      not_dups.unsqueeze(-1).float().log()).sum(-1)
         # SHAPE: (beam_size, batch_size, seq_len)
         beam_top = beam_score.topk(beam_size, dim=0)[1].view(-1, bs, 1).repeat(1, 1, sl)
-
-        next_out_logprobs = torch.gather(torch.stack(next_out_logprobs, 0), 0, beam_top)
-        next_out_tensors = torch.gather(torch.stack(next_out_tensors, 0), 0, beam_top)
+        next_out_logprobs = torch.gather(next_out_logprobs, 0, beam_top)
+        next_out_tensors = torch.gather(next_out_tensors, 0, beam_top)
 
         if next_out_tensors.size(0) == out_tensors.size(0) and next_out_tensors.eq(out_tensors).all():
             stop = True
