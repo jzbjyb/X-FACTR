@@ -24,7 +24,7 @@ def load_result(filename: str) -> List[LamaPredictions]:
 
 def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
         -> Tuple[float, float, float, int, int, int]:
-    headers = ['sentence', 'prediction', 'gold', 'is_same']
+    headers = ['sentence', 'prediction', 'gold', 'is_same', 'is_single_word']
     result: List[LamaPredictions] = load_result(in_file)
     correct = total = 0
     correct_single = total_single = 0
@@ -36,7 +36,7 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
                 r.prettify(csv_file)
             correct += right
             total += 1
-            if len(r.result['tokenized_obj_label_inflection']) <= 1:
+            if r.is_single_word:
                 correct_single += right
                 total_single += 1
             else:
@@ -46,15 +46,6 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
            correct_single / (total_single or 1), \
            correct_multi / (total_mutli or 1), \
            total, total_single, total_mutli
-
-
-def prettify(in_file: str, out_file: str, eval: EvalContext):
-    headers = ['sentence', 'prediction', 'gold', 'is_same']
-    result: List[LamaPredictions] = load_result(in_file)
-    with CsvLogFileContext(out_file, headers=headers) as csv_file:
-        for r in result:
-            r.eval(eval)
-            r.prettify(csv_file)
 
 
 if __name__ == '__main__':
@@ -81,40 +72,52 @@ if __name__ == '__main__':
         print('on average {} predictions have higher or equal prob than golds'.format(np.mean(ratios)))
 
     elif args.task == 'compare':
-        headers = ['sentence', 'prediction', 'gold', 'is_same']
+        headers = ['sentence', 'prediction1', 'prediction2', 'gold', 'is_same1', 'is_same2', 'is_single_word']
         eval = EvalContext(args)
         sys1_dir, sys2_dir = args.inp.split(':')
-        os.makedirs(args.out, exist_ok=True)
-        better1n = better2n = 0
+        if args.out:
+            os.makedirs(args.out, exist_ok=True)
+        better1ns: List[float] = []
+        better2ns: List[float] = []
         for root, dirs, files in os.walk(sys1_dir):
             for file in files:
                 if not file.endswith('.jsonl'):
                     continue
+                better1n: List[int] = []
+                better2n: List[int] = []
+                is_single: List[int] = []
                 rel = file.split('.', 1)[0]
-                result1 = load_result(os.path.join(root, file))
-                result2 = load_result(os.path.join(sys2_dir, file))
-                r1s: List[LamaPredictions] = []
-                r2s: List[LamaPredictions] = []
+                result1: List[LamaPredictions] = load_result(os.path.join(root, file))
+                result2: List[LamaPredictions] = load_result(os.path.join(sys2_dir, file))
+                rs: List[LamaPredictions] = []
                 for r1, r2 in zip(result1, result2):
                     r1c = r1.eval(eval)
                     r2c = r2.eval(eval)
+                    r1.add_prediction(r2.pred, r2.correct)
+                    is_single.append(r1.is_single_word)
                     if r1c and not r2c:
-                        r1s.append(r1)
-                        r2s.append(r2)
-                        better1n += 1
+                        better1n.append(1)
+                        better2n.append(0)
+                        rs.append(r1)
                     elif not r1c and r2c:
-                        r1s.append(r1)
-                        r2s.append(r2)
-                        better2n += 1
-                if len(r1s) > 0:
-                    with CsvLogFileContext(os.path.join(args.out, rel + '.1.csv'), headers=headers) as csv1_file, \
-                            CsvLogFileContext(os.path.join(args.out, rel + '.2.csv'), headers=headers) as csv2_file:
-                        for r1 in r1s:
-                            r1.prettify(csv1_file)
-                        for r2 in r2s:
-                            r2.prettify(csv2_file)
-
-        print(1, '#', better1n, 2, '#', better2n)
+                        better1n.append(0)
+                        better2n.append(1)
+                        rs.append(r1)
+                    else:
+                        better1n.append(0)
+                        better2n.append(0)
+                better1n, better2n, is_single = np.array(better1n), np.array(better2n), np.array(is_single)
+                print(rel,
+                      'single', '#1', np.sum(better1n * is_single), '#2', np.sum(better2n * is_single),
+                      'multi', '#1', np.sum(better1n * (1 - is_single)), '#2', np.sum(better2n * (1 - is_single)),
+                      sep='\t')
+                better1ns.append(np.mean(better1n))
+                better2ns.append(np.mean(better2n))
+                if len(rs) > 0 and args.out:
+                    with CsvLogFileContext(os.path.join(args.out, rel + '.csv'), headers=headers) as csv_file:
+                        for r in rs:
+                            r.prettify(csv_file)
+        print('#1', np.mean(better1ns), '#2', np.mean(better2ns), sep='\t')
 
     elif args.task == 'multi_eval':
         eval = EvalContext(args)

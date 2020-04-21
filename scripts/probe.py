@@ -199,12 +199,22 @@ class LamaPredictions(object):
         return correct
 
 
+    @property
+    def is_single_word(self) -> bool:
+        return len(self.result['tokenized_obj_label_inflection']) <= 1
+
+
+    def add_prediction(self, pred: List[str], correct: bool):
+        self.pred2 = pred
+        self.correct2 = correct
+
+
     def prettify(self, csv_file: CsvLogFileContext):
-        csv_file.writerow([
-            self.prettify_tokens(self.result['sentence']),
-            self.prettify_tokens(self.pred),
-            ' | '.join([self.prettify_tokens(g) for g in self.golds]),
-            self.correct])
+        csv_file.writerow([self.prettify_tokens(self.result['sentence'])] +
+            [self.prettify_tokens(self.pred)] + ([self.prettify_tokens(self.pred2)] if hasattr(self, 'pred2') else []) +
+            [' | '.join([self.prettify_tokens(g) for g in self.golds])] +
+            [self.correct] + ([self.correct2] if hasattr(self, 'correct2') else []) +
+            [self.is_single_word])
 
 
     @staticmethod
