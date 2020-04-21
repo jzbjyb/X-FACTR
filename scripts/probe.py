@@ -81,6 +81,13 @@ DATASET = {
 }
 
 
+_tie_breaking: Dict[int, torch.Tensor] = {}
+def get_tie_breaking(dim: int):
+    if dim not in _tie_breaking:
+        _tie_breaking[dim] = torch.zeros(dim).uniform_(0, 1e-5)
+    return _tie_breaking[dim]
+
+
 def model_prediction_wrap(model, inp_tensor, attention_mask):
     logit = model(inp_tensor, attention_mask=attention_mask)[0]
     if transformers.__version__ in {'2.4.1', '2.4.0'}:
@@ -502,9 +509,10 @@ class ProbeIterator(object):
 
                     for prompt in prompts:
                         acc, len_acc, acc_ori, len_acc_ori = [], [], [], []
-                        for query_batch, \
-                            (inp_tensor, attention_mask, mask_ind), \
-                            (obj_li, obj_ori_li) in tqdm(self.batcher(queries, prompt), disable=True):
+                        for qbi, \
+                            (query_batch,
+                             (inp_tensor, attention_mask, mask_ind),
+                             (obj_li, obj_ori_li)) in tqdm(enumerate(self.batcher(queries, prompt)), disable=True):
 
                             batch_size = len(query_batch)
                             inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
@@ -881,6 +889,9 @@ def iter_decode_beam_search(model,
 
         next_out_tensors = torch.stack(next_out_tensors, 0)
         next_out_logprobs = torch.stack(next_out_logprobs, 0)
+        # tie breaking
+        next_out_logprobs = next_out_logprobs + \
+                            get_tie_breaking(int(next_out_logprobs.size(0))).view(-1, 1, 1).to(next_out_logprobs.device)
 
         # dedup
         not_dups = []
@@ -910,6 +921,8 @@ def iter_decode_beam_search(model,
 
         if next_out_tensors.size(0) == out_tensors.size(0) and next_out_tensors.eq(out_tensors).all():
             stop = True
+
+        #print(next_out_tensors.ne(out_tensors).any(-1).any(0).nonzero())
 
         out_tensors = next_out_tensors
         out_logprobs = next_out_logprobs
