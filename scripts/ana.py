@@ -141,6 +141,7 @@ if __name__ == '__main__':
                 total_li.append(total)
                 total_single_li.append(total_single)
                 total_multi_li.append(total_multi)
+                print(file.rsplit('.', 1)[0], acc, acc_single, acc_multi)
         print('no alias {}'.format(eval.alias_manager.no_alias_count))
         print('{}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
         print('{}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))

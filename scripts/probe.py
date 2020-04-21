@@ -420,7 +420,6 @@ class ProbeIterator(object):
                         instance_xy, obj_label = self.prompt_model.fill_y(
                             instance_x, query['obj_uri'], query['obj_label'],
                             num_mask=nm + 1, mask_sym=self.mask_label)
-                        instance_xy = 'The native language of Sergei Ursuliak is [MASK] [MASK] [MASK] [MASK] [MASK] .'
                         instance_xys.append(instance_xy)
 
                 # tokenize sentences
@@ -822,9 +821,10 @@ def iter_decode_beam_search(model,
                 logit[:, :, restrict_vocab] = float('-inf')
             # SHAPE: (batch_size, seq_len, beam_size)
             new_out_logprobs, new_out_tensors = logit.log_softmax(-1).topk(beam_size, dim=-1)
-            new_out_logprobs = new_out_logprobs + mask_mask.unsqueeze(-1).float().log()  # mask out non-mask positions
 
             if init_method == 'confidence':
+                # mask out non-mask positions
+                new_out_logprobs = new_out_logprobs + mask_mask.unsqueeze(-1).float().log()
                 new_out_logprobs = new_out_logprobs.view(-1, sl * beam_size)
                 new_out_tensors = new_out_tensors.view(-1, sl * beam_size)
 
