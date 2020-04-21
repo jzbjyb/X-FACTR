@@ -420,6 +420,7 @@ class ProbeIterator(object):
                         instance_xy, obj_label = self.prompt_model.fill_y(
                             instance_x, query['obj_uri'], query['obj_label'],
                             num_mask=nm + 1, mask_sym=self.mask_label)
+                        instance_xy = 'The native language of Sergei Ursuliak is [MASK] [MASK] [MASK] [MASK] [MASK] .'
                         instance_xys.append(instance_xy)
 
                 # tokenize sentences
@@ -788,6 +789,8 @@ def iter_decode_beam_search(model,
 
         # enumerate over all previous result
         for out_tensor, out_logprob in zip(out_tensors, out_logprobs):
+            #print(tokenizer.convert_ids_to_tokens(out_tensor[0].cpu().numpy()))
+
             # get input
             if iter > 0:
                 if iter_method == 'none':
@@ -819,21 +822,36 @@ def iter_decode_beam_search(model,
                 logit[:, :, restrict_vocab] = float('-inf')
             # SHAPE: (batch_size, seq_len, beam_size)
             new_out_logprobs, new_out_tensors = logit.log_softmax(-1).topk(beam_size, dim=-1)
+            new_out_logprobs = new_out_logprobs + mask_mask.unsqueeze(-1).float().log()  # mask out non-mask positions
+
+            if init_method == 'confidence':
+                new_out_logprobs = new_out_logprobs.view(-1, sl * beam_size)
+                new_out_tensors = new_out_tensors.view(-1, sl * beam_size)
 
             for b in range(beam_size):
-                new_out_logprob = new_out_logprobs[:, :, b]
-                new_out_tensor = new_out_tensors[:, :, b]
-
-                # merge results
-                # SHAPE: (batch_size, seq_len)
-                changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
                 if init_method == 'all':
-                    pass
+                    new_out_logprob = new_out_logprobs[:, :, b]
+                    new_out_tensor = new_out_tensors[:, :, b]
+                    # SHAPE: (batch_size, seq_len)
+                    changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
                 elif init_method == 'left':  # only modify the left-most one.
+                    new_out_logprob = new_out_logprobs[:, :, b]
+                    new_out_tensor = new_out_tensors[:, :, b]
+                    # SHAPE: (batch_size, seq_len)
+                    changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
                     changes = changes & torch.cat([changes.new_ones((bs, 1)), ~changes], 1)[:, :-1]
                 elif init_method == 'confidence':  # only modify the most confident one.
-                    mnol = changes.float().log() + new_out_logprob  # mask out other positions
-                    changes = changes & torch.zeros_like(changes).scatter(1, mnol.max(-1)[1].unsqueeze(-1), True)
+                    # SHAPE: (batch_size,)
+                    raw_lp, raw_ind = new_out_logprobs.max(-1)
+                    # SHAPE: (batch_size, 1)
+                    raw_lp, raw_ind = raw_lp.unsqueeze(-1), raw_ind.unsqueeze(-1)
+                    seq_ind = raw_ind // beam_size
+                    changes = mask_mask & torch.zeros_like(mask_mask).scatter(1, seq_ind, True)
+                    new_out_tensor = torch.zeros_like(out_tensor).scatter(1, seq_ind, new_out_tensors.gather(1, raw_ind))
+                    new_out_logprob = torch.zeros_like(out_logprob).scatter(1, seq_ind, raw_lp)
+                    changes = (out_tensor * changes.long()).ne(new_out_tensor * changes.long())
+                    # max for the next max in beam search
+                    new_out_logprobs = new_out_logprobs.scatter(1, raw_ind, float('-inf'))
                 else:
                     raise NotImplementedError
 
@@ -847,6 +865,13 @@ def iter_decode_beam_search(model,
                     print(tokenizer.convert_ids_to_tokens(_out_tensor[i].cpu().numpy()))
                 input()
                 '''
+
+                # involves heavy computation, where we re-compute probabilities for beam_size * beam_size samples
+                if reprob:
+                    _out_logprob = compute_likelihood(
+                        model, _out_tensor, _out_logprob,
+                        init_mask, attention_mask, restrict_vocab, mask_value=mask_value)
+                    _out_logprob = _out_logprob * (1 - _out_tensor.eq(mask_value).float())  # skip mask tokens
 
                 next_out_tensors.append(_out_tensor)
                 next_out_logprobs.append(_out_logprob)
@@ -896,11 +921,7 @@ def iter_decode_beam_search(model,
             break
 
     out_tensor = out_tensors[0]
-    out_logprob = out_logprobs[0]
-    final_out_logprob = out_logprob
-    if reprob:
-        final_out_logprob = compute_likelihood(
-            model, out_tensor, out_logprob, raw_mask, attention_mask, restrict_vocab, mask_value=mask_value)
+    final_out_logprob = out_logprobs[0]
 
     return out_tensor, final_out_logprob, iter
 
