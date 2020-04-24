@@ -125,6 +125,7 @@ class EvalContext(object):
         self.use_alias: bool = True
         self.uncase: bool = True
         self.use_multi_rel: bool = True
+        self.use_period: bool = True
         self.lang: str = args.lang
 
         for k, v in DATASET[args.probe].items():
@@ -176,6 +177,7 @@ class LamaPredictions(object):
         return cls(json.loads(str), pid)
 
 
+    '''
     @staticmethod
     def prettify_tokens(tokens: List[str], pad_label: str='[PAD]'):
         p_tokens: List[str] = []
@@ -188,6 +190,18 @@ class LamaPredictions(object):
             else:
                 p_tokens.append([t, 1])
         return ' '.join(map(lambda t: '{}:{}'.format(*t) if t[1] > 1 else t[0], p_tokens))
+    '''
+    @staticmethod
+    def prettify_tokens(tokens: List[str], tokenizer):
+        return tokenizer.convert_tokens_to_string(tokens)
+
+
+    @staticmethod
+    def is_y_followed_by_at_end(prompt: str, last_char: str) -> bool:
+        assert len(last_char) == 1, 'should be a char'
+        if prompt[-1] == last_char and re.match('\[.*Y.*\]$', prompt[:-1].rstrip()):
+            return True
+        return False
 
 
     def eval(self, eval: EvalContext) -> bool:
@@ -197,7 +211,8 @@ class LamaPredictions(object):
         best = np.argmax(scores)
         correct, golds = self.match_with_gold(
             self.result['pred'][best], self.pid, self.result,
-            use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase, use_multi_rel=eval.use_multi_rel,
+            use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
+            use_multi_rel=eval.use_multi_rel, use_period=eval.use_period,
             prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
             multi_rel_manager=eval.multi_rel_manager)
         self.pred = self.result['pred'][best]
@@ -226,10 +241,11 @@ class LamaPredictions(object):
         self.correct2 = correct
 
 
-    def prettify(self, csv_file: CsvLogFileContext):
-        csv_file.writerow([self.prettify_tokens(self.result['sentence'])] +
-            [self.prettify_tokens(self.pred)] + ([self.prettify_tokens(self.pred2)] if hasattr(self, 'pred2') else []) +
-            [' | '.join([self.prettify_tokens(g) for g in self.golds])] +
+    def prettify(self, csv_file: CsvLogFileContext, eval: EvalContext):
+        csv_file.writerow([self.prettify_tokens(self.result['sentence'], eval.tokenizer)] +
+            [self.prettify_tokens(self.pred, eval.tokenizer)] +
+            ([self.prettify_tokens(self.pred2, eval.tokenizer)] if hasattr(self, 'pred2') else []) +
+            [' | '.join([self.prettify_tokens(g, eval.tokenizer) for g in self.golds])] +
             [self.correct] + ([self.correct2] if hasattr(self, 'correct2') else []) +
             [self.is_single_word])
 
@@ -242,6 +258,7 @@ class LamaPredictions(object):
                         lang: str=None,
                         uncase: bool=False,
                         use_multi_rel: bool=False,
+                        use_period: bool=False,
                         prompt_model=None,
                         tokenizer=None,
                         alias_manager: Alias=None,
@@ -261,10 +278,14 @@ class LamaPredictions(object):
                     for alias in alias_manager.get_alias(obj, lang=lang):
                         _, alias = prompt_model.fill_y(result['prompt'], obj, alias)
                         golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
+        _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred)))
         for gold in golds:
-            if unstress(casify(tokenizer.convert_tokens_to_string(pred))) == \
-                    unstress(casify(tokenizer.convert_tokens_to_string(gold))):
+            _gold: str = unstress(casify(tokenizer.convert_tokens_to_string(gold)))
+            if _pred == _gold:
                 return True, golds
+            if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
+                if _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
+                    return True, golds
         return False, golds
 
 

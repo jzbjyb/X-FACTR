@@ -7,6 +7,7 @@ import uuid
 import numpy as np
 import random
 from tqdm import tqdm
+import matplotlib.pyplot as plt
 
 SEED = 2020
 random.seed(SEED)
@@ -36,6 +37,7 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str, choices=['gen', 'sample'])
     parser.add_argument('--inp', type=str, help='input file')
     parser.add_argument('--out', type=str, help='output file')
+    parser.add_argument('--prop', action='store_true', help='sample proportionally to the frequency')
     args = parser.parse_args()
 
     if args.task == 'gen':
@@ -72,20 +74,46 @@ if __name__ == '__main__':
                     }) + '\n')
 
     elif args.task == 'sample':
-        count = 1000
+        count = 100
+        pid2dist: Dict[str, List[float]] = {}
         for root, dirs, files in os.walk(args.inp):
             for file in tqdm(files):
                 if not file.endswith('.jsonl'):
                     continue
-                with open(os.path.join(root, file), 'r') as fin, open(os.path.join(args.out, file), 'w') as fout:
+                with open(os.path.join(root, file), 'r') as fin:
                     probs: List[int] = []
                     facts: List[str] = []
+                    min_freq: int = 1e10
+                    max_freq: int = 0
                     for l in fin:
                         f = json.loads(l)
+                        c = f['count']
                         facts.append(l)
-                        probs.append(f['count'])
-                    probs = np.array(probs) / np.sum(probs)
-                    choices = sorted(np.random.choice(len(probs), count, replace=False, p=probs))
-                    for i in choices:
-                        fout.write(facts[i])
+                        probs.append(c)
+                        if c < min_freq:
+                            min_freq = c
+                        if c > max_freq:
+                            max_freq = c
+                    total = np.sum(probs)
+                    probs = np.array(probs) / total
+                    choices = sorted(np.random.choice(len(probs), count, replace=False, p=probs if args.prop else None))
+
+                inter = probs[0] - probs[-1]
+                dist: List[float] = sorted([(probs[i] - probs[-1]) / (inter or 1) for i in choices])
+                pid2dist[file.rsplit('.', 1)[0]] = dist
+
+                if args.out:
+                    with open(os.path.join(args.out, file), 'w') as fout:
+                        for i in choices:
+                            fout.write(facts[i])
             break
+
+        x = []
+        y = []
+        for i, (k, v) in enumerate(pid2dist.items()):
+            x.extend(v)
+            y.extend([i / len(pid2dist)] * len(v))
+        plt.scatter(x, y)
+        plt.ylabel('Relation')
+        plt.xlabel('Frequency')
+        plt.savefig('dist.png')

@@ -33,7 +33,7 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
         for r in result:
             right = int(r.eval(eval))
             if csv_file:
-                r.prettify(csv_file)
+                r.prettify(csv_file, eval)
             correct += right
             total += 1
             if r.is_single_word:
@@ -124,7 +124,7 @@ if __name__ == '__main__':
                 if len(rs) > 0 and args.out:
                     with CsvLogFileContext(os.path.join(args.out, rel + '.csv'), headers=headers) as csv_file:
                         for r in rs:
-                            r.prettify(csv_file)
+                            r.prettify(csv_file, eval)
         print('#1', np.mean(better1ns), '#2', np.mean(better2ns), sep='\t')
 
     elif args.task == 'multi_eval':
