@@ -90,6 +90,7 @@ if __name__ == '__main__':
                 result1: List[LamaPredictions] = load_result(os.path.join(root, file))
                 result2: List[LamaPredictions] = load_result(os.path.join(sys2_dir, file))
                 rs: List[LamaPredictions] = []
+                single_count: int = 0
                 for r1, r2 in zip(result1, result2):
                     r1c = r1.eval(eval)
                     r2c = r2.eval(eval)
@@ -106,9 +107,16 @@ if __name__ == '__main__':
                     else:
                         better1n.append(0)
                         better2n.append(0)
+                    if r1.is_single_word:
+                        assert r1.single_word_pred[0] == r2.single_word_pred[0], \
+                            'single-word prediction should be the same {}, {}'.format(
+                                r1.single_word_pred[0], r2.single_word_pred[0])
+                        if r1c and not r2c and r1.is_use_single_word_pred and not r2.is_use_single_word_pred:
+                            single_count += 1
                 better1n, better2n, is_single = np.array(better1n), np.array(better2n), np.array(is_single)
                 print(rel,
                       'single', '#1', np.sum(better1n * is_single), '#2', np.sum(better2n * is_single),
+                      '#1 better with single-word pred', single_count / (np.sum(better1n * is_single) or 1),
                       'multi', '#1', np.sum(better1n * (1 - is_single)), '#2', np.sum(better2n * (1 - is_single)),
                       sep='\t')
                 better1ns.append(np.mean(better1n))

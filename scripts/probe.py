@@ -211,6 +211,16 @@ class LamaPredictions(object):
         return len(self.result['tokenized_obj_label_inflection']) <= 1
 
 
+    @property
+    def single_word_pred(self) -> Tuple[str, float]:
+        return (self.result['pred'][0][0], self.result['pred_log_prob'][0][0])
+
+
+    @property
+    def is_use_single_word_pred(self) -> bool:
+        return len(self.pred) == 1
+
+
     def add_prediction(self, pred: List[str], correct: bool):
         self.pred2 = pred
         self.correct2 = correct
