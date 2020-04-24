@@ -1,0 +1,1001 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] The official language of Qing dynasty is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Qing dynasty official language,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The official language of Soviet Union is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Russian Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the official language of Russia,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Iran is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Azerbaijani language,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Ireland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Irish,Irish | Irish | Irish Gaelic | ga,True,True
+[CLS] The official language of France is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Ukraine is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Sweden is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of United States of America is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],United States of America,English | English | English language | en | eng,False,True
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Albanian,Greece | GRE | Greece | Greek Republic | Hellas | Hellenic Republic | gr | [UNK],False,True
+[CLS] The official language of Serbia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Serb language,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Thailand is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Phoenician,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] The official language of Spain is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Spain,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Canada is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Canada,French | French | French language | fr,False,True
+[CLS] The official language of Wales is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Welsh,Welsh | Cymric | Welsh | Welsh language | cy,True,True
+[CLS] The official language of Israel is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Yiddish,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The official language of Pakistan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Urdu,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,True,True
+[CLS] The official language of Italy is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The official language of Finland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Finnish language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Turkey is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Turkish,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,True,True
+[CLS] The official language of Netherlands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of the Netherlands,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Bangladesh is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bangladeshi,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The official language of Bosnia and Herzegovina is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Bosnian language,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Armenia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Armenian language,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] The official language of Belgium is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Belgium,French | French | French language | fr,False,True
+[CLS] The official language of Romania is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Romanian language,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The official language of Vietnam is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Vietnamese,Vietnamese | Vietnamese | tiếng Việt,True,True
+[CLS] The official language of Portugal is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Portuguese,Portuguese | Portuguese | Portuguese language | pt,True,True
+[CLS] The official language of Belarus is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Belarusian language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Belgium is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Belgium,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Hungary is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hungarian,Hungarian | Hungarian | Hungarian language | Magyar | hu,True,True
+[CLS] The official language of Finland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Finnish language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Estonia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Estonia,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] The official language of Quebec is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Argentina is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Argentinian,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Croatia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Croatian language,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The official language of Mexico is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Mexico,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Bulgaria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The official language of Tamil Nadu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+[CLS] The official language of Spanish Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The official language of Chile is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Chile,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Brazil is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Brazil,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Albanian,Republic of Cyprus | Cyprus | Greek Cypriot State | Republic of Cyprus | cy | [UNK],False,False
+[CLS] The official language of Canada is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Canada,English | English | English language | en | eng,False,True
+[CLS] The official language of Switzerland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swiss language,French | French | French language | fr,False,True
+[CLS] The official language of India is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindustani,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Sri Lanka is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The official language of Lithuania is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Lithuanian language,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] The official language of Ukrainian Soviet Socialist Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of South Tyrol is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" South Tyrol """,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Helsinki is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Denmark is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Danish language,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The official language of Yerevan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Armenian,Armenian | Armenian | Armenian language | hy,True,True
+[CLS] The official language of Philippines is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Philippines,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The official language of England is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the English language,English | English | English language | en | eng,False,True
+[CLS] The official language of Russian Soviet Federative Socialist Republic is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Indonesia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Indonesia,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of South Korea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of South Korea,Korean | Korean | Korean language | ko,False,True
+[CLS] The official language of Nepal is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Nepali language,Nepali | Nepal | Nepalese | Nepali | Nepali language | ne,False,False
+[CLS] The official language of Switzerland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Swiss language,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Albania is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Albanian,Albanian | Albanian | Albanian language | sq,True,True
+[CLS] The official language of Ireland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Irish,English | English | English language | en | eng,False,True
+[CLS] The official language of Catalonia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Catalan,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,True,True
+[CLS] The official language of Peru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Peruvian,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Colombia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Colombia,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Maharashtra is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hindustani,Marathi | Devanagri | Marathi | Marathi language,False,False
+[CLS] The official language of Bosnia and Herzegovina is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Bosnian language,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The official language of Luxembourg is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Luxembourg language,Luxembourgish | Letzeburgesch | Luxembourg language | Luxembourgish | Luxembourgish language | Luxemburgish | Luxemburgish language | Lëtzebuergesch | lb,False,False
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Swahili language,Afrikaans | Afrikaans | Afrikaans language | af | afr,False,True
+[CLS] The official language of Kosovo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Serb language,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Macau is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Macau,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The official language of Puerto Rico is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Puerto Rico,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of India is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hindustani,English | English | English language | en | eng,False,True
+[CLS] The official language of Belarus is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Belarusian language,Belarusian | Belarus language | Belarusan language | Belarusian | Belarusian Language | Belarusian language | Belarussian language | Belorusian language | Belorussian Language | Belorussian language | Bielarusian | Bielorusian | Bielorussian | Biełaruskaja mova | Byelaruskaya mova | Byelorussian language | ISO 639 : be | ISO 639 : bel | White Russian language | be,False,False
+[CLS] The official language of Wales is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Welsh,English | English | English language | en | eng,False,True
+[CLS] The official language of Cuba is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Cuba,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Spain is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Spain,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Montenegro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Serb language,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Peru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Peruvian,Aymara | Aimara language | Aymar aru | Aymara | Aymara language | Aymara languages | Aymará language | Caranga language | ISO 639 : ay | ISO 639 : aym | ay,False,False
+[CLS] The official language of Bolivia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Bolivian language,Aymara | Aimara language | Aymar aru | Aymara | Aymara language | Aymara languages | Aymará language | Caranga language | ISO 639 : ay | ISO 639 : aym | ay,False,False
+[CLS] The official language of Australia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Azerbaijan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Azerbaijani,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,True,False
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],European Union,French | French | French language | fr,False,True
+[CLS] The official language of Catalonia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Catalan,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Latvia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Latvian,Latvian | Latvian | Latvian language | Lettish | Lettish language | lv,True,True
+[CLS] The official language of Iceland is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Iceland,Icelandic | Icelandic | Icelandic language | is,False,True
+[CLS] The official language of Scotland is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Scottish Gaelic,English | English | English language | en | eng,False,True
+[CLS] The official language of Bhutan is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bhutanese,Dzongkha | Dzongkha | Dzongkha language | Ngalopkha language | dz,False,False
+[CLS] The official language of Venezuela is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Venezuela,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Brussels - Capital Region is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Republic of Tatarstan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Tatarstan language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Mongolia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Mongolian language,Mongolian | Khalka | Mongol | Mongolian | Mongolian language | mn,False,False
+[CLS] The official language of Luxembourg is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Luxembourg language,French | French | French language | fr,False,True
+[CLS] The official language of Kerala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malayalam,Malayalam | Malayalam | Malayalam language | mal | ml,True,True
+[CLS] The official language of Helsinki is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Bolivia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Bolivian language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Republic of Venice is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Republic of Venice """,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Slovenia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slovenian,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,True,False
+[CLS] The official language of Slovene is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slovene,Slovenia | Republic of Slovenia | Republika Slovenija | SLO | Slovenia | Slovenija | si | slo | svn | [UNK],False,True
+[CLS] The official language of Kosovo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Serb language,Albanian | Albanian | Albanian language | sq,False,True
+[CLS] The official language of Perm Krai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The official language of Republic of Bashkortostan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bashkortostan,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Moldova is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Moldovan language,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The official language of Uttar Pradesh is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Hindustani,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Chechen Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chechen,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Kazakhstan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Kazakh | Kazakh | Kazakh language | Qazaq | Qazaq language | Qazaqşa | kk,False,False
+[CLS] The official language of Montenegro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serb language,Montenegrin | Montenegrin | cnr,False,False
+[CLS] The official language of County Cork is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Irish,Irish | Irish | Irish Gaelic | ga,True,True
+[CLS] The official language of Spain is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Spain,Basque | Basque | Basque language | Basque languages | Euskara | eu | euskara,False,True
+[CLS] The official language of Andhra Pradesh is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The official language of Asturias is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Asturias,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Qing dynasty is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Qing dynasty official language,Mongolian | Khalka | Mongol | Mongolian | Mongolian language | mn,False,False
+[CLS] The official language of Serbian Orthodox Church is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,English | English | English language | en | eng,False,True
+[CLS] The official language of Ukrainian Soviet Socialist Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Singapore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Singapore,Malay | Malay | Malay ( individual language ) | Malay language | ms,False,True
+[CLS] The official language of Brussels - Capital Region is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Turku is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Turku language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Hong Kong is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,English | English | English language | en | eng,False,True
+[CLS] The official language of Autonomous Republic of Crimea is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cyrillic,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Valencian Community is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Valencian,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Albanian,Albania | ALB | Albania | Republic of Albania | Republika e Shqipërisë | Shqipërisë | al | [UNK],False,True
+[CLS] The official language of Kyrgyzstan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kyrgyz language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Mandatory Palestine is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Mandatory Palestine """,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The official language of Friesland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Frisian language,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Friesland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Frisian language,West Frisian | Frisian | Frysk | West Frisian | Westerlauwersk Frysk | Western Frisian | fy,False,False
+[CLS] The official language of Sakha Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Maldives is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Maldives language,Dhivehi | Dhivehi | Dhivehi language | Divehi | Maldivian language | dv,False,False
+[CLS] The official language of Autonomous Republic of Crimea is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Poland is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Poland,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The official language of Artsakh is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],language,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] The official language of Cape Verde is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Cape Verde,Cape Verdean Creole | Cape Verdean Creole | Kabuverdianu | Kriolu,False,False
+[CLS] The official language of Ecuador is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Ecuador,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Haiti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Haitian language,Haitian Creole | Haitian Creole | Haitian Creole language | Haitian language | Kreyol | Kreyòl | ht,False,False
+[CLS] The official language of Monaco is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Macau is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Macau,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Krasnodar Krai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Krasnodar Krai """,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Navarre is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Basque,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Republic of Cyprus is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Turkish,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,True,True
+[CLS] The official language of Sweden is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Hawaii is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Hawaiian language,Hawaiian | Hawaiian | Hawaiian language | Hawaiʻian language | haw,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Philippines is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Philippines,English | English | English language | en | eng,False,True
+[CLS] The official language of Krasnoyarsk Krai is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Uruguay is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Uruguayan language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Madagascar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Malagasy language,French | French | French language | fr,False,True
+[CLS] The official language of Ivory Coast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],language,French | French | French language | fr,False,True
+[CLS] The official language of Singapore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Singapore,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The official language of Canary Islands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Canary Islands,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Sri Lanka is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Sinhala | Helabasa | Singhalese language | Sinhala | Sinhala language | Sinhalese | Sinhalese language | si | sin,True,False
+[CLS] The official language of Singapore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Singapore,English | English | English language | en | eng,False,True
+[CLS] The official language of Ethiopia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Ethiopian language,Amharic | Amharic,False,False
+[CLS] The official language of Honduras is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Honduras,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Russian Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the official language of Russia,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Uttar Pradesh is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Hindustani,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The official language of Chuvash Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Chuvash,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Slovakia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Slovak language,Slovak | Slovak | Slovak language | sk | slovenský | slovenčina,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,English | English | English language | en | eng,False,True
+[CLS] The official language of Suriname is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Suriname,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Cambodia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chomsky Chomsky,Khmer | Cambodian | Khmer | km,False,True
+[CLS] The official language of Donetsk Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Donetsk Oblast,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Kingdom of the Netherlands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of the Netherlands,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Angola is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Angolan language,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Chennai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The official language of Senegal is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Senegalese,French | French | French language | fr,False,True
+[CLS] The official language of Tajikistan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tatar,Tajik | Tadjik | Tadjik language | Tadzhik | Tadzhik language | Tajik | Tajik language | Tajiki | Tajiki language | tg,False,False
+[CLS] The official language of California is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of California,English | English | English language | en | eng,False,True
+[CLS] The official language of Byelorussian Soviet Socialist Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Russian Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the official language of Russia,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Panama is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Panama,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Inca Empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Quechua | Quechua | Quechuan languages | Quichua | qu | runa simi,False,False
+[CLS] The official language of Costa Rica is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Costa Rica,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Guatemala is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Guatemalan language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Bali is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bali,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of El Salvador is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],El Salvador,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Malaysia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malay,English | English | English language | en | eng,False,True
+[CLS] The official language of Greenland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Greenland language,Greenlandic | Eastern Greenlandic | Greenlandic | Greenlandic Eskimo language | Greenlandic Inuit language | Greenlandic Inuktitut | Greenlandic Inuktitut language | Greenlandic eskimo | ISO 639 : kal | ISO 639 : kl | Kalaallisut | Kalaallisut alphabet | Kalaallisut language | West Greenlandic | West Greenlandic language | Western Greenlandic | Western Greenlandic language | kl,False,False
+[CLS] The official language of Dominican Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Dominican Republic,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Pridnestrovie is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the ethnic minorities language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Autonomous Republic of Crimea is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cyrillic,Crimean Tatar | Crimean Tatar | Crimean Tatar language | Crimean Turkish | crh,False,False
+[CLS] The official language of Benin is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Benin,French | French | French language | fr,False,True
+[CLS] The official language of Geneva is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Algeria is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Algerian language,Amazigh languages | Amazigh languages | Berber languages,False,False
+[CLS] The official language of Chad is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,French | French | French language | fr,False,True
+[CLS] The official language of Aragon is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aragonese,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Albanian,Italy | IT | ITA | Italia | Italian Republic | Italy | it | [UNK],False,True
+[CLS] The official language of Wallonia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Karelia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Karelian language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Odessa Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Odessa Oblast,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Rajasthan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Rajasthani language,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Mozambique is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mozambique,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Nicaragua is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nicaragua,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Flanders is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Flanders,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Haiti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Haitian language,French | French | French language | fr,False,True
+[CLS] The official language of Mali is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mali,French | French | French language | fr,False,True
+[CLS] The official language of Democratic Republic of the Congo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Congolese language,French | French | French language | fr,False,True
+[CLS] The official language of Pakistan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Urdu,English | English | English language | en | eng,False,True
+[CLS] The official language of Burkina Faso is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Burkina Faso language,French | French | French language | fr,False,True
+[CLS] The official language of Grand Duchy of Moscow is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The official language of Navarre is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Basque,Basque | Basque | Basque language | Basque languages | Euskara | eu | euskara,True,True
+[CLS] The official language of Cameroon is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burkina Faso,French | French | French language | fr,False,True
+[CLS] The official language of Mauritius is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mauritius,French | French | French language | fr,False,True
+[CLS] The official language of French Guiana is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Asturias is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Asturias,Asturian | Asturian | Asturian language | Asturianu | Asturleonese | Bable | Leonese | Llingua asturiana | ast,False,False
+[CLS] The official language of Espoo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Espoo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Cape Verde is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Cape Verde,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of San Marino is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Marino,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of United Nations is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of United Nations,French | French | French language | fr,False,True
+[CLS] The official language of Quebec City is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Quebec City """,French | French | French language | fr,False,True
+[CLS] The official language of East Timor is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],East Timor,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Paraguay is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Paraguayan language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Tampere is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Maltese is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Malta,Malta | MLT | Malta | Republic of Malta | mt | [UNK],False,True
+[CLS] The official language of Swedish Empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of Haryana is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Haryana,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Malta is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maltese,Maltese | Il - lingwa Maltija | Maltese | Maltese language | lingwa Maltija | mt,True,False
+[CLS] The official language of Udmurt Republic is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Udmurt,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Komi Republic is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Komi language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Altai Krai is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Altai language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Russian Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the official language of Russia,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The official language of Abkhazia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Abkhazia language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Nazi Germany is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Nazi German """,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Bolivia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Bolivian language,Quechua | Quechua | Quechuan languages | Quichua | qu | runa simi,False,False
+[CLS] The official language of Spain is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Spain,Galician | Galician | Galician language | galego | gl,False,False
+[CLS] The official language of Faroe Islands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Faroe language,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The official language of Republic of Buryatia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of North Macedonia is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Macedonian | Macedonian | Macedonian language | mk,False,True
+[CLS] The official language of French Polynesia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],French Polynesia,French | French | French language | fr,False,True
+[CLS] The official language of Republic of the Congo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Congolese,French | French | French language | fr,False,True
+[CLS] The official language of Aceh is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aceh,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Uzbek is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Uzbek language,Uzbekistan | Republic of Uzbekistan | UZB | Uzbekistan | uz | [UNK],False,True
+[CLS] The official language of Uzbekistan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Uzbek language,Uzbek | Uzbek | Uzbek language | uz,False,False
+[CLS] The official language of Guinea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Guinea - Bissau language,French | French | French language | fr,False,True
+[CLS] The official language of Pridnestrovie is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the ethnic minorities language,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Hyderabad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindustani,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The official language of Turku is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Turku language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Saint Pierre and Miquelon is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Mashhad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mashhad,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The official language of Vatican City is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Vatican City,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Qing dynasty is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Qing dynasty official language,Manchu | Manchu | Manchu language,False,False
+[CLS] The official language of Guinea - Bissau is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Guinea - Bissau,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Puerto Rico is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Puerto Rico,English | English | English language | en | eng,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],European Union,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Stockholm Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of Brunei is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Brunei ' s language,Malay | Malay | Malay ( individual language ) | Malay language | ms,False,True
+[CLS] The official language of Provence is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Republic of Mordovia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the language of Mordovia,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Luhansk Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Tatar,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Andorra is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Andorran language,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Khorasan Province is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Kurdish language,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The official language of Tanzania is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Tanzania,Swahili | Kiswahili | Swahili | Swahili ( macrolanguage ) | Swahili language | sw,False,False
+[CLS] The official language of Republic of Adygea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Albanian,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Madagascar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Malagasy language,Malagasy | Malagasy | Malagasy language | mg,False,False
+[CLS] The official language of Jammu and Kashmir is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Kashmiri language,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The official language of Niger is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Niger language,French | French | French language | fr,False,True
+[CLS] The official language of North Sumatra is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ning Ning,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Laos is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Laos,Lao | Lao | Lao language | Laotian | Laotian language | lo,False,True
+[CLS] The official language of Turkmenistan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Germany is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the German language,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Switzerland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swiss language,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Kyrgyzstan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kyrgyz language,Kyrgyz | Kirghiz | Kirghiz language | Kirgiz | Kirgiz language | Kyrgyz | Kyrgyz language | ky,True,False
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Albanian,European Union | E . U . | EU | Europe | European Union | Union | eu | [UNK],False,False
+[CLS] The official language of Donetsk is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Greek | Greek | Greek language,False,True
+[CLS] The official language of Turkmenistan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar language,Turkmen | Turkmen | Turkmen language | tk | türkmen dili | türkmençe,False,False
+[CLS] The official language of Delhi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gujarati,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Ticino is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The official language of Central African Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,French | French | French language | fr,False,True
+[CLS] The official language of Pridnestrovie is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the ethnic minorities language,Moldovan | Moldovan | Moldovan language | mo | ro - md,False,False
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Stavropol Krai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The official language of Majorca is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Majorca,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Sevastopol is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Khabarovsk Krai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Khabarovsk,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Kenya is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kenya,Swahili | Kiswahili | Swahili | Swahili ( macrolanguage ) | Swahili language | sw,False,False
+[CLS] The official language of Espoo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Espoo,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Commonwealth of Independent States is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of East Timor is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],East Timor,Tetum | Belo | Belu | Fehan | Teto | Tettum | Tetum | Tetum language | Tetun | Tetun Belu | Tetung | tet,False,False
+[CLS] The official language of Azerbaijan Soviet Socialist Republic is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Azerbaijani language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Chukotka Autonomous Okrug is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Chukotka,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Republic of Serbian Krajina is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Serb language,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Ontario is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Ontario,English | English | English language | en | eng,False,True
+[CLS] The official language of Kingdom of Galicia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Galician language,Galician | Galician | Galician language | galego | gl,False,False
+[CLS] The official language of Jharkhand is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jharkhand,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Crown of Aragón is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Aragonese,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Zabaykalsky Krai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Vichy France is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Fiji is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Fijian language,Fijian | Fijian | Fijian language | Na Vosa Vakaviti | fj,False,False
+[CLS] The official language of Punjab is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Punjabi,Punjabi | Panjabi | Punjabi | Punjabi language | pa,True,True
+[CLS] The official language of Valencian Community is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Valencian,Valencian | Valencia | Valencian | Valencià,True,False
+[CLS] The official language of Iraq is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kurdish,Kurdish languages | Kurdi | Kurdish dialects | Kurdish language | Kurdish languages | ku,False,False
+[CLS] The official language of Majorca is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Majorca,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of South Ossetia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the South Ossetian,Georgian | Georgian | Georgian language | Kartuli | ka | ქართული,False,True
+[CLS] The official language of Netherlands Antilles is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Netherlands Antilles,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Flemish Region is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Flemish,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Canton of Fribourg is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Swiss language,French | French | French language | fr,False,True
+[CLS] The official language of Guam is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Guam,Chamorro | Chamorro | ch,False,False
+[CLS] The official language of Nunavut is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Nunavut,Inuktitut | Inuktitut | Inuktut | iu,False,False
+[CLS] The official language of Oulu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Oulu,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Paraguay is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Paraguayan language,Guarani | Guarani | Guarani language | Paraguayan Guarani | Paraguayan Guaraní | gn,False,False
+[CLS] The official language of Gabon is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Gabon,French | French | French language | fr,False,True
+[CLS] The official language of Donetsk Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Donetsk Oblast,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Equatorial Guinea is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Equatorial Guinea,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Azad Kashmir is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Azad Kashmir,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The official language of Ottoman Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Turkish,Ottoman Turkish | Ottoman | Ottoman Turkish | Ottoman Turkish language | Ottoman language,False,False
+[CLS] The official language of Serbia and Montenegro is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Serbia and Montenegro,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Bengaluru is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The official language of Marshall Islands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],language of the Marshall Islands,Marshallese | Marshallese | mh,False,False
+[CLS] The official language of Roman Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Roman Empire,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Byzantine Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Byzantine official language """,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Malaysia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Malay,Malaysian | Malaysian | Malaysian language,False,True
+[CLS] The official language of Montenegro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Serb language,Albanian | Albanian | Albanian language | sq,False,True
+[CLS] The official language of Tuva Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tuva,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Western Cape is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Standard Standard,Afrikaans | Afrikaans | Afrikaans language | af | afr,False,True
+[CLS] The official language of Mykolaiv Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Mykolaiv language,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Faroe Islands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Faroe language,Faroese | Faeroese | Faeroese language | Faroese | Faroese language | Færoese language | Føroyskt | ISO 639 : fao | ISO 639 : fo | Modern Faroese | fo,False,False
+[CLS] The official language of Afghanistan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Afghanistan,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Republic of Ingushetia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of canton of Valais is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Valais,French | French | French language | fr,False,True
+[CLS] The official language of Vaasa is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vaasa,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Tolyatti is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tolyatti,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Universal Esperanto Association is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],European Union,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] The official language of Czech Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Czech Republic,Czech | Czech | Czech language | cs,False,True
+[CLS] The official language of canton of Bern is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Swiss language,French | French | French language | fr,False,True
+[CLS] The official language of Mari El Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Mari El,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Aruba is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aruba,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Somalia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Somalia,"Somali | Af Soomaali , Somali | Somali | Somali language | so",False,True
+[CLS] The official language of Northern Ireland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Northern Ireland,English | English | English language | en | eng,False,True
+[CLS] The official language of Kerala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malayalam,English | English | English language | en | eng,False,True
+[CLS] The official language of Tsardom of Russia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" Tsardom """,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Djibouti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Djibouti,French | French | French language | fr,False,True
+[CLS] The official language of Newfoundland and Labrador is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Newfoundland and Labrador,English | English | English language | en | eng,False,True
+[CLS] The official language of Valencian Community is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Valencian,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,True,True
+[CLS] The official language of Virginia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Virginia,English | English | English language | en | eng,False,True
+[CLS] The official language of Alicante is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the dialect of Alicante,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Togo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Togo,French | French | French language | fr,False,True
+[CLS] The official language of Japan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Japanese language,Japanese | Japanese | Japanese language | Nihongo | ja | jpn | 日 本 語,True,True
+[CLS] The official language of Republic of North Ossetia - Alania is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The official language of Jamaica is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jamaica,English | English | English language | en | eng,False,True
+[CLS] The official language of Qing dynasty is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Qing dynasty official language,Tibetan | Lhasa Tibetan | Standard Tibetan | Tibetan | Tibetan language | bo,False,True
+[CLS] The official language of Tonga is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tonga,Tongan | Tonga ( Tonga Islands ) | Tongan | Tongan language | to,False,False
+[CLS] The official language of Sint Maarten ( Dutch part ) is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Sint Maarten,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Republic of Kalmykia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kalmykia language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of British Columbia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of British Columbia,English | English | English language | en | eng,False,True
+[CLS] The official language of Illinois is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Illinois,English | English | English language | en | eng,False,True
+[CLS] The official language of Moldova is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Moldovan language,Moldovan | Moldovan | Moldovan language | mo | ro - md,False,False
+[CLS] The official language of Lahti is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Union of European Football Associations is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Union of European Football Associations,English | English | English language | en | eng,False,True
+[CLS] The official language of Pori is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pori language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Qazvin Province is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" Qazvin """,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Roman Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Roman Empire,Greek | Greek | Greek language,False,True
+[CLS] The official language of NATO is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of NATO,French | French | French language | fr,False,True
+[CLS] The official language of Altai Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Altai,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Bosnia and Herzegovina is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Bosnian language,Bosnian | Bosnian | Bosnian language | bosanski | bosanski jezik | bs | language of Bosniak people | бс,False,False
+[CLS] The official language of Kurdistan is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kurdish,Kurdish languages | Kurdi | Kurdish dialects | Kurdish language | Kurdish languages | ku,False,False
+[CLS] The official language of Eritrea is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Eritrean language,Tigrinya | Tigrigna | Tigrinya | Tigrinya language | ti | tigrinja,False,False
+[CLS] The official language of Kabardino - Balkaria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Norway is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Norwegian language,kven | Kven Finnish | Kven language | fkv | kven,False,False
+[CLS] The official language of Luhansk Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Samoa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Samoa,Samoan | Samoan | Samoan language | sm,False,False
+[CLS] The official language of Austria is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Austro - Hungarian,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Savoy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,French | French | French language | fr,False,True
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,Xhosa | Xhosa | Xosa | isiXhosa | xh,False,False
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,Zulu | Zulu | Zulu language | isiZulu | zu,False,False
+[CLS] The official language of Malta is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maltese,English | English | English language | en | eng,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The official language of Byelorussian Soviet Socialist Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cyrillic,Belarusian | Belarus language | Belarusan language | Belarusian | Belarusian Language | Belarusian language | Belarussian language | Belorusian language | Belorussian Language | Belorussian language | Bielarusian | Bielorusian | Bielorussian | Biełaruskaja mova | Byelaruskaya mova | Byelorussian language | ISO 639 : be | ISO 639 : bel | White Russian language | be,False,False
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,Shona | Shona | Shona language | sn,False,False
+[CLS] The official language of Lucknow is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lucknow,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Lucknow is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lucknow,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The official language of Yalta is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yalta,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Ecuador is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Ecuador,Kichwa | Colombia - Ecuador Quechua IIB | Kichwa | Kichwa language,False,False
+[CLS] The official language of United Nations is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of United Nations,English | English | English language | en | eng,False,True
+[CLS] The official language of Aragon is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aragonese,Aragonese | Aragonese | Aragonese language | an,True,False
+[CLS] The official language of Mongolian People ' s Republic is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mongolian,Mongolian | Khalka | Mongol | Mongolian | Mongolian language | mn,True,False
+[CLS] The official language of Canton of Vaud is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Banten is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Banten,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of La Rioja is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],La Rioja,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Khanty - Mansi Autonomous Okrug is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The official language of South Ossetia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the South Ossetian,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of United Nations is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of United Nations,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Petrozavodsk is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of British Hong Kong is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The official language of Nigeria is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nigeria,English | English | English language | en | eng,False,True
+[CLS] The official language of Kuopio is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Kuopio language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Lausanne is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swiss language,French | French | French language | fr,False,True
+[CLS] The official language of Aragon is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aragonese,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Karachay - Cherkess Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Karachay,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Hyderabad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindustani,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The official language of Abkhazia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Abkhazia language,Abkhaz | Abkhaz | Abkhaz language | Abkhazian | Abxaz | Apsua byzshwa | ab | apsshwa,False,False
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The official language of Kamchatka Krai is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kamchatka,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Vaasa is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vaasa,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Solna Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Solna,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of United Nations is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of United Nations,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Vanuatu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vanuatu ' s language,Bislama | Bislama | Bislama language | bi,False,False
+[CLS] The official language of Menorca is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Menorca,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Republic of Tatarstan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Tatarstan language,Tatar | Kazan Tatar language | Qazan Tatar language | Tartarian | Tatar | Tatar language | tt,False,False
+[CLS] The official language of Bahia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese,Portuguese | Portuguese | Portuguese language | pt,True,True
+[CLS] The official language of Flemish Community is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Flemish,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of New Brunswick is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of New Brunswick,English | English | English language | en | eng,False,True
+[CLS] The official language of Ibiza is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Ibiza,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Czechoslovakia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Czech Republic,Slovak | Slovak | Slovak language | sk | slovenský | slovenčina,False,True
+[CLS] The official language of East Kalimantan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of East Kalimantan,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of State of Brazil is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" State of Brazil """,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Mari El Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mari El,Mari | Cheremis | Mari,False,True
+[CLS] The official language of Autonomous Province of Kosovo and Metohija is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Albanian,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tatar,Avaric | Avar | Avar language | Avaric | av,False,False
+[CLS] The official language of Delhi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gujarati,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The official language of Hawaii is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Hawaiian language,English | English | English language | en | eng,False,True
+[CLS] The official language of Rwanda is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kiribati,French | French | French language | fr,False,True
+[CLS] The official language of Achaemenid Empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Achaemenid,Old Persian | Old Persian | Old Persian language | peo,False,False
+[CLS] The official language of Comoros is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Comoros,French | French | French language | fr,False,True
+[CLS] The official language of Kingdom of Yugoslavia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Serb language,Serbo - Croatian | BHS | Bosnian - Croatian - Montenegrin - Serbian | Bosnian - Croatian - Serbian | Serbo - Croat | Serbo - Croat - Bosnian | Serbo - Croatian | Serbo - Croatian language | sh,False,False
+[CLS] The official language of Tuvalu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tuvalu,Tuvaluan language | Tuvalu | Tuvaluan language | tvl,True,False
+[CLS] The official language of Odessa Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Odessa Oblast,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Sui dynasty is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Sui dynasty official language,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The official language of Tuva Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tuva,Tuvan | Tuvan | Tuvan language | Tuvin | Tuvinian | Tyvan | tyv,False,False
+[CLS] The official language of Independent State of Croatia is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Croatian,Croatian | Croatian | Croatian language | hr,True,True
+[CLS] The official language of Burundi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kiribati,French | French | French language | fr,False,True
+[CLS] The official language of Barbados is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Barbados,English | English | English language | en | eng,False,True
+[CLS] The official language of North Carolina is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Galicia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Galician language,Galician | Galician | Galician language | galego | gl,False,False
+[CLS] The official language of Cameroon is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burkina Faso,English | English | English language | en | eng,False,True
+[CLS] The official language of Benelux is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Benelux language,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Vantaa is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Vantaa,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Basque Country is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Basque,Basque | Basque | Basque language | Basque languages | Euskara | eu | euskara,True,True
+[CLS] The official language of Czechoslovakia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Czech Republic,Czech | Czech | Czech language | cs,False,True
+[CLS] The official language of Guernsey is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Guernsey,French | French | French language | fr,False,True
+[CLS] The official language of Easter Island is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Easter Island,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],European Union,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The official language of Papua New Guinea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],language of Papua New Guinea,Tok Pisin | Tok Pisin | tpi,False,False
+[CLS] The official language of Gibraltar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Gibraltar,English | English | English language | en | eng,False,True
+[CLS] The official language of Donetsk People ' s Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Yamalo - Nenets Autonomous Okrug is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Yamalo language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Basque Country is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Basque,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Republic of Mordovia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mordovia,Erzya | Erzya | myv,False,False
+[CLS] The official language of Gothenburg Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Gothenburg """,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Montenegro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serb language,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The official language of Achaemenid Empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Achaemenid,Ancient Greek | Ancient Greek | Old Greek | grc,False,False
+[CLS] The official language of French immersion is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French immersion,French | French | French language | fr,False,True
+[CLS] The official language of Zaire is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zaire,French | French | French language | fr,False,True
+[CLS] The official language of Bonaire is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bonaire,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Canton of Geneva is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Canton of Geneva """,French | French | French language | fr,False,True
+[CLS] The official language of Florida is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Florida,English | English | English language | en | eng,False,True
+[CLS] The official language of Sevastopol is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Eswatini is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,Swazi | Swati | Swazi | ss,False,False
+[CLS] The official language of Assyria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assyrian,Akkadian | Akkadian,False,False
+[CLS] The official language of Jewish Autonomous Oblast is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Norway is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Norwegian language,Nynorsk | Neo Norwegian | New Norwegian | Norwegian Nynorsk | Nynorsk | nn,False,True
+[CLS] The official language of Lappeenranta is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Donetsk is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Palau is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palau,Palauan | Palauan,False,False
+[CLS] The official language of Bengkulu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Bengkulu """,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Chukotka Autonomous Okrug is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Chukotka,Chukchi | Chukchi | Chukot | Ləɣ ' orawetl ' at,False,False
+[CLS] The official language of Vanuatu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vanuatu ' s language,French | French | French language | fr,False,True
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,"Sesotho | Sesotho | Sotho , Sesotho | Southern Sotho | st",False,False
+[CLS] The official language of Republic of Venice is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Republic of Venice """,Venetian | Venetan | Venetan language | Venetian | Venetian language | vec,False,False
+[CLS] The official language of Lesotho is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lesotho,"Sesotho | Sesotho | Sotho , Sesotho | Southern Sotho | st",False,False
+[CLS] The official language of French Community of Belgium is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French Community of Belgium,French | French | French language | fr,False,True
+[CLS] The official language of North Kosovo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Serb language,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The official language of Namibia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Namibian language,English | English | English language | en | eng,False,True
+[CLS] The official language of Guyana is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Guyana,English | English | English language | en | eng,False,True
+[CLS] The official language of Republic of Venice is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Republic of Venice """,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Republic of Khakassia is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Georgian Orthodox Church is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Georgian | Georgian | Georgian language | Kartuli | ka | ქართული,False,True
+[CLS] The official language of Porvoo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Porvoo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Porvoo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Porvoo,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Lampung is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lampung,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Canton of Jura is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Tatar,Lezgian | Kuri | Lezghian | Lezgian | lez,False,False
+[CLS] The official language of Vantaa is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Vantaa,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Kotka is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Kotka,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Menorca is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Menorca,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Kyivska Rus ' is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the language of Kyiv,Old East Slavic | Common Eastern Slavic | Common Russian | OES | Old East Slavic | Old Russian,False,False
+[CLS] The official language of Rauma is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Joensuu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Biel / Bienne is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Biel / Bienne,French | French | French language | fr,False,True
+[CLS] The official language of First Bulgarian Empire is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Old Church Slavonic | Ohrid Folios | Old Church Slavonic | cu,False,False
+[CLS] The official language of New Jersey is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Erzya | Erzya | myv,False,False
+[CLS] The official language of Sudan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Sudanese language,English | English | English language | en | eng,False,True
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Swahili language,Tswana | Bechuana | ISO 639 : tn | Sechuana | Setswana | Tswana | tn,False,False
+[CLS] The official language of Torfaen is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Torfaen,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] The official language of Palestinian territories is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the official language of Palestine,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The official language of Bulgarian Orthodox Church is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Albanian,Ukraine | UA | UKR | Ukraine | Ukrainia | ua | [UNK],False,True
+[CLS] The official language of Sint Eustatius is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],European Union,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] The official language of Kokkola is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kokkola,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Equatorial Guinea is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Equatorial Guinea,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Kesklinn is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Norwegian,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] The official language of Autonomous Province of Kosovo and Metohija is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Albanian,Albanian | Albanian | Albanian language | sq,True,True
+[CLS] The official language of Bermuda is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the official language of Bermuda,English | English | English language | en | eng,False,True
+[CLS] The official language of Dundee is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dundee,Scots | Inglis | Lallans | Lowland Scots | Scotch | Scots | Scots Leid | Scots language | braid Scots | sco,False,True
+[CLS] The official language of Mauritius is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mauritius,English | English | English language | en | eng,False,True
+[CLS] The official language of Institut d ' Estudis Catalans is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Catalan,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,True,True
+[CLS] The official language of International Olympic Committee is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" International Olympic Committee """,French | French | French language | fr,False,True
+[CLS] The official language of Chechen Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chechen,Chechen | Chechen | Chechen language | ce,True,False
+[CLS] The official language of Arizona is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Arizona,English | English | English language | en | eng,False,True
+[CLS] The official language of Kenya is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kenya,English | English | English language | en | eng,False,True
+[CLS] The official language of Aruba is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aruba,Papiamento | Papiamento | Papiamentu | pap,False,False
+[CLS] The official language of Bashkir is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Bashkir language,Republic of Bashkortostan | Bashkiria | Bashkiriya | Bashkortostan | Republic of Bashkortostan,False,False
+[CLS] The official language of Kingdom of Deheubarth is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] The official language of People ' s Republic of China is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the People ' s language,Standard Chinese | Guoyu | Huayu | Kuo - yü | Mandarin | Modern Standard Mandarin | Putonghua | Standard Chinese | Standard Mandarin,False,False
+[CLS] The official language of Ibiza is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Ibiza,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Karachay - Balkar | Karachay - Balkar | krc,False,False
+[CLS] The official language of French Southern and Antarctic Lands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Kabardian | Circassian | Kabardian | Kabardino - Circassian | kbd,False,False
+[CLS] The official language of Seychelles is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Seychelles,French | French | French language | fr,False,True
+[CLS] The official language of Republic of Bashkortostan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bashkortostan,Bashkir | Bashkir | Bashkir language,False,False
+[CLS] The official language of National Film Board of Canada is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The official language of Kabardino - Balkaria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tatar,Kabardian | Circassian | Kabardian | Kabardino - Circassian | kbd,False,False
+[CLS] The official language of Fiji is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Fijian language,Fiji Hindi | Fiji Baat | Fiji Hindi | Fiji Urdu | Fijian Hindi | Fijian Urdu | Hindustani | hif,False,False
+[CLS] The official language of Malawi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Malawi,Chewa | Chewa | Chichewa | Chinyanja | Nyanja | ny,False,False
+[CLS] The official language of Ghana is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ghana,English | English | English language | en | eng,False,True
+[CLS] The official language of Uppsala Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of Kiruna Municipality is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Kiruna """,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of South African Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Tatar | Kazan Tatar language | Qazan Tatar language | Tartarian | Tatar | Tatar language | tt,True,False
+[CLS] The official language of Saba is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"also called "" Saba """,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] The official language of Taiwan is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Taiwanese,Standard Chinese | Guoyu | Huayu | Kuo - yü | Mandarin | Modern Standard Mandarin | Putonghua | Standard Chinese | Standard Mandarin,False,False
+[CLS] The official language of European Space Agency is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,English | English | English language | en | eng,False,True
+[CLS] The official language of Botswana is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,English | English | English language | en | eng,False,True
+[CLS] The official language of Donetsk People ' s Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Thiruvananthapuram is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The official language of Karachay - Cherkess Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Karachay,Karachay - Balkar | Karachay - Balkar | krc,False,False
+[CLS] The official language of Fiji is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Fijian language,English | English | English language | en | eng,False,True
+[CLS] The official language of Republic of Khakassia is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Khakas | Hyrgys | Khakas,False,False
+[CLS] The official language of Luhansk People ' s Republic is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Luhansk,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Peru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Peruvian,Southern Quechua | Quechua IIC | Southern Quechua,False,False
+[CLS] The official language of Gambia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Gambian language,English | English | English language | en | eng,False,True
+[CLS] The official language of Uganda is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Ugandan language,English | English | English language | en | eng,False,True
+[CLS] The official language of Georgia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],language of Georgia,Georgian | Georgian | Georgian language | Kartuli | ka | ქართული,False,True
+[CLS] The official language of Mandatory Palestine is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Mandatory Palestine """,English | English | English language | en | eng,False,True
+[CLS] The official language of Gagauzia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gagauzia,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Tanzania is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Tanzania,English | English | English language | en | eng,False,True
+[CLS] The official language of Sahrawi Arab Democratic Republic is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sahrawi,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Delhi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gujarati,English | English | English language | en | eng,False,True
+[CLS] The official language of Benelux is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Benelux language,French | French | French language | fr,False,True
+[CLS] The official language of Spain is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Spain,Occitan | Langue d ' oc | Lenga d ' òc | Occitan | Occitan ( post 1500 ) | Occitan language | Provençal | oc,False,False
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Mari | Cheremis | Mari,False,True
+[CLS] The official language of Jambi is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jambi,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Rwanda is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kiribati,Kinyarwanda | Kinyarwanda | Ruanda language | Rwanda language | Rwandan | rw,False,False
+[CLS] The official language of Manitoba is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Manitoba,English | English | English language | en | eng,False,True
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,Tsonga | Tsonga | Xitsonga | ts,False,False
+[CLS] The official language of Congress Poland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Congress Poland,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The official language of Nenets Autonomous Okrug is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" Nenets """,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Nebraska is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nebraska,English | English | English language | en | eng,False,True
+[CLS] The official language of Patna is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Northern Mariana Islands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Northern Mariana language,Chamorro | Chamorro | ch,False,False
+[CLS] The official language of Netherlands Antilles is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Netherlands Antilles,Papiamento | Papiamento | Papiamentu | pap,False,False
+[CLS] The official language of Byzantine Empire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" Byzantine official language """,Medieval Greek | Byzantine | Byzantine Greek | Medieval Greek | Medieval Greek language | Middle Greek,False,False
+[CLS] The official language of Orange Free State is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Orange Free State """,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of North Korea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Korean,Korean | Korean | Korean language | ko,True,True
+[CLS] The official language of Kabardino - Balkaria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Karachay - Balkar | Karachay - Balkar | krc,False,False
+[CLS] The official language of Timurid Empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Timurid language,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The official language of Lohja is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lohja,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of South Tyrol is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" South Tyrol """,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Union of European Football Associations is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Union of European Football Associations,French | French | French language | fr,False,True
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,Swazi | Swati | Swazi | ss,False,False
+[CLS] The official language of Lucknow is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lucknow,English | English | English language | en | eng,False,True
+[CLS] The official language of Guernsey is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guernsey,English | English | English language | en | eng,False,True
+[CLS] The official language of Paris Commune is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Rovaniemi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Rovaniemi """,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Equatorial Guinea is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Equatorial Guinea,French | French | French language | fr,False,True
+[CLS] The official language of Union between Sweden and Norway is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of Grand Duchy of Lithuania is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lithuanian,Ruthenian | Lithuanian - Russian | Lithuanian - Slavonic | Old Belarusian | Old Ruthenian | Old Ukrainian | Old West Russian | Ruthenian | Simple Ruthenian | West Russian | ruski,False,False
+[CLS] The official language of Salo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Salo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Hamina is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hamina,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Nova Scotia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Kemi is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kemi,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Holy See is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Holy See,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Alberta is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Alberta,English | English | English language | en | eng,False,True
+[CLS] The official language of Bali is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bali,Balinese | Bali | Balinese | Balinese language | Basa Bali | Bhāṣā Bali,True,False
+[CLS] The official language of World Esperanto Youth Organization is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] The official language of Comoros is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Comoros,Comorian | Comorian | Comorian language,False,False
+[CLS] The official language of President of the Basque Autonomous Community is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Basque,Basque | Basque | Basque language | Basque languages | Euskara | eu | euskara,True,True
+[CLS] The official language of Bhopal is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Sweden is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Sami languages | Sami languages | Sámi languages,False,False
+[CLS] The official language of Kirkkonummi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Sierra Leone is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Sierra Leone,English | English | English language | en | eng,False,True
+[CLS] The official language of Bolivia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Bolivian language,Guarani | Guarani | Guarani language | Paraguayan Guarani | Paraguayan Guaraní | gn,False,False
+[CLS] The official language of Cebu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Cebu language,Cebuano | Cebuano | Cebuano language | ceb,False,False
+[CLS] The official language of Singapore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Singapore,Standard Chinese | Guoyu | Huayu | Kuo - yü | Mandarin | Modern Standard Mandarin | Putonghua | Standard Chinese | Standard Mandarin,False,False
+[CLS] The official language of Jakobstad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Abaza is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Abaza,Karachay - Cherkess Republic | Karachay - Cherkess Republic | Karachay - Cherkessia | Karachay - Cherkessiya | Karachay - Circassia | Karachay - Circassian Republic,False,False
+[CLS] The official language of Malabo is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malabo,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Delhi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gujarati,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The official language of Isle of Man is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Isle of Man,Manx | Gaelg | Gaelic | Manks | Manks language | Manx | Manx Gaelic | Manx language | gv,False,False
+[CLS] The official language of County Cork is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Irish,English | English | English language | en | eng,False,True
+[CLS] The official language of Iowa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Iowa,English | English | English language | en | eng,False,True
+[CLS] The official language of Bahamas is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Bahamas,English | English | English language | en | eng,False,True
+[CLS] The official language of Democratic Republic of Azerbaijan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Azerbaijani,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,True,False
+[CLS] The official language of Uganda is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Ugandan language,Swahili | Kiswahili | Swahili | Swahili ( macrolanguage ) | Swahili language | sw,False,False
+[CLS] The official language of Lugano is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The official language of Karachay - Cherkess Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Karachay,Abaza | Abaza | Abaza language,False,False
+[CLS] The official language of Huddinge Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" Huddinge """,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Church of Greece is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Greek | Greek | Greek language,False,True
+[CLS] The official language of Republic of North Ossetia - Alania is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Russian,Ossetian | Ossetian | Ossetic | Ossetic language | os,False,False
+[CLS] The official language of Belize is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Belize,English | English | English language | en | eng,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Latvian | Latvian | Latvian language | Lettish | Lettish language | lv,False,True
+[CLS] The official language of Aigle is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aigle,French | French | French language | fr,False,True
+[CLS] The official language of Coimbatore is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The official language of Economic Community of West African States is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the West African language,French | French | French language | fr,False,True
+[CLS] The official language of Maltese is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Malta,European Union | E . U . | EU | Europe | European Union | Union | eu | [UNK],False,False
+[CLS] The official language of Portugal is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese,Mirandese | Mirandese | Mirandese language | mwl,False,False
+[CLS] The official language of Brunei is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brunei ' s language,English | English | English language | en | eng,False,True
+[CLS] The official language of Komi Republic is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Komi language,Komi | Komi | Zyryan | kv,False,False
+[CLS] The official language of Indiana is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Indiana Dialect,English | English | English language | en | eng,False,True
+[CLS] The official language of Nunavut is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nunavut,Inuinnaqtun | Inuinnaqtun,False,False
+[CLS] The official language of Vevey is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the dialect of Vevey,French | French | French language | fr,False,True
+[CLS] The official language of Belgium is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Belgium,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Union between Sweden and Norway is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swedish,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The official language of Mercosur is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mercosur,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,Maltese | Il - lingwa Maltija | Maltese | Maltese language | lingwa Maltija | mt,False,False
+[CLS] The official language of Nunavut is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nunavut,French | French | French language | fr,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Tatar,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,False,False
+[CLS] The official language of NATO is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of NATO,English | English | English language | en | eng,False,True
+[CLS] The official language of Dutch Language Union is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Dutch,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Central African Republic is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Sango | Sangho | Sango | Sango language | sag | sg,False,False
+[CLS] The official language of Saskatchewan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Saskatchewan,French | French | French language | fr,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Khakas | Hyrgys | Khakas,False,False
+[CLS] The official language of South Africa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swahili language,Northern Sotho | Northern Sotho | Northern Sotho language | nso,False,False
+[CLS] The official language of Kauniainen is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Kauniainen language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Pargas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Pargas,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Ancient Carthage is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Carthage,Punic | Carthaginian | Phoenicio - Punic | Punic | Punic language,False,False
+[CLS] The official language of La Chaux - de - Fonds is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Commission on the Filipino Language is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tagalog,Tagalog | Tagalog | Tagalog language | tgl | tl,False,False
+[CLS] The official language of Yugoslavia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Serb language,Serbo - Croatian | BHS | Bosnian - Croatian - Montenegrin - Serbian | Bosnian - Croatian - Serbian | Serbo - Croat | Serbo - Croat - Bosnian | Serbo - Croatian | Serbo - Croatian language | sh,False,False
+[CLS] The official language of Mercosur is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mercosur,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],European Union,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The official language of Korsholm is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Danish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Abaza | Abaza | Abaza language,False,False
+[CLS] The official language of Kouvola is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Kouvola """,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Haparanda Municipality is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Kashubia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kashubia,Kashubian | Cassubian | Kashubian | Kashubian language | csb,False,False
+[CLS] The official language of Locarno is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Locarno,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Royal 22e Régiment is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Greek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Albanian,Armenia | ARM | Armenia | Republic of Armenia | [UNK],False,True
+[CLS] The official language of Alabama is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alabama ' s language,English | English | English language | en | eng,False,True
+[CLS] The official language of Saskatchewan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Saskatchewan,English | English | English language | en | eng,False,True
+[CLS] The official language of Kingdom of Mercia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Mercia language,Old English | Anglisc | Anglo - Saxon | Englisc | Old English | ang | Ænglisc,False,False
+[CLS] The official language of Mikkeli is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mikkeli,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Haparanda Municipality is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Kaarina is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kaarin,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Niue is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Niue,Niuean | Niuean | Niuean language,False,False
+[CLS] The official language of Meghalaya is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Khasi | Khasi | Khasi language,False,False
+[CLS] The official language of Cebu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Cebu language,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The official language of British Antarctic Territory is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Mykolaiv Oblast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Mykolaiv language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Seychelles is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Seychelles,Seychellois Creole | Kreol | Seselwa | Seselwa Creole French | Seychellois Creole | crs,False,False
+[CLS] The official language of Chhattisgarh is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Chole Chole,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Kauhava is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Kauhava language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Slovene is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slovene,European Union | E . U . | EU | Europe | European Union | Union | eu | [UNK],False,False
+[CLS] The official language of Hanko is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Hanko language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Luhansk People ' s Republic is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Luhansk,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of First Bulgarian Empire is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Medieval Greek | Byzantine | Byzantine Greek | Medieval Greek | Medieval Greek language | Middle Greek,False,False
+[CLS] The official language of Zambia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Zambia,English | English | English language | en | eng,False,True
+[CLS] The official language of President of the Basque Autonomous Community is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Basque,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Saba is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"also called "" Saba """,English | English | English language | en | eng,False,True
+[CLS] The official language of Achaemenid Empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Achaemenid,Elamite | Elamite | Elamite language,False,False
+[CLS] The official language of West Germany is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],German,German | Deutsch | German | German language | de,True,True
+[CLS] The official language of Tonga is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tonga,English | English | English language | en | eng,False,True
+[CLS] The official language of Republic of Mordovia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Mordovia,Moksha | Moksha | mdf,False,False
+[CLS] The official language of Thrissur is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The official language of Limburg is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Limburg,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Dundee is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dundee,English | English | English language | en | eng,False,True
+[CLS] The official language of National Film Board of Canada is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,English | English | English language | en | eng,False,True
+[CLS] The official language of Jakobstad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Chiasso is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chiasso,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Kentucky is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Kentucky,English | English | English language | en | eng,False,True
+[CLS] The official language of Nunavut is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nunavut,English | English | English language | en | eng,False,True
+[CLS] The official language of Arjeplog Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Slovene language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Tatar,Dargwa | Dargin | Dargwa | Khjurkili,False,False
+[CLS] The official language of Kirkkonummi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Finnish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Caribbean Netherlands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Caribbean Netherlands """,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Ossetian | Ossetian | Ossetic | Ossetic language | os,False,False
+[CLS] The official language of Uusikaupunki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of International Olympic Committee is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" International Olympic Committee """,English | English | English language | en | eng,False,True
+[CLS] The official language of Sint Eustatius is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dutch,English | English | English language | en | eng,False,True
+[CLS] The official language of Pitcairn Islands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Māori language,Pitkern | Pitcairn - Norfolk | Pitcairnese | Pitkern | Pitkern language | pih,False,False
+[CLS] The official language of Hanko is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Hanko language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Falkland Islands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Faroese,English | English | English language | en | eng,False,True
+[CLS] The official language of Haninge Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Haninge language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Republic of Adygea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Albanian,Adyghe | Adygei | Adyghe | Adyghe language | West Circassian | ady,False,False
+[CLS] The official language of Tennessee is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tuscany language,English | English | English language | en | eng,False,True
+[CLS] The official language of Kajaani is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kajaani,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Kingdom of Jerusalem is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Kingdom of Jerusalem """,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Crown of Aragón is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Aragonese,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Imatra is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Imatra,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of International Organization for Standardization is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Cyrillic,English | English | English language | en | eng,False,True
+[CLS] The official language of Kokkola is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kokkola,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Akkadian empire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Akkad,Akkadian | Akkadian,False,False
+[CLS] The official language of Tuusula is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tuusula,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Savonlinna is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+"[CLS] The official language of Pervomaysky District , Yaroslavl Oblast is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Republic of Kalmykia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kalmykia language,Kalmyk | European Kalmyk | Kalmuk | Kalmyk | Kalmyk language | Kalmyk of the Volga | Modern Kalmyk | Western Mongolian,False,False
+[CLS] The official language of Kerava is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Kerava language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Crown of Aragón is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Aragonese,Aragonese | Aragonese | Aragonese language | an,False,False
+[CLS] The official language of Talossa is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Talossa,Talossan | Talossan | Talossan language | tzl,False,False
+[CLS] The official language of Couto Misto is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Couto Misto,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Val d ' Aran is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Val d ' Aran,Occitan | Langue d ' oc | Lenga d ' òc | Occitan | Occitan ( post 1500 ) | Occitan language | Provençal | oc,False,False
+[CLS] The official language of Catalonia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Catalan,Aranese | Aranese,False,False
+[CLS] The official language of Shanghai Cooperation Organisation is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the official language of Shanghai,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The official language of Raseborg is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Danish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Simo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Simo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Campione d ' Italia is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The official language of Mariehamn is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mariehamn,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Loviisa is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Loviisa,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of South Carolina is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of South Carolina,English | English | English language | en | eng,False,True
+[CLS] The official language of Congress Poland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Congress Poland,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Heinola is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Heinola,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Stellaland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The official language of Ylitornio is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Ylitornio,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Sambir is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Sambir language,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Kristinestad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Karelian is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Karelian,Finland | FIN | Finland | Finlande | Finlandia | Finnia | Finnland | Land of Thousand Lakes | Republic of Finland | Republiken Finland | Suomen tasavalta | Suomi | fi | [UNK],False,True
+[CLS] The official language of Kingdom of Jerusalem is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Kingdom of Jerusalem """,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Alicante is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the dialect of Alicante,Valencian | Valencia | Valencian | Valencià,False,False
+[CLS] The official language of Utsjoki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Utsjoki language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Utah is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the official language of Utah,English | English | English language | en | eng,False,True
+[CLS] The official language of Central Visayas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Central Visayas """,Cebuano | Cebuano | Cebuano language | ceb,False,False
+[CLS] The official language of Republic of Buryatia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Cyrillic,Buryat | Buriat | Buryat | bxr,False,False
+[CLS] The official language of Jingpho language is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Jingpho,Kachin State | Kachin State,False,False
+[CLS] The official language of First Czechoslovak Republic is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Czechoslovak,Czech | Czech | Czech language | cs,False,True
+[CLS] The official language of Aceh is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aceh,Acehnese | Acehnese | Acehnese language | Achinese | ace,False,False
+[CLS] The official language of Sipoo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Sipoo language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Hailuoto is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hailuoto,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of County of Ribagorza is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ribagorza,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of International Civil Aviation Organization is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Luxembourg is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Luxembourg language,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Kauniainen is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Kauniainen language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of New Hampshire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of European Union is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Union,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Crimean Tatar | Crimean Tatar | Crimean Tatar language | Crimean Turkish | crh,False,False
+[CLS] The official language of International Organization for Standardization is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Cyrillic,French | French | French language | fr,False,True
+[CLS] The official language of Norfolk Island is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Norfolk Island,Norfuk | Norf ' k | Norfolk | Norfuk,False,False
+[CLS] The official language of Bonaire is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bonaire,Papiamento | Papiamento | Papiamentu | pap,False,False
+[CLS] The official language of Sotkamo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sotkamo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Kiruna Municipality is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Kiruna """,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of International Commission on Illumination is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the U . S,French | French | French language | fr,False,True
+[CLS] The official language of Vihti is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vihti,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Montreux is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Swiss language,French | French | French language | fr,False,True
+[CLS] The official language of Formentera is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Faroese language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Sipoo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Sipoo language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Organization for Security and Co - operation in Europe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Kalix Municipality is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Kalix """,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Lezgian | Kuri | Lezghian | Lezgian | lez,False,False
+[CLS] The official language of Idaho is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Idaho Dialect,English | English | English language | en | eng,False,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,Kalanga | Ikalanga | Kalanga | Kalanga language | TjiKalanga,False,False
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Buryat | Buriat | Buryat | bxr,False,False
+[CLS] The official language of English plural is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English plural,English | English | English language | en | eng,False,True
+[CLS] The official language of Varkaus is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Varkaus,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Zhovti Vody is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cyrillic,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The official language of Sint Maarten ( Dutch part ) is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Sint Maarten,English | English | English language | en | eng,False,True
+[CLS] The official language of Pays de la Loire is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,Breton | Breton | Breton language | Brezhoneg | br,False,True
+[CLS] The official language of Academy of Esperanto is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] The official language of Liberia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Liberian language,English | English | English language | en | eng,False,True
+[CLS] The official language of ASEAN is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of ASEAN,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] The official language of ASEAN is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of ASEAN,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Botkyrka Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Botkyrka """,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Jokkmokk Municipality is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Bernese Jura is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bernese Jura,French | French | French language | fr,False,True
+[CLS] The official language of Arkansas is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Arkansas,English | English | English language | en | eng,False,True
+[CLS] The official language of Vanuatu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vanuatu ' s language,English | English | English language | en | eng,False,True
+[CLS] The official language of Val d ' Aran is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Val d ' Aran,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The official language of South Georgia and the South Sandwich Islands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" South Georgia """,English | English | English language | en | eng,False,True
+[CLS] The official language of Norfolk Island is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Norfolk Island,English | English | English language | en | eng,False,True
+[CLS] The official language of Yukon is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Yukon language,English | English | English language | en | eng,False,True
+[CLS] The official language of Kingdom of Sicily is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Sicilian language,Sicilian | Calabro - Sicilian | Sicilian | Sicilian language | Siciliano | Sicilianu | Siculo | scn,False,False
+[CLS] The official language of Melitopol is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],to be the official language,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Ilomantsi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ethnic - ethnic language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of manually coded English is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hong Kong,English | English | English language | en | eng,False,True
+[CLS] The official language of Colorado is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Colorado,English | English | English language | en | eng,False,True
+[CLS] The official language of Haukipudas is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Haukipudas,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Ilmajoki is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Rwanda is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kiribati,English | English | English language | en | eng,False,True
+[CLS] The official language of Alavus is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Alavus,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Nykarleby is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Norwegian,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Snezhinsk is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The official language of Royal Society of British Artists is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United Kingdom,English | English | English language | en | eng,False,True
+[CLS] The official language of Nauru is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Nauru language,Nauruan | Nauru | Nauruan | na,False,False
+[CLS] The official language of Organisation for Economic Cooperation and Development is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the embassy,French | French | French language | fr,False,True
+[CLS] The official language of Esperantujo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] The official language of ASEAN is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of ASEAN,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The official language of Tuvalu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tuvalu,English | English | English language | en | eng,False,True
+[CLS] The official language of Virolahti is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Kingdom of Bulgaria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The official language of history of Limousin is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Limousin,French | French | French language | fr,False,True
+[CLS] The official language of Eswatini is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Swahili language,English | English | English language | en | eng,False,True
+[CLS] The official language of Assyria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assyrian,Aramaic | Aramaic | The Language of Jesus | arc,False,False
+[CLS] The official language of Kyustendil Province is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kyustendil,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Tatar,Rutul | Rutul | Rutul language,False,False
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Komi | Komi | Zyryan | kv,False,False
+[CLS] The official language of Guam is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Guam,English | English | English language | en | eng,False,True
+[CLS] The official language of Tolmezzo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tolmezzo,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Kristinestad is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Prussia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],German,German | Deutsch | German | German language | de,True,True
+[CLS] The official language of World Health Organization is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The official language of Kontiolahti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kontiolahti,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Vaala is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vaala,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Northwest Territories is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Northwest Territories,English | English | English language | en | eng,False,True
+[CLS] The official language of La Gomera is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The official language of Nauru is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Nauru language,English | English | English language | en | eng,False,True
+[CLS] The official language of Antigua and Barbuda is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Merikarvia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Merikarvia,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Kaustinen is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Kuhmo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kuhmo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Punkaharju is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Siuntio is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Siuntio language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,Tswana | Bechuana | ISO 639 : tn | Sechuana | Setswana | Tswana | tn,False,False
+[CLS] The official language of Republic of Rose Island is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Republic of Rose Island,Esperanto | Esperanto | Esperanto language | eo | epo,False,True
+[CLS] The official language of Meghalaya is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,English | English | English language | en | eng,False,True
+[CLS] The official language of Pirkkala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pirkkala,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Couto Misto is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Couto Misto,Galician | Galician | Galician language | galego | gl,False,False
+[CLS] The official language of Couto Misto is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Couto Misto,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Liminka is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Liminka,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Kingdom of Jerusalem is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Kingdom of Jerusalem """,Greek | Greek | Greek language,False,True
+[CLS] The official language of Kannonkoski is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of L ' Abbaye is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Montenegro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serb language,Bosnian | Bosnian | Bosnian language | bosanski | bosanski jezik | bs | language of Bosniak people | бс,False,False
+[CLS] The official language of Organization for Security and Co - operation in Europe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in the U . S,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Nokia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nokia,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Karelian is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Karelian,Karelia | Karelia | Kareliya | Karjalan Tazovaldkund | Karjalan tasavalta | Karjalan tazavalda | Republic of Karelia | Respublika Kareliya | Респу́блика Каре́лия,False,False
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Moksha | Moksha | mdf,False,False
+[CLS] The official language of Grisons is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gr . Gr,Romansh | Romanche | Romanche language | Romansch | Romansch language | Romansh | Romansh Language | Romansh language | Rumantsch | Rumantsch language | Rumantsh | Rumantsh language | rm,False,False
+[CLS] The official language of Alderney is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Alderney """,English | English | English language | en | eng,False,True
+[CLS] The official language of Saint Lucia is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saint Lucia,English | English | English language | en | eng,False,True
+[CLS] The official language of Loviisa is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Loviisa,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Marshall Islands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],language of the Marshall Islands,English | English | English language | en | eng,False,True
+[CLS] The official language of Indore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Indore language,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of Sweden is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Romani | Gipsy | Gypsy | Romani | Romany | rmy,False,True
+[CLS] The official language of Savukoski is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of London Esperanto Bible is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] The official language of Spanish Texas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The official language of Humppila is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Humppila,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Uzbek is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Uzbek language,Afghanistan | AFG | Afghanistan | Islamic Republic of Afghanistan | af | [UNK],False,True
+[CLS] The official language of Korpo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Korpo language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Lohja is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lohja,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Siikajoki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of German - speaking Community of Belgium is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],German - speaking,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Somaliland is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Somali,"Somali | Af Soomaali , Somali | Somali | Somali language | so",True,True
+[CLS] The official language of North American Free Trade Agreement is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The official language of North American Free Trade Agreement is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Russian Soviet Federative Socialist Republic is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Duchy of Normandy is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,Norman | Norman | Norman language | fr - x - nrm | nrf | nrm,False,True
+[CLS] The official language of Principality of Wales is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Welsh language,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] The official language of Language and Book Development Agency is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The official language of Versoix is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Iitti is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Iitti,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Virrat is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of South Dakota is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of South Dakota,English | English | English language | en | eng,False,True
+[CLS] The official language of Kaavi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kaavi,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Helmand is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Helmand,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Raisio is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Raisio,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Raseborg is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Danish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Kumlinge is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Austro - Hungarian language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Pancyprian Union of Chemists is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" Chemists """,Greek | Greek | Greek language,False,True
+[CLS] The official language of Uddevalla Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of Moscow Mathematical Society is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The official language of Karijoki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Karijoki,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tatar,Aghul | Aghul | Aghul language | Agul | Agul language,False,False
+[CLS] The official language of Pemba is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pemba,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of United Kingdom is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the English language,English | English | English language | en | eng,False,True
+[CLS] The official language of Hartola is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hartola,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Jämsä is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Jämsä,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Kaskinen is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Kuhmoinen is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kuhmoinen,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Lemland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Lemland,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Padasjoki is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Paltamo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Paltamo,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Pedersöre is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Norwegian language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Sastamala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Muonio is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Muonio language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Ryukyu Kingdom is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ryukyu,Classical Chinese | Classical Chinese | Literary Chinese | Traditional Chinese | Wenyan | lzh | zh - classical,False,False
+[CLS] The official language of Mistretta is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Austro - Hungarian language,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Grenada is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Grenada language,English | English | English language | en | eng,False,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,Chewa | Chewa | Chichewa | Chinyanja | Nyanja | ny,False,False
+[CLS] The official language of Republic of Florence is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Italian language,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Neklinovsky District is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Shimla is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Shimla language,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The official language of International Atomic Energy Agency is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Kingdom of Bernicia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the language of Bernicia,Old English | Anglisc | Anglo - Saxon | Englisc | Old English | ang | Ænglisc,False,False
+[CLS] The official language of World Trade Organization is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The official language of International Organization for Standardization is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Banten is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Banten,Sundanese | Sunda | Sundanese | su,False,False
+[CLS] The official language of Nieuwe Republiek is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,Tshwa | Tshwa | Tshwa language | Tsoa,False,False
+[CLS] The official language of Lumijoki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Lumijoki language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Akrotiri and Dhekelia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],""" Akrotiri """,English | English | English language | en | eng,False,True
+[CLS] The official language of Caslano is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Pacific Alliance is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Pacific Alliance,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of Northern Mariana Islands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Northern Mariana language,English | English | English language | en | eng,False,True
+[CLS] The official language of Bamyan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bamyan,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Jomala is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jomala,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Perroy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Perroy,French | French | French language | fr,False,True
+[CLS] The official language of Hyrynsalmi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Finnish language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Karkkila is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Arvidsjaur Municipality is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Arvidsjaur,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Övertorneå Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Norrbotten language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Prince Edward Island is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The official language of Zimbabwe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],language of Zimbabwe,Sena | Sena | Sena language | cisena,False,True
+[CLS] The official language of Republic of Dagestan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tatar,Tabasaran | Tabasaran | Tabasaran language | Tabassaran,False,False
+[CLS] The official language of Otoe - Missouria Tribe of Indians is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Otoe,Chiwere language | Chiwere | Chiwere language | Iowa - Oto,False,False
+[CLS] The official language of Hattula is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Hattula,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Lapinlahti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lapinlahti,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Parikkala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parikkala,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Siuntio is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Siuntio language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Tammela is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Tammela language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Tervola is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tervola,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Saarijärvi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Finnish language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Clusium is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman language,Etruscan | Etruscan,False,False
+[CLS] The official language of Palau is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palau,English | English | English language | en | eng,False,True
+[CLS] The official language of World Health Organization is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The official language of Central Visayas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Central Visayas """,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The official language of Russian Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Russian Republic,Russian | Russian | Russian language | ru,False,True
+[CLS] The official language of Enlightenment in Spain is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The official language of Académie Française is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Kashubia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kashubia,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The official language of Arjeplog Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Slovene language,Sami languages | Sami languages | Sámi languages,False,False
+[CLS] The official language of Daykundi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Daykundi,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Aghul | Aghul | Aghul language | Agul | Agul language,False,False
+[CLS] The official language of Ranua is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Bolama is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Bolama,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The official language of Russian Orthodox Church is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Church Slavonic | Azbuka | Bukvitsa | Church Slavonic | Church Slavonic language | Klimentownica,False,False
+[CLS] The official language of Wyoming is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Wyoming,English | English | English language | en | eng,False,True
+[CLS] The official language of Jaén Province is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The official language of Veyrier is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Veyrier,French | French | French language | fr,False,True
+[CLS] The official language of Spiez is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spiez,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Nogai | Nogai,False,False
+[CLS] The official language of Le Grand - Saconnex is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Wappo people is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wappo,English | English | English language | en | eng,False,True
+[CLS] The official language of Montserrat is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Montserrat,English | English | English language | en | eng,False,True
+[CLS] The official language of Patna is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Bhojpuri | Bhojpuri | Bhojpuri language | bh | bho,False,False
+[CLS] The official language of NATO Standardization Agency is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Francophonie française,French | French | French language | fr,False,True
+[CLS] The official language of Cook Islands is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],language of the Cook Islands,English | English | English language | en | eng,False,True
+[CLS] The official language of Åre Municipality is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Kyōto Prefecture is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Kyōto """,Japanese | Japanese | Japanese language | Nihongo | ja | jpn | 日 本 語,False,True
+[CLS] The official language of Veii is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Veii,Etruscan | Etruscan,False,False
+[CLS] The official language of Russia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tatar,Udmurt | Udmurt | Votyak | udm,False,False
+[CLS] The official language of Meyrin is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Meyrin,French | French | French language | fr,False,True
+[CLS] The official language of Exarchate of Ravenna is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Roman Catholic,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The official language of Haapavesi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haapavesi,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Föglö is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The official language of Geta is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Geta,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Jämijärvi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Kihniö is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Kokemäki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Kärkölä is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Miehikkälä is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Pieksämäki is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pieksämäki,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Pyhäntä is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The official language of Rantasalmi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rantasalmi,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Tuusniemi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tuusniemi,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Green Party of Bolivia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Bolivian,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The official language of University of Macau is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the official language of Macau,English | English | English language | en | eng,False,True
+[CLS] The official language of Kökar is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kökar,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Siilinjärvi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Finnish language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Stockholm County Council is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Swedish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Biel / Bienne is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Biel / Bienne,German | Deutsch | German | German language | de,False,True
+[CLS] The official language of Boudinar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Boudinar,Amazigh languages | Amazigh languages | Berber languages,False,False
+[CLS] The official language of Ijermaouas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],French,Amazigh languages | Amazigh languages | Berber languages,False,False
+[CLS] The official language of Ronco sopra Ascona is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The official language of Örebro County Council is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Örebro County,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Töysä is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Töysä language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Federation of Bosnia and Herzegovina is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Bosnia and Herzegovina,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The official language of Chardonne is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Bedano is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bedano,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Nimruz is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Nimruz language,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Akademiska Damkören Lyran is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lyran,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Kabul is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kabul,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Jersey is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jersey ' s language,English | English | English language | en | eng,False,True
+[CLS] The official language of Pays de la Loire is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,Gallo | Gallo,False,True
+[CLS] The official language of Nuristan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Nuristan,Dari | Afghan Farsi | Afghan Persian | Dari | Dari language | Eastern Farsi | Eastern Persian,False,True
+[CLS] The official language of Mexican Texas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The official language of Sonvilier is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonvilier,French | French | French language | fr,False,True
+[CLS] The official language of Eskilstuna Municipality is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Eskilstuna """,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Acquarossa is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The official language of Korsholm is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Danish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The official language of Maggia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Maggia,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The official language of Siikalatva is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The official language of Assyria is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assyrian,Sumerian | Sumerian | Sumerian language,False,False
+[CLS] The official language of Moudon is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Moudon,French | French | French language | fr,False,True
+[CLS] The official language of International Criminal Court is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The official language of Prilly is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Prilly,French | French | French language | fr,False,True
+[CLS] The official language of Karachay - Cherkess Republic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Karachay,Nogai | Nogai,False,False
+[CLS] The official language of Republic of Saugeais is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The official language of Republic of Yucatán is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" Republic of Yucatán """,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True

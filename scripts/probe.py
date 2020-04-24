@@ -284,7 +284,7 @@ class LamaPredictions(object):
             if _pred == _gold:
                 return True, golds
             if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
-                if _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
+                if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
                     return True, golds
         return False, golds
 

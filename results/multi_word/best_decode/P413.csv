@@ -1,0 +1,1001 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Brett Favre plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Michael Vick plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the F . C .,quarterback | QB | quarterback,False,True
+[CLS] Dan Marino plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Joe Namath plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Eli Manning plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Aaron Rodgers plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Drew Brees plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Warren Moon plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Steve Carlton plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Johnny Unitas plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Archie Manning plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the runner - up,quarterback | QB | quarterback,False,True
+[CLS] Vince Young plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Cy Young plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],Cy Young ' s,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Troy Aikman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Vinny Testaverde plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the right - hand,quarterback | QB | quarterback,False,True
+[CLS] Martin Brodeur plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Bobby Layne plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Bart Starr plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],The Simpsons as a,quarterback | QB | quarterback,False,True
+[CLS] Sid Luckman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the BJP,quarterback | QB | quarterback,False,True
+[CLS] Drew Bledsoe plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],Drew Bledsoe,quarterback | QB | quarterback,False,True
+[CLS] Jerry Rice plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Tiago Mendes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Tim Tebow plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the defensive,quarterback | QB | quarterback,False,True
+[CLS] Joe Flacco plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flexibel,quarterback | QB | quarterback,False,True
+[CLS] Guillermo Barros Schelotto plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the triumph,midfielder | MF | midfielder,False,True
+[CLS] Leandro Lessa Azevedo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Al MacInnis plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cliffhanger,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Patrick Roy plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Dan Fouts plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flexibel,quarterback | QB | quarterback,False,True
+[CLS] Randall Cunningham plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Terrell Owens plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Honus Wagner plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,shortstop | SS | baseball shortstop | shortstop | softball shortstop | ss,False,False
+[CLS] Trent Green plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,quarterback | QB | quarterback,False,True
+[CLS] Chris Simms plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Curtis Joseph plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flexibel,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Mike Piazza plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,catcher | catcher,False,False
+[CLS] Charlie Joiner plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Joe Mauer plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,catcher | catcher,False,False
+[CLS] Steve Peat plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,downhill mountain biking | DH | downhill mountain biking,False,False
+[CLS] Kevin Kolb plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Steve McNair plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the defensive end,quarterback | QB | quarterback,False,True
+[CLS] Dwayne Harris plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Kelley Washington plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the scheduling,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Lou Groza plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,placekicker | PK | kicker | placekicker,False,False
+[CLS] Manuel Johnson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Juaquin Iglesias plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],Juaquin ' s,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Craig Morton plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,quarterback | QB | quarterback,False,True
+[CLS] Tobin Rote plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Jim Plunkett plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Flanker,quarterback | QB | quarterback,False,True
+[CLS] Ty Cobb plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the crucifix,center fielder | CF | center fielder | centre fielder,False,False
+[CLS] Chuck Howley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Thurman Munson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,catcher | catcher,False,False
+[CLS] Bob Gibson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Kellen Moore plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Tom Harmon plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the U . S .,running back | RB | feature back | running back,False,False
+[CLS] Russell Martin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the U . S .,catcher | catcher,False,False
+[CLS] Tom Barrasso plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Ashkan Dejagah plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ramires plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],defensive,midfielder | MF | midfielder,False,True
+[CLS] Ross Brooks plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Calvin Johnson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Ryan Ellis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Alex Smith plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,quarterback | QB | quarterback,False,True
+[CLS] Ken O ' Brien plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],Ken O ' Brien,quarterback | QB | quarterback,False,True
+[CLS] Brian Leetch plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the F . C .,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] John Smoltz plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Connor Shaw plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] Don Drysdale plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] John David Booty plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,quarterback | QB | quarterback,False,True
+[CLS] Roberto Luongo plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Ray Fosse plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,catcher | catcher,False,False
+[CLS] Charles Woodson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the blanket,cornerback | CB | corner | cornerback,False,False
+[CLS] Caleb TerBush plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Elvis Grbac plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Yu Darvish plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,starting pitcher | SP | starting pitcher,False,False
+[CLS] David Ortiz plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,designated hitter | DH | designated hitter,False,False
+[CLS] Ray Nitschke plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Deion Sanders plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,cornerback | CB | corner | cornerback,False,False
+[CLS] Cody Ross plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,outfielder | OF | outfielder,False,False
+[CLS] David Mathebula plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the crypt,midfielder | MF | midfielder,False,True
+[CLS] Cris Carter plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flexibel,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Pee Wee Reese plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the Psychiatric,shortstop | SS | baseball shortstop | shortstop | softball shortstop | ss,False,False
+[CLS] Connor Cook plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Fábio Rochemback plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Kevin Johnson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,point guard | point guard,False,False
+[CLS] Eli Whiteside plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,catcher | catcher,False,False
+[CLS] Jaime Valdés plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Rodney Landers plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] Tim Couch plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Daryle Lamonica plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the blanket,quarterback | QB | quarterback,False,True
+[CLS] Drew Doughty plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Moussa Sissoko plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Greg Cook plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Don Larsen plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Jeb Blount plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] Gary Payton plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,point guard | point guard,False,False
+[CLS] Josh Gibson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,catcher | catcher,False,False
+[CLS] Ian Armstrong plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the O / O,midfielder | MF | midfielder,False,True
+[CLS] Vince Evans plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Willie Lanier plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Terry Hanratty plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] Christian Ponder plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] AJ McCarron plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the runner - up,quarterback | QB | quarterback,False,True
+[CLS] Mathieu Valbuena plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Don Majkowski plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Abedi Pele plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Whit Taylor plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,quarterback | QB | quarterback,False,True
+[CLS] Dave Schnell plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Jonathon Blum plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Chan Ho Park plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Georges Vézina plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Fabián Andrés Vargas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Willie Mitchell plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the blankets,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] John Blue plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flexibel,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Chetin Sadula plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Brandon Weeden plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Duncan Keith plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Hasan Türk plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Antti Niemi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],position . Play in,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Wade Elliott plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Keenan Allen plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Matt Robinson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Geovany Soto plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,catcher | catcher,False,False
+[CLS] Gene Washington plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Bob Keeton plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Clint Benedict plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Ryan Lavarnway plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,catcher | catcher,False,False
+[CLS] Chris Pronger plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Cyclocross,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Sean Glennon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,quarterback | QB | quarterback,False,True
+[CLS] Charles N ' Zogbia plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Leo Durocher plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],a flexibility,shortstop | SS | baseball shortstop | shortstop | softball shortstop | ss,False,False
+[CLS] Chris Chandler plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Jamie Amihere Moore plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Cyclocross,midfielder | MF | midfielder,False,True
+[CLS] Glenn Hoddle plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Craig Redmond plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Shane Matthews plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Kai Forbath plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,placekicker | PK | kicker | placekicker,False,False
+[CLS] Wade Flaherty plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Igor Rakočević plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,point guard | point guard,False,False
+[CLS] Claus Jensen plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the left - winger,midfielder | MF | midfielder,False,True
+[CLS] Dwight Gooden plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Lucas Piazon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Dennis Endras plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Andy Brown plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Cho Hyung - ik plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the crypt,midfielder | MF | midfielder,False,True
+[CLS] Abdelhamid Shabana plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the crypt,midfielder | MF | midfielder,False,True
+[CLS] Jake Rudock plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Aaron Pettrey plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,placekicker | PK | kicker | placekicker,False,False
+[CLS] Laurențiu Rus plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],center - center,midfielder | MF | midfielder,False,True
+[CLS] Ernesto Lazzatti plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Tom Stincic plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Vincent van den Berg plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Dave Dryden plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the U . S .,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Chris Levesque plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Bruce Eugene plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Emre İşçiler plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],center - center,midfielder | MF | midfielder,False,True
+[CLS] Bradley Jennings plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Chris Dixon plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Keisuke Honda plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the blanket,midfielder | MF | midfielder,False,True
+[CLS] Antonio Candreva plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Michael Barrantes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Martin Allen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Massimo Donati plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Morten Gamst Pedersen plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the tight end,midfielder | MF | midfielder,False,True
+[CLS] Danny Andrew plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],both the defensive and defensive,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Jake Heaps plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Tony Hill plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Damian Rhodes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Tommy Jones plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Crusaders,quarterback | QB | quarterback,False,True
+[CLS] Nnamdi Asomugha plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,cornerback | CB | corner | cornerback,False,False
+[CLS] Harry Mummery plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Mike Quick plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Walt Weiss plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,shortstop | SS | baseball shortstop | shortstop | softball shortstop | ss,False,False
+[CLS] Shea Weber plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Connor Murphy plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Shayne Graham plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,placekicker | PK | kicker | placekicker,False,False
+[CLS] Cristian Daniel Ledesma plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] John Jefferson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Alexander Wright plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Andre Rison plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Angelo Di Livio plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Jyrki Lumme plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cradling,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Paul Larson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Scott Fankhouser plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Gary Huff plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Whitey Merritt plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the tight end,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Valeri Vasiliev plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the crypt,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Alexander Godynyuk plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Ryan Whitney plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Psychiatric,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Hughie Lehman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Derek Landmesser plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Dwayne Roloson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Lee Smith plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the blankets,relief pitcher | RP | relief pitcher | reliever,False,False
+[CLS] Jamall Broussard plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Jean - Jacques Gosso plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Byron Dafoe plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Stan Gelbaugh plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] John Kaleo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] Dan Dickel plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] David Albelda plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Aaron Heilman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,relief pitcher | RP | relief pitcher | reliever,False,False
+[CLS] Erick Anderson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Jeff Tuel plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Josh Brown plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,placekicker | PK | kicker | placekicker,False,False
+[CLS] James Harrison plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Matt Stevens plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Jim Kubiak plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Michael Jackson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cryptic,linebacker | linebacker,False,False
+[CLS] Anurak Srikerd plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Jan Huokko plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Brian Bosworth plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Jack Thompson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the blanket,quarterback | QB | quarterback,False,True
+[CLS] Fred Carr plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Ernest Givins plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Carlton Bailey plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,linebacker | linebacker,False,False
+[CLS] Sergio Campano Franco plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the defensive midfielder,midfielder | MF | midfielder,False,True
+[CLS] Jim Benning plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Lloyd Isgrove plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclocross,midfielder | MF | midfielder,False,True
+[CLS] Alex Carder plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Homer Jordan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,quarterback | QB | quarterback,False,True
+[CLS] Aleksandar Đorđević plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,point guard | point guard,False,False
+[CLS] Mario Hezonja plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,shooting guard | shooting guard,False,False
+[CLS] Chris Warren plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,shooting guard | shooting guard,False,False
+[CLS] Cēzars Ozers plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,point guard | point guard,False,False
+[CLS] Rich Loiselle plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Cypriot,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Zac Robinson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Tommy Albelin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Mario Santana plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Lennart Häggroth plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],forward,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Chris Brazzell plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Juan Alberto Schiaffino plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Rumi Utsugi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the blanket,midfielder | MF | midfielder,False,True
+[CLS] Hernán Darío Burbano plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the defensive midfielder,midfielder | MF | midfielder,False,True
+[CLS] Salim Stoudamire plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,point guard | point guard,False,False
+[CLS] Bojan Krstović plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,shooting guard | shooting guard,False,False
+[CLS] Shaone Morrisonn plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Gerald Abraham plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cypriot,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Cory Joseph plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,point guard | point guard,False,False
+[CLS] Devin Aromashodu plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right winger,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Gaël Givet plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Hürriyet Gücer plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Rabiu Ibrahim plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Lorenzo Paoli plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Kevin Eakin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Deniz Baykara plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Abdellah Lahoua plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Jardel Santana plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flex flex,midfielder | MF | midfielder,False,True
+[CLS] Andrew Wisniewski plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,point guard | point guard,False,False
+[CLS] Guido Alvarenga plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Sandro Cois plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Jorge Sanz plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the triumph,point guard | point guard,False,False
+[CLS] Caspar Hughes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Pernell McPhee plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,linebacker | linebacker,False,False
+"[CLS] Greg Lloyd , Sr . plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD]",the cyclist,linebacker | linebacker,False,False
+[CLS] Stuart Metcalfe plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Patrick Davis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,winger | attacking midfielder | left attacking midfielder | left winger | right attacking midfielder | right winger | wide player | winger,False,False
+[CLS] Henry Toczylowski plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Tolga Geçim plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the defensive midfielder,shooting guard | shooting guard,False,False
+[CLS] Trygve Andersen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Andre Hastings plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flexibel,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Brandon Spikes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the tight end,linebacker | linebacker,False,False
+[CLS] Froilan Baguion plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the center - center,point guard | point guard,False,False
+[CLS] Chidi Iwuoma plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclocross,cornerback | CB | corner | cornerback,False,False
+[CLS] Jonathan Casillas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Levente Szuper plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Fabio Pecchia plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ryan Ludwick plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,outfielder | OF | outfielder,False,False
+[CLS] Darren Murphy plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cliffhanger,midfielder | MF | midfielder,False,True
+[CLS] Devi Muka plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the blanket,midfielder | MF | midfielder,False,True
+[CLS] Bryan Marchment plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Noah Hickey plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Fredrik Ulvestad plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Alexei Zhitnik plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Barry Nicholson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Kyle Davies plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Facundo Campazzo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,point guard | point guard,False,False
+[CLS] Ma Zengyu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,shooting guard | shooting guard,False,False
+[CLS] Roman Gabriel plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] João Moutinho plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Łukasz Koszarek plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],forward,point guard | point guard,False,False
+[CLS] David Terrell plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Reilly O ' Reilly,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Carlos Quentin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flexibel,outfielder | OF | outfielder,False,False
+[CLS] Gilles Meloche plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Nassim Dehouche plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Nicolás diego Frutos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the defensive midfielder,forward | F | attacker | forward | striker,False,True
+[CLS] Woodrow Dantzler plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Casey Weldon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Moisés Villarroel plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the left - left,midfielder | MF | midfielder,False,True
+[CLS] Marcelo Vega plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Sebastian Rajalakso plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Michel Decastel plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] John Moshoeu plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Javier López plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,relief pitcher | RP | relief pitcher | reliever,False,False
+[CLS] Miki Berkovich plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the blankets,shooting guard | shooting guard,False,False
+[CLS] Albertito Luque plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Steve Passmore plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Derek Lowe plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Bernard Berrian plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Helge Haugen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the left wing,midfielder | MF | midfielder,False,True
+[CLS] Simeon Castille plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,cornerback | CB | corner | cornerback,False,False
+[CLS] Tommy Callaghan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Javier Alejandro Rabbia plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Chalermwoot Sa - Ngapol plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ye Jia plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the crypt,midfielder | MF | midfielder,False,True
+[CLS] Jiří Krystan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Eric Cairns plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Trent Cole plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Xavier Hochstrasser plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Terrell Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,cornerback | CB | corner | cornerback,False,False
+[CLS] Jon Casey plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Jalal Akbari plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the BJP,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Casemiro plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Leon Johnson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,running back | RB | feature back | running back,False,False
+[CLS] Ralph Coates plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Austin Davis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Ryan Donaldson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Matthias Sindelar plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the left left,forward | F | attacker | forward | striker,False,True
+[CLS] Garba Lawal plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Bo McCalebb plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,point guard | point guard,False,False
+[CLS] Joe Hesketh plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Yasir Hanapi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] David Degen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Adrian Cristea plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Mohamed Kamara plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Adam Gross plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cypriot,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Sanne Cant plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,cyclo - cross | cyclo - cross,False,False
+[CLS] Paolo Sammarco plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Frédéric Mémin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Efren Herrera plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,placekicker | PK | kicker | placekicker,False,False
+[CLS] Bryant Johnson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Psychiatric,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Miller Farr plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flexibility,cornerback | CB | corner | cornerback,False,False
+[CLS] Rodolfo Pizarro plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Scott Mutryn plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Malaury Martin plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Zakhar Pashutin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the defensive midfielder,shooting guard | shooting guard,False,False
+[CLS] Adnan Januzaj plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Maxi Rodríguez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Rodrigo Tello plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Katie Smith plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,shooting guard | shooting guard,False,False
+[CLS] Brandon Deville plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Ed Mioduszewski plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Malcolm Butler plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Adrian Clarke plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Jonathan Bachini plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Tommy Jones plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Crusaders,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Martin Dobson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the O O O O,midfielder | MF | midfielder,False,True
+[CLS] Damir Mulaomerović plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,point guard | point guard,False,False
+[CLS] Randy St . Claire plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,relief pitcher | RP | relief pitcher | reliever,False,False
+[CLS] Giulia Domenichetti plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the blank,midfielder | MF | midfielder,False,True
+[CLS] Davy Klaassen plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Vangelis Tzolos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,point guard | point guard,False,False
+[CLS] Élton José Xavier Gomes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Samuel Holmén plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Marc Trestman plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cypriot,quarterback | QB | quarterback,False,True
+[CLS] Aung Kyaw Naing plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Kirk Rueter plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Hugh McElhenny plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the Reilly O ' Reilly,running back | RB | feature back | running back,False,False
+[CLS] Eli Apple plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,cornerback | CB | corner | cornerback,False,False
+[CLS] Hiram Mier plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Samir Bourenane plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Shane Greene plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Tyler Sloan plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Psychiatric,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Johan Fransson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Ismail Matar plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Patrick Peterson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,cornerback | CB | corner | cornerback,False,False
+[CLS] Diogo Ferreira plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Sylvain Distin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Francesco Valiani plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Alan Morris plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Will Venable plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,outfielder | OF | outfielder,False,False
+[CLS] Kenshin Kawakami plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the crypt,starting pitcher | SP | starting pitcher,False,False
+[CLS] Peter Carvalho plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Jesús Meza plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Kevin Dockery plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,cornerback | CB | corner | cornerback,False,False
+[CLS] Jack Morris plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,starting pitcher | SP | starting pitcher,False,False
+[CLS] Ferrie Bodde plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Brian Maisonneuve plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Peter Pullicino plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Bill Julian plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,winger | left wing | left wing forward | left winger | right wing | right wing forward | right winger | wing | wing forward | winger,False,False
+[CLS] Grant Leadbitter plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Maja Włoszczowska plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,cross - country cycling | VTT cross - country | cross - country cycling,False,False
+[CLS] Robert Scarlett plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Bryan Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Dan Alexa plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Patrick Ebert plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] George Mihai Florescu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],scrubbaby,midfielder | MF | midfielder,False,True
+[CLS] Mo Lewis plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Edwin Rodríguez plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,infielder | infielder,False,False
+[CLS] Taylor Martinez plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Psychiatric,quarterback | QB | quarterback,False,True
+[CLS] Timmy Pettersson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Nikos Argyropoulos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the attacking midfielder,shooting guard | shooting guard,False,False
+[CLS] Kristi Cirone plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,point guard | point guard,False,False
+[CLS] Michael Zorc plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Florin Berenguer plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Joe Ledley plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] John Earp plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,forward | F | attacker | forward | striker,False,True
+[CLS] Nico Johnson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,linebacker | linebacker,False,False
+[CLS] James Meyer plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,midfielder | MF | midfielder,False,True
+[CLS] Emiljano Vila plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Ray Giroux plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Michael Crabtree plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Crabtree,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Gökhan Alsan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Leung Tsz Chun plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Don McNeal plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,cornerback | CB | corner | cornerback,False,False
+[CLS] Bruno Gervais plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cypriot,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Tommy Hendricks plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Aldrick Robinson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Franco Bergamaschi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] John Anders Bjørkøy plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the left - left,midfielder | MF | midfielder,False,True
+[CLS] Laurent Dos Santos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Pedro Paulo de Oliveira plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Paolo Stringara plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Richie Guerin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,point guard | point guard,False,False
+[CLS] Vernon Dean plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Flanker,cornerback | CB | corner | cornerback,False,False
+[CLS] Nurbol Zhumaskaliyev plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],center - center,midfielder | MF | midfielder,False,True
+[CLS] Eric Thames plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,outfielder | OF | outfielder,False,False
+[CLS] Giuseppe Bonomi plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Sirajeddine Chihi plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Jimmy Smith plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Mike Phelan plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Massimo Murdocca plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Derek Shybunka plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Ludwin Van Nieuwenhuyze plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Tony Shepherd plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Patrick Bailey plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Jordan Garcia - Calvete plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Sean Sullivan plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Reilly O ' Reilly,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Akbar Sadeghi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Ricardo Moreira plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] David Leggio plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Eusebio Castigliano plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Rafael Bastos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Toney Douglas plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,point guard | point guard,False,False
+[CLS] Frank Mobley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,forward | F | attacker | forward | striker,False,True
+[CLS] Rodrigue Akl plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,point guard | point guard,False,False
+[CLS] Aren Davoudi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,point guard | point guard,False,False
+[CLS] Ibrahim Sacko plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Antonino Bernardini plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Fernando Belluschi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Anis Boujelbene plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Jone Samuelsen plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the left wing,midfielder | MF | midfielder,False,True
+[CLS] Luis Rodríguez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,shortstop | SS | baseball shortstop | shortstop | softball shortstop | ss,False,False
+[CLS] Ron Gant plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,outfielder | OF | outfielder,False,False
+[CLS] Nikola Mitrović plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Ernest Vaast plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Andre Frolov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Dan Fox plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Deshaun Watson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Greg Zolman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,quarterback | QB | quarterback,False,True
+[CLS] Daryl van Mieghem plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Darian MacKinnon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Flanker,midfielder | MF | midfielder,False,True
+[CLS] Brad Potts plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Psychiatric,midfielder | MF | midfielder,False,True
+[CLS] Vasil Panayotov plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Randal Grichuk plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,outfielder | OF | outfielder,False,False
+[CLS] Rod Streater plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Bill Fiedler plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Tony Sacca plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,quarterback | QB | quarterback,False,True
+[CLS] John Erskine plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Jeremy Hermida plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,outfielder | OF | outfielder,False,False
+[CLS] Jason McAddley plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Ruslan Hunchak plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],center - center,midfielder | MF | midfielder,False,True
+[CLS] Ville Kolppanen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Tom Galati plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Mickaël Debève plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Luís Henrique Pereira dos Santos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Gabriel Vidal plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Nzinga Luvumbu plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Martin McGrath plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Shéu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],an aggravated defensive,midfielder | MF | midfielder,False,True
+[CLS] Anton Volchenkov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Steve Wilkes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Bob Todd plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Stanislav Hudec plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],forward,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Arash Roshanipour plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Vinzenz Flatz plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] H . B . Blades plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the Cypriot,linebacker | linebacker,False,False
+[CLS] Kuami Agboh plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ivan Mitchell plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Kelvin Sheppard plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Olaf Schreiber plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Lester Ricard plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Idrissa Keita plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the crypt,midfielder | MF | midfielder,False,True
+[CLS] Marcin Pietroń plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Tony Hopper plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Adigun Salami plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] José Luis Mendilibar plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Chen Jiunn - ming plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Stan Howard plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Jimmy Abdou plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Jeff Lewis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Andy Arnott plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] George Maluleka plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Tom Addison plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Troops,linebacker | linebacker,False,False
+[CLS] Glen Lacey plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Trumaine McBride plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Mike Alston plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Tom Kouzmanis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the hooker,midfielder | MF | midfielder,False,True
+[CLS] Jack Robinson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Cam Fowler plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cliffhanger,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Manuel Curto plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Muhammad Azwan Ali Rahman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Burak Can Kalender plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],position . Play in,midfielder | MF | midfielder,False,True
+[CLS] Jose Gomez plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Sander Skogli plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the rowing,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Danny Post plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Tony Lowery plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Trevor Ford plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Jason Davis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Alfred Nicol plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Neil Whalley plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Hernán Gaviria plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the defensive midfielder,midfielder | MF | midfielder,False,True
+[CLS] Klemen Medved plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Jalil Brown plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Kealoha Pilares plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the defensive midfielder,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Eric Hacker plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the left - winger,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Richard Bachman plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Dick Kotanen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Georges Mandjeck plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the left left,midfielder | MF | midfielder,False,True
+[CLS] Bashir Levingston plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Frank Cartledge plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,forward | F | attacker | forward | striker,False,True
+[CLS] Mohannad Nassir plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ángelo Sagal plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],Reflection,midfielder | MF | midfielder,False,True
+[CLS] Jim Cairney plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Rahim Rızvanoğlu plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],forward,point guard | point guard,False,False
+[CLS] Justo Nguema plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Waheed Oseni plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Marcus Brown plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,cornerback | CB | corner | cornerback,False,False
+[CLS] Nathaniel Wedderburn plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Dialleo Burks plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Igor Demo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Brad Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Bobby Higginson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cliffhanger,outfielder | OF | outfielder,False,False
+[CLS] Diego Benito Rey plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Matt Shoemaker plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Martín Pérez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Ashley Fernandes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Kenny Sykes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,shooting guard | shooting guard,False,False
+[CLS] P . J . Williams plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Dragan Tadić plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Fred Onyedinma plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Esteban Sachetti plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the left left,midfielder | MF | midfielder,False,True
+[CLS] Filip Pyrochta plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Alan Bradshaw plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Radhames Liz plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Greg Theberge plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],Theberge ' s,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Andy Moule plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the F . C .,midfielder | MF | midfielder,False,True
+[CLS] Javier Jiménez Santafé plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the left - winger,midfielder | MF | midfielder,False,True
+[CLS] Dennis Vaske plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Lester Towns plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Georges Heylens plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Félix Potvin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Jim Culhane plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Russell Milton plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Flanker,midfielder | MF | midfielder,False,True
+[CLS] Wane McGarity plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Darin Jordan plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Tommy O ' Neill plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],Tommy O ' Neill,midfielder | MF | midfielder,False,True
+[CLS] Saša Simić plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Fred Ferdinando Mote plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Darrell Colbert plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Serhiy Kovalets plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Chris Arthur plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Cyclocross,midfielder | MF | midfielder,False,True
+[CLS] Calvin Elfring plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Jordan Pearce plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Mike Mottau plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Tom Gorzelanny plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Gerad Adams plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Dalton Thrower plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Anthony Losilla plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Davide Bariti plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Mats Trygg plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],position . Play in,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Carl Lundgren plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the crypt,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Eddie Murray plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,placekicker | PK | kicker | placekicker,False,False
+[CLS] Jake Taylor plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Scott Maine plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Psychiatric,relief pitcher | RP | relief pitcher | reliever,False,False
+[CLS] Leslie Santos plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Max St . Pierre plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,catcher | catcher,False,False
+[CLS] Mariano Amaro plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Richie Baker plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Mike Slaton plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Gentian Manuka plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Eric Hipple plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] John Harold Lozano plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Zdeno Štrba plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyklistic,midfielder | MF | midfielder,False,True
+[CLS] Miroslav Radović plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Patrik Lomski plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Danny Sullivan plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Alexandru Grab plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Pablo Pérez Rodríguez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Sasha Pavlović plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the knock - out,shooting guard | shooting guard,False,False
+[CLS] Alfie Potter plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Cypriot,midfielder | MF | midfielder,False,True
+[CLS] Trent Yawney plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Alexei Semenov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the crypt,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Pat Westrum plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Ricardo Malafaia plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Joshua Zapata plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Pedro Paulo Saraiva António plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Geraldo Dutra Pereira plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the right winger,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Gary Whetter plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Armando Doda plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Les Briley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Naby Soumah plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Johnny Moates plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a flexibility,point guard | point guard,False,False
+[CLS] Antonio Granger plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,shooting guard | shooting guard,False,False
+[CLS] Alain Chevrier plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Wan Zaman Wan Mustapha plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Milan Đurišić plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Kristoffer Fagercrantz plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - winger,midfielder | MF | midfielder,False,True
+[CLS] Tsering Dhundup plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Quentin Lowry plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,linebacker | linebacker,False,False
+[CLS] Vincent Gragnic plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Petter Bruer Hanssen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the left wing,midfielder | MF | midfielder,False,True
+[CLS] János Székely plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Marcus Allen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,running back | RB | feature back | running back,False,False
+[CLS] Troy Caesar plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Harry Johnson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Josh McNary plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Chad Ruhwedel plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Jonathan Smith plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Dana Brinson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Martí Riverola plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Felipe Seymour plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Albert Craig plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Ronnie Sundin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Ryan Smith plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Earl Everett plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flexibel,linebacker | linebacker,False,False
+[CLS] Nadine Kraus plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the women ' s basketball,midfielder | MF | midfielder,False,True
+[CLS] Prince Amukamara plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the crypt,cornerback | CB | corner | cornerback,False,False
+[CLS] Gusten Törnqvist plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] John Foley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Britt Hager plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Kostas Kaiafas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] George Mallia plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cypriot,midfielder | MF | midfielder,False,True
+[CLS] Elizée Demankel To plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the defensive midfielder,midfielder | MF | midfielder,False,True
+[CLS] Josue Paul plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Matt Snell plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,running back | RB | feature back | running back,False,False
+[CLS] Debbie Bampton plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Marat Xäyrullin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Giovanni Degni plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] István Spitzmüller plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Raúl Alexandre plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Shawn Barber plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+"[CLS] John Kerr , Jr . plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Salvador Pérez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,catcher | catcher,False,False
+[CLS] Matthew Gill plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Troops,midfielder | MF | midfielder,False,True
+[CLS] Thanasis Tegousis plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Steven Kampfer plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Liam Needham plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Ali Fuseini plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Mike Jefferson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Andrea Capone plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Gary Clayton plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Flanker,midfielder | MF | midfielder,False,True
+[CLS] Oleksandr Pavlovych Yakovenko plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Matías Pérez Laborda plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Lasse Kukkonen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cradling,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Hélio Roque plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Lee Jones plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the blanket,forward | F | attacker | forward | striker,False,True
+[CLS] Enrique Castaño Cervera plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Nathan Sinkala plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Jaroslav Diviš plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Junior Nuñez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Hervé Guégan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] David Le Frapper plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Mike Robitaille plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Stephen Sunday plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cyclocross,midfielder | MF | midfielder,False,True
+[CLS] Hjalte Nørregaard plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Derrick Alexander plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Vladimir Grebenschikov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyklist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Jimmy Lindsay plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,midfielder | MF | midfielder,False,True
+[CLS] Martin Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Mazio Royster plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,running back | RB | feature back | running back,False,False
+[CLS] Nate Triplett plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the tight end,linebacker | linebacker,False,False
+[CLS] Jackie Wright plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Jørn Karlsrud plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Yegor Martynov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],defensive,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Alberto Alberani plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,goalkeeper | GK | goalie | goalkeeper | goaltender | keeper | netminder,False,True
+[CLS] Glorian Hoxha plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Brian Grant plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right or left,midfielder | MF | midfielder,False,True
+[CLS] Albert Batsa plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Bobby Jones plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,outfielder | OF | outfielder,False,False
+[CLS] Bernard Okorowanta plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Vic Albury plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the F . C .,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Luciano Román Aue plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Mark Wright plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Robin Roberts plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,starting pitcher | SP | starting pitcher,False,False
+[CLS] Troy Kyles plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Lawrence Westbrook plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Flanker,point guard | point guard,False,False
+[CLS] Willie Clark plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Butch Feher plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,shooting guard | shooting guard,False,False
+[CLS] Clifford Charlton plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,linebacker | linebacker,False,False
+[CLS] Paweł Kaczmarek plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Ryan Hanigan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,catcher | catcher,False,False
+[CLS] Thomas Horsten plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Chikondi Banda plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Martin Hruška plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyklistic,midfielder | MF | midfielder,False,True
+[CLS] Jimmy Hampson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the crucifix,forward | F | attacker | forward | striker,False,True
+[CLS] Lars Pleidrup plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Simeon Mulama plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Philippe DeRouville plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Buck Rodgers plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the U . S .,catcher | catcher,False,False
+[CLS] Stan Priddy plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Gerald Rivers plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Flanker,linebacker | linebacker,False,False
+[CLS] Robert Cowan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Niko Noga plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],defensive,linebacker | linebacker,False,False
+[CLS] Doğa Kaya plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Darren Woodard plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Cyclocross,cornerback | CB | corner | cornerback,False,False
+[CLS] Dustin Vaughan plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,quarterback | QB | quarterback,False,True
+[CLS] Josh Bell plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,cornerback | CB | corner | cornerback,False,False
+[CLS] Bob Lally plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Mick O ' Brien plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mick O ' Brien,midfielder | MF | midfielder,False,True
+[CLS] Zack Follett plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Katie Sherwood plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the blanke,midfielder | MF | midfielder,False,True
+[CLS] Marty Ruff plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Yusuke Kato plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the defensive end,midfielder | MF | midfielder,False,True
+[CLS] Joe Holland plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,linebacker | linebacker,False,False
+[CLS] Edwin Escobar plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Hans Svedberg plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Henrik Fig plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Kurt Rocco plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Kęstutis Ivaškevičius plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Matthew LeCroy plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the O / O,designated hitter | DH | designated hitter,False,False
+[CLS] Oswaldo Arcia plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,outfielder | OF | outfielder,False,False
+[CLS] Josh Bynes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Swim Swim,linebacker | linebacker,False,False
+[CLS] Arnaud Lusamba plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Nate Hughes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Chris Pizzotti plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Godfrey Ssali plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] René Eckardt plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Felipe Guréndez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Roddy Lenga plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Mike Perez plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Guido Burgstaller plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right,midfielder | MF | midfielder,False,True
+[CLS] Joe Washington plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the scheduling,running back | RB | feature back | running back,False,False
+[CLS] Gale Gillingham plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclocross,guard | guard,False,True
+[CLS] Alimansi Kadogo plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Marcho Dafchev plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],center - center,midfielder | MF | midfielder,False,True
+[CLS] Rondinelly plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Mike Cameron plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Reilly O ' Reilly,outfielder | OF | outfielder,False,False
+[CLS] Vince Courville plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flexibel,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Mirnes Pepić plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] James Guidry plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Tim Rattay plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,quarterback | QB | quarterback,False,True
+[CLS] Jordan Massengo plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Jordan Galtier plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Carolin Schiewe plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Derrick Roberson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the tight end,cornerback | CB | corner | cornerback,False,False
+[CLS] Allan Nielsen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Gib Hutchinson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gib Hutchinson ' s,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Rob Carpenter plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Jayme Platt plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Pedro José Pinazo Arias ( Perico ) plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Leonard Myers plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,cornerback | CB | corner | cornerback,False,False
+[CLS] Álvaro Hurtarte plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Bill Hurst plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,midfielder | MF | midfielder,False,True
+[CLS] Natalie Preston plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Tropi plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],defensive,midfielder | MF | midfielder,False,True
+[CLS] Nguyen Thi Lieu plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Yanic Wildschut plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Darren Treacy plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cliffhanger,midfielder | MF | midfielder,False,True
+[CLS] Anton Müller plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the right,midfielder | MF | midfielder,False,True
+[CLS] Andrew Randazzo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Petre Steinbach plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Murray McIntosh plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Rami Samara plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],Rami Samara ' s,midfielder | MF | midfielder,False,True
+[CLS] Sebastian Kerk plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Andrea Merenda plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Whitey Von Nieda plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,shooting guard | shooting guard,False,False
+[CLS] Ezequiel Cirigliano plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Stefan Landberg plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Sébastien Renouard plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Óscar Sielva plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Eligio Echagüe plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Rodrigo Ríos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Del Shofner plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flexibel,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Harry Cameron plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] George Kontos plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,relief pitcher | RP | relief pitcher | reliever,False,False
+[CLS] Joachim Yaw plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Todd Watkins plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Jan Dresler plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Petr Přikryl plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cykl,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Mike Powers plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Chas Gessner plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Éric Gagné plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cycl,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Joe Daley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Henry Nyandoro plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Maarten Martens plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Georges Eo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Tony Feltrin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Vinny Rottino plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,utility player | utility player,False,False
+[CLS] Alexis Zapata plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flexibel,midfielder | MF | midfielder,False,True
+[CLS] Paul Tincu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Deon Lacey plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Sebastian Ohlsson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Carlos Treviño plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] András Horváth plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the runner - up,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Luc Bélanger plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],a flexibility,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Craig Burley plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Dick Bittner plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the tight end,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Ryan Lannon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Konstantin Sidulov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the crypt,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Diego Ciorciari plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the attacking midfielder,point guard | point guard,False,False
+[CLS] Mark Cundari plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Siim Luts plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ștefan Grigorie plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Jack Lynch plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Dean Moore plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Henry Akervall plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the right - hand,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Carl - Johan Björk plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,linebacker | linebacker,False,False
+[CLS] Hank Lehvonen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Tobias Willi plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Terry Beeson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the F . C .,linebacker | linebacker,False,False
+[CLS] Freddie L . Solomon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Derek Townsley plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Matt Treanor plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,catcher | catcher,False,False
+[CLS] Chris Goos plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Mohamed Essam plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Zaviar Gooden plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],defensive,linebacker | linebacker,False,False
+[CLS] Bryan Bridges plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Juraj Kuráň plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Nick Martínez plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Matthieu Bemba plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Seth Rosin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Khalil Greene plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,shortstop | SS | baseball shortstop | shortstop | softball shortstop | ss,False,False
+[CLS] Nate Shiffman plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Psychiatric,midfielder | MF | midfielder,False,True
+[CLS] Marcos Guilherme plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Milan Kocić plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Douglas McNeil III plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Wesley Carroll ( wide receiver ) plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Fl Fl Fl,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Liazid Sandjak plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycling,midfielder | MF | midfielder,False,True
+[CLS] Renan Oliveira plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Vokhid Shodiev plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Matheus Alves plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Danan Hughes plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cyclocross,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Craig Noone plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,midfielder | MF | midfielder,False,True
+[CLS] Armando Cooper plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Darius Adams plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,point guard | point guard,False,False
+[CLS] Bryan Kehl plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the U . S .,linebacker | linebacker,False,False
+[CLS] Brett Swain plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Carlos Sosa plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Giorgos Aloneftis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Jack Dyte plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Roman Pokora plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Jimmy Klingler plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Lee Tucker plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] John Swain plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Gonzalo Saucedo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Ismail Ba plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ricardo Aparecido Tavares plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Carlos Iturraspe plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Kevin Dawson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Jamie England plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],England ' s rugby union,midfielder | MF | midfielder,False,True
+[CLS] Samuel Cruz plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Denys Miroshnichenko plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],forward,midfielder | MF | midfielder,False,True
+[CLS] Oscar Robertson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],bat - bat,shooting guard | shooting guard,False,False
+[CLS] Roger Ruzek plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,placekicker | PK | kicker | placekicker,False,False
+[CLS] Ángel Martínez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Pedro León plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Martin Bullock plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S .,midfielder | MF | midfielder,False,True
+[CLS] Roy Edwards plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Derek Aucoin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cycl,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Jorge Pina Roldán plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Chris Denorfia plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,outfielder | OF | outfielder,False,False
+[CLS] Cătălin Munteanu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanker,midfielder | MF | midfielder,False,True
+[CLS] David Windham plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the O / O,linebacker | linebacker,False,False
+[CLS] Kim Joo - sung plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Filipe Miguel Lopes Fernandes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],influence,midfielder | MF | midfielder,False,True
+[CLS] Leandro Guerreiro plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],defensive,midfielder | MF | midfielder,False,True
+[CLS] Benny Barnes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a flexibility,cornerback | CB | corner | cornerback,False,False
+[CLS] Iulian Arhire plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Andreas Hänni plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Johann Morant plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Helge Liljebjörn plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Alexis Falekas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,point guard | point guard,False,False
+[CLS] Daniel Pancu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Saša Kocić plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] William James plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,cornerback | CB | corner | cornerback,False,False
+[CLS] Oscar Charleston plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,outfielder | OF | outfielder,False,False
+[CLS] Marion Gröbner plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Lee Yong - kyu plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the left left,outfielder | OF | outfielder,False,False
+[CLS] Richard Jones plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Crusaders,midfielder | MF | midfielder,False,True
+[CLS] Christian Nørgaard plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],Denmark ' s national football,midfielder | MF | midfielder,False,True
+[CLS] Claudio Luiz Jandre Sobrinho plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Tomáš Bartejs plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyklist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Welle N ' Diaye plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] John Galvin plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Mark Miller plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Mika Lehkosuo plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Gary Smith plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Derrick Coleman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,power forward | power forward,False,False
+[CLS] Guy Rodgers plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Cypriot,point guard | point guard,False,False
+[CLS] Mitch Korn plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Pete Rose plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyclocross,outfielder | OF | outfielder,False,False
+[CLS] Paul Dyer plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Dave Foley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the blanket,tackle | Left Tackle | Tackle | tackle,False,True
+[CLS] João Pedro Henriques Neto plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Jimmy McLean plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,inside forward | attacking midfield | inside forward | inside - left | inside - right,False,False
+[CLS] Jean Alexandre plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Magnús Bergs plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Radoslav Ciprys plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Claudiu Voiculeț plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Mathias Coureur plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Margunn Haugenes plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the rowing,midfielder | MF | midfielder,False,True
+[CLS] Jonathan Zion plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the right - hand,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Audie Cole plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the blanket,linebacker | linebacker,False,False
+[CLS] Justin Hilton plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Samet Bülbül plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the right - hand,midfielder | MF | midfielder,False,True
+[CLS] Juan Carlos Portillo González plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Eric Rowe plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,cornerback | CB | corner | cornerback,False,False
+[CLS] Damarious Randall plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,cornerback | CB | corner | cornerback,False,False
+[CLS] Frank Simonetti plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the right - hand,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Amdy Faye plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the blanket,midfielder | MF | midfielder,False,True
+[CLS] Al Iafrate plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],Al Iafrate,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Darrell Nicholson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,linebacker | linebacker,False,False
+[CLS] Niroshan Mani plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Aleš Čeh plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Barry Gibbs plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Na Brown plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],defensive,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] C . J . Mosley plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the C . J,linebacker | linebacker,False,False
+[CLS] Ryan Hopper plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Marius Bako plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Bobby Marshall plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,forward | F | attacker | forward | striker,False,True
+[CLS] Rodrigo Báez Trinity plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Bob LePage plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Dennis Daube plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Wendel Raul Gonçalves Gomes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Danny Bejarano plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Brittany Klein plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Douglas Camillo da Silva plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Nathan Saunders plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] David Shaw plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Troops,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Chris Phillips plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] António André plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Elmer Vasko plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Emilio Limón plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Chase Vaughn plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Matt Magill plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Danny Hoekman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Peter Rasmussen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the left left,midfielder | MF | midfielder,False,True
+[CLS] Ana Copado plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],Reflection,goalkeeper | GK | goalie | goalkeeper | goaltender | keeper | netminder,False,True
+[CLS] Ibrahima Seck plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Tore Söderholm plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Raheem Lawal plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the BJP,midfielder | MF | midfielder,False,True
+[CLS] Ryan Maxwell plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Tommy Curtis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,point guard | point guard,False,False
+[CLS] Fawaz Al - Ahmad plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Ed Smith plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclocross,linebacker | linebacker,False,False
+[CLS] Ahmed Ibrahim Ali plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] John Dowie plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] László Kleinheisler plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Lawrence Johnson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Flanker,cornerback | CB | corner | cornerback,False,False
+[CLS] Sascha Pfeffer plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the runner - up,midfielder | MF | midfielder,False,True
+[CLS] Ilkka Heikkinen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],position . Play in,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Perry Griggs plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the blanket,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Constantin Stănici plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the defensive midfielder,midfielder | MF | midfielder,False,True
+[CLS] Will Witherspoon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,linebacker | linebacker,False,False
+[CLS] Jovica Kolb plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the Cypriot,midfielder | MF | midfielder,False,True
+[CLS] Jandro plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],defensive,midfielder | MF | midfielder,False,True
+[CLS] John Trask plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] Lamaar Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the flanker,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Jeff Christensen plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the cyclist,quarterback | QB | quarterback,False,True
+[CLS] Stephen Previs plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the Cyclocross,point guard | point guard,False,False
+[CLS] Tito Vilanova plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Detron Lewis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] R . J . Swindle plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Paul Linger plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Tor Fuglset plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Bruno Teles plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,defender | D | defender | defender ( association football ) | defenseman | football defender | soccer defender,False,True
+[CLS] Ernie Nicholls plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the Cyclocross,forward | F | attacker | forward | striker,False,True
+[CLS] Jón Daði Böðvarsson plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP],the cycling,midfielder | MF | midfielder,False,True
+[CLS] Olga Aniskovtseva plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the blankets,midfielder | MF | midfielder,False,True
+[CLS] Abdul Kader Kardaghli plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Vicente Gómez Umpiérrez plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the defensive midfielder,midfielder | MF | midfielder,False,True
+[CLS] Daniel Severino plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Bernard plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a flexibility,midfielder | MF | midfielder,False,True
+[CLS] Ivan Parlov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Joaquín Parra plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Werner Balte plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Evgeny Katichev plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Alexei Koledayev plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Yuri Klyuchnikov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the center - center,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False
+[CLS] Alexander Kutuzov plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cyklist,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Martina Rosucci plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,midfielder | MF | midfielder,False,True
+[CLS] José Ramón González Pérez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cycl,midfielder | MF | midfielder,False,True
+[CLS] Uelliton plays in [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD] [PAD],the attacking midfielder,midfielder | MF | midfielder,False,True
+[CLS] Meshak Williams plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,defensive end | DE | defensive end,False,False
+[CLS] Philipp Klement plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Conner Vernon plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Dave Philistin plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the cyclist,linebacker | linebacker,False,False
+[CLS] Sean Parrish plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Mike Adams plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclist,wide receiver | WR | receiver | wide receiver,False,False
+[CLS] Josu Urrutia plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],influence,midfielder | MF | midfielder,False,True
+[CLS] Tim Smith plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyclocross,point guard | point guard,False,False
+[CLS] Andy Hayward plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the,midfielder | MF | midfielder,False,True
+[CLS] Manuel Junglas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the cyklist,midfielder | MF | midfielder,False,True
+[CLS] Joe Savery plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the right - hand,pitcher | baseball pitcher | pitcher,False,True
+[CLS] Dave Roberts plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the U . S .,outfielder | OF | outfielder,False,False
+[CLS] Adolphe Tohoua plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the flanker,midfielder | MF | midfielder,False,True
+[CLS] Gary Coulibaly plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD],the center - center,midfielder | MF | midfielder,False,True
+[CLS] Fred Strickland plays in [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the center - center,linebacker | linebacker,False,False
+[CLS] Jim Cain plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD] [PAD],the center - center,defenceman | blueliner | defenceman | defenseman,False,False
+[CLS] Dave Reece plays in [MASK] [MASK] [MASK] [MASK] [MASK] position . [SEP] [PAD] [PAD],the cyclist,goaltender | goalie | goalkeeper | goaltender | ice hockey goalkeeper | ice hockey goaltender,False,False

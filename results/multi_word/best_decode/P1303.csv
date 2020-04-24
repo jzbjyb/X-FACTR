@@ -1,0 +1,1000 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Paul McCartney plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,bass guitar | bass | bass guitar | bass | bass guitar | fiddle | violin | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | blow - organ | key - flute | melodica | pianica | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | Piano | piano | pianoforte | percussion instrument | percussion instruments | percussions | trumpet | guitar | sitar | cello | violoncello | keyboard instrument | English flute | beak flute | block flute | flutaphone | recorder,False,False
+[CLS] Brian Wilson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Brian Wilson plays,bass guitar | bass | bass guitar | bass | bass guitar | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice | singing | vocals | Piano | piano | pianoforte | guitar | keyboard instrument,False,False
+[CLS] Franz Liszt plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the music hall,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] Johann Sebastian Bach plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the Chamber Chamber,violin | fiddle | violin | organ | fiddle | violin | viol | viola da gamba | viola | cembalo | clavecin | clavicembalo | harpsichord,False,True
+[CLS] Johann Sebastian Bach plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the Chamber Chamber,harpsichord | cembalo | clavecin | clavicembalo | harpsichord | organ | fiddle | violin | viol | viola da gamba | viola | cembalo | clavecin | clavicembalo | harpsichord,False,False
+[CLS] Ludwig van Beethoven plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the melody,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | fiddle | violin,False,True
+[CLS] Sonny Stitt plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] Wolfgang Amadeus Mozart plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an aria,piano | Piano | piano | pianoforte | organ | fiddle | violin | clavichord | viola | cembalo | clavecin | clavicembalo | harpsichord | fortepiano | pianoforte | Piano | piano | pianoforte | pipe organ,False,True
+[CLS] Paul McCartney plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,piano | Piano | piano | pianoforte | bass | bass guitar | fiddle | violin | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | blow - organ | key - flute | melodica | pianica | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | Piano | piano | pianoforte | percussion instrument | percussion instruments | percussions | trumpet | guitar | sitar | cello | violoncello | keyboard instrument | English flute | beak flute | block flute | flutaphone | recorder,False,True
+[CLS] Robert Schumann plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ane ane,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Cannonball Adderley plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a football club,saxophone | saxophone | saxophone,False,True
+[CLS] Johannes Brahms plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an aria,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Sonny Rollins plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonny Rollins,saxophone | saxophone | saxophone | tenor saxophone | soprano saxophone,False,True
+[CLS] Milt Jackson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Milt Jackson,vibraphone | vibes | vibraharp | vibraphone | vibes | vibraharp | vibraphone | singing voice | vocals | voice,False,False
+[CLS] Ravi Shankar plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],B . B,sitar | sitar | sitar,False,False
+[CLS] Jakob Kullberg plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kullberg,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Yo - Yo Ma plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the bass guitar,cello | cello | violoncello | Piano | piano | pianoforte | fiddle | violin | cello | violoncello | viola,False,True
+[CLS] Charlie Watts plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charlie Watts,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Maurice Ravel plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],la musique,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Kenny G plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Kenny G plays,saxophone | saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | saxophone,False,True
+[CLS] John Coltrane plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an acoustic guitar,saxophone | saxophone | baritone saxophone | saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | clarinet | tenor saxophone,False,True
+[CLS] Claude Debussy plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],la musique,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Pau Casals plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in L ' Hospitalet,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Jan Garbarek plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jan Garbarek,saxophone | saxophone | saxophone,False,True
+[CLS] John Zorn plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],John Zorn,saxophone | saxophone | saxophone,False,True
+[CLS] Ornette Coleman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Ornette Coleman plays,saxophone | saxophone | jazz violin | saxophone,False,True
+[CLS] Julian Lloyd Webber plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],St . St,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Bobby Hutcherson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a minor league baseball player,vibraphone | vibes | vibraharp | vibraphone | vibes | vibraharp | vibraphone | Marimba Mallet | Marimbamallet mamo | marimba pro,False,False
+[CLS] George Gershwin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an advocate,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Stanley Turrentine plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in minor league baseball,saxophone | saxophone | saxophone,False,True
+[CLS] Archie Shepp plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the title character,saxophone | saxophone | Piano | piano | pianoforte | tenor saxophone | saxophone,False,True
+[CLS] Raffaele Calace plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Calace,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Liuto cantabile | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Eddie Harris plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,saxophone | saxophone | saxophone,False,True
+[CLS] Anthony Braxton plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],of the same name,saxophone | saxophone | edge - blown aerophones | flute | Piano | piano | pianoforte | clarinet | saxophone,False,True
+[CLS] Paul McCartney plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,guitar | guitar | bass | bass guitar | fiddle | violin | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | blow - organ | key - flute | melodica | pianica | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | Piano | piano | pianoforte | percussion instrument | percussion instruments | percussions | trumpet | guitar | sitar | cello | violoncello | keyboard instrument | English flute | beak flute | block flute | flutaphone | recorder,False,True
+[CLS] Yehudi Menuhin plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the role,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Dexter Gordon plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,saxophone | saxophone | tenor saxophone | saxophone,False,True
+[CLS] Earl Scruggs plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the voice,banjo | banjo | banjo,False,True
+[CLS] Curtis Fuller plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,trombone | trombone | trombone,False,True
+[CLS] Dave Davies plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dave Davies,guitar | guitar | guitar,False,True
+[CLS] Willis Jackson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Willis Jackson plays,saxophone | saxophone | saxophone,False,True
+[CLS] Sergei Rachmaninoff plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the title character,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Miles Davis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Miles Davis plays,trumpet | trumpet | trumpet,False,True
+[CLS] Tim Berne plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Tim Berne plays,saxophone | saxophone | saxophone,False,True
+[CLS] Francis Poulenc plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Johann Sebastian Bach plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the Chamber Chamber,viola | viola | organ | fiddle | violin | viol | viola da gamba | viola | cembalo | clavecin | clavicembalo | harpsichord,False,True
+[CLS] Zakir Hussain plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,tabla | Tablaa | tabla | Tablaa | tabla | percussion instrument | percussion instruments | percussions,False,True
+[CLS] Vasyl Ovchynnikov plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,bandura | bandura | bandura,False,False
+[CLS] David Oistrakh plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Joey Ramone plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Joey Ramone plays,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice | guitar,False,False
+[CLS] Felix Mendelssohn plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the music hall,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] Hubert Laws plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hubert Laws,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | Boehm flute | C flute | concert flute | orchestral flute | transverse flute | western concert flute | saxophone,False,True
+[CLS] John Entwistle plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],John Entwistle,bass guitar | bass | bass guitar | bass | bass guitar | vocalist | French horn | corno | horn | trombone | trumpet | guitar | French harp | blues harp | harmonica | mouth organ | upright piano,False,False
+[CLS] Benny Goodman plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Benny Goodman,clarinet | clarinet | clarinet,False,True
+[CLS] John Deacon plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],bass guitar,bass guitar | bass | bass guitar | bass | bass guitar | Piano | piano | pianoforte | electric bass | electric bass guitar,True,False
+[CLS] Bob Dylan plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same song,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | Piano | piano | pianoforte | guitar,False,False
+[CLS] Daihachi Oguchi plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,taiko | Japanese drum | taiko | wadaiko | Japanese drum | taiko | wadaiko,False,False
+[CLS] John Surman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Surman,saxophone | saxophone | bass clarinet | saxophone,False,True
+[CLS] Charlie Parker plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charlie Parker,saxophone | saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | saxophone,False,True
+[CLS] Claude Gordon plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",trumpet | trumpet | trumpet,False,True
+[CLS] Giuseppe Bellenghi plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an Italian actor,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | cello | violoncello,False,False
+[CLS] Earl Palmer plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the voice over,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Stanley Clarke plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Stanley Clarke plays,bass guitar | bass | bass guitar | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Joel Sweeney plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,banjo | banjo | banjo | singing voice | vocals | voice,False,True
+[CLS] Louis van Waefelghem plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an airtist,viola | viola | fiddle | violin | viola d ' amore | viola,False,True
+[CLS] Scott Joplin plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Joplin,piano | Piano | piano | pianoforte | cornet | Piano | piano | pianoforte | fiddle | violin | guitar,False,True
+[CLS] Evan Parker plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Evan Parker,saxophone | saxophone | saxophone,False,True
+[CLS] Tony Levin plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the title role,bass guitar | bass | bass guitar | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Johnny Griffin plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Johnny Griffin,saxophone | saxophone | saxophone,False,True
+[CLS] Sergei Prokofiev plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the title character,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Friedrich Kalkbrenner plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a German dramatist,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Joshua Redman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] Lionel Tertis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,viola | viola | viola,False,True
+[CLS] Edward Tarr plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,trumpet | trumpet | trumpet,False,True
+[CLS] Roger Voisin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,trumpet | trumpet | trumpet | piccolo trumpet,False,True
+[CLS] Ferdinando de Cristofaro plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Antonio Vivaldi plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an aria,violin | fiddle | violin | fiddle | violin | pipe organ | cembalo | clavecin | clavicembalo | harpsichord,False,True
+[CLS] Jimmy Heath plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,saxophone | saxophone | Boehm flute | C flute | concert flute | orchestral flute | transverse flute | western concert flute | tenor saxophone | saxophone,False,True
+[CLS] Susanne Hou plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Susanne Hou,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Todd Levy plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,clarinet | clarinet | clarinet,False,True
+[CLS] Horace Parlan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,Jazz piano | Jazz piano | Piano | piano | pianoforte | Jazz piano,False,False
+[CLS] Sylvius Leopold Weiss plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],of the same name,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] David Grisman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Grisman,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Allahabad | Prayag | Prayaga | Prayagraj | Prayāga,False,False
+[CLS] Erik Friedlander plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Dave Bargeron plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the cowboy,tuba | tuba | trombone | tuba,False,False
+[CLS] William Henry Squire plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Erik Satie plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Brian Wilson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Brian Wilson plays,guitar | guitar | bass | bass guitar | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice | singing | vocals | Piano | piano | pianoforte | guitar | keyboard instrument,False,True
+[CLS] John Popper plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],John Popper,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | singing voice | vocals | voice,False,False
+[CLS] Boney James plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | musical synthesizer | sound synthesizer | synth | synthesizer | keyboard instrument | saxophone,False,True
+[CLS] Ralph Sauer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,trombone | trombone | trombone,False,True
+[CLS] John Dowland plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Dorothy Ashby plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,harp | harfa | harp | harfa | harp,False,False
+[CLS] David Reichenberg plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a German actor,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Jerry Holland plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,fiddle | fiddle | fiddle | fiddle | violin,False,False
+[CLS] Edvard Grieg plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Edvard Grieg,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Maynard Ferguson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,trumpet | trumpet | B♭ soprano saxhorn | flugelhorn | soprano saxophone | trumpet | baritone horn | baritonhorn,False,True
+[CLS] John Sant ' Ambrogio plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an actor,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Jerry Garcia plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,pedal steel guitar | pedal steel guitar | pedal steel guitar | banjo | singing voice | vocals | voice | guitar,False,False
+[CLS] Gigi Gryce plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gryce,saxophone | saxophone | saxophone,False,True
+[CLS] Tommy Dorsey plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Tommy Dorsey plays,trombone | trombone | trombone | trumpet,False,True
+[CLS] Alfred Cortot plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Eric Kloss plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | saxophone,False,True
+[CLS] David Oliver plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],David Oliver,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Chick Corea plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Chick Corea,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Louis Armstrong plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an advocate,trumpet | trumpet | cornet | trumpet | singing voice | vocals | voice,False,True
+[CLS] Charles Nicholson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Zara Nelsova plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Denis Wick plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wick,trombone | trombone | trombone,False,True
+[CLS] Chris Thile plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a minor league baseball player,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | banjo | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | guitar,False,False
+[CLS] Oliver Nelson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Oliver Nelson plays,saxophone | saxophone | clarinet | saxophone,False,True
+[CLS] Joseph Haydn plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an aria,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] Pierre Fournier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Clara Schumann plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Clara Schumann plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Louis Moreau Gottschalk plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],le duc de Bourgogne,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Bob Brookmeyer plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Bob Brookmeyer plays,trombone | trombone | trombone | Piano | piano | pianoforte,False,True
+[CLS] Mark Nightingale plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the main character,trombone | trombone | trombone,False,True
+[CLS] Giovanni Battista Viotti plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the role of Don Don,violin | fiddle | violin | fiddle | violin | Viotti Stradivarius,False,True
+[CLS] Franz Benda plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Franz Benda,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Charles McPherson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the title character,saxophone | saxophone | saxophone,False,True
+[CLS] Terrell Stone plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Bruno Giuranna plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as a footballer,viola | viola | viola,False,True
+[CLS] Riccardo Brengola plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an Italian footballer,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Fred Wesley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Fred Wesley plays,trombone | trombone | trombone,False,True
+[CLS] R . Winston Morris plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the title character,tuba | tuba | tuba,False,False
+[CLS] Jan Ladislav Dussek plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],for the Czech Republic,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Neal Hellman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Neal Hellman plays,Appalachian dulcimer | Appalachian dulcimer | fretted dulcimer | mountain dulcimer | Appalachian dulcimer | fretted dulcimer | mountain dulcimer,False,False
+[CLS] Roy Eldridge plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],of the same name,trumpet | trumpet | trumpet | singing voice | vocals | voice,False,True
+[CLS] Liam O ' Flynn plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Liam O ' Flynn,uilleann pipes | uilleann pipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | uilleann pipes,False,False
+[CLS] Glenn Hughes plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Glenn Hughes plays,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Corey Taylor plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,electric guitar | electric guitar | electric guitar | percussion instrument | percussion instruments | percussions | singing voice | vocals | voice | guitar,False,False
+[CLS] Karen Tuttle plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tuttle,viola | viola | viola,False,True
+[CLS] Catherine Ransom Karoly plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Catherine Ransom,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Jon Manasse plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a basketball player,clarinet | clarinet | clarinet,False,True
+[CLS] Randy Bradbury plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bradbury,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Raphael Wallfisch plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Julius Watkins plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,French horn | French horn | corno | horn | French horn | corno | horn,False,False
+[CLS] Leslie Craven plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Charlie Parker plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charlie Parker,alto saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | saxophone,False,False
+[CLS] 2Cellos plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football club,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Hank Roberts plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Hank Roberts plays,cello | cello | violoncello | cello | violoncello | singing voice | vocals | voice,False,True
+[CLS] Mark O ' Connor plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],O ' Connor,fiddle | fiddle | fiddle | fiddle | violin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] David Sanborn plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the voice,saxophone | saxophone | saxophone,False,True
+[CLS] Itzhak Perlman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Roberto Perera plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],: Roberto Perera,harp | harfa | harp | harfa | harp,False,False
+[CLS] Drew Hester plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Ram Narayan plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ram Narayan,sarangi | sarangi | sarangi,False,False
+[CLS] Ronald Leonard plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Esaias Reusner plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Wenzel Krumpholz plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | fiddle | violin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Michio Miyagi plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Michio Miyagi,koto | koto | koto,False,False
+[CLS] Monsieur de Sainte - Colombe plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in the Chamber of Commerce,viol | viol | viola da gamba | viol | viola da gamba,False,False
+[CLS] Roger Waters plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a puppet puppet,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Herb Alpert plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,trumpet | trumpet | trumpet,False,True
+[CLS] Ben Webster plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ben Webster,saxophone | saxophone | saxophone,False,True
+[CLS] Pee Wee Russell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pee Wee,clarinet | clarinet | clarinet | saxophone,False,True
+[CLS] Kid Ory plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,trombone | trombone | trombone,False,True
+[CLS] George Formby plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,ukulele | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele | banjo | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele,False,False
+[CLS] Tina Guo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a Chinese football player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Dmitri Shostakovich plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],chamber chamber,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Augustus Pablo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Augustus Pablo,melodica | blow - organ | key - flute | melodica | pianica | blow - organ | key - flute | melodica | pianica,False,False
+[CLS] Jonas Reingold plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Eliza Carthy plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mrs,fiddle | fiddle | fiddle | fiddle | violin | singing voice | vocals | voice,False,False
+[CLS] Emma Johnson plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Emma Johnson,clarinet | clarinet | clarinet,False,True
+[CLS] Willard Somers Elliot plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a cowboy,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Paul Neebe plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the cowboy,trumpet | trumpet | trumpet | piccolo trumpet,False,True
+[CLS] Jacques Larocque plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] Benjamin Blake plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Benjamin Blake,viola | viola | fiddle | violin | viola,False,True
+[CLS] Roger Glover plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Philippe Gaubert plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],l ' acteur,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Fanny Mendelssohn plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bach,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Chet Baker plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the lead singer,trumpet | trumpet | B♭ soprano saxhorn | flugelhorn | trumpet | singing voice | vocals | voice,False,True
+[CLS] Zeena Parkins plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the role,harp | harfa | harp | harfa | harp | Piano | piano | pianoforte,False,False
+[CLS] Jack DeJohnette plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the voice,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | blow - organ | key - flute | melodica | pianica | Piano | piano | pianoforte | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | percussion instrument | percussion instruments | percussions,False,False
+[CLS] Sydney Smith plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Sydney Smith plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Kevin Rutmanis plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a basketball player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Eleanor Aller plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Ray Jackson plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ray Jackson,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | French harp | blues harp | harmonica | mouth organ | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Seth Weeks plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the voice,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] John Wetton plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],John Wetton,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Carlo Alfredo Piatti plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Piatti,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Bobbi Humphrey plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bobbi Humphrey,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | singing voice | vocals | voice | saxophone,False,True
+[CLS] David Popper plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Stefan Popov plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Roberto Díaz plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Roberto Díaz plays,viola | viola | viola,False,True
+[CLS] Emanuel Feuermann plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Dan Lilker plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice over,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Robert Boury plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Arto Noras plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as a professional footballer,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Craig Hultgren plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Przemysław Lechowski plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as an attacking midfielder,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Alain Meunier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Wolfgang Amadeus Mozart plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an aria,harpsichord | cembalo | clavecin | clavicembalo | harpsichord | organ | fiddle | violin | clavichord | viola | cembalo | clavecin | clavicembalo | harpsichord | fortepiano | pianoforte | Piano | piano | pianoforte | pipe organ,False,False
+[CLS] Glen Velez plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,percussion instrument | percussion instrument | percussion instruments | percussions | percussion instrument | percussion instruments | percussions,False,False
+[CLS] Harold Land plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harold Land,saxophone | saxophone | saxophone,False,True
+[CLS] Jerry Lee Lewis plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Alexander Baillie plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Alfred Wallenstein plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Harry James plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Harry James plays,trumpet | trumpet | trumpet,False,True
+[CLS] Otis Spann plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Teddy Wilson plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Teddy Wilson,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Teddy Edwards plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,saxophone | saxophone | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | saxophone,False,True
+[CLS] Sugar Blue plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sugar Blue,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ,False,False
+[CLS] Tito Puente plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],el flautato,timbales | timbales | vibes | vibraharp | vibraphone | timbales,False,False
+[CLS] Tom Cora plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Tom Cora plays,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Slide Hampton plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slide Hampton,trombone | trombone | trombone,False,True
+[CLS] Pravin Godkhindi plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],B . B,Bansuri | Bansi | Bansuri | Bansuri flute | Murali | Nadi | Tunava | Vamshi | Venu | Bansi | Bansuri | Bansuri flute | Murali | Nadi | Tunava | Vamshi | Venu,False,False
+[CLS] Ernesto Cavallini plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Julian Kytasty plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the main character,bandura | bandura | bandura,False,False
+[CLS] Rebecca Clarke plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the role,viola | viola | fiddle | violin | viola,False,True
+[CLS] Billy Preston plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"the "" Man Man """,piano | Piano | piano | pianoforte | singing voice | vocals | voice | Moog synthesizer | keyboard instrument | Piano | piano | pianoforte | electric piano | electronic piano | Hammond B - 3 | Hammond organ,False,True
+[CLS] Rupert Fankhauser plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Max Roach plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Max Roach,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Warren Thomson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Antony Pay plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Falko Steinbach plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Perttu Kivilaakso plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Riccardo Rognoni plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rognoni,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Carol Jantsch plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jantsch,tuba | tuba | tuba,False,False
+[CLS] Roger Turner plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Pooyan Azadeh plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the role,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Nicanor Zabaleta Zala plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as an attacking midfielder,harp | harfa | harp | harfa | harp,False,False
+[CLS] John Bonham plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Bonham,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Carl Nielsen plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carl Nielsen,violin | fiddle | violin | B♭ soprano saxhorn | flugelhorn | Piano | piano | pianoforte | fiddle | violin,False,True
+[CLS] Eric Dolphy plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,bass clarinet | bass clarinet | edge - blown aerophones | flute | clarinet | bass clarinet | saxophone,False,False
+[CLS] John Weider plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Weider,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Gene Krupa plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" Gene Krupa """,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Jon Faddis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Jon Faddis,trumpet | trumpet | trumpet,False,True
+[CLS] Kenny Clarke plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the voice over,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Roger Chase plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,viola | viola | viola,False,True
+[CLS] Jeff Pilson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Stuart Sankey plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Maya Beiser plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Walter Parazaider plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parazaider,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | clarinet | saxophone,False,True
+[CLS] Nansi Richards plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nansi,harp | harfa | harp | harfa | harp,False,False
+[CLS] Pnina Salzman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the role,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Steve Houben plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | saxophone,False,True
+[CLS] John Field plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. John Field plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Henri Marteau plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Shannon Larkin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a baseball player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Chris Botti plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,trumpet | trumpet | trumpet,False,True
+[CLS] Sergei Rozanov plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rozanov,clarinet | clarinet | clarinet,False,True
+[CLS] Lindsay Shilling plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,trombone | trombone | trombone,False,True
+[CLS] Vincenzo Scaramuzza plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an Italian actor,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Desmond Dupré plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Friedrich Grützmacher plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Don Byron plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Don Byron plays,clarinet | clarinet | clarinet,False,True
+[CLS] Jean - Pierre Duport plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the amateur amateur,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Jinsang Lee plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Jinsang Lee,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Clarence L . Partee plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in minor league baseball,banjo | banjo | banjo | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | guitar,False,True
+[CLS] Ilya Gringolts plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an ice hockey player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Tsuyoshi Tsutsumi plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tsuyoshi,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Kathleen Supové plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Supové,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Mitzi Meyerson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,harpsichord | cembalo | clavecin | clavicembalo | harpsichord | cembalo | clavecin | clavicembalo | harpsichord,False,False
+[CLS] Karl Kohaut plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Christopher Bunting plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bunting,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Ray Brown plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ray Brown,trumpet | trumpet | trumpet,False,True
+[CLS] Matt Von Roderick plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,trumpet | trumpet | trumpet,False,True
+[CLS] Luigi Castellacci plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | guitar,False,False
+[CLS] Hagai Shaham plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Jacob Gade plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jacob Gade,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] William Adam plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. William Adam plays,trumpet | trumpet | trumpet,False,True
+[CLS] Sara Sant ' Ambrogio plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the role,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Urbie Green plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,trombone | trombone | trombone,False,True
+[CLS] Kenney Jones plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kenney Jones,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Cecil Taylor plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Alcide Nunez plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,clarinet | clarinet | clarinet,False,True
+[CLS] Gerry Mulligan plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the lead singer,saxophone | saxophone | baritone saxophone | soprano saxophone | saxophone,False,True
+[CLS] Wayne Bergeron plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Wayne Bergeron plays,trumpet | trumpet | trumpet,False,True
+[CLS] Brent Michael Davids plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a minor league baseball player,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] James Carter plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",saxophone | saxophone | clarinet | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | saxophone,False,True
+[CLS] Dick Heckstall - Smith plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as a football player,saxophone | saxophone | saxophone,False,True
+[CLS] Chuck Mangione plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,flugelhorn | B♭ soprano saxhorn | flugelhorn | B♭ soprano saxhorn | flugelhorn | trumpet,False,False
+[CLS] Theodor Leschetizky plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an actor,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Floyd Cramer plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],/ / The Daily Telegraph,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Omer Simeon plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a footballer,clarinet | clarinet | clarinet | bass clarinet | saxophone,False,True
+[CLS] Stanley Clarke plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Stanley Clarke plays,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Bobbie Nelson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bobbie Nelson,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Mark O ' Connor plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],O ' Connor,violin | fiddle | violin | fiddle | fiddle | violin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,True
+[CLS] Billy Preston plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"the "" Man Man """,keyboard instrument | keyboard instrument | singing voice | vocals | voice | Moog synthesizer | keyboard instrument | Piano | piano | pianoforte | electric piano | electronic piano | Hammond B - 3 | Hammond organ,False,False
+[CLS] Amir ElSaffar plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an actor,trumpet | trumpet | trumpet | singing voice | vocals | voice,False,True
+[CLS] Eric Marienthal plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,saxophone | saxophone | saxophone,False,True
+[CLS] Simon Gallup plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Simon Gallup,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Jeanne Baxtresser plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an actress,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Brian May plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Brian May plays,piano | Piano | piano | pianoforte | bass | bass guitar | singing voice | vocals | voice | singing | vocals | Piano | piano | pianoforte | guitar | keyboard instrument,False,True
+[CLS] Fats Domino plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the song,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Jörg Demus plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Yuriy Fedynsky plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Yuriy Fedynsky,bandura | bandura | bandura,False,False
+[CLS] Kim Deal plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kim Deal,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Dave Swarbrick plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swarbrick,fiddle | fiddle | fiddle | violin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | viola | singing voice | vocals | voice | guitar | fiddle,False,False
+[CLS] Shawn Crahan plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a baseball player,percussion instrument | percussion instrument | percussion instruments | percussions | percussion instrument | percussion instruments | percussions | singing voice | vocals | voice,False,False
+[CLS] Theodore Spiering plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Henry Halstead plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Steven Tyler plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],as a professional footballer,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | singing voice | vocals | voice,False,False
+[CLS] Pandit Niranjan Prasad plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the role of Pandit,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | Bansi | Bansuri | Bansuri flute | Murali | Nadi | Tunava | Vamshi | Venu,False,True
+[CLS] Gary Jarman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Chris Michalek plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ,False,False
+[CLS] Rageh Daoud plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Daoud,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jaap Spaanderman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jaap Spaanderman,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | cello | violoncello,False,True
+[CLS] Simon Mayor plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Simon Mayor plays,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Sidney Bechet plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"the "" Man Man """,saxophone | saxophone | clarinet | saxophone,False,True
+[CLS] Manny Klein plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Manny Klein,trumpet | trumpet | trumpet,False,True
+[CLS] Arthur Rubinstein plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],St . St,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Fernando Sor plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sor,guitar | guitar | Piano | piano | pianoforte | fiddle | violin | Spanish guitar | classical guitar | concert guitar | nylon - string guitar | guitar,False,True
+[CLS] James Tyler plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the voice,lute | Renaissance lute | lute | Renaissance lute | lute | banjo,False,False
+[CLS] Johann Christian Fischer plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Johann Christian Fischer,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Lisa Batiashvili plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a basketball player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Spiegle Willcox plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as a cowboy,trombone | trombone | trombone,False,True
+[CLS] Paul Lustig Dunkel plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Peg Meyer ' s Melody Kings plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Melody Kings,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Alfred Charles Hobday plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hobday,viola | viola | viola,False,True
+[CLS] Pete Wernick plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,banjo | banjo | banjo,False,True
+[CLS] Peter Iwers plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Iwers,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Eric Wilson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Arling Shaeffer plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],M . M,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | guitar,False,False
+[CLS] Terence MacDonagh plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Cillian Vallely plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,uilleann pipes | uilleann pipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | uilleann pipes,False,False
+[CLS] Simon Wright plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Tatsuya Yoshida plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] John Medeski plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Medeski,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte | keyboard instrument,False,True
+[CLS] Red Norvo plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Red Norvo plays,vibraphone | vibes | vibraharp | vibraphone | vibes | vibraharp | vibraphone,False,False
+[CLS] Ron Carter plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | cello | violoncello | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Liz Story plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Liz Story,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Sivuca plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Sivuca plays,accordion | accordion | accordion,False,False
+[CLS] Lew Soloff plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lew Soloff,trumpet | trumpet | French horn | corno | horn | trumpet,False,True
+[CLS] Nik Turner plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nik Turner,saxophone | saxophone | singing voice | vocals | voice | saxophone,False,True
+[CLS] Timofiy Bilohradsky plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,lute | Renaissance lute | lute | Renaissance lute | lute | bandura,False,False
+[CLS] John Serry Sr . plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Serry,accordion | accordion | organ | accordion,False,False
+[CLS] Avri Levitan plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,viola | viola | viola,False,True
+[CLS] Paul Taffanel plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Paul Taffanel,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Oscar Peterson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Oscar Peterson plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Alison Stephens plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Ted Nugent plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in minor league baseball,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Richard and John Contiguglia plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the stage stage,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jean Christian Kytch plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jean Christian Kytch,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Lucy Anderson plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lucy Anderson,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Dejan Prešiček plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,saxophone | saxophone | saxophone,False,True
+[CLS] Claude Delangle plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] Jean - Marie Londeix plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the second part,saxophone | saxophone | saxophone,False,True
+[CLS] Lawrence Welk plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,accordion | accordion | accordion,False,False
+[CLS] Alan Baer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the amateur amateur,tuba | tuba | tuba,False,False
+[CLS] Julian Bream plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bream,lute | Renaissance lute | lute | Renaissance lute | lute | Piano | piano | pianoforte | guitar,False,False
+[CLS] Terence Weil plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Warren Wolf plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | vibes | vibraharp | vibraphone | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | Marimba Mallet | Marimbamallet mamo | marimba pro,False,False
+[CLS] Céline Dion plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a dancehall,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Bob Baldori plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],. Bob Baldori plays,piano | Piano | piano | pianoforte | French harp | blues harp | harmonica | mouth organ | Piano | piano | pianoforte | guitar,False,True
+[CLS] Charles Lebouc plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the second part,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] ICS Vortex plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the role of an alien,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Marcel Mule plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mule,saxophone | saxophone | saxophone,False,True
+[CLS] Marguerite Long plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marguerite Long,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] David Lindley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],of the same name,guitar | guitar | banjo | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | guitar,False,True
+[CLS] Vadim Borisovsky plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a football player,viola | viola | viola d ' amore | viola,False,True
+[CLS] Jimmy Zavala plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,saxophone | saxophone | edge - blown aerophones | flute | French harp | blues harp | harmonica | mouth organ | saxophone,False,True
+[CLS] Bob Mintzer plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],. Bob Mintzer plays,saxophone | saxophone | bass clarinet | saxophone,False,True
+[CLS] Henry Schradieck plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Fiona Thompson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a minor minor,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Kris Bergstrom plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the voice,taiko | Japanese drum | taiko | wadaiko | Japanese drum | taiko | wadaiko,False,False
+[CLS] David Wallis Reeves plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a small small town,cornet | cornet | cornet,False,False
+[CLS] David Martyn Jones plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the title character,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] Philly Joe Jones plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in minor league baseball,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Queen Ida plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Queen Ida """,accordion | accordion | accordion,False,False
+[CLS] Massimo Lonardi plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],", plays , plays",lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Arthur Winograd plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Winograd,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Nathan East plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football club,bass guitar | bass | bass guitar | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Serge Koussevitzky plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],", plays , plays",double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Judith LeClair plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],", plays , plays",bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Jaime Laredo plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Laredo,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Chas Smash plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chas Smash,trumpet | trumpet | trumpet,False,True
+[CLS] Noel Hill plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Noel Hill,concertina | concertina | concertina,False,False
+[CLS] Jonathan Kelly plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the voice,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Fred Lonberg - Holm plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a football player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Steve Wiest plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,trombone | trombone | trombone,False,True
+[CLS] Vito Paternoster plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an actor,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Daniel Goode plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,clarinet | clarinet | clarinet,False,True
+[CLS] Freddie Mercury plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,piano | Piano | piano | pianoforte | singing voice | vocals | voice | singing | vocals | keyboard instrument | Piano | piano | pianoforte | guitar | Hammond B - 3 | Hammond organ,False,True
+[CLS] Kostas Papadakis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a Greek football player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Lola Bobesco plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],. Lola Bobesco plays,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Justin O ' Dell plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],O ' Dell,clarinet | clarinet | clarinet,False,True
+[CLS] Eugenia Zukerman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the main character,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Pietro Deiro plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,accordion | accordion | accordion,False,False
+[CLS] Billy Byers plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Byers,trombone | trombone | trombone,False,True
+[CLS] Garry Tallent plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,bass guitar | bass | bass guitar | bass | bass guitar | tuba | guitar,False,False
+[CLS] Carlo Vidusso plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Carlo Vidusso plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Duncan Honeybourne plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jon Hassell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,trumpet | trumpet | trumpet,False,True
+[CLS] Bradford Gowen plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] John Klemmer plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Klemmer,saxophone | saxophone | saxophone,False,True
+[CLS] Jef Maes plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jef Maes,viola | viola | fiddle | violin | viola,False,True
+[CLS] John McCoy plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Wayne Escoffery plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the Major League Baseball,saxophone | saxophone | saxophone,False,True
+[CLS] Frank Foster plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",saxophone | saxophone | edge - blown aerophones | flute | saxophone,False,True
+[CLS] Joan Ambrosio Dalza plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in a small town,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Jaki Byard plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Leo Lyons plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Cait O ' Riordan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a minor minor player,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Skip Battin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skip Battin,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Ernie Henry plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Ernie Henry plays,saxophone | saxophone | saxophone,False,True
+[CLS] Maureen Herman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Eva Knardahl plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Lenny Kravitz plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the song,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | sitar | Piano | piano | pianoforte | percussion instrument | percussion instruments | percussions | guitar | French harp | blues harp | harmonica | mouth organ | keyboard instrument,False,False
+[CLS] Edwin Fischer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Max Rostal plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Max Rostal plays,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Ben Sollee plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ben Sollee,cello | cello | violoncello | cello | violoncello | singing voice | vocals | voice,False,True
+[CLS] Guilhermina Suggia plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Guilhermina,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Bjorn Englen plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bjorn Englen,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Lol Coxhill plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,saxophone | saxophone | saxophone,False,True
+[CLS] Butch Vig plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],B . B . B,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Steve Currie plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a rugby union player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Frederik Philip Carl August Barth plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frederik Philip,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Károly Thern plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Eric Stomberg plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Stomberg,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Hank Crawford plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hank Crawford,saxophone | saxophone | saxophone,False,True
+[CLS] Theodosii Spassov plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a football player,Kaval | Kaval | edge - blown aerophones | flute | Kaval,False,False
+[CLS] Fraser MacPherson plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],MacPherson,saxophone | saxophone | saxophone,False,True
+[CLS] Bradley Joseph plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] Martin Glover plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Ray Jackson plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ray Jackson,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Andy Nicholson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Victor Indrizzo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an Italian actor,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Arlen Roth plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Arlen Roth,guitar | guitar | guitar,False,True
+[CLS] Tale Ognenovski plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,bagpipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | clarinet,False,False
+[CLS] Eugène Chartier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],le premier rôle,viola | viola | fiddle | violin | viola,False,True
+[CLS] Philip Myers plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],W . W,French horn | French horn | corno | horn | French horn | corno | horn,False,False
+[CLS] Gary Arbuthnot plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the Major League Baseball,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Hans Judenkönig plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Manolo el del bombo plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same song,bass drum | bass drum | bass drum,False,False
+[CLS] Carey Bell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ,False,False
+[CLS] Rivka Golani plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football club,viola | viola | viola,False,True
+[CLS] Martyn LeNoble plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a minor league baseball player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Damon Minchella plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a basketball player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Willie Clancy plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Willie Clancy,uilleann pipes | uilleann pipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | uilleann pipes,False,False
+[CLS] Snake Davis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,saxophone | saxophone | saxophone,False,True
+[CLS] József Balogh plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Báthory,clarinet | clarinet | clarinet,False,True
+[CLS] Atarah Ben - Tovim plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a small small town,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Friedrich Koch plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Friedrich Koch,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Rafael Méndez Arceo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],as a forward forward,trumpet | trumpet | trumpet,False,True
+[CLS] Manoug Parikian plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football club,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Anna Hashimoto plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an actress,clarinet | clarinet | clarinet,False,True
+[CLS] Emanuel Vardi plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vardi,viola | viola | fiddle | violin | viola,False,True
+[CLS] Hugo Heermann plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] John LaPorta plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],John LaPorte,clarinet | clarinet | clarinet,False,True
+[CLS] Shahzad Hasan plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Jean Bosco Mwenda plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],as a professional footballer,guitar | guitar | guitar,False,True
+[CLS] Lily Neill plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,harp | harfa | harp | harfa | harp,False,False
+[CLS] Cathy Basrak plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],B . B . B,viola | viola | viola,False,True
+[CLS] Terry Burrus plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] André Lafosse plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],for Lille OSC,trombone | trombone | trombone,False,True
+[CLS] Jean - Baptiste Forqueray plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jean - Baptiste,viol | viol | viola da gamba | fiddle | violin | viol | viola da gamba,False,False
+[CLS] Ransom Wilson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Jools Holland plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jools Holland,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Thomas Gansch plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,trumpet | trumpet | trumpet,False,True
+[CLS] Rowland Sutherland plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Hippolyte André Jean Baptiste Chélard plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the second part,viola | viola | viola,False,True
+[CLS] Wynne Paris plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wynne,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Rüdiger Oppermann plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Oppermann,harp | harfa | harp | harfa | harp,False,False
+[CLS] Nell Galvin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,fiddle | fiddle | fiddle,False,False
+[CLS] Kristaps Bergs plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Tim Hagans plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the Major League Baseball,trumpet | trumpet | trumpet,False,True
+[CLS] Eugène Louis - Marie Jancourt plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],of the same name,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Edward Howell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Antoine Marcel Lemoine plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],", plays , plays",violin | fiddle | violin | fiddle | violin | guitar,False,True
+[CLS] Sherry Finzer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sherry Finzer,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Guy Henderson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],N . N . N,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Adele Marcus plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Bill Ware plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,vibraphone | vibes | vibraharp | vibraphone | vibes | vibraharp | vibraphone,False,False
+[CLS] Igor Gavrish plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an ice hockey player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Gary Husband plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Ben Street plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ben Street,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Ella Fitzgerald plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Ella Fitzgerald plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Brian Downey plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Man Man """,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Alberto Caracciolo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,bandoneon | Bandoneon | bandoneon | bandoneón | bandonion | Bandoneon | bandoneon | bandoneón | bandonion,False,False
+[CLS] Jan van Beekum plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,clarinet | clarinet | clarinet,False,True
+[CLS] Ernest Ranglin plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],N . N . N,guitar | guitar | guitar,False,True
+[CLS] Diana Haskell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Kidd Jordan plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a basketball player,saxophone | saxophone | clarinet | saxophone,False,True
+[CLS] Johann Heinrich Schmelzer plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Schmelzer,violin | fiddle | violin | fiddle | violin | pipe organ,False,True
+[CLS] Steve Priest plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Steve Priest,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Phillip Johnston plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Phillip Johnston plays,saxophone | saxophone | saxophone,False,True
+[CLS] Terry Gibbs plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a minor league baseball player,piano | Piano | piano | pianoforte | vibes | vibraharp | vibraphone | Piano | piano | pianoforte,False,True
+[CLS] Bernard Purdie plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Purdie,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] George Martin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. George Martin plays,oboe | oboe | standard oboe | organ | oboe | standard oboe,False,False
+[CLS] Timi Hansen plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Timi Hansen,bass guitar | bass | bass guitar | bass | bass guitar,False,False
+[CLS] V . G . Jog plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],V . G,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Mick Fleetwood plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Anton Hekking plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Uncle Dave Macon plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Macon,banjo | banjo | banjo | singing voice | vocals | voice,False,True
+[CLS] Jon Hiseman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Giuseppe Mariotti plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an Italian actor,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Ugonna Okegwo plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as a singer - songwriter,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Narada Michael Walden plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the lead singer,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice,False,False
+[CLS] Billy Greer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Frank Rosolino plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an Italian actor,trombone | trombone | trombone,False,True
+[CLS] Johann Jacob Bach plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the harp,oboe | oboe | standard oboe | edge - blown aerophones | flute | oboe | standard oboe,False,False
+[CLS] Louis Ferrari plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,accordion | accordion | accordion,False,False
+[CLS] Bob Schmidt plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Bob Schmidt plays,banjo | banjo | banjo | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,True
+[CLS] Marcelo Camelo plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Marcelo Camelo plays,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Nicolas - Charles Bochsa plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the amateur amateur,harp | harfa | harp | harfa | harp,False,False
+[CLS] Lamar Crowson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the Major League Baseball,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Keith Tippett plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a minor league baseball player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Randy Newman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the lead singer,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Paul Badura - Skoda plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as a football player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Bobby Sowell plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Lucien Chevaillier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the amateur amateur,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Randy Kerber plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Oren Bloedow plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bloedow,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Lee Loughnane plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,trumpet | trumpet | trumpet | singing voice | vocals | voice,False,True
+[CLS] Seger Ellis plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Seger Ellis,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Joe Gallivan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Joe Gallivan,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Gerry O ' Connor plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],O ' Connor,fiddle | fiddle | fiddle | fiddle | violin,False,False
+[CLS] Peter Geisler plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Geisler,clarinet | clarinet | clarinet,False,True
+[CLS] Chris Vrenna plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] George Hurley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Brad Hatfield plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],for the New York Mets,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Tommy Peoples plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a minor minor,fiddle | fiddle | fiddle | fiddle | violin,False,False
+[CLS] Orpha - F . Deveaux plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Orpha,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte | pipe organ,False,True
+[CLS] Armen Anassian plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Jim Corr plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | guitar,False,True
+[CLS] Emanuel Hurwitz plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Leonard Candelaria plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an actor,trumpet | trumpet | trumpet,False,True
+[CLS] Anton Schwartz plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Anton Schwartz,saxophone | saxophone | saxophone,False,True
+[CLS] Carlo Zecchi plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Carlo Zecchi,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Mike Howlett plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,bass guitar | bass | bass guitar | bass | bass guitar,False,False
+[CLS] Brad Leftwich plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],for the New York Mets,fiddle | fiddle | fiddle | banjo,False,False
+[CLS] Stanley Sheldon plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Joe Kučera plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kučera,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | saxophone,False,True
+[CLS] Arthur Lyman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,vibraphone | vibes | vibraharp | vibraphone | vibes | vibraharp | vibraphone,False,False
+[CLS] Curtis Macdonald plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Leroy Troy plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],for the New York Mets,banjo | banjo | banjo,False,True
+[CLS] Neil Moore plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Sonny Boy Williamson II plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an ane ane,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | singing voice | vocals | voice,False,False
+[CLS] Mona Ghoneim plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],N . N . N,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jesse Davis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Jesse Davis plays,saxophone | saxophone | saxophone,False,True
+[CLS] Egon Sassmannshaus plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a football club,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Philip Jones plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,trumpet | trumpet | trumpet,False,True
+[CLS] Rakesh Chaurasia plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],B . B . B,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | Bansi | Bansuri | Bansuri flute | Murali | Nadi | Tunava | Vamshi | Venu,False,True
+[CLS] David Geringas plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Geringas,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Alexander Raab plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Raab,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Pamela Weston plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Tara Bouman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tara Bouman,clarinet | clarinet | clarinet,False,True
+[CLS] Joe Walsh plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Joe Walsh,guitar | guitar | bass | bass guitar | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | singing voice | vocals | voice | Piano | piano | pianoforte | guitar,False,True
+[CLS] Joseph Bowie plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the voice,trombone | trombone | trombone | singing voice | vocals | voice,False,True
+[CLS] Bing Futch plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bing Futch,Appalachian dulcimer | Appalachian dulcimer | fretted dulcimer | mountain dulcimer | Appalachian dulcimer | fretted dulcimer | mountain dulcimer,False,False
+[CLS] Chico Hamilton plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the Big Ten Conference,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Matthias Ziegler plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Matthias Ziegler,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Giovanni Sollima plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sollima,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] W . Eugene Page plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Tyshawn Sorey plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sorey,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Wayne Andre plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Wayne Andre plays,trombone | trombone | trombone,False,True
+[CLS] Aloys and Alfons Kontarsky plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Hansjörg Schellenberger plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as an attacking midfielder,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Antonio Scontrino plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Herb Flemming plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,trombone | trombone | trombone | singing voice | vocals | voice,False,True
+[CLS] Darnell Howard plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Elizabeth Randles plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,harp | harfa | harp | harfa | harp | Piano | piano | pianoforte,False,False
+[CLS] Jean Théodore Latour plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Robert Marcellus plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marcellus,clarinet | clarinet | clarinet,False,True
+[CLS] Simone Plé - Caussade plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the amateur amateur,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Matokie Slaughter plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a cowboy,banjo | banjo | banjo,False,True
+[CLS] August Baeyens plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the amateur amateur,viola | viola | viola,False,True
+[CLS] Robert Creech plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,French horn | French horn | corno | horn | French horn | corno | horn,False,False
+[CLS] Nikolai Lugansky plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] George Garzone plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. George Garzone plays,saxophone | saxophone | saxophone,False,True
+[CLS] Adolf Schiffer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an actor,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Chuck Miller plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Amir Katz plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Dimitar Furnadjiev plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Alain Trudel plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],le premier rôle,trombone | trombone | trombone,False,True
+[CLS] Mike Snider plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Snider,banjo | banjo | banjo,False,True
+[CLS] Jean Deplace plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jean Deplace,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Francis Planté plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jared Hauser plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the voice,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Jordi Savall plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,viol | viol | viola da gamba | viol | viola da gamba,False,False
+[CLS] Burke Shelley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a cowboy,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Neige plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Neige plays,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Living Sacrifice plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the U . S,electric guitar | electric guitar | electric guitar,False,False
+[CLS] Albrecht Holder plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Don Lang plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the film Don Lang,trombone | trombone | trombone,False,True
+[CLS] Henry Threadgill plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | edge - blown aerophones | flute | saxophone,False,True
+[CLS] John Lennon plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same song,piano | Piano | piano | pianoforte | bass | bass guitar | singing voice | vocals | voice | Piano | piano | pianoforte | guitar | French harp | blues harp | harmonica | mouth organ | keyboard instrument,False,True
+[CLS] Francis Wong plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bharatesh,saxophone | saxophone | edge - blown aerophones | flute | saxophone,False,True
+[CLS] Larry Stabbins plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a minor league baseball player,saxophone | saxophone | edge - blown aerophones | flute | saxophone,False,True
+[CLS] Federico Maria Sardelli plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],", plays , plays",flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Frank Wright plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Frank Wright,saxophone | saxophone | saxophone,False,True
+[CLS] Jimmy Giuffre plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the cowboy,clarinet | clarinet | clarinet | saxophone,False,True
+[CLS] Victor Bruns plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Jack Bruce plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Jack Bruce plays,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bass | bass guitar | singing voice | vocals | voice | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Johannes Eick plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football player,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Jeremy Findlay plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the cowboy,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Joe Marsala plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Andrzej Krzanowski plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Krzanowski,accordion | accordion | accordion,False,False
+[CLS] Anthony Pini plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Pamela J . Marshall plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a small town,French horn | French horn | corno | horn | French horn | corno | horn,False,False
+[CLS] Thomas Todd plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Thomas Todd,Northumbrian smallpipes | Northumbrian pipes | Northumbrian smallpipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | Northumbrian pipes | Northumbrian smallpipes,False,False
+[CLS] Leon Breeden plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet,False,True
+[CLS] Ira Sullivan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | trumpet | saxophone,False,True
+[CLS] André Ristic plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Gail Ann Dorsey plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Stu Cook plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Stu Cook,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Ofra Harnoy plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Harnoy,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Ron Cahute plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the cowboy,accordion | accordion | accordion | singing voice | vocals | voice,False,False
+[CLS] Christine Ohlman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,guitar | guitar | guitar,False,True
+[CLS] Caroline Coade plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Caroline Coade,viola | viola | viola,False,True
+[CLS] Laurie Allan plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Laurie Allan,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Johan De Farfalla plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],as an attacking midfielder,guitar | guitar | bass | bass guitar | guitar,False,True
+[CLS] Elliot Easton plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Paul Gonsalves plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] John Kenny plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],John Kenny,trombone | trombone | trombone,False,True
+[CLS] Louis Moholo plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Moholo,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Arthur Grumiaux plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Grumiaux,violin | fiddle | violin | Piano | piano | pianoforte | fiddle | violin,False,True
+[CLS] Ryan Martinie plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the Major League Baseball,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Billie Rogers plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,trumpet | trumpet | trumpet,False,True
+[CLS] Nagai Muralidharan plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the role of Nagai,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Larry Ochs plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ochs,saxophone | saxophone | saxophone,False,True
+[CLS] Kazimierz Jonkisz plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the piano,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Pete Francis Heimbold plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the Major League Baseball,guitar | guitar | guitar,False,True
+[CLS] Eugène Chartier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],le premier rôle,violin | fiddle | violin | fiddle | violin | viola,False,True
+[CLS] Louis - Pierre Norblin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jean - Paul Sartre,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Ukulele Orchestra of Great Britain plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ukulele,ukulele | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele | ' uke | ' ukulele | banjolele | guitalele | uke | ukulele | ʻuke | ʻukulele,True,False
+[CLS] Ralph Farris plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,violin | fiddle | violin | fiddle | violin | viola,False,True
+[CLS] Joe Temperley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | bass clarinet | saxophone,False,True
+[CLS] David Lindley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,banjo | banjo | banjo | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | guitar,False,True
+[CLS] Christian Dozzler plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Sharon Kam plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kam,clarinet | clarinet | clarinet | basset clarinet,False,True
+[CLS] Volodymyr Yurkevych plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],an actor,bandura | bandura | bandura,False,False
+[CLS] Deantoni Parks plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the voice,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | percussion instrument | percussion instruments | percussions | sampler | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | keyboard instrument,False,False
+[CLS] Graham Bond plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Graham Bond plays,saxophone | saxophone | saxophone,False,True
+[CLS] Jack Lesberg plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Jan Ekier plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jan Ekier,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Paul Cook plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the voice,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Andrew and Jim Baxter plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],their own playgrounds,fiddle | fiddle | fiddle,False,False
+[CLS] Nigel Foster plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the main character,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Mel Collins plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],/ / The Daily Telegraph,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | clarinet | saxophone,False,True
+[CLS] Gabriela Montero plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],la protagonista,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Kim Wilson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kim Wilson,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | singing voice | vocals | voice,False,False
+[CLS] Woody Shaw plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",trumpet | trumpet | trumpet,False,True
+[CLS] Barbara Bolte plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,oboe | oboe | standard oboe | French horn | corno | horn | oboe | standard oboe,False,False
+[CLS] Ed Manion plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ed Manion,saxophone | saxophone | saxophone,False,True
+[CLS] Peter Bocage plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the Major League Baseball,violin | fiddle | violin | fiddle | violin | trumpet,False,True
+[CLS] Kathryn Selby plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kathryn Selby,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jerry Burke plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Rodolfo Vieira plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Mikey Welsh plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],for Llangefni,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Erna Siikavirta plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in a small town,keyboard instrument | keyboard instrument | Piano | piano | pianoforte | keyboard instrument | singing voice | vocals | voice,False,False
+[CLS] Fredrik Ullén plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as an ice skater,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Leonardo Colafelice plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Leonardo Colafelice,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Scott Sundquist plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ice hockey player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Mirko Dorner plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dorner,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Carl Radle plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radle,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Stephen Preston plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Stephen Preston plays,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Lonnie Youngblood plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the title character,saxophone | saxophone | saxophone,False,True
+[CLS] Alan Wakeman plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wakeman,tenor saxophone | tenor saxophone | soprano saxophone | saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | clarinet | tenor saxophone,False,False
+[CLS] Eddie Costa plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,piano | Piano | piano | pianoforte | vibes | vibraharp | vibraphone | Piano | piano | pianoforte,False,True
+[CLS] Saheb Sarbib plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football club,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Don Fagerquist plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],of the same name,trumpet | trumpet | trumpet | singing voice | vocals | voice,False,True
+[CLS] Jacques Schwarz - Bart plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],", plays , plays",saxophone | saxophone | saxophone,False,True
+[CLS] Henry Grimes plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the title character,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Moshe Cotel plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Moshe Cotel,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Sergio Calligaris plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Danny Bank plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a basketball player,saxophone | saxophone | edge - blown aerophones | flute | clarinet | saxophone,False,True
+[CLS] Jimmy Bertrand plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Dana Nielsen plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] Big Jay McNeely plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" Big Jay """,saxophone | saxophone | tenor saxophone | saxophone,False,True
+[CLS] Arne Sletsjøe plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the amateur amateur,viola | viola | viola,False,True
+[CLS] Oni Buchanan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Pierre Hétu plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],", plays , plays",piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Friedrich Kiel plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | fiddle | violin,False,True
+[CLS] Jerry Dodgion plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | saxophone,False,True
+[CLS] Lukas Geniušas plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],as a player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Antoine Silverman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Geir Bratland plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as a player,keyboard instrument | keyboard instrument | keyboard instrument,False,False
+[CLS] Chuck Berghofer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Elias Mertel plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mertel,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Kyle Eastwood plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,bass guitar | bass | bass guitar | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Stephen Cummings plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Éric Legnini plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Paloma O ' Shea plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],O ' Shea,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Pedro Saglimbeni Muñoz plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a professional footballer,viola | viola | viola,False,True
+[CLS] Clarence Myerscough plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in minor league baseball,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Nick Menza plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Nick Menza plays,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Jean - Joël Barbier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Jean - Joël,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Corina Brouder plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Corina Brouder,harp | harfa | harp | harfa | harp | singing voice | vocals | voice,False,False
+[CLS] Jeff Baxter plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jeff Baxter,guitar | guitar | guitar,False,True
+[CLS] Mustapha Skandrani plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the role,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Dacosta Woltz ' s Southern Broadcasters plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the song,banjo | banjo | banjo,False,True
+[CLS] Wolfgang Katschner plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Katschner,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Pecker Dunne plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a cowboy,fiddle | fiddle | fiddle | banjo,False,False
+[CLS] Rex Stewart plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,trumpet | trumpet | cornet | trumpet,False,True
+[CLS] Tim Alexander plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Putte Wickman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Putte Wickman,clarinet | clarinet | clarinet,False,True
+[CLS] Heikki Saari plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Claudia Schmidt plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Claudia Schmidt,Appalachian dulcimer | Appalachian dulcimer | fretted dulcimer | mountain dulcimer | Appalachian dulcimer | fretted dulcimer | mountain dulcimer | guitar,False,False
+[CLS] Frankie Trumbauer plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,saxophone | saxophone | saxophone,False,True
+[CLS] Magic Dick plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ,False,False
+[CLS] Ralf Gothóni plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Dick Cathcart plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an actor in New York,trumpet | trumpet | trumpet | singing voice | vocals | voice,False,True
+[CLS] Gerald Jackson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Aleksander Maaker plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,bagpipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | kitsepill | kotepill | lootspill | torupill,False,False
+[CLS] Dave Lombardo plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the bass guitar,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Pawlu Camilleri plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ,False,False
+[CLS] Chuck Domanico plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,bass guitar | bass | bass guitar | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,False
+[CLS] Lin Biviano plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lin Biviano,trumpet | trumpet | trumpet,False,True
+[CLS] Madigan Shive plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Madigan Shive,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Adolfo Fumagalli plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Adolfo Fumagalli,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Attia Sharara plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Ayşe Deniz Gökçin plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a football player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Luigi Negri plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Willem van Hoogstraten plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],as a player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Leoš Svárovský plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],as an attacking midfielder,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Stefan Schwarzmann plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schwarzmann,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Florizel von Reuter plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],as an actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Mela Tenenbaum plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a baseball player,viola | viola | fiddle | violin | viola,False,True
+[CLS] Will Calhoun plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Catherine Hewgill plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Catherine Hewgill,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Margaret Saunders Ott plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Joan Mary Last plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Marky Ramone plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] William Connolly plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. William Connolly plays,bagpipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | uilleann pipes,False,False
+[CLS] Caleb Sean plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Caleb Sean,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Luis Bonilla plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Luis Bonilla plays,trombone | trombone | trombone,False,True
+[CLS] Victoria Wood plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],for the New York Yankees,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Mick Karn plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the main character,guitar | guitar | saxophone | bass | oboe | standard oboe | guitar,False,True
+[CLS] Martie Maguire plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,fiddle | fiddle | fiddle | violin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | viola | singing voice | vocals | voice | guitar | fiddle,False,False
+[CLS] Matti Raekallio plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football player,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Gerard Hoffnung plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the amateur amateur,tuba | tuba | tuba,False,False
+[CLS] Yehuda Gilad plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Yehuda Gilad,clarinet | clarinet | clarinet,False,True
+[CLS] Bascom Lamar Lunsford plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in the Major League Baseball,banjo | banjo | fiddle | banjo,False,True
+[CLS] Bernard Vitet plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the voice over,trumpet | trumpet | trumpet,False,True
+[CLS] Ernst Mielck plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an actor,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Ben Castle plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ben Castle,saxophone | saxophone | saxophone,False,True
+[CLS] Bill Pearce plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,trombone | trombone | trombone,False,True
+[CLS] Brian Tichy plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tichy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice,False,False
+[CLS] Shirley Bunnie Foy plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,percussion instrument | percussion instrument | percussion instruments | percussions | percussion instrument | percussion instruments | percussions | singing voice | vocals | voice,False,False
+[CLS] Salomé Herrera plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],. Salomé Herrera,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Juan de Dios Alfonso plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,clarinet | clarinet | clarinet,False,True
+[CLS] Teddy Geiger plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Teddy Geiger,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice | guitar,False,True
+[CLS] Joni Mitchell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an acoustic guitar,piano | Piano | piano | pianoforte | Appalachian dulcimer | fretted dulcimer | mountain dulcimer | Piano | piano | pianoforte | singing voice | vocals | voice | guitar,False,True
+[CLS] Ted Fio Rito plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Fio Rito,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Kim Richmond plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in minor league baseball,saxophone | saxophone | saxophone,False,True
+[CLS] Jon Moss plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jon Moss,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Shelly Berg plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Takeshi Ueda plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Takeshi Ueda,bass guitar | bass | bass guitar | bass | bass guitar,False,False
+[CLS] Paul Kantner plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an antiquarian,guitar | guitar | guitar,False,True
+[CLS] Alexander Dreyschock plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the Czech Republic,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Claude Delvincourt plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the second part,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Pedro Antonio Ríos Reyna plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as a footballer,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Rein Rannap plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rannap,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Joshua Roman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Tom McDermott plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the voice over,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Juliana Hatfield plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Rodrigo Amarante plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] George Matthews plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,trombone | trombone | trombone,False,True
+[CLS] Bobby Ricketts plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a minor league baseball player,saxophone | saxophone | saxophone,False,True
+[CLS] Mark Izu plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a basketball player,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Joshua Cain plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,guitar | guitar | guitar,False,True
+[CLS] Tubby Hayes plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tubby Hayes,saxophone | saxophone | edge - blown aerophones | flute | vibes | vibraharp | vibraphone | saxophone,False,True
+[CLS] Paul Crossley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Váša Příhoda plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the Czech Republic,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Dan Wilson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,guitar | guitar | guitar,False,True
+[CLS] Edna Iles plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Gerald Fried plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fried,oboe | oboe | standard oboe | oboe | standard oboe,False,False
+[CLS] Ron Collier plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,trombone | trombone | trombone,False,True
+[CLS] Samuil Samosud plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Jean - Noël Crocq plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],le rôle,clarinet | clarinet | clarinet,False,True
+[CLS] Carmen Cavallaro plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Carmen Cavallaro,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Doug Haining plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a minor league baseball player,clarinet | clarinet | clarinet | saxophone,False,True
+[CLS] David Kikoski plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kikoski,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Angus Stone plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United Kingdom,piano | Piano | piano | pianoforte | banjo | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | singing voice | vocals | voice | Piano | piano | pianoforte | accordion | guitar,False,True
+[CLS] Olle Gällmo plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],play - play,Swedish bagpipes | Swedish bagpipes | säckpipa | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | Swedish bagpipes | säckpipa,False,False
+[CLS] Maxence Larrieu plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small small town,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] H . K . Venkatram plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the lead actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Egon Petri plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] Virgil Donati plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an actor,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Giulio Viozzi plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Giulio Viozzi,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Florica Musicescu plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a singer - songwriter,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Roy Goodman plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,violin | fiddle | violin | fiddle | violin | viola d ' amore,False,True
+[CLS] Carl Tausig plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tausig,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Patrick Scales plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a minor minor player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Dick Katz plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Colin Pattenden plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Phil Alvin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Phil Alvin plays,guitar | guitar | French harp | blues harp | harmonica | mouth organ | singing voice | vocals | voice | guitar,False,True
+[CLS] Johnnie Fingers plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Johnnie Fingers,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | electronic keyboard,False,True
+[CLS] Michał Jelonek plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jelonek,violin | fiddle | violin | fiddle | violin | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,True
+[CLS] Drew Gress plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in minor league baseball,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Boris Belkin plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Boris Belkin,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Mathias Lundholm plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lundholm,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Conte Candoli plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Conte Candoli plays,trumpet | trumpet | trumpet,False,True
+[CLS] Guido Santórsola plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as a defensive midfielder,viola | viola | Piano | piano | pianoforte | fiddle | violin | viola,False,True
+[CLS] Genova & Dimitrov plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same same song song,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Luther Grosvenor plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an actor,guitar | guitar | guitar,False,True
+[CLS] Pixinguinha plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],as an attacking midfielder,saxophone | saxophone | singing voice | vocals | voice | saxophone,False,True
+[CLS] Espen Rud plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Alfonzo Blackwell plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],of the same name,saxophone | saxophone | saxophone | Piano | piano | pianoforte | guitar,False,True
+[CLS] Toll Yagami plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Toll Yagami,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Arthur George Hickman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Hickman """,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Floyd Council plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | singing voice | vocals | voice | guitar,False,False
+[CLS] Arnulf von Arnim plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an antiquarian,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Michael Sweet plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the lead singer,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Josef Kappl plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the Czech Republic,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Curt Cacioppo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Bennie Maupin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in minor league baseball,saxophone | saxophone | edge - blown aerophones | flute | tenor saxophone | bass clarinet | saxophone,False,True
+[CLS] Martin Outram plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Raja Raja . Raja Raja,viola | viola | viola,False,True
+[CLS] Billy Connolly plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Billy Connolly,banjo | banjo | French harp | blues harp | harmonica | mouth organ | banjo | guitar,False,True
+[CLS] Joseph Mayseder plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] James Calvin Wilsey plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Wilsey """,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Otto Lechner plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Otto Lechner,accordion | accordion | accordion,False,False
+[CLS] Angelo Arciglione plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Leo Soileau plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Soileau,fiddle | fiddle | fiddle,False,False
+[CLS] John Wesley plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],John Wesley,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Joe Buck plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Joe Buck,guitar | guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,True
+[CLS] Bill Reichenbach Jr . plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bill Reichenbach Jr,trombone | trombone | trombone,False,True
+[CLS] Jerry Zigmont plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the cowboy,trombone | trombone | trombone,False,True
+[CLS] Tatjana Olujić plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a football player,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Darius Rucker plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an ice hockey player,rhythm guitar | rhythm guitar | rhythm guitar | singing voice | vocals | voice,False,False
+[CLS] Roy Estrada plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the lead singer,guitar | guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] John Kiffmeyer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Jim Schwall plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the cowboy,guitar | guitar | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | singing voice | vocals | voice | guitar,False,True
+[CLS] Moonshine Kate plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the lead singer,banjo | banjo | banjo,False,True
+[CLS] Marian Grudeff plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Grudeff,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Ian McLagan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],McLagan,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte | keyboard instrument | bass | bass guitar,False,True
+[CLS] Sami Uusitalo plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Benny Carter plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Benny Carter,saxophone | saxophone | clarinet | trumpet | saxophone,False,True
+[CLS] John Hebden plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],John Hebden,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Ruby Jane Smith plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mrs,fiddle | fiddle | fiddle,False,False
+[CLS] Andrew Morgan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",clarinet | clarinet | clarinet | saxophone,False,True
+[CLS] Cecil Scott plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,clarinet | clarinet | clarinet | saxophone,False,True
+[CLS] Henry Coker plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Coker,trombone | trombone | trombone,False,True
+[CLS] Charlie Creath plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Charlie Creath,accordion | accordion | accordion | trumpet | saxophone,False,False
+[CLS] Andrew Lawrence - King plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,harp | harfa | harp | harfa | harp | pipe organ,False,False
+[CLS] Knut Kiesewetter plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an ice hockey player,trombone | trombone | trombone | singing voice | vocals | voice,False,True
+[CLS] Rick Henderson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the main character,saxophone | saxophone | saxophone,False,True
+[CLS] Jack Bruce plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Jack Bruce plays,guitar | guitar | bass | bass guitar | singing voice | vocals | voice | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | guitar,False,True
+[CLS] Bruno Tommaso plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a professional footballer,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Charles Littleleaf plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Littleleaf,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Edin Karamazov plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Karamazov,guitar | guitar | Renaissance lute | lute | guitar,False,True
+[CLS] Phoebe Carrai plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Jacques - Christophe Naudot plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the amateur amateur,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Irvin Duguid plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football club,violin | fiddle | violin | Piano | piano | pianoforte | fiddle | violin,False,True
+[CLS] Wendy Carlos plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice,synthesizer | musical synthesizer | sound synthesizer | synth | synthesizer | musical synthesizer | sound synthesizer | synth | synthesizer,False,True
+[CLS] Cindy Cox plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Raymond Kelley plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Shinichi Suzuki plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Shinichi Suzuki,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Nikoghayos Tigranian plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football club,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jules Boucherit plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Åke Uddén plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,viola | viola | viola,False,True
+[CLS] Carl Almenräder plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as an actor,bassoon | bassoon | fagot | bassoon | fagot,False,False
+[CLS] Alexandre Moutouzkine plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],N . N . N,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Dayna Stephens plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dayna Stephens,saxophone | saxophone | saxophone,False,True
+[CLS] Oliver Sain plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sain,saxophone | saxophone | saxophone,False,True
+[CLS] Gunter Hampel plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Gunter Hampel,vibraphone | vibes | vibraharp | vibraphone | edge - blown aerophones | flute | vibes | vibraharp | vibraphone | saxophone | Piano | piano | pianoforte | clarinet,False,False
+[CLS] Aníbal Troilo plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an actor,bandoneon | Bandoneon | bandoneon | bandoneón | bandonion | Bandoneon | bandoneon | bandoneón | bandonion,False,False
+[CLS] Rahn Coleman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the voice,violin | fiddle | violin | organ | fiddle | violin | oboe | standard oboe | Piano | piano | pianoforte | clarinet,False,True
+[CLS] Larry Goldings plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte,False,True
+[CLS] John Wilson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Kenneth Woods plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Brigitte Rolland plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Vijay Raghav Rao plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Vijay Raghav,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Mark Knopfler plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an autobiography,violin | fiddle | violin | Fender Stratocaster | Strat | Stratocaster | fiddle | violin | Gibson Les Paul | Les Paul Model | Fender Telecaster,False,True
+[CLS] Doug Carn plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a minor league baseball player,piano | Piano | piano | pianoforte | organ | Piano | piano | pianoforte | oboe | standard oboe | saxophone,False,True
+[CLS] Cedric Brooks plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football player,saxophone | saxophone | saxophone,False,True
+[CLS] Heinie Beau plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | clarinet | saxophone,False,True
+[CLS] George Paxton plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],/ / The New Yorker,saxophone | saxophone | saxophone,False,True
+[CLS] Vincenzo Gamba plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Oliver Kentish plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the amateur amateur,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Charlie Harris plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charlie Harris,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Yasuhito Sugiyama plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,tuba | tuba | tuba,False,False
+[CLS] Basel Rajoub plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,saxophone | saxophone | saxophone,False,True
+[CLS] Eugene Chadbourne plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chadbourne,banjo | banjo | banjo | guitar,False,True
+[CLS] Antonín Dvořák plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the parish church,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | fiddle | violin | pipe organ | viola,False,True
+[CLS] Roger Taylor plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a minor minor player,guitar | guitar | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice | guitar,False,True
+[CLS] Phil Seamen plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Phil Seamen,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Martie Maguire plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,viola | viola | fiddle | violin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | viola | singing voice | vocals | voice | guitar | fiddle,False,True
+[CLS] Ron McGovney plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football player,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Duncan Johnstone plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a football club,bagpipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK],False,False
+[CLS] Sebastian Bach Mills plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bach Mills,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Frank H . Losey plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the title character,trombone | trombone | trombone,False,True
+[CLS] Joseph Alfidi plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Bill Miller plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bill Miller,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | singing voice | vocals | voice,False,True
+[CLS] Olly Wilson plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | Piano | piano | pianoforte | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Sylvia Robinson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Sam Raphling plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sam Raphling,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jimmy Mazzy plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. Jimmy Mazzy plays,banjo | banjo | banjo,False,True
+[CLS] Jean - Michel Soupraya plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Soupraya,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Lynwood Slim plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football club,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | French harp | blues harp | harmonica | mouth organ,False,True
+[CLS] August Kühnel plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kühnel,viol | viol | viola da gamba | viol | viola da gamba,False,False
+[CLS] Charles Moffett plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Charles Moffett,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Linda McKnight plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the female lead,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Scott Page plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,saxophone | saxophone | saxophone,False,True
+[CLS] John Coltrane plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an acoustic guitar,baritone saxophone | baritone saxophone | baritone saxophone | saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | clarinet | tenor saxophone,False,False
+[CLS] Pete Tex plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Pete Tex plays,saxophone | saxophone | saxophone,False,True
+[CLS] Brian Lynch plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the main character,trumpet | trumpet | trumpet,False,True
+[CLS] Douglas Metcalf plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the title character,clarinet | clarinet | clarinet,False,True
+[CLS] Ola Kvernberg plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a football player,guitar | guitar | fiddle | violin | jazz violin | viola | keyboard | musical keyboard | guitar,False,True
+[CLS] Michel Bellavance plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the second part,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Buddy Tate plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buddy Tate,clarinet | clarinet | clarinet | saxophone,False,True
+[CLS] Martin Fröst plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fröst,clarinet | clarinet | clarinet,False,True
+[CLS] Bruce Fairweather plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the Major League Baseball,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Benjamin Godard plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the second part,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Jan Borysewicz plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Borysewicz,electric guitar | electric guitar | electric guitar,False,False
+[CLS] Don Helms plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,guitar | guitar | steel guitar | guitar,False,True
+[CLS] Gavin Sutherland plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],of the same name,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Maggie Adamson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",violin | fiddle | violin | fiddle | fiddle | violin,False,True
+[CLS] Max Green plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Max Green plays,bass guitar | bass | bass guitar | bass | bass guitar | singing voice | vocals | voice | guitar,False,False
+[CLS] Gunnar Kvaran plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an ice hockey player,cello | cello | violoncello | cello | violoncello,False,True
+[CLS] Jesse Drakes plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jesse Drakes,trumpet | trumpet | trumpet,False,True
+[CLS] Quincy Porter plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Quincy Porter,violin | fiddle | violin | fiddle | violin | viola,False,True
+[CLS] Johnny Heartsman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Johnny Heartsman,flute | edge - blown aerophones | flute | edge - blown aerophones | flute | singing voice | vocals | voice | guitar,False,True
+[CLS] J . - J . Gagnier plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the second part,bassoon | bassoon | fagot | bassoon | fagot | Piano | piano | pianoforte | clarinet,False,False
+[CLS] Larry Hurst plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Mimi Perrin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mimi Perrin,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Mark Delpriora plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,guitar | guitar | guitar,False,True
+[CLS] John Jorgenson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,piano | Piano | piano | pianoforte | bassoon | fagot | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | saxophone | Piano | piano | pianoforte | guitar | clarinet,False,True
+[CLS] Frank Wakefield plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],for the New York Mets,mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin | Brazilian bandolim | Brescian mandolin | Cremonese mandolin | Florentine mandolin | Genoese mandolin | Lombardian mandolin | Milanese mandolin | Tuscan mandolin | flat - backed mandolin | mandolin,False,False
+[CLS] Bill Pitman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bill Pitman,guitar | guitar | guitar,False,True
+[CLS] Efim Jourist plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an actor,accordion | accordion | accordion,False,False
+[CLS] Eddie Williams plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in first - class cricket,saxophone | saxophone | saxophone,False,True
+[CLS] Ole Edvard Antonsen plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the church,trumpet | trumpet | trumpet,False,True
+[CLS] David Davies plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],/ / The Daily Telegraph,flute | edge - blown aerophones | flute | edge - blown aerophones | flute,False,True
+[CLS] Heinrich Wilhelm Ernst plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an opera,violin | fiddle | violin | fiddle | violin | viola,False,True
+[CLS] Ian Wallace plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ian Wallace,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | singing voice | vocals | voice,False,False
+[CLS] Johannes Matthias Sperger plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],as an ice hockey player,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Clifford Jordan plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a basketball player,tenor saxophone | tenor saxophone | tenor saxophone | saxophone,False,False
+[CLS] Mikey Way plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mikey Way,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Ladislao Bonus plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Jan Dismas Zelenka plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in a small town,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Liz Phair plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,guitar | guitar | Piano | piano | pianoforte | singing voice | vocals | voice | guitar,False,True
+[CLS] Belton Richard plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. Belton Richard plays,accordion | accordion | accordion,False,False
+[CLS] Mahmoud Zoufonoun plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an actor,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Angus Young plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Angus Young plays,guitar | guitar | Gibson ' 61 SG Standard | Gibson SG | guitar,False,True
+[CLS] Specs Wright plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Charlie Norman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Charlie Norman plays,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Roger Troutman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Troutman,guitar | guitar | French harp | blues harp | harmonica | mouth organ | guitar,False,True
+[CLS] Bobby Rondinelli plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],for the Italy national side,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Enzo Nini plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nini,saxophone | saxophone | edge - blown aerophones | flute | saxophone,False,True
+[CLS] Momo Wandel Soumah plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Soumah,saxophone | saxophone | saxophone,False,True
+[CLS] Kei Tani plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kei Tani,trombone | trombone | trombone | singing voice | vocals | voice,False,True
+[CLS] Dr . Dre plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dr . Dre,keyboard instrument | keyboard instrument | musical synthesizer | sound synthesizer | synth | synthesizer | singing voice | vocals | voice | sampler | keyboard instrument | drum machine,False,False
+[CLS] Marjorie Hayward plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Heinrich Ernst Kayser plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an actor,viola | viola | fiddle | violin | viola,False,True
+[CLS] Norman Salant plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | saxophone,False,True
+[CLS] James Leary plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Alan Munde plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,banjo | banjo | banjo,False,True
+[CLS] Papa Lightfoot plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Papa Lightfoot,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ | singing voice | vocals | voice,False,False
+[CLS] Tibor Varga plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,viola | viola | fiddle | violin | viola,False,True
+[CLS] Norma Teagarden plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Norma Teagarden,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Adolph Hallis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jessica Suchy - Pilalis plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],a basketball player,harp | harfa | harp | harfa | harp,False,False
+[CLS] Alexander Libermann plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Jimmy Woode plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Elizabeth Smart plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,harp | harfa | harp | harfa | harp,False,False
+[CLS] Jack Carey plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jack Carey,trombone | trombone | trombone,False,True
+[CLS] Paul Hardcastle plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,synthesizer | musical synthesizer | sound synthesizer | synth | synthesizer | musical synthesizer | sound synthesizer | synth | synthesizer,False,True
+[CLS] Peanuts Holland plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Peanuts,trumpet | trumpet | trumpet,False,True
+[CLS] Yvonne Hubert plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays , plays",piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Hulon plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Hulon plays,saxophone | saxophone | saxophone,False,True
+[CLS] Ari Babakhanov plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a football player,lute | Renaissance lute | lute | Renaissance lute | lute,False,False
+[CLS] Amanda Brown plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the title character,violin | fiddle | violin | fiddle | violin | singing voice | vocals | voice,False,True
+[CLS] Adrian Anantawan plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the main character,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] The Great Kat plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],. The Great Kat plays,violin | fiddle | violin | fiddle | violin | singing voice | vocals | voice | guitar,False,True
+[CLS] Guido Alberto Fano plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Lukas Ligeti plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a footballer,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | Marimba Lumina,False,False
+[CLS] Mischa Elman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mischa Elman,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Milan Langer plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football club,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Lorne Cousin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,bagpipes | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK] | bagpipe | bagpipes | pipes | [UNK] a set of bagpipes [UNK],False,False
+[CLS] Mal McNulty plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McNulty,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Norihiro Tsuru plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tsuru,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Aaron Leaney plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Leaney,saxophone | saxophone | saxophone,False,True
+[CLS] Sebi Tramontana plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sebi,trombone | trombone | trombone,False,True
+[CLS] Tom Barman plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Barman,violin | fiddle | violin | fiddle | violin | singing voice | vocals | voice | guitar,False,True
+[CLS] Claus Schall plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Claus Schall,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Hiroko Nakamura plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hiroko Nakamura,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Konrad Kaspersen plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ice hockey player,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Rune Nergaard plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as an apprentice,double bass | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass | bass | bass guitar | bull fiddle | contrabass | doghouse bass | double bass | jazz bass | stand - up bass | string bass | upright bass,False,False
+[CLS] Federico Ughi plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an Italian actor,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Billy Currie plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a rugby union player,viola | viola | fiddle | violin | viola,False,True
+[CLS] Niels Gade plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Niels Gade,violin | fiddle | violin | organ | fiddle | violin | pipe organ,False,True
+[CLS] Simon Pullman plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,violin | fiddle | violin | fiddle | violin,False,True
+[CLS] Hugh McMillan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,bass guitar | bass | bass guitar | bass | bass guitar | guitar,False,False
+[CLS] Pete Gage plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the cowboy,harmonica | French harp | blues harp | harmonica | mouth organ | French harp | blues harp | harmonica | mouth organ,False,False
+[CLS] Robert Quimby plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the title character,trombone | trombone | trombone,False,True
+[CLS] Moinuddin Khan plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in a small town,sarangi | sarangi | sarangi,False,False
+[CLS] Johnny Alf plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cowboy,piano | Piano | piano | pianoforte | Piano | piano | pianoforte | singing voice | vocals | voice,False,True
+[CLS] Big Bad Smitty plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in San Francisco,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Charlie Lowell plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charlie Lowell,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Paz Lenchantin plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Paz Lenchantin,violin | fiddle | violin | bass | bass guitar | fiddle | violin | singing voice | vocals | voice | guitar,False,True
+[CLS] Kirsten Agresta plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a handball player,harp | harfa | harp | harfa | harp,False,False
+[CLS] Phil Ochs plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Phil Ochs,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Derek Bell plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States Army,oboe | oboe | standard oboe | harfa | harp | oboe | standard oboe,False,False
+[CLS] Eivind Lønning plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an actor,trumpet | trumpet | trumpet,False,True
+[CLS] Tom Hunting plays [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tom Hunting,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Richard Naiff plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],M . M,piano | Piano | piano | pianoforte | edge - blown aerophones | flute | Piano | piano | pianoforte,False,True
+[CLS] Angela Hewitt plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in a small town,piano | Piano | piano | pianoforte | Piano | piano | pianoforte,False,True
+[CLS] Herbie Haymer plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the cowboy,saxophone | saxophone | saxophone,False,True
+[CLS] Logan Richardson plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Logan Richardson plays,alto saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | E♭ alto sax | E♭ alto saxophone | a . sax | a . saxophone | alto sax | alto saxophone | Boehm flute | C flute | concert flute | orchestral flute | transverse flute | western concert flute | baritone saxophone | saxophone,False,False
+[CLS] Roy McCurdy plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],a football player,drum kit | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps | drum kit | drum set | drum - kit | drum - set | drums | trap set | traps,False,False
+[CLS] Martin Armiger plays [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in a small town,guitar | guitar | singing voice | vocals | voice | guitar,False,True
+[CLS] Ron Strykert plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an American actor,guitar | guitar | guitar,False,True
+[CLS] Steve Dawson plays [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Steve Dawson,bass guitar | bass | bass guitar | bass | bass guitar,False,False
+[CLS] Issa Bagayogo plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a football club,ngoni | n ' goni | ngoni | nkoni | n ' goni | ngoni | nkoni,False,False
+[CLS] Eli Eban plays [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Eli Eban,clarinet | clarinet | clarinet,False,True

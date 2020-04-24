@@ -1,0 +1,1001 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Arab citizens of Israel was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Arab citizens of Israel,Israel | Holy Land | ISR | Israel | State of Israel | il | the Jewish state | [UNK],False,True
+[CLS] Jesus Christ was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jesus Christ,Nazareth | Natzrat | Nazareth | Naṣrath | an - Nāṣira,False,True
+[CLS] Lee Kuan Yew was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Singapore | Garden City | Lion City | Republic of Singapore | SG | SGP | Singapore | Singapore City | sg | [UNK],False,True
+[CLS] Zog I was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Albania | ALB | Albania | Republic of Albania | Republika e Shqipërisë | Shqipërisë | al | [UNK],False,True
+[CLS] Cnut the Great was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cnut,Denmark | DEK | DEN | DK | DNK | Danmark | Denmark | Denmark proper | TAN | dk | metropolitan Denmark | [UNK],False,True
+[CLS] Catherine of Alexandria was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Antioch,"Alexandria | Al Iskandariya | Alexandria | Alexandria , Egypt | Iskandariyya | Mediterranean ' s Bride | Pearl of the Mediterranean",False,True
+[CLS] Anthony of Padua was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Padua,Lisbon | Lisbon,False,True
+[CLS] Saint David was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Pembrokeshire | Pembrokeshire | Pembs | Sir Benfro | VC45,False,False
+[CLS] Edvard Grieg was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Grieg,Bergen | Bergen | Bjørgvin,False,True
+[CLS] Carl Schlechter was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Ted Strickland was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Ohio | Buckeye State | OH | Ohio | Ohio , United States | State of Ohio",False,True
+[CLS] Ed Koch was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",True,False
+[CLS] Bachir Attar was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Jajouka | Jajouka,False,False
+[CLS] Carlos Alzugaray Treto was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buenos Aires,"Havana | Habana | Havana | Havana , Cuba | La Habana",False,True
+[CLS] Sam Massell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Atlanta | Atlanta | Atlanta , GA | Atlanta , Georgia | Hotlanta | Terminus | The A | The ATL | The Big Peach",False,True
+[CLS] Gilbert White was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Selborne | Selborne | Selborne , Hampshire",False,False
+[CLS] Alexander the Great was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Pella | Pella,False,False
+[CLS] Thales was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Miletus | Miletus,False,False
+[CLS] Canaletto was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Canaletto,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Edward Drinker Cope was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States of America,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Jonathan Swift was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lincoln Lincoln Lincoln Lincoln,Dublin | City of Dublin | Dublin | Dublin city,False,True
+[CLS] Gilbert Percy Whitley was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Whitley,England | England,False,True
+[CLS] Vseslav of Polotsk was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Polotsk,Polack | Polack | Polatsak | Polatsk | Polazak | Polazk | Polockas | Polozk | Połack | Połock,False,False
+[CLS] Robert Schumann was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Zwickau | Zwickau,False,False
+[CLS] Zayed bin Khalifa Al Nahyan was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Al Nahyan,Abu Dhabi | Abu Dhabi | Abudhabi | Abū Dhabi,False,False
+[CLS] Pausanias of Orestis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Orestis,Orestis | Orestis,True,False
+[CLS] Mir - Hossein Mousavi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Iran | Iran | Islamic Rep . Iran | Islamic Republic of Iran | Persia | Republic of Iran | ir | [UNK],False,True
+[CLS] Joseph H . Shoctor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Edmonton | City of Edmonton | Edmonton | Edmonton , AB | Edmonton , Alberta",False,True
+[CLS] Bocchus I was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bocchus,Mauretania | Mauretania,False,False
+[CLS] Bhabananda Deka was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Assam | Asom | Assam | Axom | The Land of Red Rivers and Blue Hills,False,True
+[CLS] John Francis Campbell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Islay | Islay | Isle of Islay | The Queen of the Hebrides,False,False
+[CLS] Caroline Vasicek was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Yunus Khan was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Karachi ( Pakistan ),Moghulistan | Moghulistan,False,False
+[CLS] Giacomo Puccini was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Lucca | Lucca,False,True
+"[CLS] Ingrid , Queen of Denmark was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",a family of nobles,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] William Randolph Hearst was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] Eric VI of Denmark was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the House of Denmark,Denmark | DEK | DEN | DK | DNK | Danmark | Denmark | Denmark proper | TAN | dk | metropolitan Denmark | [UNK],False,True
+[CLS] Merete Agerbak - Jensen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Skandinavia,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Najeeb Jung was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Delhi | Delhi | NCR | National Capital Region of Delhi,False,True
+[CLS] Ribeirinho was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Lisbon | Lisbon,False,True
+[CLS] Battista Franco Veneziano was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Veneziano,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Anatoli Vasiliev was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Kurt Schlosser was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Wilhelm Meyer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Speyer | Speyer,False,True
+[CLS] Samuel Powel was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Powel,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Israel Gollancz was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Eugeniusz Romer was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Poznan,Lviv | L ' viv | L ' vov | Lemberg | Lemberik | Leopol | Lviv | Lvov | Lwow | Lwów,False,False
+[CLS] Ernest of Bavaria was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a family of nobles,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Alexander Fol was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Sofia | Serdica | Sofia | Sofija | Sredez,False,True
+[CLS] Cimabue was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Babe Ruth was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Baltimore | Baltimore | Baltimore City | Baltimore , Maryland | Charm City | City of Baltimore",False,True
+[CLS] Bergur Sigurbjörnsson was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Skandinavia,Iceland | ISL | Iceland | Island | Republic of Iceland | is | [UNK],False,True
+[CLS] Emilio Bisi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Joan Bastardas i Parera was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Parera,Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Eugene Tan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Singapore | Garden City | Lion City | Republic of Singapore | SG | SGP | Singapore | Singapore City | sg | [UNK],False,True
+[CLS] John Albert Carroll was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Denver | City and County of Denver | Denver | Denver , Colorado | Mile High City | Queen City of the Plains | Queen City of the West",False,True
+[CLS] Mehmed the Conqueror was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Ottoman Empire,Edirne | Adrianople | Edirne,False,False
+[CLS] Stella Adler was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Alcaeus of Mytilene was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Mytilene | Mytilene | Mytilini,False,False
+[CLS] Jean - Michel Basquiat was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",True,False
+[CLS] Mary O ' Shiell was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],O ' Shiell,Nantes | Nantes,False,True
+[CLS] Pliny Earle I was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pliny Earle,"Leicester | Greenville , Massachusetts | Leicester | Leicester , Massachusetts",False,True
+[CLS] Kenneth Pinyan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pinyan,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Pedro de Bolduque was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Dominican Republic,Medina de Rioseco | Medina de Rioseco,False,False
+[CLS] Saeed Abedini was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Saeed Abedini,Iran | Iran | Islamic Rep . Iran | Islamic Republic of Iran | Persia | Republic of Iran | ir | [UNK],False,True
+[CLS] Dragutin Wolf was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Bjelovar | Bjelovar,False,False
+[CLS] Berta Bock was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Sibiu | Cibinium | Hermannstadt | Nagyszeben | Sibiiu | Sibiu,False,True
+[CLS] Nat Turner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Southampton County | Southampton County | Southampton County , Virginia",False,False
+[CLS] Charles Anthony Buckley was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Titina De Filippo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Gwenda Thomas was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Neath | Neath | Neath , Wales",False,False
+[CLS] Gregorio Dati was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Adamu Mu ' azu was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a small town,Bauchi State | Bauchi | Bauchi State,False,False
+[CLS] Beatriz Batarda was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Jamal al - Husayni was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],"Karachi , Pakistan","Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Giles of Viterbo was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Viterbo,Viterbo | Viterbo,True,False
+[CLS] Roshan Taqui was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Lucknow | Constantinople of East | Lucknow | Shiraz - i - Hind | The City of Nawabs | The Golden City of India,False,False
+[CLS] Emmanuel Carasso was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carasso,Thessaloniki | Salonica | Thessalonica | Thessaloniki,False,True
+[CLS] Édouard Michelin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Mans,Clermont - Ferrand | Clermont - Ferrand,False,False
+[CLS] Frederick John Fargus was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Bristol | Bristol | Bristol , England",False,True
+[CLS] Edward Wittig was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wittig,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] William James Hill was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Benny Chan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Hong Kong | China Hong Kong | HK | HKG | HKSAR | Hong Kong | Hong Kong SAR | Hong Kong SAR , China | Hong Kong Special Administrative Region | Hong Kong , China | Hongkong | hk | [UNK]",True,False
+[CLS] Charles Pakenham Buchanan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Brisbane | Brisbane | Brisbane , Queensland",False,True
+[CLS] Benjamin Morgan Harrod was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Ari Babakhanov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Bukhara | Bukhara,False,False
+[CLS] Lucidor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Cuthbert - Alphonse Chênevert was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],New York,Saint - Cuthbert | Saint - Cuthbert,False,False
+[CLS] Antoine de Crisafy was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],La Rochelle,Messina | Messana | Messina | Missina,False,True
+[CLS] Jan Laurier was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Leiden | Leiden | Leyden,False,True
+[CLS] Nacho Cano was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Bob Sercombe was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Tony Buck was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Sydney | Sydney | Sydney , Australia | Sydney , NSW | Sydney , NSW , Australia | Sydney , New South Wales | Sydney , New South Wales , Australia",False,True
+[CLS] Hezekiah was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Antonio Beccadelli was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Bologna | Bologna,False,True
+[CLS] Reinhold Conrad Muschler was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Nehemiah G . Ordway was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"New Hampshire | NH | New Hampshire | New Hampshire , United States | State of New Hampshire | The Granite State",False,False
+[CLS] John Haglelgam was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Yap | Waqab | Yap,False,False
+[CLS] Giulio Gabrielli the Younger was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rome and died in Rome,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Arthur Spooner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Nottingham | Nottingham,False,True
+[CLS] Ahmad ibn Rustah was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Al Jazira,Isfahan | Aspadāna | Culture City Of Iran | Esfahan | Esfahān | Hispahan | IFN | Isfahan | Isfahān | Ispahan | Ispahān | Sepahan | Spahan | Spahān,False,False
+[CLS] Cleombrotus was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman Empire,Sparta | Lacedaemon | Sparta,False,True
+[CLS] Lam Ka Wai was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Hong Kong | China Hong Kong | HK | HKG | HKSAR | Hong Kong | Hong Kong SAR | Hong Kong SAR , China | Hong Kong Special Administrative Region | Hong Kong , China | Hongkong | hk | [UNK]",True,False
+[CLS] Calum MacLeod was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],MacLeod,"Winnipeg | Winnipeg | Winnipeg , Manitoba",False,True
+[CLS] Archibald Randall was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Harry Harding was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Newfoundland and Labrador | NFLD | NL | New Foundland and Labrador | Newfoundland | Newfoundland and Labrador,False,False
+[CLS] So Chau Yim - ping was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong,"Hong Kong | China Hong Kong | HK | HKG | HKSAR | Hong Kong | Hong Kong SAR | Hong Kong SAR , China | Hong Kong Special Administrative Region | Hong Kong , China | Hongkong | hk | [UNK]",True,False
+[CLS] Sharon Kane was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Ohio | Buckeye State | OH | Ohio | Ohio , United States | State of Ohio",False,True
+[CLS] Giovanni Battista Somis was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Somis,"Turin | Torino | Turin | Turin , Italy",False,True
+[CLS] Debendranath Tagore was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Kolkata | Calcutta | City of Palaces | City of Processions | City of joy | Kolkata,False,True
+[CLS] Georg Friedrich Daumer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Nuremberg | Kreisfreie Stadt Nürnberg | Nuremberg | Nürnberg,False,True
+[CLS] Peter Herman Adler was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Jablonec nad Nisou | Jablonec nad Nisou,False,False
+[CLS] Salomon Eberhard Henschen was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Uppsala | Uppsala | Upsala,False,True
+[CLS] Lillie T . Freeze was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Salt Lake City | SLC | Salt Lake | Salt Lake City | Salt Lake City , Utah",False,False
+[CLS] Dick Conway was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Lowell | East Chelmsford , Massachusetts | Lowell | Lowell , Massachusetts",False,True
+[CLS] Giuseppe Avanzi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Ferrara | Ferrara,False,True
+[CLS] Werner Haas was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Stuttgart | Stuttgart,False,True
+[CLS] K . G . Marar was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Marar,Kerala | God ' s Own Country | IN - KL | Kerala | Keralam | Land of coconuts,False,True
+[CLS] Mohammad Ibrahim Zauq was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Delhi | Delhi | NCR | National Capital Region of Delhi,False,True
+[CLS] Gilad Janklowicz was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Israel | Holy Land | ISR | Israel | State of Israel | il | the Jewish state | [UNK],False,True
+[CLS] Humberto Maturana was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Santiago | Santiago | Santiago de Chile,False,True
+[CLS] Heinz Christian Pander was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pander,Riga | Riga | Rige | Riia | Rija | Ryga | Rīga,False,True
+[CLS] Solon was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Athens | Athens,False,True
+[CLS] Johann Caspar Seyfert was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Augsburg | Augsburg | Kreisfreie Stadt Augsburg | Mixed Imperial City of Augsburg,False,True
+[CLS] Amir Abdullah Khan Rokhri was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Rokhri | Rokhri,False,False
+[CLS] Maria Ossowska was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Poznan,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Gury Nikitin was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Kostroma | Kostroma,False,False
+[CLS] Hammer DeRoburt was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,Nauru | Naoero | Nauru | Pleasant Island | Republic of Nauru | nr | [UNK],False,True
+[CLS] Oscar Castillo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,San Fernando del Valle de Catamarca | Catamarca | San Fernando del Valle de Catamarca,False,False
+[CLS] Craig Brewer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Marty Markowitz was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Markowitz,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Éléonore Duplay was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Le Havre,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Tizoc was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Tenochtitlan | Tenochtitlan | Tenochtitlan [ México ],False,False
+[CLS] Leeroy Thornhill was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Barking | Barking,False,False
+[CLS] Cecil Edgar Tilley was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tilley,Adelaide | Adelaide | Greater Adelaide,False,True
+[CLS] Simone del Pollaiolo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+"[CLS] Israel Sieff , Baron Sieff was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",New York City,Manchester | Manchester,False,True
+[CLS] Fern M . Smith was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] John Rogers was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Davey Williams was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Dallas | Big D | D - Town | Dallas | Dallas TX | Dallas , Texas | Dallas , Tx .",False,True
+[CLS] Georg Caspar Wecker was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wecker,Nuremberg | Kreisfreie Stadt Nürnberg | Nuremberg | Nürnberg,False,True
+[CLS] Maria Velho da Costa was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Lisbon | Lisbon,False,True
+[CLS] Ben Bagert was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Min Lu was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Yangon | Rangoon | Yangon,False,False
+[CLS] Désirée Nosbusch was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Le Havre,Esch - sur - Alzette | Esch - Uelzecht | Esch - sur - Alzette | Esch / Alzette,False,False
+[CLS] Fabrizio Santafede was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Nicholas French was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Wexford | Wexford,False,False
+[CLS] Larry Klein was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Paul Afeaki Khoury was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Dakar , Senegal",Tonga | Kingdom of Tonga | TGA | Tonga | to | [UNK],False,True
+[CLS] Peggy Antonio was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Phyllis Grosskurth was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Doris Jones was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Canada | British North America | CA | CAN | CDN | Canada | Dominion of Canada | ca | can | [UNK],False,True
+[CLS] Söyembikä of Kazan was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kazan in the Soviet Union,Khanate of Kazan | Khanate of Kazan,False,False
+[CLS] Frederik Møller was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Denmark | DEK | DEN | DK | DNK | Danmark | Denmark | Denmark proper | TAN | dk | metropolitan Denmark | [UNK],False,True
+[CLS] KRS - One was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"The Bronx | Bronx borough , New York City | Bronx , New York | Bronx , New York City | The Bronx | The Bronx , New York | The Bronx , New York City",False,False
+[CLS] Eduardo Ladislao Holmberg was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Andrija Ljudevit Adamić was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Novi Sad,Rijeka | Fiume | Pflaum | Rijeka,False,True
+[CLS] Tracey Oliver was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Bundaberg | Bundaberg,False,False
+[CLS] Thomas H . B . Browne was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Accomac | Accomac,False,False
+[CLS] Théodore Labarre was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Labarre,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Terry Ryan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Defiance | Defiance,False,False
+[CLS] Mikhail Avilov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] April was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Belize | Belize | bz | [UNK],False,True
+[CLS] Jean - Claude Chambellan Duplessis was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Le Havre,"Turin | Torino | Turin | Turin , Italy",False,True
+[CLS] Thane Baker was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Elkhart | Elkhart | Elkhart , Kansas",False,False
+[CLS] Lucifer of Cagliari was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a noble family,Cagliari | Cagliari,False,True
+[CLS] Kim Dolan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Charlottetown | Charlottetown,False,False
+[CLS] Johan Peter Emilius Hartmann was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Imperial Imperial Imperial Imperial,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Demetrios Palaiologos was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a family of nobles,Constantinople | Constantinople,False,True
+[CLS] Joan Colom Altemir was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] André Testut was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Lyon | Lyon | Lyons,False,True
+[CLS] John Henry Anderson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Aberdeen | Aberdeen | Aiberdeen | Granite City | The Silver City,False,True
+[CLS] Ryszard Koncewicz was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Koncewicz,Lviv | L ' viv | L ' vov | Lemberg | Lemberik | Leopol | Lviv | Lvov | Lwow | Lwów,False,False
+[CLS] A . J . Balaban was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan","Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Nicolaes Lastman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Virginia Dare was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Roanoke Colony | Lost Colony | Roanoke Colony | The Lost Colony,False,False
+[CLS] Tim Rozon was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Pavel Potemkin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Russian Empire | Empire of Russia | Imperial Russia | Russia | Russian Empire | Tsarist Russia,False,False
+[CLS] Mallikarjun Kharge was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Karnataka | Karnataka,False,True
+[CLS] Giuseppe Gioachino Belli was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belli,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Benjamin Kelsey was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kelsey,"Kentucky | Commonwealth of Kentucky | KY | Kentucky | Kentucky , United States",False,True
+[CLS] George Herbert Strutt was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Belper | Belper | Belper , Derbyshire",False,False
+[CLS] James Hoey Craigie was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Glasgow | Glasgow | Glasgow , Scotland",False,True
+[CLS] Aleksandr Gurnov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Tapani Niku was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Niku,Haapavesi | Haapavesi,False,False
+[CLS] Jan Six I was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jan Six I,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Thomas Heatherwick was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Horace Lecoq de Boisbaudran was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Sig Rogich was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Iceland | ISL | Iceland | Island | Republic of Iceland | is | [UNK],False,True
+[CLS] Simone Clarke was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Leeds | Leeds,False,True
+[CLS] Carlos Westendorp was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Alberto Lysy was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Jessica McClure was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Midland | Midland | Midland , Texas",False,True
+[CLS] Hannah Weinstein was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New York | NY | NYS | New York | New York ( state ) | New York State | New York , United States | State of New York",False,False
+[CLS] Giorgi Gakhokidze was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Georgian Soviet Socialist Republic | Georgian S . S . R . | Georgian SSR | Georgian Soviet Socialist Republic | Soviet Georgia,False,False
+[CLS] Henryk Vogelfanger was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czechosłowacji,Lviv | L ' viv | L ' vov | Lemberg | Lemberik | Leopol | Lviv | Lvov | Lwow | Lwów,False,False
+[CLS] Nira Wickramasinghe was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sri Lanka,Colombo | Colombo,False,True
+[CLS] Rodger Brulotte was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Louise Reichardt was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Le Havre,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Dee was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Vaithilingam Sornalingam was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil Nadu,"Sri Lanka | Ceylan | Ceylon | Democratic Socialist Republic of Sri Lanka | Lanka , Sri | SRI | Serendib | Sri Lanka | Srilanka | Taprobane | ce | lk | lke | sri | [UNK]",False,False
+[CLS] Michael Holm was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Szczecin | Stettin | Szczecin,False,True
+[CLS] Adrian I was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Simon A . Holdin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Odessa | Odesa | Odessa,False,True
+[CLS] Nathan Deakes was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Geelong | Geelong | Geelong , Victoria",False,False
+[CLS] William Irvine was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Kilsyth | Kilsyth,False,False
+[CLS] Yutaka Inagawa was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shizuoka,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Louis Carrogis Carmontelle was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Odilon Redon was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Bordeaux | Bordeaux | Bordele | Bordeu | Bordèu,False,True
+[CLS] Hugo Egon Balder was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Balder,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Julius Porcellis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Rotterdam | R ' dam | Roffa | Rotjeknor | Rotterdam,False,True
+[CLS] Larry Gilbert was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Jackie Sardou was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Sara Blizzard was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Coventry | Coventry | Coventry , England , UK | Coventry , England , United Kingdom",False,True
+[CLS] Joseph Fontenrose was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Sutter Creek | Sutter Creek | Sutter Creek , California",False,False
+[CLS] Zoárd Geőcze was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pozsony,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Licia Troisi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Halvard Ingebrigtsen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Helsingborg,Trondheim | Drontheim | Nidaros | Trondheim | Trondhem | Trondhjem,False,True
+[CLS] Frédéric Chaslin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Havre,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Alberto Basso was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Turin | Torino | Turin | Turin , Italy",False,True
+[CLS] Johann Friedrich von Eschscholtz was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Frankfurt am Main,Tartu | Derpt | Dorpat | Dörpt | Jurjev | Tarbatu | Tartto | Tartu | Tartus,False,True
+[CLS] John Donnell Smith was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Baltimore | Baltimore | Baltimore City | Baltimore , Maryland | Charm City | City of Baltimore",False,True
+[CLS] Gabriele Basilico was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Vaikom Vijayalakshmi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Vaikom | Vaikom,False,False
+[CLS] Paul Epstein was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie Stadt Frankfurt am Main,False,False
+[CLS] Enoch Heinrich Kisch was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Antonio Brilla was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Savona | Savona,False,False
+[CLS] Levon Mkrtchyan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Gyumri | Gyumri,False,False
+[CLS] Donna Gurr was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Vancouver | America / Vancouver | City of Vancouver | Hastings East | Hong couver | Hong kouver | Hongcouver | Vancouver | Vancouver BC | Vancouver British Columbia | Vancouver Canada | Vancouver City Centre | Vancouver , B . C . | Vancouver , BC | Vancouver , British Columbia | Vancouverite | Vancouverites | Vancouvr | Vancover | Vanocuver | Vansterdam",False,True
+[CLS] Septimus Brutton was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,Tynemouth | Tynemouth,False,False
+[CLS] Johannes van Dijk was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Girolamo del Pacchia was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,Siena | Siena,False,True
+[CLS] Paavo Nuotio was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Heinola | Heinola,False,False
+[CLS] Benedetto Accolti the Younger was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Rome and died in Rome,Arezzo | Arezzo,False,True
+[CLS] Tom Davis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,County Dublin | County Dublin | Dublin | Region Dublin,False,False
+[CLS] Suketu Mehta was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Kolkata | Calcutta | City of Palaces | City of Processions | City of joy | Kolkata,False,True
+[CLS] Cyril Fordham was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Puckeridge | Puckeridge,False,False
+[CLS] Uwe - Jens Mey was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Schleswig - Holstein,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Gareth Davies was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Llanelli,Gorseinon | Gorseinon,False,False
+[CLS] John Rocca was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Lidia Bobrova was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Zabaykalsk | Zabaikalsk | Zabaykalsk | Zabikalsk,False,False
+[CLS] Ray Iggleden was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Kingston upon Hull | Hull | Hull , Yorkshire | Kingston upon Hull",False,False
+[CLS] Kim Chang - hun was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] Joseph Stamler was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Elizabeth | Elizabeth | Elizabeth , New Jersey",False,True
+[CLS] Reginald Deller was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Paddington | Paddington,False,False
+[CLS] Tormod Knutsen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Helsingborg,Eidsvoll | Eidsvold | Eidsvoll,False,False
+[CLS] Ismail Khalidi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan","Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Seldon Hunt was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Yvonne Clays Spoelders was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Bret Anderson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Coquitlam | City of Coquitlam | Coquitlam,False,False
+[CLS] Dukinfield Henry Scott was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Richard Lodge was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Penkhull | Penkhull,False,False
+[CLS] David Vendetta was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Longwy | Longwy,False,False
+[CLS] Gerrit van der Veen was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Frankie Oviedo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Cali | American Capital of Sports 2019 | Cali | Kali | Santiago de Cali,False,True
+[CLS] Catherina Cibbini - Kozeluch was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Jesper Hansen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Esbjerg | Esbjerg,False,False
+[CLS] Alan Rice was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Leicester | Leicester | Leicester , England",False,True
+[CLS] Aqeel Jafri was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aqeel,Karachi | Heart of Pakistan | Karachi | The Lighting City,False,True
+[CLS] Franz Graßl was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Graßl,Berchtesgaden | Berchtesgaden,False,False
+[CLS] Patrick A . Gleason was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Johnstown | Johnstown | Johnstown , Pennsylvania",False,False
+[CLS] A . J . Hartley was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,Preston | Preston,False,True
+[CLS] Gary McDonald was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Eva von der Osten was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Heligoland | Helgoland | Heligoland,False,False
+[CLS] Norm Hiscock was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Mick Whitnall was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United Kingdom,Doncaster | Doncaster,False,False
+[CLS] Mac Davis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Lubbock | Lubbock | Lubbock , Texas",False,False
+[CLS] Mark Krein was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Kiril Yovovich was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Sofia | Serdica | Sofia | Sofija | Sredez,False,True
+[CLS] Barbara Rotvig was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,"Duluth | Duluth | Duluth , Minnesota | Duluth , USA",False,False
+[CLS] Andrea Vendramin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Valentina Yegorova was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Cheboksary | Cheboksary,False,False
+[CLS] Shirome was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shizuoka,Settsu Province | Settsu Province,False,False
+[CLS] Veikko Heinonen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Savonlinna,Lahti | Lachtis | Lahti | Lahtis,False,True
+[CLS] Toby Radloff was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Cleveland | Cleveland | Cleveland , OH | Cleveland , Ohio",False,True
+[CLS] Dave Orr was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Alberto Estima de Oliveira was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rio de Janeiro,Lisbon | Lisbon,False,True
+[CLS] Francis Edward Faragoh was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Alastair Scott was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Guildford | Guildford | Guildford , England | Guildford , Surrey | Guildford , Surrey , England | Guildford , Surrey , UK | Guildford , Surrey , United Kingdom | Guildford , UK | Guildford , United Kingdom",False,False
+[CLS] Johann Poppe was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Poppe,Bremen | Bremen | Hansestadt Bremen,False,True
+[CLS] Nenad Lalatović was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Novi Sad,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Étienne Mélingue was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saint - Étienne,Caen | Caen,False,True
+[CLS] Alfred Capus was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Aix - en - Provence | Ais de Prouvènço | Ais de Provença | Aix | Aix - en - Provence,False,False
+[CLS] Hailu Shawul was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Shewa | Central Ethiopia | Shewa | Shua,False,False
+[CLS] Luciano Borzone was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Genoa | Genoa | Genoa , Italy | Genova | Genova , Italy",False,True
+[CLS] Teddy O ' Connor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],O ' Connor,Rathnure | Rathnure,False,False
+[CLS] Vladimir Pavlovich Belyayev was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Kamianets - Podilskyi | Kamianets - Podilskyi,False,False
+[CLS] Harley Cokeliss was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"San Diego | America ' s Finest City | SD | San Diego | San Diego , California | Sandi | the birthplace of California",False,False
+[CLS] Bootsy Collins was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Cincinnati | Cincinnati | Cincinnati , OH | Cincinnati , Ohio | Cincy | Cinti",False,True
+[CLS] Humphrey Pickard was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Fredericton | Fredericton | Fredericton , New Brunswick",False,False
+[CLS] Colin O ' Daly was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Dublin | City of Dublin | Dublin | Dublin city,False,True
+[CLS] Bannon Goforth Thibodeaux was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bannon,"Thibodaux | Thibodaux | Thibodaux , Louisiana",False,False
+[CLS] Manuel Colom Argueta was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Guatemala City | Ciudad de Guatemala | Guate | Guatemala | Guatemala City | La Nueva Guatemala de la Asuncion | La Nueva Guatemala de la Asunción,False,False
+[CLS] Lambert Meertens was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Antoine Graincourt was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Havre,Corbie | Corbie,False,False
+[CLS] Claire Hamill was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hamill,Port Clarence | Port Clarence,False,False
+[CLS] Hartog Hamburger was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Cheng Yi was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Luoyang | Loyang | Luoyang,False,False
+[CLS] John C . Harkness was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Harkness,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Monday Michiru was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shizuoka,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Irma Baltuttis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Leipzig | Leipzig,False,True
+[CLS] Gazi Beg was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gazi Beg,Baku | Baku | City of Winds,False,True
+[CLS] Rekandar Nageswara Rao was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Andhra Pradesh | A . P | Andhra Pradesh,False,False
+[CLS] Jerome Clarke Hunsaker was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Creston | Creston | Creston , Iowa",False,False
+[CLS] Peter Lawson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Barrow - in - Furness | Barrow | Barrow in Furness | Barrow - in - Furness,False,False
+"[CLS] Austin Van Catterton , Sr . was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",New York City,"Walterboro | Walterboro | Walterboro , South Carolina",False,False
+[CLS] Andrew Squire was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Mildenhall | Mildenhall | Mildenhall , Suffolk",False,False
+[CLS] John Leighton Stewart was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Bakerstown | Bakerstown | Bakerstown , Pennsylvania",False,False
+[CLS] Robert Sidoli was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Merthyr Tydfil | Merthyr Tudful | Merthyr Tydfil,False,False
+[CLS] Glenn Barr was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Derry | Derry | Doire | Londonderry | Londonderry , Northern Ireland",False,True
+[CLS] Sachio Otani was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shizuoka,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Camilo Daza was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Pamplona | Pamplona | Pamplona , Colombia | Pamplona , Norte de Santander",False,True
+[CLS] Jim Keesey was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Perryville | Perryville,False,False
+[CLS] Jake Miller was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Baltimore | Baltimore | Baltimore City | Baltimore , Maryland | Charm City | City of Baltimore",False,True
+[CLS] John Christen Johansen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] David Hamilton was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,South Shields | South Shields,False,False
+[CLS] Bernard Nedell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Elemér Hankiss was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Debrecen | Debrecen,False,True
+[CLS] Ron Giffin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Windsor | Windsor | Windsor , Nova Scotia",False,True
+[CLS] Anne Hathaway was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Pauline Starke was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Joplin | Hazelis | Joplin | Joplin , Missouri",False,False
+[CLS] Stan Stoker was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Bearpark | Bearpark | Bearpark , County Durham",False,False
+[CLS] Andrew Hutchison was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Jean Raoux was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Montpellier | Montpellier,False,True
+[CLS] Aymé Kunc was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Toulouse | Toulouse,False,True
+[CLS] Jörg Syrlin the Elder was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Helsingborg,Ulm | Ulm | Ulm alb - Donau,False,True
+[CLS] Pat Bell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Vancouver | America / Vancouver | City of Vancouver | Hastings East | Hong couver | Hong kouver | Hongcouver | Vancouver | Vancouver BC | Vancouver British Columbia | Vancouver Canada | Vancouver City Centre | Vancouver , B . C . | Vancouver , BC | Vancouver , British Columbia | Vancouverite | Vancouverites | Vancouvr | Vancover | Vanocuver | Vansterdam",False,True
+[CLS] Richard Divizio was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Johann Joseph Christian was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Riedlingen | Riedlingen,False,False
+[CLS] William McNairn Shaw was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York City,Mississippi Mills | Mississippi Mills,False,False
+[CLS] Adolf Soetbeer was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Soetbeer,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] Giovanni Lombardo Radice was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radice,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Charles - Adolphe Stein was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+"[CLS] Franco Navarro , Jr . was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",the Dominican Republic,"Santa Fe | Santa Fe | Santa Fe , Argentina | la capital",False,False
+[CLS] Henry Taaffe was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Taaffe,Innsbruck | Innsbruck,False,True
+[CLS] Andrew Hull was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Oshawa | Oshawa | Oshawa , Ontario",False,False
+[CLS] Mark Dalesandro was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] J . R . Monsell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Cahersiveen | Cahersiveen | Cathair Saidhbhin | Cathair Saidhbhín,False,False
+[CLS] Frank Sanders was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Fort Lauderdale | Fort Lauderdale | Fort Lauderdale , Florida | Ft . Lauderdale , Florida",False,False
+[CLS] Michael Falzon was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Sliema | Sliema,False,False
+[CLS] Vic Frazier was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Ruston | Ruston | Ruston , LA | Ruston , Louisiana",False,False
+[CLS] Olga Shatunovskaya was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Baku | Baku | City of Winds,False,True
+[CLS] Tomoko Kaneda was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kanagawa . Kanagawa,Yokohama | Yokohama | Yokohama City | Yokohama - shi,False,True
+[CLS] Adalberto Ortiz was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Esmeraldas | Esmeraldas,False,False
+[CLS] Zohar Zimro was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Ethiopia | ETH | Ethiopia | Federal Democratic Republic of Ethiopia | et | [UNK],False,True
+[CLS] Émile Hugues was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Paris , France",Vence | Vence,False,False
+[CLS] Penelope Corrin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Ottawa | Bytown | Ottawa | Ottawa ( Ontario ),False,True
+[CLS] Bob Gardiner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Torrance | Torrance | Torrance , CA | Torrance , Calif . | Torrance , California | Torrance , California , US | Torrance , California , USA | Torrance , California , United States | Torrance , California , United States of America",False,False
+[CLS] Magda Frank was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Cluj - Napoca | Claudiopolis | Cluj | Cluj - Napoca | Klausenburg | Kluyzenburg | Kluzh | Kluž | Kolozhvar | Kolozsvar | Kolozsvár | Kolozvar | Napoca,False,False
+[CLS] Domenico de Benedettis was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Étienne Ficquet was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Le Havre,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Francesco Hayez was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Paul Bew was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Belfast | Beal Feirste | Belfast | Belfast , Ireland | Béal Feirste",False,True
+[CLS] Iweta Rajlich was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Vitali Kovalenko was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Eduard Sibiryakov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Chelyabinsk | Chelyabinsk | Čelâbinsk,False,False
+[CLS] Abdelbaki Sahraoui was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Sahraoui,Constantine | Constantine,False,True
+[CLS] Morgan Reeser was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Fort Lauderdale | Fort Lauderdale | Fort Lauderdale , Florida | Ft . Lauderdale , Florida",False,False
+[CLS] William Clarke was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Nottingham | Nottingham,False,True
+[CLS] Amy Grabow was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Huntington Beach | Huntington Beach | Huntington Beach , California",False,False
+[CLS] Raymond Barbeau was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Abigail Conceição de Souza was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Porto Alegre | Porto Alegre,False,False
+[CLS] Bart Zeilstra was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Jean - Pierre Jarier was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,Charenton - le - Pont | Charenton - le - Pont,False,False
+[CLS] Jules Gros was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Mans,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Eric Crake was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Chennai | Chennai | Madras,False,True
+[CLS] Bas Heijne was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,Nijmegen | Nijmegen | Nimeguen,False,True
+[CLS] Anton Fedotov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,"Vladimir | Vladimir | Vladimir , Russia",False,True
+[CLS] Eric Dolman was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Abertillery | Abertillery | Abertyleri,False,False
+[CLS] Hans Joachim Alpers was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Bremerhaven | BHV | Bremerhaven,False,False
+[CLS] Barys Tasman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Minsk | Mensk | Miensk | Minsk | Minskas | Mińsk | Менск | Минск | Мінск,False,True
+[CLS] Tom Winsett was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"McKenzie | McKenzie | McKenzie , Tennessee",False,True
+[CLS] Billy Werber was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Berwyn Heights | Berwyn Heights | Berwyn Heights , MD | Berwyn Heights , Maryland",False,False
+[CLS] Henry Bailey was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Colleton County | Colleton County | Colleton County , South Carolina",False,False
+[CLS] Pietro Bonomo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Trieste | Trieste | Trst,False,True
+[CLS] Robert Griffiths was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Cardiff | Caerdydd | Cardiff | Cardiff , Wales",False,True
+[CLS] Léo Marjane was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Boulogne - sur - Mer | Boulogne - sur - Mer,False,False
+[CLS] Murphy Pakiam was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pakiam,Tapah | Tapah,False,False
+[CLS] Pablo de Azcárate was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Okwesilieze Nwodo was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Nsukka | Nsukka,False,False
+[CLS] Charles Arkoll Boulton was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Boulton,Cobourg | Cobourg,False,False
+[CLS] George Thomas Beilby was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Les Angell was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Norton St Philip | Norton St Philip | Norton St Philip , Somerset",False,False
+[CLS] Vinicio Sofia was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Corleone | Corleone,False,False
+[CLS] Sol Raye was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sol Raye,Guyana | Co - operative Republic of Guyana | GUY | Guyana | Republic of Guyana | gy | [UNK],False,True
+[CLS] George O ' Day was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],O ' Day,"Brookline | Brookline | Brookline , Massachusetts",False,False
+[CLS] Jack Cheetham was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,Cape Town | Cape | Cape Town | Kaap | Kaapstad | iKapa,False,False
+[CLS] James Phiri was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Lusaka | Lusaka,False,False
+[CLS] Charles Rutter was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Bromley | Bromley,False,False
+[CLS] Yuri Ushakov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Harvey Clark was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chelsea | Chelsea | Chelsea , Massachusetts",False,True
+[CLS] Günter Rössler was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Leipzig | Leipzig,False,True
+[CLS] Jasazrin Jamaluddin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],"Karachi , Pakistan",Johor | Johor | Johore,False,True
+[CLS] Alain Cadec was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Le Havre,Saint - Brieuc | Saint - Brieuc,False,False
+[CLS] Carolina Crescentini was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Helen Steiner Rice was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Lorain | Lorain | Lorain , Ohio",False,False
+[CLS] Michael Fenton Stevens was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Bülent Arel was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Istanbul | Constantinople | Istanbul,False,True
+[CLS] Jethro Robinson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Eastbourne | Eastbourne,False,False
+[CLS] Matthew Allin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Bideford | Bideford | Bideford , Devon",False,False
+"[CLS] John Ernest , Duke of Saxe - Eisenach was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the village,Gotha | Gotha,False,True
+[CLS] Jonathan Wilson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Forest City | Forest City | Forest City , North Carolina",False,False
+[CLS] Charles Dingle was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dingle,"Wabash | Wabash | Wabash , Indiana",False,False
+[CLS] Jennifer Brown was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Gothenburg | Gothenburg | Göteborg,False,False
+[CLS] Oldřich Zábrodský was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Oldřich,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Victor Jarvis was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jarvis,Hampstead | Hampstead | Hampstead Village,False,False
+[CLS] Greg Scarnici was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] François Charles - Roux was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Le Havre,"Marseille | City of Marseille | Marsaille | Marsailles | Marseille | Marseille , France | Marseilles | Marsielle | Marsielles | Marsiglia | Massalia | Massaliotes",False,True
+[CLS] Richard George Voge was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Terrence McCann was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] John Decker was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Jacob Vidnes was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Helsingborg,Vanylven | Vanylven,False,False
+[CLS] Giovanni Battista Colomba was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Arogno | Arogno | Arogno TI,False,False
+[CLS] William Salmond was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Ralph Shafer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Cincinnati | Cincinnati | Cincinnati , OH | Cincinnati , Ohio | Cincy | Cinti",False,True
+[CLS] Jocelyn Osorio was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Iquique | Iquique,False,False
+[CLS] Jonathan Perkins was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Reading | Reading,False,True
+[CLS] Yevgeny Groshev was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Carmen Becerra was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Toluca | Toluca | Toluca de Lerdo,False,False
+[CLS] John Boak was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Wilhelm Reublin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Rottenburg am Neckar | Rottenburg am Neckar | Rottenburg / Neckar,False,False
+[CLS] Wilhelm Tomaschek was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Olomouc | Olomouc | Statutární město Olomouc,False,True
+[CLS] Marcelo Batatais was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Batatais | Batatais,False,False
+[CLS] Vitaly Daraselia was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Ochamchire | Och [UNK] amch [UNK] ire | Ochamchire,False,False
+[CLS] Kalervo Tuukkanen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Tuukkanen,Mikkeli | Mikkeli | S : t Michel | Sankt Michel,False,False
+[CLS] John Davidson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Jorge Meretta was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Montevideo | Montevideo,False,True
+[CLS] John O ' Neill was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],O ' Neill,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] John Hunter was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Herman De Croo was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Den Haag,Brakel | Brakel,False,False
+[CLS] Mel Simons was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Carlyle | Carlyle,False,True
+[CLS] Archie Wilson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Omer Abdelqader was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Marrakech,Qatar | Qatar | State of Qatar | qa | [UNK],False,True
+[CLS] Donald Weekes was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Horsham | Horsham,False,False
+[CLS] Iñaki Urlezaga was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],"Buenos Aires , Argentina",La Plata | La Plata,False,False
+[CLS] Graham Monkhouse was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Langwathby | Langwathby | Langwathby , Cumbria",False,False
+[CLS] Frederick W . Gerber was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Stian Ringstad was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Norway | Kingdom of Norway | NO | NOR | Noreg | Norge | Norvège | Norway | Norwegen | no | [UNK],False,True
+[CLS] Laurent Cars was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Le Mans,Lyon | Lyon | Lyons,False,True
+[CLS] Samuel T . Worcester was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Hollis | Hollis | Hollis , New Hampshire",False,False
+[CLS] Randolph Carpenter was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Marion | Marion,False,True
+[CLS] Nikolaj Frobenius was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Blas Parera was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Murcia | Murcia,False,True
+[CLS] Lester Cole was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",True,False
+[CLS] Milt Larsen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,"Pasadena | Pasadena | Pasadena , California",False,True
+[CLS] Avriel Shull was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Hamilton County | Hamilton County | Hamilton County , Indiana",False,False
+[CLS] Frederick of Hohenau was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hohenau,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Carl Wenzel Zajicek was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Austro - Hungarian Empire,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Enid Charles was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Denbigh | Denbigh | Dinbych,False,False
+[CLS] Vladimir Komarov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Gérard Caron was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Caron,France | FR | FRA | France | French Republic | La France | Republic of France | République française | fr,False,True
+[CLS] Giovanni Baptista Ferrari was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Siena | Siena,False,True
+[CLS] Tamisuke Watanuki was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Akita . Akita,Toyama Prefecture | Toyama Prefecture,False,False
+[CLS] Paul Heiney was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Sheffield | Sheffield | Sheffield , England | Sheffield , South Yorkshire",False,True
+[CLS] Lodovico Agostini was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],San Pietro,Ferrara | Ferrara,False,True
+[CLS] Charles Brunner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Bay City | Bay City | Bay City , Michigan",False,False
+[CLS] Kunio Ōkawara was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ōkawara,Inagi | Inagi | Inagi City | Inagi - shi,False,False
+[CLS] Arturo Giovannitti was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Ripabottoni | Ripabottoni,False,False
+[CLS] Francesco Casagrande was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] W . Michael Blumenthal was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Oranienburg | Oranienburg,False,False
+[CLS] Jimin Kang was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] Ivan Ivanišević was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Novi Sad,Serbia | Republic of Serbia | Republika Srbija | SRB | Serbia | Srbija | rs | [UNK],False,True
+[CLS] Eta Cohen was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,City of Sunderland | City of Sunderland | Metropolitan Borough of Sunderland | Sunderland,False,False
+[CLS] Pyotr Bystrov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Nizhny Novgorod | Gorky | Nether Novgorod | Nizhny | Nizhny Novgorod,False,False
+[CLS] Darren Styles was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Colchester | Colchester,False,False
+[CLS] Jean - Yves Bosseur was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bosseur,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] John Eardley Wilmot was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United Kingdom,Derby | Derby,False,True
+[CLS] João Carlos de Oliveira was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Pindamonhangaba | Pindamonhangaba,False,False
+[CLS] James Sturm was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Harrington Mann was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Glasgow | Glasgow | Glasgow , Scotland",False,True
+[CLS] Martin Miriata was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Kiribati | KIR | Kiribati | Republic of Kiribati | ki | [UNK],False,False
+[CLS] William B . Colleary was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Boston | Beantown | Boston | Boston , MA | Boston , Mass . | Boston , Massachusetts | Bostonia | The Athens of America | The Cradle of Liberty | The Cradle of Modern America | The Hub | The Hub of the Universe | The Walking City",False,True
+[CLS] Chaz Davies was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Knighton | Knighton | Tref - y - clawdd | Trefyclo,False,False
+[CLS] Dexter Wansel was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Victor Pastor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Monaco | MON | Monaco | Principality of Monaco | mc | [UNK],False,True
+[CLS] Melvin Frank was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Michael Gurstein was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gurstein,"Edmonton | City of Edmonton | Edmonton | Edmonton , AB | Edmonton , Alberta",False,True
+[CLS] James Armstrong Richardson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Winnipeg | Winnipeg | Winnipeg , Manitoba",False,True
+[CLS] Nicholas von Hoffman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Sandra Dorne was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Keighley | Keighley | Keighley , Bradford | Keighley , West Yorkshire",False,False
+[CLS] Young Dre the Truth was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] Bashar Warda was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Baghdad | Bagdad | Baghdad | Baghdād,False,True
+[CLS] Ahmed Osman Ibrahim was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Somalia | Federal Republic of Somalia | SOM | Somalia | Soomaaliya | aṣ - Ṣūmāl | so | [UNK],False,True
+[CLS] Claudio Merulo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Correggio | Correggio,False,False
+"[CLS] Mary Somerset , Duchess of Beaufort was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Julie Anne Haddock was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Uemura Masahisa was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shizuoka,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Hans Kary was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Spittal an der Drau | Spittal an der Drau | Špital ob Dravi,False,False
+[CLS] Pierre Kast was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Alexander Leipold was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Alzenau | Alzenau | Alzenau i . UFr .,False,False
+[CLS] Kenneth Ulman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Columbia | Columbia | Columbia , Maryland",False,True
+[CLS] Monica Guerritore was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Michael Ennis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Coffs Harbour | Coffs Harbour | Coffs Harbour , New South Wales | Coffs Harbour , New South Wales , Australia",False,False
+[CLS] Agostino Bonisoli was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Cremona | Cremona,False,True
+[CLS] Yuri Gurevich was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gurevich,Soviet Union | CCCP | SU | Soviet Union | Soviets | The Soviets | U . S . S . R | U . S . S . R . | USSR | Union of Soviet Socialist Republics | the Soviet Union | the Union of Soviet Socialist Republics | СССР,False,False
+[CLS] Sophia Williams - De Bruyn was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Port Elizabeth | Port Elizabeth,False,False
+[CLS] Tim Kliphuis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kliphuis,Utrecht | Utrecht | Utreg,False,True
+[CLS] Lawrence Taylor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Williamsburg | Williamsburg | Williamsburg , VA | Williamsburg , Virginia",False,False
+[CLS] Martin Laurendeau was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Eric Evans was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Droylsden | Droylsden,False,False
+[CLS] Anton Niklas Sundberg was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Uddevalla | Uddevalla,False,False
+[CLS] Lenna Kuurmaa was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kokkola,"Tallinn | Reval | Tallinn | Tallinn , Estonia | tallinn , estonia",False,True
+[CLS] Rayveness was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Jamestown | Jamestown | Jamestown , North Carolina",False,False
+[CLS] Léon Riesener was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Riesener,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Maurizio Di Gati was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Racalmuto | Racalmuto,False,False
+[CLS] Leone Pompucci was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Giorgio Zancanaro was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Verona | Verona,False,True
+[CLS] Saint Pelagia was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman Empire,Antioch on the Orontes | Antakya | Antioch | Antioch ( Roman mint ) | Antioch of Syria | Antioch on the Orontes | Antioch / Theoupolis | Syrian Antioch,False,False
+[CLS] Ketil Stokkan was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Roeselare,Harstad | Harstad,False,False
+[CLS] Harry Andrew Moore was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Wetaskiwin | Wetaskiwin,False,False
+[CLS] Rashid Sunyaev was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Tashkent | Tashkent,False,False
+[CLS] Federico Turienzo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,La Plata | La Plata,False,False
+[CLS] Juma Mwapachu was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mwapachu,Mwanza | Mwanza,False,False
+[CLS] Lorenzo Nuvoletta was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Marano di Napoli | Marano di Napoli,False,False
+[CLS] Elizabeth Kelly was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Newcastle upon Tyne | Newcastle | Newcastle upon Tyne | Newcastle upon Tyne ( parish ) | Newcastle - on - Tyne,False,False
+[CLS] Karin Scheele was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Baden bei Wien | Baden bei Wien,False,False
+[CLS] Kiko Calero was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Los Angeles,Santurce | Santurce,False,False
+[CLS] Tim Blanchard was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Moses Fellows was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Brentwood | Brentwood | Brentwood , New Hampshire",False,False
+[CLS] Magnitude Kishiwada was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kishiwada,Kishiwada City | Kishiwada City,False,False
+[CLS] Serge Elisséeff was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Harald Reinl was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Bad Ischl | Bad Ischl,False,False
+[CLS] Michael Balint was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Pierre Vago was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Eduard Hau was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Tallinn | Reval | Tallinn | Tallinn , Estonia | tallinn , estonia",False,True
+[CLS] Henry Chapman Mercer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Doylestown | Doylestown,False,False
+[CLS] Gary Scelzi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Fresno | Fresno | Fresno , California",False,True
+[CLS] Hisham Sharabi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Jaffa | Jaffa,False,False
+[CLS] Thorsten Engelmann was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Helsingborg,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Sasa Handa was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sasa Handa,Okinawa Prefecture | Okinawa | Okinawa Prefecture | Uchina,False,False
+[CLS] Eric McClure was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Chilhowie | Chilhowie | Chilhowie , Virginia",False,False
+[CLS] Anna Mickelson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] John H . Rousselot was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Shane Van Boening was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Den Haag,"Rapid City | Rapid City | Rapid City , South Dakota",False,False
+[CLS] Dimiter Skordev was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Skordev,Sofia | Serdica | Sofia | Sofija | Sredez,False,True
+[CLS] Vladimir Firm was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Zagreb | Agram | KK Zagreb | Zagreb,False,True
+[CLS] Billy Joe Daugherty was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Los Angeles,Magnolia | Magnolia,False,True
+[CLS] Mark Schilling was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Zanesville | Zanesville | Zanesville , Ohio",False,False
+[CLS] George Hassell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Birmingham | Birmingham | Birmingham , England | Birmingham , West Midlands",False,True
+[CLS] Syed Ahmed was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Mumbai | Bombay | Mumbai,False,True
+[CLS] Guido Bontempi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,Gussago | Gussago,False,False
+[CLS] Antonio Maria Lucchini was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],New York,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Maurice Custeau was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Tatiana Capote was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Havana | Habana | Havana | Havana , Cuba | La Habana",False,True
+[CLS] Henry Tate was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,White Coppice | White Coppice,False,False
+[CLS] Freddie Miller was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Cincinnati | Cincinnati | Cincinnati , OH | Cincinnati , Ohio | Cincy | Cinti",False,True
+[CLS] Anthony Small was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Tammy Wynette was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Tremont | Tremont,False,False
+[CLS] Ricardo Blume was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Lima | City of the Kings | Lima,False,True
+[CLS] Jan Leeming was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Kent | Kent | Kent , England",False,True
+[CLS] Leo Mol was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Polonne | Polonne,False,False
+[CLS] Luca Beltrami was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Alexander F . Schier was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Switzerland | CH | CHE | SUI | Schweiz | Suisse | Svizzera | Swiss | Swiss Confederation | Switzerland,False,True
+[CLS] William Harris was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Springfield | SPFLD , MA | Springfield | Springfield , MA | Springfield , Massachusetts",False,True
+[CLS] Joost Lagendijk was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Den Haag,Roosendaal | Roosendaal,False,False
+[CLS] Tony Schumacher was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Ludwigsburg | Ludwigsburg,False,False
+[CLS] Andreas Michael Heiberg was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Heiberg,Bergen | Bergen | Bjørgvin,False,True
+[CLS] Jane Jensen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,"Palmerton | Palmerton | Palmerton , Pennsylvania",False,False
+[CLS] William Windsor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Whipsnade Zoo | Whipsnade Wild Animal Park | Whipsnade Zoo | ZSL Whipsnade | ZSL Whipsnade Zoo,False,False
+[CLS] Hans Werner Olm was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Olm,Bochum | Bochum,False,True
+[CLS] Demetris Th . Gotsis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Thessaloniki | Salonica | Thessalonica | Thessaloniki,False,True
+[CLS] Colin Bland was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Bulawayo | Bulawayo,False,False
+[CLS] Karl Otto Ludwig von Arnim was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Arnim,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Wilson Muruuli Mukasa was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Uganda | Republic of Uganda | UGA | Uganda | ug | [UNK],False,True
+[CLS] Robert Bertram Serjeant was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Royal Air Force,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Alain Savary was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paris,Algiers | Alger | Algiers,False,False
+[CLS] Subbalakshmi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Chennai | Chennai | Madras,False,True
+[CLS] Eugene Coughlan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Clareen | Clareen,False,False
+[CLS] Ed Dundon was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Columbus | Arch City | Cbus | Columbus | Columbus , Ohio | Cowtown | Indie Art Capital | The Biggest Small Town in America | The Discovery City",False,True
+[CLS] Herb Adderley was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Chun Wei Cheung was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Sovan Chatterjee was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a family of Hindus,Kolkata | Calcutta | City of Palaces | City of Processions | City of joy | Kolkata,False,True
+[CLS] Simone Collio was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Cernusco sul Naviglio | Cernusco sul Naviglio,False,False
+[CLS] Joseph von Hammer - Purgstall was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Frankfurt am Main,Graz | Graz,False,True
+[CLS] Staceyann Chin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Jamaica | Commonwealth of Jamaica | JA | JAM | Jamaica | jm | [UNK],False,True
+[CLS] Abner Biberman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Milwaukee | Milwaukee | Milwaukee City , Wisconsin | Milwaukee , Wisconsin | Porkopolis",False,True
+[CLS] Marian Waldman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Reinhold Schneider was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Baden - Baden | Baden Baden | Baden - Baden,False,False
+[CLS] Barbara Kowa was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Hanover | Hannover | Hanover,False,True
+[CLS] Romain Gavras was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Athens | Athens,False,True
+[CLS] Leif G . W . Persson was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Helsingborg,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Victor Henry was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Colmar | Colmar,False,False
+[CLS] Josh Miller was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Queens | Queens | Queens , New York | Queens , New York City",False,True
+[CLS] Hendrik Heerschop was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Haarlem | Haarlem | Haarlem , North Holland | Haerlem",False,True
+[CLS] Shawty Lo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Atlanta | Atlanta | Atlanta , GA | Atlanta , Georgia | Hotlanta | Terminus | The A | The ATL | The Big Peach",False,True
+[CLS] Kaj Chydenius was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Kuusankoski | Kuusankoski,False,False
+[CLS] Pete van Wieren was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Rochester | Rochester | Rochester , New York | The Flour City | The Flower City | The World ' s Image Centre",False,True
+[CLS] Karel Velebný was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slovenský kraj,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Kyung - hee Hong was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Seoul | Gyeongseong | Hanseong | Hanyang | Keijou | Keijō | Namgyeong | Seoul | Seoul Teukbyeolsi | Sŏul T ' ŭkpyŏlsi | Wiryeseong,False,True
+[CLS] Eduard Benedek Brunschweiler was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Frankfurt am Main,Switzerland | CH | CHE | SUI | Schweiz | Suisse | Svizzera | Swiss | Swiss Confederation | Switzerland,False,True
+[CLS] Herma Kirchschläger was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Gerrie Coetzee was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Boksburg | Boksburg,False,False
+[CLS] Ruby Doris Smith - Robinson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Atlanta | Atlanta | Atlanta , GA | Atlanta , Georgia | Hotlanta | Terminus | The A | The ATL | The Big Peach",False,True
+[CLS] Trygve Seim was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Lorna was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Panama | Panama | Republic of Panama | pa | [UNK],False,True
+[CLS] Mohammad Shirvani was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Tehran | Teheran | Tehran,False,True
+[CLS] Geoff Mack was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Surrey Hills | Surrey Hills | Surrey Hills , Victoria | Surrey Hills , Victoria , Australia",False,False
+[CLS] Brighton Watambwa was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Harare | Fort Salisbury | Harare | Salisbury | Salisbury , Rhodesia",False,False
+[CLS] John Little was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Calgary | Calgary | Calgary , AB | Calgary , Alberta | City of Calgary",False,True
+[CLS] Lia Purpura was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,"Mineola | Mineola | Mineola , New York",False,False
+[CLS] John Salthouse was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Alexey Pivovarov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Wei Qiuyue was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Guizhou,Tianjin | Municipality of Tianjin | Tianjin | Tianjin Municipality | Tientsin,False,False
+[CLS] Xue Ming was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Beijing | BJ | Beijing | Beiping | Khanbaliq | Peiping | Peking | Yanjing | Zhongdu,False,True
+[CLS] Kaoru Mori was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aomori,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Herman Brusselmans was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,Hamme | Hamme,False,False
+[CLS] Geoffrey Trease was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Nottingham | Nottingham,False,True
+[CLS] Socorro Avelar was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Cuernavaca | Cuernavaca | Cuernavaca , Morelos",False,False
+[CLS] David Wachs was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,Palm Desert | Palm Desert,False,False
+[CLS] Aaron Schoenke was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Fountain Valley | Fountain Valley | Fountain Valley , California",False,False
+[CLS] Paul van Meenen was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,The Hague | ' s - Gravenhage | Den Haag | Haag | The Hague,True,False
+[CLS] Marc Beeson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Champaign | Champaign | Champaign , Illinois",False,False
+[CLS] Hrachik Javakhyan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Vanadzor | Vanadzor,False,False
+[CLS] Beverley Turner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Prestwich | Prestwich,False,False
+[CLS] Stuart Chatwood was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Fleetwood | Fleetwood | Fleetwood , Lancashire",False,True
+[CLS] Franz Zorn von Bulach was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bulach,Strasbourg | Schdroosburi | Strasbourg | Straßburg | Strossburi | Strossburig,False,True
+[CLS] Lutz Dombrowski was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Zwickau | Zwickau,False,False
+[CLS] Quentin Mosimann was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mosimann,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Nikolay Zherikhov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Gamble Rogers was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Winter Park | Winter Park | Winter Park , Florida",False,False
+[CLS] Viacheslav Solodukhin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Lucien Baroux was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Baroux,Toulouse | Toulouse,False,True
+[CLS] Johan Evertsen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,Vlissingen | Flushing | Vlissingen,False,False
+[CLS] Liam Kyle Sullivan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Norfolk | Norfolk,False,True
+[CLS] George Auriol was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Beauvais | Beauvais,False,True
+[CLS] Cameron Waters was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Mildura | Mildura | Mildura , Victoria | Mildura , Victoria , Australia",False,False
+[CLS] Fred Vogel was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Warren Township | Warren Township,False,False
+[CLS] Yasutaka Ihara was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shizuoka,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Aernout van Buchel was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Den Haag,Utrecht | Utrecht | Utreg,False,True
+[CLS] Arthur Coquard was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Tom McCarthy was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Fritz Steuri was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Grindelwald | Grindelwald | Grindelwald BE,False,False
+[CLS] Jean - François Lamour was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Lamour,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Cy Denneny was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Farran ' s Point , Ontario | Farran ' s Point , Ontario",False,False
+[CLS] Maurizio Cattelan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Padua | Padova | Padua,False,True
+[CLS] Extince was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Oosterhout | Gemeente Oosterhout | Oosterhout,False,False
+[CLS] Daniel Petrov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Varna | Odesos | Stalin | Varna,False,False
+[CLS] Bato Govedarica was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Govedarica,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Clinton Sparks was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Boston | Beantown | Boston | Boston , MA | Boston , Mass . | Boston , Massachusetts | Bostonia | The Athens of America | The Cradle of Liberty | The Cradle of Modern America | The Hub | The Hub of the Universe | The Walking City",False,True
+[CLS] Molly Culver was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Culver,"Santa Clara County | Santa Clara County | Santa Clara County , California",False,False
+[CLS] Sebastián Contreras was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Calama | Calama,False,False
+[CLS] Conchita Lacuey was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Los Angeles , California",Bordeaux | Bordeaux | Bordele | Bordeu | Bordèu,False,True
+[CLS] Zemzem Ahmed was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Asella | Asela | Asella | Assela,False,False
+[CLS] Guaicaipuro Lameda Montero was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Dominican Republic,"Barquisimeto | Barquisimeto | Barquisimeto , Venezuela | Bqto",False,False
+[CLS] Shane Brathwaite was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Bridgetown | Bridgetown,False,False
+[CLS] Fabio De Gaspari was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Padua | Padova | Padua,False,True
+[CLS] Viator of Lyons was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Viator,Lyon | Lyon | Lyons,False,True
+[CLS] John Balmbra was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Balmbra,Northumberland | Northumberland,False,True
+[CLS] Josef Szulc was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Čierna Hora,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Edvan Bakaj was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Tirana | Tirana | Tirane | Tiranë,False,True
+[CLS] Chiara Francini was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Arthur Calwell was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Calwell,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Gaëtan Roussel was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Le Havre,Rodez | Rodez,False,False
+[CLS] Torstein Dahle was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Rich Bickle was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Edgerton | Edgerton,False,False
+[CLS] Gérard Adanhoume was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Havre,Cotonou | Cotonou,False,False
+[CLS] Betsy Rue was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,True,False
+[CLS] Willem Eduard Bok was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,Den Burg | Den Burg,False,False
+[CLS] Miguel Hernández was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Salvador Sánchez Peñuelas was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Sonora | Estado de Sonora | Sonora,False,True
+[CLS] Vladan Đogatović was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Novi Sad,Ivanjica | Ivanjica,False,False
+[CLS] Carel Lodewijk Hansen was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Otto Lenz was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lenz,Wetzlar | Wetzlar,False,False
+[CLS] Kjeld Olesen was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kjeld Olesen,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Jakub Vadlejch was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Poznan,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Jason Chan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Sydney | Sydney | Sydney , Australia | Sydney , NSW | Sydney , NSW , Australia | Sydney , New South Wales | Sydney , New South Wales , Australia",False,True
+[CLS] John Burnett was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Missouri | MO | Missouri | Missouri , United States | State of Missouri | The Show Me State",False,True
+[CLS] Edward H . Moren was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Dinwiddie County | Dinwiddie County | Dinwiddie County , Virginia",False,False
+[CLS] Jacques Gabriel was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Port - au - Prince | Port au Prince | Port - au - Prince,False,False
+[CLS] André Krüger was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,Hanover | Hannover | Hanover,False,True
+[CLS] Samuel Fraguito was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Vila Real | Vila Real | Vila Real Municipality | Vila Real de Trás - os - Montes,False,False
+[CLS] Manuel Kanté was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Rocky Nelson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Portsmouth | Portsmouth | Portsmouth , Ohio",False,True
+[CLS] Jason Pottinger was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Whitby | Whitby,False,False
+[CLS] Pietro Capelli was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Capelli,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Vardan Mazalov was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Samarkand | Samarcand | Samarkand | Samarqand,False,False
+[CLS] Jürgen Rieger was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Schweinfurt,Nordenham | Nordenham,False,False
+[CLS] Jack Coughlin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Greenwich | Greenwich | Greenwich , Connecticut",False,True
+[CLS] Friedrich Lorenz was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Freden | Freden,False,False
+[CLS] Erwin Stein was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Steve Gage was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Claremore | Claremore,False,False
+[CLS] Heidi Schüller was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Schwäbisch,Passau | Passau,False,True
+[CLS] Enrico Dandolo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Varese | Varese | Varés,False,True
+[CLS] Andreas Voßkuhle was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Skandinavia,Detmold | Detmold,False,False
+[CLS] Sebastián Vega was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Bucaramanga | Bucaramanga,False,False
+[CLS] Rupert Bottenberg was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bottenberg,Wolfville | Wolfville,False,False
+[CLS] Victor Kelleher was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Curt Gielow was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gielow,"Evansville | Evansville | Evansville , Indiana",False,False
+[CLS] Peter Wallin was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Anne Tardos was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tardos,Cannes | AS Cannes | Cannes,False,True
+[CLS] Brian Loyd was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Lynwood | Lynwood | Lynwood , California | Lynwood , USA",False,False
+[CLS] Leonid Khizhinsky was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Rafael Yela Günther was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Guatemala City | Ciudad de Guatemala | Guate | Guatemala | Guatemala City | La Nueva Guatemala de la Asuncion | La Nueva Guatemala de la Asunción,False,False
+[CLS] Charles Dupuis was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dupuis,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Adriano Lombardi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Ponsacco | Ponsacco,False,False
+[CLS] Sam Higginbottom was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York City,Manchester | Manchester,False,True
+[CLS] Émile Peynot was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Paris , France",Villeneuve - sur - Yonne | Villeneuve - sur - Yonne,False,False
+[CLS] Les Channell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Crestline | Crestline | Crestline , Ohio",False,False
+[CLS] Gavin Smith was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Dundee | City of Dundee | Dundee,False,True
+[CLS] Anna Katharina Schwabroh was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Schwabroh,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] Mario Soto was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Santiago | Santiago | Santiago de Chile,False,True
+[CLS] Robbie Stockdale was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stockdale,Redcar | Redcar,False,False
+[CLS] Charlie Pringle was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Nitshill | Nitshill,False,False
+[CLS] Vaughn van Jaarsveld was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Johannesburg | Jo ' burg | Johannesburg | Johannesburg , Gauteng | Johannesburg , Gauteng , South Africa | Johannesburg , South Africa | Jozi | ZAJNB | eGoli",False,True
+[CLS] Nina Karin Monsen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Bergen | Bergen | Bjørgvin,False,True
+[CLS] Hiroshi Saitō was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aomori,Saitama Prefecture | Saitama Prefecture | Saitama - ken,False,False
+[CLS] Tian Yubao was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Taiyuan | Bīng | Jìnyáng | Taiyuan,False,False
+[CLS] Zdzislaw Krasnodebski was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Choszczno | Choszczno,False,False
+[CLS] Theodore Paraskevakos was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Athens | Athens,False,True
+[CLS] Sander Jan Klerk was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,The Hague | ' s - Gravenhage | Den Haag | Haag | The Hague,True,False
+[CLS] Byron Christopher was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Campbellton | Campbellton,False,False
+[CLS] Manuel Gerardo Corona was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Konstanz | Konstanz,False,True
+[CLS] Flora Garry was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Aberdeenshire | Aberdeenshire,False,False
+[CLS] Jersey Joe Walcott was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"New Jersey | Garden State | Jersey | NJ | New Jersey | New Jersey , United States | State of New Jersey",False,False
+[CLS] Valentín Paz - Andrade was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Pontevedra | Pontevedra | Pontevedra , Spain",False,True
+[CLS] Arne Somersalo was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Södermanland,Tampere | Tammerfors | Tammerforsia | Tampere,False,True
+[CLS] Anthony Di Lallo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Huy | Hoei | Huy,False,True
+[CLS] Ellis Amburn was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Jack County | Jack County | Jack County , Texas",False,False
+[CLS] François - Rolland Elluin was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Le Havre,Abbeville | Abbeville,False,False
+[CLS] Billy Maloney was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Lewiston | Lewiston | Lewiston , Maine",False,False
+[CLS] Rebati Mohan Dutta Choudhury was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Chand Chand,Gauripur | Gauripur,False,False
+[CLS] Jorge Payá was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Manresa | Manresa,False,False
+[CLS] Ormond Butler was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"West Virginia | Almost Heaven | State of West Virginia | The Mountain State | WV | West Virginia | West Virginia , United States",False,False
+[CLS] Brian MacLellan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Guelph | Guelph,False,False
+[CLS] Garrett L . Withers was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Webster County | Webster County | Webster County , Kentucky",False,False
+[CLS] Carlton McKinney was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"San Diego | America ' s Finest City | SD | San Diego | San Diego , California | Sandi | the birthplace of California",False,False
+[CLS] Valentino Sala was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Morimondo | Morimondo,False,False
+[CLS] Yagya Dutt Sharma was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,"Punjab | Land of Five Rivers | Punjab | Punjab State | Punjab , India",False,True
+[CLS] Troy Loney was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Bow Island | Bow Island,False,False
+[CLS] Ferdinand Coly was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Dakar | Dakar,False,True
+[CLS] Edgar Laprade was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Seine River First Nation | Seine River First Nation,False,False
+[CLS] Gülsin Onay was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gülsin,Istanbul | Constantinople | Istanbul,False,True
+[CLS] José Bonilla was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,El Tigre | El Tigre,False,False
+[CLS] Ricardo Ycaza was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Guayaquil | Guayaquil | Santiago de Guayaquil,False,True
+[CLS] Rich Aurilia was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Ioannis Kolettis was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kolettis,Syrrako | Sirako | Syrrako,False,False
+[CLS] Tami Grende was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tami Grende,Denpasar | Denpasar | Kota Denpasar,False,False
+[CLS] Patricia Brake was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brake,"Bath | Bath | Bath , Somerset",False,True
+[CLS] Viktor Sokol was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Minsk | Mensk | Miensk | Minsk | Minskas | Mińsk | Менск | Минск | Мінск,False,True
+[CLS] Ken Lehman was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] Harry Elfont was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Andrey Makarevich was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] John Power Howden was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Howden,"Perth | Perth | Perth , Ontario",False,True
+[CLS] Iain Percy was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States of America,"Southampton | Soton | Southampton | Southampton , Hampshire | Southampton , UK",False,True
+[CLS] Walther Wüst was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Kaiserslautern | K - Town | KTown | Kaiserslautern,False,True
+[CLS] Sheila Piercey Summers was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Johannesburg | Jo ' burg | Johannesburg | Johannesburg , Gauteng | Johannesburg , Gauteng , South Africa | Johannesburg , South Africa | Jozi | ZAJNB | eGoli",False,True
+[CLS] Irvine Arditti was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Happy Finneran was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"East Orange | East Orange | East Orange ( NJ ) | East Orange , N . J . | East Orange , New Jersey",False,False
+[CLS] Ramón Barajas López was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Sinaloa | Estado de Sinaloa | Sinaloa,False,True
+[CLS] Behnam Asbaghi was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Tehran | Teheran | Tehran,False,True
+[CLS] Eddie Haas was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Paducah | Paducah | Paducah , Kentucky",False,False
+[CLS] Adrián Suednnf was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Czech Republic,"Queens | Queens | Queens , New York | Queens , New York City",False,True
+[CLS] Giuseppe Garibaldi II was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rome,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Tony Docherty was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"East Kilbride | East Kilbride | East Kilbride , Strathaven and Lesmahagow",False,False
+[CLS] Hans Kalb was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Nuremberg | Kreisfreie Stadt Nürnberg | Nuremberg | Nürnberg,False,True
+[CLS] Carl Rydquist was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Södermanland,Gothenburg | Gothenburg | Göteborg,False,False
+[CLS] Keith Jennings was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Wellington | Wellington | Wellington , Somerset",False,True
+[CLS] Milan Đurišić was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Podgorica | Burguriçe | Capital of Montenegro | Podgorica | Podgoritsa | Podgoritza | Titograd,False,True
+[CLS] Tamer Rashid was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Aleppo | Aleppo | Aleppo City | Aleppo , Aleppo | Aleppo , Mount Simeon | Aleppo , Syria | Halab",False,True
+[CLS] Jessika Dubuc was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dubuc,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Kier Maitland was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maitland,"Edmonton | City of Edmonton | Edmonton | Edmonton , AB | Edmonton , Alberta",False,True
+[CLS] Charles Kleiber was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Moutier | Moutier | Moutier BE,False,False
+[CLS] Fred Sablan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Cupertino | City of Cupertino | Cupertino,False,False
+[CLS] Masato Yoshihara was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shizuoka,Fukuoka | Fukuoka,False,True
+[CLS] Carsten Schlangen was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schlangen,Meppen | Meppen,False,False
+[CLS] Ana Popović was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Novi Sad,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Donald Byrne was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Hans Stetter was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Cologne | Cologne | Kreisfreie Stadt Köln | Köln,False,True
+[CLS] Curtis Jackson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Bermuda | Atlantic / Bermuda | Bermoothes | Bermuda | Bermuda Islands | Bermudas | Bermudian Islands | Colony of Bermuda | Devil ' s Isles | Isle of Devils | Somers Islands | Somers Isles | Summer ' s Isles | Summers ' Isles | Territory of Bermuda | The Somers Isles | Virgineola | bm | [UNK],False,True
+[CLS] Alicia Taylor was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Saginaw | Saginaw | Saginaw , Michigan | Saginawy , Michigan",False,False
+[CLS] Phil Carmichael was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Brisbane | Brisbane | Brisbane , Queensland",False,True
+[CLS] Ryan Flynn was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Noémi Tóth was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Szolnok,Szentes | Szentes,False,False
+[CLS] Stefano Cagol was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Trento | Trento | Trient,False,True
+[CLS] Sandro Chaves de Assis Rosa was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Brazil | BR | BRA | Brasil | Brazil | Estados Unidos del Brazil | Federativa Republica do Brasil | Federativa República do Brasil | Federative Republic of Brazil | Republic Federative of Brasil | Republica Federativa do Brasil | República Federativa do Brasil | br | [UNK],False,True
+[CLS] Tamás Ferenc Béres was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Székely,Hungary | HUN | Hungary | hu | [UNK],False,True
+[CLS] Lin Chiung - ying was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Hualien County | Hualian County | Hualien County,False,False
+[CLS] Baron Max Hussarek von Heinlein was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Heinlein,Bratislava | Bratislava | Pozsony | Pressburg,False,True
+[CLS] George Altman was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Goldsboro | Goldsboro,False,False
+[CLS] Robert Mambo Mumba was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mambo Mumba,Mombasa | Mombasa,False,False
+[CLS] Alexander Thamm was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Hattingen | Hattingen | Hattingen an der Ruhr,False,False
+[CLS] Norio Mitsuya was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Shizuoka,Ise | Ise,False,False
+[CLS] Gilmar Rinaldi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Erechim | Erechim,False,False
+[CLS] Jakob Piil was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Odense | Odense,False,True
+[CLS] Paul Viollet was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Tours | Tours,False,True
+[CLS] Richard Bitner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Louis Nicolas was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Aubenas | Aubenas,False,False
+[CLS] Edmund Rowe was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Sherrodsville | Sherrodsville,False,False
+[CLS] Samuel Rothschild was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Greater Sudbury | Greater Sudbury | Sudbury | Sudbury , Ontario | city of Sudbury",False,False
+[CLS] Nathaniel Garrow was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Barnstable | Barnstable | Barnstable , Massachusetts",False,False
+[CLS] Rudolf Fila was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Czechoslovakia | CSFR | Czecho - Slovakia | Czechoslovakia | Federation of Czechoslovakia | People ' s Republic of Czechoslovakia | TCH | cs | ČSFR | Československo,False,True
+[CLS] Wigand Siebel was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Freudenberg | Freudenberg,False,False
+[CLS] Kirsi Helen was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Forssa | Forssa,False,False
+[CLS] Georgii Yurii Vasilovich Pfeiffer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Poltava Governorate | Poltava Governorate,False,False
+[CLS] David McHugh was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Limerick | Limerick | Limerick City,False,True
+[CLS] Ernie McMillan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Chicago Heights | Chicago Heights,False,False
+[CLS] Corey Jenkins was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Columbia | Cola | Columbia | Columbia , SC | Columbia , South Carolina",False,True
+[CLS] Kim Hyung - jun was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong,Seoul | Gyeongseong | Hanseong | Hanyang | Keijou | Keijō | Namgyeong | Seoul | Seoul Teukbyeolsi | Sŏul T ' ŭkpyŏlsi | Wiryeseong,False,True
+[CLS] Giancarlo Polidori was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Sassoferrato | Sassoferrato,False,False
+[CLS] Val Logsdon Fitch was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Merriman | Merriman | Merriman , Nebraska",False,False
+[CLS] Yuriy Shcherbak was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Lee Hyun - min was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] Lee Kwang - hyun was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] David E . Aldrich was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New York | NY | NYS | New York | New York ( state ) | New York State | New York , United States | State of New York",False,False
+[CLS] Rob Hyman was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Meriden | Meriden | Meriden , Connecticut",False,False
+[CLS] Dave Alvin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Downey | Downey | Downey , California",False,True
+[CLS] Art Schult was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] George Stibitz was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"York | York | York , Pennsylvania",False,True
+[CLS] Luo Jing was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Guiyang | Guiyang,False,False
+[CLS] Charles Theodore Barclay was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Woodford | Woodford,False,False
+[CLS] Christophe Auguin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Granville | Granville,False,False
+[CLS] Alexandru Lazăr was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Bucharest | Bucharest | Bucuresti | Bucureşti | București | Little Paris | Paris of the East,False,True
+[CLS] Joe Dooley was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dooley,Clareen | Clareen,False,False
+[CLS] Jim Allen was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Manchester | Manchester,False,True
+[CLS] Dave Clancy was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Rinteln | Rinteln,False,False
+[CLS] Gotthilf August von Maltitz was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Frankfurt am Main,Kaliningrad | Kaliningrad | Königsberg | Twangste | Калининград,False,True
+[CLS] Billy Singleton was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Singleton,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Tamira Paszek was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Dornbirn | Dornbirn,False,False
+[CLS] Moy Lin - shin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Guangdong | Guangdong | Kwangtung,False,True
+[CLS] Waylon Woolcock was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Middelburg | Middelburg,False,False
+[CLS] Maximilian Messmacher was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Hussain Fadel was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Karachi , Pakistan",Kuwait City | Al Kuwait | Kuwait | Kuwait City,False,False
+[CLS] Danish Atlas Khan was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States of America,Peshawar | Pekhawar | Peshawar,False,False
+[CLS] Augustin - Norbert Morin was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],New York,Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+[CLS] John McBride was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Wayne County | Wayne County | Wayne County , Ohio",False,False
+[CLS] Danny Quendambú was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rio de Janeiro,Tumaco | Tumaco,False,False
+[CLS] Mary Czaja was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Tomahawk | City of Tomahawk | Tomahawk,False,False
+[CLS] Julius Diez was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Nuremberg | Kreisfreie Stadt Nürnberg | Nuremberg | Nürnberg,False,True
+[CLS] Willie Irvine was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Stirling | Stirling,False,True
+[CLS] Christoph Hoffmann was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Leonberg | Leonberg,False,False
+[CLS] Kheira Bouziane was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Oran | Oran | Wahran,False,False
+[CLS] Jacques Maritain was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Paris ( France ),"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Daniel João Alves Faria was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rio de Janeiro,Braga | Braga | Braga Municipality,False,True
+[CLS] Masahiko Tanaka was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aomori,Tondabayashi | Tondabayashi | Tondabayasi,False,False
+[CLS] Helen Chamberlain was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"Street | Street | Street , Somerset",False,True
+[CLS] Brian Lugo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Montevideo | Montevideo,False,True
+[CLS] Joo Min - kyu was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] Eckart Diesch was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Helsingborg,Friedrichshafen | Friedrichshafen,False,False
+[CLS] Jagoba Beobide was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Tamil Nadu,Azpeitia | Azpeitia | Azpeitia ( town ),False,False
+[CLS] Orthodoxos Ioannou was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Larnaca | Larnaca,False,False
+[CLS] Allan Brown was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Johannesburg | Jo ' burg | Johannesburg | Johannesburg , Gauteng | Johannesburg , Gauteng , South Africa | Johannesburg , South Africa | Jozi | ZAJNB | eGoli",False,True
+[CLS] Friday Kasteni was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kasteni,Kadoma | Kadoma,False,False
+[CLS] Gale Gillingham was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Madison | City of Madison | Madison | Madison , Wisconsin",False,True
+[CLS] Mark Teeuwen was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Teeuwen,"Eindhoven | Eindhoven | Eindhoven , North Brabant",False,True
+[CLS] Lars Wichert was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Steve Backley was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Sidcup | Sidcup,False,False
+[CLS] Andrés Massieu Fernández was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,State of Mexico | State of Mexico,False,False
+[CLS] Dani Erencia was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Terrassa | Tarrasa | Terrassa,False,False
+[CLS] Henry Ransom was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Houston | City of Houston | H - Town | Houston | Houston , Texas | Space City | USHOU",False,True
+[CLS] Guillaume Barazzone was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Keith Glauber was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Martin Armstrong was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Newcastle upon Tyne | Newcastle | Newcastle upon Tyne | Newcastle upon Tyne ( parish ) | Newcastle - on - Tyne,False,False
+[CLS] Roxana Maracineanu was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cluj - Napoca,Bucharest | Bucharest | Bucuresti | Bucureşti | București | Little Paris | Paris of the East,False,True
+[CLS] Sherwin Badger was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Boston | Beantown | Boston | Boston , MA | Boston , Mass . | Boston , Massachusetts | Bostonia | The Athens of America | The Cradle of Liberty | The Cradle of Modern America | The Hub | The Hub of the Universe | The Walking City",False,True
+[CLS] Tiny Timbrell was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Canada | British North America | CA | CAN | CDN | Canada | Dominion of Canada | ca | can | [UNK],False,True
+[CLS] William Constantine Culbertson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Edinboro | Edinboro,False,False
+[CLS] Lee Woong - hee was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] Fred Forward was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Croydon | Croydon,False,False
+[CLS] Dane Hogan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Brisbane | Brisbane | Brisbane , Queensland",False,True
+[CLS] John T . Smith was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Carlisle | Carlisle | Carlisle , Pennsylvania",False,True
+[CLS] Rémi Sergio was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Marseille | City of Marseille | Marsaille | Marsailles | Marseille | Marseille , France | Marseilles | Marsielle | Marsielles | Marsiglia | Massalia | Massaliotes",False,True
+[CLS] Phineas Jones was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Spencer | Spencer | Spencer , Massachusetts",False,True
+[CLS] Toos van Holstein was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Den Haag,"Eindhoven | Eindhoven | Eindhoven , North Brabant",False,True
+[CLS] Albert Dagnaux was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Karl Julius Weber was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Langenburg | Langenburg,False,False
+[CLS] Vincent Malo was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Cambrai | Cambrai | Cambray,False,True
+[CLS] Nita Hutter was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Juan Espino was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Bonao | Bonao,False,False
+[CLS] John H . Flavell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Rockland | Rockland,False,False
+[CLS] Bogdan Tudor was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cluj - Napoca,Bucharest | Bucharest | Bucuresti | Bucureşti | București | Little Paris | Paris of the East,False,True
+[CLS] Cléber Chalá was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rio de Janeiro,Imbabura Province | Imbabura Province,False,False
+[CLS] Rollie Boutin was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Boutin,Westlock | Westlock,False,False
+[CLS] William J . Randall was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Independence | Independence | Independence , Missouri",False,True
+[CLS] Alan Loras was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Trinidad | La Santisima Trinidad | La Santísima Trinidad | Trinidad,False,True
+[CLS] Ruth Infarinato was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Jens Köppen was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schleswig - Holstein,Kyritz | Kyritz,False,False
+[CLS] Peter Loob was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Visby | Visby | Wisby,False,False
+[CLS] Martín Icart was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Montevideo | Montevideo,False,True
+[CLS] Link was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Dallas | Big D | D - Town | Dallas | Dallas TX | Dallas , Texas | Dallas , Tx .",False,True
+[CLS] Roberto Dellasega was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,"Cavalese | Cavalese | Cavalese , Italy",False,False
+[CLS] Bill Riordan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Chillagoe | Chillagoe | Chillagoe , Queensland | Chillagoe , Queensland , Australia",False,False
+[CLS] Sieglinde Ahrens was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ahrens,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Sidney D . Mitchell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Baltimore | Baltimore | Baltimore City | Baltimore , Maryland | Charm City | City of Baltimore",False,True
+[CLS] Gertrude Morgan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"LaFayette | La Fayette | LaFayette | LaFayette , Alabama",False,False
+[CLS] Sabina Mikina was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Baku | Baku | City of Winds,False,True
+[CLS] Henry Bell Gilkeson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Moorefield | Moorefield | Moorefield , West Virginia",False,False
+[CLS] David Terrien was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Nantes | Nantes,False,True
+[CLS] Jules Molle was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Aubenas | Aubenas,False,False
+[CLS] Joan Turner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Belfast | Beal Feirste | Belfast | Belfast , Ireland | Béal Feirste",False,True
+[CLS] Golden Johnson was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Wichita Falls | Wichita Falls | Wichita Falls , Texas",False,False
+[CLS] Cyrillus Jarre was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Ahrweiler ( district ) | Ahrweiler ( district ) | Landkreis Ahrweiler,False,False
+[CLS] Laura Orgué was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Francisco Javier Obregón Espinoza was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buenos Aires,Baja California Sur | BCS | Baja California Sur | Estado de Baja California Sur | Free and Sovereign State of Baja California Sur | MX - BCS | MX03 | South Lower California | South Territory of Baja California,False,False
+[CLS] Mark Semioli was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Filiz Polat was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Bramsche | Bramsche,False,False
+[CLS] Kai Bülow was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Rostock | Rostock,False,True
+[CLS] Gary Gearhart was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"New Lebanon | New Lebanon | New Lebanon , Ohio",False,False
+"[CLS] Earl Jaques , Jr . was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Las Vegas,"Menominee | Menominee | Menominee , Michigan",False,False
+[CLS] Roberto Mascaró was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Montevideo | Montevideo,False,True
+[CLS] Juan Armada y Losada was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Sabine Englert was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Aschaffenburg | Aschaffenburg,False,False
+[CLS] Serafín Zubiri was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buenos Aires,Pamplona | Iruña | Pamplona,False,True
+[CLS] Minna Nikkanen was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Koko . Koko,Somero | Somero,False,False
+[CLS] Hidalgo Contreras was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Baja California | BCN | Baja California | Estado de Baja California | Free and Sovereign State of Baja California | MX - BCN | MX02,False,False
+[CLS] Teodoro Ardemans was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Ernst Jordan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Germany | BRD | Bundesrepublik Deutschland | Deutschland | FRG | Federal Republic of Germany | GER | Germany | de,False,True
+[CLS] Alfred Keller was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Bochum | Bochum,False,True
+[CLS] Paul Salata was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Seth Galloway was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Evansville | Evansville | Evansville , Indiana",False,False
+[CLS] Arnold I . Burns was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Francis Reiss was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] David Anumle Hansen was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Skandinavia,Ghana | GHA | Ghana | Republic of Ghana | gh | [UNK],False,True
+[CLS] George W . Whitehead was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Bloomington | Bloomington | Bloomington , Illinois",False,False
+[CLS] Sayo Yamamoto was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Saitama,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Frank Meagher was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,Tullaroan | Tullaroan,False,False
+[CLS] Mira Alečković was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Novi Sad,Novi Sad | Novi Sad | Ujvidek | Újvidék | Нови Сад,True,False
+[CLS] Roberto Nani was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Sondalo | Sondalo,False,False
+[CLS] Keagan Kang was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,"Perth | Perth | Perth , Australia | Perth , W . A . | Perth , Western Australia",False,True
+[CLS] Divico was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Gaul | Gallia | Gaul,False,False
+[CLS] August Beer was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Schweinfurt,Trier | Augusta Treverorum | Treveris | Trier,False,True
+[CLS] Kalle Päätalo was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Päätalo,Taivalkoski | Taivalkoski,False,False
+[CLS] Al Zerhusen was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Al Zerhusen,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Caius Brediceanu was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Brediceanu,Lugoj | Lugoj | Lugos | Lugosch,False,False
+[CLS] Seiji Honda was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aomori,Tokushima Prefecture | Tokushima Prefecture,False,False
+[CLS] Jaime Quiyuch was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Guatemala City | Ciudad de Guatemala | Guate | Guatemala | Guatemala City | La Nueva Guatemala de la Asuncion | La Nueva Guatemala de la Asunción,False,False
+[CLS] Gary Boyd was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Banbury | Banbury | Banbury , Oxfordshire",False,False
+[CLS] Vitaliy Hubarenko was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Kharkiv | Kharkiv | Kharkov,False,False
+[CLS] Miroslav Abelovský was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Zvolen | Zvolen,False,False
+[CLS] Kolbein Falkeid was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kolbein Falkeid,Haugesund | Haugesund,False,False
+[CLS] Janet Craxton was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Achinoam Nini was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Achinoam Nini,Tel Aviv | Tel Aviv | Tel Aviv City | Tel Aviv Jaffa | Tel Aviv - Jaffa | Tel Aviv - Jafo | Tel Aviv - Yafo | Tel aviv | Tel - Aviv | Tel - Aviv Jaffa | Tel - aviv,False,False
+[CLS] Mario Missiroli was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Bergamo | Bergamo,False,True
+[CLS] Si Riguleng was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hong Kong,Inner Mongolia | Inner Mongolia | Inner Mongolia Autonomous Region | Nei Mongol Autonomous Region,False,False
+[CLS] Carlos Antonio Meléndez was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,San Salvador | San Salvador,False,False
+[CLS] Sonja Stolić was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Kosovo Polje | Kosovo Polje,False,False
+[CLS] Mika Lehkosuo was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Salo Salo,Helsinki | Helsingfors | Helsingia | Helsinki,False,True
+[CLS] László Schäffer was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Czech Republic,Uzhhorod | Uzhgorod | Uzhhorod,False,False
+[CLS] Francis Ambrière was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Earl Conrad was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Auburn | Auburn | Aurburn , New York",False,True
+[CLS] Jin Renqing was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Suzhou | Soochow | Suzhou,False,False
+[CLS] Óscar Rivas was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Valle del Cauca Department | Valle del Cauca Department,False,False
+[CLS] Ryan Nye was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Biloxi | Biloxi | Biloxi , Mississippi | City of Biloxi",False,False
+[CLS] James Krause was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Bury St Edmunds | Beodericsworth | Bury | Bury Saint Edmunds | Bury St Edmunds | Bury St Edmunds , Suffolk | Bury St . Edmunds | St Edmund ' s Bury | St Edmundsbury",False,False
+[CLS] Laurie Main was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Greg Pryor was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Marietta | Marietta,False,False
+[CLS] Marcel Merkès was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Bordeaux | Bordeaux | Bordele | Bordeu | Bordèu,False,True
+[CLS] Séamus Murphy was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Rathnure | Rathnure,False,False
+[CLS] Enrique Gómez Carrillo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Guatemala City | Ciudad de Guatemala | Guate | Guatemala | Guatemala City | La Nueva Guatemala de la Asuncion | La Nueva Guatemala de la Asunción,False,False
+[CLS] Zaynulla Rasulev was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Orenburg Governorate | Orenburg Governorate,False,False
+"[CLS] Frederick A . O . Schwarz , Jr . was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Mikel Iglesias was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Helmut Kolle was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Charlottenburg | Berlin - Charlottenburg | Charlottenburg,False,False
+[CLS] Muxu was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Msida | Msida,False,False
+[CLS] Huck Hodge was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Gainesville | Gainesville | Gainesville , Florida | Gainesville , Florida , United States",False,False
+[CLS] Louis - Félix Guinement de Kéralio was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rio de Janeiro,Rennes | Rennes,False,True
+[CLS] Dave Ferguson was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,North Shields | North Shields,False,False
+[CLS] John Kimbell was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Atlanta | Atlanta | Atlanta , GA | Atlanta , Georgia | Hotlanta | Terminus | The A | The ATL | The Big Peach",False,True
+[CLS] Daniel Fascioli was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Montevideo | Montevideo,False,True
+[CLS] Albert Morrow was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Comber | Comber | Comber , County Down",False,False
+[CLS] Park Jin - yi was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],False,False
+[CLS] Melissa Archer was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Dallas | Big D | D - Town | Dallas | Dallas TX | Dallas , Texas | Dallas , Tx .",False,True
+[CLS] Aracy Balabanian was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Campo Grande | Campo Grande,False,False
+[CLS] Lev Berezner was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Obninsk | Obninsk,False,False
+[CLS] George Affleck was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Los Angeles,Auchendinny | Auchendinny,False,False
+[CLS] Ibrahima Nadiya was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a small town,Dakar | Dakar,False,True
+[CLS] Andreas Kunz was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Leipzig | Leipzig,False,True
+[CLS] Bob Estes was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Graham | Graham | Graham , Texas",False,True
+[CLS] Boban Nikolić was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Novi Sad,Kragujevac | Kragujevac,False,False
+[CLS] William Wordsworth was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the City of London,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Agnez Mo was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Ivory Coast,Jakarta | JKT | Jakarta | Special Capital Region of Jakarta,False,True
+[CLS] Musa Nyatama was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Benoni | Benoni | City of Lakes , Son of my sorrow",False,False
+[CLS] Matt Butcher was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Birmingham | Birmingham | Birmingham , England | Birmingham , West Midlands",False,True
+[CLS] Petra Bierwirth was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Czech Republic,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Adolfo Kind was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Chur | Chur | Chur GR | Coire,False,False
+[CLS] Pham Hung Dung was born in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Hong Kong,Da Nang | Da Nang | Da Nang City | Danang,False,False
+[CLS] Jake Pavelka was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Dallas | Big D | D - Town | Dallas | Dallas TX | Dallas , Texas | Dallas , Tx .",False,True
+[CLS] Joel Goonan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Manchester | Manchester,False,True
+[CLS] Reid Gorecki was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Queens | Queens | Queens , New York | Queens , New York City",False,True
+[CLS] Adolf Holtzmann was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Holtzmann,Karlsruhe | Karlsruhe,False,True
+[CLS] Florencio Campomanes was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buenos Aires,Manila | City of Manila | Manila,False,True
+[CLS] Gülşah Gümüşay was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Gülşah,Adana | Adana,False,True
+[CLS] Lloyd Valberg was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Singapore | Garden City | Lion City | Republic of Singapore | SG | SGP | Singapore | Singapore City | sg | [UNK],False,True
+[CLS] Fred Callaghan was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Fulham | Fulham,False,True
+[CLS] Shane Rose was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Sydney | Sydney | Sydney , Australia | Sydney , NSW | Sydney , NSW , Australia | Sydney , New South Wales | Sydney , New South Wales , Australia",False,True
+[CLS] Yevgeniya Lamonova was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Kurchatov | Kurchatov,False,False
+[CLS] Karl Vollmöller was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Ilsfeld | Ilsfeld,False,False
+[CLS] Emil Kiesewetter was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Prairie Township | Prairie Township,False,False
+[CLS] Jan Palthe was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Deventer | Deventer,False,False
+[CLS] Jed Stugart was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Greeley | Greeley,False,False
+[CLS] G R Damodaran was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Coimbatore | Coimbatore | Cotton City | Kovai | Manchester of South India,False,False
+[CLS] André Guy was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Bourg - en - Bresse | Bourg - en - Bresse,False,False
+[CLS] Isabelle Stead was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Leeds | Leeds,False,True
+[CLS] Margo McLennan was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Los Angeles,Peckham | Peckham,False,True
+[CLS] Paul Tobias was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,"Indianapolis | Amateur Sports Capital of the World | Circle City | Crossroads of America | INDPLS | India - no - place | Indianapolis | Indianapolis , Indiana | Indy | Naptown | Racing Capital of the World | Railroad City",False,True
+[CLS] Himilce Novas was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Brett Williams ( American football ) was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,"Kissimmee | Kissimmee | Kissimmee , Florida",False,False
+[CLS] Andrea De Carlo was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Jack Rieley was born in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Milwaukee | Milwaukee | Milwaukee City , Wisconsin | Milwaukee , Wisconsin | Porkopolis",False,True
+[CLS] Mário Frias was born in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False,False
+[CLS] Hassan Jawahery was born in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Karachi ( Pakistan ),Iran | Iran | Islamic Rep . Iran | Islamic Republic of Iran | Persia | Republic of Iran | ir | [UNK],False,True

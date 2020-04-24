@@ -1,0 +1,1001 @@
+sentence,prediction,gold,is_same,is_single_word
+"[CLS] Boleslaus I , Duke of Bohemia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Czech Republic | CZE | CZR | Czech Republic | Czechia | cz | cze | ČR | Česko | Česká republika | [UNK],False,False
+[CLS] Muhammad died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Medina | Al - Madīnah al - Munawwarah | Madinah | Madīnah | Medina | The Radiant City | Yathrib,False,True
+[CLS] Bernard of Clairvaux died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Clairvaux,Clairvaux Abbey | Clairvaux Abbey,False,False
+[CLS] Wolfgang Amadeus Mozart died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his honour,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Peter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Akhenaten died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Amarna | Akhetaten | Akhetaton | Amarna | El - Amarna | Tel el - Amarna,False,False
+[CLS] Priam died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Troy | Ancient Troy | Ancient Troya National Park | Archaeological Site of Troy | City of Troy | Classical troy | Iliam | Ilios | People of Troy | Teucri | Teucrian | Teucrians | Teukroi | Troia | Troie | Trojan people | Troy | Troy Ilium | Troía | Truva | Wilusha,False,True
+[CLS] Eusebius of Caesarea died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Caesarea,Caesarea Maritima | Caesarea Maritima,False,False
+[CLS] Georges Pompidou died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Paris,"Paris | City of Light | Paris | Paris , France",True,True
+[CLS] Louis XIV of france v : died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Palace of Versailles | Chateau | Chateau de Versailles | Château | Château de Versailles | France . Chateau Versailles | Musee National du Chateau de Versailles et du Trianon | Musée National du Château de Versailles et du Trianon | Palace of Versailles | Palais du Versailles | Puestos | Versailles | Versailles Palace | Versailles . Chateau | Versailles . Château | Versailles . Palais | musée du château de Versailles,False,False
+[CLS] Francisco Franco died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Charles II of England died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the meantime,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Ivan V of Russia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Saddam Hussein died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Baghdad | Bagdad | Baghdad | Baghdād,False,True
+[CLS] Egbert of Wessex died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kingdom of Wessex | Kingdom of Wessex | Kingdom of the West Saxons | Wessex,False,False
+[CLS] Lev Ivanov died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Charlemagne died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Charlemagne died in,Aachen | Aachen | Aix la Chapelle | Aix - la - Chapelle | Oche,False,True
+[CLS] Alexander the Great died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Babylon | Babylon,False,True
+[CLS] Paul I of Russia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Ambrose died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Pandulf IV of Capua died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Capua,Capua | Capua,True,False
+[CLS] Edgar Allan Poe died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Baltimore | Baltimore | Baltimore City | Baltimore , Maryland | Charm City | City of Baltimore",False,True
+[CLS] Fidel Castro died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Havana | Habana | Havana | Havana , Cuba | La Habana",False,True
+[CLS] Georg Philipp Telemann died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] Titian died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Titian,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Maxim Gorki died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Demetrius of Thessaloniki died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Thessaloniki | Salonica | Thessalonica | Thessaloniki,False,True
+[CLS] Agis II died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Sparta | Lacedaemon | Sparta,False,True
+[CLS] C . N . Annadurai died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Tamil Nadu | Tamil Nadu,False,False
+[CLS] Franz Schubert died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mulhouse,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Mayer Amschel Rothschild died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie Stadt Frankfurt am Main,False,False
+[CLS] Cleomenes I died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Sparta | Lacedaemon | Sparta,False,True
+[CLS] Ulugh Beg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Samarkand | Samarcand | Samarkand | Samarqand,False,False
+[CLS] Georges Vanier died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ottawa | Bytown | Ottawa | Ottawa ( Ontario ),False,True
+[CLS] Peter Paul Rubens died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Saint Mungo died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saint Mungo,"Glasgow | Glasgow | Glasgow , Scotland",False,True
+[CLS] Nicolas Poussin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Poussin,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Gaetano Donizetti died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rome,Bergamo | Bergamo,False,True
+[CLS] Abraham Baratz died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Muhammad Iqbal died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Lahore | Lahore,False,True
+[CLS] Nicholas II of Russia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Yekaterinburg | Ekaterinburg | Sverdlovsk | Yekaterinburg,False,False
+[CLS] Jean - Baptiste Forqueray died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] John Ross Robertson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] George Orwell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] John Strachan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Qian Liu died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Qian Liu,Wuyue | Wu yueh | Wu yüeh | Wu - yueh | Wu - yüeh | Wuyue | Wuyueh | Wuyüeh,False,False
+[CLS] Thomas Birkett died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ottawa | Bytown | Ottawa | Ottawa ( Ontario ),False,True
+[CLS] James McGill died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Joseph Bernardin died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Pythodorida of Pontus died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pontus,Kingdom of Pontus | Kingdom of Pontus | Pontic Empire,False,False
+[CLS] John V of Portugal died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Lisbon | Lisbon,False,True
+[CLS] Teddy Kollek died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California","Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Stanley Baldwin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Bewdley | Bewdley | Bewdley , Worcestershire",False,False
+[CLS] Manuel I Komnenos died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Constantinople | Constantinople,False,True
+"[CLS] Rudolf II , Holy Roman Emperor died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Holy Holy,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] George William Allan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Mastino II della Scala died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Verona | Verona,False,True
+[CLS] Gautama Buddha died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kushinagar | Kushinagar,False,False
+[CLS] Giovanni da Nola died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nola,Naples | Naples | Napoli | Neapolis,False,True
+"[CLS] Aloys I , Prince of Liechtenstein died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Callixtus I died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Jim Garrison died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Giuseppe Antonio Ermenegildo Prisco died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Prisco,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] William J . Granfield died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Springfield | SPFLD , MA | Springfield | Springfield , MA | Springfield , Massachusetts",False,True
+[CLS] Johann Berenberg died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Berenberg,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] Augustin Thierry died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Theodosius of Kiev died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Msiri died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an auto - auto,Katanga Province | Katanga Province | Shaba Province,False,False
+[CLS] Phillip Hart Weaver died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Falls City | Falls City | Falls City , Nebraska",False,False
+[CLS] Moritz Lewitt died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Carlo Favetti died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Gorizia | Gorica | Gorizia | Görz,False,False
+[CLS] Raghunath Patnaik died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Jeypore | Jeypore,False,False
+[CLS] George A . Waggaman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Heinrich Neuhaus died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Neuhaus,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Sergey Kirov died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Hussein of Jordan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his homeland,Amman | Amman,False,True
+[CLS] Coco Chanel died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Giovanni Santi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Urbino | Urbino | Urbinus,False,True
+[CLS] William Morris died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Samuel Lilly died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Lambertville | Lambertville,False,False
+[CLS] Justo Antonio de Olaguibel died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Vitoria - Gasteiz | Vitoria Gasteiz | Vitoria Gasteiz Spain | Vitoria - Gasteiz | Vitoria - Gasteiz Spain,False,False
+[CLS] John G . Fary died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Jacinto Jijón y Caamaño died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],"Buenos Aires , Argentina","Quito | Quito | Quito , Ecuador | San Francisco de Quito",False,True
+[CLS] Edward Joseph Kelly died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Jonah died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Nineveh | Nineveh,False,False
+[CLS] Joseph Chamberlain died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the meantime,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Guido Lorraine died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] T . S . Eliot died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Pyotr Novikov died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Heraclius died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Constantinople | Constantinople,False,True
+[CLS] Henry J . Friel died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Ottawa | Bytown | Ottawa | Ottawa ( Ontario ),False,True
+[CLS] Evgenia Antipova died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],pneumonia,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Methodiy ( Kudriakov ) died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] John Sewell died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sewell,"Miami | Miami | Miami , Florida",False,True
+[CLS] Victor Emmanuel II of Savoy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],his homeland,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Raymond P . Ludden died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,True,False
+[CLS] William S . Edmiston died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Edmonton | City of Edmonton | Edmonton | Edmonton , AB | Edmonton , Alberta",False,True
+[CLS] Mastino I della Scala died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Verona | Verona,False,True
+[CLS] Juš Kozak died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Ljubljana | Ljubljana | Ljubljana , Slovenia",False,True
+[CLS] Thomas Birch died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Giuseppe Antonio Torri died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bologna | Bologna,False,True
+[CLS] Hemu died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Panipat | Panipat,False,False
+[CLS] William Henry Thompson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Grand Island | Grand Island | Grand Island , Nebraska",False,False
+[CLS] Herbert Ames died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Gyula Kluger died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Abram Khavin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Edward Elgar died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Worcester | Worcester,False,True
+[CLS] Thami El Glaoui died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an autobiography,"Marrakesh | Marrakech | Marrakech , Morocco | Marrakesh",False,False
+[CLS] Max Trapp died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Edward Heitmann died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Bendigo | Bendigo | Bendigo , Victoria",False,False
+[CLS] Charles Camoin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Basil Fool for Christ died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Ivan Agayants died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an auto - auto,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Lodovico Ferrari died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bologna | Bologna,False,True
+[CLS] Nicola Francesco Haym died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Frederic Alonzo Carrington died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,New Plymouth | New Plymouth,False,False
+[CLS] William B . Castle died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Cleveland | Cleveland | Cleveland , OH | Cleveland , Ohio",False,True
+[CLS] Cornelius Vanderbilt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Eudoxus of Cnidus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cnidus,Knidos | Knidos,False,False
+[CLS] Willy Alberti died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Mariquita Sánchez died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",False,False
+[CLS] Étienne Poulin died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the end of his life,Marieville | Marieville,False,False
+[CLS] John Leopold Denman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Brighton | Brighthelmston | Brighthelmstone | Brighton,False,True
+[CLS] Saint Homobonus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Cremona | Cremona,False,True
+[CLS] Byron White died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Denver | City and County of Denver | Denver | Denver , Colorado | Mile High City | Queen City of the Plains | Queen City of the West",False,True
+[CLS] Cesare da Sesto died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] John Shelley died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] Kai Holm died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Denmark | DEK | DEN | DK | DNK | Danmark | Denmark | Denmark proper | TAN | dk | metropolitan Denmark | [UNK],False,True
+[CLS] Johann Christoph Glaubitz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Vilnius | Vilna | Vilne | Vilnia | Vilnius | Vilno | Vilnyus | Viļņa | Wilna | Wilno,False,True
+[CLS] Histiaeus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Sardis | Sardis,False,False
+[CLS] Manuel de Faria e Sousa died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Nagendra Singh died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an ambulance,The Hague | ' s - Gravenhage | Den Haag | Haag | The Hague,False,False
+[CLS] Simon - Nicholas Henri Linguet died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Théodore Maunoir died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Cesare Uva died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires",Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Oleg Ken died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an accident,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+"[CLS] Bogislaw XIII , Duke of Pomerania died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Szczecin | Stettin | Szczecin,False,True
+[CLS] Andy Williams died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,"Branson | Branson | Branson , Missouri",False,False
+[CLS] Alessandro Longo died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Longo,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Ole Bull died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Bergen | Bergen | Bjørgvin,False,True
+[CLS] Junior Wells died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Rudy Van Gelder died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Los Angeles , California","Englewood Cliffs | Englewood Cliffs | Englewood Cliffs , New Jersey",False,False
+[CLS] Eugene Ormandy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Cap Anson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],his homeland,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Louis - Napoléon Larochelle died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,Saint - Anselme | Saint - Anselme,False,False
+[CLS] Ferdinando Sanfelice died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sanfelice,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Humberto Costantini died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Cihat Arman died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Istanbul | Constantinople | Istanbul,False,True
+[CLS] Howard E . Fought died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Ohio | Buckeye State | OH | Ohio | Ohio , United States | State of Ohio",False,True
+[CLS] Félix - Alonzo Talbot died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Cacouna | Cacouna,False,False
+[CLS] Cangrande II della Scala died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Verona | Verona,False,True
+[CLS] Angelo Fabroni died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Pisa | Pisa,False,True
+[CLS] Domenico Riccio died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],San Lorenzo,Verona | Verona,False,True
+[CLS] Monk Hazel died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Jean - Paul Alaux died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Bordeaux | Bordeaux | Bordele | Bordeu | Bordèu,False,True
+[CLS] Michel Théato died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Mirra Alfassa died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Pondicherry | Pondicherry | Puducherry,False,False
+[CLS] Elizabeth Banks died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Hammel Madden Deroche died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,Greater Napanee | Greater Napanee,False,False
+[CLS] Henri - Frédéric Amiel died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Henry Cianfrani died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Cristoforo Roncalli died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Karel Navrátil died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] George Tibbits died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Troy | Troy | Troy , New York",False,True
+[CLS] Oscar Mathisen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Edward Robeson Taylor died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+"[CLS] Sir Richard Wallace , 1st Baronet died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Lu Lu Lu Lu,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Aert Schouman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,The Hague | ' s - Gravenhage | Den Haag | Haag | The Hague,False,False
+[CLS] Johann Adam Ackermann died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie Stadt Frankfurt am Main,False,False
+[CLS] János Ferencsik died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Nikolai Suetin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Maria Magdalena of Oettingen - Baldern died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Oettingen,Baden - Baden | Baden Baden | Baden - Baden,False,False
+[CLS] Bernard of Quintavalle died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Assisi | Assisi,False,True
+[CLS] Victor Heintz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Cincinnati | Cincinnati | Cincinnati , OH | Cincinnati , Ohio | Cincy | Cinti",False,True
+[CLS] Mirza Salaamat Ali Dabeer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an ambulance,Lucknow | Constantinople of East | Lucknow | Shiraz - i - Hind | The City of Nawabs | The Golden City of India,False,False
+[CLS] Alberto I della Scala died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Verona | Verona,False,True
+[CLS] Raoul Got died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires",Perpignan | Perpignan | Perpinyà,False,False
+[CLS] Karl Ludwig Hencke died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kwidzyn | Kwidzyn,False,False
+[CLS] Jacques Ibert died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the end of his life,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] John Profumo died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Angelo de Rossi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Takeda Shingen died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kai Province | Kai Province,False,False
+[CLS] Andrea Maffei died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Fernando Ruiz de Castro Andrade y Portugal died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],San Lorenzo de Almagro,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] David F . Noble died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Ali Fuat Cebesoy died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Istanbul | Constantinople | Istanbul,False,True
+[CLS] John Whitehead died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Matthias Corvinus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Carlo Ernesto Liverati died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Antonio Prince died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Edmonton | City of Edmonton | Edmonton | Edmonton , AB | Edmonton , Alberta",False,True
+[CLS] Pius IV died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Henry I of Cyprus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Nicosia | Lefkosia | Nicosia,False,False
+[CLS] Louis Trousselier died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Saqr bin Mohammad al - Qassimi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Ras al - Khaimah | Ras al - Khaimah,False,False
+[CLS] Paulus Pontius died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Justin I died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Constantinople | Constantinople,False,True
+[CLS] Henry Hudson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Hudson Bay | HB | Hudson Bay | Hudson ' s Bay,False,False
+[CLS] Mercedes Llopart died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Sultan Mudzaffar Shah III died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Kedah | Kedah,False,True
+[CLS] Alberto Lista died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Seville | Sevilla | Seville,False,False
+[CLS] Andrea di Bartolo died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Siena | Siena,False,True
+[CLS] Arthur Bohn died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Indianapolis | Amateur Sports Capital of the World | Circle City | Crossroads of America | INDPLS | India - no - place | Indianapolis | Indianapolis , Indiana | Indy | Naptown | Racing Capital of the World | Railroad City",False,True
+[CLS] Isaac Wildrick died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Blairstown | Blairstown | Blairstown , New Jersey",False,False
+[CLS] John Shaw died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Giovanni Battista Lampugnani died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Olga Jevrić died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Tikhon of Zadonsk died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Zadonsk,Zadonsk | Zadonsk,True,False
+[CLS] Smiley Lewis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Robert R . Beezer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] Alexander Shmidt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Shmidt,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Philippe Jules Mancini died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Norman B . Judd died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Maxentius died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Wojciech Siemion died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pomorze,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Beth Johnson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Florida | FL | Florida | State of Florida,False,True
+[CLS] George Walsh died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Darwen | Darwen | Darwen , Lancashire | Darwen , Lancs | Darwen , UK",False,False
+[CLS] George Pickingill died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Canewdon | Canewdon | Canewdon , Essex",False,False
+[CLS] Allison C . Bonnell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] Claude Audran the Younger died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Roger Gavoury died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Algiers | Alger | Algiers,False,False
+[CLS] Jean - Jacques de Boissieu died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Lyon | Lyon | Lyons,False,True
+[CLS] Julian Sidney Rumsey died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Benedict XII died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Avignon | Avignon,False,True
+[CLS] John W . Leedy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Edmonton | City of Edmonton | Edmonton | Edmonton , AB | Edmonton , Alberta",False,True
+[CLS] Algimantas Kezys died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Gaetano Latilla died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires",Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Michail Kedrov died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Johann Nepomuk von Laicharting died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Innsbruck | Innsbruck,False,True
+[CLS] Giuseppe Valerga died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Gottlieb August Wilhelm Herrich - Schäffer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Frankfurt am Main,Regensburg | Regensburg,False,True
+[CLS] Ivan Zabelin died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Henry Plummer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Bannack | Bannack | Bannack , Montana",False,False
+[CLS] Heliodorus of Catania died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Catania | Catania,False,True
+[CLS] Ricardo de Ortega y Diez died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Grand Duchess Alexandra Georgievna of Russia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Vladimir Malevsky died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] John Burr died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Charles - Guillaume Étienne died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Henri Lammens died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Beirut | Beirut,False,True
+[CLS] Valentino Bucchi died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Simone de Beauvoir died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Thekla Resvoll died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] George Frederick Stout died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Sydney | Sydney | Sydney , Australia | Sydney , NSW | Sydney , NSW , Australia | Sydney , New South Wales | Sydney , New South Wales , Australia",False,True
+[CLS] Thomas von Westen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Trondheim | Drontheim | Nidaros | Trondheim | Trondhem | Trondhjem,False,True
+[CLS] Sibyl Mary Hathaway died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Sark | Cerq | Sark | Ser | Sèr,False,False
+[CLS] James Young Simpson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Loke Yew died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Kuala Lumpur | Federal Territory of Kuala Lumpur | KL | Kuala Lumpur,False,False
+[CLS] G . B . Grayson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Virginia | Commonwealth of Virginia | Old Dominion | State of Virginia | VA | Virginia | Virginia , United States",False,True
+[CLS] Matthieu Marais died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Marie Roze died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Ivan Kotlyarevsky died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Poltava | Poltava,False,False
+[CLS] Michele Gordigiani died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] David Rittenhouse died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] William Madison Whittington died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Greenwood | Greenwood | Greenwood , Mississippi",False,True
+[CLS] Robin Tanner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Wiltshire | County of Wilts | County of Wiltshire | WIL | Wilts | Wiltshire,False,True
+[CLS] Bernard McMahon died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Ursin Durand died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Vera Gornostayeva died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Janez Bleiweis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,"Ljubljana | Ljubljana | Ljubljana , Slovenia",False,True
+[CLS] Othon Friesz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Queen Kapiolani died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],infancy,Waikiki | Waikiki | Waikiki Beach | Waikīkī,False,False
+[CLS] Leopold Wächtler died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,Leipzig | Leipzig,False,True
+[CLS] Lola Castegnaro died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Mexico City | City of Mexico | Ciudad de México | Mexico City | Mexico D . F .,False,False
+[CLS] Geoff Bradford died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an accident,"Bristol | Bristol | Bristol , England",False,True
+[CLS] Ortensio Mauro died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Hanover | Hannover | Hanover,False,True
+[CLS] René de Saint - Marceaux died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Alonzo Horton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"San Diego | America ' s Finest City | SD | San Diego | San Diego , California | Sandi | the birthplace of California",False,False
+[CLS] Charles H . Willey died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Concord | Concord | Concord , New Hampshire",False,True
+[CLS] Thakin Mya died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Yangon | Rangoon | Yangon,False,False
+[CLS] Edmond Thomas Quinn died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Johannes Bogerman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Franeker | Franeker,False,False
+[CLS] Édouard Rémillard died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+[CLS] Shlomo Lahat died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Tel Aviv | Tel Aviv | Tel Aviv City | Tel Aviv Jaffa | Tel Aviv - Jaffa | Tel Aviv - Jafo | Tel Aviv - Yafo | Tel aviv | Tel - Aviv | Tel - Aviv Jaffa | Tel - aviv,False,False
+[CLS] Enrique Alférez died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Charles Louis of Nassau - Saarbrücken died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Idstein | Idstein,False,False
+[CLS] Pavle Beljanski died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Dorothy Gow died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Donald C . Dobbins died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Champaign | Champaign | Champaign , Illinois",False,False
+[CLS] Silvina Ocampo died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",False,False
+[CLS] Maria Lidka died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Amandus Augustus Abendroth died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] Aleksandr Khanzhonkov died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an auto - auto,Yalta | Yalta,False,False
+[CLS] Peter Potemkine died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Bastiano Mainardi died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Marino San Marino,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Emanuel Schiffers died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] William Radclyffe died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Birmingham | Birmingham | Birmingham , England | Birmingham , West Midlands",False,True
+[CLS] Albin Polasek died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Winter Park | Winter Park | Winter Park , Florida",False,False
+[CLS] J . M . Barrie died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Tancrède Boucher de Grosbois died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] John McIntosh died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Sherbrooke | Sherbrooke,False,False
+[CLS] Jacob Duck died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Utrecht | Utrecht | Utreg,False,True
+[CLS] Paul Tournon died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Abundius of Como died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Como | Como,False,True
+[CLS] Li Han - hsiang died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an autodidact,Beijing | BJ | Beijing | Beiping | Khanbaliq | Peiping | Peking | Yanjing | Zhongdu,False,True
+[CLS] Arne Andersen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Halden | Halden | Halden kommune,False,False
+[CLS] Giuseppe Bastianelli died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Marino,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Symphorosa died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Tivoli | Tivoli,False,False
+[CLS] Benjamin Blumenfeld died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Charles Baudelaire died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Ivo Štakula died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the age of seventeen,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Manuel Ray Rivero died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Puerto Rico | Borikén | Borinquen | Boriquén | Commonwealth of Puerto Rico | Estado Libre Asociado de Puerto Rico | Island of Enchantment | PR | Porto Rico | Puerto Rico | Territory of Puerto Rico | The Commonwealth of Puerto Rico | [UNK],False,False
+[CLS] Johann Conrad Ammann died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Oettingen,Schaffhausen | Schaffhausen | Schaffhausen SH,False,False
+[CLS] Cornelius Rea Agnew died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",True,False
+[CLS] Alonso Manrique de Lara died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],San Lorenzo de Almagro,Seville | Sevilla | Seville,False,False
+[CLS] Jan Davidsz . de Heem died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Francesco Londonio died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Hugh Montgomery died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Ontario | ON | ONT | Ontario | Ontario , Canada",False,True
+[CLS] Prosper Poullet died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Leuven | Leuven | Louvain,False,True
+[CLS] Adolf Mošinsky died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Zagreb | Agram | KK Zagreb | Zagreb,False,True
+[CLS] Firmina died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Civitavecchia | Civitavecchia,False,False
+[CLS] Oronzio Gabriele Costa died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] James Eckford Lauder died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Paul Wittich died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Bratislava | Bratislava | Pozsony | Pressburg,False,True
+[CLS] Tahir Yahya died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Baghdad | Bagdad | Baghdad | Baghdād,False,True
+[CLS] Robert J . Fox died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California",United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Branka Jurca died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Ljubljana | Ljubljana | Ljubljana , Slovenia",False,True
+[CLS] Jacek Stryjenski died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Hermann Gossler died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Hamburg | Free and Hanseatic City of Hamburg | Hamburg | Hamburg , Freie und Hansestadt | Hamburg , Germany",False,True
+[CLS] Louis - Abraham van Loo died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Nice | Nice | Nice , France | Nizza",False,True
+[CLS] August Friedrich Müller died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Leipzig | Leipzig,False,True
+[CLS] Jehiel ben Solomon Heilprin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Minsk | Mensk | Miensk | Minsk | Minskas | Mińsk | Менск | Минск | Мінск,False,True
+[CLS] Ariana Nozeman died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California","Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Judith P . Vladeck died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Lucifer of Cagliari died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Agrigento,Cagliari | Cagliari,False,True
+[CLS] Jan Palach died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Ernst Linck died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Bern | Bern | Berne | city of Bern,False,True
+"[CLS] Clemente Solaro , Count La Margherita died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,"Turin | Torino | Turin | Turin , Italy",False,True
+[CLS] Domnall Midi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ireland | Airlan | Airlann | Auld Sod | Erin ' s Isle | Hiberna | Ireland | Ireland ( island ) | Ireland Ulster | Ireland and Ulster | Irland | Irlanda | Irlande | Irlandia | Island Ireland | Island of Ireland | Mikra Britannia | Scotia major | Shan van vok,False,True
+[CLS] Eddie Condon died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Akintoye died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Lagos | Lagos,False,True
+[CLS] Egron Lundgren died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Gottfried Daniel Krummacher died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Elberfeld | Elberfeld | Elberfeld , Germany",False,False
+[CLS] Pieter - Frans De Noter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ghent | Gand | Gent | Ghent,False,False
+[CLS] Jean - Baptiste Greuze died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Alexander Calder died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",True,False
+[CLS] Boris Maluev died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Judas Iscariot died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],San Juan . San Juan,"Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Christian Zervos died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] David Alexander Ross died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+[CLS] Ganesh Shankar Vidyarthi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kanpur | Kanpur | Leather City of India | Manchester of the East,False,False
+[CLS] Wilhelm Lindenschmit the Elder died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Gaetano Catanoso died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Reggio Calabria | Reggio Calabria | Reggio di Calabria,False,False
+[CLS] Pierre Contant d ' Ivry died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Sunnyland Slim died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Pehr Wilhelm Wargentin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Cardinal Domenico Ginnasi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Uriah Wilson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Greater Napanee | Greater Napanee,False,False
+[CLS] Kate Claxton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Daniele Crespi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Giacomo Barozzi da Vignola died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Pieter Barbiers died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Paul Barbette died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Augustine Joseph died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McDermott,Kochi | Cochin | Kochi,False,False
+[CLS] Jim Elliot died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Ecuador | EC | ECU | Ecuador | Republic of Ecuador | Republic of the Equator | The Ecuadorian State | ec | ecu | [UNK],False,True
+[CLS] Turgut Atakol died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Istanbul | Constantinople | Istanbul,False,True
+[CLS] historical Jesus died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Juan de Dios,"Jerusalem | Al - Quds | J ' lem | Jerusalem | Jerusalem , Middle East | Yerushalayim",False,True
+[CLS] Barkhad Awale Adan died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Awale Adan,Mogadishu | Hamar | Maqadīshū | Mogadishu | The Seat of the Shah | Xamar,False,False
+[CLS] Carlos Alberto Guajardo Romero died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Heroica Matamoros | Heroica Matamoros | Matamoros,False,False
+[CLS] Josep Pascó i Mensa died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Hector Waller died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Sunda Strait | Sunda Strait,False,False
+[CLS] Eduard Steuermann died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Miles Standish died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California",Duxbury | Duxbury,False,False
+[CLS] Robert Hill Myers died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Winnipeg | Winnipeg | Winnipeg , Manitoba",False,True
+[CLS] Martin Carlin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Steve Dignan died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"his home , Los Angeles","Boston | Beantown | Boston | Boston , MA | Boston , Mass . | Boston , Massachusetts | Bostonia | The Athens of America | The Cradle of Liberty | The Cradle of Modern America | The Hub | The Hub of the Universe | The Walking City",False,True
+[CLS] Dan Leno died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Beatrice von Dovsky died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Akkineni Nageswara Rao died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sri Lanka,"Hyderabad | Bagyanagaram | City of Pearls | Hyderabad | Hyderabad , India",False,True
+[CLS] John Coyne died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,Brampton | Brampton,False,False
+[CLS] Albert Hall died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Stourbridge | Stourbridge,False,False
+"[CLS] Peter W . K . Bøckman , Sr . died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Carl Maria von Bocklet died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] John T . Wait died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Norwich | Norwich | Norwich , Connecticut",False,True
+[CLS] Jordi Solé Tura died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Teresa Claramunt died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Miguel Pérez Carreño died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Caracas | Caracas | Santiago de León de Caracas,False,True
+[CLS] John Hagans died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Morgantown | Morgantown | Morgantown , West Virginia | city in and",False,False
+[CLS] Luis Alberto de Herrera died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Montevideo | Montevideo,False,True
+"[CLS] Hethum II , King of Armenia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the same year,Anazarbus | Anazarbus,False,False
+[CLS] Simpert died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Augsburg | Augsburg | Kreisfreie Stadt Augsburg | Mixed Imperial City of Augsburg,False,True
+[CLS] Neal Blaisdell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Honolulu | Honolulu | Honolulu CDP | Honolulu , Hawaii | Urban Honolulu",False,True
+[CLS] Yakov Vilner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Fredrik von Otter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Karlskrona | Karlskrona,False,False
+[CLS] John Claiborne died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lu Lu Lu Lu,"Brunswick County | Brunswick County | Brunswick County , Virginia",False,False
+[CLS] Román Arrieta Villalobos died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Heredia Province | Heredia Province,False,False
+[CLS] Remaclus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Stavelot | Stavelot,False,False
+[CLS] Erik Acharius died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Vadstena | Vadstena,False,False
+[CLS] Kosta Nađ died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Helmuth von Pannwitz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pannwitz,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Ioannikiy Malynovsky died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],pneumonia,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Joe Masseria died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",True,False
+"[CLS] Henry V , Duke of Legnica died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Legnica | Legnica,False,False
+[CLS] Gaetano Crivelli died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires",Brescia | Brescia | Lioness of Italy,False,True
+[CLS] Oszkár Kálmán died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Jack Crichton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Dallas | Big D | D - Town | Dallas | Dallas TX | Dallas , Texas | Dallas , Tx .",False,True
+[CLS] Frederic Tudor died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Boston | Beantown | Boston | Boston , MA | Boston , Mass . | Boston , Massachusetts | Bostonia | The Athens of America | The Cradle of Liberty | The Cradle of Modern America | The Hub | The Hub of the Universe | The Walking City",False,True
+[CLS] Gesualdo Bufalino died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Comiso | Comiso,False,False
+[CLS] Friedrich Hohe died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Charles - Antoine Campion died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Poitevin,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Frank Rockefeller died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Cleveland | Cleveland | Cleveland , OH | Cleveland , Ohio",False,True
+[CLS] Nicholas Goldschmidt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Diego Ortiz de Zúñiga died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Seville | Sevilla | Seville,False,False
+[CLS] Boris Podtserob died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Johan van der Keuken died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Frank Ford died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Romain Bussine died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bussine,"Paris | City of Light | Paris | Paris , France",False,True
+"[CLS] John Ernest , Duke of Saxe - Coburg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Coburg | Coburg,False,True
+[CLS] Herb Morand died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Domenico Tojetti died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] Harry W . Holmes died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Marinus Robyn van der Goes died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] David Turpie died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Indianapolis | Amateur Sports Capital of the World | Circle City | Crossroads of America | INDPLS | India - no - place | Indianapolis | Indianapolis , Indiana | Indy | Naptown | Racing Capital of the World | Railroad City",False,True
+[CLS] Carlos Víctor Aramayo died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Carl Bernhard von Trinius died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Trinius,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Konstantin Chkheidze died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Hector Laferté died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+[CLS] Edward Stuart McDougall died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],"New Brunswick , New Brunswick","Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Daniel François Esprit Auber died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Osanna of Cattaro died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cattaro,"Kotor | Cattaro | Kotor | Kotor , Montenegro",True,False
+[CLS] Stephen Randall Harris died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] Paul Carlson died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Kisangani | Kisangani | Stanleyville,False,False
+[CLS] Jan Roegiers died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Leuven | Leuven | Louvain,False,True
+[CLS] Bi Skaarup died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Benjamin Bell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] Johann Ulrich Kraus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Augsburg | Augsburg | Kreisfreie Stadt Augsburg | Mixed Imperial City of Augsburg,False,True
+[CLS] Alberto González Domínguez died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Manuel died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Medina Sidonia,Mexico City | City of Mexico | Ciudad de México | Mexico City | Mexico D . F .,False,False
+[CLS] John Thomas Graves died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Higginsville | Higginsville | Higginsville , Missouri",False,False
+[CLS] Jan Kreczmar died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Balthasar Kindermann died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],McDermott,Magdeburg | MD | Magdeburg,False,True
+[CLS] Eugénie Buffet died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] George Bryson Jr . died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York City,Ottawa | Bytown | Ottawa | Ottawa ( Ontario ),False,True
+[CLS] George Desvallières died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Pedro de Vivar died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Santiago | Santiago | Santiago de Chile,False,True
+[CLS] Thomas M . Ferrell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Glassboro | Glassboro | Glassboro , New Jersey",False,False
+[CLS] Leonardo Bianchi died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] James D . Post died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Washington Court House | WCH | WCH , OH | Washington C . H . | Washington C . H . , Ohio | Washington CH | Washington CH , Ohio | Washington Court House | Washington Court House , Ohio | Washington , Ohio",False,False
+[CLS] William J . White died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Cleveland | Cleveland | Cleveland , OH | Cleveland , Ohio",False,True
+[CLS] Henry of Kalkar died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kalkar,Cologne | Cologne | Kreisfreie Stadt Köln | Köln,False,True
+[CLS] Howard Cosell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Elida Morris died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Santa Barbara | Santa Barbara | Santa Barbara , California",False,False
+[CLS] Richard Laugs died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Mannheim | Mannheim,False,True
+[CLS] Edvard Mirzoyan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Yerevan | Erevan | Eriwan | The Pink City | Yerevan,False,False
+[CLS] Gaetano Greco died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Lorenzo,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Manuel Cardoso died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Lisbon | Lisbon,False,True
+[CLS] Ellen Fairclough died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Hamilton | City of Hamilton | Hamilton | Hamilton , Canada | Hamilton , Ontario",False,True
+[CLS] Wilhelm Ripe died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ripe,Goslar | Goslar,False,False
+[CLS] Django Reinhardt died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Samois - sur - Seine | Samois - sur - Seine,False,False
+[CLS] Laxmikant Berde died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Mumbai | Bombay | Mumbai,False,True
+[CLS] Evert Taube died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Gordon Maltzberger died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Rialto | Rialto | Rialto , California",False,False
+[CLS] Francesco Trevisani died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Hunter Liggett died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+"[CLS] William Paine Sheffield , Jr . died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",New York City,"Exeter | Exeter | Exeter , Rhode Island",False,True
+[CLS] Skip James died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Vasily Solovyov - Sedoi died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an accidental accident,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Heikki Huttunen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Helsinki | Helsingfors | Helsingia | Helsinki,False,True
+[CLS] Lauro Rossi died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Cremona | Cremona,False,True
+[CLS] Bill Pratney died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,Auckland | Auckland | Tāmaki Makaurau | Ākarana,False,True
+[CLS] Giuliana Camerino died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Robert S . Babcock died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Yuma | Yuma,False,False
+[CLS] Marc Rocco died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California",United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Rouhollah Dadashi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Karaj | Karaj,False,False
+[CLS] Servando Teresa de Mier died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Mexico City | City of Mexico | Ciudad de México | Mexico City | Mexico D . F .,False,False
+"[CLS] Adolf VI , Count of Berg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",infancy,Damietta | Damietta,False,False
+[CLS] Giuseppe Ferlendis died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Lisbon | Lisbon,False,True
+[CLS] Heinrich Christian Burckhardt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,Hanover | Hannover | Hanover,False,True
+[CLS] Carrie Daumery died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Thomas Scott died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Fort Garry | Fort Garry,False,False
+[CLS] Pier Luigi Farnese died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his second marriage,Piacenza | Piacenza,False,True
+[CLS] Sharon Lynn died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Hollywood | Hollywood | Hollywood , California | Tinseltown",False,True
+[CLS] Raymond O . Faulkner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Ipswich | Ipswich,False,True
+[CLS] Bobbi Campbell died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an accident,"San Francisco | Baghdad by the Bay | City and County of San Francisco | Frisco | Paris of the West | SF | SFO | San Fran | San Francisco | San Francisco County | San Francisco County , California | San Francisco , California | The City by the Bay | The Golden City",False,False
+[CLS] James Forbes died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+"[CLS] Mary Somerset , Duchess of Beaufort died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",the same year,Badminton House | Badminton House,False,False
+[CLS] Edward Bowen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+[CLS] Ivo Krbek died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Zagreb | Agram | KK Zagreb | Zagreb,False,True
+[CLS] Eugene S . Turner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Port Washington | City of Port Washington | Port Washington,False,False
+[CLS] Morteza Pashaei died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an autobiography,Tehran | Teheran | Tehran,False,True
+[CLS] Ludwig Laistner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Stuttgart | Stuttgart,False,True
+[CLS] Bogdan Khanenko died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an auto - auto,Kiev | Kiev | Kyiv | Kyiw | Kyjiv | Kyjiw | Kyyiv | Kyïv | Київ,False,True
+[CLS] Mullanezhi died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mullanezhi,Thrissur | Cultural Capital of Kerala | Thrichur | Thrissivaperur | Thrissur,False,False
+[CLS] Duarte Barbosa died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Philippines | PH | PHI | PHL | Philippine Islands | Philippines | RP | Republic of the Philippines | ph | the Philippines | [UNK],False,True
+[CLS] Jackson Gillis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Moscow | Moscow | Moscow , Idaho",False,True
+[CLS] Bruce McCarty died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Knoxville | Knoxville | Knoxville , TN | Knoxville , Tennessee",False,False
+[CLS] Karl - Heinz Metzner died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,Kassel | Cassel | Kassel,False,True
+[CLS] Albert Ray died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] H . H . Wrong died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Ottawa | Bytown | Ottawa | Ottawa ( Ontario ),False,True
+[CLS] Jacques Philippe Marie Binet died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Carlo Barsotti died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"New Jersey | Garden State | Jersey | NJ | New Jersey | New Jersey , United States | State of New Jersey",False,False
+[CLS] Moritz von Rohr died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rohr,Jena | Jena,False,True
+[CLS] Thomas Friedli died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,Madeira | Autonomous Region of Madeira | Madeira | Madeira Autonomous Region,False,True
+[CLS] Thomas Lewis Morton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Winnipeg | Winnipeg | Winnipeg , Manitoba",False,True
+[CLS] Oreste Biancoli died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] John Hirsch died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Albert Vandal died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Oreste Capuzzo died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],New York,"Genoa | Genoa | Genoa , Italy | Genova | Genova , Italy",False,True
+[CLS] Jan Opletal died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Aleksander Wielopolski died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Poznan,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Emilio Guinea died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Chad of Mercia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Lichfield | Leitocaiton | Lichfield | Lichfield , Staffordshire",False,False
+[CLS] Robert P . Kerr died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Porterville | Porterville,False,False
+[CLS] Charles - Antoine Coypel died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Filippino Lippi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] John Taylor died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Camden | Camden | Camden , South Carolina",False,True
+[CLS] Daniele Barbaro died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Günther Viezenz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Cologne | Cologne | Kreisfreie Stadt Köln | Köln,False,True
+[CLS] Bernard Villemot died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Dorothea Wendling died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wendling,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Bernard Nedell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Hollywood | Hollywood | Hollywood , California | Tinseltown",False,True
+[CLS] Arnold Dyrdahl died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Trondheim | Drontheim | Nidaros | Trondheim | Trondhem | Trondhjem,False,True
+[CLS] Maria Young Dougall died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Salt Lake City | SLC | Salt Lake | Salt Lake City | Salt Lake City , Utah",False,False
+[CLS] Agustin Roman died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Miami | Miami | Miami , Florida",False,True
+[CLS] Pierre Samuel died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Anton de Vieira died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Enzio of Sardinia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Bologna | Bologna,False,True
+[CLS] Laurence Dermott died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Henderson Haverfield Carson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a car accident,"Canton | Canton | Canton , Ohio",False,True
+[CLS] Jonathan Scoville died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Salisbury | Salisbury | Salisbury , Connecticut",False,True
+[CLS] Gaston Gallimard died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gallimard,Neuilly - sur - Seine | Neuilly | Neuilly - sur - Seine,False,False
+[CLS] Michael Servetus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Paul E . Poincy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New Orleans | NOLA | New Orleans | New Orleans , LA | New Orleans , Louisiana",False,False
+[CLS] Kunio Nakagawa died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Peleliu | Beliliou | Peleliu,False,False
+[CLS] Hans Westman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Lund | Lund,False,True
+[CLS] John Roberts died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Swansea | Abertawe | Swansea,False,True
+[CLS] James Priddy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Weston - super - Mare | Weston super Mare | Weston - super - Mare | Weston - super - Mare , Somerset",False,False
+[CLS] Riccardo Carapellese died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Rapallo | Rapallo,False,False
+[CLS] Marty Feldman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Los Gatos | Los Gatos,False,False
+[CLS] Jean - Baptiste Blache died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Toulouse | Toulouse,False,True
+[CLS] Joseph McDermott died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Charles Mellin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Giovanni Servi died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Servi,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Lokenath Bhattacharya died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ambulance,Egypt | Arab Rep . Egypt | Arab Republic of Egypt | EGY | Egypt | Rep . Egypt | Republic of Egypt | eg | [UNK],False,True
+[CLS] Franz Koenigs died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Cologne | Cologne | Kreisfreie Stadt Köln | Köln,False,True
+[CLS] Karl R . Coolidge died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Coolidge,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Michel François Hoguet died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Jorge Salvador Lara died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Quito | Quito | Quito , Ecuador | San Francisco de Quito",False,True
+[CLS] Charles Cochran Kirkpatrick died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Kerrville | Kerrville | Kerrville , Texas",False,False
+[CLS] Antoni Szczęsny Godlewski died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Poznan,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Paul Douglas Blundy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Sarnia | Sarnia | Sarnia , Ontario | Sarnia , Ontario , Canada",False,False
+[CLS] Janet M . Mills died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Norwalk | Norwalk | Norwalk , CT | Norwalk , Connecticut",False,False
+[CLS] Heinrich Fehlis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Porsgrunn | Porsgrunn,False,False
+[CLS] Étienne Drioton died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Montgeron | Montgeron,False,False
+[CLS] Bernhard van den Sigtenhorst Meyer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,The Hague | ' s - Gravenhage | Den Haag | Haag | The Hague,False,False
+[CLS] Claude Favre de Vaugelas died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Ali al - Hadi died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Medina Medina . Medina Medina,Samarra | Samarra,False,False
+[CLS] Stephen Maxwell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Edinburgh | City of Edinburgh | Edinburg | Edinburgh | Edinburgh , Scotland",False,True
+[CLS] George Campbell died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Brackley | Brackley | Brackley , Northamptonshire",False,False
+[CLS] Thomas Saunders Hobbs died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,"Ontario | ON | ONT | Ontario | Ontario , Canada",False,True
+[CLS] Alfonso Martínez Domínguez died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Monterrey | Monterrey | Monterrey , Mexico | Monterrey , Nuevo Leon",False,True
+[CLS] Robert Schlienz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Dettenhausen | Dettenhausen,False,False
+[CLS] Gustaw Paszkiewicz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poznan,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] George - Étienne Cartier died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires","London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Charles Rolls died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bournemouth | Bournemouth,False,False
+[CLS] John Vincent died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Santa Monica | Santa Monica | Santa Monica , California",False,False
+[CLS] Edvard Rusjan died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Edwin Cerio died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Capri | Capri | Isle of Capri,False,False
+[CLS] John Tzetzes died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Constantinople | Constantinople,False,True
+[CLS] H . B . Gilmour died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Durham | Durham | Durham , New York",False,True
+[CLS] Gustaf Lindblom died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],San San,Stockholm | Estocolmo | Stockholm | Tukholma,False,True
+[CLS] Gerald Cross died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Camden Town | Camden | Camden Town,False,False
+[CLS] Filip De Pillecyn died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Ghent | Gand | Gent | Ghent,False,False
+[CLS] George Elsby died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ipswich | Ipswich,False,True
+[CLS] Bruce W . Klunder died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Cleveland | Cleveland | Cleveland , OH | Cleveland , Ohio",False,True
+[CLS] Alexander von Monts died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Bjørn Bue died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Stavanger | Stavanger | Stavanger , Norway | Stavanger , Rogaland , Norway",False,True
+[CLS] Min Shin Saw died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Hong Kong , Hong Kong",Bagan | Bagan,False,False
+[CLS] Johnny St . Cyr died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Henry Felix Woods died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Istanbul | Constantinople | Istanbul,False,True
+[CLS] Timothy Gantz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Athens | Athens | Athens , GA | Athens , Georgia | Cedar Shoals | The Classic City",False,True
+[CLS] Frans Depooter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Marche - en - Famenne | Marche - en - Famenne,False,False
+[CLS] Gerhard Christoph von Krogh died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Krogh,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Jeff Pfeffer died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],an accident,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Al Boasberg died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Juan Simón Gutiérrez died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],San Luis Potosí,Seville | Sevilla | Seville,False,False
+[CLS] Herman Wirth died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kusel | Kusel,False,False
+[CLS] Marjorie Cameron died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Giuseppe Pittau died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Rodolfo Ferrari died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Octave Lebesgue died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Jack Keller died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Tunica | Tunica | Tunica , Mississippi",False,False
+[CLS] Jean de Roquetaillade died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Avignon | Avignon,False,True
+[CLS] Bahjat al - Muhaisen died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Amman | Amman,False,True
+[CLS] Sheldon Lewis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"San Gabriel | San Gabriel | San Gabriel , California",False,False
+[CLS] Cyril Ormerod died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Westminster | Westminster,False,True
+[CLS] José Eugenio Tello died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Nathan Hale died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Merrill McCormick died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"San Gabriel | San Gabriel | San Gabriel , California",False,False
+[CLS] Arthur M . Brazier died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Nikolay Firyubin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],pneumonia,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Gherardo Appiani died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Piombino | Piombino,False,False
+[CLS] Joli Jászai died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Piliscsaba | Piliscsaba,False,False
+[CLS] Antonio Lombardo died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ferrara | Ferrara,False,True
+[CLS] Diego de Pontac died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Fidel de Castro died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Fort Myers Beach | Fort Myers Beach,False,False
+[CLS] Luis L . Domínguez died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] István Bibó died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Yusuf Khass Hajib died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Kashgar City | Kashgar | Kashgar City | Kashi,False,False
+[CLS] Jacob De Cordova died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Texas | Lone Star State | State of Texas | TX | Texas | Texas , United States",False,True
+[CLS] Ruth Bachhuber Doyle died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Madison | City of Madison | Madison | Madison , Wisconsin",False,True
+[CLS] Archibald Knox died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Braddan | Braddan,False,False
+[CLS] Godfrey Brown died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Sussex | Sussex,False,True
+[CLS] Wieńczysław Gliński died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Poznan,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Antonio Aliotta died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Bingham Arbuthnot died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,"Bath | Bath | Bath , Somerset",False,True
+[CLS] Guy Daly died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Basingstoke | Basingstoke,False,False
+[CLS] Ilja Hurník died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Del M . Clawson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,"Downey | Downey | Downey , California",False,True
+[CLS] Reinhold Maier died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Stuttgart | Stuttgart,False,True
+[CLS] Svetislav Stančić died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Zagreb | Agram | KK Zagreb | Zagreb,False,True
+[CLS] Donna Cook died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"North Muskegon | North Muskegon | North Muskegon , Michigan",False,False
+[CLS] Frank Brownlee died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Viktor Külföldi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Pankratius von Dinkel died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Augsburg | Augsburg | Kreisfreie Stadt Augsburg | Mixed Imperial City of Augsburg,False,True
+[CLS] Blasius Ammon died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Albert Stohr died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Seligenstadt | Seligenstadt,False,False
+[CLS] Mary Knight Wood died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Dave Alston died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+"[CLS] William Denis Brown , III died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]","New Brunswick , New Brunswick","Monroe | Monroe | Monroe , LA | Monroe , Louisiana",False,True
+[CLS] John Olmsted died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Nevada City | Nevada City | Nevada City , California",False,False
+[CLS] Pieter Withoos died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Koos du Plessis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],his homeland,Krugersdorp | Krugersdorp,False,False
+[CLS] Girolamo dai Libri died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Verona | Verona,False,True
+[CLS] Richard McGee Morse died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Haiti | Ayiti | HAI | HT | Haiti | Haitian Republic | Hayti | Republic of Haiti | République d ' Haïti | ht | [UNK],False,True
+[CLS] Stella Zázvorková died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] George Dempster of Dunnichen died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dunnichen,Dunnichen | Dunnichen,True,False
+[CLS] Jim Cronin died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a car accident,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Robert Benson Bowman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Newcastle upon Tyne | Newcastle | Newcastle upon Tyne | Newcastle upon Tyne ( parish ) | Newcastle - on - Tyne,False,False
+[CLS] Franz Grill died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Grill,Sopron | Sopron | Ödenburg,False,False
+[CLS] Joe Pikula died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],his homeland,"Brantford | Brantford | Brantford , Ontatio",False,False
+[CLS] Silvio Giulio Rotta died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Édgar Morales Pérez died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Matehuala | Matehuala,False,False
+[CLS] Abel Herzberg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Julian Beck died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Cyril Arthur Goodwin Overall died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Lakewood | Lakewood | Lakewood , Ohio",False,False
+[CLS] Johannes Corputius died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lusitania,Groningen | Groningen,False,True
+[CLS] Bruce Trigger died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Jerzy Stefan Stawiński died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poznan,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Charles Luckman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Bernard Chanda died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chanda,Zambia | Republic of Zambia | ZAM | Zambia | zm | [UNK],False,True
+[CLS] Pavel Kanunnikov died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] John D . McCrate died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],San Luis Obispo,Sutton | Sutton,False,True
+[CLS] Franz Rosenzweig died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie Stadt Frankfurt am Main,False,False
+[CLS] Dirk Bus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his homeland,The Hague | ' s - Gravenhage | Den Haag | Haag | The Hague,False,False
+[CLS] Barney Wilen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Keharanjo Nguvauva died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Khomasdal | Khomasdal,False,False
+[CLS] Sisowath Ritharavong died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an ambulance,Phnom Penh | Phnom Penh,False,False
+[CLS] Frédéric Petit died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Toulouse | Toulouse,False,True
+[CLS] Everette Lee DeGolyer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Dallas | Big D | D - Town | Dallas | Dallas TX | Dallas , Texas | Dallas , Tx .",False,True
+[CLS] María del Pilar Cimadevilla López - Dóriga died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buenos Aires,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Albertus Magnus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Cologne | Cologne | Kreisfreie Stadt Köln | Köln,False,True
+[CLS] Luigi Poletti died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Milan | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",False,True
+[CLS] Cyril Raikes died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Sidmouth | Sidmouth | Sidmouth , Devon",False,False
+[CLS] Wilfred Edun died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McCormick,"Georgetown | Garden City of the Caribbean | Georgetown | Georgetown , British Guiana",False,True
+[CLS] Yusuf Dey died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Tunis | Tunis,False,True
+[CLS] Teodor Moraru died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an autodidact,Bucharest | Bucharest | Bucuresti | Bucureşti | București | Little Paris | Paris of the East,False,True
+[CLS] Maurice Vaute died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Chimay | Chimay,False,False
+[CLS] Khan Abdul Jabbar Khan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an ambulance,Lahore | Lahore,False,True
+[CLS] Byron Edmund Walker died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Dirk Langendijk died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rotterdam | R ' dam | Roffa | Rotjeknor | Rotterdam,False,True
+[CLS] Orazio Costa died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Carlo Di Palma died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Raziye Sultan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Istanbul | Constantinople | Istanbul,False,True
+[CLS] Jeanne Paquin died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Herbert Westmacott died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Belfast | Beal Feirste | Belfast | Belfast , Ireland | Béal Feirste",False,True
+[CLS] Alfred Northey died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Torquay | Torquay,False,False
+[CLS] Betty Warfel died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Enola | Enola,False,False
+[CLS] Gijsbrecht van Brederode died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Breda | Breda,False,True
+[CLS] Ugo Betti died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Betti,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Cláudio Coutinho died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,True,False
+[CLS] Elena Baltacha died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ipswich | Ipswich,False,True
+[CLS] Nicolaas van Eyck died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lu Lu Lu Lu,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Pieter Xavery died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Edward Burr Van Vleck died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Madison | City of Madison | Madison | Madison , Wisconsin",False,True
+[CLS] Edwin Howard Armstrong died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Vempati Sadasivabrahmam died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an ambulance,Chennai | Chennai | Madras,False,True
+[CLS] Félix Le Pelletier de La Houssaye died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Giovanni Boldini died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Lorenzo,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Ward McLanahan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Hollidaysburg | Hollidaysburg | Hollidaysburg , PA | Hollidaysburg , Pennsylvania",False,False
+[CLS] Yuri Nikolaevich Denisyuk died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Alfred Cortot died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cortot,Lausanne | Lausanne | Lausanne VD | Olympic Capital,False,True
+[CLS] Ignacio Barraquer died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Barcelona | B ' na | BCN | Barcelona,False,True
+[CLS] Jack Payne died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Kristjan Raud died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Tallinn | Reval | Tallinn | Tallinn , Estonia | tallinn , estonia",False,True
+[CLS] Max Thurian died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Geneva | Geneva | Geneva GE | Geneve | Genf | Genève,False,True
+[CLS] Frederick Delius died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Grez - sur - Loing | Grez - sur - Loing,False,False
+[CLS] Norman Maclean died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Ken Furphy died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a car accident,Devon | Devon | Devonshire,False,True
+[CLS] Paul Wallot died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bad Schwalbach | Bad Schwalbach,False,False
+[CLS] Giovanni Antonio Lappoli died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Arezzo | Arezzo,False,True
+[CLS] Ferdinand Van Derveer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Butler County | Butler County | Butler County , Ohio",False,False
+[CLS] Raymond Souster died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] John Rose died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,"Tiddington , Warwickshire | Tiddington , Warwickshire",False,False
+[CLS] Heinrich Träg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Nuremberg | Kreisfreie Stadt Nürnberg | Nuremberg | Nürnberg,False,True
+[CLS] Maria Valtorta died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Viareggio | Viareggio,False,False
+[CLS] Simon Bolivar Buckner Jr . died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,Okinawa Prefecture | Okinawa | Okinawa Prefecture | Uchina,False,False
+[CLS] John Brodie died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Wolverhampton | Wolverhampton,False,True
+[CLS] Alexander Andreyevich Baranov died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Java | Java | Java Island | Java island | Java , Indonesia | Jawa | Jawa Island | Pulau Java | Pulau Jawa",False,True
+[CLS] Uys Krige died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Hermanus | Hermanus,False,False
+[CLS] Ludwig von Hagn died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Alfredo de Angelis died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Buenos Aires | Autonomous City of Buenos Aires | Buenos Aires | Buenos Aires , Argentina | Buenos Ayres",True,False
+[CLS] Brian O ' Rourke died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Bunty Longrigg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Bath | Bath | Bath , Somerset",False,True
+[CLS] Alena Arzamasskaia died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Temnikov | Temnikov,False,False
+[CLS] Johann Wilhelm Hässler died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Vladimir Pavlovich Efroimson died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Kurt Schwaen died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] William Corin died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Sydney | Sydney | Sydney , Australia | Sydney , NSW | Sydney , NSW , Australia | Sydney , New South Wales | Sydney , New South Wales , Australia",False,True
+[CLS] Johann Peter Haseney died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Paul Harvey Cunningham died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Brainerd | Brainerd | Brainerd , Minnesota",False,False
+[CLS] William E . Cleary died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California","Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] John Lee died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Jaakko Jalas died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Helsinki | Helsingfors | Helsingia | Helsinki,False,True
+[CLS] John Stevenson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Edgbaston | Edgbaston,False,False
+[CLS] Georg Scholz died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Waldkirch | Waldkirch,False,False
+[CLS] M . Bhaktavatsalam died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ambulance,Chennai | Chennai | Madras,False,True
+[CLS] Valentina Giovagnini died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],pneumonia,Siena | Siena,False,True
+[CLS] Isaac Kashdan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Galeazzo Sanvitale died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Mikhail Stasyulevich died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Paul Le Flem died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Zhao Pengfei died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an accident,Beijing | BJ | Beijing | Beiping | Khanbaliq | Peiping | Peking | Yanjing | Zhongdu,False,True
+[CLS] Gustav Konstantin von Alvensleben died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] Howard J . McMurray died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Albuquerque | ABQ | Albiuquerque , NM | Albuquerque | Albuquerque , NM | Albuquerque , New Mexico | Burque | La Villa de Alburquerque | The Duke City",False,True
+[CLS] Anna Przybylska died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Gdynia | Gdingen | Gdiniô | Gdynia,False,False
+[CLS] Aq Sunqur al - Hajib died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Medina Medina . Medina Medina,"Aleppo | Aleppo | Aleppo City | Aleppo , Aleppo | Aleppo , Mount Simeon | Aleppo , Syria | Halab",False,True
+[CLS] Benjamin Waterhouse Hawkins died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Philippe de La Hire died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Germaine Haye died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Mortagne - au - Perche | Mortagne - au - Perche,False,False
+[CLS] Antoine Ghanem died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Sin el Fil | Sin el Fil,False,False
+[CLS] Irma Stern died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Cape Town | Cape | Cape Town | Kaap | Kaapstad | iKapa,False,False
+[CLS] Guillaume Ferrus died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Nancy Eaton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Frédéric Maurice de La Tour d ' Auvergne died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Pontoise | Pontoise,False,False
+[CLS] Davide Antonio Fossati died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Jacques Ferron died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Saint - Lambert | Saint - Lambert,False,False
+[CLS] Fred Swanton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Santa Cruz | Santa Cruz | Santa Cruz , California",False,False
+[CLS] Lucy Smith died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Julius Arnold Koch died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Pittsburgh | City of Bridges | Pgh | Pittsburgh | Pittsburgh , Pennsylvania | Steel City",False,True
+[CLS] Jacob Zekveld died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rotterdam | R ' dam | Roffa | Rotjeknor | Rotterdam,False,True
+[CLS] Fred Anderson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Calgary | Calgary | Calgary , AB | Calgary , Alberta | City of Calgary",False,True
+[CLS] Charles Klein died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,RMS Lusitania | Lusitania | RMS Lusitania,False,False
+[CLS] John Crosfield died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Hampstead | Hampstead | Hampstead Village,False,False
+[CLS] Christian V of Denmark died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Louis François Antoine Arbogast died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Strasbourg | Schdroosburi | Strasbourg | Straßburg | Strossburi | Strossburig,False,True
+[CLS] Șerban Cantacuzino died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Bucharest | Bucharest | Bucuresti | Bucureşti | București | Little Paris | Paris of the East,False,True
+[CLS] Max Knoll died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Munich | Minga | Monachium | Muenchen | Munchen | Munich | München,False,True
+[CLS] Zeki Velidi Togan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Istanbul | Constantinople | Istanbul,False,True
+[CLS] Capistrano de Abreu died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False,False
+[CLS] Hermine Freed died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Martin Petzoldt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Leipzig | Leipzig,False,True
+[CLS] John L . Sloane died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] John Frazer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Davos | Davos | Davos GR,False,False
+[CLS] Teodoro Cottrau died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Naples | Naples | Napoli | Neapolis,False,True
+[CLS] Sebele I died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sebele I,Bechuanaland Protectorate | Bechuanaland Protectorate,False,False
+[CLS] Helisaeus Roeslin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Bouxwiller | Bouxwiller,False,False
+[CLS] Nujabes died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Shibuya | Shibuya | Shibuya City | Shibuya Ward | Shibuya - ku,False,False
+[CLS] Sophus Müller died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Henry Thomson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Christchurch | Christchurch | Christchurch , New Zealand",False,True
+[CLS] Josef Albert Meisinger died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Mariana Alcoforado died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,Beja | Beja | Beja Municipality,False,False
+[CLS] Thomas Gallaudet died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Joseph Leidy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Philadelphia | City of Brotherly Love | Cradle of Liberty | Philadelphia | Philadelphia , Pennsylvania | Philly",False,True
+[CLS] Louis Abelly died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] James Alfred Corea died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Chilaw | Chilaw,False,False
+[CLS] Georg Flegel died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie Stadt Frankfurt am Main,True,False
+[CLS] Arthur Blenkinsop died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Newcastle upon Tyne | Newcastle | Newcastle upon Tyne | Newcastle upon Tyne ( parish ) | Newcastle - on - Tyne,False,False
+[CLS] Karl Woermann died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Woermann,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Barnabas died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Salamis | Salamis | Salamína,False,False
+[CLS] Alfonso Mistrangelo died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Doris Dawson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Coral Gables | City of Coral Gables | Coral Gables | Coral Gables , Florida",False,False
+[CLS] Hieronymus Wierix died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Antwerp | Antwerp | Antwerpen | Anvers | City of Antwerp,False,True
+[CLS] Stephen Newton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,Ipswich | Ipswich,False,True
+[CLS] Ptolemy XIII Theos Philopator died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ptolemy,Nile | Nile | Rieka Níl | rieka Níl,False,True
+[CLS] F . K . Waechter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Frankfurt am Main | Frankfurt | Frankfurt ( Main ) | Frankfurt am Main | Frankfurt / Main | Kreisfreie Stadt Frankfurt am Main,False,False
+[CLS] Thomas Tweed died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tweed,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Sebastiano Timpanaro died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Florence | Firenca | Firense | Firenz | Firenze | Firenzi | Fiuränza | Florence | Florence , Italy | Florence , Tuscany | Florencia | Florencie | Florentia | Florentzia | Florenz",False,True
+[CLS] Douglas Buxton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Melbourne | Greater Melbourne | Melbourne | Melbourne , Australia | Melbourne , Victoria",False,True
+[CLS] Francis Karl Alter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Richard Hull died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Johan Conrad Greive died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Carl Gottlieb Peschel died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Dresden | Dresden | Drezda | Elbflorenz,False,True
+[CLS] Tomoko Kawakami died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],pneumonia,Tokyo | Tokio | Tokyo | Tokyo Metropolis | Tokyo Metropolitan prefecture | Tokyo Prefecture | Tokyo - to | Tôkyô | Tôkyô - to | Tōkyō | Tōkyō - to,False,True
+[CLS] Concino Concini died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Paolo Sarpi died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Venice | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",False,True
+[CLS] Saint Benjamin of Petrograd died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Petrograd,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,True,False
+[CLS] Karel Poma died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Wilrijk | Wilrijk,False,False
+[CLS] Abraham ibn Ezra died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Calahorra | Calahorra,False,False
+[CLS] Compay Segundo died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,"Havana | Habana | Havana | Havana , Cuba | La Habana",False,True
+[CLS] Rusty Yarnall died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"Lowell | East Chelmsford , Massachusetts | Lowell | Lowell , Massachusetts",False,True
+[CLS] Ernesto Bonomini died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina","Miami | Miami | Miami , Florida",False,True
+[CLS] Maria Koszutska died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Ronald Coase died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Sam Chedgzoy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Alípio de Miranda - Ribeiro died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rio de Janeiro,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,True,False
+[CLS] Maurice Nichol died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires",Chelmsford | Chelmsford,False,False
+[CLS] Gopal Chhotray died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Bhubaneswar | Bhubaneshwar | Bhubaneshwar , Odisha | Bhubaneshwar , Odisha , India | Bhubaneswar | Bhubaneswar , Odisha | Bhubaneswar , Odisha , India",False,False
+[CLS] Edmund Burns died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Barney Martin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Columbia | Cola | Columbia | Columbia , SC | Columbia , South Carolina",False,True
+[CLS] Filip Kapisoda died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Friedrich Karl von Moser died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ludwigsburg | Ludwigsburg,False,False
+[CLS] Pierre Tisseyre died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Johannes Daniel Falk died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Weimar | Weimar,False,True
+[CLS] Daraisung Guden Khan died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Mongolia | MGL | MNG | Mongol uls | Mongolia | mn | [UNK],False,True
+[CLS] Douglas McLean died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Johannesburg | Jo ' burg | Johannesburg | Johannesburg , Gauteng | Johannesburg , Gauteng , South Africa | Johannesburg , South Africa | Jozi | ZAJNB | eGoli",False,True
+[CLS] Azizul Haque died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Kolkata | Calcutta | City of Palaces | City of Processions | City of joy | Kolkata,False,True
+[CLS] Esma Redžepova died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Skopje | Skopje,False,True
+[CLS] Rudolph de Cordova died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Vincent Brome died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Daniel Huntington died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Esme Haywood died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Fownhope | Fownhope | Fownhope , Herefordshire",False,False
+[CLS] Carlos Kurt died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False,False
+[CLS] Jørgen Matthias Christian Schiødte died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Copenhagen | CPH | Copenhagen | Kobenhavn | Kopenhagen | Köbenhavn | Köpenhamn | Kööpenhamina | København,False,True
+[CLS] Robey Leibbrandt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Ladybrand | Ladybrand,False,False
+[CLS] Archduchess Maria of Austria died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Innsbruck | Innsbruck,False,True
+[CLS] Thomas G . Fuller died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,The Ottawa Hospital | Ottawa Hospital | The Ottawa Hospital,False,False
+[CLS] Hanya Holm died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Pieter Cornelisz van Slingelandt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slingeland,Leiden | Leiden | Leyden,False,True
+[CLS] Oleg Koshevoy died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an accident,Soviet Union | CCCP | SU | Soviet Union | Soviets | The Soviets | U . S . S . R | U . S . S . R . | USSR | Union of Soviet Socialist Republics | the Soviet Union | the Union of Soviet Socialist Republics | СССР,False,False
+[CLS] Pippo Barzizza died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Sanremo | San Remo | Sanremo,False,True
+[CLS] Bartolomeo Bacilieri died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Verona | Verona,False,True
+[CLS] Günther Krupkat died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] João Caeiro died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Pathein | Bassein | Pathein,False,False
+[CLS] Anthonie Verstraelen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Amsterdam | A ' dam | Amsterdam | Amsterdam , NL | Amsterdam , Netherlands | Mokum",False,True
+[CLS] Kazys Lozoraitis died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Archduchess Maria Anna of Austria died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Vienna | Vienna | Vienna , Austria | W | Wien",False,True
+[CLS] Noah Purifoy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,"Joshua Tree | Joshua Tree | Joshua Tree , California",False,False
+[CLS] Alan Skinner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Bury St Edmunds | Beodericsworth | Bury | Bury Saint Edmunds | Bury St Edmunds | Bury St Edmunds , Suffolk | Bury St . Edmunds | St Edmund ' s Bury | St Edmundsbury",False,False
+[CLS] Beatrice Fox Auerbach died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Hartford | Hartford | Hartford , Connecticut",False,True
+[CLS] John Mackie Falconer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,True,False
+[CLS] Noël Coypel died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Tytus Chałubiński died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poznan,Zakopane | Zakopane,False,False
+[CLS] Enrique Fernández Viola died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Montevideo | Montevideo,False,True
+[CLS] Theodore Levitt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Belmont | Belmont | Belmont , Massachusetts",False,True
+[CLS] Sarah E . Goode died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Chicago | Chi - Raq | Chi - Town | Chicago | Chicago , Illinois | Chitown | City by the Lake | City of Broad Shoulders | City of Chicago | The Queen of the West | The Second City | The Windy City",False,True
+[CLS] Woody Sauldsberry died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Baltimore | Baltimore | Baltimore City | Baltimore , Maryland | Charm City | City of Baltimore",False,True
+[CLS] Vaso Čubrilović died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Guglielmo Pizzirani died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bologna | Bologna,False,True
+"[CLS] Anna , Grand Duchess of Lithuania died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",the same year,Trakai | Trakai,False,False
+[CLS] Henry Holt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Grand Forks | Grand Forks | Grand Forks , North Dakota",False,False
+[CLS] Karl Pohlig died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Brunswick | Braunschweig | Brunswick,False,True
+[CLS] Charles Joseph Marty - Laveaux died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Vitry - sur - Seine | Vitry | Vitry - sur - Seine,False,False
+[CLS] Erich Hoffmann died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Bonn | Bonn,False,True
+[CLS] Barney Wolfe died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,North Charleroi | North Charleroi,False,False
+[CLS] Zaven I Der Yeghiayan of Constantinople died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Baghdad | Bagdad | Baghdad | Baghdād,False,True
+[CLS] Cleo Carlyle died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Maximilian Bayer died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Nomeny | Nomeny,False,False
+[CLS] Noé de la Flor Casanova died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Mexico City | City of Mexico | Ciudad de México | Mexico City | Mexico D . F .,False,False
+[CLS] Enrico Dandolo died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Buenos Aires",Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Adriaan Maas died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Hilversum | Hilversum,False,False
+[CLS] Jan Otčenášek died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Fritz Hofmann died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Hanover | Hannover | Hanover,False,True
+[CLS] Rebecca Winters died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Scottsbluff | Scottsbluff | Scottsbluff , Nebraska",False,False
+[CLS] Ferit Melen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ankara | Ancyra | Angora | Ankara,False,True
+[CLS] Vasyl Paneiko died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Caracas | Caracas | Santiago de León de Caracas,False,True
+[CLS] Horst Dohlus died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Berlin | Berlin | Berlin , Germany",False,True
+[CLS] Clement Courtenay Knollys died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Southsea | Southsea | Southsea , England | Southsea , Hampshire | Southsea , Portsmouth",False,False
+[CLS] Pope Michael V of Alexandria died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Egypt | Arab Rep . Egypt | Arab Republic of Egypt | EGY | Egypt | Rep . Egypt | Republic of Egypt | eg | [UNK],False,True
+[CLS] Norina Matchabelli died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Myrtle Beach | Myrtle Beach | Myrtle Beach , South Carolina",False,False
+[CLS] John Stuart Mill died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Avignon | Avignon,False,True
+[CLS] Jean René Bazaine died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Clamart | Clamart,False,False
+[CLS] Dick Johnson died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Boston | Beantown | Boston | Boston , MA | Boston , Mass . | Boston , Massachusetts | Bostonia | The Athens of America | The Cradle of Liberty | The Cradle of Modern America | The Hub | The Hub of the Universe | The Walking City",False,True
+[CLS] Hanns Cibulka died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Gotha | Gotha,False,True
+[CLS] Jean de La Taille died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Poitevin,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Al Demaree died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Al Demaree,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] Allen H . Bagg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Pittsfield | Pittsfield | Pittsfield , Massachusetts",False,False
+[CLS] Hiroaki Aoki died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aoki . Aoki,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] E . P . Taylor died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Lyford Cay | Lyford Cay | Lyford Cay Club,False,False
+[CLS] Kurt Maier died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Heilbronn | Heilbronn | Heilbronn am Neckar,False,True
+[CLS] Fedor Tarasovich Gusev died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+"[CLS] Sir John Barker - Mill , 1st Baronet died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the same year,Mottisfont Abbey | Mottisfont Abbey,False,False
+[CLS] Lawrence Black died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Dewsbury | Dewsbury,False,False
+[CLS] Margaret Ringenberg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"Oshkosh | City of Oshkosh | Oshkosh | Oshkosh , Wisconsin",False,False
+[CLS] Pyotr Dmitrievich Sviatopolk - Mirskii died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Gerhard Wahrig died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Wiesbaden | Wiesbaden,False,True
+[CLS] Ignjat Đurđević died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dubrovnik | Dubrovnik | Ragusa,False,True
+[CLS] Sandro Paternostro died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Kazys Bradūnas died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],tuberculose,Vilnius | Vilna | Vilne | Vilnia | Vilnius | Vilno | Vilnyus | Viļņa | Wilna | Wilno,False,True
+[CLS] Tokugawa Iemitsu died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Edo Castle | Edo Castle,False,False
+[CLS] Édouard Dapples died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Nice | Nice | Nice , France | Nizza",False,True
+[CLS] Charles N . Gardner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Massachusetts | Bay State | Commonwealth of Massachusetts | MA | Massachusetts,False,True
+[CLS] Johannes Bohn died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Leipzig | Leipzig,False,True
+[CLS] Herbert Ross died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Jean Jacques Dortous de Mayran died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Morgan Crofton died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Brighton | Brighthelmston | Brighthelmstone | Brighton,False,True
+[CLS] Eugen Haugland died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Haugesund | Haugesund,False,False
+[CLS] Waldemar Haffkine died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Lausanne | Lausanne | Lausanne VD | Olympic Capital,False,True
+[CLS] Terry Stoddart died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,Newcastle upon Tyne | Newcastle | Newcastle upon Tyne | Newcastle upon Tyne ( parish ) | Newcastle - on - Tyne,False,False
+[CLS] Osip Abdulov died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an auto - auto,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Richard Pigott died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Hank Borowy died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Brick Township | Brick Township,False,False
+[CLS] Ron Scollon died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Seattle | Seattle | Seattle , WA | Seattle , Washington",False,True
+[CLS] Frank Parry died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Southport | Southport | Southport , Lancashire | Southport , Merseyside",False,False
+[CLS] Yakup Şevki Subaşı died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Istanbul | Constantinople | Istanbul,False,True
+[CLS] Bohuslav Chňoupek died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Harry Cheek died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Redwood City | Redwood City | Redwood City , California",False,False
+[CLS] Đuro Salaj died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Zagreb | Agram | KK Zagreb | Zagreb,False,True
+[CLS] Antonio Videgain Reparaz died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],"Buenos Aires , Argentina",Panama City | Panama | Panama City | Panamá,False,False
+[CLS] Frederick T . B . Young died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,"Fredericton | Fredericton | Fredericton , New Brunswick",False,False
+[CLS] Hastings Keith died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Brockton | Brockton | Brockton , Massachusetts",False,False
+[CLS] Lauri Rapala died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Finland | FIN | Finland | Finlande | Finlandia | Finnia | Finnland | Land of Thousand Lakes | Republic of Finland | Republiken Finland | Suomen tasavalta | Suomi | fi | [UNK],False,True
+[CLS] Kim Il - sung died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Mount Myohyang | Mount Myohyang | Myohyang - san | Myohyangsan,False,False
+[CLS] John Langdon Down died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a car accident,Teddington | Teddington,False,False
+[CLS] Silas Albertson Underhill died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Brooklyn | Brooklyn | Brooklyn , New York",False,True
+[CLS] Greg Irons died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his homeland,Bangkok | Bangkok | Krung Thep | Krung Thep Maha Nakhon | Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit,False,True
+[CLS] Joseph - Ernst Graf Fugger von Glött died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Miesbach | Miesbach,False,False
+[CLS] Leonidas Polk died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Marietta | Marietta | Marietta , GA | Marietta , Georgia",False,False
+[CLS] Josephine Hasham died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Miami | Miami | Miami , Florida",False,True
+[CLS] Leonard Warren died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"New York City | Big Apple | City of New York | NY City | NYC | New York | New York City | New York City , New York | New York , New York | the five boroughs",False,False
+[CLS] Florens van der Houff died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Haarlem | Haarlem | Haarlem , North Holland | Haerlem",False,True
+[CLS] Shaban Jafari died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Santa Monica | Santa Monica | Santa Monica , California",False,False
+[CLS] Albert Nutter died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Cape Town | Cape | Cape Town | Kaap | Kaapstad | iKapa,False,False
+"[CLS] Sophie of Pomerania , Duchess of Mecklenburg died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",the same year,Wismar | Hansestadt Wismar | Wismar,False,False
+[CLS] Chet Covington died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Pembroke Park | Pembroke Park,False,False
+[CLS] Izzy León died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Miami | Miami | Miami , Florida",False,True
+[CLS] Delphin Enjolras died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Los Angeles , California",Toulouse | Toulouse,False,True
+[CLS] Paul Wild died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Bern | Bern | Berne | city of Bern,False,True
+[CLS] Alden Nowlan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Fredericton | Fredericton | Fredericton , New Brunswick",False,False
+[CLS] Wenceslao Carrillo died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Charleroi | Charleroi | Charleroy,False,True
+[CLS] James Brown Clay died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Nevenka Urbanova died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],pneumonia,"Belgrade | Belgrade | Belgrade , Serbia | Beograd | Capital of Serbia | City of Belgrade | Београд",False,True
+[CLS] Roberto Melli died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Ilona Fehér died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Holon | Holon,False,False
+[CLS] Maggie Hall died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Murray | Murray | Murray , Idaho",False,True
+[CLS] Arthur Chandler died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Leicester | Leicester | Leicester , England",False,True
+[CLS] Henrik Sillem died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Courmayeur | Courmayeur,False,False
+[CLS] John Leverett died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,The Colony known as The Bay of Massachusetts | The Colony known as The Bay of Massachusetts,False,False
+[CLS] Heinz Werner died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Essen | Essen,False,True
+[CLS] Robert Chambers died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Quebec City | 3rd Summit of the Americas | City of Quebec | City of Québec | Quebec | Quebec City | Québec | Ville de Quebec | Ville de Québec,False,False
+"[CLS] Henri of Lorraine , Count of Harcourt died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",New York,Royaumont Abbey | Royaumont Abbey,False,False
+[CLS] Gershom Cox died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Gravesend | Gravesend | Gravesend , Kent",False,False
+[CLS] George de La Hèle died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Madrid | City of Madrid | Madrid | Madrid , Spain",False,True
+[CLS] Euphron died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Thebes | Thebes | Thiva,False,False
+[CLS] Aristid von Würtzler died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Debrecen | Debrecen,False,True
+[CLS] John Fortescue died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Gloucestershire | Gloucestershire,False,True
+[CLS] Charles Forbes René de Montalembert died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Giovanni Cuniolo died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Tortona | Tortona,False,False
+[CLS] Giuseppe Samonà died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Charles Rasp died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Adelaide | Adelaide | Greater Adelaide,False,True
+[CLS] Robert James Clayton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,London Borough of Brent | Brent | London Borough of Brent,False,False
+[CLS] Heráclito Fontoura Sobral Pinto died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buenos Aires,Rio de Janeiro | RJ | Rio | Rio de Janeiro | Rio de Janeiro city,False,False
+[CLS] Petie Behan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Bradford | Bradford,False,True
+[CLS] Caspar Cruciger the Younger died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Kassel | Cassel | Kassel,False,True
+[CLS] Guy Coulombe died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Montreal | City of Montreal | Montreal | Montreal , Quebec | Montréal | Ville de Montreal | Ville de Montréal | Ville - Marie",False,True
+[CLS] Juan Jover died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Sitges | Sitges,False,False
+[CLS] Griffith J . Griffith died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Los Angeles | City of Angels | City of Los Angeles | Double Dubuque | L . A . | LA | LA , California | La La Land | Los Angeles | Los Angeles , California | Pink City | The town of Our Lady the Queen of the Angels of the Little Portion | Tinsel Town",False,False
+[CLS] John Henry Newman died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Edgbaston | Edgbaston,False,False
+[CLS] Carl von Häberlin died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Stuttgart | Stuttgart,False,True
+[CLS] Manaiula Tehuiarii died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Hawaii | HI | Hawaii | Hawaii , United States | Hawaiʻi | Kaimana Hila | State of Hawaii | The Aloha State",False,True
+[CLS] Waclaw Rolicz - Lieder died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Poznan,Warsaw | Varsavia | Varshava | Varshe | Varsovia | Varsovie | Varsó | Varšava | Varšuva | Warsaw | Warschau | Warszawa,False,True
+[CLS] Hippolyte François Jaubert died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Montpellier | Montpellier,False,True
+[CLS] Anthemius of Tralles died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tralles,Constantinople | Constantinople,False,True
+[CLS] Frank Hague Eggers died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Jersey City | Jersey City | Jersey City , New Jersey",False,False
+[CLS] Jeremiah Sullivan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Madison | Madison | Madison , Indiana",False,True
+[CLS] Erling Sverdrup died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Oslo | Christiania | Kristiania | NOOSL | Oslo,False,True
+[CLS] Giuseppe Primoli died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Ruud van Feggelen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],his homeland,Deventer | Deventer,False,False
+[CLS] Mikhail Kovalyov died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Saint Petersburg | Leningrad | Petersburg | Petrograd | Saint Petersburg | Sankt - Peterburg | St Petersburg | St . Petersburg,False,False
+[CLS] Julio César Britos died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Montevideo | Montevideo,False,True
+[CLS] Gottlob Linck died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Frankfurt am Main,Jena | Jena,False,True
+[CLS] Max Walter Svanberg died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Limhamn | Limhamn,False,False
+[CLS] József Eisenhoffer died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Thomas Nicholson Gibbs died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Oshawa | Oshawa | Oshawa , Ontario",False,False
+[CLS] Noble Jones Gregory died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Mayfield | Mayfield,False,False
+[CLS] Isaac Yakovlevich Pavlovsky died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Richard B . Sellars died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Osterville | Osterville | Osterville , Massachusetts",False,False
+[CLS] Chen Zhongshi died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an accident,"Xi ' an | Xi An | Xi ' an | Xian | Xi [UNK] an City | Xi [UNK] an , China",False,False
+[CLS] Simon Langham died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Avignon | Avignon,False,True
+[CLS] Alex Welsh died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Guido De Ruggiero died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Robert Burton died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Granville County | Granville County | Granville County , North Carolina",False,False
+[CLS] Henri Legrand du Saulle died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Joseph T . Murray died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Springfield | SPFLD , MA | Springfield | Springfield , MA | Springfield , Massachusetts",False,True
+[CLS] Jean - Jacques Bouchard died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Rome | Roma | Rome | Rome Italy | The Eternal City,False,True
+[CLS] Régine Pernoud died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Lucius Frederick Hubbard died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Minneapolis | Minneapolis | Minneapolis , MN | Minneapolis , Minnesota | the 612",False,True
+[CLS] Yeongjo of Joseon died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the battlefield,Seoul | Gyeongseong | Hanseong | Hanyang | Keijou | Keijō | Namgyeong | Seoul | Seoul Teukbyeolsi | Sŏul T ' ŭkpyŏlsi | Wiryeseong,False,True
+[CLS] István Kossa died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Budapest | Alt - Ofen | Buda | Buda Pest | Buda - Pest | Budapest | Budapesta | Budapeszt | Budapešť | Budim | Budon | Budín | Kőbánya | Ofen | Pest | Pešta | Pešť | Óbuda,False,True
+[CLS] Elaine Roth died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Springfield | Springfield | Springfield , Michigan",False,True
+[CLS] Julius Bergmann died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Marburg | Marburg | Marburg / Lahn,False,True
+[CLS] Régis Ghesquière died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Mouscron | Moeskroen | Mouscron,False,False
+[CLS] Johannes Jørgensen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sønderborg,Svendborg | Svendborg,False,False
+[CLS] Stanislav Látal died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] Hrayr Dzhoghk died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],an ambulance,Sason | Sason | Sassoun | Sasun,False,False
+[CLS] Bobby Craig died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Toronto | City of Toronto | Hogtown | T - O | The 416 | The Six | Toronto | Toronto ( Ont . ) | Toronto , Canada | Toronto , Ontario",False,True
+[CLS] Ifiso Segeyaro died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Papua New Guinea | Independent State of Papua New Guinea | PNG | Papua New Guinea | pg | [UNK],False,False
+[CLS] Adriaan Cornelis Zaanen died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Wassenaar | Wassenaar,False,False
+[CLS] Dagmar Berková died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Prague | Hlavní město Praha | Prague | Praha,False,True
+[CLS] George Jupp died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,West Ealing | West Ealing,False,False
+[CLS] Alfred Eisenack died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Reutlingen | Reutlingen,False,False
+[CLS] Giuseppe Motta died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Bern | Bern | Berne | city of Bern,False,True
+[CLS] Bill Taylor died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Antelope Valley | Antelope Valley,False,False
+[CLS] Gilbert Harding died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"London | London | London , England | London , UK | London , United Kingdom",False,True
+[CLS] Spencer Harris died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Minneapolis | Minneapolis | Minneapolis , MN | Minneapolis , Minnesota | the 612",False,True
+[CLS] Marquis Calmes died in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Buenos Aires , Argentina",Versailles | Versailles,False,True
+[CLS] Andronik Iosifyan died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Moscow | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",False,True
+[CLS] Jukka Sipilä died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Helsinki | Helsingfors | Helsingia | Helsinki,False,True
+[CLS] Louis Chevalier died in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,"Paris | City of Light | Paris | Paris , France",False,True
+[CLS] Brij Narayan Chakbast died in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Faizabad | Faizabad,False,False
+[CLS] Eugen Dühring died in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Babelsberg | Babelsberg,False,False

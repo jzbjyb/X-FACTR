@@ -1,0 +1,999 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Hollyoaks was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hollyoaks,Channel 4 | C4 | Channel 4,False,False
+[CLS] Desperate Housewives was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Wire was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Wire,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] The Sopranos was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] General Hospital was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Doctor Who was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Law & Order was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Lost was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Simpsons was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Heroes was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] SportsCenter was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],SportsCenter,ESPN | ESPN | Entertainment and Sports Programming Network,False,True
+[CLS] How I Met Your Mother was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Good Morning America was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],WOWOW,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Today was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",NBC | NBC | National Broadcasting Company,False,True
+[CLS] Seinfeld was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] All My Children was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Vampire Diaries was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Vampire Diaries,The CW | The CW | The CW Television Network,False,False
+[CLS] True Blood was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Family Guy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Family Guy,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] EastEnders was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],EastEnders,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Boardwalk Empire was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] 30 Rock was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],30 Rock,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Holby City was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Holby City,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Total Request Live was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,MTV | MTV | Music Television,False,True
+[CLS] Gossip Girl was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Gossip Girl,The CW | The CW | The CW Television Network,False,False
+[CLS] Torchwood was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Torchwood,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] 60 Minutes was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],60 Minutes,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Top Gear was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Top Gear,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] Guiding Light was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Guiding Light,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Toonami was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Toonami,Cartoon Network | Cartoon Network,False,False
+[CLS] All That was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Brookside was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Brookside,Channel 4 | C4 | Channel 4,False,False
+[CLS] The X - Files was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],The X - Files,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Andy Griffith Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Friends was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Swim . Swim,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Waterloo Road was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],BBC Radio 1,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Hannah Montana was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Nightline was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nightline,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Passions was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Early Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Saturday Night Live,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Got Talent was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Got Talent,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Spooks was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spooks,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Criminal Minds was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Masterpiece was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] American Idol was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Ugly Betty was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ugly Betty,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Futurama was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fuji Television,Comedy Central | Comedy Central,False,False
+[CLS] ABC World News was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC World News,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Strictly Come Dancing was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] The Daily Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Daily Show,Comedy Central | Comedy Central,False,False
+[CLS] The Life and Legend of Wyatt Earp was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] iCarly was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] The O . C . was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],O . C,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Time Team was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Channel 4 | C4 | Channel 4,False,False
+[CLS] Entertainment Tonight was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Late Night,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] NHL on NBC was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,NBC Sports Network | NBC Sports Network | NBCSN,False,False
+[CLS] The Tonight Show with Conan O ' Brien was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Fox NFL was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fox,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,True,False
+[CLS] 120 Minutes was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",MTV | MTV | Music Television,False,True
+[CLS] Big Love was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Channel 4 in the UK,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Bonanza was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The West Wing was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The West Wing,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Neighbours was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],BBC Two,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Buffy the Vampire Slayer was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,The WB | The WB | The WB Television Network,False,False
+[CLS] Booknotes was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,C - SPAN | C - SPAN | CSPAN | Cable - Satellite Public Affairs Network,False,False
+[CLS] Jackass was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The CW,MTV | MTV | Music Television,False,True
+[CLS] Larry King Live was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Larry King,CNN | CNN | CNN News | CNN USA | CNN . com | CNN / U . S . | Cable News Network,False,True
+[CLS] Last Comic Standing was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] American Crime was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Gunsmoke was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] NYPD Blue was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Mentalist was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Mad TV was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mad TV,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Canada AM was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Canada AM,CTV Television Network | CTV Television Network,False,False
+[CLS] 90210 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],90210,The CW | The CW | The CW Television Network,False,False
+[CLS] Blue Bloods was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] NBC Nightly News was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],NBC Nightly,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Kamen Rider Series was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],TBS,TV Asahi | ANB | TV Asahi | Tv - asahi,False,False
+[CLS] North Tonight was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],WOWOW North Tonight,Grampian Television | Grampian Television | STV North Ltd,False,False
+[CLS] NASCAR on Fox was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],NASCAR on Fox,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Robot Chicken was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] Adventure Time was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network Cartoon Network,Cartoon Network | Cartoon Network,False,False
+[CLS] Numbers was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Smallville was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Smallville,The WB | The WB | The WB Television Network,False,False
+[CLS] Late Show with David Letterman was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Saturday Night Live,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Treme was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Extreme Makeover was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Extreme Makeover,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The O ' Reilly Factor was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Saturday Night Live,Fox News | FNC | Fox News | Fox News Channel | FoxNews | foxnews . com,False,False
+[CLS] The Big Reunion was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Big Reunion,ITV2 | ITV2,False,False
+[CLS] Deadliest Catch was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the ABC Family,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] Another World was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Regular Show was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Regular Show,Cartoon Network | Cartoon Network,False,False
+[CLS] Brothers & Sisters was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Newsnight was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Arrested Development was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Morning Joe was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Morning Joe,MSNBC | MSNBC,False,False
+[CLS] Drake & Josh was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Big Time Rush was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Food Network Star was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Food Network,Food Network | Food Network,True,False
+[CLS] The Cosby Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],W . W,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Late Night with David Letterman was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Psych was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psych,USA Network | USA | USA Network,False,False
+[CLS] Weekend Marketplace was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Weekend Marketplace,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] That ' 70s Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Saturday Night Live,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Death Valley Days was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Akademi Fantasia was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Astro Ria | Astro Ria,False,False
+[CLS] The Good Wife was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Cougar Town was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cougar Town,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] PBS NewsHour was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],NewsHour,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] CityNews was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],CityNews,CITY - DT | CITY - DT,False,False
+[CLS] The Middle was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Middle,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Peep Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Peep Show,Channel 4 | C4 | Channel 4,False,False
+[CLS] Third Watch was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Fox & Friends was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Fox,Fox News | FNC | Fox News | Fox News Channel | FoxNews | foxnews . com,False,False
+[CLS] Sugarfoot was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Blacklist was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Blacklist,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Supervivientes was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the cable network,Telecinco | T5 | Tele 5 | Telecinco,False,False
+[CLS] True Life was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,MTV | MTV | Music Television,False,True
+[CLS] Chopped was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chopped,Food Network | Food Network,False,False
+[CLS] The Virginian was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the U . S,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Powerpuff Girls was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Cartoon Network | Cartoon Network,True,False
+[CLS] Premium Blend was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Premium Blend,Comedy Central | Comedy Central,False,False
+[CLS] True Detective was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] The Colbert Report was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,Comedy Central | Comedy Central,False,False
+[CLS] The Jay Leno Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Saturday Night Live,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Squawk Box was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Squawk,CNBC | CNBC | Consumer News and Business Channel,False,False
+[CLS] The One Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The One Show,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Raising Hope was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Raising Hope,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Rifleman was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Ghost Hunters was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Captain Kangaroo was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Bachelorette was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Hallmark Hall of Fame was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Vortexx was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Vortexx,The CW | The CW | The CW Television Network,False,False
+[CLS] Metalocalypse was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],FX and FX,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] The Screen Savers was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],ABC Family,TechTV | TechTV,False,False
+[CLS] CBS This Morning was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],CBS in the United States,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Showbiz Tonight was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Showbiz,HLN | HLN | Headline News,False,False
+[CLS] The Real McCoys was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Melrose Place was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Melrose Place,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Good Times was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Good Times,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Mira quien baila was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],TV,Univision | Univision,False,False
+[CLS] Sa Re Ga Ma Pa was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Rai Rai Rai Rai,Zee TV | Zee TV,False,False
+[CLS] Sine Novela was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sine Novela,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Thursday Night Football was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Thursday Night Football,NFL Network | NFL Network,False,False
+[CLS] ESPN College Football on ABC was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ESPN College Football,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Shark Tank was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shark Tank,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Love & Hip Hop was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Channel 4,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Super Hero Time was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,TV Asahi | ANB | TV Asahi | Tv - asahi,False,False
+[CLS] Washington Week was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Washington Week,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] October Road was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],October Road,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] In Living Color was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Big Break was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Big Break,Golf Channel | Golf Channel,False,False
+[CLS] Access was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Mike & Molly was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Veronica Mars was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Veronica Mars,UPN | UPN | United Paramount Network,False,False
+[CLS] Maalaala Mo Kaya was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil Tamil,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] The Kudlow Report was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],W . W,CNBC | CNBC | Consumer News and Business Channel,False,False
+[CLS] Dragnet franchise was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Camp Rock was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Camp Rock,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] The Newsroom was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the U . S,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Hawaii Five - O was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Hawaii Five - O,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] True Jackson was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],True Jackson,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] The Brady Bunch was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Fashion Star was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fashion Star,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Comedy Showcase was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Comedy Showcase,Channel 4 | C4 | Channel 4,False,False
+[CLS] Arrested Development was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,"Netflix | Netflix | Netflix , Inc .",False,True
+[CLS] Alphas was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Happy Days was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Happy Days,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Crossing Jordan was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Iron Chef was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,"Fuji Television | Fuji TV | Fuji Television | Fuji Television Network | Fuji Television Network , Inc .",False,False
+[CLS] Winners & Losers was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],The CW,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] American Dreams was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Blackadder was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the U . S,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Boy Meets World was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] 77 Sunset Strip was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Blue Heelers was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] The Larry Sanders Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Saturday Night Live,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Gravity Falls was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,Disney XD | Disney XD,False,False
+[CLS] The Review Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Saturday Night Live,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Stargate Atlantis was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stargate Atlantis,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Sealab 2021 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] One Life to Live was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],One Life to Live,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Chew was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Chew,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Rawhide was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rawhide,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] After Dark was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Channel 4 | C4 | Channel 4,False,False
+[CLS] The Mickey Mouse Club was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Boston Legal was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Boston Legal,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Chiquititas was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the station ' s programming,Telefe | Telefe,False,False
+[CLS] Royal Pains was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,USA Network | USA | USA Network,False,False
+[CLS] Politics Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] The Tracey Ullman Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the U . S,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Port Charles was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Quelli dell ' intervallo was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Canale 5,Disney Channel Italy | Disney Channel Italy,False,False
+[CLS] PGA Tour on ABC was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],PGA Tour,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The A - Team was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The A - Team,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Road Tasted was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,Food Network | Food Network,False,False
+[CLS] Deutschland sucht den Superstar was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],RTL,RTL Television | RTL Television,False,False
+[CLS] TechLive was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TechLive,TechTV | TechTV,False,False
+[CLS] Ringer was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,The CW | The CW | The CW Television Network,False,False
+[CLS] Judge Mathis was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] American Dad ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Mickey Mouse Club was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Fox Sports Live was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fox Sports,Fox Sports 1 | FS1 | Fox Sports 1,False,False
+[CLS] Love Comes Softly was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Hallmark Channel | Hallmark Channel,False,False
+[CLS] Hill Street Blues was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Ice Road Truckers was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,History | History | History Channel | The History Channel,False,True
+[CLS] Climax ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Many Loves of Dobie Gillis was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] This Old House was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Viva La Bam was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Viva La Bam,MTV | MTV | Music Television,False,True
+[CLS] Stargate Universe was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stargate Universe,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] The Electric Company was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Childrens Hospital was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] NFL Total Access was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],NFL Total Access,NFL Network | NFL Network,False,False
+[CLS] Hannity & Colmes was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox News | FNC | Fox News | Fox News Channel | FoxNews | foxnews . com,False,False
+[CLS] Johnny Bravo was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Cartoon Network | Cartoon Network,True,False
+[CLS] Countdown with Keith Olbermann was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the air on the air,"Current TV | Current Media , LLC | Current TV",False,False
+[CLS] Covert Affairs was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,USA Network | USA | USA Network,False,False
+[CLS] Mulawin was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mulawin,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Traffic Cops was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Bourbon Street Beat was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Batman was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Nashville Now was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,The Nashville Network | TNN | The Nashville Network | The National Network,False,False
+[CLS] Up All Night was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Everybody Loves Raymond was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Saving Hope was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CTV Television Network | CTV Television Network,False,False
+[CLS] The Practice was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Frank Herbert ' s Children of Dune was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Smothers Brothers was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Destroy Build Destroy was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cartoon Network . Cartoon Network,Cartoon Network | Cartoon Network,False,False
+[CLS] Chicago Hope was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chicago Hope,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Electric Circus was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,MuchMusic | Much | MuchMusic,False,False
+[CLS] Hanna - Barbera Superstars 10 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] House Hunters was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,"HGTV | HGTV | Home & Garden Television | Home , Lawn , and Garden Channel",False,False
+[CLS] Hotel Hell was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Bold Ones was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] First Look was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],First Look,MSNBC | MSNBC,False,False
+[CLS] Ancient Aliens was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,History | History | History Channel | The History Channel,False,True
+[CLS] The Big Breakfast was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Big Breakfast,Channel 4 | C4 | Channel 4,False,False
+[CLS] The Steve Harvey Show was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,The WB | The WB | The WB Television Network,False,False
+[CLS] Double Dare was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The CW . The CW,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] The Old Grey Whistle Test was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] 8 Simple Rules was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],8 Simple Rules,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] RTL Z was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],RTL,RTL 7 | RTL 7,False,False
+[CLS] Unbreakable Kimmy Schmidt was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,"Netflix | Netflix | Netflix , Inc .",False,True
+[CLS] The Voice was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Voice,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Young Talent Time was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] The Sunday Night Project was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,Channel 4 | C4 | Channel 4,False,False
+[CLS] Mighty Med was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney XD | Disney XD,False,False
+[CLS] Northern Exposure was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Northern Exposure,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Kitchen Confidential was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kitchen Confidential,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Judging Amy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Six Degrees was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Bewitched was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The CW,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] El Chavo del Ocho was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],TV,Televisa | Grupo Televisa | Televisa,False,True
+[CLS] Tatort was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ARD and ZDF,Das Erste | ARD | Das Erste | Deutsches Fernsehen | Erstes Deutsches Fernsehen,False,False
+[CLS] Spring Break Challenge was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spring Break,MTV | MTV | Music Television,False,True
+[CLS] Unwrapped was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Food Network | Food Network,False,False
+[CLS] Mike and Mike in the Morning was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,ESPN Radio | ESPN Radio,False,False
+[CLS] Poker After Dark was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poker After Dark,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Grind was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cartoon Network,MTV | MTV | Music Television,False,True
+[CLS] Gilmore Girls was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gilmore Girls,The CW | The CW | The CW Television Network,False,False
+[CLS] Embarrassing Bodies was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Verbotene Liebe was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],TBS,Das Erste | ARD | Das Erste | Deutsches Fernsehen | Erstes Deutsches Fernsehen,False,False
+[CLS] Tosh . 0 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tosh . 0,Comedy Central | Comedy Central,False,False
+[CLS] Hope & Faith was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Better Off Ted was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Celebrity Deathmatch was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Celebrity Deathmatch,MTV | MTV | Music Television,False,True
+[CLS] That Metal Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,VH1 Classic | VH1 Classic,False,False
+[CLS] World News Today was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],World News Today,BBC World News | BBC World | BBC World News | BBC World Service Television,False,False
+[CLS] ESPN Major League Baseball was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ESPN Major League Baseball,ESPN | ESPN | Entertainment and Sports Programming Network,False,True
+[CLS] The High Chaparral was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Super Friends was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Super Friends,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Real Sex was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Thursday Night Baseball was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Thursday Night Baseball,MLB Network | MLB Network,False,False
+"[CLS] All That , season 6 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",ABC Family,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Growing Pains was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Friday Night Fights was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Friday Night Fights,ESPN2 | ESPN2,False,False
+[CLS] Flower Boy Ramen Shop was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,TVN | TVN | tvN,False,False
+[CLS] Red Widow was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The 4400 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,USA Network | USA | USA Network,False,False
+"[CLS] Sister , Sister was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",ABC Family,The WB | The WB | The WB Television Network,False,False
+[CLS] Tripping the Rift was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Politically Incorrect was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] As If was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Channel 4,Channel 4 | C4 | Channel 4,True,False
+[CLS] Dirty Sexy Money was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The 11 O ' Clock Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],11 O ' Clock,Channel 4 | C4 | Channel 4,False,False
+[CLS] 12 Corazones was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the cable network,Telemundo | Telemundo,False,False
+[CLS] The Dinah Shore Chevy Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Dinah Shore,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Complete Savages was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] BoJack Horseman was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,"Netflix | Netflix | Netflix , Inc .",False,True
+[CLS] ITV News Channel TV was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ITV News,Channel Television | Channel Television | ITV Channel Television,False,False
+[CLS] The Ann Sothern Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the U . S,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Come Dine with Me was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,Channel 4 | C4 | Channel 4,False,False
+[CLS] Mannix was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Rhoda was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Justified was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,FX | FX | FX network | Fox extended | fX,False,True
+[CLS] CTV National News was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],CTV national news,CTV Television Network | CTV Television Network,False,False
+[CLS] Rocket Power was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] CBS Thursday Night Movie was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],CBS in the United States,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Vic Reeves Big Night Out was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Steven Universe was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Steven Universe,Cartoon Network | Cartoon Network,False,False
+[CLS] Need to Know was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Channel 4 in the UK,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Fox Soccer Report was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fox,Fox Sports World Canada | Fox Sports World Canada,False,False
+[CLS] Tikkabilla was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tikkabilla,CBeebies | CBeebies,False,False
+[CLS] V Graham Norton was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Channel 4 | C4 | Channel 4,False,False
+[CLS] Emergency Vets was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Animal Planet | Animal Planet,False,False
+[CLS] BBC News at Ten was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],BBC News at Ten,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Fox News Watch was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fox News,Fox News | FNC | Fox News | Fox News Channel | FoxNews | foxnews . com,True,False
+[CLS] The Tall Man was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Fall Guy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Inside MMA was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],WOWOW,AXS TV | AXS TV,False,False
+[CLS] Green Wing was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Green Wing,Channel 4 | C4 | Channel 4,False,False
+[CLS] Super Fun Night was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Super Fun Night,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] ITV News Anglia was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ITV News Anglia,ITV Anglia | Anglia Television | ITV Anglia,False,False
+[CLS] Meet the Press was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The FBI Files was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] Mayberry R . F . D . was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],W . W,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Power Lunch was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,CNBC | CNBC | Consumer News and Business Channel,False,False
+[CLS] Noah Knows Best was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] ESPN First Take was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ESPN,ESPN2 | ESPN2,False,False
+[CLS] The Doris Day Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Dual Survival was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] Astronaut Wives Club was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Astronaut,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Flying Nun was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] This Life was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Delocated was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] Cristela was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABS - CBN,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Empty Nest was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] My Big Fat Obnoxious Boss was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cartoon Network,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Extreme Dodgeball was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Game Show Network | GSN | Game Show Network,False,False
+[CLS] Lou Dobbs Tonight was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],NBC,Fox Business Network | Fox Business Network,False,False
+[CLS] Don Francisco Presenta was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Don Francisco,Univision | Univision,False,False
+[CLS] High School Stories was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,MTV | MTV | Music Television,False,True
+[CLS] Daldalita was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Him & Her was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Three | BBC 3 | BBC Three | BBC3,False,False
+[CLS] The Taste was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Taste,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The First Family was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The First Family,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] The Suite Life of Zack & Cody was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Diff ' rent Strokes was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Casper & Mandrilaftalen was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Disney Channel,DR2 | DR2,False,False
+[CLS] Taina was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Taina,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Big Day was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Big Day,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Infinite Challenge was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Infinite Challenge,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Family Outing was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Family Outing,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] Ballers was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Superbook was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Superbook,Christian Broadcasting Network | CBN | Christian Broadcasting Network,False,False
+[CLS] All About Me was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Superjail ! was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Superjail,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] Maui Fever was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maui,MTV | MTV | Music Television,False,True
+[CLS] Football Italia was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Football Italia,Channel 4 | C4 | Channel 4,False,False
+[CLS] Mystery Diagnosis was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Discovery Health Channel | Discovery Health Channel,False,False
+[CLS] Revolution was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Ghar Ki Lakshmi Betiyann was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],TV,Zee TV | Zee TV,False,False
+[CLS] The Bob Newhart Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Desperate Romantics was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] The Last Word with Lawrence O ' Donnell was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,MSNBC | MSNBC,False,False
+[CLS] The Sports Reporters was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Sports Reporters,ESPN | ESPN | Entertainment and Sports Programming Network,False,True
+[CLS] Pig Goat Banana Cricket was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] ESPNU Recruiting Insider was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ESPNU,ESPNU | ESPNU,True,False
+[CLS] The Gong Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Gong Show,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Dating Game was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Dating Game,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Impostora was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a few episodes,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Schweiz aktuell was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,SRF 1 | SF 1 | SRF 1,False,False
+[CLS] Massan was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Swim . Swim,NHK | Japan Broadcasting Corporation | NHK | Nippon Hoso Kyokai | Nippon Hōsō Kyōkai,False,True
+[CLS] Pranked was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,MTV | MTV | Music Television,False,True
+[CLS] Nashville Star was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,NBC | NBC | National Broadcasting Company,False,True
+[CLS] As the World Turns was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The David Letterman Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Top Cat was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Top Cat,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] SOP was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Swim . Swim,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Jornal Nacional was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jornal Nacional,Rede Globo | Globo | Rede Globo | Rede Globo de Televisão | TV Globo,False,False
+[CLS] Squawk Box Europe was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Squawk,CNBC Europe | CNBC Europe,False,False
+[CLS] I Am Weasel was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Cartoon Network | Cartoon Network,False,False
+[CLS] BBC News at Six was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],BBC News at Six,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] That ' 80s Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Last Week Tonight with John Oliver was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] The Sandy Duncan Show was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Hollow Crown was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] The Great Indian Laughter Challenge was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Great Indian,STAR One | STAR One,False,False
+[CLS] The Expanse was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Expanse,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Doctor Who was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Ultra Q was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ultra Q,Tokyo Broadcasting System Holdings | TBS | TBS Holdings | Tokyo Broadcasting System Holdings,False,False
+[CLS] The Secret Saturdays was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Saturdays,Cartoon Network | Cartoon Network,False,False
+[CLS] Wowowee was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wowowee,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Radio Rochela was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radio Rochela,RCTV | RCTV | Radio Caracas Televisión RCTV,False,False
+[CLS] He - Man and the Masters of the Universe was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cartoon Network,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] ESPN Sunday Night Football was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ESPN Sunday Night Football,ESPN | ESPN | Entertainment and Sports Programming Network,False,True
+[CLS] Miami Vice was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Smile Again was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Korean Broadcasting System | KBS | Korean Broadcasting System,False,False
+[CLS] Pardon the Interruption was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the ABC Family,ESPN | ESPN | Entertainment and Sports Programming Network,False,True
+[CLS] The Upside Down Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,Nick Jr . | Nick Jr . | Noggin,False,False
+[CLS] CODCO was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBC Television | CBC Television,False,False
+[CLS] Just Shoot Me ! was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Death Comes to Pemberley was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] The French Chef was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The French Chef,WGBH - TV | WGBH 2 | WGBH Boston | WGBH - TV,False,False
+[CLS] Backyard Blitz was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Today Show,Nine Network | 9 | 9 Network | Channel 9 | Channel Nine | Nine | Nine Network,False,False
+[CLS] The Finder was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Finder,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] 21st season of The Simpsons was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Brady Bunch in the White House was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the White House,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Surviving Suburbia was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Robonic Stooges was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Ja Myung Go was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],KBS1,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] Fake Reaction was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,ITV2 | ITV2,False,False
+[CLS] Kraft Suspense Theatre was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the air on the air,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Kamen Rider Kiva was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,TV Asahi | ANB | TV Asahi | Tv - asahi,False,False
+[CLS] Totally Frank was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,Channel 4 | C4 | Channel 4,False,False
+[CLS] Baretta was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S .,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Crossbones was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Osbournes was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Osbournes,MTV | MTV | Music Television,False,True
+[CLS] Late Night was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Late Night,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Flintstone Comedy Hour was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Flintstone,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Skatebirds was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Skatebirds,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Nuestra Belleza Latina 2010 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],L . L,Univision | Univision,False,False
+[CLS] Pirate Master was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Los exitosos Pells was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the cable network,Telefe | Telefe,False,False
+[CLS] Disney Parks Christmas Day Parade was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Christmas Day Parade,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Charlie Rose was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Langt fra Las Vegas was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Las Vegas,TV 2 Zulu | TV 2 Zulu,False,False
+[CLS] Midnight Caller was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",NBC | NBC | National Broadcasting Company,False,True
+[CLS] Balance of Power was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Bring Back . . . was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],WOWOW,Channel 4 | C4 | Channel 4,False,False
+[CLS] The Fresh Beat Band was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Fresh Beat Band,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Mandrake was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] The Evidence was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] News to Go was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],News to Go,GMA News TV | GMA News TV | GMA News TV International,False,False
+[CLS] Father Murphy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Call for Help was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,TechTV | TechTV,False,False
+[CLS] Cutthroat Kitchen was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Food Network | Food Network,False,False
+[CLS] Newyddion was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],BBC Radio 4,S4C | S4C | Sianel Pedwar Cymru,False,False
+[CLS] Baantjer was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Baantjer,RTL 4 | RTL 4,False,False
+[CLS] Trackdown was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Space Sentinels was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Space Sentinels,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Up - Late Game Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Up - Late,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Suddenly Susan was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] State of the Nation with Jessica Soho was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,GMA News TV | GMA News TV | GMA News TV International,False,False
+[CLS] Chilly Beach was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chilly Beach,CBC Television | CBC Television,False,False
+[CLS] Zee Horror Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zee Horror Show,Zee TV | Zee TV,False,False
+[CLS] La Roue de la Fortune was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],France Télé,TF1 | TF1 | Télévision française 1,False,True
+[CLS] Showbiz Central was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Showbiz,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Hoy por hoy was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the morning and the morning,Cadena SER | Cadena SER,False,False
+[CLS] Donald Duck Presents was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] It ' s Alec Templeton Time was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],BBC Two,DuMont Television Network | DuMont Television Network,False,False
+[CLS] Megan Wants a Millionaire was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+"[CLS] Quentin Durgens , M . P . was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the United States,CBC Television | CBC Television,False,False
+[CLS] On Point was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],On Point,WBUR - FM | WBUR - FM,False,False
+[CLS] All Hail King Julien was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,"Netflix | Netflix | Netflix , Inc .",False,True
+[CLS] Extreme Makeover : Weight Loss Edition was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Extreme Makeover,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] S . O . C . O . ( Scene of the Crime Operatives ) was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],WOWOW,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] The Chinese Detective was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] Arcade was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network . Cartoon Network,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] E Street was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],E Street,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] CNN Presents was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],NBC,CNN | CNN | CNN News | CNN USA | CNN . com | CNN / U . S . | Cable News Network,False,True
+[CLS] The John Larroquette Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Grossology was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,YTV | YTV,False,False
+[CLS] Out All Night was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Mission Hill was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mission Hill,The WB | The WB | The WB Television Network,False,False
+[CLS] Adam Adamant Lives ! was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] Jabb Love Hua was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],HD HD and HD HD,Zee TV | Zee TV,False,False
+[CLS] Daisy Siete was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Disney XD,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Behind Closed Doors was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Ang Bagong Kampeon was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABS - CBN,RPN | RPN | Radio Philippine Network,False,False
+[CLS] Spooky Nights was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Cool McCool was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],W . W,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Bedford Diaries was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Bedford Diaries,The WB | The WB | The WB Television Network,False,False
+[CLS] Breed All About It was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,Animal Planet | Animal Planet,False,False
+[CLS] Taratata was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,France 2 | France 2,False,False
+[CLS] Shanakht was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tamil Tamil,Hum TV | Hum TV,False,False
+[CLS] Braingames was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] The Book of Daniel was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Mein Leben & Ich was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same day,RTL Television | RTL Television,False,False
+[CLS] Nathan Barley was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Go Go Stop was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Lemonade Mouth was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Beauty Queen was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Celebrity Rehab Presents Sober House was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Celebrity Rehab,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] The Young Lawyers was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Let Loose Live was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Tonight Show,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Cracked was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+[CLS] Derrick was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,ZDF | ZDF | Zweites Deutsches Fernsehen,False,True
+[CLS] Fox Major League Baseball was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Fox Major League Baseball,Fox Sports Networks | Fox Sports Networks,False,False
+[CLS] Nick Arcade was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nick Arcade,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] A * mazing was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] W1A was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],W1A - TV,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Young Americans was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,The WB | The WB | The WB Television Network,False,False
+[CLS] The Chicago Code was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Chicago Code,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Kinniku Banzuke was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],TBS,Tokyo Broadcasting System Holdings | TBS | TBS Holdings | Tokyo Broadcasting System Holdings,True,False
+[CLS] The Cost of Freedom was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Cost of Freedom,Fox Business Network | Fox Business Network,False,False
+[CLS] World Business Report was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],World Business Report,BBC World News | BBC World | BBC World News | BBC World Service Television,False,False
+[CLS] Light Lunch was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Channel 4 | C4 | Channel 4,False,False
+[CLS] Twitches Too was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Twitches Too,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Oh Sit ! was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the U . S,The CW | The CW | The CW Television Network,False,False
+[CLS] Hopkins was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Eye Candy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,MTV | MTV | Music Television,False,True
+[CLS] The Pink Panther Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Pink Panther Show,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Auction Kings was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] The American Bible Challenge was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The American Bible Challenge,Game Show Network | GSN | Game Show Network,False,False
+[CLS] I Need Romance 3 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the USA Network,TVN | TVN | tvN,False,False
+[CLS] Extant was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Extant,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Meri Doli Tere Angana was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],TV,Zee TV | Zee TV,False,False
+[CLS] The Secret Circle was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,The CW | The CW | The CW Television Network,False,False
+[CLS] Under the Dome was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] NASCAR RaceDay was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],NASCAR RaceDay,Fox Sports 1 | FS1 | Fox Sports 1,False,False
+[CLS] Grace and Frankie was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,"Netflix | Netflix | Netflix , Inc .",False,True
+[CLS] 101 East was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],101 East,Al Jazeera English | AJ English | AJE | Al Jazeera English,False,False
+[CLS] The X Factor was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Twenty Twelve was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,BBC Four | BBC 4 | BBC Four | BBC4,False,False
+[CLS] Killer Women was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Mga Basang Sisiw was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABS - CBN,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] The South Bank Show was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Bank,Sky Arts | Artsworld | Sky Arts,False,False
+[CLS] The Comedy Company was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Comedy Company,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+"[CLS] Gute Zeiten , schlechte Zeiten was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP]",RTL,RTL Television | RTL Television,False,False
+[CLS] Santa Barbara was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Drive was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Total Divas was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,E ! | E ! | E ! Entertaiment | E ! Entertainment Television | E ! Network | E ! Online,False,False
+[CLS] Romantically Challenged was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Challenge Anneka was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swim Swim,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] The Singing Bee was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Singing Bee,Nine Network | 9 | 9 Network | Channel 9 | Channel Nine | Nine | Nine Network,False,False
+[CLS] Zorro : La Espada y la Rosa was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Telemundo | Telemundo,False,False
+[CLS] Erin Burnett OutFront was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CNN | CNN | CNN News | CNN USA | CNN . com | CNN / U . S . | Cable News Network,False,True
+[CLS] Push Girls was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Push Girls,Sundance TV | Sundance Channel | Sundance TV | SundanceTV,False,False
+[CLS] Almost Perfect was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] O ' Grady was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,TeenNick | Teen Nick | TeenNick | The N,False,False
+[CLS] Hollywood Residential was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Starz | ' ' Starz ! ' ' | Starz | Starz !,False,False
+[CLS] Ben 10 : Destroy All Aliens was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ben 10,Cartoon Network | Cartoon Network,False,False
+[CLS] Princess Hours was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Princess Hours,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Preston Pig was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CITV | CITV,False,False
+[CLS] Play of the Month was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Play of the Month,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Power was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swim . Swim,Starz | ' ' Starz ! ' ' | Starz | Starz !,False,False
+"[CLS] It ' s a Mystery , Charlie Brown was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Rock School was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rock School,Channel 4 | C4 | Channel 4,False,False
+"[CLS] She ' s a Good Skate , Charlie Brown was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+"[CLS] Snoopy ' s Getting Married , Charlie Brown was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Stone Tape was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Big & Small was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBeebies | CBeebies,False,False
+[CLS] The New Breed was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The New Br,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] My Sister Sam was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The 3rd Hospital was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The 3rd Hospital,TVN | TVN | tvN,False,False
+[CLS] Reply 1997 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,TVN | TVN | tvN,False,False
+[CLS] Matt Houston was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Comic Strip Live was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Comic Strip Live,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Itsy Bitsy Spider was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,USA Network | USA | USA Network,False,False
+[CLS] Rescue Me was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,FX | FX | FX network | Fox extended | fX,False,True
+[CLS] Radio Orange was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radio Orange,BBC World Service | BBC World Service | The World Service | World Service,False,False
+[CLS] Turn - On was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Turn - On,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Ryōmaden was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],TBS,NHK | Japan Broadcasting Corporation | NHK | Nippon Hoso Kyokai | Nippon Hōsō Kyōkai,False,True
+[CLS] Bizarre ER was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Three | BBC 3 | BBC Three | BBC3,False,False
+[CLS] Million Dollar Minute was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] The Sound of Music Live was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Sound of Music,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Noor Pur Ki Rani was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil Tamil,Hum TV | Hum TV,False,False
+[CLS] Double Talk was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Making the Video was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,MTV | MTV | Music Television,False,True
+[CLS] Timmy Time was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Timmy Time,CBeebies | CBeebies,False,False
+[CLS] Page Eight was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Terminator : The Sarah Connor Chronicles was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Lipstick on Your Collar was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Video Hits was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Yogi ' s Space Race was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Oshin was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NHK | Japan Broadcasting Corporation | NHK | Nippon Hoso Kyokai | Nippon Hōsō Kyōkai,False,True
+[CLS] The Abrams Report was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,MSNBC | MSNBC,False,False
+[CLS] Not My Department was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+[CLS] Whew ! was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Whew,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] High Rollers was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Devil May Cry : The Animated Series was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,WOWOW | WOWOW,False,False
+[CLS] H . I . T was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],WOWOW,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Iron Chef UK was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ITV and ITV,Channel 4 | C4 | Channel 4,False,False
+[CLS] Stella was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Comedy Central | Comedy Central,False,False
+"[CLS] Win , Lose or Draw was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the United States,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Getting By was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Here Comes Peter Cottontail was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Arena Football League on ESPN was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ESPN,ESPN | ESPN | Entertainment and Sports Programming Network,True,True
+[CLS] Inquizition was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Game Show Network | GSN | Game Show Network,False,False
+[CLS] Celebrity Soup was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Celebrity Soup,E ! | E ! | E ! Entertaiment | E ! Entertainment Television | E ! Network | E ! Online,False,False
+[CLS] Get Ace was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Strictly Come Dancing : It Takes Two was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Seven Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Dog Whisperer with Cesar Millan was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,National Geographic Channel | Nat Geo Channel | National Geographic | National Geographic Channel,False,False
+[CLS] Sportsworld was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sportsworld . com,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+"[CLS] A Fairly Odd Movie : Grow Up , Timmy Turner ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Cartoon Network,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] NY - LON was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],NY - LON,Channel 4 | C4 | Channel 4,False,False
+[CLS] Wallace and Gromit was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the U . S,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] The Dennis O ' Keefe Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the U . S,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The John Forsythe Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Tonight Show,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Computer Programme was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Chicago P . D . was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chicago P . D,NBC | NBC | National Broadcasting Company,False,True
+[CLS] John Callahan ' s Quads ! was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Saturday Night Live,Teletoon | Teletoon,False,False
+[CLS] Apocalypse : The Second World War was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,RTBF | RTBF | Radio Television Belge Francophone | Radio Télévision Belge Francophone | rtbf . be,False,False
+[CLS] Brother ' s Keeper was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,TVB Jade | Jade Channel | TVB Jade,False,False
+[CLS] The Nine was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Nine,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Dom kallar oss artister was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Södermanland,SVT1 | Kanal 1 | SVT 1 | SVT1 | TV 1 | TV1,False,False
+[CLS] An Evening with Fred Astaire was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Five Daughters was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Scheibenwischer was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S .,Das Erste | ARD | Das Erste | Deutsches Fernsehen | Erstes Deutsches Fernsehen,False,False
+[CLS] MasterChef Junior was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Discoring was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Tonight Show,Rai 1 | Rai 1 | Rai Uno,False,False
+[CLS] We Are Men was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The World of Lee Evans was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Time Trackers was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Mel and Joey was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] House of Venus Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],House of Venus,OUTtv | OUTtv | PrideVision TV,False,False
+[CLS] Ganges was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Strawberry Lane was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Laff - A - Lympics was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Verliebt in Berlin was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ZDF,Sat . 1 | SAT . 1 | Sat . 1,False,False
+[CLS] First Wave was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,CTV Sci - Fi Channel | CTV Sci - Fi Channel | Space,False,False
+[CLS] Jake 2 . 0 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jake 2 . 0,UPN | UPN | United Paramount Network,False,False
+[CLS] Flo was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],##wimwimwimwimwim,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Material World was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],FX and FX,CBC Television | CBC Television,False,False
+"[CLS] House , season 8 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Bay City Blues was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bay City Blues,NBC | NBC | National Broadcasting Company,False,True
+[CLS] WPC 56 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],WOWOW,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Rafferty ' s Rules was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Fromage was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,MuchMusic | Much | MuchMusic,False,False
+[CLS] The Karate Kid was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Dinoshark was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Shirley Temple ' s Storybook was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Bosom Buddies was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Market Watch was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Market Watch,CNBC | CNBC | Consumer News and Business Channel,False,False
+[CLS] George of the Jungle was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Bagboy was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] That ' s Amore ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rai Rai,MTV | MTV | Music Television,False,True
+[CLS] The Hart and Lorne Terrific Hour was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+"[CLS] Ed , Edd n Eddy , season 2 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,Cartoon Network | Cartoon Network,True,False
+[CLS] Sport Relief does Glee Club was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Glee Club,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Johnny and the Sprites was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Selfie was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Dipdap was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dipdap,CBeebies | CBeebies,False,False
+[CLS] It ' s a Living was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the ABC Family,CBC Television | CBC Television,False,False
+[CLS] Snacka om nyheter was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,SVT2 | Kanal 2 | SVT 2 | SVT2 | TV 2 | TV2,False,False
+[CLS] Family Feud was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Family Feud,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] The New Shmoo was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The New Shmoo,NBC | NBC | National Broadcasting Company,False,True
+[CLS] sixth season of The Simpsons was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Dirty Soap was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,E ! | E ! | E ! Entertaiment | E ! Entertainment Television | E ! Network | E ! Online,False,False
+[CLS] For Your Home was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Forever was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Toki o Kakeru Shōjo was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],TBS,"Fuji Television | Fuji TV | Fuji Television | Fuji Television Network | Fuji Television Network , Inc .",False,False
+[CLS] Last Man Standing was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Tilt . tv was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tilt,MTV3 | Kolmonen | MTV3 | Maikkari | Mainos - TV | Mainostelevisio,False,False
+[CLS] Gambit was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Rated K was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rated K,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Susie was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,WIN Television | WIN Television,False,False
+[CLS] Rhodora X was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhodora X,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+"[CLS] Ed , Edd n Eddy , season 1 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,Cartoon Network | Cartoon Network,True,False
+[CLS] Road Hockey Rumble was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,OLN | OLN | Outdoor Live Network,False,False
+[CLS] The Days was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Tonight Show,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Rise of the Great Powers was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,CCTV - 2 | CCTV - 2,False,False
+[CLS] Simon in the Land of Chalk Drawings was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,Thames Television | Thames Television,False,False
+[CLS] Jessie was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Black Box was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Black Box,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Two Weeks was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW . The CW,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+"[CLS] It Was a Short Summer , Charlie Brown was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Diz Iz It ! was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Diz Iz It,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Arang and the Magistrate was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a few episodes,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Creepy Canada was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Creepy Canada,OLN | OLN | Outdoor Live Network,False,False
+[CLS] The Burn with Jeff Ross was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Comedy Central | Comedy Central,False,False
+[CLS] Dallas : War of the Ewings was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Philanthropist was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+"[CLS] Spend , Spend , Spend was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",the United States,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+"[CLS] Robot Chicken , season 3 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,Adult Swim | Adult Swim | [ adult swim ],False,False
+[CLS] Casper ' s First Christmas was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Capitol Critters was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Call Me : The Rise and Fall of Heidi Fleiss was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,USA Network | USA | USA Network,False,False
+[CLS] Family ' s Honor was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Family ' s Honor,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] Mask Man was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Korean Broadcasting System | KBS | Korean Broadcasting System,False,False
+[CLS] Skin Wars was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Game Show Network | GSN | Game Show Network,False,False
+[CLS] Melodifestivalen 1986 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SVT1,SVT1 | Kanal 1 | SVT 1 | SVT1 | TV 1 | TV1,True,False
+[CLS] Julie on Sesame Street was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sesame Street,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] En ettas dagbok was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SVT,SVT1 | Kanal 1 | SVT 1 | SVT1 | TV 1 | TV1,False,False
+[CLS] Doctor Stranger was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Doctor Stranger,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+"[CLS] Ooh , Aah & You was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the United States,Playhouse Disney | Playhouse Disney,False,False
+[CLS] Hope and Gloria was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Guns of Will Sonnett was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Genie From Down Under was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Down Under,Australian Broadcasting Corporation | ABC | Australian Broadcasting Commission | Australian Broadcasting Corporation,False,False
+[CLS] George Burns Comedy Week was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Quest was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Julie and the Phantoms was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Rede Bandeirantes | Band | Bandeirantes Television Network | Rede Bandeirantes | Rede Bandeirantes de Televisão | TV Bandeirantes,False,False
+[CLS] IndyCar Series on NBC was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live on NBC,NBC Sports Network | NBC Sports Network | NBCSN,False,False
+[CLS] Baa Baa Black Sheep was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] A Indomada was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Indomada,Rede Globo | Globo | Rede Globo | Rede Globo de Televisão | TV Globo,False,False
+[CLS] Fem myror är fler än fyra elefanter was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same,Sveriges Television | SVT | Sveriges Television | svt,False,False
+[CLS] Butt - Ugly Martians was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Terry and June was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Wicked Science was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Prototype This ! was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] The Dream with Roy and HG was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Goodyear Theatre was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Goodyear Theatre,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Extras was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Donna Leon was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Das Erste | ARD | Das Erste | Deutsches Fernsehen | Erstes Deutsches Fernsehen,False,False
+[CLS] Road No . 1 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Road No . 1,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Rear Window was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rear Window,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Golden Rainbow was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] New Mexico True Television was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,KOB | KOB,False,False
+[CLS] Bad Housewife was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] The Forest Rangers was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+[CLS] My Love Patzzi was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Chrissy & Mr . Jones was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Chocolate com Pimenta was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Rede Globo | Globo | Rede Globo | Rede Globo de Televisão | TV Globo,False,False
+[CLS] The Bazura Project was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,ABC2 | ABC 2 | ABC 2 ( Australia ) | ABC2 | ABC2 ( Australia ),False,False
+[CLS] Unsolved History was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] Bulls & Bears was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Fox News | FNC | Fox News | Fox News Channel | FoxNews | foxnews . com,False,False
+[CLS] Cain and Abel was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] 24 Hour Restaurant Battle was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Food Network | Food Network,False,False
+[CLS] Montreal Pop Concerts was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Montreal Pop Concerts,CBC Television | CBC Television,False,False
+[CLS] Go Figure was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+[CLS] Questions for the Future was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Channel 4,CNBC Europe | CNBC Europe,False,False
+"[CLS] That ' 70s Show , season 4 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same day,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+"[CLS] That ' 70s Show , season 2 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same day,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Game Game was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] The Banana Splits was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Banana,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Great Debate was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Playhouse Playhouse,Global Television Network | Global TV | Global Television Network,False,False
+[CLS] When Spicy Meets Sweet was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the U . S,MTV | MTV | Music Television,False,True
+[CLS] Turbo Teen was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Chikyu Sentai Fiveman was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],TBS,TV Asahi | ANB | TV Asahi | Tv - asahi,False,False
+[CLS] The Electric Company was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,PBS Kids Go ! | PBS Kids Go !,False,False
+[CLS] My Babysitter ' s a chris was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Disney Channel | Disney | Disney Channel | The Disney Channel,False,False
+"[CLS] Creamy Mami , the Magic Angel was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Cartoon Network,Nippon Television | NTV | Nippon TV | Nippon Television | Nippon Television Network,False,False
+[CLS] Mix Master was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mix Master,Korean Broadcasting System | KBS | Korean Broadcasting System,False,False
+[CLS] House of Cards was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,"Netflix | Netflix | Netflix , Inc .",False,True
+[CLS] Porque el amor manda was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],TV,Las Estrellas | Canal de las Estrellas | Las Estrellas,False,False
+[CLS] Archie : To Riverdale and Back Again was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] RSPCA Animal Rescue was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] This Is Show Business was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Show Business,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Desperados was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the cable network,CBBC | CBBC | Children ' s BBC,False,False
+[CLS] Scrubs : Interns was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Annie was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Galapagos 3D was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Galapagos,Sky 3D | Sky 3D,False,False
+[CLS] A Hundred Year Legacy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] The Path to 9 / 11 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],9 / 11,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Underbelly : A Tale of Two Cities was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cartoon Network,Nine Network | 9 | 9 Network | Channel 9 | Channel Nine | Nine | Nine Network,False,False
+[CLS] La Corte del Pueblo was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],La Corte del Pueblo,KWHY - TV | KWHY - TV,False,False
+[CLS] Super Robot Monkey Team Hyperforce Go ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Jetix | Jetix,False,False
+[CLS] Hip Hop Harry was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hip Hop Harry,Discovery Family | Discovery Family | Discovery Kids | Hub Network,False,False
+[CLS] Hour Glass was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Mob Wives Chicago was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Katok Mga Misis ! was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] Kommotion was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,ATV | ATV,False,True
+[CLS] Big Rig Bounty Hunters was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,History | History | History Channel | The History Channel,False,True
+[CLS] Wartime Farm was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],WOWOW,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Saan Ka Man Naroroon was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rai Rai Rai Rai,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Single Ladies was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Law & Order : Special Victims Unit was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+"[CLS] Arthur , season 17 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the United States,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Battlestar Galactica : The Plan was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] WWF Mania was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],WWF Mania,USA Network | USA | USA Network,False,False
+"[CLS] Andy Barker , P . I . was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",ITV in the United Kingdom,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Diagnosis : Murder was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+"[CLS] Barney Blake , Police Reporter was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Hard Times of RJ Berger was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Playhouse Playhouse,MTV | MTV | Music Television,False,True
+[CLS] It ' s a Musical World was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+[CLS] Nightingales was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Birds of a Feather was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Earth Revealed : Introductory Geology was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] It ' s a Hit was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Arka Sokaklar was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],K . K .,Kanal D | Kanal D,False,False
+[CLS] The Family Man was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Family Man,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Animal Face - Off was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] Egoli : Place of Gold was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,M - Net | M - Net,False,False
+[CLS] Narito Ang Puso Ko was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABS - CBN,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+"[CLS] Sea Patrol , season 2 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Sea Patrol,Nine Network | 9 | 9 Network | Channel 9 | Channel Nine | Nine | Nine Network,False,False
+[CLS] Crumbs was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Crumbs,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] RuPaul ' s Drag Race was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],RuPaul,Logo TV | Logo TV,False,False
+[CLS] The Jimmy Durante Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Gidget Grows Up was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Supertrain was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Supertrain,NBC | NBC | National Broadcasting Company,False,True
+[CLS] How to Boil Water was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Food Network | Food Network,False,False
+[CLS] Antiques Road Trip was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Family Tree was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Family Tree,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Red Nose Day 2007 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Red Nose Day,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Island Son was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Island Son,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] MTV Asia Hitlist was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],MTV Asia,MTV | MTV | Music Television,False,True
+[CLS] Chop Socky Chooks was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Teletoon | Teletoon,False,False
+[CLS] Landet runt was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SVT,SVT1 | Kanal 1 | SVT 1 | SVT1 | TV 1 | TV1,False,False
+[CLS] Pilot was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Flying Blind was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Hostage Heart was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Hostage,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Kamen Rider Kabuto was originally aired on [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TBS,TV Asahi | ANB | TV Asahi | Tv - asahi,False,False
+[CLS] Titans was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] My Dad ' s the Prime Minister was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Marvel Action Universe was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] The Cops was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Second Noah was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Experiences of Scientist Nunes & Robot Robino was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Temptation was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] Raising Dad was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,The WB | The WB | The WB Television Network,False,False
+[CLS] Bouillon de culture was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],France Télé,France 2 | France 2,False,False
+[CLS] Hana Moyu was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TBS,NHK | Japan Broadcasting Corporation | NHK | Nippon Hoso Kyokai | Nippon Hōsō Kyōkai,False,True
+[CLS] Shark Tank was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shark Tank,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Hulk and the Agents of S . M . A . S . H . was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],W . W,Disney XD | Disney XD,False,False
+[CLS] The Wedding Scheme was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",TVN | TVN | tvN,False,False
+[CLS] Morning Girls with Kris and Korina was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Morning Girls,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Prvi glas Srbije was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],RTV,Prva Srpska Televizija | Prva Srpska Televizija,False,False
+[CLS] Symphony of Fate was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Anhui Television | Anhui Television,False,False
+[CLS] American Body Shop was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Comedy Central | Comedy Central,False,False
+[CLS] Olbermann was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,ESPN2 | ESPN2,False,False
+[CLS] Amy Prentiss was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Rush Hour was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rush Hour,BBC Three | BBC 3 | BBC Three | BBC3,False,False
+[CLS] Karen was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Bikie Wars : Brothers in Arms was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] The Heaven Sword and Dragon Saber was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,TVB Jade | Jade Channel | TVB Jade,False,False
+[CLS] Prudential Family Playhouse was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Good Time Harry was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Courtroom was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Courtroom,Channel 4 | C4 | Channel 4,False,False
+[CLS] Breakers was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Bates Motel was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] My Fair Lady was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Playhouse Playhouse,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+"[CLS] Xena : Warrior Princess , season 6 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,USA Network | USA | USA Network,False,False
+[CLS] The Stream was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Al Jazeera English | AJ English | AJE | Al Jazeera English,False,False
+[CLS] All In was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],All In,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] Here Comes Garfield was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Class of ' 96 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Class of ' 96,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Ji Woon - soo ' s Stroke of Luck was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],KBS1,TV Chosun | Chosun Broadcasting Company | TV Chosun,False,False
+[CLS] Beat the Clock was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Today with Kris Aquino was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Channel 4,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Eureka ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,TVOntario | TVO | TVOntario,False,False
+[CLS] Wild West was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wild West,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Going My Way was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] James May ' s Man Lab was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Tasty Time with ZeFronk was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Playhouse Disney | Playhouse Disney,False,False
+"[CLS] Teenage Mutant Ninja Turtles ( 1987 TV series , season 10 ) was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+"[CLS] Benji , Zax & the Alien Prince was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] High Society was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,The CW | The CW | The CW Television Network,False,False
+[CLS] Down the Shore was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Gabby Hayes Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,NBC | NBC | National Broadcasting Company,False,True
+[CLS] A Bit of Fry & Laurie was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] The Cheap Show was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Cheap Show,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Zigby was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Treehouse TV | Treehouse TV,False,False
+[CLS] Cucumber was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Channel 4 | C4 | Channel 4,False,False
+[CLS] Brothers was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Singing Bee was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Singing Bee,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Melevisione was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rai Rai,Rai 3 | Rai 3 | Rai Tre,False,False
+"[CLS] Sunt celebru , scoate - mă de aici ! was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",TV,Pro TV | Pro TV,False,False
+[CLS] The Man and the City was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Travels of Jaimie McPheeters was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Coupling was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Tonight Show,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Charlie Brown and Charles Schulz was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Fifi and the Flowertots was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Nick Jr . | Nick Jr . | Noggin,False,False
+[CLS] Coconut Fred ' s Fruit Salad Island was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Kids ' WB | Kids ' WB,False,False
+[CLS] The Beatrice Arthur Special was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Professor Moffett ' s Science Workshop was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Playhouse Playhouse,CBC Television | CBC Television,False,False
+[CLS] Elementary was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Good Morning Britain was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ITV,TV - am | TV - am,False,False
+[CLS] Check It Out ! was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CTV Television Network | CTV Television Network,False,False
+[CLS] Jake in Progress was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Hot Wheels was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hot Wheels,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Drexell ' s Class was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Real Chance of Love was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Chez Nous was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chez Nous,CBC Television | CBC Television,False,False
+[CLS] People was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swim . Swim,CBC Television | CBC Television,False,False
+"[CLS] Rush , season 3 was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Disney Channel,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Knights of God was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Television South | TVS | Television South,False,False
+[CLS] Temptation of an Angel was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],ABC Family,Seoul Broadcasting System | Eseubieseu | SBS | Seoul Broadcasting System,False,False
+[CLS] Kirarin Revolution was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,TV Tokyo | Digital7 | TV Tokyo | TX | Teleto | Television Tokyo | Television Tokyo Channel | Tokyo TV,False,False
+[CLS] The Lenny Breau Show was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Seven Network,CBC Television | CBC Television,False,False
+[CLS] Double Up was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Hollywood Screen Test was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the USA Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Famous in 12 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The CW,The CW | The CW | The CW Television Network,True,False
+[CLS] The Star and the Story was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Attack of the Killer Tomatoes was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Hur Jun was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Munhwa Broadcasting Corporation | Cultural Broadcasting Corporation | MBC | Munhwa Bangsong Jushikhoesa | Munhwa Broadcasting Corp . | Munhwa Broadcasting Corporation,False,False
+[CLS] Un caso di coscienza was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Canale 5,Rai 2 | Rai 2 | Rai Due,False,False
+[CLS] Mr . T and Tina was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+"[CLS] Mad TV , season 4 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Mad TV,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Darkroom was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+"[CLS] Mad TV , season 10 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Mad TV,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] Pitfall was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],FX and FX,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] The Haunted was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Haunted,Animal Planet | Animal Planet,False,False
+[CLS] 2010 World Series was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Fox Broadcasting Company | FOX | Fox | Fox Broadcasting Company | Fox Network,False,False
+[CLS] The Julekalender was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Julekalender,TV 2 | TV 2 | TV 2 Norge | TV 2 Norway | TV2 | TV2 Norge | TV2 Norway,False,False
+[CLS] The Sound of Jazz was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Sound of Jazz,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] SEC Nation was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SEC Nation,SEC Network | SEC Network,False,False
+[CLS] John Denver and the Muppets : A Christmas Together was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Peter and Paul was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The Pillars of the Earth was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,The Movie Network | TMN | The Movie Network,False,False
+[CLS] The Greed of Man was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,TVB Jade | Jade Channel | TVB Jade,False,False
+[CLS] Sand Serpents was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Samantha oups ! was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same day,France 2 | France 2,False,False
+[CLS] Great Movies was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBC Television | CBC Television,False,False
+[CLS] History Makers was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+[CLS] Gamble on Love was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,DuMont Television Network | DuMont Television Network,False,False
+[CLS] Saka no Ue no Kumo was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],TBS,NHK | Japan Broadcasting Corporation | NHK | Nippon Hoso Kyokai | Nippon Hōsō Kyōkai,False,True
+[CLS] Johnny Ringo was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],TBS,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Jane Eyre was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] Mi pequeña Soledad was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],TBS,Televisa | Grupo Televisa | Televisa,False,True
+[CLS] Big Top was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Big Top,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Fox Business Morning was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fox Business Morning,Fox Business Network | Fox Business Network,False,False
+[CLS] Paul Murray Live was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],BBC Radio 1,Sky News Australia | Sky News Australia,False,False
+[CLS] Hector ' s House was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+"[CLS] Murder Me , Murder You was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",NBC,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Gypsy was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Chico the Rainmaker was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,"PBS | PBS | Public Broadcasting Service | Public Broadcasting Service , PBS",False,True
+[CLS] Kokosei Restaurant was originally aired on [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TBS,Nippon Television | NTV | Nippon TV | Nippon Television | Nippon Television Network,False,False
+[CLS] Lost on Earth was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,USA Network | USA | USA Network,False,False
+[CLS] Anna Lee was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,London Weekend Television | LWT | London Weekend Television,False,False
+[CLS] Cher ( TV series ) was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cher,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Leave It to Beaver was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] X - Men : Evolution was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],X - Men,Fox Kids | Fox Kids | Foxkids,False,False
+[CLS] Le téléphone sonne was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],France 2,France Inter | France Inter,False,False
+[CLS] Spider - Man was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Spider - Man,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] The Canadian Establishment was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],CBC Television,CBC Television | CBC Television,True,False
+[CLS] Beacon Hill was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] The New Adventures of Huckleberry Finn was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Building was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"The Tonight Show , Jr",CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Totally Australia was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+[CLS] Yam Roll was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBC Television | CBC Television,False,False
+"[CLS] Star Trek : Enterprise , season 3 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,UPN | UPN | United Paramount Network,False,False
+[CLS] U Can Dance was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U Can Dance,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Match of the Day 2 was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Match of the Day,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Zorro and Son was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zorro and Son,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] El y Ella was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],El y Ella,Telemundo | Telemundo,False,False
+[CLS] Super President was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Super President,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Celanese Theater was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Showtime in the United States,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Beetlejuice was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Beetlejuice,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Being Human ( North American season 2 ) was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the United States,Syfy | Sci Fi | Sci - Fi Channel | SciFi | Syfy,False,False
+[CLS] Out of the Unknown was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] The Method was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swim . Swim,Channel One Russia | Channel One Russia | ORT | Perviy Kanal | Pervyi Kanal | Pervyy Kanal,False,False
+[CLS] Insight was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The CW . The CW,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+"[CLS] The Wire , season 1 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",The Wire,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] Bram & Alice was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Invincible Baseball Team was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Korean Broadcasting System | KBS | Korean Broadcasting System,False,False
+[CLS] Heaven for Betsy was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] World ' s Funniest Videos was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Fall to Grace was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,HBO | HBO | HBO Family | Home Box Office,False,True
+[CLS] This Is the Law was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBC Television | CBC Television,False,False
+[CLS] Perfect Weapon was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],FX in the United States,National Geographic Channel | Nat Geo Channel | National Geographic | National Geographic Channel,False,False
+[CLS] Wheel of Fortune was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] LouisLouise was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the air on the air,VTM | VTM | Vlaamse Televisie Maatschappij | vtm,False,False
+[CLS] American Bandstand was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,WPVI - TV | WPVI | WPVI - TV,False,False
+"[CLS] Sea Patrol , season 5 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Sea Patrol,Nine Network | 9 | 9 Network | Channel 9 | Channel Nine | Nine | Nine Network,False,False
+[CLS] Undercover Angels was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Men Don ' t Tell was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,CBS | CBS | Columbia Broadcasting System,False,True
+"[CLS] MasterChef Vietnam , season 1 was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the United States,Vietnam Television | Vietnam Television,False,False
+[CLS] Doorway to Fame was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Doorway to Fame,DuMont Television Network | DuMont Television Network,False,False
+[CLS] Free Radio was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Free Radio,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Power Rangers Zeo was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Fox Kids | Fox Kids | Foxkids,False,False
+[CLS] Rudolph ' s Shiny New Year was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Dweezil & Lisa was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,Food Network | Food Network,False,False
+[CLS] Quebec in English was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Quebec in English,CBC Television | CBC Television,False,False
+[CLS] Timm Thaler was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,ZDF | ZDF | Zweites Deutsches Fernsehen,False,True
+[CLS] A Woman Named Jackie was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,NBC | NBC | National Broadcasting Company,False,True
+[CLS] The Jetsons Meet the Flintstones was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,broadcast syndication | TV syndication | broadcast syndication | radio syndication | syndication,False,False
+[CLS] Chinese Idol was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chinese Idol,Dragon Television | Dragon TV | Dragon Television,False,False
+[CLS] The Alan Dale Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] Engineering an Empire was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,History | History | History Channel | The History Channel,False,True
+"[CLS] Blue Heelers , season 3 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+"[CLS] Blue Heelers , season 4 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",ABC Family,Seven Network | 7 | Channel 7 | Channel Seven | Network 7 | Network Seven | Seven | Seven Network | Seven head Network,False,False
+[CLS] Comedy Champions was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Comedy Champions,Sahara One | Sahara One,False,False
+[CLS] The Taste was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Taste,Channel 4 | C4 | Channel 4,False,False
+[CLS] Make the Grade was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] The Planet ' s Funniest Animals was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cartoon Network,Animal Planet | Animal Planet,False,False
+[CLS] Atlanta Exes was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Atlanta Exes,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Invention USA was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,History | History | History Channel | The History Channel,False,True
+[CLS] Amores Roubados was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Antena 3,Rede Globo | Globo | Rede Globo | Rede Globo de Televisão | TV Globo,False,False
+[CLS] Love of My Life was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The CW,Nippon Television | NTV | Nippon TV | Nippon Television | Nippon Television Network,False,False
+[CLS] Palos was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palos,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Dyesebel was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,GMA Network | Communication | GMA 7 | GMA Network | Kapuso Network,False,False
+[CLS] The Ilona Massey Show was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Channel 4,DuMont Television Network | DuMont Television Network,False,False
+[CLS] Hoy was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swim . Swim,Las Estrellas | Canal de las Estrellas | Las Estrellas,False,False
+[CLS] Idol was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S .,TV4 | TV4,False,False
+[CLS] 100 Huntley Street was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],BBC Radio 1,Global Television Network | Global TV | Global Television Network,False,False
+[CLS] Crossword Quiz was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBC Television | CBC Television,False,False
+[CLS] Alphabet Soup was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,CBC Television | CBC Television,False,False
+[CLS] Sommartorpet was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SVT,Sveriges Television | SVT | Sveriges Television | svt,True,False
+[CLS] Le invasioni barbariche was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rai Rai,La7 | La7,False,False
+[CLS] The Bank Job was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Channel 4 | C4 | Channel 4,False,False
+[CLS] Komiks Presents : Varga was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,ABS - CBN | ABS - CBN | ABS - CBN 2 | kapamilya network,False,False
+[CLS] Seven Ages of Britain was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Seven Ages of Britain,Channel 4 | C4 | Channel 4,False,False
+[CLS] The Collectors was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Collectors,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] Wars of Bribery was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,TVB Jade | Jade Channel | TVB Jade,False,False
+[CLS] No Dropping Out : Back to School at 35 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ABC Family,Nippon Television | NTV | Nippon TV | Nippon Television | Nippon Television Network,False,False
+[CLS] El alma no tiene color was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],TBS,Las Estrellas | Canal de las Estrellas | Las Estrellas,False,False
+[CLS] Idea Jalsa was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same day,Zee TV | Zee TV,False,False
+[CLS] Tonight Starring Steve Allen was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Tokyo Dogs was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tokyo Dogs,"Fuji Television | Fuji TV | Fuji Television | Fuji Television Network | Fuji Television Network , Inc .",False,False
+[CLS] Noel ' s Saturday Roadshow was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturday Night Live,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+[CLS] Klondike was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Klondike,Discovery Channel | Discovery | Discovery Channel | Discovery . com | The Discovery Channel,False,False
+[CLS] Money Magazine ( Hong Kong TV ) was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Money Magazine,TVB Pearl | TVB Pearl,False,False
+[CLS] The Book of Pooh was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network Cartoon Network,Playhouse Disney | Playhouse Disney,False,False
+[CLS] Lee Nelson ' s Well Good Show was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,BBC Three | BBC 3 | BBC Three | BBC3,False,False
+[CLS] Fantasia for Real was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,VH1 | VH1 | VI + 1 | Video Hits One,False,True
+[CLS] Survivors was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Survivors,BBC One | BBC 1 | BBC One | BBC TV | BBC Television Service | BBC1,False,False
+"[CLS] Maria , i Aschimi was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Sh . S,Mega Channel | MEGA | Mega Channel | Mega TV,False,False
+"[CLS] Kung Fu Panda : Legends of Awesomeness , season 1 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Cartoon Network,Nickelodeon | Nick | Nickelodeon | Pinwheel | The Pinwheel Network,False,True
+[CLS] Codex was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,Channel 4 | C4 | Channel 4,False,False
+[CLS] The Love Bug was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Menekşe ile Halil was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],HD HD and HD HD,Kanal D | Kanal D,False,False
+[CLS] Dondo Hare was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dondo Hare,NHK | Japan Broadcasting Corporation | NHK | Nippon Hoso Kyokai | Nippon Hōsō Kyōkai,False,True
+[CLS] Destination Tennis was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Tennis Channel | Tennis Channel,False,False
+[CLS] Eden ' s Lost was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,Australian Broadcasting Corporation | ABC | Australian Broadcasting Commission | Australian Broadcasting Corporation,False,False
+[CLS] Zora dubrovačka was originally aired on [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],RTV,Nova TV | Nova TV,False,False
+[CLS] Tôi là . . . người chiến thắng was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Ho Chi Minh City Television | HTV | Ho Chi Minh City Television,False,False
+[CLS] Til Ten was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Til Ten,Network 10 | 10 Network | Channel 10 | Channel Ten | Network 10 | Network Ten,False,False
+"[CLS] The Amazing World of Gumball , season 2 was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Cartoon Network,Cartoon Network | Cartoon Network,True,False
+[CLS] Treasures of Ancient Rome was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,BBC Four | BBC 4 | BBC Four | BBC4,False,False
+[CLS] Boys from the Blackstuff was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cartoon Network,BBC Two | BBC 2 | BBC Two | BBC2,False,False
+[CLS] Roots was originally aired on [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Family,American Broadcasting Company | ABC | Abc | American Broadcasting Company,False,False
+[CLS] Roswell was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Roswell,The WB | The WB | The WB Television Network,False,False
+[CLS] High School U . S . A . was originally aired on [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],W . W,NBC | NBC | National Broadcasting Company,False,True
+[CLS] Fredd Bear ' s Breakfast - A - Go - Go was originally aired on [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cartoon Network,ATV | ATV,False,True

@@ -1,0 +1,999 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Marvin Gaye is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Marvin Gaye,Motown | Motown | Motown Records,False,True
+[CLS] The Supremes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" The Supremes """,Motown | Motown | Motown Records,False,True
+[CLS] The Temptations is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Motown | Motown | Motown Records,False,True
+[CLS] Diana Ross is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Diana Ross,Motown | Motown | Motown Records,False,True
+[CLS] The Beatles is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Beatles,Apple | Apple | Apple Records | LC 01074 | LC 1074,False,True
+[CLS] Bob Dylan is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Johnny Cash is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Johnny Cash,Columbia Records | Columbia Records,False,False
+[CLS] Keith Jarrett is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Mary Wells is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mary Wells,Motown | Motown | Motown Records,False,True
+[CLS] Norman Whitfield is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Whitfield,Motown | Motown | Motown Records,False,True
+[CLS] Jello Biafra is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jello Biafra,Alternative Tentacles | Alternative Tentacles | Alternative Tentacles Records,False,False
+[CLS] Sean Combs is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sean Combs,Bad Boy Records | Bad Boy Entertainment | Bad Boy Records,False,False
+[CLS] Master P is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Master P,No Limit Records | No Limit Records,False,False
+[CLS] Hank Mobley is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hank Mobley,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Elvis Presley is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Sun Records | Sun | Sun Records,False,False
+[CLS] The Beatles is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Beatles,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Jan Garbarek is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Jan Garbarek,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Red Garland is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Red Garland,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] T . I . is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],T . I,Grand Hustle Records | Grand Hustle Records,False,False
+[CLS] Jack DeJohnette is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],DeJohnette,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Bing Crosby is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bing Crosby,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Johnny Mathis is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Johnny Mathis,Columbia Records | Columbia Records,False,False
+[CLS] Terje Rypdal is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Rypdal,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Jay - Z is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Roc - A - Fella Records | Roc - A - Fella Records,False,False
+[CLS] The Rolling Stones is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Mike Patton is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mike Patton,Ipecac Recordings | Ipecac | Ipecac Recordings,False,False
+[CLS] Stanley Turrentine is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Turrentine,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Horace Silver is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Horace Silver,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Waylon Jennings is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Waylon Jennings,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Beach Boys is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Beach Boys,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Lee Morgan is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lee Morgan,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Carla Bley is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Chet Baker is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Pacific Jazz Records | Pacific Jazz | Pacific Jazz Records | World Pacific Records,False,False
+[CLS] Jackie McLean is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jackie McLean,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Chris Blackwell is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] Ralph Towner is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swinburne,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Shirley Scott is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shirley Scott,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Ramsey Lewis is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ramsey Lewis,Argo Records | Argo Records,False,False
+[CLS] Dr . Dre is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pussycat Dolls,Aftermath Entertainment | Aftermath | Aftermath Entertainment,False,False
+[CLS] Debbie Gibson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Debbie Gibson,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Insane Clown Posse is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Insane Clown,Psychopathic Records | Psychopathic Records | The Hatchet,False,False
+[CLS] Duke Pearson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Duke Pearson,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Bad Religion is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bad Religion,Epitaph Records | Epitaph Records,False,False
+[CLS] Dave Grusin is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dave Grusin,"GRP Records | Arista / GRP | GRP Records | GRP Records , Inc . | MCA / GRP",False,False
+[CLS] Otis Redding is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Otis Redding,Stax | Stax | Stax Records,False,False
+[CLS] Snoop Dogg is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] The Three Sounds is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Three Sounds """,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Jermaine Dupri is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Jermaine Dupri,So So Def Recordings | So So Def Recordings,False,False
+[CLS] Gene Pitney is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Musicor Records | Musicor Records,False,False
+[CLS] The Band is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Band,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Eberhard Weber is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eberhard Weber,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Aphex Twin is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Aphex Twin,Rephlex Records | Rephlex Records,False,False
+[CLS] John Patton is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Patton,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Irv Gotti is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Irv Gotti,The Inc . Records | The Inc . Records,False,False
+[CLS] Phil Spector is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Phil Spector,Philles Records | Philles Records,False,False
+[CLS] Negativland is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Negativland,Seeland Records | Seeland Records,False,False
+[CLS] Lamont Dozier is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lamont Dozier,Motown | Motown | Motown Records,False,True
+[CLS] Barrett Strong is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Barrett Strong,Motown | Motown | Motown Records,False,True
+[CLS] Pixies is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pixies,4AD | 4AD,False,False
+[CLS] Ivo Watts - Russell is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ivo Watts - Russell,4AD | 4AD,False,False
+[CLS] Aerosmith is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Aerosmith,Columbia Records | Columbia Records,False,False
+[CLS] Minor Threat is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Minor Threat,Dischord Records | Dischord Records,False,False
+[CLS] Autechre is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Autechre,Warp | Warp | Warp Records,False,False
+[CLS] Fugazi is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Fugazi,Dischord Records | Dischord Records,False,False
+[CLS] Aretha Franklin is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Pussycat Dolls,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Bright Eyes is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bright Eyes,Saddle Creek Records | Saddle Creek Records,False,False
+[CLS] Dr . Dre is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Pussycat Dolls,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] Syreeta Wright is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Syreeta,Motown | Motown | Motown Records,False,True
+[CLS] Hopsin is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Funk Volume | Funk Volume,False,False
+[CLS] The Band is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],The Band,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] The Funk Brothers is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Motown | Motown | Motown Records,False,True
+[CLS] New Order is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New Order,Factory Records | Factory Records,False,False
+[CLS] Paul Chambers is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Paul Chambers,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] DeBarge is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],DeBarge,Motown | Motown | Motown Records,False,True
+[CLS] Mike Paradinas is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Paradinas,Planet Mu | Planet Mu,False,False
+[CLS] Luther Campbell is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],R . R,Luke Records | Luke Records,False,False
+[CLS] Depeche Mode is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Mute Records | Mute | Mute Records,False,False
+[CLS] SS501 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" SS501 """,DSP Media | DSP Media,False,False
+[CLS] John Lennon is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],The Beatles,Apple | Apple | Apple Records | LC 01074 | LC 1074,False,True
+[CLS] Dino Saluzzi is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Dino Saluzzi,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] The Manhattan Transfer is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] George Jones is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],George Jones,Musicor Records | Musicor Records,False,False
+[CLS] Kurupt is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kurupt,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] Fall Out Boy is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fall Out Boy,DCD2 Records | DCD2 Records | Decaydance Records,False,False
+[CLS] Egberto Gismonti is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Gismonti,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Anthony Coleman is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],McClintock,Tzadik Records | Tzadik Records,False,False
+[CLS] Martha Reeves is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Martha Reeves,Motown | Motown | Motown Records,False,True
+[CLS] Steve Swallow is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Swallow,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Chick Corea is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chick Corea,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Milt Jackson is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Milt Jackson,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Do You Love Me is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Do You Love Me,Motown | Motown | Motown Records,False,True
+[CLS] In Our Lifetime is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Motown | Motown | Motown Records,False,True
+[CLS] Bob Thiele is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bob Thiele,Flying Dutchman Records | Flying Dutchman Records,False,False
+[CLS] Anne Murray is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Anne Murray,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Throwing Muses is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Throwing Muses,4AD | 4AD,False,False
+[CLS] Slim Moon is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slim Moon,Kill Rock Stars | KRS | Kill Rock Stars,False,False
+[CLS] Owen Bradley is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Owen Bradley,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Mannie Fresh is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pussycat Dolls,Cash Money Records | Ca $ h Money Records | Cash Money Records,False,False
+[CLS] The Rolling Stones is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,ABKCO Records | ABKCO Records,False,False
+[CLS] Andy C is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Andy C,Ram Records | Ram Records,False,False
+[CLS] Harry James is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harry James,Columbia Records | Columbia Records,False,False
+[CLS] Bo Diddley is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bo Diddley,Checker | Checker | Checker Records | LC 00155 | LC 0155,False,False
+[CLS] Cloud Nine is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cloud Nine,Motown | Motown | Motown Records,False,True
+[CLS] Superchunk is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Superchunk,Merge Records | Merge Records,False,False
+[CLS] Mark Knopfler is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Merle Haggard is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Merle Haggard,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] His Name Is Alive is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,4AD | 4AD,False,False
+[CLS] LBC Crew is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],LBC,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] Good Riddance is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Good Riddance,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] Joan Baez is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],L ' Empordà,Vanguard Records | Vanguard Records,False,False
+[CLS] Georg Solti is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Clint Black is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pussycat Dolls,Equity Music Group | Equity Music Group,False,False
+[CLS] Natalie MacMaster is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Natalie MacMaster,Rounder Records | Rounder Records,False,False
+[CLS] Hot Snakes is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hot Snakes,Swami Records | Swami Records,False,False
+[CLS] Peanut Butter Wolf is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Peanut Butter Wolf,Stones Throw Records | Stones Throw | Stones Throw Records,False,False
+[CLS] C86 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],C86 in the UK,NME | NME | New Musical Express,False,True
+[CLS] Metallica is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pup . Pup,Megaforce Records | Megaforce Records,False,False
+[CLS] John Coltrane is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Paul Weston is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Bola Sete is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bola Sete,Fantasy | Fantasy | Fantasy Records | LC 00720,False,True
+[CLS] The Wildhearts is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,East West Records | East West | East West Records | eastwest Records,False,False
+[CLS] Warren Fitzgerald is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Warren Fitzgerald,Kung Fu Records | Kung Fu Records,False,False
+[CLS] Nicki Minaj is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nicki Minaj,Young Money Entertainment | Young Money | Young Money Entertainment,False,False
+[CLS] Glenn Miller is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Bluebird | Bluebird | Bluebird Records,False,False
+[CLS] Janet Jackson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Janet Jackson,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Greg Howe is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Greg Howe,Shrapnel Records | Shrapnel Records,False,False
+[CLS] The Stylistics is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Avco Records | Avco Records,False,False
+[CLS] Woody Shaw is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Grateful Dead is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Grateful Dead,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Beanie Sigel is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Beanie Sigel,Roc - A - Fella Records | Roc - A - Fella Records,False,False
+[CLS] Janet Jackson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Janet Jackson,Rhythm Nation | Rhythm Nation,False,False
+[CLS] Sistar is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sistar,Starship Entertainment | Starship Entertainment,False,False
+[CLS] Machine Head is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Machine Head,Roadrunner Records | Roadrunner Records,False,False
+[CLS] Bobby Rogers is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bobby Rogers,Motown | Motown | Motown Records,False,True
+[CLS] TVXQ is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],TVXQ,Avex Trax | Avex Trax,False,False
+[CLS] I Second That Emotion is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],I Second That Emotion,Motown | Motown | Motown Records,False,True
+[CLS] Garnet Crow is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Garnet,Giza Studio | GZCA | Giza Studio,False,False
+[CLS] Ellen Allien is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Allien,BPitch Control | BPitch Control,False,False
+[CLS] Greg Anderson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Greg Anderson,Southern Lord Records | Southern Lord Records,False,False
+[CLS] 2NE1 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,YG Entertainment | YG | YG Entertainment | YGENT,False,False
+[CLS] You Can ' t Hurry Love is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Motown | Motown | Motown Records,False,True
+[CLS] Katy Perry is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Bill Connors is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Ras G is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ras G,Brainfeeder | Brainfeeder,False,False
+[CLS] Tony Yayo is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tony Yayo,G - Unit Records | G Unit | G - Unit Records,False,False
+[CLS] Xandria is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Xandria,Drakkar Entertainment | Drakkar Entertainment | Drakkar Publishing | Drakkar Records,False,False
+[CLS] Ahmad Jamal is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ahmad Jamal,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Reuben Wilson is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Reuben Wilson,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Lee Dorrian is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lee Dorrian,Rise Above Records | Rise Above | Rise Above Records,False,False
+[CLS] Barbara Martin is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Motown | Motown | Motown Records,False,True
+[CLS] Chingy is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chingy,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Big Sean is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,"GOOD Music | GOOD Music | GOOD Music , Inc .",False,False
+[CLS] Big Sean is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Def Jam Recordings | Def Jam | Def Jam Recordings | def jam records,False,False
+[CLS] Sonny Stitt is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonny Stitt,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Stone Temple Pilots is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Stone Temple Pilots,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Art Garfunkel is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Art Garfunkel,Columbia Records | Columbia Records,False,False
+[CLS] Union J is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Union J,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Chronic is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chronic,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] How ' s Tricks is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],How ' s Tricks,RSO Records | RSO Records,False,False
+[CLS] Reba McEntire is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McEntire,Mercury Records | Mercury Music Group | Mercury Records,False,False
+[CLS] Andy Caldwell is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Andy Caldwell,Om Records | Om Records,False,False
+[CLS] Billie Holiday is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Billie Holiday,Columbia Records | Columbia Records,False,False
+[CLS] Japollonia is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Japollonia,The Ultimate Group | TUG Entertainment | The Ultimate Group,False,False
+"[CLS] Grover Washington , Jr . is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Grover Washington,CTI Records | CTI Records | Creed Taylor Incorporated,False,False
+[CLS] Toys That Kill is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Toys That Kill,Recess Records | Recess Records,False,False
+[CLS] George Michael is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Joan Baez is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],L ' Empordà,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Eric Friedl is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Friedl,Goner Records | Goner Records,False,False
+[CLS] Cher is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cher,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Pummel is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pummel,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Popular Songs is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Popular Songs,Matador Records | Matador | Matador Records,False,False
+[CLS] The Kingston Trio is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Kingston Trio,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] 2PM is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],2PM,JYP Entertainment | JYP | JYP Entertainment,False,False
+[CLS] The Audition is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Audition,Victory Records | Victory Records,False,False
+[CLS] Bonnie Guitar is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bonnie Guitar,Dolton Records | Dolton Records,False,False
+[CLS] Armin van Buuren is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Armin van Buuren,Armada Music | Armada Music,False,False
+[CLS] Cristina is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,ZE Records | ZE Records,False,False
+[CLS] Alisa Mizuki is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Alisa Mizuki,Nippon Columbia | Nippon Columbia,False,False
+[CLS] Edith Frost is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Edith Frost,Drag City | Drag City | Drag City Records,False,False
+[CLS] Nina Simone is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nina Simone,Bethlehem Records | Bethlehem Records,False,False
+[CLS] Brad Mehldau is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Brad Mehldau,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Martin Simpson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Martin Simpson,Topic Records | Topic Records,False,False
+[CLS] Garageland is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Garageland,Flying Nun Records | Flying Nun Records,False,False
+[CLS] The Wolfgang Press is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Wolfgang Press """,4AD | 4AD,False,False
+[CLS] Mac McCaughan is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McCaugha,Merge Records | Merge Records,False,False
+[CLS] Happy Mondays is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Happy Mondays,Factory Records | Factory Records,False,False
+[CLS] Tim McGraw is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tim McGraw,Curb Records | Asylum - Curb | Curb Records | MCG Curb,False,False
+[CLS] Oh No is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Stones Throw Records | Stones Throw | Stones Throw Records,False,False
+[CLS] Rise Against is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] Carl Perkins is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Michael Manring is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Manring,Windham Hill Records | Windham Hill | Windham Hill Records,False,False
+[CLS] Roots Manuva is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Roots Manuva,Big Dada | Big Dada,False,False
+[CLS] Alex Tronic is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Alex Tronic,Alex Tronic Records | Alex Tronic Records,False,False
+[CLS] Xscape is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Xscape,So So Def Recordings | So So Def Recordings,False,False
+[CLS] Albert Ayler is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ayler,ESP - Disk | ESP - Disk,False,False
+[CLS] Braintax is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Braintax,Low Life Records | Low Life Records,False,False
+[CLS] Roy Orbison at the Rock House is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Rock House,Sun Records | Sun | Sun Records,False,False
+[CLS] Bossanova is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bossanova,4AD | 4AD,False,False
+[CLS] Gastr del Sol is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gastr del Sol,Drag City | Drag City | Drag City Records,False,False
+[CLS] McLean ' s Scene is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],McLean ' s Scene,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Paperwork is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paperwork,Grand Hustle Records | Grand Hustle Records,False,False
+[CLS] Kerplunk is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kerplunk,Reprise Records | Reprise Records,False,False
+[CLS] Pam Sawyer is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pam Sawyer,Motown | Motown | Motown Records,False,True
+[CLS] Sonic Youth is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonic Youth,Ecstatic Peace ! | Ecstatic Peace records + tapes | Ecstatic Peace !,False,False
+[CLS] Lightning Bolt is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lightning Bolt,Load Records | Load Records,False,False
+[CLS] Ariel Pink is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ariel Pink,4AD | 4AD,False,False
+[CLS] All is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Cruz Records | Cruz Records,False,False
+[CLS] Zendaya is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zendaya,Hollywood Records | Hollywood Records,False,False
+[CLS] Aretha : With The Ray Bryant Combo is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Aretha,Columbia Records | Columbia Records,False,False
+[CLS] Blow Your Mind is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Blow Your Mind """,Def Jam Recordings | Def Jam | Def Jam Recordings | def jam records,False,False
+[CLS] Living Sacrifice is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Living Sacrifice,Solid State Records | Solid State | Solid State Records,False,False
+[CLS] Motorpsycho is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Motorpsycho,Rune Grammofon | Rune Grammofon,False,False
+[CLS] Captain Beefheart is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Captain Beefheart,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] GNV FLA is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],GNV,Sleep It Off Records | Sleep It Off Records,False,False
+[CLS] Chris Stamp is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Track Record | LC 0460 | Track Record | Track Records,False,False
+[CLS] Biz Markie is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Biz Markie,Cold Chillin ' Records | Cold Chillin ' Records,False,False
+[CLS] The SeeYa is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SeeYa,MBK Entertainment | Core Contents Media | MBK Entertainment,False,False
+[CLS] Daesung is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Daesung,YG Entertainment | YG | YG Entertainment | YGENT,False,False
+[CLS] You ' ve Got Your Troubles is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] K - Klass is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Klass,Parlophone | Parlophone | Parlophone Communications | Parlophone Records,False,False
+[CLS] Seven Places is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Seven Places,BEC Recordings | BEC Recordings,False,False
+[CLS] The Transitions is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Transitions,"Universal Music Group | UMG | UMG Recordings , Inc . | Universal Music Group",False,False
+"[CLS] Hey , Man , Smell My Finger is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]","Hey , Man",Paisley Park Records | Paisley Park Records,False,False
+[CLS] The High End of Low is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The High End of Low,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Wenn Der Südwind Weht is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],B . B,Sky Records | Sky Records,False,False
+[CLS] Quiet Life is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Quiet Life,Hansa | Hansa | Hansa Records | LC 0835,False,True
+[CLS] Rapid Eye Movement is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Rapid Eye Movement """,Inside Out Music | Inside Out Music,False,False
+[CLS] Sunn O ) ) ) is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sunn,Southern Lord Records | Southern Lord Records,False,False
+[CLS] Max Matsuura is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Max Matsuura,Avex Group | Avex Group,False,False
+[CLS] Half Man Half Biscuit is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Half Man,Probe Plus | Probe Plus,False,False
+[CLS] Tony Sly is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tony Sly,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] Billie Holiday is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Billie Holiday,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Flo Rida is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Flo Rida,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] JT Money is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],JT,Luke Records | Luke Records,False,False
+[CLS] Un Peu de l ' Âme des Bandits is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],S . S,Crammed Discs | Crammed Discs,False,False
+[CLS] Gudda Gudda is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gudda,Young Money Entertainment | Young Money | Young Money Entertainment,False,False
+[CLS] Vaughn Monroe is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vaughn Monroe,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] I - 20 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Disturbing tha Peace | Disturbing tha Peace,False,False
+[CLS] The Wave Pictures is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Wave,Moshi Moshi Records | Moshi Moshi Records,False,False
+[CLS] Songs for Young Lovers is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Songs for Young Lovers,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Skankin ' Pickle is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pickle,Asian Man Records | Asian Man Records,False,False
+[CLS] 1958 Miles is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,Columbia Records | Columbia Records,False,False
+[CLS] Steve Allee is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Steve Allee,Owl Studios | Owl Studios,False,False
+[CLS] Got to Be There is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Got to Be There,Motown | Motown | Motown Records,False,True
+[CLS] A Way to See in the Dark is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],R . R,Centricity Music | Centricity Music,False,False
+[CLS] The Four Freshmen is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Sketches of a Man is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Psychedelic,Entertainment One Music | E1 Music | Entertainment One Music | Koch Records | eOne Music US,False,False
+[CLS] Join Hands is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Join Hands,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Kaori Utatsuki is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kaori Utatsuki,NBCUniversal Entertainment Japan LLC | GUEJ | Geneon | Geneon Universal Entertainment | Geneon Universal Entertainment Japan | LaserDisc Corporation | NBCUniversal Entertainment Japan LLC | Pioneer LDC,False,False
+[CLS] The Judds is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Foxy Brown is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Foxy Brown,Def Jam Recordings | Def Jam | Def Jam Recordings | def jam records,False,False
+[CLS] All Aboard the Blue Train is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],""" The Blue Train """,Sun Records | Sun | Sun Records,False,False
+[CLS] The Joykiller is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Joykiller,Epitaph Records | Epitaph Records,False,False
+[CLS] Alannah Myles is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Myles """,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Strange Town is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Strange Town,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Souljaboytellem . com is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Souljaboy,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Pigeonhed is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pigeon,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Melody Fair is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Melody Fair,Atco Records | Atco Records,False,False
+[CLS] Clan of Xymox is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Xymox,4AD | 4AD,False,False
+[CLS] 101 Dam - Nations is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Psychedelic,Parlophone | Parlophone | Parlophone Communications | Parlophone Records,False,False
+[CLS] Mary Wells Sings My Guy is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mary Wells,Motown | Motown | Motown Records,False,True
+[CLS] Necrophobic is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Necrophobic,Regain Records | Regain Records | Wrong Again Records,False,False
+[CLS] Blues from Laurel Canyon is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Laurel Canyon """,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Styles P is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Styles P,Ruff Ryders Entertainment | Ruff Ryders Entertainment,False,False
+[CLS] George Michael is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Shpongle is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shpongle,Twisted Records | Twisted Records,False,False
+[CLS] Kuldeep Manak is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kuldeep,Saregama | Saregama,False,False
+[CLS] Communication is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,MPS Records | MPS Records,False,False
+[CLS] Ray Singleton is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ray Singleton,Motown | Motown | Motown Records,False,True
+[CLS] Maria is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],P . P,DreamWorks Records | DreamWorks Records,False,False
+[CLS] Listen Without Prejudice is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Listen Without Prejudice,Mercury Records | Mercury Music Group | Mercury Records,False,False
+[CLS] One Touch is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],One Touch,London Records | London | London Recordings | London Records,False,False
+[CLS] Alvin and the Chipmunks is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Spoonful,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Nat Adderley is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Manners & Physique is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Manners,MCA Records | LC 01056 | LC 1056 | MCA Records,False,False
+[CLS] Crooked I is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Crooked,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] Phil Collins is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Phil Collins,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Bee Gees ' 1st is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bee Gees,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Frank Strozier is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Vee - Jay Records | Vee Jay Records | Vee - Jay Records,False,False
+[CLS] Every Avenue is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Fearless Records | Fearless Records,False,False
+[CLS] Here Come the ABCs is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,They Might Be Giants | TMBG | They Might Be Giants,False,False
+[CLS] The Electrifying Aretha Franklin is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Baritones and French Horns is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Baritones and French Horn,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Sara Smile is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sara Smile,"Big Machine Records | Big Machine Records | Big Machine Records , LLC",False,False
+[CLS] Love Their Country is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Love Their Country,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] The Supremes Sing Rodgers & Hart is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],""" The Supremes """,Motown | Motown | Motown Records,False,True
+[CLS] Sleeping with Sirens is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sleeping with Sirens,Epitaph Records | Epitaph Records,False,False
+[CLS] Broken Blossom is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Disarmonia Mundi is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Disarmonia,Scarlet Records | Scarlet Records,False,False
+[CLS] Here I Stand is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,LaFace Records | LaFace Records,False,False
+[CLS] Key ' s in the Mailbox is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Key ' s,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Nine Inch Nails is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Nothing Records | Nothing Records,False,False
+[CLS] Alisa Mizuki is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Alisa Mizuki,Avex Group | Avex Group,False,False
+[CLS] Frog Pocket is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Frog,Planet Mu | Planet Mu,False,False
+[CLS] The Glorious Burden is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,SPV | SPV,False,False
+[CLS] Elvis Country is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Elvis Country,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Daisies of the Galaxy is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Daisies,DreamWorks Records | DreamWorks Records,False,False
+[CLS] Moodring is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" Moodring """,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Weather Report is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Weather Report , Inc",Columbia Records | Columbia Records,False,False
+[CLS] Too Much Too Soon is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Too Much Too Soon,Mercury Records | Mercury Music Group | Mercury Records,False,False
+[CLS] Rise Against is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Geffen Records | Geffen Records | LC 07266 | LC 7266,False,False
+[CLS] Elliot Roberts is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Elliot Roberts,Asylum Records | Asylum Records,False,False
+[CLS] My Chemical Romance is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Reprise Records | Reprise Records,False,False
+[CLS] Bleach is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bleach,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Billy Preston is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Billy Preston,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Blue Haze is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blue Haze,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Dispepsi is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dispepsi,Seeland Records | Seeland Records,False,False
+[CLS] Memory Almost Full is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Memory Almost Full,Hear Music | Hear Music,False,False
+[CLS] Livin ' or Dyin ' is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Rising Tide Records | Rising Tide Records,False,False
+[CLS] Tim Hecker is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Alien8 Recordings | Alien8 Recordings,False,False
+[CLS] The Orb is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Orb,Big Life | Big Life,False,False
+[CLS] Can ' t Be Tamed is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Hollywood Records | Hollywood Records,False,False
+[CLS] Tarantula / Fasten Your Seatbelt is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tarantula,Breakbeat Kaos | Breakbeat Kaos,False,False
+[CLS] Silk Electric is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Silk Electric,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] One Foot in Hell is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],One Foot in Hell,Metal Blade Records | Metal Blade Records,False,False
+[CLS] Jason Michael Carroll is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Arista Nashville | Arista Nashville,False,False
+[CLS] Sonic Nurse is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonic Nurse,Geffen Records | Geffen Records | LC 07266 | LC 7266,False,False
+[CLS] J . J . Johnson ' s Jazz Quintets is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],J . J . Johnson,Savoy Records | Savoy Records,False,False
+[CLS] Lotus is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychic,J Storm | J Storm | J Storm Inc .,False,False
+[CLS] All the Lovely Losers is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Centricity Music | Centricity Music,False,False
+[CLS] Molly Neuman is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Molly Neuman,Kill Rock Stars | KRS | Kill Rock Stars,False,False
+[CLS] Grifters is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Grifters,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Reine Fiske is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Subliminal Sounds | Subliminal Sounds,False,False
+[CLS] Ty Herndon is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ty Herndon,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Specter At The Feast is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Specter,Vagrant Records | Vagrant Records,False,False
+[CLS] Ambulance LTD is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ambulance,TVT Records | TVT Records,False,False
+[CLS] Os Mutantes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Os Mutantes,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Akron / Family & Angels of Light is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Akron,Young God Records | Young God Records,False,False
+[CLS] To Be Free is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" To Be Free """,J Storm | J Storm | J Storm Inc .,False,False
+[CLS] Young Fyre is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Young Fyre,Nappy Boy Entertainment | Nappy Boy Entertainment,False,False
+[CLS] The Beginning is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Beginning,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] Melt ! is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Melt,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Swimming Horses is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swimming Horses,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Slaughterhouse is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slaughter,Shady Records | Shady | Shady Records,False,False
+[CLS] Sister is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sister Sister,SST Records | SST Records,False,False
+[CLS] Cold Turkey is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cold Turkey,Apple | Apple | Apple Records | LC 01074 | LC 1074,False,True
+[CLS] Demons / Horses is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Demons / Horses,Novamute Records | Novamute Records,False,False
+[CLS] Slowdown Virginia is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slowdown Virginia,Saddle Creek Records | Saddle Creek Records,False,False
+[CLS] Paul Neebe is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Neebe,Albany Records | Albany Records,False,False
+[CLS] Wrekonize is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wrekonize,Strange Music | Strange Music,False,False
+[CLS] The Stooges is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Elektra | Elektra | Elektra Records | LC 00192 | LC 0192,False,True
+[CLS] I Want You is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Motown | Motown | Motown Records,False,True
+[CLS] Génération Goldman is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Génération,My Major Company | My Major Company,False,False
+[CLS] Opafire is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Opafire,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Tentacles of Whorror is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],R . R,Moribund Records | Moribund Records,False,False
+[CLS] Revento is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Revento """,Fania Records | Fania Records,False,False
+[CLS] Small Time is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Small Time,Cherry Red | Cherry Red | Cherry Red Records,False,False
+[CLS] Dance into the Light is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dance Into the Light,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] The Slim Shady LP is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slim Shady,Aftermath Entertainment | Aftermath | Aftermath Entertainment,False,False
+[CLS] The Rascals is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Internal Affairs is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Rawkus Records | Rawkus Records,False,False
+[CLS] Last Chorus is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Last Chorus,Riverside Records | Riverside Records,False,False
+[CLS] Kreator is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kreator,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Adele is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Adele,Columbia Records | Columbia Records,False,False
+[CLS] Soul Journey is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Soul Journey,Gillian Welch | Gillian Howard Welch | Gillian Welch,False,False
+[CLS] Only One Flo ( Part 1 ) is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Only One Flo,Poe Boy Entertainment | Poe Boy Entertainment,False,False
+[CLS] Ralph Bass is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ralph Bass,Black & White Records | Black & White Records,False,False
+[CLS] Ask Me What I Am is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Phonogram | Phonogram | Phonogram Records,False,False
+[CLS] Sweet Baby James is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sweet Baby James,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] P $ C is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],P $ C,Grand Hustle Records | Grand Hustle Records,False,False
+[CLS] Sads is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sads,Avex Group | Avex Group,False,False
+[CLS] Farewell is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Epitaph Records | Epitaph Records,False,False
+[CLS] Modern Jazz Sextet is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Modern Jazz Sextet,Verve Records | Verve Records,False,False
+[CLS] The Piano Guys is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Piano Guys,Sony Masterworks | Sony Masterworks,False,False
+[CLS] Mellow Mood is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mellow Mood,MPS Records | MPS Records,False,False
+[CLS] Sleater - Kinney is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sleater,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Fat Trel is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fat Trel,Maybach Music Group | MMG | MMG / Eastwest Japan | Maybach Music Group,False,False
+[CLS] Precious Junk is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Precious Junk,Defstar Records | DefSTAR RECORDS | DefSTAR Records | DefStar Records | Defstar Records,False,False
+[CLS] The Queers is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Queers,Asian Man Records | Asian Man Records,False,False
+[CLS] The Impossibility of Silence is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Psychedelic,Old Europa Cafe | Old Europa Cafe,False,False
+[CLS] Face the Heat is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Face the Heat,PolyGram | PolyGram,False,False
+[CLS] Charlie Watts is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Buffalo Killers is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buffalo Killers,Alive Naturalsound Records | Alive Naturalsound Records,False,False
+[CLS] Anything Is Possible is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Anything Is Possible,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Simple Minds is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Simple Minds,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Jimi Goodwin is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Heavenly Recordings | Heavenly Recordings | Heavenly Records,False,False
+[CLS] Internal Salvation is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Hellcat Records | Hellcat Records,False,False
+[CLS] Vacilando Territory Blues is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Vacilando Territory,Western Vinyl | Western Vinyl,False,False
+[CLS] Trane Whistle is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Trane,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Daniel Barenboim is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sony Ericsson,Deutsche Grammophon | Deutsche Grammophon | Deutsche Grammophon Gesellschaft | Deutsche Grammophon GmbH,False,False
+[CLS] T - Pain is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],T - Pain,Konvict Muzik | Konvict Muzik,False,False
+[CLS] Dynamite Steps is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dynamite,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Manes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Hammerheart Records | Hammerheart Records | Karmageddon Media,False,False
+[CLS] You Give Good Love is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Arista | Arista | Arista Records,False,False
+[CLS] Tracy Lawrence is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tracy Lawrence,DreamWorks Records | DreamWorks Records,False,False
+[CLS] Prince is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Easy Action is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Easy Action """,Straight | Straight | Straight Records,False,True
+[CLS] Breakaway is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Breakaway,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Elle Varner is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Varner,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Evolution Fight is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Evolution Fight,City Centre Offices | City Centre Offices,False,False
+[CLS] Singing a Song is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Singing a Song,Pye Records | LC 00315 | Pye | Pye Records,False,False
+[CLS] Upendo Ni Pamoja is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Upendo Ni Pamoja,Columbia Records | Columbia Records,False,False
+[CLS] John Elliott is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Elliott,Global Underground | Global Underground,False,False
+[CLS] The Last Great Challenge in a Dull World is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],The Last Great Challenge,Xpressway | X / WAY | XPRESSWAY | Xpressway | Xpressway Records,False,False
+[CLS] The Tongue is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Tongue,Elefant Traks | Elefant Traks,False,False
+[CLS] White Eyes is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],White Eyes,No Limit Records | No Limit Records,False,False
+[CLS] only my railgun is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],' s sneakers,NBCUniversal Entertainment Japan LLC | GUEJ | Geneon | Geneon Universal Entertainment | Geneon Universal Entertainment Japan | LaserDisc Corporation | NBCUniversal Entertainment Japan LLC | Pioneer LDC,False,False
+[CLS] The Long Way is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Long Way,Entertainment One | E1 Kids | Entertainment One | eOne | entertainment One,False,False
+[CLS] The Hard Stuff is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Hard Stuff,Eagle Records | Eagle Records,False,False
+[CLS] The Absence is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Absence,Century Media Records | Century Media Records,False,False
+[CLS] Carnival Ride is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carnival Ride,Arista Nashville | Arista Nashville,False,False
+[CLS] Black Earth Tiger is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Black Earth Tiger,Vagrant Records | Vagrant Records,False,False
+[CLS] Good Bye Natsuo is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Natsuo,Zetima | Zetima,False,False
+[CLS] Shakaya is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shakaya,Columbia Records | Columbia Records,False,False
+[CLS] A New Perspective is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] The Corrections is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Corrections,EMI | EMI | EMI ( United Kingdom ) | EMI Music | EMI Records,False,True
+[CLS] Sirens and Sailors is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sirens and Sailors,Artery Recordings | Artery Recordings,False,False
+[CLS] Sara Evans is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Stonelake is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stonelake,Massacre Records | Massacre Records,False,False
+[CLS] Jj is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jj,Sincerely Yours | Sincerely Yours,False,False
+[CLS] Sweet Baboo is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sweet Baboo,Moshi Moshi Records | Moshi Moshi Records,False,False
+[CLS] Slow Club is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slow Club,Moshi Moshi Records | Moshi Moshi Records,False,False
+[CLS] Hallucinating Anxiety is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Earache Records | Earache Records,False,False
+[CLS] Dory Previn is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dory Previn,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] A Christmas Cornucopia is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cornucopia,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] Beefeater is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Beefeater,Dischord Records | Dischord Records,False,False
+[CLS] Out Where the Bright Lights Are Glowing is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Glowing,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Murmur is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,I . R . S . Records | I . R . S . Records,False,False
+[CLS] Johnny Pacheco is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Johnny Pacheco,Fania Records | Fania Records,False,False
+[CLS] Blank Space is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blank Space,Republic Records | Republic | Republic Records,False,False
+[CLS] The Misconceptions of Us is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,SM Entertainment | S . M . Entertainment | SM Entertainment | Star Museum Entertainment,False,False
+[CLS] No Country is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],No Country,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Jonathan King is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jonathan King,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Ghetto Fabulous is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ghetto Fabulous,No Limit Records | No Limit Records,False,False
+[CLS] Day After Day is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Day After Day,Apple | Apple | Apple Records | LC 01074 | LC 1074,False,True
+[CLS] So Natural is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],So Natural,Arista | Arista | Arista Records,False,False
+[CLS] Larissa Loyva is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Larissa Loyva,Mint Records | Mint Records,False,False
+[CLS] Nanase Aikawa is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nanase Aikawa,Avex Group | Avex Group,False,False
+[CLS] Liberal Animation is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Liberal Animation,Epitaph Records | Epitaph Records,False,False
+[CLS] Constellations is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Constellations,Hathut Records | Hathut Records,False,False
+[CLS] Songs for Wandering Souls is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Winter & Winter | Winter & Winter,False,False
+[CLS] Casa Loma Orchestra is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Casa Loma,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Raw Deluxe is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Raw Deluxe,Gee Street Records | Gee Street Records,False,False
+[CLS] The Shelton Brothers is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] K - Klass is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Klass,Deconstruction Records | Deconstruction Records,False,False
+[CLS] Purple Ribbon All - Stars is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Purple Ribbon,Purple Ribbon Records | Purple Ribbon Records,False,False
+[CLS] Bawitdaba is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bawitdaba,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Ren ' ai Sentai Shitsuranger is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],S . S,Zetima | Zetima,False,False
+[CLS] Eye Alaska is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eye Alaska,Fearless Records | Fearless Records,False,False
+[CLS] I Need a Haircut is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+"[CLS] Lick My Decals Off , Baby is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Lick My Decals,Straight | Straight | Straight Records,False,True
+[CLS] The Jazz Age is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Jazz Age """,Too Pure | Too Pure,False,False
+[CLS] Singin ' . . . is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Singin ',Arista | Arista | Arista Records,False,False
+[CLS] New Country Hits is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Country Hits,Musicor Records | Musicor Records,False,False
+[CLS] Big Star is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Big Star,Stax | Stax | Stax Records,False,False
+[CLS] Nickelback is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nickelback,EMI | EMI | EMI ( United Kingdom ) | EMI Music | EMI Records,False,True
+[CLS] More Songs from Pooh Corner is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pooh Corner,Walt Disney Records | LC 10025 | Walt Disney Records,False,False
+[CLS] This Is War is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],This Is War,EMI | EMI | EMI ( United Kingdom ) | EMI Music | EMI Records,False,True
+[CLS] Dependent and Happy is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dependent and Happy,Perlon | Perlon,False,False
+[CLS] Cop Shoot Cop is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cop Shoot Cop,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Bluegrass at Carnegie Hall is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bluegrass at Carnegie Hall,Starday Records | Starday Records,False,False
+[CLS] The Silent Circus is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Silent Circus """,Victory Records | Victory Records,False,False
+[CLS] Turtle Soup is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Turtle Soup,White Whale Records | White Whale Records,False,False
+[CLS] Daryl Hall & John Oates is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Korn is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Caroline Records | Caroline Records,False,False
+[CLS] Music At the Speed of Life is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Shanachie Records | Shanachie | Shanachie Records,False,False
+[CLS] A Jolly Christmas from Frank Sinatra is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" A Jolly Christmas """,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] The Black Angel is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Loaded : The Best of Blake Shelton is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Loaded,Reprise Records | Reprise Records,False,False
+[CLS] Monk is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McDaniel,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+"[CLS] Laughing and Crying , Living and Dying is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Slipknot,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Lightnin ' Strikes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lightnin ' Strikes,MGM Records | MGM | MGM Records,False,False
+"[CLS] Our World , Our Way is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Psychedelic,Entertainment One Music | E1 Music | Entertainment One Music | Koch Records | eOne Music US,False,False
+[CLS] Bennie K is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bennie K,For Life Music | FLME | For Life Music | For Life Music Entertainment Inc .,False,False
+[CLS] Blessthefall is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blessthe,Fearless Records | Fearless Records,False,False
+[CLS] Some Die Young is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Some Die Young,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] Romance is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Romance,Arista | Arista | Arista Records,False,False
+[CLS] Darker Days is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Darker Days """,Hellcat Records | Hellcat Records,False,False
+"[CLS] Please , Please , Please is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Psychedelic,Federal | Federal | Federal Records,False,True
+[CLS] Disrupt is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Relapse Records | Relapse Records,False,False
+[CLS] Cándido Camero is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cándido Camero,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Porgy and Bess is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Porgy and Bess,Verve Records | Verve Records,False,False
+[CLS] 187 Fac is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],187 Fac,Penalty Recordings | Penalty Recordings,False,False
+[CLS] PBX Funicular Intaglio Zone is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],PBX,Record Collection | Record Collection,False,False
+[CLS] You Win Again is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],You Win Again,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Austral Alien is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Austral Alien,Chatterbox Records | Chatterbox Records,False,False
+[CLS] Darryl Worley is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Worley,DreamWorks Records | DreamWorks Records,False,False
+[CLS] Spiritual Minded is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spiritual Minded,Entertainment One Music | E1 Music | Entertainment One Music | Koch Records | eOne Music US,False,False
+[CLS] High Inergy is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],High Inergy,Motown | Motown | Motown Records,False,True
+[CLS] Promises for the Imperfect is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Tooth & Nail Records | Tooth & Nail Records,False,False
+[CLS] Last Rights is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Last Rights,Nettwerk | Nettwerk,False,False
+[CLS] The Ataris is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Ataris,Columbia Records | Columbia Records,False,False
+[CLS] Los Verdaderos is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Verdaderos,Pina Records | Pina Records | Raphy Pina,False,False
+[CLS] Pete Burns is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pete Burns,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Tuck & Patti is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tuck & Patti,Windham Hill Records | Windham Hill | Windham Hill Records,False,False
+[CLS] In Your Area is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" In Your Area """,Griffin Music | Griffin Music,False,False
+[CLS] A New Era of Corruption is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Metal Blade Records | Metal Blade Records,False,False
+[CLS] Sand is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Soul Jazz Records | Soul Jazz Records,False,False
+[CLS] Mark Ronson is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,Allido Records | Allido Records,False,False
+[CLS] I Knew You Were Trouble is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,"Big Machine Records | Big Machine Records | Big Machine Records , LLC",False,False
+[CLS] Marlena is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Marlena """,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] My Kind of Christmas is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],My Kind of Christmas,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Thé Au Harem D ' Archimède is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Thé Au Harem,Perlon | Perlon,False,False
+[CLS] No Time to Bleed is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],No Time Bleed,Century Media Records | Century Media Records,False,False
+[CLS] Rachelle Ann Go is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rachelle Ann Go,Viva Records | Viva Records,False,False
+[CLS] The Strong One is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Strong One """,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Evil Urges is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,ATO Records | ATO Records | According To Our Records,False,False
+[CLS] The Avenger is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Avenger,Metal Blade Records | Metal Blade Records,False,False
+[CLS] The Crusher is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Crusher,Metal Blade Records | Metal Blade Records,False,False
+[CLS] Marilyn Manson is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marilyn Manson,Cooking Vinyl | Cooking Vinyl,False,False
+[CLS] Reveille is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Reveille,5 Rue Christine | 5 Rue Christine | 5RC,False,False
+[CLS] Endless Wire is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Endless Wire,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Sports is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Chrysalis Records | Chrysalis Records | LC 1626,False,False
+[CLS] Y Not is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Universal Music Enterprises | UMe | Universal Music Enterprises,False,False
+[CLS] Shrinebuilder is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Shrinebuilder,Neurot Recordings | Neurot Recordings,False,False
+[CLS] This So - Called Miracle is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Seventy Two and Sunny is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Seventy Two and Sunny,Lava Records | Lava Records,False,False
+[CLS] Make It Blur is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Blur,Victory Records | Victory Records,False,False
+[CLS] Phanatik is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Phanatik,Cross Movement Records | CMR | Cross Movement Records,False,False
+[CLS] Nitocris is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nitocris,Phantom Records | Phantom | Phantom Records,False,False
+[CLS] The Hope Conspiracy is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],The Hope,Equal Vision Records | Equal Vision Records,False,False
+[CLS] Slow Down Baby is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slow Down Baby,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Peoples Champ is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Peoples Champ """,Asylum Records | Asylum Records,False,False
+[CLS] Young Love is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Young Love,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] I ' ll Be Home for Christmas is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Life After Dark is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Life After Dark,CBS | CBS | Columbia Broadcasting System,False,True
+[CLS] V Factory is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],V Factory,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Parmalee is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parmalee,BBR Music Group | BBR Music Group | Broken Bow Records,False,False
+[CLS] Transit of Venus is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Transit of Venus,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Ground is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Ground,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] The Goat of Mendes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Goat of Mendes,Peaceville Records | Peaceville Records,False,False
+[CLS] Acid King III is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Acid King,Small Stone Records | Small Stone Records,False,False
+[CLS] Oh Girl is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oh Girl,Brunswick | Brunswick | Brunswick Records | LC 00136 | LC 0136,False,True
+[CLS] Ys is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ys,Drag City | Drag City | Drag City Records,False,False
+[CLS] Potemkin City Limits is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Potemkin,G7 Welcoming Committee Records | G7 Welcoming Committee Records,False,False
+[CLS] The Black Rob Report is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Black Rob,Bad Boy Records | Bad Boy Entertainment | Bad Boy Records,False,False
+[CLS] Nick Moore is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nick Moore,InVogue Records | InVogue Records,False,False
+[CLS] Fate ' s Right Hand is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mercyful Fate,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Dolcenera nel paese delle meraviglie is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Dolcenera,Sony Music | Sony Music,False,False
+[CLS] The Headless Children is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] The Decline and Fall of Heavenly is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Sarah Records | Sarah Records,False,False
+[CLS] Donell Jones is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Donell Jones,LaFace Records | LaFace Records,False,False
+[CLS] Evolution is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Motown | Motown | Motown Records,False,True
+[CLS] A Best is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],A Best,Avex Trax | Avex Trax,False,False
+[CLS] Chris Squire is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chris Squire,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Hello Tomorrow is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hello Tomorrow,Concord Records | Concord Records | LC 15025,False,False
+[CLS] Main Source is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Main Source,Studio ! K7 | Studio ! K7,False,False
+[CLS] Aidonia is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aidonia,VP Records | VP Records,False,False
+[CLS] Rise Up is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Priority Records | Priority Records,False,False
+[CLS] Lily & Madeleine is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lily & Madeleine,Asthmatic Kitty | Asthmatic Kitty,False,False
+[CLS] Wheel of Fortune is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wheel of Fortune,Edel - Mega Records | Edel - Mega Records | Mega Records,False,False
+[CLS] Gentle Creatures is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gentle Creatures,4AD | 4AD,False,False
+[CLS] Green Eyed Soul is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Green Eyed Soul,Sony Music | Sony Music,False,False
+[CLS] Back on My B . S . is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],B . S .,Conglomerate | Conglomerate | Conglomerate Records,False,False
+[CLS] Smokin ' O . P . ' s is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Smokin,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Long Tall Sally is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Long Tall Sally,Parlophone | Parlophone | Parlophone Communications | Parlophone Records,False,False
+[CLS] Fear of God is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fear of God,Blonde Vinyl | Blonde Vinyl,False,False
+[CLS] Southern Storm is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Southern Storm,Century Media Records | Century Media Records,False,False
+[CLS] Chillaa is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chillaa,"Universal Music Group | UMG | UMG Recordings , Inc . | Universal Music Group",False,False
+[CLS] Tempest is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tempest,Smalltown Supersound | Smalltown Supersound,False,False
+[CLS] Henry Halstead is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Victor Talking Machine Company | The Victor Talking Machine Company | Victor Talking Machine Company,False,False
+[CLS] You Love You is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],You Love You,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] The Rumble Strips is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Rumble Strips,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] Adalita is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Adalita,Liberation Music | Liberation Music,False,False
+[CLS] The Muffs is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Muffs,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Molly Lewis is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pussycat Dolls,DFTBA Records | DFTBA Records,False,False
+[CLS] Vox Celeste 5 is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vox Celeste,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Flippin ' Out is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Flippin ' Out,BMG Rights Management | BMG | BMG Rights Management | new BMG,False,False
+[CLS] BE is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Beady Eye | Beady Eye,False,False
+[CLS] Milk and Scissors is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Carrot Top Records | Carrot Top Records,False,False
+[CLS] Sonny with a Chance is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonny with a Chance,Walt Disney Records | LC 10025 | Walt Disney Records,False,False
+[CLS] Exactly Like You is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Deadweights is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Deadweights,Slash Records | Slash Records,False,False
+[CLS] The $ 5 . 98 E . P . : Garage Days Re - Revisited is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],E . P,Elektra | Elektra | Elektra Records | LC 00192 | LC 0192,False,True
+[CLS] McCoy Tyner is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Enja Records | Enja Records,False,False
+[CLS] Tell the Truth is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tell the Truth,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] This Is a Hospital is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],This Is a Hospital,Some Records | Some Records,False,False
+[CLS] Born to Roll is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Born to Roll,Open Road Recordings | Open Road Recordings,False,False
+[CLS] Icehouse is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Icehouse,Chrysalis Records | Chrysalis Records | LC 1626,False,False
+[CLS] Vrisko to logo na zo is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Vrisko """,Sony BMG | Sony BMG | Sony BMG Music Entertainment,False,False
+[CLS] Ispočetka is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ispočetka,City Records | City Records,False,False
+[CLS] David Nail is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],David Nail,Universal Music Group Nashville | Mercury Nashville | UMG Nashville | Universal Music Group Nashville | Universal Nashville,False,False
+[CLS] Bring Back Her Head is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bring Back Her Head,Fantastic Plastic Records | Fantastic Plastic | Fantastic Plastic Records,False,False
+[CLS] Heat in the Street is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Heat in the Street,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] The Legendary A & M Sessions is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Legendary,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Ayako Ikeda is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ayako Ikeda,Sony Music Entertainment Japan | SMEJ | Sony Music Entertainment ( Japan ) Inc . | Sony Music Entertainment Japan,False,False
+[CLS] Have Heart is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Have Heart,Bridge 9 Records | Bridge 9 Records,False,False
+[CLS] Idjit Savant is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Idjit Savant,Triple X Records | Triple X Records,False,False
+[CLS] Unbroken is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Unbroken,Hollywood Records | Hollywood Records,False,False
+[CLS] Magic is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Sony Music | Sony Music,False,False
+[CLS] Lee Brice is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lee Brice,Curb Records | Asylum - Curb | Curb Records | MCG Curb,False,False
+[CLS] Jack Clement is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Jack Clement,Sun Records | Sun | Sun Records,False,False
+[CLS] Dawn Raid All - Stars is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Dawn Raid,Dawn Raid Entertainment | Dawn Raid Entertainment,False,False
+[CLS] They Will Return is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Spinefarm Records | Spinefarm Records,False,False
+[CLS] Everyday is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Everyday,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Take as Needed for Pain is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Century Media Records | Century Media Records,False,False
+[CLS] Midnight Without You is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Midnight Without You """,Verve Forecast Records | Verve Forecast Records,False,False
+[CLS] Can ' t Be Tamed is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Hollywood Records | Hollywood Records,False,False
+[CLS] Ayers Rock is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ayers Rock,Mushroom Records | Mushroom Records,False,False
+[CLS] Blooddrunk is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Blooddrunk,Spinefarm Records | Spinefarm Records,False,False
+[CLS] Who ' s That Girl is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Who ' s That Girl,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] Thin Dark Line is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Thin Dark Line,One Eleven Records | One Eleven Records,False,False
+[CLS] Hey Young Girl is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hey Young Girl,Jazze Pha | Jazze Pha | Phalon Alexander,False,False
+[CLS] Calvin Krime is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Calvin Krime,Amphetamine Reptile Records | Am Rep | Am - Rep | AmRep | Amphetamine Reptile | Amphetamine Reptile Records,False,False
+[CLS] Barbra Joan Streisand is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] Antigone is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Antigone,Century Media Records | Century Media Records,False,False
+[CLS] Cabaret Voltaire is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cabaret Voltaire,Rough Trade Records | Rough Trade Records,False,False
+[CLS] Vibrate is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Vibrate,Telarc International Corporation | Telarc | Telarc International Corporation | Telarc Records,False,False
+[CLS] Brandy is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Brandy,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Providence is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Providence,Fullsteam Records | Fullsteam Records,False,False
+[CLS] Be Not Nobody is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Black Pearl is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Black Pearl,East West Records | East West | East West Records | eastwest Records,False,False
+[CLS] American Dreams is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],American Dreams,MCA Records | LC 01056 | LC 1056 | MCA Records,False,False
+[CLS] Power to the People is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Power to the People,Apple | Apple | Apple Records | LC 01074 | LC 1074,False,True
+[CLS] The Eternal Idol is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Eternal Idol """,Vertigo | LC 01633 | LC 1633 | Vertigo | Vertigo Berlin | Vertigo Records,False,False
+[CLS] Another Kind of Blues is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Virginmarys is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Virginmarys,Cooking Vinyl | Cooking Vinyl,False,False
+[CLS] Graham Nash is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Graham Nash,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Ima Robot is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ima Robot,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Paisley Park is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paisley,Paisley Park Records | Paisley Park Records,False,False
+[CLS] Dog Eat Dog is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dog Eat Dog,Geffen Records | Geffen Records | LC 07266 | LC 7266,False,False
+[CLS] Joyo Velarde is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Joyo Velarde,Quannum Projects | Quannum Projects,False,False
+[CLS] Mark Whitecage is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mark Whitecage,CIMP | C . I . M . P . | CIMP | Creative Improvised Music Projects,False,False
+[CLS] Masada Recital is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Masada,Tzadik Records | Tzadik Records,False,False
+[CLS] Unstoppable is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Unstoppable,Konvict Muzik | Konvict Muzik,False,False
+[CLS] Hits Alive is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hits Alive,Arista Nashville | Arista Nashville,False,False
+[CLS] Taking Tiger Mountain ( By Strategy ) is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Taking Tiger Mountain,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] The Magic Magicians is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Magic Magicians,Suicide Squeeze Records | Suicide Squeeze Records,False,False
+[CLS] Neil Young is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Neil Young,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Man of Steel is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Man of Steel,Curb Records | Asylum - Curb | Curb Records | MCG Curb,False,False
+[CLS] Into the Groove is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Into the Groove,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] R . A . P . Music is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],R . A . P,Williams Street Records | Williams Street Records,False,False
+[CLS] Enemy of the Sun is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Enemy of the Sun,Alternative Tentacles | Alternative Tentacles | Alternative Tentacles Records,False,False
+[CLS] To the Faithful Departed is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] New Day Rising is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" New Day Rising """,SST Records | SST Records,False,False
+[CLS] The Slider is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Reprise Records | Reprise Records,False,False
+[CLS] In the Heart of the Young is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],The Heart of the Young,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Make It Happen is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Make It Happen,Columbia Records | Columbia Records,False,False
+[CLS] Starlite Lounge is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Starlite,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Year in the Kingdom is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Year in the Kingdom,Western Vinyl | Western Vinyl,False,False
+[CLS] Dolly Varden is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dolly Varden,Undertow Music | Undertow Music,False,False
+[CLS] Miranda Cosgrove is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cosgrove,Columbia Records | Columbia Records,False,False
+[CLS] Were It Not for You is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Eyeball Records | Eyeball Records,False,False
+[CLS] Autechre is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Autechre,Skam Records | Skam Records,False,False
+[CLS] Fellini Só Vive 2 Vezes is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Fellini,Baratos Afins | Baratos Afins,False,False
+[CLS] Sleep is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Strange Famous Records | Strange Famous Records,False,False
+[CLS] N - Dubz is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],N - Dub,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] It ' s Real is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],It ' s Real,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Heritage is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spectacular,Roadrunner Records | Roadrunner Records,False,False
+[CLS] The Queen Is Dead is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Queen Is Dead,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] Let ' s Go is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Let ' s Go,Epitaph Records | Epitaph Records,False,False
+[CLS] Abandon is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Abandon,ForeFront Records | ForeFront Records,False,False
+[CLS] Am I My Brother ' s Keeper is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Priority Records | Priority Records,False,False
+[CLS] Silly Little Song of the Smurfs is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Silly Little,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Thoughts of a Predicate Felon is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,G - Unit Records | G Unit | G - Unit Records,False,False
+[CLS] Bob Dylan ' s Greatest Hits Vol . II is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Warner Bros,Columbia Records | Columbia Records,False,False
+[CLS] How Many Times Can We Say Goodbye is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Arista | Arista | Arista Records,False,False
+[CLS] He Wasn ' t Man Enough is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,LaFace Records | LaFace Records,False,False
+[CLS] Magnolia Electric Co . is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Magnolia Electric Co,Secretly Canadian | Secretly Canadian,False,False
+[CLS] Way Down South is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Way Down,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Polar is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Happy Happy Birthday To Me Records | Happy Happy Birthday To Me Records,False,False
+[CLS] Ruining It for Everybody is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ruining It for Everybody,Century Media Records | Century Media Records,False,False
+[CLS] The Section Quartet is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Section Quartet """,Vitamin Records | Vitamin Records,False,False
+[CLS] Everything You Want is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Hell Is for Wimps is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hell Is for Wimps,Star Song Communications | Star Song Communications,False,False
+[CLS] Primal Rock Therapy is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Primal Rock Therapy,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Textures is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Listenable Records | Listenable Records,False,False
+[CLS] The Wonderful World of Andy Williams is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Columbia Records | Columbia Records,False,False
+[CLS] October is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] Sheik Yerbouti is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],K . K,Zappa Records | Zappa Records,False,False
+[CLS] Greatest Hits is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Greatest Hits,Columbia Records | Columbia Records,False,False
+[CLS] Roots and Wings is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Roots and Wings,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] New Jack City II is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Jack City,Columbia Records | Columbia Records,False,False
+[CLS] The Sweetheart Tree is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Sweetheart Tree,Mercury Records | Mercury Music Group | Mercury Records,False,False
+[CLS] No Place to Go is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],No Place to Go,Fever Records | Fever Records,False,False
+[CLS] Forget What You Know is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],P . P,Columbia Records | Columbia Records,False,False
+[CLS] Pakho Chau is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pakho Chau,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] Stockholm Monsters is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stockholm Monsters,Factory Records | Factory Records,False,False
+[CLS] One Mic is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],One Mic,Ill Will Records | Ill Will Records,False,False
+[CLS] BR549 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],BR549,Arista Nashville | Arista Nashville,False,False
+[CLS] Watermark is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Watermark,G7 Welcoming Committee Records | G7 Welcoming Committee Records,False,False
+[CLS] Gold is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Carnivorous Erection is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],S . S,Relapse Records | Relapse Records,False,False
+[CLS] Distant Satellites is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Distant Satellites,Kscope | Kscope,False,False
+[CLS] SHERO is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SHERO,HIM International Music | HIM International Music | HIM International Music Inc .,False,False
+[CLS] Otis Blue : Otis Redding Sings Soul is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Otis Blue,Stax | Stax | Stax Records,False,False
+[CLS] Firebrand Boy is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Firebrand,8bitpeoples | 8BP | 8bitpeoples,False,False
+[CLS] Meic Stevens is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Meic Stevens,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] The Glow is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Glow,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] In Prism is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],In Prism,Merge Records | Merge Records,False,False
+[CLS] Red Nation is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Red Nation,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Violent Machine is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Violent Machine,Metropolis Records | Metropolis Records,False,False
+[CLS] Folkjokeopus is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],' Folkjoke ',Liberty | LC 00249 | Liberty | Liberty Records,False,True
+[CLS] Lava Hay is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Lava Hay """,Nettwerk | Nettwerk,False,False
+[CLS] Contra la Corriente is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Contra la Corriente,RMM Records & Video | RMM Records & Video,False,False
+[CLS] Allaxa is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Allaxa,The Spicy Effect | The Spicy Effect,False,False
+[CLS] Texas in July is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,CI Records | CI Records,False,False
+[CLS] I Scream is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],I Scream,Sony Music Entertainment Japan | SMEJ | Sony Music Entertainment ( Japan ) Inc . | Sony Music Entertainment Japan,False,False
+[CLS] My War is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],My War,SST Records | SST Records,False,False
+[CLS] The Church Within is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" The Church Within """,Hellhound Records | Hellhound Records,False,False
+[CLS] Add to the Beauty is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Add to the Beauty,Sara Groves | Sara Groves,False,False
+[CLS] Andy Palacio is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Andy Palacio,Cumbancha | Cumbancha,False,False
+[CLS] Guitar Solos is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Guitar Solos,Caroline Records | Caroline Records,False,False
+[CLS] Notis Sfakianakis is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Notis,Sony Music | Sony Music,False,False
+[CLS] From Monument to Masses is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],From Monument to Masses,Dim Mak Records | Dim Mak Records,False,False
+[CLS] Six / Nine is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Six / Nine,JVC Kenwood Victor Entertainment | JVC Entertainment | JVC Kenwood Victor Entertainment | JVC Kenwood Victor Entertainment Corporation | JVC Music | Victor Entertainment | Victor Music,False,False
+[CLS] Happenstance is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Happenstance,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Space Camp is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Space Camp,Kung Fu Records | Kung Fu Records,False,False
+[CLS] Absent Friends is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Absent Friends,Parlophone | Parlophone | Parlophone Communications | Parlophone Records,False,False
+[CLS] Finest Hour is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Finest Hour,Comedy Central Records | Comedy Central Records,False,False
+[CLS] Unprecedented is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Gold Typhoon | Gold Typhoon,False,False
+[CLS] Transcendence is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Transcendence """,Roadrunner Records | Roadrunner Records,False,False
+[CLS] Solstice is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Solstice,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Cosmogramma is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cosmogramma,Warp | Warp | Warp Records,False,False
+[CLS] A Day to Remember is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],A Day to Remember,Victory Records | Victory Records,False,False
+[CLS] Smells Like Teen Spirit is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spoon Spoon,DGC Records | DGC Records | David Geffen Company,False,False
+[CLS] Satan i gatan is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,"Universal Music Group | UMG | UMG Recordings , Inc . | Universal Music Group",False,False
+[CLS] Midnight Lightning is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Midnight Lightning,Reprise Records | Reprise Records,False,False
+[CLS] R . Crumb and his Cheap Suit Serenaders No . 2 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],R . Crumb,Shanachie Records | Shanachie | Shanachie Records,False,False
+[CLS] No One Else is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Bad Boy Records | Bad Boy Entertainment | Bad Boy Records,False,False
+[CLS] Charged is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charged,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Everette Harp is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Everette Harp,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] I Got My Mind Made Up is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Salsoul Records | Salsoul Records,False,False
+[CLS] Neither One of Us is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Motown | Motown | Motown Records,False,True
+[CLS] Radio Fusion Radio is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radio Fusion,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Hell Is What You Make It is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Fearless Records | Fearless Records,False,False
+[CLS] Best Friend ' s Brother is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Best Friend,Columbia Records | Columbia Records,False,False
+[CLS] Dick ' s Picks Volume 3 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dick ' s Picks,Grateful Dead Records | Grateful Dead Records,False,False
+[CLS] Keeping My Mind on Love is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Motorcity Records | Motorcity Records,False,False
+[CLS] Never Gonna Leave This Bed is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,A & M Octone Records | A & M Octone Records,False,False
+[CLS] Creatures is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Creatures,SpinART Records | SpinART Records,False,False
+[CLS] Anytime is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Anytime,Mercury Records | Mercury Music Group | Mercury Records,False,False
+[CLS] Zero Gravity is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zero Gravity,The Island Def Jam Music Group | The Island Def Jam Music Group,False,False
+[CLS] Smoko at the Pet Food Factory is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Smoko,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] Dope is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dope,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Haircut is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haircut,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Worth tha Weight is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Worth tha Weight,Disturbing tha Peace | Disturbing tha Peace,False,False
+[CLS] Sings the Songs of Andrew Lloyd Webber is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Psychedelic,EMI | EMI | EMI ( United Kingdom ) | EMI Music | EMI Records,False,True
+[CLS] Outland is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Outland,I . R . S . Records | I . R . S . Records,False,False
+[CLS] Jerald Daemyon is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Daemyon,"GRP Records | Arista / GRP | GRP Records | GRP Records , Inc . | MCA / GRP",False,False
+[CLS] Sachal Vasandani is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],P . P,OKeh | LC 00288 | LC 0288 | OKeh | OkeH | Okeh | Okeh Records,False,False
+[CLS] Surfer ' s Paradise ( album ) is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Surfer ' s Paradise,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] The Same Channel is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Same Channel """,Morr Music | Morr Music,False,False
+[CLS] Alien Crime Syndicate is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Alien Crime Syndicate,Giant Records | Giant Records,False,False
+[CLS] 10 Neurotics is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],10 Neurotics,Projekt Records | Projekt Records,False,False
+[CLS] Snowball is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Snowball,Sarah Records | Sarah Records,False,False
+[CLS] Karma is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Sanctuary Records | Sanctuary Records | Sanctuary Records Group Ltd .,False,False
+[CLS] Hate Them is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hate Them,Moonfog Productions | Moonfog Productions,False,False
+[CLS] Everything I Own is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Trojan Records | Trojan Records,False,False
+[CLS] Arvingarna is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Arvingarna,Sony Music | Sony Music,False,False
+[CLS] The Golden Dove is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Golden Dove,Matador Records | Matador | Matador Records,False,False
+[CLS] Love After War is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Love After War,Star Trak Entertainment | Star Trak Entertainment,False,False
+[CLS] Robot is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] Set You Free is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Set You Free """,Universal Music Group Nashville | Mercury Nashville | UMG Nashville | Universal Music Group Nashville | Universal Nashville,False,False
+[CLS] Gone Not Around Any Longer is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Starship Entertainment | Starship Entertainment,False,False
+[CLS] Gwyneth Herbert is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gwyneth Herbert,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Play is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] The Broken West is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Broken West """,Merge Records | Merge Records,False,False
+[CLS] Title of Record is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Title of Record """,Reprise Records | Reprise Records,False,False
+[CLS] Dan + Shay is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Shay,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Wind & Wuthering is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,Charisma | Charisma | Charisma Records | The Famous Charisma Label,False,False
+[CLS] Redemption Song is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Redemption Song,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] Set Fire to Flames is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Set Fire to Flames,Alien8 Recordings | Alien8 Recordings,False,False
+[CLS] Viewers Like You is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Viewers Like You,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] One - Nine - Nine - Nine is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nine - Nine,Rawkus Records | Rawkus Records,False,False
+[CLS] Ol ' ' 55 is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ol ' ' 55,Asylum Records | Asylum Records,False,False
+[CLS] Didn ' t See Me Coming is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Elektra | Elektra | Elektra Records | LC 00192 | LC 0192,False,True
+[CLS] MX is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],MX,Red Baron Records | Red Baron Records,False,False
+[CLS] Belonging is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belonging,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Advantage is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Advantage,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] I Don ' t Want to Miss a Thing is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],R . R,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] The Reason Why I ' m Talking S - - t is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],The Reason Why,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Macanudo is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Macanudo,Argo Records | Argo Records,False,False
+"[CLS] The Mix Tape , Vol . III is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Slipknot,Loud Records | Loud Records,False,False
+[CLS] Andy Warhol ' s Velvet Underground Featuring Nico is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Velvet Underground,MGM Records | MGM | MGM Records,False,False
+[CLS] Glasser is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Glasser,True Panther Sounds | True Panther Sounds,False,False
+[CLS] Shades of Rock is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shades of Rock,Columbia Graphophone Company Ltd . | Columbia Graphophone Company Ltd .,False,False
+[CLS] Angst in My Pants is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Angst in My Pants,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Ruff Sqwad is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ruff,Takeover Entertainment | Takeover Entertainment,False,False
+[CLS] The Touré - Raichel Collective is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Raichel,Cumbancha | Cumbancha,False,False
+[CLS] Oh Me Oh My is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Atco Records | Atco Records,False,False
+[CLS] Buffy Sainte - Marie is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buffy Sainte - Marie,MCA Records | LC 01056 | LC 1056 | MCA Records,False,False
+[CLS] Twisting the Jug is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Twisting the Jug,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+"[CLS] Parrandera , Rebelde y Atrevida is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Parrandera,Fonovisa Records | Fonovisa Records,False,False
+[CLS] Split is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Stardumb Records | Stardumb Records,False,False
+[CLS] Big Trash is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Big Trash,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Out There is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Peacock Records | Peacock | Peacock Records,False,False
+[CLS] Tribe is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Beyond International | Beyond International | Beyond Television Productions,False,False
+[CLS] Reamonn is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Can ' t Wait to See the Movie is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Psychedelic,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Bopstacle Course is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bopstacle,Xanadu Records | Xanadu Records,False,False
+[CLS] Cast in Stone is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cast in Stone,SPV | SPV,False,False
+[CLS] Say It ' s Gonna Rain is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Psychedelic,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Marzette Watts is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Marzette Watts,ESP - Disk | ESP - Disk,False,False
+[CLS] Juan Carlos Paz y Puente is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],R . R,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] Tharros I Alitheia is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tharros,Minos EMI | EMI Music Greece | Minos EMI | Minos - EMI,False,False
+[CLS] The Best is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],The Best,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] The Kennedy Dream is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Kennedy Dream """,Impulse ! Records | Impulse ! Records,False,False
+[CLS] Pinocchio is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pinocchio,SM Entertainment | S . M . Entertainment | SM Entertainment | Star Museum Entertainment,False,False
+[CLS] The Nephilim is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nephilim,Situation Two | Situation Two,False,False
+[CLS] Dedicated to Chaos is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dedicated to Chaos,Roadrunner Records | Roadrunner Records,False,False
+[CLS] Magic Symphony is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Magic Symphony """,BMG Rights Management | BMG | BMG Rights Management | new BMG,False,False
+[CLS] Tent of Miracles is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tent of Miracles,Line Records | Line Records,False,False
+[CLS] Molecular Heinosity is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],", Molecular Heinosity",Inside Out Music | Inside Out Music,False,False
+[CLS] Joy is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,JEMP Records | JEMP Records,False,False
+[CLS] Hank Mobley Quintet is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hank Mobley,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Candy is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Candy Candy """,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] War Paint is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],War Paint,BNA Records | BNA Entertainment | BNA Records | BNA Records Label,False,False
+[CLS] Scatter the Ashes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Scatter the Ashes,Epitaph Records | Epitaph Records,False,False
+[CLS] Il Sogno is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Il Sogno """,Deutsche Grammophon | Deutsche Grammophon | Deutsche Grammophon Gesellschaft | Deutsche Grammophon GmbH,False,False
+[CLS] Mr . Porter is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mr . Porter,Shady Records | Shady | Shady Records,False,False
+[CLS] Muse is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Muse,Island Records | Island | Island Records | LC 00407 | LC 0407,False,False
+[CLS] The Hazards of Love is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Hazards of Love,Rough Trade Records | Rough Trade Records,False,False
+[CLS] Panthéon is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Panthéon,"Universal Music Group | UMG | UMG Recordings , Inc . | Universal Music Group",False,False
+[CLS] The Lotus Effect is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Lotus Effect """,Lion Music | Lion Music,False,False
+[CLS] Sweet Guy is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sweet Guy,Mushroom Records | Mushroom Records,False,False
+[CLS] The Bellamy Brothers is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] On Letting Go is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],On Letting Go,Equal Vision Records | Equal Vision Records,False,False
+[CLS] Bitter Tears : Ballads of the American Indian is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bitter Tears,Columbia Records | Columbia Records,False,False
+[CLS] Bifrost is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Columbia Records | Columbia Records,False,False
+[CLS] Changes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Colgems | Colgems | Colgems Records,False,False
+[CLS] Lisa Lopes is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lisa Lopes,Arista | Arista | Arista Records,False,False
+[CLS] Melodrama is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Melodrama,True North Records | True North Records,False,False
+[CLS] Ariamaru Tomi is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ariamaru,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] Scandal is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scandal,Kitty Films | Kitty Film | Kitty Films | Kitty Fim | Kitty Right & Entertainment,False,False
+[CLS] Shut ' Em Down is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Shut ' Em Down,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Lindsay McCaul is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],McCaul,Reunion Records | Reunion | Reunion Records,False,False
+[CLS] Toward the Margins is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Toward the Margin,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Superstar is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Edel Records | EarMUSIC | EarMusic | Edel AG | Edel Germany GmbH | Edel Records | Edel music,False,False
+[CLS] Lea Riders Group is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lea Riders,Philips Records | LC 00305 | LC 0305 | Philips Records,False,False
+[CLS] Norther is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Spinefarm Records | Spinefarm Records,False,False
+[CLS] Perseus is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Perseus,Avex Trax | Avex Trax,False,False
+[CLS] Liberty 37 is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Liberty 37 """,Beggars Banquet Records | Beggars Banquet Records,False,False
+[CLS] Love Approach is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Love Approach,"GRP Records | Arista / GRP | GRP Records | GRP Records , Inc . | MCA / GRP",False,False
+[CLS] Rhino 39 is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhino,Dangerhouse Records | Dangerhouse Records,False,False
+[CLS] Susanna Hoffs is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,London Records | London | London Recordings | London Records,False,False
+[CLS] Armored Saint is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Armored Saint """,Metal Blade Records | Metal Blade Records,False,False
+[CLS] Kindless is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kindless,Listenable Records | Listenable Records,False,False
+[CLS] Palace is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],S . S,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Hussein Fatal is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hussein Fatal,Death Row Records | Death Row | Death Row Records | Tha Row,False,False
+[CLS] Courageous is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Courageous,Reunion Records | Reunion | Reunion Records,False,False
+[CLS] Like Children is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Like Children,Nemperor Records | Nemperor Records,False,False
+[CLS] It ' s Not Unusual is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Rainbow is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Inoxia Records | Inoxia Records,False,False
+[CLS] Sainthood is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] By Request is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Request,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Vacation is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vacation,I . R . S . Records | I . R . S . Records,False,False
+[CLS] Divinefire is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,King Records | KING RECORDS | King Records | Kingrecords | LC 19403,False,False
+[CLS] Adelaide Hall is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Adelaide Hall,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+"[CLS] Deine Zärtlichkeit / Nachts , wenn die Nebel ziehen is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",of the same name,Ariola | Ariola | Ariola Express | BMG Ariola | Bertelsmann Schallplattenring,False,False
+[CLS] Leslie Mills is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leslie Mills,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] La Voz is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" La Voz """,Fania Records | Fania Records,False,False
+[CLS] Moustache is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Moustache,Brainfeeder | Brainfeeder,False,False
+[CLS] Culprit 1 is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Culprit,Exceptional Records | Exceptional Records,False,False
+[CLS] Jon Auer is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jon Auer,Arena Rock Recording Company | Arena Rock Recording Company,False,False
+[CLS] Nelly Furtado is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nelly Furtado,Geffen Records | Geffen Records | LC 07266 | LC 7266,False,False
+[CLS] Love Is Where You Find It is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,SOLAR Records | SOLAR Records,False,False
+[CLS] Love Cry is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Love Cry,Impulse ! Records | Impulse ! Records,False,False
+[CLS] European Tour 1977 is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],European Tour,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Animatronic is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Animatronic,Nuclear Blast | Nuclear Blast | Nuclear Blast GmbH,False,False
+[CLS] Broadway Playbill is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Broadway Playbill,Columbia Records | Columbia Records,False,False
+[CLS] Lorene Drive is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Lorene Drive """,Lobster Records | Lobster Records,False,False
+[CLS] All This Time is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],All This Time,BMG Rights Management | BMG | BMG Rights Management | new BMG,False,False
+[CLS] Finally is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Cosmos Music Group | Cosmos Music Group,False,False
+[CLS] The Greatest Man That Ever Lived is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Slipknot,Geffen Records | Geffen Records | LC 07266 | LC 7266,False,False
+[CLS] Coat of Many Colors is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Coat,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Walking Dead is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" The Walking Dead """,SST Records | SST Records,False,False
+[CLS] Sun : Wings is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Sun : Wings ""","Pony Canyon | PONY CANYON INC . | Ponican | Pony Canyon | Pony Canyon , Inc .",False,False
+[CLS] Silent Bible is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Silent Bible,King Records | KING RECORDS | King Records | Kingrecords | LC 19403,False,False
+[CLS] Rough Mix is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rough Mix,MCA Records | LC 01056 | LC 1056 | MCA Records,False,False
+[CLS] Land of the Dead is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Land of the Dead,Limb Music | Limb Music,False,False
+[CLS] Celebrate This Heartbeat is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Myrrh | Myrrh | Myrrh Records | Myrrh Worship,False,False
+[CLS] Electronically Tested is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Electronically Tested,Dawn Records | Dawn Records,False,False
+[CLS] Transfer Trachea Reverberations from Point : False Omniscient is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Psychedelic,Relapse Records | Relapse Records,False,False
+[CLS] Son of Three is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Son of Three,4AD | 4AD,False,False
+[CLS] The Following Morning is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Following Morning,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Victor is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Anthem Records | Anthem Records,False,False
+[CLS] D . O . A . is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . O . A,Alternative Tentacles | Alternative Tentacles | Alternative Tentacles Records,False,False
+[CLS] Dance is represented by music label [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dance,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+"[CLS] Straight , Clean and Simple is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",R . R,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Groove On is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Groove On,East West Records | East West | East West Records | eastwest Records,False,False
+[CLS] El Chico is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" El Chico """,Impulse ! Records | Impulse ! Records,False,False
+[CLS] Soultans is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Soultans,Coconut Records | Coconut Records,False,False
+[CLS] Shola is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shola,Bertelsmann Music Group | BMG | BMG Music Publishing | Bertelsmann Music Group | Bertelsmann Music Group Company,False,False
+[CLS] Hangar 18 is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hangar,Definitive Jux | Definitive Jux,False,False
+[CLS] Eet Kreef is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eet Kreef,Shifty Records | Shifty Records,False,False
+[CLS] There but for Fortune is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Vanguard Records | Vanguard Records,False,False
+[CLS] Power of the Night is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Westlife is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Westlife,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] The Chasm is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Chasm,Earache Records | Earache Records,False,False
+[CLS] Mellow is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mellow,Muse Records | Muse Records,False,False
+[CLS] Loscil is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Loscil,Kranky | Kranky | Kranky Records,False,False
+[CLS] The Big Bad Rock Guitar of Glen Campbell is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Glen Campbell,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] Riverdales is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Riverdale,Fat Wreck Chords | Fat Wreck Chords,False,False
+[CLS] Platinum Game is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Platinum Game,Hoo - Bangin ' Records | Hoo - Bangin ' Records,False,False
+[CLS] Buck 65 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buck 65,Warner Music Canada | Warner Music Canada,False,False
+[CLS] But Not Farewell is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Five - O is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Five - O,Bad Boy Records | Bad Boy Entertainment | Bad Boy Records,False,False
+[CLS] Strong Stuff is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Strong Stuff,Curb Records | Asylum - Curb | Curb Records | MCG Curb,False,False
+[CLS] All Else Failed is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],All Else Failed,Tooth & Nail Records | Tooth & Nail Records,False,False
+[CLS] Banging the Drum is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Banging the Drum,Dischord Records | Dischord Records,False,False
+[CLS] Blur is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blur,Food Records | Food Records,False,False
+[CLS] Q and Not U is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Psychedelic,Dischord Records | Dischord Records,False,False
+[CLS] Young Liars is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Young Liars,Nettwerk | Nettwerk,False,False
+[CLS] The Miracle of Sound in Motion is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sound in Motion,Boner Records | Boner Records,False,False
+[CLS] Swivelhips is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Swivelhips,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Nour El Ain is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nour El Ain,Alam El Phan | Alam El Phan,False,False
+[CLS] Sunrise is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,No Quarter Records | No Quarter Records,False,False
+[CLS] Heather Williams is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Heather Williams,Fair Trade Services | Fair Trade Services | INO Records,False,False
+[CLS] Armor for Sleep is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Armor for Sleep,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] All the Nations Airports is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Elektra | Elektra | Elektra Records | LC 00192 | LC 0192,False,True
+[CLS] Ian Astbury is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Astbury,Beggars Banquet Records | Beggars Banquet Records,False,False
+[CLS] Girls Can ' t Catch is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Girls Can ' t Catch,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Warning is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Reprise Records | Reprise Records,False,False
+[CLS] E . L . E . ( Extinction Level Event ) : The Final World Front is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],E . L . E,Conglomerate | Conglomerate | Conglomerate Records,False,False
+[CLS] From Toni with Love . . . The Video Collection is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Warner Bros,LaFace Records | LaFace Records,False,False
+[CLS] XXXO is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],XXXO,Interscope Records | Interscope | Interscope Records,False,False
+[CLS] Kevin Kayirangwa is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kayirangwa,Sony BMG | Sony BMG | Sony BMG Music Entertainment,False,False
+"[CLS] Bing , Bing , Bing ! is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",R . R . R,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Won ' t Get Fooled Again is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] Room a Thousand Years Wide is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Sub Pop | Sub Pop | Sub Pop Records,False,False
+[CLS] Ffa Coffi Pawb is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ffa,Ankst | Ankst,False,False
+[CLS] The Last of the True Believers is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Philo Records | Philo Records,False,False
+[CLS] Tink of S . E . is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tink,TeenBeat Records | Teen - Beat | TeenBeat Records,False,False
+[CLS] The Intimate Ellington is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Intimate Ellington,Pablo Records | Pablo Records,False,False
+[CLS] So Wrong is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],So Wrong,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] Soundsystem is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Soundsystem,Capricorn Records | Capricorn | Capricorn Records,False,False
+[CLS] Bites is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bites,Nettwerk | Nettwerk,False,False
+[CLS] The Sky ' s the Limit is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Arista Nashville | Arista Nashville,False,False
+[CLS] Islander is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Victory Records | Victory Records,False,False
+[CLS] African Development Movement is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],African Development Movement,political party | party | political party,False,False
+[CLS] Chemical Warfare is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chemical Warfare,The Alchemist | Alchemist | Daniel Alan Maman | The Alchemist,False,False
+[CLS] Neve is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McClintock,Columbia Records | Columbia Records,False,False
+[CLS] I Kalomira Paei Cinema is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],I Kalomira,Heaven Music | Heaven Music,False,False
+[CLS] Stay Tuned is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Lenny Kravitz - Greatest Hits is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lenny Kravitz,Virgin Records | LC 33687 | Virgin Records,False,False
+[CLS] One Step Beyond is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],One Step Beyond,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Rehab is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rehab,Epic | Epic | Epic Records | LC 00199,False,True
+"[CLS] Sorry , Little Sarah is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",Little Sarah,BMG Rights Management | BMG | BMG Rights Management | new BMG,False,False
+[CLS] Rhapsody is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhapsody,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] A Breathtaking Guy is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Motown | Motown | Motown Records,False,True
+[CLS] Subb is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Subb . Subb,Union Label Group | Union Label Group,False,False
+[CLS] Air Miami is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Miami,4AD | 4AD,False,False
+[CLS] What the Game ' s Been Missing ! is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Psychedelic,Def Jam Recordings | Def Jam | Def Jam Recordings | def jam records,False,False
+[CLS] Agnes Carlsson is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Södertälje,Roxy Recordings | Roxy Recordings,False,False
+[CLS] Bikini Atoll is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bikini Atoll,Bella Union | Bella Union,False,False
+[CLS] The Serpent Servant is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Serpent Servant,Facedown Records | Facedown Records,False,False
+[CLS] Ever is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Avex Group | Avex Group,False,False
+[CLS] Ray J is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ray J,Atlantic Records | Atlantic | Atlantic Records | LC 00121 | LC 0121,False,False
+[CLS] Lips Like Sugar is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lips Like Sugar,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] Leftism is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leftism,Columbia Records | Columbia Records,False,False
+[CLS] Orange Crate Art is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Orange Crate,Warner Bros . Records | WBR | Warner Bros . | Warner Bros . Records,False,False
+[CLS] Tõnu Kaljuste is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tõnu Kalju,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] Music Spoken Here is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spoken Here,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] Dizzy Gillespie Jam is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dizzy Gillespie,Pablo Records | Pablo Records,False,False
+[CLS] Banga is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Banga,Columbia Records | Columbia Records,False,False
+[CLS] Dana McVicker is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],McVicker,Capitol Records | Capitol | Capitol Recording Corporation | Capitol Records,False,False
+[CLS] John Frusciante is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Warner Music Group | WMG | Warner | Warner Music | Warner Music Group,False,False
+[CLS] The Swining / Red Raw & Sore is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Swining,Cleopatra Records | Cleopatra Records,False,False
+[CLS] Eat a Peach is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eat a Peach,Capricorn Records | Capricorn | Capricorn Records,False,False
+[CLS] End of the Century is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],End of the Century,Sire | LC 03228 | LC 3228 | Sire | Sire Records,False,False
+[CLS] Nightwork is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nightwork,Avantgarde Music | Avantgarde Music,False,False
+[CLS] Faith is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Polydor Records | Karusell | Phonogram Records | Polydor | Polydor Records | Polyphon,False,False
+[CLS] That ' s How a Heartache Begins is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Slipknot,Decca | DECCA | Decca | Decca Records | LC 00171 | LC 0171 | The Decca Record Company Limited,False,True
+[CLS] The Chordettes Sing Your Requests is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],The Chordettes,Columbia Records | Columbia Records,False,False
+[CLS] Rockabilly Blues is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rockabilly,Columbia Records | Columbia Records,False,False
+[CLS] Have a Little Faith in Me is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] John Hiatt is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Hiatt,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] On the Torment of Saints is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Psychedelic,Tzadik Records | Tzadik Records,False,False
+[CLS] Nirvana is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],P . P,DGC Records | DGC Records | David Geffen Company,False,False
+[CLS] Headed for a Breakdown is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,Punk Core Records | Punk Core Records,False,False
+[CLS] SSQ is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],SSQ,Enigma | Enigma | Enigma Records,False,True
+[CLS] Sit ! Stay ! Wait ! Down ! / Love Story is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Love Story,Avex Trax | Avex Trax,False,False
+[CLS] Wheelhouse is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wheelhouse,Arista Nashville | Arista Nashville,False,False
+[CLS] All Those Born with Wings is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] This Brings Us to Volume 1 is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Psychedelic,Pi Recordings | Pi Recordings,False,False
+[CLS] There ' s Nothing Wrong with Love is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Up Records | Up Records,False,False
+[CLS] On the Outside is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],On the Outside,Dirtnap Records | Dirtnap Records,False,False
+[CLS] My Ride ' s Here is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],My Ride ' s,Artemis Records | Artemis Records,False,False
+[CLS] Nova Express is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nova Express,Tzadik Records | Tzadik Records,False,False
+[CLS] The Logical Song is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Logical Song,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Dawn Richard is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dawn Richard,Bad Boy Records | Bad Boy Entertainment | Bad Boy Records,False,False
+[CLS] These Arms Are Snakes is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Suicide Squeeze Records | Suicide Squeeze Records,False,False
+[CLS] Neon is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Cash Money Records | Ca $ h Money Records | Cash Money Records,False,False
+[CLS] Unrest is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Unrest,TeenBeat Records | Teen - Beat | TeenBeat Records,False,False
+[CLS] Bizzy is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bizzy,Jungle Entertainment | Jungle Entertainment,False,False
+[CLS] Gabriel is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Metal Blade Records | Metal Blade Records,False,False
+[CLS] The Glee Club is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" The Glee Club """,4AD | 4AD,False,False
+[CLS] David Rogers is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],David Rogers,Columbia Records | Columbia Records,False,False
+[CLS] Will Bernard is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Will Bernard,Palmetto Records | Palmetto Records,False,False
+[CLS] Alligator Bogaloo is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Alligator,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Agua nueva is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Psychedelic,Fonovisa Records | Fonovisa Records,False,False
+[CLS] The Wild Ones is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slipknot,Nude Records | Nude Records,False,False
+[CLS] Static Migration is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Static Migration """,Relapse Records | Relapse Records,False,False
+[CLS] Rejoice is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rejoice,Columbia Records | Columbia Records,False,False
+[CLS] Comin ' Your Way is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Comin ' Your Way,Blue Note | Blue Note | Blue Note Records | LC 00133 | LC 0133,False,False
+[CLS] Nao Watanabe is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Nao Watanabe """,Domo Records | Domo Records,False,False
+[CLS] Carole King is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slipknot,A & M Records | A & M Records | A and M Records | A & M ( record label ) | A & M Recordings | A & M Records | A & M / Interscope Records,False,False
+[CLS] Ship Ahoy is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ship Ahoy,Philadelphia International Records | PIR | Philadelphia International Records,False,False
+[CLS] Soul Shack is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Soul Shack,Prestige | LC 0313 | Prestige | Prestige Records,False,True
+[CLS] Low Flame is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Low Flame,Riverside Records | Riverside Records,False,False
+[CLS] The Widow in the Window is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Psychedelic,ECM Records | ECM | ECM Records | Editions of Contemporary Music,False,False
+[CLS] My Baby Daddy is represented by music label [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],My Baby Daddy,LaFace Records | LaFace Records,False,False
+[CLS] Robin Holcomb is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Slipknot,Elektra | Elektra | Elektra Records | LC 00192 | LC 0192,False,True
+[CLS] Futur is represented by music label [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Futur,"Universal Music Group | UMG | UMG Recordings , Inc . | Universal Music Group",False,False
+[CLS] Sober is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sober,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False
+[CLS] Wine Colored Roses is represented by music label [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Wine Colored Roses,Epic | Epic | Epic Records | LC 00199,False,True
+[CLS] Everybody Knows is represented by music label [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Everybody Knows,"RCA Records | RCA | RCA Records | RCA Records , Inc .",False,False

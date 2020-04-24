@@ -1,0 +1,962 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] subspecies is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],subspecies,species | sp . | species,False,True
+[CLS] Latin Church is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman Catholic Church,Catholic Church | Catholic Church | Church | Roman Apostolic Catholic Church | Roman Catholic Church,False,False
+[CLS] American League is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City City Council,Major League Baseball | Bsbl | MLB | Major League | Major League Baseball,False,False
+[CLS] county of England is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],county of England,England | England,False,True
+[CLS] subgenus is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],subgenus,genus | genus | genus ( zoology ) | monospecies genus,False,True
+[CLS] Ukrainian Soviet Socialist Republic is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Soviet Union | CCCP | SU | Soviet Union | Soviets | The Soviets | U . S . S . R | U . S . S . R . | USSR | Union of Soviet Socialist Republics | the Soviet Union | the Union of Soviet Socialist Republics | СССР,True,False
+[CLS] diocese is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Apostolic,ecclesiastical province | church province | ecclesiastical province,False,False
+[CLS] National League is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pro . Pro,Major League Baseball | Bsbl | MLB | Major League | Major League Baseball,False,False
+[CLS] arrondissement of France is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],arrondissement of France,department of France | French department | departement | department | department of France | departments of France | département,False,False
+[CLS] Russian Soviet Federative Socialist Republic is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Soviet Union | CCCP | SU | Soviet Union | Soviets | The Soviets | U . S . S . R | U . S . S . R . | USSR | Union of Soviet Socialist Republics | the Soviet Union | the Union of Soviet Socialist Republics | СССР,True,False
+[CLS] Honshu is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Japan,Japan | JA | JAP | JP | JPN | Japan | Land of the Rising Sun | Nihon | Nihon - koku | Nippon | Nippon - koku | State of Japan | jp,True,True
+[CLS] Minor Planet Center is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S .,International Astronomical Union | IAU | International Astronomical Union | Working Group on Star Names,False,False
+[CLS] runway is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],runway,airport | air port | airport | airports,False,True
+[CLS] species is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhytismataceae,subgenus | Subgenera | subgenus,False,False
+[CLS] commune of France is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],commune of France,canton of France ( until 2015 ) | canton of France ( until 2015 ) | former canton of France,False,False
+[CLS] United Nations Security Council is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Nations,United Nations | UN | UNO | United Nations | United Nations Organization | [UNK],False,False
+[CLS] Mediterranean Sea is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mediterranean Sea,Atlantic Ocean | Atlantic | Atlantic Ocean | Atlantic Sea | Great Western Ocean,False,False
+[CLS] leap year is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],leap,Julian calendar | Julian calendar | Old Style,False,False
+[CLS] Germany is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Germany,Europe | Europe | Old continent,False,True
+[CLS] Spitsbergen is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spitsbergen,Svalbard | Spitsburgen | Spitzbergen | Spitzburgen | Svaalbard | Sval ' bard | Svalbard | Svalbard Archipelago | Svalbard Island | Svalbard Islands | Svaldbard,False,True
+[CLS] frazione is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the frazione,comune of Italy | Comune | Italian commune | Italian communes | comune | comune of Italy | comunes,False,False
+[CLS] International League is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Liaoning International League,Minor League Baseball | MiLB | Minor League Baseball | Minor league | farm leagues,False,False
+[CLS] International Ice Hockey Federation is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the International Ice Hockey Federation,ice hockey | Eishockey | ice hockey,False,False
+[CLS] Mexico is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the State of Mexico,Latin America | Latin America | Latin America and the Caribbean | Spanish America,False,False
+[CLS] Pacific War is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pacific War is part,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Caribbean Sea is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Caribbean Sea,Atlantic Ocean | Atlantic | Atlantic Ocean | Atlantic Sea | Great Western Ocean,False,False
+[CLS] Bahia is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the state of Bahia,Northeast Region | Northeast Region,False,False
+[CLS] European Theatre of World War II is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],World War II,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,True,False
+[CLS] United States Senate is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],United States House of Representatives,United States Congress | American Congress | American legislature | Congress | Congress of the United States | Legislature of the United States | U . S . Congress | US Congress | United States Congress | United states legislative branch,False,False
+[CLS] National Football Conference is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the National Football Conference,National Football League | NFL | National Football League,False,False
+[CLS] biochemistry is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],biochemistry,biology | Biology ( General ) | bio | biological science | biology | life science | study of life,False,True
+[CLS] Christ is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Christ,Jesus Christ | Christ | God the Son | Jesus | Jesus Christ | Jesus Christ of Nazareth | Jesus of Nazareth | Son of God | The Messiah | Yehoshua | Yeshua,True,False
+[CLS] Battle of the Atlantic is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of the Atlantic,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Gospel of Matthew is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Matthew ' s Gospel,New Testament | NT | New Testament | the New Testament,False,False
+[CLS] Twelvers is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Twelvers,Shia Islam | Shi ' a Islam | Shia Islam | Shiah Islam | Shiism | Shiʿa Islam | Shīa Islam,False,False
+[CLS] Denmark is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Denmark,Europe | Europe | Old continent,False,True
+[CLS] Brazil is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the state of Mato Grosso,Latin America | Latin America | Latin America and the Caribbean | Spanish America,False,False
+[CLS] New Testament is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the New Testament,Bible | Bible | Christian scriptures | God ' s Word | Holy Bible | Holy Scriptures | Judaeo - Christian Bible | The Bible | The Holy Bible,False,True
+[CLS] mayor is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],mayor,municipality | Pouroshobha | municipalities | municipality | nagarasabha,False,True
+[CLS] Most Eminent Order of the Indian Empire is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Indian Empire,British Raj | British India | British Raj | Crown rule in India | India | Indian Empire | direct rule in India,False,False
+[CLS] apsis is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Acanthocephala,orbit | orbit,False,True
+[CLS] leap year is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],leap,Gregorian calendar | Christian calendar | Gregorian calendar | New Style | Western calendar,False,False
+[CLS] Olympic Games ceremony is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Olympic Games,Olympic Games | Olympic Games | Olympics,True,False
+[CLS] The Wharton School is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Wharton,University of Pennsylvania | Penn | Pennsylvania University | UPenn | Univ . of Penn . | University of Pennsylvania,False,False
+[CLS] post office is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the post office,mail | mail | post,False,True
+[CLS] treaty is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],treaty,"international law | International Law , Law of Nations | international law",False,False
+[CLS] member of the European Parliament is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],a political party,European Parliament | EP | EU Parliament | Europarl | European Parliament,False,False
+[CLS] India is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],India,South Asia | South Asia | Southern Asia,False,False
+[CLS] University College London is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],London ' s University College,University of London | Lond . | London University | University of London,False,False
+[CLS] Earth is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Solar System,Solar System | Solar System | planetary house | solar system,False,False
+[CLS] American Football Conference is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Big Big Big Big,National Football League | NFL | National Football League,False,False
+[CLS] parish church is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],parish church,parish | church parish | ecclesiastical parish | parish,False,True
+[CLS] Member of the Scottish Parliament is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Scottish Dumm,Scottish Parliament | Holyrood | Scottish Parliament,False,False
+[CLS] DNA is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],DNA,genome | genome,False,True
+[CLS] United Nations Development Programme is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Middle East,United Nations | UN | UNO | United Nations | United Nations Organization | [UNK],False,False
+[CLS] Chinese characters is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chinese linguistics,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Majorca is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Canary Islands,Balearic Islands | Balearic Islands | Islas baleares,False,False
+[CLS] sura is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Qur ' an,Quran | Alcoran | Coran | Koran | Qur ' an | Quran | Qurʾān | Qur [UNK] an | The Koran | The Qur ' an | The Quran | The Qur [UNK] an,True,True
+[CLS] Jet Propulsion Laboratory is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jet Propulsion,National Aeronautics and Space Administration | NASA | National Aeronautics and Space Administration,False,False
+[CLS] gynoecium is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],gynoecium,flower | bloom | blossom | flower,False,True
+[CLS] twin prime is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],twin prime,prime number | prime | prime number,False,False
+[CLS] United Nations Economic and Social Council is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Nations,United Nations | UN | UNO | United Nations | United Nations Organization | [UNK],False,False
+[CLS] US - K is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Oko | Oko,False,True
+[CLS] horticulture is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],agriculture,agriculture | agriculture | cultivation | farming,True,True
+[CLS] Bodleian Library is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bodleian,University of Oxford | Oxf | Oxford | Oxford University | Oxon . | Universitas Oxoniensis | University of Oxford,False,False
+[CLS] Roman Empire is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Roman Empire,Ancient Rome | Ancient Rome | Roman antiquity,False,False
+[CLS] Burma campaign is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burma,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] stratum is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the stratum,formation | formation | geologic formation | geological formation,False,True
+[CLS] Serbian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serbia and Montenegro,Serbo - Croatian | BHS | Bosnian - Croatian - Montenegrin - Serbian | Bosnian - Croatian - Serbian | Serbo - Croat | Serbo - Croat - Bosnian | Serbo - Croatian | Serbo - Croatian language | sh,False,False
+[CLS] South West Pacific theatre of World War II is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],South West Pacific,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Delaware Senate is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Delaware,Delaware General Assembly | Delaware General Assembly,False,False
+[CLS] volcanic crater is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schmallenberg,volcano | volcano,False,False
+[CLS] Sun Microsystems is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sun Microsystems,Oracle Corporation | Oracle | Oracle Corporation,False,False
+[CLS] Denmark is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Denmark,Scandinavia | Codanonia | Codanovia | Scadan | Scadanan | Scadinavia | Scandanan | Scandenavia | Scandinavia | Scandinavian civilization | Scandinavian countries | Scatenauge | Scatinavia | Scedeland | Scedenigge | Skandenavia | Skandinavia | Skandinavien | Skandinavía | Skanör,False,False
+[CLS] graph theory is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],mathematics,mathematics | math | mathematics | maths,True,True
+[CLS] Central Committee of the Communist Party of the Soviet Union is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Soviet Union,Communist Party of the Soviet Union | Bolshevik Party | CPSU | Communist Party of the Soviet Union | RCP ( b ) | Russian Communist Party ( Bolsheviks ),False,False
+[CLS] animal husbandry is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],agriculture,agriculture | agriculture | cultivation | farming,True,True
+[CLS] Royal Naval Air Service is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Royal Navy,Royal Air Force | Raf | Royal Air Force,False,False
+[CLS] history of art is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],art,art | art | arts,True,True
+[CLS] Colombia is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Colombia,Latin America | Latin America | Latin America and the Caribbean | Spanish America,False,False
+[CLS] Campanian is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Campanian,Late Cretaceous | Late Cretaceous | Upper Cretaceous,False,False
+[CLS] Sajjadrud Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Hindu Hindu,Babol County | Babol County,False,False
+[CLS] Baqeran Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Baqeran Rural District,Birjand County | Birjand County,False,False
+[CLS] upper house is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the upper house,bicameral legislature | bicameral legislature | bicameral parliament | bicameralism | two chamber parliament,False,False
+[CLS] Antarctica is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Zealand,Antarctic | Antarctic | Antarctic Region,False,True
+[CLS] The Blitz is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],B . B,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Mesopotamian campaign is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mesopotamian campaign,"World War I | 1st World War | First World War | Great War | The Great War | The War to End All Wars | WW 1 | WW I | WW1 | WWI | World War | World War 1 | World War I | World War One | World War , 1914 - 1918 | the 1st World War | the First World War",False,False
+[CLS] number theory is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],McCallum,mathematics | math | mathematics | maths,False,True
+[CLS] Maastrichtian is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Maastrichtian,Late Cretaceous | Late Cretaceous | Upper Cretaceous,False,False
+[CLS] performance art is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the art of performance,art | art | arts,False,True
+[CLS] Europe is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the European Union,Eurasia | Eurasia | Euroasia,False,True
+[CLS] Athletics at the 1980 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Olympic Games,1980 Summer Olympics | 1980 Summer Olympics | Juegos de la XXII Olimpiada | Moscú 1980,False,False
+[CLS] Jupiter is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jupiter,Solar System | Solar System | planetary house | solar system,False,False
+[CLS] God the Father is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],God,Trinity | Holy Trinity | Trinity,False,True
+[CLS] Tangra Mountains is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tangra,Livingston Island | Livingston Island,False,False
+[CLS] Epcot is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Epcot,Walt Disney World Resort | Disney World | WDW | Walt Disney World | Walt Disney World Resort,False,False
+[CLS] Kauai is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kauai,Hawaiian Islands | Hawaiian Islands | Mokupuni o Hawai [UNK] i | Sandwich Islands,False,False
+[CLS] minaret is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],minaret,mosque | mosque | pallivaasal | pallivasal,False,True
+[CLS] category theory is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],category theory,mathematics | math | mathematics | maths,False,True
+[CLS] Royal Canadian Air Force is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Royal Canadian Air Force,Canadian Armed Forces | CAF | CF | Canadian Armed Forces | Canadian Forces | FAC | FC | Forces armees canadiennes | Forces armées canadiennes | Forces canadiennes | military of Canada,False,False
+[CLS] London School of Economics and Political Science is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],London School of Economics,University of London | Lond . | London University | University of London,False,False
+[CLS] Yeomanry is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rangers Rangers,British Army | British Army | army of the United Kingdom,False,False
+[CLS] Furongian is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Furong,Cambrian | Cambrian | Cambrian period,False,False
+[CLS] Shōnen Gangan is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Shoten,"Square Enix | SE | SQUARE ENIX CO . , LTD . | Square Enix | Square Enix Holdings | Square Enix Holdings Co . , Ltd . | Square - Enix",False,False
+[CLS] Aptian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aptian,Early Cretaceous | Early Cretaceous | Lower Cretaceous,False,False
+[CLS] collapse of the World Trade Center is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the World Trade Center,"September 11 attacks | 11 September | 11 September 2001 | 11 September attacks | 9 / 11 | 911 | September 11 | September 11 attacks | September 11 , 2001 | September 11th attacks",False,False
+[CLS] Supreme Headquarters Allied Powers Europe is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Supreme Headquarters Allied Powers,NATO | NATO | North Atlantic Alliance | North Atlantic Treaty Organisation | North Atlantic Treaty Organization | en : North Atlantic Treaty Organization,False,True
+[CLS] Theravada is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Theravada,Buddhism | Buddha Dharma | Buddhism,False,True
+[CLS] Upanishad is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Upanishad,Vedas | The Veda | Vedas | vedas,False,False
+[CLS] Balliol College is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Balliol,University of Oxford | Oxf | Oxford | Oxford University | Oxon . | Universitas Oxoniensis | University of Oxford,False,False
+[CLS] psychotherapy is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],psychiatry,psychology | Psychology | psychology,False,True
+[CLS] bioinformatics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],bioinformatics,computational biology | computational biology,False,False
+[CLS] Polish resistance movement in World War II is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poznan,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Tactical Air Command is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States Air Force,United States Air Force | U . S . Air Force | US Air Force | USAF | United States Air Force,False,False
+[CLS] Dabuy - ye Jonubi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],New York City,Amol County | Amol County,False,False
+[CLS] political philosophy is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],political philosophy,political science | Political science | Political science ( General ) | polisci | political science | political studies,False,False
+[CLS] Sea of Azov is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Azov,Black Sea | Black Sea,False,False
+[CLS] Ashmolean Museum is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ashmolean,University of Oxford | Oxf | Oxford | Oxford University | Oxon . | Universitas Oxoniensis | University of Oxford,False,False
+[CLS] philosophy of physics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychology,philosophy of science | Science ( General ) | philosophy of science,False,False
+[CLS] MIT Computer Science and Artificial Intelligence Laboratory is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Massachusetts Institute of Technology,Massachusetts Institute of Technology | M . I . T . | MIT | Massachusetts Institute of Technology,True,False
+[CLS] Ludab Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ludab Rural District,Boyer - Ahmad County | Boyer - Ahmad County,False,False
+[CLS] Hidaka Mountains is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hidaka,Hokkaidō | Hokkaido | Hokkaido Island | Hokkaidō | Hokkaidō Island,False,False
+[CLS] Pope of the Coptic Orthodox Church of Alexandria is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Coptic Orthodox Church,Coptic Orthodox Church of Alexandria | Coptic Orthodox Church of Alexandria,False,False
+[CLS] Courant Institute of Mathematical Sciences is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Courant Institute,New York University | NYU | New York University | University of New York | University of the City of New York,False,False
+[CLS] Sub - Saharan Africa is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saharan Africa,Africa | Africa | African continent,False,True
+[CLS] School of Oriental and African Studies is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],University of the Philippines,University of London | Lond . | London University | University of London,False,False
+[CLS] Scottish Government is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scotland ( Scotland ),Scottish Parliament | Holyrood | Scottish Parliament,False,False
+[CLS] Grand Canyon is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Grand Canyon,Grand Canyon National Park | Grand Canyon National Park | Marble Canyon National Monument,False,False
+[CLS] Lesser Antilles is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lesser Antilles,Caribbean | Caribbean | The Caribbean,False,True
+[CLS] The Holocaust is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Holocaust is part,antisemitism | Anti - Semitisim | Blaming the jews | Jew bashing | Jew - baiting | Jewphobia | Judaeophobia | Judenhass | Judeophobe | Judeophobia | Judophobia | anti Semitism | anti semetism | anti - Jew hate | anti - Jew sentiment | anti - Jewish sentiment | anti - Jewism | anti - semetism | anti - semitism | antisemitism | blame the jew | hatred of Jews | the longest hatred,False,False
+[CLS] syntax is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],syntax,linguistics | Linguistics | linguistic | linguistic science | linguistics,False,False
+[CLS] quark is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],quark,hadron | hadron,False,False
+[CLS] Nebula Award for Best Novel is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Nebula Awards,Nebula Award | Nebula Award,False,False
+[CLS] abstract algebra is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],algebra,mathematics | math | mathematics | maths,False,True
+[CLS] Genpei War is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Genpei,Minamoto clan | Minamoto clan,False,False
+[CLS] abutment is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],abutment,bridge | bridge,False,True
+[CLS] Brocken is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schwäbisch,Harz | Harz | Harz Mountains,False,True
+[CLS] Gospel of Luke is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Gospel of Luke,New Testament | NT | New Testament | the New Testament,False,False
+[CLS] mathematical logic is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],mathematical logic,mathematics | math | mathematics | maths,False,True
+[CLS] Battle of Greece is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Greece,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] spinal cord is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],cord,Central nervous system | ( CNS ) | Central nervous system,False,False
+[CLS] DNA is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],DNA,cell nucleus | cell nuclei | cell nucleus | horsetail nucleus,False,False
+[CLS] Carnian is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carnian,Late Triassic | Late Triassic | Upper Triassic,False,False
+[CLS] Fuerteventura is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Puerto Rico metropolitan area,Canary Islands | Canaries | Canary | Canary Islands | IC | Islas Canarias | [UNK],False,False
+[CLS] cardiology is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychiatric,internal medicine | Internal medicine | Medicine ( General ) | general medicine | internal medicine,False,False
+[CLS] trailhead is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],trailhead,trail | byway | track | trail | walking track,False,True
+[CLS] Peru is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Peru,Latin America | Latin America | Latin America and the Caribbean | Spanish America,False,False
+[CLS] Sea of Okhotsk is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Okhotsk,Pacific Ocean | Pacific | Pacific Ocean | Pacific Sea,False,False
+[CLS] hilt is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],hilt,sword | sword,False,True
+[CLS] Luftwaffe is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Force,Wehrmacht | Armed Forces of Germany | Wehrmacht,False,True
+[CLS] Golden Leopard is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Agricola Golden Leopard,Locarno Film Festival | Locarno Festival | Locarno Film Festival | Locarno International Film Festival,False,False
+[CLS] neutron is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],neutron,atomic nucleus | atomic nucleus | nucleus of atom,False,False
+[CLS] Derakhtengan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],: New York City,Kerman County | Kerman County,False,False
+[CLS] Tabadkan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Tabadkan Rural District,Mashhad County | Mashhad County,False,False
+[CLS] Asia is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Eurasia | Eurasia | Euroasia,False,True
+[CLS] Midwest League is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Midwest League,Minor League Baseball | MiLB | Minor League Baseball | Minor league | farm leagues,False,False
+[CLS] Doreh Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Doreh Rural District,Sarbisheh County | Sarbisheh County,False,False
+[CLS] Baladeh Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Punjab province of Punjab,Tonekabon County | Tonekabon County,False,False
+[CLS] Saturn is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saturn,Solar System | Solar System | planetary house | solar system,False,False
+[CLS] encryption is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the ancestor,cryptography | cryptographic engineering | cryptography,False,False
+[CLS] Chenaran Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chenaran Rural District,Chenaran County | Chenaran County,False,False
+[CLS] Anglican ministry is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Church of England,"Anglicanism | Anglicanism | Anglicanism , Anglican Church",False,False
+[CLS] Paganini Competition is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paganini,violin | fiddle | violin,False,True
+[CLS] Barremian is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Barremian,Early Cretaceous | Early Cretaceous | Lower Cretaceous,False,False
+[CLS] Baryaji Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hindu Hindu,Sardasht County | Sardasht County,False,False
+[CLS] Norian is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Norian,Late Triassic | Late Triassic | Upper Triassic,False,False
+[CLS] Tunisia is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tunisia,Africa | Africa | African continent,False,True
+[CLS] Gughar Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],: New York City,Baft County | Baft County,False,False
+[CLS] Bonaire is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bonaire,Caribbean Netherlands | BES islands | Caribbean Netherlands | [UNK],False,False
+[CLS] Rastupey Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rastupey Rural District,Savadkuh County | Savadkuh County,False,False
+[CLS] Holy Spirit is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Holy Spirit,Trinity | Holy Trinity | Trinity,False,True
+[CLS] Mazul Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mazul Rural District,Nishapur County | Nishapur County,False,False
+[CLS] Itivand - e Jonubi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],India,Delfan County | Delfan County,False,False
+[CLS] Zaz - e Sharqi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Zaz in the Punjab,Aligudarz County | Aligudarz County,False,False
+[CLS] Maui is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maui,Hawaiian Islands | Hawaiian Islands | Mokupuni o Hawai [UNK] i | Sandwich Islands,False,False
+[CLS] data link layer is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],C + +,OSI model | 7 Layers Model | ISO / IEC 7498 | ISORM | OSI model | OSI reference model | Open System Interconnection | Open Systems Interconnection model | Seven Layers Model,False,False
+[CLS] Tus Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tus Rural District,Mashhad County | Mashhad County,False,False
+[CLS] recycling is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],recycling,waste management | waste disposal | waste industry | waste management,False,False
+[CLS] Jerusalem Talmud is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Torah Torah,Talmud | Talmud,False,True
+[CLS] biophysics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],biophysics,physics | Physics | physic | physical | physics,False,True
+[CLS] Grammy Award for Best Rock Song is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the award ceremony,Grammy Award | Grammies | Grammy | Grammy Award | Gramophone Award,False,False
+[CLS] Whalsay is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Whalsay,Shetland Islands | Hjaltland | Shetland | Shetland Islands | Zetland,False,False
+[CLS] Dehshir Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Dehshir Rural District,Taft County | Taft County,False,False
+[CLS] pharmacy is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],pharmacy,chemistry | Chemistry | chemical | chemistry,False,True
+[CLS] Seoul station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Seoul Subway,Seoul Metropolitan Subway | Seoul Metro | Seoul Metropolitan Subway | Seoul Subway | Sudogwon Metro,False,False
+[CLS] endometrium is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],endometrium,uterus | hystera | uterine | uterus | womb,False,False
+[CLS] Waffen - SS is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Waffen SS,Schutzstaffel | SS | Schutzstaffel,False,False
+[CLS] Shamil Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shamil Rural District,Bandar Abbas County | Bandar Abbas County,False,False
+[CLS] Carolina League is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carolina League,Minor League Baseball | MiLB | Minor League Baseball | Minor league | farm leagues,False,False
+[CLS] Persian Gulf is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Persian Gulf,Indian Ocean | Eastern Ocean | Eastern Sea | Indian Ocean,False,False
+[CLS] Battle of Singapore is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Singapore,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Hakimabad Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Khuzestan province,Zarandieh County | Zarandieh County,False,False
+[CLS] data structure is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychiatric,computer science | CS | CompSci | Computer Science | Electronic computers . Computer science | computation science | computer science | computer sciences | computing science | computing sciences | informatics | information processing science | science of computing | sciences of computing,False,False
+[CLS] MIT Media Lab is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],MIT Media Lab,Massachusetts Institute of Technology | M . I . T . | MIT | Massachusetts Institute of Technology,False,False
+[CLS] La Gomera is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],La Gomera,Canary Islands | Canaries | Canary | Canary Islands | IC | Islas Canarias | [UNK],False,False
+[CLS] Shirvan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Shirvan Rural District,Borujerd County | Borujerd County,False,False
+[CLS] Chin Rural District is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chin Rural District,Boyer - Ahmad County | Boyer - Ahmad County,False,False
+[CLS] Chalcolithic is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Chalcolithic,Bronze Age | Bronze Age,False,False
+[CLS] United Nations Secretariat is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United Nations,United Nations | UN | UNO | United Nations | United Nations Organization | [UNK],False,False
+[CLS] Trojan War is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Trojan War,Greek mythology | Greek mythology | Greek myths | ancient Greek mythology,False,False
+[CLS] Sinai and Palestine campaign is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinai and Palestine,Middle Eastern theatre of World War I | Middle Eastern theatre of World War I,False,False
+[CLS] Dionysian Mysteries is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dionysian Mysteries,Greek mythology | Greek mythology | Greek myths | ancient Greek mythology,False,False
+[CLS] Battle of Stalingrad is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Stalingrad,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Karakoram is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Himalayas | Himalaya | Himalaya Mountains | Himalayan Mountains | Himalayas,False,False
+[CLS] Qohab - e Rastaq Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Fars Province of Iran,Damghan County | Damghan County,False,False
+[CLS] Serbian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serbia and Montenegro,South Slavic languages | South Slavic languages,False,False
+[CLS] Fin Rural District is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fin Rural District,Bandar Abbas County | Bandar Abbas County,False,False
+[CLS] herpetology is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],herpetology,zoology | Zoology | animal biology | animal science | zoology,False,False
+[CLS] Miletus is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Miletus,Ancient Greece | Ancient Greece | Greece | Greek antiquity,False,False
+[CLS] municipal council is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the municipal council,municipality | Pouroshobha | municipalities | municipality | nagarasabha,False,True
+[CLS] Milas Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Fars Province of Iran,Lordegan County | Lordegan County,False,False
+[CLS] Associate Justice of the Supreme Court of the United States is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States Supreme Court,Supreme Court of the United States | Article 3 Court | Article III Court | Article Three Court | SCOTUS | Supreme Court | Supreme Court of the U . S . | Supreme Court of the United States | U . S . Supreme Court | US Supreme Court | United States Supreme Court,False,False
+[CLS] Vinson Massif is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vinson,Sentinel Range | Sentinel Range,False,False
+[CLS] Ekhtiarabad Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindu Hindu,Kerman County | Kerman County,False,False
+[CLS] Bahmai - ye Garmsiri - ye Jonubi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jafar Jafar District,Bahmai County | Bahmai County,False,False
+[CLS] John the Evangelist is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John the Evangelist,Four Evangelists | Four Evangelists | Four Gospels in the New Testament,False,False
+[CLS] Upstate New York is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,"New York | NY | NYS | New York | New York ( state ) | New York State | New York , United States | State of New York",False,False
+[CLS] complexity class is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],C + +,computational complexity theory | complexity theory | computational complexity theory,False,False
+[CLS] avatar is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],avatar,Hinduism | Hindu Dharma | Hindu religion | Hinduism | Sanatan Dharma,False,False
+[CLS] Jam Rural District is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jam Rural District,Jam County | Jam County,False,False
+[CLS] Bahmayi - ye Sarhadi - ye Sharqi Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],.,Kohgiluyeh County | Kohgiluyeh County,False,False
+[CLS] Emamzadeh Jafar Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jafar Rural District,Gachsaran County | Gachsaran County,False,False
+[CLS] Axis occupation of Greece is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Axis occupation of Greece,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] James Bay is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Hudson Bay | HB | Hudson Bay | Hudson ' s Bay,False,False
+[CLS] metallurgy is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the economy,materials science | Materials Science | Materials of engineering and construction . Mechanics of materials | material science | materials science | materials science and engineering,False,False
+[CLS] Band - e Zarak Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],India,Minab County | Minab County,False,False
+[CLS] Nazlu - e Shomali Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Nazlu,Urmia County | Urmia County,False,False
+[CLS] U7 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Berlin U - Bahn | Berlin U - Bahn,False,False
+[CLS] Zagheh Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Fars Province of Iran,Khorramabad County | Khorramabad County,False,False
+[CLS] Callovian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Callovian,Middle Jurassic | Middle Jurassic,False,False
+[CLS] cornice is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],cornice,entablature | entablature,False,False
+[CLS] Darmian Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Darmian Rural District,Darmian County | Darmian County,False,False
+[CLS] developmental psychology is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],psychiatry,psychology | Psychology | psychology,False,True
+[CLS] Ladinian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ladinian,Middle Triassic | Middle Triassic,False,False
+[CLS] Hanza Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hanza Rural District,Rabor County | Rabor County,False,False
+[CLS] Hoseynabad - e Goruh Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],.,Kerman County | Kerman County,False,False
+[CLS] Doshman Ziari Rural District ( Kohgiluyeh and Boyer - Ahmad Province ) is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Sama Sama Sama Sama,Kohgiluyeh County | Kohgiluyeh County,False,False
+[CLS] Keshvar Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],India,Khorramabad County | Khorramabad County,False,False
+[CLS] kiln is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],kiln,pottery | pottery,False,False
+[CLS] Niagara Falls is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Niagara,Niagara River | Niagara River,False,False
+[CLS] Zanjanrud - e Pain Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Punjab province of Punjab,Zanjan County | Zanjan County,False,False
+[CLS] Bay of Biscay is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bay of Biscay,Atlantic Ocean | Atlantic | Atlantic Ocean | Atlantic Sea | Great Western Ocean,False,False
+[CLS] Exodus is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Glossary,Torah | Torah | torah,False,True
+[CLS] Balaband Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindu Hindu,Fariman County | Fariman County,False,False
+[CLS] Miandorud - e Kuchak Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Fars Province of Iran,Sari County | Sari County,False,False
+[CLS] Mahru Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mahru Rural District,Aligudarz County | Aligudarz County,False,False
+[CLS] Haut Atlas is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haut Atlas,Atlas Mountains | Atlas Mountains,False,False
+[CLS] Pacific Air Forces is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Force,United States Air Force | U . S . Air Force | US Air Force | USAF | United States Air Force,False,False
+[CLS] Cordillera Oriental is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guantánamo Province,Andes | Andes,False,True
+[CLS] Chamsangar Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Khuzestan , Iran",Khorramabad County | Khorramabad County,False,False
+[CLS] Nuffield College is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nuffield,University of Oxford | Oxf | Oxford | Oxford University | Oxon . | Universitas Oxoniensis | University of Oxford,False,False
+[CLS] music theory is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music theory,Musicology | Music | Musicology,False,False
+[CLS] wrestling at the 1980 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the 1980 Summer Olympics,1980 Summer Olympics | 1980 Summer Olympics | Juegos de la XXII Olimpiada | Moscú 1980,False,False
+[CLS] Cretaceous is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cretaceous,Mesozoic | Mesozoic,False,False
+[CLS] nucleotides is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],cytoplasm,nucleic acid | nucleic acid,False,False
+[CLS] Courtauld Institute of Art is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Courtauld of Art,University of London | Lond . | London University | University of London,False,False
+[CLS] Venus is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Venus,Solar System | Solar System | planetary house | solar system,False,False
+[CLS] Internet Protocol is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TCP / IP protocol,Internet protocol suite | IP | Internet protocol suite | TCP / IP | TCPIP | Tcp / ip,False,False
+[CLS] cognitive neuroscience is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],neuroscience,neuroscience | neurobiology | neuroscience | neurosciences,True,False
+[CLS] Sinemurian is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinemurian,Early Jurassic | Early Jurassic,False,False
+[CLS] aerodynamics is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],aerophysics,fluid dynamics | fluid dynamics,False,False
+[CLS] arcade system board is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],arcade system board,arcade game machine | arcade game | arcade game machine | arcade machine | coin - op,False,False
+[CLS] Central nervous system is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],nervous system,nervous system | nervous system,True,False
+[CLS] Zhan Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zhan Rural District,Dorud County | Dorud County,False,False
+[CLS] Metallurgical Laboratory is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Metallurgical,Manhattan Project | Development of Substitute Materials | Manhattan Project,False,False
+[CLS] malacology is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pharmacology,zoology | Zoology | animal biology | animal science | zoology,False,False
+[CLS] Kuh Shah Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kuh Shah Rural District,Hajjiabad County | Hajjiabad County,False,False
+[CLS] bryology is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],bryology,botany | Botany | botany | phytology | plant biology | plant science | plant sciences,False,False
+[CLS] United States Air Force is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States Air Force,United States Armed Forces | U . S . Armed Forces | U . S . military | US Armed Forces | US military | US troops | USAF | United States Armed Forces | United States military,False,False
+[CLS] German Air Force is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Force,Bundeswehr | Bundeswehr | Federal Defence Forces of Germany | German armed forces | German military | armed forces of Germany | mil Germany | military of Germany,False,True
+[CLS] Middle Eastern theatre of World War I is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Middle Eastern theatre,"World War I | 1st World War | First World War | Great War | The Great War | The War to End All Wars | WW 1 | WW I | WW1 | WWI | World War | World War 1 | World War I | World War One | World War , 1914 - 1918 | the 1st World War | the First World War",False,False
+[CLS] Takab Rural District ( Kerman Province ) is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],India,Kerman County | Kerman County,False,False
+[CLS] Book of Genesis is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Book of Genesis,Old Testament | OT | Old Testament,False,False
+[CLS] Isabella I of Castile is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Isabella II of Castile,Catholic Monarchs | Catholic Monarchs,False,False
+[CLS] Dominican Republic is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dominican Republic,Latin America | Latin America | Latin America and the Caribbean | Spanish America,False,False
+[CLS] Gol Gol Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gol Gol Rural District,Kuhdasht County | Kuhdasht County,False,False
+[CLS] cosmology is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],cosmology,astrophysics | Astrophysics | astrophysics,False,False
+[CLS] white matter is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],white matter,brain | animal brain | brain,False,True
+[CLS] atmosphere of Mars is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mars,Mars | Mars | Planet Mars | Red Planet | Sol e,True,True
+[CLS] Allgemeine SS is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Waffen - SS,Schutzstaffel | SS | Schutzstaffel,False,False
+[CLS] Dorud Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dorud Rural District,Dorud County | Dorud County,False,False
+[CLS] North America is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Earth | Blue Marble | Blue Planet | Earth | Gaia | Globe | Pale Blue Dot | Planet Earth | Sol 3 | Sol III | Sol d | Tellus | Terra | Terra Mater | The Blue Gem | The Earth | The world | ⊕ | [UNK],False,True
+[CLS] Bolivia is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bolivia,Latin America | Latin America | Latin America and the Caribbean | Spanish America,False,False
+[CLS] Senderk Rural District is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Russian Federation,Minab County | Minab County,False,False
+[CLS] Nazluy - ye Jonubi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],: New York City,Urmia County | Urmia County,False,False
+[CLS] Denmark in World War II is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Denmark in World War II,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] 2008 Six Nations Championship is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],rugby union,Six Nations Championship | 6 Nations | Home Nations Championship | RBS 6 Nations | Six Nations | Six Nations Championship,False,False
+[CLS] Rahjerd - e Sharqi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rahjerd Rural District,Qom County | Qom County,False,False
+[CLS] Baghak Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Baghak Rural District,Tangestan County | Tangestan County,False,False
+[CLS] Piveh Zhan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a post - post post,Mashhad County | Mashhad County,False,False
+[CLS] Bazarjan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bazarjan Rural District,Tafresh County | Tafresh County,False,False
+[CLS] Lake Huron is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Huron,Great Lakes | Great Lakes,False,False
+[CLS] college of the University of Cambridge is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the University of Cambridge,"University of Cambridge | Cambridge | Cambridge University | The Chancellor , Masters , and Scholars of the University of Cambridge | Universitas Cantabrigiensis | University of Cambridge",False,False
+[CLS] Burdigalian is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burdigalian,Miocene | Miocene,False,False
+[CLS] Khvoresh Rostam - e Shomali Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],.,Khalkhal County | Khalkhal County,False,False
+[CLS] Battle of Bunker Hill is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Bunker Hill,American Revolutionary War | American Revolutionary War | American War of Independence | Revolutionary War | U . S . Revolutionary War | U . S . War of Independence | US Revolutionary War | United States Revolutionary War | War of American Independence | War of the American Revolution,False,False
+[CLS] Eastern Alps is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eastern Alps,Alps | Alps | Central European Alps | European Alps,False,True
+[CLS] rennet is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],rennet,cheese | cheese | cheese curd | coagulated milk curd,False,False
+[CLS] Marshal of the Sejm is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Sejm,Sejm of the Republic of Poland | Sejm | Sejm Polski | Sejm RP | Sejm Rzeczypospolitej Polskiej | Sejm of the Republic of Poland,False,False
+[CLS] International Federation of Gymnastics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gymnastics,gymnastics | gymnastics,True,False
+[CLS] Armoured Corps is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Armoured Corps,Indian Army | Army of India | Bharatiya Thalsena | Bhāratīya Thalsēnā | IA | Indian Army | ar India,False,False
+[CLS] Chenar Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chenar Rural District,Dana County | Dana County,False,False
+[CLS] Miankuh Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Miankuh Rural District,Ardal County | Ardal County,False,False
+[CLS] ABC Radio National is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ABC Radio,Australian Broadcasting Corporation | ABC | Australian Broadcasting Commission | Australian Broadcasting Corporation,False,False
+[CLS] Asia is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Earth | Blue Marble | Blue Planet | Earth | Gaia | Globe | Pale Blue Dot | Planet Earth | Sol 3 | Sol III | Sol d | Tellus | Terra | Terra Mater | The Blue Gem | The Earth | The world | ⊕ | [UNK],False,True
+[CLS] asteroid belt is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],asteroid belt,Solar System | Solar System | planetary house | solar system,False,False
+[CLS] Rhaetian is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhaetian,Late Triassic | Late Triassic | Upper Triassic,False,False
+[CLS] Kangan Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kangan Rural District,Jask County | Jask County,False,False
+[CLS] Battle of Trafalgar is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Trafalgar,Napoleonic Wars | Napoleonic Wars,False,False
+[CLS] Andreanof Islands is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Saint Lucia,Aleutian Islands | Aleutian Islands,False,False
+[CLS] 1st arrondissement of Lyon is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lyon,Lyon | Lyon | Lyons,True,True
+[CLS] Valhalla is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Valhall,Norse mythology | Norse mythology | Scandinavian mythology | Viking mythology,False,False
+[CLS] child and adolescent psychiatry is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],psychiatry,psychiatry | Psychiatry | psychiatry,True,False
+[CLS] Manj Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Manj Rural District,Lordegan County | Lordegan County,False,False
+[CLS] Abravan Rural District is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Mashhad County | Mashhad County,False,False
+[CLS] Bulgarian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,South Slavic languages | South Slavic languages,False,False
+[CLS] Air Force Special Operations Command is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Force,United States Air Force | U . S . Air Force | US Air Force | USAF | United States Air Force,False,False
+[CLS] bastion is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],bastion,fortification | field fortification | fortification,False,False
+[CLS] Pan Pacific Open is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pan Pacific,WTA Tier I tournaments | WTA Tier I tournaments,False,False
+[CLS] Line 3 Scarborough is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scarborough,Toronto subway | Toronto subway,False,False
+[CLS] Dezhgan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],a post - post post,Bandar Lengeh County | Bandar Lengeh County,False,False
+[CLS] Razan Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Razan Rural District,Razan County | Razan County,False,False
+[CLS] manor house is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],manor house,manor estate | manor | manor estate,False,False
+[CLS] periodic table block is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],periodic table,periodic table | Mendeleev ' s periodic table | The periodic table | periodic table | periodic table of chemical elements | periodic table of elements,True,False
+[CLS] Norwegian dialects is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Norwegian dialects,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Hallstatt culture is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hallstatt,Iron Age | Iron Age,False,False
+[CLS] Abbas - e Sharqi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Fars Province of Iran,Bostanabad County | Bostanabad County,False,False
+[CLS] Austro - Hungarian Army is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Austro - Hungarian Army,Austria - Hungary | Austria Hungary | Austria - Hungary | Austro - Hungarian Empire | Dual Monarchy,False,False
+[CLS] Walt Disney Studios Park is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Walt Disney,Disneyland Paris | Disneyland Paris | Eurodisney,False,False
+[CLS] Shiva is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bhopal,Trimurti | Hindu Trinity | Mum ' mūrttikaḷ | Tri - Mūrti | Trimurti | Trimūrti | Trimūrttikaḷ | Trimūrtulu,False,False
+[CLS] Vicksburg Campaign is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vicksburg,American Civil War | American Civil War | Civil War | The Civil War | U . S . Civil War | US Civil War | United States Civil War | War Between the States | War of the Rebellion,False,False
+[CLS] East Karelia is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Karelia,Karelia | Karelia,True,False
+[CLS] Air Force District of Washington is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States Air Force,United States Air Force | U . S . Air Force | US Air Force | USAF | United States Air Force,False,False
+[CLS] Einsatzgruppen is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nazi Germany,Schutzstaffel | SS | Schutzstaffel,False,False
+[CLS] visible spectrum is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],spectator,electromagnetic spectrum | Pelón Marín R5 | electromagnetic spectrum,False,False
+[CLS] Belesbeneh Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],: New York City,Rasht County | Rasht County,False,False
+[CLS] Tate Modern is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tate ' s Tate,Tate | National Gallery of British Art | Tate | Tate Gallery | Tate Museum | Tate galleries | The Tate | The Tate Gallery,False,True
+[CLS] Caucasus campaign is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Caucasus campaign,"World War I | 1st World War | First World War | Great War | The Great War | The War to End All Wars | WW 1 | WW I | WW1 | WWI | World War | World War 1 | World War I | World War One | World War , 1914 - 1918 | the 1st World War | the First World War",False,False
+[CLS] 18th season of The Simpsons is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the ninth season,The Simpsons | Simpsons | The Simpsons,False,False
+[CLS] International Development Association is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Nations Organization,"World Bank | The World Bank | WB | World Bank | World Bank , WB",False,False
+[CLS] Liga Veneta is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Veneta,Lega Nord | Lega | Lega Nord | Lega Nord Padania | Lega Nord per l ' Indipendenza della Padania | Northern League,False,False
+[CLS] Soviet invasion of Poland is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Soviet invasion of Poland,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Deh Tall Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the city,Bastak County | Bastak County,False,False
+[CLS] IP address is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TCP / IP,Internet Protocol | IP | Internet Protocol | Internet protocol,False,False
+[CLS] Lake Tahoe is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tahoe,Sierra Nevada | Sierra Nevada,False,False
+[CLS] BBC Scotland is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],BBC Scotland in the UK,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] comparative anatomy is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],anatomy,anatomy | anatomy | general anatomy,True,False
+[CLS] Fasarud Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],: New York City,Darab County | Darab County,False,False
+[CLS] Kheyrgu Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],: New York City,Lamerd County | Lamerd County,False,False
+[CLS] Zulachay Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Azerbaijan Republic,Salmas County | Salmas County,False,False
+[CLS] Moyen Atlas is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burkina Faso,Atlas Mountains | Atlas Mountains,False,False
+[CLS] Outer Hebrides is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Great Britain,Hebrides | Hebrides,False,False
+[CLS] ACM SIGCHI is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],SIGCHI,Association for Computing Machinery | ACM | ACM Press | Association for Computing Machinery | Association of Computing Machinery,False,False
+[CLS] Mount Lemmon is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mount Lemmon,Santa Catalina Mountains | Santa Catalina Mountains,False,False
+[CLS] Battle of Waterloo is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Waterloo,Napoleonic Wars | Napoleonic Wars,False,False
+[CLS] transport layer is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],McDaniel,OSI model | 7 Layers Model | ISO / IEC 7498 | ISORM | OSI model | OSI reference model | Open System Interconnection | Open Systems Interconnection model | Seven Layers Model,False,False
+[CLS] Highgate is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cheltenham,North London | London / North | North London,False,False
+[CLS] Sandy Denny is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sandy Denny,Fairport Convention | Fairport Convention,False,False
+[CLS] Eshaqabad Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Hindu Hindu,Nishapur County | Nishapur County,False,False
+[CLS] Oghur languages is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oghur,Turkic languages | Turkic languages,False,False
+[CLS] Miyan Rud Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sama Sama Sama Sama,Tuyserkan County | Tuyserkan County,False,False
+[CLS] Hammersmith & City line is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hammersmith & City,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] post - office box is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],post - office box,mail | mail | post,False,True
+[CLS] Mexico City Metro Line 2 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mexico City Metro,Mexico City Metro | Mexico City Metro,True,False
+[CLS] Roman province is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Roman province . Roman province,Roman Empire | Imperium Romanum | Roman Empire | Romanum imperium | Senatus Populusque Romanus | imperium romanum,False,False
+[CLS] Fionn mac Cumhaill is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gaeltacht,Irish mythology | Irish folklore | Irish myth | Irish mythology | Irish myths,False,False
+[CLS] Tamran Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamran Rural District,Kalaleh County | Kalaleh County,False,False
+[CLS] Hauterivian is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hauterivian,Early Cretaceous | Early Cretaceous | Lower Cretaceous,False,False
+[CLS] Mehranrud - e Markazi Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],India,Bostanabad County | Bostanabad County,False,False
+[CLS] reconstructive surgery is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],psychiatry,plastic surgery | plastic surgery,False,False
+[CLS] Japelaq - e Sharqi Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Japelaq District,Azna County | Azna County,False,False
+[CLS] Khorram Rud Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hindu Hindu,Tuyserkan County | Tuyserkan County,False,False
+[CLS] Darb - e Gonbad Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Fars Province of Iran,Kuhdasht County | Kuhdasht County,False,False
+[CLS] Ormond College is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ormond,University of Melbourne | Melbourne Uni | Melbourne University | The University of Melbourne | UMelb | University of Melbourne,False,False
+[CLS] meta - ethics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],meta - ethic,ethics | Ethics | ethical theory | ethics,False,False
+[CLS] lymphatic vessel is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],lymphatic,lymphatic system | lymphatic system | lymphoid system,False,False
+[CLS] Bemani Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bemani Rural District,Minab County | Minab County,False,False
+[CLS] Fenrir is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fenrir,Norse mythology | Norse mythology | Scandinavian mythology | Viking mythology,False,False
+[CLS] Sognsvann Line is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sognsvann,Oslo Metro | Lørenbane | Oslo Metro | Oslo T - bane | Oslo Tunnelbane | Oslo Underground | Oslo subway | Rapid transit in Norway | T - bane | T - banen,False,False
+[CLS] Khaveh - ye Shomali Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the state of New Delhi,Delfan County | Delfan County,False,False
+[CLS] HTML element is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],C + + element,HyperText Markup Language | HTML | HyperText Markup Language | Hypertext Markup Language,False,False
+[CLS] Rigveda is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rigveda,Vedas | The Veda | Vedas | vedas,False,False
+[CLS] Parthenon is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parthenon,Acropolis of Athens | Acropolis ( Athens ) | Acropolis of Athens,False,False
+[CLS] pharmacology is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychiatric,pharmaceutical science | branch of pharmacy | field of pharmacy | pharmaceutical science | pharmaceutical sciences | pharmacy discipline,False,False
+[CLS] Cheshmeh Saran Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the city,Azadshahr County | Azadshahr County,False,False
+[CLS] recorded history is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,history | history,False,True
+[CLS] ISU Junior Grand Prix Final is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],ISU Junior Grand Prix,ISU Junior Grand Prix | ISU Junior Grand Prix | ISU Junior Series,True,False
+[CLS] 28th Infantry Division is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,"Army National Guard | ARNG | Army National Guard | Army National Guard , ANG",False,False
+[CLS] Communist Youth League of China is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Communist Youth League of China,Communist Party of China | CCP | CPC | Chinese Communist Party | Communist Party of China | TG,False,False
+[CLS] Vexillatio is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vexillatio,Roman legion | Roman legion | Roman legions | Roman military unit | legio | legion | legions,False,False
+[CLS] Kamerun campaign is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cameroon,"World War I | 1st World War | First World War | Great War | The Great War | The War to End All Wars | WW 1 | WW I | WW1 | WWI | World War | World War 1 | World War I | World War One | World War , 1914 - 1918 | the 1st World War | the First World War",False,False
+[CLS] Haram Rud - e Olya Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Haryana Department,Malayer County | Malayer County,False,False
+[CLS] sarcomere is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],sarcomere,myofibril | GO : 0030016 | myofibril | myofibrils | striated muscle fiber | striated muscle fibre,False,False
+[CLS] Craddock Massif is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Craddock,Sentinel Range | Sentinel Range,False,False
+[CLS] Montreal Locomotive Works is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Montreal Locomotive,American Locomotive Company | ALCO | ALCo | Alco | American Locomotive Company,False,False
+[CLS] Songshan station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Songshan,Taipei Metro | Taipei Metro | 台 北 捷 運 系 統 | 地 鐵,False,False
+[CLS] Libyan Desert is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Libyan Desert,Sahara | Sahara | aṣ - Ṣaḥrāʾ al - Kubrā | el desierto del sahara,False,True
+[CLS] ftrace is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McFarland,Linux kernel | Linux | Linux kernel,False,False
+[CLS] small intestine is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],intestine,digestive system | alimentary system | digestive apparatus | digestive organ | digestive system,False,False
+[CLS] Twelfth Air Force is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Twelfth Air Force,Air Combat Command | ACC | Air Combat Command | USAFACC,False,False
+[CLS] Belarusian Latin alphabet is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belarusian Latin alphabet,Belarusian | Belarus language | Belarusan language | Belarusian | Belarusian Language | Belarusian language | Belarussian language | Belorusian language | Belorussian Language | Belorussian language | Bielarusian | Bielorusian | Bielorussian | Biełaruskaja mova | Byelaruskaya mova | Byelorussian language | ISO 639 : be | ISO 639 : bel | White Russian language | be,False,False
+[CLS] Nicole Scherzinger is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scherzinger,The Pussycat Dolls | Pussycat Dolls | The Pussycat Dolls,False,False
+[CLS] Inishmaan is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Inishmaan,Aran Islands | Aran Islands,False,False
+[CLS] De La Salle Brothers Philippine District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],De La Salle Brothers,Institute of the Brothers of the Christian Schools | Brothers of the Christian Schools | Christian Brothers | De La Salle Brothers | FSC | Institute of the Brothers of the Christian Schools | Lasallian Brothers,True,False
+[CLS] Washington Redskins is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Francisco Giants,NFC East | NFC East,False,False
+[CLS] 39 Canadian Brigade Group is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],39 Canadian Brigade Group,3rd Canadian Division | 3 Can Div | 3rd Canadian Division | 3rd Canadian Infantry Division | LFWA | Land Force Western Area,False,False
+[CLS] Tet Offensive is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tet,Vietnam War | American War | Second Indochina War | Vietnam War,False,False
+[CLS] Qaleh Biyaban Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Punjab province of Punjab,Darab County | Darab County,False,False
+[CLS] US - KS is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Oko | Oko,False,True
+[CLS] Kakan Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Kakan Rural District,Boyer - Ahmad County | Boyer - Ahmad County,False,False
+[CLS] Nilgiri mountains is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nilgiri,Western Ghats | Sahayadri | Sahayadri Hills | Sahya Mountains | Sahya Parvat | Sahya Parvatam | Sahya Parvatham | Sahyadri | Sahyadri Mountains | Sahyadri mountain range | Sahyadri mountain ranges | Sahyadris | Tamhini Ghat | The Western Ghats | West coast mountain range of India | Western Ghat mountain range | Western Ghat mountain ranges | Western Ghat mountains | Western Ghats | Western Ghats of Maharashtra | Western Ghauts | Western Ghâts | Western Ghāts | Western coast mountain range of india,False,False
+[CLS] Sierra Nevada de Santa Marta is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sierra Nevada,Andes | Andes,False,True
+[CLS] Albanian resistance during World War II is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Albanian resistance,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] cytokinesis is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],cytokinesis,cell division | GO : 0051301 | cell division,False,False
+[CLS] Greenland is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Danish Realm | Commonwealth of the Realm | Danish Realm | The unity of the Realm | Unity of the Realm,False,False
+[CLS] cryptographic protocol is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],cryptography,cryptography | cryptographic engineering | cryptography,True,False
+[CLS] Untersee is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Untersee,Lake Constance | Bodensee | Lac de Constance | Lake Boden | Lake Constance,False,False
+[CLS] King ' s College London is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],King ' s,University of London | Lond . | London University | University of London,False,False
+[CLS] BBC Cymru Wales is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],BBC Cymru,British Broadcasting Corporation | BBC | British Broadcasting Corporation | the Beeb,False,False
+[CLS] Gymnastics at the 1928 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Olympics,1928 Summer Olympics | 1928 Summer Olympics | Amsterdam 1928 | Games of the IX Olympiad,False,False
+[CLS] Nagahori Tsurumi - ryokuchi Line is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nagahori,Osaka Subway | Osaka Metro | Osaka Municipal Subway | Osaka Subway | Osaka rapid transit,False,False
+[CLS] Siskiyou Mountains is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Siskiyou,Klamath Mountains | Klamath Mountains,False,False
+[CLS] Tsuen Wan line is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tsuen,MTR | MTR | Mass Transit Railway,False,False
+[CLS] physical cosmology is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],cosmology,astronomy | Astronomy | astronomy,False,False
+[CLS] Raid on Suez Canal is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Raid,"World War I | 1st World War | First World War | Great War | The Great War | The War to End All Wars | WW 1 | WW I | WW1 | WWI | World War | World War 1 | World War I | World War One | World War , 1914 - 1918 | the 1st World War | the First World War",False,False
+[CLS] STS - 135 is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],STS,Space Shuttle program | STS | Space Shuttle program | Space Transportation System,True,False
+[CLS] American League West is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],American League West,American League | AL | American League | American League of Professional Baseball Clubs | Junior Circuit,False,False
+[CLS] Bartonian is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bartonian,Eocene | Eocene,False,False
+[CLS] Gatun Lake is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gatun,Panama Canal | Panama Canal,False,False
+[CLS] Shirang Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shirang Rural District,Aliabad County | Aliabad County,False,False
+[CLS] Seder Moed is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bad Bad Bad Bad,Mishnah | Mishnah,False,False
+[CLS] Exodus is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Glossary,Bible | Bible | Christian scriptures | God ' s Word | Holy Bible | Holy Scriptures | Judaeo - Christian Bible | The Bible | The Holy Bible,False,True
+[CLS] Ethiopian Orthodox Tewahedo Church is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ethiopian Orthodox,Oriental orthodoxy | Oriental orthodoxy | oriental orthodox churches,False,False
+[CLS] organizational theory is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],psychiatry,business administration | business administration,False,False
+[CLS] Wimbledon station is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wimbledon,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] New France is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French colonial empire | French colonial empire,False,False
+[CLS] Bu ol Kheyr Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bu ol Kheyr,Tangestan County | Tangestan County,False,False
+[CLS] Aliabad - e Ziba Kenar Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Punjab,Rasht County | Rasht County,False,False
+[CLS] Mont Blanc is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mont Blanc,Mont Blanc massif | Mont Blanc massif,False,False
+[CLS] North Carolina Senate is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],North Carolina,North Carolina General Assembly | General Assembly of North Carolina | General Assembly of the State of North Carolina | N . C . General Assembly | NC General Assembly | NCGA | North Carolina General Assembly,False,False
+[CLS] Shakhen Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Shakhen Rural District,Birjand County | Birjand County,False,False
+[CLS] creation science is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],creation science,creationism | biological creationism | creationism,False,False
+[CLS] Hegmataneh Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],: New York City,Hamadan County | Hamadan County,False,False
+[CLS] transportation engineering is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],transportation engineering,civil engineering | civil engineering | ingiis,False,False
+[CLS] environmental philosophy is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],environmental philosophy,philosophy | philosophy | philosophy ( general ),False,True
+[CLS] Ancient Greece is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman Empire,history of Greece | history of Greece,False,False
+[CLS] European Bioinformatics Institute is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],European Bioinformatics,European Molecular Biology Laboratory | EMBL | European Molecular Biology Laboratory,False,False
+[CLS] Sistine Chapel is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sistine,Apostolic Palace | Apostolic Palace | Palace of Sixtus V | Papal Palace | Vatican Palace,False,False
+[CLS] Levantine Sea is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Levantine Sea,Mediterranean Sea | Mediterranean Sea,False,False
+[CLS] Saharan Atlas is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Saharan Atlas,Atlas Mountains | Atlas Mountains,False,False
+[CLS] Omineca Mountains is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Omineca,Interior Mountains | Interior Mountains,False,False
+[CLS] Middle Paleolithic is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Paleolithic,paleolithic | Palaeolithic | Palaeolithic Age | Palaeolithic Era | Palaeolithic Period | Paleolithic Age | Paleolithic Era | Paleolithic Period | paleolithic,True,False
+[CLS] Baltimore Ravens is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Major League Baseball,American Football Conference | AFC | American Football Conference,False,False
+[CLS] Lambertseter Line is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lambertseter,Oslo Metro | Lørenbane | Oslo Metro | Oslo T - bane | Oslo Tunnelbane | Oslo Underground | Oslo subway | Rapid transit in Norway | T - bane | T - banen,False,False
+[CLS] Cadair Idris is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ceredigion,Snowdonia | Eryri | Snowdonia,False,False
+[CLS] United States congressional committee is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the House of Representatives,United States Congress | American Congress | American legislature | Congress | Congress of the United States | Legislature of the United States | U . S . Congress | US Congress | United States Congress | United states legislative branch,False,False
+[CLS] Battle of Inchon is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Battle of Inchon,Korean War | Korean War,False,False
+[CLS] Ghana Army is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ghana,Ghana Armed Forces | GAF | Ghana Armed Forces | Ghana military | mil Ghana | military of Ghana,False,False
+[CLS] film score is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],film score,film | cinematic work | film | films | flick | motion picture | movie,False,True
+[CLS] excavation is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Museum of Modern Art,archaeology | Archaeology | archaeology | archeology | archæology | excavation,False,False
+[CLS] Kola Bay is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kola,Barents Sea | Barents Sea | Barentshavet,False,False
+[CLS] Second Battle of the Marne is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of the Marne,"World War I | 1st World War | First World War | Great War | The Great War | The War to End All Wars | WW 1 | WW I | WW1 | WWI | World War | World War 1 | World War I | World War One | World War , 1914 - 1918 | the 1st World War | the First World War",False,False
+[CLS] Guangfo Metro is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Metro,Foshan Metro | FMetro | Foshan Metro,False,False
+[CLS] heroic fantasy is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],heroic fantasy,fantasy | fantasy | fantasy fiction,False,True
+[CLS] Siege of Tobruk is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Siege of Tobruk,North African campaign | North Africa campaign | North African campaign,False,False
+[CLS] NHS Wales is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],NHS Wales,National Health Service | Great Britain National Health Service | NHS | National Health Service,False,False
+[CLS] Air National Guard is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Force,National Guard of the United States | Guard | National Guard | National Guard of the United States | US National Guard,False,False
+[CLS] boxing at the 1936 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the 1936 Summer Olympics,1936 Summer Olympics | 1936 Summer Olympics | Berlin 1936 | Games of the XI Olympiad | The Games of the XI Olympiad,False,False
+[CLS] MySQL AB is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],MySQL,"Sun Microsystems | Stanford University Network | Sun | Sun Microsystems | Sun Microsystems , Inc .",False,False
+[CLS] Jong PSV is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jong PSV,PSV Eindhoven | Eindhoven Football Club | PSV | PSV Eindhoven | Philips Sport Vereniging,False,False
+[CLS] Bidak Rural District is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bidak Rural District,Abadeh County | Abadeh County,False,False
+[CLS] Chuvash is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chuvash,Turkic languages | Turkic languages,False,False
+[CLS] Degeneracy is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],degenerativity,graph theory | graph theory,False,False
+[CLS] Kamazan - e Olya Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Fars Province of Iran,Malayer County | Malayer County,False,False
+[CLS] Kume Island is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kume,Okinawa Islands | Okinawa Islands,False,False
+[CLS] Beyarjomand Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Azerbaijan Republic,Shahrud County | Shahrud County,False,False
+[CLS] Hurricane Katrina is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the New Orleans hurricane season,2005 Atlantic hurricane season | 2005 Atlantic hurricane season,False,False
+[CLS] skepticism is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],psychiatry,epistemology | epistemology,False,False
+[CLS] Sivash is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sivash,Sea of Azov | Lake Maeotis | Meotida | Sea of Azov,False,False
+"[CLS] University of California , San Francisco is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",University of California,University of California | UC | University of California,True,False
+[CLS] Battle of Kings Mountain is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Kings Mountain,American Revolutionary War | American Revolutionary War | American War of Independence | Revolutionary War | U . S . Revolutionary War | U . S . War of Independence | US Revolutionary War | United States Revolutionary War | War of American Independence | War of the American Revolution,False,False
+[CLS] musical keyboard is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],musical keyboard,keyboard instrument | keyboard instrument,False,False
+[CLS] einherjar is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],einherjar,Norse mythology | Norse mythology | Scandinavian mythology | Viking mythology,False,False
+[CLS] OS X Yosemite is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yosemite,macOS | Mac OS | Mac OS 10 | Mac OS X | Macintosh Operating System X | OS X | OSX | macOS,False,False
+[CLS] Imazatosuji Line is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Line,Osaka Subway | Osaka Metro | Osaka Municipal Subway | Osaka Subway | Osaka rapid transit,False,False
+[CLS] Hindu temple is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindu temple,Hinduism | Hindu Dharma | Hindu religion | Hinduism | Sanatan Dharma,False,False
+[CLS] Utagawa school is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Utagawa,ukiyo - e | uikyo - ye | ukiyo - e | ukiyoe | ukiyoye,False,False
+[CLS] Kamazan - e Vosta Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Fars Province of Iran,Malayer County | Malayer County,False,False
+[CLS] acupuncture point is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],acupuncture,acupuncture | acupuncture,True,False
+[CLS] axon is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],axon,nerve | nerve,False,True
+[CLS] Kepler orbit is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kepler orbit,celestial mechanics | celestial mechanics,False,False
+[CLS] Greater tubercle is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],tubercle,humerus | humerus | humerus bone,False,False
+[CLS] Batchawana Bay is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Batchawana,Lake Superior | Lake Superior | Superior,False,False
+[CLS] Bristol Channel is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bristol,Atlantic Ocean | Atlantic | Atlantic Ocean | Atlantic Sea | Great Western Ocean,False,False
+[CLS] First Epistle to Timothy is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the First Epistle,New Testament | NT | New Testament | the New Testament,False,False
+[CLS] Alabama National Guard is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alabama Air Force,National Guard of the United States | Guard | National Guard | National Guard of the United States | US National Guard,False,False
+[CLS] Jopará is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jopará,Guarani | Guarani | Guarani language | Paraguayan Guarani | Paraguayan Guaraní | gn,False,False
+[CLS] GBU - 24 Paveway III is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],GBU - 24,Paveway | Paveway,False,False
+[CLS] Telomerase reverse transcriptase is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],this enzyme,telomerase | telomerase,False,False
+[CLS] Seyyed Shahab Rural District is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hindu Hindu,Tuyserkan County | Tuyserkan County,False,False
+[CLS] Barcelona Metro line 4 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Barcelona Metro,Barcelona Metro | Barcelona Metro | Metro de Barcelona,False,False
+[CLS] Normandy landings is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Normandy,Invasion of Normandy | Invasion of Normandy | Operation Overlord,False,False
+[CLS] Battle of Fallen Timbers is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Battle of Fallen Timbers,Northwest Indian War | Northwest Indian War,False,False
+[CLS] Stardate is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stardate,Star Trek | Star Trek,False,False
+[CLS] Victoria Holmes is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Victoria Holmes,Erin Hunter | Erin Hunter,False,False
+[CLS] suffrage is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],religion,democracy | democracy,False,True
+[CLS] surveying is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],surveying,geodesy | Geodesy | geodesy | geodetics,False,False
+[CLS] Joint Medical Service is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Medical Service,Bundeswehr | Bundeswehr | Federal Defence Forces of Germany | German armed forces | German military | armed forces of Germany | mil Germany | military of Germany,False,True
+[CLS] Expedition 15 is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S . Navy,International Space Station | ISS | ISS ( United States ) | International Space Station | NA1SS | Station Alpha,False,False
+[CLS] plant pathology is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],plant physiology,agronomy | Agriculture ( General ) | agriculture | agronomy,False,False
+[CLS] far - left is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],far - left,left - wing | left | left - wing | left - wing politics,False,False
+[CLS] Mount Ida is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mount Ida,Crete | Crete,False,False
+[CLS] Northern line is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Great Northern Railway,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] Mainland is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mainland,Orkney Islands | Orkney | Orkney Islands,False,False
+[CLS] Makalu is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Makalu,Himalayas | Himalaya | Himalaya Mountains | Himalayan Mountains | Himalayas,False,False
+[CLS] Expedition 44 is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S . S,International Space Station | ISS | ISS ( United States ) | International Space Station | NA1SS | Station Alpha,False,False
+[CLS] Java Servlet is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],C + +,"Java Platform , Enterprise Edition | J2EE | Jakarta EE | Java 2 Platform , Enterprise Edition | Java EE | Java Platform , Enterprise Edition | JavaEE | Javaee",False,False
+[CLS] ي is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a small town,Arabic alphabet | Arabic alphabet | zaki,False,False
+"[CLS] Mad TV , season 14 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Mad TV,Mad TV | MADtv | Mad TV,True,False
+[CLS] nuclear reactor coolant is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],reactor coolant,nuclear reactor | atomic pile | nuclear reactor,False,False
+[CLS] Battle of Delville Wood is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Battle of Delville Wood,Battle of the Somme | Battle of the Somme | Bloody Somme | Somme Offensive,False,False
+[CLS] Ligurian Sea is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ligurian Sea,Mediterranean Sea | Mediterranean Sea,False,False
+[CLS] dendrology is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],dendrology,botany | Botany | botany | phytology | plant biology | plant science | plant sciences,False,False
+[CLS] Uruguay v Brazil 1950 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the tournament tournament,1950 FIFA World Cup | 1950 FIFA World Cup,False,False
+[CLS] Pihlajavesi is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pihlajavesi,Saimaa | Saimaa | Saimen | Suur - Saimaa,False,False
+[CLS] Busan Station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bus,Gyeongbu Line | Gyeongbu Line,False,False
+[CLS] Battle of Mill Springs is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Battle of Mill Springs,American Civil War | American Civil War | Civil War | The Civil War | U . S . Civil War | US Civil War | United States Civil War | War Between the States | War of the Rebellion,False,False
+[CLS] Ford Island is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Pearl Harbor | Pearl Harbor | Pearl Harbour,False,False
+[CLS] Psalm 34 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psalm,Psalms | Book of Psalms | Psalms,False,False
+[CLS] Forest Hill railway station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Forest Hill,London Overground | Ginger line | LO | London Overground | the Overground,False,False
+[CLS] Torii school is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Torii,ukiyo - e | uikyo - ye | ukiyo - e | ukiyoe | ukiyoye,False,False
+[CLS] Italian Radicals is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Italian Radicals Party,Transnational Radical Party | Transnational Radical Party,False,False
+"[CLS] Faculty of Philosophy , University of Oxford is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Faculty of Philosophy,University of Oxford | Oxf | Oxford | Oxford University | Oxon . | Universitas Oxoniensis | University of Oxford,False,False
+[CLS] Psalm 83 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psalm,Psalms | Book of Psalms | Psalms,False,False
+[CLS] 2012 Summer Olympics closing ceremony is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 2012 Summer Olympics,2012 Summer Olympics | 2012 London Olympics | 2012 Olympics | 2012 Summer Olympics | Games of the XXX Olympiad | London 2012 | London Olympics,False,False
+[CLS] Crimean War is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Crimean War,History of the Russo - Turkish wars | History of the Russo - Turkish wars,False,False
+[CLS] Battle of Opequon is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the battlefield,American Civil War | American Civil War | Civil War | The Civil War | U . S . Civil War | US Civil War | United States Civil War | War Between the States | War of the Rebellion,False,False
+[CLS] 1973 FA Cup Final is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 1973 FA Cup,FA Cup | FA Cup | Football Association Challenge Cup,False,False
+[CLS] German is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Slavic languages,West Germanic languages | West Germanic languages,False,False
+[CLS] Chitrambari is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chitrambari,Melakarta | Melakarta,False,False
+[CLS] KK Partizan is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],K . K,JSD Partizan | JSD Partizan,False,False
+[CLS] Giovanni di Bicci de ' Medici is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bicci de ' Medici,House of Medici | House of Medici | Medici | Medici family,False,False
+[CLS] light - independent reaction is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],glutamate,photosynthesis | GO : 0015979 | photosynthesis,False,False
+[CLS] Bidi Bidi Bom Bom is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bidi,Amor prohibido ( Albúm 1994 ) | Amor prohibido ( Albúm 1994 ),False,False
+[CLS] Why Do You Love Me is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Singles Collection,Bleed Like Me | Bleed Like Me,False,False
+[CLS] Barcelona Metro line 9 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Barcelona Metro,Barcelona Metro | Barcelona Metro | Metro de Barcelona,False,False
+[CLS] Brimstone Hill Fortress National Park is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Brimstone Hill,"UNESCO World Heritage Site | UNESCO World Heritage Site | United Nations Educational , Scientific and Cultural Organization ( UNESCO ) World Heritage Site | WHS | World Heritage List | World Heritage Site",False,False
+[CLS] Bad Romance is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,The Fame Monster | The Fame Monster,False,False
+[CLS] fylgja is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],fylgja,Norse mythology | Norse mythology | Scandinavian mythology | Viking mythology,False,False
+[CLS] Vignemale is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vignemale,Pyrenees | Pyrenean Mountains | Pyrenees | Pyrénées,False,False
+[CLS] Whitechapel station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Whitechapel,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] Breithorn is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Schweinfurt,Pennine Alps | Alpi Pennine | Pennine Alps,False,False
+[CLS] Avtovo is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Avtovo,Saint Petersburg Metro | Saint Petersburg Metro | St Petersburg Metro | V . I . Lenin Order of Lenin Leningrad Metropoliten,False,False
+[CLS] Beaker culture is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Beaker,Bronze Age | Bronze Age,False,False
+[CLS] Mount Berlin is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Berkley,Flood Range | Flood Range,False,False
+[CLS] University of North Carolina at Chapel Hill is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],University of North Carolina,University of North Carolina | UNC | UNC System | University of North Carolina,True,False
+[CLS] philosophical anthropology is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],philosophical anthropology,philosophy | philosophy | philosophy ( general ),False,True
+[CLS] Louis Tomlinson is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Louis Tomlinson,One Direction | 1D | Larry is real | One Direction,False,False
+[CLS] Battle of Sedgemoor is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sedgemoor,Monmouth Rebellion | Monmouth Rebellion | The Revolt of the West,False,False
+[CLS] project planning is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Ministry of Public Works,project management | project management,False,False
+[CLS] Metamorphoses is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],metaphysics,Greek mythology | Greek mythology | Greek myths | ancient Greek mythology,False,False
+[CLS] Mount Shinn is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Shinn,Sentinel Range | Sentinel Range,False,False
+[CLS] Mount Tyree is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tyree,Sentinel Range | Sentinel Range,False,False
+[CLS] Nordea Bank AB Lithuania Branch is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nordea Bank AB,Nordea | Nordea | Nordea Bank AB ( publ ) | Nordea Bank Abp,False,False
+[CLS] cornea is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],R . R . R,human eye | human eye,False,False
+[CLS] Trinitat Nova is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Trinitat Nova,Barcelona Metro | Barcelona Metro | Metro de Barcelona,False,False
+[CLS] social psychiatry is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],psychiatry,psychiatry | Psychiatry | psychiatry,True,False
+[CLS] Operation Storm is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States Air Force,Croatian War of Independence | Croatian War of Independence | Homeland War | War in Croatia | the Greater - Serbian aggression,False,False
+[CLS] Kuro island is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Kuro archipelago,Yaeyama Islands | Yaeyama Islands,False,False
+[CLS] Mynydd Mawr is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mynydd Mawr,Snowdonia | Eryri | Snowdonia,False,False
+[CLS] Rowing at the 1920 Summer Olympics is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Olympic Games,1920 Summer Olympics | 1920 Summer Olympics | Antwerp 1920 | Games of the VII Olympiad,False,False
+[CLS] Mercury - Atlas 1 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Mercury - Atlas,Project Mercury | Project Mercury,False,False
+[CLS] Stargate : Continuum is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Stargate,Stargate SG - 1 | SG - 1 | SG1 | Stargate SG 1 | Stargate SG - 1 | Stargate SG1,False,False
+[CLS] Love Me Harder is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Love Me Harder,My Everything | My Everything,False,False
+[CLS] Stybarrow Dodd is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Shropshire,Lake District | Lake District | Lakeland | The Lakes,False,False
+[CLS] Get Back is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Rolling Stones,Let It Be | Let It Be,False,False
+[CLS] Phaeacians is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Phaea,Greek mythology | Greek mythology | Greek myths | ancient Greek mythology,False,False
+[CLS] Alphabet St . is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Alphabet St,Lovesexy | Lovesexy,False,False
+[CLS] University Library Freiburg is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Freiburg ' s University Library,University of Freiburg | ALU | Albert Ludwig University of Freiburg | Albert - Ludwigs - Universität | Albert - Ludwigs - Universität Freiburg | Freiburg University | University of Freiburg | alberto - ludoviciana,False,False
+[CLS] Archaean is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Archaea,precambrian | precambrian,False,False
+[CLS] Dutch Golden Age painting is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Dutch Golden Age,Baroque painting | Baroque painting,False,False
+[CLS] Mount St . Helens is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],St . Helens,Cascade Range | California Cascade Range | Cascade | Cascade Mountain Range | Cascade Range | Cascade loop | Cascade mountains | Cascades | Cascades Mountains | Cascades Range | High Cascades | Shasta valley mountains,False,False
+[CLS] Palliser Range is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palliser,Canadian Rockies | Canadian Rockies | Canadian Rocky Mountains | Rocheuses canadiennes,False,False
+[CLS] Battle of Kirk Kilisse is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kirk Kilisse,First Balkan War | Birinci Balkan Savaşı | First Balkan War | Prvi Balkanski rat,False,False
+[CLS] Uthman ibn Affan is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Uthman ibn Affan,Companions of the Prophet | Al Sahaba | Al Sahabah | Companions of the Prophet | El Sahaba | El Sahabah | Sahabah | aṣ - ṣaḥābah,False,False
+[CLS] NHS trust is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],NHS trust,National Health Service ( England ) | NHS ( England ) | NHS England | National Health Service ( England ),False,False
+[CLS] Custom House for ExCeL is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],ExCeL,Docklands Light Railway | DLR | Docklands Light Railway,False,False
+[CLS] Ull is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ull,Norse mythology | Norse mythology | Scandinavian mythology | Viking mythology,False,False
+[CLS] Canoeing at the 1992 Summer Olympics is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],canoeing,1992 Summer Olympics | 1992 Olympics | 1992 Summer Olympics | Barcelona 1992 | Games of the XXV Olympiad,False,False
+[CLS] Zhongshan Station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zhongshan,Taipei Metro | Taipei Metro | 台 北 捷 運 系 統 | 地 鐵,False,False
+[CLS] Geldermalsen railway station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Geldermalsen,MerwedeLingelijn | MerwedeLingelijn,False,False
+[CLS] Khonj is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Khonj,Khonj County | Khonj County,False,False
+[CLS] Gyachung Kang is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gyachung,Himalayas | Himalaya | Himalaya Mountains | Himalayan Mountains | Himalayas,False,False
+[CLS] John Law is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],John Law,Burning Man | Burning Man | Burning Man Festival,False,False
+[CLS] dorsal artery of the penis is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the penis,penis | penis,False,False
+[CLS] Celebrity Big Brother 7 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Celebrity Big Brother,Celebrity Big Brother | Celebrity Big Brother,True,False
+[CLS] Jingpho language is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jingpho,Tibeto - Burman languages | Tibeto - Burman languages,False,False
+[CLS] 2014 Ebola virus epidemic in Guinea is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ebola virus,Western African Ebola virus epidemic | 2014 Ebola virus epidemic in West Africa | Ebola virus epidemic in West Africa | West African Ebola virus epidemic | Western African Ebola virus epidemic,False,False
+[CLS] Cotopaxi is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cotopax,Andes | Andes,False,True
+[CLS] 2010 PTT Pattaya Open is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],2010 PTT Pattaya,2010 WTA Tour | 2010 WTA Tour,False,False
+[CLS] Tanggula Mountains is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tanggula,Tibetan Plateau | Qinghai - Tibetan plateau | Tibetan Plateau,False,False
+[CLS] Park Place is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Park Place,New York City Subway | NYC Subway | New York City Subway | New York Subway,False,False
+[CLS] Adams Island is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Auckland Islands | Auckland Islands,False,False
+[CLS] California Coast Ranges is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Coast Ranges,Pacific Coast Ranges | Pacific Coast Ranges | Pacific Mountain System,False,False
+[CLS] T - tubule is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],tubular,sarcolemma | GO : 0042383 | sarcolemma,False,False
+[CLS] Hainault tube station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hainault,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] Kalasatama metro station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kalasatama,Helsinki Metro | Helsingin metro | Helsinki Metro,False,False
+[CLS] Donkey Kong Country is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Donkey Kong,Donkey Kong | Donkey Kong,True,False
+[CLS] Mobistar is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mobistar,France Telecom | FT | France Telecom | France - Telecom | Orange SA,False,False
+[CLS] Ketu is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ketu,Navagraha | Navagraha,False,False
+[CLS] Borujerd is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Borujerd,Borujerd County | Borujerd County,False,False
+[CLS] Uni is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Etruscan religion | Etruscan mythology | Etruscan religion,False,False
+[CLS] Because of You is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Breakaway | Breakaway,False,False
+[CLS] administrative territorial entity of Wisconsin is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Wisconsin | Badger State | State of Wisconsin | WI | Wisconsin | Wisconsin , United States",False,True
+[CLS] 2009 Korea Open is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,WTA International tournaments | WTA International tournaments,False,False
+[CLS] Y No Puedo Olvidarte is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Los Ángeles,Empezar desde cero | Empezar desde cero,False,False
+[CLS] Agios Ioannis metro station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Agios Ioannis,Athens Metro | Athens Metro,False,False
+[CLS] orbit is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],asymmetric orbit,celestial mechanics | celestial mechanics,False,False
+[CLS] Kara Strait is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Liaoning,Kara Sea | Kara Sea,False,False
+[CLS] Book of Zechariah is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Book of Zechariah,Bible | Bible | Christian scriptures | God ' s Word | Holy Bible | Holy Scriptures | Judaeo - Christian Bible | The Bible | The Holy Bible,False,True
+[CLS] STS - 32 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],STS,Space Shuttle program | STS | Space Shuttle program | Space Transportation System,True,False
+[CLS] Battle of Ameixial is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Battle of Ameixial,Portuguese Restoration War | Acclamation War | Guerra de Restauracion portuguesa | Guerra de Restauración portuguesa | Portuguese Restoration War,False,False
+[CLS] Twentieth Amendment to the United States Constitution is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,United States Constitution | Constitution of the USA | Constitution of the United States | U . S . Constitution | US Constitution | United States Constitution,False,False
+[CLS] Lega Nord Trentino is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lega Nord,Lega Nord | Lega | Lega Nord | Lega Nord Padania | Lega Nord per l ' Indipendenza della Padania | Northern League,True,False
+[CLS] Gymnastics at the 1920 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],gymnastics,1920 Summer Olympics | 1920 Summer Olympics | Antwerp 1920 | Games of the VII Olympiad,False,False
+[CLS] Lavanttal is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lavant,Lavanttal Alps | Lavanttal Alps,False,False
+[CLS] Song of Songs is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Song of Songs,Ketuvim | Ketuvim,False,False
+[CLS] Battle of Takajō is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Battle of Takajō,Toyotomi Hideyoshi | Toyotomi Hideyoshi,False,False
+[CLS] macroeconomic model is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],macroecono,macroeconomics | macroeconomics,False,False
+[CLS] Chacaltaya is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chacaltaya,Cordillera Real | Cordillera Real,False,False
+[CLS] Battle of Great Bridge is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Great Bridge,American Revolutionary War | American Revolutionary War | American War of Independence | Revolutionary War | U . S . Revolutionary War | U . S . War of Independence | US Revolutionary War | United States Revolutionary War | War of American Independence | War of the American Revolution,False,False
+[CLS] Battle of San Marcial is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],San Marcial,Peninsular War | Peninsular War,False,False
+[CLS] Catrake Force is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Catrake,River Swale | River Swale,False,False
+[CLS] 1982 invasion of the Falkland Islands is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],1982 invasion of the Falkland,Falklands War | Falklands Conflict | Falklands Crisis | Falklands War | Malvinas Conflict | Malvinas Crisis | Malvinas War | South Atlantic Conflict | South Atlantic War,False,False
+[CLS] National Cycle Route 2 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],National Cycle Route,National Cycle Network | NCN | National Cycle Network,False,False
+[CLS] National Cycle Route 7 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],National Cycle Route,National Cycle Network | NCN | National Cycle Network,False,False
+[CLS] Hook Me Up is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R . R,Hook Me Up | Hook Me Up,False,False
+"[CLS] 90210 , season 2 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",90210,90210 | 90210,True,False
+[CLS] ethnoarchaeology is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],archaeology,ethnography | ethnography,False,False
+[CLS] AGARD is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],AGARD,NATO | NATO | North Atlantic Alliance | North Atlantic Treaty Organisation | North Atlantic Treaty Organization | en : North Atlantic Treaty Organization,False,True
+[CLS] Angel is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the San Francisco Census Area,Jon Secada | Jon Secada,False,False
+[CLS] Mount Marcy is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mt . Marcy,Adirondack Mountains | Adirondack Mountains,False,False
+[CLS] Gross Fiescherhorn is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Schweinfurt,Bernese Alps | Berner Alpen | Bernese Alps,False,False
+[CLS] Michael Hayes is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Michael Hayes,The Fabulous Freebirds | The Fabulous Freebirds,False,False
+[CLS] Battle of Bizani is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Battle of Bizani,First Balkan War | Birinci Balkan Savaşı | First Balkan War | Prvi Balkanski rat,False,False
+[CLS] Joshua is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Joshua is part,Bible | Bible | Christian scriptures | God ' s Word | Holy Bible | Holy Scriptures | Judaeo - Christian Bible | The Bible | The Holy Bible,False,True
+[CLS] Say It Ain ' t So is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Girls Girls Girls,Weezer | Blue Album | Weezer,False,False
+[CLS] Volleyball at the 1988 Summer Olympics is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Olympic Games,1988 Summer Olympics | 1988 Olympics | 1988 Summer Olympics | Games of the XXIV Olympiad | Seoul 1988 | Seoul Olympics,False,False
+[CLS] Tannu - Ola mountains is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tannu - Ola,Altai Mountains | Altai | Altai Mountains | Altay,False,False
+[CLS] Baroque sculpture is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Baroque art,Baroque | Baroque,False,True
+[CLS] Berlin Greifswalder Straße station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Berlin Greifswalder Straße station,Berlin Ringbahn | Berlin Ringbahn,False,False
+[CLS] boxing at the 1996 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Olympic Games,1996 Summer Olympics | 1996 Atlanta Summer Olympics | 1996 Olympics | 1996 Summer Olympics | Atlanta 1996 | Games of the XXVI Olympiad,False,False
+[CLS] Tropical Storm Allison is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hurricane Allison,2001 Atlantic hurricane season | 2001 Atlantic hurricane season,False,False
+[CLS] Grisedale Pike is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Grisedale,Lake District | Lake District | Lakeland | The Lakes,False,False
+[CLS] Nyamuragira is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nyamuragira,Virunga Mountains | Virunga Mountains,False,False
+[CLS] University of Minnesota College of Liberal Arts is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],University of Minnesota,"University of Minnesota | The University of Minnesota , TwinCities | U of M | UMN | University of Minnesota | University of Minnesota , Twin Cities | University of Minnesota - Twin Cities",True,False
+[CLS] FK Partizan is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],FK Partizan,JSD Partizan | JSD Partizan,False,False
+[CLS] digital physics is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],digital physics,philosophy of physics | philosophy of physics,False,False
+"[CLS] Royal Military College , Sandhurst is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Royal Military College,Royal Military Academy Sandhurst | RMAS | Royal Military Academy Sandhurst | Sandhurst,False,False
+[CLS] Mount Constance is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Constance,Olympic Mountains | Olympic Mountains,False,False
+[CLS] Unterrothorn is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Schweinfurt,Pennine Alps | Alpi Pennine | Pennine Alps,False,False
+[CLS] The Crypt is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Crypt,Kings Dominion | Kings Dominion,False,False
+[CLS] Bound 2 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bound 2,Yeezus | Yeezus,False,False
+"[CLS] Providence Bay , Siberia is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Providence Bay,Bering Sea | Bering Sea,False,False
+[CLS] Kabir Kuh is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kabir,Zagros mountains | Zagros mountains,False,False
+[CLS] Funafala is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Funafala,Funafuti | Funafuti | Funafuti Island,False,False
+[CLS] Connee Boswell is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Connee Boswell,The Boswell Sisters | The Boswell Sisters,False,False
+[CLS] 19th Battalion is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Regimental Regimental,Australian Army | Australian Army | Australian Imperial Force | army of Australia,False,False
+[CLS] Songshan Airport Station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Songshan Airport Station,Taipei Metro | Taipei Metro | 台 北 捷 運 系 統 | 地 鐵,False,False
+[CLS] Florida Gators women ' s tennis is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Florida Gators,Florida Gators | Florida Gators | Gators | Lady Gators | University of Florida Gators | University of Florida sports teams,True,False
+[CLS] Kilburn tube station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kilburn,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] Mutter is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a small village,GNOME | GNOME | GNU Network Object Model Environment,False,False
+[CLS] Lower Saxony is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Germany,Hamburg Metropolitan Region | Hamburg Metropolitan Region,False,False
+[CLS] Library of Alexandria is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Library of Alexandria,Musaeum | Musaeum,False,False
+[CLS] Innamoramento is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Villafranca . Villafranca,Innamoramento | Innamoramento,False,False
+[CLS] Aeon is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aeon,Thelema | Thelema,False,False
+[CLS] Matthew 1 : 19 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Gospel of Matthew,Gospel of Matthew | Gospel of Matthew | Matthew,False,False
+[CLS] Midnight Sun Peak is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sun Peak,Baffin Mountains | Baffin Mountains,False,False
+[CLS] Anyang Station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Anyang,Seoul Metropolitan Subway | Seoul Metro | Seoul Metropolitan Subway | Seoul Subway | Sudogwon Metro,False,False
+[CLS] Manchu is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Manchu,Tungusic languages | Tungusic languages,False,False
+"[CLS] Top Chef , season 3 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Top Chef,Top Chef | Top Chef,True,False
+[CLS] Oye Mi Canto is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Oye Mi Canto,Cuts Both Ways | Cuts Both Ways,False,False
+[CLS] Evangelical Lutheran Church in Oldenburg is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Oldenburg,Evangelical Church in Germany | Evangelical Church in Germany,False,False
+[CLS] Marutea Nord is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Marutea,Tuamotus | Tuamotus,False,False
+[CLS] bosquet is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],woodland,French formal garden | French formal garden,False,False
+[CLS] United Nations Office of Legal Affairs is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United Nations,United Nations | UN | UNO | United Nations | United Nations Organization | [UNK],False,False
+[CLS] Dresden Castle is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dresden,Staatliche Kunstsammlungen Dresden | SKD | Staatliche Kunstsammlungen Dresden,False,False
+[CLS] DBpedia is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bing Bing,Semantic Web | Semantic Web,False,False
+[CLS] 2012 Tour of Norway is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the 2012 Tour of Norway,2012 UCI Europe Tour | 2012 UCI Europe Tour,False,False
+[CLS] Sangthang is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sangthang,Himalayas | Himalaya | Himalaya Mountains | Himalayan Mountains | Himalayas,False,False
+[CLS] Operation Claymore is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Operation Crocodile,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Przeworsk culture is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Przeworsk,Iron Age | Iron Age,False,False
+[CLS] Young Guard of United Russia is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],United Russia Young Guard,United Russia | Edinaya Rossiya | United Russia,False,False
+[CLS] Portuguese Air Force is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Air Force,Portuguese Armed Forces | Portuguese Armed Forces | military of Portugal,False,False
+[CLS] Rosh Hashanah is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Iran,Seder Moed | Moed | Seder Mo ' ed | Seder Moed,False,False
+"[CLS] Prison Break , season 2 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Prison Break,Prison Break | Prison Break,True,False
+[CLS] The Lost Get Found is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Lost Get Found,The Lost Get Found | The Lost Get Found,True,False
+[CLS] Te Kooti ' s War is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Te Kooti,New Zealand Wars | Land Wars | Māori Wars | New Zealand Wars,False,False
+[CLS] Battle of Fort Stedman is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Fort Stedman,American Civil War | American Civil War | Civil War | The Civil War | U . S . Civil War | US Civil War | United States Civil War | War Between the States | War of the Rebellion,False,False
+[CLS] dry cell is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],dry cell,battery | batteries | battery | electric battery,False,True
+[CLS] 2015 Delray Beach International Tennis Championships is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the tournament,2015 ATP World Tour | 2015 ATP World Tour,False,False
+[CLS] 2009 Internationaux de Strasbourg is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],2009,2009 WTA Tour | 2009 WTA Tour,False,False
+[CLS] Muraqqa is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Muraqqa,calligraphy | calligraphy,False,False
+[CLS] 9th Infantry Division is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,British Indian Army | British Indian Army | Indian Army,False,False
+[CLS] Fuchinobe Station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Fuchinobe,Yokohama Line | Yokohama Line,False,False
+[CLS] Kundur Island is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Riau | Kepulauan Riau | Riau | Riau Archipelago,False,True
+[CLS] Battle of Ban Me Thuot is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ban Me Thuot,Vietnam War | American War | Second Indochina War | Vietnam War,False,False
+[CLS] B - Fighter Kabuto is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],B - Fighter,Metal Hero Series | Metal Hero Series | Metal Heroes,False,False
+[CLS] When Love Finds You is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Love Finds You,When Love Finds You | When Love Finds You,False,False
+[CLS] First Anglo - Afghan War is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Anglo - Afghan War,The Great Game | The Great Game,False,False
+[CLS] 2011 Malaysian Grand Prix is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],2011 Malaysian Grand Prix,2011 Formula One season | 2011 Formula One season,False,False
+[CLS] Haixinsha station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Haixinsha,Guangzhou Metro | Guangzhou Metro,False,False
+[CLS] I Wish U Heaven is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],R . R,Lovesexy | Lovesexy,False,False
+[CLS] IBM Common User Access is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],IBM IBM Common User Access,IBM Systems Application Architecture | IBM Systems Application Architecture | SAA,False,False
+[CLS] BTA - 6 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],BTA,Special Astrophysical Observatory of the Russian Academy of Science | Federal State Institution of Science Special Astrophysical Observatory of the Russian Academy of Sciences | Special Astrophysical Observatory | Special Astrophysical Observatory of the Russian Academy of Science,False,False
+[CLS] Tochal is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tochal,Alborz mountain range | Alborz | Alborz mountain range,False,False
+[CLS] Directorate - General for Research and Innovation is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Directorate - General,European Commission | EC | European Commission,False,False
+[CLS] Schnee Eifel is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Schnee,West Eifel | West Eifel,False,False
+[CLS] 2010 Gastein Ladies is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gastein,2010 WTA Tour | 2010 WTA Tour,False,False
+[CLS] 2009 Tashkent Open is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],2009 Tashkent Open,WTA International tournaments | WTA International tournaments,False,False
+[CLS] Battle of Pokarwis is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pokarwis,Prussian uprisings | Prussian uprisings,False,False
+[CLS] 2013 Three Days of De Panne is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 2012 Summer Olympics,2013 UCI Europe Tour | 2013 UCI Europe Tour,False,False
+[CLS] Battle of Cape Gloucester is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Gloucester,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Geissfluegrat is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Geissflue,Jura Mountains | Jura Mountains | Jura mountains,False,False
+[CLS] Xuanwumen station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Xuanwumen,Beijing Subway | Beijing Subway,False,False
+[CLS] Sviatoshyn is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cherkasy,Kiev Metro | Kiev Metro,False,False
+[CLS] Hesha station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hesha,Guangzhou Metro | Guangzhou Metro,False,False
+[CLS] 2013 Guangzhou International Women ' s Open is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Guangzhou International Women ' s,WTA International tournaments | WTA International tournaments,False,False
+[CLS] I See the Light is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,Tangled | Tangled,False,False
+[CLS] Piz Malmurainza is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Malmurainza,Samnaun Alps | Samnaun Alps,False,False
+[CLS] Mount Vaea is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mt . Vaea,Upolu | Upolu | Upolu Island,False,False
+[CLS] Battle of Olpae is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Battle of Olpae,Peloponnesian War | Peloponnesian War,False,False
+[CLS] Wolo Inelika is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wolo,Flores | Flores,False,True
+[CLS] Housay is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Housay,Shetland Islands | Hjaltland | Shetland | Shetland Islands | Zetland,False,False
+[CLS] Les Clark is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Les Clark,Disney ' s Nine Old Men | Disney ' s Nine Old Men | Nine Old Men,False,False
+[CLS] Chadian Air Force is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chadian Air Force,Military of Chad | Chadian military | Military of Chad | mil Chad,False,False
+[CLS] Multivariate adaptive regression splines is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the U . S,regression analysis | Regression Analysis | Regression analysis | regression | regression analysis | regression method,False,False
+[CLS] Landstraße ( Vienna U - Bahn ) is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Landstraße,Vienna U - Bahn | U - Bahn Wien | Vienna U - Bahn,False,False
+[CLS] 2003 ABN AMRO World Tennis Tournament is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],2003 ABN AMRO,2003 ATP Tour | 2003 ATP Tour,False,False
+[CLS] 2007 Fortis Championships Luxembourg is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Grand Prix Luxembourg,2007 WTA Tour | 2007 WTA Tour,False,False
+[CLS] Sejm of the Republic of Poland is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Republic of Poland,National Assembly | National Assembly,False,False
+[CLS] Courage ( for Hugh MacLennan ) is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Courage,Fully Completely | Fully Completely,False,False
+[CLS] The World We Knew is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],World We Knew,The World We Knew | The World We Knew,False,False
+[CLS] It ' s Your Song is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],It ' s Your Song,Double Live | Double Live,False,False
+[CLS] Telescope Peak is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spectacular Telescope Peak,Panamint Range | Panamint Range,False,False
+[CLS] Florida International University School of Architecture is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Florida International University,Florida International University | FIU | Florida International University,True,False
+"[CLS] Forensic Files , season 3 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Forensic Files,Forensic Files | Forensic Files | Medical Detectives,True,False
+[CLS] Love Without Tragedy / Mother Mary is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Love Without Tragedy,Unapologetic | Unapologetic,False,False
+[CLS] Psalm 150 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psalm,Psalms | Book of Psalms | Psalms,False,False
+[CLS] 2008 Forest Hills Tennis Classic is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],2008 Forest Hills Tennis Classic,WTA Tier IV tournaments | WTA Tier IV tournaments,False,False
+[CLS] Tangkuban Perahu is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tangkuban,"Java | Java | Java Island | Java island | Java , Indonesia | Jawa | Jawa Island | Pulau Java | Pulau Jawa",False,True
+[CLS] Rígsþula is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rígsþula,Poetic Edda | Elder Edda | Poetic Edda | Sæmundar Edda,False,False
+[CLS] Bernstorffsvej station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bernstorffsvej,S - train Copenhagen | Copenhagen S - train | S - tog | S - train Copenhagen,False,False
+[CLS] Temple mountain is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Temple mountain,Wapack Range | Wapack Range,False,False
+[CLS] Governor of Reserve Bank of India is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Reserve Bank of India,Reserve Bank of India | RBI | Reserve Bank of India,True,False
+[CLS] Mount Bellenden Ker is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Bellenden,Bellenden Ker Range | Bellenden Ker Range,False,False
+[CLS] Tori - shima is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tori,Izu Islands | Izu Islands,False,False
+[CLS] Battle of Fossalta is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Battle of Fossalta,Guelphs and Ghibellines | Guelphs and Ghibellines,False,False
+[CLS] Melville Island is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Melville Island,Canadian Arctic Archipelago | Arctic Archipelago | Canadian Arctic Archipelago,False,False
+[CLS] Follow Me is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],B . B,The 2nd Law | The 2nd Law,False,False
+[CLS] My Love Is Like . . . Wo is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],My Love Is Like,Moodring | Moodring,False,False
+[CLS] Hey There Delilah is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Delilah,All That We Needed | All That We Needed,False,False
+[CLS] Cheat Mountain is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cheat,Allegheny Mountains | Alleghenies | Allegheny Mountains,False,False
+[CLS] 2003 Speedway World Cup Event 1 is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the 2003 Speedway World Cup,2003 Speedway World Cup | 2003 Speedway World Cup,False,False
+[CLS] Ølby station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ølby,S - train Copenhagen | Copenhagen S - train | S - tog | S - train Copenhagen,False,False
+[CLS] Dortmund - Barop station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dortmund - Barop,Rhine - Ruhr S - Bahn | Rhine - Ruhr S - Bahn,False,False
+[CLS] Chalkidian pottery is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pottery,black - figure pottery | black - figure pottery,False,False
+[CLS] Battle of Hummelshof is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hummelshof,Great Northern War | Great Northern War,False,False
+[CLS] Tropical Storm Alpha is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tropical Storm Alpha,2005 Atlantic hurricane season | 2005 Atlantic hurricane season,False,False
+[CLS] 1976 FA Cup Final is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the 1976 FA Cup,FA Cup | FA Cup | Football Association Challenge Cup,False,False
+[CLS] Western Romance languages is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Romance languages,Italo - Western languages | Italo - Western languages,False,False
+[CLS] Viscount Rochdale is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the House of Lords,peerage of the United Kingdom | peerage of the United Kingdom,False,False
+[CLS] Infinity focus is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Infinity focus,photography | photography,False,True
+[CLS] Mirror is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shreveport,Tha Carter IV | Tha Carter IV,False,False
+[CLS] Turrialba Volcano is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Turrialba,Cordillera Central | Cordillera Central | Cordillera Central of Costa Rica | Costa Rica Central Cordillera,False,False
+[CLS] Gettin ' Over You is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Getty Getty,One Love | One Love,False,False
+[CLS] 2014 Tour of Beijing is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],2014 Tour of Beijing,2014 UCI World Tour | 2014 UCI World Tour,False,False
+[CLS] Kumagaya Station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Minami,East Japan Railway Company | East Japan Railway Company | JR East,False,False
+[CLS] Schafberg is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schaf,Salzkammergut Mountains | Salzkammergut Mountains,False,False
+[CLS] Join Our Club is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Join Our Club,Foxbase Alpha | Foxbase Alpha,False,False
+[CLS] Kanonen is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kanonen,Liseberg | Liseberg,False,False
+[CLS] Street Fighting Man is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Super Super Super,Beggars Banquet | Beggars Banquet,False,False
+[CLS] Open Your Heart is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Open Your Heart,True Blue | True Blue,False,False
+[CLS] Radio SRF 2 Kultur is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Radio SRF,Swiss Radio and Television | SRF | Schweizer Radio und Fernsehen | Swiss Radio and Television,False,False
+[CLS] Siege of Crema is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Siege of Crema,Guelphs and Ghibellines | Guelphs and Ghibellines,False,False
+[CLS] Field hockey at the 1948 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Olympic Games,1948 Summer Olympics | 1948 Summer Olympics | Games of the XIV Olympiad | London 1948,False,False
+[CLS] 1959 FA Cup Final is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 1959 FA Cup,FA Cup | FA Cup | Football Association Challenge Cup,False,False
+"[CLS] Lost Girl , season 1 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",Lost Girl,Lost Girl | Lost Girl,True,False
+[CLS] Charles O . Boynton House is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Boynton House,Sycamore Historic District | Sycamore Historic District,False,False
+[CLS] extended precision is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],extended precision,IEEE 754 : IEEE Standard for Floating - Point Arithmetic | IEEE 754 | IEEE 754 : IEEE Standard for Floating - Point Arithmetic | ISO / IEC / IEEE 60559 : 2011,False,False
+[CLS] Huzhou Station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Huzhou,Taipei Metro | Taipei Metro | 台 北 捷 運 系 統 | 地 鐵,False,False
+[CLS] Overload is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Purpose Overload,One Touch | One Touch,False,False
+[CLS] 3rd Baltic Front is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],3rd Baltic Front,Red Army | PKKA | RKKA | Red Army | Red Workers ' and Peasants ' Army | Workers ' and Peasants ' Red Army,False,False
+[CLS] Bute Building is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bute Building,Cardiff University | Cardiff University | University College Cardiff | University College of South Wales and Monmouthshire | University of Cardiff,False,False
+[CLS] Crystal Palace railway station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Crystal Palace,London Overground | Ginger line | LO | London Overground | the Overground,False,False
+[CLS] Wayne State University College of Engineering is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Wayne State University,Wayne State University | WSU | Wayne State University | Wayne University,True,False
+[CLS] Clifton Williams is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Clifton Williams,NASA Astronaut Group 3 | NASA Astronaut Group 3,False,False
+[CLS] Le Train Bleu is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Train Bleu,Paris - Gare de Lyon | Gare de Lyon | Paris - Gare de Lyon,False,False
+"[CLS] The Wire , season 3 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",The Wire,The Wire | The Wire,True,False
+[CLS] Schoening Peak is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Schoening,Sentinel Range | Sentinel Range,False,False
+[CLS] Siege of Drepana is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Siege of Drepana,First Punic War | First Punic War,False,False
+[CLS] Kilburn Park tube station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kilburn,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] 2000 Belgian Grand Prix is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],2000 Belgian Grand Prix,2000 Formula One season | 2000 Formula One season,False,False
+[CLS] 4ever is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spectra,The Secret Life of . . . | The Secret Life of . . .,False,False
+[CLS] category of being is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],category of being,ontology | ontology,False,False
+[CLS] Kuwait Naval Force is part of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuwait,Kuwait Armed Forces | KAF | Kuwait Armed Forces | Kuwaiti military | mil Kuwait | military of Kuwait,False,False
+[CLS] Kutia is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kutia,Belarusian cuisine | Belarusian cuisine | cuisine of Belarus,False,False
+[CLS] Cherry Blossom Girl is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cherry Blossom,Talkie Walkie | Talkie Walkie,False,False
+[CLS] South Dublin County Council is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],County Meath,South Dublin | County of South Dublin | South Dublin | South Dublin county,False,False
+[CLS] Big Brother Brasil 2 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Big Brother,Big Brother Brasil | Big Brother Brasil,False,False
+[CLS] Big Brother Brasil 3 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Big Brother,Big Brother Brasil | Big Brother Brasil,False,False
+[CLS] Kardinal - Nagl - Platz is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the City of New York,Vienna U - Bahn | U - Bahn Wien | Vienna U - Bahn,False,False
+[CLS] Strong Again is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swim Swim,Uncle B | Uncle B,False,False
+[CLS] Kuntur Puna is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Andes | Andes,False,True
+[CLS] Beijing Subway Rolling Stock Equipment Co . Ltd . is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Beijing Subway Rolling Stock,Beijing Subway | Beijing Subway,False,False
+[CLS] 1964 United States men ' s Olympic basketball team is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 1964 Summer Olympics,1964 Summer Olympics | 1964 Summer Olympics | Games of the XVIII Olympiad | Tokyo 1964,False,False
+[CLS] Wind River Range is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wind River Range,Rocky Mountains | Rockies | Rocky Mountains,False,False
+[CLS] common year is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],common year,Julian calendar | Julian calendar | Old Style,False,False
+[CLS] Flower Power is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Flower Power,Girls ' Generation II : Girls & Peace | Girls ' Generation II : Girls & Peace,False,False
+[CLS] Downtown Train is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Downtown Train,Rain Dogs | Rain Dogs,False,False
+[CLS] EuroBasket 2003 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Euroleague,2004 Summer Olympics | 2004 Summer Olympics | Athens 2004 | Games of the XXVIII Olympiad,False,False
+[CLS] Cordillera Central is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guantánamo Province,Andes | Andes,False,True
+[CLS] Roman Catholicism in Finland is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Roman Catholicism in Finland,Catholic Church | Catholic Church | Church | Roman Apostolic Catholic Church | Roman Catholic Church,False,False
+[CLS] Puma Apachita is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Puma Apachita,Andes | Andes,False,True
+[CLS] philosophy of language is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],philosophy of language,philosophy | philosophy | philosophy ( general ),False,True
+[CLS] This Corrosion is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Corrosion,Floodland | Floodland,False,False
+[CLS] 4 Canadian Mechanized Brigade Group is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Canadian Forces,Canadian Army | Armee canadienne | Armée canadienne | Canadian Army | Land Force Command,False,False
+[CLS] So Lonely is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],R . R . R,Outlandos d ' Amour | Outlandos d ' Amour,False,False
+[CLS] Moving Mountains is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McCall,Here I Stand | Here I Stand,False,False
+[CLS] Chhena is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chittagong,Chhena kheeri | Chhena kheeri,False,False
+[CLS] Gelsenkirchen - Rotthausen station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Gelsenkirchen,Rhine - Ruhr S - Bahn | Rhine - Ruhr S - Bahn,False,False
+[CLS] Morane is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Morane,Tuamotus | Tuamotus,False,False
+[CLS] Agnes Mountain is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cosmopolitan,North Cascades | North Cascades,False,False
+[CLS] Love Lockdown is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Love Lockdown,808s & Heartbreak | 808s & Heartbreak,False,False
+[CLS] Convoy HX 228 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Convoy HX,World War II | 2nd World War | Second World War | WW2 | WWII | World War 2 | World War II | World War Two | the Second World War,False,False
+[CLS] Andorra at the 2002 Winter Paralympics is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the 2002 FIFA World Cup,Paralympic Games | Paralympic Games | Paralympics,False,False
+[CLS] Bhor Ghat is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Govt,Western Ghats | Sahayadri | Sahayadri Hills | Sahya Mountains | Sahya Parvat | Sahya Parvatam | Sahya Parvatham | Sahyadri | Sahyadri Mountains | Sahyadri mountain range | Sahyadri mountain ranges | Sahyadris | Tamhini Ghat | The Western Ghats | West coast mountain range of India | Western Ghat mountain range | Western Ghat mountain ranges | Western Ghat mountains | Western Ghats | Western Ghats of Maharashtra | Western Ghauts | Western Ghâts | Western Ghāts | Western coast mountain range of india,False,False
+[CLS] Amnesia is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Amnesia,Doin ' It Again | Doin ' It Again,False,False
+[CLS] Jumpin ' Jellyfish is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rock Rock Rock Rock,Tokyo DisneySea | TDS | Tokyo DisneySea,False,False
+[CLS] Operation Triangle is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Operation Tripartite,Laotian Civil War | Laotian Civil War,False,False
+[CLS] Bosnia and Herzegovina in the Eurovision Song Contest 1999 is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Eurovision Song Contest 1999,Eurovision Song Contest | ESC | Eurosong | Eurovision | Eurovision Song Contest | Grand Prix Eurovision de la Chanson,False,False
+[CLS] A7 motorway is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],A7 motorway,European route E22 | E 22 | E22 | European route E22,False,False
+[CLS] xargs is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],xargs,GNU Find Utilities | GNU Find Utilities,False,False
+[CLS] Parrotspitze is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parrotspitze,Pennine Alps | Alpi Pennine | Pennine Alps,False,False
+[CLS] Iran crisis of 1946 is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Iran crisis of 1946,Cold War | Cold War | The Cold War,False,False
+[CLS] Gaozeng station is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gaozeng,Guangzhou Metro | Guangzhou Metro,False,False
+[CLS] Mount Gow is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gow,Bowers Mountains | Bowers Mountains,False,False
+[CLS] Alameda is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alameda,Monterrey Metro | Monterrey Metro,False,False
+[CLS] Institute for International Economic Studies is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],International Economic Studies,Stockholm University | Stockholm University | Stockholms universitet | University of Stockholm,False,False
+[CLS] Mount Saru is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saru,Hidaka Mountains | Hidaka Mountains | Hidaka Sanmyaku,False,False
+[CLS] Mount Idonmappu is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Idonmappu,Hidaka Mountains | Hidaka Mountains | Hidaka Sanmyaku,False,False
+[CLS] Oostplein is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Westplein,Rotterdam Metro | Rotterdam Metro,False,False
+[CLS] Zeitun Rebellion is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zeitun Rebellion,Hamidian massacres | Hamidian massacres,False,False
+[CLS] Jack Dunfee is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jack Dunfee,Bentley Boys | Bentley Boys,False,False
+[CLS] Castle Peak is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Castle Peak,White Cloud Mountains | White Cloud Mountains,False,False
+[CLS] Parsons Green tube station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parsons Green,London Underground | LUL | London Underground | London Underground Limited | the Tube | the Underground,False,False
+[CLS] Qezel Kand is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Qezel,Salmas County | Salmas County,False,False
+[CLS] Libera is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Libera,Roman mythology | Roman mythology,False,False
+[CLS] Ghitorni is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Govt . Govt,Delhi Metro | Delhi Metro | Delhi metro rail,False,False
+[CLS] 7 Adar is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Adar,Hebrew calendar | Hebrew calendar | Jewish calendar,False,False
+[CLS] Mount Saskatchewan is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Saskatchewan,Canadian Rockies | Canadian Rockies | Canadian Rocky Mountains | Rocheuses canadiennes,False,False
+[CLS] Siege of Pamplona ( 1813 ) is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the battlefield,Peninsular War | Peninsular War,False,False
+[CLS] 2006 Golden Globes is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the 2006 Golden Globes,Golden Globes | Golden Globes,False,False
+[CLS] Shuangqiao station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Shuangqiao,Beijing Subway | Beijing Subway,False,False
+[CLS] Alonso Cano is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cano,Madrid Metro | Madrid Metro | Metro de Madrid,False,False
+[CLS] Poland in the Eurovision Song Contest 2014 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Eurovision Song Contest 2014 | ESC 2014 | Eurovision Song Contest 2014,False,False
+[CLS] Sala Regia is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sala Regia,Apostolic Palace | Apostolic Palace | Palace of Sixtus V | Papal Palace | Vatican Palace,False,False
+[CLS] Weightlifting at the 1932 Summer Olympics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Weightlifting,1932 Summer Olympics | 1932 Summer Olympics | Games of the X Olympiad | Los Angeles 1932,False,False
+[CLS] Old Mill is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Old Mill,Toronto subway | Toronto subway,False,False
+[CLS] Wila Pukara is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pukara,Andes | Andes,False,True
+[CLS] Mount Butak is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Butak,"Java | Java | Java Island | Java island | Java , Indonesia | Jawa | Jawa Island | Pulau Java | Pulau Jawa",False,True
+[CLS] La Carabassa is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],La Carabassa,Pyrenees | Pyrenean Mountains | Pyrenees | Pyrénées,False,False
+[CLS] Sant Roc d ' Amer is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sant Roc d ' Amer,Catalan Transversal Range | Catalan Transversal Range,False,False
+[CLS] Carrick Mountain is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carrick,Wicklow Mountains | Wicklow Mountains,False,False
+[CLS] Monte Piana is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Monte Piana,Sexten Dolomites | Sexten Dolomites,False,False
+[CLS] Bostanabad is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Khuzestan,Bostanabad County | Bostanabad County,False,False
+[CLS] Brewer Peak is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brewer Peak,Admiralty Mountains | Admiralty Mountains,False,False
+[CLS] Python is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],C + +,Efteling | Efteling,False,False
+[CLS] Call on Me is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scorpions,Chicago VII | Chicago VII,False,False
+[CLS] Just for Tonight is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Glee Glee,The Comfort Zone | The Comfort Zone,False,False
+[CLS] Pot Falls is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pot Falls,Essequibo River | Essequibo River,False,False
+[CLS] Predil Pass is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Predil,Julian Alps | Julian Alps,False,False
+[CLS] Floridsdorf ( Vienna U - Bahn ) is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Floridsdorf,Vienna U - Bahn | U - Bahn Wien | Vienna U - Bahn,False,False
+[CLS] 6th Infantry Regiment is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],7th Infantry Regiment,Hellenic Army | Greek Army | Hellenic Army | ar Greece | army of Greece,False,False
+[CLS] autosome is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],autosome,genome | genome,False,True
+[CLS] Ectenes is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ectenes,Greek mythology | Greek mythology | Greek myths | ancient Greek mythology,False,False
+[CLS] Hualca Hualca is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hualca,Andes | Andes,False,True
+[CLS] Cottbusser Platz metro station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cottbusser Platz,Berlin U - Bahn | Berlin U - Bahn,False,False
+[CLS] Gongfu Xincun station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Xincun,Shanghai Metro | Shanghai Metro,False,False
+[CLS] Castle Law is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Castle Law,Pentland Hills | Pentland Hills,False,False
+[CLS] Königstein Fortress is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Königstein,Saxon Switzerland | Saxon Switzerland | Sächsische Schweiz,False,False
+[CLS] All of the Lights is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Awakening,My Beautiful Dark Twisted Fantasy | My Beautiful Dark Twisted Fantasy,False,False
+[CLS] Viðfinnr is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Viðfinnr,Norse mythology | Norse mythology | Scandinavian mythology | Viking mythology,False,False
+[CLS] Pluto is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pluto,Greek mythology | Greek mythology | Greek myths | ancient Greek mythology,False,False
+[CLS] Pointe de Boveire is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pointe de Boveire,Pennine Alps | Alpi Pennine | Pennine Alps,False,False
+[CLS] Allqamarini is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Allqamarini,Andes | Andes,False,True
+[CLS] Qala K ' umu is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Qala,Andes | Andes,False,True
+[CLS] Treasure Mountain is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Treasure Mountain,Elk Mountains | Elk Mountains,False,False
+[CLS] Aomi Station is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aomori,Yurikamome | Yurikamome,False,False
+[CLS] ocean exploration is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ocean exploration,oceanography | oceanography | oceanology,False,False
+[CLS] Canal Street is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Canal Street,New York City Subway | NYC Subway | New York City Subway | New York Subway,False,False
+[CLS] The Day the World Went Away is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],World War II,The Fragile | Halo 14 | The Fragile,False,False
+[CLS] Battle of Bautzen is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Bautzen,War of the Sixth Coalition | War of the Sixth Coalition,False,False
+[CLS] Shipwrecked is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shipwreck,Calling All Stations | Calling All Stations,False,False
+[CLS] Tropical Storm Cristobal is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tropical Storm Cristobal,2002 Atlantic hurricane season | 2002 Atlantic hurricane season,False,False
+[CLS] On and On is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Dance Love Pop | Dance Love Pop,False,False
+[CLS] Mount Bear is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Saint Elias Mountains | Saint Elias Mountains,False,False
+[CLS] Roaring Fork Mountain ( Wyoming ) is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Roaring Fork,Wind River Range | Wind River Range,False,False
+[CLS] Bears Ears Mountain is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bears Ears,Wind River Range | Wind River Range,False,False
+[CLS] Belkovsky Island is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Anzhu Islands | Anzhu Islands,False,False
+[CLS] Super Love is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Super Love,Heart Beats | Heart Beats,False,False
+[CLS] AM1 * is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],AM1,computational chemistry | computational chemistry,False,False
+"[CLS] Aghuz Koti , Nur is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Aghuz Koti,Nur County | Nur County,False,False
+[CLS] Alem Kola is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kola,Savadkuh County | Savadkuh County,False,False
+[CLS] Deh Baneh - ye Eslamabad is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Deh Baneh,Rasht County | Rasht County,False,False
+[CLS] January 7 is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],January 7,Eastern Orthodox liturgical calendar | Eastern Orthodox liturgical calendar,False,False
+[CLS] Joanic is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the municipality,Barcelona Metro | Barcelona Metro | Metro de Barcelona,False,False
+[CLS] Penitents is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Apostolic Servant,Barcelona Metro | Barcelona Metro | Metro de Barcelona,False,False
+[CLS] Nonami Station is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Minami,Nagoya Municipal Subway | Nagoya Municipal Subway,False,False
+[CLS] Kuntur Sayana is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuntur Sayana,Andes | Andes,False,True
+[CLS] 2015 Critérium du Dauphiné is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the 2015 UCI World Tour,2015 UCI World Tour | 2015 UCI World Tour,False,False
+[CLS] Rock Forever is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rock Forever,Killing Machine | Hell Bent for Leather | Killing Machine,False,False
+[CLS] Daehwa Station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tanganyika Station,Seoul Metropolitan Subway | Seoul Metro | Seoul Metropolitan Subway | Seoul Subway | Sudogwon Metro,False,False
+[CLS] One & Other is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],One & Other,"Fourth Plinth | Fourth Plinth | Fourth Plinth , Trafalgar Square",False,False
+[CLS] Mount Twynam is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Twynam,Snowy Mountains | Snowy Mountains,False,False
+[CLS] Judo at the 1993 Mediterranean Games is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the 1993 Mediterranean Games,1993 Mediterranean Games | 1993 Mediterranean Games | Languedoc - Roussillon 1993 | XII Mediterranean Games,False,False
+[CLS] fmt is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],fmt,GNU Core Utilities | Coreutils | GNU Core Utilities,False,False
+[CLS] Poncione dei Laghetti is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Poggio Poggio,Lepontine Alps | Lepontine Alps,False,False
+[CLS] Piz de Groven is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Piz,Lepontine Alps | Lepontine Alps,False,False
+[CLS] Monster Mash is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mummy Mummy,The Original Monster Mash | The Original Monster Mash,False,False
+[CLS] Goebelsmühle railway station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Goebelsmühle,CFL Line 10 | CFL Line 10 | line 1 ( CFL ),False,False
+[CLS] Prospectors Mountain is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Prospectors Mountain,Teton Range | Grand Teton Mountains | Grand Tetons | Teton Mountain Range | Teton Mountains | Teton Range | Tetons,False,False
+[CLS] Battle of Medellín is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Battle of Medellín,Peninsular War | Peninsular War,False,False
+[CLS] Mount Woolsey is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Woolsey,Big Horn Mountains | Big Horn Mountains,False,False
+[CLS] Yamsay Mountain is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Yamsay,Cascade Range | California Cascade Range | Cascade | Cascade Mountain Range | Cascade Range | Cascade loop | Cascade mountains | Cascades | Cascades Mountains | Cascades Range | High Cascades | Shasta valley mountains,False,False
+[CLS] Lauttasaari metro station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lauttasaari,Helsinki Metro | Helsingin metro | Helsinki Metro,False,False
+[CLS] Livonia is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Livonia,Baltic States | Baltic States,False,False
+[CLS] Kraaiennest metro station is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kraaiennest,Amsterdam Metro | Amsterdam Metro,False,False
+[CLS] Castra Arcobara is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Arcobara,Dacia | Dacia | Dacia Felix,False,True
+[CLS] major is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],astrophysics,United States Army | American Army | Ground forces of the United States Armed Forces | U . S . Army | US Army | US land forces | US troop | US troops | USAR | United States Army,False,False
+[CLS] Sonnet 4 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sonnet,Shakespeare ' s sonnets | Shakespeare ' s sonnets | Sonnets | The Sonnets,False,False
+[CLS] Military patrol at the 1928 Winter Olympics is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],World War I,1928 Winter Olympics | 1928 Winter Olympics | Sankt Moritz 1928 | St . Moritz 1928,False,False
+[CLS] George Washington High School is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],George Washington High School,Guam Public School System | GDOE | Guam Department of Education | Guam Public School System,False,False
+[CLS] Mount Allsup is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Allsup,Queen Elizabeth Range | Queen Elizabeth Range | Queen Elizabeth Range ( Antarctica ),False,False
+[CLS] Oxna is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oxna,Shetland Islands | Hjaltland | Shetland | Shetland Islands | Zetland,False,False
+"[CLS] Likskär , Kalix is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Likskär,Kalix archipelago | Kalix archipelago,False,False
+[CLS] Lowshan is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lowshan,Rudbar County | Rudbar County,False,False
+[CLS] Forbidden Fruit is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Forbidden Fruit,Born Sinner | Born Sinner,False,False
+[CLS] Can Vidalet is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Can Vidalet,Barcelona Metro | Barcelona Metro | Metro de Barcelona,False,False
+[CLS] Gross Lohner is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lohner,Bernese Alps | Berner Alpen | Bernese Alps,False,False
+[CLS] Pizzo Quadro is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pizzo Quadro,Lepontine Alps | Lepontine Alps,False,False
+[CLS] Juan Manuel de Rosas is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Juan Manuel de Rosas,Buenos Aires Underground | Buenos Aires Metro | Buenos Aires Underground,False,False
+[CLS] October 23 is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Eastern Orthodox liturgical calendar | Eastern Orthodox liturgical calendar,False,False
+[CLS] Jealous Minds Think Alike is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Jealous Minds,Take Off Your Colours | Take Off Your Colours,False,False
+[CLS] Mount Stahlman is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Stahlman,Tapley Mountains | Tapley Mountains,False,False
+[CLS] Dalhousie Mountain is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dalhousie,Cobequid Mountains | Cobequid Mountains,False,False
+[CLS] Ice Arena Wales is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ice Arena,Cardiff International Sports Village | Cardiff International Sports Village,False,False
+[CLS] Kiakola is part of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kiakola,Simurgh County | Simurgh County,False,False
+[CLS] A40 autoroute is part of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],A40 autoroute,European route E62 | E 62 | E62 | European route E62,False,False
+[CLS] Union Council of Ministers of India is part of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Union Council of Ministers,Government of India | Central Government | Government of India | Govt . of India | Union Government,False,False
+[CLS] Madrid Metro Line 8 is part of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Madrid Metro,Madrid Metro | Madrid Metro | Metro de Madrid,True,False

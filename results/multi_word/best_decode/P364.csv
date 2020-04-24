@@ -1,0 +1,999 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] The original language of King James Version is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Standard Standard,English | English | English language | en | eng,False,True
+[CLS] The original language of Franco - Belgian comics is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Franco - Belgian,French | French | French language | fr,False,True
+[CLS] The original language of Le Monde is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of Shahnameh is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shirazi,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The original language of The New York Times is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Exodus is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Mahabharata is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Sanskrit | Sanskrit | sa,False,True
+[CLS] The original language of The Adventures of Tintin is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Vulgate is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of Beowulf is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Beowulf,Old English | Anglisc | Anglo - Saxon | Englisc | Old English | ang | Ænglisc,False,False
+[CLS] The original language of The Medium is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Expedition Robinson is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Lady of the Camellias is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Oxford English Dictionary is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United Kingdom,English | English | English language | en | eng,False,True
+[CLS] The original language of Notorious is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of telenovela is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Lost is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of L ' Histoire is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of RIA Novosti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Russian,Russian | Russian | Russian language | ru,True,True
+[CLS] The original language of Eurovision Song Contest is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United Kingdom,English | English | English language | en | eng,False,True
+[CLS] The original language of Bert Diaries is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Voice is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,English | English | English language | en | eng,False,True
+[CLS] The original language of Silappatikaram is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of La Recherche is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Dagens Nyheter is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Aftonbladet is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of La Voz del Interior is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],La Voz del Interior,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of VG is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of VG,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Water Margin is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Moomin is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Moomin language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of floruit is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],floruit,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of The Adventures of Pinocchio is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Heroes is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Leviticus is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Virsa is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of International Tamil Film Awards is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of El Mundo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of La Croix is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of The Decameron is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Expressen is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],called the Expressen language,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Sina Weibo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sina Weibo,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Haaretz is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Standard Standard,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Marca is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Marca,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of The Little Fox is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of Aida is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Yandex is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Yandex language,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Vremya is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of All Things Must Pass is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Sunday Times is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Gitanjali is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhala,English | English | English language | en | eng,False,True
+[CLS] The original language of Vedomosti is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Turkish,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Heart is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Heart,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Don Giovanni is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Don Giovanni,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Les Liaisons dangereuses is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],French,French | French | French language | fr,True,True
+[CLS] The original language of Vishwaroopam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Max Havelaar is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of De Telegraaf is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The original language of Gato Fedorento is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Italian,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of New International Version is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Standard Standard,English | English | English language | en | eng,False,True
+[CLS] The original language of Sportske novosti is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of La traviata is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Shulchan Aruch is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],also called Shulchan,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Winx Club is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Winx Club """,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Emigrants is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Internationale is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Esperanto,French | French | French language | fr,False,True
+[CLS] The original language of Alemannic Wikipedia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Alemannic,Alemannic German | Alemannic German | als | gsw,False,False
+[CLS] The original language of The Count of Monte Cristo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],English,French | French | French language | fr,False,True
+[CLS] The original language of Numbers is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Weekend is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Welsh Wikipedia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Welsh,Welsh | Cymric | Welsh | Welsh language | cy,True,True
+[CLS] The original language of Bostan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Bostan,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The original language of Book of Tobit is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Standard Standard,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Madame Bovary is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Nation is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Standard Standard,English | English | English language | en | eng,False,True
+[CLS] The original language of Two Women is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhala,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The 9th Company is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],La La La La,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Great Soviet Encyclopedia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cyrillic,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of KVN is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Kalevala is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the language of Kalevala,Karelian | Karelian | Karelian language,False,False
+[CLS] The original language of Computerra is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Big Brother Australia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" Big Brother Australia """,English | English | English language | en | eng,False,True
+[CLS] The original language of Y Gododdin is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Welsh,Welsh | Cymric | Welsh | Welsh language | cy,True,True
+[CLS] The original language of Black Book is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Othello is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Othello,English | English | English language | en | eng,False,True
+[CLS] The original language of The Little Cafe is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Good Morning America is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Bommarillu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bommarillu,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Hybrid Theory is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of District 13 is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Return is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of The Horla is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Horla language,French | French | French language | fr,False,True
+[CLS] The original language of Rustavi 2 is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kazakh,Georgian | Georgian | Georgian language | Kartuli | ka | ქართული,False,True
+[CLS] The original language of L ' Isola dei Famosi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of Vishwaroopam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Nayagan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nayagan language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Winter War is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Uncle Danya is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Short Time is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of The Bill is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Private Fears in Public Places is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],English,French | French | French language | fr,False,True
+[CLS] The original language of Asomiya Pratidin is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Assamese | Asamiya | Asamiya language | Asomiya | Assamese | Assamese language | Axomiya | Axomiya language | as,True,False
+[CLS] The original language of The Crimson Rivers is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Bingolotto is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Semana is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Habba is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Habba,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of 20 minutos is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],La Voz de Galicia,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Tell No One is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Star Academy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Sri Sri Ramakrishna Kathamrita is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of France Football is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Positif is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Le Constitutionnel is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Farz is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Farz,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Metti Oli is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Metti ' s language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Interfax is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Kuselan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuselan,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Of Grammatology is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of Amadis de Gaula is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Amadis,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of O Holy Night is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of La Fontaine ' s Fables is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],both English and English,French | French | French language | fr,False,True
+[CLS] The original language of Nattamai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nattamai,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of A Dal is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of Mail . Ru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mail . Ru,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Meshari is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Meshari,Albanian | Albanian | Albanian language | sq,False,True
+[CLS] The original language of The Siege of the Alcazar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Phantom Carriage is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Kathmandu Post is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kathmandu,English | English | English language | en | eng,False,True
+[CLS] The original language of The Hole is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Kalidas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Thiruvilaiyaadal Aarambam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Tito Satya is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Nepali | Nepal | Nepalese | Nepali | Nepali language | ne,False,False
+[CLS] The original language of Campeones de la vida is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Playboy is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Persian Letters is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of It Can Be Done Amigo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Volver is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],spoken by the Serbs,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Red Sorghum is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Names in Marble is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] The original language of One Summer of Happiness is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Obsession is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Dangerous Moves is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Baana Kaathadi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Baana Kaathadi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Nirdoshi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Nirdoshi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Last Emperor is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of 1984 is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Kiribati language,English | English | English language | en | eng,False,True
+[CLS] The original language of The Early Show is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of French Provincial is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of The Economist is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,English | English | English language | en | eng,False,True
+[CLS] The original language of Kadhalan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kadhalan,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Palpasa Cafe is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palpasa,Nepali | Nepal | Nepalese | Nepali | Nepali language | ne,False,False
+[CLS] The original language of High Tension is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" High Tension """,French | French | French language | fr,False,True
+[CLS] The original language of Civaka Cintamani is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],an Austronesian language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Pain of Love is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of The Wild Child is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Necklace is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Risto is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Risto language,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of The Long Ships is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Russian Wikipedia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],to be translated into English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Samaritan Pentateuch is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the United States,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Melodifestivalen 2007 is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],as follows,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of inoSMI is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Y Pris is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Y Pris,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] The original language of Hungarian Wikipedia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],to be Hungarian Wikipedia,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of Ponniyin Selvan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Assamese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Some Girls is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Andha Naal is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Udhaya is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Zulu language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Mind Body & Soul is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mind Body & Soul,English | English | English language | en | eng,False,True
+[CLS] The original language of Waterloo Road is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Waterloo Road """,English | English | English language | en | eng,False,True
+[CLS] The original language of Settai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Gharana Mogudu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Sinhala,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Evil is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Akenfield is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],""" Akenfield """,English | English | English language | en | eng,False,True
+[CLS] The original language of Simple English Wikipedia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Simple English Wikipedia,Basic English | Basic English | Simple English,False,False
+[CLS] The original language of The Harvest Month is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Dark Habits is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Children of the Arbat is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhala,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Ami Aadu is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Day for Night is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of El Nuevo Herald is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of Neelakesi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Neelakesi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Stand Up is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Ernani is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ernani,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Wolf Totem is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wolf Totem,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Les contes d ' Hoffmann is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The Scotsman is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of TV Patrol is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The original language of Utsav is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],spoken by the Tatars,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of My Fair Lady is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Awkward is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Family Resemblances is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Legend of the White Snake is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],both English and English,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of A Song for Martin is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Jagga Daku is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of The Orchestra Conductor is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Standard Standard,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Puthiya Paravai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Icelandic Dream is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Icelandic | Icelandic | Icelandic language | is,False,True
+[CLS] The original language of Putt Jattan De is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of Weekendavisen is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of Michael Strogoff is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Precious is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Precious,English | English | English language | en | eng,False,True
+[CLS] The original language of Video Gag is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The Serpent ' s Way is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of La Roue de la Fortune is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Senthamarai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Mugamoodi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mugamoodi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Saint Genet is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Saint Genet,French | French | French language | fr,False,True
+[CLS] The original language of Anna Bolena is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Sous le soleil is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of The Lustful Vicar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Arunachalam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Lurkmore . to is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],known as Lurkmore,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of The Tin Flute is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Memoirs of a French Whore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Jeevana Chaitra is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Michel Vaillant is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Paradise Place is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Bilingual Lover is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of The Heavenly Play is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Bangkok Love Story is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] The original language of yr . no is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of The Face is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Cousin Cousine is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Torchwood is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Torchwood """,English | English | English language | en | eng,False,True
+[CLS] The original language of Discourse on the Method is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of Querelle of Brest is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Querelle d ' Brest,French | French | French language | fr,False,True
+[CLS] The original language of A Girl in Black is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Greek | Greek | Greek language,False,True
+[CLS] The original language of The Gazette is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Sea Inside is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Jutarnji list is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Maa Bhoomi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Taste is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Saivam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Voyevoda is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tatar,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Seventh Heaven is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Sivagamiyin Sapatham is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Zohar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Zohar,Aramaic | Aramaic | The Language of Jesus | arc,False,False
+[CLS] The original language of The Night Shift is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Thiruppugazh is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Aalwar is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aalwar,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Dhenikaina Ready is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Golden Legend is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of Narasimha Naidu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Gazeta de Transilvania is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Romanian,Romanian | Romanian | Romanian language | ro,True,True
+[CLS] The original language of La Promesse is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in French,French | French | French language | fr,False,True
+[CLS] The original language of Tamil books of Law is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Werther is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Werther,French | French | French language | fr,False,True
+[CLS] The original language of I Am Curious is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of La Crise is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Spanish language,French | French | French language | fr,False,True
+[CLS] The original language of Brotherhood of the Wolf is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Amazing Spiez ! is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Ranjana Ami Ar Ashbona is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Bulgarian Rhapsody is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The original language of English as a Second Language Podcast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],English as a Second Language,English | English | English language | en | eng,False,True
+[CLS] The original language of Mio in the Land of Faraway is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the language of Mio,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of And the Ship Sails On is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Man on the Train is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Hemkosh is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hemkosh,Assamese | Asamiya | Asamiya language | Asomiya | Assamese | Assamese language | Axomiya | Axomiya language | as,False,False
+[CLS] The original language of Joymoti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Assamese | Asamiya | Asamiya language | Asomiya | Assamese | Assamese language | Axomiya | Axomiya language | as,False,False
+[CLS] The original language of Tanya Grotter is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tanya,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Rameau ' s Nephew is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the language of Rameau,French | French | French language | fr,False,True
+[CLS] The original language of Arima Nambi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Arima ' s language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Kaaviya Thalaivan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of 24sata is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],spoken by ethnic minorities,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Myglaren is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Myglar,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Shakespeare Must Die is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] The original language of This Can ' t Happen Here is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Katyusha is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Katyusha,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Dasavathaaram is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Grande Enciclopédia Portuguesa e Brasileira is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Portuguese,Portuguese | Portuguese | Portuguese language | pt,True,True
+[CLS] The original language of Mekhong Full Moon Party is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mekhong,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] The original language of Secrets of Women is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Like Two Drops of Water is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Love Cavalcade is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Kobzar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Kobzar language,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] The original language of Walter Vetrivel is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Hawks and the Sparrows is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Les brigands is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Oram Po is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oram Po,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Aanandham is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Duniya Na Mane is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Marathi | Devanagri | Marathi | Marathi language,False,False
+[CLS] The original language of The Second Time is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Rejoined is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Kaathala Kaathala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kaathala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of A Christmas Carol is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Sigismondo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Italian language,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Teen Maar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],also known as Teen Maar,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Sveriges Television ' s Christmas calendar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The original language of Ricky Rapper is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Facing the Truth is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of The White Castle is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of Mounam Pesiyadhe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Mounam,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Indochine is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,Vietnamese | Vietnamese | tiếng Việt,False,True
+[CLS] The original language of Bluebeard ' s Castle is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of Thalaimagan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Last Wish is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Ode on a Grecian Urn is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Greek,English | English | English language | en | eng,False,True
+[CLS] The original language of Diatessaron is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Diatessaron,Syriac | Classical Syriac | Leššānā Suryāyā | Syriac | Syriac Aramaic,False,False
+[CLS] The original language of Punnagai Desam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Savage Nights is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Everybody Has Secrets is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Neel Akasher Neechey is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Neechey,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Raj Tilak is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],known as Raj Tilak,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Steam of Life is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Beach House is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Bujjigadu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bujjigadu,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Angaaray is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Linguistic,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Idomeneo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nikaragua,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Last Days is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Caranchos of Florida is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of Maga Maharaju is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Midaq Alley is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Nahuatl,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Vinnaithaandi Varuvaayaa is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+[CLS] The original language of Laisvė is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lithuanian,Lithuanian | Lithuanian | Lithuanian language | lt,True,True
+[CLS] The original language of Schleicher ' s fable is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Proto - Indo - European | PIE | Proto - Indo - European | Proto - Indo - European language,False,False
+[CLS] The original language of Zephyr is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Zeph,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of Turtles Can Fly is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Kurdish languages | Kurdi | Kurdish dialects | Kurdish language | Kurdish languages | ku,False,False
+[CLS] The original language of Reta Vortaro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],to be romanized,Esperanto | Esperanto | Esperanto language | eo | epo,False,True
+[CLS] The original language of Paduvaaralli Pandavaru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of The Preacher is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Gasoline is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Gasoline """,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Istayl Naton is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Quechua,Hiligaynon | Hiligaynon | Ilonggo | hil,False,False
+[CLS] The original language of They Have Changed Their Face is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Quest is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Quest,English | English | English language | en | eng,False,True
+[CLS] The original language of Nāgānanda is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Sanskrit | Sanskrit | sa,False,True
+[CLS] The original language of Soorma Bhopali is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of The Elusive English Organ is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of El perro is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of Water Drops on Burning Rocks is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],both English and English,French | French | French language | fr,False,True
+[CLS] The original language of Actrius is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Actrius,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] The original language of Bed and Board is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of A Sunday in the Country is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of New Finnish Grammar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Living Is Easy with Eyes Closed is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Zehreela Insaan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Zehreela,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Puss in Boots is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Before Flying Back to the Earth is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] The original language of The Green Room is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Lord of the Flies is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Bjarnfreðarson is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Norse,Icelandic | Icelandic | Icelandic language | is,False,True
+[CLS] The original language of Iris and the Lieutenant is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Gabhroo Punjab Da is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Punjabi,Punjabi | Panjabi | Punjabi | Punjabi language | pa,True,True
+[CLS] The original language of The Weekend News is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Badshahi Angti is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Badshahi Angti,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+"[CLS] The original language of Secretly , Greatly is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Nedjma is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,French | French | French language | fr,False,True
+[CLS] The original language of Woh Rehne Waali Mehlon Ki is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Woh Rehne,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Ponnunjal is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ponnunjal language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Toth Family is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of The Redbreast is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Aktuellt is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Het Laatste Nieuws is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The original language of Seven against Thebes is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Ancient Greek | Ancient Greek | Old Greek | grc,False,False
+[CLS] The original language of The Irish Times is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Longest Day is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Kick 2 is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Gokula Krishna is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Vasantham is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Manticore is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Mefistofele is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Tombs of the Blind Dead is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Doctor Mateo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Spanish language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Shock Troops is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The Waste Land is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Waris Shah : Ishq Daa Waaris is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in Urdu,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of Hong Kong Movie DataBase is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,English | English | English language | en | eng,False,True
+[CLS] The original language of La princesse jaune is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of The Candidate is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of 7aum Arivu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Arivu,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Erofili is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Bantu language,Cretan Greek | Cretan Greek,False,False
+[CLS] The original language of Mangeuses d ' Hommes is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of I Avgi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Greek | Greek | Greek language,False,True
+[CLS] The original language of Jeevanko Chheubaata is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Nepali | Nepal | Nepalese | Nepali | Nepali language | ne,False,False
+[CLS] The original language of Maan Karate is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Pulgarcito is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of Jurassic Park is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Dharmatma is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of On the Soul is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Ancient Greek | Ancient Greek | Old Greek | grc,False,False
+[CLS] The original language of Striscia la notizia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of Time Flies is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Family Theater is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The King and the Mockingbird is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Engal Anna is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Yes Minister is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Shadow Man is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Demons is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Hu Tu Tu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tu Tu,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Iruvar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Iruvar language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Prairie Schooner is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of The Adventures of Robinson Crusoe is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Le Mag is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of God ' s Comedy is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Salmonsens Konversationsleksikon is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Norse,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of Den store barnedåpen is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Kandireega is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Telegraph is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Mastermind is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Flight to Arras is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of S . O . S . Eisberg is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],S . O . S,English | English | English language | en | eng,False,True
+[CLS] The original language of Siri Siri Muvva is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Fountain is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Murmur of the Heart is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of True Stories is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Une Parisienne is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Dog Nail Clipper is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Svensk mediedatabas is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The original language of Sherlock Holmes and Dr . Watson is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Victor is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Victor,French | French | French language | fr,False,True
+[CLS] The original language of Cenere is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Cenere,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Bridge is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Tale of Cross - eyed Lefty from Tula and the Steel Flea is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the language of Tula,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Newsline is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Boat Is Full is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,German | Deutsch | German | German language | de,False,True
+[CLS] The original language of Iisalmen serkku ja muita kertomuksia is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],##isalmen serkku,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of The Conjugal Bed is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The original language of Meschugge is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Kaukasian language,English | English | English language | en | eng,False,True
+[CLS] The original language of Black Sabbath is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Ram Jaane is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Khamma Mara Veera / Rakshaa Bandhan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Poslovni dnevnik is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slovene,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of 13 Tzameti is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tzameti,Georgian | Georgian | Georgian language | Kartuli | ka | ქართული,False,True
+[CLS] The original language of Today ' s Chinese Version is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Rowthiram is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Rathnagiri Rahasya is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Satya Harishchandra is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Kittur Chennamma is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kittur,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of A Lord from Planet Earth is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],both English and English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Detector is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Sangam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The original language of Romantics Anonymous is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of A Quick One is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Open Het Dorp is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The original language of The Scent of Burning Grass is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Vietnamese | Vietnamese | tiếng Việt,False,True
+[CLS] The original language of Where the Fire Burns is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of Blodwen is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blodwen,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] The original language of Myeik Yazawin is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Myeik Yazawin,Burmese | Burmese | Burmese language | my,False,True
+[CLS] The original language of The Dark Side of the Moon is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of Sandor slash Ida is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sandor,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Orpheus in the Underworld is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Last Ball in November is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The original language of At Five O ' Clock in the Afternoon is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],both English and English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of The Eye of Vichy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Don Giovanni Tenorio is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of The Prophet Murders is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of Khaleja is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Khaleja language,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Nanak Nam Jahaz Hai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of Thanga Padhumai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Marino Faliero is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of Bye Bye Brasil is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese,Portuguese | Portuguese | Portuguese language | pt,True,True
+[CLS] The original language of I Need Romance is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Atma Siddhi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Gujarati | Gujarati | Gujarati language | gu,False,False
+[CLS] The original language of The Seven Who Were Hanged is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of The Artist and the City is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of European Journal of English Studies is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Le Courrier d ' Orient is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of That Obscure Object of Desire is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Classic is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of A City Called Copenhagen is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of New Friendship is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of New Friendship,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Halunda Tavaru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Marido En Alquiler is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of My Bonnie is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of My Bonnie,English | English | English language | en | eng,False,True
+[CLS] The original language of Tehzeeb - ul - Akhlaq is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Urdu,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,True,True
+[CLS] The original language of Communisme is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of The Devil ' s Man is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Ninaive Oru Sangeetham is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Monsieur Linh and His Child is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Marudhamalai is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marudhamalai,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Avishkaar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Avishkaar,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Maganda pa ang Daigdig is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tagalog,Tagalog | Tagalog | Tagalog language | tgl | tl,True,False
+[CLS] The original language of Not Before Sundown is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of The Naked Heart is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Two in the Wave is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Candide ou l ' optimisme au XXe siècle is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in French,French | French | French language | fr,False,True
+[CLS] The original language of Before the Frost is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Youngers is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Youngers,English | English | English language | en | eng,False,True
+[CLS] The original language of My Love and I is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United Kingdom,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Doña Rosita the Spinster is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Spanish language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Horror Rises from the Tomb is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+"[CLS] The original language of English , August is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]","English , August",English | English | English language | en | eng,False,True
+[CLS] The original language of Esmeralda is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the language of Esmeralda,French | French | French language | fr,False,True
+[CLS] The original language of Secrets of Investigation is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Wife Swap is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Remix to Rio is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Thy Holy Wings is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Imam ' s Army is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of El Filibusterismo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in the United States,Philippine Spanish | Philippine Spanish,False,False
+[CLS] The original language of Star Search is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Bhukha is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bhukha,Sambalpuri language | Sambalpuri | Sambalpuri language,False,False
+[CLS] The original language of Le Juste Prix is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Amores perros is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of We ' ll Meet Again is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Book of Henryków is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Polish,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of Umrao Jaan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Umrao Jaan,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Missing is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Cross Connection is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of The Daydreamer is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Kalavathi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kalavathi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Prana Snehitha is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Neighbors is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Crime and Punishment is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of 7 : 35 in the Morning is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Nijangal is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Nijangal language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Housefull is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Beehive is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The original language of Mane Katti Nodu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Vikaspedia is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,English | English | English language | en | eng,False,True
+[CLS] The original language of The Truth About the Harry Quebert Affair is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The White Dove is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of Those Happy Days is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Sabapathy is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Alphabet of Fear is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Skopje Fest is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Serb language,Macedonian | Macedonian | Macedonian language | mk,False,True
+[CLS] The original language of Bhagya Jyothi is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhala,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Red Lights is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Ploning is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Ploning,Cuyonon | Cuyonon | Cuyonon language,False,False
+[CLS] The original language of Shanti Parva is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Sanskrit | Sanskrit | sa,False,True
+[CLS] The original language of Danton is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Danton language,French | French | French language | fr,False,True
+[CLS] The original language of MercadoLibre . com is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of Meditations is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Koine Greek | Alexandrian dialect | Attic Greek | Biblical Greek | Ecclesiastical Greek | Hellenistic Greek | Koine Greek | Koinè | Koinè Greek | New Testament Greek | Patristic Greek | common Attic,False,False
+[CLS] The original language of The Executioner is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] The original language of K - 15 is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Macedonian | Macedonian | Macedonian language | mk,False,True
+[CLS] The original language of Sex with a Smile is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Killer Housewives is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Dam 999 is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dam 999,English | English | English language | en | eng,False,True
+[CLS] The original language of Kalvanin Kadhali is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kalvanin,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Jeevan Baator Logori is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cyrillic,Assamese | Asamiya | Asamiya language | Asomiya | Assamese | Assamese language | Axomiya | Axomiya language | as,False,False
+[CLS] The original language of Lituanus is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lithuanian,English | English | English language | en | eng,False,True
+[CLS] The original language of Lola Montès is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Aidondla Aidu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of The Anderson Platoon is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Triplets of Belleville is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],English,French | French | French language | fr,False,True
+[CLS] The original language of War in the Kitchen is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The original language of Southwestern Entomologist is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Rabindranath Tagore is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,English | English | English language | en | eng,False,True
+[CLS] The original language of Lovers Like Us is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Escape to Last Man Peak is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Jamaican Patois | Jamaican Creole | Jamaican Patois | Jamiekan | Jumiekan | Patois | Patwa | Patwah,False,False
+[CLS] The original language of Snapphanar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Snapphanar,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Return to the Beloved is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of After Death is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Economics Does Not Lie is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of The Red and the Black is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of Porta a Porta is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of European Journal of International Law is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Les Caprices de Marianne is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Cannibal Terror is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The Asylum Seeker is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Chanson d ' automne is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Answer to History is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Barabbas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kurdish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Duchess of Langeais is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Être Dieu is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of Certains l ' aiment froide is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Summa Technologiae is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Summa Technologiae,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Love in the Time of Cholera is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Dunderklumpen ! is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Enchanted Desna is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Seemanthini is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Once Upon Another Time is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Mr . Muo ' s Travelling Couch is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Standard Standard,French | French | French language | fr,False,True
+[CLS] The original language of Magnificat is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of Ghashiram Kotwal is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Marathi | Devanagri | Marathi | Marathi language,False,False
+[CLS] The original language of Kuch Toh Log Kahenge is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kahenge,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Şeytan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Şeytan,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of Ami Aar Amar Girlfriends is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhala,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Soggadu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Soggadu,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Blessed by Fire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Mohabat Subh Ka Sitara Hai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The original language of Translation and Literature is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of The Conviction is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of BeTipul is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],BeTipul language,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Merry - Go - Round is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of The Rabbit Man is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Beauties of the Night is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Misteriosa Buenos Aires is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Metro 2033 : Piter is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the original language of Metro,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Faces of Death VI is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Deep Purple In Rock is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Tylluan gwyn is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Welsh,Welsh | Cymric | Welsh | Welsh language | cy,True,True
+[CLS] The original language of Rupkatha Noy is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Khasakkinte Itihasam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sinhalese,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of Budapest Noir is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] The original language of Amar Deep is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of The Evil Forest is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Prema Katha Chithram is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Miracle of P . Tinto is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of The Dogs of Riga is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Latvian,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Manuale d ' amore 3 is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of International Short Stories is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of 64 Zoo Lane is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the original language of 64,English | English | English language | en | eng,False,True
+[CLS] The original language of Danger is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Shum bola is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Uzbek | Uzbek | Uzbek language | uz,False,False
+[CLS] The original language of Konstantinou kai Elenis is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],spoken by ethnic minorities,Greek | Greek | Greek language,False,True
+[CLS] The original language of The Chinese Economy : Transitions and Growth is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],published in The Chinese Economy,English | English | English language | en | eng,False,True
+[CLS] The original language of Death Bell is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Drumroll is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of The Hussy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The War of the Worlds : Next Century is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Jai is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jai,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of FINN . no is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Kanimuthu Paappa is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+[CLS] The original language of Thambi Durai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Kottai Vaasal is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Nilavu Suduvathillai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Gowri Kalyanam is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Our Day Will Come is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Parekoy is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parekoy,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The original language of The Onedin Line is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Onedin language,English | English | English language | en | eng,False,True
+[CLS] The original language of Kokhono Megh Kokhono Brishti is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Kokhono Megh,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Commentarii de Bello Civili is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],to have been Latin,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of Irvine Welsh ' s Ecstasy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Six Characters in Search of an Author is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],in the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Padaharella Vayasu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Blood and Fire is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Hiroshima mon amour is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The New Statesman is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Hands of Che Guevara is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Aakramana is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Legend of the Sea Wolf is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Poem of the Man God is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Manidharil Manikkam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+[CLS] The original language of Sri Krishna Rukmini Satyabhama is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of The Uninvited Guest is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Shree Krishna Gaarudi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Fisch - Ton - Kan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fisch - Ton - Kan,French | French | French language | fr,False,True
+[CLS] The original language of Il doit faire beau là - bas is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in French,French | French | French language | fr,False,True
+[CLS] The original language of The Twins of Destiny is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],both English and English,French | French | French language | fr,False,True
+[CLS] The original language of Thirumal Perumai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Turning Point is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Ambari is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Ambari language,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Tseno Ureno is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Tseno language,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Nanna Preethiya Hudugi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of The Blue Room is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+"[CLS] The original language of New Worlds , New Lives is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Stay with Me is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Il capitale umano is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Maan Gaye Mughal - e - Azam is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Urdu,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Juha is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The original language of A Nasty Story is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Periyar is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Periyar,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Kutty is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kutty,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Manifesto of the 343 is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Saptapadi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Thavarina Siri is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of News Items is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Redemptor Hominis is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Latin | Latin | Latin language | la | lat,False,True
+[CLS] The original language of The Betrothed is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Dark Souls is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Shell Quiz is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shell Quiz,English | English | English language | en | eng,False,True
+[CLS] The original language of The Inbetweeners is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Universe is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Bhujangayyana Dashavathara is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Dashavathara,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of La sposa is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Italian language,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Maduve Madi Nodu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tamil Nadu,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Veera Kesari is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Ruusulaakso is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The original language of Tamil Wikipedia is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+"[CLS] The original language of Mina , Wind of Freedom is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",the language of Mina,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of I Am Maria is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of De lachende scheerkwast is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The original language of Namo Venkatesa is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Hydrozagadka is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hydrozagadka,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Shoah is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Shoah language,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of The Olsen Gang in a Fix is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of The Olsen Gang ' s Big Score is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],English,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of Failan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Failan,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of L ' Amant de cinq jours is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Sweet Inquest on Violence is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The Flying Dutchman is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,German | Deutsch | German | German language | de,False,True
+[CLS] The original language of Alamut is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Alamut language,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] The original language of Seema Tapakai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Seema,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Soldiers of Salamis is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Salamis,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Miracle of Marcelino is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English - English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Animal ' s People is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,English | English | English language | en | eng,False,True
+[CLS] The original language of Dead Daughters is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Bhalobasar Rong is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Varakatnam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Khichdi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Khichdi,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Guns in the Heather is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Amica is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Amica ' s language,French | French | French language | fr,False,True
+[CLS] The original language of The Fall of the House of Usher is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Love Crime is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+"[CLS] The original language of Harry , He ' s Here to Help is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",English,French | French | French language | fr,False,True
+[CLS] The original language of Iddaru Ammayilu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Iddaru,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Planet Savers is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Anglo - Saxon Deviant Burial Customs is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Anglo - Saxon,English | English | English language | en | eng,False,True
+[CLS] The original language of Idhaya Veenai is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Kuravanji is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Konkani,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Hot and Naked is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,French | French | French language | fr,False,True
+[CLS] The original language of The Country of Deaf is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Amman Arul is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Amman Arul,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Thaali Bhagyam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+"[CLS] The original language of Journey from Bohemia to the Holy Land , by way of Venice and the Sea is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",also also used,Czech | Czech | Czech language | cs,False,True
+[CLS] The original language of Kaanal Neer is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kaanal Neer,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Sin is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sin ( Sin ),Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Spooks and Spirits is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Icelandic | Icelandic | Icelandic language | is,False,True
+[CLS] The original language of The Great Adventure is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Protar Affair is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The original language of Kalles klätterträd is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The original language of Jaffa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jaffa,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of La Jalousie is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Sostiene Pereira is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Swindle is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Murder at the Savoy is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],both English and English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Angulimala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Angulimala,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of My Poor Beloved Mother is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Namma Ooru Nayagan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Namma language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Every Other Weekend is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Saatchi is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saatchi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of A Shadow at the Window is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],both English and English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Hell in Normandy is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Hell in Normandy """,French | French | French language | fr,False,True
+[CLS] The original language of The Diary of Polina Zherebtsova is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],in Russian,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Verschoten & Zoon is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dutch,Dutch | Dutch | Dutch language | nl | nld,True,True
+[CLS] The original language of The Christ of the Lanterns is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of En Bommukutty Ammavukku is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of 24 Hours in the Life of a Woman is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Putnanja is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Les bavards is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Parallel Trips is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of Encyclopedia of Art is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The original language of Ramdhanu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of The Nameless is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Wide Sargasso Sea is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],S . S,English | English | English language | en | eng,False,True
+[CLS] The original language of James and the Giant Peach is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Bat is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Sanditon is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Sanditon,English | English | English language | en | eng,False,True
+[CLS] The original language of On Overgrown Paths is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Glass is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Glass,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Amor a la española is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] The original language of El Cuerpo del Deseo is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Monkey is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Monkey,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Moksham is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Moksham language,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of Ons geluk is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Finnish,Flemish | Belgian Dutch | Flemish | Flemish Dutch | Flemish Dutch language | Flemish language | Southern Dutch,False,False
+[CLS] The original language of Karthikeya is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Dream Makers ( TV series ) is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The original language of Deewana Main Deewana is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Deewana,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of The Crocus List is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Plastic Age is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Comedy Lab is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Syren is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kurdish,English | English | English language | en | eng,False,True
+[CLS] The original language of Ki Kore Bojhabo Tomake is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bojhabo,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Ang Pinakamagandang Hayop sa Balat ng Lupa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],in the United States,Tagalog | Tagalog | Tagalog language | tgl | tl,False,False
+[CLS] The original language of Main Awara Hoon is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of New World Translation of the Holy Scriptures is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Biblical Hebrew | Ancient Hebrew | Biblical Hebrew | Classical Hebrew | Ivrit Miqra ' it | Judaean | Judahite | Leshon ha - Miqra | language of Canaan,False,False
+[CLS] The original language of Limca Book of Records is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Limca,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Nowhere Left to Run is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of When the Moors Ruled in Europe is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Tomorrow in the Battle Think on Me is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Varavu Ettana Selavu Pathana is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+[CLS] The original language of A boccaperta is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] The original language of Anandha Ragam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Manakanakku is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Manakanakku language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Speculum is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Critical Quarterly is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Aleesha is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Aleesha language,Konkani | Konkani | Konkani ( macrolanguage ) | Konkani language | kok,False,False
+[CLS] The original language of The Adventurer is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Hasta Siempre is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Friends is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Shades of Ash is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Qur ' an,Sinhala | Helabasa | Singhalese language | Sinhala | Sinhala language | Sinhalese | Sinhalese language | si | sin,False,False
+[CLS] The original language of Chaque jour a son secret is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Naag aur Nagin is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The original language of Untitled is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Romance of Flamenca is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Flamenca,Occitan | Langue d ' oc | Lenga d ' òc | Occitan | Occitan ( post 1500 ) | Occitan language | Provençal | oc,False,False
+[CLS] The original language of Ayalaan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],to be Ayalaan,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Suely in the Sky is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Lulu femme nue is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+"[CLS] The original language of You Have a Girlfriend , Alfie Atkins is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Alfie Atkins,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Gaddar : The Traitor is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gaddar,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of Stockholm is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of A Short Film About Killing is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Kong Island is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Kong Island language,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Le carnaval de Venise is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,French | French | French language | fr,False,True
+"[CLS] The original language of Please , Not Now ! is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",English,French | French | French language | fr,False,True
+[CLS] The original language of The Oppenheim Family is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],German,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Phoenix is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Phoenix,English | English | English language | en | eng,False,True
+[CLS] The original language of Rojavai Killathe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tamil,Tamil | Tamil | Tamil language | Thamizh | ta,True,True
+[CLS] The original language of Wag Kang Lilingon is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wag Kang,English | English | English language | en | eng,False,True
+[CLS] The original language of Face to Face is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of The Lioness of Castille is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Castille,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Magaadu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Magaadu,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Jhuthi Sharm is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jhuthi,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of The Spy : Undercover Operation is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Molis horisa is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Molis horisa,Greek | Greek | Greek language,False,True
+[CLS] The original language of Fifty Shades of Grey is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Hoću živjeti is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slavonic,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Sokol Did Not Love Him is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],also used in the film,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Putovanje tamnom polutkom is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Treća žena is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of 24 Hours is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The original language of Magyar vándor is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hungarian,Hungarian | Hungarian | Hungarian language | Magyar | hu,True,True
+[CLS] The original language of Crayon Shin - chan : Action Kamen vs Leotard Devil is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],based on the original language,Japanese | Japanese | Japanese language | Nihongo | ja | jpn | 日 本 語,False,True
+[CLS] The original language of Crayon Shin - chan : Adventure in Henderland is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Japanese | Japanese | Japanese language | Nihongo | ja | jpn | 日 本 語,False,True
+[CLS] The original language of Pinoy True Stories is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The original language of Aur Pyaar Ho Gaya is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of North Sea Texas is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" North Sea Texas """,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Echographies of Television is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Strange Report is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Thais of Athens is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Thais of Athens,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Saath Saath is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saath Saath,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of I for India is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assamese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Eagle Riders is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Cosmos : War of the Planets is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Raam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of This Night ' s Foul Work is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Michael Raj is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Better Days Ahead is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of My Father My Lord is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of My Father,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Parudeesa is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of Zona J is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Beer in the Snooker Club is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],""" Beer , Beer """,English | English | English language | en | eng,False,True
+[CLS] The original language of The Lion of Punjab is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] The original language of Voice is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Grandhotel is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Czech | Czech | Czech language | cs,False,True
+[CLS] The original language of Lease of Life is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+"[CLS] The original language of Ligo na Ü , Lapit na Me is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Ligo na Ü,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The original language of Two Steps from Heaven is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of We Are the Faithful is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,German | Deutsch | German | German language | de,False,True
+[CLS] The original language of Azhagu Kutti Chellam is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Assamese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Önskas is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The original language of The Design of Experiments is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Swiss Family Robinson is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,German | Deutsch | German | German language | de,False,True
+[CLS] The original language of The Room is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Dnestrovskiye melodii is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slovene,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The original language of Kaali Topi Laal Rumaal is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kaali Topi,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of The Archimedes Principle is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Broken Wings is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Golden Fish is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Acta Botanica Brasilica is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Thrilling is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Vow is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Unnai Vaazhthi Paadugiren is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Assamese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Merchant ' s Tale is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Middle English | Middle English | Middle English ( 1100 [UNK] 1500 ),False,False
+[CLS] The original language of Miss Sweden is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Miss Sweden """,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Kanithan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kathmandu,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Sweden in the Eurovision Song Contest 1969 is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Swedish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Dhada is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],known as the Dhada,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Fleet ' s In is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Smiths is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Bowels of Liberty is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of 2 Seconds is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Le dernier sorcier is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],also used in the film,French | French | French language | fr,False,True
+[CLS] The original language of Kriyakramakari is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Sanskrit | Sanskrit | sa,False,True
+[CLS] The original language of Hello Cinema is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The original language of Elvis ! Elvis ! is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Elvis ! Elvis !,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Sorry Enaku Kalyanamayidichu is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],in Tamil Nadu,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Mistress Branican is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Knocking is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Knocking,English | English | English language | en | eng,False,True
+[CLS] The original language of The New Man is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Shubhodrishti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of The Movement of the Free Spirit is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of The Death of Ivan Ilyich is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],an English translation,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Tähtivaeltaja is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] The original language of Saarai Veerraju is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saarai Veerraju,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Archaeology of Shamanism is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Mitki is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Mitki,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of 13 is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of Autumn Trip is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Ore Oru Gramathile is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ore,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of La Musica is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,French | French | French language | fr,False,True
+[CLS] The original language of Kulama Gunama is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kulama ' s language,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Adventures of Sherlock Holmes and Dr . Watson is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Annapurna is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,French | French | French language | fr,False,True
+[CLS] The original language of Iranian South Medical Journal is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Persian,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,True,True
+[CLS] The original language of Hostages is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of The Road a Year Long is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of King Khan is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Woe to the Young is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Woe to the Young,Greek | Greek | Greek language,False,True
+[CLS] The original language of Lintah Darat is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ning Ning,Malay | Malay | Malay ( individual language ) | Malay language | ms,False,True
+[CLS] The original language of Cousinhood is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Chevrolet is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of A Hero of Our Time is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of Homan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Homan ' s language,Russian | Russian | Russian language | ru,False,True
+[CLS] The original language of The Cop is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Sympathy for Lady Vengeance is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of The One That Got Away is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Out of Africa is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] The original language of Devatha is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of The Stone Roses is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Eight Hundred Leagues on the Amazon is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Chinna Chinna Kannile is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Chinna,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Si Buta Lawan Jaka Sembung is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Si Buta Lawan,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] The original language of Swabhimaan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of The Corner is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Watan is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Watan,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Vijay is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of April 1st Vidudhala is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Salgira is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The original language of Aanazhagan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of In the White City is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Vaimaye Vellum is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vaimaye Vellum,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Bingo Bongo is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Ironman is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of La Fugue de Monsieur Perle is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Opposite Sex is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,English | English | English language | en | eng,False,True
+[CLS] The original language of L ' Étrange Désir de monsieur Bard is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Maschenka is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maschenka,English | English | English language | en | eng,False,True
+[CLS] The original language of Phoring is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Phoring language,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of The Hyperwomen is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Cuando canta el corazón is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Anarkali is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Anarkali,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Kalingattuparani is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kalingattuparani,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Frenchman ' s Creek is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Frenchman ' s Creek,English | English | English language | en | eng,False,True
+[CLS] The original language of Theekuchi is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Theekuchi,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Jocelyn is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,French | French | French language | fr,False,True
+[CLS] The original language of 36 China Town is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cantonese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Je te mangerais is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Uzhavan is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Uzhavan,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of The Block is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The original language of Poonthotta Kaavalkaaran is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kaavalkaaran,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Bamboo Boys is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of Sathyam Sivam Sundaram is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of Anyar is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Anyar,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of D @ bbe is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] The original language of The Whistler is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Cross - Patch is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Sjors van de Rebellenclub is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sjors,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of False Light is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Mora Piya is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mora Piya,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] The original language of Hongirana is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],known as Hongirana,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Magic Adventures of Mumfie is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Behind You is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Eradu Rekhegalu is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],also known as Eradu,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Kaaki Sattai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sattai,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Vaaliba Raja is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Aage Kadam is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Assamese,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Deccan Chronicle is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gujarati,English | English | English language | en | eng,False,True
+[CLS] The original language of Shaolin Dolemite is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Shaolin,English | English | English language | en | eng,False,True
+[CLS] The original language of Mister President is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Tommy is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Tommy,English | English | English language | en | eng,False,True
+"[CLS] The original language of Aguirre , the Wrath of God is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the language of Aguirre,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Porno is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Porno,Scots | Inglis | Lallans | Lowland Scots | Scotch | Scots | Scots Leid | Scots language | braid Scots | sco,False,True
+[CLS] The original language of The Love Bug is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Priya is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Yagnam is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Yagnam language,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Abosheshey is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],spoken by ethnic minorities,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Le Matin Bleu is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] The original language of Hoo is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hoo,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of Woubi Chéri is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nikaragua,French | French | French language | fr,False,True
+[CLS] The original language of Milkweed is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Milkweed,English | English | English language | en | eng,False,True
+[CLS] The original language of This Is Not a Film is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in the United States,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The original language of Happy Durbar is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The original language of Some is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Soapstar Superstar is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shqiptar,English | English | English language | en | eng,False,True
+[CLS] The original language of Of Mice and Men is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Sözcü is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Turkish,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,True,True
+[CLS] The original language of Malliswari is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of In the Presence of a Clown is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Big Boss is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Metro is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Metro,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] The original language of Paris Is Always Paris is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Den blomstertid is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The original language of Ji Mantriji is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Plan B is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Plan B,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of The Treasure Knights and the Secret of Melusina is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],both English and English,Luxembourgish | Letzeburgesch | Luxembourg language | Luxembourgish | Luxembourgish language | Luxemburgish | Luxemburgish language | Lëtzebuergesch | lb,False,False
+[CLS] The original language of Ðông Pháp Thời Báo is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Standard Standard,Vietnamese | Vietnamese | tiếng Việt,False,True
+[CLS] The original language of Hiyas is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hiyas,Filipino | Filipino | Filipino language | Pilipino language,False,True
+[CLS] The original language of Periya Idathu Mappillai is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Lament is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Lament,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Christopher Unborn is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of When Genius Failed : The Rise and Fall of Long - Term Capital Management is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],published by Random House,English | English | English language | en | eng,False,True
+[CLS] The original language of Everything Is Fine is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Eti is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Eti language,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Sweet Tooth is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Inaindha Kaigal is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Kaigal,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Azur & Asmar : The Princes ' Quest is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],English,French | French | French language | fr,False,True
+[CLS] The original language of Malayan is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malay,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Alahor in Granata is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Alahor,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of Triplex is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Triplex,French | French | French language | fr,False,True
+[CLS] The original language of Portrait in Sepia is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sepia,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The original language of Turbulence is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The original language of Act of Murder is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Bus Stop is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],""" Bus Stop """,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] The original language of Mahapurush O Kapurush is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mahapurush,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] The original language of Raphael is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the language of Raphael,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The original language of The Paper Wedding is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] The original language of Definitely Neighbors is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Ammuvagiya Naan is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhala,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of A Country Practice is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of The Comedians is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Gregorius is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cyrillic,Middle High German | Middle High German,False,False
+[CLS] The original language of A Star Is Born is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of De nakomer is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhala,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The original language of Selvam is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Anurodh is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gaelic,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] The original language of Stevnemøte med glemte år is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],not known,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The original language of Little Dorrit is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Karnataka State Film Award for Best Supporting Actress is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],in Tamil Nadu,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] The original language of The Andrew Marr Show is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Stage Door is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of FC Venus is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],FC Venus,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] The original language of Red Star Over China is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True
+[CLS] The original language of Suddenly at Midnight is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],English,Korean | Korean | Korean language | ko,False,True
+[CLS] The original language of Den nya nordiska floran is [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish,Swedish | Swedish | Swedish language | sv,True,True
+[CLS] The original language of Sun Storm is [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sinhalese,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of Théonoé is [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Théonoé,French | French | French language | fr,False,True
+[CLS] The original language of Chithirayil Nilachoru is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sinhalese,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] The original language of Bamse and the Thief City is [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bamse,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The original language of The Old Maid and the Thief is [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],English,English | English | English language | en | eng,True,True

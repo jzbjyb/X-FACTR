@@ -1,0 +1,998 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] New York City is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Copenhagen is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Denmark | DEK | DEN | DK | DNK | Danmark | Denmark | Denmark proper | TAN | dk | metropolitan Denmark | [UNK],False,True
+[CLS] Stockholm is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Sweden | Kingdom of Sweden | SE | SWE | Sweden | se,False,True
+[CLS] Tokyo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York City,Japan | JA | JAP | JP | JPN | Japan | Land of the Rising Sun | Nihon | Nihon - koku | Nippon | Nippon - koku | State of Japan | jp,False,True
+[CLS] Philadelphia is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pennsylva,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Seoul is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],South Korea,South Korea | Daehan Minguk | KOR | Korea Republic | ROK | Rep . Korea | Republic of Great Han | Republic of Korea | Republic of South Korea | S . Korea | South Korea | The Republic of Great Han | kr | [UNK],True,False
+[CLS] Oslo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Skandinavia,Norway | Kingdom of Norway | NO | NOR | Noreg | Norge | Norvège | Norway | Norwegen | no | [UNK],False,True
+[CLS] Dublin is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Dublin Chamber of Commerce,"Ireland | Eire | Hibernia | IE | IRL | Ireland | Ireland , Republic of | Republic of Ireland | Southern Ireland | ie | ireland | Éire | [UNK]",False,True
+[CLS] Buenos Aires is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Argentina | AR | ARG | Argentina | Argentine Republic | ar | [UNK],False,True
+[CLS] Ottawa is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Ottawa Chamber of Commerce,Canada | British North America | CA | CAN | CDN | Canada | Dominion of Canada | ca | can | [UNK],False,True
+[CLS] Rio de Janeiro is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rio de Janeiro,Brazil | BR | BRA | Brasil | Brazil | Estados Unidos del Brazil | Federativa Republica do Brasil | Federativa República do Brasil | Federative Republic of Brazil | Republic Federative of Brasil | Republica Federativa do Brasil | República Federativa do Brasil | br | [UNK],False,True
+[CLS] Beijing is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Republic of China,People ' s Republic of China | CHN | CN | China | Communist China | PR China | PRC | People ' s Republic of China | cn | [UNK],False,False
+[CLS] Prague is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Czech Republic | CZE | CZR | Czech Republic | Czechia | cz | cze | ČR | Česko | Česká republika | [UNK],False,False
+[CLS] Paris is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],France,France | FR | FRA | France | French Republic | La France | Republic of France | République française | fr,True,True
+[CLS] Edinburgh is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Scotland,"Scotland | Alba | Caledonia | SCT | Scot | Scotland | Scotland , United Kingdom",True,True
+[CLS] Helsinki is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the European Union,Finland | FIN | Finland | Finlande | Finlandia | Finnia | Finnland | Land of Thousand Lakes | Republic of Finland | Republiken Finland | Suomen tasavalta | Suomi | fi | [UNK],False,True
+[CLS] Warsaw is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poland,Poland | PL | POL | Poland | Polska | Republic of Poland | [UNK],True,True
+[CLS] Madrid is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Spain | ES | ESP | España | Kingdom of Spain | Spain | [UNK],False,True
+[CLS] Budapest is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Hungary | HUN | Hungary | hu | [UNK],False,True
+[CLS] London is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United Kingdom,England | England,False,True
+[CLS] Amsterdam is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Netherlands | Holland | NED | NL | Nederland | Netherlands | Netherlands ( after 1945 ) | nl | the Netherlands | [UNK],False,True
+[CLS] New Delhi is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New Delhi,India | Bharat | Bharatvarsh | Hindustan | IN | IND | India | Republic of India | in | [UNK],False,True
+[CLS] Sydney is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New South Wales,New South Wales | NSW | New South Wales,True,False
+[CLS] Bangkok is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Thailand,Thailand | Kingdom of Thailand | Land of Smiles | Siam | THA | Thailand | th | [UNK],True,True
+[CLS] Belgrade is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Serbia,Serbia | Republic of Serbia | Republika Srbija | SRB | Serbia | Srbija | rs | [UNK],True,True
+[CLS] Belfast is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Northern Ireland,Northern Ireland | NIR | North Ireland | Northern Ireland | UKN,True,False
+[CLS] Rome is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Roman Empire,Italy | IT | ITA | Italia | Italian Republic | Italy | it | [UNK],False,True
+[CLS] Cardiff is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wales,Wales | Cymru | WAL | WLS | Wales,True,True
+[CLS] Sofia is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Bulgaria,Bulgaria | BGR | BUL | Bulgaria | Republic of Bulgaria | bg | [UNK],True,True
+[CLS] Cape Town is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cape Town,South Africa | RSA | Republic of South Africa | SA | South Africa | za | zaf | [UNK],False,False
+[CLS] Kiev is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S,Ukraine | UA | UKR | Ukraine | Ukrainia | ua | [UNK],False,True
+[CLS] Tehran is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Iran,Iran | Iran | Islamic Rep . Iran | Islamic Republic of Iran | Persia | Republic of Iran | ir | [UNK],True,True
+[CLS] Lisbon is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Portugal,Portugal | PT | Portugal | Portuguese Republic | pt | [UNK],True,True
+[CLS] Bucharest is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Czech Republic,Romania | Romania | România | Roumania | Rumania | ro | [UNK],False,True
+[CLS] Warsaw is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Poland,Second Polish Republic | II Rzeczpospolita | Second Polish Republic,False,False
+[CLS] Kuala Lumpur is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong,Malaysia | Federation of Malaysia | MAS | MYS | Malaysia | Malaysia Federation | my | [UNK],False,True
+[CLS] Riga is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Latvia,Latvia | LAT | LVA | Latvia | Latvian Republic | Latvija | Republic of Latvia | lv | [UNK],True,True
+[CLS] Jerusalem is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Jude Jude,Israel | Holy Land | ISR | Israel | State of Israel | il | the Jewish state | [UNK],False,True
+[CLS] Tallinn is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Estonia,Estonia | EST | Eesti | Estland | Estonia | Republic of Estonia | ee | [UNK],True,True
+[CLS] Beirut is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lebanon,Lebanon | LBN | Lebanese Republic | Lebanon | Republic of Lebanon | lb | [UNK],True,True
+[CLS] Zagreb is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Czech Republic,Croatia | CRO | Croatia | HR | HRV | Republic of Croatia | hr | [UNK],False,True
+[CLS] Cairo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Egypt,Egypt | Arab Rep . Egypt | Arab Republic of Egypt | EGY | Egypt | Rep . Egypt | Republic of Egypt | eg | [UNK],True,True
+[CLS] Toronto is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],"Toronto , Canada","Ontario | ON | ONT | Ontario | Ontario , Canada",False,True
+[CLS] Baku is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Azerbaijan,Azerbaijan | AZE | Azerbaijan | Republic of Azerbaijan | az | [UNK],True,True
+[CLS] Jakarta is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hong Kong,Indonesia | ID | IDN | INA | Indonesia | Republic of Indonesia | id | [UNK],False,True
+[CLS] Perth is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Perth,Western Australia | W . A . | WA | West Australia | West Oz | Western Australia,False,False
+[CLS] Doha is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Al - Jazeera,Qatar | Qatar | State of Qatar | qa | [UNK],False,True
+[CLS] Beijing is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Republic of China,Qing dynasty | Ch ' ing China | Ch ' ing Dynasty | Ch ' ing Empire | Empire of the Great Qing | Great Qing | Manchu China | Manchu Dynasty | Manchu Empire | Qing China | Qing Empire | Qing dynasty,False,False
+[CLS] Skopje is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Republic of Macedonia,North Macedonia | FYR Macedonia | FYROM | Former Yugoslav Republic of Macedonia | MKD | Macedonia | North Macedonia | Republic of Macedonia | Republic of North Macedonia | mk | [UNK],True,False
+[CLS] Ljubljana is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the Slovenian Republic,Slovenia | Republic of Slovenia | Republika Slovenija | SLO | Slovenia | Slovenija | si | slo | svn | [UNK],False,True
+[CLS] Colombo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sri Lanka,"Sri Lanka | Ceylan | Ceylon | Democratic Socialist Republic of Sri Lanka | Lanka , Sri | SRI | Serendib | Sri Lanka | Srilanka | Taprobane | ce | lk | lke | sri | [UNK]",True,False
+[CLS] Canberra is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Australia,Australia | AU | AUS | Australia | British Colony of Australia | Commonwealth of Australia | Straya | au | [UNK],True,True
+[CLS] Bratislava is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S,Slovakia | SVK | Slovak Republic | Slovakia | sk | [UNK],False,True
+[CLS] Montevideo is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Uruguay,Uruguay | Oriental Republic of Uruguay | República Oriental del Uruguay | URU | Uruguay | uy | [UNK],True,True
+[CLS] Barcelona is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Spain,Catalonia | Autonomous community of Catalonia | Catalonha | Catalonia | Catalunya | Cataluña,False,True
+[CLS] Mexico City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mexico City,Mexico | MEX | MX | Mexican Republic | Mexico | United Mexican States | mx | [UNK],False,True
+[CLS] Brisbane is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Queensland,Queensland | QLD | Queensland,True,True
+[CLS] Sarajevo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bosnia and Herzegovina,Bosnia and Herzegovina | B & H | BIH | BiH | Bosnia | Bosnia & Herzegovina | Bosnia and Herzegovina | Bosnia - Herzegovina | ba | [UNK],True,False
+[CLS] Melbourne is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Australian Capital Territory,"Victoria | State of Victoria | VIC | VIC ( Australia ) | Victoria | Victoria , Australia",False,True
+[CLS] Nairobi is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nairobi Nairobi Nairobi Nairobi,Kenya | KE | KEN | Kenya | Republic of Kenya | ke | [UNK],False,True
+[CLS] London is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United Kingdom,United Kingdom | GBR | U . K . | UK | United Kingdom | United Kingdom of Great Britain and Northern Ireland | [UNK],False,False
+[CLS] Boston is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Boston , Massachusetts",Massachusetts | Bay State | Commonwealth of Massachusetts | MA | Massachusetts,False,True
+[CLS] Kolkata is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bharatiya Pradesh,West Bengal | Paschimbanga | West Bengal,False,False
+[CLS] Dhaka is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bangladesh,Bangladesh | BAN | Bangladesh | bd | [UNK],True,True
+[CLS] Ankara is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S,Turkey | Republic of Turkey | TUR | Turkey | tr | [UNK],False,True
+[CLS] Athens is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Athens,Greece | GRE | Greece | Greek Republic | Hellas | Hellenic Republic | gr | [UNK],False,True
+[CLS] Vilnius is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lithuania,Lithuania | LTU | Lietuva | Lithuania | Republic of Lithuania | lt | [UNK],True,True
+[CLS] Baghdad is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Baghdad,Iraq | IRQ | Iraq | Jumhūriyyat al - [UNK] Irāq | Komar - i [UNK] Êraq | Republic of Iraq | al - [UNK] Irāq | iq | [UNK],False,True
+[CLS] Kabul is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Afghanistan,Afghanistan | AFG | Afghanistan | Islamic Republic of Afghanistan | af | [UNK],True,True
+[CLS] Belgrade is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Serbia,Socialist Federal Republic of Yugoslavia | SFR Yugoslavia | SFRY | Socialist Federal Republic of Yugoslavia | Yugoslavia,False,False
+[CLS] Hanoi is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hanoi,Vietnam | Socialist Republic of Vietnam | VIE | VN | Viet Nam | Vietnam | [UNK],False,True
+[CLS] Vienna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Czech Republic,Austria | AT | AUT | Austria | Republic of Austria | Republik Österreich | at | Österreich | [UNK],False,True
+[CLS] Islamabad is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Islamabad,Pakistan | Islamic Republic of Pakistan | PAK | Pakistan | pk | [UNK],False,True
+[CLS] Taipei is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Taipei Taipei Taipei Taipei,Taiwan | Chinese Taipei | Chunghwa Minkuo | Chunghwa Minkwo | Formosa | Free China | Free area of the Republic of China | Nationalist China | ROC | Republic of China | Republic of China ( Taiwan ) | Taiwan | tw | [UNK],False,True
+[CLS] Moscow is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Russia | RU | RUS | Rossija | Rossijskaja Federatsija | Rossiya | Rossiyskaya Federatsiya | Rus | Russia | Russian Federation | ru,False,True
+[CLS] Adelaide is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Adelaide,South Australia | SA | South Australia,False,False
+[CLS] Winnipeg is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Manitoba,Manitoba | MB | Manitoba,True,True
+[CLS] Manila is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],"Manila , Philippines",Philippines | PH | PHI | PHL | Philippine Islands | Philippines | RP | Republic of the Philippines | ph | the Philippines | [UNK],False,True
+[CLS] Havana is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Puerto Rico,Cuba | CUB | Cuba | Republic of Cuba | cu | [UNK],False,True
+[CLS] Tirana is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tirana,Albania | ALB | Albania | Republic of Albania | Republika e Shqipërisë | Shqipërisë | al | [UNK],False,True
+[CLS] Yerevan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yerevan,Armenia | ARM | Armenia | Republic of Armenia | [UNK],False,True
+[CLS] Bern is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bern,Switzerland | CH | CHE | SUI | Schweiz | Suisse | Svizzera | Swiss | Swiss Confederation | Switzerland,False,True
+[CLS] Chennai is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Tamil Nadu | Tamil Nadu,True,False
+[CLS] Damascus is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Syria,Syria | Ba ' athist Syria | SYR | Syria | Syrian Arab Republic | sy | [UNK],True,True
+[CLS] Berlin is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Germany | BRD | Bundesrepublik Deutschland | Deutschland | FRG | Federal Republic of Germany | GER | Germany | de,False,True
+[CLS] Minsk is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Białystok Białystok,Belarus | BLR | Belarus | Belorussia | Bielorussia | Byeloruss | Byelorussia | Republic of Belarus | White Russia | White Ruthenia | by | [UNK],False,True
+[CLS] Mumbai is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mumbai Mumbai Mumbai Mumbai Mumbai,Maharashtra | Maharashtra,False,True
+[CLS] Lagos is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lagos,Nigeria | FRN | Federal Republic of Nigeria | NG | NGA | NGR | Naija | Nigeria | [UNK],False,True
+[CLS] Edmonton is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McFarland,"Alberta | AB | Alberta | Alberta , Canada | Province of Alberta",False,True
+[CLS] Munich is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Bavaria | Bavaria | Bayern | Free state of Bavaria,False,True
+[CLS] Pretoria is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,South Africa | RSA | Republic of South Africa | SA | South Africa | za | zaf | [UNK],True,False
+[CLS] Thiruvananthapuram is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil Nadu,Kerala | God ' s Own Country | IN - KL | Kerala | Keralam | Land of coconuts,False,True
+[CLS] Kolkata is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bharatiya Pradesh,British Raj | British India | British Raj | Crown rule in India | India | Indian Empire | direct rule in India,False,False
+[CLS] Santiago is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Santiago of Chile,Chile | CHI | Chile | Republic of Chile | Republica de Chile | República de Chile | cl | [UNK],False,True
+[CLS] Constantinople is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Byzantine Empire,Byzantine Empire | Byzantine Empire | Byzantium | Eastern Roman Empire | Roman Empire | Romania,False,False
+[CLS] Florence is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tuscany,Tuscany | Toscana | Tuscany,True,False
+[CLS] Accra is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Accra,Ghana | GHA | Ghana | Republic of Ghana | gh | [UNK],False,True
+[CLS] Bengaluru is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bengaluru,Karnataka | Karnataka,False,True
+[CLS] Albany is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,"New York | NY | NYS | New York | New York ( state ) | New York State | New York , United States | State of New York",True,False
+[CLS] Caracas is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Venezuela,Venezuela | BR Venezuela | Bolivarian Republic of Venezuela | Estados Unidos de Venezuela | VE | VEN | Venezuela | Vzla | [UNK],True,True
+[CLS] Prague is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Czechoslovakia | CSFR | Czecho - Slovakia | Czechoslovakia | Federation of Czechoslovakia | People ' s Republic of Czechoslovakia | TCH | cs | ČSFR | Československo,False,True
+[CLS] Zaragoza is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Zaragoza ( Spain ),Aragon | Aragon,False,True
+[CLS] Quito is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ecuador,Ecuador | EC | ECU | Ecuador | Republic of Ecuador | Republic of the Equator | The Ecuadorian State | ec | ecu | [UNK],True,True
+[CLS] Hobart is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tasmania,"Tasmania | Lutruwita | TAS | Tasmania | Tasmania , Australia | Tassie | Van Diemen ' s Land",True,True
+[CLS] Kathmandu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kathmandu,Nepal | Federal Democratic Republic of Nepal | NEP | NP | NPL | Nepal | [UNK],False,True
+[CLS] London is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Kingdom of England | England | Kingdom of England,False,False
+[CLS] Kampala is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kampala,Uganda | Republic of Uganda | UGA | Uganda | ug | [UNK],False,True
+[CLS] Abu Dhabi is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Abu Dhabi Emirate,United Arab Emirates | Emirates | U . A . E . | UAE | United Arab Emirates | ae | the Emirates | the U . A . E . | the UAE | the United Arab Emirates | [UNK],False,False
+[CLS] Constantinople is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Byzantine Empire,Ottoman Empire | Exalted Ottoman State | Osmanli Empire | Ottoman Empire | Turkish Empire,False,False
+[CLS] Changsha is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Hunan | Hunan,False,False
+[CLS] Harare is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harare,Zimbabwe | Republic of Zimbabwe | Rhodesia | Southern Rhodesia | ZIM | Zimbabwe | Zimbabwe Rhodesia | zw | [UNK],False,True
+[CLS] Dakar is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Senegal,Senegal | Republic of Senegal | Republique du Senegal | République du Sénégal | SEN | Senegal | Sénégal | sn | [UNK],True,True
+[CLS] Guangzhou is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guangzhou,Guangdong | Guangdong | Kwangtung,False,True
+[CLS] Palermo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Palermo,Sicily | Sicilia | Sicily,False,True
+[CLS] Shijiazhuang is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Shijiazhuang,Hebei | Hebei | Hopeh,False,False
+[CLS] Nicosia is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nicosia,Republic of Cyprus | Cyprus | Greek Cypriot State | Republic of Cyprus | cy | [UNK],False,False
+[CLS] Tashkent is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tashkent,Uzbekistan | Republic of Uzbekistan | UZB | Uzbekistan | uz | [UNK],False,True
+[CLS] Halifax is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nova Scotia,Nova Scotia | NS | Nova Scotia | colony of Nova Scotia | province of Nova Scotia,True,False
+[CLS] Pyongyang is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pyongyang,North Korea | DPRK | Dem . Rep . Korea | Democratic People ' s Republic of Korea | N . Korea | North Korea | PRK | kp | [UNK],False,False
+[CLS] Bhubaneswar is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bhubaneswar,Odisha | Kalinga | Odisha | Orissa | Utkal,False,False
+[CLS] Indianapolis is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,"Indiana | IN | Indiana | Indiana , United States | State of Indiana",False,True
+[CLS] Phnom Penh is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong,Cambodia | Cambodia | Camboya | Campuchia | Kambodzha | Kamboja | Kampuchea | Kingdom of Cambodia | kh | [UNK],False,True
+[CLS] Denver is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Denver,Colorado | CO | Colo . | Colorado | State of Colorado,False,True
+[CLS] Santo Domingo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Dominican Republic,Dominican Republic | DR | Dominican Republic | RD | Republica Dominicana | República Dominicana | [UNK],False,False
+[CLS] Windhoek is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Windhoek,Namibia | NAM | Namibia | Republic of Namibia | na | [UNK],False,True
+[CLS] Chengdu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chengdu,Sichuan | Sichuan | Szechuan | Szechwan,False,True
+[CLS] Tunis is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tunisian Republic,Tunisia | Republic of Tunisia | TUN | Tunisia | Tunisian Republic | Tūnis | al - Jumhūriyyah at - Tūnisiyyah | tn | [UNK],False,True
+[CLS] San Juan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Puerto Rico,Puerto Rico | Borikén | Borinquen | Boriquén | Commonwealth of Puerto Rico | Estado Libre Asociado de Puerto Rico | Island of Enchantment | PR | Porto Rico | Puerto Rico | Territory of Puerto Rico | The Commonwealth of Puerto Rico | [UNK],True,False
+[CLS] San Salvador is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Salvador,El Salvador | ESA | El Salvador | Republic of El Salvador | sv | [UNK],False,False
+[CLS] Kinshasa is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kinshasa,Democratic Republic of the Congo | COD | Congo | Congo ( Kinshasa ) | Congo - Kinshasa | DR Congo | DRC | Dem . Rep . Congo | Dem . Republic of Congo | Dem . Republic of the Congo | Democratic Republic of Congo | Democratic Republic of the Congo | Zaire | cd | [UNK],False,False
+[CLS] Quebec City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Quebec,"Quebec | Province of Quebec | QC | Quebec | Quebec Province | Quebec , Canada | Québec",True,True
+[CLS] Panama City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Panama,Panama | Panama | Republic of Panama | pa | [UNK],True,True
+[CLS] Mogadishu is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Mogadishu,Somalia | Federal Republic of Somalia | SOM | Somalia | Soomaaliya | aṣ - Ṣūmāl | so | [UNK],False,True
+[CLS] Riyadh is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Saudi Arabia,Saudi Arabia | KSA | Kingdom of Saudi Arabia | Saudi Arabia | sa | [UNK],True,False
+[CLS] Khartoum is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Khartoum,Sudan | North Sudan | Republic of Sudan | Republic of the Sudan | SUD | Sudan | as - Sūdān | sd | the Sudan | [UNK],False,True
+[CLS] Nanjing is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nanjing,Jiangsu | Jiangsu | Kiangsu,False,False
+[CLS] Addis Ababa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Addis Ababa,Ethiopia | ETH | Ethiopia | Federal Democratic Republic of Ethiopia | et | [UNK],False,True
+[CLS] Rabat is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],People ' s Republic,Morocco | Arab Maghreb | Kingdom of Morocco | Lmaġrib | MAR | Maroc | Marocco | Morocco | al - Maġrib | ma | [UNK],False,True
+[CLS] Patna is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tamil Nadu,Bihar | Bihar,False,True
+[CLS] Tripoli is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tripoli,Libya | LBA | Libya | State of Libya | ly | [UNK],False,True
+[CLS] Jaipur is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jaipur,Rajasthan | Rajasthan | Rajputana,False,True
+[CLS] Canberra is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Australia,Australian Capital Territory | ACT | Australian Capital Territory,False,False
+[CLS] Pristina is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pristina,Kosovo | KOS | KV | Kosovo | Republic of Kosovo | XK | XKX | [UNK],False,True
+[CLS] Dar es Salaam is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Dar es Salaam,Tanzania | Tanzania | United Republic of Tanganyika and Zanzibar | United Republic of Tanzania | tz | [UNK],False,True
+[CLS] Jerusalem is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jude Jude,Mandatory Palestine | British Mandate for Palestine | Mandatory Palestine | Mandatory Palestine ， Palestine | Palestine,False,False
+[CLS] Luanda is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Angola,Angola | ANG | Angola | Ngola | Republic of Angola | ao | [UNK],True,True
+[CLS] Lucknow is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Uttar Pradesh,Uttar Pradesh | UP | Uttar Pradesh,True,False
+[CLS] Sapporo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hokkaidō,Hokkaidō | Hokkaido | Hokkaido Island | Hokkaidō | Hokkaidō Island,True,False
+[CLS] Rome is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman Empire,Lazio | Lazio,False,True
+[CLS] Podgorica is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Montenegro,Montenegro | MNE | Montenegro | me | [UNK],True,True
+[CLS] Honolulu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Hawaii | HI | Hawaii | Hawaii , United States | Hawaiʻi | Kaimana Hila | State of Hawaii | The Aloha State",False,True
+[CLS] Maputo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maputo,Mozambique | MOZ | MZ | Mozambique | Moçambique | Republic of Mozambique | República de Moçambique | mz | [UNK],False,True
+[CLS] Bonn is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bonn,Germany | BRD | Bundesrepublik Deutschland | Deutschland | FRG | Federal Republic of Germany | GER | Germany | de,False,True
+[CLS] Port - au - Prince is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Port - au - Prince,Haiti | Ayiti | HAI | HT | Haiti | Haitian Republic | Hayti | Republic of Haiti | République d ' Haïti | ht | [UNK],False,True
+[CLS] Wuhan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wuhan,Hubei | Hubei | hubei province,False,False
+[CLS] Naples is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Naples,Campania | Campania,False,True
+[CLS] Managua is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nicaragua,Nicaragua | NCA | NI | NIC | Nicaragua | Republic of Nicaragua | ni | [UNK],True,True
+[CLS] Antananarivo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Antananarivo,Madagascar | MAD | Madagascar | Republic of Madagascar | mg | [UNK],False,True
+[CLS] Cape Town is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Town,Western Cape | Western Cape | Western Cape Province | province of Western Cape | province of the Western Cape,False,False
+[CLS] Valletta is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Valletta,Malta | MLT | Malta | Republic of Malta | mt | [UNK],False,True
+[CLS] Hangzhou is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hangzhou,Zhejiang | Chekiang | Zhejiang | Zhejiang Province,False,True
+[CLS] Gaborone is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gaborone,Botswana | BOT | Botswana | Lefatshe la Botswana | Republic of Botswana | bw | [UNK],False,True
+[CLS] Recife is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Recife , Puerto Rico",Pernambuco | PE | Pernambuco,False,True
+[CLS] Abidjan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Abidjan,Ivory Coast | CIV | Cote D ' Ivoire | Cote D ' Ivoire | Cote Divoire | Cote Ivoire | Cote d ivoire | Cote d ' Ivoire | Cote d ' Ivoire | Cote d ' ivoire | Cote d ' ivore | Cote d ' lvoire | Cote dIvoire | Cote divoire | Cote [UNK] | Cote d [UNK] Ivoire | Cote - d ' Ivoire | Côte D ' Ivoire | Côte D ' ivoire | Côte Divoire | Côte d ' Ivoire | Côte d ' Ivorie | Côte d ' ivoire | Côte [UNK] | Côte d [UNK] Ivoire | Côte - d ' Ivoire | Ivory Coast | Ivory coast | Republic of Cote d ' Ivoire | Republic of Côte d ' Ivoire | Republic of Ivory Coast | Republic of the Ivory Coast | République de Côte d ' Ivoire | The Ivory Coast | ci | [UNK],False,False
+[CLS] Nur - Sultan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nur - Sultan,Kazakhstan | KAZ | Kazakhstan | Qazaqstan | Republic of Kazakhstan | kz | [UNK],False,True
+[CLS] Hyderabad is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Andhra Pradesh,Telangana | Telangana,False,False
+[CLS] Harbin is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harbin,Heilongjiang | Heilongjiang,False,False
+[CLS] Manama is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Manama,Bahrain | BAH | Bahrain | Kingdom of Bahrain | bh | [UNK],False,True
+[CLS] Abuja is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Abuja,Nigeria | FRN | Federal Republic of Nigeria | NG | NGA | NGR | Naija | Nigeria | [UNK],False,True
+[CLS] Trento is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Trento in the United States,Trentino | Province of Trento | Provincia di Trento | Trentino,False,True
+[CLS] Wilmington is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Wilmington , United States","New Castle County | New Castle County | New Castle County , DE | New Castle County , Delaware",False,False
+[CLS] Cagliari is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cagliari,Sardinia | Sardegna | Sardinia,False,True
+[CLS] Catanzaro is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Catanzaro,Calabria | Calabria | Calabria region,False,True
+[CLS] Bishkek is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bishkek,Kyrgyzstan | KGZ | Kirgizia | Kyrgyz Republic | Kyrgyzstan | kg | [UNK],False,False
+[CLS] Dresden is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Saxony | DE - SN | Free State of Saxony | Freistaat Sachsen | Sachsen | Sakska | Saxony | Swobodny stat Sakska,False,True
+[CLS] Seville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Seville,Andalusia | Andalucia | Andalucía | Andalusia,False,False
+[CLS] Tegucigalpa is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Tegucigalpa,Honduras | HON | Honduran Republic | Honduras | Republic of Honduras | hn | [UNK],False,True
+"[CLS] Washington , D . C . is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the U . S,United States of America | America | U . S . | U . S . A . | U . S . | U . S . A . | US | US of A | USA | United States | United States of America | the US | the USA | the United States | the United States of America,False,False
+[CLS] Brazzaville is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brazzaville,Republic of the Congo | CGO | Congo ( Brazzaville ) | Congo Republic | Congo - Brazzaville | Rep . Congo | Republic of Congo | Republic of the Congo | Republique du Congo | République du Congo | cg | [UNK],False,False
+[CLS] Freetown is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Freetown,Sierra Leone | Republic of Sierra Leone | SLE | Sierra Leone | sl | [UNK],False,False
+[CLS] Bolzano is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the province,South Tyrol | Alto Adige / Südtirol | Autonomous Province of Bolzano - Bozen | South Tyrol,False,False
+[CLS] Guatemala City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guatemala,Guatemala | GUA | Guatemala | Republic of Guatemala | gt | [UNK],True,True
+[CLS] Bamako is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bamako,Mali | MLI | Mali | Republic of Mali | Republique du Mali | République du Mali | ml | [UNK],False,True
+[CLS] Kunming is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kunming,Yunnan | Yunnan,False,True
+[CLS] Banjul is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Banjul,Gambia | GAM | Gambia | Islamic Republic of the Gambia | Republic of The Gambia | The Gambia | gm | [UNK],False,True
+[CLS] Ashgabat is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ashgabat,Turkmenistan | TKM | Turkmenia | Turkmenistan | tm | [UNK],False,True
+[CLS] Hanover is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hanover,Lower Saxony | DE - NI | Lower Saxony | NDS | Niedersachsen,False,False
+[CLS] Vientiane is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Laos,Laos | LAO | Lao PDR | Lao People ' s Democratic Republic | Laos | la | [UNK],True,True
+[CLS] Peshawar is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Peshawar,Khyber Pakhtunkhwa | KP | KPK | Khyber Pakhtunkhwa,False,False
+[CLS] Amman is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Amman,Jordan | Hashemite Kingdom of Jordan | JO | JOR | Jordan | Kingdom of Jordan | jo | [UNK],False,True
+[CLS] Xi ' an is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Xi ' an,Shaanxi | Shaanxi,False,False
+[CLS] Nuuk is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nuuk,Greenland | Greenland | gl | [UNK],False,True
+[CLS] Algiers is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Algiers,Algeria | ALG | Algeria | People [UNK] s Democratic Republic of Algeria | dz | [UNK],False,True
+[CLS] Lusaka is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lusaka,Zambia | Republic of Zambia | ZAM | Zambia | zm | [UNK],False,True
+[CLS] Dushanbe is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dushanbe,Tajikistan | Republic of Tajikistan | TJK | Tajikistan | tj | [UNK],False,False
+[CLS] Kazan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tatarstan,Republic of Tatarstan | Republic of Tatarstan | Tatar Republic | Tataria | Tatariya | Tatarstan,True,False
+[CLS] Pittsburgh is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pennsylva,"Allegheny County | Allegheny County | Allegheny County , PA | Allegheny County , Pennsylvania",False,False
+[CLS] Kota Kinabalu is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kota Kinabalu,Sabah | Sabah,False,True
+[CLS] Belo Horizonte is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Belo Horizonte,Minas Gerais | MG | Minas Gerais | Minas Gerais state,False,False
+[CLS] Salt Lake City is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Salt Lake City,"Utah | Beehive State | State of Utah | UT | Utah | Utah , United States",False,True
+[CLS] Aylesbury is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Aylesbury,Buckinghamshire | Buckinghamshire | Bucks,False,False
+[CLS] Heraklion is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Heraklion,Crete | Crete,False,False
+[CLS] Conakry is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Conakry,Guinea | GUI | Guinea | Guinea - Conakry | Republic of Guinea | Republique de Guinee | République de Guinée | gn | [UNK] [UNK] [UNK] [UNK] | [UNK] [UNK] | [UNK],False,True
+[CLS] Baghdad is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Baghdad,Abbasid Caliphate | Abbasid Caliphate | Abbasid Empire | Abbasid period,False,False
+[CLS] Ouagadougou is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ouagadougou,Burkina Faso | Burkina Faso | bf | [UNK],False,False
+[CLS] Prague is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Bohemia | Bohemia | Czechia,False,True
+[CLS] Hyderabad is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Andhra Pradesh,Andhra Pradesh | A . P | Andhra Pradesh,True,False
+[CLS] Jinan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Liaoning,Shandong | Shandong | Shantung,False,True
+[CLS] Kuching is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuching,Sarawak | Sarawak,False,True
+[CLS] Johannesburg is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Gauteng | Gauteng | Gauteng Province | PWV | Pretoria - Witwatersrand - Vereeniging | Province of Gauteng,False,False
+[CLS] Grozny is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Grozny,Chechen Republic | Chechen Republic | Chechenia | Chechnya,False,False
+[CLS] Nagoya is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nagoya,Aichi Prefecture | Aichi Prefecture,False,False
+[CLS] Leicester is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leicestershire,Leicestershire | Leicestershire,True,False
+[CLS] Fuzhou is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fuzhou,Fujian | Fujian,False,True
+[CLS] Lviv is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lviv,Kingdom of Galicia and Lodomeria | Galicia | Galicia and Lodomeria | Kingdom of Galicia and Lodomeria,False,False
+[CLS] Fort - de - France is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Fort - de - France,Martinique | MQ | Martinique | [UNK],False,True
+[CLS] Nouakchott is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nouakchott,Mauritania | Agawej | Gannaar | Gànnaar | Islamic Republic of Mauritania | MTN | Mauritania | Moritani | Muritanya | Murutaane | mr | [UNK],False,False
+[CLS] Zhengzhou is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zhengzhou,Henan | Henan | Honan,False,False
+[CLS] Paramaribo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Paramaribo,Suriname | Dutch Guiana | Republic of Surinam | Republic of Suriname | SUR | Surinam | Suriname | sr | [UNK],False,True
+[CLS] Bandung is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kota Bandung,West Java | Jabar | Jawa Barat | Province of West Java | Provinsi Jawa Barat | West Java,False,False
+[CLS] Ho Chi Minh City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hong Kong,South Vietnam | Republic of Vietnam | South Vietnam,False,False
+[CLS] East Berlin is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],East Berlin,German Democratic Republic | DDR | Deutsche Demokratische Republik | East Germany | G . D . R . | GDR | German Democratic Republic | Ostdeutschland,False,False
+[CLS] Sana ' a is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sana ' a,Yemen | Rep . Yemen | Republic of Yemen | YEM | Yemen | ye | [UNK],False,True
+[CLS] Milan is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italy,Lombardy | Lombardia | Lombardy,False,False
+[CLS] Strasbourg is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Strasbourg,Alsace | Alsace,False,True
+[CLS] Nanchang is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nanchang,Jiangxi | Jiangxi,False,False
+[CLS] Yogyakarta is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yogyakarta,Indonesia | ID | IDN | INA | Indonesia | Republic of Indonesia | id | [UNK],False,True
+[CLS] Port Moresby is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Port Moresby,Papua New Guinea | Independent State of Papua New Guinea | PNG | Papua New Guinea | pg | [UNK],False,False
+[CLS] Thimphu is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Thimphu,Bhutan | BHU | Bhutan | Kingdom of Bhutan | bt | [UNK],False,True
+[CLS] Paisley is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paisley,Renfrewshire | Renfrewshire,False,False
+[CLS] Bhopal is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bhopal,Madhya Pradesh | Madhya Pradesh,False,False
+[CLS] Bandar Seri Begawan is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bandar Seri Begawan,"Brunei | BRN | BRU | Brunei | Brunei Darussalam | Nation of Brunei , the Abode of Peace | bn | [UNK]",False,True
+[CLS] Changchun is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Changchun,Jilin | Jilin,False,False
+[CLS] Suva is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Suva,Fiji | FIJ | Fiji | Republic of Fiji | Republic of the Fiji Islands | fj | [UNK],False,True
+[CLS] Bangui is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bangui,Central African Republic | CAF | CAR | Centrafrique | Central African Republic | Ködörösêse tî Bêafrîka | Republique centrafricaine | République centrafricaine | cf | [UNK],False,False
+[CLS] Taiyuan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Taiyuan,Shanxi | Shanxi,False,False
+[CLS] Honiara is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Honiara,Solomon Islands | SOL | Solomon Islands | sb | [UNK],False,False
+[CLS] Panjim is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Panjim,Goa | Goa | Konkan,False,True
+[CLS] Pamplona is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pamplona,Navarre | Chartered Community of Navarre | Navarre,False,True
+[CLS] La Plata is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buenos Aires,Province of Buenos Aires | Province of Buenos Aires,False,False
+[CLS] Minneapolis is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Minneapolis , Minnesota","Hennepin County | Hennepin County | Hennepin County , Minnesota",False,False
+[CLS] Wiesbaden is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wiesbaden,Hesse | Greater - Hessen | Hassen | Hassia | Hesse | Hessen,False,True
+[CLS] Johor Bahru is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Johor,Johor | Johor | Johore,True,True
+[CLS] Turin is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Italy,Piedmont | Piedmont,False,True
+[CLS] Bloemfontein is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bloemfontein,South Africa | RSA | Republic of South Africa | SA | South Africa | za | zaf | [UNK],False,False
+[CLS] Little Rock is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Little Rock,Arkansas | AR | Ark . | Arkansas | State of Arkansas,False,True
+[CLS] Cusco is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cusco,Inca Empire | Inca Empire,False,False
+[CLS] Cayenne is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cayenne,French Guiana | French Guiana | Guiana ( France ) | Guyane | Guyane française | gf | [UNK],False,False
+[CLS] Oklahoma City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oklahoma,"Oklahoma | OK | Oklahoma | Oklahoma , United States | State of Oklahoma | The Sooner State | US - OK",True,True
+[CLS] Dili is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dil,East Timor | Democratic Republic of East Timor | Democratic Republic of Timor - Leste | East Timor | TLS | Timor Leste | Timor - Leste | tl | [UNK],False,False
+[CLS] Sucre is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sucre,Bolivia | BOL | Bolivia | Plurinational State of Bolivia | Republic of Bolivia | bo | bol | [UNK],False,True
+[CLS] Graz is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Graz,Styria | Steiermark | Styria,False,False
+[CLS] Oslo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,Akershus | Akershus,False,True
+[CLS] Fredericton is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fredericton,New Brunswick | NB | New Brunswick | colony of New Brunswick | province of New Brunswick,False,False
+[CLS] Bacolod is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bacolod,Negros Occidental | Negros Occidental,False,False
+[CLS] Libreville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Libreville,Gabon | GAB | Gabon | Gabonese Republic | Republique Gabonaise | République Gabonaise | ga | [UNK],False,True
+[CLS] Warsaw is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Poland,Congress Poland | Congress Poland | Kingdom of Poland | Russian Poland | Tsardom of Poland,False,False
+[CLS] Funchal is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Funchal,Madeira | Autonomous Region of Madeira | Madeira | Madeira Autonomous Region,False,True
+[CLS] Veliko Tarnovo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Veliko Tarnovo,Second Bulgarian Empire | Second Bulgarian Empire,False,False
+[CLS] Campobasso is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Campobasso,Molise | Molise | Molise region,False,False
+[CLS] Vienna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Austria - Hungary | Austria Hungary | Austria - Hungary | Austro - Hungarian Empire | Dual Monarchy,False,False
+[CLS] Charlottetown is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Charlotte,"Prince Edward Island | PEI | Prince Edward Island | Prince Edward Island , PEI | St . John ' s Island | colony of Prince Edward Island | province of Prince Edward Island",False,False
+[CLS] Seattle is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,"King County | King County | King County , Washington",False,False
+[CLS] Oviedo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Asturias,Asturias | Asturias | Asturies | Principality of Asturias | Principáu d ' Asturies,True,True
+[CLS] Bridgetown is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bridgetown,Barbados | BAR | BB | Barbados | bb | [UNK],False,True
+[CLS] Monrovia is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Monrovia,Liberia | LBR | Liberia | Republic of Liberia | lr | [UNK],False,True
+[CLS] Turin is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Italy,Kingdom of Italy | Italy | Kingdom of Italy | Regno d [UNK] Italia,True,False
+[CLS] Kumasi is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kumasi,Ashanti Region | Ashanti Region,False,False
+[CLS] Milwaukee is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Milwaukee , Wisconsin","Milwaukee County | Milwaukee County | Milwaukee County , Wisconsin",False,False
+[CLS] Ipoh is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ipoh,Perak | Perak,False,True
+[CLS] Westminster is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Westminster Chamber of Commerce,Kingdom of England | England | Kingdom of England,False,False
+[CLS] Niamey is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Niamey,Niger | Niger | Republic Niger | Republic of Niger | Republic of The Niger | The Niger | ne | [UNK],False,True
+[CLS] Lahore is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lahore,Sikh Empire | Sikh Empire,False,False
+[CLS] Surabaya is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Surabaya,East Java | East Java | East Java province | Jatim | Jawa Timur | Province of East Java,False,False
+[CLS] Warsaw is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poland,Sejm of the Republic of Poland | Sejm | Sejm Polski | Sejm RP | Sejm Rzeczypospolitej Polskiej | Sejm of the Republic of Poland,False,False
+[CLS] Iqaluit is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Iqaluit,Nunavut | Nunavut,False,True
+[CLS] Bilbao is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bilbao,Biscay | Biscay | Bizkaia | Vizcaya,False,False
+[CLS] Kigali is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kigali,Rwanda | Republic of Rwanda | Rwanda | rw | [UNK],False,True
+[CLS] Minsk is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Białystok Białystok,Byelorussian Soviet Socialist Republic | Belorussian S . S . R . | Belorussian SSR | Belorussian Soviet Socialist Republic | Byelorussian S . S . R . | Byelorussian SSR | Byelorussian Soviet Socialist Republic | Soviet Belorussia | Soviet Byelorussia,False,False
+[CLS] Brussels is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Belgium | BEL | Belgium | Kingdom of Belgium | be | [UNK],False,True
+[CLS] Erbil is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Erbil,Kurdistan Region | Iraqi Kurdistan | Kurdistan Region | Southern Region of Kurdistan,False,False
+[CLS] Chandigarh is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jammu and Kashmir,Haryana | Haryana,False,False
+[CLS] Haikou is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Haikou,Hainan | Hainan,False,False
+[CLS] Strasbourg is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Strasbourg,European Union | E . U . | EU | Europe | European Union | Union | eu | [UNK],False,False
+[CLS] Constantinople is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Byzantine Empire,Latin Empire | Empire of Romania | Latin Empire | Latin Empire of Constantinople,False,False
+[CLS] Edo is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Edo,Tokugawa Shogunate | Edo Japan | Japan | Shogunate of Japan | Tokugawa Shogunate | Tokugawa shogunate,False,False
+[CLS] Asmara is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Asmara,Eritrea | ERI | Eritrea | Ertrā | IRI | Iritriyā | State of Eritrea | er | [UNK],False,True
+[CLS] Yellowknife is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Yellowknife,Northwest Territories | NWT | Northwest Territories,False,False
+[CLS] Medan is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Medan,North Sumatra | North Sumatra | Provinsi Sumatra Utara,False,False
+[CLS] Nanning is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Nanning,Guangxi Zhuang Autonomous Region | Guangxi | Guangxi Province | Guangxi Zhuang Autonomous Region | Kwangsi,False,False
+[CLS] Madison is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Madison , United States","Wisconsin | Badger State | State of Wisconsin | WI | Wisconsin | Wisconsin , United States",False,True
+[CLS] Kuantan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kuantan,Pahang | Pahang,False,True
+[CLS] Saipan is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saipan,Northern Mariana Islands | CNMI | Commonwealth of the Northern Maria Islands | MP | NMI | Northern Mariana Islands | [UNK],False,False
+[CLS] Funafuti is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Funafuti,Tuvalu | Ellice Islands | TUV | Tuvalu | tv | [UNK],False,False
+[CLS] N ' Djamena is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],N ' Djamena,Chad | CHA | Chad | GUM | Republic of Chad | Republique du Tchad | République du Tchad | Tchad | td | [UNK] Tšād | جمهورية تشاد | [UNK],False,True
+[CLS] Cincinnati is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Cincinnati , United States","Hamilton County | Hamilton County | Hamilton County , Ohio",False,False
+[CLS] Seremban is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Seremban,Negeri Sembilan | Negeri Sembilan,False,False
+[CLS] Belgrade is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Serbia,Socialist Republic of Serbia | PR Serbia | People ' s Republic of Setrbia | SR Serbia | SR Srbija | Socialist Republic of Serbia | Socijalistička Republika Srbija,False,False
+[CLS] Potsdam is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Germany,Brandenburg | Brandenburg | Land Brandenburg | State of Brandenburg,False,True
+[CLS] Vienna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Lower Austria | Lower Austria | Niederösterreich,False,False
+[CLS] Agartala is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Agartala,Tripura | Tripura,False,False
+[CLS] Oxford is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Oxford,Oxfordshire | Oxfordshire | Oxon .,False,True
+[CLS] Hohhot is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hohhot,Inner Mongolia | Inner Mongolia | Inner Mongolia Autonomous Region | Nei Mongol Autonomous Region,False,False
+[CLS] Toluca is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Toluca,State of Mexico | State of Mexico,False,False
+[CLS] Malabo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Malabo,Equatorial Guinea | Equatorial Guinea | GEQ | Republic of Equatorial Guinea | gq | [UNK],False,False
+[CLS] Ōsaka is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ōsaka,Ōsaka Prefecture | Osaka | Osaka Prefecture | Osaka - fu | Ōsaka Prefecture | Ōsaka - fu,False,False
+[CLS] Kuwait City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuwait,Kuwait | Dawlat al - Kuwait | KUW | Kuwait | State of Kuwait | kw | [UNK],True,True
+[CLS] Tehran is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Iran,Imperial State of Iran | Imperial | Imperial State of Iran | Iran | Pahlavi | Persia,True,False
+[CLS] Lilongwe is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lilongwe,Malawi | MAW | Malawi | Republic of Malawi | mw | [UNK],False,True
+[CLS] Sukhumi is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sukhumi,Abkhazia | Abchasia | Abkazia | Abkhasia | Abkhazia | Abkhaziya,False,False
+[CLS] Lanzhou is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lanzhou,Gansu | Gansu,False,False
+[CLS] Yokohama is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yokohama,Kanagawa Prefecture | Kanagawa Prefecture,False,False
+[CLS] Gandhinagar is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Gandhinagar,Gujarat | Gujarat,False,True
+[CLS] Saint Petersburg is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saint Petersburg,Leningrad Oblast | Leningrad Oblast,False,False
+[CLS] Apia is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Apia,Samoa | Independent State of Samoa | Samoa | Western Samoa | ws | [UNK],False,True
+[CLS] Venice is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Venice,Veneto | Veneto,False,True
+[CLS] Rouen is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rouen,"Normandy | Normandy | Normandy , France",False,True
+[CLS] Hefei is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hefei,Anhui | Anhui,False,False
+[CLS] Warwick is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Warwick,"Warwickshire | VC38 | Warwickshire | Warwickshire , England",False,False
+[CLS] Yekaterinburg is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Yekaterinburg,Sverdlovsk Oblast | Sverdlovsk Oblast,False,False
+[CLS] Port Louis is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Port Louis,Mauritius | MRI | Maurice | Mauritius | Moris | Republic of Mauritius | mu | [UNK],False,True
+[CLS] Winchester is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Winchester,Kingdom of England | England | Kingdom of England,False,False
+[CLS] Basse - Terre is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Basse - Terre,Guadeloupe | Guadeloupe | gp | [UNK],False,True
+[CLS] Charlottesville is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,"Albemarle County | Albemarle County | Albemarle County , Virginia | Albemarle , Virginia",False,False
+[CLS] Kyoto is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kyoto,Kyōto Prefecture | Kyoto Prefecture | Kyoto - fu | Kyōto Prefecture | Kyōto - fu,False,False
+[CLS] Vaduz is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Vaduz,Liechtenstein | FL | LI | LIE | Liechtenstein | Principality of Liechtenstein | li | [UNK],False,True
+[CLS] Alor Setar is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Alor Setar,Kedah | Kedah,False,True
+[CLS] Petrozavodsk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Petrozavodsk,Karelia | Karelia | Kareliya | Karjalan Tazovaldkund | Karjalan tasavalta | Karjalan tazavalda | Republic of Karelia | Respublika Kareliya | Респу́блика Каре́лия,False,False
+[CLS] Juba is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Juba,South Sudan | Republic of South Sudan | SSD | South Sudan | Southern Sudan | ss | [UNK],False,False
+[CLS] Port Vila is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Port Vila,Vanuatu | Republic of Vanuatu | VAN | Vanuatu | van | vu | vut | [UNK],False,True
+[CLS] Victoria is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New South Wales,British Columbia | B . C . | BC | British Columbia,False,False
+[CLS] Genoa is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Genoa,Liguria | Liguria | Regio IX,False,True
+[CLS] Linz is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Linz,Upper Austria | Oberösterreich | Upper Austria,False,False
+[CLS] Houston is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Houston,"Harris County | Harris County | Harris County , Texas",False,False
+[CLS] Tiraspol is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tiraspol,Pridnestrovie | Cisdniestria | Dnestr Republic | Left Bank of Dniester | Moldavian Republic of Transdniestria | Nistrenia | Nistria | PMR | Pridnestria | Pridnestrovia | Pridnestrovian Moldavian Republic | Pridnestrovie | Republic of Pridnestrovie | Trans - Dniestr | Transdniester | Transdniestria | Transdniestrian Moldavian Republic | Transnistria,False,False
+[CLS] Madrid is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Second Spanish Republic | Second Spanish Republic,False,False
+[CLS] Hiroshima is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hiroshima,Hiroshima Prefecture | Hiroshima Prefecture,False,False
+[CLS] Cheboksary is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Cheboksary,Chuvash Republic | Chuvash Republic | Chuvashia | Chuvashiya | Republic of Chuvashia,False,False
+[CLS] Puerto Princesa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Puerto Princesa,Palawan | Palawan,False,False
+[CLS] Kabul is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Afghanistan,Kingdom of Afghanistan | Afghan Kingdom | Afghanistan | Kingdom of Afghanistan,True,False
+[CLS] Xining is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Liaoning,Qinghai | Qinghai,False,False
+[CLS] Semarang is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Semarang,Central Java | Central Java | Jateng | Jawa Tengah | Jawa Tengah Province | Province of Central Java | Provinsi Jawa Tengah,False,False
+[CLS] Guiyang is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Guiyang,Guizhou | Guizhou,False,False
+[CLS] Dijon is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dijon,Burgundy | Bourgogne | Burgundy,False,False
+[CLS] Maseru is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Maseru,Lesotho | Kingdom of Lesotho | LES | Lesotho | ls | [UNK],False,True
+[CLS] Beijing is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Republic of China,Taiwan | Chinese Taipei | Chunghwa Minkuo | Chunghwa Minkwo | Formosa | Free China | Free area of the Republic of China | Nationalist China | ROC | Republic of China | Republic of China ( Taiwan ) | Taiwan | tw | [UNK],False,True
+[CLS] Yakutsk is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Yakutsk,Sakha Republic | Sakha | Sakha ( Yakutia ) | Sakha Republic | Yakutia | Yakutiya,False,False
+[CLS] Kota Bharu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kota Bharu,Kelantan | Kelantan,False,True
+[CLS] Bratislava is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Kingdom of Hungary | Hungary | Kingdom of Hungary,False,False
+[CLS] Bissau is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Guiné Bissau,Guinea - Bissau | GBS | Guinea - Bissau | Republic of Guinea - Bissau | gw | [UNK],False,False
+[CLS] Aden is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aden,Yemen | Rep . Yemen | Republic of Yemen | YEM | Yemen | ye | [UNK],False,True
+[CLS] Bujumbura is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bujumbura,Burundi | BDI | Burundi | Gouvernement du Burundi | Republic of Burundi | Republika y ' Uburundi | bi | [UNK],False,True
+[CLS] Parakou is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Parakou,Borgou Department | Borgou Department,False,False
+[CLS] Erfurt is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Erfurt,Thuringia | Free State of Thuringia | Thuringia | Thüringen,False,False
+[CLS] Leh is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Leh,Ladakh | Ladakh,False,False
+[CLS] Antipolo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Antipolo,Rizal | Rizal,False,False
+[CLS] Hargeisa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hargeisa,Somaliland | Republic of Somaliland | Somaliland | northern Somalia,False,False
+[CLS] Djibouti is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Djibouti,Djibouti | DJI | Djibouti | Gabuuti | Jabuuti | Jībūtī | Republic of Djibouti | dj | [UNK],True,True
+[CLS] Atlanta is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,"Fulton County | Fulton County | Fulton County , Georgia",False,False
+[CLS] Sendai is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sendai,Miyagi Prefecture | Miyagi Prefecture,False,False
+[CLS] Kuala Terengganu is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuala Terengganu,Terengganu | Terangganu | Terengganu | Trengganu | Tringganu,False,True
+[CLS] Clermont - Ferrand is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Clermont - Ferrand,Auvergne | Auvergne,False,True
+[CLS] Perugia is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Perugia,Umbria | Umbria,False,False
+[CLS] Turin is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italy,Kingdom of Sardinia | Kingdom of Sardinia | Kingdom of Sardinia - Piedmont | Piedmont - Sardinia,False,False
+[CLS] Bloemfontein is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Bloemfontein,Orange Free State | Orange Free State | Oranje - Vrijstaat | Oranje - Vrystaat,False,False
+[CLS] Palembang is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palembang,South Sumatra | South Sumatra | Sumatera Selatan,False,False
+[CLS] Florence is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tuscany,Kingdom of Italy | Italy | Kingdom of Italy | Regno d [UNK] Italia,False,False
+[CLS] Moscow is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Moscow Oblast | Moscow Oblast | Podmoskovye,False,False
+[CLS] Mainz is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mainz,Rhineland - Palatinate | Count Palatine of the Rhine | RP | Rheinland - Pfalz | Rhineland - Palatinate,False,False
+[CLS] Jefferson City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jefferson,"Missouri | MO | Missouri | Missouri , United States | State of Missouri | The Show Me State",False,True
+[CLS] London is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,United Kingdom of Great Britain and Ireland | GB | Great Britain and Ireland | UK | UKGBI | United Kingdom | United Kingdom of Great Britain and Ireland | the United Kingdom,True,False
+[CLS] Bologna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Emilia - Romagna,Emilia - Romagna | Emilia - Romagna,True,False
+[CLS] Porto - Novo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Porto - Novo,Benin | BEN | Benin | Dahomey | Republic of Benin | bj | [UNK],False,True
+[CLS] Chernivtsi is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Chernivtsi,Bukovina | Bukovina,False,False
+[CLS] Makhachkala is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Makhachkala,Republic of Dagestan | Dagestan | Republic of Dagestan,False,False
+[CLS] Ajaccio is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ajaccio,Corsica | Corsica | Còrsica,False,True
+[CLS] Muzaffarabad is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Muzaffarabad,Azad Kashmir | AJK | Azad Kashmir | Pakistan - Administrated Kashmir,False,False
+[CLS] Jakarta is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Dutch East Indies | Dutch East Indies | Dutch Indies | Nederlands - Indië | Netherlands East Indies,False,False
+[CLS] Mons is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mons,County of Hainaut | County of Hainaut,False,False
+[CLS] Rome is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Roman Empire,Papal States | Church State | Papal State | Papal States | State of the Church | Stato della Chiesa | Status Ecclesiae,False,False
+[CLS] Naha is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Naha,Okinawa Prefecture | Okinawa | Okinawa Prefecture | Uchina,False,False
+[CLS] Chalkida is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chalkida,Euboea | Euboea | Evvia | Evvoia | Évvia | Évvoia,False,False
+[CLS] Buda is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Kingdom of Hungary | Hungary | Kingdom of Hungary,False,False
+[CLS] Padang is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Padang,West Sumatra | West Sumatra | West of Sumatra,False,False
+[CLS] Kanazawa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kanazawa,Ishikawa Prefecture | Ishikawa Prefecture,False,False
+[CLS] Bregenz is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bregenz,Vorarlberg | Vorarlberg,False,True
+[CLS] Warsaw is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Poland,Masovian Voivodeship | Masovian Voivodeship | Mazovia Province | Mazovian Voivodeship | Wojewodztwo mazowieckie | Województwo mazowieckie,False,False
+[CLS] Vienna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Austrian Empire | Austria | Austrian Empire,False,False
+[CLS] Saint Peter Port is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saint Peter,Guernsey | Bailiwick of Guernsey | Bailliage de Guernesey | GB - GSY | GBG | GGY | Great Britain Guernsey | Guernsey | Lisia | XA - GG | gg | [UNK],False,False
+[CLS] Tehran is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Iran,Qajar dynasty | Qajar dynasty,False,False
+[CLS] Edinburgh is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Scotland,Kingdom of Scotland | Kingdom of Scotland | Scotland | The Kingdom of Scotland,True,False
+[CLS] Andorra la Vella is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Andorra,Andorra | AND | Andorra | Principality of Andorra | Principality of the Valleys of Andorra | ad | [UNK],True,True
+[CLS] Ulan - Ude is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Ulan - Ude,Republic of Buryatia | Buryat Republic | Buryatia | Buryatiya | Republic of Buryatia | Republic of Buryatiya,False,False
+[CLS] Hakha is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hakha,Chin State | Chin State,False,False
+[CLS] Mexicali is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mexicali,Baja California | BCN | Baja California | Estado de Baja California | Free and Sovereign State of Baja California | MX - BCN | MX02,False,False
+[CLS] Jerusalem is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jude Jude,Judah | Judah | Kingdom of Judah | Kingdom of Judea | Southern Kingdom,False,False
+[CLS] Maykop is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maykop,Republic of Adygea | Adygea | Adygea Republic | Adygeya | Adyghea | Republic of Adygea,False,False
+[CLS] Papeete is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Papeete,French Polynesia | French Polynesia | pf | [UNK],False,False
+[CLS] Saransk is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saransk,Republic of Mordovia | Mordovia | Mordvin Republic | Mordvinia | Republic of Mordovia | Republic of Mordvinia,False,False
+[CLS] Polokwane is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Polokwane,Limpopo | Limpopo | Northern Province | Northern Transvaal,False,False
+[CLS] Tullamore is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tullamore,County Offaly | County Offaly | King ' s County | Offaly,False,False
+[CLS] Harare is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Harare,Rhodesia | Republic of Rhodesia | Rhodesia,False,False
+[CLS] Roseau is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Roseau,Dominica | Commonwealth of Dominica | DMA | DOM | Dominica | The Commonwealth of Dominica | dm | [UNK],False,False
+[CLS] Kassel is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kassel,Landgraviate of Hesse - Kassel | Landgrafschaft Hessen - Kassel | Landgraviate of Hesse - Kassel,False,False
+[CLS] Melbourne is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Australian Capital Territory,City of Melbourne | City of Melbourne | Melbourne | Melbourne City,False,False
+[CLS] City of London is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],London,Kingdom of England | England | Kingdom of England,False,False
+[CLS] Kinshasa is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kinshasa,Zaire | Republic of Zaire | Zaire,False,False
+[CLS] Nicosia is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nicosia,Kingdom of Cyprus | Kingdom of Cyprus,False,False
+[CLS] Vladikavkaz is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Vladikavkaz,Republic of North Ossetia - Alania | Alania | North Ossetia | North Ossetia [UNK] Alania | Ossetia | Republic of North Ossetia - Alania,False,False
+[CLS] Lincoln is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lincoln,Nebraska | NE | Nebraska | State of Nebraska,False,True
+[CLS] Raipur is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Raipur,Chhattisgarh | Chattisgarh | Chhatisgarh State | Chhattisgarh | IN - CT | State of Chhattisgarh,False,False
+[CLS] Middelburg is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Middelburg,Zeeland | Zealand | Zeeland,False,True
+[CLS] Rennes is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rennes,Ille - et - Vilaine | Ille - et - Vilaine,False,False
+[CLS] Tours is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tours,Indre - et - Loire | Indre - et - Loire,False,False
+[CLS] Kingstown is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kingstown,Saint Vincent and the Grenadines | Saint Vincent | Saint Vincent and the Grenadines | St Vincent | St Vincent and the Grenadines | St . Vincent | St . Vincent and the Grenadines | vc | [UNK],False,False
+[CLS] The Hague is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United Kingdom,South Holland | South Holland | Zuid - Holland,False,False
+[CLS] Longyearbyen is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Longyearbyen,Svalbard | Spitsburgen | Spitzbergen | Spitzburgen | Svaalbard | Sval ' bard | Svalbard | Svalbard Archipelago | Svalbard Island | Svalbard Islands | Svaldbard,False,True
+[CLS] Banda Aceh is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Banda Aceh,Aceh | Aceh | Nanggroe Aceh Darussalam | Provinsi Aceh,False,True
+[CLS] Stepanakert is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Stepanakert,Artsakh | Artsakh | NKR | Nagorno - Karabakh Republic | Republic of Artsakh,False,False
+[CLS] Lausanne is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Switzerland,Canton of Vaud | Canton de Vaud | Canton of Vaud | VD | Vaud,False,False
+[CLS] Dumaguete is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dumaguete,Negros Oriental | Negros Oriental,False,False
+[CLS] Persepolis is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Persepolis,Achaemenid Empire | Achaemenid Empire | Achaemenid Persia | Achaemenid Persian Empire | First Persian Empire | Persia | Persian Achaemenid Empire | Persian Empire,False,False
+[CLS] Bordeaux is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],France,Aquitaine | Aquitaine,False,True
+[CLS] Yangon is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Yang,British rule in Burma | British Burma | British rule in Burma,False,False
+[CLS] Dallas is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Dallas , Texas","Dallas County | Dallas County | Dallas County , Texas",False,False
+[CLS] Olyokminsk is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Olyokminsk,Olyokminsky District | Olyokminsky District,False,False
+[CLS] Majuro is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Majuro,Marshall Islands | Aolepān Aorōkin M̧ajeļ | MHL | Marshall Islands | Republic of the Marshall Islands | mh | [UNK],False,False
+[CLS] Santiago de Compostela is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Santiago de Compostela,Kingdom of Galicia | Kingdom of Galicia,False,False
+[CLS] Pliska is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pliska,First Bulgarian Empire | First Bulgarian Empire,False,False
+[CLS] Herat is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Herat,Herat | Herat | Herat Province,True,False
+[CLS] Montgomery is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Montgomery,Alabama | AL | Alabama | Heart of Dixie | State of Alabama | The Yellowhammer State,False,True
+[CLS] Dodoma is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dodoma,Tanzania | Tanzania | United Republic of Tanganyika and Zanzibar | United Republic of Tanzania | tz | [UNK],False,True
+[CLS] Rothera Research Station is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Rothera,British Antarctic Territory | British Antarctic Territory,False,False
+[CLS] Mbombela is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mbombela,Mpumalanga | Eastern Transvaal | Mpumalanga,False,False
+[CLS] Toulouse is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a number of cities,Haute - Garonne | Haute - Garonne,False,False
+[CLS] Tskhinvali is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tskhinvali,South Ossetia | Alania | Republic of South Ossetia | Republic of South Ossetia [UNK] the State of Alania | S Ossetia | S . Ossetia | Samachablo | South Osetia | South Ossetia | South Ossetian | South Ossetian Republic | South Ossettia | State of Alania | Tskhinvali Region | the State of Alania,False,False
+[CLS] Arnhem is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Arnhem,Gelderland | Gelderland,False,False
+[CLS] Burgos is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Castile and León,Crown of Castile | Crown of Castile,False,False
+[CLS] Maputo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maputo,Portuguese Mozambique | Africa Oriental Portuguesa | Overseas Province of Mozambique | Portuguese East Africa | Portuguese Mozambique | State of East Africa | África Oriental Portuguesa,False,False
+[CLS] Annecy is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Annecy,Haute - Savoie | Haute - Savoie | Upper Savoy,False,False
+[CLS] Ikeja is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ikeja,Lagos | Lagos | Lagos State,False,True
+[CLS] Mbabane is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mbabane,Eswatini | Eswatini | Kingdom of Eswatini | Kingdom of Swaziland | SWZ | Swaziland | Umbuso weSwatini | eSwatini | sz | [UNK],False,False
+[CLS] Whangārei is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Whangārei,Northland Region | Northland Region,False,False
+[CLS] Schwerin is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mecklenburg - Vorpommern,Mecklenburg - Vorpommern | MV | Meck - Pomm | MeckPomm | Mecklenburg - Vorpommern | Mecklenburg - Western Pomerania,True,False
+[CLS] Hattusa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hattusa,Hittites | Hettite | Hettites | Hittite | Hittites,False,False
+[CLS] Imus is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Imus,Cavite | Cavite,False,False
+[CLS] Manado is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Manado,North Sulawesi | North Sulawesi,False,False
+[CLS] Rodez is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rodez,Aveyron | Aveyron | Aveyron department,False,True
+[CLS] Magdeburg is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Magdeburg,Saxony - Anhalt | DE - ST | Land Sachsen - Anhalt | Sachsen - Anhalt | Saxony - Anhalt,False,False
+[CLS] Saitama is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Saitama,Saitama Prefecture | Saitama Prefecture | Saitama - ken,False,False
+[CLS] Nara is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nara,Nara Prefecture | Nara Prefecture,False,False
+[CLS] Manyakheta is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Manyakheta,Rashtrakuta Dynasty | Rashtrakuta Dynasty,False,False
+[CLS] Prague is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Central Bohemian Region | Central Bohemian Region | Středočeský kraj,False,False
+[CLS] Maracay is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Aragua | Aragua,False,False
+[CLS] Avignon is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Avignon,Vaucluse | Vaucluse,False,False
+[CLS] Luanda is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Angola,Portuguese Angola | Africa Ocidental Portuguesa | Overseas Province of Angola | Portuguese Angola | Portuguese West Africa | State of Angola | África Ocidental Portuguesa,False,False
+[CLS] Praia is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Praia,Cape Verde | CPV | CV | Cabo Verde | Cape Verde | Republic of Cape Verde | cv | [UNK],False,False
+[CLS] Nice is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nice,Alpes - Maritimes | Alpes - Maritimes,False,False
+[CLS] Bruges is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Bruges Chamber of Commerce,West Flanders | West Flanders | West Flanders Province | West - Vlaanderen,False,False
+[CLS] Brussels is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Brussels - Capital Region | BE - BRU | Brussels | Brussels Capital Region | Brussels Region | Brussels - Capital Region | Bruxelles - Capitale,False,False
+[CLS] Liestal is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Liestal,Basel - Landschaft | BL | Basel - Landschaft | Baselbiet | Baselland | Basle - Campagne | Basle - Country | Bâle - Campagne | Canton of Basel - Land | Canton of Basel - Landschaft | Kanton Basel - Land | Kanton Basel - Landschaft | canton of Basel - Country,False,False
+[CLS] Batagay is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Batagay,Verkhoyansky District | Verkhoyansky District,False,False
+[CLS] Yamoussoukro is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Yamoussoukro,Ivory Coast | CIV | Cote D ' Ivoire | Cote D ' Ivoire | Cote Divoire | Cote Ivoire | Cote d ivoire | Cote d ' Ivoire | Cote d ' Ivoire | Cote d ' ivoire | Cote d ' ivore | Cote d ' lvoire | Cote dIvoire | Cote divoire | Cote [UNK] | Cote d [UNK] Ivoire | Cote - d ' Ivoire | Côte D ' Ivoire | Côte D ' ivoire | Côte Divoire | Côte d ' Ivoire | Côte d ' Ivorie | Côte d ' ivoire | Côte [UNK] | Côte d [UNK] Ivoire | Côte - d ' Ivoire | Ivory Coast | Ivory coast | Republic of Cote d ' Ivoire | Republic of Côte d ' Ivoire | Republic of Ivory Coast | Republic of the Ivory Coast | République de Côte d ' Ivoire | The Ivory Coast | ci | [UNK],False,False
+[CLS] Des Moines is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Des Moines,"Iowa | IA | Iowa | Iowa , United States | State of Iowa | The Land Between Two Rivers",False,True
+[CLS] Antakya is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Antakya,Hatay | Hatay | Hatay Province,False,False
+[CLS] Cluj - Napoca is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cluj - Napoca,Cluj County | Cluj County,False,False
+[CLS] Damascus is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Syria,Umayyad Caliphate | Umayyad Caliphate | Umayyad Empire | Umayyad period,False,False
+[CLS] Szczecin is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pomeranian Voivodeship,Duchy of Pomerania | Duchy of Pomerania,False,False
+[CLS] Pamplona is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pamplona,Kingdom of Navarre | Kingdom of Navarre | Kingdom of Pamplona,False,False
+[CLS] Road Town is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Road Town,British Virgin Islands | BVI | British Virgin Islands | IVB | Virgin Islands | vg | [UNK],False,False
+[CLS] Aix - en - Provence is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Aix - en - Provence,Provence | La Provence | Provence,False,True
+[CLS] Jerusalem is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jude Jude,State of Palestine | PA | Palestine | Palestinian Authority | Palestinian state | State of Palestine | [UNK],False,False
+[CLS] Melaka City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Melaka,Melaka | Malacca | Melaka,True,True
+[CLS] Toledo is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Toledo,Toledo Province | Toledo Province,False,False
+[CLS] Aarau is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Aarau,Aargau | AG | Aargau | Argovia | Canton of Aargau | Kanton Aargau | canton of Argovia,False,False
+[CLS] Kaesong is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Goryeo | Goryeo | Koryŏ,False,False
+[CLS] Serang is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serang,Banten | Banten,False,True
+[CLS] Sunyani is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sunyani,Brong - Ahafo Region | Brong - Ahafo Region,False,False
+[CLS] Ho Chi Minh City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hong Kong,Cochinchina | Cochinchina,False,False
+[CLS] Madrid is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Community of Madrid | Community of Madrid | Comunidad de Madrid | Madrid autonomous community | Madrid province,False,False
+[CLS] Vigan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vigan,Ilocos Sur | Ilocos Sur,False,False
+[CLS] Myitkyina is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Myitkyina,Kachin State | Kachin State,False,False
+[CLS] Lashkar Gah is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Lashkar Gah,Helmand | Helmand | Helmand Province,False,False
+[CLS] Lhasa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lhasa,Tibet Autonomous Region | Tibet Autonomous Region | Xizang | Xizang Autonomous Region,False,False
+[CLS] Freetown is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Freetown,Western Area | Western Area,False,False
+[CLS] Port Harcourt is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Port Harcourt,Rivers State | Rivers State,False,False
+[CLS] Harrisburg is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Harrisburg,"Pennsylvania | Commonwealth of Pennsylvania | Keystone State | PA | Penna . | Pennsylvania | Pennsylvania , United States ( State of Pennsylvania ) Keystone State ( PA ) Penna",False,True
+[CLS] Vienna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Holy Roman Empire | First Reich | Holy Roman Empire | Holy Roman Empire of the German Nation,False,False
+[CLS] Vic is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Vic,Osona | Osona,False,False
+[CLS] Tarinkot is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tarinkot,Urozgan | Oruzgan | Urozgan | Urozgan Province | Urōzgān,False,False
+[CLS] Montpellier is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Languedoc - Roussillon,Languedoc - Roussillon | Languedoc - Roussillon,True,False
+[CLS] Harare is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harare,Southern Rhodesia | Southern Rhodesia,False,False
+[CLS] Amiens is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Picardy,Picardy | Picardie | Picardy,True,False
+[CLS] Troyes is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Troyes,Aube | Aube,False,True
+[CLS] Limoges is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Limoges,Haute - Vienne | Haute - Vienne,False,False
+[CLS] Nalchik is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nalchik,Kabardino - Balkaria | Kabardino - Balkaria | Kabardino - Balkariya | Republic of Kabardino - Balkaria,False,False
+[CLS] Montauban is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Montauban,Tarn - et - Garonne | Tarn - et - Garonne,False,False
+[CLS] Dawei is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dawei,Tanintharyi Region | Tanintharyi Region | Tenasserim Division,False,False
+[CLS] Arras is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Arras,Pas - de - Calais | Pas - de - Calais,False,False
+[CLS] Haarlem is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haarlem,North Holland | Noord - Holland | North Holland,False,False
+[CLS] Leuven is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Leuven Chamber of Commerce,Flemish Brabant | Flemish Brabant | Flemish Brabant Province,False,False
+[CLS] Milan is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italy,province of Milan | Milan province | Milano province | province of Milan | provincia di Milano,False,False
+[CLS] Bolgatanga is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bolgatanga,Upper East Region | GH - UE | UE | UER | Upper East Region,False,False
+[CLS] Cheyenne is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cheyenne,"Wyoming | State of Wyoming | The Cowboy State | The Equality State | WY | Wyo | Wyoming | Wyoming , United States",False,True
+[CLS] La Rochelle is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poitou - Charentes,Charente - Maritime | Charente - Inferieure | Charente - Inférieure | Charente - Maritime,False,False
+[CLS] Nantes is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nantes,Loire - Atlantique | Loire - Atlantique | Loire - Inferieure | Loire - Inférieure,False,False
+[CLS] Elkton is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Elkton,"Cecil County | Cecil County | Cecil County , Maryland",False,False
+[CLS] Eisenstadt is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eisenstadt,Burgenland | Burgenland,False,False
+[CLS] Dhaka is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bangladesh,East Pakistan | East Pakistan,False,False
+[CLS] Leesburg is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leesburg,"Loudoun County | Loudoun County | Loudoun County , Virginia",False,False
+[CLS] Masbate City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Masbate,Masbate | Masbate,True,False
+[CLS] Borongan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Borong,Eastern Samar | Eastern Samar | Province of Eastern Samar,False,False
+[CLS] Pago Pago is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pago Pago,American Samoa | ASA | American Samoa | East Samoa | Samoa ( American ) | Territory of American Samoa | U . S . Samoa | US Samoa | as | [UNK],False,False
+[CLS] Carbonia is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carbonia,Province of Carbonia - Iglesias | Province of Carbonia - Iglesias | provincia di Carbonia - Iglesias | מחוז קרבוניה - אינגלזיה,False,False
+[CLS] Dipolog is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dipolog,Zamboanga del Norte | Zamboanga del Norte,False,False
+[CLS] Blois is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blois,Loir - et - Cher | Loir et Cher | Loir - et - Cher,False,False
+[CLS] Mamoudzou is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mamoudzou,Mayotte | Department of Mayotte | Mayotte | yt | [UNK],False,True
+[CLS] Warrenton is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Warrenton,"Fauquier County | Fauquier County | Fauquier County , Virginia",False,False
+[CLS] Rostov - on - Don is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Rostov - on - Don,Rostov Oblast | Rostov Oblast,False,False
+[CLS] Fakaofo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Fakaofo,Tokelau | Tokelau | tk | [UNK],False,False
+[CLS] Fukushima is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fukushima,Fukushima Prefecture | Fukushima Prefecture,False,False
+[CLS] Concord is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Concord,"New Hampshire | NH | New Hampshire | New Hampshire , United States | State of New Hampshire | The Granite State",False,False
+[CLS] Poitiers is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Poitiers,Vienne | Vienne,False,True
+[CLS] Santa Fe is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,"New Mexico | NM | New Mexico | New Mexico , United States | State of New Mexico",False,False
+[CLS] Murshidabad is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Murshidabad,Nawabs of Bengal and Murshidabad | Nawabs of Bengal and Murshidabad,False,False
+[CLS] Volos is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Volos,Magnesia Prefecture | Magnesia Prefecture,False,False
+[CLS] Trujillo is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Trujillo,Trujillo District | Trujillo District,False,False
+[CLS] Mazar - i - Sharif is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Mazar,Balkh | Balkh | Balkh Province,False,False
+[CLS] Regensburg is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Regensburg Chamber of Commerce,Upper Palatinate | Regierungsbezirk Oberpfalz | Upper Palatinate,False,False
+[CLS] Avarua is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Avarua,Cook Islands | COK | Cook Islands | ck | [UNK],False,False
+[CLS] Nyurba is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nyurba,Nyurbinsky District | Nyurbinsky District,False,False
+[CLS] Melun is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Melun,Seine - et - Marne | Seine - et - Marne,False,False
+[CLS] Konya is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Konya,Sultanate of Rum | Rum | Rum sultanate | Rûm sultanate | Seljuq Sultanate | Sultanate of Rum,False,False
+[CLS] Antananarivo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Antananarivo,French Madagascar | Colonie de Madagascar et dependances | Colonie de Madagascar et dépendances | Colony of Madagascar and Dependencies | French Madagascar,False,False
+[CLS] Simferopol is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Simferopol,Autonomous Republic of Crimea | Autonomous Republic of Crimea | Crimea,False,False
+[CLS] Brussels - Capital Region is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Brussels,Austrian Netherlands | Austrian Netherlands,False,False
+[CLS] Geneva is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Geneva,Canton of Geneva | Canton de Geneve | Canton de Genève | Canton of Geneva | GE | Geneva | Geneve,True,False
+[CLS] Mahikeng is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mahikeng,North West | North West,False,False
+[CLS] Kabul is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Afghanistan,Islamic Emirate of Afghanistan | Islamic Emirate of Afghanistan,False,False
+[CLS] Cape May Court House is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cape May,"Cape May County | Cape May County | Cape May County , New Jersey",False,False
+[CLS] Verkhnevilyuysk is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Verkhnyuysk,Verkhnevilyuysky District | Verkhnevilyuysky District,False,False
+[CLS] Bastia is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bastia,Haute - Corse | Cismonte | Haute - Corse | Upper Corsica,False,False
+[CLS] Valencia is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Valencia,Valencian Community | Comunitat Valenciana | Land of Valencia | Pais Valencia | País Valencià | Valencia | Valencian Community | Valencian Country | València,True,False
+[CLS] Akure is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Akure,Ondo State | Ondo State | Sunshine state,False,False
+[CLS] Takamatsu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Takamatsu,Takamatsu Domain | Takamatsu Domain,False,False
+[CLS] Georgetown is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Caribbean Caribbean,Guyana | Co - operative Republic of Guyana | GUY | Guyana | Republic of Guyana | gy | [UNK],False,True
+[CLS] Lobamba is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lobamba,Eswatini | Eswatini | Kingdom of Eswatini | Kingdom of Swaziland | SWZ | Swaziland | Umbuso weSwatini | eSwatini | sz | [UNK],False,False
+[CLS] Salvador is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Bahia | BA | Bahia,False,True
+[CLS] Bamyan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bamyan,Bamyan | Bamyan | Bamyan Province,True,False
+[CLS] Diego Garcia is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Diego Garcia,British Indian Ocean Territory | British Indian Ocean Territory | io | [UNK],False,False
+[CLS] Palermo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palermo,Kingdom of Sicily | Kingdom of Sicily | Kingdom of Trinacria | Regne de Sicilia | Regne de Sicília | Regno di Sicilia | Regnum Siciliae | Reino de Sicilia,False,False
+[CLS] Assen is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Assen,Drenthe | Drenthe,False,False
+[CLS] Syktyvkar is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Syktyvkar,Komi Republic | Komi | Komi Republic | Republic of Komi,False,False
+[CLS] Singapore is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Republic of Singapore,Straits Settlements | Straits Settlements,False,False
+[CLS] Ipil is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ipil,Zamboanga Sibugay | Zamboanga Sibugay,False,False
+[CLS] Luoyang is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Luoyang,Han dynasty | Han | Han China | Han Empire | Han dynasty,False,False
+[CLS] Surigao City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Surigao,Surigao del Norte | Surigao del Norte,False,False
+[CLS] Bourg - en - Bresse is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bourg - en - Bresse,Ain | Ain,False,True
+[CLS] Miyazaki is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Miyazaki,Miyazaki Prefecture | Miyazaki Prefecture,False,False
+[CLS] Calapan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Calapan,Oriental Mindoro | Mindoro Oriental | Oriental Mindoro | Province of Mindoro Oriental | Province of Oriental Mindoro,False,False
+[CLS] Nantes is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nantes,Pays de la Loire | Pays de la Loire,False,False
+[CLS] Decatur is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Decatur,"DeKalb County | DeKalb County | DeKalb County , Georgia",False,False
+[CLS] Dushanbe is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dushanbe,Tajik Soviet Socialist Republic | Soviet Tadzhikistan | Soviet Tajikistan | Tadzhik SSR | Tadzhik Soviet Socialist Republic | Tajik SSR | Tajik Soviet Socialist Republic,False,False
+[CLS] Salzburg is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Salzburg,Salzburg | Salzburg,True,True
+[CLS] Aleppo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Aleppo,Yamhad | Yamhad,False,False
+[CLS] Kozan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kozan,Armenian Kingdom of Cilicia | Armenian Kingdom of Cilicia | Little Armenia,False,False
+[CLS] Balanjar is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Balanjar,Khazars | Khazaria | Khazars,False,False
+[CLS] Ajaccio is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ajaccio,Corse - du - Sud | Corse - du - Sud | South Corsica | Southern Corsica,False,False
+[CLS] Accra is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Accra,Greater Accra Region | Greater Accra Region,False,False
+[CLS] Bukavu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bukavu,South Kivu | South Kivu,False,False
+[CLS] Pokrovsk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Pokrovsk,Khangalassky District | Khangalassky District,False,False
+[CLS] Samarkand is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Samarkan,Timurid Empire | Timurid Empire | Timurid empire,False,False
+[CLS] Hanover is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hanover,Kingdom of Hanover | Hannover | Hanover | Kingdom of Hanover | Königreich Hannover,True,False
+[CLS] Baghdad is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Baghdad,Kingdom of Iraq | Hashemite Kingdom of Iraq | Kingdom of Iraq | The Hashemite Kingdom of Iraq,False,False
+[CLS] Kano is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kano,Kano State | Kano State,False,False
+[CLS] Dessau is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dessau,Anhalt | Anhalt,False,True
+[CLS] Vengi is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Vengi,Eastern Chalukyas | Chalukyas of Vengi | Eastern Chalukyas,False,False
+[CLS] Tripoli is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tripoli,Tripolitania | Regio Tripolitana | Tripolitana | Tripolitania | Ṭarābulus | Ṭrables,False,False
+[CLS] Oranjestad is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Oranjestad,Aruba | ARU | America / Aruba | Aruba | ISO 3166 - 1 : AW | Island of Aruba | aw | [UNK],False,False
+[CLS] Gulshan Town is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Gulshan,Karachi | Heart of Pakistan | Karachi | The Lighting City,False,True
+[CLS] Yaren District is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yaren,Nauru | Naoero | Nauru | Pleasant Island | Republic of Nauru | nr | [UNK],False,True
+[CLS] Munich is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Upper Bavaria | Oberbayern | Regierungsbezirk Oberbayern | Upper Bavaria,False,False
+[CLS] Bucharest is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Kingdom of Romania | Kingdom of Romania | Kingdom of Rumania | Regatul României | Romanian Kingdom | Rumanian Kingdom,False,False
+[CLS] Chania is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chania,Chania Regional Unit | Chania Regional Unit | Chania regional unit,False,False
+[CLS] Elista is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Elista,Republic of Kalmykia | Kalmykia | Kalmykiya | Republic of Kalmykia,False,False
+[CLS] Windhoek is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Windhoek,South - West Africa | South - West Africa,False,False
+[CLS] Aalborg is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Denmark,North Denmark Region | North Denmark Region | North Jutland Region,False,False
+[CLS] Lisbon is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Portugal,First Portuguese Republic | First Portuguese Republic | Primeira Republica Portuguesa | Primeira República Portuguesa,False,False
+[CLS] Srednekolymsk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Okrug Okrug,Srednekolymsky District | Srednekolymsky District,False,False
+[CLS] Palu is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palu,Central Sulawesi | Central Sulawesi | Sulawesi Tengah Province,False,False
+[CLS] Agen is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Agen,Lot - et - Garonne | Lot - et - Garonne,False,False
+[CLS] Ganja is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ganja,Elisabethpol Governorate | Elisabethpol Governorate,False,False
+[CLS] Chang ' an is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chang ' an,Former Qin | Former Qin,False,False
+[CLS] Dhaka is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bangladesh,East Bengal | East Bengal,False,False
+[CLS] Madison is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Madison , United States","Dane County | Dane County | Dane County , Wisconsin",False,False
+[CLS] Boac is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Boac,Marinduque | Marinduque | Province of Marinduque,False,False
+[CLS] Yamaguchi is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yamaguchi,Yamaguchi Prefecture | Yamaguchi Prefecture,False,False
+[CLS] Dublin is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Dublin Chamber of Commerce,Kingdom of Ireland | Kingdom of Ireland,False,False
+[CLS] La Seu d ' Urgell is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],La Seu d ' Urgell,Alt Urgell | Alt Urgell,False,False
+[CLS] Beirut is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lebanon,Mount Lebanon Governorate | Mount Lebanon Governorate,False,False
+[CLS] Mbuji - Mayi is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mbuji,Kasaï - Oriental | Kasaï - Oriental,False,False
+[CLS] Banjarmasin is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Banjarmasin,South Kalimantan | South Borneo | South Kalimantan,False,False
+[CLS] Indianapolis is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,"Marion County | Marion County | Marion County , Indiana",False,False
+[CLS] Palembang is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Palembang,Srivijaya | San - fo - ch ' i | Shih - li - fo - shih | Siwichai | Srey Vichey | Srivijaya | Sriwijaya,False,False
+[CLS] Thohoyandou is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Thohoyandou,Venda | Venda,False,False
+[CLS] Beauvais is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Picardy,Oise | Oise,False,True
+[CLS] Shuri Castle is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shuri,Ryukyu Kingdom | Ryukyu Kingdom,False,False
+[CLS] Dakar is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Senegal,French West Africa | Afrique occidentale française | French West Africa,False,False
+[CLS] Maymana is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maymana,Faryab | Faryab | Faryab Province,False,False
+[CLS] Ibiza is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ibiza,Ibiza | Eivissa | Ibiza | Illa d ' Eivissa,True,True
+[CLS] Babylon is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Babylon,Neo - Babylonian Empire | Neo - Babylonian Empire,False,False
+[CLS] Athens is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Athens,Kingdom of Greece | Kingdom of Greece,False,False
+[CLS] George Town is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],George Town,Penang | Penang,False,False
+[CLS] Edinburgh is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scotland,City of Edinburgh | City of Edinburgh | Edinburgh | Edinburgh City,False,False
+[CLS] Dubai is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Arab Emirates,Dubai | Dubai | Dubai Emirate saurita,False,True
+[CLS] Halebidu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Halebidu,Hoysala Empire | Hoysala | Hoysala Empire,False,False
+[CLS] Sittwe is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sittwe,Rakhine State | Arakan | Arakan State | Rakhine State,False,False
+[CLS] Caen is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Calvados,Lower Normandy | Lower Normandy,False,False
+[CLS] Djursholm is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Södertälje,Danderyd Municipality | Danderyd Municipality | Danderyds kommun,False,False
+[CLS] Stockholm is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Stockholm Municipality | City of Stockholm | Stockholm Municipality | Stockholms stad,False,False
+[CLS] Cape Coast is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape,Central Region | Central Region,False,False
+[CLS] Pondicherry is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pondicherry,Puducherry | Pondicherry | Pondichéry | Pondy | Puducherry | Puduvai,True,False
+[CLS] Redwood City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Redwood,"San Mateo County | San Mateo County | San Mateo County , California",False,False
+[CLS] Levelland is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Levelland,"Hockley County | Hockley County | Hockley County , Texas",False,False
+[CLS] Le Puy - en - Velay is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Le Puy,Haute - Loire | Haute - Loire,False,False
+[CLS] Arusha is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Arusha,Arusha Region | Arusha | Arusha Region,True,False
+[CLS] Ilagan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ilagan,Isabela | Isabela,False,False
+"[CLS] Koszyce , Lesser Poland Voivodeship is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Koszyce,Gmina Koszyce | Gmina Koszyce,False,False
+[CLS] Zamora is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zamora,Zamora Province | Zamora | Zamora Province,True,False
+[CLS] Kabul is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Afghanistan,Islamic State of Afghanistan | Islamic State of Afghanistan,False,False
+[CLS] Alappuzha is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Alappuzha,Alappuzha district | Alappuzha district,False,False
+[CLS] Opava is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Opava,Austrian Silesia | Austrian Silesia | Duchy of Upper and Lower Silesia | Osterreichisch - Schlesien | Österreichisch - Schlesien,False,False
+[CLS] Salta is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Salta,Salta Province | Salta Province,False,False
+[CLS] Abakan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Abakan,Republic of Khakassia | Khakas Republic | Khakassia | Khakassiya | Republic of Khakassia,False,False
+[CLS] Babati is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Babati,Manyara Region | Manyara Region,False,False
+[CLS] Mihtarlam is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mihtarlam,Laghman | Laghman | Laghman Province,False,False
+[CLS] Hpa - An is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hpa - An,Kayin State | Kayin State,False,False
+[CLS] Cagliari is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cagliari,Kingdom of Sardinia | Kingdom of Sardinia | Kingdom of Sardinia - Piedmont | Piedmont - Sardinia,False,False
+[CLS] San Marino is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marino,San Marino | Most Serene Republic of San Marino | SMR | San Marino | sm | [UNK],False,False
+[CLS] Yanagawa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yanagawa,Yanagawa Domain | Yanagawa Domain,False,False
+[CLS] Auki is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Auki,Malaita Province | Malaita Province,False,False
+[CLS] Naka - ku is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Naka - ku,Yokohama | Yokohama | Yokohama City | Yokohama - shi,False,True
+[CLS] Arras is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Arras,County of Artois | County of Artois,False,False
+[CLS] Toulouse is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],a number of cities,Languedoc | Languedoc,False,True
+[CLS] Seleucia is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Seleucia,Seleucid Empire | Seleucid Empire,False,False
+[CLS] Landshut is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Landshut,Lower Bavaria | Lower Bavaria,False,False
+[CLS] Jericho is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jericho,Jericho Governorate | Jericho Governorate,False,False
+[CLS] Aurillac is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Aurillac,Cantal | Cantal,False,True
+[CLS] Belgrade is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Serbia,Kingdom of Serbia | Kingdom of Serbia | Kraljevina Srbija | Serb Kingdom | Serbian Kingdom,False,False
+[CLS] Ishkashim is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Ishkashim,Ishkashim | Ashkāsham | Eshkashem | Ishkashim,True,False
+[CLS] Tiksi is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tiksi,Bulunsky District | Bulunsky District,False,False
+[CLS] Dover is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dover,"Kent County | Kent County | Kent County , Delaware",False,False
+[CLS] Satu Mare is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Satu Mare,Satu Mare County | Satu Mare County,False,False
+[CLS] King Edward Point is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],King Edward,South Georgia and the South Sandwich Islands | SGSSI | South Georgia | South Georgia and South Sandwich Islands | South Georgia and the South Sandwich Islands | South Sandwich Islands | gs | [UNK],False,False
+[CLS] Rio de Janeiro is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rio de Janeiro,Rio de Janeiro | RJ | Rio de Janeiro | Rio de Janeiro state,True,False
+[CLS] Birobidzhan is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Birobidzhan,Jewish Autonomous Oblast | Jewish Autonomous Oblast,False,False
+[CLS] Belize City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belize,British Honduras | British Honduras | Honduras Britanica | Honduras Británica,False,False
+[CLS] Khandyga is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Khandyga,Tomponsky District | Tomponsky District,False,False
+[CLS] Genoa is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Genoa,Province of Genoa | Genoa | Genoa Province | Province of Genoa | provincia di Genova,True,False
+[CLS] Holte is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Holte,Rudersdal Municipality | Rudersdal Municipality,False,False
+[CLS] Brussels - Capital Region is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Brussels,Western European Union | Western European Union,False,False
+[CLS] Ufa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ufa,Bashkir Autonomous Soviet Socialist Republic | Bashkir Autonomous Soviet Socialist Republic,False,False
+[CLS] Yogyakarta is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yogyakarta,Special Region of Yogyakarta | Jogjakarta | Special Region of Yogyakarta | Yogyakarta,True,False
+[CLS] Towson is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Towson,"Baltimore County | Baltimore County | Baltimore County , Maryland | County of Maryland",False,False
+[CLS] Kuching is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuching,Raj of Sarawak | Raj of Sarawak | Sarawak,False,False
+[CLS] Pristina is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pristina,Republic of Kosova | Republic of Kosova,False,False
+[CLS] Chandigarh is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Jammu and Kashmir,"Punjab | Land of Five Rivers | Punjab | Punjab State | Punjab , India",False,True
+[CLS] Pakse is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pakse,Champasak Province | Champasak Province,False,False
+[CLS] Kurume is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kurume,Kurume Domain | Kurume Domain,False,False
+[CLS] Welkom is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Welkom,Matjhabeng Local Municipality | Matjhabeng | Matjhabeng Local Municipality,False,False
+[CLS] Ouahigouya is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ouahigouya,Yatenga Province | Yatenga Province,False,False
+[CLS] Speers Point is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S,City of Lake Macquarie | City of Lake Macquarie | Lake Macquarie City,False,False
+[CLS] Katima Mulilo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Mulilo,Zambezi Region | Caprivi Region | Zambezi Region,False,False
+[CLS] Karaganda is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Karaganda,Karaganda Region | Karaganda Region | Karagandy Region | Qaraghandy Region,False,False
+[CLS] Sainyabuli is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sainyabuli,Sainyabuli Province | Sainyabuli Province | Xaignabouri,False,False
+[CLS] Fort Portal is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fort Portal,Kabarole District | Kabarole District,False,False
+[CLS] Brisbane is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Queensland,City of Brisbane | Brisbane City | Brisbane City Council | City of Brisbane,False,False
+[CLS] Raymondville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Raymondville,"Willacy County | Willacy County | Willacy County , Texas",False,False
+[CLS] Sapporo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hokkaidō,Ishikari Subprefecture | Ishikari Subprefecture,False,False
+[CLS] Kabale is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kabale,Kabale District | Kabale District,False,False
+[CLS] Kendari is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kendari,Southeast Sulawesi | Southeast Sulawesi,False,False
+[CLS] Warragul is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Warragul,Shire of Baw Baw | Baw Baw Shire | Shire of Baw Baw,False,False
+[CLS] Florence is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tuscany,Republic of Florence | Florentine Republic | Repubblica Fiorentina | Repubblica di Firenze | Republic of Florence,False,False
+[CLS] Dar es Salaam is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Dar es Salaam,Tanganyika | Republic of Tanganyika | Tanganyika,False,False
+[CLS] Berbera is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Berber,British Somaliland | British Somaliland,False,False
+[CLS] Rouen is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rouen,Upper Normandy | Haute Normandie | Haute - Normandie | Upper Normandy,False,False
+[CLS] Rajgir is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rajgir,Magadha | Magadha | Magadha kingdom,False,False
+[CLS] Tocache is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tocache,Tocache Province | Tocache Province,False,False
+[CLS] Tagum is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tagum,Davao del Norte | Davao del Norte,False,False
+[CLS] Voinjama is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Voinjama,Lofa County | Lofa County,False,False
+[CLS] Santander is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Santander,Cantabria | Cantabria,False,True
+[CLS] Vitebsk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Vitebsk,Viciebsk Region | Viciebsk Region | Vitebsk Oblast | Vitebsk Region,False,False
+[CLS] Sorsogon City is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sorsogon,Sorsogon | Sorsogon,True,False
+[CLS] Shreveport is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Shreveport,"Caddo Parish | Caddo Parish | Caddo Parish , Louisiana",False,False
+[CLS] Viborg is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia,Viborg Municipality | Viborg Municipality,False,False
+[CLS] Puerto Barrios is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Puerto Barrios,Izabal Department | Izabal Department,False,False
+[CLS] Freiburg im Breisgau is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Freiburg im Breisgau,Baden | Baden | South Baden,False,True
+[CLS] Guatemala City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guatemala,Guatemala Department | Guatemala Department,False,False
+[CLS] Hlotse is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hlotse,Leribe District | Leribe District,False,False
+[CLS] Goma is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Goma,North Kivu | North Kivu | North Kivu Province,False,False
+[CLS] Brussels is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Flanders | Flanders | Flemish Region,False,True
+[CLS] Aarhus is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Aarhus Municipality | Aarhus Municipality | Århus Municipality,False,False
+[CLS] Bilibino is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bilibino,Bilibinsky District | Bilibinsky District,False,False
+[CLS] Zomba is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zomba,Malawi | MAW | Malawi | Republic of Malawi | mw | [UNK],False,True
+[CLS] Kandahar is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kandahar,Durrani Empire | Durrani Empire | Sadozai Kingdom | the last Afghan empire,False,False
+[CLS] Bayombong is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bayombong,Nueva Vizcaya | Nueva Vizcaya | Province of Nueva Vizcaya,False,False
+[CLS] Luhansk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Luhansk,Luhansk People ' s Republic | Lugansk People ' s Republic | Luhansk People ' s Republic,False,False
+[CLS] Atyrau is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Atyrau,Atyrau Region | Atyrau Region,False,False
+[CLS] Camulodunum is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Camulodunum,Roman Britain | Britannia | Provincia Britannia | Roman Britain,False,False
+[CLS] Tumbes is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tumbes,"Tumbes | Tumbes | Tumbes department | Tumbes region | Tumbes , Peru",True,False
+[CLS] Benguela is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Benguela,Benguela Province | AO - BGU | Benguela | Benguela Province,True,False
+[CLS] Dar es Salaam is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dar es Salaam,Dar es Salaam Region | Dar es Salaam Region,False,False
+[CLS] Virovitica is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Virovitica,Virovitica - Podravina County | Virovitica - Podravina County,False,False
+[CLS] Fada N ' gourma is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Fada,Gourma Province | Gourma Province,False,False
+[CLS] Virac is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Virac,Catanduanes | Catanduanes | Province of Catanduanes,False,False
+[CLS] Londinium is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Londinium,Roman Britain | Britannia | Provincia Britannia | Roman Britain,False,False
+[CLS] Pauls Valley is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pauls,"Garvin County | Garvin County | Garvin County , Oklahoma",False,False
+[CLS] Savalou is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Savalou,Collines Department | Collines Department,False,False
+[CLS] Muscat is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Muscat,Oman | Oman | Sultanate of Oman | om | [UNK],False,True
+[CLS] Hervey Bay is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hervey,Fraser Coast Region | Fraser Coast | Fraser Coast Region,False,False
+[CLS] Odessa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Odessa Oblast,"Ector County | Ector County | Ector County , Texas",False,False
+[CLS] Vejle is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Vejle,Vejle Municipality | Vejle Municipality,False,False
+[CLS] Yerevan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Yerevan,First Republic of Armenia | First Republic of Armenia,False,False
+[CLS] Louisville is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Louisville , Kentucky","Jefferson County | Jefferson County | Jefferson County , Kentucky",False,False
+[CLS] Yurimaguas is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Yurimaguas,Alto Amazonas Province | Alto Amazonas Province,False,False
+[CLS] Port of Spain is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Port of Spain,Trinidad and Tobago | Republic of Trinidad and Tobago | TTO | Trinidad and Tobago | tt | [UNK],False,False
+[CLS] Pardubice is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Pardubice Region | Pardubice Region | Pardubický kraj,False,False
+[CLS] Kragujevac is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kragujevac,Principality of Serbia | Kneževina Srbija | Principality of Serbia | Serb Principality | Serbian Principality,False,False
+[CLS] Leeton is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Leeton,Leeton Shire | Leeton | Leeton Shire,True,False
+[CLS] Chang ' an is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Chang ' an,Northern Zhou | Northern Zhou,False,False
+[CLS] Moquegua is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Puerto Rico,"Moquegua | Moquegua | Moquegua department | Moquegua region | Moquegua , Peru",False,False
+[CLS] Batken is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Batken,Batken Region | Batken Region,False,False
+[CLS] Elbasan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Elbasan,Elbasan County | County of Elbasan | Elbasan County | Qarku Elbasan | Qarku i Elbasanit,False,False
+[CLS] Chambéry is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Chambéry,Savoy | Savoy,False,True
+[CLS] Rockville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rockville,"Montgomery County | MoCo | Montgomery County | Montgomery County , MD | Montgomery County , Maryland | Montgomery County , Md .",False,False
+[CLS] Antwerp is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Antwerp Chamber of Commerce,Antwerp | Antwerp | Antwerp Province | Antwerpen | Province of Antwerp,False,True
+[CLS] Ho Chi Minh City is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong,State of Vietnam | State of Vietnam,False,False
+[CLS] Malacky is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Malacky,Malacky District | Malacky District,False,False
+[CLS] Genoa is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Genoa,Republic of Genova | Republic of Genova,False,False
+[CLS] Nanjing is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nanjing,Southern Tang | Southern Tang,False,False
+[CLS] Stillwater is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stillwater,"Payne County | Payne County | Payne County , Oklahoma",False,False
+[CLS] Kralendijk is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kralendijk,Bonaire | Bonaire | Boneiru,False,False
+[CLS] Denton is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Denton,"Denton County | Denton County | Denton County , Texas",False,False
+[CLS] Las Tunas is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Las Tunas,Las Tunas Province | Las Tunas Province,False,False
+[CLS] Sanniquellie is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sanniquellie,Nimba | Nimba | Nimba County,False,False
+[CLS] Kigoma is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kigoma,Kigoma Region | Kigoma Region,False,False
+[CLS] Tyumen is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tyumen,Tyumen Oblast | Tyumen Oblast,False,False
+[CLS] Hinnerup is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hinnerup,Favrskov Municipality | Favrskov Kommune | Favrskov Municipality,False,False
+[CLS] Znojmo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Znojmo District | Znojmo District,False,False
+[CLS] Temiskaming Shores is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Temiskaming Shores,Timiskaming District | Timiskaming District,False,False
+[CLS] Livadeia is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Livadeia,Boeotia Regional Unit | Boeotia Regional Unit,False,False
+[CLS] Euroa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Euroa,Shire of Strathbogie | Shire of Strathbogie | Strathbogie Shire,False,False
+[CLS] Penza is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Penza,Penza Oblast | Penza Oblast,False,False
+[CLS] Vallabhipur is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Vallabhipur,Maitraka | Maitraka | Mer | Mithira,False,False
+[CLS] Chang ' an is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Chang ' an,Western Yan | Western Yan,False,False
+[CLS] Aabenraa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Aabenraa,Aabenraa Municipality | Aabenraa Municipality | Åbenrå Municipality,False,False
+[CLS] Quthing is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Quthing,Quthing District | Quthing District,False,False
+[CLS] Mthatha is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mthatha,Transkei | Transkei,False,False
+[CLS] Sion is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sion,Roman Catholic Diocese of Sion | Roman Catholic Diocese of Sion,False,False
+[CLS] Malabo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malabo,Spanish Guinea | Guine Espanhola | Guiné Espanhola | Spanish Guinea,False,False
+[CLS] Vallentuna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Vallentuna,Vallentuna Municipality | Vallentuna Municipality | Vallentuna kommun,False,False
+[CLS] Hecatompylos is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Hecatompylos,Parthian Empire | Arsacid Empire | Arsacid dynasty of Parthia | Parthian Empire,False,False
+[CLS] Cergy is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cergy,Val - d ' Oise | Val - d ' Oise,False,False
+[CLS] Flying Fish Cove is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Flying Fish Cove,"Christmas Island | Christmas Island | Christmas Island , Other Territories | Christmas Island , Other Territories , Australia | cx | [UNK]",False,False
+[CLS] Kampong Cham is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kampong Cham,Kampong Cham Province | Kampong Cham Province,False,False
+[CLS] Kassel is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kassel,Landgraviate of Hesse | Landgraviate of Hesse,False,False
+[CLS] Gotha is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Saxe - Coburg and Gotha,Saxe - Gotha | Sachsen - Gotha | Saxe - Gotha,False,False
+[CLS] Huacho is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Huacho,Huaura Province | Huaura Province,False,False
+[CLS] Roskilde is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Roskilde,Roskilde Municipality | Roskilde Municipality,False,False
+[CLS] El Reno is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],El Reno,"Canadian County | Canadian County | Canadian County , Oklahoma",False,False
+[CLS] Kimberley is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kimberley,Northern Cape | Northern Cape | Northern Cape Province | province of Northern Cape | province of the Northern Cape,False,False
+[CLS] Munich is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Munich | Munich | district Munich,False,True
+[CLS] Valencia is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Valencia,Carabobo | Carabobo,False,False
+[CLS] Ljungby is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ljungby,Ljungby Municipality | Ljungby Municipality | Ljungby kommun,False,False
+[CLS] Kakata is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kakata,Margibi County | Margibi County,False,False
+[CLS] Kibaha is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kibaha,Pwani Region | Coast Region | Pwani Region,False,False
+[CLS] Maitland is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maitland,City of Maitland | City of Maitland | Maitland | Maitland City | Maitland Council,True,False
+[CLS] Sagunto is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sagunto,Camp de Morvedre | Camp de Morvedre,False,False
+[CLS] Elizabeth is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Elizabeth , United States",Province of New Jersey | Colony of New Jersey | New Jersey | New Jersey Colony | Province of New Jersey,False,False
+[CLS] Ayabaca is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ayabaca,Ayabaca Province | Ayabaca Province,False,False
+[CLS] Osh is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Osh,Osh Region | Osh Province | Osh Region,False,False
+[CLS] Bobo Dioulasso is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Bobo Dioulasso,Houet Province | Houet Province,False,False
+[CLS] Stevens Point is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Stevens Point,"Portage County | Portage County | Portage County , Wisconsin",False,False
+[CLS] Dundee is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Dundee Chamber of Commerce,Dundee City | Dundee City | The City of Dundee,False,False
+[CLS] Oklahoma City is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oklahoma,"Oklahoma County | Oklahoma County | Oklahoma County , Oklahoma",False,False
+[CLS] Glarus is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Glarus,Glarus | Canton of Glarus | GL | Glarus,True,False
+[CLS] Yonezawa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Yonezawa,Yonezawa Domain | Yonezawa Domain,False,False
+[CLS] Schleswig is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schleswig - Holstein,Duchy of Schleswig | Duchy of Schleswig,False,False
+[CLS] Owando is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Owando,Cuvette Department | Cuvette Department,False,False
+[CLS] Osijek is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Osijek,Osijek - Baranja County | Osijek - Baranja County,False,False
+[CLS] Nhlangano is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nhlangano,Shiselweni District | Shiselweni | Shiselweni District,False,False
+[CLS] Bontoc is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bontoc,Mountain Province | Mountain Province,False,False
+[CLS] Interlaken is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Interlaken,Interlaken - Oberhasli administrative district | Interlaken - Oberhasli administrative district,False,False
+[CLS] Livorno is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Italy,Province of Livorno | Livorno province | Province of Livorno | provincia di Livorno,False,False
+[CLS] Recuay is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Recuay,Recuay Province | Recuay Province,False,False
+[CLS] Cessnock is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cessnock,City of Cessnock | Cessnock | City of Cessnock,True,False
+[CLS] Petrozavodsk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Petrozavodsk,Prionezhsky District | Prionezhsky District,False,False
+[CLS] Caraz is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Caraz,Huaylas Province | Huaylas Province,False,False
+[CLS] Yopal is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Yopal,Casanare Department | Casanare Department,False,False
+[CLS] Torit is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Torit,Eastern Equatoria | Eastern Equatoria,False,False
+[CLS] Kalmar is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kalmar,Kalmar County | Kalmar County | Kalmar län,False,False
+[CLS] Gabrovo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gabrovo,Gabrovo Province | Gabrovo Oblast | Gabrovo Province,False,False
+[CLS] La Rochelle is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Poitou - Charentes,Aunis | Aunis,False,False
+[CLS] Huarmey is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Huarmey,Huarmey Province | Huarmey Province,False,False
+[CLS] Carhuaz is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Carhuaz,Carhuaz Province | Carhuaz Province,False,False
+[CLS] Olot is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Olot,Garrotxa | Garrotxa,False,False
+[CLS] Taro Island is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Taro,Choiseul Province | Choiseul Province,False,False
+[CLS] Bratislava is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Bratislava Region | Bratislava Region | Bratislavský kraj,False,False
+[CLS] La Oroya is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],La Oroya,Yauli Province | Yauli Province,False,False
+[CLS] Austin is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Austin , Texas","Texas | Lone Star State | State of Texas | TX | Texas | Texas , United States",False,True
+[CLS] Haderslev is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Haderslev,Haderslev Municipality | Haderslev Municipality,False,False
+[CLS] Siem Reap is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Siem Reap,Siem Reap Province | Siem Reap Province,False,False
+[CLS] Watertown is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Watertown,"Codington County | Codington County | Codington County , South Dakota",False,False
+[CLS] Karur is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Karur,Chera Dynasty | Chera | Chera Dynasty | Cheras,False,False
+[CLS] Amritsar is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Amritsar,misl | misl,False,False
+[CLS] Purwokerto is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Purwokerto,Banyumas | Banyumas | Banyumas Regency,False,False
+[CLS] Tanjung Selor is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tanjung Selor,North Kalimantan | North Kalimantan,False,False
+[CLS] Keylong is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Keylong,Lahaul and Spiti district | Lahaul and Spiti district,False,False
+[CLS] Alotau is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Alotau,Milne Bay Province | Milne Bay Province,False,False
+[CLS] Kabul is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Afghanistan,Kabul | Kabul | Kabul Province,False,True
+[CLS] Shreveport is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Shreveport,Ark - La - Tex | Ark - La - Tex,False,False
+[CLS] Tunis is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Tunisian Republic,Hafsid dynasty | Hafsid dynasty,False,False
+[CLS] Salekhard is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Salekhard,Yamalo - Nenets Autonomous Okrug | Yamalo - Nenets Autonomous Okrug,False,False
+[CLS] Jefferson is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jefferson,"Ashe County | Ashe County | Ashe County , North Carolina",False,False
+[CLS] Giurgiu is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Giurgiu,Giurgiu County | Giurgiu County,False,False
+[CLS] Wormer is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Wormer,Wormerland | Wormerland,False,False
+[CLS] Puno is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Puno,"Puno | Puno | Puno Region | Puno department | Puno , Peru",True,False
+[CLS] Urgench is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Urgench,Xorazm Region | Xorazm Region,False,False
+[CLS] Appleton is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Appleton,"Outagamie County | Outagamie County | Outagamie County , Wisconsin",False,False
+[CLS] Liberec is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Liberec Region | Liberec Region,False,False
+[CLS] Yorkville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Yorkville,"Kendall County | Kendall County | Kendall County , Illinois",False,False
+[CLS] Qabala is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Qabala,Caucasian Albania | Caucasian Albania,False,False
+[CLS] Lutomiersk is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lutomiersk,Gmina Lutomiersk | Gmina Lutomiersk,False,False
+[CLS] Matola is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Matola,Maputo Province | Maputo Province,False,False
+[CLS] Petropavl is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Petropavl,North Kazakhstan Region | North Kazakhstan Region,False,False
+[CLS] Chimaltenango is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Chimaltenango,Chimaltenango Department | Chimaltenango Department,False,False
+[CLS] Zofingen is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Zofingen,Zofingen District | Zofingen District,False,False
+[CLS] Solothurn is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Solothurn,Canton of Solothurn | Canton of Solothurn | SO | Solothurn | canton of Soleure,True,False
+[CLS] San Luis is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],San Luis,San Luis Province | San Luis Province,False,False
+[CLS] Tenkodogo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tanganyika,Boulgou | BF - BLG | Boulgou | Boulgou Province,False,False
+[CLS] Birao is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Birao,Vakaga Prefecture | Vakaga Prefecture,False,False
+[CLS] Palermo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Palermo,Emirate of Sicily | Emirate of Sicily,False,False
+[CLS] Sebezh is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sebezh,Sebezhsky District | Sebezhsky District,False,False
+[CLS] Zielona Góra is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Zielona Góra,Lubusz Voivodeship | Lubuskie Province | Lubusz Voivodeship,False,False
+[CLS] Oranienburg is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Oranienburg,Oberhavel District | Landkreis Oberhavel | Oberhavel District,False,False
+[CLS] Charlottenlund is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Charlottenlund,Gentofte Municipality | Gentofte Kommune | Gentofte Municipality,False,False
+[CLS] Tbilisi is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Georgia,Kingdom of Kartli - Kakheti | Kartli - Kakheti | Kingdom of Kartli and Kakheti | Kingdom of Kartli - Kakheti | ქართლ - კახეთის სამეფო,False,False
+[CLS] Tanumshede is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tanumshede,Tanum Municipality | Tanum Municipality | Tanums kommun,False,False
+[CLS] Bratislava is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,Slovak Socialist Republic | Slovak SR | Slovak Socialist Republic | Slovenska socialisticka republika | Slovenská socialistická republika,False,False
+[CLS] Cheyenne is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cheyenne,"Roger Mills County | Roger Mills County | Roger Mills County , Oklahoma",False,False
+[CLS] Windsor is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Windsor,Vermont Republic | New Connecticut | New Connecticut Republic | Republic of New Connecticut | Republic of Vermont | State of Vermont | Vermont Republic,False,False
+[CLS] Germiston is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Germiston,Ekurhuleni Metropolitan Municipality | East Rand | East Rand Metro | East Rand Metropolitan Municipality | East Rand Municipality | Ekurhuleni | Ekurhuleni Metro | Ekurhuleni Metropolitan Municipality | Ekurhuleni Municipality,False,False
+[CLS] Sapouy is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Sapouy,Ziro Province | Ziro Province,False,False
+[CLS] Huaraz is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Huaraz,Huaraz Province | Huaraz Province,False,False
+[CLS] Vijaypura District is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Vijaypura District,Bijapur Sultanate | Adil Shahi dynasty | Bijapur Sultanate,False,False
+[CLS] Ramotswa is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ramotswa,South - East District | South - East District,False,False
+[CLS] Natitingou is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Natitingou,Atakora Department | Atakora Department,False,False
+[CLS] Arlon is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Arlon,"Luxembourg | Luxembourg | Luxembourg Province | Luxembourg , Belgium",False,True
+[CLS] Starachowice is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Starachowice,Starachowice County | Starachowice County,False,False
+[CLS] Kagoshima is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kagoshima,Satsuma Domain | Kagoshima Domain | Satsuma Domain,False,False
+[CLS] Phatthalung is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Phatthalung,Phatthalung | Phatthalung,True,False
+[CLS] Tete is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tete,Tete Province | Tete Province,False,False
+[CLS] Edirne is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Ottoman Empire,Adrianople Vilayet | Adrianople Vilayet | Adrianopolitan Thrace | Edirne Vilayet | Southern Thrace | Vilayet of Edirne,False,False
+[CLS] Shabla is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shabla,Shabla Municipality | Shabla Municipality | Shabla Obshtina,False,False
+[CLS] Bentiu is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bentiu,Unity | Unity,False,True
+[CLS] Iwatsuki - ku is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Iwatsuki,Iwatsuki Domain | Iwatsuki Domain,False,False
+[CLS] Mobaye is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mobaye,Basse - Kotto Prefecture | Basse - Kotto Prefecture,False,False
+[CLS] Indramayu is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Indramayu,Indramayu | Indramayu | Indramayu Regency,True,False
+[CLS] Sabha is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rajya Sabha,Sabha District | Sabha District,False,False
+[CLS] Bantul is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bantul,Bantul | Bantul | Bantul Regency,True,False
+[CLS] Motala is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Motala,Motala Municipality | Motala Municipality | Motala kommun,False,False
+[CLS] Crandon is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Crandon,"Forest County | Forest County | Forest County , Wisconsin",False,False
+[CLS] Samarkand is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Samarkan,Samarqand Region | Samarkand province | Samarqand Region,False,False
+[CLS] Chișinău is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Moldova,Moldova | MDA | Moldavia | Moldova | Republic of Moldova | Republica Moldova | md | [UNK],True,True
+[CLS] Dobroszyce is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dobroszyce,Gmina Dobroszyce | Gmina Dobroszyce,False,False
+[CLS] Martakert is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Martakert,Martakert Region | Martakert Region,False,False
+[CLS] Victoria is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New South Wales,Colony of Vancouver Island | Colony of Vancouver Island | Island of Vancouver and its Dependencies,False,False
+[CLS] Buea is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Buea,Southwest | Southwest | Southwest Province | Southwest Region,False,True
+[CLS] Ngeremasch is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ngeremasch,Angaur | Angaur | Ngeaur,False,False
+[CLS] Slantsy is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slantsy,Slantsevsky District | Slantsevsky District,False,False
+[CLS] Maastricht is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Maastricht,Limburg | Limburg,False,True
+[CLS] Tver is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tver,"Kalininsky District , Tver Oblast | Kalininsky District , Tver Oblast",False,False
+[CLS] Seville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Seville,Seville Province | Seville Province | province of Seville,False,False
+[CLS] Pskov is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pskov,Pskov Republic | Pskov Republic,False,False
+[CLS] Posadas is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Posadas,Misiones Province | Misiones Province,False,False
+[CLS] Tondano is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tondano,Minahasa | Kabupaten Minahasa | Minahasa,False,False
+[CLS] Holdenville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Holdenville,"Hughes County | Hughes County | Hughes County , Oklahoma",False,False
+[CLS] Ockelbo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ockelbo,Ockelbo Municipality | Ockelbo Municipality | Ockelbo kommun,False,False
+[CLS] Wessington Springs is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Wessington Springs,"Jerauld County | Jeraud County , South Dakota | Jerauld County | Jerauld County , South Dakota",False,False
+[CLS] Solenzo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Solenzo,Banwa Province | Banwa Province,False,False
+[CLS] Cocentaina is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cocentaina,Comtat | Comtat,False,True
+[CLS] Kulmbach is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kulmbach,Principality of Bayreuth | Principality of Bayreuth,False,False
+[CLS] Carthage is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Carthage,"Hancock County | Hancock County | Hancock County , Illinois",False,False
+[CLS] Pyongsong is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pyong,South Pyongan Province | South Pyongan Province,False,False
+[CLS] Bundibugyo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Bundibugyo,Bundibugyo District | Bundibugyo District,False,False
+[CLS] Mansa is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mansa,Luapula Province | Luapula Province,False,False
+[CLS] Bangued is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bangued,Abra | Abra,False,False
+[CLS] Paita is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Paita,Paita Province | Paita Province,False,False
+[CLS] Kolding is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kolding,Kolding Municipality | Kolding Municipality,False,False
+[CLS] Siekierczyn is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Esztergom,Gmina Siekierczyn | Gmina Siekierczyn | Siekierczyn,False,False
+[CLS] Kozelsk is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kozelsk,Kozelsky District | Kozelsky District,False,False
+[CLS] Knivsta is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Knivsta,Knivsta Municipality | Knivsta Municipality | Knivsta kommun,False,False
+[CLS] Zomba is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zomba,British Central Africa Protectorate | British Central Africa Protectorate,False,False
+[CLS] Ryazan is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ryazan,Ryazan Oblast | Ryazan Oblast,False,False
+"[CLS] Zielonki , Lesser Poland Voivodeship is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Zielonki,Gmina Zielonki | Gmina Zielonki,False,False
+[CLS] Tupelo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tupelo,"Lee County | Lee County | Lee County , Mississippi",False,False
+[CLS] Brno is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Brno - Country District | Brno - Country District,False,False
+[CLS] Providence is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Providence , Rhode Island","Rhode Island | Little Rhody | RI | Rhode Island | Rhode Island , United States | Road Island | State of Rhode Island | State of Rhode Island and Providence Plantations | The Ocean State | little rhodie",False,False
+[CLS] Chincha Alta is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chincha,Chincha Province | Chincha Province,False,False
+[CLS] Kristinehamn is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kristinehamn,Kristinehamn Municipality | Kristinehamn Municipality | Kristinehamns kommun,False,False
+[CLS] Appenzell is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Appenzell,Appenzell Innerrhoden | AI | Appenzell Inner Rhodes | Appenzell Inner - Rhoden | Appenzell Inner - Rhodes | Appenzell Innerrhoden | Canton of Appenzell Innerrhoden | Innerrhoden,False,False
+[CLS] Nemuro is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nemuro,Nemuro Subprefecture | Nemuro Subprefecture,False,False
+[CLS] Vaduz is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vaduz,Schellenberg | Schellenberg | Schellenberg FL,False,False
+[CLS] Busko - Zdrój is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Busko - Zdr,Busko County | Busko County,False,False
+[CLS] Ulyanovsk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Okrug Okrug,Ulyanovsk Oblast | Ulyanovsk Oblast,False,False
+[CLS] Pataliputra is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pataliputra,Nanda Empire | Nanda Empire,False,False
+[CLS] Manitowoc is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Manitowoc,"Manitowoc County | Manitowoc County | Manitowoc County , Wisconsin",False,False
+[CLS] Gorlice is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gorlice,Gorlice County | Gorlice County,False,False
+[CLS] Westminster is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Westminster Chamber of Commerce,"Carroll County | Carroll County | Carroll County , Maryland",False,False
+[CLS] Kraków is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Czech Republic,Lesser Poland Voivodeship | Lesser Poland Voivodeship | Małopolska Province | Małopolska Voivodeship,False,False
+[CLS] Saintes is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saintes,Charente - Maritime | Charente - Inferieure | Charente - Inférieure | Charente - Maritime,False,False
+"[CLS] Klucze , Lesser Poland Voivodeship is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]",Klucze,Gmina Klucze | Gmina Klucze | Klucze,True,False
+"[CLS] Sadkowice , Łódź Voivodeship is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Sadkowice,Gmina Sadkowice | Gmina Sadkowice,False,False
+[CLS] Dokolo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dokolo,Dokolo District | Dokolo District,False,False
+[CLS] Logroño is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Logroño,La Rioja | La Rioja,False,False
+[CLS] Fulda is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fulda,Fulda | Fulda,True,True
+"[CLS] Radwanice , Polkowice County is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",Radwanice,Gmina Radwanice | Gmina Radwanice,False,False
+[CLS] Kondratowice is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kondratowice,Gmina Kondratowice | Gmina Kondratowice,False,False
+[CLS] Lodeynoye Pole is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lodeynoye,Lodeynopolsky District | Lodeynopolsky District,False,False
+[CLS] Zadonsk is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zadonsk,Zadonsky District | Zadonsky District,False,False
+[CLS] Krotoszyce is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Krotoszyce,Gmina Krotoszyce | Gmina Krotoszyce,False,False
+[CLS] Strzelin is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Strzelin,Strzelin County | Strzelin County,False,False
+"[CLS] Kibingo , Uganda is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",Kibingo,Sheema District | Sheema District,False,False
+[CLS] Hugo is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hugo,"Choctaw County | Choctaw County | Choctaw County , Oklahoma",False,False
+[CLS] Belle Fourche is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belle Fourche,"Butte County | Butte County | Butte County , South Dakota",False,False
+[CLS] Claude is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Claude,"Armstrong County | Armstrong County | Armstrong County , Texas",False,False
+[CLS] Canton is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Canton,"Van Zandt County | Van Zandt County | Van Zandt County , Texas",False,False
+[CLS] Lyskovo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lyskovo,Lyskovsky District | Lyskovsky District,False,False
+[CLS] Konakovo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Konakovo,Konakovsky District | Konakovsky District,False,False
+[CLS] High Prairie is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],High Prairie,Big Lakes County | Big Lakes County,False,False
+[CLS] Kuruman is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuruman,John Taolo Gaetsewe District Municipality | John Taolo Gaetsewe District | John Taolo Gaetsewe District Municipality | John Taolo Gaetsewe Municipality,False,False
+[CLS] Lovech is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lovech,Lovech Municipality | Lovech Municipality | Lovech Obshtina,False,False
+[CLS] Brebes is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brebes,Brebes | Brebes | Brebes Regency,True,False
+[CLS] Farah is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Farah,Farah | Farah | Farah Province,True,False
+[CLS] Belgorod is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belgorod,Belgorod Oblast | Belgorod Oblast,False,False
+[CLS] Alessandria is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alessandria,Province of Alessandria | Alessandria | Alessandria Province | Province of Alessandria | provincia di Alessandria,True,False
+"[CLS] Skalmierzyce , Greater Poland Voivodeship is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",Skalmierzyce,Gmina Nowe Skalmierzyce | Gmina Nowe Skalmierzyce,False,False
+[CLS] Alofi is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alofi,Niue | Niue | Niuē | nu | [UNK],False,False
+[CLS] Olszyna is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Olszyna,Gmina Olszyna | Gmina Olszyna,False,False
+[CLS] Delhi is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Delhi Delhi Delhi Delhi,Delhi Sultanate | Delhi Sultanate | Sultanate of Delhi,False,False
+[CLS] Kologriv is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kologriv,Kologrivsky District | Kologrivsky District,False,False
+[CLS] Palencia is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Castile and León,Palencia Province | Palencia Province,False,False
+[CLS] Pestovo is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pestovo,Pestovsky District | Pestovsky District,False,False
+[CLS] Jemielno is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jemielno,Gmina Jemielno | Gmina Jemielno,False,False
+[CLS] Jerzmanowa is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sosnowiec,Gmina Jerzmanowa | Gmina Jerzmanowa,False,False
+[CLS] Salavan is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Salavan,Salavan Province | Salavan Province | Saravan,False,False
+[CLS] Udomlya is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Udomlya,Udomelsky District | Udomelsky District,False,False
+[CLS] Lindesberg is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lindesberg,Lindesberg Municipality | Lindesberg Municipality | Lindesbergs kommun,False,False
+[CLS] The Bottom is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Little Little Little Little,Saba | Saba,False,True
+[CLS] Ladismith is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ladismith,Kannaland Local Municipality | Kannaland | Kannaland Local Municipality,False,False
+[CLS] Athabasca is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Athabasca,Athabasca County | Athabasca | Athabasca County,True,False
+[CLS] Rozprza is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rozprza,Gmina Rozprza | Gmina Rozprza,False,False
+[CLS] Hlyboka is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hlyboka,Hlyboka Raion | Hlyboka Raion | Hlybotsky Raion,False,False
+[CLS] Knin is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Knin,SAO Krajina | SAO Krajina | Serbian Autonomous Oblast of Krajina | Srpska autonomna oblast Krajina,False,False
+[CLS] Tarma is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tarma,Tarma Province | Tarma Province,False,False
+[CLS] Raciechowice is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Raciechowice,Gmina Raciechowice | Gmina Raciechowice,False,False
+[CLS] Nowogrodziec is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nowogrodziec,Gmina Nowogrodziec | Gmina Nowogrodziec,False,False
+[CLS] Kocherinovo is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kocherinovo,Kocherinovo Municipality | Kocherinovo Municipality | Kocherinovo Obshtina,False,False
+[CLS] Fergana is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Fergana,Fergana Region | Fergana | Fergana Region,True,False
+[CLS] Stropkov is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Stropkov,Stropkov District | Stropkov District,False,False
+[CLS] Most is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Most District | Most District,False,False
+[CLS] Beira is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Beira,Sofala | Sofala,False,False
+[CLS] Calais is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Calais,canton of Calais - Nord - Ouest | canton of Calais - Nord - Ouest,False,False
+[CLS] Pochep is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pochep,Pochepsky District | Pochepsky District,False,False
+[CLS] Rossosh is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rossosh,Rossoshansky District | Rossoshansky District,False,False
+[CLS] Demidov is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Demidov,Demidovsky District | Demidovsky District,False,False
+[CLS] Tingo María is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tingo María,Leoncio Prado Province | Leoncio Prado Province,False,False
+[CLS] Basse - Terre is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Basse - Terre,canton of Basse - Terre - 2 | canton of Basse - Terre - 2,False,False
+[CLS] Novokubansk is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Novokubansk,Novokubansky District | Novokubansky District,False,False
+[CLS] Mwaro is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mwaro,Mwaro Province | Mwaro Province | Ntara ya Mwaro,False,False
+[CLS] Tumba is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tumba,Botkyrka Municipality | Botkyrka Municipality | Botkyrka kommun,False,False
+[CLS] Kavkazskaya is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kavkazskaya,Kavkazsky District | Kavkazsky District,False,False
+[CLS] Jalalaqsi is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jalalaqsi,Jalalaqsi District | Jalalaqsi District,False,False
+[CLS] Njombe Mjini is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Njombe,Njombe Region | Njombe Region,False,False
+[CLS] Brzeszcze is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Brzeszcze,Gmina Brzeszcze | Brzeszcze | Gmina Brzeszcze,True,False
+[CLS] Pustec is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pustec,Pustec Municipality | Bashkia Pustec | Liqenas | Pustec Municipality,False,False
+[CLS] Jerusalem is the capital of [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jude Jude,Kingdom of Jerusalem | Jerusalem | Kingdom of Jerusalem | Latin Kingdom of Jerusalem,False,False
+[CLS] Verkhnyaya Toyma is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Toyma,Verkhnetoyemsky District | Verkhnetoyemsky District,False,False
+[CLS] Wiang Fang is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wiang Fang,Fang | Fang,False,True
+[CLS] Vara is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vara,Vara Municipality | Vara Municipality | Vara kommun,False,False
+[CLS] Thiruvananthapuram is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Tamil Nadu,Travancore - Cochin | Travancore - Cochin,False,False
+[CLS] Purcell is the capital of [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Purcell,"McClain County | McClain County | McClain County , Oklahoma",False,False
+[CLS] Dodgeville is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dodgeville,"Iowa County | Iowa County | Iowa County , Wisconsin",False,False
+[CLS] Tirana is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tirana,Tirana County | Tirana County,False,False
+[CLS] Galveston is the capital of [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Galveston,"Galveston County | Galveston County | Galveston County , Texas",False,False
+[CLS] Malanda is the capital of [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malanda,Tablelands Region | Tablelands | Tablelands Region,False,False
+[CLS] Kotelnikovo is the capital of [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kotelnikovo,Kotelnikovsky District | Kotelnikovsky District | Kotelnikovsky Municipal District,False,False

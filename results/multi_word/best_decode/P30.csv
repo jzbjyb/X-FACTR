@@ -1,0 +1,1001 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] United States of America is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,North America | NA | North America,False,False
+[CLS] Canada is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,North America | NA | North America,False,False
+[CLS] Middle East is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Middle East,Europe | Europe | Old continent,False,True
+[CLS] California is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,North America | NA | North America,False,False
+[CLS] Great Britain is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] France is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Mediterranean Sea,Europe | Europe | Old continent,False,True
+[CLS] Middle East is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Middle East,Africa | Africa | African continent,False,True
+[CLS] South Shetland Islands is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],South Shetland,Antarctica | Antarctica,False,True
+[CLS] People ' s Republic of China is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Central Asia,Asia | Asia,False,True
+[CLS] Japan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Near East,Asia | Asia,False,True
+[CLS] Middle East is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Middle East,Asia | Asia,False,True
+[CLS] Brazil is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rio de Janeiro,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Italy is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Mediterranean Sea,Europe | Europe | Old continent,False,True
+[CLS] Victoria Land is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Victoria Land,Antarctica | Antarctica,False,True
+[CLS] Ireland is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Europe | Europe | Old continent,False,True
+[CLS] India is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bhopal,Asia | Asia,False,True
+[CLS] Graham Land is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],"Graham Land , New Zealand",Antarctica | Antarctica,False,True
+[CLS] Spain is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],La Paz . La Paz,Europe | Europe | Old continent,False,True
+[CLS] South Africa is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Mexico is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],La Paz . La Paz,North America | NA | North America,False,False
+[CLS] Germany is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Empire Empire,Europe | Europe | Old continent,False,True
+[CLS] Argentina is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Chaco region,South America | América del Sur | América do Sul | South America,False,False
+[CLS] London is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"London , United Kingdom",Europe | Europe | Old continent,False,True
+[CLS] Turkey is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Sea Sea,Europe | Europe | Old continent,False,True
+[CLS] Madagascar is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Africa | Africa | African continent,False,True
+[CLS] Russia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Far East,Europe | Europe | Old continent,False,True
+[CLS] Livingston Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Livingston Island,Antarctica | Antarctica,False,True
+[CLS] Colombia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Peru is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Switzerland is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Agrigento,Europe | Europe | Old continent,False,True
+[CLS] Netherlands is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],N . N . N,Europe | Europe | Old continent,False,True
+[CLS] Venezuela is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Philippines is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Guantánamo,Asia | Asia,False,True
+[CLS] Paris is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the centre of the city,Europe | Europe | Old continent,False,True
+[CLS] Belgium is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Mediterranean Sea,Europe | Europe | Old continent,False,True
+[CLS] Portugal is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] McMurdo Station is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McMurdo,Antarctica | Antarctica,False,True
+[CLS] Queen Maud Land is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],North America,Antarctica | Antarctica,False,True
+[CLS] Sweden is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Singapore is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Southeast Asia,Asia | Asia,False,True
+[CLS] Bolivia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],La Paz . La Paz,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Hong Kong is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Asia | Asia,False,True
+[CLS] Kenya is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Quebec is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Northwest Territories,North America | NA | North America,False,False
+[CLS] Austria is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Agrigento,Europe | Europe | Old continent,False,True
+[CLS] Poland is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Poland,Europe | Europe | Old continent,False,True
+[CLS] Indonesia is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,Asia | Asia,False,True
+[CLS] England is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Alexander Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Alexander Island,Antarctica | Antarctica,False,True
+[CLS] Ecuador is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Guantánamo,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Iberian Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Iberian Peninsula,Europe | Europe | Old continent,False,True
+[CLS] Norway is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] South Korea is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],South Korea,Asia | Asia,False,True
+[CLS] Ellsworth Mountains is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Shropshire,Antarctica | Antarctica,False,True
+[CLS] Finland is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S .,Europe | Europe | Old continent,False,True
+[CLS] Nigeria is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],N . N . N,Africa | Africa | African continent,False,True
+[CLS] Denmark is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Sentinel Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sentinel Range,Antarctica | Antarctica,False,True
+[CLS] Marie Byrd Land is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Thailand is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],N . N . N,Asia | Asia,False,True
+[CLS] Ukraine is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Middle East,Europe | Europe | Old continent,False,True
+[CLS] Greece is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Aegean Sea,Europe | Europe | Old continent,False,True
+[CLS] Taiwan is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shqiqi,Asia | Asia,False,True
+[CLS] Chile is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Caribbean is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],El Salvador . El Salvador,North America | NA | North America,False,False
+[CLS] Malaysia is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Far East,Asia | Asia,False,True
+[CLS] Tanzania is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Cape Adare is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cape Adare,Antarctica | Antarctica,False,True
+[CLS] Ethiopia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Middle East,Africa | Africa | African continent,False,True
+[CLS] Pennell Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pennell,Antarctica | Antarctica,False,True
+[CLS] Panama is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],El Salvador . El Salvador,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Palmer Land is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Palmer,Antarctica | Antarctica,False,True
+[CLS] Palmer Archipelago is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],New Zealand Palmer Archipelago,Antarctica | Antarctica,False,True
+[CLS] Cape Williams is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cape Williams,Antarctica | Antarctica,False,True
+[CLS] Sahara is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Sahara region,Africa | Africa | African continent,False,True
+[CLS] Vietnam is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Southeast Asia,Asia | Asia,False,True
+[CLS] Alabama is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],U . S,North America | NA | North America,False,False
+[CLS] Trinity Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Uganda is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],N . N . N,Africa | Africa | African continent,False,True
+[CLS] Paraguay is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Agrigento,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Australia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],N . N . N,Oceania | Oceania,False,True
+[CLS] Soviet Union is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],its own country,Europe | Europe | Old continent,False,True
+[CLS] Iceland is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Byrd Station is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Byrd Station,Antarctica | Antarctica,False,True
+[CLS] Pakistan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Ghana is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],N . N . N,Africa | Africa | African continent,False,True
+[CLS] Hungary is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hungary,Europe | Europe | Old continent,False,True
+[CLS] Sri Lanka is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sri Lanka,Asia | Asia,False,True
+[CLS] Romania is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Carniola region,Europe | Europe | Old continent,False,True
+[CLS] Scotland is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Guatemala is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Central America | Central America,False,False
+[CLS] French Guiana is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French Guiana,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Greenland is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Greenland Archipelago,North America | NA | North America,False,False
+[CLS] Southeast Asia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Southeast Asia,Asia | Asia,False,True
+[CLS] Democratic Republic of the Congo is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],its own country,Africa | Africa | African continent,False,True
+[CLS] Guyana is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Pensacola Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pensacola,Antarctica | Antarctica,False,True
+[CLS] Russia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Far East,Asia | Asia,False,True
+[CLS] Angola is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Australian Antarctic Names and Medals Committee is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],St . St . St,Antarctica | Antarctica,False,True
+[CLS] Zimbabwe is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Sudan is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sudan,Africa | Africa | African continent,False,True
+[CLS] Suriname is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Caribbean Sea,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Mozambique is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Morocco is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Uruguay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Czech Republic is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Czech Republic,Europe | Europe | Old continent,False,True
+[CLS] Senegal is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Cameroon is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Egypt is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Egypt,Africa | Africa | African continent,False,True
+[CLS] Greenwich Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Greenwich,Antarctica | Antarctica,False,True
+[CLS] Kazakhstan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Europe | Europe | Old continent,False,True
+[CLS] Turkey is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Sea Sea,Asia | Asia,False,True
+[CLS] Ross Ice Shelf is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Ross Ice Shelf,Antarctica | Antarctica,False,True
+[CLS] Bulgaria is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the north - west,Europe | Europe | Old continent,False,True
+[CLS] Ross Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ross Island,Antarctica | Antarctica,False,True
+[CLS] Palmer Station is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Palmer,Antarctica | Antarctica,False,True
+[CLS] Nepal is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bhopal,Asia | Asia,False,True
+[CLS] Baltic region is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Baltic region,Europe | Europe | Old continent,False,True
+[CLS] Malawi is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Zambia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] British Empire is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Africa | Africa | African continent,False,True
+[CLS] Iran is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Estonia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Far East,Europe | Europe | Old continent,False,True
+[CLS] British Graham Land Expedition is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Whittington,Antarctica | Antarctica,False,True
+[CLS] United States of America is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the U . S,Oceania | Oceania,False,True
+[CLS] Queen Maud Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Prince Charles Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Prince Charles,Antarctica | Antarctica,False,True
+[CLS] Slovenia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carniola,Europe | Europe | Old continent,False,True
+[CLS] Slovakia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Skandinavia region,Europe | Europe | Old continent,False,True
+[CLS] Toronto is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,North America | NA | North America,False,False
+[CLS] Somalia is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Gulf of Aden,Africa | Africa | African continent,False,True
+[CLS] Namibia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],N . N . N,Africa | Africa | African continent,False,True
+[CLS] Gibraltar is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gibraltar ' s United Kingdom,Europe | Europe | Old continent,False,True
+[CLS] Ronne Antarctic Research Expedition is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Whitley,Antarctica | Antarctica,False,True
+[CLS] Mongolia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Gabon is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Sierra Leone is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Africa | Africa | African continent,False,True
+[CLS] Kazakhstan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Anvers Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Archipel,Antarctica | Antarctica,False,True
+[CLS] Tangra Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tangra,Antarctica | Antarctica,False,True
+[CLS] Qing dynasty is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Qing dynasty . Qing dynasty,Asia | Asia,False,True
+[CLS] Enderby Land is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],New York,Antarctica | Antarctica,False,True
+[CLS] Cuba is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latin America,Central America | Central America,False,False
+[CLS] Algeria is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Arab Arab,Africa | Africa | African continent,False,True
+[CLS] Sub - Saharan Africa is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Middle East,Africa | Africa | African continent,False,True
+[CLS] Bangladesh is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Yukon is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Northwest Territories,North America | NA | North America,False,False
+[CLS] Canary Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Canary Islands,Africa | Africa | African continent,False,True
+[CLS] Botswana is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Fiji is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Oceania | Oceania,False,True
+[CLS] Armenia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Armenia,Europe | Europe | Old continent,False,True
+[CLS] Ellsworth Station is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ellsworth,Antarctica | Antarctica,False,True
+[CLS] Los Angeles is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Los Angeles . Los Angeles,North America | NA | North America,False,False
+[CLS] Afghanistan is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Gulf of Aden,Asia | Asia,False,True
+[CLS] Liberia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] South Orkney Islands is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],South Orkney,Antarctica | Antarctica,False,True
+[CLS] Cape Hallett is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cape Hallett,Antarctica | Antarctica,False,True
+[CLS] Heritage Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Heritage Range,Antarctica | Antarctica,False,True
+[CLS] Korea is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Near East,Asia | Asia,False,True
+[CLS] Mali is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Ivory Coast,Africa | Africa | African continent,False,True
+[CLS] South Asia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],South Asia,Asia | Asia,False,True
+[CLS] Bowers Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bowers,Antarctica | Antarctica,False,True
+[CLS] Rwanda is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Cambodia is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Asia | Asia,False,True
+[CLS] Eritrea is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Middle East,Africa | Africa | African continent,False,True
+[CLS] Albania is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Mediterranean Sea,Europe | Europe | Old continent,False,True
+[CLS] Israel is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Byers Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Byers,Antarctica | Antarctica,False,True
+[CLS] Lithuania is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Sea Sea,Europe | Europe | Old continent,False,True
+[CLS] Rome is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rome,Europe | Europe | Old continent,False,True
+[CLS] Ivory Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ivory Coast,Africa | Africa | African continent,False,True
+[CLS] Forrestal Range is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Forrestal Range,Antarctica | Antarctica,False,True
+[CLS] South Caucasus is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],South Caucasus,Europe | Europe | Old continent,False,True
+[CLS] Mauritius is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Operation Deep Freeze is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Orinoco is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Orinoco,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Malta is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Tunisia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Amazon is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],El Salvador . El Salvador,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Chicago is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,North America | NA | North America,False,False
+[CLS] Vinson Massif is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Vinson,Antarctica | Antarctica,False,True
+[CLS] Robert Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Robert Island,Antarctica | Antarctica,False,True
+[CLS] Admiralty Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Admiralty Mountains,Antarctica | Antarctica,False,True
+[CLS] Brussels - Capital Region is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Brussels - Capital Region,Europe | Europe | Old continent,False,True
+[CLS] Antarctic Plateau is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Antarctic Plateau region,Antarctica | Antarctica,False,True
+[CLS] Ancient Greece is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the city of Athens,Europe | Europe | Old continent,False,True
+[CLS] Cape Verde is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cape Verde . Cape Verde,Africa | Africa | African continent,False,True
+[CLS] George VI Sound is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],George VI,Antarctica | Antarctica,False,True
+[CLS] Detroit Plateau is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Detroit Plateau,Antarctica | Antarctica,False,True
+[CLS] Amazon rainforest is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Amazon rainforest,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Latvia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Europe | Europe | Old continent,False,True
+[CLS] Djibouti is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Africa | Africa | African continent,False,True
+[CLS] Soviet Union is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],its own country,Asia | Asia,False,True
+[CLS] Guinea is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sudan Sudan,Africa | Africa | African continent,False,True
+[CLS] Republic of the Congo is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Western Sahara,Africa | Africa | African continent,False,True
+[CLS] Russia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Far East,Eurasia | Eurasia | Euroasia,False,True
+[CLS] Latin America is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Latin America,America | America | América | the Americas,False,True
+[CLS] Wales is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Bhutan is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],N . N . N,Asia | Asia,False,True
+[CLS] San Francisco is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Francisco,North America | NA | North America,False,False
+[CLS] Boston is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Boston , Massachusetts",North America | NA | North America,False,False
+[CLS] South Georgia and the South Sandwich Islands is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],"South Georgia , United States",Antarctica | Antarctica,False,True
+[CLS] Serbia is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Agrigento,Europe | Europe | Old continent,False,True
+[CLS] Smith Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Smith Island,Antarctica | Antarctica,False,True
+[CLS] Adelaide Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New South Wales,Antarctica | Antarctica,False,True
+[CLS] Thurston Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Thurston Island,Antarctica | Antarctica,False,True
+[CLS] Shackleton Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Horlick Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Horlick,Antarctica | Antarctica,False,True
+[CLS] Churchill Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Churchill Mountains,Antarctica | Antarctica,False,True
+[CLS] Neptune Range is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Neptune Range,Antarctica | Antarctica,False,True
+[CLS] Hope Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hope Bay,Antarctica | Antarctica,False,True
+[CLS] Ross Sea is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shropshire,Antarctica | Antarctica,False,True
+[CLS] Asgard Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Asgard,Antarctica | Antarctica,False,True
+[CLS] Nile is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Nile Delta,Africa | Africa | African continent,False,True
+[CLS] Brabant Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brabant Island,Antarctica | Antarctica,False,True
+[CLS] Oscar II Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oscar II,Antarctica | Antarctica,False,True
+[CLS] Egypt is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Egypt,Asia | Asia,False,True
+[CLS] European Union is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Europe | Europe | Old continent,False,True
+[CLS] United Kingdom is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Zealand,Europe | Europe | Old continent,False,True
+[CLS] Vanuatu is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Oceania | Oceania,False,True
+[CLS] Central Asia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Central Asia,Asia | Asia,False,True
+[CLS] Vatican City is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vatican City,Europe | Europe | Old continent,False,True
+[CLS] Signy Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Signy Island,Antarctica | Antarctica,False,True
+[CLS] Royal Society Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Royal Society,Antarctica | Antarctica,False,True
+[CLS] Beijing is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Beijing , Hong Kong",Asia | Asia,False,True
+[CLS] Azerbaijan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Europe | Europe | Old continent,False,True
+[CLS] San Marino is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Transantarctic Mountains is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Transantarctic,Antarctica | Antarctica,False,True
+[CLS] Ellsworth Land is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ellsworth,Antarctica | Antarctica,False,True
+[CLS] Queen Alexandra Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Queen Alexandra,Antarctica | Antarctica,False,True
+[CLS] Australia is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],N . N . N,Australia | Australia | Australinea | Meganesia | Sahul,False,True
+[CLS] Burkina Faso is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burkina Faso,Africa | Africa | African continent,False,True
+[CLS] Libya is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Graham Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Graham Coast,Antarctica | Antarctica,False,True
+[CLS] Benin is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Africa | Africa | African continent,False,True
+[CLS] Little America is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Little America,Antarctica | Antarctica,False,True
+[CLS] Andorra is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Hut Point Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hut Point,Antarctica | Antarctica,False,True
+[CLS] Solomon Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Solomon Islands,Oceania | Oceania,False,True
+[CLS] Macau is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],"Macau , Hong Kong",Asia | Asia,False,True
+[CLS] Elephant Island y orlando is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Elephant Island,Antarctica | Antarctica,False,True
+[CLS] North Macedonia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],North Macedonia,Europe | Europe | Old continent,False,True
+[CLS] James Ross Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],James Ross,Antarctica | Antarctica,False,True
+[CLS] Bosnia and Herzegovina is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the border between the two,Europe | Europe | Old continent,False,True
+[CLS] Chad is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Africa | Africa | African continent,False,True
+[CLS] Equatorial Guinea is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Equatorial Guinea,Africa | Africa | African continent,False,True
+[CLS] Mount Kilimanjaro is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kilimanjaro,Africa | Africa | African continent,False,True
+[CLS] early modern period is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],"San Antonio , Texas",Europe | Europe | Old continent,False,True
+[CLS] Burundi is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Central African Republic is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Central African Republic,Africa | Africa | African continent,False,True
+[CLS] Victory Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Victory Mountains,Antarctica | Antarctica,False,True
+[CLS] South Sudan is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Sudan,Africa | Africa | African continent,False,True
+[CLS] Tonga is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tonga . Tonga,Oceania | Oceania,False,True
+[CLS] Eswatini is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Eswatini,Africa | Africa | African continent,False,True
+[CLS] Britannia Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Britannia Range,Antarctica | Antarctica,False,True
+[CLS] West Antarctica is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],West Antarctica,Antarctica | Antarctica,False,True
+[CLS] Mawson Station is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mawson,Antarctica | Antarctica,False,True
+[CLS] Central Africa is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Central Africa,Africa | Africa | African continent,False,True
+[CLS] Geneva is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Geneva,Europe | Europe | Old continent,False,True
+[CLS] Wisconsin Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wisconsin Range,Antarctica | Antarctica,False,True
+[CLS] Stonington Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Stonington,Antarctica | Antarctica,False,True
+[CLS] Marguerite Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marguerite Bay,Antarctica | Antarctica,False,True
+[CLS] Beethoven Peninsula is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the city center,Antarctica | Antarctica,False,True
+[CLS] Warsaw is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the centre of the city,Europe | Europe | Old continent,False,True
+[CLS] Czechoslovakia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Far East,Europe | Europe | Old continent,False,True
+[CLS] Mumbai is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bharati,Asia | Asia,False,True
+[CLS] Samoa is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Oceania | Oceania,False,True
+[CLS] Paraguay River is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paraguay,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Antarctic Treaty System is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Zealand,Antarctica | Antarctica,False,True
+[CLS] Frankfurt am Main is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the centre of the city,Europe | Europe | Old continent,False,True
+[CLS] Istanbul is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],"Istanbul , United Kingdom",Europe | Europe | Old continent,False,True
+[CLS] United Kingdom of Great Britain and Ireland is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],The Hague,Europe | Europe | Old continent,False,True
+[CLS] Lesotho is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],South Africa,Africa | Africa | African continent,False,True
+[CLS] Wright Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wright Valley,Antarctica | Antarctica,False,True
+[CLS] Ross Dependency is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ross Dependency,Antarctica | Antarctica,False,True
+[CLS] Cairo is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cairo,Africa | Africa | African continent,False,True
+[CLS] Deception Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],San Diego,Antarctica | Antarctica,False,True
+[CLS] Puerto Rico is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,North America | NA | North America,False,False
+[CLS] Imeon Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] United Arab Emirates is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Patuxent Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Patuxent,Antarctica | Antarctica,False,True
+[CLS] Anare Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Anare,Antarctica | Antarctica,False,True
+[CLS] Olympus Range is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Olympus Range,Antarctica | Antarctica,False,True
+[CLS] Togo is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sudan Sudan,Africa | Africa | African continent,False,True
+[CLS] Congo basin is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Congo basin,Africa | Africa | African continent,False,True
+[CLS] King Edward VII Land is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],King Edward VII,Antarctica | Antarctica,False,True
+[CLS] California Trail is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],San Francisco,North America | NA | North America,False,False
+[CLS] Beardmore Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Beardmore,Antarctica | Antarctica,False,True
+[CLS] Weddell Sea is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Weddell,Antarctica | Antarctica,False,True
+[CLS] Snow Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Snow Island,Antarctica | Antarctica,False,True
+[CLS] Dufek Massif is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Dufek,Antarctica | Antarctica,False,True
+[CLS] Ahlmann Ridge is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the north,Antarctica | Antarctica,False,True
+[CLS] Quartermain Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Friesland Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Syria is located in [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Syria,Asia | Asia,False,True
+[CLS] Eurovision Song Contest is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Europe | Europe | Old continent,False,True
+[CLS] Bellingshausen Sea is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bellingshausen,Antarctica | Antarctica,False,True
+[CLS] Wohlthat Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Wohlthat,Antarctica | Antarctica,False,True
+[CLS] Rennick Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rennick,Antarctica | Antarctica,False,True
+[CLS] mainland China is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Guangxi province,Asia | Asia,False,True
+[CLS] Athens is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the city of Athens,Europe | Europe | Old continent,False,True
+[CLS] Scott Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scott Coast,Antarctica | Antarctica,False,True
+[CLS] Walgreen Coast is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Walgreen,Antarctica | Antarctica,False,True
+[CLS] Ceuta is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ceuta,Africa | Africa | African continent,False,True
+[CLS] Levski Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Levski,Antarctica | Antarctica,False,True
+[CLS] Cook Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Cook Mountains,Antarctica | Antarctica,False,True
+[CLS] Convoy Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Convoy Range,Antarctica | Antarctica,False,True
+[CLS] Booth Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Booth Island Historic District,Antarctica | Antarctica,False,True
+[CLS] Byrd Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Byrd Glacier,Antarctica | Antarctica,False,True
+[CLS] Borg Massif is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Borg Massif,Antarctica | Antarctica,False,True
+[CLS] history of Europe is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the history of Europe,Europe | Europe | Old continent,False,True
+[CLS] Western Asia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Western Asia,Asia | Asia,False,True
+[CLS] Helsinki is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Europe | Europe | Old continent,False,True
+[CLS] Kyrgyzstan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Central Asia,Asia | Asia,False,True
+[CLS] Laurie Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Laurie Island,Antarctica | Antarctica,False,True
+[CLS] Trinity Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Tajikistan is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Central Asia . Central Asia,Asia | Asia,False,True
+[CLS] Azerbaijan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Horseshoe Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Horseshoe Island,Antarctica | Antarctica,False,True
+[CLS] Prince Albert Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Prince Albert,Antarctica | Antarctica,False,True
+[CLS] East Antarctica is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],East Antarctica,Antarctica | Antarctica,False,True
+[CLS] Delchev Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Delchev,Antarctica | Antarctica,False,True
+[CLS] East Ongul Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the U . S,Antarctica | Antarctica,False,True
+[CLS] Tula Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tula,Antarctica | Antarctica,False,True
+[CLS] Tucker Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tucker Glacier,Antarctica | Antarctica,False,True
+[CLS] Mozart Ice Piedmont is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mozart Ice Piedmont,Antarctica | Antarctica,False,True
+[CLS] Hero Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hero Bay,Antarctica | Antarctica,False,True
+[CLS] Humboldt Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Humboldt Mountains,Antarctica | Antarctica,False,True
+[CLS] Seymour Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Montenegro is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Middle East,Europe | Europe | Old continent,False,True
+[CLS] North Korea is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],North Korea,Asia | Asia,False,True
+[CLS] George VI Ice Shelf is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],George VI Ice Shelf,Antarctica | Antarctica,False,True
+[CLS] Uranus Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Velingrad Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Velingrad,Antarctica | Antarctica,False,True
+[CLS] Douglas Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Douglas Range,Antarctica | Antarctica,False,True
+[CLS] Austria - Hungary is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Austria - Hungary,Europe | Europe | Old continent,False,True
+[CLS] Outback Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Outback Nunataks,Antarctica | Antarctica,False,True
+[CLS] Lillie Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lillie,Antarctica | Antarctica,False,True
+[CLS] Wordie Ice Shelf is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Wordie,Antarctica | Antarctica,False,True
+[CLS] British Empire is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,America | America | América | the Americas,False,True
+[CLS] English Strait is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Antarctica | Antarctica,False,True
+[CLS] Mount Craddock is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Craddock,Antarctica | Antarctica,False,True
+[CLS] Allan Hills is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Allan Hills,Antarctica | Antarctica,False,True
+[CLS] Plateau Station is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Essequibo River is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Essequibo,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Aristotle Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Executive Committee Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Executive Committee Range,Antarctica | Antarctica,False,True
+[CLS] Porthos Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Porthos,Antarctica | Antarctica,False,True
+[CLS] Amundsen Sea is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Amundsen,Antarctica | Antarctica,False,True
+[CLS] Taylor Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Taylor Glacier,Antarctica | Antarctica,False,True
+[CLS] Abbot Ice Shelf is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Abbot,Antarctica | Antarctica,False,True
+[CLS] Miller Range is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Miller Range,Antarctica | Antarctica,False,True
+[CLS] Langhovde Hills is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the north,Antarctica | Antarctica,False,True
+[CLS] Planet Heights is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Planet Heights,Antarctica | Antarctica,False,True
+[CLS] Catalonia is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,Europe | Europe | Old continent,False,True
+[CLS] Discovery Expedition is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Lassiter Coast is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lassiter,Antarctica | Antarctica,False,True
+[CLS] Halley Research Station is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Halley,Antarctica | Antarctica,False,True
+[CLS] Payer Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Payer,Antarctica | Antarctica,False,True
+[CLS] Hughes Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hughes Bay,Antarctica | Antarctica,False,True
+[CLS] Budd Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Budd,Antarctica | Antarctica,False,True
+[CLS] Holland Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Holland Range,Antarctica | Antarctica,False,True
+[CLS] Lallemand Fjord is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lallemand,Antarctica | Antarctica,False,True
+[CLS] Thomas Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States Thomas Glacier,Antarctica | Antarctica,False,True
+[CLS] Dominican Republic is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dominican Republic,North America | NA | North America,False,False
+[CLS] Mirny Station is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mirny,Antarctica | Antarctica,False,True
+[CLS] Cobham Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cobham,Antarctica | Antarctica,False,True
+[CLS] Koettlitz Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Koettlitz,Antarctica | Antarctica,False,True
+[CLS] Pernik Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pernik,Antarctica | Antarctica,False,True
+[CLS] Barilari Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Barilari,Antarctica | Antarctica,False,True
+[CLS] Cook Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cook Islands,Oceania | Oceania,False,True
+[CLS] Puncak Jaya is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Puncak,Oceania | Oceania,False,True
+[CLS] Basel is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the city of Basel,Europe | Europe | Old continent,False,True
+[CLS] Guinea - Bissau is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Guinea - Bissau,Africa | Africa | African continent,False,True
+[CLS] Qatar is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Orvin Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Orvin,Antarctica | Antarctica,False,True
+[CLS] Derocher Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Charlotte Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charlotte Bay,Antarctica | Antarctica,False,True
+[CLS] Kukri Hills is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kukri,Antarctica | Antarctica,False,True
+[CLS] Flandres Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Flandres,Antarctica | Antarctica,False,True
+[CLS] Siple Station is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Siple,Antarctica | Antarctica,False,True
+[CLS] Atlantic Club Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Atlantic Club Ridge,Antarctica | Antarctica,False,True
+[CLS] Turkmenistan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Central Asia,Asia | Asia,False,True
+[CLS] Half Moon Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],San Diego,Antarctica | Antarctica,False,True
+[CLS] Channel Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Channel Islands,Europe | Europe | Old continent,False,True
+[CLS] Tabarin Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tabarin,Antarctica | Antarctica,False,True
+[CLS] Belgica Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Belgica,Antarctica | Antarctica,False,True
+[CLS] Louis Philippe Plateau is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Louis Philippe,Antarctica | Antarctica,False,True
+[CLS] Pitcairn Islands is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pitcairn,Oceania | Oceania,False,True
+[CLS] Andvord Bay is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the north,Antarctica | Antarctica,False,True
+[CLS] Low Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Low Island,Antarctica | Antarctica,False,True
+[CLS] Commonwealth Range is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the Commonwealth Range,Antarctica | Antarctica,False,True
+[CLS] Amundsen Bay is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Amundsen ' s Bay,Antarctica | Antarctica,False,True
+[CLS] Leverett Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Leverett Glacier,Antarctica | Antarctica,False,True
+[CLS] Pefaur Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pefaur,Antarctica | Antarctica,False,True
+[CLS] Fossil Bluff is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Fossil Bluff,Antarctica | Antarctica,False,True
+[CLS] Eights Coast is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Eights Coast,Antarctica | Antarctica,False,True
+[CLS] Owen Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Owen Ridge,Antarctica | Antarctica,False,True
+[CLS] Vincennes Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Vincennes,Antarctica | Antarctica,False,True
+[CLS] Dater Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dater,Antarctica | Antarctica,False,True
+[CLS] Nimrod Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Nimrod,Antarctica | Antarctica,False,True
+[CLS] Gibbs Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Gjelsvik Mountains is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Gjelsvik,Antarctica | Antarctica,False,True
+[CLS] Fenriskjeften Mountain is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Fenriskjeften,Antarctica | Antarctica,False,True
+[CLS] Minna Bluff is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Minna Bluff,Antarctica | Antarctica,False,True
+[CLS] Prince Gustav Channel is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Prince Gustav,Antarctica | Antarctica,False,True
+[CLS] Kiribati is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Pacific Ocean,Oceania | Oceania,False,True
+[CLS] Cape Denison is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Denison,Antarctica | Antarctica,False,True
+[CLS] Canada Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Canada Glacier,Antarctica | Antarctica,False,True
+[CLS] Palestrina Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Palestrina,Antarctica | Antarctica,False,True
+[CLS] Magnier Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Magnier,Antarctica | Antarctica,False,True
+[CLS] Wood Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wood Bay,Antarctica | Antarctica,False,True
+[CLS] Jordan is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jordan,Asia | Asia,False,True
+[CLS] Sullivan Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S .,Antarctica | Antarctica,False,True
+[CLS] Duroch Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Duroch,Antarctica | Antarctica,False,True
+[CLS] Land Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Land Glacier,Antarctica | Antarctica,False,True
+[CLS] Rothschild Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Dallmann Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dallmann,Antarctica | Antarctica,False,True
+[CLS] Moubray Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Moubray,Antarctica | Antarctica,False,True
+[CLS] Ryder Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ryder Bay,Antarctica | Antarctica,False,True
+[CLS] Flask Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Flask,Antarctica | Antarctica,False,True
+[CLS] Haiti is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latin America,North America | NA | North America,False,False
+[CLS] Meta River is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],San Antonio . San Antonio,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Wilkins Coast is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Wilkins Coast,Antarctica | Antarctica,False,True
+[CLS] Haydn Inlet is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Haydn Inlet,Antarctica | Antarctica,False,True
+[CLS] Majorca is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Majorca,Europe | Europe | Old continent,False,True
+[CLS] Laubeuf Fjord is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Laubeuf,Antarctica | Antarctica,False,True
+[CLS] Darbel Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Darbel,Antarctica | Antarctica,False,True
+[CLS] Solberg Inlet is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Solberg,Antarctica | Antarctica,False,True
+[CLS] Dominion Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Dominion Range,Antarctica | Antarctica,False,True
+[CLS] Black Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Black Glacier,Antarctica | Antarctica,False,True
+[CLS] Williams Field is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Williams Field,Antarctica | Antarctica,False,True
+[CLS] Wallonia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wallonia,Europe | Europe | Old continent,False,True
+[CLS] Berkovitsa Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Berkovitsa,Antarctica | Antarctica,False,True
+[CLS] Coppermine Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Coppermine,Antarctica | Antarctica,False,True
+[CLS] Surveyors Range is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],San Francisco,Antarctica | Antarctica,False,True
+[CLS] Siple Dome is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Siple,Antarctica | Antarctica,False,True
+[CLS] Charcot Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Charcot Island,Antarctica | Antarctica,False,True
+[CLS] Cabinet Inlet is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cabinet Inlet,Antarctica | Antarctica,False,True
+[CLS] Kuwait is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle East,Asia | Asia,False,True
+[CLS] Worcester Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Worcester Range,Antarctica | Antarctica,False,True
+[CLS] Mawson Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mawson,Antarctica | Antarctica,False,True
+[CLS] Robin Heights is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Robin Heights,Antarctica | Antarctica,False,True
+[CLS] Hovgaard Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hovgaard,Antarctica | Antarctica,False,True
+[CLS] Sobral Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sobral,Antarctica | Antarctica,False,True
+[CLS] Roberts Massif is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Roberts Massif,Antarctica | Antarctica,False,True
+[CLS] Mill Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mill Glacier,Antarctica | Antarctica,False,True
+[CLS] Bulgarian Beach is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bulgarian Beach,Antarctica | Antarctica,False,True
+[CLS] Reclus Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Reclus,Antarctica | Antarctica,False,True
+[CLS] European Project for Ice Coring in Antarctica is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Rostand Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rostand Island,Antarctica | Antarctica,False,True
+[CLS] Hill Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hill Bay,Antarctica | Antarctica,False,True
+[CLS] Federated States of Micronesia is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Micronesia,Oceania | Oceania,False,True
+[CLS] Kornicker Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kornicker,Antarctica | Antarctica,False,True
+[CLS] Lemaire Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lemaire,Antarctica | Antarctica,False,True
+[CLS] Hansen Mountains is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Skandinavia,Antarctica | Antarctica,False,True
+[CLS] Ravelin Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ravelin Ridge,Antarctica | Antarctica,False,True
+[CLS] Husky Massif is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Husky,Antarctica | Antarctica,False,True
+[CLS] Charcot Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Charcot,Antarctica | Antarctica,False,True
+[CLS] Lanchester Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lanchester,Antarctica | Antarctica,False,True
+[CLS] Round Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Round Point,Antarctica | Antarctica,False,True
+[CLS] Ablation Valley is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ablation Valley,Antarctica | Antarctica,False,True
+[CLS] Joerg Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Barker Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Barker Range,Antarctica | Antarctica,False,True
+[CLS] Rothera Research Station is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Rothera,Antarctica | Antarctica,False,True
+[CLS] Mount Vaughan is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Vaughan,Antarctica | Antarctica,False,True
+[CLS] Petrel Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Petrel,Antarctica | Antarctica,False,True
+[CLS] Larsen Inlet is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Larsen Inlet,Antarctica | Antarctica,False,True
+[CLS] Belize is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Atlantic Ocean,North America | NA | North America,False,False
+[CLS] Loire is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Champagne - Ardenne,Europe | Europe | Old continent,False,True
+[CLS] Yakoruda Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Yakoruda,Antarctica | Antarctica,False,True
+[CLS] Moon Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Moon Bay,Antarctica | Antarctica,False,True
+[CLS] Esperanza Base is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Esperanza Base,Antarctica | Antarctica,False,True
+[CLS] Trojan Range is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Trojan Range,Antarctica | Antarctica,False,True
+[CLS] Mount Inderbitzen is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Lusitania,Antarctica | Antarctica,False,True
+[CLS] Port Foster is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Port Foster,Antarctica | Antarctica,False,True
+[CLS] Aruba is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Aruba,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Radok Lake is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Radok Lake,Antarctica | Antarctica,False,True
+[CLS] Russell East Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Russell East Glacier,Antarctica | Antarctica,False,True
+[CLS] Cape Hordern is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hordern,Antarctica | Antarctica,False,True
+[CLS] Violante Inlet is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Violante,Antarctica | Antarctica,False,True
+[CLS] Gatson Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Gatson,Antarctica | Antarctica,False,True
+[CLS] Mill Mountain is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mill Mountain,Antarctica | Antarctica,False,True
+[CLS] Anandakrishnan Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Anandakrishnan,Antarctica | Antarctica,False,True
+[CLS] Angle Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Angle Peak Historic District,Antarctica | Antarctica,False,True
+[CLS] Houser Peak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shropshire,Antarctica | Antarctica,False,True
+[CLS] Leay Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Leay,Antarctica | Antarctica,False,True
+[CLS] Horn of Africa is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Horn of Africa,Africa | Africa | African continent,False,True
+[CLS] Cape Horn is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Horn,America | America | América | the Americas,False,True
+[CLS] Wallis and Futuna is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Wallis and Futuna,Oceania | Oceania,False,True
+[CLS] Casey Station is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Casey,Antarctica | Antarctica,False,True
+[CLS] Schmidt Hills is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schmidt Hills,Antarctica | Antarctica,False,True
+[CLS] Kemp Land is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kemp Land,Antarctica | Antarctica,False,True
+[CLS] Cosmonaut Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cosmonaut,Antarctica | Antarctica,False,True
+[CLS] Gutenko Mountains is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Siberian Mountains,Antarctica | Antarctica,False,True
+[CLS] Joubin Islands is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Joubin,Antarctica | Antarctica,False,True
+[CLS] Bush Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bush Mountains,Antarctica | Antarctica,False,True
+[CLS] Deschampsia Point is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Deschampsia,Antarctica | Antarctica,False,True
+[CLS] Mount Discovery is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Discovery,Antarctica | Antarctica,False,True
+[CLS] Trafalgar Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Trafalgar,Antarctica | Antarctica,False,True
+[CLS] Indian Antarctic Program is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Whitley,Antarctica | Antarctica,False,True
+[CLS] Verila Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Verila,Antarctica | Antarctica,False,True
+[CLS] Kuzman Knoll is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Kuzman,Antarctica | Antarctica,False,True
+[CLS] Oryahovo Heights is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Oryahovo,Antarctica | Antarctica,False,True
+[CLS] Ropotamo Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Ropotamo,Antarctica | Antarctica,False,True
+[CLS] Veleta is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Veleta,Europe | Europe | Old continent,False,True
+[CLS] Peacock Sound is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Peacock,Antarctica | Antarctica,False,True
+[CLS] Cape Bellue is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Bellue,Antarctica | Antarctica,False,True
+[CLS] Marsh Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marsh Glacier,Antarctica | Antarctica,False,True
+"[CLS] Eagle Island , Antarctica is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD]","Eagle Island , Antarctica",Antarctica | Antarctica,False,True
+[CLS] Carlyon Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Carlyon,Antarctica | Antarctica,False,True
+[CLS] Howchin Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Howchin,Antarctica | Antarctica,False,True
+[CLS] Antim Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Antim,Antarctica | Antarctica,False,True
+[CLS] Riiser - Larsen Peninsula is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Riiser - Larsen,Antarctica | Antarctica,False,True
+[CLS] Clark Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Clark Mountains,Antarctica | Antarctica,False,True
+[CLS] Pesce Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pesce,Antarctica | Antarctica,False,True
+[CLS] Field Névé is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Névé,Antarctica | Antarctica,False,True
+[CLS] View Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],View Point,Antarctica | Antarctica,False,True
+[CLS] Hektoria Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hektoria,Antarctica | Antarctica,False,True
+[CLS] Marble Point is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Marble Point,Antarctica | Antarctica,False,True
+[CLS] history of South America is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],""" South America """,South America | América del Sur | América do Sul | South America,False,False
+[CLS] history of North America is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,North America | NA | North America,False,False
+[CLS] Bally Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bally,Antarctica | Antarctica,False,True
+[CLS] Lake Vashka is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Vashka,Antarctica | Antarctica,False,True
+[CLS] Brahmaputra River is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Brahmaputra,Asia | Asia,False,True
+[CLS] Cape Adams is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Adams,Antarctica | Antarctica,False,True
+[CLS] Mount Bearskin is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bearskin,Antarctica | Antarctica,False,True
+[CLS] Cape Daly is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Daly,Antarctica | Antarctica,False,True
+[CLS] Jutland Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jutland,Antarctica | Antarctica,False,True
+[CLS] Yee Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Yee,Antarctica | Antarctica,False,True
+[CLS] Cape Anna is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Anna,Antarctica | Antarctica,False,True
+[CLS] Johnson Spire is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Johnson Spire,Antarctica | Antarctica,False,True
+[CLS] Johnson Bluff is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Johnson Bluff,Antarctica | Antarctica,False,True
+[CLS] Jare IV Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Jare,Antarctica | Antarctica,False,True
+[CLS] Krebs Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Krebs Glacier,Antarctica | Antarctica,False,True
+[CLS] Oates Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Oates,Antarctica | Antarctica,False,True
+[CLS] Blaiklock Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Blaiklock,Antarctica | Antarctica,False,True
+[CLS] Conrad Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Conrad Mountains,Antarctica | Antarctica,False,True
+[CLS] Dione Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Dione Nunataks,Antarctica | Antarctica,False,True
+[CLS] Gurling Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gurling,Antarctica | Antarctica,False,True
+[CLS] Grimsley Peaks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Grimsley,Antarctica | Antarctica,False,True
+[CLS] Toulouse is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the city of Toulouse,Europe | Europe | Old continent,False,True
+[CLS] Mount Bowles is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bowles,Antarctica | Antarctica,False,True
+[CLS] Spark Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spark,Antarctica | Antarctica,False,True
+[CLS] Ongley Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Icebreaker Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Icebreaker,Antarctica | Antarctica,False,True
+[CLS] Imshaug Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Imshaug,Antarctica | Antarctica,False,True
+[CLS] Inan Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Inan,Antarctica | Antarctica,False,True
+[CLS] Dee Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dee Island,Antarctica | Antarctica,False,True
+[CLS] Mount Gilbert is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Gilbert,Antarctica | Antarctica,False,True
+[CLS] Chopin Hill is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chopin Hill,Antarctica | Antarctica,False,True
+[CLS] Fildes Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fildes,Antarctica | Antarctica,False,True
+[CLS] Cole Channel is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cole,Antarctica | Antarctica,False,True
+[CLS] Rogosh Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Shropshire,Antarctica | Antarctica,False,True
+[CLS] Entente Florale is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bologne,Europe | Europe | Old continent,False,True
+[CLS] Litchfield Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Litchfield,Antarctica | Antarctica,False,True
+[CLS] Cape Morse is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Morse,Antarctica | Antarctica,False,True
+[CLS] Dwyer Nunataks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Dwyer,Antarctica | Antarctica,False,True
+[CLS] Mount Ester is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Ester,Antarctica | Antarctica,False,True
+[CLS] Figaro Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Fitzgerald Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fitzgerald Glacier,Antarctica | Antarctica,False,True
+[CLS] Flint Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Flint Ridge,Antarctica | Antarctica,False,True
+[CLS] Flory Cirque is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Flory,Antarctica | Antarctica,False,True
+[CLS] Gårekneet Ridge is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Gårekneet,Antarctica | Antarctica,False,True
+[CLS] Raggatt Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Mount Geissel is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Geissel,Antarctica | Antarctica,False,True
+[CLS] Goodwin Nunataks is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Goodwin Nunataks,Antarctica | Antarctica,False,True
+[CLS] Greegor Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Greegor,Antarctica | Antarctica,False,True
+[CLS] Mount Banck is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Banck,Antarctica | Antarctica,False,True
+[CLS] Lucchitta Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lucchitta,Antarctica | Antarctica,False,True
+[CLS] Kansas Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kansas,Antarctica | Antarctica,False,True
+[CLS] Mount Lorius is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Lorius,Antarctica | Antarctica,False,True
+[CLS] Harrison Ice Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Harrison Ice Ridge,Antarctica | Antarctica,False,True
+[CLS] Mount McClung is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],McClung,Antarctica | Antarctica,False,True
+[CLS] Mercer Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mercer Ridge,Antarctica | Antarctica,False,True
+[CLS] Heilman Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Heilman,Antarctica | Antarctica,False,True
+[CLS] Mount Marks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Marks,Antarctica | Antarctica,False,True
+[CLS] Hochstein Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hochstein,Antarctica | Antarctica,False,True
+[CLS] Heywood Lake is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,Antarctica | Antarctica,False,True
+[CLS] Arthur Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Antarctica | Antarctica,False,True
+[CLS] Mount McArthur is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McArthur,Antarctica | Antarctica,False,True
+[CLS] National Antarctic Program is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Whitley,Antarctica | Antarctica,False,True
+[CLS] Altarduken Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Altarduken Glacier,Antarctica | Antarctica,False,True
+[CLS] Hovdeskar Gap is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hovdeskar,Antarctica | Antarctica,False,True
+[CLS] Ketley Point is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ketley,Antarctica | Antarctica,False,True
+[CLS] Lyons Cone is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cone,Antarctica | Antarctica,False,True
+[CLS] Sturge Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sturge,Antarctica | Antarctica,False,True
+[CLS] Whitehall Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Whitehall,Antarctica | Antarctica,False,True
+[CLS] Crummey Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Crummey,Antarctica | Antarctica,False,True
+[CLS] Davis Knoll is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Davis Knoll,Antarctica | Antarctica,False,True
+[CLS] Mount Deardorff is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Deardorff,Antarctica | Antarctica,False,True
+[CLS] Koechlin Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Koechlin,Antarctica | Antarctica,False,True
+[CLS] Legru Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Legru,Antarctica | Antarctica,False,True
+[CLS] Store Svarthorn Peak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Store Svarthorn,Antarctica | Antarctica,False,True
+[CLS] Haines Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haines,Antarctica | Antarctica,False,True
+[CLS] Doggers Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Doggers Bay,Antarctica | Antarctica,False,True
+[CLS] Douglas Gap is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Douglas Gap,Antarctica | Antarctica,False,True
+[CLS] Mount Castro is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Castro,Antarctica | Antarctica,False,True
+[CLS] Santa Fe Trail is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Santa Fe,North America | NA | North America,False,False
+[CLS] Molodyozhnaya Station is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Molodyozhnaya,Antarctica | Antarctica,False,True
+[CLS] Prentice Plateau is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Prentice Plateau,Antarctica | Antarctica,False,True
+[CLS] Mount Ptolemy is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mount Ptolemy,Antarctica | Antarctica,False,True
+[CLS] Marshall Bay is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Marshall Islands,Antarctica | Antarctica,False,True
+[CLS] Srebarna Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Srebarna,Antarctica | Antarctica,False,True
+[CLS] Peshev Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Peshev,Antarctica | Antarctica,False,True
+[CLS] Hispaniola is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Dominican Republic,North America | NA | North America,False,False
+[CLS] Chelyabinsk Oblast is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the north - west,Asia | Asia,False,True
+[CLS] Shaw Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] King Peninsula is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],King Peninsula,Antarctica | Antarctica,False,True
+[CLS] Banaras Hindu University is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Bhopal,Asia | Asia,False,True
+[CLS] Mount Blunt is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Blunt,Antarctica | Antarctica,False,True
+[CLS] Blümcke Knoll is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Blümcke,Antarctica | Antarctica,False,True
+[CLS] Boggs Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Boggs,Antarctica | Antarctica,False,True
+[CLS] Boyle Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Boyle Mountains,Antarctica | Antarctica,False,True
+[CLS] Bratina Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bratina,Antarctica | Antarctica,False,True
+[CLS] Brand Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brand Peak,Antarctica | Antarctica,False,True
+[CLS] Salmon Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Salmon Bay,Antarctica | Antarctica,False,True
+[CLS] Vivaldi Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vivaldi Glacier,Antarctica | Antarctica,False,True
+[CLS] England Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],England Peak,Antarctica | Antarctica,False,True
+[CLS] Merrick Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Merrick,Antarctica | Antarctica,False,True
+[CLS] Cape Goodenough is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cape Goodenough,Antarctica | Antarctica,False,True
+[CLS] Bouquet Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bouquet,Antarctica | Antarctica,False,True
+[CLS] Mount Duemler is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Duemler,Antarctica | Antarctica,False,True
+[CLS] Eady Ice Piedmont is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Eady,Antarctica | Antarctica,False,True
+[CLS] Founders Peaks is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Founders Peaks,Antarctica | Antarctica,False,True
+[CLS] Gråhorna Peaks is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Gråhorna,Antarctica | Antarctica,False,True
+[CLS] Graham Spur is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Graham Spur,Antarctica | Antarctica,False,True
+[CLS] Moutonnee Lake is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Moutonnee,Antarctica | Antarctica,False,True
+[CLS] Malorad Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Malorad,Antarctica | Antarctica,False,True
+[CLS] Skarshaugane Peaks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Skarshaugane,Antarctica | Antarctica,False,True
+[CLS] Bayard Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bayard,Antarctica | Antarctica,False,True
+[CLS] Bellisime Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bellisime,Antarctica | Antarctica,False,True
+[CLS] Fukushima Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fukushima,Antarctica | Antarctica,False,True
+[CLS] Mount Hemphill is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Hemphill,Antarctica | Antarctica,False,True
+[CLS] Veterok Rock is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Veterok,Antarctica | Antarctica,False,True
+[CLS] Leda Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leda,Antarctica | Antarctica,False,True
+[CLS] Mount LeMasurier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],LeMasurier,Antarctica | Antarctica,False,True
+[CLS] Hayes Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his honor,Antarctica | Antarctica,False,True
+[CLS] Mount Hampton is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Hampton,Antarctica | Antarctica,False,True
+[CLS] White Nunataks is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],White Nunataks,Antarctica | Antarctica,False,True
+[CLS] Mount Cornu is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cornu,Antarctica | Antarctica,False,True
+[CLS] Dalziel Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Dalziel,Antarctica | Antarctica,False,True
+[CLS] Jones Peninsula is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Krat Rocks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Krat,Antarctica | Antarctica,False,True
+[CLS] Kramer Rocks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kramer Rocks,Antarctica | Antarctica,False,True
+[CLS] Komhyr Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Komhyr,Antarctica | Antarctica,False,True
+[CLS] Knuckey Peaks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Knuckey,Antarctica | Antarctica,False,True
+[CLS] Mount Murch is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Murch,Antarctica | Antarctica,False,True
+[CLS] Fringe Rocks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fringe,Antarctica | Antarctica,False,True
+[CLS] Mount Gunner is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gunner,Antarctica | Antarctica,False,True
+[CLS] Mount Guéguen is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Guéguen,Antarctica | Antarctica,False,True
+[CLS] Guyer Rock is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Guyer,Antarctica | Antarctica,False,True
+[CLS] Gregory Bluffs is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gregory Bluffs,Antarctica | Antarctica,False,True
+[CLS] Doescher Nunatak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],"St . Louis , Missouri",Antarctica | Antarctica,False,True
+[CLS] Dodd Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dodd Nunatak,Antarctica | Antarctica,False,True
+[CLS] Polarstar Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Polarstar,Antarctica | Antarctica,False,True
+[CLS] Radnevo Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Radnevo,Antarctica | Antarctica,False,True
+[CLS] Maritsa Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Maritsa,Antarctica | Antarctica,False,True
+[CLS] Pomorie Point is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pomorie,Antarctica | Antarctica,False,True
+[CLS] Sinemorets Hill is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Sinemorets,Antarctica | Antarctica,False,True
+[CLS] Teres Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Teres Ridge,Antarctica | Antarctica,False,True
+[CLS] Contell Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Contell,Antarctica | Antarctica,False,True
+[CLS] Tagus river is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tagus,Europe | Europe | Old continent,False,True
+[CLS] Troll is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Troll,Antarctica | Antarctica,False,True
+[CLS] Shou Lung is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Shou Lung,Kara - Tur | Kara - Tur,False,False
+[CLS] Christchurch is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New Zealand,Oceania | Oceania,False,True
+[CLS] Isfossnipa Peak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Isfossnipa,Antarctica | Antarctica,False,True
+[CLS] Azimuth Islands is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Aeolus Ridge is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Aeolus Ridge,Antarctica | Antarctica,False,True
+[CLS] Mount Thor ( Antarctica ) is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Mount Thor ( Antarctica ),Antarctica | Antarctica,False,True
+[CLS] DeVicq Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],DeVicq,Antarctica | Antarctica,False,True
+[CLS] Rotch Dome is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rotch,Antarctica | Antarctica,False,True
+[CLS] Gildea Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Gildea,Antarctica | Antarctica,False,True
+[CLS] Bowers Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Bowers,Antarctica | Antarctica,False,True
+[CLS] Mount Burch is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Burch,Antarctica | Antarctica,False,True
+[CLS] Pieck Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Pieck Range,Antarctica | Antarctica,False,True
+[CLS] Champness Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Champness,Antarctica | Antarctica,False,True
+[CLS] Cierva Cove is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cierva Cove,Antarctica | Antarctica,False,True
+[CLS] Cape Chocolate is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Chocolate,Antarctica | Antarctica,False,True
+[CLS] Mount Karisimbi is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Karisimbi,Africa | Africa | African continent,False,True
+[CLS] Karoo - Ferrar is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Karoo,Antarctica | Antarctica,False,True
+[CLS] Quinault Pass is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Quinault,Antarctica | Antarctica,False,True
+[CLS] Shostakovich Peninsula is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Shostakovich,Antarctica | Antarctica,False,True
+[CLS] Sibelius Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sibelius Glacier,Antarctica | Antarctica,False,True
+[CLS] Shupe Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shupe,Antarctica | Antarctica,False,True
+[CLS] Benson Bluff is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Antarctica | Antarctica,False,True
+[CLS] Mount Wilhelm is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Wilhelm,Oceania | Oceania,False,True
+[CLS] Fuerza Aérea Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fuerza Aérea Glacier,Antarctica | Antarctica,False,True
+[CLS] Embree Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Embree,Antarctica | Antarctica,False,True
+[CLS] Jason Peninsula is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jason Peninsula,Antarctica | Antarctica,False,True
+[CLS] Dumoulin Islands is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Dumoulin,Antarctica | Antarctica,False,True
+[CLS] Fauré Inlet is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Fauré,Antarctica | Antarctica,False,True
+[CLS] Mount Feldkotter is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mount Feldkotter,Antarctica | Antarctica,False,True
+[CLS] Moider Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Moider,Antarctica | Antarctica,False,True
+[CLS] Molholm Shoal is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Molholm,Antarctica | Antarctica,False,True
+[CLS] Flounder Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,Antarctica | Antarctica,False,True
+[CLS] Mount Flower is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Flower,Antarctica | Antarctica,False,True
+[CLS] Galen Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Galen,Antarctica | Antarctica,False,True
+[CLS] Gannutz Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gannutz,Antarctica | Antarctica,False,True
+[CLS] Gaussiran Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gaussiran,Antarctica | Antarctica,False,True
+[CLS] Gatlin Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gatlin,Antarctica | Antarctica,False,True
+[CLS] Giard Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Giard,Antarctica | Antarctica,False,True
+[CLS] Glimpse Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Glacial Glacier,Antarctica | Antarctica,False,True
+[CLS] Glossopteris Gully is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Glossopteris,Antarctica | Antarctica,False,True
+[CLS] Mount Gobey is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gobey,Antarctica | Antarctica,False,True
+[CLS] Grant Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Grant Valley,Antarctica | Antarctica,False,True
+[CLS] Granitnaya Mountain is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Granitnaya,Antarctica | Antarctica,False,True
+[CLS] Gray Spur is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gray Spur,Antarctica | Antarctica,False,True
+[CLS] Hålisstonga Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Hålisstonga,Antarctica | Antarctica,False,True
+[CLS] Mount Mueller is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Mueller,Antarctica | Antarctica,False,True
+[CLS] Miethe Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Miethe,Antarctica | Antarctica,False,True
+[CLS] Hans - Martin Nunatak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Hans - Martin Nunatak,Antarctica | Antarctica,False,True
+[CLS] Harris Ledge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Harris Ledge,Antarctica | Antarctica,False,True
+[CLS] Lovejoy Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lovejoy,Antarctica | Antarctica,False,True
+[CLS] Lorentzen Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lorentzen,Antarctica | Antarctica,False,True
+[CLS] Mite Skerry is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Mite Skerry,Antarctica | Antarctica,False,True
+[CLS] Mount Loodts is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Loodts,Antarctica | Antarctica,False,True
+[CLS] Lokehellene Cliffs is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Lokehellene,Antarctica | Antarctica,False,True
+[CLS] Lobel Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lobel,Antarctica | Antarctica,False,True
+[CLS] Linton - Smith Nunataks is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Linton - Smith,Antarctica | Antarctica,False,True
+[CLS] McLaughlin Cliffs is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],McLaughlin Cliffs,Antarctica | Antarctica,False,True
+[CLS] Mel Moraine is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mel Moraine,Antarctica | Antarctica,False,True
+[CLS] Meiklejohn Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Meiklejohn,Antarctica | Antarctica,False,True
+[CLS] Harvey Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Harvey Peak Historic District,Antarctica | Antarctica,False,True
+[CLS] Harwell Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harwell,Antarctica | Antarctica,False,True
+[CLS] Haver Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haver Peak,Antarctica | Antarctica,False,True
+[CLS] Havilland Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Havilland Point,Antarctica | Antarctica,False,True
+[CLS] Mount Hayton is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hayton,Antarctica | Antarctica,False,True
+[CLS] Mount Heitō is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Heitō,Antarctica | Antarctica,False,True
+[CLS] Hübl Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hübl,Antarctica | Antarctica,False,True
+[CLS] Hoek Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hoek,Antarctica | Antarctica,False,True
+[CLS] Rakuda Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Rakuda,Antarctica | Antarctica,False,True
+[CLS] Hill Peaks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hill Peaks,Antarctica | Antarctica,False,True
+[CLS] Henderson Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Henderson Glacier,Antarctica | Antarctica,False,True
+[CLS] Kite Stream is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kite,Antarctica | Antarctica,False,True
+[CLS] Maury Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maury,Antarctica | Antarctica,False,True
+[CLS] Mariner Hill is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mariner Hill,Antarctica | Antarctica,False,True
+[CLS] Porcupine River is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Porcupine River,North America | NA | North America,False,False
+[CLS] Tula Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tula,Antarctica | Antarctica,False,True
+[CLS] O ' Leary Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],O ' Leary,Antarctica | Antarctica,False,True
+[CLS] Nordenskjöld Outcrops is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Nordenskjöld,Antarctica | Antarctica,False,True
+[CLS] Silver Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Silver Ridge,Antarctica | Antarctica,False,True
+[CLS] Alt Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Andersson Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],his honor,Antarctica | Antarctica,False,True
+[CLS] Anemometer Hill is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Anemometer,Antarctica | Antarctica,False,True
+[CLS] Stapleton Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Stapleton,Antarctica | Antarctica,False,True
+[CLS] Horowitz Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Horowitz,Antarctica | Antarctica,False,True
+[CLS] Horteflaket Névé is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Névé,Antarctica | Antarctica,False,True
+[CLS] Thomson Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Thomson Glacier,Antarctica | Antarctica,False,True
+[CLS] Kavrayskiy Hills is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kavraysk,Antarctica | Antarctica,False,True
+[CLS] Radigan Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radigan,Antarctica | Antarctica,False,True
+[CLS] Kellogg Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kellogg,Antarctica | Antarctica,False,True
+[CLS] Killermet Cove is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Mount Reece is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Reece,Antarctica | Antarctica,False,True
+[CLS] Lacuna Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lacuna,Antarctica | Antarctica,False,True
+[CLS] Lauritzen Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lauritzen,Antarctica | Antarctica,False,True
+[CLS] Last Hill is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Last Hill,Antarctica | Antarctica,False,True
+[CLS] Leap Year Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leap,Antarctica | Antarctica,False,True
+[CLS] Mount Nero is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Nero,Antarctica | Antarctica,False,True
+[CLS] Warren Icefall is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Warren Icefall,Antarctica | Antarctica,False,True
+[CLS] Waugh Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Waugh,Antarctica | Antarctica,False,True
+[CLS] Welcome Pass is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Coral Sea Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Coral Sea,Antarctica | Antarctica,False,True
+[CLS] Mount Sutherland is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Sutherland,Antarctica | Antarctica,False,True
+[CLS] Steuri Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Steuri,Antarctica | Antarctica,False,True
+[CLS] Dakota Pass is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dakota Pass,Antarctica | Antarctica,False,True
+[CLS] Dana Mountains is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Dana Mountains,Antarctica | Antarctica,False,True
+[CLS] David Cauldron is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Mount Dearborn is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dearborn,Antarctica | Antarctica,False,True
+[CLS] Mount Justman is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Justman,Antarctica | Antarctica,False,True
+[CLS] Journal Peaks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Journal Peaks,Antarctica | Antarctica,False,True
+[CLS] Jones Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jones Nunatak,Antarctica | Antarctica,False,True
+[CLS] Johnson Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Jane Col is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jane Col,Antarctica | Antarctica,False,True
+[CLS] Giggenbach Ridge is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Giggenbach,Antarctica | Antarctica,False,True
+[CLS] Kuberry Rocks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Kuberry,Antarctica | Antarctica,False,True
+[CLS] Conway Range is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Conway Range,Antarctica | Antarctica,False,True
+[CLS] Knuckle Reef is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Knuckle,Antarctica | Antarctica,False,True
+[CLS] Mount Stonehouse is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Stonehouse,Antarctica | Antarctica,False,True
+[CLS] Mummery Cliff is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mummery,Antarctica | Antarctica,False,True
+[CLS] Mount Frosch is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Frosch,Antarctica | Antarctica,False,True
+[CLS] Friis Hills is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Friis,Antarctica | Antarctica,False,True
+[CLS] Virginia Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Virginia Valley,Antarctica | Antarctica,False,True
+[CLS] Mount Strong is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Strong,Antarctica | Antarctica,False,True
+[CLS] Dewar Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Mount Guyon is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Guyon,Antarctica | Antarctica,False,True
+[CLS] Donnachie Cliff is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Donnachie,Antarctica | Antarctica,False,True
+[CLS] Pirdop Gate is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Pirdop,Antarctica | Antarctica,False,True
+[CLS] Presian Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Presian,Antarctica | Antarctica,False,True
+[CLS] Ivanoff Head is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ivanoff,Antarctica | Antarctica,False,True
+[CLS] Jacoby Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Whittington,Antarctica | Antarctica,False,True
+[CLS] Diomedea Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saint Lucia,Antarctica | Antarctica,False,True
+[CLS] Enden Point is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Enden Point,Antarctica | Antarctica,False,True
+[CLS] Haas Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Haas Glacier,Antarctica | Antarctica,False,True
+[CLS] Astrolabe Subglacial Basin is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Astrolabe,Antarctica | Antarctica,False,True
+[CLS] Mount Atkinson is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Shropshire,Antarctica | Antarctica,False,True
+[CLS] Astarte Horn is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Astarte,Antarctica | Antarctica,False,True
+[CLS] Mount King is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount King,Antarctica | Antarctica,False,True
+[CLS] Angara River is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Angara,Asia | Asia,False,True
+[CLS] Boulder Rock is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Boulder Rock,Antarctica | Antarctica,False,True
+[CLS] Boyd Escarpment is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Boyd Escarpment,Antarctica | Antarctica,False,True
+[CLS] Brandenberger Bluff is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Brandenberger Bluff,Antarctica | Antarctica,False,True
+[CLS] Mount Brocoum is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Brocoum,Antarctica | Antarctica,False,True
+[CLS] Mount Burrill is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Burrill,Antarctica | Antarctica,False,True
+[CLS] Buzfuz Rock is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Buzfuz,Antarctica | Antarctica,False,True
+[CLS] Cadman Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cadman,Antarctica | Antarctica,False,True
+[CLS] Mount Wyss is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wyss,Antarctica | Antarctica,False,True
+[CLS] Chapman Hump is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chapman Hump,Antarctica | Antarctica,False,True
+[CLS] Cape Chavanne is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cape Chavanne,Antarctica | Antarctica,False,True
+[CLS] Choyce Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Choyce,Antarctica | Antarctica,False,True
+[CLS] Claude Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Claude Point,Antarctica | Antarctica,False,True
+[CLS] Cook Summit is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cook Summit,Antarctica | Antarctica,False,True
+[CLS] Oldroyd Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York City,Antarctica | Antarctica,False,True
+[CLS] Vivian Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vivian Nunatak,Antarctica | Antarctica,False,True
+[CLS] United Kingdom of the Netherlands is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Hague,Europe | Europe | Old continent,False,True
+[CLS] Quonset Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Quonset,Antarctica | Antarctica,False,True
+[CLS] Refuge Emílio Goeldi is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Rio de Janeiro,Antarctica | Antarctica,False,True
+[CLS] Australian Antarctic Building System is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Whittington,Antarctica | Antarctica,False,True
+[CLS] Wylie Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wylie,Antarctica | Antarctica,False,True
+[CLS] Axel Heiberg Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Axel Heiberg,Antarctica | Antarctica,False,True
+[CLS] White Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],White Island,Antarctica | Antarctica,False,True
+[CLS] Pilot Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pilot Glacier,Antarctica | Antarctica,False,True
+[CLS] Eisberg Head is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Eisberg,Antarctica | Antarctica,False,True
+[CLS] Elliott Passage is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Elliott Passage,Antarctica | Antarctica,False,True
+[CLS] Esser Bluff is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Esser Bluff,Antarctica | Antarctica,False,True
+[CLS] Parkinson Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Parkinson Peak,Antarctica | Antarctica,False,True
+[CLS] Feeney Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Feeney,Antarctica | Antarctica,False,True
+[CLS] Flagon Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Flagon,Antarctica | Antarctica,False,True
+[CLS] Français Glacier is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],France,Antarctica | Antarctica,False,True
+[CLS] Gardiner Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gardiner Ridge,Antarctica | Antarctica,False,True
+[CLS] Gardner Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gardner Nunatak,Antarctica | Antarctica,False,True
+[CLS] Gibbon Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Gibbon Nunatak,Antarctica | Antarctica,False,True
+[CLS] Gourdon Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Gourdon,Antarctica | Antarctica,False,True
+[CLS] Hale Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hale,Antarctica | Antarctica,False,True
+[CLS] Moraine Cove is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Moraine Cove,Antarctica | Antarctica,False,True
+[CLS] Morelli Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Morelli,Antarctica | Antarctica,False,True
+[CLS] Mericle Rock is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Mericle,Antarctica | Antarctica,False,True
+[CLS] Locator Island is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Locator Island,Antarctica | Antarctica,False,True
+[CLS] Miller Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Miller Peak Historic District,Antarctica | Antarctica,False,True
+[CLS] Melville Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New Zealand ' s Melville,Antarctica | Antarctica,False,True
+[CLS] Heezen Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Heezen,Antarctica | Antarctica,False,True
+[CLS] Martin Nunataks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Mathis Spur is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mathis,Antarctica | Antarctica,False,True
+[CLS] Mayer Hills is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mayer Hills,Antarctica | Antarctica,False,True
+[CLS] Malmgren Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Malmgren,Antarctica | Antarctica,False,True
+[CLS] Mount Manke is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Manke,Antarctica | Antarctica,False,True
+[CLS] Cerro Torre is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cerro Torre,South America | América del Sur | América do Sul | South America,False,False
+[CLS] Mount Shelton is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Shropshire,Antarctica | Antarctica,False,True
+[CLS] Ma River is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ma,Asia | Asia,False,True
+[CLS] Luapula River is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Luapula,Africa | Africa | African continent,False,True
+[CLS] Princess Elisabeth Antarctica is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Princess Elisabeth Antarctica,Antarctica | Antarctica,False,True
+[CLS] Australasian Antarctic Expedition is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Zealand,Antarctica | Antarctica,False,True
+[CLS] Anthony Bluff is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Anthony Bluff,Antarctica | Antarctica,False,True
+[CLS] Anvil Crag is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Anvil,Antarctica | Antarctica,False,True
+[CLS] Mount Behling is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Behling,Antarctica | Antarctica,False,True
+[CLS] Sessums Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sessums,Antarctica | Antarctica,False,True
+[CLS] Splettstoesser Pass is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Splettstoesser,Antarctica | Antarctica,False,True
+[CLS] Tethys Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Tethys Nunatak,Antarctica | Antarctica,False,True
+[CLS] Högbom Outcrops is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Högbom,Antarctica | Antarctica,False,True
+[CLS] Hollingsworth Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hollingsworth,Antarctica | Antarctica,False,True
+[CLS] Holtedahl Peaks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Holtedahl,Antarctica | Antarctica,False,True
+[CLS] Karaali Rocks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Karaali,Antarctica | Antarctica,False,True
+[CLS] Reference Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Reference Peak,Antarctica | Antarctica,False,True
+[CLS] Mount Lugering is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lugering,Antarctica | Antarctica,False,True
+[CLS] Viddalen Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Viddalen,Antarctica | Antarctica,False,True
+[CLS] Robinson Heights is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Robinson Heights,Antarctica | Antarctica,False,True
+[CLS] Mount Ronca is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ronca,Antarctica | Antarctica,False,True
+[CLS] Rossa Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rossa Point,Antarctica | Antarctica,False,True
+[CLS] Lawrence Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lawrence Nunatak,Antarctica | Antarctica,False,True
+[CLS] Latino Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latino Peak,Antarctica | Antarctica,False,True
+[CLS] Lens Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lens Peak,Antarctica | Antarctica,False,True
+[CLS] Lester Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],his honor,Antarctica | Antarctica,False,True
+[CLS] Mount Nygren is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Nygren,Antarctica | Antarctica,False,True
+[CLS] Mount Nesos is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mount Nesos,Antarctica | Antarctica,False,True
+[CLS] Niles Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Wallend Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Wallend,Antarctica | Antarctica,False,True
+[CLS] Webster Peaks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Webster Peaks,Antarctica | Antarctica,False,True
+[CLS] Whiting Rocks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Whiting,Antarctica | Antarctica,False,True
+[CLS] Cosgrove Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Cosgrove,Antarctica | Antarctica,False,True
+[CLS] Jurva Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jurva,Antarctica | Antarctica,False,True
+[CLS] Deloncle Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Deloncle,Antarctica | Antarctica,False,True
+[CLS] Stokes Hill is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stokes Hill,Antarctica | Antarctica,False,True
+[CLS] Stout Spur is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Stout,Antarctica | Antarctica,False,True
+[CLS] Fulgham Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Fulgham,Antarctica | Antarctica,False,True
+[CLS] Fritter Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fritter,Antarctica | Antarctica,False,True
+[CLS] Dillon Peak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the National Park Service,Antarctica | Antarctica,False,True
+[CLS] Tverreggtelen Hill is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Tverreggtelen,Antarctica | Antarctica,False,True
+[CLS] Gregory Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gregory Island,Antarctica | Antarctica,False,True
+[CLS] Pyramiden Nunatak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Pyramiden Nunatak,Antarctica | Antarctica,False,True
+[CLS] Cooperation Sea is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cooperation Sea,Antarctica | Antarctica,False,True
+[CLS] Perperek Knoll is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Perperek,Antarctica | Antarctica,False,True
+[CLS] Pleven Saddle is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pleven,Antarctica | Antarctica,False,True
+[CLS] Jambelí Cove is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Jambelí,Antarctica | Antarctica,False,True
+[CLS] Potmess Rocks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Potmess,Antarctica | Antarctica,False,True
+[CLS] Kardzhali Point is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Kardzhali,Antarctica | Antarctica,False,True
+[CLS] Koshava Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Koshava,Antarctica | Antarctica,False,True
+[CLS] Yamagata Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Yamagata,Antarctica | Antarctica,False,True
+[CLS] Young Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Young Peak,Antarctica | Antarctica,False,True
+[CLS] Young Head is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Young Head,Antarctica | Antarctica,False,True
+[CLS] Trioen Nunataks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Antarctica | Antarctica,False,True
+[CLS] Inverleith Harbour is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Inverleith,Antarctica | Antarctica,False,True
+[CLS] Isacke Passage is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Isacke,Antarctica | Antarctica,False,True
+[CLS] Jacobs Peninsula is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jacobs Peninsula,Antarctica | Antarctica,False,True
+[CLS] Astor Rocks is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Astor Rocks,Antarctica | Antarctica,False,True
+[CLS] Telefon Ridge is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Telefon Ridge,Antarctica | Antarctica,False,True
+[CLS] Aitken Nunatak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Aitken Nunatak,Antarctica | Antarctica,False,True
+[CLS] Lake Boeckella is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Boeckella,Antarctica | Antarctica,False,True
+[CLS] Bowen Cirque is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bowen Cirque,Antarctica | Antarctica,False,True
+[CLS] Bracken Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bracken,Antarctica | Antarctica,False,True
+[CLS] Breidvåg Bight is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Breidvåg,Antarctica | Antarctica,False,True
+[CLS] Bryan Coast is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bryan Coast,Antarctica | Antarctica,False,True
+[CLS] Bucher Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bucher,Antarctica | Antarctica,False,True
+[CLS] Camp Spur is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Camp Spur,Antarctica | Antarctica,False,True
+[CLS] Outrider Nunatak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Outrider Nunatak,Antarctica | Antarctica,False,True
+[CLS] O ' Kane Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],O ' Kane,Antarctica | Antarctica,False,True
+[CLS] Mount Obiglio is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Obiglio,Antarctica | Antarctica,False,True
+[CLS] Nishi - naga - iwa Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Nishi - naga,Antarctica | Antarctica,False,True
+[CLS] Belimel Bay is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belimel,Antarctica | Antarctica,False,True
+[CLS] Cerro Bonete is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cerro Bonete,America | America | América | the Americas,False,True
+[CLS] Perivol Rock is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Perivol,Antarctica | Antarctica,False,True
+[CLS] Siders Bluff is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Siders Bluff,Antarctica | Antarctica,False,True
+[CLS] Sikorski Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sikorski,Antarctica | Antarctica,False,True
+[CLS] Blackburn Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Blackburn Nunatak,Antarctica | Antarctica,False,True
+[CLS] Kuopio is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kuopio,Europe | Europe | Old continent,False,True
+[CLS] Wood Island is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wood Island,Antarctica | Antarctica,False,True
+[CLS] Mount Sandow is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sandow,Antarctica | Antarctica,False,True
+[CLS] Cape Page is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Page,Antarctica | Antarctica,False,True
+[CLS] Draves Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Draves,Antarctica | Antarctica,False,True
+[CLS] Exodus Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Exodus Valley,Antarctica | Antarctica,False,True
+[CLS] Patience Rocks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Patience,Antarctica | Antarctica,False,True
+[CLS] Feistmantel Valley is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Feistmantel,Antarctica | Antarctica,False,True
+[CLS] Ferrier Peninsula is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Ferrier,Antarctica | Antarctica,False,True
+[CLS] Mount Fleming is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Fleming,Antarctica | Antarctica,False,True
+[CLS] Mount Forde is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Forde,Antarctica | Antarctica,False,True
+[CLS] Gap Nunatak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gap Nunatak,Antarctica | Antarctica,False,True
+[CLS] Gaston Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gaston Islands,Antarctica | Antarctica,False,True
+[CLS] Georges Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Georges Point,Antarctica | Antarctica,False,True
+[CLS] Morrison Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Morrison Glacier,Antarctica | Antarctica,False,True
+[CLS] Metaris Valley is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Metaris,Antarctica | Antarctica,False,True
+[CLS] Mount Loke is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Loke,Antarctica | Antarctica,False,True
+[CLS] Litke Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Litke Nunatak,Antarctica | Antarctica,False,True
+[CLS] Lodge Rock is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lodge Rock,Antarctica | Antarctica,False,True
+[CLS] Mount McElroy is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McElroy,Antarctica | Antarctica,False,True
+[CLS] Medusa Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Medusa,Antarctica | Antarctica,False,True
+[CLS] McLean Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],McCall,Antarctica | Antarctica,False,True
+[CLS] McWhinnie Peak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],McWhinnie,Antarctica | Antarctica,False,True
+[CLS] McNair Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],McNair,Antarctica | Antarctica,False,True
+[CLS] Melfjellet is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Melfjell,Antarctica | Antarctica,False,True
+[CLS] Mount Hayter is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hayter,Antarctica | Antarctica,False,True
+[CLS] Marr Bluff is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Marr Bluff,Antarctica | Antarctica,False,True
+[CLS] Mount Marsland is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Marsland,Antarctica | Antarctica,False,True
+[CLS] Brooklyn Island is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Brooklyn Island,Antarctica | Antarctica,False,True
+[CLS] Hinks Channel is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hinks,Antarctica | Antarctica,False,True
+[CLS] Mount Henksen is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Henksen,Antarctica | Antarctica,False,True
+[CLS] Mount Hunt is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Hunt,Antarctica | Antarctica,False,True
+[CLS] Kista Nunatak is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kista Nunatak,Antarctica | Antarctica,False,True
+[CLS] Mariholm is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mariholm,Antarctica | Antarctica,False,True
+[CLS] Orsoya Rocks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Orsoya,Antarctica | Antarctica,False,True
+[CLS] Chernomen Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chernomen,Antarctica | Antarctica,False,True
+[CLS] Agalina Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Agalina,Antarctica | Antarctica,False,True
+[CLS] Mount Martin is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Martin,Antarctica | Antarctica,False,True
+[CLS] Ledenika Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Ledenika,Antarctica | Antarctica,False,True
+[CLS] Kryvyi Rih is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kryvy Rih,Europe | Europe | Old continent,False,True
+[CLS] Zavera Snowfield is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zavera,Antarctica | Antarctica,False,True
+[CLS] Paramun Buttress is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paramun,Antarctica | Antarctica,False,True
+[CLS] Darvari Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Darvari,Antarctica | Antarctica,False,True
+[CLS] Borima Bay is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Borima,Antarctica | Antarctica,False,True
+[CLS] Caution Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Caution,Antarctica | Antarctica,False,True
+[CLS] Torlyn Mountain is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Torlyn,Antarctica | Antarctica,False,True
+[CLS] Heald Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Heald Island,Antarctica | Antarctica,False,True
+[CLS] Barne Glacier is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Barne,Antarctica | Antarctica,False,True
+[CLS] Traverse Mountains is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Traverse,Antarctica | Antarctica,False,True
+[CLS] Cape Wood is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Wood,Antarctica | Antarctica,False,True
+[CLS] Almond Point is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Antarctica | Antarctica,False,True
+[CLS] Backdrop Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Antarctica | Antarctica,False,True
+[CLS] Voyeykov Ice Shelf is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Voyeykov,Antarctica | Antarctica,False,True
+[CLS] Mount Krüger is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Krüger,Antarctica | Antarctica,False,True
+[CLS] Utus Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Utus,Antarctica | Antarctica,False,True
+[CLS] Belgun Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belgun,Antarctica | Antarctica,False,True
+[CLS] Steagall Glacier is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Steagall,Antarctica | Antarctica,False,True
+[CLS] Seavers Nunataks is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Seavers Nunataks,Antarctica | Antarctica,False,True
+[CLS] Seely Ridge is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Seely Ridge,Antarctica | Antarctica,False,True
+[CLS] Sistenup Peak is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sistenup,Antarctica | Antarctica,False,True
+[CLS] Sløret Rocks is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Sløre,Antarctica | Antarctica,False,True
+[CLS] Spring Glacier is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Spring Glacier Reservation,Antarctica | Antarctica,False,True
+[CLS] Holt Point is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Holt Point,Antarctica | Antarctica,False,True
+[CLS] Cape Howard is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Howard,Antarctica | Antarctica,False,True
+[CLS] Lake Kamome is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Lake Kamome,Antarctica | Antarctica,False,True
+[CLS] Thompson Mountain is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Thompson Mountain,Antarctica | Antarctica,False,True
+[CLS] Mount Kathleen is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Kathleen,Antarctica | Antarctica,False,True
+[CLS] Ryan Peak is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ryan Peak,Antarctica | Antarctica,False,True
+[CLS] Ruvungane Peaks is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Ruvungane,Antarctica | Antarctica,False,True
+[CLS] Cape Kemp is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cape Kemp,Antarctica | Antarctica,False,True
+[CLS] Mount Keohane is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Keohane,Antarctica | Antarctica,False,True
+[CLS] Vesconte Point is located in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Vesconte Point,Antarctica | Antarctica,False,True
+[CLS] Lampitt Nunatak is located in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Lampitt Nunatak,Antarctica | Antarctica,False,True
+[CLS] Leonie Islands is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leonie,Antarctica | Antarctica,False,True
+[CLS] Mount Light is located in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mount Light,Antarctica | Antarctica,False,True
+[CLS] Lilienthal Island is located in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Lilienthal,Antarctica | Antarctica,False,True

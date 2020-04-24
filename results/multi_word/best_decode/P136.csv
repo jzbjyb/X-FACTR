@@ -1,0 +1,998 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Doctor Who plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,science fiction television | science fiction TV | science fiction on television | science fiction television | science fiction television series,False,False
+[CLS] EastEnders plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] The Band plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. The Band,rock music | rock | rock and roll | rock music,False,False
+[CLS] Blue Note plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Blue Note,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Neighbours plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a variety of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Coronation Street plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Isaac Asimov plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Isaac Asimov ' s,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Hollyoaks plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Emmerdale plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] General Hospital plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Richard Wagner plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] The Beatles plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. The Beatles,rock music | rock | rock and roll | rock music,False,False
+[CLS] Miles Davis plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Miles Davis,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Wolfgang Amadeus Mozart plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] The Rolling Stones plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. The Rolling Stones,rock music | rock | rock and roll | rock music,False,False
+[CLS] All My Children plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Gaetano Donizetti plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a great deal of,opera | opera,False,True
+[CLS] Giacomo Puccini plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Giacomo Puccini,opera | opera,False,True
+[CLS] Babylon 5 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,science fiction television | science fiction TV | science fiction on television | science fiction television | science fiction television series,False,False
+[CLS] Ludwig van Beethoven plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Ludwig van Beethoven,piano sonata | keyboard sonata | piano sonata,False,False
+[CLS] John Coltrane plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. John Coltrane,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Riverside Records plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],chord,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Metallica plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . The Beatles plays,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Gioachino Rossini plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] ECM Records plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],music . plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Brian Wilson plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Law & Order plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,police procedural | police procedural,False,False
+[CLS] Kamen Rider Series plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,tokusatsu | tokusatsu,False,False
+[CLS] Ugly Betty plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Impulse ! Records plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Green Day plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Duke Ellington plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Duke Ellington,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Morning Musume plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Morning Musume,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Reba McEntire plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Joseph Haydn plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,symphony | symphony,False,False
+[CLS] Swan Lake plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,ballet | ballet,False,True
+[CLS] Michael Jackson plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Michael Jackson,pop music | Pop | pop | pop music,False,False
+[CLS] The Kinks plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. The Kinks,rock music | rock | rock and roll | rock music,False,False
+[CLS] Benjamin Britten plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Benjamin Britten,opera | opera,False,True
+[CLS] Wolfgang Amadeus Mozart plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,piano sonata | keyboard sonata | piano sonata,False,False
+[CLS] Muthuswami Dikshitar plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],tamil,Carnatic music | Carnatic classical music | Carnatic music | Carnatic sangeet | Karnataka sangita | Karnatic classical music,False,False
+[CLS] Cannonball Adderley plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Willie Nelson plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Dizzy Gillespie plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Dizzy,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Ludwig van Beethoven plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Ludwig van Beethoven,classical music | European classical music | Western art music | Western classical music | classical music,False,False
+[CLS] Brookside plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Sex Pistols plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Sex Pistols,punk rock | punk | punk music | punk rock,False,False
+[CLS] Ludwig van Beethoven plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Ludwig van Beethoven,symphony | symphony,False,False
+[CLS] Lin Carter plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Lin Carter plays,fantasy | fantasy | fantasy fiction,False,True
+[CLS] The Smashing Pumpkins plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Richard Strauss plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] Slayer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . The Beatles plays,thrash metal | thrash | thrash metal | trash metal,False,False
+[CLS] Johann Sebastian Bach plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Johann Sebastian Bach,classical music | European classical music | Western art music | Western classical music | classical music,False,False
+[CLS] Frank Herbert plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Ronnie Milsap plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Ronnie Milsap,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] R . E . M . plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],in the field of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Helloween plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,power metal | power metal,False,False
+[CLS] Giovanni Battista Pergolesi plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,opera | opera,False,True
+[CLS] Rancid plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Loretta Lynn plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Wolfgang Amadeus Mozart plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,piano concerto | piano concerto,False,False
+[CLS] Andy Williams plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] Charlie Parker plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Charlie Parker,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Vincenzo Bellini plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,opera | opera,False,True
+[CLS] Randy Travis plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Marvin Gaye plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,soul music | soul | soul music,False,False
+[CLS] Bob Dylan plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Bob Dylan,rock music | rock | rock and roll | rock music,False,False
+[CLS] Christoph Willibald von Gluck plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],music . Plays,opera | opera,False,True
+[CLS] Another World plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Coldplay plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . The Beatles plays,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Chet Baker plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Chet Baker,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Moby plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Moby ' s,electronica | electronica,False,False
+[CLS] Peter Gabriel plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Peter Gabriel plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Family Affairs plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] ZZ Top plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],and produces,rock music | rock | rock and roll | rock music,False,False
+[CLS] The Bill plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,police procedural | police procedural,False,False
+[CLS] Brad Paisley plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],music . Paisley plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Pearl Jam plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Pearl Jam plays,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Vince Gill plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Dire Straits plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Dire Straits,rock music | rock | rock and roll | rock music,False,False
+[CLS] Ahmad Jamal plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Mal Waldron plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Mal Waldron plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Rascal Flatts plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Sun Ra plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Sun Ra plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Snow White plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,fairy tale | Marchen | fairy story | fairy tale,False,False
+[CLS] Cheers plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Sawyer Brown plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Sawyer Brown plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Megadeth plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] The Bellamy Brothers plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Nine Inch Nails plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,industrial rock | industrial rock,False,False
+[CLS] Busta Rhymes plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,rapping | MCing | emceeing | rap | rapping | spitting bars,False,False
+[CLS] Crystal Gayle plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Crystal Gayle plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Manic Street Preachers plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],hardcore punk,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Don Williams plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Don Williams plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Van Halen plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,hard rock | hard rock,False,False
+[CLS] Claudio Monteverdi plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,opera | opera,False,True
+[CLS] Larry Gatlin plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Larry Gatlin,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Bad Brains plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,hardcore punk | Punk / HC | hXc | hardcore | hardcore punk,False,False
+[CLS] Pixies plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Pixies,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Georges Bizet plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,opera | opera,False,True
+[CLS] Dottie West plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Ivy Queen plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,reggaeton | reggaeton | reggaetón,False,False
+[CLS] Robert Rich plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],: Robert Rich ' s,ambient music | ambient | ambient music,False,False
+[CLS] Robert Silverberg plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Robert Silverberg plays,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Clay Walker plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Clay Walker plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Dance Dance Revolution plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the most important role in,music video game | music and rhythm video games | music game | music video game,False,False
+[CLS] Bud Powell plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Bud Powell,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Pat Metheny plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Pat Metheny,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Got Talent plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,reality television | reality TV | reality television,False,False
+[CLS] Boyz II Men plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Lady Antebellum plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] John Michael Montgomery plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. John Michael Montgomery plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Trisha Yearwood plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Trisha Yearwood,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Buzzcocks plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] RCA Records plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the song in,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Stan Getz plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Stan Getz plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Horna plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,black metal | black metal,False,False
+[CLS] Ornette Coleman plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Ornette Coleman,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Super Sentai plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,tokusatsu | tokusatsu,False,False
+[CLS] Nikolai Rimsky - Korsakov plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a particular interest in,opera | opera,False,True
+[CLS] Stevie Wonder plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Stevie Wonder plays,soul music | soul | soul music,False,False
+[CLS] Star Wars plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],music .,space opera | space opera | space operas,False,False
+[CLS] Whitney Houston plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] Kylie Minogue plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,pop music | Pop | pop | pop music,False,False
+[CLS] Father Ted plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] The Sarah Jane Adventures plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a wide variety of,science fiction television | science fiction TV | science fiction on television | science fiction television | science fiction television series,False,False
+[CLS] Graduados plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Graduado,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Django Reinhardt plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Django Reinhardt,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Joe Zawinul plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Joe Zawinul,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Meters plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of genres of,funk | funk,False,True
+[CLS] Michael Moorcock plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Michael Moorcock plays,fantasy | fantasy | fantasy fiction,False,True
+[CLS] Megami Tensei plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],no,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] Jack DeJohnette plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Die Flippers plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,schlager music | schlager | schlager music,False,False
+[CLS] Bix Beiderbecke plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Specials plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,ska | ska,False,True
+[CLS] Gil Evans plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Gil Evans,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Puffy AmiYumi plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Supertramp plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Ramblin ' Jack Elliott plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,folk music | folk music,False,False
+[CLS] Sonny Stitt plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Sonny Stitt plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Ngaio Marsh plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Ngaio Marsh plays,detective fiction | detective fiction,False,False
+[CLS] Joseph Haydn plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] Number 96 plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Number 96,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Amazing Stories plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Al Green plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Al Green plays,soul music | soul | soul music,False,False
+[CLS] Mike Reid plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Stargate Atlantis plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the most important role in,science fiction television | science fiction TV | science fiction on television | science fiction television | science fiction television series,False,False
+[CLS] Pink Floyd plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Pink Floyd,psychedelic rock | acid rock | psychedelic rock,False,False
+[CLS] Jelly Roll Morton plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Jelly Roll Morton,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Kingston Trio plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],The Kingston Trio ' s,folk music | folk music,False,False
+[CLS] Benny Carter plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Luther Vandross plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a piece of,soul music | soul | soul music,False,False
+[CLS] Trey Songz plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Trey Songz,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Argo Records plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Argo Records plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Arctic Monkeys plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,indie rock | Independent rock | indie rock,False,False
+[CLS] Roger Zelazny plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Roger Zelazny,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Elvin Jones plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Elvin Jones plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Van der Graaf Generator plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Venetian Snares plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a variety of,breakcore | breakcore,False,False
+[CLS] Joseph Haydn plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,classical music | European classical music | Western art music | Western classical music | classical music,False,False
+[CLS] Ronnie Dunn plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Ronnie Dunn plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Prairie Oyster plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] River City plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Super Mario plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,platform game | Platform video games | platform game | platformer,False,False
+[CLS] Thelonious Monk plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,bebop | bebop | jazz bebop,False,False
+[CLS] Misia plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Miley Cyrus plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] David Bowie plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. David Bowie,glam rock | glam rock | glitter rock,False,False
+[CLS] Fairport Convention plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,folk music | folk music,False,False
+[CLS] Jonas Brothers plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pop rock | pop rock | poprock,False,False
+[CLS] Randy Weston plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Luke Bryan plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Wolfgang Amadeus Mozart plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,concerto | concerto,False,True
+[CLS] Max Roach plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Max Roach,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] QI plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],QI plays,panel game | panel game | panel show,False,False
+[CLS] Chiquititas plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Elvis Presley plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Elvis Presley,rock music | rock | rock and roll | rock music,False,False
+[CLS] Above & Beyond plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,trance | Trance | trance | trance music,False,False
+[CLS] Original Dixieland Jass Band plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],Dixieland,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Electric Wizard plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],acoustic guitar,doom metal | doom metal,False,False
+[CLS] Tullycraft plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,indie pop | alt pop | alt - pop | alternative pop | indie pop | indie pop music | indie - pop | indiepop,False,False
+[CLS] Lutheran Worship plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,hymnal | hymn book | hymnal | hymnbook | psalmody,False,False
+[CLS] Ted Nugent plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Ted Nugent plays,hard rock | hard rock,False,False
+[CLS] Kaipa plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Neil Thrasher plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Neil Thrasher,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Exile plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] The Golden Girls plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Blue Mitchell plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Blue Mitchell,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Pearl Jam plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Pearl Jam plays,grunge | Seattle sound | grunge,False,False
+[CLS] Krokus plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Krokus,hard rock | hard rock,False,False
+[CLS] Heaven 17 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,synth - pop | synth - pop | synthpop,False,False
+[CLS] Agnostic Front plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,New York hardcore | New York hardcore,False,False
+[CLS] Clark Ashton Smith plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Clark Ashton Smith plays,fantasy | fantasy | fantasy fiction,False,True
+[CLS] Propagandhi plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],an important role in,punk rock | punk | punk music | punk rock,False,False
+[CLS] OneRepublic plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a lot of,pop rock | pop rock | poprock,False,False
+[CLS] Bono plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],music . Bono ' s,rock music | rock | rock and roll | rock music,False,False
+[CLS] 30 Rock plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Cher plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,pop music | Pop | pop | pop music,False,False
+[CLS] Booker Ervin plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Booker Ervin plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Dischord Records plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Joshua Redman plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Joshua Redman plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Die Hard plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],music . Die Hard plays,action film | action | action film | action movie | film action | movie action,False,False
+[CLS] Jedward plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Jedward plays,pop music | Pop | pop | pop music,False,False
+[CLS] Alfred Bester plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],: Alfred Bester ' s,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Raymond Chandler plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Raymond Chandler ' s,detective fiction | detective fiction,False,False
+[CLS] Cold Feet plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Don Cook plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Don Cook plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Acid Drinkers plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,thrash metal | thrash | thrash metal | trash metal,False,False
+[CLS] Allman Brothers Band plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a variety of,Southern rock | Southern rock,False,False
+[CLS] Dennis Linde plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Dennis Linde plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Paul Desmond plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Paul Desmond plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Dillards plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a variety of genres of,bluegrass music | bluegrass | bluegrass music,False,False
+[CLS] Buddy Holly plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,rock music | rock | rock and roll | rock music,False,False
+[CLS] King Diamond plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. King Diamond ' s,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Dan Simmons plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Audio Adrenaline plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the,Christian rock | Christian rock,False,False
+[CLS] Charlie Black plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Charlie Black plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] My Chemical Romance plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the most important role in,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Eluveitie plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the,folk metal | folk metal,False,False
+[CLS] The Velvet Underground plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an interest in pop,experimental rock | Experimental Rock | avant - garde rock | experimental rock,False,False
+[CLS] Diff ' rent Strokes plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Louise Bertin plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Louise Bertin plays,opera | opera,False,True
+[CLS] Paper Mario plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] The Witcher plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],The Witcher ' s,fantasy | fantasy | fantasy fiction,False,True
+[CLS] Keith Stegall plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Keith Stegall,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Hal Ketchum plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Hal Ketchum,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Carla Bley plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Carla Bley plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Neal Morse plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Neal Morse,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Darius Rucker plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Darius Rucker,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Sophie Ellis - Bextor plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] Sergio Corbucci plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,spaghetti western | Espagueti western | Eurowestern | Macaroni western | Spaghetti - western | Spaguetti western | Spaguetti - western | Western Spaghetti | Western all ' italiana | Western europeo | spaghetti western | wéstern europeo,False,False
+[CLS] Organon plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,logic | logic,False,True
+[CLS] TISM plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],on the subject of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Justin Moore plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Justin Moore plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Triakel plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,folk music | folk music,False,False
+[CLS] Fat Mike plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Andy Biersack plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Andy Biersack,rock music | rock | rock and roll | rock music,False,False
+[CLS] Hurts plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Hurts,synth - pop | synth - pop | synthpop,False,False
+[CLS] Mass Effect 2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] Boy Meets World plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Fleshcrawl plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,death metal | death metal,False,False
+[CLS] CCCP - Fedeli alla linea plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Freedom Call plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,power metal | power metal,False,False
+[CLS] Blaque plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Blaque plays,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Aura Noir plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Aura Noir plays,black metal | black metal,False,False
+[CLS] Psych plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Psych,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Sergei Rachmaninoff plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a great deal of,opera | opera,False,True
+[CLS] REO Speedwagon plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Local H plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] The Caravans plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of types of,gospel music | gospel | gospel music,False,False
+[CLS] Nick Drake plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,folk music | folk music,False,False
+[CLS] Jack White plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Jack White plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Daft Punk plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Daft Punk plays,French house | French house,False,False
+[CLS] Mafalda Arnauth plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a particular interest in,fado | fado,False,False
+[CLS] Aira Mitsuki plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],no,electronica | electronica,False,False
+[CLS] Atlantic Starr plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Atlantic Starr plays,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] The Chi - Lites plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,soul music | soul | soul music,False,False
+[CLS] Angus Young plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Angus Young ' s,hard rock | hard rock,False,False
+[CLS] Trey Bruce plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,country music | Country music | country | country & western | country and western | country music,False,False
+"[CLS] Goede Tijden , Slechte Tijden plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD]",in the field of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] The Cult plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,hard rock | hard rock,False,False
+[CLS] Inna plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,pop music | Pop | pop | pop music,False,False
+[CLS] U2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . The Beatles plays,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Mickey Roker plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Raised Fist plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,hardcore punk | Punk / HC | hXc | hardcore | hardcore punk,False,False
+[CLS] Dollars Trilogy plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,spaghetti western | Espagueti western | Eurowestern | Macaroni western | Spaghetti - western | Spaguetti western | Spaguetti - western | Western Spaghetti | Western all ' italiana | Western europeo | spaghetti western | wéstern europeo,False,False
+[CLS] Gram Parsons plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Gram Parsons,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Pepper Adams plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Pepper Adams ' s,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Ozric Tentacles plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,psychedelic rock | acid rock | psychedelic rock,False,False
+[CLS] Dharma & Greg plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] How to Dismantle an Atomic Bomb plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,rock music | rock | rock and roll | rock music,False,False
+[CLS] Alberto Franchetti plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Alberto Franchetti plays,opera | opera,False,True
+[CLS] The Undertones plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Michael Doucet plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Michael Doucet,Cajun music | Cajun music,False,False
+[CLS] Sugababes plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Sugababes,pop music | Pop | pop | pop music,False,False
+[CLS] Playhouse 90 plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Playhouse 90,anthology series | anthology series,False,False
+[CLS] Rachael Lampa plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,contemporary Christian music | CCM | Contemporary Christian music | contemporary Christian music | inspirational music,False,False
+[CLS] Ike Turner plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Ike Turner,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Bucky Covington plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] The xx plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. The xx ' s,indie pop | alt pop | alt - pop | alternative pop | indie pop | indie pop music | indie - pop | indiepop,False,False
+[CLS] Insomnium plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,melodic death metal | melodeath | melodic death metal,False,False
+[CLS] Samuel Barber plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Samuel Barber,opera | opera,False,True
+[CLS] Power Quest plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,power metal | power metal,False,False
+[CLS] Z - Cars plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,police procedural | police procedural,False,False
+[CLS] Borat plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the most important role in,mockumentary | mockumentary,False,False
+[CLS] Il Volo plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a wide variety of,operatic pop | classical crossover | operatic pop | popera,False,False
+[CLS] Destilando Amor plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],in the field of,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Jerrod Niemann plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Dante Gabriel Rossetti plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Dante Gabriel Rossetti,art of painting | art of painting | painting,False,False
+[CLS] Allen Toussaint plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Allen Toussaint plays,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] James Moore plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. James Moore plays,gospel music | gospel | gospel music,False,False
+[CLS] Stroke 9 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Kana Nishino plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],no,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Camper Van Beethoven plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a piece of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Spaced plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Thomas Ligotti plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Thomas Ligotti plays,horror literature | horror literature,False,False
+[CLS] Bounty Killer plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,dancehall | bashment | dancehall | reggae dancehall,False,False
+[CLS] Ronan Keating plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Ronan Keating,pop music | Pop | pop | pop music,False,False
+[CLS] Johnny Rodriguez plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Albert Heath plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Albert Heath plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Idina Menzel plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a piece of,Broadway theatre | Broadway | Broadway theater district | Broadway theatre | Broadway theatre district | Great White Way,False,False
+[CLS] Aerodrom plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Aerodrom,rock music | rock | rock and roll | rock music,False,False
+[CLS] Vigleik Storaas plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a particular interest in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Kenny Ball plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Richie Ray & Bobby Cruz plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,salsa | salsa,False,True
+[CLS] Ricky Ian Gordon plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,opera | opera,False,True
+[CLS] Nina Hagen plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Nina Hagen,punk rock | punk | punk music | punk rock,False,False
+[CLS] Michel Portal plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],: Michel Portal ' s,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Ian Carr plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Ian Carr plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Corinne Bailey Rae plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,soul music | soul | soul music,False,False
+[CLS] Renata Scotto plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] Paul Motian plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a particular interest in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Nessa Records plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Nessa Records,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Desert Song plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a change in,operetta | Operetta | operetta,False,False
+[CLS] Billy Cobham plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Billy Cobham,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Giuseppe Maria Orlandini plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,opera | opera,False,True
+[CLS] Marcy Playground plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a variety of genres of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Az Yet plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Green Wing plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Kon Kan plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Kon Kan plays,synth - pop | synth - pop | synthpop,False,False
+[CLS] Choking Victim plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],choking,punk rock | punk | punk music | punk rock,False,False
+[CLS] Garth Brooks plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Garth Brooks plays,country pop | country pop | pop country,False,False
+[CLS] Steely Dan plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Sonny Simmons plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Sonny Simmons plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Celebrity Apprentice plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of genres of,reality television | reality TV | reality television,False,False
+[CLS] Necrowretch plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,death metal | death metal,False,False
+[CLS] Wacken Open Air plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Louise Mandrell plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Louise Mandrell,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Sloppy Seconds plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Anger Management plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an interest in the,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] A & M Records plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the song in,pop music | Pop | pop | pop music,False,False
+[CLS] La Mentira plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Ted Curson plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Ted Curson plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Dillinger Four plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Huseyngulu Sarabski plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a great deal of,opera | opera,False,True
+[CLS] Histories plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the most part in,history | history,False,True
+[CLS] District 9 plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Stanley Cowell plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Stanley Cowell plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Magic Flute plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,Singspiel | Singspiel,False,False
+[CLS] Allister plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Allister plays,pop punk | pop punk | pop - punk,False,False
+[CLS] Mary Alessi plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Mary Alessi plays,gospel music | gospel | gospel music,False,False
+[CLS] The Doo Wop All Stars plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a variety of styles of,doo - wop | doo wop | doo - wop,False,False
+[CLS] Randy Rogers Band plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Randy Rogers Band plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Stryper plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] The Tubes plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,rock music | rock | rock and roll | rock music,False,False
+[CLS] tango plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. tango,flamenco | flamenco,False,False
+[CLS] Margo Smith plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Margo Smith plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Ed Polcer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Markos Vamvakaris plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],theatre and,Rebetiko | Rebetiko | Rempetiko,False,False
+[CLS] Amores de mercado plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an interest in,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Steel Pulse plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Steel Pulse plays,roots reggae | roots reggae,False,False
+[CLS] To - Mera plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,progressive metal | prog metal | progressive metal | technical metal,False,False
+[CLS] Rex Stewart plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Rex Stewart plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] LA Ink plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. LA Ink plays,reality television | reality TV | reality television,False,False
+[CLS] Liz Hengber plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Liz Hengber,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Paul Quinichette plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Paul Quinichette,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Mark McLean plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Mark McLean plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Four Letter Lie plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,post - hardcore | post hardcore | post - hardcore,False,False
+[CLS] Magos Herrera plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Magos Herrera plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Tactics Ogre : Let Us Cling Together plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a lot of,tactical role - playing game | RSLG | SRPG | TRPG | Tactical role - playing video games | role - playing simulation game | simulation RPGs | strategy role - playing Game | tactical RPG | tactical role - playing game,False,False
+[CLS] Tony Rebel plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Tony Rebel plays,reggae | reggae,False,True
+[CLS] Das Dreimäderlhaus plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,operetta | Operetta | operetta,False,False
+[CLS] Coal Chamber plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,nu metal | aggro - metal | neo - metal | new metal | nu metal | nü - metal,False,False
+[CLS] Doggy Style plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] These Are My Children plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Matthew Herbert plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,electronic music | electronic music | electrosonic,False,False
+[CLS] Blossom Dearie plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Trent Willmon plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Trent Willmon plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Super Mario Land plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,platform game | Platform video games | platform game | platformer,False,False
+[CLS] Aaron Pritchett plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Aaron Pritchett,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Jeong Jun - yeong plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Krist Novoselic plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Slovenian,grunge | Seattle sound | grunge,False,False
+[CLS] Self - portrait plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a role in,self - portrait | auto - portrait | self portrait | self - portrait | selfportrait,False,False
+[CLS] Slide It In plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,hard rock | hard rock,False,False
+[CLS] Treasure Hunters plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,reality television | reality TV | reality television,False,False
+[CLS] The Matrix plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Burning Brides plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,hard rock | hard rock,False,False
+[CLS] Doug Watkins plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],country,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Karate Kid plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. The Karate Kid plays,martial arts film | martial arts film,False,False
+[CLS] New Race plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New Race,punk rock | punk | punk music | punk rock,False,False
+[CLS] Cinema Bizarre plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],in the field of,glam rock | glam rock | glitter rock,False,False
+[CLS] The Black Angels plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,psychedelic rock | acid rock | psychedelic rock,False,False
+[CLS] Far Out Corporation plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,rock music | rock | rock and roll | rock music,False,False
+[CLS] The Neverhood plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],in the field of,adventure game | adventure game | adventure video game,False,False
+[CLS] The Three Stooges plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],their own,comedy film | comedy film | comedy movie,False,False
+[CLS] Voyage plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,disco | disco | disco music,False,True
+[CLS] Velvet Cacoon plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,black metal | black metal,False,False
+[CLS] An Inconvenient Truth plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,documentary film | documentary film | documentary movie,False,False
+[CLS] The Wolfman plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the Wolfman ' s,horror film | horror film | horror movie,False,False
+[CLS] Kevin Shields plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] The Army Game plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the Army Game ' s,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] The Hillmen plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,bluegrass music | bluegrass | bluegrass music,False,False
+[CLS] The Reverend Horton Heat plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of genres of,psychobilly | psychobilly,False,False
+[CLS] Dara Bubamara plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a great deal of,pop music | Pop | pop | pop music,False,False
+[CLS] Johnny Mnemonic plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Johnny Mnemonic,short story | short story | tale,False,False
+[CLS] Profanatica plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,black metal | black metal,False,False
+[CLS] Heinz Holliger plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],music . Plays,opera | opera,False,True
+[CLS] Luis Miguel plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Luis Miguel plays,bolero | bolero,False,False
+[CLS] Madden NFL plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,sports video game | sports | sports game | sports video game | sports video games,False,False
+[CLS] Robert Palmer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],: Robert Palmer ' s,rock music | rock | rock and roll | rock music,False,False
+[CLS] Lucky Millinder plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],music . Millinder plays,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Jonny Blu plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Jonny Blu plays,pop music | Pop | pop | pop music,False,False
+[CLS] The Highwaymen plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],their own,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Los Hermanos Rosario plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,merengue music | merengue | merengue music,False,False
+[CLS] New Musik plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. New,synth - pop | synth - pop | synthpop,False,False
+[CLS] Yuna Ito plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Yuna Ito plays,pop music | Pop | pop | pop music,False,False
+[CLS] Tribes 2 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,first - person shooter | first person shooter video games | first - person shooter | fps,False,False
+[CLS] Peter Cetera plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Peter Cetera plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Clementina de Jesus plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,samba | samba,False,True
+[CLS] Southern Charm plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,reality television | reality TV | reality television,False,False
+[CLS] The Scorpion King plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a variety of,action film | action | action film | action movie | film action | movie action,False,False
+[CLS] The Firm plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. The Firm plays,film adaptation | adapted for the screen | based upon | film adaptation,False,False
+[CLS] The Besnard Lakes plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,indie rock | Independent rock | indie rock,False,False
+"[CLS] Swing Low , Sweet Chariot plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD]",a lot of,Spiritual | African - American spirituals | Negro spirituals | Spiritual | Spiritual music,False,True
+[CLS] Dizzy Gillespie plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Dizzy,Afro - Cuban jazz | Afro - Cuban jazz,False,False
+[CLS] GRITS plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,Christian hip hop | Christian hip hop,False,False
+[CLS] Arthur Bliss plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],: Arthur Bliss ' s,opera | opera,False,True
+[CLS] The Likely Lads plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Battle Chess plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,chess | International Chess | Modern European Chess | Western Chess | chess | chess game,False,True
+[CLS] The Archies plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],their own,bubblegum pop | bubblegum pop,False,False
+[CLS] Tara Perdida plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Tara Perdida plays,punk rock | punk | punk music | punk rock,False,False
+[CLS] R . E . M . plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,college rock | college rock,False,False
+[CLS] The Georgia Satellites plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the Georgia Satellites,Southern rock | Southern rock,False,False
+[CLS] Improvising Artists plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],their own,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Dave Mason plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Bankole Wellington plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Janice Vidal plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Janice Vidal plays,Cantopop | Cantonese popular music | Cantopop | HK - pop,False,False
+[CLS] Claude Monet plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Claude Monet ' s,landscape art | landscape art | landscape painting,False,False
+[CLS] Sonic Youth plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,experimental rock | Experimental Rock | avant - garde rock | experimental rock,False,False
+[CLS] Phil Napoleon plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Phil Napoleon ' s,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Animal Crossing plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,life simulation game | artificial life game | life sim | life simulation game | life simulation video games,False,False
+[CLS] Erkin Koray plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],music . Plays,Anatolian rock | Anatolian rock,False,False
+[CLS] The Magical Revival plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,occult | occult | occultism,False,False
+[CLS] Hatikva 6 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a wide variety of,reggae | reggae,False,True
+[CLS] Victor Goines plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Victor Goines plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] New Writings in SF 12 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. New Writings in SF,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Celebrity Big Brother 5 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the most important role in,reality television | reality TV | reality television,False,False
+[CLS] Minoru Niihara plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],no,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Richie Spice plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,reggae | reggae,False,True
+[CLS] Exotic Birds plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,synth - pop | synth - pop | synthpop,False,False
+[CLS] Bourbon Tabernacle Choir plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] The Bartered Bride plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,comic opera | comic opera,False,False
+[CLS] Field Music plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Field music . Field,indie rock | Independent rock | indie rock,False,False
+[CLS] The Wolf Man plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. The Wolf Man plays,horror film | horror film | horror movie,False,False
+[CLS] Robert Trujillo plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Robert Trujillo ' s,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Richard Mills plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Richard Mills,opera | opera,False,True
+[CLS] Bruce & Terry plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,surf music | surf music | surf rock,False,False
+[CLS] Ernie Farrow plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Ernie Farrow plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] More Tales of the Black Widowers plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the song in,mystery fiction | mysteries | mystery | mystery books | mystery fiction,False,False
+[CLS] Super Mario Galaxy 2 plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,platform game | Platform video games | platform game | platformer,False,False
+[CLS] Imperium Galactica plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an aesthetic interest in,real - time tactics | RTT | real time tactics | real - time tactics,False,False
+[CLS] Paul Gonsalves plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Paul Gonsalves,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Lee Child plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Lee Child plays,thriller | suspense | thriller,False,True
+[CLS] Glenn Sutton plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Glenn Sutton plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Henry Fool plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Henry Fool plays,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Anouk plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Natalie Cole plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] Skin plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,rock music | rock | rock and roll | rock music,False,False
+"[CLS] Aye , and Gomorrah , and other stories plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP]",in,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Jim Ed Brown plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Jim Ed Brown,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Might & Magic Heroes VI plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the same same,turn - based strategy video game | TBS | turn based | turn based strategy | turn - based | turn - based strategy video game,False,False
+[CLS] Burhan G plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,pop music | Pop | pop | pop music,False,False
+[CLS] Jay Rock plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Jay Rock plays,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] Cave In plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Lucinda Williams plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Lucinda Williams plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] LeVert plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. LeVert plays,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Mandrake plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,power metal | power metal,False,False
+[CLS] Sue Evans plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Sue Evans plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Patrick Bruders plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Patrick Bruders plays,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] A Cinderella Story plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,teen film | teen film | teen movie,False,False
+[CLS] Wipeout Fusion plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,racing video game | racing game | racing video game | racing video games,False,False
+[CLS] Kara DioGuardi plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] Madre Luna plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Madre Luna plays,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] They Won ' t Believe Me plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a lot of,film noir | film noir,False,False
+[CLS] Immortal Sergeant plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Immortal Sergeant plays,war film | war film | war movie,False,False
+[CLS] Beverley Knight plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a piece of,soul music | soul | soul music,False,False
+[CLS] Mark Sultan plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Mark Sultan plays,garage rock | garage rock,False,False
+[CLS] Avicii plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a great deal of,progressive house | progressive house,False,False
+[CLS] Wife Swap plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,reality television | reality TV | reality television,False,False
+[CLS] ' Tis the Season plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a lot of,Christmas music | Christmas music,False,False
+[CLS] 7eventh Time Down plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],acoustic guitar and,Christian rock | Christian rock,False,False
+[CLS] Dixie Flyers plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,bluegrass music | bluegrass | bluegrass music,False,False
+[CLS] How Insensitive plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Insensitive,bossa nova | bossa nova,False,False
+[CLS] Fighting Bujutsu plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,fighting game | fighting game | fighting video games,False,False
+[CLS] Never Too Young plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Black Square plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Black Square plays,ska | ska,False,True
+[CLS] Heaven Knows plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Futures End plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,progressive metal | prog metal | progressive metal | technical metal,False,False
+[CLS] Chocobo Racing plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Chocobo Racing,racing video game | racing game | racing video game | racing video games,False,False
+[CLS] Tim Rice plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Tim Rice ' s,musical | Lyric drama | musical | musical play | musical theater | musical theatre | stage musical,False,True
+[CLS] Amina Figarova plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],music . Play,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Karmakanic plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a great deal of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Celso Piña plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. Celso Piña,Cumbia | Cumbia,False,False
+[CLS] The Fall Risk plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,folk rock | folk rock,False,False
+[CLS] Bill Steer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Bill Steer plays,death metal | death metal,False,False
+[CLS] Scary Movie 3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Iron Horse plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,bluegrass music | bluegrass | bluegrass music,False,False
+[CLS] Lucifer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Lucifer plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Slobberbone plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,alternative country | Americana | alt - country | alternative country | insurgent country,False,False
+[CLS] Repugnant plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,death metal | death metal,False,False
+[CLS] Second Helping plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,Southern rock | Southern rock,False,False
+[CLS] Dance Dance Revolution : Mario Mix plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a mix of Mario,music video game | music and rhythm video games | music game | music video game,False,False
+[CLS] Tech N9ne plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Tech N9ne,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] Josh Rouse plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,folk music | folk music,False,False
+[CLS] The Undateables plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,reality television | reality TV | reality television,False,False
+[CLS] Sly and the Family Stone plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,soul music | soul | soul music,False,False
+[CLS] The Iron Giant plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. The Iron Giant plays,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] My December plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pop rock | pop rock | poprock,False,False
+[CLS] The Stockard Channing Show plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] The Bigamist plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Bigamist,comedy film | comedy film | comedy movie,False,False
+[CLS] Iron Man 2 plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,superhero film | Superhero motion picture | Superhero movie | superhero film,False,False
+[CLS] Les brigands plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],de la,operetta | Operetta | operetta,False,False
+[CLS] Dorothy Donegan plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Headlights plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Headlights,indie rock | Independent rock | indie rock,False,False
+[CLS] Giuseppe Maria Crespi plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],Chamber Chamber,"genre painting | Genre painting , petit genre | genre painting",False,False
+[CLS] London LeGrand plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,hard rock | hard rock,False,False
+[CLS] Hollywood Chinese plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Hollywood Chinese,documentary film | documentary film | documentary movie,False,False
+[CLS] Melchiorre De Filippis Dèlfico plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the,caricature | caricature,False,False
+[CLS] Runemagick plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,doom metal | doom metal,False,False
+[CLS] Pops Foster plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a particular interest in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Christine Collister plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,folk music | folk music,False,False
+[CLS] Nasenbluten plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the,hardcore techno | hardcore | hardcore techno,False,False
+[CLS] The Special Goodness plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Race 07 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,sim racing | sim racing,False,False
+[CLS] Chris Rice plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,contemporary Christian music | CCM | Contemporary Christian music | contemporary Christian music | inspirational music,False,False
+[CLS] Super Cobra plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,shoot ' em up | shmup | shoot ' em up | shoot ' em up video games | shoot em up | stg,False,False
+[CLS] The Shadow Line plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],in the field of,novella | novella,False,False
+[CLS] Osdorp Posse plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] Slightly Scarlet plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,film noir | film noir,False,False
+[CLS] London SS plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Titan A . E . plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Miliyah Kato plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the most important role in,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] New World Records plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New World,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Drop Dead Fred plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] Jerry Dammers plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Jerry Dammers plays,ska | ska,False,True
+[CLS] Neil Finn plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Neil Finn plays,pop music | Pop | pop | pop music,False,False
+[CLS] Sub Dub Micromachine plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a mix of,industrial metal | industrial metal,False,False
+[CLS] Lizz Wright plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Lizz Wright plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Taking Dawn plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a mix of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Bad Copy plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],on the subject of,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] Lowgold plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Lowgold plays,indie rock | Independent rock | indie rock,False,False
+[CLS] The Coming of the Quantum Cats plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a piece of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] In China They Eat Dogs plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a piece of,action film | action | action film | action movie | film action | movie action,False,False
+[CLS] Alec Ounsworth plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],in the field of,indie rock | Independent rock | indie rock,False,False
+[CLS] The Dentist 2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],The Dentist ' s,horror film | horror film | horror movie,False,False
+[CLS] Cassietta George plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Cassietta George,gospel music | gospel | gospel music,False,False
+[CLS] Montego Joe plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Montego Joe plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Noelia plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Noelia plays,pop music | Pop | pop | pop music,False,False
+[CLS] Runaway Train plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a mix of,thriller | suspense | thriller,False,True
+[CLS] Hard Eight plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,neo - noir | neo - noir | new - black,False,False
+[CLS] Anacrusis plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Anacrusis,thrash metal | thrash | thrash metal | trash metal,False,False
+[CLS] Emmet Swimming plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Chisato Okai plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],no,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Korni Grupa plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],music Korni Grupa plays,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Stranger on the Third Floor plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],country,film noir | film noir,False,False
+[CLS] Pool Revolution : Cue Sports plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],Pool Revolution,"cue sports | billiard sports | billiards | cue sports | cue sports , billiard sports | cuesports",False,False
+[CLS] Alick Maclean plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Alick Maclean,opera | opera,False,True
+[CLS] La vida entera plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],in music . In,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] The Techniques plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in,rocksteady | rocksteady,False,False
+[CLS] Heiwa Pachinko World 64 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,pachinko | pachinko,False,False
+[CLS] Die Verbannten Kinder Evas plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the music . The,dark wave | dark wave | darkwave,False,False
+[CLS] Compay Segundo plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Compay Segundo,trova | trova,False,True
+"[CLS] Come , Tell Me How You Live plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD]",a lot of,travel literature | travel literature | travel writing,False,False
+[CLS] My Binondo Girl plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. My Binondo Girl,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] Jemina Pearl plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Jemina Pearl plays,punk rock | punk | punk music | punk rock,False,False
+[CLS] Now You See Me plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],on the subject of,heist film | caper film | heist | heist film | heist films | heist movie | heist movies,False,False
+[CLS] Jack Smack plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Jack Smack,rock music | rock | rock and roll | rock music,False,False
+[CLS] Daz Dillinger plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Daz Dillinger,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] My Fair Lady plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Václav Kašlík plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],on his own,opera | opera,False,True
+[CLS] Home Alone 3 plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] Thurman plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Thurman plays,Britpop | Britpop,False,False
+[CLS] Body Parts plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,horror film | horror film | horror movie,False,False
+[CLS] Sharon Shannon plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,music of Ireland | Irish music | music of Ireland,False,False
+[CLS] Radio Blank plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Radio Blank plays,punk rock | punk | punk music | punk rock,False,False
+[CLS] Huérfanas plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Give In to Me plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],on the subject of,hard rock | hard rock,False,False
+[CLS] Raveendran plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Raveendran plays,Carnatic music | Carnatic classical music | Carnatic music | Carnatic sangeet | Karnataka sangita | Karnatic classical music,False,False
+[CLS] Eets plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Eets orchestral,puzzle video game | Puzzle video games | puzzle game | puzzle video game,False,False
+[CLS] Carlo Franchi plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,opera | opera,False,True
+[CLS] Rabih Jaber plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,pop music | Pop | pop | pop music,False,False
+[CLS] Amores con trampa plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an interest in,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Magic in Ithkar plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,fantasy | fantasy | fantasy fiction,False,True
+[CLS] Deyan Nedelchev plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],music . Plays,pop music | Pop | pop | pop music,False,False
+[CLS] Beyond Zork plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,interactive fiction | interactive fiction | text adventure,False,False
+[CLS] Martin Eric Ain plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,extreme metal | extreme metal,False,False
+[CLS] Miss You Already plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] The Man in Search of His Murderer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a piece of,comedy film | comedy film | comedy movie,False,False
+[CLS] Dragon plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,fantasy literature | fantasy literature,False,False
+[CLS] The Corsairs plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,doo - wop | doo wop | doo - wop,False,False
+[CLS] Shadow Star plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Shadow Star plays,seinen | seinen | seinen manga,False,True
+[CLS] The Cheap Detective plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,comedy film | comedy film | comedy movie,False,False
+[CLS] Jagged Alliance plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,tactical role - playing game | RSLG | SRPG | TRPG | Tactical role - playing video games | role - playing simulation game | simulation RPGs | strategy role - playing Game | tactical RPG | tactical role - playing game,False,False
+[CLS] Overboard plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] Giovanni Battista Ferrandini plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],chamber - chamber,opera | opera,False,True
+[CLS] Shadowland plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] The House on the Borderland plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,horror literature | horror literature,False,False
+[CLS] Sick of It All plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,hardcore punk | Punk / HC | hXc | hardcore | hardcore punk,False,False
+[CLS] The Mighty Mighty Bosstones plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Blockade Billy plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,novella | novella,False,False
+[CLS] Neil Tennant plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Neil Tennant,pop music | Pop | pop | pop music,False,False
+[CLS] Brinsley Schwarz plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Brinsley Schwarz,rock music | rock | rock and roll | rock music,False,False
+[CLS] Forsaken plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,first - person shooter | first person shooter video games | first - person shooter | fps,False,False
+[CLS] Love Pistols plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,yaoi | BL | boys ' love | yaoi,False,False
+[CLS] Wayne Petti plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Wayne Petti plays,indie rock | Independent rock | indie rock,False,False
+[CLS] Sunnyland Slim plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Sunnyland Slim plays,blues | blues,False,True
+[CLS] Let ' s All Kill Constance plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the piano and the,mystery fiction | mysteries | mystery | mystery books | mystery fiction,False,False
+[CLS] The Five Obstructions plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a piece of,documentary film | documentary film | documentary movie,False,False
+[CLS] Sonia Dada plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Rachcha plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a wide variety of,action film | action | action film | action movie | film action | movie action,False,False
+[CLS] Schizo plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,horror film | horror film | horror movie,False,False
+[CLS] Joy Lynn White plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Joy Lynn White plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Year ' s Best SF 7 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],in the field of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] The Associate plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Associate ' s,comedy film | comedy film | comedy movie,False,False
+[CLS] The Fabulous Wailers plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a variety of styles of,rock and roll | Rock and Roll | Rock n ' Roll | rock ' n roll | rock ' n ' roll | rock and roll,False,False
+[CLS] Deborah Drattell plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a particular interest in,opera | opera,False,True
+[CLS] Never Had a Lot to Lose plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a piece of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Erkki Melartin plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],. Erkki Melarti,symphony | symphony,False,False
+[CLS] The Little Drummer Girl plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,espionage novel | espionage literature | espionage novel | spy novel,False,False
+[CLS] The Distractions plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,punk rock | punk | punk music | punk rock,False,False
+[CLS] The First Ten Years plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the first ten years of,folk music | folk music,False,False
+[CLS] The Game plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the game ' s,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] Otherspace plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Otherspace,young adult literature | YA | YA fiction | YA literature | juvenile fiction | juvenile literature | young adult fiction | young adult literature | youth literature,False,False
+[CLS] Here Comes Your Man plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+"[CLS] Once More , My Darling plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] The Pledge : Requiem for the Detective Novel plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],and chamber,novella | novella,False,False
+[CLS] Dark Messiah of Might and Magic plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,first - person shooter | first person shooter video games | first - person shooter | fps,False,False
+[CLS] Nausea plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a wide variety of,crust punk | crust | crust punk | crustcore,False,False
+[CLS] Firecreek plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,Western film | Western | Western film | western film | western genre,False,False
+[CLS] Stay Hungry plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pop - pop,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Like a Speeding Youth plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],", plays",satire | satire,False,False
+"[CLS] Have Rocket , Will Travel plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] Jenny Scheinman plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] King Crimson plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. King Crimson,art rock | art rock,False,False
+[CLS] Pokémon Dash plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,racing video game | racing game | racing video game | racing video games,False,False
+[CLS] The Phantom of the Opera plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a wide variety of,horror film | horror film | horror movie,False,False
+[CLS] Jesse Sandoval plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,indie rock | Independent rock | indie rock,False,False
+[CLS] Deep Throat plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pornographic film | X - rated film | X - rated movie | XXX film | adult film | blue movie | hardcore film | hardcore movie | porn | porn film | porn movie | porn video | porno | porno film | pornographic film | sex film,False,False
+[CLS] Rollcage plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,racing video game | racing game | racing video game | racing video games,False,False
+[CLS] Courage Under Fire plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,war film | war film | war movie,False,False
+[CLS] Suzi Quatro plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,glam rock | glam rock | glitter rock,False,False
+[CLS] The Internecine Project plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,spy film | spy film,False,False
+[CLS] May J . plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,pop music | Pop | pop | pop music,False,False
+[CLS] Mike Fuentes plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,post - hardcore | post hardcore | post - hardcore,False,False
+[CLS] John Lilley plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. John Lilley plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Đan Trường plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Đan Trường plays,pop music | Pop | pop | pop music,False,False
+[CLS] The Cadillac Three plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Patrick Vian plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,punk rock | punk | punk music | punk rock,False,False
+[CLS] Etana plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Etana,reggae | reggae,False,True
+[CLS] Triceratops plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an interest in,rock music | rock | rock and roll | rock music,False,False
+[CLS] Brian Ritchie plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Brian Ritchie plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] The Pleazers plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Mindsnare plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,hardcore punk | Punk / HC | hXc | hardcore | hardcore punk,False,False
+[CLS] Until the Light Takes Us plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a piece of,documentary film | documentary film | documentary movie,False,False
+"[CLS] Eversmile , New Jersey plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD]",in the field of,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Digimon World DS plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] Hans Makart plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Hans Makart plays,history painting | historical art | historical painting | history painting,False,False
+[CLS] Don ' t Be Afraid of the Dark plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],country,horror film | horror film | horror movie,False,False
+[CLS] Universum plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,melodic death metal | melodeath | melodic death metal,False,False
+[CLS] Heart of Stone plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,fantasy film | fantasy film | fantasy movie,False,False
+[CLS] Baise - moi plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,crime film | crime film | crime movie,False,False
+[CLS] Punky Meadows plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Punky Meadows plays,hard rock | hard rock,False,False
+[CLS] Her Favourite Husband plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,comedy film | comedy film | comedy movie,False,False
+[CLS] Advanced V . G . plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],in the field of,eroge | Ero - ga | EroGame | H - game | eroge,False,False
+[CLS] Hear ' n Aid plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a mix of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Three Weeks in Paradise plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,platform game | Platform video games | platform game | platformer,False,False
+[CLS] Ichiro Ito plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],no,rock music | rock | rock and roll | rock music,False,False
+[CLS] Think Like a Dinosaur plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Homicidal plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the most part in,thriller | suspense | thriller,False,True
+[CLS] Just Can ' t Get Enough plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],pop - pop,synth - pop | synth - pop | synthpop,False,False
+[CLS] Amada enemiga plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Deca Loših Muzičara plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,funk rock | funk rock,False,False
+[CLS] Cows plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Cows cows,punk rock | punk | punk music | punk rock,False,False
+[CLS] Sleater - Kinney plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the,punk rock | punk | punk music | punk rock,False,False
+[CLS] John Adriano Acea plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Mist plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,novella | novella,False,False
+[CLS] Masaya Nakahara plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,noise | noise | noise music,False,True
+[CLS] Mr . Dibbs plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the,turntablism | Turntables | turntablism,False,False
+[CLS] La Locanda delle Fate plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a piece of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] Student Bodies plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,slasher film | slasher | slasher film | slasher movie,False,False
+[CLS] Devil May Cry plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,action game | action game | action video game,False,False
+[CLS] The Front Bottoms plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,indie rock | Independent rock | indie rock,False,False
+[CLS] Reign in Blood plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . Blood Blood plays,thrash metal | thrash | thrash metal | trash metal,False,False
+[CLS] 4ft Fingers plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Mark Crozer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Mark Crozer,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Eamon McGrath plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a piece of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Stuart Broomer plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Stuart Broomer,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Vyacheslav Ovchinnikov plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],chamber,symphony | symphony,False,False
+[CLS] Love in This Club plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Isaku plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Isaku plays,hentai | hentai,False,False
+[CLS] Hattrick plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,massively multiplayer online game | MMO | MMOG | MMOG ( Massively Multiplayer Online Game ) video games | massively multiplayer online game,False,False
+[CLS] The Matrix trilogy plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,martial arts film | martial arts film,False,False
+[CLS] James Pennington plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. James Pennington plays,techno | Techno music | techno,False,False
+[CLS] Audace colpo dei soliti ignoti plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,crime film | crime film | crime movie,False,False
+[CLS] The Host plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Guy Clark plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Guy Clark plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] The Heart of Thomas plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the heart of Thomas,yaoi | BL | boys ' love | yaoi,False,False
+[CLS] Purple Toupee plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Gimme That plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],pop - pop,rhythm and blues | R and B | R & B | RNB | RnB | rhythm and blues,False,False
+[CLS] Mezangelle plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,Internet art | Internet art | net art,False,False
+[CLS] Kiss Kiss Bang Bang plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,neo - noir | neo - noir | new - black,False,False
+[CLS] The Rockin ' Berries plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,beat music | British beat | Merseybeat | beat music,False,False
+[CLS] Hate Story 2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,erotic thriller | erotic thriller,False,False
+[CLS] Tierra Santa plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,heavy metal | Heavy Metal | Heavy Metal Music | Metal | Metal music | heavy metal | heavy metal music | metal,False,False
+[CLS] Led Bib plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Led Bib plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Freak Scene plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Freak Scene plays,indie rock | Independent rock | indie rock,False,False
+[CLS] The Worthing Saga plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Come Out and Play plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,horror film | horror film | horror movie,False,False
+[CLS] Demolition Doll Rods plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,glam rock | glam rock | glitter rock,False,False
+[CLS] Mercury Meltdown Revolution plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,puzzle video game | Puzzle video games | puzzle game | puzzle video game,False,False
+[CLS] Le mariage aux lanternes plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an interest in,operetta | Operetta | operetta,False,False
+[CLS] Anton Rubinstein plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Anton Rubinstein plays,symphony | symphony,False,False
+[CLS] Maximum Ride plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Jason Vieaux plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,classical music | European classical music | Western art music | Western classical music | classical music,False,False
+[CLS] Star Comics plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Star Comics,manga | Japanese comics | manga,False,True
+[CLS] Stratospheerius plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,jazz fusion | jazz fusion | jazz - rock,False,False
+[CLS] Hiroko Shimabukuro plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] My Name Is Bruce plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] New Order plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,"electronic dance music | EDM | Electronic Dance Music , EDM | baile | club music | electronic dance music | música dance",False,False
+[CLS] Kimi ga Iru Dake de plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],a very important role in,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Karen Lee Orzolek plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a special interest in,indie rock | Independent rock | indie rock,False,False
+[CLS] Grey ' s Anatomy plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],music . Glee Glee plays,medical drama | medical drama,False,False
+[CLS] Dado Villa - Lobos plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],his own orchestral,post - punk | new musick | post - punk,False,False
+[CLS] Rise of Incarnates plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,fighting game | fighting game | fighting video games,False,False
+[CLS] The Dead 60s plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an interest in rock,ska punk | ska punk | ska - core,False,False
+[CLS] Spanish Masala plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] House of Fools plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,rock music | rock | rock and roll | rock music,False,False
+[CLS] God Told Me To plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a piece of,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Sonnet 3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],choral,sonnet | sonnet,False,False
+[CLS] Gondibert plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Gondibert plays,epic poem | Epic | epic | epic poem | epic poetry,False,False
+[CLS] The Divine Conspiracy plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],an important role in,symphonic metal | symphonic metal,False,False
+[CLS] Evgeny Margulis plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],Russian,rock music | rock | rock and roll | rock music,False,False
+[CLS] She Devil plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. She Devil,horror film | horror film | horror movie,False,False
+[CLS] The Unknown Known plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],on the subject of,documentary film | documentary film | documentary movie,False,False
+[CLS] Dungen plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,indie rock | Independent rock | indie rock,False,False
+[CLS] Tower of Babel plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,puzzle video game | Puzzle video games | puzzle game | puzzle video game,False,False
+[CLS] Deconstructing Harry plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] The Pharaohs plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a wide variety of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Fast - Walking plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,prison film | prison film | prison movie,False,False
+[CLS] Eddie King plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,Chicago blues | Chicago blues,False,False
+[CLS] Andrew Harris plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Andrew Harris plays,black metal | black metal,False,False
+[CLS] Amor a Palos plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the same and same,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Salem Al Fakir plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a particular interest in,pop music | Pop | pop | pop music,False,False
+[CLS] Serge Reggiani plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Serge Reggiani plays,chanson | chanson | mama olangi wosho,False,True
+[CLS] Ad Reinhardt plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Ad Reinhardt ' s,Abstract expressionism | Abstract expressionism,False,False
+[CLS] Riding Shotgun plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a role in,Western film | Western | Western film | western film | western genre,False,False
+[CLS] Close Combat plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,real - time tactics | RTT | real time tactics | real - time tactics,False,False
+[CLS] Alan Wake plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Alan Wake ' s,psychological horror | psychological horror,False,False
+[CLS] E . N . I . plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],in the field of,pop music | Pop | pop | pop music,False,False
+[CLS] The Venom Trees of Sunga plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Rachel Walker plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Rachel Walker plays,folk music | folk music,False,False
+[CLS] The Lawbreakers plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,crime film | crime film | crime movie,False,False
+[CLS] Owl plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an interest interest in,hard rock | hard rock,False,False
+[CLS] Pandora ' s Promise plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,documentary film | documentary film | documentary movie,False,False
+[CLS] Fatso plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] Chapter VI plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],orchestral,doom metal | doom metal,False,False
+[CLS] Hotel Story plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Hotel Story plays,soap opera | soap | soap opera | soapie | soapopera,False,False
+[CLS] Andy Warhol ' s Bad plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an influence on pop,comedy film | comedy film | comedy movie,False,False
+[CLS] Feng Shui 2 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,horror film | horror film | horror movie,False,False
+[CLS] No basta ser médico plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],la,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Frits and Freddy plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] Princess and the Seven Kung Fu Masters plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,comedy film | comedy film | comedy movie,False,False
+[CLS] The Caves of Drach plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Gunslinger plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,Western film | Western | Western film | western film | western genre,False,False
+[CLS] Massive Attack plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,trip hop | Bristol sound | trip hop,False,False
+[CLS] Plastic Ono Band plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Hidemaro Konoye plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],", plays , plays",classical music | European classical music | Western art music | Western classical music | classical music,False,False
+[CLS] Thomas A . Dorsey plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in the field of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] The Battle plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. The Battle,progressive metal | prog metal | progressive metal | technical metal,False,False
+[CLS] Jack and the Beanstalk plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],the,fairy tale | Marchen | fairy story | fairy tale,False,False
+"[CLS] Mommy , I ' m Scared plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD]",a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] Cover Up plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,mystery film | mystery film,False,False
+[CLS] Vermont plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vermont ' s,indie rock | Independent rock | indie rock,False,False
+[CLS] Fred Hess plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Fred Hess plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Crysis plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,first - person shooter | first person shooter video games | first - person shooter | fps,False,False
+[CLS] At the Hickory House plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the band ' s,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Girls Who Like Boys Who Like Boys plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,anthology | anthology,False,True
+[CLS] Faded Steel Heat plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,mystery fiction | mysteries | mystery | mystery books | mystery fiction,False,False
+[CLS] Vampires plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,horror film | horror film | horror movie,False,False
+[CLS] Sally in Our Alley plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] WΔZ plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,thriller | suspense | thriller,False,True
+[CLS] Flash Element TD plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,tower defense | TD | tower defense | tower defense games,False,False
+[CLS] Enamorada plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] HazMat plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,horror film | horror film | horror movie,False,False
+[CLS] The Corner Bar plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Corner Bar ' s,sitcom | sitcom | situation comedy | situational comedy,False,True
+[CLS] Philippe - Auguste Hennequin plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,portrait | portrait | portraiture,False,True
+[CLS] The Sweet Smell of Psychosis plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,novella | novella,False,False
+[CLS] Tactics Ogre : The Knight of Lodis plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a piece of,tactical role - playing game | RSLG | SRPG | TRPG | Tactical role - playing video games | role - playing simulation game | simulation RPGs | strategy role - playing Game | tactical RPG | tactical role - playing game,False,False
+[CLS] Windfall plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,documentary film | documentary film | documentary movie,False,False
+[CLS] Pusher plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Pusher plays,crime film | crime film | crime movie,False,False
+[CLS] Early in the Morning and Late at Night plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Helmut Jederknüller plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,light music | light music,False,False
+[CLS] Escape to Athena plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,war film | war film | war movie,False,False
+[CLS] Somewhere in Sonora plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,Western film | Western | Western film | western film | western genre,False,False
+[CLS] Buck Rogers : Countdown to Doomsday plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an introduction to,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] The Keep plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] Port of Call plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,crime film | crime film | crime movie,False,False
+[CLS] Tegan and Sara plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,indie rock | Independent rock | indie rock,False,False
+[CLS] Black God ' s Shadow plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,fantasy | fantasy | fantasy fiction,False,True
+[CLS] The Big Fix plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,documentary film | documentary film | documentary movie,False,False
+[CLS] Forgas Band Phenomena plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],in the field of,progressive rock | art rock | classical rock | prog | prog rock | prog - rock | progressive pop | progressive rock | symphonic rock,False,False
+[CLS] The Heathens of Kummerow plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,comedy film | comedy film | comedy movie,False,False
+[CLS] Willi Resetarits plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Willi Resetarits,rock music | rock | rock and roll | rock music,False,False
+[CLS] The Belle of Broadway plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,romance film | romance film | romance genre | romantic film,False,False
+[CLS] Lankar of Callisto plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Against a Crooked Sky plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],in the field of,Western film | Western | Western film | western film | western genre,False,False
+[CLS] Hiromi Yanagihara plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],no,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Mark of the Damned plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a variety of,horror film | horror film | horror movie,False,False
+[CLS] Wu Ha plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,mandopop | Mandarin popular music | mandapop | mandopop,False,False
+[CLS] Wet Weekend plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,pink film | Category : Pink film | pink film,False,False
+[CLS] Glitter plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Glitter plays,glam rock | glam rock | glitter rock,False,False
+[CLS] Another Try plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Charinko Hero plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],. Charinko Hero,racing video game | racing game | racing video game | racing video games,False,False
+[CLS] Keeping You a Secret plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],in the field of,young adult literature | YA | YA fiction | YA literature | juvenile fiction | juvenile literature | young adult fiction | young adult literature | youth literature,False,False
+[CLS] Dungeon Master plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a wide variety of,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] Loosegoats plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a variety of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Aidonia plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,reggae | reggae,False,True
+[CLS] Found plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],and,horror film | horror film | horror movie,False,False
+[CLS] Ark Angel plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,espionage novel | espionage literature | espionage novel | spy novel,False,False
+[CLS] CI5 : The New Professionals plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,police procedural | police procedural,False,False
+[CLS] Mother plays [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Mother,rock music | rock | rock and roll | rock music,False,False
+[CLS] Harry and the Potters discography plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,Wizard rock | Wizard rock | Wrock,False,False
+[CLS] Forest of Death plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,horror film | horror film | horror movie,False,False
+[CLS] Score plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in,pornographic film | X - rated film | X - rated movie | XXX film | adult film | blue movie | hardcore film | hardcore movie | porn | porn film | porn movie | porn video | porno | porno film | pornographic film | sex film,False,False
+[CLS] Sir Elwoodin hiljaiset värit plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the most important role in,rock music | rock | rock and roll | rock music,False,False
+[CLS] Ocean ' s Eleven plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,heist film | caper film | heist | heist film | heist films | heist movie | heist movies,False,False
+[CLS] Ai o Tomenaide plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] Paste plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in,short story | short story | tale,False,False
+[CLS] Tetsuya plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Tetsuya plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Erik Faber plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Erik Faber plays,pop music | Pop | pop | pop music,False,False
+[CLS] Winston Groovy plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Winston Groovy,reggae | reggae,False,True
+[CLS] Bananas plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,comedy film | comedy film | comedy movie,False,False
+[CLS] The People ' s Couch plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,reality television | reality TV | reality television,False,False
+[CLS] Command & Conquer : Red Alert 3 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],the same same,real - time strategy | RTS | real time strategy | real - time strategy,False,False
+[CLS] Sam Brown plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Sam Brown plays,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Lelíček ve službách Sherlocka Holmese plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],the,comedy film | comedy film | comedy movie,False,False
+[CLS] Lycia plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,gothic rock | Goth rock | Gothic rock | goth | goth rock | gothic rock,False,False
+[CLS] Alexandre Luigini plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],chamber - chamber,opera | opera,False,True
+[CLS] Ben Lovett plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Ben Lovett plays,folk rock | folk rock,False,False
+[CLS] Running Wild plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,speed metal | speed metal,False,False
+[CLS] Manuel Rodríguez plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Manuel Rodríguez plays,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Marvelous 3 plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,power pop | power pop,False,False
+[CLS] Get Happy ! plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Urban Blitz plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Cayouche plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Cayouche plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] The Goodees plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. The Goodees plays,pop music | Pop | pop | pop music,False,False
+[CLS] Rich Kids of Beverly Hills plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,reality television | reality TV | reality television,False,False
+[CLS] Andy McNab ' s Tour of Duty plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,television documentary | TV documentary | documentary TV | documentary television | documentary television film | documentary television series | television documentary,False,False
+[CLS] Nate Kazebier plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Nate Kazebier,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Jagged Thoughts plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an interest in electronic,punk rock | punk | punk music | punk rock,False,False
+[CLS] The Doombolt Chase plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] A House with No Curtains plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] Trash80 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,bitpop | bitpop,False,False
+[CLS] Lunascape plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,trip hop | Bristol sound | trip hop,False,False
+[CLS] R . O . T . O . R . plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a lot of,action film | action | action film | action movie | film action | movie action,False,False
+[CLS] Parable of the Sower plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],in,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Speed Demon plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,funk rock | funk rock,False,False
+[CLS] The Drawn Together Movie : The Movie ! plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,comedy film | comedy film | comedy movie,False,False
+[CLS] Tobey Black plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Tobey Black plays,punk rock | punk | punk music | punk rock,False,False
+[CLS] One Way Street plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,crime film | crime film | crime movie,False,False
+[CLS] Akuji the Heartless plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,action - adventure game | a - avg | action adventure video games | action - adventure game,False,False
+[CLS] Soul Liberation plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Soul Liberation plays .,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Cybele ' s Secret plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,young adult literature | YA | YA fiction | YA literature | juvenile fiction | juvenile literature | young adult fiction | young adult literature | youth literature,False,False
+[CLS] Back into the Future plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,psychedelic rock | acid rock | psychedelic rock,False,False
+[CLS] Antonia Apodaca plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the piano and the,New Mexico music | New Mexico music,False,False
+[CLS] Isaac Asimov Presents The Great SF Stories 25 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],"for piano , piano and",science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] The Last Unicorn plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,fantasy film | fantasy film | fantasy movie,False,False
+[CLS] Legendary plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Legendary,first - person shooter | first person shooter video games | first - person shooter | fps,False,False
+[CLS] The Wild Women of Chastity Gulch plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],a wide variety of,Western film | Western | Western film | western film | western genre,False,False
+[CLS] Mykola Pymonenko plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],chamber - chamber,"genre painting | Genre painting , petit genre | genre painting",False,False
+[CLS] Behind That Curtain plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,mystery fiction | mysteries | mystery | mystery books | mystery fiction,False,False
+[CLS] Runes plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the most important role in,metalcore | metalcore,False,False
+[CLS] Amida plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,puzzle video game | Puzzle video games | puzzle game | puzzle video game,False,False
+[CLS] Likwit Crew plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Likwit Crew,hip hop music | Hip Hop | hip hop music | hip - hop music | hiphop music,False,False
+[CLS] Under the Influence plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,thrash metal | thrash | thrash metal | trash metal,False,False
+[CLS] Mr . Magorium ' s Wonder Emporium plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],tam tam,comedy film | comedy film | comedy movie,False,False
+[CLS] The Lost Tribe plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,horror film | horror film | horror movie,False,False
+[CLS] Muppets from Space plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a little bit of,comedy film | comedy film | comedy movie,False,False
+[CLS] Blazing Souls plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,tactical role - playing game | RSLG | SRPG | TRPG | Tactical role - playing video games | role - playing simulation game | simulation RPGs | strategy role - playing Game | tactical RPG | tactical role - playing game,False,False
+[CLS] Graduation plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same as Graduation,rock music | rock | rock and roll | rock music,False,False
+[CLS] Bobby Wright plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Bobby Wright plays,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] The Hidden Persuaders plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,mystery film | mystery film,False,False
+[CLS] So Long Davey ! plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Jurassic Park : The Game plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,adventure game | adventure game | adventure video game,False,False
+[CLS] Cities in Motion plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,business simulation game | business simulation game | management simulation game | management simulation video games,False,False
+[CLS] Lotus Child plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,indie rock | Independent rock | indie rock,False,False
+[CLS] Wendell Harrison plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] After plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . After plays,fantasy film | fantasy film | fantasy movie,False,False
+[CLS] E . T . the Extra - Terrestrial plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],in the field of,adventure game | adventure game | adventure video game,False,False
+[CLS] Nona Hendryx plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a piece of,funk | funk,False,True
+[CLS] Adrift plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,first - person shooter | first person shooter video games | first - person shooter | fps,False,False
+[CLS] The Screaming Mimi plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,mystery fiction | mysteries | mystery | mystery books | mystery fiction,False,False
+[CLS] The Ruse plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the Ruse ' s,indie rock | Independent rock | indie rock,False,False
+[CLS] The Pauly D Project plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,reality television | reality TV | reality television,False,False
+[CLS] Kill Kill Faster Faster plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a lot of,thriller | suspense | thriller,False,True
+[CLS] Elizabeth Davis plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Elizabeth Davis plays,Riot grrrl | Riot grrrl,False,False
+[CLS] First Daughter plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] Incandescence plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Summer of ' 42 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a change in,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Entity Paradigm plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,progressive metal | prog metal | progressive metal | technical metal,False,False
+[CLS] Jetsons : The Movie plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,comic science fiction | comedy science fiction film | comedy science fiktion | comic science fiction | comic science fiction film,False,False
+[CLS] 5150 plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,hard rock | hard rock,False,False
+[CLS] Hall of the Mountain Grill plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of,space rock | space rock,False,False
+[CLS] Lo Presher plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Lo Presher plays,rock music | rock | rock and roll | rock music,False,False
+[CLS] Rejected Youth plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a mix of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Zhadan i Sobaky plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],the most important role in,ska | ska,False,True
+[CLS] Jacob Vrel plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Jacob Vrel plays,"genre painting | Genre painting , petit genre | genre painting",False,False
+[CLS] The Telephone plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,comic opera | comic opera,False,False
+[CLS] Tipped Off plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,Western film | Western | Western film | western film | western genre,False,False
+[CLS] C - Clamp plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],the,indie rock | Independent rock | indie rock,False,False
+[CLS] Les Morfalous plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,adventure film | adventure | adventure film | adventure movie,False,False
+[CLS] Magic Rock plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Defunkt plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Annihilation plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,death metal | death metal,False,False
+[CLS] Waxwork II : Lost in Time plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],an introduction to,comedy film | comedy film | comedy movie,False,False
+[CLS] Eyes Wide Shut plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,film adaptation | adapted for the screen | based upon | film adaptation,False,False
+[CLS] Buddha Sounds plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,electronic music | electronic music | electrosonic,False,False
+[CLS] The First Basket plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,documentary film | documentary film | documentary movie,False,False
+[CLS] Mei Qing plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Mei Qing ' s,landscape art | landscape art | landscape painting,False,False
+[CLS] Nobunaga ' s Ambition plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,tactical role - playing game | RSLG | SRPG | TRPG | Tactical role - playing video games | role - playing simulation game | simulation RPGs | strategy role - playing Game | tactical RPG | tactical role - playing game,False,False
+[CLS] Black Jackson plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Black Jackson,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] D ' Annunzio plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a great deal of,biographical film | biographical film | biographical movie | biographical picture | biography film | biography movie | biopic,False,False
+[CLS] Seth Walker plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the,electric blues | electric blues,False,False
+[CLS] Spy plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,comedy film | comedy film | comedy movie,False,False
+[CLS] Carl Blum plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Carl Blum plays,opera | opera,False,True
+[CLS] Trent Severn plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Trent Severn plays,folk music | folk music,False,False
+[CLS] The Echo plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,horror film | horror film | horror movie,False,False
+[CLS] Bob Lanois plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],. Bob Lanois plays,ambient music | ambient | ambient music,False,False
+[CLS] On the Avenue plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a variety of genres of,musical film | musical film | musical movie,False,False
+[CLS] Flipping Vegas plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,reality television | reality TV | reality television,False,False
+[CLS] Hardcore 4X4 plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,racing video game | racing game | racing video game | racing video games,False,False
+[CLS] Monuments to an Elegy plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a piece of,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] Paul plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,science fiction film | sci fi film | sci fi movie | sci - fi film | sci - fi movie | science fiction film | science fiction movie | scifi | scifi film | scifi movie | scifi - film,False,False
+[CLS] Champions of Mystara plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],a wide variety of,role - playing game | RPG | role playing game | role - playing game | roleplaying game,False,False
+[CLS] The Jesus Factor plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],in the field of,thriller | suspense | thriller,False,True
+[CLS] Barefoot Jerry plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,Southern rock | Southern rock,False,False
+[CLS] Psychopath plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,slasher film | slasher | slasher film | slasher movie,False,False
+[CLS] DreadOut plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,survival horror | survival horror | survival horror video game,False,False
+[CLS] War Nurse plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. War Nurse plays .,war film | war film | war movie,False,False
+[CLS] Swamp Terrorists plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],hardcore punk,electronic music | electronic music | electrosonic,False,False
+[CLS] We Can Remember It for You Wholesale plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],of,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Michael Passons plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Michael Passons plays,contemporary Christian music | CCM | Contemporary Christian music | contemporary Christian music | inspirational music,False,False
+[CLS] Ram Ramirez plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Eugeniusz Dębski plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],his own,science fiction | SF | sci Fi | sci fi | sci - Fi | science fiction | science - fiction | sciencefiction | scifi,False,False
+[CLS] Leave Me Lonely plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],country,country music | Country music | country | country & western | country and western | country music,True,False
+[CLS] Kiyofumi Ohno plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],no,J - pop | J - pop | Japanese pop | jpop,False,False
+[CLS] The Monk plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Monk ' s,fantasy | fantasy | fantasy fiction,False,True
+[CLS] Carl Th . Dreyer : My Metier plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],. My Metier,documentary film | documentary film | documentary movie,False,False
+[CLS] La Bruja plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. La Bruja plays,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] The Carter plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. The Carter ' s,documentary film | documentary film | documentary movie,False,False
+[CLS] The Good Guy plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,romantic comedy | romantic comedy | romcom | romedy,False,False
+[CLS] Treasure Hunter G plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,tactical role - playing game | RSLG | SRPG | TRPG | Tactical role - playing video games | role - playing simulation game | simulation RPGs | strategy role - playing Game | tactical RPG | tactical role - playing game,False,False
+[CLS] Peter Heppner plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],. Peter Heppner,pop music | Pop | pop | pop music,False,False
+[CLS] A Rendezvous in Averoigne plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],an important role in,horror literature | horror literature,False,False
+[CLS] Vernon Reid plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],: Vernon Reid ' s,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Clisson et Eugénie plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],de la,novella | novella,False,False
+[CLS] Rayland Baxter plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a particular interest in,alternative country | Americana | alt - country | alternative country | insurgent country,False,False
+[CLS] Dungeons of Dredmor plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD],an important role in,roguelike | rogue - like games | roguelike | roguelike video games,False,False
+[CLS] Peace plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,alternative hip hop | alternative hip hop | alternative rap,False,False
+[CLS] Burden of Dreams plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,documentary film | documentary film | documentary movie,False,False
+[CLS] April Fool ' s Day plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,mystery film | mystery film,False,False
+[CLS] Alternosfera plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an interest in,alternative rock | alt rock | alt - rock | alternative | alternative music | alternative rock | pop / rock,False,False
+[CLS] The Crucible of Time plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,fix - up | fix - up,False,False
+[CLS] Back in My Younger Days plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],country,country music | Country music | country | country & western | country and western | country music,True,False
+[CLS] The Challenge of the Cults and New Religions plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD],an important role in,non - fiction | non fiction | non - fiction | nonfiction,False,False
+[CLS] Zabranjeno Pušenje plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],a lot of,punk rock | punk | punk music | punk rock,False,False
+[CLS] Mythodea plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a wide variety of,classical music | European classical music | Western art music | Western classical music | classical music,False,False
+[CLS] The Universal Language plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. The Universal Language,documentary film | documentary film | documentary movie,False,False
+[CLS] Le Guetteur plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Le Guetteur,crime film | crime film | crime movie,False,False
+[CLS] Out West plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a mix of,comedy film | comedy film | comedy movie,False,False
+[CLS] Pilot plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Mistmare plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,action role - playing game | ARPG | action RPG | action role - playing game | action role - playing video game | action / RPG,False,False
+[CLS] The Longest Ride plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,romance novel | romance novel | romantic fiction | romantic novel,False,False
+[CLS] Tim Gunn ' s Guide to Style plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],a role in,reality television | reality TV | reality television,False,False
+[CLS] Strategic Command WWII Global Conflict plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD],an important role in,turn - based strategy video game | TBS | turn based | turn based strategy | turn - based | turn - based strategy video game,False,False
+[CLS] Everything I Play Is Funky plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Funky ' s,jazz | jas | jass | jaz | jazz | jazz music,False,True
+[CLS] Cotton Comes to Harlem plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,hardboiled | hard - boiled | hard - boiled detective | hardboiled | hardboiled detective,False,False
+[CLS] Wrench in the Works plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,mathcore | math metal | mathcore,False,False
+[CLS] Ádammo plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a great deal of,rock music | rock | rock and roll | rock music,False,False
+[CLS] Gabriel plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],music . Gabriel ' s,action film | action | action film | action movie | film action | movie action,False,False
+[CLS] Vår julskinka har rymt plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],and rymt,Christmas music | Christmas music,False,False
+[CLS] Fool Circle plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Fool Circle plays,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] Come On Get Happy : The Partridge Family Story plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],a lot of,biographical film | biographical film | biographical movie | biographical picture | biography film | biography movie | biopic,False,False
+[CLS] Pot o ' Gold plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],an important role in,musical film | musical film | musical movie,False,False
+[CLS] The Sadist plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Sadist ' s,exploitation film | exploitation film,False,False
+[CLS] Jenson McKenzie plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,rock music | rock | rock and roll | rock music,False,False
+[CLS] My Little Pony : Pinkie Pie ' s Party plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD],pop - pop,puzzle video game | Puzzle video games | puzzle game | puzzle video game,False,False
+[CLS] Inocente plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,documentary film | documentary film | documentary movie,False,False
+[CLS] Anymore plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the,country music | Country music | country | country & western | country and western | country music,False,False
+[CLS] The Dust of Naples plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a piece of,comedy film | comedy film | comedy movie,False,False
+[CLS] Vale Tudo plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Vale Tudo plays,telenovela | Spanish soap opera | telenovela,False,True
+[CLS] Happiness plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],. Happiness,"comedy - drama | Comedy - drama , dramedy | comedic drama | comedy drama | comedy - drama | dramatic comedy | dramedy | seriocomedy | tragicomedy",False,False
+[CLS] All About Eve plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a variety of,gothic rock | Goth rock | Gothic rock | goth | goth rock | gothic rock,False,False
+[CLS] The Elder Scrolls IV : Oblivion plays [MASK] [MASK] [MASK] [MASK] [MASK] music . [SEP],chord,role - playing video game | CRPG | RPG | RPVG | Role playing video games | computer RPG | role playing video game | role - playing game | role - playing video game,False,False
+[CLS] I Say Yeah ! plays [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],a lot of,reggae | reggae,False,True
+[CLS] Going in Style plays [MASK] [MASK] [MASK] [MASK] music . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],on the subject of,heist film | caper film | heist | heist film | heist films | heist movie | heist movies,False,False

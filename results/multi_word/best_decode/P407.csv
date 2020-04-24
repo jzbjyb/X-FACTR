@@ -1,0 +1,997 @@
+sentence,prediction,gold,is_same,is_single_word
+[CLS] Greek name was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the early 20th century,Greek | Greek | Greek language,False,True
+[CLS] Le Monde was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Monde,French | French | French language | fr,False,True
+[CLS] TF1 was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+[CLS] Henrique was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Croatian Radiotelevision was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Croatian Radiotelevision,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Daniel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,French | French | French language | fr,False,True
+[CLS] wuxia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],wuxia,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Beowulf was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Old English | Anglisc | Anglo - Saxon | Englisc | Old English | ang | Ænglisc,False,False
+[CLS] Fredrik was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The Oxford English Dictionary was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Xinhua News Agency was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Xinhua,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Daniel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Richard was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Vogue Italia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Le Figaro was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Figaro,French | French | French language | fr,False,True
+[CLS] Wilhelmus was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Treaty of Versailles was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States of America,French | French | French language | fr,False,True
+[CLS] The Guardian was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the meantime,English | English | English language | en | eng,False,True
+[CLS] RIA Novosti was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] The Times was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],The Times . The Times,English | English | English language | en | eng,False,True
+[CLS] Simple English Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Simple English,English | English | English language | en | eng,False,True
+[CLS] Aftonbladet was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] La Voz del Interior was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Masoretic Text was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Masoretic,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] The Overcoat was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Le Temps was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Le Temps,French | French | French language | fr,False,True
+[CLS] The Adventures of Pinocchio was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pinocchio,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] BBC Alba was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the meantime,Scottish Gaelic | Gaelic | Gaidhlig | Gàidhlig | Scottish Gaelic | gd,False,False
+[CLS] Cumhuriyet was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Anastasia was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Charlie Hebdo was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] Otello was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Tencent QQ was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],QQ,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] El Mundo was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Psychedelic,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Radio France Internationale was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Radio France,French | French | French language | fr,False,True
+[CLS] Michael was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,English | English | English language | en | eng,False,True
+[CLS] La Croix was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],La Croix,French | French | French language | fr,False,True
+[CLS] BBC Radio 1 was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the meantime,English | English | English language | en | eng,False,True
+[CLS] The Decameron was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],New York,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Daniel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] list of Italian names was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],italics,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Rigoletto was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] El Diario La Prensa was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Spanish and Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Hindi literature was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Hindi,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,True,True
+[CLS] Zhizn was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Zhizn,Russian | Russian | Russian language | ru,False,True
+[CLS] Sina Weibo was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Nova revija was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] plaza was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] FitzGerald dynasty was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the middle of the century,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Aida was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Ian was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,English | English | English language | en | eng,False,True
+[CLS] Yesterday was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Daniel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] Alice ' s Adventures in Wonderland was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] IELTS was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],IELTS,English | English | English language | en | eng,False,True
+[CLS] Comhar was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Comhar,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Znamya was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Liwayway was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Liwayway,Tagalog | Tagalog | Tagalog language | tgl | tl,False,False
+[CLS] Le Soir was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] ciao was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ciao,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Anandamela was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bhagavad Gita,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Don Giovanni was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Eugene Onegin was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] Desh was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Desh,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Pif gadget was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pif,French | French | French language | fr,False,True
+[CLS] The Little Prince was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] La Nature was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Sesamstraat was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Esperanto literature was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] Alemannic Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alemannic,Alemannic German | Alemannic German | als | gsw,False,False
+"[CLS] Goede Tijden , Slechte Tijden was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Mi Tierra was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Daily Express was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Daily Express,English | English | English language | en | eng,False,True
+[CLS] Elle was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Esperanto Wikipedia was written in [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] Resta in ascolto was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ascolto,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The Marriage of Figaro was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Le Droit was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Les Inrockuptibles was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Politika was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The Spectator was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Without You was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] El Sol was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],El Sol,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Ming Pao was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ming Pao,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] history of Catalan was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] Welsh Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Welsh Wikipedia,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Moscow Nights was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Le Moniteur Universel was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] The 9th Company was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] Trouw was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Trouw,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] The Atlantic was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Chandamama was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Bhagavad Gita,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] Lenta . ru was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lenta,Russian | Russian | Russian language | ru,False,True
+[CLS] Le Journal was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],L ' Epidemie,French | French | French language | fr,False,True
+[CLS] Proto - Indo - European verbs was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Proto - Indo - European,Proto - Indo - European | PIE | Proto - Indo - European | Proto - Indo - European language,True,False
+[CLS] Inedito was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese and Portuguese,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Huisgenoot was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Afrikaans | Afrikaans | Afrikaans language | af | afr,False,True
+[CLS] Winnipeg Free Press was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Winnipeg Free Press,English | English | English language | en | eng,False,True
+[CLS] Claridade was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Psychedelic,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Mathrubhumi was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Bhagavad Gita,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] The Washington Post was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Hybrid Theory was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hybrid Theory,English | English | English language | en | eng,False,True
+[CLS] Led Zeppelin III was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Led Zeppelin,English | English | English language | en | eng,False,True
+[CLS] UNCUT was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Seili was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Seili,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Kungumam was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] Hullabaloo Soundtrack was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] What Now My Love was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Uncle Danya was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],R . R . R,Russian | Russian | Russian language | ru,False,True
+[CLS] Selah was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Selah,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] El Jueves was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] International New York Times was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Myfanwy was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Myfanwy,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] aloha was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],aloha,Hawaiian | Hawaiian | Hawaiian language | Hawaiʻian language | haw,False,True
+[CLS] Mo Li Hua was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mo Li Hua,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Baidu Baike was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Baidu,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Sans attendre was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Cyworld was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Cyworld,Korean | Korean | Korean language | ko,False,True
+[CLS] Finnish Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish Wikipedia,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Tegan was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tegan,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Free Jimmy was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Free Jimmy,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Latvian name was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],alphabetical alphabet,Latvian | Latvian | Latvian language | Lettish | Lettish language | lv,False,True
+[CLS] Solidaridad Obrera was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Udbodhan was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Música + Alma + Sexo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,English | English | English language | en | eng,False,True
+[CLS] France Football was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the French language,French | French | French language | fr,False,True
+[CLS] Positif was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,French | French | French language | fr,False,True
+[CLS] Norwegian literature was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Norwegian language,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] The New Times was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Portuguese Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese,Portuguese | Portuguese | Portuguese language | pt,True,True
+[CLS] Interfax was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],C + +,Russian | Russian | Russian language | ru,False,True
+[CLS] Great Russian Encyclopedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Dwynwen was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dwynwen,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Bernama was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,English | English | English language | en | eng,False,True
+[CLS] Resta in ascolto was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],ascolto,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] L ' Illustration was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the French language,French | French | French language | fr,False,True
+[CLS] Our ruler King Don Fernando VII is not yet satisfied was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Nahuatl | Nahuatl | Nahuatl language,False,False
+[CLS] Let It Be was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] La Tercera was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Korrespondent was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Ukrainian News Agency was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ukrainian News Agency,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] Turn It Up was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Playboy was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] The 2nd Law was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Prachatai was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Prachatai,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+"[CLS] La , la , la was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Pyrgi Tablets was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Pyrgi,Phoenician | Phoenician,False,False
+[CLS] Protereotita was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Protereotita,Greek | Greek | Greek language,False,True
+[CLS] Red Sorghum was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Red Sorghum,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] W9 was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],W9,French | French | French language | fr,False,True
+[CLS] Haratch was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haratch,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] Baike . com was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Baike,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] Histoire de Melody Nelson was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Melody Nelson,French | French | French language | fr,False,True
+[CLS] Financial Times was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Feral Tribune was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Feral,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Halcyon Days was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Kavkaz Center was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Soviet Union,Russian | Russian | Russian language | ru,False,True
+[CLS] 1984 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychiatric,English | English | English language | en | eng,False,True
+[CLS] CGTN Spanish was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] Dehkhoda Dictionary was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Dehkhoda,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] The Economist was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,English | English | English language | en | eng,False,True
+[CLS] Paris Match was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paris Match,French | French | French language | fr,False,True
+[CLS] Rickshaw Boy was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 1960s and 1970s,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] The Lower Depths was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Upper Depths,Russian | Russian | Russian language | ru,False,True
+[CLS] Led Zeppelin Boxed Set was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Led Zeppelin,English | English | English language | en | eng,False,True
+[CLS] Primavera in anticipo was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],anticipo,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The Necklace was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] Haaretz was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Haaretz,English | English | English language | en | eng,False,True
+[CLS] Bewnans Ke was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same same year,Cornish | Cornish | Cornish language | Cornish - language | Curnoack | ISO 639 : cor | ISO 639 : kw | Kernewek | Kernowak | Kernowek | Kernuack | kw,False,False
+[CLS] inoSMI was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],inoSMI,Russian | Russian | Russian language | ru,False,True
+[CLS] Krokodil was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Snow on the Sahara was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Some Girls was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Abenaki people was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Abenaki,Abenaki | Abenaki | Abenaki language | Abnaki | Wôbanakiôdwawôgan,True,False
+[CLS] Tiempo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Tel Quel was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Tel Quel,French | French | French language | fr,False,True
+[CLS] Life was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Mind Body & Soul was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] United States Constitution was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the House of Representatives,English | English | English language | en | eng,False,True
+[CLS] I See a Star was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Corriere dei Piccoli was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Bangadarshan was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Bhakti,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Odnoklassniki was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Vietnamese Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vietnamese Wikipedia,Vietnamese | Vietnamese | tiếng Việt,False,True
+[CLS] Simple English Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Simple English,Basic English | Basic English | Simple English,True,False
+[CLS] Raymond was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,French | French | French language | fr,False,True
+[CLS] Jonaki was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Psychedelic,Assamese | Asamiya | Asamiya language | Asomiya | Assamese | Assamese language | Axomiya | Axomiya language | as,False,False
+[CLS] Azat Artsakh was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] The Next Day was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Finnish name was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the late 19th century,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] El Nuevo Herald was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Jazz på svenska was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Swedish and Swedish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Mechanical Poet was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] Derya was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Tulu cinema was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Tulu,Tulu | Tulu | tcy | ತುಲು,True,False
+[CLS] Heathen Chemistry was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Heathen Chemistry,English | English | English language | en | eng,False,True
+[CLS] Dead Souls was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Dead Souls,Russian | Russian | Russian language | ru,False,True
+[CLS] Stand Up was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Moby - Dick was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Moby - Dick,English | English | English language | en | eng,False,True
+[CLS] Wolf Totem was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] NME was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Psychedelic,English | English | English language | en | eng,False,True
+[CLS] Vivir was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vivir,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Rue89 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Please Please Me was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United Kingdom,English | English | English language | en | eng,False,True
+[CLS] Cormac was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Cormac,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Almast was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Almast,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] Hamlet was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Russian | Russian | Russian language | ru,False,True
+[CLS] Suomen Kuvalehti was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Glamour was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Glamour,English | English | English language | en | eng,False,True
+[CLS] Playtime was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] Irreemplazable was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the United States of America,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Reforma was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Voir was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Voir,French | French | French language | fr,False,True
+[CLS] Love Deluxe was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Diamond Life was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Swedish Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish Wikipedia,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Ozon . ru was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Ozon,Russian | Russian | Russian language | ru,False,True
+[CLS] Dig Out Your Soul was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Los Angeles,English | English | English language | en | eng,False,True
+[CLS] Sodobnost was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] Young Americans was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Comment ça va was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Comme d ' habitude was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Esli was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Esli,Russian | Russian | Russian language | ru,False,True
+[CLS] Swahili Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swahili,Swahili | Kiswahili | Swahili | Swahili ( macrolanguage ) | Swahili language | sw,True,False
+[CLS] Rossiyskaya Gazeta was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Russian language,Russian | Russian | Russian language | ru,False,True
+[CLS] Zing voor me was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Lurkmore . to was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lurkmore,Russian | Russian | Russian language | ru,False,True
+[CLS] Albanian Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Albanian,Albanian | Albanian | Albanian language | sq,True,True
+[CLS] 1in . am was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],San Francisco,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] The Japan Times was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,English | English | English language | en | eng,False,True
+[CLS] Paleontological Journal was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Uzbek Soviet Encyclopedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Uzbek,Uzbek | Uzbek | Uzbek language | uz,True,False
+[CLS] Zafarnamah was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Zafarnamah,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] TY . O was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TY . O,English | English | English language | en | eng,False,True
+[CLS] The Who Sell Out was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Le cose che vivi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Si la vie est cadeau was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the 1930s and 1940s,French | French | French language | fr,False,True
+[CLS] EDN was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,English | English | English language | en | eng,False,True
+[CLS] Beauty and the Beast was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,French | French | French language | fr,False,True
+[CLS] The Kinks Are the Village Green Preservation Society was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the Village Green Preservation,English | English | English language | en | eng,False,True
+[CLS] Italian Wikipedia was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian,Italian | Italian | Italian language | Italiano | it,True,True
+[CLS] Dutch name was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the early 20th century,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Para Siempre was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Pan ' s Labyrinth was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Ninja was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] Enga fordóma was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Icelandic | Icelandic | Icelandic language | is,False,True
+[CLS] Toronto Star was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Canadian Oxford Dictionary was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Canadian English | Anglais canadien | Canadian | Canadian English | En - CA | English ( Canada ) | en - ca,False,False
+[CLS] Tsvety was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and prose,Russian | Russian | Russian language | ru,False,True
+[CLS] GOG . com was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],GOG,English | English | English language | en | eng,False,True
+[CLS] Catalan Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Catalan Wikipedia,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] TelQuel was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],TelQuel,French | French | French language | fr,False,True
+[CLS] Le Point was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Point,French | French | French language | fr,False,True
+[CLS] The Province was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Province was written,English | English | English language | en | eng,False,True
+[CLS] London Bridge Is Falling Down was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],London Bridge Is Falling Down,English | English | English language | en | eng,False,True
+[CLS] Newsweek Polska was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Polish language,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Amor prohibido ( Albúm 1994 ) was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The Bangkok Recorder was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Bangkok Recorder,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] The Garin Death Ray was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] We Started Nothing was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Asianet was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Asianet,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] Realitatea Evreiască was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Romanian language,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] Foreign Policy was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,English | English | English language | en | eng,False,True
+[CLS] Ciara was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ciara,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Thai Wikipedia was written in [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Thai,Thai | Central Thai | Siamese | Thai | Thai language | th,True,True
+[CLS] Led Zeppelin IV was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Led Zeppelin,English | English | English language | en | eng,False,True
+[CLS] Ola Kala was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kala,English | English | English language | en | eng,False,True
+[CLS] Bulgarian Rhapsody was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bulgarian,Bulgarian | Bulgarian | Bulgarian language | bg,True,True
+[CLS] The Gypsies was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the Gypsies,Russian | Russian | Russian language | ru,False,True
+[CLS] Beunans Meriasek was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,Cornish | Cornish | Cornish language | Cornish - language | Curnoack | ISO 639 : cor | ISO 639 : kw | Kernewek | Kernowak | Kernowek | Kernuack | kw,False,False
+[CLS] Bridget was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Irish Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Irish language,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Saare Jahan se Achcha was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same same year,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] Odakalu Bimba was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] PC Mania was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],PC Mania,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] Yannick was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,French | French | French language | fr,False,True
+[CLS] Marmnamarz was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] The Cherry Orchard was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] RT en español was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] Never Been Better was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] HaOlam HaZeh was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Neil was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Rockdelux was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] i24NEWS was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Maeve was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Heroldo de Esperanto was written in [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Esperanto,Esperanto | Esperanto | Esperanto language | eo | epo,True,True
+[CLS] Le Havre was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Le Havre,French | French | French language | fr,False,True
+[CLS] Codex Bezae was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scandina,Latin | Latin | Latin language | la | lat,False,True
+[CLS] Azerbaijani Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Azerbaijani Wikipedia,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,False,False
+[CLS] Lapland Odyssey was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Revue des Deux Mondes was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Protège - Moi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+"[CLS] Matthew , Mark , Luke and John was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the early 20th century,English | English | English language | en | eng,False,True
+[CLS] The Hawks and the Sparrows was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Latvian Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latvian,Latvian | Latvian | Latvian language | Lettish | Lettish language | lv,True,True
+[CLS] The Division Bell was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Antara was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Indonesian | Indonesian | Indonesian language | id,False,True
+"[CLS] Go , Yellow was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD]",Psychedelic,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Lost Homeland was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Ruslan was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ruslan,Russian | Russian | Russian language | ru,False,True
+[CLS] Introducing Joss Stone was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Los Angeles,English | English | English language | en | eng,False,True
+[CLS] Hebrew Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hebrew,Hebrew | Hebrew | Hebrew language | he | heb,True,True
+[CLS] Carnival Night was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Albina Românească was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] Hurricane Venus was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hurricane Venus,Korean | Korean | Korean language | ko,False,True
+[CLS] Deka Endoles was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] Slavic names was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slavic names was written,Slavic languages | Slavic languages,False,False
+[CLS] Beggars Banquet was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Slovene Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Slovene,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,True,False
+[CLS] Allgemeine Deutsche Biographie was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,German | Deutsch | German | German language | de,False,True
+[CLS] San Ena Oniro was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],San Ena Oniro,Greek | Greek | Greek language,False,True
+[CLS] Chauffe à bloc was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] Chervona Ruta was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] Hey Diddle Diddle was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Diddle,English | English | English language | en | eng,False,True
+[CLS] Scots Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scots Wikipedia,Scots | Inglis | Lallans | Lowland Scots | Scotch | Scots | Scots Leid | Scots language | braid Scots | sco,False,True
+[CLS] The Ukrainian Week was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Ukrainian language,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] Ekla Chalo Re was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Luigi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Thai Post was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Thai,Thai | Central Thai | Siamese | Thai | Thai language | th,True,True
+[CLS] Salawat Yulayev was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],"Urdu , Urdu and Urdu",Bashkir | Bashkir | Bashkir language,False,False
+[CLS] Gerard was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same way as Gerard,English | English | English language | en | eng,False,True
+[CLS] Sam na sam was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] For Your Pleasure was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Novosti was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] García was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Jornal Tribuna de Macau was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Macau,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] The Time of the Doves was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] Rip Van Winkle was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rip Van Winkle,English | English | English language | en | eng,False,True
+[CLS] Bamahane was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bamahane,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Debka . com was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Debka,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Meke was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Meke was written,Fijian | Fijian | Fijian language | Na Vosa Vakaviti | fj,False,False
+[CLS] Emmones Idees was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Greek | Greek | Greek language,False,True
+[CLS] Everyday Robots was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] antidisestablishmentarianism was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Northern Bee was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Northern Bee,Russian | Russian | Russian language | ru,False,True
+[CLS] Living Is Easy with Eyes Closed was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Monté la riviè was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Occitan Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Occitan,Occitan | Langue d ' oc | Lenga d ' òc | Occitan | Occitan ( post 1500 ) | Occitan language | Provençal | oc,True,False
+[CLS] Antidoto was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Antidoto,Greek | Greek | Greek language,False,True
+"[CLS] Poupée de cire , poupée de son was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,French | French | French language | fr,False,True
+[CLS] Matryona ' s Place was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Le Quotidien de Paris was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same year,French | French | French language | fr,False,True
+[CLS] Norsk Lovtidend was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Poompatta was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Poompatta,Malayalam | Malayalam | Malayalam language | mal | ml,False,True
+[CLS] Rarities was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] 20 minutes was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],English,French | French | French language | fr,False,True
+[CLS] Great Expectations was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Hong Kong and Hong Kong,English | English | English language | en | eng,False,True
+[CLS] Zuo Zhuan was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Zuo Zhuan,Classical Chinese | Classical Chinese | Literary Chinese | Traditional Chinese | Wenyan | lzh | zh - classical,False,False
+[CLS] Young Pilgrim was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Rossi de Hurtado was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Some Great Reward was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Kannada Wikipedia was written in [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kannada,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,True,True
+[CLS] Sébastien was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Igromania was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Selçuk was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],prose and in prose,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Vendeurs de larmes was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Edgars was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Latvian | Latvian | Latvian language | Lettish | Lettish language | lv,False,True
+[CLS] Branwen was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Branwen,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Tous ensemble was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Inedito was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese and Portuguese,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Dissidia Final Fantasy was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,English | English | English language | en | eng,False,True
+[CLS] Hong Kong Movie DataBase was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,English | English | English language | en | eng,False,True
+[CLS] Little Child was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Little Child,English | English | English language | en | eng,False,True
+[CLS] Dis rien was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] El Moudjahid was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Urdu and Urdu,French | French | French language | fr,False,True
+[CLS] The Girl in Mourning was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Yo Canto was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Voici was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Voici,French | French | French language | fr,False,True
+[CLS] Dos Mou Ena Fili . . . Afto to Kalokairi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Kalokairi,Greek | Greek | Greek language,False,True
+[CLS] Euphoria was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Baryshev was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and prose,Russian | Russian | Russian language | ru,False,True
+[CLS] The Tudors was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Gelukkig zijn was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Los Angeles Times was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the prefecture,English | English | English language | en | eng,False,True
+[CLS] Absent Friend was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] 18 Months was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,English | English | English language | en | eng,False,True
+[CLS] Waking Ned was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Waking Ned,English | English | English language | en | eng,False,True
+[CLS] Sur un air latino was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Valeurs Actuelles was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Gå upp och pröva dina vingar was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Pozdnyakov was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and prose,Russian | Russian | Russian language | ru,False,True
+[CLS] Paulino was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] St . John ' s Eve was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Shah Abbas and Khurshid Banu was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Urdu and Urdu,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,False,False
+[CLS] Jurassic Park was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jurassic Park,English | English | English language | en | eng,False,True
+[CLS] Estonian Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Estonian Wikipedia,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] Imre was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] La Deux was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,French | French | French language | fr,False,True
+[CLS] El Mercurio was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Supernature was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Beata was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Luminescence was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+[CLS] Peshitta was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Peshitta,Syriac | Classical Syriac | Leššānā Suryāyā | Syriac | Syriac Aramaic,False,False
+[CLS] Kurier Wileński was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Sanskrit Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sanskrit Wikipedia,Sanskrit | Sanskrit | sa,False,True
+[CLS] The Secret of Nikola Tesla was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nikola Tesla,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Tom Pillibi was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+"[CLS] Italyan , Rum Casusu Çikti was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Dewaar was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] Hackett was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hackett,English | English | English language | en | eng,False,True
+[CLS] Tert . am was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] Quadrophenia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],italics,English | English | English language | en | eng,False,True
+[CLS] Toi + Moi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese and Portuguese,French | French | French language | fr,False,True
+[CLS] The Man I Love was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Voila ! was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Voila,English | English | English language | en | eng,False,True
+[CLS] The Catalogue was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,German | Deutsch | German | German language | de,False,True
+[CLS] Doyle was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Lilla stjärna was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Lucky Per was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lucky Per,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] Atgof o ' r Sêr was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Celebration Day was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] If You Wait was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Paint It Black was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Kickstarter was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Computerwelt was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Repere Transilvane was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] Arshak II was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and prose,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] Vrede was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Vrede,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Power Unlimited was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Power Unlimited,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Free Jimmy was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Free Jimmy,English | English | English language | en | eng,False,True
+[CLS] Belfagor was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belfagor,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Crimea . The Way Home was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] Sjösala vals was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Sjösala,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Blind Faith was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Robocar Poli was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Poli,Korean | Korean | Korean language | ko,False,True
+[CLS] Limburg mijn Vaderland was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Limburg mijn Vaderland,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Kontsert was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Nepali Times was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nepali,English | English | English language | en | eng,False,True
+[CLS] Henrikas was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] The Girl from Ipanema was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ipanema,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Lithuanian Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Lituan,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] Bashkortostan was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same shoes,Bashkir | Bashkir | Bashkir language,False,False
+[CLS] Bore Da was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bore Da,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Samen voor altijd was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Jag är inte rädd för mörkret was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the 1960s and 1970s,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Cambodge Soir was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cambodge,French | French | French language | fr,False,True
+[CLS] Egyptian Arabic Wikipedia was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Egyptian Arabic Wikipedia,Egyptian Arabic | Egyptian Arabic | Egyptian Arabic language | Egyptian colloquial language | Egyptian dialect | arz,False,False
+[CLS] Kaarina was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Toi + Moi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese and Portuguese,French | French | French language | fr,False,True
+[CLS] Pierre was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Little Bo - Peep was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Bumbarash was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bumbarash,Russian | Russian | Russian language | ru,False,True
+[CLS] Egils saga was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Egil,Icelandic | Icelandic | Icelandic language | is,False,True
+[CLS] Antonio was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] No moles left in Irevan was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Irevan,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,False,False
+[CLS] Primavera in anticipo was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],anticipo,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Scoubidou was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French and French,French | French | French language | fr,False,True
+[CLS] The Two Baronesses was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Le Plat Pays was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Folk beat n . 1 was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] KinoPoisk was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Cheonsa Misonyeo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Cheonsa,Korean | Korean | Korean language | ko,False,True
+[CLS] Dinaman was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dinaman,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,False,True
+[CLS] L ' amore è una cosa semplice was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Encyclopædia Britannica First Edition was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Encyclopædia Britannica,English | English | English language | en | eng,False,True
+[CLS] Suicides was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,French | French | French language | fr,False,True
+[CLS] ' t Is OK was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] De mallemolen was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Het is een nacht . . . ( Levensecht ) was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Morrow was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Zeitschrift für Naturforschung was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,German | Deutsch | German | German language | de,False,True
+[CLS] L ' amour n ' est rien . . . was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] My Bonnie was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Carolina was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Carolina was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Farkas was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Farkas,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+"[CLS] Ella , elle l ' a was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the same year,French | French | French language | fr,False,True
+[CLS] Somnium was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Latin | Latin | Latin language | la | lat,False,True
+[CLS] Rubber Soul was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Los Angeles,English | English | English language | en | eng,False,True
+[CLS] Proto - Indo - European numerals was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Indo - European numerals,Proto - Indo - European | PIE | Proto - Indo - European | Proto - Indo - European language,False,False
+[CLS] Amor Louco was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] The Gatekeepers was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Gatekeepers,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Tatiana was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Russian | Russian | Russian language | ru,False,True
+[CLS] Gizem was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gizem,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Il Gazzettino was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Glagolitic Mass was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Glagolitic Mass,Old Church Slavonic | Ohrid Folios | Old Church Slavonic | cu,False,False
+[CLS] Silesian Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Silesian,Silesian | Silesian | Silesian dialect | Silesian language | Upper Silesian | szl,True,False
+[CLS] An Innocent Man was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Zwei kleine Italiener was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Soy así was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Ne partez pas sans moi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Game World Navigator was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Simone was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Neighbors was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,English | English | English language | en | eng,False,True
+[CLS] Inter rusticos was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Latin | Latin | Latin language | la | lat,False,True
+[CLS] Tinkle was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tinkle,English | English | English language | en | eng,False,True
+[CLS] Kira was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Russian | Russian | Russian language | ru,False,True
+[CLS] Endless Wire was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Thirsty Work was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] The Muffin Man was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Accidental Life was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Accidental Life,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Hillsong Global Project was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],collaboration with Hillsong Global,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The Royalists was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],The Royalists,French | French | French language | fr,False,True
+[CLS] A Christmas Tree and a Wedding was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The Music Scene was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Disillusion was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] I ' m So Excited was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] 200 km / h in the Wrong Lane was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Wrong Lane,English | English | English language | en | eng,False,True
+[CLS] Russo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Ekbar biday de Ma ghure ashi was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Game Pro was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Game Pro,Italian | Italian | Italian language | Italiano | it,False,True
+"[CLS] Sleep Sweet , My Darling was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",the United States,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Ny Teknik was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The Book of Alley was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] Lajos was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Sorriso nucleare was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Abelardo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Reynolds was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Schiena was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Schiena,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Don ' t Bother Me was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Dienes was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Dienes,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Magyar Demokrata was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Magyar Demokrata,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Ljubav was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Slovene nouns was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Slovene nouns,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] Isabel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] Shemirat Shabbat Kehilchatah was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Shabbat,English | English | English language | en | eng,False,True
+[CLS] Ne budi me bez razloga was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Agila was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Agila,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Robert was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,French | French | French language | fr,False,True
+[CLS] Principia Mathematica was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Peter Peter Pumpkin Eater was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Peter Peter,English | English | English language | en | eng,False,True
+[CLS] The Russian Public Opinion Herald was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Russian language,Russian | Russian | Russian language | ru,False,True
+[CLS] Dancing with the Stars : Taniec z gwiazdami was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same and the same,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Jij bent mijn leven was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Ni es lo mismo ni es igual was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Reflexiones was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] 16 / 9 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,French | French | French language | fr,False,True
+[CLS] ( Ne ) Polnoye sobraniye sochineniy was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Blonde was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] Char Chokka Hoi Hoi was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Bengali | Bangla | Bengali | Bengali language | bn,False,True
+[CLS] Slovenski glasnik was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] Ildikó was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Bild was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,German | Deutsch | German | German language | de,False,True
+[CLS] Disintegration was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Olena was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Olena,Ukrainian | Ukrainian | Ukrainian language | uk | Українська | Українська мова,False,True
+[CLS] Turmalina was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Apple Venus Volume 1 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Tert . am was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Electronic Earth was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Electronic Earth,English | English | English language | en | eng,False,True
+[CLS] Echoes was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Echoes,English | English | English language | en | eng,False,True
+[CLS] Jaune was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jaune,French | French | French language | fr,False,True
+[CLS] Internet Archive was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Internet Archive,English | English | English language | en | eng,False,True
+[CLS] Led Zeppelin DVD was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Strauss was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,Germanic languages | German languages | Germanic | Germanic family | Germanic language | Germanic language family | Germanic language group | Germanic languages | ISO 639 : gem | Teutonic language | Teutonic languages,False,False
+[CLS] Bulgarian name was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the early 20th century,Bulgarian | Bulgarian | Bulgarian language | bg,False,True
+[CLS] James was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],U . S,English | English | English language | en | eng,False,True
+[CLS] Inglourious Basterds was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] Franco - Japanese Treaty of 1907 was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+[CLS] NIE was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],NIE . NIE,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Elvira was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Bloodsports was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bloodsports,English | English | English language | en | eng,False,True
+[CLS] Tuomo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Parle à ma main was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] The Kink Kontroversy was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Kink,English | English | English language | en | eng,False,True
+[CLS] Maailman toisella puolen was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Književni jug was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Serbo - Croatian | BHS | Bosnian - Croatian - Montenegrin - Serbian | Bosnian - Croatian - Serbian | Serbo - Croat | Serbo - Croat - Bosnian | Serbo - Croatian | Serbo - Croatian language | sh,False,False
+[CLS] Leño was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Leño,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The Godfather was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Peter the Great ' s Negro was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Bogusław was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and in prose,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] El Diario Vasco was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Spanish language,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The . . . was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],. . . . .,Japanese | Japanese | Japanese language | Nihongo | ja | jpn | 日 本 語,False,True
+[CLS] När jag blundar was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the 1960s and 1970s,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Zero Motivation was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Private Eye was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Survey Methodology was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Fred besjunger Frida was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the 1930s and 1940s,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] O Teleftaios Horos was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Greek | Greek | Greek language,False,True
+[CLS] Marshland was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Más madera was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Gleason was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Gleason,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Mina alla Bussola dal vivo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Mario was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Frontside Ollie was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],black and white,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Sabda Alam was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] Senyawa was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Senyawa,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] Misty Mountain Hop was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Sonic Adventure was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Jacobs was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English and English,English | English | English language | en | eng,False,True
+[CLS] T ' as vu ? was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Nikolaos was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Greek | Greek | Greek language,False,True
+[CLS] Bokvennen litterært magasin was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Shanghai Daily was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,English | English | English language | en | eng,False,True
+[CLS] Ordinary World was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Chinese | Chinese | Chinese language | Chinese languages | zh,False,True
+[CLS] We Can ' t Dance was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Beyond My Control was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+"[CLS] Printemps , avril carillonne was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the same same year,French | French | French language | fr,False,True
+[CLS] 20 bästa låtar was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Sweden and Sweden,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] The Legend of Sleepy Hollow was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Sleepy Hollow,English | English | English language | en | eng,False,True
+[CLS] Adrian was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English and English,English | English | English language | en | eng,False,True
+[CLS] Over stok og sten was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] Elena was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Velocifero was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] L ' Express de Toronto was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Anna was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Red Barked Tree was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Red Barked Tree,English | English | English language | en | eng,False,True
+[CLS] Wilk was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Wilk,English | English | English language | en | eng,False,True
+[CLS] Navidad was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Navidad,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] MyLINUX was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] Bayram was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bayram,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Dove si vola was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] O vento mudou was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Ugnė was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] The Elusive Avengers was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Lukyan was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Russian | Russian | Russian language | ru,False,True
+[CLS] Une saison en enfer was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the 1930s and 1940s,French | French | French language | fr,False,True
+[CLS] Šarūnas was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and in prose,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] Fran was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Blonde was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,French | French | French language | fr,False,True
+[CLS] Royal Albert Hall London May 2 - 3 - 5 - 6 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],English and English,English | English | English language | en | eng,False,True
+[CLS] Magazeta was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Magazeta,Russian | Russian | Russian language | ru,False,True
+[CLS] Iñaki was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Le Populaire was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Spooky Two was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spooky Two,English | English | English language | en | eng,False,True
+[CLS] Radio France Internationale was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radio France,English | English | English language | en | eng,False,True
+[CLS] Radio France Internationale was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Radio France,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] Maël was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Maël,Breton | Breton | Breton language | Brezhoneg | br,False,True
+[CLS] Sentimentalement vôtre was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] NEWSru was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Ili 5 minuta ispred tebe was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] We Shall Overcome was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Hunky Dory was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Gwenllian was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Welsh and Welsh,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Peña was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Household Words was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Stairway to Heaven was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] An Evening with Belafonte / Makeba was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Je suis l ' enfant soleil was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Femme dans ses rêves aussi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Chanteur de charme was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Où aller was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Je veux donner ma voix was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Abily was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Abily,Russian | Russian | Russian language | ru,False,True
+[CLS] Non andare più lontano was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] The Melody Haunts My Memory was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Sommer i Palma was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],L ' Escorial,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Aviya ' s Summer was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Dukkemann was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],German and German,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Dagestankaya Pravda was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the Soviet Union,Russian | Russian | Russian language | ru,False,True
+[CLS] The New Gulliver was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Pavlov was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],prose and prose,Russian | Russian | Russian language | ru,False,True
+[CLS] A New Morning was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Alessandra was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Blue Love was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Greek | Greek | Greek language,False,True
+[CLS] Anna Vissi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] To Kati was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Greek | Greek | Greek language,False,True
+[CLS] Resonet in laudibus was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Hristougenna Me Tin Katy was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] Arhizo Polemo was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Polemo,Greek | Greek | Greek language,False,True
+[CLS] Alla was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Russian | Russian | Russian language | ru,False,True
+[CLS] This Is All Yours was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Le Scienze was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Soulless was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Russian | Russian | Russian language | ru,False,True
+[CLS] Pouvoirs was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Newsletter for Birdwatchers was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Ó Dálaigh family was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] India Today was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Broodje Bakpao was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] It ' s Hard was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Röd was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Röd,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Det är så jag säger det was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the same same,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Il ballo delle ingrate was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Bara was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Kannada | Kanarese | Kannada | Kannada language | kny Kannada gali Sharab Karwar Charitra Sharab karagara Charitra Kannada gali,False,True
+[CLS] Biometrical Journal was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Declan was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Declan,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Minhas canções preferidas was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the 1960s and 1970s,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Promesas was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Siempre contigo was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Naked Harbour was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Kokotović was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kokotović,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] The Irony of Fate was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Het is een wonder was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Jij en ik was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Alles heeft ritme was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Shangri - La was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Hindi Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hindi,Hindi | Hindi | Hindi language | Modern Standard Hindi | hi,True,True
+[CLS] El kondor pada was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Radio - Activity was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,German | Deutsch | German | German language | de,False,True
+[CLS] Caetano Veloso was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese and Portuguese,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Caetano Veloso was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Portuguese and Portuguese,English | English | English language | en | eng,False,True
+[CLS] Bagagedrager was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Min Nan Wikipedia was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Min Nan,Southern Min | Min Nan | Min Nan Chinese | Southern Min | nan | zh - min - nan,True,False
+[CLS] Jackson was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Åke was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Avant que l ' ombre . . . was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+"[CLS] One , Two , Three , Four , Five was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the United States,English | English | English language | en | eng,False,True
+[CLS] Gautam was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Sanskrit | Sanskrit | sa,False,True
+[CLS] Inez was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Inez,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Corinne was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Corinne,English | English | English language | en | eng,False,True
+[CLS] Crni ples was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Crni ples,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Take Me To Baltimore was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,English | English | English language | en | eng,False,True
+[CLS] The Soul Sessions Vol . 2 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Soul Sessions Vol,English | English | English language | en | eng,False,True
+[CLS] Demokracija was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] Night Flight was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Urheilulehti was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Milord was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Milord,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] A Hard Day ' s Night was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] The Song Remains the Same was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Esther and the King was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the 1930s and 1940s,English | English | English language | en | eng,False,True
+[CLS] Europe Échecs was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Europe Échecs,French | French | French language | fr,False,True
+[CLS] Burçak Tarlası was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Holmgren was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Holmgren,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Y - Mag was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Coşkun was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Milorad was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Serbian and Serbian,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] El Temps was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],El Temps,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] Dievča do dažďa was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,English | English | English language | en | eng,False,True
+[CLS] Nikita was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+"[CLS] Un peu de poivre , un peu de sel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the same year,French | French | French language | fr,False,True
+[CLS] De Revolutie was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Mirgorod was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Gasolin ' was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Danish | Danish | Danish language | Dansk | da,False,True
+[CLS] Mal ' chik u Hrista na jolke was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Brown Rang was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Brown Rang,Punjabi | Panjabi | Punjabi | Punjabi language | pa,False,True
+[CLS] Alfabeta was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Alfabeta,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Sita Rama Kalyanam was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Telugu | Andhra bhasha | Telugu | Telugu language | Telungu | Tenugu | te,False,True
+[CLS] Pleine Vie was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Gainsbourg Percussions was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Gainsbourg Percussion,French | French | French language | fr,False,True
+[CLS] Martynas was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] Corinne Bailey Rae was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the 1960s and 1970s,English | English | English language | en | eng,False,True
+[CLS] Kinks was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Kinks,English | English | English language | en | eng,False,True
+[CLS] Master and Man was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Fritiof och Carmencita was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Gyula was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Nord Éclair was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Vieux frères was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Phelps was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] McVicar was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Spare Parts was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Live on Blueberry Hill was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Evenings on a Farm Near Dikanka was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Touring the Angel : Live in Milan was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Milan and Milan,English | English | English language | en | eng,False,True
+[CLS] Mutlu was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Mutlu,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Special View was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Live at Donington was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Donington,English | English | English language | en | eng,False,True
+[CLS] Back of the Medal was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] The Jubilee of Mr Ikel was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Fourth Companion was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Timon was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Razmeđa was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] That ' s the Way the Cookie Crumbles was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Serenade to Spring was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Mag was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Slovene | Slovene | Slovene language | Slovenian | Slovenian language | sl,False,False
+[CLS] L ' isola non trovata was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Tuatha Na Gael was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Ma révolution was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Sounds was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Circus in the Circus was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the 1960s and 1970s,Russian | Russian | Russian language | ru,False,True
+[CLS] Massis was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Massis,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] Aimée was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Erenik was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Albanian | Albanian | Albanian language | sq,False,True
+[CLS] The Stone Guest was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Pantulan Cita was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pantulan Cita,Indonesian | Indonesian | Indonesian language | id,False,True
+[CLS] Rhyfelwr was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Roc Cafe was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] A Writer ' s Diary was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Diario was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Nemir was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nemir,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Treća žena was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Croatian | Croatian | Croatian language | hr,False,True
+"[CLS] Serafim , the Lighthouse Keeper ' s Son was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD]",the same year,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Slow Surrender was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],New York,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Hallo K3 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Hallo K3,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Constitution of Sint Maarten was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Libération was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,French | French | French language | fr,True,True
+[CLS] Un grand amour was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Fernanda was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Stitches was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Psychedelic,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Se Alli Diastasi was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] Fabienne was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Mainscream was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Mendoza was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Mendoza,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Bête Noire was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 1960s and 1970s,English | English | English language | en | eng,False,True
+[CLS] Wes was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Yves was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Hammered was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Hammered,English | English | English language | en | eng,False,True
+[CLS] Gwendoline was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Guy was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] À ma place was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Je suis un homme was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the 1960s and 1970s,French | French | French language | fr,False,True
+[CLS] Scopus was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Scopus,English | English | English language | en | eng,False,True
+[CLS] Ptisi & Diastima was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] California was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+[CLS] 70 - 10 Tour was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Sviđa mi se da ti ne bude prijatno was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],the 1960s and the 1970s,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Seferina was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],italics,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Positive Vibrations was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Beppe was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Beppe,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] + was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Film was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Clapton was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],blues and blues,English | English | English language | en | eng,False,True
+[CLS] French Style was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the French language,French | French | French language | fr,False,True
+[CLS] The Pianist was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
+[CLS] Unicorn was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Unicorn,English | English | English language | en | eng,False,True
+[CLS] Come and See was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Russian | Russian | Russian language | ru,False,True
+[CLS] Işıkları Söndürseler Bile was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Elvis istuu oikealla was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the 1960s and 1970s,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Ikuiset lapset was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Seventeen was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Puisque tu pars was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Talk was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Tygodnik Powszechny was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] 10 000 lépés was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Welcome to the Canteen was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],conjunction with the music video,English | English | English language | en | eng,False,True
+[CLS] If 2 was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],If 2,English | English | English language | en | eng,False,True
+[CLS] The War of the Worlds was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Full House was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Full House,English | English | English language | en | eng,False,True
+[CLS] Pilot und Flugzeug was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],German,German | Deutsch | German | German language | de,True,True
+[CLS] The Theme was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] The Sea was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Down by the Seaside was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Gardner was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English and English,English | English | English language | en | eng,False,True
+[CLS] Gândirea was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] The Beatles in Mono was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],The Beatles in Mono,English | English | English language | en | eng,False,True
+[CLS] Stone was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Xiomara was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Xiomara,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] L . A . Woman was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],L . A,English | English | English language | en | eng,False,True
+[CLS] The Take Off and Landing of Everything was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Nau was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Nau,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Iskusstvo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Zsuzsanna was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Pirata was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Pirata,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Saagar was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Saagar,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] Peeli Patti Aur Raja Jani Ki Gol Dunya was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] Midrash Petirat Aharon was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Hebrew | Hebrew | Hebrew language | he | heb,False,True
+[CLS] Prabuddha Bharata was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bharata,English | English | English language | en | eng,False,True
+[CLS] Girls ' Generation ( song ) was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Korean and Korean,Korean | Korean | Korean language | ko,False,True
+[CLS] Bonnie and Clyde was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+[CLS] English Electric was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English Electric,English | English | English language | en | eng,False,True
+[CLS] Studies on Marx and Hegel was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Red Beat Rahutraun was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rahutraun,Thai | Central Thai | Siamese | Thai | Thai language | th,False,True
+[CLS] Stranger in a Strange Land was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Blitz was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Out on the Tiles was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Maailma on tehty meitä varten was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the 1960s and the 1970s,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] A Bigger Bang was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Rhydian was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhydian,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Răzvan was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Răzvan,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] WorldRadio was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] The King of Limbs was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] The X Factor was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United Kingdom,English | English | English language | en | eng,False,True
+[CLS] 1916 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+"[CLS] Jazz , dwa was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD]",the same year,Polish | Polish | Polish language | Polski | pl,False,True
+[CLS] Mikalojus was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],prose and prose,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] Going Inside a Storm was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Zëri i Popullit was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Albanian | Albanian | Albanian language | sq,False,True
+[CLS] Chaos and the Calm was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Look into the Eyeball was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Look into the Eyeball was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Supertramp was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Geoffrey was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],English and English,English | English | English language | en | eng,False,True
+[CLS] Glenn was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Grant was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] xx was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Punch was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,English | English | English language | en | eng,False,True
+[CLS] Dry was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Ieva was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ieva,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] Pop was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychiatric,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] Nin9 2 5ive was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Nin9,Cantonese | Cantonese | Cantonese language | Standard Cantonese | Yue | Yue - Yu | Yue - Yuu | Yüeh | Zh - yue | yue | zh - yue,False,False
+[CLS] Connie Francis en El Patio was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Los Angeles,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Berat was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Berat,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] L ' Arena was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],L ' Arena,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Marcelo was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Once Upon a Time . . . The Discoverers was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,French | French | French language | fr,False,True
+[CLS] Thuli Thuli was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Thuli,Tamil | Tamil | Tamil language | Thamizh | ta,False,True
+[CLS] Pelléas et Mélisande was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Belarusian name was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Belarusian,Belarusian | Belarus language | Belarusan language | Belarusian | Belarusian Language | Belarusian language | Belarussian language | Belorusian language | Belorussian Language | Belorussian language | Bielarusian | Bielorusian | Bielorussian | Biełaruskaja mova | Byelaruskaya mova | Byelorussian language | ISO 639 : be | ISO 639 : bel | White Russian language | be,True,False
+[CLS] From the Witchwood was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Little Fish was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Little Fish,English | English | English language | en | eng,False,True
+[CLS] The Dignity of the Nation was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Japanese | Japanese | Japanese language | Nihongo | ja | jpn | 日 本 語,False,True
+[CLS] In the Bazaars of Hyderabad was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,English | English | English language | en | eng,False,True
+[CLS] La Dépêche de Tahiti was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] France - Guyane was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],France - Guyane,French | French | French language | fr,False,True
+[CLS] Winterland was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Winterland,English | English | English language | en | eng,False,True
+[CLS] An Ordinary Miracle was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Rhiannon was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rhiannon,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Reinaldo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Samson & Delilah was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Code of Hammurabi was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hammurabi,Akkadian | Akkadian,False,False
+"[CLS] L ' Histoire d ' une fée , c ' est . . . was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the same year,French | French | French language | fr,False,True
+[CLS] Armida was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Armida,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Howard was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] An Ideal for Living was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Star Trek Into Darkness was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Strangers in the Night was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Humiliated and Insulted was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the United States,Russian | Russian | Russian language | ru,False,True
+[CLS] Blanco was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Julián was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Gabriel was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] In Motion was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,Cantonese | Cantonese | Cantonese language | Standard Cantonese | Yue | Yue - Yu | Yue - Yuu | Yüeh | Zh - yue | yue | zh - yue,False,False
+[CLS] Tristan was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Pulse St . Petersburg was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],St . Petersburg,English | English | English language | en | eng,False,True
+[CLS] Ioan was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Romanian and Romanian,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Harrison was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Harrison was written,English | English | English language | en | eng,False,True
+[CLS] All the Best Cowboys Have Chinese Eyes was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Souffles was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Psychedelic,English | English | English language | en | eng,False,True
+[CLS] Unison was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Uuno was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Uuno . Uuno,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] Kalokairi Stin Kardia was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] Hudson was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,English | English | English language | en | eng,False,True
+[CLS] Suck It and See was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Gerardo was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Double je was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Hong Kong,French | French | French language | fr,False,True
+[CLS] Zsófia was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Hungarian | Hungarian | Hungarian language | Magyar | hu,False,True
+[CLS] Mina quasi Jannacci was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Wanderlust was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] TP was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,French | French | French language | fr,False,True
+[CLS] Robertas was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Lithuanian | Lithuanian | Lithuanian language | lt,False,True
+[CLS] Santesson was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Santesson,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Davidsson was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Swedish and Swedish,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Luna was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Rogelio was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Rogelio,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Zašto da ne ! was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Göran was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Svi marš na ples ! was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Natalie was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Tümer was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Tümer,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Antonio was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Amorematico was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Avec le temps was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Drôle de parcours was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Jag borde förstås vetat bättre was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Future This was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] La ley innata was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] The Minutes was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Harun and Leyla was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Azerbaijani | Azarbaijani | Azari | Azerbaijani | Azerbaijani language | Azerbaijanian | Azeri | Azeri language,False,False
+[CLS] The Optimist was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Blue Love was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] O ! Kypros was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] Sahara was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Greek | Greek | Greek language,False,True
+[CLS] Amélie was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Ayandegan was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Persian | Dari | Farsi | Farsi language | Iranian | Iranian language | Persian | Persian language | fa,False,True
+[CLS] Angelicuss was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Romanian | Romanian | Romanian language | ro,False,True
+[CLS] El Informador was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish and Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Standard was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,French | French | French language | fr,False,True
+[CLS] Emilio was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Café Magazine was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Café Magazine,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Ei was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the U . S,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Ceyhun was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ceyhun,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Flickorna på TV 2 was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],TV 2,Swedish | Swedish | Swedish language | sv,False,True
+[CLS] Planta was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],italics,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Vapaa ja yksin was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same same year,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,False,True
+[CLS] Cê was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Cê,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Je serai was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Elisir was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Week End was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Week End,French | French | French language | fr,False,True
+[CLS] I Warned You ! was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Architectural Review was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,English | English | English language | en | eng,False,True
+[CLS] Modra lasta was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Croatian | Croatian | Croatian language | hr,False,True
+[CLS] Levent was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Levent,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Ultimate Christmas was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] The Singles was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Heriberto was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Sözen was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Turkish | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,False,True
+[CLS] Ao Meu Brasil was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Portuguese | Portuguese | Portuguese language | pt,False,True
+[CLS] Saptak was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Urdu | Modern Standard Urdu | Urdu | Urdu language | ur,False,True
+[CLS] Sacré Géranium was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Géranium,French | French | French language | fr,False,True
+[CLS] Revista de Libros was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Arden was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Arden,English | English | English language | en | eng,False,True
+[CLS] Für Sie was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,German | Deutsch | German | German language | de,False,True
+[CLS] Halcyon was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,English | English | English language | en | eng,False,True
+[CLS] Wayuunaiki was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish and Finnish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Przekrój was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Polish | Polish | Polish language | Polski | pl,False,True
+"[CLS] The Good , The Bad & The 4 - Skins was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD]",the United States,English | English | English language | en | eng,False,True
+[CLS] The Essential Anna Vissi was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Greek | Greek | Greek language,False,True
+[CLS] The Middle Kingdom was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the Middle Kingdom,Irish | Irish | Irish Gaelic | ga,False,True
+[CLS] Olwen was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Olwen,Welsh | Cymric | Welsh | Welsh language | cy,False,True
+[CLS] Voleti voleti was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],voleti,Serbian | Serbian | Serbian language | sr,False,True
+[CLS] Sánchez was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] Jean - Martin was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] Atlantic was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] AM PM was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] La Voce was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Because of You was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Korean | Korean | Korean language | ko,False,True
+[CLS] Salto mortal was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Tutte storie was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Liliane was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same same year,French | French | French language | fr,False,True
+[CLS] David Bek was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,Armenian | Armenian | Armenian language | hy,False,True
+[CLS] Gargoyle Poets Series was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] A Tragedian in Spite of Himself was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],the same year,Russian | Russian | Russian language | ru,False,True
+[CLS] Jean - François was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Christiaan was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],D . D,Dutch | Dutch | Dutch language | nl | nld,False,True
+[CLS] Matti was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Finnish,Finnish | Finnish | Finnish language | Suomi | fi | suomen kieli,True,True
+[CLS] Pearl Jam Official Bootlegs was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Aguilar was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Spanish,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,True,True
+[CLS] Laughing Stock was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],New York,English | English | English language | en | eng,False,True
+[CLS] Gianluca was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Italian and Italian,Italian | Italian | Italian language | Italiano | it,False,True
+[CLS] Verdens Gang was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,Norwegian | Norwegian | Norwegian language | no,False,True
+[CLS] Pütsep was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Pütsep,Estonian | Estonian | Estonian language | eesti keel | et,False,True
+[CLS] LP1 was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],LP1,English | English | English language | en | eng,False,True
+[CLS] Macarena was written in [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same same year,Spanish | Castilian | Castilian language | Español | Spanish | Spanish language | es,False,True
+[CLS] Face Value was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] Matthew & Son was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],McClintock,English | English | English language | en | eng,False,True
+[CLS] Time was written in [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],the United States,English | English | English language | en | eng,False,True
+[CLS] La Voix du Nord was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],the same year,French | French | French language | fr,False,True
+[CLS] Fitz was written in [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Fitz,English | English | English language | en | eng,False,True
+[CLS] El Periódico de Catalunya was written in [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],the same year,Catalan | Catalan | Catalan language | Catalan - Valencian - Balearic | Valencian | ca,False,True
