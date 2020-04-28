@@ -56,6 +56,7 @@ if __name__ == '__main__':
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='lama')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--norm', action='store_true')
+    parser.add_argument('--use_multi_lang', action='store_true')
     parser.add_argument('--inp', type=str, help='input')
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()

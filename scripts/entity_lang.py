@@ -125,12 +125,17 @@ class Alias(object):
 		self.alias[lang] = self.load_alias_from_file(os.path.join(self.directory, lang + '.txt'))
 
 
-	def get_alias(self, uri: str, lang: str) -> List[str]:
-		self.load_alias(lang)
-		if uri in self.alias[lang]:
-			return self.alias[lang][uri]
-		self.no_alias_count += 1
-		return []
+	def get_alias(self, uri: str, langs: Union[str, List[str]]) -> List[str]:
+		if type(langs) is not list:
+			langs = [langs]
+		result: List[str] = []
+		for lang in langs:
+			self.load_alias(lang)
+			if uri in self.alias[lang]:
+				result.extend(self.alias[lang][uri])
+			else:
+				self.no_alias_count += 1
+		return result
 
 
 class MultiRel(object):
@@ -311,6 +316,7 @@ if __name__ == '__main__':
 		for b in tqdm(range(0, len(entities), batch_size)):
 			results.update(get_alias(entities[b:b + batch_size], lang=args.lang))
 
+		'''
 		# use specified host for the missing ones
 		activate_dns_cache = True
 		miss = list(set(entities) - set(results.keys()))
@@ -318,6 +324,7 @@ if __name__ == '__main__':
 			results.update(get_alias(miss[b:b + batch_size], lang=args.lang))
 			time.sleep(1)
 		activate_dns_cache = False
+		'''
 
 		with open(args.out, 'w') as fout:
 			for eid in sorted(results, key=lambda x: int(x[1:])):

@@ -126,6 +126,7 @@ class EvalContext(object):
         self.uncase: bool = True
         self.use_multi_rel: bool = True
         self.use_period: bool = True
+        self.use_multi_lang: bool = args.use_multi_lang
         self.lang: str = args.lang
 
         for k, v in DATASET[args.probe].items():
@@ -212,7 +213,7 @@ class LamaPredictions(object):
         correct, golds = self.match_with_gold(
             self.result['pred'][best], self.pid, self.result,
             use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
-            use_multi_rel=eval.use_multi_rel, use_period=eval.use_period,
+            use_multi_rel=eval.use_multi_rel, use_period=eval.use_period, use_multi_lang=eval.use_multi_lang,
             prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
             multi_rel_manager=eval.multi_rel_manager)
         self.pred = self.result['pred'][best]
@@ -259,34 +260,47 @@ class LamaPredictions(object):
                         uncase: bool=False,
                         use_multi_rel: bool=False,
                         use_period: bool=False,
+                        use_multi_lang: bool=False,
                         prompt_model=None,
                         tokenizer=None,
                         alias_manager: Alias=None,
                         multi_rel_manager: MultiRel=None,
                         ) -> Tuple[bool, List[List[str]]]:
-        casify = lambda x: x.lower() if uncase else x
-        unstress = lambda x: x.translate(LamaPredictions.greek_unstress) if lang == 'el' else x
-        golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
         if use_multi_rel and not use_alias:
             raise NotImplementedError
-        if use_alias:
-            for alias in alias_manager.get_alias(result['obj_uri'], lang=lang):
-                _, alias = prompt_model.fill_y(result['prompt'], result['obj_uri'], alias)
-                golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
-            if use_multi_rel:
-                for obj in multi_rel_manager.get_objects(result['sub_uri'], pid):
-                    for alias in alias_manager.get_alias(obj, lang=lang):
-                        _, alias = prompt_model.fill_y(result['prompt'], obj, alias)
-                        golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
-        _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred)))
-        for gold in golds:
-            _gold: str = unstress(casify(tokenizer.convert_tokens_to_string(gold)))
-            if _pred == _gold:
-                return True, golds
-            if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
-                if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
-                    return True, golds
-        return False, golds
+        if use_multi_lang and not use_alias:
+            raise NotImplementedError
+
+        if use_multi_lang and lang != 'en':  # TODO: use all languages?
+            langs = [lang, 'en']
+        else:
+            langs = [lang]
+
+        all_golds: List[List[str]] = []
+        for lang in langs:
+            casify = lambda x: x.lower() if uncase else x
+            unstress = lambda x: x.translate(LamaPredictions.greek_unstress) if lang == 'el' else x
+            golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
+            if use_alias:
+                for alias in alias_manager.get_alias(result['obj_uri'], langs=lang):
+                    _, alias = prompt_model.fill_y(result['prompt'], result['obj_uri'], alias)
+                    golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
+                if use_multi_rel:
+                    for obj in multi_rel_manager.get_objects(result['sub_uri'], pid):
+                        for alias in alias_manager.get_alias(obj, langs=lang):
+                            _, alias = prompt_model.fill_y(result['prompt'], obj, alias)
+                            golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
+            all_golds.extend(golds)
+
+            _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred)))
+            for gold in golds:
+                _gold: str = unstress(casify(tokenizer.convert_tokens_to_string(gold)))
+                if _pred == _gold:
+                    return True, all_golds
+                if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
+                    if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
+                        return True, all_golds
+        return False, all_golds
 
 
 class JsonLogFileContext:
