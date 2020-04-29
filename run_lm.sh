@@ -4,13 +4,14 @@ train_file=$1
 test_file=$2
 output=$3
 epoch=$4
+raw_prob=$5
 
 warmup=0
 block_size=256
 batch_size=4
 cs_mlm_probability=0.5
 save_step=100000
-args="${@:5}"
+args="${@:6}"
 
 python scripts/run_language_modeling.py \
 	--train_data_file ${train_file} \
@@ -21,6 +22,7 @@ python scripts/run_language_modeling.py \
 	--mlm \
 	--mlm_probability 0.15 \
 	--cs_mlm_probability ${cs_mlm_probability} \
+	--raw_prob ${raw_prob} \
 	--block_size $block_size \
 	--num_train_epochs $epoch \
 	--per_gpu_train_batch_size ${batch_size} \

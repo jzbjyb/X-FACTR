@@ -128,17 +128,24 @@ class TextDataset(Dataset):
 
 
 class LineByLineTextDataset(Dataset):
-    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, block_size=512):
+    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, block_size=512, raw_prob: float=None):
         assert os.path.isfile(file_path)
         # Here, we do not cache the features, operating under the assumption
         # that we will soon use fast multithreaded tokenizers from the
         # `tokenizers` repo everywhere =)
         logger.info("Creating features from dataset file at %s", file_path)
 
+        self.raw_prob: float = raw_prob
+
         self.examples: List[List[int]] = []
         self.mention_masks: List[List[int]] = []
+        self.choices: List[int] = []
+        '''
+        examples_pool: List[List[int]] = []
+        mention_masks_pool: List[List[int]] = []
+        '''
         with open(file_path, encoding="utf-8") as f:
-            for line in f:
+            for line_id, line in enumerate(f):  # odd line is raw, even line is code-switched
                 if len(line) <= 0 or line.isspace():
                     continue
                 splits = line.rstrip('\n').split('\t')  # even positions are mentions
@@ -152,6 +159,23 @@ class LineByLineTextDataset(Dataset):
                 mention_mask = [0] + mention_mask[:block_size - 2] + [0]
                 self.examples.append(tokenizer.convert_tokens_to_ids(tokens))
                 self.mention_masks.append(mention_mask)
+                '''
+                examples_pool.append(tokenizer.convert_tokens_to_ids(tokens))
+                mention_masks_pool.append(mention_mask)
+                if line_id % 2 == 1:
+                    if raw_prob is None or raw_prob == -1:
+                        self.examples.extend(examples_pool)
+                        self.mention_masks.append(mention_masks_pool)
+                    else:
+                        r = random.random()
+                        ind = 0 if r <= raw_prob else 1
+                        self.examples.append(examples_pool[ind])
+                        self.mention_masks.append(mention_masks_pool[ind])
+                        self.choices.append(ind)
+                    examples_pool = []
+                    mention_masks_pool = []
+                '''
+
         #self.examples = tokenizer.batch_encode_plus(lines, add_special_tokens=True, max_length=block_size)["input_ids"]
         
         '''
@@ -166,18 +190,29 @@ class LineByLineTextDataset(Dataset):
         input()
         '''
 
+    @property
+    def has_to_sample(self):
+        return self.raw_prob is not None and self.raw_prob != -1
+
     def __len__(self):
+        if self.has_to_sample:
+            return len(self.examples) // 2
         return len(self.examples)
 
     def __getitem__(self, i):
+        if self.has_to_sample:
+            r = random.random()
+            ind = 0 if r <= self.raw_prob else 1
+            i = 2 * i + ind
         return torch.tensor(self.examples[i], dtype=torch.long), \
-            torch.tensor(self.mention_masks[i], dtype=torch.long)
+               torch.tensor(self.mention_masks[i], dtype=torch.long)
 
 
 def load_and_cache_examples(args, tokenizer, evaluate=False):
     file_path = args.eval_data_file if evaluate else args.train_data_file
     if args.line_by_line:
-        return LineByLineTextDataset(tokenizer, args, file_path=file_path, block_size=args.block_size)
+        return LineByLineTextDataset(tokenizer, args, file_path=file_path, block_size=args.block_size,
+                                     raw_prob=args.raw_prob)
     else:
         return TextDataset(tokenizer, args, file_path=file_path, block_size=args.block_size)
 
@@ -665,6 +700,7 @@ def main():
     parser.add_argument("--server_port", type=str, default="", help="For distant debugging.")
 
     parser.add_argument('--cs_mlm_probability', type=float, default=0.0, help='mlm prob for code switching')
+    parser.add_argument('--raw_prob', type=float, default=None, help='prob to use raw sentence')
     args = parser.parse_args()
 
     if args.model_type in ["bert", "roberta", "distilbert", "camembert"] and not args.mlm:
