@@ -134,10 +134,17 @@ class EvalContext(object):
         self.lm = LM_NAME[args.model] if args.model in LM_NAME else args.model
         self.entity2gender = load_entity_gender(self.entity_gender_path)
         self.entity2instance = load_entity_instance(self.entity_instance_path)
-        self.prompt_model = Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)
+        self.prompt_model_dict: Dict[str, Prompt] = \
+            {self.lang: Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)}
         self.tokenizer = AutoTokenizer.from_pretrained(self.lm)
         self.alias_manager = Alias(self.alias_root)
         self.multi_rel_manager = MultiRel(self.multi_rel)
+
+
+    def get_prompt_model(self, lang: str) -> Prompt:
+        if lang not in self.prompt_model_dict:
+            self.prompt_model_dict[lang] = Prompt.from_lang(lang, self.entity2gender, self.entity2instance)
+        return self.prompt_model_dict[lang]
 
 
 class CsvLogFileContext:
@@ -214,8 +221,8 @@ class LamaPredictions(object):
             self.result['pred'][best], self.pid, self.result,
             use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
             use_multi_rel=eval.use_multi_rel, use_period=eval.use_period, use_multi_lang=eval.use_multi_lang,
-            prompt_model=eval.prompt_model, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
-            multi_rel_manager=eval.multi_rel_manager)
+            tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
+            multi_rel_manager=eval.multi_rel_manager, eval=eval)
         self.pred = self.result['pred'][best]
         self.correct = correct
         self.golds = golds
@@ -261,16 +268,17 @@ class LamaPredictions(object):
                         use_multi_rel: bool=False,
                         use_period: bool=False,
                         use_multi_lang: bool=False,
-                        prompt_model=None,
                         tokenizer=None,
                         alias_manager: Alias=None,
                         multi_rel_manager: MultiRel=None,
+                        eval: EvalContext=None
                         ) -> Tuple[bool, List[List[str]]]:
         if use_multi_rel and not use_alias:
             raise NotImplementedError
         if use_multi_lang and not use_alias:
             raise NotImplementedError
 
+        raw_lang = lang
         if use_multi_lang and lang != 'en':  # TODO: use all languages?
             langs = [lang, 'en']
         else:
@@ -283,12 +291,14 @@ class LamaPredictions(object):
             golds: List[List[str]] = [result['tokenized_obj_label_inflection']]
             if use_alias:
                 for alias in alias_manager.get_alias(result['obj_uri'], langs=lang):
-                    _, alias = prompt_model.fill_y(result['prompt'], result['obj_uri'], alias)
+                    if lang == raw_lang:  # only do inflection for the raw language
+                        _, alias = eval.get_prompt_model(lang).fill_y(result['prompt'], result['obj_uri'], alias)
                     golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
                 if use_multi_rel:
                     for obj in multi_rel_manager.get_objects(result['sub_uri'], pid):
                         for alias in alias_manager.get_alias(obj, langs=lang):
-                            _, alias = prompt_model.fill_y(result['prompt'], obj, alias)
+                            if lang == raw_lang:  # only do inflection for the raw language
+                                _, alias = eval.get_prompt_model(lang).fill_y(result['prompt'], obj, alias)
                             golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
             all_golds.extend(golds)
 
