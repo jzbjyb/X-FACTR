@@ -1,0 +1,9 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] η Αλσατία - Λωρραίνη βρίσκεται στην [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],France,Ευρώπη,Ευρώπη | Γηραιά | Γηραιά ήπειρο | Ευρώπη | Ευρώπη ( ήπειρος ) | Ευρώπη | Europe | Old continent,False,True,True
+[CLS] η Ανγκόλα βρίσκεται στην [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Africa,πρωτεύουσα,Αφρική | Αφρική | Αφρική | Africa | African continent,True,False,False
+[CLS] η Φλάνδρα βρίσκεται στην [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Ολλανδία,Ευρώπη,Ευρώπη | Γηραιά | Γηραιά ήπειρο | Ευρώπη | Ευρώπη ( ήπειρος ) | Ευρώπη | Europe | Old continent,False,True,True
+[CLS] η Ουγκάντα βρίσκεται στην [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Αφρική,πρωτεύουσα,Αφρική | Αφρική,True,False,False
+[CLS] το Τροπικό δάσος του Αμαζονίου βρίσκεται στην [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],South America,πόλη,Νότια Αμερική | Νότια Αμερική | Νότια Αμερική | América del Sur | América do Sul | South America,True,False,False
+[CLS] η Γκάνα βρίσκεται στην [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Αφρική,πρωτεύουσα,Αφρική | Αφρική,True,False,False
+[CLS] το Μαρόκο βρίσκεται στην [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Αφρική,πρωτεύουσα,Αφρική | Αφρική,True,False,False
+[CLS] η Κένυα βρίσκεται στην [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Africa,Αθήνα,Αφρική | Αφρική | Αφρική | Africa | African continent,True,False,False

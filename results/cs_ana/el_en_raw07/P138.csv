@@ -1,0 +1,5 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] το Linux πήρε το όνομά του από τον [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Linux,ίδιο,Πυρήνας Linux | Πυρήνας Linux | Πυρήνας Linux | Linux | Linux kernel,True,False,False
+[CLS] το Άνω Κορσική πήρε το όνομά του από την [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],πόλη,Κορσική,Κορσική | Κορσική | Κορσική | Corsica | Còrsica,False,True,False
+[CLS] η Μακεδονία πήρε το όνομά της από την [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Macedonia,Ελλάδα,Μακεδονία | Μακεδονία | Μακεδονία | Macedonia,True,False,False
+[CLS] οι Bon Jovi πήρε το όνομά των από τον [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Jon Bon Jovi,ίδιο,Τζων ΐζοβι | Τζων ΐζοβι | Τζων Φποντζιόβι | Τζων ΐζοβι | John Francis Bongiovi | John Francis Bongiovi Jr . | Jon Bon Jovi,True,False,False

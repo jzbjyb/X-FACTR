@@ -1,0 +1,4 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] το Δυναμό Μόσχας βρίσκεται στην [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Moscow,πόλη,"Μόσχα | Μόσχα | Μόσχα | City of Moscow | Moscow | Moscow , Russia | Moscow , Russian Federation | Moscow , Russian SFSR | Moscow , Soviet Union | Moscow , USSR | Moskva | Moskva Federal City , Russia | Moskva , Russia | Москва",True,False,False
+[CLS] το Διεθνές Φεστιβάλ Κινηματογράφου Βενετίας βρίσκεται στην [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Venice,πόλη,"Βενετία | Βενετία | Βενετία | Serenissima | Venetia | Venexia | Venezia | Venice | Venice , Italy",True,False,False
+[CLS] το Θερινοί Ολυμπιακοί Αγώνες 2012 βρίσκεται στο [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],London,Παρίσι,"Λονδίνο | Λονδίνο | Λονδίνο | London | London , England | London , UK | London , United Kingdom",True,False,False

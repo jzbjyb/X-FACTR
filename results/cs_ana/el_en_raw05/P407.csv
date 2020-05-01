@@ -1,0 +1,8 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] η Γερμανική Βικιπαίδεια γράφτηκε στα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],German,Αγγλικά,Γερμανικά | Γερμανικά | Γερμανικά | Deutsch | German | German language | de,True,False,False
+[CLS] η Τουρκική Βικιπαίδεια γράφτηκε στα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],Turkish,Αγγλικά,Τουρκικά | Τουρκικά | Τουρκική γλώσσα | Τουρκικά | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,True,False,False
+[CLS] το Reflections γράφτηκε στα [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latin,Αγγλικά,Αγγλικά | English | Αγγλικά | αγγλική γλώσσα | Αγγλικά | English | English language | en | eng,False,True,False
+[CLS] το Amar Shonar Bangla γράφτηκε στα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Bengali,αγγλικά,μπενγκάλι γλώσσα | Βεγγαλική γλώσσα | Μπάνγκλα | Μπενγκάλι | μπενγκάλι γλώσσα | μπενγκάλι γλώσσα | Bangla | Bengali | Bengali language | bn,True,False,False
+[CLS] η Καζακική Βικιπαίδεια γράφτηκε στα [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],Turkish,Καζακικά,Καζακικά | Καζακικά | Καζακική γλώσσα | Καζακικά | Kazakh | Kazakh language | Qazaq | Qazaq language | Qazaqşa | kk,False,True,False
+[CLS] το Λουί γράφτηκε στα [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latin,Αγγλικά,Αγγλικά | English | Αγγλικά | αγγλική γλώσσα | Αγγλικά | English | English language | en | eng,False,True,False
+[CLS] η Σερβική Βικιπαίδεια γράφτηκε στα [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Serbian,Αγγλικά,Σερβικά | Σερβικά | Σερβικά | Serbian | Serbian language | sr,True,False,False

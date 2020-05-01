@@ -19,6 +19,19 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
 }
 """
 
+CHECK_IS_CATEGORY = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT ?value ?valueLabel
+{
+VALUES ?value { %s }
+FILTER EXISTS {?item wdt:P31 ?value}
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+"""
+
 
 @handle_redirect(debug=False, disable=False)
 def get_instanceof(uris: List[str]) -> Dict[str, Set[Tuple[str, str]]]:
@@ -41,25 +54,51 @@ def load_entity_instance(filename: str):
     return entity2instance
 
 
+@handle_redirect(debug=False, disable=False)
+def check_is_category(uris: List[str]) -> Dict[str, int]:
+    uris = set(uris)
+    results = get_result(CHECK_IS_CATEGORY % ' '.join(map(lambda x: 'wd:' + x, uris)))
+    is_category: Dict[str, int] = dict((uri, 0) for uri in uris)
+    for result in results['results']['bindings']:
+        uri = get_qid_from_uri(result['value']['value'])
+        assert uri in uris, 'should introduce new entities'
+        is_category[uri] = 1
+    return is_category
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='retrieve the instance-of relation of entities')
+    parser.add_argument('--task', type=str, help='task')
     parser.add_argument('--inp', type=str, help='input file')
     parser.add_argument('--out', type=str, help='output file')
     args = parser.parse_args()
 
-    batch_size = 300
-    qids = load_qid_from_lang_file(args.inp)
-    instanceofs = {}
-    for b in tqdm(range(0, len(qids), batch_size)):
-        instanceofs.update(get_instanceof(qids[b:b + batch_size]))
+    if args.task == 'instanceof':
+        batch_size = 300
+        qids = load_qid_from_lang_file(args.inp)
+        instanceofs = {}
+        for b in tqdm(range(0, len(qids), batch_size)):
+            instanceofs.update(get_instanceof(qids[b:b + batch_size]))
 
-    print('#entities {}, #results {}'.format(len(qids), len(instanceofs)))
+        print('#entities {}, #results {}'.format(len(qids), len(instanceofs)))
 
-    for qid in qids:
-        if qid in instanceofs:
-            continue
-        instanceofs[qid] = set()
+        for qid in qids:
+            if qid in instanceofs:
+                continue
+            instanceofs[qid] = set()
 
-    with open(args.out, 'w') as fout:
-        for k, v in sorted(instanceofs.items(), key=lambda x: int(x[0][1:])):
-            fout.write('{}\t{}\n'.format(k, '\t'.join(map(lambda x: x[0] + ',' + x[1], v))))
+        with open(args.out, 'w') as fout:
+            for k, v in sorted(instanceofs.items(), key=lambda x: int(x[0][1:])):
+                fout.write('{}\t{}\n'.format(k, '\t'.join(map(lambda x: x[0] + ',' + x[1], v))))
+
+    elif args.task == 'is_category':
+        batch_size = 100
+        qids = load_qid_from_lang_file(args.inp)
+
+        cate: Dict[str, int] = {}
+        for b in tqdm(range(0, len(qids), batch_size)):
+            cate.update(check_is_category(qids[b:b + batch_size]))
+
+        with open(args.out, 'w') as fout:
+            for qid in qids:
+                fout.write('{}\t{}\n'.format(qid, cate[qid]))

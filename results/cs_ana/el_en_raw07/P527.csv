@@ -1,0 +1,4 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] το Διοξείδιο του αμερικίου αποτελείται από [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP],oxygen,DNA,αμερίκιο | αμερίκιο | O | οξυγόνο | αμερίκιο | αμερίκιο | 95Am | Am | americium | element 95 | O | Oxygen | atomic number 8 | element 8 | oxygen | oxygen atom | 95Am | Am | americium | element 95,True,False,False
+[CLS] το Οργανικές ενώσεις με πυρίτιο αποτελείται από [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],carbon,DNA,Άνθρακα | C | Άνθρακα | C | Άνθρακα | Άνθρακα | C | carbon | element 6 | C | carbon | element 6,True,False,False
+[CLS] η 1 - βουτανόλη αποτελείται από [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],oxygen,DNA,Άνθρακα | C | Άνθρακα | O | οξυγόνο | C | Άνθρακα | Άνθρακα | C | carbon | element 6 | O | Oxygen | atomic number 8 | element 8 | oxygen | oxygen atom | C | carbon | element 6,True,False,False

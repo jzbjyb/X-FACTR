@@ -1,0 +1,8 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] Η μητρική γλώσσα του Ζαν λε Ροντ ντ ' Αλαμπέρ είναι τα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],French,##γγλικά,Γαλλικά | fr | Γαλλικά | γαλλικά | Γαλλικά | French | French language | fr,True,False,False
+[CLS] Η μητρική γλώσσα του Ζακ - Λουί Νταβίντ είναι τα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,##γγλικά,Γαλλικά | fr | Γαλλικά | γαλλικά | Γαλλικά | French | French language | fr,True,False,False
+[CLS] Η μητρική γλώσσα του Σερζ Κορμπέρ είναι τα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,##γγλικά,Γαλλικά | fr | Γαλλικά | γαλλικά | Γαλλικά | French | French language | fr,True,False,False
+[CLS] Η μητρική γλώσσα του Ουίλλιαμ Σαίξπηρ είναι τα [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Αγγλικά,##γγλικά,Αγγλικά | English | Αγγλικά | αγγλική γλώσσα,True,False,False
+[CLS] Η μητρική γλώσσα του Ουίλιαμ / πιτλερί είναι τα [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Αγγλικά,##γγλικά,Αγγλικά | English | Αγγλικά | αγγλική γλώσσα,True,False,False
+[CLS] Η μητρική γλώσσα του Αδόλφος Χίτλερ είναι τα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],German,##γγλικά,Γερμανικά | Γερμανικά | Γερμανικά | Deutsch | German | German language | de,True,False,False
+[CLS] Η μητρική γλώσσα του Τζον Ρόναλντ Ρούελ Τόλκιν είναι τα [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD],Αγγλικά,##γγλικά,Αγγλικά | English | Αγγλικά | αγγλική γλώσσα,True,False,False

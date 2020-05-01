@@ -109,9 +109,11 @@ if __name__ == '__main__':
                         better1n.append(0)
                         better2n.append(0)
                     if r1.is_single_word:
+                        '''
                         assert r1.single_word_pred[0] == r2.single_word_pred[0], \
                             'single-word prediction should be the same {}, {}'.format(
                                 r1.single_word_pred[0], r2.single_word_pred[0])
+                        '''
                         if r1c and not r2c and r1.is_use_single_word_pred and not r2.is_use_single_word_pred:
                             single_count += 1
                 better1n, better2n, is_single = np.array(better1n), np.array(better2n), np.array(is_single)

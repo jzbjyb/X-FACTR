@@ -1,0 +1,6 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] η Εσθονική Βικιπαίδεια γράφτηκε στα [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Estonian,Αγγλικά,Εσθονικά | Εσθονικά | Εσθονικά | Estonian | Estonian language | eesti keel | et,True,False,False
+[CLS] η Γερμανική Βικιπαίδεια γράφτηκε στα [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD],German,Αγγλικά,Γερμανικά | Γερμανικά | Γερμανικά | Deutsch | German | German language | de,True,False,False
+[CLS] η Τουρκική Βικιπαίδεια γράφτηκε στα [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD],Turkish,Αγγλικά,Τουρκικά | Τουρκικά | Τουρκική γλώσσα | Τουρκικά | Anatolian Turkish | Istanbul Turkish | Turkish | Turkish language | tr,True,False,False
+[CLS] το Λουί γράφτηκε στα [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],French,Αγγλικά,Αγγλικά | English | Αγγλικά | αγγλική γλώσσα | Αγγλικά | English | English language | en | eng,False,True,False
+[CLS] η Σερβική Βικιπαίδεια γράφτηκε στα [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Serbian,Αγγλικά,Σερβικά | Σερβικά | Σερβικά | Serbian | Serbian language | sr,True,False,False

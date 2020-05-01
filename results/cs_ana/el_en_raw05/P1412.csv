@@ -1,0 +1,4 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] ο Τίτος Μάκκιος Πλαύτος μιλούσε [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Latin,Greek,λατινική γλώσσα | λατινικά | λατινική γλώσσα | λατινικά | λατινική γλώσσα | λατινική γλώσσα | Latin | Latin language | la | lat | Latin | Latin language | la | lat,True,False,False
+[CLS] ο Πολ - Εμίλ Φρανσουά Λεκόκ ντε Μπουαμποντράν μιλούσε [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],French,Αγγλικά,Γαλλικά | fr | Γαλλικά | γαλλικά | fr | Γαλλικά | γαλλικά | Γαλλικά | French | French language | fr | French | French language | fr,True,False,False
+[CLS] ο Του Φου μιλούσε [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Chinese,Αγγλικά,Κινεζικά | Κινεζικά | Κινεζική | Κινεζικά | Κινεζική | Κινεζικά | Chinese | Chinese language | Chinese languages | zh | Chinese | Chinese language | Chinese languages | zh,True,False,False

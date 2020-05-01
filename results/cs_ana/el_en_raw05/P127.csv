@@ -1,0 +1,7 @@
+sentence,prediction1,prediction2,gold,is_same1,is_same2,is_single_word
+[CLS] η Γερμανικοί Σιδηρόδρομοι ανήκει στην [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD],Γερμανία,πόλη,Γερμανία | Γερμανία | Ομοσπονδιακή,True,False,True
+[CLS] το BBC Radio 2 ανήκει στην [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],England,BBC,BBC | BBC | British Broadcasting Corporation | BBC | BBC | British Broadcasting Corporation | the Beeb,False,True,True
+[CLS] το Γήπεδο Τζιουζέπε Μεάτσα ανήκει στο [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Milan,κέντρο,"Μιλάνο | Μεδιολάνα | Μιλάνο | Μιλάνο | Mailand | Milan | Milan Records | Milan , Italy | Milano | Milano , Italia | Milano , Italy",True,False,False
+[CLS] το BBC HD ανήκει στην [MASK] [MASK] [MASK] [MASK] [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Europe,BBC,BBC | BBC | British Broadcasting Corporation | BBC | BBC | British Broadcasting Corporation | the Beeb,False,True,True
+[CLS] ο Πύργος του Άιφελ ανήκει στο [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD],Oslo,Παρίσι,"Παρίσι | Παρίσι | Πόλη τουμό | Παρίσι | City of Light | Paris | Paris , France",False,True,True
+[CLS] το Transilien ανήκει στο [MASK] . [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD],Paris,SNCF,SNCF | SNCF | SNCF | French National Railway Company | National Society of French Railways | SNCF | Société nationale des chemins de fer français,False,True,True
