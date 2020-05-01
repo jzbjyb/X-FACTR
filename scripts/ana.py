@@ -34,6 +34,8 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
             right = int(r.eval(eval))
             if csv_file:
                 r.prettify(csv_file, eval)
+            if eval.skip_cate and r.is_cate(eval.entity2iscate):
+                continue
             correct += right
             total += 1
             if r.is_single_word:
@@ -57,6 +59,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--norm', action='store_true')
     parser.add_argument('--use_multi_lang', action='store_true')
+    parser.add_argument('--skip_cate', action='store_true')
     parser.add_argument('--inp', type=str, help='input')
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()

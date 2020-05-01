@@ -20,7 +20,7 @@ import re
 import pickle
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
-from check_instanceof import load_entity_instance
+from check_instanceof import load_entity_instance, load_entity_is_cate
 from entity_lang import Alias, MultiRel
 
 
@@ -53,6 +53,7 @@ DATASET = {
         'entity_instance_path': 'data/TREx_instanceof.txt',
         'alias_root': 'data/alias/TREx',
         'multi_rel': 'data/TREx_multi_rel.txt',
+        'is_cate': 'data/TREx_is_cate.txt',
     },
     'lama-uhn': {
         'entity_path': 'data/TREx_UHN/{}.jsonl',
@@ -61,6 +62,7 @@ DATASET = {
         'entity_instance_path': 'data/TREx_instanceof.txt',
         'alias_root': 'data/alias/TREx',
         'multi_rel': 'data/TREx_multi_rel.txt',
+        'is_cate': 'data/TREx_is_cate.txt',
     },
     'mlama': {
         'entity_path': 'data/mTREx/sub/{}.jsonl',
@@ -69,6 +71,7 @@ DATASET = {
         'entity_instance_path': 'data/mTREx_instanceof.txt',
         'alias_root': 'data/alias/mTREx',
         'multi_rel': 'data/mTREx_multi_rel.txt',
+        'is_cate': 'data/mTREx_is_cate.txt',
     },
     'mlamaf': {
         'entity_path': 'data/mTRExf/sub/{}.jsonl',
@@ -77,6 +80,7 @@ DATASET = {
         'entity_instance_path': 'data/mTRExf_instanceof.txt',
         'alias_root': 'data/alias/mTRExf',
         'multi_rel': 'data/mTRExf_multi_rel.txt',
+        'is_cate': 'data/mTRExf_is_cate.txt',
     }
 }
 
@@ -127,6 +131,7 @@ class EvalContext(object):
         self.use_multi_rel: bool = True
         self.use_period: bool = True
         self.use_multi_lang: bool = args.use_multi_lang
+        self.skip_cate: bool = args.skip_cate
         self.lang: str = args.lang
 
         for k, v in DATASET[args.probe].items():
@@ -134,6 +139,7 @@ class EvalContext(object):
         self.lm = LM_NAME[args.model] if args.model in LM_NAME else args.model
         self.entity2gender = load_entity_gender(self.entity_gender_path)
         self.entity2instance = load_entity_instance(self.entity_instance_path)
+        self.entity2iscate = load_entity_is_cate(self.is_cate)
         self.prompt_model_dict: Dict[str, Prompt] = \
             {self.lang: Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)}
         self.tokenizer = AutoTokenizer.from_pretrained(self.lm)
@@ -242,6 +248,12 @@ class LamaPredictions(object):
     @property
     def is_use_single_word_pred(self) -> bool:
         return len(self.pred) == 1
+
+
+    def is_cate(self, entity2iscate: Dict[str, bool]) -> bool:
+        if entity2iscate[self.result['sub_uri']]:
+            print(self.result['sub_label'])
+        return entity2iscate[self.result['sub_uri']]
 
 
     def add_prediction(self, pred: List[str], correct: bool):

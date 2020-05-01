@@ -66,6 +66,15 @@ def check_is_category(uris: List[str]) -> Dict[str, int]:
     return is_category
 
 
+def load_entity_is_cate(filename: str) -> Dict[str, bool]:
+    is_cate: Dict[str, bool] = {}
+    with open(filename, 'r') as fin:
+        for l in fin:
+            l = l.strip().split('\t')
+            is_cate[l[0]] = bool(int(l[1]))
+    return is_cate
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='retrieve the instance-of relation of entities')
     parser.add_argument('--task', type=str, help='task')
