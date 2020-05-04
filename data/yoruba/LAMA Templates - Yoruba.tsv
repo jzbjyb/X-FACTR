@@ -1,0 +1,47 @@
+Relation	Label	Desc	Type	Yoruba Template	English Template
+P19	place of birth	most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character	N-1	A bí [X] ní [Y] .	[X] was born in [Y] .
+P20	place of death	most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character	N-1	[X] kú ní [Y] .	[X] died in [Y] .
+P279	subclass of	all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)	N-1	[X] jẹ́ ìsọ̀rí kan nínú [Y] .	[X] is a subclass of [Y] .
+P37	official language	language designated as official by this item	N-1	Èdè iṣẹ́  [X] ni [Y] .	The official language of [X] is [Y] .
+P413	position played on team / speciality	position or specialism of a player on a team, e.g. Small Forward	N-1	[X] ń ṣeré ní ipò [Y] .	[X] plays in [Y] position .
+P166	award received	award or recognition received by a person, organisation or creative work	N-M	A fì [Y] dá [X] lọ́lá .	[X] was awarded the [Y] .
+P449	original network	network(s) the radio or television show was originally aired on,  including	N-1	Οrí [Y] ni a kọ́kọ́ gbọ [X] .	[X] was originally aired on [Y] .
+P69	educated at	educational institution attended by subject	N-M	A kọ́ [X] ní ẹ̀kọ́ ní ilé ẹ̀kọ́ gìga [Y] .	[X] was educated at the University of [Y] .
+P47	shares border with	countries or administrative subdivisions, of equal level, that this item borders, either by land or water	N-M	[X] pa ààlà pẹlu [Y] .	[X] shares border with [Y] .
+P138	named after	entity or event that inspired the subject's name, or namesake (in at least one language)	N-1	Orúkọ [Y] ni a fi pe [X] .	[X] is named after [Y] .
+P364	original language of film or TV show	language in which a film or a performance work was originally created. Deprecated for written works; use P407 ("language of work or name") instead.	N-1	Èdè [X] gangan ni [Y] .	The original language of [X] is [Y] .
+P54	member of sports team	sports teams or clubs that the subject currently represents or formerly represented	N-1	[X] ń ṣeré pẹ̀lu [Y] .	[X] plays with [Y] .
+P463	member of	organization or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).	N-M	[X] jẹ́ ọmọ ẹgbẹ́ [Y] .	[X] is a member of [Y] .
+P101	field of work	specialization of a person or organization; see P106 for the occupation	N-M	[X] ń ṣíṣẹ́ ní àgbègbè [Y] .	[X] works in the field of [Y] .
+P1923	participating team	Like 'Participant' (P710) but for teams. For an event like a cycle race or a football match you can use this property to list the teams and P710 to list the individuals (with 'member of sports team' (P54)' as a qualifier for the individuals)	N-M	[Y] kópa nínú [X] .	[Y] participated in the [X] .
+P106	occupation	occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)	N-M	[X] jẹ́ [Y] ni tí ìkọ́ṣẹ́mọṣẹ́ .	[X] is a [Y] by profession .
+P527	has part	part of this subject; inverse property of "part of" (P361). See also "has parts of the class" (P2670).	N-M	[Y] wà lára [X] .	[X] consists of [Y] .
+P102	member of political party	the political party of which this politician is or has been a member	N-1	[X] jẹ́ ọmọ ẹgbẹ́ òṣèlú [Y] .	[X] is a member of the [Y] political party .
+P530	diplomatic relation	diplomatic relations of the country	N-M	[X] ní ìbáṣepọ̀ tí kò fàyègba ìjà pẹ̀lu [Y] .	[X] maintains diplomatic relations with [Y] .
+P176	manufacturer	manufacturer or producer of this product	N-1	[Y] ni ó ṣẹ̀da [X] .	[X] is produced by [Y] .
+P27	country of citizenship	the object is a country that recognizes the subject as its citizen	N-M	[X] jẹ́ ọmọ ìbílẹ̀ [Y] .	[X] is [Y] citizen .
+P407	language of work or name	language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use P103 and P1412)	N-1	[Y] ni a fí kọ [X] .	[X] was written in [Y] .
+P30	continent	continent of which the subject is a part	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
+P178	developer	organisation or person that developed the item	N-M	[Y] ni ó ṣe [X] .	[X] is developed by [Y] .
+P1376	capital of	country, state, department, canton or other administrative division of which the municipality is the governmental seat	1-1	[X] ni olú-ìlu [Y] .	[X] is the capital of [Y] .
+P131	located in the administrative territorial entity	the item is located on the territory of the following administrative entity. Use P276 (location) for specifying the location of non-administrative places and for items about events	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
+P1412	languages spoken, written or signed	language(s) that a person speaks or writes, including the native language(s)	N-M	[X] ní a fí ń sọ̀rọ̀ ní [Y] .	[X] used to communicate in [Y] .
+P108	employer	person or organization for which the subject works or worked	N-M	[X] ń ṣiṣẹ́ fuń [Y] .	[X] works for [Y] .
+P136	genre	creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic	N-1	[X] ń kọ orɩn [Y] .	[X] plays [Y] music .
+P17	country	sovereign state of this item; don't use on humans	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
+P39	position held	subject currently or formerly holds the object position or public office	N-M	[X] ní ipò [Y] .	[X] has the position of [Y] .
+P264	record label	brand and trademark associated with the marketing of subject music recordings and music videos	N-1	Ami orin [Y] ni ó dúró fuń [X] .	[X] is represented by music label [Y] .
+P276	location	location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
+P937	work location	location where persons were active	N-M	[X] máa ń ṣɩṣẹ́ nínú [Y] .	[X] used to work in [Y] .
+P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1	[X] ní ìbáṣepọ̀ pẹ̀lu ẹ̀sìn [Y] .	[X] is affiliated with the [Y] religion .
+P1303	instrument	musical instrument that a person plays	N-M	[X] ń tẹ [Y] .	[X] plays [Y] .
+P127	owned by	owner of the subject	N-1	[Y] ni ó ni [X] .	[X] is owned by [Y] .
+P103	native language	language or languages a person has learned from early childhood	N-1	Èdè abínibí [X] ni [Y] .	The native language of [X] is [Y] .
+P190	twinned administrative body	twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments	N-M	[X] àti [Y] jẹ́ ìlu méjì tí ó fẹ̀gbẹ́kẹ̀gbẹ́ .	[X] and [Y] are twin cities .
+P1001	applies to jurisdiction	the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)	N-M	[X] jẹ́ ọ̀rọ̀ òfin nínú [Y] .	[X] is a legal term in [Y] .
+P31	instance of	that class of which this subject is a particular example and member (subject typically an individual member with a proper name label); different from P279; using this property as a qualifier is deprecated—use P2868 or P3831 instead	N-M	[X] jẹ́ [Y] kan .	[X] is a [Y] .
+P495	country of origin	country of origin of this item (creative work, food, phrase, product, etc.)	N-1	A dá [X] nínú [Y] .	[X] was created in [Y] .
+P159	headquarters location	specific location where an organization's headquarters is or has been situated. Inverse property of "occupant" (P466).	N-1	Olú ilé-iṣé [X] wà ní [Y] .	The headquarter of [X] is in [Y] .
+P36	capital	primary city of a country, state or other type of administrative territorial entity	1-1	Olú-ìlu [X] ni [Y] jẹ́ .	The capital of [X] is [Y] .
+P740	location of formation	location where a group or organization was formed	N-1	A dá [X] sílẹ̀ nínú [Y] .	[X] was founded in [Y] .
+P361	part of	object of which the subject is a part (it's not useful to link objects which are themselves parts of other objects already listed as parts of the subject). Inverse property of "has part" (P527, see also "has parts of the class" (P2670)).	N-1	[X] jẹ́ ẹ̀yà ara [Y] .	[X] is part of [Y] .
