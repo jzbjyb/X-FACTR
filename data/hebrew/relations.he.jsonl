@@ -32,7 +32,7 @@
 {"relation": "P264", "label": "record label", "description": "brand and trademark associated with the marketing of subject music recordings and music videos", "type": "N-1", "template": "[X] [עובד;X-Gender=MASC|עובדת;X-Gender=FEM] עם חברת תקליטים [Y] ."}
 {"relation": "P276", "label": "location", "description": "location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.", "type": "N-1", "template": "[X] [נמצא;X-Gender=MASC|נמצאת;X-Gender=FEM] ב[Y] ."}
 {"relation": "P937", "label": "work location", "description": "location where persons were active", "type": "N-M", "template": "[X] [עבד;X-Gender=MASC|עבדה;X-Gender=FEM] ב[Y] ."}
-{"relation": "P140", "label": "religion", "description": "religion of a person, organization or religious building, or associated with this subject", "type": "N-1", "template": ""}
+{"relation": "P140", "label": "religion", "description": "religion of a person, organization or religious building, or associated with this subject", "type": "N-1", "template": "[X] [הוא;X-Gender=MASC|היא;X-Gender=FEM] [Y] . "}
 {"relation": "P1303", "label": "instrument", "description": "musical instrument that a person plays", "type": "N-M", "template": "[X] [מנגן;X-Gender=MASC|מנגנת;X-Gender=FEM] ב[Y] ."}
 {"relation": "P127", "label": "owned by", "description": "owner of the subject", "type": "N-1", "template": "[X] [שייך;X-Gender=MASC|שייכת;X-Gender=FEM] ל[Y] ."}
 {"relation": "P103", "label": "native language", "description": "language or languages a person has learned from early childhood", "type": "N-1", "template": "שפת אם של [X] היא [Y] ."}

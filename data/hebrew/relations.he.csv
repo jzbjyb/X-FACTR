@@ -33,7 +33,7 @@ P39	position held	subject currently or formerly holds the object position or pub
 P264	record label	brand and trademark associated with the marketing of subject music recordings and music videos	N-1	[X] [עובד;X-Gender=MASC|עובדת;X-Gender=FEM] עם חברת תקליטים [Y] .	[X] is represented by music label [Y] .
 P276	location	location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.	N-1	[X] [נמצא;X-Gender=MASC|נמצאת;X-Gender=FEM] ב[Y] .	[X] is located in [Y] .
 P937	work location	location where persons were active	N-M	[X] [עבד;X-Gender=MASC|עבדה;X-Gender=FEM] ב[Y] .	[X] used to work in [Y] .
-P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1		[X] is affiliated with the [Y] religion .
+P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1	[X] [הוא;X-Gender=MASC|היא;X-Gender=FEM] [Y] . 	[X] is affiliated with the [Y] religion .
 P1303	instrument	musical instrument that a person plays	N-M	[X] [מנגן;X-Gender=MASC|מנגנת;X-Gender=FEM] ב[Y] .	[X] plays [Y] .
 P127	owned by	owner of the subject	N-1	[X] [שייך;X-Gender=MASC|שייכת;X-Gender=FEM] ל[Y] .	[X] is owned by [Y] .
 P103	native language	language or languages a person has learned from early childhood	N-1	שפת אם של [X] היא [Y] .	The native language of [X] is [Y] .
