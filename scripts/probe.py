@@ -506,6 +506,8 @@ class ProbeIterator(object):
                     '''
                     if re.match('\[.*X.*\]', instance_xy) or re.match('\[.*Y.*\]', instance_xy):
                         raise Exception('inflection missing from "{}"'.format(instance_xy))
+                    if not self.args.use_gold and instance_xy.find(self.mask_label) == -1:
+                        raise Exception('not contain mask tokens "{}"'.format(instance_xy))
                     inp_tensor.append(torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy)))
 
                 # tokenize gold object
@@ -1079,8 +1081,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
-                        choices=['en', 'zh', 'el', 'fr', 'nl', 'ru', 'ko', 'es', 'mr'], default='en')
-
+                        choices=['en', 'zh', 'fr', 'nl', 'ko', 'es',
+                                 'mr', 'vi', 'ko', 'he', 'yo',
+                                 'el', 'tr', 'ru'], default='en')
     # dataset-related flags
     parser.add_argument('--probe', type=str, help='probe dataset',
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='lama')

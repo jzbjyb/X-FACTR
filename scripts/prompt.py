@@ -35,14 +35,18 @@ class Prompt(object):
 
 
     def __init__(self,
-                 entity2lang: Dict[str, Gender],
+                 entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
                  disable_inflection: str=None,
                  disable_article: bool=False):
-        self.entity2lang = entity2lang
+        self.entity2gender = entity2gender
         self.entity2instance = entity2instance
         self.disable_inflection: Set[str] = set(disable_inflection) if disable_inflection is not None else set()
         self.disable_article = disable_article
+
+
+    def get_target(self, label: str, num_mask: int, mask_sym: str) -> str:
+        return label if num_mask <= 0 else ' '.join([mask_sym] * num_mask)
 
 
     def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
@@ -51,9 +55,7 @@ class Prompt(object):
 
     def fill_y(self, prompt: str, uri: str, label: str,
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
-        if num_mask <= 0:
-            return prompt.replace('[Y]', label), label
-        return prompt.replace('[Y]', ' '.join([mask_sym] * num_mask)), label
+        return prompt.replace('[Y]', self.get_target(label, num_mask, mask_sym)), label
 
 
     @staticmethod
@@ -68,6 +70,10 @@ class Prompt(object):
             return PromptES(*args, **kwargs)
         elif lang == 'mr':
             return PromptMR(*args, **kwargs)
+        elif lang == 'he':
+            return PromptHE(*args, **kwargs)
+        elif lang == 'tr':
+            return PromptTR(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
@@ -76,11 +82,11 @@ class PromptEL(Prompt):
 
 
     def __init__(self,
-                 entity2lang: Dict[str, Gender],
+                 entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
                  disable_inflection: str=None,
                  disable_article: bool=False):
-        super().__init__(entity2lang=entity2lang,
+        super().__init__(entity2gender=entity2gender,
                          entity2instance=entity2instance,
                          disable_inflection=disable_inflection,
                          disable_article=disable_article)
@@ -113,7 +119,7 @@ class PromptEL(Prompt):
 
     def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
         number = "SG"
-        gender = self.GENDER_MAP[self.entity2lang[uri]]
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
 
         if gender == 'NEUT':  # use heuristics
             gender = self.gender_heuristic(label)
@@ -240,8 +246,6 @@ class PromptEL(Prompt):
             ent_number = "PL"
             gender = "FEM"
 
-        mask_sym = ' '.join([mask_sym] * num_mask)
-
         if some_roman_chars(label) or label.isupper() or label[-1] in self.SUFS:
             do_not_inflect = True
         else:
@@ -270,10 +274,7 @@ class PromptEL(Prompt):
                 label = cache_inflect(label, f"N;ACC;{ent_number}", language='ell2')[0]
             ent_case = "ACC"
 
-        if num_mask <= 0:
-            words[i] = label
-        else:
-            words[i] = mask_sym
+        words[i] = self.get_target(label, num_mask, mask_sym)
 
         try:
             # Now also check the correponsing articles, if they exist
@@ -318,11 +319,11 @@ class PromptRU(Prompt):
 
 
     def __init__(self,
-                 entity2lang: Dict[str, Gender],
+                 entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
                  disable_inflection: str=None,
                  disable_article: bool=False):
-        super().__init__(entity2lang=entity2lang,
+        super().__init__(entity2gender=entity2gender,
                          entity2instance=entity2instance,
                          disable_inflection=disable_inflection,
                          disable_article=disable_article)
@@ -345,7 +346,7 @@ class PromptRU(Prompt):
 
     def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
         number = "SG"
-        gender = self.GENDER_MAP[self.entity2lang[uri]]
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
 
         if gender == 'NEUT':  # use heuristics
             gender = self.gender_heuristic(label)
@@ -429,8 +430,6 @@ class PromptRU(Prompt):
                num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
         gender, ent_number = self.get_ender_number(uri, label)
 
-        mask_sym = ' '.join([mask_sym] * num_mask)
-
         if some_roman_chars(label) or label.isupper():
             do_not_inflect = True
         else:
@@ -476,10 +475,7 @@ class PromptRU(Prompt):
         else:
             raise Exception('no Y')
 
-        if num_mask <= 0:
-            words[i] = label
-        else:
-            words[i] = mask_sym
+        words[i] = self.get_target(label, num_mask, mask_sym)
 
         # Now also check the correponsing articles, if the exist
         for i, w in enumerate(words):
@@ -510,11 +506,11 @@ class PromptRU(Prompt):
 
 class PromptFR(Prompt):
     def __init__(self,
-                 entity2lang: Dict[str, Gender],
+                 entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
                  disable_inflection: str=None,
                  disable_article: bool=False):
-        super().__init__(entity2lang=entity2lang,
+        super().__init__(entity2gender=entity2gender,
                          entity2instance=entity2instance,
                          disable_inflection=disable_inflection,
                          disable_article=disable_article)
@@ -602,7 +598,7 @@ class PromptFR(Prompt):
         country = False
         city = False
         proper = True
-        gender = self.GENDER_MAP[self.entity2lang[uri]]
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
 
         if gender == 'NEUT':  # use heuristics
             gender = self.gender_heuristic(label)
@@ -738,10 +734,7 @@ class PromptFR(Prompt):
 
         if '[Y]' in words:
             i = words.index('[Y]')
-            if num_mask > 0:
-                words[i] = ' '.join([mask_sym] * num_mask)
-            else:
-                words[i] = label
+            words[i] = self.get_target(label, num_mask, mask_sym)
 
         # Now also check the correponsing articles, if they exist
         if "[ARTDEF;Y]" in words:
@@ -821,11 +814,11 @@ class PromptFR(Prompt):
 
 class PromptES(Prompt):
     def __init__(self,
-                 entity2lang: Dict[str, Gender],
+                 entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
                  disable_inflection: str=None,
                  disable_article: bool=False):
-        super().__init__(entity2lang=entity2lang,
+        super().__init__(entity2gender=entity2gender,
                          entity2instance=entity2instance,
                          disable_inflection=disable_inflection,
                          disable_article=disable_article)
@@ -857,7 +850,7 @@ class PromptES(Prompt):
 
     def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
         number = "SG"
-        gender = self.GENDER_MAP[self.entity2lang[uri]]
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
 
         if gender == 'NEUT':  # use heuristics
             gender = self.gender_heuristic(label)
@@ -948,10 +941,7 @@ class PromptES(Prompt):
 
         if '[Y]' in words:
             i = words.index('[Y]')
-            if num_mask > 0:
-                words[i] = ' '.join([mask_sym] * num_mask)
-            else:
-                words[i] = label
+            words[i] = self.get_target(label, num_mask, mask_sym)
 
         if '[ART;Y-Gender]' in words:
             i = words.index('[ART;Y-Gender]')
@@ -998,11 +988,11 @@ class PromptES(Prompt):
 
 class PromptMR(Prompt):
     def __init__(self,
-                 entity2lang: Dict[str, Gender],
+                 entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
                  disable_inflection: str=None,
                  disable_article: bool=False):
-        super().__init__(entity2lang=entity2lang,
+        super().__init__(entity2gender=entity2gender,
                          entity2instance=entity2instance,
                          disable_inflection=disable_inflection,
                          disable_article=disable_article)
@@ -1019,8 +1009,8 @@ class PromptMR(Prompt):
 
 
     def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
-        number = "SG"
-        gender = self.GENDER_MAP[self.entity2lang[uri]]
+        number = 'SG'
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
 
         if gender == 'NEUT':  # use heuristics
             gender = self.gender_heuristic(label)
@@ -1106,17 +1096,304 @@ class PromptMR(Prompt):
             ent_case = "LOC"
 
         if i != -1:
-            if num_mask > 0:
-                words[i] = ' '.join([mask_sym] * num_mask)
-            else:
-                words[i] = label
+            words[i] = self.get_target(label, num_mask, mask_sym)
 
         # Now check for the ones that we have a fixed suffix:
         for i, w in enumerate(words):
             if w[:3] == '[Y]' and len(w) > 3:
-                if num_mask > 0:
-                    words[i] = ' '.join([mask_sym] * num_mask) + w[3:]
-                else:
-                    words[i] = label + w[3:]
+                words[i] = self.get_target(label, num_mask, mask_sym) + w[3:]
+
+        return ' '.join(words), label
+
+
+class PromptTR(Prompt):
+    def __init__(self,
+                 entity2gender: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=None,
+                 disable_article: bool=False):
+        super().__init__(entity2gender=entity2gender,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
+        if disable_inflection or disable_article:
+            raise NotImplementedError
+
+
+    def fix_up(self, w, inds):
+        out = ''
+        for i, c in enumerate(w):
+            if i in inds:
+                out += c.upper()
+            else:
+                out += c
+        return out
+
+
+    def add_be(self, w, number):
+        change = 'ç f h k p s ş t'.split()
+        vowels = "a,o,u,ı,e,ü,ö,i".split(',')
+        undotted = "a,o,u,ı".split(',')
+        dotted = "e,ü,ö,i".split(',')
+        i = 1
+        while i < len(w):
+            if w[i] in vowels:
+                last_vowel = w[i]
+                break
+            else:
+                i += 1
+
+        first = '\'d'
+        if w[-1] in change:
+            first = '\'t'
+
+        end = first + 'ir'
+        if last_vowel in dotted:
+            if last_vowel == "a" or last_vowel == 'ı':
+                end = first + "ır"
+                if number == "PL":
+                    end += "lar"
+            elif last_vowel == "o" or last_vowel == 'u':
+                end = first + "ur"
+                if number == "PL":
+                    end += "lar"
+            elif last_vowel == "e" or last_vowel == 'i':
+                end = first + "ir"
+                if number == "PL":
+                    end += "ler"
+            elif last_vowel == "ö" or last_vowel == 'ü':
+                end = first + "ür"
+                if number == "PL":
+                    end += "ler"
+        return w + end
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = 'SG'
+        gender = 'NEUT'
+        return gender, number
+
+
+    @overrides
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        gender, ent_number = self.get_ender_number(uri, label)
+        words = prompt.split(' ')
+
+        inds = [i for i, x in enumerate(label) if x.isupper()]
+        if inds:
+            label2 = label.lower()
+        else:
+            label2 = label
+
+        if '[X]' in words:
+            i = words.index('[X]')
+            words[i] = label
+            ent_case = "NOM"
+        elif "[X.Loc]" in words:
+            i = words.index('[X.Loc]')
+            temp = inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = label
+            ent_case = "LOC"
+        elif "[X.Gen]" in words:
+            i = words.index('[X.Gen]')
+            temp = inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = label
+            ent_case = "GEN"
+        elif "[X.Acc]" in words:
+            i = words.index('[X.Acc]')
+            temp = inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = label
+            ent_case = "ACC"
+        elif "[X.Dat]" in words:
+            i = words.index('[X.Dat]')
+            temp = inflect(label2, f"N;DAT;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = label
+            ent_case = "DAT"
+        elif "[X.Abl]" in words:
+            i = words.index('[X.Abl]')
+            temp = inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = label
+            ent_case = "ABL"
+
+        if '[X;be]' in words:
+            i = words.index('[X;be]')
+            label = self.add_be(label, ent_number)
+            words[i] = label
+
+        return ' '.join(words), label
+
+
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str,
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        gender, ent_number = self.get_ender_number(uri, label)
+        words = prompt.split(' ')
+
+        inds = [i for i, x in enumerate(label) if x.isupper()]
+        if inds:
+            label2 = label.lower()
+        else:
+            label2 = label
+
+        if '[Y]' in words:
+            i = words.index('[Y]')
+            words[i] = self.get_target(label, num_mask, mask_sym)
+            ent_case = "NOM"
+        elif "[Y.Loc]" in words:
+            i = words.index('[Y.Loc]')
+            temp = inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = self.get_target(label, num_mask, mask_sym)
+            ent_case = "LOC"
+        elif "[Y.Gen]" in words:
+            i = words.index('[Y.Gen]')
+            temp = inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = self.get_target(label, num_mask, mask_sym)
+            ent_case = "GEN"
+        elif "[Y.Acc]" in words:
+            i = words.index('[Y.Acc]')
+            temp = inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = self.get_target(label, num_mask, mask_sym)
+            ent_case = "ACC"
+        elif "[Y.Dat]" in words:
+            i = words.index('[Y.Dat]')
+            temp = inflect(label2, f"N;DAT;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = self.get_target(label, num_mask, mask_sym)
+            ent_case = "DAT"
+        elif "[Y.Abl]" in words:
+            i = words.index('[Y.Abl]')
+            temp = inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+            if inds:
+                label = self.fix_up(temp, inds)
+            else:
+                label = temp
+            words[i] = self.get_target(label, num_mask, mask_sym)
+            ent_case = "ABL"
+
+        if '[Y;be]' in words:
+            i = words.index('[Y;be]')
+            label = self.add_be(label, ent_number)
+            words[i] = self.get_target(label, num_mask, mask_sym)
+
+        return ' '.join(words), label
+
+
+class PromptHE(Prompt):
+    def __init__(self,
+                 entity2gender: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str = None,
+                 disable_article: bool = False):
+        super().__init__(entity2gender=entity2gender,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = "SG"
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
+
+        if gender == 'NEUT' and uri in self.entity2instance:
+            if 'human' in self.entity2instance[uri]:
+                gender = 'MASC'
+
+        return gender, number
+
+
+    @overrides
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        gender, ent_number = self.get_ender_number(uri, label)
+        words = prompt.split(' ')
+
+        if '[X]' in words:
+            i = words.index('[X]')
+            words[i] = label
+        for i, w in enumerate(words):
+            if '[X]' in w:
+                form = w.replace('[X]', label)
+                words[i] = form
+
+        # Now also check the corresponfing verbs, if they exist
+        for i, w in enumerate(words):
+            if w[0] == '[' and 'X-Gender' in w:
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if gender == 'MASC':
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif gender == 'FEM':
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+
+        return ' '.join(words), label
+
+
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str,
+               num_mask: int = 0, mask_sym: str = '[MASK]') -> Tuple[str, str]:
+        gender, ent_number = self.get_ender_number(uri, label)
+        words = prompt.split(' ')
+
+        if '[Y]' in words:
+            i = words.index('[Y]')
+            words[i] = self.get_target(label, num_mask, mask_sym)
+        for i, w in enumerate(words):
+            if '[Y]' in w:
+                form = w.replace('[Y]', self.get_target(label, num_mask, mask_sym))
+                words[i] = form
+
+        # Now also check the correponsing articles, if the exist
+        for i, w in enumerate(words):
+            if w[0] == '[' and 'Y-Gender' in w:
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if gender == 'MASC':
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    elif gender == 'FEM':
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
 
         return ' '.join(words), label
