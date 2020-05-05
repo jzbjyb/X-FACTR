@@ -840,7 +840,7 @@ def iter_decode_beam_search(model,
     Masks must be consecutive.
     '''
     assert init_method in {'all', 'left', 'confidence'}
-    assert iter_method in {'none', 'confidence', 'confidence-multi'}
+    assert iter_method in {'none', 'left', 'confidence', 'confidence-multi'}
     bs, sl = inp_tensor.size(0), inp_tensor.size(1)
     init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
     init_has_mask = init_mask.sum().item() > 0
@@ -850,6 +850,13 @@ def iter_decode_beam_search(model,
         assert number_to_mask.size(0) == 1, 'this batch has different numbers of mask tokens'
         number_to_mask = number_to_mask[0].item() - 1
         assert max_iter == 0, 'do not need to set max_iter in confidence-multi setting'
+    elif iter_method == 'left':
+        leftmost_mask = init_mask * torch.cat([init_mask.new_ones((bs, 1)), 1 - init_mask], 1)[:, :-1]
+        number_to_mask = torch.unique(init_mask.sum(-1))
+        assert number_to_mask.size(0) == 1, 'this batch has different numbers of mask tokens'
+        number_to_mask: int = number_to_mask[0].item()
+        mask_offset: int = 0
+        has_modified: bool = False  # track wether modification happens during a left-to-right pass
 
     # SHAPE: (<=beam_size, batch_size, seq_len)
     out_tensors: List[torch.LongTensor] = inp_tensor.unsqueeze(0)
@@ -876,15 +883,34 @@ def iter_decode_beam_search(model,
                     inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
                 elif iter_method == 'confidence-multi':
                     has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1) # SHAPE: (batch_size, 1)
-                    not_to_mask = has_mask.all().item()
-                    assert not_to_mask == has_mask.any().item(), 'some samples have masks while the others do not'
-                    if not not_to_mask:
+                    all_has_mask = has_mask.all().item()
+                    assert all_has_mask == has_mask.any().item(), 'some samples have masks while the others do not'
+                    if not all_has_mask:
                         if number_to_mask <= 0:
                             stop = True
                             break
                         inp_tensor = out_tensor.scatter(1, (-out_logprob).topk(number_to_mask, dim=-1)[1], mask_value)
                         init_method = 'all'
                         number_to_mask -= 1
+                    else:
+                        inp_tensor = out_tensor
+                elif iter_method == 'left':
+                    has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1)  # SHAPE: (batch_size, 1)
+                    all_has_mask = has_mask.all().item()
+                    any_has_mask = has_mask.any().item()
+                    assert all_has_mask == any_has_mask, \
+                        'some samples have masks while the others do not'
+                    if not all_has_mask:  # no mask, should do refinement
+                        if mask_offset >= number_to_mask:
+                            mask_offset = 0
+                        if mask_offset == 0:  # restart when starting from the beginning
+                            has_modified = False
+                        cur_mask = torch.cat([leftmost_mask.new_zeros((bs, mask_offset)), leftmost_mask], 1)[:, :sl]
+                        cur_mask = cur_mask * init_mask
+                        inp_tensor = out_tensor * (1 - cur_mask) + mask_value * cur_mask
+                        mask_offset += 1
+                    else:
+                        inp_tensor = out_tensor
                 else:
                     raise NotImplementedError
 
@@ -935,12 +961,6 @@ def iter_decode_beam_search(model,
                 _out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
                 _out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
 
-                '''
-                for i in range(5):
-                    print(tokenizer.convert_ids_to_tokens(_out_tensor[i].cpu().numpy()))
-                input()
-                '''
-
                 # involves heavy computation, where we re-compute probabilities for beam_size * beam_size samples
                 if reprob:
                     _out_logprob = compute_likelihood(
@@ -950,6 +970,13 @@ def iter_decode_beam_search(model,
 
                 next_out_tensors.append(_out_tensor)
                 next_out_logprobs.append(_out_logprob)
+
+                '''
+                for i in range(bs):
+                    print(tokenizer.convert_ids_to_tokens(inp_tensor[i].cpu().numpy()))
+                    print(tokenizer.convert_ids_to_tokens(_out_tensor[i].cpu().numpy()))
+                input()
+                '''
 
         if stop:
             break
@@ -986,7 +1013,16 @@ def iter_decode_beam_search(model,
         next_out_logprobs = torch.gather(next_out_logprobs, 0, beam_top)
         next_out_tensors = torch.gather(next_out_tensors, 0, beam_top)
 
+        # stop condition for other type of iter
         if next_out_tensors.size(0) == out_tensors.size(0) and next_out_tensors.eq(out_tensors).all():
+            if iter_method != 'left':
+                stop = True
+        else:
+            if iter_method == 'left':
+                has_modified = True
+        # stop condition for 'left' iter
+        if iter_method == 'left' and not has_modified and mask_offset == number_to_mask:
+            # reach the last position and no modification happens during this iteration
             stop = True
 
         #print(next_out_tensors.ne(out_tensors).any(-1).any(0).nonzero())
