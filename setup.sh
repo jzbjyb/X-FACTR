@@ -12,7 +12,7 @@ popd
 
 echo 'install kytea'
 pushd ../
-git clone git@github.com:neubig/kytea.git && cd kytea
+git clone https://github.com/neubig/kytea.git && cd kytea
 autoreconf -i
 ./configure --prefix=$HOME/local
 make && make install
