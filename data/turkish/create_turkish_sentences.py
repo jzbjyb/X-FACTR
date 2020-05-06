@@ -89,20 +89,25 @@ def add_be(w, number):
 	vowels = "a,o,u,ı,e,ü,ö,i".split(',')
 	undotted = "a,o,u,ı".split(',')
 	dotted = "e,ü,ö,i".split(',')
-	i = 1
-	while i < len(w):
+	
+	last_vowel = None
+	i = len(w)-1
+	while i > 0:
 		if w[i] in vowels:
 			last_vowel = w[i]
 			break
 		else:
-			i += 1
+			i -= 1
 
 	first = '\'d'
 	if w[-1] in change:
 		first = '\'t'
 
 	end = first + 'ir'
-	if last_vowel in dotted:
+	if number == "PL":
+		end += "lar"
+
+	if last_vowel in undotted:
 		if last_vowel == "a" or last_vowel == 'ı':
 			end = first + "ır"
 			if number == "PL":
@@ -111,6 +116,7 @@ def add_be(w, number):
 			end = first + "ur"
 			if number == "PL":
 				end += "lar"
+	elif last_vowel in dotted:
 		elif last_vowel == "e" or last_vowel == 'i':
 			end = first + "ir"
 			if number == "PL":
