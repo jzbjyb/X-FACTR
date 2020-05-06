@@ -421,12 +421,6 @@ class PromptRU(Prompt):
             if not do_not_inflect:
                 label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
             words[i] = label
-        elif '"[X.Gen]"' in words:
-            i = words.index('"[X.Gen]"')
-            ent_case = "GEN"
-            if not do_not_inflect:
-                label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
-            words[i] = words[i].replace('[X.Gen]', label)
         elif "[X.Ess]" in words:
             i = words.index('[X.Ess]')
             ent_case = "ESS"
