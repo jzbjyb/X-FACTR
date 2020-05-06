@@ -292,8 +292,6 @@ class PromptEL(Prompt):
                     if not self.disable_article else ''
             if "[INDEF;Y]" in words:
                 i = words.index('[INDEF;Y]')
-                # print(f"ART;INDEF;{ent_gender};{ent_number};{ent_case}")
-                # print(article[f"ART;INDEF;{ent_gender};{ent_number};{ent_case}"])
                 words[i] = self.article[f"ART;INDEF;{gender};{ent_number};{ent_case}"] \
                     if not self.disable_article else ''
             if "[DEF;Y.Fem]" in words:
@@ -395,10 +393,7 @@ class PromptRU(Prompt):
             ent_case = "GEN"
             if not do_not_inflect:
                 label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
-            print(words[i])
             words[i] = words[i].replace('[X.Gen]', label)
-            print(words[i])
-            input()
         elif "[X.Ess]" in words:
             i = words.index('[X.Ess]')
             ent_case = "ESS"
