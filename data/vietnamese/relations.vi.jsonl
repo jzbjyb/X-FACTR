@@ -8,7 +8,7 @@
 {"relation": "P69", "label": "educated at", "description": "educational institution attended by subject", "type": "N-M", "template": "[X] được đào tạo tại trường đại học [Y] ."}
 {"relation": "P47", "label": "shares border with", "description": "countries or administrative subdivisions, of equal level, that this item borders, either by land or water", "type": "N-M", "template": "[X] tiếp giáp với [Y] ."}
 {"relation": "P138", "label": "named after", "description": "entity or event that inspired the subject's name, or namesake (in at least one language)", "type": "N-1", "template": "[X] được đặt theo tên của [Y] ."}
-{"relation": "P364", "label": "original language of film or TV show", "description": "language in which a film or a performance work was originally created. Deprecated for written works; use P407 (\"language of work or name\") instead.", "type": "N-1", "template": "Ngôn \bngữ gốc của [X] là [Y] ."}
+{"relation": "P364", "label": "original language of film or TV show", "description": "language in which a film or a performance work was originally created. Deprecated for written works; use P407 (\"language of work or name\") instead.", "type": "N-1", "template": "Ngôn ngữ gốc của [X] là [Y] ."}
 {"relation": "P54", "label": "member of sports team", "description": "sports teams or clubs that the subject currently represents or formerly represented", "type": "N-1", "template": "[X] thi đấu cho đội [Y] ."}
 {"relation": "P463", "label": "member of", "description": "organization or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).", "type": "N-M", "template": "[X] là thành viên của đội [Y] ."}
 {"relation": "P101", "label": "field of work", "description": "specialization of a person or organization; see P106 for the occupation", "type": "N-M", "template": "[X] làm việc trong lĩnh vực [Y] ."}
@@ -32,7 +32,7 @@
 {"relation": "P264", "label": "record label", "description": "brand and trademark associated with the marketing of subject music recordings and music videos", "type": "N-1", "template": "[X] là ca sĩ của hãng thu âm [Y] ."}
 {"relation": "P276", "label": "location", "description": "location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.", "type": "N-1", "template": "[X] nằm trong [Y] ."}
 {"relation": "P937", "label": "work location", "description": "location where persons were active", "type": "N-M", "template": "[X] từng làm việc ở [Y] ."}
-{"relation": "P140", "label": "religion", "description": "religion of a person, organization or religious building, or associated with this subject", "type": "N-1", "template": "[X] là \bhội viên của [Y] ."}
+{"relation": "P140", "label": "religion", "description": "religion of a person, organization or religious building, or associated with this subject", "type": "N-1", "template": "[X] là hội viên của [Y] ."}
 {"relation": "P1303", "label": "instrument", "description": "musical instrument that a person plays", "type": "N-M", "template": "[X] chơi [Y] ."}
 {"relation": "P127", "label": "owned by", "description": "owner of the subject", "type": "N-1", "template": "[Y] sở hữu [X] ."}
 {"relation": "P103", "label": "native language", "description": "language or languages a person has learned from early childhood", "type": "N-1", "template": "[Y] là ngôn ngữ bản địa của [X] ."}
