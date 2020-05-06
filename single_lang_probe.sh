@@ -2,12 +2,11 @@
 
 #set -e
 
-models=$1  # a list of models joined by ","
-langs=$2  # a list of languages joined by ","
-out_dir=$3  # dir to save output
-args="${@:4}"
-
-probe=lama
+probe=$1
+models=$2  # a list of models joined by ","
+langs=$3  # a list of languages joined by ","
+out_dir=$4  # dir to save output
+args="${@:5}"
 
 mkdir -p ${out_dir}
 
@@ -24,7 +23,7 @@ while [ $i -lt ${#MODELS[*]} ]; do
     filename=${out_dir}/${m}__${l}.out
     pred_dir=${out_dir}/${m}__${l}/
     echo "python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir ${args} &> $filename" > $filename
-    python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir "${@:4}" &>> $filename
+    python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir "${@:5}" &>> $filename
     tail -n 1 $filename
 
     i=$(( $i + 1));

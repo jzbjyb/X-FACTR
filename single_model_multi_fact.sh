@@ -2,14 +2,13 @@
 
 set -e
 
-model=$1  # model to use
-lang=$2  # language to use
-fact_file=$3  # fact file
-facts=$4  # a list of facts joined by ","
-out_dir=$5  # dir to save output
-args="${@:6}"
-
-probe=mlama
+probe=$1
+model=$2  # model to use
+lang=$3  # language to use
+fact_file=$4  # fact file
+facts=$5  # a list of facts joined by ","
+out_dir=$6  # dir to save output
+args="${@:7}"
 
 mkdir -p ${out_dir}
 
@@ -24,7 +23,7 @@ while [ $i -lt ${#FACTS[*]} ]; do
     filename=${out_dir}/${f}.out
     pred_dir=${out_dir}/${f}/
     echo "python scripts/probe.py --probe ${probe} --model ${model} --lang ${lang} --facts ${fact_file}:${f} --pred_dir $pred_dir ${args} &> $filename" > $filename
-    python scripts/probe.py --probe ${probe} --model ${model} --lang ${lang} --facts ${fact_file}:${f} --pred_dir $pred_dir "${@:6}" &>> $filename
+    python scripts/probe.py --probe ${probe} --model ${model} --lang ${lang} --facts ${fact_file}:${f} --pred_dir $pred_dir "${@:7}" &>> $filename
     tail -n 1 $filename
 
     i=$(( $i + 1));
