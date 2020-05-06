@@ -1,6 +1,6 @@
 Relation	Label	Desc	Type	Marathi Template	Paraphrase 1	English Template
-P19	place of birth	most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character	N-1	[X]चे जन्म [Y] येथे झाला होता .	[X]चे जन्म [Y.LOC] झाला होता	[X] was born in [Y] .
-P20	place of death	most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character	N-1	[X]चे मृत्यू  [Y] येथे झाला होता .	[X]चे मृत्यू  [Y.LOC] झाला होता	[X] died in [Y] .
+P19	place of birth	most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character	N-1	[X]चा  जन्म [Y] येथे झाला होता .	[X]चा  जन्म [Y.LOC] झाला होता	[X] was born in [Y] .
+P20	place of death	most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character	N-1	[X]चा  मृत्यू  [Y] येथे झाला होता .	[X]चे मृत्यू  [Y.LOC] झाला होता	[X] died in [Y] .
 P279	subclass of	all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)	N-1	[X] हा [Y]चा  एक प्रकार आहे .	[X] हा [Y]चा  एक वर्ग आहे	[X] is a subclass of [Y] .
 P37	official language	language designated as official by this item	N-1	[X]ची राष्ट्र भाषा  [Y] आहे .	[Y] ही [X]ची राष्ट्र भाषा  आहे 	The official language of [X] is [Y] .
 P413	position played on team / speciality	position or specialism of a player on a team, e.g. Small Forward	N-1	[X] [Y.LOC] स्थानावर खेळतो .	[Y.LOC] स्थानावर [X] खेळतो	[X] plays in [Y] position .
@@ -8,13 +8,13 @@ P166	award received	award or recognition received by a person, organisation or c
 P449	original network	network(s) the radio or television show was originally aired on,  including	N-1	[X.NOM] हा  प्रामाणिकपणे [Y.LOC] प्रसारित केला गेला .		[X] was originally aired on [Y] .
 P69	educated at	educational institution attended by subject	N-M	[X]चे शिक्षण [Y] मध्ये झाले .		[X] was educated at the University of [Y] .
 P47	shares border with	countries or administrative subdivisions, of equal level, that this item borders, either by land or water	N-M	[X] आणि [Y]ची  सीमा एक आहे  .	 [X] आणि [Y]ची  सीमारेखा एक आहे 	[X] shares border with [Y] .
-P138	named after	entity or event that inspired the subject's name, or namesake (in at least one language)	N-1	[X]चे  नाव  [Y]च्या  नवा  वरून ठेवले आहे .		[X] is named after [Y] .
+P138	named after	entity or event that inspired the subject's name, or namesake (in at least one language)	N-1	[X]चे  नाव  [Y]च्या  नावा   वरून ठेवले आहे .		[X] is named after [Y] .
 P364	original language of film or TV show	language in which a film or a performance work was originally created. Deprecated for written works; use P407 ("language of work or name") instead.	N-1	[X]ची  मूळ  भाषा [Y] आहे .		The original language of [X] is [Y] .
 P54	member of sports team	sports teams or clubs that the subject currently represents or formerly represented	N-1	[X]   [Y] सोबत [खेळतो;X-Gender=MASC|खेळते;X-Gender=FEM] .		[X] plays with [Y] .
-P463	member of	organization or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).	N-M	[X]   [Y]च्या   सभासद आहे .		[X] is a member of [Y] .
+P463	member of	organization or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).	N-M	[X]   [Y]चा   सभासद आहे .		[X] is a member of [Y] .
 P101	field of work	specialization of a person or organization; see P106 for the occupation	N-M	[X] [Y]च्या क्षेत्रात काम [करतो;X-Gender=MASC|करते;X-Gender=FEM] .		[X] works in the field of [Y] .
 P1923	participating team	Like 'Participant' (P710) but for teams. For an event like a cycle race or a football match you can use this property to list the teams and P710 to list the individuals (with 'member of sports team' (P54)' as a qualifier for the individuals)	N-M	[Y]ने   [X] मध्ये सहभाग घेतला आहे .		[Y] participated in the [X] .
-P106	occupation	occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)	N-M	[X] पेश्या ने [Y] आहे .	[X]च व्यवसाय [Y] आहे	[X] is a [Y] by profession .
+P106	occupation	occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)	N-M	[X] पेशाने ने [Y] आहे .	[X]च व्यवसाय [Y] आहे	[X] is a [Y] by profession .
 P527	has part	part of this subject; inverse property of "part of" (P361). See also "has parts of the class" (P2670).	N-M	[X] मध्ये [Y] आहे .		[X] consists of [Y] .
 P102	member of political party	the political party of which this politician is or has been a member	N-1	[X] [Y] राजकीय पक्षाच्या  सभासद आहे .		[X] is a member of the [Y] political party .
 P530	diplomatic relation	diplomatic relations of the country	N-M	[X] चे [Y] सोबत कूटनैतिक  संबंध आहेत .		[X] maintains diplomatic relations with [Y] .
@@ -33,15 +33,15 @@ P39	position held	subject currently or formerly holds the object position or pub
 P264	record label	brand and trademark associated with the marketing of subject music recordings and music videos	N-1	[X]चे  संगीत [Y]च्या नावाने आहे .		[X] is represented by music label [Y] .
 P276	location	location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.	N-1	 [X] [Y] मध्ये स्थितित आहे .		[X] is located in [Y] .
 P937	work location	location where persons were active	N-M	[X] [Y] मध्ये काम करत   [होता;X-Gender=MASC|होती;X-Gender=FEM] .		[X] used to work in [Y] .
-P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1	[X] [Y] धर्माशी संलग्न आहे .		[X] is affiliated with the [Y] religion .
+P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1	[X]च [Y] धर्माशी संलग्न आहे .		[X] is affiliated with the [Y] religion .
 P1303	instrument	musical instrument that a person plays	N-M	[X] [Y] [वाजवतो;X-Gender=MASC|वाजवते;X-Gender=FEM]  .		[X] plays [Y] .
 P127	owned by	owner of the subject	N-1	[Y]चा  [X]वर  मालकी  हक्क आहे .		[X] is owned by [Y] .
 P103	native language	language or languages a person has learned from early childhood	N-1	[X]ची मूळ भाषा [Y] आहे .		The native language of [X] is [Y] .
 P190	twinned administrative body	twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments	N-M	[X] आणि  [Y] जोडशहर आहेत .		[X] and [Y] are twin cities .
-P1001	applies to jurisdiction	the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)	N-M	[X] हा  [Y]मधील कायदेशीर पद  आहे .		[X] is a legal term in [Y] .
+P1001	applies to jurisdiction	the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)	N-M	[X] हे   [Y]मधील कायदेशीर पद  आहे .		[X] is a legal term in [Y] .
 P31	instance of	that class of which this subject is a particular example and member (subject typically an individual member with a proper name label); different from P279; using this property as a qualifier is deprecated—use P2868 or P3831 instead	N-M	[X] एक [Y] आहे .		[X] is a [Y] .
 P495	country of origin	country of origin of this item (creative work, food, phrase, product, etc.)	N-1	[X]चे मूळ [Y] मध्ये आहे .		[X] was created in [Y] .
 P159	headquarters location	specific location where an organization's headquarters is or has been situated. Inverse property of "occupant" (P466).	N-1	[X]चे मुख्यालय [Y] मध्ये आहे .		The headquarter of [X] is in [Y] .
 P36	capital	primary city of a country, state or other type of administrative territorial entity	1-1	[X]ची राजधानी [Y] आहे .		The capital of [X] is [Y] .
 P740	location of formation	location where a group or organization was formed	N-1	[X]ची स्थापना [Y] मध्ये झाली .		[X] was founded in [Y] .
-P361	part of	object of which the subject is a part (it's not useful to link objects which are themselves parts of other objects already listed as parts of the subject). Inverse property of "has part" (P527, see also "has parts of the class" (P2670)).	N-1	[X] [Y] च  भाग आहे .		[X] is part of [Y] .
+P361	part of	object of which the subject is a part (it's not useful to link objects which are themselves parts of other objects already listed as parts of the subject). Inverse property of "has part" (P527, see also "has parts of the class" (P2670)).	N-1	[X] [Y] चा  भाग आहे .		[X] is part of [Y] .
