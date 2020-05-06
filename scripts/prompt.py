@@ -1,13 +1,46 @@
-from typing import Dict, Tuple, Set
+from typing import Dict, Tuple, Set, List
 import unicodedata as ud
 import functools
 from overrides import overrides
+from joblib import Memory
+import json
 import unicodedata
 from unimorph_inflect import inflect
 from check_gender import Gender, load_entity_gender
+memory = Memory('inflection_cache', verbose=0)
 
 
-@functools.lru_cache(maxsize=None)
+def persist_to_file(file_name: str, save_per_count: int=1):
+    def decorator(original_func):
+        cache: Dict[int, List[str]] = {}
+        try:
+            with open(file_name, 'r') as fin:
+                for l in fin:
+                    k, v = l.strip('\n').split('\t')
+                    cache[int(k)] = json.loads(v)
+        except (IOError, ValueError):
+            pass
+        delta: List[Tuple[int, List[str]]] = []
+        def new_func(*args, **kwargs):
+            param = hash(tuple(args) + tuple(sorted(kwargs.items())))
+            if param not in cache:
+                result = original_func(*args, **kwargs)
+                cache[param] = result
+                delta.append((param, result))
+                if len(delta) >= save_per_count:
+                    print('save {}'.format(len(cache)))
+                    with open(file_name, 'a') as fout:
+                        for k, v in delta:
+                            fout.write('{}\t{}\n'.format(k, json.dumps(v)))
+                    delta.clear()
+            return cache[param]
+        return new_func
+    return decorator
+
+
+#@functools.lru_cache(maxsize=None)
+#@persist_to_file('inflection_cache.json', save_per_count=50)
+@memory.cache
 def cache_inflect(*args, **kwargs):
     return inflect(*args, **kwargs)
 

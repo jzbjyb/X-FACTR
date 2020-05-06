@@ -3,6 +3,7 @@ from os.path import dirname, abspath
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
 from typing import List, Dict, Tuple, Set, Union
+import traceback
 import torch
 from transformers import *
 import transformers
@@ -713,6 +714,7 @@ class ProbeIterator(object):
                 # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
                 print('bug for pid {}'.format(relation))
                 print(e)
+                traceback.print_exc()
                 raise e
 
         print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}'.format(
