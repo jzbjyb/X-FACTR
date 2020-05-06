@@ -1148,7 +1148,6 @@ class PromptTR(Prompt):
                 out += c
         return out
 
-
     def add_be(self, w, number):
         change = 'ç f h k p s ş t'.split()
         vowels = "a,o,u,ı,e,ü,ö,i".split(',')
@@ -1156,20 +1155,23 @@ class PromptTR(Prompt):
         dotted = "e,ü,ö,i".split(',')
 
         last_vowel = None
-        i = 1
-        while i < len(w):
+        i = len(w) - 1
+        while i >= 0:
             if w[i] in vowels:
                 last_vowel = w[i]
                 break
             else:
-                i += 1
+                i -= 1
 
         first = '\'d'
         if w[-1] in change:
             first = '\'t'
 
         end = first + 'ir'
-        if last_vowel in dotted:
+        if number == "PL":
+            end += "lar"
+
+        if last_vowel in undotted:
             if last_vowel == "a" or last_vowel == 'ı':
                 end = first + "ır"
                 if number == "PL":
@@ -1178,7 +1180,8 @@ class PromptTR(Prompt):
                 end = first + "ur"
                 if number == "PL":
                     end += "lar"
-            elif last_vowel == "e" or last_vowel == 'i':
+        elif last_vowel in dotted:
+            if last_vowel == "e" or last_vowel == 'i':
                 end = first + "ir"
                 if number == "PL":
                     end += "ler"
@@ -1186,6 +1189,7 @@ class PromptTR(Prompt):
                 end = first + "ür"
                 if number == "PL":
                     end += "ler"
+
         return w + end
 
 
