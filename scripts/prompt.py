@@ -225,7 +225,7 @@ class PromptEL(Prompt):
         # Now also check the corresponfing verbs, if they exist.
         # Needed for subject-verb agreement
         for i, w in enumerate(words):
-            if w[0] == '[' and 'X-Number' in w:
+            if len(w) > 0 and w[0] == '[' and 'X-Number' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if ent_number == "SG":
@@ -374,30 +374,43 @@ class PromptRU(Prompt):
         if '[X]' in words:
             i = words.index('[X]')
             ent_case = "NOM"
+            words[i] = label
         elif "[X.Nom]" in words:
             i = words.index('[X.Nom]')
             ent_case = "NOM"
+            words[i] = label
         elif "[X.Masc.Nom]" in words:
             i = words.index('[X.Masc.Nom]')
             ent_case = "NOM"
             gender = "MASC"
+            words[i] = label
         elif "[X.Gen]" in words:
             i = words.index('[X.Gen]')
             ent_case = "GEN"
             if not do_not_inflect:
                 label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
+            words[i] = label
+        elif '"[X.Gen]"' in words:
+            i = words.index('"[X.Gen]"')
+            ent_case = "GEN"
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;GEN;{ent_number}", language='rus')[0]
+            print(words[i])
+            words[i] = words[i].replace('[X.Gen]', label)
+            print(words[i])
+            input()
         elif "[X.Ess]" in words:
             i = words.index('[X.Ess]')
             ent_case = "ESS"
             if not do_not_inflect:
                 label = cache_inflect(label, f"N;ESS;{ent_number}", language='rus')[0]
+            words[i] = label
         else:
             raise Exception('no X')
-        words[i] = label
 
         # Now also check the correponsing verbs, if they exist
         for i, w in enumerate(words):
-            if w[0] == '[' and 'X-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if gender == "MASC":
@@ -479,7 +492,7 @@ class PromptRU(Prompt):
 
         # Now also check the correponsing articles, if the exist
         for i, w in enumerate(words):
-            if w[0] == '[' and 'Y-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'Y-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if gender == "MASC":
@@ -705,9 +718,7 @@ class PromptFR(Prompt):
         # Now also check the corresponfing verbs, if they exist.
         # Needed for subject-verb agreement
         for i, w in enumerate(words):
-            if len(w) <= 0:
-                continue
-            if w[0] == '[' and 'X-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if ent_gender == "MASC":
@@ -809,6 +820,19 @@ class PromptFR(Prompt):
             if has_article:
                 words[i] = '' if self.disable_article else art
 
+        # Now also check the corresponfing verbs, if they exist.
+        # Needed for subject-verb agreement
+        for i, w in enumerate(words):
+            if len(w) > 0 and w[0] == '[' and 'Y-Gender' in w:
+                if '|' in w:
+                    options = w.strip()[1:-1].split('|')
+                    if ent_gender == "MASC":
+                        form = options[0].strip().split(';')[0]
+                        words[i] = form
+                    else:
+                        form = options[1].strip().split(';')[0]
+                        words[i] = form
+
         return ' '.join(words), label
 
 
@@ -897,7 +921,7 @@ class PromptES(Prompt):
 
         # Now also check the corresponding verbs, if they exist
         for i, w in enumerate(words):
-            if w[0] == '[':
+            if len(w) > 0 and w[0] == '[':
                 if '|' in w and 'X-Gender' in w:
                     options = w.strip()[1:-1].split('|')
                     if ent_number == "PL" and len(options) == 3:
@@ -967,7 +991,7 @@ class PromptES(Prompt):
         for i, w in enumerate(words):
             if len(w) == 0:
                 continue
-            if w[0] == '[' and 'Y-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'Y-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if ent_number == "PL" and len(options) == 3:
@@ -1055,7 +1079,7 @@ class PromptMR(Prompt):
         # Now also check the corresponfing verbs, if they exist.
         # Needed for subject-verb agreement
         for i, w in enumerate(words):
-            if w[0] == '[' and 'X-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if ent_gender == "MASC":
@@ -1091,7 +1115,7 @@ class PromptMR(Prompt):
             # In Greek the default case is Nominative so we don't need to try to inflect it
             i = words.index('[Y.LOC]')
             if not do_not_inflect:
-                # words[i] = inflect(ent_form, f"N;LOC;{ent_number}", language='mar')[0]
+                # words[i] = cache_inflect(ent_form, f"N;LOC;{ent_number}", language='mar')[0]
                 label = label + 'त'
             ent_case = "LOC"
 
@@ -1135,6 +1159,8 @@ class PromptTR(Prompt):
         vowels = "a,o,u,ı,e,ü,ö,i".split(',')
         undotted = "a,o,u,ı".split(',')
         dotted = "e,ü,ö,i".split(',')
+
+        last_vowel = None
         i = 1
         while i < len(w):
             if w[i] in vowels:
@@ -1191,7 +1217,7 @@ class PromptTR(Prompt):
             ent_case = "NOM"
         elif "[X.Loc]" in words:
             i = words.index('[X.Loc]')
-            temp = inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1200,7 +1226,7 @@ class PromptTR(Prompt):
             ent_case = "LOC"
         elif "[X.Gen]" in words:
             i = words.index('[X.Gen]')
-            temp = inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1209,7 +1235,7 @@ class PromptTR(Prompt):
             ent_case = "GEN"
         elif "[X.Acc]" in words:
             i = words.index('[X.Acc]')
-            temp = inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1218,7 +1244,7 @@ class PromptTR(Prompt):
             ent_case = "ACC"
         elif "[X.Dat]" in words:
             i = words.index('[X.Dat]')
-            temp = inflect(label2, f"N;DAT;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;DAT;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1227,7 +1253,7 @@ class PromptTR(Prompt):
             ent_case = "DAT"
         elif "[X.Abl]" in words:
             i = words.index('[X.Abl]')
-            temp = inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1261,7 +1287,7 @@ class PromptTR(Prompt):
             ent_case = "NOM"
         elif "[Y.Loc]" in words:
             i = words.index('[Y.Loc]')
-            temp = inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1270,7 +1296,7 @@ class PromptTR(Prompt):
             ent_case = "LOC"
         elif "[Y.Gen]" in words:
             i = words.index('[Y.Gen]')
-            temp = inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1279,7 +1305,7 @@ class PromptTR(Prompt):
             ent_case = "GEN"
         elif "[Y.Acc]" in words:
             i = words.index('[Y.Acc]')
-            temp = inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1288,7 +1314,7 @@ class PromptTR(Prompt):
             ent_case = "ACC"
         elif "[Y.Dat]" in words:
             i = words.index('[Y.Dat]')
-            temp = inflect(label2, f"N;DAT;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;DAT;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1297,7 +1323,7 @@ class PromptTR(Prompt):
             ent_case = "DAT"
         elif "[Y.Abl]" in words:
             i = words.index('[Y.Abl]')
-            temp = inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+            temp = cache_inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
             if inds:
                 label = self.fix_up(temp, inds)
             else:
@@ -1351,7 +1377,7 @@ class PromptHE(Prompt):
 
         # Now also check the corresponfing verbs, if they exist
         for i, w in enumerate(words):
-            if w[0] == '[' and 'X-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'X-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if gender == 'MASC':
@@ -1383,7 +1409,7 @@ class PromptHE(Prompt):
 
         # Now also check the correponsing articles, if the exist
         for i, w in enumerate(words):
-            if w[0] == '[' and 'Y-Gender' in w:
+            if len(w) > 0 and w[0] == '[' and 'Y-Gender' in w:
                 if '|' in w:
                     options = w.strip()[1:-1].split('|')
                     if gender == 'MASC':
