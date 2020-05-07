@@ -9,6 +9,7 @@ import argparse
 from SPARQLWrapper import SPARQLWrapper, JSON
 import socket
 import time
+import urllib
 
 # https://stackoverflow.com/questions/44374215/how-do-i-specify-url-resolution-in-pythons-requests-library-in-a-similar-fashio
 # capture a dict of hostname and their IPs to override with
@@ -201,6 +202,28 @@ def handle_redirect(debug: bool=False, disable: bool=False, retry_with_host: boo
 	return decorator
 
 
+def handle_http_error(errors: Set[int]={429}, retry_after: int=10, max_retry=5):
+	def decorator(func):
+		@functools.wraps(func)
+		def new_func(*args, **kwargs):
+			count = kwargs['count'] if 'count' in kwargs else 0
+			if count >= max_retry:
+				raise Exception('too many retries')
+			try:
+				return func(*args, **kwargs)
+			except urllib.error.HTTPError as e:
+				if e.code not in errors:
+					raise e
+				if 'Retry-after' in e.headers:
+					retry_after = int(e.headers['Retry-after'])
+				retry_after += 60 * count
+				print('retry after {} sec'.format(retry_after))
+				time.sleep(retry_after)
+				return new_func(*args, **kwargs, count=count + 1)
+		return new_func
+	return decorator
+
+
 @handle_redirect(debug=True)
 def get_langs(uris:  Union[List[str], Set[str]]) -> Dict[str, Dict[str, str]]:
 	id2lang: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
@@ -213,6 +236,7 @@ def get_langs(uris:  Union[List[str], Set[str]]) -> Dict[str, Dict[str, str]]:
 	return id2lang
 
 
+@handle_http_error({429}, retry_after=10, max_retry=5)
 @handle_redirect(debug=True)
 def get_alias(uris: Union[List[str], Set[str]], lang: str) -> Dict[str, Set[str]]:
 	id2alias: Dict[str, Set[str]] = defaultdict(set)
@@ -315,6 +339,7 @@ if __name__ == '__main__':
 		results: Dict[str, Set[str]] = {}
 		for b in tqdm(range(0, len(entities), batch_size)):
 			results.update(get_alias(entities[b:b + batch_size], lang=args.lang))
+			time.sleep(1)
 
 		'''
 		# use specified host for the missing ones
