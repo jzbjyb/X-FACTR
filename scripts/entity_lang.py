@@ -207,6 +207,8 @@ def handle_http_error(errors: Set[int]={429}, retry_after: int=10, max_retry=5):
 		@functools.wraps(func)
 		def new_func(*args, **kwargs):
 			count = kwargs['count'] if 'count' in kwargs else 0
+			if 'count' in kwargs:
+				del kwargs['count']
 			if count >= max_retry:
 				raise Exception('too many retries')
 			try:
