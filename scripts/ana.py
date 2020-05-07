@@ -22,7 +22,7 @@ def load_result(filename: str) -> List[LamaPredictions]:
     return result
 
 
-def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
+def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, only_count: bool=False) \
         -> Tuple[float, float, float, int, int, int]:
     headers = ['sentence', 'prediction', 'gold', 'is_same', 'is_single_word']
     result: List[LamaPredictions] = load_result(in_file)
@@ -31,11 +31,13 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None) \
     correct_multi = total_mutli = 0
     with CsvLogFileContext(prettify_out_file, headers=headers) as csv_file:
         for r in result:
-            right = int(r.eval(eval))
-            if csv_file:
-                r.prettify(csv_file, eval)
             if eval.skip_cate and r.is_cate(eval.entity2iscate):
                 continue
+            right = 0
+            if not only_count:
+                right = int(r.eval(eval))
+                if csv_file:
+                    r.prettify(csv_file, eval)
             correct += right
             total += 1
             if r.is_single_word:
@@ -60,6 +62,7 @@ if __name__ == '__main__':
     parser.add_argument('--norm', action='store_true')
     parser.add_argument('--use_multi_lang', action='store_true')
     parser.add_argument('--skip_cate', action='store_true')
+    parser.add_argument('--only_count', action='store_true')
     parser.add_argument('--inp', type=str, help='input')
     parser.add_argument('--out', type=str, help='output')
     args = parser.parse_args()
@@ -148,7 +151,7 @@ if __name__ == '__main__':
                 in_file = os.path.join(root, file)
                 out_file = os.path.join(root, file.rsplit('.', 1)[0] + '.csv')
                 acc, acc_single, acc_multi, total, total_single, total_multi = \
-                    compute_acc(in_file, eval, prettify_out_file=out_file)
+                    compute_acc(in_file, eval, prettify_out_file=out_file, only_count=args.only_count)
                 acc_li.append(acc)
                 acc_single_li.append(acc_single)
                 acc_multi_li.append(acc_multi)
@@ -157,5 +160,5 @@ if __name__ == '__main__':
                 total_multi_li.append(total_multi)
                 print(file.rsplit('.', 1)[0], acc, acc_single, acc_multi)
         print('no alias {}'.format(eval.alias_manager.no_alias_count))
-        print('{}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
-        print('{}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))
+        print('overall acc {}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
+        print('overall number {}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))

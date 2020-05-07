@@ -14,7 +14,7 @@ IFS=','
 read -ra MODELS <<< "${models}"
 read -ra LANGS <<< "${langs}"
 
-for m in "${MODELS[@]}"; do # access each element of array
+for m in "${MODELS[@]}"; do
     for l in "${LANGS[@]}"; do
         echo "==========" $m $l ${args} "=========="
         filename=${out_dir}/${m}__${l}.out

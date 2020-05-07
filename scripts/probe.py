@@ -1083,7 +1083,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--lang', type=str, help='language to probe',
-                        choices=['en', 'zh', 'fr', 'nl', 'es',
+                        choices=['en', 'fr', 'nl', 'es', 'zh',
                                  'mr', 'vi', 'ko', 'he', 'yo',
                                  'el', 'tr', 'ru'], default='en')
     # dataset-related flags
