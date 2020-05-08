@@ -404,6 +404,11 @@ class ProbeIterator(object):
             args.prompt_model_lang or args.lang, self.entity2gender, self.entity2instance,
             args.disable_inflection, args.disable_article)
 
+        # summary
+        self.summary = {
+            'num_max_mask': 0,  # number of facts where the object has more tokens than the max number of masks
+        }
+
 
     def relation_iter(self, pids: Set[str]=None) -> Tuple[Dict, str]:
         for pattern in self.patterns:
@@ -465,7 +470,7 @@ class ProbeIterator(object):
         LANG = self.args.lang
         NUM_MASK = self.args.num_mask
 
-        if self.args.dry_run:
+        if self.args.dry_run and self.args.dry_run <= 50:
             queries = queries[:self.args.dry_run]
             print('')
 
@@ -487,7 +492,7 @@ class ProbeIterator(object):
                 if self.args.use_gold:
                     instance_xy, obj_label = self.prompt_model.fill_y(
                         instance_x, query['obj_uri'], query['obj_label'])
-                    if self.args.dry_run:
+                    if self.args.dry_run and self.args.dry_run <= 50:
                         print(instance_xy)
                     instance_xys.append(instance_xy)
                     nt_obj = len(tokenizer_wrap(self.tokenizer, LANG, False, obj_label))
@@ -526,6 +531,7 @@ class ProbeIterator(object):
                 obj_ori_li.append(obj_ori)
 
                 if len(obj) > NUM_MASK or len(obj_ori) > NUM_MASK:
+                    self.summary['num_max_mask'] += 1
                     logger.warning('{} is splitted into {}/{} tokens'.format(obj_label, len(obj), len(obj_ori)))
 
             # SHAPE: (batch_size * num_mask, seq_len)
@@ -545,7 +551,7 @@ class ProbeIterator(object):
 
             yield query_batch, (inp_tensor, attention_mask, mask_ind), (obj_li, obj_ori_li)
 
-        if self.args.dry_run:
+        if self.args.dry_run and self.args.dry_run <= 50:
             print('')
 
 
@@ -729,8 +735,9 @@ class ProbeIterator(object):
                 traceback.print_exc()
                 raise e
 
-        print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}'.format(
-            num_correct_fact, num_fact, num_correct_fact / (num_fact + 1e-10), np.mean(acc_li), np.mean(iters)))
+        print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}\tnum_max_mask {}'.format(
+            num_correct_fact, num_fact, num_correct_fact / (num_fact + 1e-10),
+            np.mean(acc_li), np.mean(iters), self.summary['num_max_mask']))
 
 
 def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:
