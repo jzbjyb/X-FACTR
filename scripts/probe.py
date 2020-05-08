@@ -465,6 +465,10 @@ class ProbeIterator(object):
         LANG = self.args.lang
         NUM_MASK = self.args.num_mask
 
+        if self.args.dry_run:
+            queries = queries[:self.args.dry_run]
+            print('')
+
         for b in tqdm(range(0, len(queries), self.args.batch_size), disable=True):
             query_batch = queries[b:b + self.args.batch_size]
 
@@ -483,6 +487,8 @@ class ProbeIterator(object):
                 if self.args.use_gold:
                     instance_xy, obj_label = self.prompt_model.fill_y(
                         instance_x, query['obj_uri'], query['obj_label'])
+                    if self.args.dry_run:
+                        print(instance_xy)
                     instance_xys.append(instance_xy)
                     nt_obj = len(tokenizer_wrap(self.tokenizer, LANG, False, obj_label))
                     instance_xy_, _ = self.prompt_model.fill_y(
@@ -539,6 +545,9 @@ class ProbeIterator(object):
 
             yield query_batch, (inp_tensor, attention_mask, mask_ind), (obj_li, obj_ori_li)
 
+        if self.args.dry_run:
+            print('')
+
 
     def iter(self, pids: Set[str]=None):
         LANG = self.args.lang
@@ -583,6 +592,9 @@ class ProbeIterator(object):
                             (query_batch,
                              (inp_tensor, attention_mask, mask_ind),
                              (obj_li, obj_ori_li)) in tqdm(enumerate(self.batcher(queries, prompt)), disable=True):
+
+                            if self.args.dry_run:
+                                continue
 
                             batch_size = len(query_batch)
                             inp_tensor = inp_tensor.view(batch_size, NUM_MASK, -1)
@@ -1118,6 +1130,7 @@ if __name__ == '__main__':
 
     # others
     parser.add_argument('--use_gold', action='store_true', help='use gold objects')
+    parser.add_argument('--dry_run', type=int, help='dry run the probe to show inflection results', default=None)
     parser.add_argument('--log_dir', type=str, help='directory to vis prediction results', default=None)
     parser.add_argument('--pred_dir', type=str, help='directory to store prediction results', default=None)
     parser.add_argument('--batch_size', type=int, help='the real batch size is this times num_mask', default=20)
