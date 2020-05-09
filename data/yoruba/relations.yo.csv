@@ -25,19 +25,19 @@ P30	continent	continent of which the subject is a part	N-1	Nínú [Y] ni [X] w
 P178	developer	organisation or person that developed the item	N-M	[Y] ni ó ṣe [X] .	[X] is developed by [Y] .
 P1376	capital of	country, state, department, canton or other administrative division of which the municipality is the governmental seat	1-1	[X] ni olú-ìlu [Y] .	[X] is the capital of [Y] .
 P131	located in the administrative territorial entity	the item is located on the territory of the following administrative entity. Use P276 (location) for specifying the location of non-administrative places and for items about events	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
-P1412	languages spoken, written or signed	language(s) that a person speaks or writes, including the native language(s)	N-M	[X] ní a fí ń sọ̀rọ̀ ní [Y] .	[X] used to communicate in [Y] .
+P1412	languages spoken, written or signed	language(s) that a person speaks or writes, including the native language(s)	N-M	[X] màà ń sọ̀rọ̀ ní [Y] .	[X] used to communicate in [Y] .
 P108	employer	person or organization for which the subject works or worked	N-M	[X] ń ṣiṣẹ́ fuń [Y] .	[X] works for [Y] .
-P136	genre	creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic	N-1	[X] ń kọ orɩn [Y] .	[X] plays [Y] music .
+P136	genre	creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic	N-1	[X] ń kọ orin [Y] .	[X] plays [Y] music .
 P17	country	sovereign state of this item; don't use on humans	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
 P39	position held	subject currently or formerly holds the object position or public office	N-M	[X] ní ipò [Y] .	[X] has the position of [Y] .
 P264	record label	brand and trademark associated with the marketing of subject music recordings and music videos	N-1	Ami orin [Y] ni ó dúró fuń [X] .	[X] is represented by music label [Y] .
 P276	location	location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.	N-1	Nínú [Y] ni [X] wà .	[X] is located in [Y] .
-P937	work location	location where persons were active	N-M	[X] máa ń ṣɩṣẹ́ nínú [Y] .	[X] used to work in [Y] .
+P937	work location	location where persons were active	N-M	[X] máa ń ṣiṣẹ́ nínú [Y] .	[X] used to work in [Y] .
 P140	religion	religion of a person, organization or religious building, or associated with this subject	N-1	[X] ní ìbáṣepọ̀ pẹ̀lu ẹ̀sìn [Y] .	[X] is affiliated with the [Y] religion .
 P1303	instrument	musical instrument that a person plays	N-M	[X] ń tẹ [Y] .	[X] plays [Y] .
 P127	owned by	owner of the subject	N-1	[Y] ni ó ni [X] .	[X] is owned by [Y] .
 P103	native language	language or languages a person has learned from early childhood	N-1	Èdè abínibí [X] ni [Y] .	The native language of [X] is [Y] .
-P190	twinned administrative body	twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments	N-M	[X] àti [Y] jẹ́ ìlu méjì tí ó fẹ̀gbẹ́kẹ̀gbẹ́ .	[X] and [Y] are twin cities .
+P190	twinned administrative body	twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments	N-M	[X] àti [Y] jẹ́ ìlu méjì tí ó wà lẹ̀gbẹ́ ara wọn .	[X] and [Y] are twin cities .
 P1001	applies to jurisdiction	the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)	N-M	[X] jẹ́ ọ̀rọ̀ òfin nínú [Y] .	[X] is a legal term in [Y] .
 P31	instance of	that class of which this subject is a particular example and member (subject typically an individual member with a proper name label); different from P279; using this property as a qualifier is deprecated—use P2868 or P3831 instead	N-M	[X] jẹ́ [Y] kan .	[X] is a [Y] .
 P495	country of origin	country of origin of this item (creative work, food, phrase, product, etc.)	N-1	A dá [X] nínú [Y] .	[X] was created in [Y] .
