@@ -54,10 +54,10 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, on
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
-    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval'])
+    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval'], default='multi_eval')
     parser.add_argument('--lang', type=str, help='language')
     parser.add_argument('--probe', type=str, help='probe dataset',
-                        choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='lama')
+                        choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--norm', action='store_true')
     parser.add_argument('--use_multi_lang', action='store_true')

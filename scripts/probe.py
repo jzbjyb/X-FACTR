@@ -908,6 +908,9 @@ def iter_decode_beam_search(model,
             if iter > 0:
                 if iter_method == 'none':
                     inp_tensor = out_tensor
+                    if inp_tensor.eq(mask_value).long().sum().item() == 0:  # no mask
+                        stop = True
+                        break
                 elif iter_method == 'confidence':
                     has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
                     inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
@@ -1153,7 +1156,7 @@ if __name__ == '__main__':
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
     args = parser.parse_args()
 
-    if args.init_method != 'all' and args.max_iter:
+    if (args.init_method != 'all' or args.iter_method != 'none') and args.max_iter:
         assert args.max_iter >= args.num_mask, 'the results will contain mask'
 
     LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path
