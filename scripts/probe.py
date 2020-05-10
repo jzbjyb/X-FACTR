@@ -44,6 +44,9 @@ LM_NAME = {
     'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1',
     'fr_roberta_base': 'camembert-base',
     'nl_bert_base': 'bert-base-dutch-cased',
+    'es_bert_base': 'dccuchile/bert-base-spanish-wwm-cased',
+    'ko_bert_base': 'monologg/kobert',
+    'tr_bert_base': 'dbmdz/bert-base-turkish-cased',
     'ru_bert_base': 'DeepPavlov/rubert-base-cased'
 }
 DATASET = {
@@ -407,6 +410,7 @@ class ProbeIterator(object):
         # summary
         self.summary = {
             'num_max_mask': 0,  # number of facts where the object has more tokens than the max number of masks
+            'numtoken2count': defaultdict(lambda: 0),  # number of token (gold) to count
         }
 
 
@@ -530,6 +534,7 @@ class ProbeIterator(object):
                 obj_ori = np.array(tokenizer_wrap(self.tokenizer, LANG, False, query['obj_label'])).reshape(-1)
                 obj_ori_li.append(obj_ori)
 
+                self.summary['numtoken2count'][len(obj)] += 1
                 if len(obj) > NUM_MASK or len(obj_ori) > NUM_MASK:
                     self.summary['num_max_mask'] += 1
                     logger.warning('{} is splitted into {}/{} tokens'.format(obj_label, len(obj), len(obj_ori)))
@@ -738,6 +743,10 @@ class ProbeIterator(object):
         print('acc per fact {}/{}={:.4f}\tacc per relation {}\tavg iter {}\tnum_max_mask {}'.format(
             num_correct_fact, num_fact, num_correct_fact / (num_fact + 1e-10),
             np.mean(acc_li), np.mean(iters), self.summary['num_max_mask']))
+        if args.dry_run:
+            for nt in range(1, np.max(list(self.summary['numtoken2count'].keys())) + 1):
+                _ = self.summary['numtoken2count'][nt]
+            print('numtoken2count', sorted(self.summary['numtoken2count'].items(), key=lambda x: x[0]))
 
 
 def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:
@@ -1107,7 +1116,7 @@ if __name__ == '__main__':
                                  'el', 'tr', 'ru'], default='en')
     # dataset-related flags
     parser.add_argument('--probe', type=str, help='probe dataset',
-                        choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='lama')
+                        choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
     parser.add_argument('--facts', type=str, help='file path to facts', default=None)
