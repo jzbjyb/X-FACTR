@@ -3,38 +3,28 @@ import os
 import logging
 import re
 import random
+import json
 import numpy as np
 from tqdm import tqdm
 import argparse
-from collections import defaultdict
-from operator import itemgetter
-import json
-import torch
-from torch.utils.data import DataLoader, Dataset, RandomSampler
-from torch.nn.utils.rnn import pad_sequence
-from transformers import *
 
 
 logger = logging.getLogger(__name__)
 SEED = 2020
 random.seed(SEED)
 np.random.seed(SEED)
-torch.manual_seed(SEED)
-torch.cuda.manual_seed_all(SEED)
 
 
 class CodeSwitchDataset(object):
     def __init__(self, filepath: str):
         self.filepath = filepath
 
-    def load(self):
-        self.mid2count: Dict[str, int] = defaultdict(lambda: 0)
-        self.sentences: List[str] = []
-        for tokens, mentions in self.iter():
-            for m in mentions:
-                self.mid2count[m[0]] += 1
-            sent = self.fill(tokens, mentions, replace=True, sorted=True)
-            self.sentences.append(sent)
+
+    def load_line(self, line: str) -> Tuple[str, List[Tuple[str, str, str]]]:
+        l = line.strip().split('\t')
+        tokens, mentions = l[0], l[1:]  # TODO: tokens has already been tokenized with space
+        mentions = [tuple(m.split(' ||| ')) for m in mentions]
+        return tokens, mentions
 
 
     def iter(self) -> Iterable[Tuple[str, List[Tuple[str, str, str]]]]:
@@ -50,18 +40,12 @@ class CodeSwitchDataset(object):
         return '{}\t{}'.format(tokens, '\t'.join([' ||| '.join(m) for m in mentions]))
 
 
-    def load_line(self, line: str) -> Tuple[str, List[Tuple[str, str, str]]]:
-        l = line.strip().split('\t')
-        tokens, mentions = l[0], l[1:]  # TODO: tokens has already been tokenized with space
-        mentions = [tuple(m.split(' ||| ')) for m in mentions]
-        return tokens, mentions
-
-
     def fill(self,
              tokens: str,
              mentions: List[Tuple[str, str, str]],
              fill_inds: Set[int]=None,
              replace: bool=False,
+             alias: Dict[str, Tuple[List[str], List[float]]] = None,
              sorted: bool=True,
              tab_for_filled_mention: bool=False) -> str:
         '''
@@ -82,6 +66,8 @@ class CodeSwitchDataset(object):
                 else:
                     if tab_for_filled_mention:
                         new_tokens.append('\t')
+                    if alias is not None and mid in alias:
+                        target = np.random.choice(alias[mid][0], size=1, replace=False, p=alias[mid][1])[0]
                     new_tokens.append(target if replace else source)
                     if tab_for_filled_mention:
                         new_tokens.append('\t')
@@ -89,220 +75,53 @@ class CodeSwitchDataset(object):
             new_tokens.append(tokens[prev_pos:])
             return ''.join(new_tokens)
         else:
-            # TODO: problematic because mid might appears multiple times in the sentence
-            for i, (mid, source, target) in enumerate(mentions):
-                if fill_inds and i not in fill_inds:  # not fill
-                    continue
-                anchor = '[[{}]]'.format(mid)
-                anchor_start = tokens.find(anchor)
-                tokens[anchor_start:anchor_start + len(anchor)] = target if replace else source
-        return tokens
-
-
-    def save_sentences(self, filename: str):
-        with open(filename, 'w') as fout:
-            for sent in self.sentences:
-                fout.write(sent + '\n')
-
-
-class ReplaceTextDataset(Dataset):
-    def __init__(self, filepath: str, tokenizer: PreTrainedTokenizer, max_length: int=512):
-        assert os.path.isfile(filepath)
-        logger.info('read from {}'.format(filepath))
-        self.cs_dataset = CodeSwitchDataset(filepath)
-        #self.examples: List[List[int]] = \
-        #    tokenizer.batch_encode_plus(self.sentences, add_special_tokens=True, max_length=max_length)['input_ids']
-
-    def __len__(self):
-        return len(self.examples)
-
-
-    def __getitem__(self, i):
-        return torch.tensor(self.examples[i], dtype=torch.long)
-
-
-def train(args, dataset, model: PreTrainedModel, tokenizer: PreTrainedTokenizer) -> Tuple[int, float]:
-    def collate(examples: List[torch.Tensor]):
-        return pad_sequence(examples, batch_first=True, padding_value=tokenizer.pad_token_id or 0)
-
-    sampler = RandomSampler(dataset)
-    dataloader = DataLoader(dataset, sampler=sampler, batch_size=args.batch_size, collate_fn=collate)
+            raise NotImplementedError
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='fine-tune multilingual PLM')
-    parser.add_argument('--task', type=str, choices=['filter', 'gen', 'partition_by_ds'])
+    parser.add_argument('--task', type=str, choices=['gen'], default='gen')
     parser.add_argument('--inp', type=str, help='output')
     parser.add_argument('--out', type=str, help='output')
     parser.add_argument('--lang', type=str, help='language to probe')
     parser.add_argument('--replace', action='store_true')
-    parser.add_argument('--no_ds', action='store_true', help='keep the sentence if entities exist')
-    parser.add_argument('--thres', type=int, default=0)
+    parser.add_argument('--random_alias', action='store_true', help='use random alias to do the replacement')
+    parser.add_argument('--balance_lang', action='store_true', help='balance the data between two languages')
     args = parser.parse_args()
-    '''
-    LM = 'bert-base-multilingual-cased'
-    print('load data')
-    tokenizer = AutoTokenizer.from_pretrained(LM)
-    en_el_dataset = CodeSwitchDataset('data/cs/el_en/en_el.txt')
-    en_el_dataset.load()
-    en_el_dataset.save_sentences('data/cs/el_en/en_el_el.txt')
-
-    model = AutoModelWithLMHead.from_pretrained(LM)
-    model.to('cuda')
-    model.train()
-    '''
 
     if args.task == 'gen':
-        for split in ['train', 'test']:
-            with open('{}/{}{}.txt'.format(args.inp, split, '_raw' if not args.replace else ''), 'w') as fout:
-                for source, target in [('en', args.lang), (args.lang, 'en')]:
-                    # TODO: the ratio between en and el is not balanced
-                    dataset = CodeSwitchDataset('{}/{}_{}.txt.{}'.format(args.inp, source, target, split))
-                    for tokens, mentions in dataset.iter():
-                        sent_source = dataset.fill(tokens, mentions, replace=False, tab_for_filled_mention=True)
-                        fout.write(sent_source + '\n')
-                        if args.replace:
-                            sent_target = dataset.fill(tokens, mentions, replace=True, tab_for_filled_mention=True)
-                            fout.write(sent_target + '\n')
-
-    elif args.task == 'filter':
-        test_ratio = 0.1
-
-        with open('data/lang/el_en_fact.json', 'r') as fin:
-            facts: List[Tuple[str, str]] = json.load(fin)['join']
-            facts: Set[Tuple[str, str]] = set(tuple(f) for f in facts)
-
-        # count fact occurrence in the wikipedia
-
-        en_el_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-        el_en_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-
-        for source, target in [('en', 'el'), ('el', 'en')]:
-            dataset = CodeSwitchDataset('data/cs/el_en/{}_{}.txt'.format(source, target))
-            fact2count = eval('{}_{}_fact2count'.format(source, target))
-            for tokens, mentions in dataset.iter():
-                for i in range(len(mentions)):
-                    for j in range(i + 1, len(mentions)):
-                        e1, e2 = mentions[i][0], mentions[j][0]
-                        if (e1, e2) in facts:
-                            fact2count[(e1, e2)] += 1
-                        if (e2, e1) in facts:
-                            fact2count[(e2, e1)] += 1
-
-        print('#facts in en: {}'.format(len(en_el_fact2count)))
-        print('#facts in el: {}'.format(len(el_en_fact2count)))
-
-        # keep frequent ones
-
-        fact2count = defaultdict(lambda: 0)  # harmonic mean
-        for k in en_el_fact2count.keys() | el_en_fact2count.keys():
-            # TODO: counts might be of different scales for different langauges
-            fact2count[k] = 2 * en_el_fact2count[k] * el_en_fact2count[k] / (en_el_fact2count[k] + el_en_fact2count[k])
-
-        fact2count = sorted(fact2count.items(), key=lambda x: -x[1])
-        fact2count_kept = [(f, c) for f, c in fact2count if c >= args.thres]
-        print('#init facts: {}, #facts found mentioned in text {}'.format(len(facts), len(fact2count)))
-        print('#facts: {} #facts >{}: {}'.format(len(fact2count), args.thres, len(fact2count_kept)))
-        print(fact2count_kept[:10])
-        print(fact2count_kept[-10:])
-
-        # filter data
-
-        os.makedirs(args.out, exist_ok=True)
-
-        fact_kept = set(map(itemgetter(0), fact2count_kept))
-        entity_kept = set(e for f in fact_kept for e in f)
-        with open(os.path.join(args.out, 'fact.json'), 'w') as fout:
-            json.dump({'kept': [list(f) for f in fact_kept]}, fout)
-
-        num_mention_kept = num_sent_kept = 0
-        for source, target in [('en', 'el'), ('el', 'en')]:
-            dataset = CodeSwitchDataset('data/cs/el_en/{}_{}.txt'.format(source, target))
-            fact_kept2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-            entity_kept2count: Dict[str, int] = defaultdict(lambda: 0)
-            with open(os.path.join(args.out, '{}_{}.train.txt'.format(source, target)), 'w') as fout_train, \
-                    open(os.path.join(args.out, '{}_{}.test.txt'.format(source, target)), 'w') as fout_test:
-                for tokens, mentions in dataset.iter():
-                    seen = True
-                    kept: Set[int] = set()
-                    if args.no_ds:
-                        for i in range(len(mentions)):
-                            e = mentions[i][0]
-                            if e in entity_kept:
-                                kept.add(i)
-                                if entity_kept2count[e] <= 1:
-                                    seen = False
+            filename = '{}_{}_{}'.format('cs' if args.replace else 'raw',
+                                         'random' if args.random_alias else 'fix',
+                                         'balanced' if args.balance_lang else 'notbalanced')
+            with open(filename, 'w') as fout:
+                max_count = None
+                for source, target in [(args.lang, 'en'), ('en', args.lang)]:
+                    # load data
+                    dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt'.format(source, target)))
+                    # load alias
+                    if args.random_alias:
+                        with open(os.path.join(args.inp, '{}_alias.txt'.format(target))) as fin:
+                            _id2alias: Dict[str, Dict[str, int]] = json.load(fin)
+                        id2alias: Dict[str, Tuple[List[str], List[float]]] = {}
+                        for id, alias in _id2alias.items():
+                            alias_value, alias_prob = list(zip(*list(alias.items())))
+                            alias_prob = np.array(alias_prob)
+                            alias_prob = alias_prob / np.sum(alias_prob)
+                            id2alias[id] = (alias_value, alias_prob)
                     else:
-                        for i in range(len(mentions)):
-                            for j in range(i + 1, len(mentions)):
-                                e1, e2 = mentions[i][0], mentions[j][0]
-                                if (e2, e1) in fact_kept:
-                                    e1, e2 = e2, e1
-                                if (e1, e2) in fact_kept:
-                                    fact_kept2count[(e1, e2)] += 1
-                                    kept.add(i)
-                                    kept.add(j)
-                                    if fact_kept2count[(e1, e2)] <= 1:
-                                        seen = False
-                    if len(kept) > 0:
-                        num_mention_kept += len(kept)
-                        num_sent_kept += 1
-                        fill_in = set(range(len(mentions))) - kept
-                        line = dataset.format(tokens, mentions, fill_in=fill_in)
-                        if (seen or args.no_ds) and random.random() <= test_ratio:
-                            fout_test.write(line + '\n')
-                        else:
-                            fout_train.write(line + '\n')
-        print('#sentences {}, #mentions {}'.format(num_sent_kept, num_mention_kept))
-
-    elif args.task == 'partition_by_ds':
-        with open('data/lang/el_en_fact.json', 'r') as fin:
-            data = json.load(fin)
-        facts: Set[Tuple[str, str]] = set()
-        for k, v in data.items():
-            facts.update([tuple(f) for f in v])
-        entities: Set[str] = set([e for f in facts for e in f])
-        print('#facts {}, #entities {}'.format(len(facts), len(entities)))
-
-        en_el_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-        en_el_entity2count: Dict[str, int] = defaultdict(lambda: 0)
-        el_en_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-        el_en_entity2count: Dict[str, int] = defaultdict(lambda: 0)
-        for source, target in [('en', 'el'), ('el', 'en')]:
-            dataset = CodeSwitchDataset('data/cs/el_en_all/{}_{}.train.txt'.format(source, target))
-            fact2count = eval('{}_{}_fact2count'.format(source, target))
-            entity2count = eval('{}_{}_entity2count'.format(source, target))
-            for tokens, mentions in dataset.iter():
-                for i in range(len(mentions)):
-                    entity2count[mentions[i][0]] += 1
-                    for j in range(i + 1, len(mentions)):
-                        e1, e2 = mentions[i][0], mentions[j][0]
-                        if (e1, e2) in facts:
-                            fact2count[(e1, e2)] += 1
-                        if (e2, e1) in facts:
-                            fact2count[(e2, e1)] += 1
-
-        both = set(en_el_fact2count.keys()) & set(el_en_fact2count.keys())
-        en = set(en_el_fact2count.keys()) - both
-        el = set(el_en_fact2count.keys()) - both
-        none = facts - both - en - el
-
-        print('{}\t{}\t{}\t{}'.format(len(both), len(en), len(el), len(none)))
-
-        both_entity = set(en_el_entity2count.keys()) & set(el_en_entity2count.keys())
-        en_entity = set(en_el_entity2count.keys()) - both_entity
-        el_entity = set(el_en_entity2count.keys()) - both_entity
-        none_entity = entities - both_entity - en_entity - el_entity
-        print('{}\t{}\t{}\t{}'.format(len(both_entity), len(en_entity), len(el_entity), len(none_entity)))
-
-        none_both = set([(s, o) for s, o in none if s in both_entity and o in both_entity])
-        none_sub = set([(s, o) for s, o in none if s in both_entity and o not in both_entity])
-        none_obj = set([(s, o) for s, o in none if s not in both_entity and o in both_entity])
-        none_none = set([(s, o) for s, o in none if s not in both_entity and o not in both_entity])
-        print('{}\t{}\t{}\t{}'.format(len(none_both), len(none_sub), len(none_obj), len(none_none)))
-
-        with open(args.out, 'w') as fout:
-            json.dump({'both': list(both), 'en': list(en), 'el': list(el),
-                       'none_both': list(none_both), 'none_sub': list(none_sub),
-                       'none_obj': list(none_obj), 'none_none': list(none_none)},
-                      fout, indent=True)
+                        id2alias = None
+                    final_sents: List[Tuple[str, str]] = []
+                    for tokens, mentions in dataset.iter():
+                        # raw sentence
+                        sent_source = dataset.fill(
+                            tokens, mentions, replace=False, tab_for_filled_mention=True)
+                        # cs or raw data
+                        sent_target = dataset.fill(
+                            tokens, mentions, replace=args.replace, alias=id2alias, tab_for_filled_mention=True)
+                        final_sents.append((sent_source, sent_target))
+                    # balance
+                    if args.balance_lang and max_count is not None and len(final_sents) > max_count:
+                        final_sents = np.random.choice(final_sents, max_count, replace=False)
+                    for s, t in final_sents:
+                        fout.write('{}\n{}\n'.format(s, t))
+                    max_count = len(final_sents)

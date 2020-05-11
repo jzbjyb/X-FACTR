@@ -291,13 +291,15 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
-    parser.add_argument('--task', type=str, choices=['inspect', 'filter', 'ds', 'cw_gen_data',
+    parser.add_argument('--task', type=str, choices=['inspect', 'ds', 'cw_gen_data',
                                                      'partition_entity', 'partition_fact',
                                                      'cw_gen_data_control', 'cw_gen_data_control2'])
-    parser.add_argument('--lang', type=str, help='language to probe', choices=['el', 'fr', 'nl'], default='en')
+    parser.add_argument('--lang', type=str, help='language to probe',
+                        choices=['en', 'el', 'fr', 'nl', 'ru'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
-    parser.add_argument('--inp', type=str, default=None)
-    parser.add_argument('--out', type=str, help='output')
+    parser.add_argument('--inp', type=str, help='input file', default=None)
+    parser.add_argument('--out', type=str, help='output file', default=None)
+    parser.add_argument('--down_sample', type=float, help='down sample ratio', default=None)
     args = parser.parse_args()
 
     if args.task == 'inspect':
@@ -308,38 +310,6 @@ if __name__ == '__main__':
             print(wid, title)
             print(text[:10000])
             input('press any key to continue ...')
-
-    elif args.task == 'filter':
-        max_dist = 20
-        entity2lang = load_entity_lang(ENTITY_LANG_PATH)
-        facts = set()
-        for root, dirs, files in os.walk(ENTITY_PATH.rsplit('/', 1)[0]):
-            for file in files:
-                with open(os.path.join(root, file), 'r') as fin:
-                    for l in fin:
-                        l = json.loads(l)
-                        sub_exist = args.lang in entity2lang[l['sub_uri']]
-                        obj_exist = args.lang in entity2lang[l['obj_uri']]
-                        exist = sub_exist and obj_exist
-                        if not exist:
-                            continue
-                        facts.add((l['sub_uri'], l['obj_uri']))
-        found_lang = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format(args.lang)), max_dist)
-        found_en = locate_fact(facts, glob.glob('data/sling/{}/*.rec'.format('en')), max_dist)
-        result = {
-            args.lang: list(found_lang - found_en),
-            'en': list(found_en - found_lang),
-            'join': list(found_lang & found_en),
-            'none': list(facts - found_lang - found_en)
-        }
-        print('#facts {}, join {}, {} {}, {} {}, none {}'.format(
-            len(facts), len(result['join']),
-            args.lang, len(result[args.lang]),
-            'en', len(result['en']),
-            len(result['none'])
-        ))
-        with open(args.out, 'w') as fout:
-            json.dump(result, fout, indent=2)
 
     elif args.task == 'ds':
         print('load triples ...')
@@ -444,10 +414,10 @@ if __name__ == '__main__':
                             fact2count[(e2, e1)] += 1
 
     elif args.task == 'cw_gen_data_control':
-        entity_lang_path = 'data/mTREx_unicode_escape.txt'
-        fact_path = 'data/mTREx/sub'
+        entity_lang_path = 'data/mTRExf_unicode_escape.txt'
+        fact_path = 'data/mTRExf/sub'
 
-        # load entities' translations
+        # load entities
         entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(entity_lang_path)
 
         # load facts we want to identify
@@ -460,15 +430,17 @@ if __name__ == '__main__':
                     for l in fin:
                         f = json.loads(l)
                         s, o = f['sub_uri'], f['obj_uri']
-                        if args.lang not in entity2lang[s] or \
-                                'en' not in entity2lang[s] or \
-                                args.lang not in entity2lang[o] or \
-                                'en' not in entity2lang[o]:
+                        if args.lang not in entity2lang[s] or 'en' not in entity2lang[s] or \
+                                args.lang not in entity2lang[o] or 'en' not in entity2lang[o]:
                             continue
                         f = (s, pid, o)
                         facts.append(f)
                         entities.add(s)
                         entities.add(o)
+
+        if args.down_sample is not None:
+            entities = set(np.random.choice(list(entities), int(len(entities) * args.down_sample), replace=False))
+            facts = [(s, pid, o) for s, pid, o in facts if s in entities and o in entities]
 
         print('#facts {}, #entities {}'.format(len(facts), len(entities)))
 
@@ -481,8 +453,8 @@ if __name__ == '__main__':
 
         for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
             # code-switching for two directions
+            id2alias: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(lambda: 0))
             with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
-                # TODO: restrict to articles of these entites
                 for sent, mentions in locate_entity(
                         entities, glob.glob('data/sling/{}/*.rec'.format(lang_from))):
                     if len(sent) >= 128:  # TODO: focus on short sentence
@@ -514,13 +486,19 @@ if __name__ == '__main__':
                             entity, start, end = mentions[pos2mentind[i]]
                             tokens.append('[[' + entity + ']]')
                             entity_id.append(entity)
-                            surface_from.append(' '.join(sent[start:end]))
-                            surface_to.append(entity2lang[entity][lang_to])
+                            raw_word = ' '.join(sent[start:end])
+                            translation = entity2lang[entity][lang_to]  # too simplistic
+                            surface_from.append(raw_word)
+                            surface_to.append(translation)
+                            id2alias[entity][raw_word] += 1
 
                     fout.write('{}\t{}\n'.format(
                         ' '.join(tokens),
                         '\t'.join(['{} ||| {} ||| {}'.format(e, f, t)
                                    for e, f, t in zip(entity_id, surface_from, surface_to)])))
+
+            with open(os.path.join(args.out, '{}_alias.txt'.format(lang_from)), 'w') as fout:
+                json.dump(id2alias, fout, indent=2)
 
     elif args.task == 'cw_gen_data_control2':
         source_lang, target_lang = 'en', args.lang
