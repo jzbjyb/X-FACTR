@@ -439,8 +439,8 @@ if __name__ == '__main__':
                         entities.add(o)
 
         if args.down_sample is not None:
-            entities = set(np.random.choice(list(entities), int(len(entities) * args.down_sample), replace=False))
-            facts = [(s, pid, o) for s, pid, o in facts if s in entities and o in entities]
+            facts = np.random.choice(list(facts), int(len(facts) * args.down_sample), replace=False)
+            entities = set(e for f in facts for e in [f[0], f[2]])
 
         print('#facts {}, #entities {}'.format(len(facts), len(entities)))
 
