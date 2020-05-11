@@ -291,9 +291,7 @@ def distant_supervision(fact2pid: Dict[Tuple[str, str], Set[str]],
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLING-related preprocessing')
-    parser.add_argument('--task', type=str, choices=['inspect', 'ds', 'cw_gen_data',
-                                                     'partition_entity', 'partition_fact',
-                                                     'cw_gen_data_control', 'cw_gen_data_control2'])
+    parser.add_argument('--task', type=str, choices=['inspect', 'ds', 'cw', 'cw_split'])
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'el', 'fr', 'nl', 'ru'], default='en')
     parser.add_argument('--dir', type=str, help='data dir')
@@ -325,95 +323,7 @@ if __name__ == '__main__':
                     continue
                 fout.write(pid + '\t' + ' '.join(tokens) + '\n')
 
-    elif args.task == 'cw_gen_data':
-        # load entities we want to identify
-        with open('data/lang/{}_en_fact.json'.format(args.lang), 'r') as fin:
-            entities: Set[str] = set(e for f in json.load(fin)['join'] for e in f)
-            print('#entities {}'.format(len(entities)))
-        # load entities' translations
-        entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(ENTITY_LANG_PATH)
-
-        if not os.path.exists(args.out):
-            os.makedirs(args.out, exist_ok=True)
-        for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
-            # code-switching for two directions
-            with open(os.path.join(args.out, '{}_{}.txt'.format(lang_from, lang_to)), 'w') as fout:
-                for sent, mentions in locate_entity(
-                        entities, glob.glob('data/sling/{}/*.rec'.format(lang_from))):
-                    if len(sent) >= 128:  # TODO: focus on short sentence
-                        continue
-
-                    mentions = [m for m in mentions if m[0] in entity2lang and lang_to in entity2lang[m[0]]]
-                    pos2mentind: Dict[int, int] = {}
-                    for i, (entity, start, end) in enumerate(mentions):
-                        for j in range(start, end):
-                            if j in pos2mentind:
-                                break  # avoid overlapping mentions
-                            pos2mentind[j] = i
-
-                    entity_id: List[str] = []
-                    surface_from: List[str] = []
-                    surface_to: List[str] = []
-                    tokens: List[str] = []
-                    for i in range(len(sent)):
-                        if i not in pos2mentind:
-                            tokens.append(sent[i])
-                        elif i in pos2mentind and (i - 1) in pos2mentind and pos2mentind[i] == pos2mentind[i - 1]:
-                            continue
-                        else:
-                            entity, start, end = mentions[pos2mentind[i]]
-                            tokens.append('[[' + entity + ']]')
-                            entity_id.append(entity)
-                            surface_from.append(' '.join(sent[start:end]))
-                            surface_to.append(entity2lang[entity][lang_to])
-
-                    fout.write('{}\t{}\n'.format(
-                        ' '.join(tokens),
-                        '\t'.join(['{} ||| {} ||| {}'.format(e, f, t)
-                                   for e, f, t in zip(entity_id, surface_from, surface_to)])))
-
-    elif args.task == 'partition_entity':
-        # load entities we want to identify
-        with open('data/lang/{}_en_fact.json'.format(args.lang), 'r') as fin:
-            data = json.load(fin)
-        entities: Set[str] = set(e for f in data['join'] for e in f)
-        print('#entities {}'.format(len(entities)))
-        fact_overlap: List[Tuple[str, str]] = []
-        one_overlap: List[Tuple[str, str]] = []
-        no_overlap: List[Tuple[str, str]] = []
-        for part in ['en', args.lang, 'none']:
-            for sub, obj in data[part]:
-                if sub in entities and obj in entities:
-                    fact_overlap.append((sub, obj))
-                elif sub in entities or obj in entities:
-                    one_overlap.append((sub, obj))
-                else:
-                    no_overlap.append((sub, obj))
-        print('#fact {}, #fact ol {}, #one ov {}, #no ol {}'.format(
-            len(data['join']), len(fact_overlap), len(one_overlap), len(no_overlap)))
-        with open(args.out, 'w') as fout:
-            json.dump({'fact': data['join'],
-                       'fact_overlap': fact_overlap,
-                       'one_overlap': one_overlap,
-                       'no_overlap': no_overlap}, fout, indent=True)
-
-    elif args.task == 'partition_fact':
-        en_el_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-        el_en_fact2count: Dict[Tuple[str, str], int] = defaultdict(lambda: 0)
-
-        for source, target in [('en', 'el'), ('el', 'en')]:
-            dataset = CodeSwitchDataset('data/cs/el_en/{}_{}.txt'.format(source, target))
-            fact2count = eval('{}_{}_fact2count'.format(source, target))
-            for tokens, mentions in dataset.iter():
-                for i in range(len(mentions)):
-                    for j in range(i + 1, len(mentions)):
-                        e1, e2 = mentions[i][0], mentions[j][0]
-                        if (e1, e2) in facts:
-                            fact2count[(e1, e2)] += 1
-                        if (e2, e1) in facts:
-                            fact2count[(e2, e1)] += 1
-
-    elif args.task == 'cw_gen_data_control':
+    elif args.task == 'cw':
         entity_lang_path = 'data/mTRExf_unicode_escape.txt'
         fact_path = 'data/mTRExf/sub'
 
@@ -421,7 +331,7 @@ if __name__ == '__main__':
         entity2lang: Dict[str, Dict[str, str]] = load_entity_lang(entity_lang_path)
 
         # load facts we want to identify
-        facts: List[Tuple[str, str, str]] = []
+        all_facts: List[Tuple[str, str, str]] = []
         entities: Set[str] = set()
         for root, dirs, files in os.walk(fact_path):
             for file in files:
@@ -434,22 +344,29 @@ if __name__ == '__main__':
                                 args.lang not in entity2lang[o] or 'en' not in entity2lang[o]:
                             continue
                         f = (s, pid, o)
-                        facts.append(f)
+                        all_facts.append(f)
                         entities.add(s)
                         entities.add(o)
 
+        facts = all_facts
+        oov_facts = []
         if args.down_sample is not None:
-            facts = np.random.choice(list(facts), int(len(facts) * args.down_sample), replace=False)
+            facts = [all_facts[i] for i in
+                     np.random.choice(len(all_facts), int(len(all_facts) * args.down_sample), replace=False)]
             entities = set(e for f in facts for e in [f[0], f[2]])
-
-        print('#facts {}, #entities {}'.format(len(facts), len(entities)))
+            oov_facts = [f for f in all_facts if f[0] not in entities and f[2] not in entities]
+        print('#facts {}, #entities {}, #oov facts {} #all facts {}'.format(
+            len(facts), len(entities), len(oov_facts), len(all_facts)))
 
         if not os.path.exists(args.out):
             os.makedirs(args.out, exist_ok=True)
 
-        with open(os.path.join(args.out, 'facts.txt'), 'w') as fout:
+        with open(os.path.join(args.out, 'facts.txt'), 'w') as fout, \
+                open(os.path.join(args.out, 'all_facts.txt'), 'w') as fout2:
             for s, p, o in facts:
                 fout.write('{}\t{}\t{}\n'.format(s, p, o))
+            for s, p, o in all_facts:
+                fout2.write('{}\t{}\t{}\n'.format(s, p, o))
 
         for lang_from, lang_to in [(args.lang, 'en'), ('en', args.lang)]:
             # code-switching for two directions
@@ -500,7 +417,7 @@ if __name__ == '__main__':
             with open(os.path.join(args.out, '{}_alias.txt'.format(lang_from)), 'w') as fout:
                 json.dump(id2alias, fout, indent=2)
 
-    elif args.task == 'cw_gen_data_control2':
+    elif args.task == 'cw_split':
         source_lang, target_lang = 'en', args.lang
 
         facts: Dict[Tuple[str, str], Set[str]] = defaultdict(set)
@@ -520,7 +437,7 @@ if __name__ == '__main__':
             numentity2count = eval('numentity2count{}'.format(ind + 1))
             fact2sent = eval('fact2sent{}'.format(ind + 1))
             entity2count = eval('entity2count{}'.format(ind + 1))
-            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt.train'.format(source, target)))
+            dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt'.format(source, target)))
             for sent_ind, (tokens, mentions) in enumerate(dataset.iter()):
                 numentity2count[len(mentions)] += 1
                 for i in range(len(mentions)):
