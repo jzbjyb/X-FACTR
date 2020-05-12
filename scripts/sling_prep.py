@@ -298,6 +298,7 @@ if __name__ == '__main__':
     parser.add_argument('--inp', type=str, help='input file', default=None)
     parser.add_argument('--out', type=str, help='output file', default=None)
     parser.add_argument('--down_sample', type=float, help='down sample ratio', default=None)
+    parser.add_argument('--balance_lang', action='store_true', help='balance the data between two languages')
     args = parser.parse_args()
 
     if args.task == 'inspect':
@@ -418,7 +419,7 @@ if __name__ == '__main__':
                 json.dump(id2alias, fout, indent=2)
 
     elif args.task == 'cw_split':
-        source_lang, target_lang = 'en', args.lang
+        source_lang, target_lang = args.lang, 'en'
 
         facts: Dict[Tuple[str, str], Set[str]] = defaultdict(set)
         with open(os.path.join(args.inp, 'facts.txt'), 'r') as fin:
@@ -433,21 +434,45 @@ if __name__ == '__main__':
         fact2sent1: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
         fact2sent2: Dict[Tuple[str, str], Set[int]] = defaultdict(set)
 
+        prev_total = None
         for ind, (source, target) in enumerate([(source_lang, target_lang), (target_lang, source_lang)]):
             numentity2count = eval('numentity2count{}'.format(ind + 1))
             fact2sent = eval('fact2sent{}'.format(ind + 1))
             entity2count = eval('entity2count{}'.format(ind + 1))
             dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt'.format(source, target)))
-            for sent_ind, (tokens, mentions) in enumerate(dataset.iter()):
+            total = sum(1 for _ in dataset.iter())
+            ds = args.down_sample
+            if ds and args.balance_lang and prev_total is not None:
+                ds = args.down_sample / (total / prev_total)
+            ds_file = None
+            if ds:
+                if args.balance_lang:
+                    ds_file = open(os.path.join(args.out, '{}_{}.eq_ds.txt'.format(source, target)), 'w')
+                else:
+                    ds_file = open(os.path.join(args.out, '{}_{}.ds.txt'.format(source, target)), 'w')
+            prev_total = total
+            remain = 0
+            for sent_ind, (tokens, mentions, raw_line) in enumerate(dataset.iter()):
+                if ds is not None:
+                    cond = np.all([[i == j or
+                                    (mentions[i][0], mentions[j][0]) not in facts or
+                                    len(fact2sent[(mentions[i][0], mentions[j][0])]) > 0
+                                    for j in range(len(mentions))] for i in range(len(mentions))])
+                    if cond and random.random() > ds:
+                        continue
+                remain += 1
+                if ds_file is not None:
+                    ds_file.write(raw_line)
                 numentity2count[len(mentions)] += 1
                 for i in range(len(mentions)):
                     entity2count[mentions[i][0]] += 1
-                    for j in range(i + 1, len(mentions)):
+                    for j in range(len(mentions)):
+                        if i == j:
+                            continue
                         e1, e2 = mentions[i][0], mentions[j][0]
                         if (e1, e2) in facts:
                             fact2sent[(e1, e2)].add(sent_ind)
-                        if (e2, e1) in facts:
-                            fact2sent[(e2, e1)].add(sent_ind)
+            print('{} down sample with ratio {} from {} to {}'.format(source, ds, total, remain))
 
         print('#facts {}, #facts {} {}, #facts {} {}'.format(
             len(facts), source_lang, len(fact2sent1), target_lang, len(fact2sent2)))
@@ -472,7 +497,7 @@ if __name__ == '__main__':
         print('join {}, {} {}, {} {}, none {}'.format(
             len(join_fact), source_lang, len(fact_only1), target_lang, len(fact_only2), len(fact_none)))
 
-        with open(args.out, 'w') as fout:
+        with open(os.path.join(args.out, 'split.json'), 'w') as fout:
             json.dump({
                 'join': list(join_fact),
                 source_lang: list(fact_only1),

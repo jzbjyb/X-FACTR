@@ -1,21 +1,25 @@
 #!/usr/bin/env bash
+#SBATCH --mem=10000
+#SBATCH --gres=gpu:1
+#SBATCH --time=0
+#SBATCH --output=slurm_out/slurm-%j.out
 
 train_file=$1
-test_file=$2
-output=$3
-epoch=$4
-raw_prob=$5
+#test_file=$2
+output=$2
+epoch=$3
 
 warmup=0
 block_size=256
-batch_size=4
+batch_size=6
+raw_prob=0.7
 cs_mlm_probability=0.5
-save_step=100000
-args="${@:6}"
+save_step=20000
+keep_model=1
+args="${@:4}"
 
 python scripts/run_language_modeling.py \
 	--train_data_file ${train_file} \
-	--eval_data_file ${test_file} \
 	--output_dir ${output} \
 	--model_type bert \
 	--line_by_line \
@@ -28,9 +32,11 @@ python scripts/run_language_modeling.py \
 	--per_gpu_train_batch_size ${batch_size} \
 	--per_gpu_eval_batch_size ${batch_size} \
 	--warmup_steps ${warmup} \
-	--evaluate_during_training \
 	--logging_steps ${save_step} \
 	--save_steps ${save_step} \
-	--do_train \
-	--do_eval \
-	${args}
+	--save_total_limit ${keep_model} \
+	--do_train
+	#--evaluate_during_training \
+	#--eval_data_file ${test_file} \
+	#--do_eval \
+	#${args}

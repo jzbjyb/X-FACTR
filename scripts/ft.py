@@ -31,7 +31,7 @@ class CodeSwitchDataset(object):
         with open(self.filepath, 'r') as fin:
             for l in tqdm(fin, disable=False):
                 tokens, mentions = self.load_line(l)
-                yield tokens, mentions
+                yield tokens, mentions, l
 
 
     def format(self, tokens: str, mentions: List[Tuple[str, str, str]], fill_in: Set[int]=None):
@@ -82,46 +82,40 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='fine-tune multilingual PLM')
     parser.add_argument('--task', type=str, choices=['gen'], default='gen')
     parser.add_argument('--inp', type=str, help='output')
+    parser.add_argument('--suffix', type=str, help='input file suffix', default='')
     parser.add_argument('--out', type=str, help='output')
     parser.add_argument('--lang', type=str, help='language to probe')
     parser.add_argument('--replace', action='store_true')
     parser.add_argument('--random_alias', action='store_true', help='use random alias to do the replacement')
-    parser.add_argument('--balance_lang', action='store_true', help='balance the data between two languages')
     args = parser.parse_args()
 
     if args.task == 'gen':
-            filename = '{}_{}_{}'.format('cs' if args.replace else 'raw',
-                                         'random' if args.random_alias else 'fix',
-                                         'balanced' if args.balance_lang else 'notbalanced')
-            with open(filename, 'w') as fout:
-                max_count = None
-                for source, target in [(args.lang, 'en'), ('en', args.lang)]:
-                    # load data
-                    dataset = CodeSwitchDataset(os.path.join(args.inp, '{}_{}.txt'.format(source, target)))
-                    # load alias
-                    if args.random_alias:
-                        with open(os.path.join(args.inp, '{}_alias.txt'.format(target))) as fin:
-                            _id2alias: Dict[str, Dict[str, int]] = json.load(fin)
-                        id2alias: Dict[str, Tuple[List[str], List[float]]] = {}
-                        for id, alias in _id2alias.items():
-                            alias_value, alias_prob = list(zip(*list(alias.items())))
-                            alias_prob = np.array(alias_prob)
-                            alias_prob = alias_prob / np.sum(alias_prob)
-                            id2alias[id] = (alias_value, alias_prob)
-                    else:
-                        id2alias = None
-                    final_sents: List[Tuple[str, str]] = []
-                    for tokens, mentions in dataset.iter():
-                        # raw sentence
-                        sent_source = dataset.fill(
-                            tokens, mentions, replace=False, tab_for_filled_mention=True)
-                        # cs or raw data
-                        sent_target = dataset.fill(
-                            tokens, mentions, replace=args.replace, alias=id2alias, tab_for_filled_mention=True)
-                        final_sents.append((sent_source, sent_target))
-                    # balance
-                    if args.balance_lang and max_count is not None and len(final_sents) > max_count:
-                        final_sents = np.random.choice(final_sents, max_count, replace=False)
-                    for s, t in final_sents:
-                        fout.write('{}\n{}\n'.format(s, t))
-                    max_count = len(final_sents)
+        os.makedirs(args.out, exist_ok=True)
+        filename = os.path.join(
+            args.out, '{}_{}.txt'.format('cs' if args.replace else 'raw',
+                                         'random' if args.random_alias else 'fix'))
+        with open(filename, 'w') as fout:
+            for source, target in [(args.lang, 'en'), ('en', args.lang)]:
+                # load data
+                dataset = CodeSwitchDataset(
+                    os.path.join(args.inp, '{}_{}{}.txt'.format(source, target, args.suffix)))
+                # load alias
+                if args.random_alias:
+                    with open(os.path.join(args.inp, '{}_alias.txt'.format(target))) as fin:
+                        _id2alias: Dict[str, Dict[str, int]] = json.load(fin)
+                    id2alias: Dict[str, Tuple[List[str], List[float]]] = {}
+                    for id, alias in _id2alias.items():
+                        alias_value, alias_prob = list(zip(*list(alias.items())))
+                        alias_prob = np.array(alias_prob)
+                        alias_prob = alias_prob / np.sum(alias_prob)
+                        id2alias[id] = (alias_value, alias_prob)
+                else:
+                    id2alias = None
+                for tokens, mentions, _ in dataset.iter():
+                    # raw sentence
+                    sent_source = dataset.fill(
+                        tokens, mentions, replace=False, tab_for_filled_mention=True)
+                    # cs or raw data
+                    sent_target = dataset.fill(
+                        tokens, mentions, replace=args.replace, alias=id2alias, tab_for_filled_mention=True)
+                    fout.write('{}\n{}\n'.format(sent_source, sent_target))
