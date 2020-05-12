@@ -22,10 +22,11 @@ i=0
 while [ $i -lt ${#MODELS[*]} ]; do
     m=${MODELS[$i]}
     l=${LANGS[$i]}
+    bm=$(basename "${m}")
 
     echo "==========" $m $l ${args} "=========="
-    filename=${out_dir}/${m}__${l}.out
-    pred_dir=${out_dir}/${m}__${l}/
+    filename=${out_dir}/${bm}__${l}.out
+    pred_dir=${out_dir}/${bm}__${l}/
     echo "python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir ${args} &> $filename" > $filename
     python scripts/probe.py --probe $probe --model $m --lang $l --pred_dir $pred_dir "${@:5}" &>> $filename
     tail -n 1 $filename
