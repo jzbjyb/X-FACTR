@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+#SBATCH --mem=20000
+#SBATCH --cpus-per-task=8
+#SBATCH --time=0
+#SBATCH --output=slurm_out/slurm-%j.out
 
 probe=$1
 models=$2  # a list of models joined by ","

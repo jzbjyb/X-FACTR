@@ -445,7 +445,7 @@ if __name__ == '__main__':
             if ds and args.balance_lang and prev_total is not None:
                 ds = args.down_sample / (total / prev_total)
             ds_file = None
-            if ds:
+            if ds and args.out:
                 if args.balance_lang:
                     ds_file = open(os.path.join(args.out, '{}_{}.eq_ds.txt'.format(source, target)), 'w')
                 else:
@@ -497,10 +497,11 @@ if __name__ == '__main__':
         print('join {}, {} {}, {} {}, none {}'.format(
             len(join_fact), source_lang, len(fact_only1), target_lang, len(fact_only2), len(fact_none)))
 
-        with open(os.path.join(args.out, 'split.json'), 'w') as fout:
-            json.dump({
-                'join': list(join_fact),
-                source_lang: list(fact_only1),
-                target_lang: list(fact_only2),
-                'none': list(fact_none),
-            }, fout)
+        if args.out:
+            with open(os.path.join(args.out, 'split.json'), 'w') as fout:
+                json.dump({
+                    'join': list(join_fact),
+                    source_lang: list(fact_only1),
+                    target_lang: list(fact_only2),
+                    'none': list(fact_none),
+                }, fout)
