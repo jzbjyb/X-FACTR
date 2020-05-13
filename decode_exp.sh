@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH --mem=20000
+#SBATCH --mem=30000
 #SBATCH --gres=gpu:1
 #SBATCH --time=0
 #SBATCH --output=slurm_out/slurm-%j.out
