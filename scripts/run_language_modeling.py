@@ -446,6 +446,11 @@ def train(args, train_dataset, model: PreTrainedModel, model_raw: PreTrainedMode
                 model.train()
                 model_raw.train()
 
+                #for s1, s2, al in zip(raw_batch.cpu().numpy(), cs_batch.cpu().numpy(), alignments.cpu().numpy()):
+                #    print(tokenizer.convert_ids_to_tokens(s1))
+                #    print(tokenizer.convert_ids_to_tokens(s2))
+                #    print(al)
+
                 align_mask = alignments.eq(-1).float()
                 alignments = alignments + align_mask.long()
                 raw_mask = raw_batch.ne(tokenizer.pad_token_id).float()
@@ -458,6 +463,9 @@ def train(args, train_dataset, model: PreTrainedModel, model_raw: PreTrainedMode
                 loss1 = (dist1 * dist1).sum() / ((1 - align_mask).sum() + 1e-10)
                 loss2 = (dist2 * dist2).sum() / (raw_mask.sum() + 1e-10)
                 loss = loss1 + loss2
+
+                #print('\n\n', loss1, loss2, '\n\n')
+                #input()
 
             else:
                 batch, mention_masks, alignments = batch
@@ -746,6 +754,7 @@ def main():
     parser.add_argument('--cs_mlm_probability', type=float, default=0.0, help='mlm prob for code switching')
     parser.add_argument('--raw_prob', type=float, default=None, help='prob to use raw sentence')
     parser.add_argument('--align', action='store_true', help='align raw text and code-switched text')
+    parser.add_argument('--pretrain_model_name', type=str, default='bert-base-multilingual-cased', help='model to load')
     args = parser.parse_args()
 
     if args.model_type in ["bert", "roberta", "distilbert", "camembert"] and not args.mlm:
@@ -819,7 +828,7 @@ def main():
     if args.local_rank not in [-1, 0]:
         torch.distributed.barrier()  # Barrier to make sure only the first process in distributed training download model & vocab
 
-    pretrain_model_name = 'bert-base-multilingual-cased'
+    pretrain_model_name = args.pretrain_model_name
     tokenizer = AutoTokenizer.from_pretrained(pretrain_model_name)
     model_raw = None
     if args.align:

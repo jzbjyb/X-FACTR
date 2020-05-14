@@ -6,8 +6,9 @@
 
 train_file=$1
 #test_file=$2
-output=$2
-epoch=$3
+model_name=$2
+output=$3
+epoch=$4
 
 warmup=0
 block_size=256
@@ -36,7 +37,8 @@ python scripts/run_language_modeling.py \
 	--save_steps ${save_step} \
 	--save_total_limit ${keep_model} \
 	--do_train \
-	--align
+	--align \
+	--pretrain_model_name ${model_name}
 	#--evaluate_during_training \
 	#--eval_data_file ${test_file} \
 	#--do_eval \
