@@ -18,6 +18,7 @@ for m in "${MODELS[@]}"; do
     for l in "${LANGS[@]}"; do
         echo "==========" $m $l ${args} "=========="
         pred_dir=${inp_dir}/${m}__${l}/
+        ls ${pred_dir} | wc -l
         temp_file=$(mktemp)
         python scripts/ana.py --task multi_eval --probe $probe --model $m --lang $l --inp ${pred_dir} "${@:5}" &> $temp_file
         grep 'overall number' $temp_file

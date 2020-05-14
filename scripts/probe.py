@@ -1113,6 +1113,8 @@ def compute_likelihood(model,
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='probe LMs with multilingual LAMA')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
+    parser.add_argument('--lm_layer_model', type=str,
+                        help='LM from which the final lm layer is used', default=None)
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'fr', 'nl', 'es', 'zh',
                                  'mr', 'vi', 'ko', 'he', 'yo',
@@ -1169,6 +1171,10 @@ if __name__ == '__main__':
     # load model
     print('load model')
     model = AutoModelWithLMHead.from_pretrained(LM)
+    if args.lm_layer_model is not None:
+        llm = LM_NAME[args.lm_layer_model] if args.lm_layer_model in LM_NAME else args.lm_layer_model
+        llm = AutoModelWithLMHead.from_pretrained(llm)
+        model.cls = llm.cls
     model.eval()
     if torch.cuda.is_available() and not args.no_cuda:
         model.to('cuda')

@@ -12,6 +12,7 @@ args="${@:5}"
 
 for f in $inp_dir/*/; do
     echo "==========" $f $args "=========="
+    ls $f | wc -l
     temp_file=$(mktemp)
     python scripts/ana.py --task multi_eval --probe $probe --model $model --lang $lang --inp $f "${@:5}" &> $temp_file
     grep 'overall number' $temp_file
