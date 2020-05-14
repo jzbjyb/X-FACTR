@@ -61,6 +61,7 @@ from transformers import (
     RobertaForMaskedLM,
     RobertaTokenizer,
     get_linear_schedule_with_warmup,
+    AutoModel,
     AutoModelWithLMHead,
     AutoTokenizer,
     AutoConfig,
@@ -136,10 +137,11 @@ class LineByLineTextDataset(Dataset):
         logger.info("Creating features from dataset file at %s", file_path)
 
         self.raw_prob: float = raw_prob
+        self.align: bool = args.align
 
         self.examples: List[List[int]] = []
         self.mention_masks: List[List[int]] = []
-        self.choices: List[int] = []
+        self.alignments: List[List[int]] = []
         '''
         examples_pool: List[List[int]] = []
         mention_masks_pool: List[List[int]] = []
@@ -159,22 +161,28 @@ class LineByLineTextDataset(Dataset):
                 mention_mask = [0] + mention_mask[:block_size - 2] + [0]
                 self.examples.append(tokenizer.convert_tokens_to_ids(tokens))
                 self.mention_masks.append(mention_mask)
-                '''
-                examples_pool.append(tokenizer.convert_tokens_to_ids(tokens))
-                mention_masks_pool.append(mention_mask)
                 if line_id % 2 == 1:
-                    if raw_prob is None or raw_prob == -1:
-                        self.examples.extend(examples_pool)
-                        self.mention_masks.append(mention_masks_pool)
+                    if args.align:
+                        prev_mm = self.mention_masks[-2]
+                        ii = jj = 0
+                        alignment = [-1] * len(prev_mm)
+                        while ii < len(mention_mask) and jj < len(prev_mm):
+                            if mention_mask[ii] == prev_mm[jj] and mention_mask[ii] == 0:
+                                alignment[jj] = ii
+                                ii += 1
+                                jj += 1
+                            elif mention_mask[ii] == 0:
+                                jj += 1
+                            elif prev_mm[jj] == 0:
+                                ii += 1
+                            else:
+                                ii += 1
+                                jj += 1
+                        if len(prev_mm) < block_size and len(mention_mask) < block_size:
+                            assert 0 not in mention_mask[ii:] and 0 not in prev_mm[jj:], 'non-mention tokens are inconsistent'
                     else:
-                        r = random.random()
-                        ind = 0 if r <= raw_prob else 1
-                        self.examples.append(examples_pool[ind])
-                        self.mention_masks.append(mention_masks_pool[ind])
-                        self.choices.append(ind)
-                    examples_pool = []
-                    mention_masks_pool = []
-                '''
+                        alignment = [0]
+                    self.alignments.append(alignment)
 
         #self.examples = tokenizer.batch_encode_plus(lines, add_special_tokens=True, max_length=block_size)["input_ids"]
         
@@ -192,7 +200,7 @@ class LineByLineTextDataset(Dataset):
 
     @property
     def has_to_sample(self):
-        return self.raw_prob is not None and self.raw_prob != -1
+        return (self.raw_prob is not None and self.raw_prob != -1) or self.align
 
     def __len__(self):
         if self.has_to_sample:
@@ -201,11 +209,22 @@ class LineByLineTextDataset(Dataset):
 
     def __getitem__(self, i):
         if self.has_to_sample:
-            r = random.random()
-            ind = 0 if r <= self.raw_prob else 1
-            i = 2 * i + ind
-        return torch.tensor(self.examples[i], dtype=torch.long), \
-               torch.tensor(self.mention_masks[i], dtype=torch.long)
+            if self.align:
+                t1 = torch.tensor(self.examples[2 * i], dtype=torch.long)
+                t2 = torch.tensor(self.examples[2 * i + 1], dtype=torch.long)
+                t3 = torch.tensor(self.alignments[i], dtype=torch.long)
+            else:
+                r = random.random()
+                ind = 0 if r <= self.raw_prob else 1
+                ni = 2 * i + ind
+                t1 = torch.tensor(self.examples[ni], dtype=torch.long)
+                t2 = torch.tensor(self.mention_masks[ni], dtype=torch.long)
+                t3 = torch.tensor(self.alignments[i], dtype=torch.long)
+        else:
+            t1 = torch.tensor(self.examples[i], dtype=torch.long)
+            t2 = torch.tensor(self.mention_masks[i], dtype=torch.long)
+            t3 = torch.tensor(self.alignments[i], dtype=torch.long)
+        return t1, t2, t3
 
 
 def load_and_cache_examples(args, tokenizer, evaluate=False):
@@ -298,20 +317,22 @@ def mask_tokens(inputs: torch.Tensor, tokenizer: PreTrainedTokenizer, args, ment
     return inputs, labels
 
 
-def train(args, train_dataset, model: PreTrainedModel, tokenizer: PreTrainedTokenizer) -> Tuple[int, float]:
+def train(args, train_dataset, model: PreTrainedModel, model_raw: PreTrainedModel, tokenizer: PreTrainedTokenizer) -> Tuple[int, float]:
     """ Train the model """
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
 
-    def collate(instances: List[Tuple[torch.Tensor, torch.Tensor]]):
-        examples, mention_masks = list(zip(*instances))
+    def collate(instances: List[Tuple[torch.Tensor, torch.Tensor, torch.Tensor]]):
+        examples, mention_masks, alignments = list(zip(*instances))
         if tokenizer._pad_token is None:
             return pad_sequence(examples, batch_first=True), \
-                pad_sequence(mention_masks, batch_first=True)
+                pad_sequence(mention_masks, batch_first=True), \
+                pad_sequence(alignments, batch_first=True, padding_value=-1)
         return pad_sequence(examples, batch_first=True, padding_value=tokenizer.pad_token_id), \
-            pad_sequence(mention_masks, batch_first=True, padding_value=tokenizer.pad_token_id)
+            pad_sequence(mention_masks, batch_first=True, padding_value=tokenizer.pad_token_id), \
+            pad_sequence(alignments, batch_first=True, padding_value=-1)
 
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(
@@ -417,14 +438,35 @@ def train(args, train_dataset, model: PreTrainedModel, tokenizer: PreTrainedToke
                 steps_trained_in_current_epoch -= 1
                 continue
 
-            batch, mention_masks = batch
+            if args.align:
+                raw_batch, cs_batch, alignments = batch
+                raw_batch = raw_batch.to(args.device)
+                cs_batch = cs_batch.to(args.device)
+                alignments = alignments.to(args.device)
+                model.train()
+                model_raw.train()
 
-            inputs, labels = mask_tokens(batch, tokenizer, args, mention_masks=mention_masks) if args.mlm else (batch, batch)
-            inputs = inputs.to(args.device)
-            labels = labels.to(args.device)
-            model.train()
-            outputs = model(inputs, masked_lm_labels=labels) if args.mlm else model(inputs, labels=labels)
-            loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
+                align_mask = alignments.eq(-1).float()
+                alignments = alignments + align_mask.long()
+                raw_mask = raw_batch.ne(tokenizer.pad_token_id).float()
+                raw_raw = model_raw(raw_batch, attention_mask=raw_mask)[0].detach()
+                raw = model(raw_batch, attention_mask=raw_mask)[0]
+                cs = model(cs_batch, attention_mask=cs_batch.ne(tokenizer.pad_token_id).float())[0]
+
+                dist1 = (raw - torch.gather(cs, 1, alignments.unsqueeze(-1).repeat(1, 1, cs.size(-1)))) * (1 - align_mask.unsqueeze(-1))
+                dist2 = (raw - raw_raw) * raw_mask.unsqueeze(-1)
+                loss1 = (dist1 * dist1).sum() / ((1 - align_mask).sum() + 1e-10)
+                loss2 = (dist2 * dist2).sum() / (raw_mask.sum() + 1e-10)
+                loss = loss1 + loss2
+
+            else:
+                batch, mention_masks, alignments = batch
+                inputs, labels = mask_tokens(batch, tokenizer, args, mention_masks=mention_masks) if args.mlm else (batch, batch)
+                inputs = inputs.to(args.device)
+                labels = labels.to(args.device)
+                model.train()
+                outputs = model(inputs, masked_lm_labels=labels) if args.mlm else model(inputs, labels=labels)
+                loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
 
             if args.n_gpu > 1:
                 loss = loss.mean()  # mean() to average on multi-gpu parallel training
@@ -505,13 +547,15 @@ def evaluate(args, model: PreTrainedModel, tokenizer: PreTrainedTokenizer, prefi
     args.eval_batch_size = args.per_gpu_eval_batch_size * max(1, args.n_gpu)
     # Note that DistributedSampler samples randomly
 
-    def collate(instances: List[Tuple[torch.Tensor, torch.Tensor]]):
-        examples, mention_masks = list(zip(*instances))
+    def collate(instances: List[Tuple[torch.Tensor, torch.Tensor, torch.Tensor]]):
+        examples, mention_masks, alignments = list(zip(*instances))
         if tokenizer._pad_token is None:
             return pad_sequence(examples, batch_first=True), \
-                pad_sequence(mention_masks, batch_first=True)
+                   pad_sequence(mention_masks, batch_first=True), \
+                   pad_sequence(alignments, batch_first=True, padding_value=-1)
         return pad_sequence(examples, batch_first=True, padding_value=tokenizer.pad_token_id), \
-            pad_sequence(mention_masks, batch_first=True, padding_value=tokenizer.pad_token_id)
+               pad_sequence(mention_masks, batch_first=True, padding_value=tokenizer.pad_token_id), \
+               pad_sequence(alignments, batch_first=True, padding_value=-1)
 
     eval_sampler = SequentialSampler(eval_dataset)
     eval_dataloader = DataLoader(
@@ -531,7 +575,7 @@ def evaluate(args, model: PreTrainedModel, tokenizer: PreTrainedTokenizer, prefi
     model.eval()
 
     for batch in tqdm(eval_dataloader, desc="Evaluating"):
-        batch, mention_masks = batch
+        batch, mention_masks, alignments = batch
 
         inputs, labels = mask_tokens(batch, tokenizer, args, mention_masks=mention_masks) if args.mlm else (batch, batch)
         inputs = inputs.to(args.device)
@@ -701,6 +745,7 @@ def main():
 
     parser.add_argument('--cs_mlm_probability', type=float, default=0.0, help='mlm prob for code switching')
     parser.add_argument('--raw_prob', type=float, default=None, help='prob to use raw sentence')
+    parser.add_argument('--align', action='store_true', help='align raw text and code-switched text')
     args = parser.parse_args()
 
     if args.model_type in ["bert", "roberta", "distilbert", "camembert"] and not args.mlm:
@@ -776,7 +821,13 @@ def main():
 
     pretrain_model_name = 'bert-base-multilingual-cased'
     tokenizer = AutoTokenizer.from_pretrained(pretrain_model_name)
-    model = AutoModelWithLMHead.from_pretrained(pretrain_model_name)
+    model_raw = None
+    if args.align:
+        model = AutoModel.from_pretrained(pretrain_model_name)
+        model_raw = AutoModel.from_pretrained(pretrain_model_name)
+        model_raw.requires_grad = False
+    else:
+        model = AutoModelWithLMHead.from_pretrained(pretrain_model_name)
     config = AutoConfig.from_pretrained(pretrain_model_name)
 
     '''
@@ -820,6 +871,8 @@ def main():
     '''
 
     model.to(args.device)
+    if args.align:
+        model_raw.to(args.device)
 
     if args.local_rank == 0:
         torch.distributed.barrier()  # End of barrier to make sure only the first process in distributed training download model & vocab
@@ -836,7 +889,7 @@ def main():
         if args.local_rank == 0:
             torch.distributed.barrier()
 
-        global_step, tr_loss = train(args, train_dataset, model, tokenizer)
+        global_step, tr_loss = train(args, train_dataset, model, model_raw, tokenizer)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
     # Saving best-practices: if you use save_pretrained for the model and tokenizer, you can reload them using from_pretrained()
@@ -862,9 +915,16 @@ def main():
         model = model_class.from_pretrained(args.output_dir)
         tokenizer = tokenizer_class.from_pretrained(args.output_dir)
         '''
-        model = AutoModelWithLMHead.from_pretrained(args.output_dir)
+        if args.align:
+            model = AutoModel.from_pretrained(pretrain_model_name)
+            model_raw = AutoModel.from_pretrained(pretrain_model_name)
+            model_raw.requires_grad = False
+        else:
+            model = AutoModelWithLMHead.from_pretrained(pretrain_model_name)
         tokenizer = AutoTokenizer.from_pretrained(args.output_dir)
         model.to(args.device)
+        if args.align:
+            model_raw.to(args.device)
 
     # Evaluation
     results = {}
@@ -881,9 +941,16 @@ def main():
             prefix = checkpoint.split("/")[-1] if checkpoint.find("checkpoint") != -1 else ""
 
             #model = model_class.from_pretrained(checkpoint)
-            model = AutoModelWithLMHead.from_pretrained(checkpoint)
+            if args.align:
+                model = AutoModel.from_pretrained(pretrain_model_name)
+                model_raw = AutoModel.from_pretrained(pretrain_model_name)
+                model_raw.requires_grad = False
+            else:
+                model = AutoModelWithLMHead.from_pretrained(pretrain_model_name)
             
             model.to(args.device)
+            if args.align:
+                model_raw.to(args.device)
             result = evaluate(args, model, tokenizer, prefix=prefix)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())
             results.update(result)
