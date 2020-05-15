@@ -1122,6 +1122,7 @@ if __name__ == '__main__':
     # dataset-related flags
     parser.add_argument('--probe', type=str, help='probe dataset',
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
+    parser.add_argument('--pids', type=str, help='pids to run', default=None)
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
     parser.add_argument('--facts', type=str, help='file path to facts', default=None)
@@ -1179,4 +1180,4 @@ if __name__ == '__main__':
     if torch.cuda.is_available() and not args.no_cuda:
         model.to('cuda')
 
-    probe_iter.iter(pids=None)
+    probe_iter.iter(pids=set(args.pids.strip().split(',')) if args.pids is not None else None)
