@@ -23,6 +23,7 @@ from prompt import Prompt
 from check_gender import load_entity_gender, Gender
 from check_instanceof import load_entity_instance, load_entity_is_cate
 from entity_lang import Alias, MultiRel
+from tokenization_kobert import KoBertTokenizer
 
 
 logger = logging.getLogger('mLAMA')
@@ -40,14 +41,16 @@ LM_NAME = {
     'xlmr_base': 'xlm-roberta-base',
     # language-specific model
     'bert_base': 'bert-base-cased',
-    'zh_bert_base': 'bert-base-chinese',
-    'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1',
     'fr_roberta_base': 'camembert-base',
     'nl_bert_base': 'bert-base-dutch-cased',
     'es_bert_base': 'dccuchile/bert-base-spanish-wwm-cased',
-    'ko_bert_base': 'monologg/kobert',
+    'ru_bert_base': 'pretrain/rubert_cased_L-12_H-768_A-12_v2',
+    # 'DeepPavlov/rubert-base-cased' doesn't include lm head
+    'zh_bert_base': 'bert-base-chinese',
     'tr_bert_base': 'dbmdz/bert-base-turkish-cased',
-    'ru_bert_base': 'DeepPavlov/rubert-base-cased'
+    'ko_bert_base': 'monologg/kobert',
+    # 'monologg/kobert' doesn't include lm head
+    'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1'
 }
 DATASET = {
     'lama': {
@@ -94,6 +97,12 @@ def get_tie_breaking(dim: int):
     if dim not in _tie_breaking:
         _tie_breaking[dim] = torch.zeros(dim).uniform_(0, 1e-5)
     return _tie_breaking[dim]
+
+
+def get_tokenizer(lang: str, name: str):
+    if lang == 'ko':
+        return KoBertTokenizer.from_pretrained(name)
+    return AutoTokenizer.from_pretrained(name)
 
 
 def model_prediction_wrap(model, inp_tensor, attention_mask):
@@ -147,7 +156,7 @@ class EvalContext(object):
         self.entity2iscate = load_entity_is_cate(self.is_cate)
         self.prompt_model_dict: Dict[str, Prompt] = \
             {self.lang: Prompt.from_lang(self.lang, self.entity2gender, self.entity2instance)}
-        self.tokenizer = AutoTokenizer.from_pretrained(self.lm)
+        self.tokenizer = get_tokenizer(self.lang, self.lm)
         self.alias_manager = Alias(self.alias_root)
         self.multi_rel_manager = MultiRel(self.multi_rel)
 
@@ -1173,7 +1182,7 @@ if __name__ == '__main__':
 
     # load data
     print('load data')
-    tokenizer = AutoTokenizer.from_pretrained(LM)
+    tokenizer = get_tokenizer(args.lang, LM)
     probe_iter = ProbeIterator(args, tokenizer)
 
     # load model
