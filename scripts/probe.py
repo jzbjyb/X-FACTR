@@ -134,9 +134,10 @@ class EvalContext(object):
         self.uncase: bool = True
         self.use_multi_rel: bool = True
         self.use_period: bool = True
-        self.use_multi_lang: bool = args.use_multi_lang
+        self.multi_lang: bool = args.multi_lang
         self.skip_cate: bool = args.skip_cate
         self.lang: str = args.lang
+        self.gold_len: bool = args.gold_len
 
         for k, v in DATASET[args.probe].items():
             setattr(self, k, v)
@@ -226,14 +227,14 @@ class LamaPredictions(object):
         scores: List[float] = []
         for p in self.result['pred_log_prob']:
             scores.append(np.mean(p) if eval.norm else np.sum(p))
-        best = np.argmax(scores)
-        correct, golds = self.match_with_gold(
-            self.result['pred'][best], self.pid, self.result,
+        best = int(np.argmax(scores))
+        correct, pred, golds = self.match_with_gold(
+            self.result['pred'], best, self.pid, self.result,
             use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
-            use_multi_rel=eval.use_multi_rel, use_period=eval.use_period, use_multi_lang=eval.use_multi_lang,
-            tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
+            use_multi_rel=eval.use_multi_rel, use_period=eval.use_period, multi_lang=eval.multi_lang,
+            gold_len=eval.gold_len, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
             multi_rel_manager=eval.multi_rel_manager, eval=eval)
-        self.pred = self.result['pred'][best]
+        self.pred = pred
         self.correct = correct
         self.golds = golds
         return correct
@@ -275,7 +276,8 @@ class LamaPredictions(object):
 
 
     @staticmethod
-    def match_with_gold(pred: List[str],
+    def match_with_gold(pred: List[List[str]],
+                        best: int,
                         pid: str,
                         result: Dict,
                         use_alias: bool=False,
@@ -283,19 +285,20 @@ class LamaPredictions(object):
                         uncase: bool=False,
                         use_multi_rel: bool=False,
                         use_period: bool=False,
-                        use_multi_lang: bool=False,
+                        multi_lang: bool=False,
+                        gold_len: bool=False,
                         tokenizer=None,
                         alias_manager: Alias=None,
                         multi_rel_manager: MultiRel=None,
                         eval: EvalContext=None
-                        ) -> Tuple[bool, List[List[str]]]:
+                        ) -> Tuple[bool, List[str], List[List[str]]]:
         if use_multi_rel and not use_alias:
             raise NotImplementedError
-        if use_multi_lang and not use_alias:
+        if multi_lang and not use_alias:
             raise NotImplementedError
 
         raw_lang = lang
-        if use_multi_lang and lang != 'en':  # TODO: use all languages?
+        if multi_lang and lang != 'en':  # TODO: use all languages?
             langs = [lang, 'en']
         else:
             langs = [lang]
@@ -318,15 +321,19 @@ class LamaPredictions(object):
                             golds.append(tokenizer.convert_ids_to_tokens(tokenizer_wrap(tokenizer, lang, False, alias)))
             all_golds.extend(golds)
 
-            _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred)))
             for gold in golds:
+                if gold_len and len(gold) <= len(pred):
+                    choice = len(gold) - 1
+                else:
+                    choice = best
+                _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred[choice])))
                 _gold: str = unstress(casify(tokenizer.convert_tokens_to_string(gold)))
                 if _pred == _gold:
-                    return True, all_golds
+                    return True, pred[choice], all_golds
                 if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
                     if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
-                        return True, all_golds
-        return False, all_golds
+                        return True, pred[choice], all_golds
+        return False, pred[best], all_golds
 
 
 class JsonLogFileContext:
