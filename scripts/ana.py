@@ -126,7 +126,6 @@ if __name__ == '__main__':
                 better1n, better2n, is_single = np.array(better1n), np.array(better2n), np.array(is_single)
                 print(rel,
                       'single', '#1', np.sum(better1n * is_single), '#2', np.sum(better2n * is_single),
-                      '#1 better with single-word pred', single_count / (np.sum(better1n * is_single) or 1),
                       'multi', '#1', np.sum(better1n * (1 - is_single)), '#2', np.sum(better2n * (1 - is_single)),
                       sep='\t')
                 better1ns.append(np.mean(better1n))
