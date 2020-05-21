@@ -2,7 +2,7 @@ import sys
 from os.path import dirname, abspath
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Set
 import argparse
 import pandas
 import os
@@ -22,7 +22,7 @@ def load_result(filename: str) -> List[LamaPredictions]:
 
 def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, only_count: bool=False) \
         -> Tuple[float, float, float, int, int, int]:
-    headers = ['sentence', 'prediction', 'gold', 'is_same', 'is_single_word']
+    headers = ['sentence', 'prediction', 'gold', 'is_same', 'is_single_word', 'sub_uri', 'obj_uri']
     result: List[LamaPredictions] = load_result(in_file)
     correct = total = 0
     correct_single = total_single = 0
@@ -52,7 +52,7 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, on
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
-    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval', 'rank', 'error'],
+    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval', 'rank', 'error', 'overlap'],
                         default='multi_eval')
     parser.add_argument('--lang', type=str, help='language', default='en')
     parser.add_argument('--probe', type=str, help='probe dataset',
@@ -193,3 +193,34 @@ if __name__ == '__main__':
                 merge_csv.append(csv)
         merge_csv = pandas.concat(merge_csv, axis=0, ignore_index=True)
         merge_csv.to_csv(args.out)
+
+    elif args.task == 'overlap':
+        dirs = args.inp.split(':')
+        corrects: List[Set[Tuple[str, str, str]]] = []
+        alls: List[Set[Tuple[str, str, str]]] = []
+        for dir in dirs:
+            corrects.append(set())
+            alls.append(set())
+            for root, _, files in os.walk(dir):
+                for file in files:
+                    if not file.endswith('.csv') or file.startswith('.'):
+                        continue
+                    rel = file.split('.', 1)[0]
+                    csv = pandas.read_csv(os.path.join(root, file))
+                    for r in csv[csv['is_same'] == True].iterrows():
+                        corrects[-1].add((r[1]['sub_uri'], rel, r[1]['obj_uri']))
+                        alls[-1].add((r[1]['sub_uri'], rel, r[1]['obj_uri']))
+                    for r in csv[csv['is_same'] == False].iterrows():
+                        alls[-1].add((r[1]['sub_uri'], rel, r[1]['obj_uri']))
+        sdirs = [dir.rsplit('/', 1)[1] for dir in dirs]
+        for i in range(len(corrects)):
+            print(sdirs[i], end='')
+            for j in range(i + 1):
+                print('\t{:.3f}'.format(0), end='')
+            for j in range(i + 1, len(corrects)):
+                com = alls[i] & alls[j]
+                join = corrects[i] & corrects[j] & com
+                all = (corrects[i] | corrects[j]) & com
+                crr = len(join) / (len(all) or 1)
+                print('\t{:.3f}'.format(crr), end='')
+            print('\n')
