@@ -6,10 +6,8 @@ from typing import List, Dict, Tuple
 import argparse
 import pandas
 import os
-import json
-from random import shuffle
-from glob import glob
 import numpy as np
+import matplotlib.pyplot as plt
 from probe import tokenizer_wrap, LamaPredictions, EvalContext, CsvLogFileContext
 
 
@@ -54,7 +52,8 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, on
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
-    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval'], default='multi_eval')
+    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval', 'rank', 'error'],
+                        default='multi_eval')
     parser.add_argument('--lang', type=str, help='language', default='en')
     parser.add_argument('--probe', type=str, help='probe dataset',
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
@@ -162,3 +161,35 @@ if __name__ == '__main__':
         print('no alias {}'.format(eval.alias_manager.no_alias_count))
         print('overall acc {}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
         print('overall number {}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))
+
+    elif args.task == 'rank':
+        correct_ranks = []
+        for root, dirs, files in os.walk(args.inp):
+            for file in files:
+                if not file.endswith('.csv'):
+                    continue
+                in_file = os.path.join(root, file)
+                csv = pandas.read_csv(in_file)
+                correct_mask = (csv['is_same'] == True).tolist()
+                rank = np.arange(len(correct_mask)) / len(correct_mask)
+                correct_rank = rank[correct_mask]
+                correct_ranks.extend(correct_rank.tolist())
+        plt.hist(correct_ranks, 10)
+        plt.savefig('rank.png')
+
+    elif args.task == 'error':
+        sample_per_relation = 10
+        correct_ranks = []
+        merge_csv = []
+        for root, dirs, files in os.walk(args.inp):
+            for file in files:
+                if not file.endswith('.csv') or file.startswith('.'):
+                    continue
+                in_file = os.path.join(root, file)
+                csv = pandas.read_csv(in_file)
+                csv = csv[csv['is_same'] == False]
+                r = np.random.choice(len(csv), min(sample_per_relation, len(csv)), replace=False)
+                csv = csv.iloc[r]
+                merge_csv.append(csv)
+        merge_csv = pandas.concat(merge_csv, axis=0, ignore_index=True)
+        merge_csv.to_csv(args.out)

@@ -48,7 +48,7 @@ LM_NAME = {
     # 'DeepPavlov/rubert-base-cased' doesn't include lm head
     'zh_bert_base': 'bert-base-chinese',
     'tr_bert_base': 'dbmdz/bert-base-turkish-cased',
-    'ko_bert_base': 'monologg/kobert',
+    'ko_bert_base': 'monologg/kobert-lm',
     # 'monologg/kobert' doesn't include lm head
     'el_bert_base': 'nlpaueb/bert-base-greek-uncased-v1'
 }
@@ -100,7 +100,7 @@ def get_tie_breaking(dim: int):
 
 
 def get_tokenizer(lang: str, name: str):
-    if lang == 'ko':
+    if lang == 'ko' and name in {'monologg/kobert-lm'}:
         return KoBertTokenizer.from_pretrained(name)
     return AutoTokenizer.from_pretrained(name)
 
@@ -331,17 +331,20 @@ class LamaPredictions(object):
             all_golds.extend(golds)
 
             for gold in golds:
-                if gold_len and len(gold) <= len(pred):
-                    choice = len(gold) - 1
-                else:
-                    choice = best
-                _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred[choice])))
                 _gold: str = unstress(casify(tokenizer.convert_tokens_to_string(gold)))
-                if _pred == _gold:
-                    return True, pred[choice], all_golds
-                if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
-                    if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
+                if gold_len and len(gold) <= len(pred):
+                    choices = [len(gold) - 1]
+                    if lang == 'en' and len(gold) > 1:
+                        choices.append(len(gold) - 2)  # the period issue
+                else:
+                    choices = [best]
+                for choice in choices:
+                    _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred[choice])))
+                    if _pred == _gold:
                         return True, pred[choice], all_golds
+                    if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
+                        if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
+                            return True, pred[choice], all_golds
         return False, pred[best], all_golds
 
 
