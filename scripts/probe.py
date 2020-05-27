@@ -526,6 +526,8 @@ class ProbeIterator(object):
                         torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy_)))
                 else:
                     for nm in range(NUM_MASK):
+                        if self.args.sent:
+                            instance_x = self.args.sent
                         instance_xy, obj_label = self.prompt_model.fill_y(
                             instance_x, query['obj_uri'], query['obj_label'],
                             num_mask=nm + 1, mask_sym=self.mask_label)
@@ -645,6 +647,13 @@ class ProbeIterator(object):
                                 out_tensors.append(out_tensor)
                                 logprobs.append(logprob)
                                 iters.append(iter)
+                                if self.args.sent:
+                                    print('=== #mask {} ==='.format(nm + 1))
+                                    print(self.tokenizer.convert_ids_to_tokens(out_tensor[0].cpu().numpy()))
+                                    print(logprob[0].cpu().numpy())
+
+                            if self.args.sent:
+                                break
 
                             # SHAPE: (batch_size, num_mask, seq_len)
                             mask_ind = mask_ind.float()
@@ -1138,6 +1147,8 @@ if __name__ == '__main__':
                         choices=['en', 'fr', 'nl', 'es', 'zh',
                                  'mr', 'vi', 'ko', 'he', 'yo',
                                  'el', 'tr', 'ru'], default='en')
+    parser.add_argument('--sent', type=str, help='actual sentence with [Y]', default=None)
+
     # dataset-related flags
     parser.add_argument('--probe', type=str, help='probe dataset',
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
@@ -1180,6 +1191,9 @@ if __name__ == '__main__':
 
     if (args.init_method != 'all' or args.iter_method != 'none') and args.max_iter:
         assert args.max_iter >= args.num_mask, 'the results will contain mask'
+    if args.sent:
+        args.batch_size = 1
+        args.pids = 'P19'
 
     LM = LM_NAME[args.model] if args.model in LM_NAME else args.model  # use pre-defined models or path
 
