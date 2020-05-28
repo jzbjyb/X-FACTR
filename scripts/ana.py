@@ -63,7 +63,7 @@ if __name__ == '__main__':
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
     parser.add_argument('--model', type=str, help='LM to probe file', default='mbert_base')
     parser.add_argument('--norm', action='store_true')
-    parser.add_argument('--multi_lang', type='str', help='use additional language in evaluation', default=None)
+    parser.add_argument('--multi_lang', type=str, help='use additional language in evaluation', default=None)
     parser.add_argument('--skip_cate', action='store_true')
     parser.add_argument('--gold_len', action='store_true', help='use the number of tokens in ground truth')
     parser.add_argument('--only_count', action='store_true')
