@@ -5,10 +5,14 @@ sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 from typing import List, Dict, Tuple, Set
 import argparse
 import pandas
+import csv
+from collections import defaultdict
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from probe import tokenizer_wrap, LamaPredictions, EvalContext, CsvLogFileContext
+from matplotlib.ticker import PercentFormatter
+from probe import tokenizer_wrap, LamaPredictions, EvalContext, CsvLogFileContext, load_entity_lang, \
+    DATASET, PROMPT_LANG_PATH
 
 
 def load_result(filename: str) -> List[LamaPredictions]:
@@ -169,8 +173,8 @@ if __name__ == '__main__':
                 if not file.endswith('.csv'):
                     continue
                 in_file = os.path.join(root, file)
-                csv = pandas.read_csv(in_file)
-                correct_mask = (csv['is_same'] == True).tolist()
+                df = pandas.read_csv(in_file)
+                correct_mask = (df['is_same'] == True).tolist()
                 rank = np.arange(len(correct_mask)) / len(correct_mask)
                 correct_rank = rank[correct_mask]
                 correct_ranks.extend(correct_rank.tolist())
@@ -180,24 +184,25 @@ if __name__ == '__main__':
     elif args.task == 'error':
         sample_per_relation = 10
         correct_ranks = []
-        merge_csv = []
+        merge_df = []
         for root, dirs, files in os.walk(args.inp):
             for file in files:
                 if not file.endswith('.csv') or file.startswith('.'):
                     continue
                 in_file = os.path.join(root, file)
-                csv = pandas.read_csv(in_file)
-                csv = csv[csv['is_same'] == False]
-                r = np.random.choice(len(csv), min(sample_per_relation, len(csv)), replace=False)
-                csv = csv.iloc[r]
-                merge_csv.append(csv)
-        merge_csv = pandas.concat(merge_csv, axis=0, ignore_index=True)
-        merge_csv.to_csv(args.out)
+                df = pandas.read_csv(in_file)
+                df = df[df['is_same'] == False]
+                r = np.random.choice(len(df), min(sample_per_relation, len(df)), replace=False)
+                df = df.iloc[r]
+                merge_df.append(df)
+        merge_df = pandas.concat(merge_df, axis=0, ignore_index=True)
+        merge_df.to_df(args.out)
 
     elif args.task == 'overlap':
         dirs = args.inp.split(':')
         corrects: List[Set[Tuple[str, str, str]]] = []
         alls: List[Set[Tuple[str, str, str]]] = []
+        fact2sent: Dict[Tuple[str, str, str], List[Tuple[str, str]]] = defaultdict(list)
         for dir in dirs:
             corrects.append(set())
             alls.append(set())
@@ -206,12 +211,16 @@ if __name__ == '__main__':
                     if not file.endswith('.csv') or file.startswith('.'):
                         continue
                     rel = file.split('.', 1)[0]
-                    csv = pandas.read_csv(os.path.join(root, file))
-                    for r in csv[csv['is_same'] == True].iterrows():
+                    df = pandas.read_csv(os.path.join(root, file))
+                    for r in df[df['is_same'] == True].iterrows():
                         corrects[-1].add((r[1]['sub_uri'], rel, r[1]['obj_uri']))
+                        fact2sent[(r[1]['sub_uri'], rel, r[1]['obj_uri'])].append(
+                            (r[1]['sentence'], r[1]['prediction']))
                         alls[-1].add((r[1]['sub_uri'], rel, r[1]['obj_uri']))
-                    for r in csv[csv['is_same'] == False].iterrows():
+                    for r in df[df['is_same'] == False].iterrows():
                         alls[-1].add((r[1]['sub_uri'], rel, r[1]['obj_uri']))
+
+        print('pairwise correlation')
         sdirs = [dir.rsplit('/', 1)[1] for dir in dirs]
         for i in range(len(corrects)):
             print(sdirs[i], end='')
@@ -224,3 +233,45 @@ if __name__ == '__main__':
                 crr = len(join) / (len(all) or 1)
                 print('\t{:.3f}'.format(crr), end='')
             print('\n')
+
+        print('count histogram')
+        all_cs = list(set.union(*corrects))
+        all_cs_lang = [[sdirs[i] for i, correct in enumerate(corrects) if f in correct] for f in all_cs]
+        all_count = [len(langs) for langs in all_cs_lang]
+        print('#correct facts {}'.format(len(all_cs)))
+        plt.rcParams.update({'font.size': 18, 'font.family': 'serif',
+                             'font.weight': 'bold', 'axes.labelweight': 'bold'})
+        plt.figure(figsize=(7.5, 4.5))
+        plt.hist(all_count, bins=np.arange(0, len(sdirs) + 1) + 0.5,
+                 weights=np.ones(len(all_count)) / len(all_count), rwidth=0.8)
+        plt.xticks(range(len(sdirs) + 1))
+        plt.xlabel('number of languages')
+        plt.ylim(ymin=0)
+        plt.xlim(xmin=0)
+        plt.gca().spines['top'].set_visible(False)
+        plt.gca().spines['right'].set_visible(False)
+        plt.gca().yaxis.set_major_formatter(PercentFormatter(1))
+        plt.tight_layout()
+        plt.savefig('count.pdf')
+
+        label = load_entity_lang(DATASET[args.probe]['entity_lang_path'])
+        prompt_lang = pandas.read_csv(PROMPT_LANG_PATH)
+        pid2prompt = lambda pid: prompt_lang[prompt_lang['pid'] == pid]['en'].iloc[0]
+
+        def get_label(uri: str):
+            if uri not in label:
+                return uri
+            if 'en' in label[uri]:
+                return label[uri]['en']
+            return uri
+
+        with open(args.out, 'w') as fout:
+            fout.write(','.join(['fact', 'label', 'sentence', 'langs', 'number of langs']) + '\n')
+            csv_file = csv.writer(fout)
+            for i, (langs, f) in enumerate(sorted(zip(all_cs_lang, all_cs), key=lambda x: -len(x[0]))):
+                csv_file.writerow([
+                    f,
+                    (get_label(f[0]), pid2prompt(f[1]), get_label(f[2])),
+                    fact2sent[f][0] if len(fact2sent[f]) == 1 else None,
+                    langs,
+                    len(langs)])

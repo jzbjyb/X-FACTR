@@ -650,7 +650,7 @@ class ProbeIterator(object):
                                 if self.args.sent:
                                     print('=== #mask {} ==='.format(nm + 1))
                                     print(self.tokenizer.convert_ids_to_tokens(out_tensor[0].cpu().numpy()))
-                                    print(logprob[0].cpu().numpy())
+                                    print((logprob[0] * mask_ind[0, nm].float()).sum().cpu().numpy())
 
                             if self.args.sent:
                                 break
