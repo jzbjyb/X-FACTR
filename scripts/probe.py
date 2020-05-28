@@ -143,7 +143,7 @@ class EvalContext(object):
         self.uncase: bool = True
         self.use_multi_rel: bool = True
         self.use_period: bool = True
-        self.multi_lang: bool = args.multi_lang
+        self.multi_lang: str = args.multi_lang
         self.skip_cate: bool = args.skip_cate
         self.lang: str = args.lang
         self.gold_len: bool = args.gold_len
@@ -294,7 +294,7 @@ class LamaPredictions(object):
                         uncase: bool=False,
                         use_multi_rel: bool=False,
                         use_period: bool=False,
-                        multi_lang: bool=False,
+                        multi_lang: str=None,
                         gold_len: bool=False,
                         tokenizer=None,
                         alias_manager: Alias=None,
@@ -307,8 +307,8 @@ class LamaPredictions(object):
             raise NotImplementedError
 
         raw_lang = lang
-        if multi_lang and lang != 'en':  # TODO: use all languages?
-            langs = [lang, 'en']
+        if multi_lang and lang != multi_lang:  # TODO: use all languages?
+            langs = [lang, multi_lang]
         else:
             langs = [lang]
 
