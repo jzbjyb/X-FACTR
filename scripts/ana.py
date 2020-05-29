@@ -196,7 +196,7 @@ if __name__ == '__main__':
                 df = df.iloc[r]
                 merge_df.append(df)
         merge_df = pandas.concat(merge_df, axis=0, ignore_index=True)
-        merge_df.to_df(args.out)
+        merge_df.to_csv(args.out)
 
     elif args.task == 'overlap':
         dirs = args.inp.split(':')
