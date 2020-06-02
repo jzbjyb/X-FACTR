@@ -9,7 +9,9 @@ import csv
 from collections import defaultdict
 import os
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 from matplotlib.ticker import PercentFormatter
 from probe import tokenizer_wrap, LamaPredictions, EvalContext, CsvLogFileContext, load_entity_lang, \
     DATASET, PROMPT_LANG_PATH
@@ -56,7 +58,8 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, on
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
-    parser.add_argument('--task', type=str, choices=['logprob', 'compare', 'multi_eval', 'rank', 'error', 'overlap'],
+    parser.add_argument('--task', type=str,
+                        choices=['logprob', 'compare', 'multi_eval', 'rank', 'error', 'overlap', 'plot'],
                         default='multi_eval')
     parser.add_argument('--lang', type=str, help='language', default='en')
     parser.add_argument('--probe', type=str, help='probe dataset',
@@ -197,6 +200,41 @@ if __name__ == '__main__':
                 merge_df.append(df)
         merge_df = pandas.concat(merge_df, axis=0, ignore_index=True)
         merge_df.to_csv(args.out)
+
+    elif args.task == 'plot':
+        df = pandas.read_csv('report/token.csv')
+        cols = list(df.columns[1:])
+        max_len = 15
+        ymax = 0.4
+
+        plt.rcParams.update({'font.size': 14, 'font.family': 'serif'})
+        fig = plt.figure(figsize=(15, 4))
+        gs = gridspec.GridSpec(int(np.ceil(len(cols) / 9)), 9)
+        gs.update(wspace=0.08, hspace=0.15)  # set the spacing between axes.
+
+        first = True
+        for i, col in enumerate(cols):
+            if i >= 4:
+                i += 3
+            i += 2
+            d = df[col].tolist()
+            axx, axy = i // 9, i % 9
+            ax = fig.add_subplot(gs[axx, axy])
+            ax.plot(range(1, max_len + 1), d[:max_len], label=col)
+            ax.set_ylim(ymin=0, ymax=ymax)
+            ax.set_yticks(np.arange(0, ymax + 0.1, 0.1) if axy == 0 or first else [])
+            first = False
+            ax.set_xlim(xmin=1, xmax=max_len)
+            ax.set_xticks([] if axx == 0 else [1] + list(range(0, max_len + 1, 5))[1:])
+            ax.set_title(col, x=0.5, y=0.7)
+            dx = 0.1
+            dy = 0.0
+            xtls = list(ax.xaxis.get_majorticklabels())
+            if len(xtls) > 0:
+                xtls[-1].set_transform(
+                    xtls[-1].get_transform() + matplotlib.transforms.ScaledTranslation(-dx, dy, fig.dpi_scale_trans))
+
+        plt.savefig('report/token.pdf')
 
     elif args.task == 'overlap':
         dirs = args.inp.split(':')
