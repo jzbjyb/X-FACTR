@@ -11,7 +11,8 @@ Run `conda create -n xfactr -y python=3.7 && conda activate xfactr && ./setup.sh
 - `data/mTRExf_unicode_escape.txt` entities and their translations in a variety of languages.
 - `data/mTRExf_gender.txt` entities and their gender.
 - `data/mTRExf_instanceof.txt` "instance-of" relation of entities.
-
+- `data/alias` aliases of entities.
+- `data/mTRExf` facts of 46 relations.
 
 ## Probe
 
