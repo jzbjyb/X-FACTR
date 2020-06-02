@@ -1,6 +1,5 @@
 from typing import Dict, Iterable, Set, List, Union, Tuple
 import os
-import sys
 import json
 from tqdm import tqdm
 from collections import defaultdict

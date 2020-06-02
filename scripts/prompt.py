@@ -1,6 +1,5 @@
 from typing import Dict, Tuple, Set, List
 import unicodedata as ud
-import functools
 from overrides import overrides
 from joblib import Memory
 import json
@@ -694,7 +693,6 @@ class PromptFR(Prompt):
             i = words.index('[ARTDEF;X]')
             vowel = self.starts_with_vowel(words[i + 1])
             if ent_proper and not ent_country:
-                # Paul: If X is a proper noun (but not a country), then drop the article altogether
                 del words[i]
             elif vowel:
                 has_article = True
@@ -725,7 +723,6 @@ class PromptFR(Prompt):
             has_article: bool = False
             i = words.index('[PREPDEF-à;X]')
             if ent_proper and not ent_country:
-                # Paul: If Y is a proper noun (but not a country), then just à
                 has_article = True
                 art = self.article[f"PREPDEF-à;PROPN"]
             elif ent_number == "SG":
@@ -775,7 +772,6 @@ class PromptFR(Prompt):
             i = words.index('[ARTDEF;Y]')
             vowel = self.starts_with_vowel(words[i + 1])
             if ent_proper and not ent_country:
-                # Paul: If X is a proper noun (but not a country), then drop the article altogether
                 del words[i]
             elif vowel:
                 has_article = True
@@ -817,7 +813,6 @@ class PromptFR(Prompt):
             has_article: bool = False
             i = words.index('[PREPDEF-à;Y]')
             if ent_proper and not ent_country:
-                # Paul: If Y is a proper noun (but not a country), then just à
                 has_article = True
                 art = self.article[f"PREPDEF-à;PROPN"]
             elif ent_number == "SG":

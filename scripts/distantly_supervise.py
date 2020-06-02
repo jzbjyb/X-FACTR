@@ -5,8 +5,6 @@ import os
 import random
 
 import sling
-import sling.flags as flags
-#import sling.task.entity as entity  # TODO: different version of SLING?
 import sling.task.workflow as workflow
 
 random.seed(111)
@@ -310,25 +308,3 @@ class SlingExtractor(object):
     print("Paragraphs -- Total ", sum(self.relation_stats["paragraphs"].values()))
     print(" :: ".join(
         "%s:%d" % (k, v) for k, v in self.relation_stats["paragraphs"].items()))
-
-if __name__ == "__main__":
-  stats_file = "local/data/lsf/wide_context/aligned-facts-para.stats"
-  flags.parse()
-  workflow.startup()
-  s = SlingExtractor()
-  s.load_kb()
-  s.init_stats()
-  for i in range(0, 10):
-    print("Processing shard %d" % i)
-    t_st = time.time()
-    s.annotate_corpus(
-        unannotated_file="local/data/e/wiki/en/documents-0000%d-of-00010.rec" % i,
-        annotated_file="local/data/e/wiki/en/labeled-documents-0000%d-of-00010.rec" % i
-    )
-    s.load_corpus(
-        corpus_file="local/data/e/wiki/en/labeled-documents-0000%d-of-00010.rec" % i)
-    s.link_documents(out_file="local/data/lsf/wide_context/aligned-facts-withneg-0000%d-of-00010.json" % i,
-                     add_negatives=True)
-    print("Processing took %.1f secs" % (time.time() - t_st))
-  json.dump(s.relation_stats, open(stats_file, "w"))
-  workflow.shutdown()

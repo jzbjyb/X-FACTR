@@ -59,11 +59,6 @@ if __name__ == '__main__':
     parser.add_argument('--out', type=str, help='output file')
     args = parser.parse_args()
 
-    '''
-    # usage example, which returns an dict {'Q31': 'none', 'Q76': 'male', 'Q36153': 'female'}
-    print(get_gender(['Q31', 'Q76', 'Q36153']))
-    '''
-
     batch_size = 300
     qids = load_qid_from_lang_file(args.inp)
     genders = {}

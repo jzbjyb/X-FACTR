@@ -18,7 +18,6 @@ import pandas
 import csv
 import time
 import re
-import pickle
 from prompt import Prompt
 from check_gender import load_entity_gender, Gender
 from check_instanceof import load_entity_instance, load_entity_is_cate
@@ -205,20 +204,6 @@ class LamaPredictions(object):
         return cls(json.loads(str), pid)
 
 
-    '''
-    @staticmethod
-    def prettify_tokens(tokens: List[str], pad_label: str='[PAD]'):
-        p_tokens: List[str] = []
-        for t in tokens:
-            if t == pad_label:
-                continue
-            if t.startswith(SUB_LABEL) and len(p_tokens) > 0:  # TODO: not with RoBERTa
-                p_tokens[-1][0] += t[len(SUB_LABEL):]
-                p_tokens[-1][1] += 1
-            else:
-                p_tokens.append([t, 1])
-        return ' '.join(map(lambda t: '{}:{}'.format(*t) if t[1] > 1 else t[0], p_tokens))
-    '''
     @staticmethod
     def prettify_tokens(tokens: List[str], tokenizer):
         return tokenizer.convert_tokens_to_string(tokens)
@@ -762,7 +747,6 @@ class ProbeIterator(object):
                         acc_for_rel, time.time() - start_time))
 
             except Exception as e:
-                # TODO: article for 'ART;INDEF;NEUT;PL;ACC' P31
                 print('bug for pid {}'.format(relation))
                 print(e)
                 traceback.print_exc()
@@ -794,7 +778,7 @@ def load_word_ids(ids: Union[np.ndarray, List[int]], tokenizer, pad_label: str) 
     for t in tokenizer.convert_ids_to_tokens(ids):
         if t == pad_label:
             continue
-        if t.startswith(SUB_LABEL) and len(tokens) > 0:  # TODO: not with RoBERTa
+        if t.startswith(SUB_LABEL) and len(tokens) > 0:
             tokens[-1][0] += t[len(SUB_LABEL):]
             tokens[-1][1] += 1
         else:
@@ -806,81 +790,6 @@ def merge_subwords(ids: Union[np.ndarray, List[int]], tokenizer, merge: bool=Fal
     if not merge:
         return list(tokenizer.convert_ids_to_tokens(ids))
     return NotImplementedError
-
-
-def iter_decode(model,
-                inp_tensor: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
-                raw_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
-                attention_mask: torch.LongTensor,  # SHAPE: (batch_size, seq_len)
-                restrict_vocab: List[int] = None,
-                mask_value: int = 0,  # indicate which value is used for mask
-                max_iter: int = None,  # max number of iteration
-                tokenizer = None,
-                method: str = 'all',
-                reprob: bool = False,  # recompute the prob finally
-                ) -> Tuple[torch.LongTensor, torch.Tensor, int]:  # HAPE: (batch_size, seq_len)
-    '''
-    Masks must be consecutive.
-    '''
-    assert method in {'all', 'left'}
-    bs = inp_tensor.size(0)
-    init_mask = inp_tensor.eq(mask_value).long()  # SHAPE: (batch_size, seq_len)
-    init_has_mask = init_mask.sum().item() > 0
-
-    # SHAPE: (batch_size, seq_len)
-    out_tensor: torch.LongTensor = inp_tensor
-    out_logprob: torch.Tensor = torch.zeros_like(inp_tensor).float()  # tokens not considered have log prob of zero
-    iter = 0
-    while True and init_has_mask:  # skip when there is not mask initially
-        # get input
-        if iter > 0:
-            has_mask = out_tensor.eq(mask_value).any(-1).unsqueeze(-1).long()  # SHAPE: (batch_size, 1)
-            inp_tensor = out_tensor.scatter(1, out_logprob.min(-1)[1].unsqueeze(-1), mask_value)
-            # no need to insert mask when there are masks
-            inp_tensor = out_tensor * has_mask + inp_tensor * (1 - has_mask)
-
-        # predict
-        # SHAPE: (batch_size, seq_len)
-        mask_mask = inp_tensor.eq(mask_value).long()
-        logit = model_prediction_wrap(model, inp_tensor, attention_mask)
-        if restrict_vocab is not None:
-            logit[:, :, restrict_vocab] = float('-inf')
-        # SHAPE: (batch_size, seq_len)
-        new_out_logprob, new_out_tensor = logit.log_softmax(-1).max(-1)
-
-        # merge results
-        # SHAPE: (batch_size, seq_len)
-        changes = (out_tensor * mask_mask).ne(new_out_tensor * mask_mask)
-        if method == 'all':
-            pass
-        elif method == 'left':  # when there are multiple consecutive changes, only use the left-most one.
-            changes = changes & torch.cat([changes.new_ones((bs, 1)), ~changes], 1)[:, :-1]
-
-        # stop when nothing changes
-        if not changes.any().item():  # no changes
-            break
-
-        # only modify tokens that have changes
-        changes = changes.long()
-        out_tensor = out_tensor * (1 - changes) + new_out_tensor * changes
-        out_logprob = out_logprob * (1 - changes.float()) + new_out_logprob.detach() * changes.float()
-
-        '''
-        for i in range(5):
-            print(tokenizer.convert_ids_to_tokens(out_tensor[i].cpu().numpy()))
-        input()
-        '''
-
-        iter += 1
-        if max_iter and iter >= max_iter:  # max_iter can be zero
-            break
-
-    final_out_logprob = out_logprob
-    if reprob:
-        final_out_logprob = compute_likelihood(
-            model, out_tensor, out_logprob, raw_mask, attention_mask, restrict_vocab, mask_value=mask_value)
-
-    return out_tensor, final_out_logprob, iter
 
 
 def iter_decode_beam_search(model,

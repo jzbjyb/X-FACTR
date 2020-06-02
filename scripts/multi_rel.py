@@ -1,8 +1,7 @@
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Set
 from collections import defaultdict
 import json
 import argparse
-from tqdm import tqdm
 from entity_lang import get_result, get_qid_from_uri, handle_redirect, TRExDataset
 
 
