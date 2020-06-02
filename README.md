@@ -1,8 +1,8 @@
-# multiligual LAMA
+# X-FACTR
 
 ## Install
 
-Run `conda create -n mlama37 -y python=3.7 && conda activate mlama37 && ./setup.sh` to prepare the environment.
+Run `conda create -n xfactr -y python=3.7 && conda activate xfactr && ./setup.sh` to prepare the environment.
 
 ## Data
 
