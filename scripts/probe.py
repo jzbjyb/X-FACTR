@@ -222,13 +222,14 @@ class LamaPredictions(object):
         for p in self.result['pred_log_prob']:
             scores.append(np.mean(p) if eval.norm else np.sum(p))
         best = int(np.argmax(scores))
-        correct, pred, golds = self.match_with_gold(
+        correct, pred, pred_log_prob, golds = self.match_with_gold(
             self.result['pred'], best, self.pid, self.result,
             use_alias=eval.use_alias, lang=eval.lang, uncase=eval.uncase,
             use_multi_rel=eval.use_multi_rel, use_period=eval.use_period, multi_lang=eval.multi_lang,
             gold_len=eval.gold_len, tokenizer=eval.tokenizer, alias_manager=eval.alias_manager,
             multi_rel_manager=eval.multi_rel_manager, eval=eval)
         self.pred = pred
+        self.pred_log_prob = pred_log_prob
         self.correct = correct
         self.golds = golds
         return correct
@@ -245,8 +246,18 @@ class LamaPredictions(object):
 
 
     @property
+    def num_tokens(self) -> int:
+        return len(self.pred)
+    
+    
+    @property
+    def confidence(self) -> float:
+        return np.exp(np.mean(self.pred_log_prob))
+
+
+    @property
     def is_use_single_word_pred(self) -> bool:
-        return len(self.pred) == 1
+        return self.num_tokens == 1
 
 
     def is_cate(self, entity2iscate: Dict[str, bool]) -> bool:
@@ -285,7 +296,7 @@ class LamaPredictions(object):
                         alias_manager: Alias=None,
                         multi_rel_manager: MultiRel=None,
                         eval: EvalContext=None
-                        ) -> Tuple[bool, List[str], List[List[str]]]:
+                        ) -> Tuple[bool, List[str], List[float], List[List[str]]]:
         if use_multi_rel and not use_alias:
             raise NotImplementedError
         if multi_lang and not use_alias:
@@ -326,11 +337,11 @@ class LamaPredictions(object):
                 for choice in choices:
                     _pred: str = unstress(casify(tokenizer.convert_tokens_to_string(pred[choice])))
                     if _pred == _gold:
-                        return True, pred[choice], all_golds
+                        return True, pred[choice], result['pred_log_prob'][choice], all_golds
                     if use_period and lang == 'en' and LamaPredictions.is_y_followed_by_at_end(result['prompt'], '.'):
                         if len(_gold) > 0 and _gold[-1] == '.' and _pred.rstrip() == _gold[:-1].rstrip():
-                            return True, pred[choice], all_golds
-        return False, pred[best], all_golds
+                            return True, pred[choice], result['pred_log_prob'][choice], all_golds
+        return False, pred[best], result['pred_log_prob'][best], all_golds
 
 
 class JsonLogFileContext:

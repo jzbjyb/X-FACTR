@@ -4,9 +4,11 @@ sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
 from typing import List, Dict, Tuple, Set
 import argparse
+from operator import itemgetter
 import pandas
 import csv
 from collections import defaultdict
+from tqdm import tqdm
 import os
 import numpy as np
 import matplotlib
@@ -59,7 +61,7 @@ def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, on
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analysis')
     parser.add_argument('--task', type=str,
-                        choices=['logprob', 'compare', 'multi_eval', 'rank', 'error', 'overlap', 'plot'],
+                        choices=['logprob', 'compare', 'multi_eval', 'reliability', 'rank', 'error', 'overlap', 'plot'],
                         default='multi_eval')
     parser.add_argument('--lang', type=str, help='language', default='en')
     parser.add_argument('--probe', type=str, help='probe dataset',
@@ -168,6 +170,39 @@ if __name__ == '__main__':
         print('no alias {}'.format(eval.alias_manager.no_alias_count))
         print('overall acc {}\t{}\t{}'.format(np.mean(acc_li), np.mean(acc_single_li), np.mean(acc_multi_li)))
         print('overall number {}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))
+
+    elif args.task == 'reliability':
+        num_bins = 10
+        margin = 1 / num_bins
+        xind = [margin * (i + 0.5) for i in range(num_bins)]
+        eval = EvalContext(args)
+        acc_li: List[float] = []
+        conf_li: List[float] = []
+        num_token_li: List[int] = []
+
+        for root, dirs, files in os.walk(args.inp):
+            for file in tqdm(files):
+                if not file.endswith('.jsonl'):
+                    continue
+                in_file = os.path.join(root, file)
+                result: List[LamaPredictions] = load_result(in_file)
+                with CsvLogFileContext(None, headers=None) as csv_file:
+                    for r in result:
+                        right = int(r.eval(eval))
+                        acc_li.append(right)
+                        conf_li.append(r.confidence)
+                        num_token_li.append(r.num_tokens)
+
+        bins = [[] for _ in range(num_bins)]
+        for acc, conf, nt in zip(acc_li, conf_li, num_token_li):
+            assert conf >= 0 and conf <= 1, 'confidence out of range'
+            ind = min(int(conf / margin), num_bins - 1)
+            bins[ind].append((conf, acc, nt))
+        plt.bar(xind, [np.mean(list(map(itemgetter(1), bin))) for bin in bins], margin)
+        plt.ylabel('accuracy')
+        plt.xlabel('confidence')
+        plt.ylim(0.0, 1.0)
+        plt.savefig('test.png')
 
     elif args.task == 'rank':
         correct_ranks = []
