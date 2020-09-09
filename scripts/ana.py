@@ -30,7 +30,7 @@ def load_result(filename: str) -> List[LamaPredictions]:
 
 def compute_acc(in_file: str, eval: EvalContext, prettify_out_file: str=None, only_count: bool=False) \
         -> Tuple[float, float, float, int, int, int]:
-    headers = ['sentence', 'prediction', 'gold', 'is_same', 'is_single_word', 'sub_uri', 'obj_uri']
+    headers = ['sentence', 'prediction', 'gold', 'is_same', 'confidence', 'is_single_word', 'sub_uri', 'obj_uri']
     result: List[LamaPredictions] = load_result(in_file)
     correct = total = 0
     correct_single = total_single = 0
@@ -88,7 +88,8 @@ if __name__ == '__main__':
         print('on average {} predictions have higher or equal prob than golds'.format(np.mean(ratios)))
 
     elif args.task == 'compare':
-        headers = ['sentence', 'prediction1', 'prediction2', 'gold', 'is_same1', 'is_same2', 'is_single_word']
+        headers = ['sentence', 'prediction1', 'prediction2', 'gold', 'is_same1', 'is_same2',
+                   'confidence1', 'confidence2', 'is_single_word']
         eval = EvalContext(args)
         sys1_dir, sys2_dir = args.inp.split(':')
         if args.out:
@@ -172,37 +173,60 @@ if __name__ == '__main__':
         print('overall number {}\t{}\t{}'.format(np.sum(total_li), np.sum(total_single_li), np.sum(total_multi_li)))
 
     elif args.task == 'reliability':
+        csv_file_name = None
+        headers = ['sentence', 'prediction', 'gold', 'is_same', 'confidence', 'is_single_word', 'sub_uri', 'obj_uri']
         num_bins = 10
         margin = 1 / num_bins
-        xind = [margin * (i + 0.5) for i in range(num_bins)]
+        xind = np.array([margin * (i + 0.5) for i in range(num_bins)])
         eval = EvalContext(args)
         acc_li: List[float] = []
         conf_li: List[float] = []
         num_token_li: List[int] = []
+        pred_li: List[LamaPredictions] = []
 
-        for root, dirs, files in os.walk(args.inp):
-            for file in tqdm(files):
-                if not file.endswith('.jsonl'):
-                    continue
-                in_file = os.path.join(root, file)
-                result: List[LamaPredictions] = load_result(in_file)
-                with CsvLogFileContext(None, headers=None) as csv_file:
+        with CsvLogFileContext(csv_file_name, headers=headers) as csv_file:
+            for root, dirs, files in os.walk(args.inp):
+                for file in tqdm(files):
+                    if not file.endswith('.jsonl'):
+                        continue
+                    in_file = os.path.join(root, file)
+                    result: List[LamaPredictions] = load_result(in_file)
                     for r in result:
                         right = int(r.eval(eval))
                         acc_li.append(right)
                         conf_li.append(r.confidence)
                         num_token_li.append(r.num_tokens)
+                        pred_li.append(r)
+                        if csv_file:
+                            r.prettify(csv_file, eval)
 
         bins = [[] for _ in range(num_bins)]
-        for acc, conf, nt in zip(acc_li, conf_li, num_token_li):
+        for acc, conf, nt, r in zip(acc_li, conf_li, num_token_li, pred_li):
             assert conf >= 0 and conf <= 1, 'confidence out of range'
             ind = min(int(conf / margin), num_bins - 1)
-            bins[ind].append((conf, acc, nt))
-        plt.bar(xind, [np.mean(list(map(itemgetter(1), bin))) for bin in bins], margin)
-        plt.ylabel('accuracy')
-        plt.xlabel('confidence')
-        plt.ylim(0.0, 1.0)
-        plt.savefig('test.png')
+            bins[ind].append((conf, acc, nt, r))
+
+        all_bins = bins
+        single_bins = [list(filter(lambda x: x[-1].is_single_word, bin)) for bin in bins]
+        multi_bins = [list(filter(lambda x: not x[-1].is_single_word, bin)) for bin in bins]
+        for bins, name in [(all_bins, 'all.png'), (single_bins, 'single.png'), (multi_bins, 'multi.png')]:
+            eces = [(len(bin), np.mean(list(map(itemgetter(0), bin))), np.mean(list(map(itemgetter(1), bin)))) for bin in bins]
+            print(eces)
+            ece, total = 0, 0
+            for c, conf, acc in eces:
+                ece += c * np.abs(conf - acc)
+                total += c
+            ece /= total
+            plt.bar(xind, [np.mean(list(map(itemgetter(1), bin))) for bin in bins], margin)
+            plt.plot([0, 1], color='red')
+            #plt.bar(xind + margin / 4, [np.mean(list(map(itemgetter(0), bin))) for bin in bins], margin / 2)
+            plt.title(ece)
+            plt.ylabel('accuracy')
+            plt.xlabel('confidence')
+            plt.ylim(0.0, 1.0)
+            plt.xlim(0.0, 1.0)
+            plt.savefig(name)
+            plt.close()
 
     elif args.task == 'rank':
         correct_ranks = []

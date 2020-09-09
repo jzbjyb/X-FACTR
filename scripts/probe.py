@@ -277,6 +277,7 @@ class LamaPredictions(object):
             ([self.prettify_tokens(self.pred2, eval.tokenizer)] if hasattr(self, 'pred2') else []) +
             [' | '.join([self.prettify_tokens(g, eval.tokenizer) for g in self.golds])] +
             [self.correct] + ([self.correct2] if hasattr(self, 'correct2') else []) +
+            [self.confidence] + ([self.confidence2] if hasattr(self, 'confidence2') else []) +  # TODO: confidence2
             [self.is_single_word, self.result['sub_uri'], self.result['obj_uri']])
 
 
