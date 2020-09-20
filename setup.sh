@@ -20,6 +20,6 @@ popd
 
 pip install -r requirements.txt
 
-echo "transformer 2.4.1 has bug with XLM-RoBERTa!" \
-    "Modify the line 114 of tokenization_xlm_roberta.py into" \
+echo "transformer 2.4.1 has a bug with XLM-RoBERTa." \
+    "Please replace line 114 in tokenization_xlm_roberta.py with" \
     "self.fairseq_tokens_to_ids[\"<mask>\"] = len(self.sp_model) + self.fairseq_offset"
