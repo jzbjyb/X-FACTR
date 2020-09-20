@@ -1067,7 +1067,9 @@ if __name__ == '__main__':
     parser.add_argument('--lang', type=str, help='language to probe',
                         choices=['en', 'fr', 'nl', 'es', 'zh',
                                  'mr', 'vi', 'ko', 'he', 'yo',
-                                 'el', 'tr', 'ru'], default='en')
+                                 'el', 'tr', 'ru',
+                                 'ja', 'hu', 'war', 'tl', 'sw',
+                                 'mg', 'pa', 'ilo', 'ceb'], default='en')
     parser.add_argument('--sent', type=str, help='actual sentence with [Y]', default=None)
 
     # dataset-related flags
