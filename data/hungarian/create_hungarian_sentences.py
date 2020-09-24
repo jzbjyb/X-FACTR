@@ -64,8 +64,8 @@ def read_necessary_data():
 		instanceof[ent_id] = ','.join(l[1:])
 
 
-	# Read list of greek entities
-	with open("TREx_bengali.txt") as inp:
+	# Read list of hungarian entities
+	with open("TREx_hungarian.txt") as inp:
 		lines = inp.readlines()
 
 	entities = {}
@@ -87,38 +87,6 @@ def read_necessary_data():
 						is_human = False
 					elif 'human' in instanceof[ent_id]:
 						is_human = True
-					'''
-					elif 'business' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					elif 'enterprise' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					elif 'city' in instanceof[ent_id]:
-						if 'ι' != ent_form[-1] and 'ο' != ent_form[-1]:
-							ent_gender = "FEM"
-					elif 'island' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					elif 'literary work' in instanceof[ent_id]:
-						ent_gender = "NEUT"
-					elif 'musical group' in instanceof[ent_id]:
-						ent_gender = "MASC"
-						ent_number = "PL"
-					elif 'record label' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					elif 'language' in instanceof[ent_id]:
-						ent_gender = "NEUT"
-						ent_number = "PL"
-					elif 'sports team' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					elif 'automobile manufacturer' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					elif 'football club' in instanceof[ent_id]:
-						ent_gender = "FEM"
-					#elif '' in instanceof[ent_id]:
-					#	ent_gender = "FEM"
-					#elif '' in instanceof[ent_id]:
-					#	ent_gender = "FEM"
-					'''
-
 
 		entities[ent_id] = (ent_form, ent_number, is_human)	
 		entities[ent_id] = (ent_form, ent_number, is_human)	
@@ -138,22 +106,48 @@ def fil_y(words, ent_form, ent_number, is_human):
 		i = words.index('[Y]')
 		words[i] = ent_form
 		ent_case = "NOM"
-	elif "[Y.LOC]" in words:
-		i = words.index('[Y.LOC]')
+	elif "[Y.IN+ESS]" in words:
+		i = words.index('[Y.IN+ESS]')
 		if do_not_inflect:
 			words[i] = ent_form
 		else:
-			words[i] = inflect(ent_form, f"N;LOC;{ent_number}", language='ben')[0]
-			#words[i] = ent_form+'त'
-		ent_case = "LOC"
-	elif "[Y.GEN]" in words:
-		i = words.index('[Y.GEN]')
+			words[i] = inflect(ent_form, f"N;IN+ESS;{ent_number}", language='hun')[0]
+		ent_case = "IN+ESS"
+	elif "[Y.IN+ABL]" in words:
+		i = words.index('[Y.IN+ABL]')
 		if do_not_inflect:
 			words[i] = ent_form
 		else:
-			words[i] = inflect(ent_form, f"N;GEN;{ent_number}", language='ben')[0]
-			#words[i] = ent_form+'त'
-		ent_case = "GEN"
+			words[i] = inflect(ent_form, f"N;IN+ABL;{ent_number}", language='hun')[0]
+		ent_case = "IN+ABL"
+	elif "[Y.ON+ESS]" in words:
+		i = words.index('[Y.ON+ESS]')
+		if do_not_inflect:
+			words[i] = ent_form
+		else:
+			words[i] = inflect(ent_form, f"N;ON+ESS;{ent_number}", language='hun')[0]
+		ent_case = "ON+ESS"
+	elif "[Y.DAT]" in words:
+		i = words.index('[Y.DAT]')
+		if do_not_inflect:
+			words[i] = ent_form
+		else:
+			words[i] = inflect(ent_form, f"N;DAT;{ent_number}", language='hun')[0]
+		ent_case = "DAT"
+	elif "[Y.ACC]" in words:
+		i = words.index('[Y.ACC]')
+		if do_not_inflect:
+			words[i] = ent_form
+		else:
+			words[i] = inflect(ent_form, f"N;ACC;{ent_number}", language='hun')[0]
+		ent_case = "ACC"
+	elif "[Y.INST]" in words:
+		i = words.index('[Y.INST]')
+		if do_not_inflect:
+			words[i] = ent_form
+		else:
+			words[i] = inflect(ent_form, f"N;INST;{ent_number}", language='hun')[0]
+		ent_case = "INST"
 
 	# Now check for the ones that we have a fixed suffix:
 	for i,w in enumerate(words):
@@ -169,46 +163,33 @@ def fil_x(words, ent_form, ent_number, is_human):
 	else:
 		do_not_inflect = False
 
-
 	if '[X]' in words:
 		i = words.index('[X]')
 		words[i] = ent_form
 		ent_case = "NOM"
-	elif "[X.LOC]" in words:
-		i = words.index('[X.LOC]')
+	elif "[X.ACC]" in words:
+		i = words.index('[X.ACC]')
 		if do_not_inflect:
 			words[i] = ent_form
 		else:
-			words[i] = inflect(ent_form, f"N;LOC;{ent_number}", language='ben')[0]
+			words[i] = inflect(ent_form, f"N;ACC;{ent_number}", language='hun')[0]
 			#words[i] = ent_form+'त'
-		ent_case = "LOC"
-	elif "[X.GEN]" in words:
-		i = words.index('[X.GEN]')
+		ent_case = "ACC"
+	elif "[X.DAT]" in words:
+		i = words.index('[X.DAT]')
 		if do_not_inflect:
 			words[i] = ent_form
 		else:
-			words[i] = inflect(ent_form, f"N;GEN;{ent_number}", language='ben')[0]
+			words[i] = inflect(ent_form, f"N;DAT;{ent_number}", language='hun')[0]
 			#words[i] = ent_form+'त'
-		ent_case = "GEN"
-
-	# Now check for the ones that we have a fixed suffix:
-	for i,w in enumerate(words):
-		if w[:3] == '[X]' and len(w) > 3:
-			words[i] = ent_form+w[3:]
-
-
-	# Now also check the corresponfing verbs, if they exist.
-	# Needed for subject-verb agreement
-	for i,w in enumerate(words):
-		if w[0] == '[' and 'human' in w:
-			if '|' in w:
-				options = w.strip()[1:-1].split('|')
-				if is_human:
-					form = options[0].strip().split(':')[1]
-					words[i] = form
-				else:
-					form = options[1].strip().split(':')[1]
-					words[i] = form
+		ent_case = "DAT"
+	elif "[X.ON+ESS]" in words:
+		i = words.index('[X.ON+ESS]')
+		if do_not_inflect:
+			words[i] = ent_form
+		else:
+			words[i] = inflect(ent_form, f"N;ON+ESS;{ent_number}", language='hun')[0]
+		ent_case = "ON+ESS"
 
 	return words
 
@@ -224,33 +205,33 @@ def print_examples_for_relation(relation, entities):
 	words = [w.strip() for w in words if w.strip()]
 	
 	exfiles = f"/Users/antonis/research/lama/data/TREx/{rel_id}.jsonl"
-	#try:
-	with jsonlines.open(exfiles) as reader:
-		count = 0
-		count_double = 0
-		for obj in reader:
-			X_ent_id = obj["sub_uri"]
-			Y_ent_id = obj["obj_uri"]
-			if X_ent_id in entities and Y_ent_id in entities:
-				#if ' ' not in entities[X_ent_id][0] and ' ' not in entities[Y_ent_id][0]:
-				if ' ' not in entities[Y_ent_id][0]:
-					sentence = fil_x(list(words), entities[X_ent_id][0], entities[X_ent_id][1].upper(), entities[X_ent_id][2])
-					sentence = fil_y(sentence, entities[Y_ent_id][0], entities[Y_ent_id][1].upper(), entities[Y_ent_id][2])
-					print("\t", ' '.join(sentence))
-					count += 1
-				else:
-					count_double += 1
-			if count == 10:
-				break
-		print(f"Found {count_double} entries with more than one word.")
-	#except:
-	#	pass
+	try:
+		with jsonlines.open(exfiles) as reader:
+			count = 0
+			count_double = 0
+			for obj in reader:
+				X_ent_id = obj["sub_uri"]
+				Y_ent_id = obj["obj_uri"]
+				if X_ent_id in entities and Y_ent_id in entities:
+					#if ' ' not in entities[X_ent_id][0] and ' ' not in entities[Y_ent_id][0]:
+					if ' ' not in entities[Y_ent_id][0]:
+						sentence = fil_x(list(words), entities[X_ent_id][0], entities[X_ent_id][1].upper(), entities[X_ent_id][2])
+						sentence = fil_y(sentence, entities[Y_ent_id][0], entities[Y_ent_id][1].upper(), entities[Y_ent_id][2])
+						print("\t", ' '.join(sentence))
+						count += 1
+					else:
+						count_double += 1
+				if count == 10:
+					break
+			print(f"Found {count_double} entries with more than one word.")
+	except:
+		pass
 
 
 
 entities = read_necessary_data()
 # Read all relation templates
-with jsonlines.open('relations.bn.jsonl') as reader:
+with jsonlines.open('relations.hun.jsonl') as reader:
 	count = 0
 	for obj in reader:
 		print_examples_for_relation(obj, entities)
