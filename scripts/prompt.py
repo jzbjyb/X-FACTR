@@ -106,6 +106,10 @@ class Prompt(object):
             return PromptHE(*args, **kwargs)
         elif lang == 'tr':
             return PromptTR(*args, **kwargs)
+        elif lang == 'hu':
+            return PromptHU(*args, **kwargs)
+        elif lang == 'be':
+            return PromptBE(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
@@ -469,7 +473,7 @@ class PromptRU(Prompt):
         else:
             do_not_inflect = False
 
-        if 'x' in self.disable_inflection:
+        if 'y' in self.disable_inflection:
             do_not_inflect = True
 
         words = prompt.split(' ')
@@ -1442,5 +1446,138 @@ class PromptHE(Prompt):
                     else:
                         form = options[0].strip().split(';')[0]
                         words[i] = form
+
+        return ' '.join(words), label
+
+
+class PromptHU(Prompt):
+    SUFS = {"й", "б", "в", "г", "д", "ж", "з", "к", "л", "м", "н", "п", "р", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"}
+
+
+    def __init__(self,
+                 entity2gender: Dict[str, Gender],
+                 entity2instance: Dict[str, str],
+                 disable_inflection: str=None,
+                 disable_article: bool=False):
+        super().__init__(entity2gender=entity2gender,
+                         entity2instance=entity2instance,
+                         disable_inflection=disable_inflection,
+                         disable_article=disable_article)
+
+
+    def get_ender_number(self, uri: str, label: str) -> Tuple[str, str]:
+        number = 'SG'
+        gender = self.GENDER_MAP[self.entity2gender[uri]]
+        is_human = False
+        if gender == 'NEUT' and uri in self.entity2instance:
+            if 'state' in self.entity2instance[uri] or 'country' in self.entity2instance[uri]:
+                is_human = False
+            elif 'human' in self.entity2instance[uri]:
+                is_human = True
+        return gender, number
+
+
+    @overrides
+    def fill_x(self, prompt: str, uri: str, label: str) -> Tuple[str, str]:
+        gender, ent_number = self.get_ender_number(uri, label)
+
+        if some_roman_chars(label) or label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        if 'x' in self.disable_inflection:
+            do_not_inflect = True
+
+        words = prompt.split(' ')
+        words = [w.strip() for w in words if w.strip()]
+
+        if '[X]' in words:
+            i = words.index('[X]')
+            words[i] = label
+            ent_case = "NOM"
+        elif "[X.ACC]" in words:
+            i = words.index('[X.ACC]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;ACC;{ent_number}", language='hun')[0]
+            words[i] = label
+            ent_case = "ACC"
+        elif "[X.DAT]" in words:
+            i = words.index('[X.DAT]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;DAT;{ent_number}", language='hun')[0]
+            words[i] = label
+            ent_case = "DAT"
+        elif "[X.ON+ESS]" in words:
+            i = words.index('[X.ON+ESS]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;ON+ESS;{ent_number}", language='hun')[0]
+            words[i] = label
+            ent_case = "ON+ESS"
+        else:
+            raise Exception('no X')
+
+        return ' '.join(words), label
+
+
+    @overrides
+    def fill_y(self, prompt: str, uri: str, label: str,
+               num_mask: int=0, mask_sym: str='[MASK]') -> Tuple[str, str]:
+        gender, ent_number = self.get_ender_number(uri, label)
+
+        if some_roman_chars(label) or label.isupper():
+            do_not_inflect = True
+        else:
+            do_not_inflect = False
+
+        if 'y' in self.disable_inflection:
+            do_not_inflect = True
+
+        words = prompt.split(' ')
+        words = [w.strip() for w in words if w.strip()]
+
+        i = -1
+        if '[Y]' in words:
+            i = words.index('[Y]')
+            words[i] = label
+            ent_case = "NOM"
+        elif "[Y.IN+ESS]" in words:
+            i = words.index('[Y.IN+ESS]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;IN+ESS;{ent_number}", language='hun')[0]
+            ent_case = "IN+ESS"
+        elif "[Y.IN+ABL]" in words:
+            i = words.index('[Y.IN+ABL]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;IN+ABL;{ent_number}", language='hun')[0]
+            ent_case = "IN+ABL"
+        elif "[Y.ON+ESS]" in words:
+            i = words.index('[Y.ON+ESS]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;ON+ESS;{ent_number}", language='hun')[0]
+            ent_case = "ON+ESS"
+        elif "[Y.DAT]" in words:
+            i = words.index('[Y.DAT]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;DAT;{ent_number}", language='hun')[0]
+            ent_case = "DAT"
+        elif "[Y.ACC]" in words:
+            i = words.index('[Y.ACC]')
+            if do_not_inflect:
+                label = cache_inflect(label, f"N;ACC;{ent_number}", language='hun')[0]
+            ent_case = "ACC"
+        elif "[Y.INST]" in words:
+            i = words.index('[Y.INST]')
+            if not do_not_inflect:
+                label = cache_inflect(label, f"N;INST;{ent_number}", language='hun')[0]
+            ent_case = "INST"
+
+        if i != -1:
+            words[i] = self.get_target(label, num_mask, mask_sym)
+
+        # Now check for the ones that we have a fixed suffix:
+        for i, w in enumerate(words):
+            if w[:3] == '[Y]' and len(w) > 3:
+                words[i] = label + w[3:]
 
         return ' '.join(words), label
