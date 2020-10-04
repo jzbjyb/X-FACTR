@@ -224,27 +224,27 @@ def print_examples_for_relation(relation, entities):
 	words = [w.strip() for w in words if w.strip()]
 	
 	exfiles = f"/Users/antonis/research/lama/data/TREx/{rel_id}.jsonl"
-	#try:
-	with jsonlines.open(exfiles) as reader:
-		count = 0
-		count_double = 0
-		for obj in reader:
-			X_ent_id = obj["sub_uri"]
-			Y_ent_id = obj["obj_uri"]
-			if X_ent_id in entities and Y_ent_id in entities:
-				#if ' ' not in entities[X_ent_id][0] and ' ' not in entities[Y_ent_id][0]:
-				if ' ' not in entities[Y_ent_id][0]:
-					sentence = fil_x(list(words), entities[X_ent_id][0], entities[X_ent_id][1].upper(), entities[X_ent_id][2])
-					sentence = fil_y(sentence, entities[Y_ent_id][0], entities[Y_ent_id][1].upper(), entities[Y_ent_id][2])
-					print("\t", ' '.join(sentence))
-					count += 1
-				else:
-					count_double += 1
-			if count == 10:
-				break
-		print(f"Found {count_double} entries with more than one word.")
-	#except:
-	#	pass
+	try:
+		with jsonlines.open(exfiles) as reader:
+			count = 0
+			count_double = 0
+			for obj in reader:
+				X_ent_id = obj["sub_uri"]
+				Y_ent_id = obj["obj_uri"]
+				if X_ent_id in entities and Y_ent_id in entities:
+					#if ' ' not in entities[X_ent_id][0] and ' ' not in entities[Y_ent_id][0]:
+					if ' ' not in entities[Y_ent_id][0]:
+						sentence = fil_x(list(words), entities[X_ent_id][0], entities[X_ent_id][1].upper(), entities[X_ent_id][2])
+						sentence = fil_y(sentence, entities[Y_ent_id][0], entities[Y_ent_id][1].upper(), entities[Y_ent_id][2])
+						print("\t", ' '.join(sentence))
+						count += 1
+					else:
+						count_double += 1
+				if count == 10:
+					break
+			print(f"Found {count_double} entries with more than one word.")
+	except:
+		pass
 
 
 
