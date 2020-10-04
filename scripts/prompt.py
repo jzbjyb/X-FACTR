@@ -108,8 +108,8 @@ class Prompt(object):
             return PromptTR(*args, **kwargs)
         elif lang == 'hu':
             return PromptHU(*args, **kwargs)
-        elif lang == 'be':
-            return PromptBE(*args, **kwargs)
+        elif lang == 'bn':
+            return PromptBN(*args, **kwargs)
         return Prompt(*args, **kwargs)
 
 
@@ -1580,7 +1580,7 @@ class PromptHU(Prompt):
         return ' '.join(words), label
 
 
-class PromptBE(Prompt):
+class PromptBN(Prompt):
     def __init__(self,
                  entity2gender: Dict[str, Gender],
                  entity2instance: Dict[str, str],
