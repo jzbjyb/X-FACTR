@@ -770,7 +770,9 @@ class ProbeIterator(object):
         if args.dry_run:
             for nt in range(1, np.max(list(self.summary['numtoken2count'].keys())) + 1):
                 _ = self.summary['numtoken2count'][nt]
-            print('numtoken2count', sorted(self.summary['numtoken2count'].items(), key=lambda x: x[0]))
+            print('numtoken2count')
+            for k, c in sorted(self.summary['numtoken2count'].items(), key=lambda x: x[0]):
+                print('{}\t{}'.format(k, c))
 
 
 def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:

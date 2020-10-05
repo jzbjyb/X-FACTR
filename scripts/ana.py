@@ -264,20 +264,18 @@ if __name__ == '__main__':
         df = pandas.read_csv('report/token.csv')
         cols = list(df.columns[1:])
         max_len = 15
-        ymax = 0.4
+        ymax = 0.52
+        row_count = 12
 
         plt.rcParams.update({'font.size': 14, 'font.family': 'serif'})
         fig = plt.figure(figsize=(15, 4))
-        gs = gridspec.GridSpec(int(np.ceil(len(cols) / 9)), 9)
+        gs = gridspec.GridSpec(int(np.ceil(len(cols) / row_count)), row_count)
         gs.update(wspace=0.08, hspace=0.15)  # set the spacing between axes.
 
         first = True
         for i, col in enumerate(cols):
-            if i >= 4:
-                i += 3
-            i += 2
             d = df[col].tolist()
-            axx, axy = i // 9, i % 9
+            axx, axy = i // row_count, i % row_count
             ax = fig.add_subplot(gs[axx, axy])
             ax.plot(range(1, max_len + 1), d[:max_len], label=col)
             ax.set_ylim(ymin=0, ymax=ymax)
